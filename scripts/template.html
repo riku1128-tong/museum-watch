@@ -86,7 +86,6 @@ select, input[type="search"], input[type="text"] { font: inherit; color: var(--i
   border: 1px solid var(--line); border-radius: 2px; padding: 7px 10px; }
 select:focus, input:focus, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 1px; }
 input[type="search"] { flex: 1 1 200px; min-width: 0; }
-.hint { color: var(--muted); font-size: 12px; margin: -8px 0 14px; letter-spacing: .03em; }
 
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 18px; }
 @media (max-width: 420px) { .grid { grid-template-columns: 1fr; } }
@@ -193,7 +192,6 @@ dialog::backdrop { background: rgba(20, 18, 15, .5); }
     </select>
     <input type="search" id="q" placeholder="館名・展覧会名で検索" aria-label="検索">
   </div>
-  <p class="hint">カードをダブルクリック（スマホは「行き方」）で行き方を表示します。</p>
   <div class="grid" id="grid"></div>
   <div class="gone" id="gone"></div>
 </main>

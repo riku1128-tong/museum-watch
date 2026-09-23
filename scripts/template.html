@@ -178,14 +178,14 @@ dialog::backdrop { background: rgba(20, 18, 15, .5); }
   <div class="days" id="days" role="toolbar" aria-label="日付"></div>
   <div class="controls">
     <div class="tabs" role="tablist" id="tabs"></div>
-    <select id="pref" aria-label="都道府県"><option value="">全国</option></select>
-    <select id="cat" aria-label="区分"><option value="">国立・公立・私立</option><option>国立</option><option>公立</option><option>私立</option></select>
+    <select id="pref" aria-label="都道府県"><option value="">都道府県：全国</option></select>
+    <select id="cat" aria-label="区分"><option value="">区分：すべて</option><option>国立</option><option>公立</option><option>私立</option></select>
     <select id="late" aria-label="閉館時刻">
-      <option value="">閉館時刻</option><option value="17:30">17:30以降</option><option value="18:00">18:00以降</option>
+      <option value="">閉館時刻：指定なし</option><option value="17:30">17:30以降</option><option value="18:00">18:00以降</option>
       <option value="19:00">19:00以降</option><option value="20:00">20:00以降</option>
     </select>
     <select id="visit" aria-label="訪問">
-      <option value="">訪問・未訪問</option><option value="no">今の会期でまだ行っていない館</option><option value="yes">今の会期で行った館</option><option value="want">行きたい館</option>
+      <option value="">訪問状況：すべて</option><option value="want">行きたい館</option><option value="no">まだ行っていない館（今の会期）</option><option value="yes">行った館（今の会期）</option>
     </select>
     <select id="sort" aria-label="並び順">
       <option value="close">閉館が遅い順</option><option value="ending">会期末が近い順</option>

@@ -4,6 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>美術館ウォッチ</title>
+<script>
+  // 表示テーマ（auto / light / dark）。auto は本体の設定に合わせる
+  try { const t = localStorage.getItem("mw:theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}
+</script>
 <meta name="description" content="全国の美術館の開館状況・開館時間・料金・開催中の展覧会を一覧で。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,6 +34,16 @@
     color-scheme: dark;
   }
 }
+:root[data-theme="dark"] {
+  --bg: #141312; --surface: rgba(28, 27, 25, .86); --surface-solid: #1c1b19; --ink: #ece7dd; --muted: #a59f93;
+  --line: #3a3630; --gold: #c9a86a; --gold-soft: #6f5a36;
+  --open: #8cc5aa; --closed: #e39a90; --unknown: #e3c97a;
+  --free-bg: rgba(125, 98, 45, .38); --free-ink: #efd79f; --pink: #e89ab0; --pink-soft: rgba(232, 154, 176, .08);
+  --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 30px rgba(0, 0, 0, .35);
+  --marble: url("marble-dark.jpg");
+  color-scheme: dark;
+}
+:root[data-theme="dark"] .alert.w { color: var(--warn); }
 * { box-sizing: border-box; }
 html { background: var(--bg); }
 body {
@@ -66,7 +80,8 @@ main { max-width: 1160px; margin: 0 auto; padding: 0 16px 56px; }
 .tabs { display: flex; border: 1px solid var(--line); background: var(--surface); border-radius: 2px; }
 .tab { border: 0; background: transparent; padding: 7px 16px; cursor: pointer; letter-spacing: .06em; }
 .tab + .tab { border-left: 1px solid var(--line); }
-.tab[aria-selected="true"] { background: var(--ink); color: var(--bg); }
+.tab[aria-selected="true"], .tab[aria-checked="true"] { background: var(--ink); color: var(--bg); }
+#theme { align-self: flex-start; flex-wrap: wrap; }
 select, input[type="search"], input[type="text"] { font: inherit; color: var(--ink); background: var(--surface);
   border: 1px solid var(--line); border-radius: 2px; padding: 7px 10px; }
 select:focus, input:focus, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 1px; }
@@ -202,6 +217,12 @@ dialog::backdrop { background: rgba(20, 18, 15, .5); }
       ログイン中はアカウントに保存されるので、個人の住所より最寄駅の登録がおすすめです。</p>
     <h3>同期</h3>
     <div id="syncBox" class="note">読み込み中…</div>
+    <h3>表示</h3>
+    <div class="tabs" role="radiogroup" id="theme" aria-label="表示テーマ">
+      <button class="tab" role="radio" data-theme-opt="auto">自動（本体に合わせる）</button>
+      <button class="tab" role="radio" data-theme-opt="light">ライト</button>
+      <button class="tab" role="radio" data-theme-opt="dark">ダーク</button>
+    </div>
     <h3>記録</h3>
     <div class="note" id="visitStats"></div>
     <button class="btn ghost close" id="closeSettings">閉じる</button>
@@ -423,7 +444,17 @@ function renderSettings() {
   if (!window.mwSync) $("syncBox").innerHTML = window.SYNC_CONFIG?.url
     ? "同期を読み込み中…" : "同期は準備中です。今はこの端末のブラウザにだけ保存されます。";
 }
-function openSettings() { renderSettings(); $("settings").showModal(); }
+function currentTheme() { try { return localStorage.getItem("mw:theme") || "auto"; } catch { return "auto"; } }
+function renderTheme() {
+  for (const b of document.querySelectorAll("[data-theme-opt]")) b.setAttribute("aria-checked", b.dataset.themeOpt === currentTheme());
+}
+$("theme").addEventListener("click", (e) => {
+  const t = e.target.closest("[data-theme-opt]")?.dataset.themeOpt; if (!t) return;
+  try { if (t === "auto") localStorage.removeItem("mw:theme"); else localStorage.setItem("mw:theme", t); } catch {}
+  if (t === "auto") delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = t;
+  renderTheme();
+});
+function openSettings() { renderSettings(); renderTheme(); $("settings").showModal(); }
 $("openSettings").addEventListener("click", openSettings);
 $("closeSettings").addEventListener("click", () => $("settings").close());
 $("settings").addEventListener("click", (e) => { if (e.target === $("settings")) $("settings").close(); });

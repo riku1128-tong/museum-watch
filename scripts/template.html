@@ -117,9 +117,11 @@ details.up summary { cursor: pointer; font-size: 12px; color: var(--muted); }
 .chip[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: #fff; }
 .want { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; color: var(--gold); letter-spacing: .08em; }
 .chip.want-chip[aria-pressed="true"] { background: transparent; color: var(--gold); border-color: var(--gold); font-weight: 500; }
-.stamp { position: absolute; right: 14px; bottom: 44px; width: 58px; height: 58px; border: 1.5px solid var(--gold); border-radius: 50%;
-  display: grid; place-items: center; color: var(--gold); font: 700 12px/1.1 "Shippori Mincho", serif; letter-spacing: .1em;
-  transform: rotate(-12deg); opacity: .55; pointer-events: none; text-align: center; }
+.side { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; flex: 0 0 auto; }
+/* 「行った」の印。カードの流れの中に置き、他の要素と重ならないようにする */
+.stamp { width: 50px; height: 50px; border: 1.5px solid var(--gold); border-radius: 50%; display: grid; place-items: center;
+  color: var(--gold); font: 700 11px/1.15 "Shippori Mincho", serif; letter-spacing: .1em; text-align: center;
+  transform: rotate(-12deg); opacity: .75; margin-right: 4px; }
 .empty { color: var(--muted); padding: 40px 0; text-align: center; font-family: "Shippori Mincho", serif; }
 .gone { margin-top: 32px; font-size: 12.5px; color: var(--muted); }
 footer { max-width: 1160px; margin: 0 auto; padding: 0 16px 40px; font-size: 12px; color: var(--muted); }
@@ -335,10 +337,10 @@ function card(r, date) {
   return `<article class="card${r.free && r.status === "open" ? " free" : ""}" data-id="${r.id}">
     <div class="top"><div><div class="name">${m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)}</a>` : esc(m.name)}</div>
     <div class="meta">${esc(m.prefecture)}${m.municipality && m.municipality !== m.prefecture ? " " + esc(m.municipality) : ""} ・ ${esc(m.category)}</div></div>
-    <span class="status ${status[0]}">${status[1]}</span></div>
+    <div class="side"><span class="status ${status[0]}">${status[1]}</span>${
+      visited ? `<div class="stamp" title="${cv.until ? `訪問時の展覧会は ${mdy(cv.until, date)} まで` : ""}">訪問<br>済</div>` : ""}</div></div>
     ${wanted ? `<div class="want">${ICON_STAR}行きたい</div>` : ""}
     ${free}${facts}${reason}${ex}${up}${old}
-    ${visited ? `<div class="stamp" title="${cv.until ? `訪問時の展覧会は ${mdy(cv.until, date)} まで` : ""}">訪問<br>済</div>` : ""}
     <div class="foot"><span>${m.checked_at ? `確認 <span class="num">${md(m.checked_at.slice(0, 10))} ${m.checked_at.slice(11, 16)}</span>` : "未取得"}${
       count ? ` ・ 訪問 <span class="num">${count}</span> 回` : ""}</span>
       <span class="foot-actions">

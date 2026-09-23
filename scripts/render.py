@@ -215,6 +215,8 @@ def museum_meta(m: dict, det: dict | None) -> dict:
         "lat": m.get("lat"), "lng": m.get("lng"),
         "price": museum_price(det),
         "access": (det or {}).get("access", []),
+        # 訪問記録の有効期限（訪問日に開催中だった展覧会の会期末）をページ側で計算するための会期一覧
+        "ex": [[e["start"], e["end"], e.get("kind", "other")] for e in (det or {}).get("exhibitions", [])],
         "checked_at": (det or {}).get("checked_at"),
         "confidence": (det or {}).get("confidence"),
         "notes": (det or {}).get("notes"),

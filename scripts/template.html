@@ -162,7 +162,7 @@ dialog::backdrop { background: rgba(20, 18, 15, .5); }
       <option value="19:00">19:00以降</option><option value="20:00">20:00以降</option>
     </select>
     <select id="visit" aria-label="訪問">
-      <option value="">訪問・未訪問</option><option value="no">まだ行っていない館</option><option value="yes">行った館</option>
+      <option value="">訪問・未訪問</option><option value="no">今の会期でまだ行っていない館</option><option value="yes">今の会期で行った館</option>
     </select>
     <select id="sort" aria-label="並び順">
       <option value="close">閉館が遅い順</option><option value="ending">会期末が近い順</option>
@@ -214,8 +214,26 @@ const store = {
   set(k, v) { try { localStorage.setItem("mw:" + k, JSON.stringify(v)); } catch {} },
 };
 
-// ユーザーデータ（行った館・出発地）。ログイン中は Firebase と同期する（下の module script）
-const user = Object.assign({ visited: {}, origin: "", updatedAt: 0 }, store.get("user") || {});
+// ユーザーデータ（訪問記録・出発地）。ログイン中は Firebase と同期する（下の module script）
+// visits: { 館id: [{ date: 訪問日, until: その日に開催中だった展覧会の会期末 | null }] }
+const user = Object.assign({ visits: {}, origin: "", updatedAt: 0 }, store.get("user") || {});
+
+// 訪問した日に開催中だった展覧会が終わる日。企画展があれば企画展のうち最も早く終わる日、なければ常設展など
+function untilFor(id, date) {
+  const running = (DATA.museums[id]?.ex || []).filter(([s, e]) => s <= date && date <= e);
+  const pick = running.some(([, , k]) => k === "special") ? running.filter(([, , k]) => k === "special") : running;
+  return pick.length ? pick.map(([, e]) => e).sort()[0] : null;
+}
+const visitsOf = (id) => user.visits[id] || [];
+// その日の時点で有効な訪問（会期がまだ終わっていない訪問）。無ければ未訪問扱い
+const currentVisit = (id, date) =>
+  visitsOf(id).filter((v) => v.date <= date && (v.until == null || v.until >= date)).sort((a, b) => b.date.localeCompare(a.date))[0];
+// 旧形式（visited: {id: 日付}）からの移行
+if (user.visited) {
+  for (const [id, date] of Object.entries(user.visited)) user.visits[id] = [{ date, until: untilFor(id, date) }];
+  delete user.visited;
+  store.set("user", user);
+}
 function saveUser(changed = true) {
   if (changed) user.updatedAt = Date.now();
   store.set("user", user);
@@ -268,7 +286,8 @@ function exHtml(e, date) {
 }
 function card(r, date) {
   const m = DATA.museums[r.id];
-  const visited = !!user.visited[r.id];
+  const cv = currentVisit(r.id, date);
+  const visited = !!cv, count = visitsOf(r.id).length;
   const status = { open: ["s-open", "開館"], closed: ["s-closed", "休館"], unknown: ["s-unknown", "不明"] }[r.status];
   const free = r.free ? `<div class="freebadge">${r.free.scope === "all" ? "無料開放日" : "常設展 無料開放日"}${r.free.reason ? "・" + esc(r.free.reason) : ""}</div>` : "";
   const hours = r.status === "open" ? `<span class="hours num">${r.open ? `${r.open} – ${r.close}` : "時間不明"}</span>
@@ -285,8 +304,9 @@ function card(r, date) {
     <div class="meta">${esc(m.prefecture)}${m.municipality && m.municipality !== m.prefecture ? " " + esc(m.municipality) : ""} ・ ${esc(m.category)}</div></div>
     <span class="status ${status[0]}">${status[1]}</span></div>
     ${free}${facts}${reason}${ex}${up}${old}
-    ${visited ? `<div class="stamp">訪問<br>済</div>` : ""}
-    <div class="foot"><span>${m.checked_at ? `確認 <span class="num">${md(m.checked_at.slice(0, 10))} ${m.checked_at.slice(11, 16)}</span>` : "未取得"}</span>
+    ${visited ? `<div class="stamp" title="${cv.until ? `訪問時の展覧会は ${mdy(cv.until, date)} まで` : ""}">訪問<br>済</div>` : ""}
+    <div class="foot"><span>${m.checked_at ? `確認 <span class="num">${md(m.checked_at.slice(0, 10))} ${m.checked_at.slice(11, 16)}</span>` : "未取得"}${
+      count ? ` ・ 訪問 <span class="num">${count}</span> 回` : ""}</span>
       <span class="foot-actions">
         <button class="chip" data-act="route">行き方</button>
         <button class="chip" data-act="visit" aria-pressed="${visited}">${visited ? "行った ✓" : "行った"}</button>
@@ -301,8 +321,8 @@ function render() {
     const m = DATA.museums[r.id];
     if (state.pref && m.prefecture !== state.pref) return false;
     if (state.cat && m.category !== state.cat) return false;
-    if (state.visit === "yes" && !user.visited[r.id]) return false;
-    if (state.visit === "no" && user.visited[r.id]) return false;
+    if (state.visit === "yes" && !currentVisit(r.id, day.date)) return false;
+    if (state.visit === "no" && currentVisit(r.id, day.date)) return false;
     if (q && !(m.name.toLowerCase().includes(q) || r.exhibitions.some((e) => e.title.toLowerCase().includes(q)))) return false;
     return true;
   });
@@ -352,8 +372,10 @@ $("route").addEventListener("click", (e) => {
 // 設定
 function renderSettings() {
   $("origin").value = user.origin || "";
-  const n = Object.keys(user.visited).filter((id) => DATA.museums[id]).length;
-  $("visitStats").textContent = `行った館 ${n} / ${Object.keys(DATA.museums).length}`;
+  const ids = Object.keys(user.visits).filter((id) => DATA.museums[id] && visitsOf(id).length);
+  const now = ids.filter((id) => currentVisit(id, todayJst)).length;
+  const total = ids.reduce((n, id) => n + visitsOf(id).length, 0);
+  $("visitStats").textContent = `今の会期で行った館 ${now} ・ これまでに行った館 ${ids.length} / ${Object.keys(DATA.museums).length} ・ 訪問 ${total} 回`;
   window.mwSync?.renderBox?.();
   if (!window.mwSync) $("syncBox").innerHTML = window.FIREBASE_CONFIG === null || !window.FIREBASE_CONFIG
     ? "同期は準備中です。今はこの端末のブラウザにだけ保存されます。" : "同期を読み込み中…";
@@ -370,7 +392,11 @@ $("grid").addEventListener("click", (e) => {
   const id = btn.closest(".card").dataset.id;
   if (btn.dataset.act === "route") openRoute(id);
   if (btn.dataset.act === "visit") {
-    if (user.visited[id]) delete user.visited[id]; else user.visited[id] = todayJst;
+    // 今の会期で訪問済みなら、その記録を取り消す。未訪問なら今日の訪問を記録する
+    const cv = currentVisit(id, todayJst);
+    const list = visitsOf(id).filter((v) => v !== cv);
+    if (!cv) list.push({ date: todayJst, until: untilFor(id, todayJst) });
+    if (list.length) user.visits[id] = list; else delete user.visits[id];
     saveUser(); render();
   }
 });
@@ -426,12 +452,14 @@ if (cfg) {
     if (!u) return;
     const local = window.mwUser.get();
     const snap = await fs.getDoc(docRef(u.uid));
-    const remote = snap.exists() ? snap.data() : { visited: {}, origin: "", updatedAt: 0 };
-    // 行った館は和集合（早い日付を残す）、出発地は新しく更新した方を採る
-    const visited = { ...remote.visited };
-    for (const [id, d] of Object.entries(local.visited)) if (!visited[id] || d < visited[id]) visited[id] = d;
+    const remote = snap.exists() ? snap.data() : { visits: {}, origin: "", updatedAt: 0 };
+    // 訪問記録は館ごとに訪問日で和集合をとる。出発地は新しく更新した方を採る
+    const visits = {};
+    for (const src of [remote.visits || {}, local.visits || {}])
+      for (const [id, list] of Object.entries(src))
+        for (const v of list) if (!(visits[id] ||= []).some((x) => x.date === v.date)) visits[id].push(v);
     const newer = (local.updatedAt || 0) > (remote.updatedAt || 0) ? local : remote;
-    const merged = { visited, origin: newer.origin || "", updatedAt: Date.now() };
+    const merged = { visits, origin: newer.origin || "", updatedAt: Date.now() };
     window.mwUser.replace(merged);
     await fs.setDoc(docRef(u.uid), merged);
   });

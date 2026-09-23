@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T01:13+09:00",
+  "generated_at": "2026-09-24T06:38+09:00",
   "date": "2026-09-24",
   "weekday": "木",
   "holiday": null,
@@ -20,6 +20,7 @@
           "kind": "other",
           "summary": "能面の表情と感情を親子で楽しむ展示（本館4室）",
           "admission": "総合文化展 一般 1,000円",
+          "price": 1000,
           "open": null,
           "close": null
         },
@@ -31,6 +32,7 @@
           "kind": "other",
           "summary": "アジアの文化財を「カラフル」をテーマにめぐる館内企画",
           "admission": "総合文化展 一般 1,000円",
+          "price": 1000,
           "open": null,
           "close": null
         },
@@ -42,6 +44,7 @@
           "kind": "collection",
           "summary": "通年。本館・東洋館・平成館・法隆寺宝物館などでの所蔵品展示",
           "admission": "一般 1,000円",
+          "price": 1000,
           "open": null,
           "close": null
         }
@@ -78,6 +81,7 @@
           "kind": "special",
           "summary": "小企画展。所蔵の版画約50点で、ルネサンス〜バロック期イタリア宮廷の神話・寓意・祝祭の図像をたどる",
           "admission": "一般 500円（常設展観覧券で観覧可）",
+          "price": 500,
           "open": null,
           "close": null
         },
@@ -89,6 +93,7 @@
           "kind": "collection",
           "summary": "松方コレクションを中心とする所蔵作品展。コレクション・イン・フォーカス等を併催。2027-01-12から閉室",
           "admission": "一般 500円",
+          "price": 500,
           "open": null,
           "close": null
         }
@@ -136,6 +141,7 @@
           "kind": "special",
           "summary": "ルーヴル美術館の50点余りで15～16世紀ルネサンス美術を紹介。レオナルド《美しきフェロニエール》初来日",
           "admission": "一般 2,400円",
+          "price": 2400,
           "open": null,
           "close": null
         },
@@ -147,6 +153,7 @@
           "kind": "other",
           "summary": "新制作協会による公募展",
           "admission": null,
+          "price": null,
           "open": null,
           "close": null
         },
@@ -158,12 +165,14 @@
           "kind": "other",
           "summary": "行動美術協会による公募展",
           "admission": null,
+          "price": null,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3076188",
@@ -192,6 +201,7 @@
           "kind": "special",
           "summary": "開館100周年記念の企画展。上野・大牟田・ブエノスアイレスをめぐる風景",
           "admission": null,
+          "price": null,
           "open": "09:30",
           "close": "17:30"
         },
@@ -203,6 +213,7 @@
           "kind": "special",
           "summary": "大英博物館所蔵の屏風・掛軸・絵巻と、歌麿・写楽・北斎・広重ら浮世絵師8人の版画を紹介",
           "admission": "一般 2,300円",
+          "price": 2300,
           "open": "09:30",
           "close": "17:30"
         }
@@ -255,6 +266,7 @@
           "kind": "special",
           "summary": "戦後の抽象彫刻家・多田美波の没後初の大規模回顧展。彫刻・照明・建築関連作品など約70点",
           "admission": "一般 1,600円",
+          "price": 1600,
           "open": null,
           "close": null
         },
@@ -266,6 +278,7 @@
           "kind": "special",
           "summary": "台湾の風車詩社を起点に、近代台湾と日本の美術・資料を展観。ゲストキュレーター黄亜歴",
           "admission": "一般 2,000円",
+          "price": 2000,
           "open": null,
           "close": null
         },
@@ -277,6 +290,7 @@
           "kind": "collection",
           "summary": "「光」と「時間」をテーマにした所蔵作品展。小瀬村真美、土屋公雄、戸谷成雄ほか",
           "admission": "一般 500円",
+          "price": 500,
           "open": null,
           "close": null
         }
@@ -300,6 +314,7 @@
           "kind": "special",
           "summary": "学生が森山大道の収蔵作品約140点を実物とデジタルアーカイブで再構成するハイブリッド展（B1F）",
           "admission": "無料",
+          "price": 0,
           "open": null,
           "close": null
         }
@@ -365,6 +380,7 @@
           "kind": "special",
           "summary": "路上観察学会40周年を契機に「路上」をキーワードに現代美術から歴史資料まで紹介",
           "admission": "一般 1,000円",
+          "price": 1000,
           "open": null,
           "close": null
         }
@@ -388,6 +404,7 @@
           "kind": "collection",
           "summary": "狩野探幽の「さっぱり」と南蘋派・洋風画の「こってり」を対比し江戸絵画を紹介",
           "admission": "無料",
+          "price": 0,
           "open": null,
           "close": null
         }
@@ -418,6 +435,7 @@
           "kind": "special",
           "summary": "サラ・アクステイリウス氏所蔵の約200点で、スウェーデンのテキスタイルデザインを紹介",
           "admission": "一般 1,400円",
+          "price": 1400,
           "open": null,
           "close": null
         },
@@ -429,6 +447,7 @@
           "kind": "collection",
           "summary": "2020〜2025年の新収蔵品約120点を、作品にまつわる物語とともに紹介",
           "admission": "一般 220円",
+          "price": 220,
           "open": null,
           "close": null
         }
@@ -452,6 +471,7 @@
           "kind": "special",
           "summary": "「わたしとまちの記憶」をテーマに9組の作家が美術館と中村橋の商店街などで約30点を展示",
           "admission": "無料",
+          "price": 0,
           "open": null,
           "close": null
         },
@@ -463,6 +483,7 @@
           "kind": "collection",
           "summary": "若林奮の鉄の彫刻・版画・ドローイング約70点と、寺田真由美の写真・立体作品約35点を個展形式で紹介",
           "admission": "一般 500円",
+          "price": 500,
           "open": null,
           "close": null
         }
@@ -486,6 +507,7 @@
           "kind": "special",
           "summary": "開館10周年。「隅田川両岸景色図巻」など北斎の肉筆画・錦絵・摺物・版本と門人作品の名品展",
           "admission": "一般 1,500円",
+          "price": 1500,
           "open": null,
           "close": null
         },
@@ -497,6 +519,7 @@
           "kind": "collection",
           "summary": "通年。常設展示室",
           "admission": "一般 400円",
+          "price": 400,
           "open": null,
           "close": null
         }
@@ -520,12 +543,14 @@
           "kind": "collection",
           "summary": "開館20周年。これまでの歩みのパネル紹介と所蔵作品展示でふり返る",
           "admission": "一般 200円",
+          "price": 200,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11486046",
@@ -543,6 +568,7 @@
           "kind": "special",
           "summary": "植物画から、カーティス・ボタニカル・マガジン、ウェッジウッド、モリスの壁紙まで暮らしを彩った花",
           "admission": "一般 1,000円",
+          "price": 1000,
           "open": null,
           "close": null
         },
@@ -554,6 +580,7 @@
           "kind": "collection",
           "summary": "児島善三郎、牛島憲之らの作品で自然のかたちの表現をたどるコレクション展",
           "admission": "一般 200円",
+          "price": 200,
           "open": null,
           "close": null
         },
@@ -565,6 +592,7 @@
           "kind": "collection",
           "summary": "近年の新収蔵作品を紹介するコレクション展",
           "admission": "一般 200円",
+          "price": 200,
           "open": null,
           "close": null
         }
@@ -588,6 +616,7 @@
           "kind": "special",
           "summary": "絵本作家・谷口智則の新作絵本の原画全25点や「100にんのサンタクロース」原画などを紹介",
           "admission": "一般 300円",
+          "price": 300,
           "open": null,
           "close": null
         },
@@ -599,6 +628,7 @@
           "kind": "collection",
           "summary": "浜口陽三記念室のコレクション展示。テーマは「食」",
           "admission": "常設展 100円",
+          "price": 100,
           "open": null,
           "close": null
         },
@@ -610,12 +640,14 @@
           "kind": "collection",
           "summary": "萩原英雄記念室のコレクション展示。テーマは「道化師」",
           "admission": "常設展 100円",
+          "price": 100,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11460717",
@@ -633,6 +665,7 @@
           "kind": "collection",
           "summary": "平櫛田中が70歳過ぎから日課とした書の作品と愛用の硯・水滴を展示。前期・後期で展示替え",
           "admission": "一般 300円",
+          "price": 300,
           "open": null,
           "close": null
         }
@@ -667,6 +700,7 @@
           "kind": "special",
           "summary": "八王子ゆかりの洋画家・大野五郎と20歳で夭折した小野幸吉。1930年協会の二人の作品で昭和洋画史を辿る",
           "admission": "一般 600円",
+          "price": 600,
           "open": null,
           "close": null
         }
@@ -690,6 +724,7 @@
           "kind": "special",
           "summary": "広重・国芳の戯画、鯰絵、麻疹絵、風刺画など幕末明治の浮世絵約250点。前期・後期で展示替え",
           "admission": "一般 1,000円",
+          "price": 1000,
           "open": null,
           "close": null
         },
@@ -701,6 +736,7 @@
           "kind": "other",
           "summary": "ミニ企画展。ミロとタピエスの版画で戦後スペイン美術（1945-1980）を紹介",
           "admission": "無料",
+          "price": 0,
           "open": null,
           "close": null
         }
@@ -724,6 +760,7 @@
           "kind": "other",
           "summary": "国画会版画部の展覧会（第100回記念）",
           "admission": "無料",
+          "price": 0,
           "open": "10:00",
           "close": "14:00"
         }
@@ -742,7 +779,8 @@
           "url": "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.10.html"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "wp-195f15bb",
@@ -760,6 +798,7 @@
           "kind": "special",
           "summary": "酒井貴史の個展",
           "admission": null,
+          "price": null,
           "open": null,
           "close": null
         }
@@ -783,6 +822,7 @@
           "kind": "special",
           "summary": "鎌倉別館。山室眞二による薯版画〈かまくら博物誌〉を紹介",
           "admission": null,
+          "price": null,
           "open": null,
           "close": null
         },
@@ -794,6 +834,7 @@
           "kind": "special",
           "summary": "葉山館。銅版画家・駒井哲郎の作品を紹介",
           "admission": "一般 1,200円",
+          "price": 1200,
           "open": null,
           "close": null
         },
@@ -805,12 +846,14 @@
           "kind": "collection",
           "summary": "葉山館のコレクション展",
           "admission": "一般 250円",
+          "price": 250,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q861588",
@@ -828,6 +871,7 @@
           "kind": "special",
           "summary": "マリー・アントワネットの装いやインテリアと、時代を超えて影響を与え続けるそのスタイルを紹介",
           "admission": "一般 2,500円",
+          "price": 2500,
           "open": "10:00",
           "close": "18:00"
         },
@@ -839,6 +883,7 @@
           "kind": "special",
           "summary": "毛利悠子による第60回ヴェネチア・ビエンナーレ日本館展示の帰国展",
           "admission": "無料",
+          "price": 0,
           "open": null,
           "close": null
         },
@@ -850,6 +895,7 @@
           "kind": "collection",
           "summary": "横浜美術館の所蔵作品によるコレクション展",
           "admission": null,
+          "price": null,
           "open": null,
           "close": null
         },
@@ -861,12 +907,14 @@
           "kind": "collection",
           "summary": "横浜美術館の所蔵作品によるコレクション展（じゆうエリア）",
           "admission": null,
+          "price": null,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11478412",
@@ -884,6 +932,7 @@
           "kind": "other",
           "summary": "オンライン開催",
           "admission": null,
+          "price": null,
           "open": null,
           "close": null
         }
@@ -907,6 +956,7 @@
           "kind": "special",
           "summary": "改修工事中の館内無料スペースで、岡本太郎作品の「かわいい」に注目するミニ企画",
           "admission": "無料",
+          "price": 0,
           "open": null,
           "close": null
         }
@@ -930,6 +980,7 @@
           "kind": "special",
           "summary": "横須賀出身の洋画家・島田章三の没後10年。当館所蔵の島田作品約130点を初めて全点展示",
           "admission": "一般 1,200円",
+          "price": 1200,
           "open": null,
           "close": null
         },
@@ -941,6 +992,7 @@
           "kind": "collection",
           "summary": "所蔵品展の特集展示。丸山純子の作品を紹介",
           "admission": "一般 450円",
+          "price": 450,
           "open": null,
           "close": null
         },
@@ -952,6 +1004,7 @@
           "kind": "collection",
           "summary": "横須賀美術館の所蔵品展（再オープン記念）",
           "admission": "一般 450円",
+          "price": 450,
           "open": null,
           "close": null
         },
@@ -963,12 +1016,14 @@
           "kind": "collection",
           "summary": "谷内六郎館。『週刊新潮』表紙絵と絵本『びんのそら』から月や星を描いた作品を紹介",
           "admission": "一般 450円",
+          "price": 450,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q22119727",
@@ -1026,6 +1081,7 @@
           "kind": "special",
           "summary": "館蔵陶磁器から名品を厳選し、中国・日本・朝鮮半島のやきものを展示室ごとに紹介",
           "admission": "一般 1,600円（オンライン日時指定予約 1,400円）",
+          "price": 1600,
           "open": null,
           "close": null
         }
@@ -1049,6 +1105,7 @@
           "kind": "special",
           "summary": "唐草文をテーマに中国の古鏡・陶磁・染織、古筆装飾など館蔵品を展示。10/3〜12は国宝紫式部日記絵巻も",
           "admission": "一般 1,100円",
+          "price": 1100,
           "open": null,
           "close": null
         }
@@ -1072,6 +1129,7 @@
           "kind": "special",
           "summary": "日本屈指の土牛コレクションから《鳴門》《醍醐》など約60点で画業を回顧",
           "admission": "一般 1,500円",
+          "price": 1500,
           "open": null,
           "close": null
         }
@@ -1095,6 +1153,7 @@
           "kind": "special",
           "summary": "大倉喜八郎収集の仏教美術を6章で紹介。国宝「普賢菩薩騎象像」を展示",
           "admission": "一般 1,000円",
+          "price": 1000,
           "open": null,
           "close": null
         }
@@ -1125,12 +1184,14 @@
           "kind": "special",
           "summary": "国宝・重要文化財を含む館蔵の茶碗から、三井家ゆかりの名品など100件を選んで展示",
           "admission": "一般 1,200円",
+          "price": 1200,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11360245",
@@ -1148,6 +1209,7 @@
           "kind": "other",
           "summary": "身近な風景や風物を描いたF10号までの小品による公募展。作家名ごとに4期に分けて展示",
           "admission": "一般 800円",
+          "price": 800,
           "open": "10:00",
           "close": "15:00"
         },
@@ -1159,12 +1221,14 @@
           "kind": "collection",
           "summary": "上野の森美術館所蔵作品の「謎」に迫り、絵の読み解きを促す企画展。過去の大賞展受賞作も展示",
           "admission": "無料",
+          "price": 0,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3789149",
@@ -1182,6 +1246,7 @@
           "kind": "special",
           "summary": "尚家ゆかりの琉球紅型・織物約50点を中心に、沖縄染織に対する柳宗悦の眼を検証",
           "admission": "一般 1,500円",
+          "price": 1500,
           "open": null,
           "close": null
         }
@@ -1205,6 +1270,7 @@
           "kind": "special",
           "summary": "館蔵の河井寬次郎作品51点で創作の源泉をさぐる。国宝《曜変天目（稲葉天目）》も出品",
           "admission": "一般 1,500円",
+          "price": 1500,
           "open": null,
           "close": null
         }
@@ -1228,6 +1294,7 @@
           "kind": "collection",
           "summary": "通年。所蔵絵画と名作チェア、名車の常設展示。9月は「今月の椅子」を紹介",
           "admission": null,
+          "price": null,
           "open": null,
           "close": null
         }
@@ -1251,12 +1318,14 @@
           "kind": "special",
           "summary": "小林一三が集めた逸翁美術館コレクションから古筆切・茶道具・与謝蕪村と呉春の絵画などの名品を紹介",
           "admission": "一般 1,700円",
+          "price": 1700,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q913808",
@@ -1274,6 +1343,7 @@
           "kind": "special",
           "summary": "メンフィスを結成したイタリアのデザイナー、エットレ・ソットサスの日本初の大回顧展",
           "admission": "一般 1,200円（ウェブ予約）／1,500円（窓口）",
+          "price": 1200,
           "open": null,
           "close": null
         },
@@ -1285,6 +1355,7 @@
           "kind": "special",
           "summary": "瀧口修造の執筆と造形の仕事を紹介（5・4階）",
           "admission": null,
+          "price": null,
           "open": null,
           "close": null
         }
@@ -1319,6 +1390,7 @@
           "kind": "special",
           "summary": "フォーヴィスムに関わり水辺の風景を描いたマルケの35年ぶりの回顧展。約90点",
           "admission": "一般 2,000円",
+          "price": 2000,
           "open": "10:00",
           "close": "18:00"
         }
@@ -1353,6 +1425,7 @@
           "kind": "collection",
           "summary": "館蔵品からリーダー、ペルジーニらヴィクトリア朝絵画とモネ、ピサロら印象派など30点余り",
           "admission": "一般 1,400円",
+          "price": 1400,
           "open": null,
           "close": null
         },
@@ -1364,6 +1437,7 @@
           "kind": "collection",
           "summary": "宋から元までの中国陶磁を館蔵品で紹介（展示室4）",
           "admission": "一般 1,400円",
+          "price": 1400,
           "open": null,
           "close": null
         },
@@ -1375,6 +1449,7 @@
           "kind": "collection",
           "summary": "エトルリアのブロンズ像・テラコッタの所蔵作品全8点を展示（展示室1）",
           "admission": "一般 1,400円",
+          "price": 1400,
           "open": null,
           "close": null
         }
@@ -1409,12 +1484,14 @@
           "kind": "special",
           "summary": "『いやいやえん』『ぐりとぐら』の絵を描いた山脇百合子の仕事部屋を再現。会期末は「2027年5月（予定）」",
           "admission": "大人・大学生 1,000円（日時指定予約制）",
+          "price": 1000,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q1233913",
@@ -1479,6 +1556,7 @@
           "kind": "special",
           "summary": "北宋の名品、明代の刊本、国芳の錦絵から漫画・衣裳まで、水滸伝の成立と日本での受容をたどる",
           "admission": "一般 1,600円",
+          "price": 1600,
           "open": null,
           "close": null
         }
@@ -1513,12 +1591,14 @@
           "kind": "special",
           "summary": "後藤吉久ら10名の作品展。特別出展に上村松園、織田廣喜、横尾忠則",
           "admission": "一般 1,200円",
+          "price": 1200,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3815442",
@@ -1536,6 +1616,7 @@
           "kind": "special",
           "summary": "鳥居派八代目・鳥居言人の回顧展。歌舞伎の肉筆画、絵看板、新版画など約70点",
           "admission": "一般 1,200円",
+          "price": 1200,
           "open": null,
           "close": null
         }
@@ -1566,6 +1647,7 @@
           "kind": "collection",
           "summary": "歴史家・久米邦武と洋画家・久米桂一郎父子の史料と絵画を展示（旧「館蔵品展」）",
           "admission": "一般 500円",
+          "price": 500,
           "open": null,
           "close": null
         }
@@ -1611,6 +1693,7 @@
           "kind": "special",
           "summary": "全国9大学推薦の奨学生10名と過去の奨学生2名、計12名の作品展",
           "admission": "無料",
+          "price": 0,
           "open": null,
           "close": null
         }
@@ -1634,6 +1717,7 @@
           "kind": "special",
           "summary": "日本画家・堀文子の作品を紹介する展覧会",
           "admission": "一般 1,000円",
+          "price": 1000,
           "open": null,
           "close": null
         }
@@ -1657,6 +1741,7 @@
           "kind": "special",
           "summary": "占い少女雑誌『My Birthday』を、まつざきあけみ・野崎ふみこらの表紙原画などで紹介",
           "admission": "一般 1,200円",
+          "price": 1200,
           "open": null,
           "close": null
         },
@@ -1668,6 +1753,7 @@
           "kind": "special",
           "summary": "弥生美術館3階。高畠華宵の作品で大正・昭和の乙女の暮らしを紹介",
           "admission": "一般 1,200円",
+          "price": 1200,
           "open": null,
           "close": null
         },
@@ -1679,6 +1765,7 @@
           "kind": "special",
           "summary": "竹久夢二美術館。10のキーワードと10の表現から夢二絵の鑑賞のコツを紹介",
           "admission": "一般 1,200円",
+          "price": 1200,
           "open": null,
           "close": null
         }
@@ -1715,6 +1802,7 @@
           "kind": "special",
           "summary": "10のキーワードと10の表現で夢二作品の鑑賞のコツを紹介する入門展",
           "admission": "一般 1,200円",
+          "price": 1200,
           "open": null,
           "close": null
         }
@@ -1727,7 +1815,8 @@
           "url": "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/next.html"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3915469",
@@ -1745,12 +1834,14 @@
           "kind": "special",
           "summary": "メディアアートの創始者ナムジュン・パイク没後20年の個展",
           "admission": "大人 1,500円",
+          "price": 1500,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11271822",
@@ -1768,6 +1859,7 @@
           "kind": "special",
           "summary": "絵本作家・武田美穂の絵本づくりを紹介する展覧会",
           "admission": "一般 1,200円",
+          "price": 1200,
           "open": null,
           "close": null
         },
@@ -1779,12 +1871,14 @@
           "kind": "collection",
           "summary": "いわさきちひろが子どもを描き続けた理由を、平和への願いとともに作品でたどる",
           "admission": "一般 1,200円",
+          "price": 1200,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q97613610",
@@ -1802,12 +1896,14 @@
           "kind": "other",
           "summary": "通年。水に入る作品などで構成されるチームラボの没入型ミュージアム（会期は2027年末まで）",
           "admission": "大人 4,200円（変動価格制）",
+          "price": 4200,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q30923413",
@@ -1854,6 +1950,7 @@
           "kind": "special",
           "summary": "モネ没後100年・開館25周年記念。所蔵のモネ油彩19点と国内外18組の現代作家の作品を紹介",
           "admission": "一般 2,200円",
+          "price": 2200,
           "open": null,
           "close": null
         },
@@ -1865,6 +1962,7 @@
           "kind": "collection",
           "summary": "開館25周年記念プログラムのコレクション展",
           "admission": "一般 2,200円",
+          "price": 2200,
           "open": null,
           "close": null
         },
@@ -1876,12 +1974,14 @@
           "kind": "collection",
           "summary": "セザンヌを主題とするコレクション展",
           "admission": "一般 2,200円",
+          "price": 2200,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q1134422",
@@ -1899,6 +1999,7 @@
           "kind": "special",
           "summary": "《われは南瓜》関連企画。丸太広場キトキで草間作品のインスタレーションとインタビュー動画を公開",
           "admission": "一般 2,000円",
+          "price": 2000,
           "open": null,
           "close": null
         },
@@ -1910,6 +2011,7 @@
           "kind": "collection",
           "summary": "通年。新収蔵の草間彌生の花崗岩彫刻《われは南瓜》を屋外展示場で公開",
           "admission": "一般 2,000円",
+          "price": 2000,
           "open": null,
           "close": null
         },
@@ -1921,6 +2023,7 @@
           "kind": "collection",
           "summary": "通年（終了日未定）。本館ギャラリーで新しい切り口から彫刻の森コレクションの個性を紹介",
           "admission": "一般 2,000円",
+          "price": 2000,
           "open": null,
           "close": null
         },
@@ -1932,12 +2035,14 @@
           "kind": "collection",
           "summary": "通年（終了日未定）。アートホールで館の名作コレクションを展示",
           "admission": "一般 2,000円",
+          "price": 2000,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11284659",
@@ -1966,12 +2071,14 @@
           "kind": "special",
           "summary": "金・銀・雲母のきらめきを用いた日本美術を紹介",
           "admission": "一般 2,800円",
+          "price": 2800,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11603353",
@@ -1989,12 +2096,14 @@
           "kind": "special",
           "summary": "ルネ・ラリック作品から日仏の「かわいい」文化交流をたどる企画展",
           "admission": "大人 1,500円",
+          "price": 1500,
           "open": null,
           "close": null
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     }
   ]
 }

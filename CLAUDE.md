@@ -11,6 +11,8 @@
 - `scripts/render.py`: 詳細 JSON と日付から開館・休館を決定的に計算する（祝日は jpholiday）。
   `docs/index.html`（14 日分。ページを開いた日を今日として表示）と `data/daily/YYYY-MM-DD.json` を出す。HTML の元は `scripts/template.html`。
 - `scripts/plan_run.py`: 各館を full / light / skip のどれで確認するか決め、バッチに分ける。
+- `scripts/template.html`: 公開ページ。大理石の背景画像（`docs/marble-*.jpg`）は `scripts/marble_bake.html` を ブラウザで開いて焼き付ける（受け取り役は `scripts/marble_upload.py`）。
+- 行った館と出発地はブラウザの localStorage に保存し、`docs/firebase-config.js` が設定されていれば Firebase（Google ログイン + Firestore）で同期する。準備手順は `SETUP_FIREBASE.md`、Firestore のルールは `firestore.rules`。
 - `prompts/daily_update.md`: 毎週金曜 6:00 の定期タスク（Claude デスクトップアプリ）が従う手順書。
 
 ## コマンド

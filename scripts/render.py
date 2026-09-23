@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from datetime import date, datetime, timedelta
 
 import jpholiday
@@ -87,6 +88,33 @@ def matching_hours(hours: list[dict], d: date) -> dict | None:
     return next((h for h in cands if wd(d) in h["days"]), None)
 
 
+def parse_price(text: str | None) -> int | None:
+    """「一般 2,300円」「大人 1,500円（日時指定）」「無料」から大人一般の料金を取り出す。"""
+    if not text:
+        return None
+    m = re.search(r"(?:一般|大人)[^0-9無]{0,12}([0-9,]+)\s*円", text) or re.search(r"([0-9,]+)\s*円", text)
+    if m:
+        return int(m.group(1).replace(",", ""))
+    return 0 if "無料" in text else None
+
+
+def exhibition_price(e: dict) -> int | None:
+    return e["adult_price"] if e.get("adult_price") is not None else parse_price(e.get("admission"))
+
+
+def free_on(det: dict, d: date) -> dict | None:
+    """大人一般が無料になる日なら {scope, reason} を返す。館全体の無料を常設のみより優先する。"""
+    hits = [f for f in det.get("free_days", []) if in_range(d, f["from"], f["to"])]
+    for r in det.get("free_rules", []):
+        if r.get("day_of_month") == d.day or (
+                r.get("weekday") == wd(d) and (not r.get("nth") or nth_of_month(d) in r["nth"])):
+            hits.append(r)
+    if not hits:
+        return None
+    best = min(hits, key=lambda f: f["scope"] != "all")
+    return {"scope": best["scope"], "reason": best.get("reason")}
+
+
 def active_exhibitions(det: dict, d: date) -> list[dict]:
     out = []
     for e in det["exhibitions"]:
@@ -97,7 +125,7 @@ def active_exhibitions(det: dict, d: date) -> list[dict]:
         h = matching_hours(e.get("hours", []), d)
         out.append({"title": e["title"], "start": e["start"], "end": e["end"], "url": e.get("url"),
                     "kind": e.get("kind", "other"), "summary": e.get("summary"),
-                    "admission": e.get("admission"),
+                    "admission": e.get("admission"), "price": exhibition_price(e),
                     "open": h["open"] if h else None, "close": h["close"] if h else None})
     # 企画展を先に、会期末が近い順
     return sorted(out, key=lambda x: (x["kind"] != "special", x["end"]))
@@ -155,6 +183,7 @@ def judge(m: dict, det: dict | None, d: date, today: date) -> dict:
     return base | {
         "status": "open",
         "reason": special.get("note") if special else None,
+        "free": free_on(det, d),
         "open": min(opens) if opens else None,
         "close": max(closes) if closes else None,
         "last_entry": h.get("last_entry") if h else None,
@@ -166,6 +195,16 @@ def load_details() -> dict[str, dict]:
     return {f.stem: read_json(f) for f in DETAILS.glob("*.json")}
 
 
+def museum_price(det: dict | None) -> int | None:
+    """館の大人一般料金。未取得なら常設・コレクション展の料金で代用する。"""
+    if not det:
+        return None
+    if det.get("adult_price") is not None:
+        return det["adult_price"]
+    prices = [p for e in det["exhibitions"] if e.get("kind") == "collection" and (p := exhibition_price(e)) is not None]
+    return min(prices) if prices else None
+
+
 def museum_meta(m: dict, det: dict | None) -> dict:
     return {
         "id": m["id"], "name": m["name"], "category": m["category"], "prefecture": m["prefecture"],
@@ -173,6 +212,9 @@ def museum_meta(m: dict, det: dict | None) -> dict:
         "url": (det or {}).get("official_url") or m.get("official_url"),
         "address": (det or {}).get("address"),
         "wiki": f"https://ja.wikipedia.org/wiki/{m['wiki_title']}",
+        "lat": m.get("lat"), "lng": m.get("lng"),
+        "price": museum_price(det),
+        "access": (det or {}).get("access", []),
         "checked_at": (det or {}).get("checked_at"),
         "confidence": (det or {}).get("confidence"),
         "notes": (det or {}).get("notes"),

@@ -26,6 +26,8 @@ def decide(m: dict, det: dict | None, today) -> tuple[str, str]:
         return ("light", "閉館の再確認") if age >= CLOSED_RECHECK_DAYS else ("skip", "閉館済み")
     if age == 0:
         return "skip", "今日確認済み"
+    if "access" not in det or "adult_price" not in det:
+        return "full", "料金・最寄駅が未取得"
     if age >= FULL_EVERY_DAYS:
         return "full", f"{age} 日前に確認"
     if det["confidence"] == "low" or det["operating_status"] == "unknown":

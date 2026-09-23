@@ -10,6 +10,7 @@
     "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
     "time": {"type": "string", "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$"},
     "weekday": {"enum": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"]},
+    "free_scope": {"enum": ["all", "collection"], "description": "all = 館全体（企画展も）無料、collection = 常設展・コレクション展のみ無料"},
     "hours": {
       "type": "object",
       "additionalProperties": false,
@@ -79,12 +80,47 @@
           "kind": {"enum": ["special", "collection", "other"]},
           "summary": {"type": ["string", "null"], "maxLength": 200},
           "admission": {"type": ["string", "null"]},
+          "adult_price": {"type": ["integer", "null"], "minimum": 0, "description": "この展覧会の大人一般（円）。無料は 0"},
           "hours": {"type": "array", "items": {"$ref": "#/$defs/hours"},
                     "description": "展覧会独自の開館時間（館の通常時間と違う場合のみ）"},
           "closed_weekdays": {"type": "array", "items": {"$ref": "#/$defs/weekday"},
                               "description": "展覧会独自の休館曜日（館と違う場合のみ）"},
           "closed_dates": {"type": "array", "items": {"$ref": "#/$defs/date"}}
         }
+      }
+    },
+    "adult_price": {"type": ["integer", "null"], "minimum": 0,
+                    "description": "館の入館料（常設展・コレクション展）の大人一般の料金（円）。無料は 0、常設展が無い館は null"},
+    "free_days": {
+      "type": "array",
+      "description": "大人一般が無料になる日（日付が決まっているもの）。例: 都民の日 10/1、国際博物館の日 5/18",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["from", "to", "scope"],
+        "properties": {"from": {"$ref": "#/$defs/date"}, "to": {"$ref": "#/$defs/date"},
+                       "scope": {"$ref": "#/$defs/free_scope"}, "reason": {"type": ["string", "null"]}}
+      }
+    },
+    "free_rules": {
+      "type": "array",
+      "description": "毎月・毎週の無料日の規則。例: 毎月第1日曜は常設展無料 → {weekday: sun, nth: [1], scope: collection}",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["scope"],
+        "properties": {"weekday": {"enum": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]},
+                       "nth": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 5}},
+                       "day_of_month": {"type": "integer", "minimum": 1, "maximum": 31},
+                       "scope": {"$ref": "#/$defs/free_scope"}, "reason": {"type": ["string", "null"]}}
+      }
+    },
+    "access": {
+      "type": "array",
+      "description": "最寄駅（近い順に最大 3 つ）",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["station"],
+        "properties": {"station": {"type": "string", "description": "駅名（「駅」は付けない）"},
+                       "lines": {"type": ["string", "null"], "description": "例: JR山手線・京浜東北線"},
+                       "exit": {"type": ["string", "null"]},
+                       "walk_min": {"type": ["integer", "null"], "minimum": 0},
+                       "note": {"type": ["string", "null"], "description": "バス利用など徒歩以外の行き方"}}
       }
     },
     "closed_between_exhibitions": {"type": "boolean", "description": "展示替え期間（開催中の展示が無い日）は休館する館か"},

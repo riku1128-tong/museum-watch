@@ -4,7 +4,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
-from render import closed_by_rule, judge  # noqa: E402
+from render import closed_by_rule, judge, parse_price  # noqa: E402
 
 MON = {"mon"}
 M = {"id": "X", "status": "active"}
@@ -115,3 +115,19 @@ def test_weekday_override_beats_all_days_entry():
     d = detail(regular_hours=hours, closed_weekdays=[])
     assert judge(M, d, date(2026, 10, 9), date(2026, 10, 8))["close"] == "20:00"   # 金
     assert judge(M, d, date(2026, 10, 8), date(2026, 10, 8))["close"] == "17:00"   # 木
+
+
+def test_parse_price():
+    assert parse_price("一般 2,300円") == 2300
+    assert parse_price("大人 4,200円（変動価格制）") == 4200
+    assert parse_price("大人・大学生 1,000円（日時指定予約制）") == 1000
+    assert parse_price("無料") == 0
+    assert parse_price("未定") is None
+
+
+def test_free_days_and_rules():
+    d = detail(free_days=[{"from": "2026-10-01", "to": "2026-10-01", "scope": "all", "reason": "都民の日"}],
+               free_rules=[{"weekday": "sun", "nth": [1], "scope": "collection", "reason": "ファミリーデー"}])
+    assert judge(M, d, date(2026, 10, 1), date(2026, 9, 30))["free"] == {"scope": "all", "reason": "都民の日"}
+    assert judge(M, d, date(2026, 10, 4), date(2026, 9, 30))["free"]["scope"] == "collection"  # 第1日曜
+    assert judge(M, d, date(2026, 10, 11), date(2026, 9, 30))["free"] is None

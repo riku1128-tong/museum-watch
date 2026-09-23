@@ -1,0 +1,23 @@
+{
+  "id": "wp-9beb8b9d",
+  "checked_at": "2026-09-24T00:49:52+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "公式サイトに「現在は休館しております」。再開時期の記載なし",
+  "official_url": "http://www.ogawa-museum.jp/",
+  "address": null,
+  "source_urls": [
+    "http://www.ogawa-museum.jp/",
+    "http://www.ogawa-museum.jp/index2.html",
+    "http://www.ogawa-museum.jp/aboutus.html"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": true,
+  "notes": "1987年に麹町三番町に開館。有元利夫コレクションを所蔵し、企画展開催時のみ開館（常設展なし）。公式トップは「現在は休館しております」のみ（著作権表記 2006-2019）。開館時間・住所の番地は公式で確認できず。",
+  "confidence": "high"
+}

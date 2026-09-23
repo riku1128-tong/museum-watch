@@ -1,0 +1,66 @@
+{
+  "id": "Q913808",
+  "checked_at": "2026-09-24T00:42:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.artizon.museum/",
+  "address": "〒104-0031 東京都中央区京橋1-7-2",
+  "source_urls": [
+    "https://www.artizon.museum/",
+    "https://www.artizon.museum/user-guide/",
+    "https://www.artizon.museum/exhibition/detail/602",
+    "https://www.artizon.museum/exhibition/detail/608"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
+    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "エットレ・ソットサス —魔法がはじまるとき、デザインは生まれる",
+      "start": "2026-06-23",
+      "end": "2026-10-04",
+      "url": "https://www.artizon.museum/exhibition/detail/602",
+      "kind": "special",
+      "summary": "メンフィスを結成したイタリアのデザイナー、エットレ・ソットサスの日本初の大回顧展",
+      "admission": "一般 1,200円（ウェブ予約）／1,500円（窓口）"
+    },
+    {
+      "title": "瀧口修造　書くことと描くこと",
+      "start": "2026-06-23",
+      "end": "2026-10-04",
+      "url": "https://www.artizon.museum/exhibition/detail/604",
+      "kind": "special",
+      "summary": "瀧口修造の執筆と造形の仕事を紹介（5・4階）",
+      "admission": null
+    },
+    {
+      "title": "ジャム・セッション　石橋財団コレクション×藤井光　WHOSE LIGHT? —だれのひかりか",
+      "start": "2026-10-24",
+      "end": "2027-01-31",
+      "url": "https://www.artizon.museum/exhibition/detail/608",
+      "kind": "special",
+      "summary": "藤井光が「洞窟の比喩」を手がかりに、石橋財団コレクション22点と新作で真理の構造を問う",
+      "admission": "一般 1,200円（ウェブ予約）／1,500円（窓口）"
+    },
+    {
+      "title": "エトランゼたち —洋画家たちのヨーロッパ体験",
+      "start": "2026-10-24",
+      "end": "2027-01-31",
+      "url": "https://www.artizon.museum/exhibition/detail/610",
+      "kind": "special",
+      "summary": "洋画家たちのヨーロッパ体験をたどる",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「月曜日（祝日の場合は開館し翌平日は振替休日）、展示替え期間、年末年始」。金曜20時までは「祝日を除く」。ソットサス展ページの休館日「月曜日（7月20日、9月21日は開館）、7月21日、9月24日」、ジャム・セッション展ページの休館日「月曜日（11月23日、1月11日は開館）、11月24日、12月28日–1月4日、1月12日」。日時指定予約制。瀧口修造展・エトランゼたち展の会期はトップページの記載で、個別ページは未読。",
+  "confidence": "high"
+}

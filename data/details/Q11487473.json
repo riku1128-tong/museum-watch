@@ -1,0 +1,76 @@
+{
+  "id": "Q11487473",
+  "checked_at": "2026-09-24T00:42:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.yayoi-yumeji-museum.jp/",
+  "address": "〒113-0032 東京都文京区弥生2-4-3",
+  "source_urls": [
+    "https://www.yayoi-yumeji-museum.jp/",
+    "https://www.yayoi-yumeji-museum.jp/guide/visit.html",
+    "https://www.yayoi-yumeji-museum.jp/yayoi/exhibition/now.html",
+    "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/now.html",
+    "https://www.yayoi-yumeji-museum.jp/yayoi/exhibition/next.html",
+    "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/next.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-28", "to": "2026-10-02", "reason": "展示替えのため全館休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "『My Birthday』展　80～90年代を席巻した占いカルチャー少女雑誌",
+      "start": "2026-07-04",
+      "end": "2026-09-27",
+      "url": "https://www.yayoi-yumeji-museum.jp/yayoi/exhibition/now.html",
+      "kind": "special",
+      "summary": "占い少女雑誌『My Birthday』を、まつざきあけみ・野崎ふみこらの表紙原画などで紹介",
+      "admission": "一般 1,200円"
+    },
+    {
+      "title": "高畠華宵 大正・昭和 悩み多き乙女らいふ展",
+      "start": "2026-07-04",
+      "end": "2026-09-27",
+      "url": "https://www.yayoi-yumeji-museum.jp/",
+      "kind": "special",
+      "summary": "弥生美術館3階。高畠華宵の作品で大正・昭和の乙女の暮らしを紹介",
+      "admission": "一般 1,200円"
+    },
+    {
+      "title": "あなたも目利きに! 竹久夢二入門展 —夢二絵の見かた＆楽しみかた—",
+      "start": "2026-07-04",
+      "end": "2026-09-27",
+      "url": "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/now.html",
+      "kind": "special",
+      "summary": "竹久夢二美術館。10のキーワードと10の表現から夢二絵の鑑賞のコツを紹介",
+      "admission": "一般 1,200円"
+    },
+    {
+      "title": "虚構世界をリアルに描いた　石原豪人展　around the 1970sの妄想画、大集合",
+      "start": "2026-10-03",
+      "end": "2026-12-20",
+      "url": "https://www.yayoi-yumeji-museum.jp/yayoi/exhibition/next.html",
+      "kind": "special",
+      "summary": "1970年前後の少年誌で怪人・怪獣を描いた石原豪人と同時代のイラストレーターの作品",
+      "admission": "一般 1,200円"
+    },
+    {
+      "title": "夢二の日本　描かれた理想郷",
+      "start": "2026-10-03",
+      "end": "2026-12-20",
+      "url": "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/next.html",
+      "kind": "special",
+      "summary": "竹久夢二美術館。夢二が理想とした日本の風景や文化、郷愁・浮世絵・古典題材の作品",
+      "admission": "一般 1,200円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "弥生美術館・竹久夢二美術館は共通券（一般1200円で2館観覧）。休館日は「月曜日（祝日の場合は翌火曜日）、展示替え期間中、年末年始」。次回展の休館日「月曜日 ※ただし10月12日、11月23日(祝・月) 開館、翌10月13日、11月24日(火) 休館」。年末年始の具体的な日付は未確認。",
+  "confidence": "high"
+}

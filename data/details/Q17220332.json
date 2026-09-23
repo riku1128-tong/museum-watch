@@ -1,0 +1,57 @@
+{
+  "id": "Q17220332",
+  "checked_at": "2026-09-24T00:42:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://hokusai-museum.jp/",
+  "address": "〒130-0014 東京都墨田区亀沢2-7-2",
+  "source_urls": [
+    "https://hokusai-museum.jp/",
+    "https://hokusai-museum.jp/modules/Page/pages/view/1111",
+    "https://hokusai-museum.jp/modules/Exhibition/exhibitions/view/5021",
+    "https://hokusai-museum.jp/modules/Exhibition/exhibitions/view/5023"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:30", "last_entry": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-20", "to": "2026-10-20", "reason": "休館（特別展の前期・後期の間）"},
+    {"from": "2026-12-27", "to": "2027-01-01", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "特別展　ベスト オブ すみだ北斎美術館ー隅田川両岸景色図巻と名品ー",
+      "start": "2026-09-15",
+      "end": "2026-11-23",
+      "url": "https://hokusai-museum.jp/modules/Exhibition/exhibitions/view/5021",
+      "kind": "special",
+      "summary": "開館10周年。「隅田川両岸景色図巻」など北斎の肉筆画・錦絵・摺物・版本と門人作品の名品展",
+      "admission": "一般 1,500円"
+    },
+    {
+      "title": "北斎クロスオーバー　時代を超えて\"すみだ\"に集う",
+      "start": "2026-12-16",
+      "end": "2027-02-28",
+      "url": "https://hokusai-museum.jp/modules/Exhibition/exhibitions/view/5023",
+      "kind": "special",
+      "summary": "北斎と門人の\"すみだ\"の作品と、大田南畝や正岡子規ら文学者との関わりから北斎を見る",
+      "admission": "一般 1,000円"
+    },
+    {
+      "title": "北斎を学ぶ部屋",
+      "start": "2026-09-24",
+      "end": "2027-09-24",
+      "url": "https://hokusai-museum.jp/modules/Page/pages/view/1111",
+      "kind": "collection",
+      "summary": "通年。常設展示室",
+      "admission": "一般 400円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「毎週月曜日（月曜が祝日または振替休日の場合はその翌平日）、年末年始（12月29日～1月3日）」。今年度の年末年始は北斎クロスオーバー展ページに「2026年12月27（日）～2027年1月1日（金・祝）」とある。特別展の展示替え: 前期 9/15〜10/18、後期 10/21〜11/23。10/20(火) は展覧会ページで休館と記載。11/24〜12/15 の特別展の合間に館が開くかは未確認（北斎を学ぶ部屋の開室も未確認）。2026/10/1 から墨田区在住・在学の中学生は無料。",
+  "confidence": "high"
+}

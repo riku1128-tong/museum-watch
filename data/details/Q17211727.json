@@ -1,0 +1,37 @@
+{
+  "id": "Q17211727",
+  "checked_at": "2026-09-24T00:42:54+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.2480.jp/",
+  "address": "〒195-0063 東京都町田市野津田町1000",
+  "source_urls": [
+    "https://www.2480.jp/",
+    "https://www.2480.jp/guide/",
+    "https://www.2480.jp/news/",
+    "https://www.2480.jp/news/%e4%bc%81%e7%94%bb%e5%b1%95%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bc%88%e4%ba%88%e5%91%8a%ef%bc%89-44/",
+    "https://www.2480.jp/news/%e3%80%90%e9%87%8d%e8%a6%81%e3%81%aa%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%80%91/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon", "tue"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第5回 語りと鑑賞の美術展",
+      "start": "2026-09-16",
+      "end": "2026-10-04",
+      "url": "https://www.2480.jp/news/%e4%bc%81%e7%94%bb%e5%b1%95%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bc%88%e4%ba%88%e5%91%8a%ef%bc%89-44/",
+      "kind": "special",
+      "summary": "後藤吉久ら10名の作品展。特別出展に上村松園、織田廣喜、横尾忠則",
+      "admission": "一般 1,200円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「月曜日・火曜日（祝日・振替休日は開館）」、振替休館の記載なし。「年末年始のほか、整備休館など臨時に休館及び開館することがあります」（日付は未掲載）。入館料 1,200円は館の一般料金。ユトリロ館・ロダン銘石館などの常設展示あり（会期表記なし）。9/2 のお知らせは売却の噂の否定。",
+  "confidence": "high"
+}

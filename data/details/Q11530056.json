@@ -1,0 +1,77 @@
+{
+  "id": "Q11530056",
+  "checked_at": "2026-09-24T01:25:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.matsuoka-museum.jp/",
+  "address": "〒108-0071 東京都港区白金台5-12-6",
+  "source_urls": [
+    "https://www.matsuoka-museum.jp/",
+    "https://www.matsuoka-museum.jp/information/",
+    "https://www.matsuoka-museum.jp/schedule/",
+    "https://www.matsuoka-museum.jp/exhibition/",
+    "https://www.matsuoka-museum.jp/contents/10416/",
+    "https://www.matsuoka-museum.jp/contents/10604/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-13", "to": "2026-10-26", "reason": "展示替えにつき休館"},
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "風そよぐ情景 ヴィクトリア朝絵画・フランス印象派",
+      "start": "2026-06-16",
+      "end": "2026-10-12",
+      "url": "https://www.matsuoka-museum.jp/contents/10604/",
+      "kind": "collection",
+      "summary": "館蔵品からリーダー、ペルジーニらヴィクトリア朝絵画とモネ、ピサロら印象派など30点余り",
+      "admission": "一般 1,400円"
+    },
+    {
+      "title": "五窯響宴 宋から元までの中国陶磁",
+      "start": "2026-06-16",
+      "end": "2026-10-12",
+      "url": "https://www.matsuoka-museum.jp/contents/10624/",
+      "kind": "collection",
+      "summary": "宋から元までの中国陶磁を館蔵品で紹介（展示室4）",
+      "admission": "一般 1,400円"
+    },
+    {
+      "title": "いにしえのエトルリア 小企画展（年間企画）",
+      "start": "2026-02-25",
+      "end": "2027-02-07",
+      "url": "https://www.matsuoka-museum.jp/contents/10416/",
+      "kind": "collection",
+      "summary": "エトルリアのブロンズ像・テラコッタの所蔵作品全8点を展示（展示室1）",
+      "admission": "一般 1,400円"
+    },
+    {
+      "title": "粧い眠る 秋と冬の日本画名品選",
+      "start": "2026-10-27",
+      "end": "2027-02-07",
+      "url": "https://www.matsuoka-museum.jp/exhibition/",
+      "kind": "collection",
+      "summary": "秋と冬を主題とする所蔵日本画の名品選",
+      "admission": "一般 1,400円"
+    },
+    {
+      "title": "百花精彩 明から清までの中国陶磁",
+      "start": "2026-10-27",
+      "end": "2027-02-07",
+      "url": "https://www.matsuoka-museum.jp/exhibition/",
+      "kind": "collection",
+      "summary": "明から清までの中国陶磁を館蔵品で紹介",
+      "admission": "一般 1,400円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日の場合は翌平日）。展示替え期間・年末年始は休館（開館カレンダーに日付あり）。入館料は館共通（一般1,400円）。常設展示もあるが会期の記載は未確認のため展示一覧には入れていない。",
+  "confidence": "high"
+}

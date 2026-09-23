@@ -1,0 +1,25 @@
+{
+  "id": "Q109603143",
+  "checked_at": "2026-09-24T00:43:21+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "改修工事は2026年3月末に完了したが、2026年度（令和8年度）は「からし期間」のため休館。再開館は2027年度（令和9年度）予定",
+  "official_url": "https://www.city.ome.tokyo.jp/site/art-museum/",
+  "address": null,
+  "source_urls": [
+    "https://www.city.ome.tokyo.jp/site/art-museum/",
+    "https://www.city.ome.tokyo.jp/site/art-museum/list76.html",
+    "https://www.city.ome.tokyo.jp/site/art-museum/list76-122.html",
+    "https://www.city.ome.tokyo.jp/site/art-museum/110288.html",
+    "https://www.city.ome.tokyo.jp/site/art-museum/116752.html"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "notes": "「ご利用案内」ページは「現在、掲載されている情報はありません」で、開館時間・休館日は未掲載。休館中もワークショップ等のイベントを開催することがある。再開館日は詳細が決まり次第告知とのこと。",
+  "confidence": "medium"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "Q11561694",
+  "checked_at": "2026-09-24T00:43:21+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://shoto-museum.jp/",
+  "address": "〒150-0046 東京都渋谷区松濤2-14-14",
+  "source_urls": [
+    "https://shoto-museum.jp/",
+    "https://shoto-museum.jp/visit/",
+    "https://shoto-museum.jp/exhibitions/213rojo/",
+    "https://shoto-museum.jp/exhibitions/214naoki/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "sat", "sun"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
+    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-09-24", "to": "2026-09-24", "reason": "祝日の翌日のため休館"},
+    {"from": "2026-10-13", "to": "2026-10-13", "reason": "祝日の翌日のため休館"},
+    {"from": "2026-11-04", "to": "2026-11-04", "reason": "祝日の翌日のため休館"},
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"},
+    {"from": "2027-01-12", "to": "2027-01-12", "reason": "祝日の翌日のため休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "路上、お邪魔ですか？",
+      "start": "2026-09-19",
+      "end": "2026-11-23",
+      "url": "https://shoto-museum.jp/exhibitions/213rojo/",
+      "kind": "special",
+      "summary": "路上観察学会40周年を契機に「路上」をキーワードに現代美術から歴史資料まで紹介",
+      "admission": "一般 1,000円"
+    },
+    {
+      "title": "舟越直木 見えないものに形をあたえる―舟越家から生まれたもうひとりの異才―",
+      "start": "2026-12-05",
+      "end": "2027-02-07",
+      "url": "https://shoto-museum.jp/exhibitions/214naoki/",
+      "kind": "special",
+      "summary": "没後10年、舟越直木の平面作品・抽象彫刻・ドローイングを初期から最晩年まで紹介",
+      "admission": "一般 1,000円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「毎週月曜日（祝日又は休日に当たる場合は開館）」「祝日又は休日の翌日（土・日曜日に当たる場合は開館）」「展示替期間、年末年始（12月29日～1月3日）」。祝日翌日の休館はスキーマで表せないため、展覧会ページに明記された日付（9/24・10/13・11/4・1/12）を special_closures に入れた。開館時間は特別展期間中のもの（金曜のみ20時まで）。公募展・サロン展期間中は 9:00～17:00。常設展なし。",
+  "confidence": "high"
+}

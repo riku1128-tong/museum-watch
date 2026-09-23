@@ -1,0 +1,27 @@
+{
+  "id": "Q5153794",
+  "checked_at": "2026-09-24T00:43:21+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "重要文化財 聖徳記念絵画館の耐震補強及び保存修理工事のため 2025年4月1日～2027年5月末（予定）休館",
+  "official_url": "https://www.meijijingugaien.jp/art-culture/seitoku-gallery/",
+  "address": null,
+  "source_urls": [
+    "https://www.meijijingugaien.jp/art-culture/seitoku-gallery/",
+    "https://www.meijijingugaien.jp/art-culture/seitoku-gallery/important/032714.html",
+    "https://www.meijijingugaien.jp/art-culture/seitoku-gallery/important/033114.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "16:30", "last_entry": "16:00"}
+  ],
+  "closed_weekdays": ["wed"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2025-04-01", "to": "2027-05-31", "reason": "耐震補強及び保存修理工事のため休館（終了日は予定）"}
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "notes": "通常時は「水曜休館（水曜日が祝日の場合は直後の平日を休館）」、年末年始（12/29～1/3）は 10:00～16:00（最終入館15:30）、入館料 500円。明治天皇の生涯を描いた壁画80枚（日本画40・洋画40）の常設展示。休館中もスチール撮影・壁画掲載依頼は受付。museums.json の公式URLは英語ページのため日本語ページで上書き。",
+  "confidence": "high"
+}

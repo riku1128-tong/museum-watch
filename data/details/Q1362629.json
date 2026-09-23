@@ -1,0 +1,65 @@
+{
+  "id": "Q1362629",
+  "checked_at": "2026-09-24T00:55:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.nmwa.go.jp/",
+  "address": "〒110-0007 東京都台東区上野公園7番7号",
+  "source_urls": [
+    "https://www.nmwa.go.jp/jp/",
+    "https://www.nmwa.go.jp/jp/visit/index.html",
+    "https://www.nmwa.go.jp/jp/visit/calendar.html",
+    "https://www.nmwa.go.jp/jp/visit/calendar.html?ym=2026-10",
+    "https://www.nmwa.go.jp/jp/visit/calendar.html?ym=2026-11",
+    "https://www.nmwa.go.jp/jp/visit/calendar.html?ym=2026-12",
+    "https://www.nmwa.go.jp/jp/exhibitions/2026italy.html",
+    "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html",
+    "https://www.nmwa.go.jp/jp/exhibitions/2026CinF.html",
+    "https://www.nmwa.go.jp/jp/information/index.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "sun"], "open": "09:30", "close": "17:30", "last_entry": "17:00"},
+    {"days": ["fri", "sat"], "open": "09:30", "close": "20:00", "last_entry": "19:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-24", "to": "2026-09-30", "reason": "臨時休館（カレンダー・展覧会ページに休館日として記載）"},
+    {"from": "2026-10-23", "to": "2026-10-23", "reason": "臨時休館（カレンダーに休館日として記載）"},
+    {"from": "2026-12-28", "to": "2027-01-01", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "神話、寓意、祝祭——ルネサンスからバロックにおけるイタリア宮廷と版画",
+      "start": "2026-06-30",
+      "end": "2026-10-12",
+      "url": "https://www.nmwa.go.jp/jp/exhibitions/2026italy.html",
+      "kind": "special",
+      "summary": "小企画展。所蔵の版画約50点で、ルネサンス〜バロック期イタリア宮廷の神話・寓意・祝祭の図像をたどる",
+      "admission": "一般 500円（常設展観覧券で観覧可）"
+    },
+    {
+      "title": "テート美術館 ターナー展――崇高の絵画、現代美術との対話",
+      "start": "2026-10-24",
+      "end": "2027-02-21",
+      "url": "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html",
+      "kind": "special",
+      "summary": "テート美術館所蔵のターナー作品を中心に、崇高の絵画と現代美術との対話を紹介する企画展",
+      "admission": "一般 2,400円"
+    },
+    {
+      "title": "常設展 中世から20世紀にかけての西洋絵画とフランス近代彫刻",
+      "start": "2026-03-28",
+      "end": "2027-01-11",
+      "url": "https://www.nmwa.go.jp/jp/exhibitions/2026CinF.html",
+      "kind": "collection",
+      "summary": "松方コレクションを中心とする所蔵作品展。コレクション・イン・フォーカス等を併催。2027-01-12から閉室",
+      "admission": "一般 500円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日・振替休日なら開館し翌平日休館）。9/24〜9/30は休館（理由は明記なし）。10/23(金)はカレンダー上休館（ターナー展開幕前日）。2027-01-12〜02-21は常設展示室閉室（館・企画展は開館）。常設展観覧料は国立美術館の料金改定のお知らせ(2026-09-18)あり、改定後額は未確認。",
+  "confidence": "high"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Q11384365",
+  "checked_at": "2026-09-24T00:55:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://sato-museum.la.coocan.jp/",
+  "address": "〒160-0015 東京都新宿区大京町31-10",
+  "source_urls": [
+    "https://sato-museum.la.coocan.jp/",
+    "https://sato-museum.la.coocan.jp/guide/",
+    "https://sato-museum.la.coocan.jp/exhibition/",
+    "https://sato-museum.la.coocan.jp/exhibition/exhibition-2026.html?id=ex260908"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:45"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "佐藤国際文化育英財団第35回奨学生美術展",
+      "start": "2026-09-08",
+      "end": "2026-10-25",
+      "url": "https://sato-museum.la.coocan.jp/exhibition/exhibition-2026.html?id=ex260908",
+      "kind": "special",
+      "summary": "全国9大学推薦の奨学生10名と過去の奨学生2名、計12名の作品展",
+      "admission": "無料"
+    },
+    {
+      "title": "現代日本画トリビュート",
+      "start": "2026-11-03",
+      "end": "2026-12-13",
+      "url": "https://sato-museum.la.coocan.jp/exhibition/",
+      "kind": "special",
+      "summary": "伝統への敬意と現代的感性を感じさせる現代日本画の大作展",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「月曜日・展示替え期間」。奨学生展の休館日一覧（9/14,9/24,9/28,10/5,10/13,10/19）から、祝日の月曜は開館し翌平日休館と判断。入館料は展覧会ごと（トップには一般800円の記載あり）。2025年4月から金曜夜間開館は中止。",
+  "confidence": "high"
+}

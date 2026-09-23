@@ -1,0 +1,37 @@
+{
+  "id": "Q11369635",
+  "checked_at": "2026-09-24T01:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kume-museum.com/",
+  "address": "〒141-0021 東京都品川区上大崎2-25-5 久米ビル8階",
+  "source_urls": [
+    "https://kume-museum.com/",
+    "https://kume-museum.com/information/",
+    "https://kume-museum.com/exhibition/",
+    "https://kume-museum.com/2026/08/26/%e3%80%90%e9%96%8b%e5%82%ac%e4%b8%ad%e3%80%91%e4%b9%85%e7%b1%b3%e9%82%a6%e6%ad%a6%e3%81%a8%e4%b9%85%e7%b1%b3%e6%a1%82%e4%b8%80%e9%83%8e%ef%bd%9e%e8%a5%bf%e6%b4%8b%e6%96%87%e6%98%8e%e3%82%92%e4%bc%9d-2/",
+    "https://kume-museum.com/2026/09/18/%e3%80%90%e3%81%94%e6%b3%a8%e6%84%8f%e3%80%91%e5%8f%b0%e9%a2%a825%e5%8f%b7%e9%96%a2%e9%80%a3/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "久米邦武と久米桂一郎～西洋文明を伝えた父子～",
+      "start": "2026-08-25",
+      "end": "2026-10-12",
+      "url": "https://kume-museum.com/2026/08/26/%e3%80%90%e9%96%8b%e5%82%ac%e4%b8%ad%e3%80%91%e4%b9%85%e7%b1%b3%e9%82%a6%e6%ad%a6%e3%81%a8%e4%b9%85%e7%b1%b3%e6%a1%82%e4%b8%80%e9%83%8e%ef%bd%9e%e8%a5%bf%e6%b4%8b%e6%96%87%e6%98%8e%e3%82%92%e4%bc%9d-2/",
+      "kind": "collection",
+      "summary": "歴史家・久米邦武と洋画家・久米桂一郎父子の史料と絵画を展示（旧「館蔵品展」）",
+      "admission": "一般 500円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（月曜が祝日の場合は翌日休館）／年末年始／展示替え期間。年末年始の日付は未掲載。展覧会の告知は会期「2026年8月25日（日）～10月12日（祝・月）」だが曜日表記に誤りがあり、休館日欄に「11/23は開館、11/24休館」ともあるため会期末は要確認。10/13以降の展示予定は未掲載。2026-09-18に台風25号接近時の臨時休館・時刻変更の可能性の告知あり。",
+  "confidence": "medium"
+}

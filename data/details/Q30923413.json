@@ -1,0 +1,23 @@
+{
+  "id": "Q30923413",
+  "checked_at": "2026-09-24T00:49:52+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "休館中（2021年9月16日から、再開時期未定）。公式サイトのドメインは失効",
+  "official_url": null,
+  "address": "〒259-0301 神奈川県足柄下郡湯河原町中央3-16-1",
+  "source_urls": [
+    "http://www.nikobi.com/",
+    "https://artscape.jp/museum/2724/",
+    "https://www.museum.or.jp/museum/15880"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "notes": "公式URL（nikobi.com）は売り出し中のパーキングページに転送され、公式情報は読めない。artscape（2024-02-27更新）に「現在、休館中です」。休館開始日（令和3年9月16日）は検索結果の記載で、公式では未確認。インターネットミュージアムの館情報は休館前の内容（9:30〜17:00・年中無休）のままと見られる。",
+  "confidence": "medium"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "Q1649688",
+  "checked_at": "2026-09-24T00:42:36+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.mot-art-museum.jp/",
+  "address": "〒135-0022 東京都江東区三好4-1-1(木場公園内)",
+  "source_urls": [
+    "https://www.mot-art-museum.jp/",
+    "https://www.mot-art-museum.jp/guide/",
+    "https://www.mot-art-museum.jp/news/2026/09/20260918142807/",
+    "https://www.mot-art-museum.jp/exhibitions/",
+    "https://www.mot-art-museum.jp/exhibitions/Tada-Minami/",
+    "https://www.mot-art-museum.jp/exhibitions/Constellation/",
+    "https://www.mot-art-museum.jp/exhibitions/mot-collection-260919/"
+  ],
+  "regular_hours": [
+    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-11-01", "to": "2026-11-30"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-01", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "多田美波―光、凛と ゆれる",
+      "start": "2026-08-29",
+      "end": "2026-12-06",
+      "url": "https://www.mot-art-museum.jp/exhibitions/Tada-Minami/",
+      "kind": "special",
+      "summary": "戦後の抽象彫刻家・多田美波の没後初の大規模回顧展。彫刻・照明・建築関連作品など約70点",
+      "admission": "一般 1,600円"
+    },
+    {
+      "title": "共時的星叢──時を共にした星たち　越境する芸術のまなざし",
+      "start": "2026-09-05",
+      "end": "2026-12-13",
+      "url": "https://www.mot-art-museum.jp/exhibitions/Constellation/",
+      "kind": "special",
+      "summary": "台湾の風車詩社を起点に、近代台湾と日本の美術・資料を展観。ゲストキュレーター黄亜歴",
+      "admission": "一般 2,000円"
+    },
+    {
+      "title": "MOTコレクション いつかの光を今みている",
+      "start": "2026-09-19",
+      "end": "2027-01-06",
+      "url": "https://www.mot-art-museum.jp/exhibitions/mot-collection-260919/",
+      "kind": "collection",
+      "summary": "「光」と「時間」をテーマにした所蔵作品展。小瀬村真美、土屋公雄、戸谷成雄ほか",
+      "admission": "一般 500円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「月曜日（祝日の場合は翌平日）、展示替え期間、年末年始（12/28-1/1）」。各展覧会ページに休館日 9/24・10/13・11/24 の記載あり（祝日ルールで算出されるものと一致）。11月の毎金曜日は20:00まで。台風25号接近に伴い臨時休館の可能性あり（9/18 お知らせ、決定時は公式サイト・SNSで告知）。コレクション展の正式タイトル表記は「いつかの光を今みている」の部分のみ確認。",
+  "confidence": "high"
+}

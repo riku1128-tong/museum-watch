@@ -1,0 +1,72 @@
+{
+  "id": "Q861588",
+  "checked_at": "2026-09-24T00:32:52+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://yokohama.art.museum/",
+  "address": "〒220-0012 神奈川県横浜市西区みなとみらい3-4-1",
+  "source_urls": [
+    "https://yokohama.art.museum/",
+    "https://yokohama.art.museum/visit/info/",
+    "https://yokohama.art.museum/visit/schedule/",
+    "https://yokohama.art.museum/news/",
+    "https://yokohama.art.museum/exhibition/",
+    "https://yokohama.art.museum/exhibition/202608_marie2026/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["thu"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [
+    {"date": "2026-09-24", "open": "10:00", "close": "18:00", "note": "木曜だが開館（展覧会ページの記載）"},
+    {"date": "2026-11-19", "open": "10:00", "close": "18:00", "note": "木曜だが開館（展覧会ページの記載）"}
+  ],
+  "exhibitions": [
+    {
+      "title": "マリー・アントワネット・スタイル",
+      "start": "2026-08-01",
+      "end": "2026-11-23",
+      "url": "https://yokohama.art.museum/exhibition/202608_marie2026/",
+      "kind": "special",
+      "summary": "マリー・アントワネットの装いやインテリアと、時代を超えて影響を与え続けるそのスタイルを紹介",
+      "admission": "一般 2,500円",
+      "hours": [
+        {"days": ["sat", "sun"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-11-21", "to": "2026-11-22"},
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+      ]
+    },
+    {
+      "title": "毛利悠子 Recompose―第60回ヴェネチア・ビエンナーレ日本館帰国展",
+      "start": "2026-07-24",
+      "end": "2026-11-23",
+      "url": "https://yokohama.art.museum/exhibition/202607_mohriyuko/",
+      "kind": "special",
+      "summary": "毛利悠子による第60回ヴェネチア・ビエンナーレ日本館展示の帰国展",
+      "admission": "無料"
+    },
+    {
+      "title": "コレクション展",
+      "start": "2026-08-01",
+      "end": "2027-02-11",
+      "url": "https://yokohama.art.museum/exhibition/202608_collection/",
+      "kind": "collection",
+      "summary": "横浜美術館の所蔵作品によるコレクション展",
+      "admission": null
+    },
+    {
+      "title": "コレクション展（じゆうエリア）",
+      "start": "2026-08-01",
+      "end": "2027-02-11",
+      "url": "https://yokohama.art.museum/exhibition/202608_jiyu-area/",
+      "kind": "collection",
+      "summary": "横浜美術館の所蔵作品によるコレクション展（じゆうエリア）",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「木曜日、年末年始」。祝日と重なった場合の扱いは記載が見当たらない。年末年始休館の具体的な日付は未確認。9/24・11/19（木）の開館と 11/21・22 の20時までの延長はマリー・アントワネット展ページの記載。コレクション展の観覧料は未確認。",
+  "confidence": "high"
+}

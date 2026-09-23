@@ -1,0 +1,52 @@
+{
+  "id": "Q3815450",
+  "checked_at": "2026-09-24T01:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://mmat.jp/",
+  "address": "〒153-0063 東京都目黒区目黒2-4-36",
+  "source_urls": [
+    "https://mmat.jp/",
+    "https://mmat.jp/information/index.html",
+    "https://mmat.jp/exhibition/archive/2026/20260916-477.html",
+    "https://mmat.jp/exhibition/archive/2026/20261010-478.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第50回記念 区展（目黒区民作品展）",
+      "start": "2026-09-16",
+      "end": "2026-09-27",
+      "url": "https://mmat.jp/exhibition/archive/2026/20260916-477.html",
+      "kind": "other",
+      "summary": "区民の公募による絵画・書・手工芸・写真の作品展（目黒区美術館協力事業）",
+      "admission": "無料",
+      "hours": [
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:30", "last_entry": "17:00", "to": "2026-09-26"},
+        {"days": ["sun"], "open": "10:00", "close": "15:00", "last_entry": "14:30", "from": "2026-09-27", "to": "2026-09-27"}
+      ],
+      "closed_dates": ["2026-09-24"]
+    },
+    {
+      "title": "目黒区美術館コレクション展『東京パック』とその時代 ＋特集展示 北澤楽天の『子供之友』",
+      "start": "2026-10-10",
+      "end": "2026-11-15",
+      "url": "https://mmat.jp/exhibition/archive/2026/20261010-478.html",
+      "kind": "collection",
+      "summary": "日本初のフルカラー漫画雑誌『東京パック』とその時代を所蔵品で紹介。北澤楽天『子供之友』の特集展示も",
+      "admission": "一般 700円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "月曜休館（祝日・休日の場合はその翌日）。展示替期間は休館。常設展示なし。区展は開館時間が異なる（10:00〜17:30、最終日15:00まで）。9/24(木)は休館。次回「めぐろの子どもたち展」2027-01-16〜01-31。",
+  "confidence": "high"
+}

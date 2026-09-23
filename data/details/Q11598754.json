@@ -1,0 +1,49 @@
+{
+  "id": "Q11598754",
+  "checked_at": "2026-09-24T00:42:36+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.yayoi-yumeji-museum.jp/",
+  "address": "〒113-0032 東京都文京区弥生2-4-2",
+  "source_urls": [
+    "https://www.yayoi-yumeji-museum.jp/",
+    "https://www.yayoi-yumeji-museum.jp/guide/visit.html",
+    "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/now.html",
+    "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/next.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-28", "to": "2026-10-02", "reason": "展示替えのため全館休館"}
+  ],
+  "special_openings": [
+    {"date": "2026-09-24", "open": "10:00", "close": "17:00", "note": "公式トップに「9月22日㊋㊗～27日㊐まで無休」と記載"}
+  ],
+  "exhibitions": [
+    {
+      "title": "あなたも目利きに! 竹久夢二入門 展　―夢二絵の見かた＆楽しみかた―",
+      "start": "2026-07-04",
+      "end": "2026-09-27",
+      "url": "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/now.html",
+      "kind": "special",
+      "summary": "10のキーワードと10の表現で夢二作品の鑑賞のコツを紹介する入門展",
+      "admission": "一般 1,200円"
+    },
+    {
+      "title": "夢二の日本　描かれた理想郷",
+      "start": "2026-10-03",
+      "end": "2026-12-20",
+      "url": "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/next.html",
+      "kind": "special",
+      "summary": "郷愁、浮世絵、芝居や古典文学を題材に夢二が描いた理想の日本の風景・文化",
+      "admission": "一般 1,200円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "弥生美術館と同一施設・共通券（入館料は両館共通）。休館日は「月曜日（祝日の場合は翌火曜日）、展示替え期間中、年末年始」。9/22〜9/27 は無休と公式トップに明記（祝日ルールでは 9/24 が振替休館になるため special_openings で上書き）。次回展は 10/12・11/23 開館、10/13・11/24 休館。年末年始の具体的日付は未確認。",
+  "confidence": "high"
+}

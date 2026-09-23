@@ -1,0 +1,59 @@
+{
+  "id": "Q3892314",
+  "checked_at": "2026-09-24T00:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.setagayaartmuseum.or.jp/",
+  "address": "〒157-0075 東京都世田谷区砧公園1-2",
+  "source_urls": [
+    "https://www.setagayaartmuseum.or.jp/",
+    "https://www.setagayaartmuseum.or.jp/guide/",
+    "https://www.setagayaartmuseum.or.jp/guide/open/",
+    "https://www.setagayaartmuseum.or.jp/news/entry.php?id=nw00758",
+    "https://www.setagayaartmuseum.or.jp/exhibition/special/detail.php?id=sp00230",
+    "https://www.setagayaartmuseum.or.jp/exhibition/collection/detail.php?id=col00126",
+    "https://www.setagayaartmuseum.or.jp/exhibition/special/detail.php?id=sp00231"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "スウェーデン・テキスタイル 暮らしと自然に息づく北欧デザイン",
+      "start": "2026-09-19",
+      "end": "2026-11-15",
+      "url": "https://www.setagayaartmuseum.or.jp/exhibition/special/detail.php?id=sp00230",
+      "kind": "special",
+      "summary": "サラ・アクステイリウス氏所蔵の約200点で、スウェーデンのテキスタイルデザインを紹介",
+      "admission": "一般 1,400円"
+    },
+    {
+      "title": "ミュージアム コレクションⅡ 気になる、こんどの収蔵品―作品がつれてきた物語",
+      "start": "2026-08-08",
+      "end": "2026-10-25",
+      "url": "https://www.setagayaartmuseum.or.jp/exhibition/collection/detail.php?id=col00126",
+      "kind": "collection",
+      "summary": "2020〜2025年の新収蔵品約120点を、作品にまつわる物語とともに紹介",
+      "admission": "一般 220円"
+    },
+    {
+      "title": "銅版画家・駒井哲郎 掌上にひろがる星座のように",
+      "start": "2026-11-28",
+      "end": "2027-01-31",
+      "url": "https://www.setagayaartmuseum.or.jp/exhibition/special/detail.php?id=sp00231",
+      "kind": "special",
+      "summary": "没後50年。駒井哲郎の版画・若い頃の油彩・挿絵原画で歩みをたどる",
+      "admission": "一般 1,400円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「月曜日（祝休日の時はその翌平日）、年末年始（12月29日〜1月3日）」。9/24（木）は9/21〜23の祝休日の振替で休館。大規模改修工事のため令和9（2027）年4月〜令和12（2030）年1月（予定）休館（具体的な開始日は未掲載）。",
+  "confidence": "high"
+}

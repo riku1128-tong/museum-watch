@@ -1,0 +1,45 @@
+{
+  "id": "Q2374140",
+  "checked_at": "2026-09-24T00:42:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.gotoh-museum.or.jp/",
+  "address": "〒158-8510 東京都世田谷区上野毛3-9-25",
+  "source_urls": [
+    "https://www.gotoh-museum.or.jp/",
+    "https://www.gotoh-museum.or.jp/howto/",
+    "https://www.gotoh-museum.or.jp/exhibition/open/",
+    "https://www.gotoh-museum.or.jp/exhibition/next/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "［館蔵］秋の優品展 唐草文の美",
+      "start": "2026-09-05",
+      "end": "2026-10-12",
+      "url": "https://www.gotoh-museum.or.jp/exhibition/open/",
+      "kind": "special",
+      "summary": "唐草文をテーマに中国の古鏡・陶磁・染織、古筆装飾など館蔵品を展示。10/3〜12は国宝紫式部日記絵巻も",
+      "admission": "一般 1,100円"
+    },
+    {
+      "title": "室町ごころの風景",
+      "start": "2026-10-27",
+      "end": "2026-12-06",
+      "url": "https://www.gotoh-museum.or.jp/exhibition/next/",
+      "kind": "special",
+      "summary": "室町時代のやまと絵屛風や連歌懐紙などから「室町ごころ」の風景を展望",
+      "admission": "一般 1,400円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「毎月曜日（祝日の場合は翌平日）、展示替期間、夏期整備期間、年末年始など」。唐草文の美の休館日「毎月曜日（9月21日、10月12日は開館）、9月24日［木］」、室町ごころの風景の休館日「毎月曜日（11月23日は開館）・11月24日［火］」はいずれも holiday_rule と一致。9/21 は台風のため正午閉館だった（過去）。年末年始の具体的な日付は未確認。",
+  "confidence": "high"
+}

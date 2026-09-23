@@ -1,0 +1,65 @@
+{
+  "id": "Q1233913",
+  "checked_at": "2026-09-24T00:55:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.fujibi.or.jp/",
+  "address": "〒192-0016 東京都八王子市谷野町492-1",
+  "source_urls": [
+    "https://www.fujibi.or.jp/",
+    "https://www.fujibi.or.jp/visit/admission/",
+    "https://www.fujibi.or.jp/exhibitions/overview/",
+    "https://www.fujibi.or.jp/exhibitions/3202610031/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-06-22", "to": "2026-10-02", "reason": "館内整備のため全館休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "This is SUEKI─古代のカタチ、無限大！",
+      "start": "2026-10-03",
+      "end": "2026-12-27",
+      "url": "https://www.fujibi.or.jp/exhibitions/3202610031/",
+      "kind": "special",
+      "summary": "古墳時代から平安時代まで約500年間に各地で作られた須恵器の名品を集める",
+      "admission": null
+    },
+    {
+      "title": "Another SUEKI 須恵器　─変わり種の須恵器たち─",
+      "start": "2026-10-03",
+      "end": "2026-12-27",
+      "url": "https://www.fujibi.or.jp/exhibitions/4202610031/",
+      "kind": "collection",
+      "summary": "館蔵品展。変わり種の須恵器を紹介",
+      "admission": null
+    },
+    {
+      "title": "《タヴォラ・ドーリア》特別展示",
+      "start": "2026-10-03",
+      "end": "2026-12-27",
+      "url": "https://www.fujibi.or.jp/exhibitions/8202610031/",
+      "kind": "collection",
+      "summary": "常設展示。《タヴォラ・ドーリア》の特別展示",
+      "admission": null
+    },
+    {
+      "title": "西洋絵画　ルネサンスから20世紀まで",
+      "start": "2026-10-03",
+      "end": "2026-12-27",
+      "url": "https://www.fujibi.or.jp/exhibitions/8202610032/",
+      "kind": "collection",
+      "summary": "常設展示。ルネサンスから20世紀までの西洋絵画コレクション",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「毎週月曜日（祝日、振替休日の場合は開館。翌火曜日は振替休館）、年末・年始、展示替期間」。通常の観覧料は一般1,500円だが、SUEKI展の観覧料は未掲載。次期（2027年1月26日〜）は「わたしたちのルノワール」ほか。年末年始休館の具体的な日付は未掲載。",
+  "confidence": "high"
+}

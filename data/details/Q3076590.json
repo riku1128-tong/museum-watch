@@ -1,0 +1,23 @@
+{
+  "id": "Q3076590",
+  "checked_at": "2026-09-24T00:55:00+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "ビルの建替えに伴い長期休館中（建替工事は2025年度〜2030年度予定、同じ場所で再開予定）",
+  "official_url": "https://idemitsu-museum.or.jp/",
+  "address": null,
+  "source_urls": [
+    "https://idemitsu-museum.or.jp/",
+    "https://idemitsu-museum.or.jp/faq/",
+    "https://idemitsu-museum.or.jp/news/260911.php"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "notes": "館外展示として「出光美術館開館60周年記念　藝大でみる珠玉の出光コレクション」を2027年3月27日～5月23日に東京藝術大学大学美術館で開催予定（当館での開催ではない）。",
+  "confidence": "high"
+}

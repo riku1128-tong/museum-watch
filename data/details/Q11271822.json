@@ -1,0 +1,71 @@
+{
+  "id": "Q11271822",
+  "checked_at": "2026-09-24T01:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://chihiro.jp/tokyo/",
+  "address": "〒177-0042 東京都練馬区下石神井4-7-2",
+  "source_urls": [
+    "https://chihiro.jp/tokyo/",
+    "https://chihiro.jp/tokyo/visit/",
+    "https://chihiro.jp/tokyo/exhibitions/",
+    "https://chihiro.jp/tokyo/exhibitions/83390/",
+    "https://chihiro.jp/tokyo/exhibitions/74289/",
+    "https://chihiro.jp/tokyo/news/",
+    "https://chihiro.jp/tokyo/news/68140/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-02", "reason": "年末年始休館"},
+    {"from": "2027-02-01", "to": "2027-02-28", "reason": "冬期休館"}
+  ],
+  "special_openings": [
+    {"date": "2026-09-24", "open": "10:00", "close": "17:00", "note": "シルバーウィーク期間（9/19〜9/27）は無休"}
+  ],
+  "exhibitions": [
+    {
+      "title": "武田美穂展 絵本づくりはドキドキなのだ！",
+      "start": "2026-07-25",
+      "end": "2026-10-25",
+      "url": "https://chihiro.jp/tokyo/exhibitions/74289/",
+      "kind": "special",
+      "summary": "絵本作家・武田美穂の絵本づくりを紹介する展覧会",
+      "admission": "一般 1,200円"
+    },
+    {
+      "title": "ちひろ 子どもは平和のシンボル",
+      "start": "2026-07-25",
+      "end": "2026-10-25",
+      "url": "https://chihiro.jp/tokyo/exhibitions/83390/",
+      "kind": "collection",
+      "summary": "いわさきちひろが子どもを描き続けた理由を、平和への願いとともに作品でたどる",
+      "admission": "一般 1,200円"
+    },
+    {
+      "title": "ちひろ 旅のたのしみ",
+      "start": "2026-10-30",
+      "end": "2027-01-31",
+      "url": "https://chihiro.jp/tokyo/exhibitions/",
+      "kind": "collection",
+      "summary": "いわさきちひろの旅をテーマにした作品展",
+      "admission": "一般 1,200円"
+    },
+    {
+      "title": "没後70年 茂田井武とパリの画家たち ―Parisの破片―",
+      "start": "2026-10-30",
+      "end": "2027-01-31",
+      "url": "https://chihiro.jp/tokyo/exhibitions/",
+      "kind": "special",
+      "summary": "没後70年の茂田井武と、パリの画家たちの作品を紹介",
+      "admission": "一般 1,200円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "月曜休館（祝休日は開館、翌平日休館）。展示替えのための臨時休館あり（10/26〜10/29は会期の間）。GW・夏休み期間は無休。冬期休館 2027-02-01〜02-28。入館料は館共通（大人1,200円）。",
+  "confidence": "high"
+}

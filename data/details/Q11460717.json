@@ -1,0 +1,46 @@
+{
+  "id": "Q11460717",
+  "checked_at": "2026-09-24T01:05:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.kodaira.tokyo.jp/dencyu/",
+  "address": "〒187-0045 東京都小平市学園西町1-7-5",
+  "source_urls": [
+    "https://www.city.kodaira.tokyo.jp/dencyu/",
+    "https://www.city.kodaira.tokyo.jp/kurashi/061/061391.html",
+    "https://www.city.kodaira.tokyo.jp/kurashi/061/061404.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "16:00", "last_entry": "15:30"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-27", "to": "2027-01-05", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "書の世界～平櫛田中コレクションより",
+      "start": "2026-09-10",
+      "end": "2026-11-23",
+      "url": "https://www.city.kodaira.tokyo.jp/kurashi/061/061404.html",
+      "kind": "collection",
+      "summary": "平櫛田中が70歳過ぎから日課とした書の作品と愛用の硯・水滴を展示。前期・後期で展示替え",
+      "admission": "一般 300円"
+    },
+    {
+      "title": "福来る",
+      "start": "2026-11-27",
+      "end": "2027-02-14",
+      "url": "https://www.city.kodaira.tokyo.jp/kurashi/061/061404.html",
+      "kind": "collection",
+      "summary": "平櫛田中彫刻美術館の企画展（詳細は未掲載）",
+      "admission": "一般 300円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "火曜休館（祝日の場合はその翌日以降の直近の平日）。展示替え期間は休館。開館時間 10:00〜16:00（15:30までに入館）。観覧料は現金のみ。公式サイトは小平市ウェブサイト内のページ。",
+  "confidence": "high"
+}

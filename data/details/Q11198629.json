@@ -1,0 +1,58 @@
+{
+  "id": "Q11198629",
+  "checked_at": "2026-09-24T00:44:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.musashino.or.jp/museum/",
+  "address": "〒180-0004 東京都武蔵野市吉祥寺本町1丁目8番16号 FFビル7階（コピス吉祥寺A館7階）",
+  "source_urls": [
+    "https://www.musashino.or.jp/museum/",
+    "https://www.musashino.or.jp/museum/1002040/1002048.html",
+    "https://www.musashino.or.jp/museum/1002006/1002008/1009189.html",
+    "https://www.musashino.or.jp/museum/1002006/1003349/1009837.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "19:30"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-30", "to": "2026-09-30", "reason": "休館日（毎月最終水曜日）"},
+    {"from": "2026-10-28", "to": "2026-10-28", "reason": "休館日（毎月最終水曜日）"},
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "谷口智則展　黒い森を抜けて－はいいろのぼくとオレンジのあいつ－",
+      "start": "2026-09-19",
+      "end": "2026-11-03",
+      "url": "https://www.musashino.or.jp/museum/1002006/1003349/1009837.html",
+      "kind": "special",
+      "summary": "絵本作家・谷口智則の新作絵本の原画全25点や「100にんのサンタクロース」原画などを紹介",
+      "admission": "一般 300円"
+    },
+    {
+      "title": "【浜口陽三記念室】食を楽しむ",
+      "start": "2026-06-11",
+      "end": "2026-11-03",
+      "url": "https://www.musashino.or.jp/museum/1002006/1003366/1010061.html",
+      "kind": "collection",
+      "summary": "浜口陽三記念室のコレクション展示。テーマは「食」",
+      "admission": "常設展 100円"
+    },
+    {
+      "title": "【萩原英雄記念室】道化師の役割",
+      "start": "2026-06-11",
+      "end": "2026-11-03",
+      "url": "https://www.musashino.or.jp/museum/1002006/1003367/1009463.html",
+      "kind": "collection",
+      "summary": "萩原英雄記念室のコレクション展示。テーマは「道化師」",
+      "admission": "常設展 100円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「毎月最終水曜日（祝日の場合は開館し、翌日を休館日）」。最終水曜日は closed_nth_weekdays で表せないため、公式に日付が出ている 9/30・10/28（谷口展ページ）だけ special_closures に入れた。11/25 以降の最終水曜日は未掲載。11/4 以降の展示と、展示替え休館の有無は未確認（次の企画展は 2027/1/16〜）。入館締切の記載なし。official_url は武蔵野文化生涯学習事業団のページ。",
+  "confidence": "medium"
+}

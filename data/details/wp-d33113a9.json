@@ -1,0 +1,134 @@
+{
+  "id": "wp-d33113a9",
+  "checked_at": "2026-09-24T00:43:53+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.shinagawa-culture.or.jp/o-art/",
+  "address": "東京都品川区大崎1-6-2 大崎ニューシティ2号館2階",
+  "source_urls": [
+    "https://www.shinagawa-culture.or.jp/o-art/",
+    "https://www.shinagawa-culture.or.jp/o-art/event/schedule/index.html",
+    "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.9.html",
+    "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.10.html",
+    "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.11.html",
+    "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.12.html",
+    "https://www.shinagawa-culture.or.jp/o-art/event/exhibition/2026_1017.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:30", "last_entry": "18:00"}
+  ],
+  "closed_weekdays": ["thu"],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休館"}
+  ],
+  "special_openings": [
+    {"date": "2026-09-24", "open": "10:00", "close": "14:00", "note": "100回記念国展版画部展の最終日（木曜だが会期に含まれる）"}
+  ],
+  "exhibitions": [
+    {
+      "title": "100回記念国展版画部展",
+      "start": "2026-09-18",
+      "end": "2026-09-24",
+      "url": "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.9.html",
+      "kind": "other",
+      "summary": "国画会版画部の展覧会（第100回記念）",
+      "admission": "無料",
+      "hours": [
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:30", "last_entry": "18:00", "from": "2026-09-18", "to": "2026-09-23"},
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "14:00", "from": "2026-09-24", "to": "2026-09-24"}
+      ]
+    },
+    {
+      "title": "日本デジタル・アート展",
+      "start": "2026-09-25",
+      "end": "2026-09-30",
+      "url": "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.9.html",
+      "kind": "other",
+      "summary": "デジタル・アート作品の展覧会（貸会場展示）",
+      "admission": "無料",
+      "hours": [
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "13:00", "close": "18:00", "from": "2026-09-25", "to": "2026-09-25"},
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "from": "2026-09-26", "to": "2026-09-29"},
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "from": "2026-09-30", "to": "2026-09-30"}
+      ]
+    },
+    {
+      "title": "第15回 メイプルメイツ展覧会",
+      "start": "2026-10-03",
+      "end": "2026-10-07",
+      "url": "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.10.html",
+      "kind": "other",
+      "summary": "メイプルメイツによる作品展（貸会場展示）",
+      "admission": "無料",
+      "hours": [
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "from": "2026-10-03", "to": "2026-10-06"},
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "12:00", "from": "2026-10-07", "to": "2026-10-07"}
+      ]
+    },
+    {
+      "title": "しながわ夢さん橋 特別展",
+      "start": "2026-10-10",
+      "end": "2026-10-12",
+      "url": "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.10.html",
+      "kind": "other",
+      "summary": "しながわ夢さん橋にあわせた特別展（最終日は一部15時終了）",
+      "admission": "無料",
+      "hours": [
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "16:00"}
+      ]
+    },
+    {
+      "title": "陽はまた昇る Sunrise Again 小林敬生展 版画 1967-2024",
+      "start": "2026-10-17",
+      "end": "2026-11-25",
+      "url": "https://www.shinagawa-culture.or.jp/o-art/event/exhibition/2026_1017.html",
+      "kind": "special",
+      "summary": "品川区ゆかりの木口木版画家・小林敬生の回顧展（しながわ区民芸術祭2026 O美術館企画展）",
+      "admission": "一般 1,000円",
+      "hours": [
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:30", "last_entry": "18:15"}
+      ]
+    },
+    {
+      "title": "品川区私立幼稚園協会 第70回 幼児画展覧会",
+      "start": "2026-11-27",
+      "end": "2026-12-02",
+      "url": "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.11.html",
+      "kind": "other",
+      "summary": "品川区の私立幼稚園の園児による絵画展",
+      "admission": "無料"
+    },
+    {
+      "title": "第21回 MOA美術館品川区児童作品展",
+      "start": "2026-12-04",
+      "end": "2026-12-07",
+      "url": "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.12.html",
+      "kind": "other",
+      "summary": "品川区の児童による絵画作品展",
+      "admission": "無料"
+    },
+    {
+      "title": "第18回 図工ランド展",
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "url": "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.12.html",
+      "kind": "other",
+      "summary": "絵画ほかの図工作品展",
+      "admission": "無料"
+    },
+    {
+      "title": "樂書會書展 第25回 東京展",
+      "start": "2026-12-19",
+      "end": "2026-12-23",
+      "url": "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.12.html",
+      "kind": "other",
+      "summary": "樂書會による書道展",
+      "admission": "無料"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "品川区の文化施設で、主に団体展・貸会場展示が1週間前後ずつ入れ替わる。展示ごとに開館時間が異なり、初日・最終日は短縮されることが多い。幼児画展・MOA児童作品展・図工ランド展・樂書會書展の開館時間は公式に記載がなく、館の通常時間で表示している。料金の記載が無い展示は入場無料（公式注記）。祝日が木曜に重なった場合の扱いは記載なし。",
+  "confidence": "high"
+}

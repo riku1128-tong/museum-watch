@@ -1,0 +1,62 @@
+{
+  "id": "Q11525123",
+  "checked_at": "2026-09-24T00:44:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://museum.geidai.ac.jp/",
+  "address": "〒110-8714 東京都台東区上野公園12-8",
+  "source_urls": [
+    "https://museum.geidai.ac.jp/",
+    "https://museum.geidai.ac.jp/information/",
+    "https://museum.geidai.ac.jp/exhibit/",
+    "https://museum.geidai.ac.jp/news/2026/09/25-1.html",
+    "https://museum.geidai.ac.jp/exhibit/2026/09/sentan-gap2026.html",
+    "https://museum.geidai.ac.jp/exhibit/2026/10/mikamiryo.html",
+    "https://museum.geidai.ac.jp/exhibit/2026/10/furukawakiyoshi.html",
+    "https://museum.geidai.ac.jp/exhibit/2026/11/bunponichi26.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "三上亮退任記念展　（ひみつ）行為の無作為",
+      "start": "2026-10-03",
+      "end": "2026-10-18",
+      "url": "https://museum.geidai.ac.jp/exhibit/2026/10/mikamiryo.html",
+      "kind": "special",
+      "summary": "陶芸研究室・三上亮の退任展。代表作、焼成テスト、新作《round》を紹介（陳列館・正木記念館）",
+      "admission": "無料",
+      "hours": [{"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}],
+      "closed_dates": ["2026-10-05", "2026-10-13"]
+    },
+    {
+      "title": "古川聖退任記念展　共振する⾳とメディア 〜メディアアート・ミュージックの現在〜",
+      "start": "2026-10-31",
+      "end": "2026-11-08",
+      "url": "https://museum.geidai.ac.jp/exhibit/2026/10/furukawakiyoshi.html",
+      "kind": "special",
+      "summary": "古川聖教授の退任記念展。体験型作品、記録映像、メディアパフォーマンス（陳列館）",
+      "admission": "無料",
+      "hours": [{"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}]
+    },
+    {
+      "title": "ブンポニチ／⽂保⽇・展2026",
+      "start": "2026-11-11",
+      "end": "2026-11-15",
+      "url": "https://museum.geidai.ac.jp/exhibit/2026/11/bunponichi26.html",
+      "kind": "special",
+      "summary": "保存修復日本画研究室の学生・教員による研究成果を基にした創作展（陳列館2階）",
+      "admission": "無料",
+      "hours": [{"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}]
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "「展覧会の開催会期以外は閉館」「開館時間、観覧料は展覧会ごとに異なる」との記載。regular_hours は掲載した 3 展がいずれも 10:00〜17:00（入館16:30まで）のため、その値を入れた（総合案内に館共通の時間は無い）。上野の本館・陳列館の展覧会のみ掲載。9/23 で「藝大式 美術の“ミカタ”」「うるしのかたち展2026」が終了し、次は 10/3 から。取手館（茨城県）の「魅せる収蔵庫」（〜2027/3/30）と「先端芸術表現 x GAP合同助教・助手展」（9/25-27）は上野ではないため除外。9/21 の台風による臨時休館は終了済み。",
+  "confidence": "high"
+}

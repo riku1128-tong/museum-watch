@@ -1,0 +1,49 @@
+{
+  "id": "Q3789149",
+  "checked_at": "2026-09-24T00:43:21+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://mingeikan.or.jp/",
+  "address": "〒153-0041 東京都目黒区駒場4-3-33",
+  "source_urls": [
+    "https://mingeikan.or.jp/",
+    "https://mingeikan.or.jp/information/admission/",
+    "https://mingeikan.or.jp/information/calendar/",
+    "https://mingeikan.or.jp/exhibition/schedule/",
+    "https://mingeikan.or.jp/special/ex202608/",
+    "https://mingeikan.or.jp/category/news/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-01", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "創設90年記念　琉球王国の染織　尚家関連品と護得久家伝来品",
+      "start": "2026-08-22",
+      "end": "2026-11-03",
+      "url": "https://mingeikan.or.jp/special/ex202608/",
+      "kind": "special",
+      "summary": "尚家ゆかりの琉球紅型・織物約50点を中心に、沖縄染織に対する柳宗悦の眼を検証",
+      "admission": "一般 1,500円"
+    },
+    {
+      "title": "2026年度日本民藝館展 —新作工藝公募展—",
+      "start": "2026-11-22",
+      "end": "2026-12-17",
+      "url": "https://mingeikan.or.jp/exhibition/schedule/",
+      "kind": "special",
+      "summary": "日本各地の新作工芸品（陶磁・織物・染物・木工・漆工・金工ほか）の公募展",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「毎週月曜日（ただし祝日の場合は開館し翌日休館）年末年始、陳列替え等に伴う臨時休館あり」。年末年始の日付はカレンダー表示（12/29～1/1）から。10/17 の記念講演会時は 17:00～17:45頃に大展示室を閉鎖し、講演会後 20:00 まで展示公開。次の特別展「柳宗悦・蒐集物語」は 2027/1/6～3/10。",
+  "confidence": "high"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "Q11360245",
+  "checked_at": "2026-09-24T01:20:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.ueno-mori.org/",
+  "address": "〒110-0007 東京都台東区上野公園1-2",
+  "source_urls": [
+    "https://www.ueno-mori.org/",
+    "https://www.ueno-mori.org/about/",
+    "https://www.ueno-mori.org/exhibitions/",
+    "https://www.ueno-mori.org/exhibitions/shizen/39/",
+    "https://www.ueno-mori.org/specials/2026/yomu-yomu/",
+    "https://www.ueno-mori.org/exhibitions/taisho/45/",
+    "https://www.ueno-mori.org/exhibitions/article.cgi?id=12651051"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第39回 日本の自然を描く展",
+      "start": "2026-09-10",
+      "end": "2026-09-29",
+      "url": "https://www.ueno-mori.org/exhibitions/shizen/39/",
+      "kind": "other",
+      "summary": "身近な風景や風物を描いたF10号までの小品による公募展。作家名ごとに4期に分けて展示",
+      "admission": "一般 800円",
+      "hours": [
+        {"days": ["thu"], "open": "10:00", "close": "15:00", "last_entry": "14:30", "from": "2026-09-24", "to": "2026-09-24"},
+        {"days": ["tue"], "open": "10:00", "close": "15:00", "last_entry": "14:30", "from": "2026-09-29", "to": "2026-09-29"},
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+      ]
+    },
+    {
+      "title": "よむよむ展",
+      "start": "2026-09-18",
+      "end": "2026-09-29",
+      "url": "https://www.ueno-mori.org/specials/2026/yomu-yomu/",
+      "kind": "collection",
+      "summary": "上野の森美術館所蔵作品の「謎」に迫り、絵の読み解きを促す企画展。過去の大賞展受賞作も展示",
+      "admission": "無料"
+    },
+    {
+      "title": "シンシナティ美術館展 アメリカに渡ったヨーロッパの至宝",
+      "start": "2026-10-10",
+      "end": "2027-01-10",
+      "url": "https://www.ueno-mori.org/exhibitions/article.cgi?id=12651051",
+      "kind": "special",
+      "summary": "米国シンシナティ美術館が所蔵するヨーロッパ絵画の名品を紹介。会期中無休",
+      "admission": "一般 2,400円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は不定休（展示により異なる）。常設展示はなく、展覧会・公募展の会期外は休館。日本の自然を描く展は各期最終日（9/24・9/29）15:00閉館。シンシナティ美術館展は会期中無休（年末年始の扱いは明記なし）。",
+  "confidence": "high"
+}

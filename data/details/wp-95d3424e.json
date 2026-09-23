@@ -1,0 +1,28 @@
+{
+  "id": "wp-95d3424e",
+  "checked_at": "2026-09-24T00:43:21+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://museum-of-sculpture.org/",
+  "address": "〒153-0061 東京都目黒区中目黒4-12-18",
+  "source_urls": [
+    "http://museum-of-sculpture.org/",
+    "http://museum-of-sculpture.org/information",
+    "http://museum-of-sculpture.org/archives/225",
+    "http://museum-of-sculpture.org/archives/category/exhibition"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:45"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-20", "to": "2027-01-14", "reason": "冬期休館（毎年12月20日から1月14日）"}
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "notes": "入館無料。最新のお知らせ（2026/6/15）で本館入館時間は 10:15〜11:30・13:15〜16:15（昼は入館不可）、野外展示場は 10:00〜16:45、閉門 17:00。regular_hours は野外展示場の時間。休館日は「毎週月曜日（祝日の場合は翌日休館）」。展示入替のための臨時休館あり（電話で要確認）、猛暑日（35℃超予報）は臨時休館の場合あり。2023年告知では本館のみ毎月26日〜月末休館とあったが、現行の利用案内には記載なし。展覧会の個別情報はサイトに無い。https は自己署名証明書のため http で取得。",
+  "confidence": "medium"
+}

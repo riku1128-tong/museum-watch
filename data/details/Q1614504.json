@@ -1,0 +1,39 @@
+{
+  "id": "Q1614504",
+  "checked_at": "2026-09-24T00:42:54+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.sompo-museum.org/",
+  "address": null,
+  "source_urls": [
+    "https://www.sompo-museum.org/",
+    "https://www.sompo-museum.org/exhibitions/schedule/",
+    "https://www.sompo-museum.org/exhibitions/2025/albertmarquet/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "アルベール・マルケ展",
+      "start": "2026-09-22",
+      "end": "2026-12-13",
+      "url": "https://www.sompo-museum.org/exhibitions/2025/albertmarquet/",
+      "kind": "special",
+      "summary": "フォーヴィスムに関わり水辺の風景を描いたマルケの35年ぶりの回顧展。約90点",
+      "admission": "一般 2,000円",
+      "hours": [
+        {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"},
+        {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+      ]
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「月曜日（祝日・振替休日の場合は開館し翌平日休）、展示替期間／年末年始」。マルケ展ページで 9/24・10/13・11/24 休館、10/12・11/23 開館を確認。金曜 20:00 までの延長は展覧会ごと。前期 11/1 まで、後期 11/3 から。次回「生誕130年 東郷青児展」は 2027/1/9〜。台風等で JR 計画運休時は臨時休館。",
+  "confidence": "high"
+}

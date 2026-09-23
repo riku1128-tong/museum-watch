@@ -1,0 +1,41 @@
+{
+  "id": "Q7686506",
+  "checked_at": "2026-09-24T00:44:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "改修工事中（令和8年3月30日〜令和11年3月31日予定）。館内無料スペースでのミニ展示のみ",
+  "official_url": "https://www.taromuseum.jp/",
+  "address": "〒214-0032 神奈川県川崎市多摩区枡形7-1-5 生田緑地内",
+  "source_urls": [
+    "https://www.taromuseum.jp/",
+    "https://www.taromuseum.jp/hoursadmission.html",
+    "https://www.taromuseum.jp/exhibition.html",
+    "https://www.taromuseum.jp/nextexhibition.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-09-24", "to": "2026-09-24", "reason": "祝日の翌日のため休館"},
+    {"from": "2026-10-14", "to": "2026-10-14", "reason": "休館日（展覧会ページの記載）"},
+    {"from": "2026-11-04", "to": "2026-11-04", "reason": "祝日の翌日のため休館"},
+    {"from": "2026-11-24", "to": "2026-11-24", "reason": "祝日の翌日のため休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "無料ミニ企画「ちょこっとTARO　太郎のかわいい」",
+      "start": "2026-07-18",
+      "end": "2026-12-06",
+      "url": "https://www.taromuseum.jp/exhibition.html",
+      "kind": "special",
+      "summary": "改修工事中の館内無料スペースで、岡本太郎作品の「かわいい」に注目するミニ企画",
+      "admission": "無料"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "休館日の規則は「月曜日（祝日の場合を除く）、祝日の翌日（土日の場合を除く）、年末年始」。render の holiday_rule では「祝日の翌日」を表せないため、展覧会ページに出ている日付（9/24・10/14・11/4・11/24）を special_closures に入れた。10/12（祝）の翌日は 10/13 ではなく 10/14 休館と記載。年末年始の日付は未掲載。出張展示「岡本太郎と沖縄 in Museum⁺205」（9/18-11/8）は館外会場のため除外。12/7 以降の展示は「更新情報をお待ちください」。",
+  "confidence": "high"
+}

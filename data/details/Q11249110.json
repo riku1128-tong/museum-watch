@@ -1,0 +1,45 @@
+{
+  "id": "Q11249110",
+  "checked_at": "2026-09-24T00:43:53+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.suntory.co.jp/sma/",
+  "address": "〒107-8643 東京都港区赤坂9-7-4 東京ミッドタウン ガレリア3階",
+  "source_urls": [
+    "https://kyodonewsprwire.jp/release/202606160958",
+    "https://kyodonewsprwire.jp/release/202509054686",
+    "https://www.museum.or.jp/museum/13940"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00"},
+    {"days": ["fri"], "open": "10:00", "close": "20:00"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "逸翁美術館コレクション 蕪村・呉春と茶の湯の名品",
+      "start": "2026-09-16",
+      "end": "2026-11-08",
+      "url": "https://www.suntory.co.jp/sma/exhibition/2026_3/index.html",
+      "kind": "special",
+      "summary": "小林一三が集めた逸翁美術館コレクションから古筆切・茶道具・与謝蕪村と呉春の絵画などの名品を紹介",
+      "admission": "一般 1,700円"
+    },
+    {
+      "title": "法華経の美術（仮称）",
+      "start": "2026-12-12",
+      "end": "2027-02-07",
+      "url": null,
+      "kind": "special",
+      "summary": "法華経にかかわる美術を紹介する展覧会（仮称）",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "公式サイト（suntory.co.jp/sma）は WebFetch・curl とも 403 で読めず、サントリー美術館のプレスリリース（共同通信PRワイヤー）とインターネットミュージアムで確認。火曜休館（9/22・11/3 は18時まで開館）、年末年始・展示替期間休館。蕪村・呉春展の会期中は金曜と 11/7（土）が20時まで、10/31（土）は六本木アートナイトで延長（終了時刻は未確認）。展示替：前期 9/16〜10/12、後期 10/14〜11/8。インターネットミュージアムには「金・土は20:00まで」とあるが、今回の展覧会の告知は金曜のみのため金曜だけ延長にしている。",
+  "confidence": "medium"
+}

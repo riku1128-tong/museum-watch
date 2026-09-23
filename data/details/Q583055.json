@@ -1,0 +1,24 @@
+{
+  "id": "Q583055",
+  "checked_at": "2026-09-24T00:42:36+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "改修・移転準備のため休館中（再開時期は未発表）。休館中は渋谷ヒカリエ「9F ヒカリエホール」など他会場で展覧会を開催",
+  "official_url": "https://www.bunkamura.co.jp/museum/",
+  "address": null,
+  "source_urls": [
+    "https://www.bunkamura.co.jp/museum/",
+    "https://www.bunkamura.co.jp/museum/about/facility.html",
+    "https://www.bunkamura.co.jp/pickup/exhibition.html",
+    "https://www.bunkamura.co.jp/topics/10505.html"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトに「Bunkamuraザ・ミュージアムは現在休館中です」。Bunkamura は 2027年1月4日(月)より全館休館。ザ・ミュージアムは Shibuya Upper West Project の新施設へ移転予定。他会場での展覧会ラインアップは公式ページから読み取れなかった。",
+  "confidence": "high"
+}

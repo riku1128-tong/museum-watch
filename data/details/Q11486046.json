@@ -1,0 +1,66 @@
+{
+  "id": "Q11486046",
+  "checked_at": "2026-09-24T00:42:54+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.fuchu.tokyo.jp/art/",
+  "address": "〒183-0001 東京都府中市浅間町1丁目3番地（都立府中の森公園内）",
+  "source_urls": [
+    "https://www.city.fuchu.tokyo.jp/art/",
+    "https://www.city.fuchu.tokyo.jp/art/goriyou/riyo.html",
+    "https://www.city.fuchu.tokyo.jp/art/tenrankai/kikakutenkaisai/2026_BotanicalArt.html",
+    "https://www.city.fuchu.tokyo.jp/art/tenrankai/schedule/index.html",
+    "https://www.city.fuchu.tokyo.jp/art/tenrankai/jyosetu/index.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-07", "to": "2026-09-18", "reason": "展示替え"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "花のある暮らし　ボタニカルアートとデザイン",
+      "start": "2026-09-19",
+      "end": "2026-11-29",
+      "url": "https://www.city.fuchu.tokyo.jp/art/tenrankai/kikakutenkaisai/2026_BotanicalArt.html",
+      "kind": "special",
+      "summary": "植物画から、カーティス・ボタニカル・マガジン、ウェッジウッド、モリスの壁紙まで暮らしを彩った花",
+      "admission": "一般 1,000円"
+    },
+    {
+      "title": "しぜんのかたち",
+      "start": "2026-09-19",
+      "end": "2026-11-29",
+      "url": "https://www.city.fuchu.tokyo.jp/art/tenrankai/jyosetu/index.html",
+      "kind": "collection",
+      "summary": "児島善三郎、牛島憲之らの作品で自然のかたちの表現をたどるコレクション展",
+      "admission": "一般 200円"
+    },
+    {
+      "title": "近年の新収蔵作品から",
+      "start": "2026-09-19",
+      "end": "2026-11-29",
+      "url": "https://www.city.fuchu.tokyo.jp/art/tenrankai/jyosetu/index.html",
+      "kind": "collection",
+      "summary": "近年の新収蔵作品を紹介するコレクション展",
+      "admission": "一般 200円"
+    },
+    {
+      "title": "郵便と／の美術",
+      "start": "2026-12-12",
+      "end": "2027-02-21",
+      "url": "https://www.city.fuchu.tokyo.jp/art/tenrankai/schedule/index.html",
+      "kind": "special",
+      "summary": "郵便と美術をテーマにした企画展",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「月曜日（この日が祝日の場合はその翌日）」「国民の祝日の翌日など」「年末年始、展示替えの期間など」。トップの休館日一覧で 9/24（木）・10/13（火）休館、10/12 開館を確認。展示替え期間は館全体が休館（9/7-9/18 の実績）のため closed_between_exhibitions=true。年末年始休館の日付と 11/30-12/11 の休館日程は未確認。",
+  "confidence": "high"
+}

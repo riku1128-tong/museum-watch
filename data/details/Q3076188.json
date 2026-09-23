@@ -1,0 +1,43 @@
+{
+  "id": "Q3076188",
+  "checked_at": "2026-09-24T00:55:00+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "開館準備のため休館中。2026年11月3日（火・祝）グランドオープン予定",
+  "official_url": "https://shozokan.nich.go.jp/",
+  "address": "〒100-0001 東京都千代田区千代田1-8 皇居東御苑内",
+  "source_urls": [
+    "https://shozokan.nich.go.jp/",
+    "https://shozokan.nich.go.jp/visit/calendar",
+    "https://shozokan.nich.go.jp/exhibitions/grand-opening-1"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-11-25", "to": "2026-11-25", "reason": "展示替えのため休館"},
+    {"from": "2026-12-22", "to": "2026-12-22", "reason": "展示替えのため休館"},
+    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "皇室の至宝—美いづるところ",
+      "start": "2026-11-03",
+      "end": "2027-01-24",
+      "url": "https://shozokan.nich.go.jp/exhibitions/grand-opening-1",
+      "kind": "special",
+      "summary": "国宝・重文の収蔵品に正倉院宝物や法隆寺献納宝物、近代皇室ゆかりの名品を集める",
+      "admission": "一般 2,500円",
+      "hours": [
+        {"days": ["fri", "sat"], "open": "09:30", "close": "20:00", "last_entry": "19:30"},
+        {"days": ["mon", "tue", "wed", "thu", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+      ]
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「月曜日（ただし月曜が祝日または休日の場合は開館し、翌平日休館）、年末年始、天皇誕生日および展示替期間」。グランドオープン展の休館日は月曜（11/23・1/11除く）、11/24・11/25・12/22・12/28〜1/3・1/12。前期11/3-23、中期11/26-12/20、後期12/23-1/24で全作品入れ替え。金曜は皇居東御苑休園で大手門からのみ入門。11/3の開館後は operating に切り替えること。",
+  "confidence": "high"
+}

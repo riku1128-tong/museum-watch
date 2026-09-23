@@ -1,0 +1,64 @@
+{
+  "id": "Q1134422",
+  "checked_at": "2026-09-24T00:43:53+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.hakone-oam.or.jp/",
+  "address": "〒250-0493 神奈川県足柄下郡箱根町二ノ平1121",
+  "source_urls": [
+    "https://www.hakone-oam.or.jp/",
+    "https://www.hakone-oam.or.jp/info/",
+    "https://www.hakone-oam.or.jp/exhibitions/",
+    "https://www.hakone-oam.or.jp/exhibitions/article_reg.cgi?id=12868907",
+    "https://www.hakone-oam.or.jp/specials/2026/unique-collection/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "草間彌生 われは南瓜",
+      "start": "2026-04-19",
+      "end": "2027-09-24",
+      "url": "https://www.hakone-oam.or.jp/exhibitions/article_reg.cgi?id=12868907",
+      "kind": "collection",
+      "summary": "通年。新収蔵の草間彌生の花崗岩彫刻《われは南瓜》を屋外展示場で公開",
+      "admission": "一般 2,000円"
+    },
+    {
+      "title": "草間彌生《南瓜》インスタレーション展示",
+      "start": "2026-04-19",
+      "end": "2026-11-01",
+      "url": "https://www.hakone-oam.or.jp/exhibitions/article.cgi?id=13079026",
+      "kind": "special",
+      "summary": "《われは南瓜》関連企画。丸太広場キトキで草間作品のインスタレーションとインタビュー動画を公開",
+      "admission": "一般 2,000円"
+    },
+    {
+      "title": "Unique Collection―新しい切り口から見る、彫刻の森コレクションの個性―",
+      "start": "2026-01-31",
+      "end": "2027-09-24",
+      "url": "https://www.hakone-oam.or.jp/specials/2026/unique-collection/",
+      "kind": "collection",
+      "summary": "通年（終了日未定）。本館ギャラリーで新しい切り口から彫刻の森コレクションの個性を紹介",
+      "admission": "一般 2,000円"
+    },
+    {
+      "title": "彫刻の森美術館名作コレクション",
+      "start": "2024-12-06",
+      "end": "2027-09-24",
+      "url": "https://hakone-oam.or.jp/specials/2024/masterpiece/",
+      "kind": "collection",
+      "summary": "通年（終了日未定）。アートホールで館の名作コレクションを展示",
+      "admission": "一般 2,000円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "9:00〜17:00、年中無休。入館料は館共通で一般 当日窓口2,000円（WEBチケット1,800円）。ピカソ館では常設企画展「ピカソの原動力」を開催中（会期未確認のため展示一覧には入れていない）。入館締切時刻は公式ページで確認できなかった。",
+  "confidence": "high"
+}

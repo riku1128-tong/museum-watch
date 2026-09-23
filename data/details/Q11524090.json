@@ -1,0 +1,37 @@
+{
+  "id": "Q11524090",
+  "checked_at": "2026-09-24T00:43:53+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.operacity.jp/ag/",
+  "address": "〒163-1403 東京都新宿区西新宿3-20-2",
+  "source_urls": [
+    "https://www.operacity.jp/ag/",
+    "https://www.operacity.jp/ag/information/",
+    "https://www.operacity.jp/topics/detail.php?id=940",
+    "https://www.museum.or.jp/event/125740",
+    "https://www.tokyoartbeat.com/events/-/Seeds-and-Roots-How-to-Cultivate-a-City/92-D81763/2026-10-17"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "19:00", "last_entry": "18:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "種と根っこ ─ 都市の耕し方",
+      "start": "2026-10-17",
+      "end": "2026-12-20",
+      "url": "https://www.operacity.jp/topics/detail.php?id=940",
+      "kind": "special",
+      "summary": "都市の隙間に生まれる新しい生態系を手がかりに、人と自然の関係を現代美術・建築・ファッションから考える",
+      "admission": "一般 1,800円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "月曜休館（祝日の場合は翌火曜）、展示替期間中・年末年始・全館休館日（2月第2日曜日、8月第1日曜日）休館。前の企画展「ほぼ空 青木淳 + リチャード・タトル」は 2026-09-23 で終了し、次の「種と根っこ」（中止になったダン・グレアム展の会期に開催）までは展示替期間。同時開催の収蔵品展・project N は公式ページが JS 描画で読めず未確認。「種と根っこ」の入場料は Tokyo Art Beat の記載。年末年始の具体的な日付は未確認。",
+  "confidence": "medium"
+}

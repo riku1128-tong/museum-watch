@@ -1,0 +1,30 @@
+{
+  "id": "Q22119727",
+  "checked_at": "2026-09-24T00:43:21+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "2025年4月から改修のため休館中。2026年10月1日（木）より開館予定",
+  "official_url": "https://nakagawamuseum.jp/",
+  "address": "神奈川県足柄下郡真鶴町真鶴1178-1",
+  "source_urls": [
+    "https://nakagawamuseum.jp/",
+    "https://nakagawamuseum.jp/guide/",
+    "https://nakagawamuseum.jp/exhibition/",
+    "https://nakagawamuseum.jp/blog.html",
+    "https://nakagawamuseum.jp/%e4%b8%ad%e5%b7%9d%e4%b8%80%e6%94%bf%e7%be%8e%e8%a1%93%e9%a4%a8%e9%96%8b%e9%a4%a8%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b.html",
+    "https://nakagawamuseum.jp/%e6%b0%b4%e6%9b%9c%e6%97%a5%e3%83%bb%e6%9c%a8%e6%9b%9c%e6%97%a5%e3%81%af%e4%bc%91%e9%a4%a8%e6%97%a5%e3%81%a7%e3%81%99%e3%80%82.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "16:00", "last_entry": "15:30"}
+  ],
+  "closed_weekdays": ["wed", "thu"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [
+    {"date": "2026-10-01", "open": "10:00", "close": "16:00", "note": "リニューアル開館日（木曜だが開館と告知）"}
+  ],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "notes": "開館のお知らせ（2026/9/10）で休館日は「水曜日・木曜日、館内作業日、年末年始」、入館料は大人一般 800円。利用案内ページは「不定休」表記のまま。祝日の扱いの記載なし。再開後の展示内容・会期は未掲載。10/1 以降は operating に更新が必要。",
+  "confidence": "medium"
+}

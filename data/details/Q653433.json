@@ -1,0 +1,101 @@
+{
+  "id": "Q653433",
+  "checked_at": "2026-09-24T00:44:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.tnm.jp/",
+  "address": "〒110-8712 東京都台東区上野公園13-9",
+  "source_urls": [
+    "https://www.tnm.jp/",
+    "https://www.tnm.jp/modules/r_free_page/index.php?id=113",
+    "https://www.tnm.jp/modules/r_calender/index.php?date=today",
+    "https://www.tnm.jp/modules/r_db/index.php?controller=list&t=news",
+    "https://www.tnm.jp/modules/r_free_page/index.php?id=2501",
+    "https://www.tnm.jp/modules/r_free_page/index.php?id=2759",
+    "https://www.tnm.jp/modules/r_free_page/index.php?id=2770"
+  ],
+  "regular_hours": [
+    {"days": ["sun"], "open": "09:30", "close": "20:00", "last_entry": "19:30", "from": "2026-10-11", "to": "2026-10-11"},
+    {"days": ["sun"], "open": "09:30", "close": "20:00", "last_entry": "19:30", "from": "2026-11-22", "to": "2026-11-22"},
+    {"days": ["sun"], "open": "09:30", "close": "20:00", "last_entry": "19:30", "from": "2027-01-10", "to": "2027-01-10"},
+    {"days": ["fri", "sat"], "open": "09:30", "close": "20:00", "last_entry": "19:30"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-26", "to": "2026-12-31", "reason": "年末年始休館"}
+  ],
+  "special_openings": [
+    {"date": "2026-11-02", "open": "09:30", "close": "20:00", "note": "月曜だが開館（広重展・大徳寺展ページの記載。大徳寺展は20時まで）"},
+    {"date": "2026-11-30", "open": "09:30", "close": "17:00", "note": "月曜だが特別展「大徳寺」は開館（大徳寺展ページの記載。広重展は休室）"}
+  ],
+  "exhibitions": [
+    {
+      "title": "歌川広重　江戸のベストアングル",
+      "start": "2026-09-29",
+      "end": "2026-12-20",
+      "url": "https://www.tnm.jp/modules/r_free_page/index.php?id=2759",
+      "kind": "special",
+      "summary": "内山晋コレクション受贈記念。歌川広重の作品を紹介（本館）",
+      "admission": "一般 1,500円",
+      "closed_dates": ["2026-11-30", "2026-12-15"]
+    },
+    {
+      "title": "大徳寺　本朝無双之禅苑",
+      "start": "2026-10-14",
+      "end": "2026-12-06",
+      "url": "https://www.tnm.jp/modules/r_free_page/index.php?id=2770",
+      "kind": "special",
+      "summary": "開創700年記念。京都・大徳寺の寺宝を東京で初めて公開（平成館）",
+      "admission": "一般 2,300円",
+      "hours": [
+        {"days": ["sun"], "open": "09:30", "close": "20:00", "from": "2026-11-01", "to": "2026-11-01"},
+        {"days": ["sun"], "open": "09:30", "close": "20:00", "from": "2026-11-22", "to": "2026-11-22"},
+        {"days": ["mon"], "open": "09:30", "close": "20:00", "from": "2026-11-02", "to": "2026-11-02"},
+        {"days": ["fri", "sat"], "open": "09:30", "close": "20:00"},
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "09:30", "close": "17:00"}
+      ]
+    },
+    {
+      "title": "特集 渡来人が見た長野",
+      "start": "2026-09-29",
+      "end": "2026-12-20",
+      "url": "https://www.tnm.jp/modules/r_free_page/index.php?id=2774",
+      "kind": "other",
+      "summary": "渡来人と長野をテーマにした特集展示",
+      "admission": "総合文化展 一般 1,000円"
+    },
+    {
+      "title": "博物館でアジアの旅 カラフルアジア",
+      "start": "2026-09-15",
+      "end": "2026-11-08",
+      "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=5&id=11783",
+      "kind": "other",
+      "summary": "アジアの文化財を「カラフル」をテーマにめぐる館内企画",
+      "admission": "総合文化展 一般 1,000円"
+    },
+    {
+      "title": "親と子のギャラリー この顔どんな顔？能面のあらわすきもち",
+      "start": "2026-09-01",
+      "end": "2026-10-25",
+      "url": null,
+      "kind": "other",
+      "summary": "能面の表情と感情を親子で楽しむ展示（本館4室）",
+      "admission": "総合文化展 一般 1,000円"
+    },
+    {
+      "title": "総合文化展",
+      "start": "2026-09-24",
+      "end": "2027-09-24",
+      "url": "https://www.tnm.jp/",
+      "kind": "collection",
+      "summary": "通年。本館・東洋館・平成館・法隆寺宝物館などでの所蔵品展示",
+      "admission": "一般 1,000円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "夜間開館は金・土と「翌月曜日が祝・休日の場合の日曜日」（20時まで）。後者は規則から 10/11・11/22・2027/1/10 を regular_hours に入れた。9/24 は 9/21 祝日開館の振替休館（トップに「本日は休館日です」）。12/15（火）の休館は広重展ページにのみ記載のため展覧会の closed_dates に入れた（館全体かは未確認）。大徳寺展は 11/1（日）も20時まで。カレンダーは JS 描画で読めず。源氏物語展（2027/1/19〜）は3か月超のため未掲載。",
+  "confidence": "high"
+}

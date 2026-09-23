@@ -1,0 +1,54 @@
+{
+  "id": "Q1047097",
+  "checked_at": "2026-09-24T00:43:53+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.nezu-muse.or.jp/",
+  "address": "〒107-0062 東京都港区南青山6-5-1",
+  "source_urls": [
+    "https://www.nezu-muse.or.jp/",
+    "https://www.nezu-muse.or.jp/jp/visit/",
+    "https://www.nezu-muse.or.jp/jp/exhibitions/schedule/",
+    "https://www.nezu-muse.or.jp/jp/exhibitions/view-120.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "やきもの名品紀行 ―中国・日本・朝鮮半島―",
+      "start": "2026-08-15",
+      "end": "2026-10-12",
+      "url": "https://www.nezu-muse.or.jp/jp/exhibitions/view-120.html",
+      "kind": "special",
+      "summary": "館蔵陶磁器から名品を厳選し、中国・日本・朝鮮半島のやきものを展示室ごとに紹介",
+      "admission": "一般 1,600円（オンライン日時指定予約 1,400円）"
+    },
+    {
+      "title": "舞楽装束",
+      "start": "2026-10-24",
+      "end": "2026-11-23",
+      "url": "https://www.nezu-muse.or.jp/jp/exhibitions/schedule/",
+      "kind": "special",
+      "summary": "舞楽の装束を紹介する特別展",
+      "admission": null
+    },
+    {
+      "title": "彫る漆",
+      "start": "2026-12-05",
+      "end": "2027-01-17",
+      "url": "https://www.nezu-muse.or.jp/jp/exhibitions/schedule/",
+      "kind": "special",
+      "summary": "彫漆など漆を彫る技法の工芸を紹介する企画展",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "月曜休館（祝日の場合は翌火曜）・展示替期間・年末年始休館。やきもの名品紀行の会期中は 9/21・10/12（月・祝）開館、9/24（木）休館と明記。入館料は企画展 一般1,600円（当日）、特別展 一般1,800円〜（当日）。オンライン日時指定予約あり。年末年始の具体的な休館日は未確認。トップページは 403 で読めなかった。",
+  "confidence": "high"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Q3329572",
+  "checked_at": "2026-09-24T00:42:36+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.yamatane-museum.jp/",
+  "address": "〒150-0012 東京都渋谷区広尾3-12-36",
+  "source_urls": [
+    "https://www.yamatane-museum.jp/",
+    "https://www.yamatane-museum.jp/guidance/",
+    "https://www.yamatane-museum.jp/exhibitions/2026/togyu.html",
+    "https://www.yamatane-museum.jp/exhibitions/2026/yamatane-collection1.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "奥村土牛 ―名作でたどる100年のあゆみ―",
+      "start": "2026-08-08",
+      "end": "2026-10-04",
+      "url": "https://www.yamatane-museum.jp/exhibitions/2026/togyu.html",
+      "kind": "special",
+      "summary": "日本屈指の土牛コレクションから《鳴門》《醍醐》など約60点で画業を回顧",
+      "admission": "一般 1,500円"
+    },
+    {
+      "title": "ザ・ベスト・オブ・山種コレクションⅠ―横山大観、竹内栖鳳から上村松園、速水御舟へ―",
+      "start": "2026-10-10",
+      "end": "2026-12-06",
+      "url": "https://www.yamatane-museum.jp/exhibitions/2026/yamatane-collection1.html",
+      "kind": "special",
+      "summary": "重要文化財・竹内栖鳳《班猫》など近代日本画の名品約40点",
+      "admission": "一般 1,500円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「毎週月曜日（祝日は開館、翌日火曜日は休館）展示替え期間、年末年始」。奥村土牛展ページに「9月24日(木)は休館」と明記（祝日ルールの算出と一致）。10/5〜10/9 は展示と展示の間。年末年始の具体的日付は未確認。",
+  "confidence": "high"
+}

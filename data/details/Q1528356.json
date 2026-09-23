@@ -1,0 +1,36 @@
+{
+  "id": "Q1528356",
+  "checked_at": "2026-09-24T00:55:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.murauchi.net/museum/",
+  "address": "〒192-0012 東京都八王子市左入町787 村内ファニチャーアクセス八王子本店内 3階",
+  "source_urls": [
+    "https://www.murauchi.net/museum/",
+    "https://www.murauchi.net/museum/aceess.html",
+    "https://www.murauchi.net/museum/exhibition.html",
+    "https://www.murauchi.net/museum/news_rn.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:30", "close": "17:30", "last_entry": "17:00"}
+  ],
+  "closed_weekdays": ["wed"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展示（絵画・チェア・名車）",
+      "start": "2026-09-24",
+      "end": "2027-09-24",
+      "url": "https://www.murauchi.net/museum/exhibition.html",
+      "kind": "collection",
+      "summary": "通年。所蔵絵画と名作チェア、名車の常設展示。9月は「今月の椅子」を紹介",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「毎週水曜日（祝日の場合は開館、翌平日は振替休館）、年末年始」。年末年始の具体的な日付は未掲載。入館料の記載は見当たらず。常設展示のみで会期のある企画展は見当たらない（start は確認日）。",
+  "confidence": "high"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "Q864700",
+  "checked_at": "2026-09-24T00:44:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.mitsui-museum.jp/",
+  "address": "東京都中央区日本橋室町二丁目1番1号 三井本館7階",
+  "source_urls": [
+    "https://www.mitsui-museum.jp/",
+    "https://www.mitsui-museum.jp/guide/index.html",
+    "https://www.mitsui-museum.jp/exhibition/index.html",
+    "https://www.mitsui-museum.jp/exhibition/schedule.html",
+    "https://www.mitsui-museum.jp/exhibition/next.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-10-13", "to": "2026-10-13", "reason": "休館日（展覧会ページの記載）"},
+    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始休館"}
+  ],
+  "special_openings": [
+    {"date": "2026-11-02", "open": "10:00", "close": "17:00", "note": "月曜だが開館（展覧会ページの記載）"},
+    {"date": "2027-01-04", "open": "10:00", "close": "17:00", "note": "月曜だが開館（次回展ページの記載）"}
+  ],
+  "exhibitions": [
+    {
+      "title": "館蔵の茶碗100撰 ―国宝から手造茶碗まで―",
+      "start": "2026-09-12",
+      "end": "2026-11-23",
+      "url": "https://www.mitsui-museum.jp/exhibition/index.html",
+      "kind": "special",
+      "summary": "国宝・重要文化財を含む館蔵の茶碗から、三井家ゆかりの名品など100件を選んで展示",
+      "admission": "一般 1,200円"
+    },
+    {
+      "title": "国宝 雪松図と四季",
+      "start": "2026-12-12",
+      "end": "2027-01-30",
+      "url": "https://www.mitsui-museum.jp/exhibition/next.html",
+      "kind": "special",
+      "summary": "国宝「雪松図屏風」の公開にあわせ、館蔵の書画・工芸の四季・気象表現に注目",
+      "admission": "一般 1,200円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「月曜日」。祝日の扱いは利用案内に記載なし。展覧会ページでは 9/21・10/12・11/2・11/23 の月曜は開館、10/13（火）休館（9/21 後の振替休館は記載なし）のため holiday_rule は open とし、10/13 を special_closures に入れた。展示替え期間（11/24〜12/11）は閉館扱い。夜間開館の記載なし。",
+  "confidence": "high"
+}

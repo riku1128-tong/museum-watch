@@ -1,0 +1,62 @@
+{
+  "id": "Q1359908",
+  "checked_at": "2026-09-24T00:43:21+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.momat.go.jp/",
+  "address": "〒102-8322 東京都千代田区北の丸公園3-1",
+  "source_urls": [
+    "https://www.momat.go.jp/",
+    "https://www.momat.go.jp/calendar",
+    "https://www.momat.go.jp/exhibitions",
+    "https://www.momat.go.jp/tickets",
+    "https://www.momat.go.jp/topics",
+    "https://www.momat.go.jp/exhibitions/r8-2",
+    "https://www.momat.go.jp/exhibitions/r8-2-g4",
+    "https://www.momat.go.jp/exhibitions/570"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"},
+    {"days": ["fri", "sat"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-22", "to": "2026-10-22", "reason": "休館（所蔵作品展・あみ・ど・ぱり展の休館日として記載）"},
+    {"from": "2026-12-28", "to": "2027-01-01", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "所蔵作品展 MOMATコレクション",
+      "start": "2026-09-29",
+      "end": "2027-01-11",
+      "url": "https://www.momat.go.jp/exhibitions/r8-2",
+      "kind": "collection",
+      "summary": "所蔵品約200点で19世紀末から現在の日本近現代美術を全12室で紹介",
+      "admission": "一般 500円"
+    },
+    {
+      "title": "あみ・ど・ぱり　巴里の日本人芸術家たち",
+      "start": "2026-09-29",
+      "end": "2027-01-11",
+      "url": "https://www.momat.go.jp/exhibitions/r8-2-g4",
+      "kind": "collection",
+      "summary": "藤田嗣治・佐伯祐三・高野三三男ら戦前戦後にパリで制作した日本人芸術家を紹介（所蔵品ギャラリー2階）",
+      "admission": "一般 500円"
+    },
+    {
+      "title": "竹久夢二　時代を創る表現者",
+      "start": "2026-10-23",
+      "end": "2027-01-11",
+      "url": "https://www.momat.go.jp/exhibitions/570",
+      "kind": "special",
+      "summary": "《黒船屋》ほか全国の夢二コレクション約500点で竹久夢二の多岐にわたる活動を紹介",
+      "admission": "一般 2,100円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「月曜日（祝休日は開館し翌平日休館）、展示替期間、年末年始」。現在は展示替期間で開催中の展覧会なし（次は9/29から）。展示替期間の具体的な日付の告知は見当たらない。10/13・11/24 は祝日翌日の休館（holiday_rule で判定）。10/22 は所蔵作品展と「あみ・ど・ぱり」の休館日に記載（夢二展は 10/23 開幕）。「あみ・ど・ぱり」の休館日には 10/13 の記載が無い。所蔵作品展の観覧料は 2027/2/9 から一般 1,000円に改定予定。",
+  "confidence": "high"
+}

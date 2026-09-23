@@ -1,0 +1,34 @@
+{
+  "id": "Q97613610",
+  "checked_at": "2026-09-24T00:43:21+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.teamlab.art/jp/e/planets/",
+  "address": "東京都江東区豊洲6-1-16",
+  "source_urls": [
+    "https://planets.teamlab.art/tokyo/",
+    "https://www.teamlab.art/jp/e/planets/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "08:00", "close": "22:00", "last_entry": "21:00"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "チームラボプラネッツ TOKYO DMM",
+      "start": "2018-07-07",
+      "end": "2027-09-24",
+      "url": "https://www.teamlab.art/jp/e/planets/",
+      "kind": "other",
+      "summary": "通年。水に入る作品などで構成されるチームラボの没入型ミュージアム（会期は2027年末まで）",
+      "admission": "大人 4,200円（変動価格制）"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "公式ページは JS 描画のため HTML を直接取得して読んだ。会期は「2018.7.07(土) – 2027年末」。休館日の記載は見当たらない（定休日なしとして扱った）。入場時間指定制。作品「人と共に踊る鯉によって描かれる水面のドローイング - Infinity」は 9/24 までメンテナンスで鑑賞不可。",
+  "confidence": "medium"
+}

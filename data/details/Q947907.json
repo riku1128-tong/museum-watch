@@ -1,0 +1,44 @@
+{
+  "id": "Q947907",
+  "checked_at": "2026-09-24T00:49:52+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.ghibli-museum.jp/",
+  "address": "〒181-0013 東京都三鷹市下連雀1-1-83",
+  "source_urls": [
+    "https://www.ghibli-museum.jp/",
+    "https://www.ghibli-museum.jp/info/",
+    "https://www.ghibli-museum.jp/ticket/",
+    "https://www.ghibli-museum.jp/news/",
+    "https://www.ghibli-museum.jp/exhibition/013979/",
+    "https://www.city.mitaka.lg.jp/c_service/001/001559.html",
+    "https://l-tike.com/ghibli/calendar/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-11-04", "to": "2026-11-18", "reason": "メンテナンス休館"},
+    {"from": "2026-12-27", "to": "2027-01-02", "reason": "冬季休館"}
+  ],
+  "special_openings": [
+    {"date": "2027-01-05", "open": "10:00", "close": "18:00", "note": "火曜だが開館（開館カレンダー）"}
+  ],
+  "exhibitions": [
+    {
+      "title": "『山脇百合子の仕事部屋』展 ～ごちゃごちゃから見えるもの～",
+      "start": "2025-11-19",
+      "end": "2027-05-31",
+      "url": "https://www.ghibli-museum.jp/exhibition/013979/",
+      "kind": "special",
+      "summary": "『いやいやえん』『ぐりとぐら』の絵を描いた山脇百合子の仕事部屋を再現。会期末は「2027年5月（予定）」",
+      "admission": "大人・大学生 1,000円（日時指定予約制）"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "日時指定の予約制（ローソンチケット、毎月10日10時に翌月分発売）。窓口販売なし。入場時間は10時〜16時の毎正時、指定時間から1時間以内に入場。休館日は毎週火曜（祝休日の火曜 9/22・11/3・2027/2/23 などは開館、振替休館の記載なし）。長期休館・火曜開館日はローチケの開館カレンダー（公式サイトからリンク）を検索結果経由で確認したもので、ページ本体は直接読めなかった。企画展の会期末は公式に日付が無く「2027年5月（予定）」のため仮に月末を入れている。",
+  "confidence": "medium"
+}

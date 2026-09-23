@@ -1,0 +1,35 @@
+{
+  "id": "Q11603353",
+  "checked_at": "2026-09-24T00:42:54+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.lalique-museum.com/",
+  "address": "〒250-0631 神奈川県足柄下郡箱根町仙石原186番地1",
+  "source_urls": [
+    "https://www.lalique-museum.com/",
+    "https://www.lalique-museum.com/about_use/",
+    "https://www.lalique-museum.com/news/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "16:00", "last_entry": "15:30"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "ルネ・ラリックにみる日本とフランスの\"かわいい\"文化交流",
+      "start": "2026-03-20",
+      "end": "2026-12-06",
+      "url": "https://www.lalique-museum.com/",
+      "kind": "special",
+      "summary": "ルネ・ラリック作品から日仏の「かわいい」文化交流をたどる企画展",
+      "admission": "大人 1,500円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「成人の日の翌日から11日間(展示替えのため臨時休館あり)」で、定休日なし。2027年の日付は公式未掲載。レストランは 11:00-17:00。入館料 1,500円は館の大人料金。常設展示は会期表記がないため未記載。",
+  "confidence": "high"
+}

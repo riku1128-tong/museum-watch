@@ -1,0 +1,35 @@
+{
+  "id": "wp-f2d42c9c",
+  "checked_at": "2026-09-24T00:42:36+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.hakenomori-art-museum.jp/",
+  "address": "〒184-0012 東京都小金井市中町1-11-3",
+  "source_urls": [
+    "https://www.hakenomori-art-museum.jp/",
+    "https://www.hakenomori-art-museum.jp/exhibition",
+    "https://www.city.koganei.lg.jp/kankobunka/453/hakenomori/goriyo.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon", "tue", "wed"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "メルシー！はけ美20周年展",
+      "start": "2026-09-12",
+      "end": "2026-11-23",
+      "url": "https://www.hakenomori-art-museum.jp/exhibition",
+      "kind": "collection",
+      "summary": "開館20周年。これまでの歩みのパネル紹介と所蔵作品展示でふり返る",
+      "admission": "一般 200円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "2026年から休館日は月・火・水曜日。本展会期中は 9/21・9/22・10/12・11/3・11/23（いずれも祝休日）は開館と公式に記載されているため holiday_rule は open とした（9/23 祝日は開館日の列挙に含まれていなかったが既に過去）。開館時間は小金井市公式サイトの利用案内（10:00-17:00、入館16:30まで）による。市サイトの休館日表記は旧来の「月曜日（休日の場合は翌日）」のまま。年末年始・展示替え休館の具体的日付は未確認。",
+  "confidence": "high"
+}

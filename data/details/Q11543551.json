@@ -1,0 +1,76 @@
+{
+  "id": "Q11543551",
+  "checked_at": "2026-09-24T01:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.yokosuka-moa.jp/",
+  "address": "〒239-0813 神奈川県横須賀市鴨居4丁目1番地",
+  "source_urls": [
+    "https://www.yokosuka-moa.jp/",
+    "https://www.yokosuka-moa.jp/outline/index.html",
+    "https://www.yokosuka-moa.jp/exhibition/index.html",
+    "https://www.yokosuka-moa.jp/archive/exhibition/2026/20260905-974.html",
+    "https://www.yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "18:00"}
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [{"weekday": "mon", "nth": [1]}],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-04", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "没後１０年 横須賀美術館コレクションによる 島田章三展 空間の中の人のかたち、日常の中の人のかたち",
+      "start": "2026-09-05",
+      "end": "2026-11-03",
+      "url": "https://www.yokosuka-moa.jp/archive/exhibition/2026/20260905-974.html",
+      "kind": "special",
+      "summary": "横須賀出身の洋画家・島田章三の没後10年。当館所蔵の島田作品約130点を初めて全点展示",
+      "admission": "一般 1,200円"
+    },
+    {
+      "title": "令和８年度第１期所蔵品展 特集：丸山純子 呼吸する庭",
+      "start": "2026-09-05",
+      "end": "2027-01-17",
+      "url": "https://www.yokosuka-moa.jp/archive/exhibition/2026/20260905-997.html",
+      "kind": "collection",
+      "summary": "所蔵品展の特集展示。丸山純子の作品を紹介",
+      "admission": "一般 450円"
+    },
+    {
+      "title": "令和８年度第１期所蔵品展",
+      "start": "2026-09-05",
+      "end": "2027-01-17",
+      "url": "https://www.yokosuka-moa.jp/archive/exhibition/2026/20260905-1000.html",
+      "kind": "collection",
+      "summary": "横須賀美術館の所蔵品展（再オープン記念）",
+      "admission": "一般 450円"
+    },
+    {
+      "title": "令和８年度第１期 谷内六郎展 月のひかり、星のきらめき",
+      "start": "2026-09-05",
+      "end": "2027-01-17",
+      "url": "https://www.yokosuka-moa.jp/archive/exhibition/2026/20260905-996.html",
+      "kind": "collection",
+      "summary": "谷内六郎館。『週刊新潮』表紙絵と絵本『びんのそら』から月や星を描いた作品を紹介",
+      "admission": "一般 450円"
+    },
+    {
+      "title": "生誕120年 三岸節子展",
+      "start": "2026-11-14",
+      "end": "2026-12-20",
+      "url": "https://www.yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
+      "kind": "special",
+      "summary": "「情熱の画家」三岸節子の初期から晩年までの約70点を年代順に紹介",
+      "admission": "一般 1,500円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "毎月第1月曜休館（祝日の場合は開館）。年末年始休館（利用案内は12/29〜1/3、展覧会ページは12/29〜1/4と記載。1/4は第1月曜）。企画展と所蔵品展が同時に展示替えする時期は全館休館あり。2026-09-05に再オープン。",
+  "confidence": "high"
+}

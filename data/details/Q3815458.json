@@ -1,0 +1,40 @@
+{
+  "id": "Q3815458",
+  "checked_at": "2026-09-24T00:42:36+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://mimt.jp/",
+  "address": "〒100-0005 東京都千代田区丸の内2-6-2",
+  "source_urls": [
+    "https://mimt.jp/",
+    "https://mimt.jp/guide/",
+    "https://mimt.jp/ex_sp/fontanesi/"
+  ],
+  "regular_hours": [
+    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-31", "to": "2027-01-01", "reason": "年末年始休館"}
+  ],
+  "special_openings": [
+    {"date": "2027-01-18", "note": "月曜だが開館（フォンタネージ展ページの記載）"}
+  ],
+  "exhibitions": [
+    {
+      "title": "フォンタネージ――イタリアの光・心の風景",
+      "start": "2026-10-17",
+      "end": "2027-01-24",
+      "url": "https://mimt.jp/ex_sp/fontanesi/",
+      "kind": "special",
+      "summary": "工部美術学校で教えたフォンタネージの画業と日本の弟子たちの作品など約200点",
+      "admission": "一般 2,300円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "「“カフェ”に集う芸術家」展は 9/23 で終了、次回フォンタネージ展は 10/17 開幕（その間は展示替え期間）。開館時間は 10:00-18:00、祝日除く金曜・第2水曜・会期最終週の平日は20:00まで（第2水曜と最終週は schema で表せないため未反映）。休館日は月曜（祝日・振替休日・毎月最後の月曜・会期最終週・トークフリーデーは開館）、年末、元旦、展示替え期間。毎月最後の月曜とトークフリーデーの開館は未反映。1/18 は会期最終週の平日のため20時までの可能性があるが未反映。",
+  "confidence": "medium"
+}

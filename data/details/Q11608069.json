@@ -1,0 +1,57 @@
+{
+  "id": "Q11608069",
+  "checked_at": "2026-09-24T00:43:53+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.neribun.or.jp/museum.html",
+  "address": "〒176-0021 東京都練馬区貫井1-36-16",
+  "source_urls": [
+    "https://www.neribun.or.jp/museum.html",
+    "https://www.neribun.or.jp/event/museum.cgi",
+    "https://www.neribun.or.jp/event/detail_m.cgi?id=202606171781677585",
+    "https://www.neribun.or.jp/event/detail_m.cgi?id=202606301782802063",
+    "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "練馬区立美術館コレクション 若林奮－Run and Rest－｜寺田真由美－不在の存在－",
+      "start": "2026-07-25",
+      "end": "2026-10-18",
+      "url": "https://www.neribun.or.jp/event/detail_m.cgi?id=202606171781677585",
+      "kind": "collection",
+      "summary": "若林奮の鉄の彫刻・版画・ドローイング約70点と、寺田真由美の写真・立体作品約35点を個展形式で紹介",
+      "admission": "一般 500円"
+    },
+    {
+      "title": "アーツ中村橋 2026―わたしとまちの記憶",
+      "start": "2026-09-12",
+      "end": "2026-11-08",
+      "url": "https://www.neribun.or.jp/event/detail_m.cgi?id=202606301782802063",
+      "kind": "special",
+      "summary": "「わたしとまちの記憶」をテーマに9組の作家が美術館と中村橋の商店街などで約30点を展示",
+      "admission": "無料"
+    },
+    {
+      "title": "ユアサエボシと戦後アヴァンギャルドの変身寓話集",
+      "start": "2026-10-31",
+      "end": "2026-12-27",
+      "url": "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919",
+      "kind": "special",
+      "summary": "ユアサエボシと池田龍雄・高山良策・中村宏ら戦後アヴァンギャルドの作品を「変身」をキーワードに展観",
+      "admission": "一般 1,000円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝休日のときはその翌平日）。9/21・10/12・11/23（月・祝）は開館、9/24・10/13・11/24 は休館（展覧会ページに明記、holiday_rule と一致）。休館日に「展示準備期間」もあるが、具体的な日付の告知は見当たらない。",
+  "confidence": "high"
+}

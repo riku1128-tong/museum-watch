@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "美術館の詳細（Claude が公式サイトから更新する）",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "checked_at", "operating_status", "source_urls", "regular_hours",
+               "closed_weekdays", "holiday_rule", "special_closures", "special_openings",
+               "exhibitions", "confidence"],
+  "$defs": {
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "time": {"type": "string", "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$"},
+    "weekday": {"enum": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"]},
+    "hours": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["days", "open", "close"],
+      "properties": {
+        "days": {"type": "array", "items": {"$ref": "#/$defs/weekday"}, "minItems": 1},
+        "open": {"$ref": "#/$defs/time"},
+        "close": {"$ref": "#/$defs/time"},
+        "last_entry": {"$ref": "#/$defs/time"},
+        "from": {"$ref": "#/$defs/date", "description": "この時間が有効になる最初の日（季節ごとに時間が変わる場合）"},
+        "to": {"$ref": "#/$defs/date"}
+      }
+    }
+  },
+  "properties": {
+    "id": {"type": "string"},
+    "checked_at": {"type": "string", "format": "date-time"},
+    "check_mode": {"enum": ["full", "light"]},
+    "operating_status": {
+      "enum": ["operating", "temporarily_closed", "permanently_closed", "unknown"],
+      "description": "temporarily_closed = 改修などで長期休館中。permanently_closed = 閉館済み"
+    },
+    "status_note": {"type": ["string", "null"]},
+    "official_url": {"type": ["string", "null"], "description": "museums.json の公式URLが無い・誤っている場合に上書きする"},
+    "address": {"type": ["string", "null"]},
+    "source_urls": {"type": "array", "items": {"type": "string"}},
+    "regular_hours": {"type": "array", "items": {"$ref": "#/$defs/hours"}},
+    "closed_weekdays": {"type": "array", "items": {"$ref": "#/$defs/weekday"}},
+    "closed_nth_weekdays": {
+      "type": "array",
+      "description": "第n週の曜日の定休日。例: 第1・第3月曜休館 → [{\"weekday\": \"mon\", \"nth\": [1, 3]}]。holiday_rule も同じように適用される",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["weekday", "nth"],
+        "properties": {"weekday": {"enum": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]},
+                       "nth": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 5}, "minItems": 1}}
+      }
+    },
+    "holiday_rule": {
+      "enum": ["open", "open_next_weekday_closed", "closed", "unknown"],
+      "description": "open = 祝日は休館曜日でも開館（振替休館なし）。open_next_weekday_closed = 祝日なら開館し翌平日に休館。closed = 祝日は休館"
+    },
+    "special_closures": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["from", "to"],
+        "properties": {"from": {"$ref": "#/$defs/date"}, "to": {"$ref": "#/$defs/date"},
+                       "reason": {"type": ["string", "null"]}}
+      }
+    },
+    "special_openings": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["date"],
+        "properties": {"date": {"$ref": "#/$defs/date"}, "open": {"$ref": "#/$defs/time"},
+                       "close": {"$ref": "#/$defs/time"}, "note": {"type": ["string", "null"]}}
+      }
+    },
+    "exhibitions": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["title", "start", "end"],
+        "properties": {
+          "title": {"type": "string", "minLength": 1},
+          "start": {"$ref": "#/$defs/date"},
+          "end": {"$ref": "#/$defs/date"},
+          "url": {"type": ["string", "null"]},
+          "kind": {"enum": ["special", "collection", "other"]},
+          "summary": {"type": ["string", "null"], "maxLength": 200},
+          "admission": {"type": ["string", "null"]},
+          "hours": {"type": "array", "items": {"$ref": "#/$defs/hours"},
+                    "description": "展覧会独自の開館時間（館の通常時間と違う場合のみ）"},
+          "closed_weekdays": {"type": "array", "items": {"$ref": "#/$defs/weekday"},
+                              "description": "展覧会独自の休館曜日（館と違う場合のみ）"},
+          "closed_dates": {"type": "array", "items": {"$ref": "#/$defs/date"}}
+        }
+      }
+    },
+    "closed_between_exhibitions": {"type": "boolean", "description": "展示替え期間（開催中の展示が無い日）は休館する館か"},
+    "notes": {"type": ["string", "null"]},
+    "confidence": {"enum": ["high", "medium", "low"]}
+  }
+}

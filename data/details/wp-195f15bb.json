@@ -1,0 +1,46 @@
+{
+  "id": "wp-195f15bb",
+  "checked_at": "2026-09-24T00:42:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.okutamas.co.jp/seseragi/",
+  "address": "〒198-0102 東京都西多摩郡奥多摩町川井53番地",
+  "source_urls": [
+    "https://www.town.okutama.tokyo.jp/1/kyoikuka/bunka_sports/2/1064.html",
+    "https://www.okutamas.co.jp/seseragi/",
+    "https://www.okutamas.co.jp/seseragi/exhibition/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "from": "2026-03-01", "to": "2026-11-30"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "from": "2026-12-01", "to": "2027-02-28"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "from": "2027-03-01", "to": "2027-11-30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "酒井貴史個展『物捨山伝承館』",
+      "start": "2026-09-19",
+      "end": "2026-11-01",
+      "url": "https://www.okutamas.co.jp/seseragi/exhibition/",
+      "kind": "special",
+      "summary": "酒井貴史の個展",
+      "admission": null
+    },
+    {
+      "title": "～ KEEP BLUE +GREEN National Park ～国立公園をテーマにした公募展",
+      "start": "2026-11-07",
+      "end": "2027-01-11",
+      "url": "https://www.okutamas.co.jp/seseragi/exhibition/",
+      "kind": "special",
+      "summary": "国立公園をテーマにした公募展",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "町のページ: 開館時間「午前10時から午後5時まで 12月~2月までは午後4時まで」、休館日「月曜日（祝日の場合は翌日）、年末年始」、入館料「大人300円、小中学生200円」（展示によっては無料の記載あり）。公式サイトに「昼休み 12:00〜12:45」の記載あり（休館扱いかは不明）。展示の合間（11/2〜11/6 など）の開館可否と年末年始の日付は未確認。official_url は Wikidata に無かったため町のページに載っている公式サイトを採用。",
+  "confidence": "high"
+}

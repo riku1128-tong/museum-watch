@@ -1,0 +1,72 @@
+{
+  "id": "Q1362638",
+  "checked_at": "2026-09-24T00:49:52+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.nact.jp/",
+  "address": "〒106-8558 東京都港区六本木7-22-2",
+  "source_urls": [
+    "https://www.nact.jp/",
+    "https://www.nact.jp/information/inquiry/",
+    "https://www.nact.jp/calendar/",
+    "https://www.nact.jp/common/json/opening_date.json",
+    "https://www.nact.jp/exhibition_special/2026/louvre2026/",
+    "https://www.nact.jp/exhibition_special/2026/shojomanga/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-12-07", "to": "2026-12-10"},
+    {"days": ["fri", "sat"], "open": "10:00", "close": "20:00", "last_entry": "19:30"},
+    {"days": ["mon", "tue", "wed", "thu", "sun"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-05", "reason": "年末年始"}
+  ],
+  "special_openings": [
+    {"date": "2026-09-24", "open": "10:00", "close": "18:00", "note": "9/22（国民の休日）開館の振替休館なし（公式カレンダーで開館）"},
+    {"date": "2026-12-08", "open": "10:00", "close": "20:00", "note": "火曜だが開館（公式カレンダー・展覧会ページの記載）"}
+  ],
+  "exhibitions": [
+    {
+      "title": "ルーヴル美術館展　ルネサンス",
+      "start": "2026-09-09",
+      "end": "2026-12-13",
+      "url": "https://www.nact.jp/exhibition_special/2026/louvre2026/",
+      "kind": "special",
+      "summary": "ルーヴル美術館の50点余りで15～16世紀ルネサンス美術を紹介。レオナルド《美しきフェロニエール》初来日",
+      "admission": "一般 2,400円"
+    },
+    {
+      "title": "第89回　新制作展",
+      "start": "2026-09-16",
+      "end": "2026-09-28",
+      "url": "https://www.shinseisaku.net/wp/",
+      "kind": "other",
+      "summary": "新制作協会による公募展",
+      "admission": null
+    },
+    {
+      "title": "第81回　行動展",
+      "start": "2026-09-16",
+      "end": "2026-09-28",
+      "url": "https://www.kodo-bijutsu.jp/",
+      "kind": "other",
+      "summary": "行動美術協会による公募展",
+      "admission": null
+    },
+    {
+      "title": "少女漫画・インフィニティ　萩尾望都×山岸凉子×大和和紀 三人展",
+      "start": "2026-10-28",
+      "end": "2027-02-08",
+      "url": "https://www.nact.jp/exhibition_special/2026/shojomanga/",
+      "kind": "special",
+      "summary": "萩尾望都・山岸凉子・大和和紀の約60年の創作を原画800点以上で紹介",
+      "admission": "一般 2,200円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "時間・休館日は公式カレンダーのデータ（opening_date.json）で確認。企画展会期中は毎週金・土曜20:00まで、12/7〜12/10も20:00まで。9/22（火・国民の休日）は開館、9/24は振替休館なし。11/4（水）は11/3祝日開館の振替休館。公募展の観覧料・時間は団体ごとに異なる。",
+  "confidence": "high"
+}

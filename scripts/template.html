@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>美術館ウォッチ</title>
+<style>
+:root {
+  --bg: #f6f4ef; --surface: #ffffff; --ink: #1d1c1a; --muted: #6b675f; --line: #e3dfd6;
+  --accent: #8a3b12; --open: #1f6f43; --open-bg: #e3f1e8; --closed: #8b2d2d; --closed-bg: #f6e3e1;
+  --unknown: #6b5a12; --unknown-bg: #f4eccb; --chip: #ece8df;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161513; --surface: #201f1c; --ink: #ece8e0; --muted: #a39e93; --line: #34322d;
+    --accent: #e39a6c; --open: #7fd3a1; --open-bg: #1d3327; --closed: #f0a19a; --closed-bg: #3a2322;
+    --unknown: #e6cf72; --unknown-bg: #36301a; --chip: #2c2a26;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.6 "Hiragino Sans", "Yu Gothic UI", "Meiryo", system-ui, sans-serif; }
+a { color: var(--accent); }
+header { padding: 20px 16px 8px; max-width: 1100px; margin: 0 auto; }
+h1 { font-size: 22px; margin: 0; letter-spacing: .02em; }
+.sub { color: var(--muted); font-size: 13px; }
+main { max-width: 1100px; margin: 0 auto; padding: 0 16px 48px; }
+.days { display: flex; gap: 6px; overflow-x: auto; padding: 10px 0; scrollbar-width: thin; }
+.day { flex: 0 0 auto; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  border-radius: 10px; padding: 6px 12px; cursor: pointer; text-align: center; font: inherit; min-width: 64px; }
+.day small { display: block; color: var(--muted); font-size: 11px; line-height: 1.3; }
+.day.hol small, .day.sun small { color: var(--closed); }
+.day.sat small { color: #2a5ea8; }
+.day[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.day[aria-pressed="true"] small { color: inherit; opacity: .8; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 6px 0 12px; }
+.tabs { display: flex; gap: 4px; background: var(--chip); padding: 3px; border-radius: 10px; }
+.tab { border: 0; background: transparent; color: var(--ink); padding: 5px 12px; border-radius: 8px; cursor: pointer; font: inherit; }
+.tab[aria-selected="true"] { background: var(--surface); box-shadow: 0 1px 2px rgba(0,0,0,.12); font-weight: 600; }
+select, input[type="search"] { font: inherit; color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 8px; padding: 5px 8px; }
+input[type="search"] { flex: 1 1 180px; min-width: 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+@media (max-width: 400px) { .grid { grid-template-columns: 1fr; } }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 14px 12px;
+  display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.top { display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; }
+.name { font-weight: 700; font-size: 16px; line-height: 1.35; }
+.name a { color: inherit; text-decoration: none; }
+.name a:hover { text-decoration: underline; }
+.meta { color: var(--muted); font-size: 12px; }
+.badge { flex: 0 0 auto; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+.b-open { color: var(--open); background: var(--open-bg); }
+.b-closed { color: var(--closed); background: var(--closed-bg); }
+.b-unknown { color: var(--unknown); background: var(--unknown-bg); }
+.hours { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.hours small { font-size: 12px; font-weight: 400; color: var(--muted); margin-left: 6px; }
+.reason { font-size: 13px; color: var(--muted); }
+.warn { font-size: 12px; color: var(--unknown); }
+ul.ex { list-style: none; margin: 2px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+ul.ex li { border-left: 3px solid var(--line); padding-left: 8px; }
+ul.ex li.special { border-color: var(--accent); }
+.ex-title { font-size: 14px; font-weight: 600; overflow-wrap: anywhere; }
+.ex-meta { font-size: 12px; color: var(--muted); }
+.ex-sum { font-size: 12.5px; color: var(--muted); }
+.ending { color: var(--closed); font-weight: 600; }
+details.up summary { cursor: pointer; font-size: 12px; color: var(--muted); }
+.foot { margin-top: auto; padding-top: 6px; border-top: 1px dashed var(--line); font-size: 12px; color: var(--muted);
+  display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.empty { color: var(--muted); padding: 32px 0; text-align: center; }
+.gone { margin-top: 28px; font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>美術館ウォッチ</h1>
+  <div class="sub" id="sub"></div>
+</header>
+<main>
+  <div class="days" id="days" role="toolbar" aria-label="日付"></div>
+  <div class="controls">
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <select id="pref" aria-label="都県"><option value="">全都県</option></select>
+    <select id="cat" aria-label="区分"><option value="">国立・公立・私立</option><option>国立</option><option>公立</option><option>私立</option></select>
+    <select id="late" aria-label="閉館時刻">
+      <option value="">閉館時刻</option><option value="17:30">17:30以降</option><option value="18:00">18:00以降</option>
+      <option value="19:00">19:00以降</option><option value="20:00">20:00以降</option>
+    </select>
+    <select id="sort" aria-label="並び順">
+      <option value="close">閉館が遅い順</option><option value="ending">会期末が近い順</option><option value="name">名前順</option>
+    </select>
+    <input type="search" id="q" placeholder="館名・展覧会名で検索" aria-label="検索">
+  </div>
+  <div class="grid" id="grid"></div>
+  <div class="gone" id="gone"></div>
+</main>
+<script>
+const DATA = /*__DATA__*/null;
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const md = (iso) => { const [, m, d] = iso.split("-"); return `${+m}/${+d}`; };
+const store = {
+  get(k) { try { return JSON.parse(localStorage.getItem("mw:" + k)); } catch { return null; } },
+  set(k, v) { try { localStorage.setItem("mw:" + k, JSON.stringify(v)); } catch {} },
+};
+const TABS = [["open", "開館"], ["closed", "休館"], ["unknown", "不明"]];
+// ページを開いた日（JST）を「今日」にする。生成日から日がたっていれば過去の日は出さない
+const todayJst = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+const first = DATA.days.findIndex((d) => d.date >= todayJst);
+DATA.days = DATA.days.slice(first === -1 ? DATA.days.length - 1 : first);
+const state = Object.assign({ day: 0, tab: "open", pref: "", cat: "", late: "", sort: "close", q: "" }, store.get("state") || {}, { day: 0 });
+
+$("sub").textContent = `東京都・神奈川県 ${Object.keys(DATA.museums).length} 館 ・ 更新 ${DATA.generated_at.replace("T", " ")}`;
+for (const p of [...new Set(Object.values(DATA.museums).map((m) => m.prefecture))]) $("pref").add(new Option(p, p));
+
+function renderDays() {
+  $("days").innerHTML = DATA.days.map((d, i) => {
+    const cls = ["day", d.holiday ? "hol" : "", d.weekday === "日" ? "sun" : "", d.weekday === "土" ? "sat" : ""].join(" ");
+    const label = d.date === todayJst ? "今日" : i === 1 && DATA.days[0].date === todayJst ? "明日" : md(d.date);
+    const n = d.results.filter((r) => r.status === "open").length;
+    return `<button class="${cls}" aria-pressed="${i === state.day}" data-i="${i}" title="${esc(d.holiday || "")}">
+      ${label}<small>${label !== md(d.date) ? md(d.date) + " " : ""}${d.weekday}${d.holiday ? "・祝" : ""} ・ ${n}館</small></button>`;
+  }).join("");
+}
+function renderTabs(results) {
+  const n = (k) => results.filter((r) => r.status === k).length;
+  if (state.tab === "unknown" && !n("unknown")) state.tab = "open";
+  $("tabs").innerHTML = TABS.filter(([k]) => k !== "unknown" || n(k)).map(([k, label]) =>
+    `<button class="tab" role="tab" aria-selected="${state.tab === k}" data-k="${k}">${label} ${n(k)}</button>`).join("");
+}
+function exHtml(e, date) {
+  const left = Math.round((new Date(e.end) - new Date(date)) / 864e5);
+  const ending = left <= 7 ? `<span class="ending">あと${left}日</span>` : "";
+  const title = e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title);
+  const own = e.open ? ` ・ ${e.open}–${e.close}` : "";
+  return `<li class="${e.kind === "special" ? "special" : ""}"><div class="ex-title">${title}</div>
+    <div class="ex-meta">${md(e.start)}–${md(e.end)} ${ending}${own}${e.admission ? " ・ " + esc(e.admission) : ""}</div>
+    ${e.summary ? `<div class="ex-sum">${esc(e.summary)}</div>` : ""}</li>`;
+}
+function card(r, date) {
+  const m = DATA.museums[r.id];
+  const badge = { open: ["b-open", "開館"], closed: ["b-closed", "休館"], unknown: ["b-unknown", "不明"] }[r.status];
+  const hours = r.status === "open"
+    ? `<div class="hours">${r.open ? `${r.open}–${r.close}` : "時間不明"}${r.last_entry ? `<small>最終入館 ${r.last_entry}</small>` : ""}</div>` : "";
+  const reason = r.reason ? `<div class="reason">${esc(r.reason)}</div>` : "";
+  const warn = r.needs_check ? `<div class="warn">⚠ 情報が古いか不確かです。公式サイトで確認してください</div>` : "";
+  const ex = r.exhibitions.length ? `<ul class="ex">${r.exhibitions.map((e) => exHtml(e, date)).join("")}</ul>` : "";
+  const up = r.upcoming.length ? `<details class="up"><summary>まもなく開始 ${r.upcoming.length}件</summary><ul class="ex">${
+    r.upcoming.map((e) => `<li><div class="ex-title">${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}</div><div class="ex-meta">${md(e.start)}–${md(e.end)}</div></li>`).join("")}</ul></details>` : "";
+  const checked = m.checked_at ? `確認 ${m.checked_at.slice(5, 16).replace("T", " ")}` : "未取得";
+  return `<article class="card">
+    <div class="top"><div><div class="name">${m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)}</a>` : esc(m.name)}</div>
+    <div class="meta">${esc(m.prefecture)}${m.municipality && m.municipality !== m.prefecture ? " " + esc(m.municipality) : ""} ・ ${esc(m.category)}</div></div>
+    <span class="badge ${badge[0]}">${badge[1]}</span></div>
+    ${hours}${reason}${ex}${up}${warn}
+    <div class="foot"><span>${checked}</span><a href="${esc(m.wiki)}" target="_blank" rel="noopener">Wikipedia</a></div></article>`;
+}
+function render() {
+  store.set("state", state);
+  const day = DATA.days[state.day];
+  renderDays();
+  const q = state.q.trim().toLowerCase();
+  const base = day.results.filter((r) => {
+    const m = DATA.museums[r.id];
+    if (state.pref && m.prefecture !== state.pref) return false;
+    if (state.cat && m.category !== state.cat) return false;
+    if (q && !(m.name.toLowerCase().includes(q) || r.exhibitions.some((e) => e.title.toLowerCase().includes(q)))) return false;
+    return true;
+  });
+  renderTabs(base);
+  let list = base.filter((r) => r.status === state.tab);
+  if (state.late) list = list.filter((r) => r.close && r.close >= state.late);
+  const name = (r) => DATA.museums[r.id].name;
+  const endKey = (r) => r.exhibitions.map((e) => e.end).sort()[0] || "9999";
+  const sorters = {
+    close: (a, b) => (b.close || "").localeCompare(a.close || "") || name(a).localeCompare(name(b), "ja"),
+    ending: (a, b) => endKey(a).localeCompare(endKey(b)),
+    name: (a, b) => name(a).localeCompare(name(b), "ja"),
+  };
+  list.sort(sorters[state.sort]);
+  $("grid").innerHTML = list.length ? list.map((r) => card(r, day.date)).join("") : `<div class="empty">該当する美術館はありません</div>`;
+  $("gone").textContent = DATA.gone.length ? `閉館済みのため除外: ${DATA.gone.map((g) => g.name).join("、")}` : "";
+}
+$("days").addEventListener("click", (e) => { const b = e.target.closest(".day"); if (b) { state.day = +b.dataset.i; render(); } });
+$("tabs").addEventListener("click", (e) => { const b = e.target.closest(".tab"); if (b) { state.tab = b.dataset.k; render(); } });
+for (const id of ["pref", "cat", "late", "sort"]) { $(id).value = state[id]; $(id).addEventListener("change", (e) => { state[id] = e.target.value; render(); }); }
+$("q").value = state.q; $("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+{
+  "id": "Q11589187",
+  "checked_at": "2026-09-24T00:42:36+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.moma.pref.kanagawa.jp/",
+  "address": "〒240-0111 神奈川県三浦郡葉山町一色2208-1（葉山館）／〒248-0005 神奈川県鎌倉市雪ノ下2-8-1（鎌倉別館）",
+  "source_urls": [
+    "https://www.moma.pref.kanagawa.jp/",
+    "https://www.moma.pref.kanagawa.jp/hayama/visit/",
+    "https://www.moma.pref.kanagawa.jp/annex/visit/",
+    "https://www.moma.pref.kanagawa.jp/news/20260920-3/",
+    "https://www.moma.pref.kanagawa.jp/exhibition/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-09-21", "to": "2026-09-21", "reason": "台風25号による臨時休館（葉山館・鎌倉別館とも）"},
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "山室眞二の薯版画〈かまくら博物誌〉",
+      "start": "2026-05-30",
+      "end": "2026-09-27",
+      "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-yamamuro-shinji-with-collection/",
+      "kind": "special",
+      "summary": "鎌倉別館。山室眞二による薯版画〈かまくら博物誌〉を紹介",
+      "admission": null
+    },
+    {
+      "title": "銅版画家・駒井哲郎",
+      "start": "2026-09-12",
+      "end": "2026-11-15",
+      "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-komai-tetsuro/",
+      "kind": "special",
+      "summary": "葉山館。銅版画家・駒井哲郎の作品を紹介",
+      "admission": "一般 1,200円"
+    },
+    {
+      "title": "たそかれ、かはたれ",
+      "start": "2026-09-12",
+      "end": "2026-11-15",
+      "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-h-collection2/",
+      "kind": "collection",
+      "summary": "葉山館のコレクション展",
+      "admission": "一般 250円"
+    },
+    {
+      "title": "ポーランド・ポスター２",
+      "start": "2026-10-17",
+      "end": "2027-01-31",
+      "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-a-collection1/",
+      "kind": "collection",
+      "summary": "鎌倉別館のコレクション展。ポーランドのポスター",
+      "admission": "一般 250円"
+    },
+    {
+      "title": "松本陽子　宵の明星を見た日",
+      "start": "2026-11-28",
+      "end": "2027-02-28",
+      "url": null,
+      "kind": "special",
+      "summary": "葉山館。画家・松本陽子の展覧会",
+      "admission": null
+    },
+    {
+      "title": "マルク・シャガール『ラ・フォンテーヌ寓話集』",
+      "start": "2026-11-28",
+      "end": "2027-02-28",
+      "url": null,
+      "kind": "other",
+      "summary": "葉山館。シャガールの版画集『ラ・フォンテーヌ寓話集』",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "葉山館と鎌倉別館の2館。開館時間・休館日は両館共通（月曜休館、祝日及び振替休日は開館、12/29-1/3、展示替期間）。鎌倉別館は 9/28〜10/16 に開催展示が無く展示替期間とみられるが、休館日程の明記は未確認。9/21 は台風で両館臨時休館。今後の展覧会の種別（企画/コレクション）は一部未確認。",
+  "confidence": "high"
+}

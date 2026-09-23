@@ -1,0 +1,37 @@
+{
+  "id": "wp-4d8ecc6f",
+  "checked_at": "2026-09-24T00:43:53+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.nakamuraya.co.jp/museum/",
+  "address": "〒160-0022 東京都新宿区新宿3丁目26番13号 新宿中村屋ビル3階",
+  "source_urls": [
+    "https://www.nakamuraya.co.jp/museum/",
+    "https://www.nakamuraya.co.jp/museum/info/",
+    "https://www.nakamuraya.co.jp/museum/exhibitions/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:30", "close": "18:00", "last_entry": "17:40"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-21", "to": "2026-09-21", "reason": "台風25号接近に伴う臨時休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "堀文子展「生命の煌めき」",
+      "start": "2026-09-16",
+      "end": "2026-12-06",
+      "url": "https://www.nakamuraya.co.jp/museum/exhibitions/",
+      "kind": "special",
+      "summary": "日本画家・堀文子の作品を紹介する展覧会",
+      "admission": "一般 1,000円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "毎週火曜休館（火曜が祝祭日の場合は開館、翌日休館）、年末年始・展示替え期間休館。年末年始の具体的な日付は未確認。高校生以下無料。",
+  "confidence": "high"
+}

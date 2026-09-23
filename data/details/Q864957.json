@@ -1,0 +1,178 @@
+{
+  "id": "Q864957",
+  "checked_at": "2026-09-24T00:32:52+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.tobikan.jp/",
+  "address": "〒110-0007 東京都台東区上野公園8-36",
+  "source_urls": [
+    "https://www.tobikan.jp/",
+    "https://www.tobikan.jp/guide/index.html",
+    "https://www.tobikan.jp/exhibition/index.html",
+    "https://www.tobikan.jp/exhibition/2026_britishmuseum.html",
+    "https://www.tobikan.jp/information/index.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:30",
+      "last_entry": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [
+    {
+      "weekday": "mon",
+      "nth": [
+        1,
+        3
+      ]
+    }
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-21",
+      "to": "2026-12-28",
+      "reason": "整備休館"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    },
+    {
+      "from": "2027-01-12",
+      "to": "2027-01-12",
+      "reason": "整備休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "大英博物館日本美術コレクション 百花繚乱―海を越えた江戸絵画",
+      "start": "2026-07-25",
+      "end": "2026-10-18",
+      "url": "https://www.tobikan.jp/exhibition/2026_britishmuseum.html",
+      "kind": "special",
+      "summary": "大英博物館所蔵の屏風・掛軸・絵巻と、歌麿・写楽・北斎・広重ら浮世絵師8人の版画を紹介",
+      "admission": "一般 2,300円",
+      "hours": [
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "09:30",
+          "close": "20:00",
+          "last_entry": "19:30"
+        },
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "09:30",
+          "close": "17:30",
+          "last_entry": "17:00"
+        }
+      ],
+      "closed_weekdays": [
+        "mon"
+      ],
+      "closed_dates": [
+        "2026-10-13"
+      ]
+    },
+    {
+      "title": "この場所の風景―上野・大牟田・ブエノスアイレス",
+      "start": "2026-07-23",
+      "end": "2026-10-07",
+      "url": "https://www.tobikan.jp/exhibition/2026_viewsofthisplace.html",
+      "kind": "special",
+      "summary": "開館100周年記念の企画展。上野・大牟田・ブエノスアイレスをめぐる風景",
+      "admission": null,
+      "hours": [
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "09:30",
+          "close": "20:00",
+          "last_entry": "19:30"
+        },
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "09:30",
+          "close": "17:30",
+          "last_entry": "17:00"
+        }
+      ],
+      "closed_weekdays": [
+        "mon"
+      ]
+    },
+    {
+      "title": "オルセー美術館所蔵 いまを生きる歓び",
+      "start": "2026-11-14",
+      "end": "2027-03-28",
+      "url": "https://www.tobikan.jp/exhibition/2026_orsay.html",
+      "kind": "special",
+      "summary": "開館100周年記念の特別展。オルセー美術館の所蔵作品による",
+      "admission": null,
+      "closed_weekdays": [
+        "mon"
+      ]
+    },
+    {
+      "title": "あなたが世界を読むために",
+      "start": "2026-11-19",
+      "end": "2027-01-11",
+      "url": "https://www.tobikan.jp/exhibition/2026_waysofreading.html",
+      "kind": "special",
+      "summary": "開館100周年記念の企画展",
+      "admission": "無料",
+      "closed_weekdays": [
+        "mon"
+      ]
+    },
+    {
+      "title": "はじまりをひらく 東京都美術館の100年",
+      "start": "2026-11-19",
+      "end": "2027-01-11",
+      "url": "https://www.tobikan.jp/exhibition/2026_archives.html",
+      "kind": "other",
+      "summary": "開館100周年記念。東京都美術館の100年の歩みを紹介",
+      "admission": "無料",
+      "closed_weekdays": [
+        "mon"
+      ]
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "定休日は第1・第3月曜（祝日・振替休日の場合は翌平日）。スキーマで第n曜日を表せないため、2027-01 までの該当日を special_closures に展開した（次回以降も追加が必要）。特別展・企画展は毎週月曜休室（祝日は開室、翌平日休室）、会期中の金曜は20:00まで。2026-09-18 付お知らせ「大英博物館展 開室時間の変更について」は WebFetch 上限のため未読（トップに 9:30～21:00 の表示あり）。展覧会の URL は一覧ページの相対リンクから推定したもので、/exhibition/ 配下かは未確認。",
+  "confidence": "medium"
+}

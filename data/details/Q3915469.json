@@ -1,0 +1,43 @@
+{
+  "id": "Q3915469",
+  "checked_at": "2026-09-24T00:42:54+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.watarium.co.jp/",
+  "address": "〒150-0001 東京都渋谷区神宮前3-7-6",
+  "source_urls": [
+    "http://www.watarium.co.jp/",
+    "http://www.watarium.co.jp/jp/exhibition/202607/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "19:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "没後20年 ナムジュン・パイク｜じゅげむ展",
+      "start": "2026-07-19",
+      "end": "2026-11-23",
+      "url": "http://www.watarium.co.jp/jp/exhibition/202607/",
+      "kind": "special",
+      "summary": "メディアアートの創始者ナムジュン・パイク没後20年の個展",
+      "admission": "大人 1,500円"
+    },
+    {
+      "title": "ワン・シュウ＋ルー・ウェンユー展 建築すなわち庭",
+      "start": "2026-12-04",
+      "end": "2027-03-28",
+      "url": "http://www.watarium.co.jp/",
+      "kind": "special",
+      "summary": "建築家ワン・シュウとルー・ウェンユーの展覧会",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "HTTPS は証明書不一致のため HTTP で取得。パイク展の休館日は「月曜日（7/20、9/21、10/12、11/23は開館）」で、振替休館の記載なし。ランダムトーク開催日は 20時まで延長（日程は PDF、未確認）。年末年始の休館日は未確認。",
+  "confidence": "high"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "Q127432181",
+  "checked_at": "2026-09-24T00:55:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://nakamuramasayoshi.com/",
+  "address": "〒215-0001 神奈川県川崎市麻生区細山7-2-8",
+  "source_urls": [
+    "https://nakamuramasayoshi.com/",
+    "https://nakamuramasayoshi.com/exhibition/index.php",
+    "https://nakamuramasayoshi.com/guide/index.html"
+  ],
+  "regular_hours": [
+    {"days": ["fri", "sat", "sun", "holiday"], "open": "11:00", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon", "tue", "wed", "thu"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "タウン誌うえの「表紙絵展」",
+      "start": "2026-10-02",
+      "end": "2026-11-29",
+      "url": "https://nakamuramasayoshi.com/exhibition/index.php",
+      "kind": "special",
+      "summary": "中村正義が1966〜71年に描いた「タウン誌うえの」表紙作品20余点",
+      "admission": "一般 500円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "開館日は「金・土・日・祝日」、午前11時～午後5時（夏・冬は閉館）。会期中のみ開館。最終入館時刻の記載なし。",
+  "confidence": "high"
+}

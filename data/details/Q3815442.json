@@ -1,0 +1,60 @@
+{
+  "id": "Q3815442",
+  "checked_at": "2026-09-24T00:44:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.ukiyoe-ota-muse.jp/",
+  "address": "〒150-0001 東京都渋谷区神宮前1-10-10",
+  "source_urls": [
+    "https://www.ukiyoe-ota-muse.jp/",
+    "https://www.ukiyoe-ota-muse.jp/information",
+    "https://www.ukiyoe-ota-muse.jp/exhibition/schedule",
+    "https://www.ukiyoe-ota-muse.jp/toriikotondo/",
+    "https://www.ukiyoe-ota-muse.jp/katsushikaoi2026/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:30", "close": "17:30", "last_entry": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-28", "to": "2026-10-05", "reason": "展示替え休館"},
+    {"from": "2026-11-04", "to": "2026-11-06", "reason": "展示替え休館（前期・後期の入れ替え）"},
+    {"from": "2026-12-07", "to": "2026-12-11", "reason": "展示替え休館"},
+    {"from": "2026-12-24", "to": "2026-12-31", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "没後50年記念　鳥居言人　歌舞伎絵と新版画",
+      "start": "2026-09-01",
+      "end": "2026-09-27",
+      "url": "https://www.ukiyoe-ota-muse.jp/toriikotondo/",
+      "kind": "special",
+      "summary": "鳥居派八代目・鳥居言人の回顧展。歌舞伎の肉筆画、絵看板、新版画など約70点",
+      "admission": "一般 1,200円"
+    },
+    {
+      "title": "葛飾応為「吉原格子先之図」　夜景の系譜",
+      "start": "2026-10-06",
+      "end": "2026-12-06",
+      "url": "https://www.ukiyoe-ota-muse.jp/katsushikaoi2026/",
+      "kind": "special",
+      "summary": "葛飾応為「吉原格子先之図」を中心に、春信・広重・清親らの夜景表現の系譜をたどる",
+      "admission": "一般 1,200円"
+    },
+    {
+      "title": "あなたの知らない浮世絵師たち",
+      "start": "2026-12-12",
+      "end": "2027-01-17",
+      "url": "https://www.ukiyoe-ota-muse.jp/exhibition/schedule",
+      "kind": "special",
+      "summary": null,
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「毎週月曜日（祝日の場合は開館、翌日休館）、展示替え期間、年末年始」。トップと応為展ページの休館日一覧（9/7,14,24,28-30、10/1-5,13,19,26、11/2,4-6,9,16,24,30、12/7-11,14,21,24-31）と照合済み。応為展は前期 10/6-11/3、後期 11/7-12/6。2027年の年始休館の日付は未掲載。「あなたの知らない浮世絵師たち」は年間スケジュールのみで詳細未確認。入館料は展示ごと。",
+  "confidence": "high"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "Q11391573",
+  "checked_at": "2026-09-24T00:49:52+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.yumebi.com/",
+  "address": "〒192-0071 東京都八王子市八日町8-1 ビュータワー八王子2F",
+  "source_urls": [
+    "https://www.yumebi.com/",
+    "https://www.yumebi.com/info.html",
+    "https://www.yumebi.com/exb.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "19:00", "last_entry": "18:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "没後20年 大野五郎 / 夭折の画家 小野幸吉",
+      "start": "2026-09-12",
+      "end": "2026-11-03",
+      "url": "https://www.yumebi.com/exb.html",
+      "kind": "special",
+      "summary": "八王子ゆかりの洋画家・大野五郎と20歳で夭折した小野幸吉。1930年協会の二人の作品で昭和洋画史を辿る",
+      "admission": "一般 600円"
+    },
+    {
+      "title": "ムットーニワールド　からくりシアターⅥ",
+      "start": "2026-11-14",
+      "end": "2027-01-11",
+      "url": "https://www.yumebi.com/scd.html#link167",
+      "kind": "special",
+      "summary": "ムットーニのからくりシアター作品展（シリーズ第6弾）",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「月曜日（ただし、祝日、振替休日の場合は開館し翌平日休館）年末・年始（12/29〜1/3）展示替期間」。トップに「9月24日（木）は休館」の告知（9/21祝日開館の振替）。観覧料は展覧会ごとに一般450〜1,000円。ムットーニ展の観覧料は未確認。",
+  "confidence": "high"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "wp-5360d168",
+  "checked_at": "2026-09-24T00:44:20+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "2022年2月20日に閉館（運営元・自由が丘一誠堂のお知らせ「一誠堂美術館 閉館のお知らせ」）",
+  "official_url": "https://www.isseido.co.jp/",
+  "address": null,
+  "source_urls": [
+    "https://www.isseido.co.jp/",
+    "https://www.isseido.co.jp/shop",
+    "https://www.isseido.co.jp/news/220220"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "notes": "自由が丘の一誠堂本館B1にあったアール・ヌーヴォーのガラス工芸（ガレ、ドーム兄弟など）の美術館。閉館日は運営元サイトのお知らせ（isseido.co.jp/news/220220）の検索結果の抜粋で確認。WebFetch では本文を取得できなかった。現在の一誠堂店舗ページに美術館の記載は無い。",
+  "confidence": "medium"
+}

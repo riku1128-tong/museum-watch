@@ -1,0 +1,37 @@
+{
+  "id": "Q728781",
+  "checked_at": "2026-09-24T00:49:52+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.eiseibunko.com/",
+  "address": "〒112-0015 東京都文京区目白台1-1-1",
+  "source_urls": [
+    "https://www.eiseibunko.com/",
+    "https://www.eiseibunko.com/exhibition.html",
+    "https://www.eiseibunko.com/traffic.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:30", "last_entry": "16:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-11-04", "to": "2026-11-05", "reason": "展示替え（前期・後期）"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "白隠ワールド－細川護立コレクションのはじまり－",
+      "start": "2026-10-03",
+      "end": "2026-11-29",
+      "url": "https://www.eiseibunko.com/exhibition.html",
+      "kind": "special",
+      "summary": "秋季展。白隠の作品から細川護立コレクションのはじまりを紹介（前期10/3〜11/3、後期11/6〜11/29）",
+      "admission": "一般 1,000円"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「月曜日（祝日の場合は開館、翌平日が休館）、展示替期間、年末年始」。夏季展は9/6で終了し、秋季展（10/3〜）まで展示替えで休館。秋季展の休館日は「月曜日（ただし10/12・11/23は開館）、10/13、11/4、11/5、11/24」。早稲田大学會津八一記念博物館での共同企画展は別会場のため含めない。年末年始の日付は未掲載。",
+  "confidence": "high"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "wp-cc00d4c2",
+  "checked_at": "2026-09-24T00:43:53+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.tokyo-zoo.net/zoo/ino/",
+  "address": "〒180-0005 東京都武蔵野市御殿山1-17-6（井の頭自然文化園内）",
+  "source_urls": [
+    "https://www.tokyo-zoo.net/zoo/ino/",
+    "https://www.tokyo-zoo.net/inokashira/visitor-info/tickets/index.html",
+    "https://www.tokyo-zoo.net/inokashira/news/4188/index.html",
+    "https://www.tokyo-zoo.net/inokashira/news/10209/index.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-01", "reason": "年末年始休園"}
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "notes": "井の頭自然文化園（動物園・本園）内の彫刻園。開園時間は文化園全体のもの（9:30〜17:00）で、彫刻館（A館・B館・アトリエ館）は 9:30〜16:30。北村西望の作品約200点を常時展示（館内は入れ替えあり）。入園料 一般 400円。月曜休園（祝日・振替休日なら翌日）。一部の月曜に臨時開園あり（開園日カレンダー参照・未確認）。都民の日（10/1）は無料開園日。直近の彫刻館企画展「アヤ井アキコ 絵本『こうもり』原画展」は 2026-04-05 に終了し、現在の企画展は公式サイトで確認できなかった。",
+  "confidence": "medium"
+}

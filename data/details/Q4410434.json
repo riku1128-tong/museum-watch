@@ -1,0 +1,38 @@
+{
+  "id": "Q4410434",
+  "checked_at": "2026-09-24T00:44:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.mori.art.museum/jp/",
+  "address": null,
+  "source_urls": [
+    "https://www.mori.art.museum/jp/",
+    "https://www.mori.art.museum/jp/exhibitions/index.html",
+    "https://www.mori.art.museum/jp/exhibitions/marikomori/index.html"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "holiday"], "open": "10:00", "close": "18:00", "from": "2026-11-03", "to": "2026-11-03"},
+    {"days": ["fri"], "open": "10:00", "close": "17:00", "from": "2026-11-27", "to": "2026-11-27"},
+    {"days": ["tue"], "open": "10:00", "close": "17:00"},
+    {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "22:00"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "森万里子：燦燦",
+      "start": "2026-10-31",
+      "end": "2027-03-28",
+      "url": "https://www.mori.art.museum/jp/exhibitions/marikomori/index.html",
+      "kind": "special",
+      "summary": "森万里子の30年にわたる活動をパフォーマンス、映像、立体など約40点で紹介する大規模個展",
+      "admission": "一般 2,800円（土日祝 3,000円）"
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "「ロン・ミュエク」展と MAM シリーズは 9/23 で終了。次の「森万里子：燦燦」は 10/31 から（会期中無休）。10:00〜22:00、会期中の火曜は17:00まで（祝日の火曜は22:00まで、ただし 11/3 は18:00まで、11/27（金）は17:00まで）。10/31 は翌朝6:00まで開館。同時開催の MAMスクリーン024・MAMプロジェクト035・片山真理展は会期未確認のため未掲載。2027年9月〜2028年4月は改修工事で一時休館予定。展覧会詳細リンク先の moriartmuseum.jp は名前解決できず、mori.art.museum で読んだ。住所は未確認。最終入館の記載は未確認。",
+  "confidence": "high"
+}

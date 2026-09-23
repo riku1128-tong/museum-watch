@@ -1,0 +1,46 @@
+{
+  "id": "Q115265693",
+  "checked_at": "2026-09-24T00:42:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.ejrcf.or.jp/gallery/",
+  "address": "〒100-0005 東京都千代田区丸の内1-9-1",
+  "source_urls": [
+    "https://www.ejrcf.or.jp/gallery/",
+    "https://www.ejrcf.or.jp/gallery/exhibition/202609_suikoden.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
+    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [
+    {"date": "2026-11-02", "open": "10:00", "close": "18:00", "note": "月曜だが開館（水滸伝展の会期最終週）"}
+  ],
+  "exhibitions": [
+    {
+      "title": "水滸伝",
+      "start": "2026-09-19",
+      "end": "2026-11-08",
+      "url": "https://www.ejrcf.or.jp/gallery/exhibition/202609_suikoden.html",
+      "kind": "special",
+      "summary": "北宋の名品、明代の刊本、国芳の錦絵から漫画・衣裳まで、水滸伝の成立と日本での受容をたどる",
+      "admission": "一般 1,600円"
+    },
+    {
+      "title": "ニコライ・アストルップ 創造する庭",
+      "start": "2026-11-21",
+      "end": "2027-01-31",
+      "url": null,
+      "kind": "special",
+      "summary": "ノルウェーの画家ニコライ・アストルップの展覧会",
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "notes": "休館日は「原則、月曜日（祝日の場合は翌平日／ただし会期最終週、ゴールデンウィーク・お盆・シルバーウィーク期間中の月曜日は開館）、年末年始、展示替期間」。水滸伝展の休館日「月曜日［ただし9/21、10/12、11/2は開館］、10/13 (火)」。金曜の祝日の扱いは未記載。年末年始の具体的な日付は未確認。次々回「生誕140年 染織家 山鹿清華」2027-02-20〜04-11。展覧会一覧ページは 403 で読めず。",
+  "confidence": "high"
+}

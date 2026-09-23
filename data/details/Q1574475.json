@@ -1,0 +1,57 @@
+{
+  "id": "Q1574475",
+  "checked_at": "2026-09-24T00:32:52+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.polamuseum.or.jp/",
+  "address": "〒250-0631 神奈川県足柄下郡箱根町仙石原小塚山1285",
+  "source_urls": [
+    "https://www.polamuseum.or.jp/",
+    "https://www.polamuseum.or.jp/info/",
+    "https://www.polamuseum.or.jp/exhibition/",
+    "https://www.polamuseum.or.jp/news/",
+    "https://www.polamuseum.or.jp/exhibition/2026061701/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-01", "to": "2026-12-01", "reason": "全館休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "あたらしい目―モネと21世紀のアート",
+      "start": "2026-06-17",
+      "end": "2027-04-07",
+      "url": "https://www.polamuseum.or.jp/exhibition/2026061701/",
+      "kind": "special",
+      "summary": "モネ没後100年・開館25周年記念。所蔵のモネ油彩19点と国内外18組の現代作家の作品を紹介",
+      "admission": "一般 2,200円"
+    },
+    {
+      "title": "コレクション・シネマ",
+      "start": "2026-06-17",
+      "end": "2027-04-07",
+      "url": "https://www.polamuseum.or.jp/exhibition/20260617c01/",
+      "kind": "collection",
+      "summary": "開館25周年記念プログラムのコレクション展",
+      "admission": "一般 2,200円"
+    },
+    {
+      "title": "セザンヌ・レジェンド",
+      "start": "2026-06-17",
+      "end": "2027-04-07",
+      "url": "https://www.polamuseum.or.jp/exhibition/20260617c02/",
+      "kind": "collection",
+      "summary": "セザンヌを主題とするコレクション展",
+      "admission": "一般 2,200円"
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "年中無休（展示替えのため臨時休館あり）。2026-12-02〜03 は展示室3のみ休室（館は開館）。入館料は館共通（大人 2,200円）で、展覧会ごとの料金ではない。",
+  "confidence": "high"
+}

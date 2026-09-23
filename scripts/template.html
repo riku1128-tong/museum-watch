@@ -208,7 +208,7 @@ dialog::backdrop { background: rgba(20, 18, 15, .5); }
   </div>
 </dialog>
 
-<script src="firebase-config.js" onerror="window.FIREBASE_CONFIG = null"></script>
+<script src="sync-config.js" onerror="window.SYNC_CONFIG = null"></script>
 <script>
 const DATA = /*__DATA__*/null;
 // 埋め込みデータは縮めてあるので元の形に戻す（展覧会は館ごとの一覧の番号で入っている）
@@ -231,7 +231,7 @@ const store = {
   set(k, v) { try { localStorage.setItem("mw:" + k, JSON.stringify(v)); } catch {} },
 };
 
-// ユーザーデータ（訪問記録・出発地）。ログイン中は Firebase と同期する（下の module script）
+// ユーザーデータ（訪問記録・行きたい・出発地）。ログイン中は Supabase と同期する（下の module script）
 // visits: { 館id: [{ date: 訪問日, until: その日に開催中だった展覧会の会期末 | null }] }
 // wants: { 館id: 登録日 }（行きたい）。「行った」（今の会期の訪問）とはどちらか片方だけ
 const user = Object.assign({ visits: {}, wants: {}, origin: "", updatedAt: 0 }, store.get("user") || {});
@@ -420,8 +420,8 @@ function renderSettings() {
   const wants = Object.keys(user.wants).filter((id) => DATA.museums[id] && !currentVisit(id, todayJst)).length;
   $("visitStats").textContent = `行きたい館 ${wants} ・ 今の会期で行った館 ${now} ・ これまでに行った館 ${ids.length} / ${Object.keys(DATA.museums).length} ・ 訪問 ${total} 回`;
   window.mwSync?.renderBox?.();
-  if (!window.mwSync) $("syncBox").innerHTML = window.FIREBASE_CONFIG === null || !window.FIREBASE_CONFIG
-    ? "同期は準備中です。今はこの端末のブラウザにだけ保存されます。" : "同期を読み込み中…";
+  if (!window.mwSync) $("syncBox").innerHTML = window.SYNC_CONFIG?.url
+    ? "同期を読み込み中…" : "同期は準備中です。今はこの端末のブラウザにだけ保存されます。";
 }
 function openSettings() { renderSettings(); $("settings").showModal(); }
 $("openSettings").addEventListener("click", openSettings);
@@ -467,61 +467,101 @@ render();
 </script>
 
 <script type="module">
-// Firebase（Google ログイン + Firestore）で「行った館」と出発地を端末間で同期する。
-// docs/firebase-config.js が無ければ何もしない（端末内保存のみ）。
-const cfg = window.FIREBASE_CONFIG;
-if (cfg) {
-  const V = "10.12.2";
-  const [{ initializeApp }, auth, fs] = await Promise.all([
-    import(`https://www.gstatic.com/firebasejs/${V}/firebase-app.js`),
-    import(`https://www.gstatic.com/firebasejs/${V}/firebase-auth.js`),
-    import(`https://www.gstatic.com/firebasejs/${V}/firebase-firestore.js`),
-  ]);
-  const app = initializeApp(cfg);
-  const a = auth.getAuth(app);
-  const db = fs.getFirestore(app);
+// Supabase（メールに届くコードでログイン）で、訪問記録・行きたい館・出発地を端末間で同期する。
+// 接続先は docs/sync-config.js。無ければ何もしない（この端末のブラウザにだけ保存）。
+// テーブルは supabase/museum_watch.sql（1 ユーザー 1 行、RLS で自分の行だけ）。
+const cfg = window.SYNC_CONFIG;
+if (cfg?.url && cfg?.key) {
+  const { createClient } = await import("https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm");
+  // 同じ github.io ドメインの別アプリとログイン状態を共有しないよう、保存キーを分ける
+  const sb = createClient(cfg.url, cfg.key, { auth: { storageKey: "museum-watch-auth", persistSession: true, autoRefreshToken: true, detectSessionInUrl: false } });
+  const TABLE = "museum_watch_state";
   const box = document.getElementById("syncBox");
-  let current = null, timer = null;
+  const esc = (t) => String(t ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const meta = { get() { try { return JSON.parse(localStorage.getItem("mw:sync")) || {}; } catch { return {}; } },
+                 set(v) { try { localStorage.setItem("mw:sync", JSON.stringify(v)); } catch {} } };
+  let session = null, timer = null, codeSentTo = "", status = "";
 
-  const docRef = (uid) => fs.doc(db, "users", uid);
-  const renderBox = () => {
-    box.innerHTML = current
-      ? `<div>${current.displayName || current.email} でログイン中。行った館と出発地を同期しています。</div>
-         <div class="row" style="margin-top:8px"><button class="btn ghost" id="logout">ログアウト</button></div>`
-      : `<div>Googleアカウントでログインすると、スマホとPCで「行った館」と出発地を同期できます。</div>
-         <div class="row" style="margin-top:8px"><button class="btn" id="login">Googleでログイン</button></div>`;
-    document.getElementById("login")?.addEventListener("click", () =>
-      auth.signInWithPopup(a, new auth.GoogleAuthProvider()).catch((e) => alert("ログインできませんでした: " + e.message)));
-    document.getElementById("logout")?.addEventListener("click", () => auth.signOut(a));
-  };
-  window.mwSync = {
-    renderBox,
-    push(user) {
-      if (!current) return;
-      clearTimeout(timer);
-      timer = setTimeout(() => fs.setDoc(docRef(current.uid), user).catch(console.error), 600);
-    },
-  };
-  auth.onAuthStateChanged(a, async (u) => {
-    current = u; renderBox();
-    if (!u) return;
-    const local = window.mwUser.get();
-    const snap = await fs.getDoc(docRef(u.uid));
-    const remote = snap.exists() ? snap.data() : { visits: {}, wants: {}, origin: "", updatedAt: 0 };
-    // 訪問記録は館ごとに訪問日で和集合をとる。出発地は新しく更新した方を採る
+  const today = () => new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+  // 端末とサーバーの統合。前回の同期のあと端末で変更が無ければサーバーの内容をそのまま採る（別端末での取り消しを戻さないため）。
+  // 両方で変更があれば、訪問記録は訪問日で和集合、行きたい館と出発地は新しく更新した方を採る
+  function merge(local, remote) {
+    if (!remote) return local;
+    if ((local.updatedAt || 0) <= (meta.get().syncedAt || 0)) return { visits: {}, wants: {}, origin: "", ...remote };
     const visits = {};
     for (const src of [remote.visits || {}, local.visits || {}])
       for (const [id, list] of Object.entries(src))
         for (const v of list) if (!(visits[id] ||= []).some((x) => x.date === v.date)) visits[id].push(v);
-    const newer = (local.updatedAt || 0) > (remote.updatedAt || 0) ? local : remote;
-    // 行きたい館は新しく更新した方を採り、今の会期で訪問済みの館は外す（どちらか片方だけ）
-    const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+    const newer = (local.updatedAt || 0) >= (remote.updatedAt || 0) ? local : remote;
+    const t = today();
     const wants = Object.fromEntries(Object.entries(newer.wants || {}).filter(([id]) =>
-      !(visits[id] || []).some((v) => v.date <= today && (v.until == null || v.until >= today))));
-    const merged = { visits, wants, origin: newer.origin || "", updatedAt: Date.now() };
+      !(visits[id] || []).some((v) => v.date <= t && (v.until == null || v.until >= t))));
+    return { visits, wants, origin: newer.origin || "", updatedAt: Math.max(local.updatedAt || 0, remote.updatedAt || 0) };
+  }
+  async function push(data) {
+    if (!session) return;
+    const { error } = await sb.from(TABLE).upsert({ user_id: session.user.id, data, updated_at: data.updatedAt || Date.now() });
+    if (error) { status = "保存に失敗しました: " + error.message; renderBox(); return; }
+    meta.set({ syncedAt: data.updatedAt || Date.now() });
+  }
+  async function pull() {
+    if (!session) return;
+    const { data, error } = await sb.from(TABLE).select("data").eq("user_id", session.user.id).maybeSingle();
+    if (error) { status = "読み込みに失敗しました: " + error.message; renderBox(); return; }
+    const merged = merge(window.mwUser.get(), data?.data);
     window.mwUser.replace(merged);
-    await fs.setDoc(docRef(u.uid), merged);
+    await push(merged);
+    status = ""; renderBox();
+  }
+  function renderBox() {
+    if (session) {
+      box.innerHTML = `<div>${esc(session.user.email)} でログイン中。訪問記録・行きたい館・出発地を同期しています。</div>
+        ${status ? `<div>${esc(status)}</div>` : ""}
+        <div class="row" style="margin-top:8px"><button class="btn ghost" id="syncNow">今すぐ同期</button><button class="btn ghost" id="logout">ログアウト</button></div>`;
+    } else if (codeSentTo) {
+      box.innerHTML = `<div>${esc(codeSentTo)} に届いたコードを入力してください。</div>
+        <div class="row" style="margin-top:8px"><input type="text" id="code" inputmode="numeric" autocomplete="one-time-code" placeholder="コード">
+        <button class="btn" id="verify">ログイン</button><button class="btn ghost" id="back">やり直す</button></div>
+        ${status ? `<div>${esc(status)}</div>` : ""}`;
+    } else {
+      box.innerHTML = `<div>メールアドレスでログインすると、スマホとPCで訪問記録・行きたい館・出発地を同期できます（パスワード不要。メールに届くコードを入力します）。</div>
+        <div class="row" style="margin-top:8px"><input type="text" id="email" inputmode="email" autocomplete="email" placeholder="メールアドレス">
+        <button class="btn" id="send">コードを送る</button></div>
+        ${status ? `<div>${esc(status)}</div>` : ""}`;
+    }
+    const on = (id, fn) => document.getElementById(id)?.addEventListener("click", fn);
+    on("send", async () => {
+      const email = document.getElementById("email").value.trim(); if (!email) return;
+      status = "送信中…"; renderBox();
+      const { error } = await sb.auth.signInWithOtp({ email, options: { shouldCreateUser: true } });
+      if (error) { status = "送信できませんでした: " + error.message; } else { codeSentTo = email; status = ""; }
+      renderBox();
+    });
+    on("verify", async () => {
+      const token = document.getElementById("code").value.trim(); if (!token) return;
+      status = "確認中…"; renderBox();
+      const { error } = await sb.auth.verifyOtp({ email: codeSentTo, token, type: "email" });
+      status = error ? "ログインできませんでした: " + error.message : ""; if (!error) codeSentTo = "";
+      renderBox();
+    });
+    on("back", () => { codeSentTo = ""; status = ""; renderBox(); });
+    on("syncNow", () => pull());
+    on("logout", async () => { await sb.auth.signOut(); });
+  }
+  window.mwSync = {
+    renderBox,
+    push(user) { clearTimeout(timer); timer = setTimeout(() => push(user), 600); },
+  };
+  sb.auth.onAuthStateChange((event, s) => {
+    const was = !!session; session = s;
+    if (!was && s) pull();
+    if (!s) meta.set({});
+    renderBox();
   });
+  ({ data: { session } } = await sb.auth.getSession());
+  renderBox();
+  if (session) pull();
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") pull(); });
 }
 </script>
 </body>

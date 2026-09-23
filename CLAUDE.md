@@ -1,6 +1,6 @@
 # museum-watch
 
-東京都・神奈川県の美術館（Wikipedia「美術館の一覧」掲載館）について、毎日の開館状況・開館時間・開催中の展示を集めて
+全国の美術館（Wikipedia「美術館の一覧」掲載館）について、毎日の開館状況・開館時間・開催中の展示を集めて
 `docs/index.html` にまとめるプロジェクト。
 
 ## 仕組み
@@ -10,14 +10,14 @@
   形式は `schema/detail.schema.json`。「今日開いているか」は保存しない。
 - `scripts/render.py`: 詳細 JSON と日付から開館・休館を決定的に計算する（祝日は jpholiday）。
   `docs/index.html`（14 日分。ページを開いた日を今日として表示）と `data/daily/YYYY-MM-DD.json` を出す。HTML の元は `scripts/template.html`。
-- `scripts/plan_run.py`: 各館を full / light / skip のどれで確認するか決め、バッチに分ける。
+- `scripts/plan_run.py`: 各館を full / light / skip のどれで確認するか決め、バッチに分ける。まだ巡回していない館は 1 回 100 館まで（`--max-new`）、`common.CRAWL_PRIORITY` の順（関東 → 近い地域 → コード順）。
 - `scripts/template.html`: 公開ページ。大理石の背景画像（`docs/marble-*.jpg`）は `scripts/marble_bake.html` を ブラウザで開いて焼き付ける（受け取り役は `scripts/marble_upload.py`）。
 - 行った館と出発地はブラウザの localStorage に保存し、`docs/firebase-config.js` が設定されていれば Firebase（Google ログイン + Firestore）で同期する。準備手順は `SETUP_FIREBASE.md`、Firestore のルールは `firestore.rules`。
 - `prompts/daily_update.md`: 毎週金曜 6:00 の定期タスク（Claude デスクトップアプリ）が従う手順書。
 
 ## コマンド
 ```bash
-uv run scripts/build_list.py --prefectures 東京都,神奈川県
+uv run scripts/build_list.py            # 全都道府県（--prefectures 東京都,千葉県 で絞れる）
 uv run scripts/plan_run.py
 uv run scripts/validate.py [id ...]
 uv run scripts/render.py [--date YYYY-MM-DD] [--print]

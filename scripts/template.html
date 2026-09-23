@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>美術館ウォッチ</title>
-<meta name="description" content="東京都・神奈川県の美術館の開館状況・開館時間・料金・開催中の展覧会を一覧で。">
+<meta name="description" content="全国の美術館の開館状況・開館時間・料金・開催中の展覧会を一覧で。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
@@ -155,7 +155,7 @@ dialog::backdrop { background: rgba(20, 18, 15, .5); }
   <div class="days" id="days" role="toolbar" aria-label="日付"></div>
   <div class="controls">
     <div class="tabs" role="tablist" id="tabs"></div>
-    <select id="pref" aria-label="都県"><option value="">全都県</option></select>
+    <select id="pref" aria-label="都道府県"><option value="">全国</option></select>
     <select id="cat" aria-label="区分"><option value="">国立・公立・私立</option><option>国立</option><option>公立</option><option>私立</option></select>
     <select id="late" aria-label="閉館時刻">
       <option value="">閉館時刻</option><option value="17:30">17:30以降</option><option value="18:00">18:00以降</option>
@@ -203,6 +203,15 @@ dialog::backdrop { background: rgba(20, 18, 15, .5); }
 <script src="firebase-config.js" onerror="window.FIREBASE_CONFIG = null"></script>
 <script>
 const DATA = /*__DATA__*/null;
+// 埋め込みデータは縮めてあるので元の形に戻す（展覧会は館ごとの一覧の番号で入っている）
+for (const d of DATA.days) {
+  for (const r of d.results) {
+    const ex = DATA.museums[r.id].exhibitions;
+    r.exhibitions = (r.exhibitions || []).map(([i, open, close]) => ({ ...ex[i], open, close }));
+    r.upcoming = (r.upcoming || []).map((i) => ex[i]);
+  }
+  for (const id of DATA.pending) d.results.push({ id, status: "pending", exhibitions: [], upcoming: [] });
+}
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const md = (iso) => { const [, m, d] = iso.split("-"); return `${+m}/${+d}`; };
@@ -220,9 +229,9 @@ const user = Object.assign({ visits: {}, origin: "", updatedAt: 0 }, store.get("
 
 // 訪問した日に開催中だった展覧会が終わる日。企画展があれば企画展のうち最も早く終わる日、なければ常設展など
 function untilFor(id, date) {
-  const running = (DATA.museums[id]?.ex || []).filter(([s, e]) => s <= date && date <= e);
-  const pick = running.some(([, , k]) => k === "special") ? running.filter(([, , k]) => k === "special") : running;
-  return pick.length ? pick.map(([, e]) => e).sort()[0] : null;
+  const running = (DATA.museums[id]?.exhibitions || []).filter((e) => e.start <= date && date <= e.end);
+  const pick = running.some((e) => e.kind === "special") ? running.filter((e) => e.kind === "special") : running;
+  return pick.length ? pick.map((e) => e.end).sort()[0] : null;
 }
 const visitsOf = (id) => user.visits[id] || [];
 // その日の時点で有効な訪問（会期がまだ終わっていない訪問）。無ければ未訪問扱い
@@ -244,7 +253,7 @@ window.mwUser = {
   replace(next) { Object.assign(user, next); store.set("user", user); render(); renderSettings(); },
 };
 
-const TABS = [["open", "開館"], ["closed", "休館"], ["unknown", "不明"]];
+const TABS = [["open", "開館"], ["closed", "休館"], ["unknown", "不明"], ["pending", "情報準備中"]];
 // ページを開いた日（JST）を「今日」にする。生成日から日がたっていれば過去の日は出さない
 const todayJst = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
 const first = DATA.days.findIndex((d) => d.date >= todayJst);
@@ -252,8 +261,15 @@ DATA.days = DATA.days.slice(first === -1 ? DATA.days.length - 1 : first);
 const state = Object.assign({ day: 0, tab: "open", pref: "", cat: "", late: "", visit: "", sort: "close", q: "" },
   store.get("state") || {}, { day: 0 });
 
-$("sub").textContent = `東京都・神奈川県 ${Object.keys(DATA.museums).length} 館 ・ 更新 ${DATA.generated_at.slice(0, 16).replace("T", " ")}`;
-for (const p of [...new Set(Object.values(DATA.museums).map((m) => m.prefecture))]) $("pref").add(new Option(p, p));
+const prefs = Object.values(DATA.regions).flat();
+$("sub").textContent = `${prefs.length > 2 ? "全国" : prefs.join("・")} ${Object.keys(DATA.museums).length} 館 ・ 更新 ${DATA.generated_at.slice(0, 16).replace("T", " ")}`;
+// 都道府県の絞り込みは地方ごとにまとめる（「関東すべて」のような地方単位の選択もできる）
+for (const [region, ps] of Object.entries(DATA.regions)) {
+  if (!ps.length) continue;
+  const g = document.createElement("optgroup"); g.label = region;
+  g.append(new Option(`${region}すべて`, "region:" + region), ...ps.map((p) => new Option(p, p)));
+  $("pref").append(g);
+}
 
 const ICON_WARN = `<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5 1.5 21h21z" fill="#f2c200" stroke="#8a6a00" stroke-width="1.2" stroke-linejoin="round"/><path d="M12 9v5.5" stroke="#3a2c00" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.6" r="1.3" fill="#3a2c00"/></svg>`;
 const ICON_LAST = `<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5 1.5 21h21z" fill="#d93025" stroke="#8c1d15" stroke-width="1.2" stroke-linejoin="round"/><path d="M12 9v5.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.6" r="1.3" fill="#fff"/></svg>`;
@@ -269,8 +285,8 @@ function renderDays() {
 }
 function renderTabs(results) {
   const n = (k) => results.filter((r) => r.status === k).length;
-  if (state.tab === "unknown" && !n("unknown")) state.tab = "open";
-  $("tabs").innerHTML = TABS.filter(([k]) => k !== "unknown" || n(k)).map(([k, label]) =>
+  if (["unknown", "pending"].includes(state.tab) && !n(state.tab)) state.tab = "open";
+  $("tabs").innerHTML = TABS.filter(([k]) => !["unknown", "pending"].includes(k) || n(k)).map(([k, label]) =>
     `<button class="tab" role="tab" aria-selected="${state.tab === k}" data-k="${k}">${label} <span class="num">${n(k)}</span></button>`).join("");
 }
 function exHtml(e, date) {
@@ -288,13 +304,16 @@ function card(r, date) {
   const m = DATA.museums[r.id];
   const cv = currentVisit(r.id, date);
   const visited = !!cv, count = visitsOf(r.id).length;
-  const status = { open: ["s-open", "開館"], closed: ["s-closed", "休館"], unknown: ["s-unknown", "不明"] }[r.status];
+  const status = { open: ["s-open", "開館"], closed: ["s-closed", "休館"], unknown: ["s-unknown", "不明"],
+                   pending: ["s-unknown", "準備中"] }[r.status];
   const free = r.free ? `<div class="freebadge">${r.free.scope === "all" ? "無料開放日" : "常設展 無料開放日"}${r.free.reason ? "・" + esc(r.free.reason) : ""}</div>` : "";
   const hours = r.status === "open" ? `<span class="hours num">${r.open ? `${r.open} – ${r.close}` : "時間不明"}</span>
       ${r.last_entry ? `<span class="small">最終入館 <span class="num">${r.last_entry}</span></span>` : ""}` : "";
   const price = m.price != null ? `<span class="price">大人 ${yen(m.price)}</span>` : "";
   const facts = hours || price ? `<div class="facts">${hours}${price}</div>` : "";
-  const reason = r.reason ? `<div class="reason">${esc(r.reason)}</div>` : "";
+  const reason = r.status === "pending"
+    ? `<div class="reason">開館時間と展覧会の情報は、毎週の巡回で順番に集めています。${m.url ? `今は<a href="${esc(m.url)}" target="_blank" rel="noopener">公式サイト</a>でご確認ください。` : ""}</div>`
+    : r.reason ? `<div class="reason">${esc(r.reason)}</div>` : "";
   const old = r.needs_check ? `<div class="warn-old">情報が古いか不確かです。公式サイトでご確認ください</div>` : "";
   const ex = r.exhibitions.length ? `<ul class="ex">${r.exhibitions.map((e) => exHtml(e, date)).join("")}</ul>` : "";
   const up = r.upcoming.length ? `<details class="up"><summary>まもなく開始 ${r.upcoming.length}件</summary><ul class="ex">${
@@ -319,7 +338,8 @@ function render() {
   const q = state.q.trim().toLowerCase();
   const base = day.results.filter((r) => {
     const m = DATA.museums[r.id];
-    if (state.pref && m.prefecture !== state.pref) return false;
+    if (state.pref && (state.pref.startsWith("region:") ? !DATA.regions[state.pref.slice(7)]?.includes(m.prefecture)
+                                                         : m.prefecture !== state.pref)) return false;
     if (state.cat && m.category !== state.cat) return false;
     if (state.visit === "yes" && !currentVisit(r.id, day.date)) return false;
     if (state.visit === "no" && currentVisit(r.id, day.date)) return false;

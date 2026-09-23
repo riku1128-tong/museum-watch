@@ -1,10 +1,11 @@
 # 美術館ウォッチ（museum-watch）
 
-東京都・神奈川県の美術館について、**今日開いているか・何時まで開いているか・何を展示しているか**を一覧で見られるページです。
+全国の美術館について、**今日開いているか・何時まで開いているか・何を展示しているか**を一覧で見られるページです。
 
 **ページ: https://riku1128-tong.github.io/museum-watch/**
 
-- 対象: Wikipedia「[美術館の一覧](https://ja.wikipedia.org/wiki/美術館の一覧)」に載っている東京都・神奈川県の美術館（76 館。閉館済みの館は除外）
+- 対象: Wikipedia「[美術館の一覧](https://ja.wikipedia.org/wiki/美術館の一覧)」に載っている全国の美術館（544 館。閉館済みの館は除外）。
+  公式サイトの巡回は毎回 100 館ずつ、関東 → 近い地域 → 都道府県コード順に広げています。まだ巡回していない館は「情報準備中」として公式サイトへのリンクを表示します
 - 更新: 毎週金曜の朝。Claude（Claude Code の定期タスク）が各館の公式サイトを読んで情報を更新します
 - 表示: 14 日分。都県・国立/公立/私立・閉館時刻（例: 18 時以降も開いている館）で絞り込めます。館名や展覧会名でも検索できます
 - 料金: 大人一般の料金を表示。大人一般が無料になる日（無料開放日）はカードの背景色が変わります
@@ -31,7 +32,7 @@ data/details ──render.py（祝日は jpholiday）──▶ docs/index.html �
 
 ```bash
 uv sync
-uv run scripts/build_list.py --prefectures 東京都,神奈川県   # 館の一覧を作り直す
+uv run scripts/build_list.py                                # 館の一覧を作り直す（全都道府県）
 uv run scripts/plan_run.py                                  # 巡回計画（full / light / skip）
 uv run scripts/validate.py                                  # 詳細 JSON の検証
 uv run scripts/render.py                                    # docs/index.html を生成

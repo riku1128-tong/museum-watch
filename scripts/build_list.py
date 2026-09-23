@@ -1,6 +1,6 @@
 """Wikipedia「美術館の一覧」から対象都県の美術館を抜き出し、data/museums.json を作る。
 
-    uv run scripts/build_list.py                       # 東京都・神奈川県
+    uv run scripts/build_list.py                       # 全都道府県
     uv run scripts/build_list.py --prefectures 東京都,千葉県
 """
 
@@ -11,7 +11,7 @@ import hashlib
 import re
 from dataclasses import dataclass, asdict
 
-from common import MUSEUMS_JSON, http, now_jst, read_json, write_json
+from common import MUSEUMS_JSON, PREFS, http, now_jst, read_json, write_json
 
 LIST_TITLE = "美術館の一覧"
 WP_API = "https://ja.wikipedia.org/w/api.php"
@@ -152,9 +152,9 @@ def official_url(ent: dict) -> str | None:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--prefectures", default="東京都,神奈川県")
+    ap.add_argument("--prefectures", default="all", help="all（全都道府県）か、カンマ区切りの都道府県名")
     args = ap.parse_args()
-    prefectures = [p.strip() for p in args.prefectures.split(",") if p.strip()]
+    prefectures = PREFS if args.prefectures == "all" else [p.strip() for p in args.prefectures.split(",") if p.strip()]
 
     s = http()
     entries = extract(fetch_wikitext(s), prefectures)
@@ -210,13 +210,16 @@ def main() -> None:
         by.setdefault((m["prefecture"], m["category"]), 0)
         by[(m["prefecture"], m["category"])] += 1
     print(f"{len(museums)} 館を書き出しました -> {MUSEUMS_JSON}")
-    for (p, c), n in sorted(by.items()):
-        print(f"  {p} {c}: {n}")
+    per_pref = {}
+    for (p, c), n in by.items():
+        per_pref[p] = per_pref.get(p, 0) + n
+    print("  " + " / ".join(f"{p} {per_pref[p]}" for p in PREFS if p in per_pref))
+    print("  区分: " + " / ".join(f"{c} {sum(n for (_, cc), n in by.items() if cc == c)}" for c in ("国立", "公立", "私立")))
     print(f"  公式URLあり: {sum(1 for m in museums if m['official_url'])}")
     print(f"  Wikidata上で閉館: {[m['name'] for m in museums if m['status'] == 'closed']}")
     missing = [m["name"] for m in museums if not m["official_url"]]
     if missing:
-        print(f"  公式URLなし: {missing}")
+        print(f"  公式URLなし: {len(missing)} 館")
 
 
 if __name__ == "__main__":

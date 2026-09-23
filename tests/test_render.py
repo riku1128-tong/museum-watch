@@ -71,7 +71,7 @@ def test_exhibition_hours_extend_museum_close_and_changeover_closure():
 
 
 def test_stale_and_missing_details_need_check():
-    assert judge(M, None, date(2026, 9, 24), date(2026, 9, 24))["status"] == "unknown"
+    assert judge(M, None, date(2026, 9, 24), date(2026, 9, 24))["status"] == "pending"
     r = judge(M, detail(checked_at="2026-09-16T06:00:00+09:00"), date(2026, 9, 25), date(2026, 9, 24))
     assert r["needs_check"] is True
 

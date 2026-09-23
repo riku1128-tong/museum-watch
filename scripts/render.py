@@ -14,7 +14,7 @@ from datetime import date, datetime, timedelta
 
 import jpholiday
 
-from common import DATA, DAILY, DETAILS, MUSEUMS_JSON, ROOT, SITE, now_jst, read_json, write_json
+from common import DATA, DAILY, DETAILS, MUSEUMS_JSON, REGIONS, ROOT, SITE, now_jst, read_json, write_json
 
 WEEKDAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
 STALE_DAYS = 8  # 巡回は毎週金曜。1 回ぶん遅れたら要確認にする
@@ -142,7 +142,8 @@ def judge(m: dict, det: dict | None, d: date, today: date) -> dict:
     base = {"id": m["id"], "status": "unknown", "reason": None, "open": None, "close": None,
             "last_entry": None, "exhibitions": [], "upcoming": [], "needs_check": True}
     if det is None:
-        return base | {"reason": "未取得"}
+        # まだ一度も巡回していない館（全国対応で順番に巡回中）
+        return base | {"status": "pending", "reason": "情報準備中", "needs_check": False}
 
     checked = datetime.fromisoformat(det["checked_at"]).date()
     needs_check = det["confidence"] == "low" or (today - checked).days >= STALE_DAYS
@@ -215,12 +216,24 @@ def museum_meta(m: dict, det: dict | None) -> dict:
         "lat": m.get("lat"), "lng": m.get("lng"),
         "price": museum_price(det),
         "access": (det or {}).get("access", []),
-        # 訪問記録の有効期限（訪問日に開催中だった展覧会の会期末）をページ側で計算するための会期一覧
-        "ex": [[e["start"], e["end"], e.get("kind", "other")] for e in (det or {}).get("exhibitions", [])],
+        # 展覧会は館ごとに 1 回だけ持ち、日ごとの結果からは番号で参照する（ページを軽くするため）
+        "exhibitions": [{k: v for k, v in {
+            "title": e["title"], "start": e["start"], "end": e["end"], "url": e.get("url"), "kind": e.get("kind", "other"),
+            "summary": e.get("summary"), "admission": e.get("admission"), "price": exhibition_price(e)}.items() if v is not None}
+            for e in (det or {}).get("exhibitions", [])],
         "checked_at": (det or {}).get("checked_at"),
-        "confidence": (det or {}).get("confidence"),
-        "notes": (det or {}).get("notes"),
     }
+
+
+def compact(result: dict, meta: dict) -> dict:
+    """日ごとの判定結果を HTML 埋め込み用に縮める。展覧会は館の一覧の番号にし、空の値は省く（ページ側で元に戻す）。"""
+    index = {(e["title"], e["start"]): i for i, e in enumerate(meta["exhibitions"])}
+    out = {k: v for k, v in result.items() if v not in (None, False, [], {}) and k not in ("exhibitions", "upcoming")}
+    if result["exhibitions"]:
+        out["exhibitions"] = [[index[(e["title"], e["start"])], e["open"], e["close"]] for e in result["exhibitions"]]
+    if result["upcoming"]:
+        out["upcoming"] = [index[(e["title"], e["start"])] for e in result["upcoming"]]
+    return out
 
 
 def main() -> None:
@@ -268,11 +281,16 @@ def main() -> None:
             print(f"  [{r['status']:7}] {names[r['id']]} {hrs} {r['reason'] or ''}{flag}  {ex}")
         return
 
+    metas = {m["id"]: museum_meta(m, details.get(m["id"])) for m in active}
     payload = {
         "generated_at": now_jst().isoformat(timespec="minutes"),
-        "museums": {m["id"]: museum_meta(m, details.get(m["id"])) for m in active},
+        "museums": metas,
         "gone": gone,
-        "days": days,
+        "regions": {r: [p for p in ps if any(m["prefecture"] == p for m in active)] for r, ps in REGIONS.items()},
+        # 準備中の館は毎日同じなので日ごとには持たず、ページ側で各日に足す
+        "pending": [m["id"] for m in active if m["id"] not in details],
+        "days": [{**d, "results": [compact(r, metas[r["id"]]) for r in d["results"] if r["status"] != "pending"]}
+                 for d in days],
     }
     write_json(DAILY / f"{start.isoformat()}.json", {"generated_at": payload["generated_at"], **days[0]})
 
@@ -282,8 +300,8 @@ def main() -> None:
     (SITE / "index.html").write_text(html, encoding="utf-8")
 
     r0 = days[0]["results"]
-    count = {s: sum(1 for r in r0 if r["status"] == s) for s in ("open", "closed", "unknown")}
-    print(f"{start}: 開館 {count['open']} / 休館 {count['closed']} / 不明 {count['unknown']}"
+    count = {s: sum(1 for r in r0 if r["status"] == s) for s in ("open", "closed", "unknown", "pending")}
+    print(f"{start}: 開館 {count['open']} / 休館 {count['closed']} / 不明 {count['unknown']} / 準備中 {count['pending']}"
           f"（詳細あり {sum(1 for m in active if m['id'] in details)}/{len(active)} 館、閉館 {len(gone)} 館）")
     print(f"-> {SITE / 'index.html'}")
 

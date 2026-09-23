@@ -26,4 +26,5 @@ uv run pytest -q
 - 「不明」を残さない。公式サイトが読めなければ、別ページ・検索・自治体ページ・美術情報サイトの順に当たり、`plan_run.py --retry` で再挑戦する。
 - ただし詳細 JSON に、推測した日付や時刻は入れない。どうしても読めなかった項目だけ `unknown` にするか、`confidence` を下げる。
 - 判定ロジックを変えたら `tests/test_render.py` にケースを足す。
-- 定期タスクは git commit しない。
+- 定期タスクがコミットしてよいのは `data/` と `docs/` だけ（検証が通ったときに main へプッシュし、GitHub Pages を更新する）。
+- 公開ページ: https://riku1128-tong.github.io/museum-watch/

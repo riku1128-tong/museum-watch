@@ -54,8 +54,21 @@ NG が出た館は、エラーの内容を見て JSON を直接直す（スキ�
 uv run scripts/render.py --log --started <1で控えた時刻> --failed <失敗idをカンマ区切り>
 ```
 
-最後に、次の内容を 3〜5 行で報告して終わる: 開館館数、休館館数、不明館数、失敗した館、目立った変化（新しい展示・臨時休館）。
-git commit はしない。
+## 5. 公開ページを更新する
+
+`validate.py` がすべて OK のときだけ、`data/` と `docs/` の変更をコミットして main にプッシュする（GitHub Pages が更新される）。
+コードや手順書（`scripts/` `prompts/` `schema/` など）はコミットに含めない。NG が残っているときはプッシュせず、報告に書く。
+
+```bash
+git pull --ff-only
+git add data docs
+git commit -m "データ更新 $(date +%F)" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
+git push
+```
+
+変更が無くてコミットできないときは、そのまま次へ進む。push に失敗したら、エラーを報告に書く（force push はしない）。
+
+最後に、次の内容を 3〜5 行で報告して終わる: 開館館数、休館館数、不明館数、失敗した館、目立った変化（新しい展示・臨時休館）、プッシュしたかどうか。
 
 ---
 

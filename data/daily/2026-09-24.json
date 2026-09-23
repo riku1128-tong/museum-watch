@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T07:29+09:00",
+  "generated_at": "2026-09-24T07:35+09:00",
   "date": "2026-09-24",
   "weekday": "木",
   "holiday": null,
@@ -63,7 +63,8 @@
           "url": "https://www.tnm.jp/modules/r_free_page/index.php?id=2774"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q147286",
@@ -132,7 +133,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q1055037",
@@ -167,7 +169,8 @@
           "url": "https://www.momat.go.jp/exhibitions/r8-2-g4"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q1055628",
@@ -238,7 +241,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11402992",
@@ -1033,7 +1037,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "wp-cc00d4c2",
@@ -1044,7 +1049,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q743773",
@@ -1062,7 +1068,8 @@
           "url": "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q1649688",
@@ -1110,7 +1117,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q862884",
@@ -1147,7 +1155,8 @@
           "url": "https://topmuseum.jp/exhibition/5421/"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11525123",
@@ -1165,7 +1174,8 @@
           "url": "https://museum.geidai.ac.jp/exhibit/2026/10/mikamiryo.html"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3815450",
@@ -1176,7 +1186,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11561694",
@@ -1200,7 +1211,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11532663",
@@ -1231,7 +1243,8 @@
           "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000016/4002027/4002028.html"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3892314",
@@ -1267,7 +1280,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11608069",
@@ -1303,7 +1317,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q17220332",
@@ -1339,7 +1354,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "wp-f2d42c9c",
@@ -1412,7 +1428,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11198629",
@@ -1485,7 +1502,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q109603143",
@@ -1496,7 +1514,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11391573",
@@ -1520,7 +1539,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11578302",
@@ -1556,7 +1576,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "wp-d33113a9",
@@ -1618,7 +1639,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11589187",
@@ -1752,7 +1774,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q7686506",
@@ -1776,7 +1799,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11543551",
@@ -1848,7 +1872,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11503129",
@@ -4165,7 +4190,8 @@
           "url": "https://www.eiseibunko.com/exhibition.html"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3076590",
@@ -4176,7 +4202,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q1047097",
@@ -4200,7 +4227,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q2374140",
@@ -4224,7 +4252,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3329572",
@@ -4248,7 +4277,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3329598",
@@ -4279,7 +4309,8 @@
           "url": "https://www.shukokan.org/exhibition/future.html"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q864700",
@@ -4365,7 +4396,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3329573",
@@ -4389,7 +4421,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q1528356",
@@ -4413,7 +4446,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11249110",
@@ -4474,7 +4508,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q583055",
@@ -4485,7 +4520,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q1614504",
@@ -4509,7 +4545,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q4410434",
@@ -4520,7 +4557,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11530056",
@@ -4568,7 +4606,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q5153794",
@@ -4579,7 +4618,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q947907",
@@ -4640,7 +4680,8 @@
           "url": "https://www.fujibi.or.jp/exhibitions/8202610032/"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11524090",
@@ -4651,7 +4692,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q115265693",
@@ -4675,7 +4717,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3815458",
@@ -4686,7 +4729,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q17211727",
@@ -4742,7 +4786,8 @@
           "url": "https://www.ukiyoe-ota-muse.jp/katsushikaoi2026/"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11369635",
@@ -4766,7 +4811,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "wp-95d3424e",
@@ -4777,7 +4823,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "wp-9beb8b9d",
@@ -4788,7 +4835,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11384365",
@@ -4812,7 +4860,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "wp-4d8ecc6f",
@@ -4836,7 +4885,8 @@
         }
       ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11487473",
@@ -4897,7 +4947,8 @@
           "url": "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/next.html"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11598754",
@@ -5027,7 +5078,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q127432181",
@@ -5045,7 +5097,8 @@
           "url": "https://nakamuramasayoshi.com/exhibition/index.php"
         }
       ],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q1574475",
@@ -5166,7 +5219,8 @@
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q17224006",

@@ -11,7 +11,8 @@
     "https://www.tobikan.jp/guide/index.html",
     "https://www.tobikan.jp/exhibition/index.html",
     "https://www.tobikan.jp/exhibition/2026_britishmuseum.html",
-    "https://www.tobikan.jp/information/index.html"
+    "https://www.tobikan.jp/information/index.html",
+    "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607"
   ],
   "regular_hours": [
     {
@@ -174,5 +175,17 @@
   ],
   "closed_between_exhibitions": false,
   "notes": "定休日は第1・第3月曜（祝日・振替休日の場合は翌平日）。スキーマで第n曜日を表せないため、2027-01 までの該当日を special_closures に展開した（次回以降も追加が必要）。特別展・企画展は毎週月曜休室（祝日は開室、翌平日休室）、会期中の金曜は20:00まで。2026-09-18 付お知らせ「大英博物館展 開室時間の変更について」は WebFetch 上限のため未読（トップに 9:30～21:00 の表示あり）。展覧会の URL は一覧ページの相対リンクから推定したもので、/exhibition/ 配下かは未確認。",
-  "confidence": "medium"
+  "confidence": "medium",
+  "free_days": [
+    {
+      "from": "2026-10-01",
+      "to": "2026-10-01",
+      "scope": "partial",
+      "targets": [
+        "この場所の風景"
+      ],
+      "reason": "都民の日",
+      "source_url": "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607"
+    }
+  ]
 }

@@ -13,16 +13,46 @@
     "https://www.mot-art-museum.jp/exhibitions/",
     "https://www.mot-art-museum.jp/exhibitions/Tada-Minami/",
     "https://www.mot-art-museum.jp/exhibitions/Constellation/",
-    "https://www.mot-art-museum.jp/exhibitions/mot-collection-260919/"
+    "https://www.mot-art-museum.jp/exhibitions/mot-collection-260919/",
+    "https://www.mot-art-museum.jp/guide/museum-info/"
   ],
   "regular_hours": [
-    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-11-01", "to": "2026-11-30"},
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30",
+      "from": "2026-11-01",
+      "to": "2026-11-30"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-01", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-01",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -56,5 +86,14 @@
   ],
   "closed_between_exhibitions": false,
   "notes": "休館日は「月曜日（祝日の場合は翌平日）、展示替え期間、年末年始（12/28-1/1）」。各展覧会ページに休館日 9/24・10/13・11/24 の記載あり（祝日ルールで算出されるものと一致）。11月の毎金曜日は20:00まで。台風25号接近に伴い臨時休館の可能性あり（9/18 お知らせ、決定時は公式サイト・SNSで告知）。コレクション展の正式タイトル表記は「いつかの光を今みている」の部分のみ確認。",
-  "confidence": "high"
+  "confidence": "high",
+  "free_days": [
+    {
+      "from": "2026-10-01",
+      "to": "2026-10-01",
+      "scope": "collection",
+      "reason": "都民の日",
+      "source_url": "https://www.mot-art-museum.jp/guide/museum-info/"
+    }
+  ]
 }

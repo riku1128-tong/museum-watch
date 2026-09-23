@@ -131,3 +131,12 @@ def test_free_days_and_rules():
     assert judge(M, d, date(2026, 10, 1), date(2026, 9, 30))["free"] == {"scope": "all", "reason": "都民の日"}
     assert judge(M, d, date(2026, 10, 4), date(2026, 9, 30))["free"]["scope"] == "collection"  # 第1日曜
     assert judge(M, d, date(2026, 10, 11), date(2026, 9, 30))["free"] is None
+
+
+def test_partial_free_day_lists_targets_and_all_wins():
+    d = detail(free_days=[
+        {"from": "2026-10-01", "to": "2026-10-01", "scope": "partial", "targets": ["庭園"], "reason": "都民の日"},
+        {"from": "2026-11-03", "to": "2026-11-03", "scope": "partial", "targets": ["A展"]},
+        {"from": "2026-11-03", "to": "2026-11-03", "scope": "all", "reason": "文化の日"}])
+    assert judge(M, d, date(2026, 10, 1), date(2026, 9, 30))["free"] == {"scope": "partial", "reason": "都民の日", "targets": ["庭園"]}
+    assert judge(M, d, date(2026, 11, 3), date(2026, 11, 2))["free"]["scope"] == "all"

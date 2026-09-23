@@ -10,12 +10,29 @@
     "https://www.teien-art-museum.ne.jp/",
     "https://www.teien-art-museum.ne.jp/visit/",
     "https://www.teien-art-museum.ne.jp/exhibition/",
-    "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/"
+    "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/",
+    "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -29,19 +46,117 @@
       "summary": "フィンランドのデザインハウス、マリメッコのドレス60点超やファブリック、制作資料を紹介",
       "admission": "一般 1,400円",
       "hours": [
-        {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-11-06", "to": "2026-11-06"},
-        {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-11-13", "to": "2026-11-13"},
-        {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-11-20", "to": "2026-11-20"},
-        {"days": ["sat"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-11-21", "to": "2026-11-21"},
-        {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-11-27", "to": "2026-11-27"},
-        {"days": ["sat"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-11-28", "to": "2026-11-28"},
-        {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-12-04", "to": "2026-12-04"},
-        {"days": ["sat"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-12-05", "to": "2026-12-05"},
-        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "10:00",
+          "close": "20:00",
+          "last_entry": "19:30",
+          "from": "2026-11-06",
+          "to": "2026-11-06"
+        },
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "10:00",
+          "close": "20:00",
+          "last_entry": "19:30",
+          "from": "2026-11-13",
+          "to": "2026-11-13"
+        },
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "10:00",
+          "close": "20:00",
+          "last_entry": "19:30",
+          "from": "2026-11-20",
+          "to": "2026-11-20"
+        },
+        {
+          "days": [
+            "sat"
+          ],
+          "open": "10:00",
+          "close": "20:00",
+          "last_entry": "19:30",
+          "from": "2026-11-21",
+          "to": "2026-11-21"
+        },
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "10:00",
+          "close": "20:00",
+          "last_entry": "19:30",
+          "from": "2026-11-27",
+          "to": "2026-11-27"
+        },
+        {
+          "days": [
+            "sat"
+          ],
+          "open": "10:00",
+          "close": "20:00",
+          "last_entry": "19:30",
+          "from": "2026-11-28",
+          "to": "2026-11-28"
+        },
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "10:00",
+          "close": "20:00",
+          "last_entry": "19:30",
+          "from": "2026-12-04",
+          "to": "2026-12-04"
+        },
+        {
+          "days": [
+            "sat"
+          ],
+          "open": "10:00",
+          "close": "20:00",
+          "last_entry": "19:30",
+          "from": "2026-12-05",
+          "to": "2026-12-05"
+        },
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "10:00",
+          "close": "18:00",
+          "last_entry": "17:30"
+        }
       ]
     }
   ],
   "closed_between_exhibitions": true,
   "notes": "休館日は「毎週月曜日（祝日の場合は開館、翌日休館）、年末年始」。9/24 時点で開催中の展覧会は無く、トップに「本日は休館日」と表示（展示替え期間）。西洋庭園は 2026-10-02〜2027-03-31 閉鎖予定。次々回「愛を紡ぎ、祈りを刻む―リトアニアの手仕事―」は 2027-01-16〜03-28。年末年始の具体的な日付は未確認。",
-  "confidence": "high"
+  "confidence": "high",
+  "free_days": [
+    {
+      "from": "2026-10-01",
+      "to": "2026-10-01",
+      "scope": "partial",
+      "targets": [
+        "庭園"
+      ],
+      "reason": "都民の日",
+      "source_url": "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607"
+    }
+  ]
 }

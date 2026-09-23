@@ -289,13 +289,21 @@ function renderTabs(results) {
   $("tabs").innerHTML = TABS.filter(([k]) => !["unknown", "pending"].includes(k) || n(k)).map(([k, label]) =>
     `<button class="tab" role="tab" aria-selected="${state.tab === k}" data-k="${k}">${label} <span class="num">${n(k)}</span></button>`).join("");
 }
-function exHtml(e, date) {
+// その日の無料が、この展覧会に当てはまるか（全館無料、常設展のみ無料、一部無料の対象）
+function isFreeEx(free, e) {
+  if (!free) return false;
+  if (free.scope === "all") return true;
+  if (free.scope === "collection") return e.kind === "collection";
+  return (free.targets || []).some((t) => e.title.includes(t));
+}
+function exHtml(e, date, freeToday = false) {
   const left = Math.round((new Date(e.end) - new Date(date)) / 864e5);
   const alert = left === 0 ? `<span class="alert d" title="本日が最終日">${ICON_LAST}本日最終日</span>`
     : left <= 7 ? `<span class="alert w" title="会期終了まであと${left}日">${ICON_WARN}あと${left}日</span>` : "";
   const title = e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title);
   const own = e.open ? `<span class="num">${e.open}–${e.close}</span>` : "";
-  const price = e.price != null ? `<span>一般 ${yen(e.price)}</span>` : e.admission ? `<span>${esc(e.admission)}</span>` : "";
+  const price = freeToday ? `<span class="freebadge">この日は無料</span>`
+    : e.price != null ? `<span>一般 ${yen(e.price)}</span>` : e.admission ? `<span>${esc(e.admission)}</span>` : "";
   return `<li class="${e.kind === "special" ? "special" : ""}"><div class="ex-title">${title}</div>
     <div class="ex-meta"><span class="num">${mdy(e.start, date)} – ${mdy(e.end, date)}</span>${alert}${own}${price}</div>
     ${e.summary ? `<div class="ex-sum">${esc(e.summary)}</div>` : ""}</li>`;
@@ -306,7 +314,9 @@ function card(r, date) {
   const visited = !!cv, count = visitsOf(r.id).length;
   const status = { open: ["s-open", "開館"], closed: ["s-closed", "休館"], unknown: ["s-unknown", "不明"],
                    pending: ["s-unknown", "準備中"] }[r.status];
-  const free = r.free ? `<div class="freebadge">${r.free.scope === "all" ? "無料開放日" : "常設展 無料開放日"}${r.free.reason ? "・" + esc(r.free.reason) : ""}</div>` : "";
+  const freeLabel = r.free && { all: "無料開放日", collection: "常設展 無料開放日",
+    partial: `一部無料開放日（${(r.free.targets || []).map((t) => esc(t)).join("・")}）` }[r.free.scope];
+  const free = r.free ? `<div class="freebadge">${freeLabel}${r.free.reason ? "・" + esc(r.free.reason) : ""}</div>` : "";
   const hours = r.status === "open" ? `<span class="hours num">${r.open ? `${r.open} – ${r.close}` : "時間不明"}</span>
       ${r.last_entry ? `<span class="small">最終入館 <span class="num">${r.last_entry}</span></span>` : ""}` : "";
   const price = m.price != null ? `<span class="price">大人 ${yen(m.price)}</span>` : "";
@@ -315,7 +325,7 @@ function card(r, date) {
     ? `<div class="reason">開館時間と展覧会の情報は、毎週の巡回で順番に集めています。${m.url ? `今は<a href="${esc(m.url)}" target="_blank" rel="noopener">公式サイト</a>でご確認ください。` : ""}</div>`
     : r.reason ? `<div class="reason">${esc(r.reason)}</div>` : "";
   const old = r.needs_check ? `<div class="warn-old">情報が古いか不確かです。公式サイトでご確認ください</div>` : "";
-  const ex = r.exhibitions.length ? `<ul class="ex">${r.exhibitions.map((e) => exHtml(e, date)).join("")}</ul>` : "";
+  const ex = r.exhibitions.length ? `<ul class="ex">${r.exhibitions.map((e) => exHtml(e, date, isFreeEx(r.free, e))).join("")}</ul>` : "";
   const up = r.upcoming.length ? `<details class="up"><summary>まもなく開始 ${r.upcoming.length}件</summary><ul class="ex">${
     r.upcoming.map((e) => `<li><div class="ex-title">${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}</div><div class="ex-meta num">${mdy(e.start, date)} – ${mdy(e.end, date)}</div></li>`).join("")}</ul></details>` : "";
   return `<article class="card${r.free && r.status === "open" ? " free" : ""}" data-id="${r.id}">

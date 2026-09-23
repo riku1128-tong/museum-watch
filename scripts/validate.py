@@ -46,6 +46,9 @@ def semantic_errors(d: dict) -> list[str]:
     errs += overlap_errors(d["regular_hours"], "regular_hours")
     for e in d["exhibitions"]:
         errs += overlap_errors(e.get("hours", []), f"展示「{e['title']}」の hours")
+    for f in d.get("free_days", []) + d.get("free_rules", []):
+        if f["scope"] == "partial" and not f.get("targets"):
+            errs.append(f"一部無料（partial）なのに targets が空: {f.get('reason')}")
     if d["operating_status"] == "operating" and not d["regular_hours"] and d["confidence"] != "low":
         errs.append("営業中なのに regular_hours が空（読めなかったなら confidence を low に）")
     return errs

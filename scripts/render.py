@@ -103,7 +103,7 @@ def exhibition_price(e: dict) -> int | None:
 
 
 def free_on(det: dict, d: date) -> dict | None:
-    """大人一般が無料になる日なら {scope, reason} を返す。館全体の無料を常設のみより優先する。"""
+    """大人一般が無料になる日なら {scope, reason[, targets]} を返す。館全体 → 常設のみ → 一部 の順に優先する。"""
     hits = [f for f in det.get("free_days", []) if in_range(d, f["from"], f["to"])]
     for r in det.get("free_rules", []):
         if r.get("day_of_month") == d.day or (
@@ -111,8 +111,11 @@ def free_on(det: dict, d: date) -> dict | None:
             hits.append(r)
     if not hits:
         return None
-    best = min(hits, key=lambda f: f["scope"] != "all")
-    return {"scope": best["scope"], "reason": best.get("reason")}
+    best = min(hits, key=lambda f: ["all", "collection", "partial"].index(f["scope"]))
+    out = {"scope": best["scope"], "reason": best.get("reason")}
+    if best["scope"] == "partial":
+        out["targets"] = sorted({t for f in hits if f["scope"] == "partial" for t in f.get("targets", [])})
+    return out
 
 
 def active_exhibitions(det: dict, d: date) -> list[dict]:
@@ -147,8 +150,9 @@ def judge(m: dict, det: dict | None, d: date, today: date) -> dict:
 
     checked = datetime.fromisoformat(det["checked_at"]).date()
     needs_check = det["confidence"] == "low" or (today - checked).days >= STALE_DAYS
+    # 無料開放は休館日にも表示する（例: 建物は展示替えで休館でも、庭園だけ無料公開）
     base |= {"needs_check": needs_check, "exhibitions": active_exhibitions(det, d),
-             "upcoming": upcoming_exhibitions(det, d)}
+             "upcoming": upcoming_exhibitions(det, d), "free": free_on(det, d)}
 
     if det["operating_status"] == "temporarily_closed":
         return base | {"status": "closed", "reason": det.get("status_note") or "長期休館中"}
@@ -184,7 +188,6 @@ def judge(m: dict, det: dict | None, d: date, today: date) -> dict:
     return base | {
         "status": "open",
         "reason": special.get("note") if special else None,
-        "free": free_on(det, d),
         "open": min(opens) if opens else None,
         "close": max(closes) if closes else None,
         "last_entry": h.get("last_entry") if h else None,

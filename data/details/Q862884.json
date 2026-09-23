@@ -13,16 +13,43 @@
     "https://topmuseum.jp/upcoming/",
     "https://topmuseum.jp/exhibition/12474/",
     "https://topmuseum.jp/exhibition/5423/",
-    "https://topmuseum.jp/exhibition/5421/"
+    "https://topmuseum.jp/exhibition/5421/",
+    "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "sat", "sun", "mon", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
-    {"days": ["thu", "fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "sat",
+        "sun",
+        "mon",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    },
+    {
+      "days": [
+        "thu",
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-01", "reason": "年末年始"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -74,5 +101,18 @@
   ],
   "closed_between_exhibitions": false,
   "notes": "休館日は「毎週月曜日（月曜日が祝休日の場合は開館し、翌平日休館）」。9/24・10/13 は休館と展覧会ページに明記（振替休館）。年末年始 12/28-1/1 は vol.23 展ページの記載。利用案内の「21:00まで」延長は 2025 年の記載のため採用していない。木村伊兵衛展・岡田敦展の観覧料は未確認。",
-  "confidence": "high"
+  "confidence": "high",
+  "free_days": [
+    {
+      "from": "2026-10-01",
+      "to": "2026-10-01",
+      "scope": "partial",
+      "targets": [
+        "日本の新進作家 vol.23",
+        "アジアン・コンテンポラリー"
+      ],
+      "reason": "都民の日",
+      "source_url": "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607"
+    }
+  ]
 }

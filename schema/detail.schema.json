@@ -10,7 +10,8 @@
     "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
     "time": {"type": "string", "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$"},
     "weekday": {"enum": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"]},
-    "free_scope": {"enum": ["all", "collection"], "description": "all = 館全体（企画展も）無料、collection = 常設展・コレクション展のみ無料"},
+    "free_scope": {"enum": ["all", "collection", "partial"], "description": "all = 館全体（企画展も）無料、collection = 常設展・コレクション展のみ無料、partial = targets に挙げた展覧会・区域だけ無料"},
+    "free_targets": {"type": "array", "items": {"type": "string", "minLength": 1}, "description": "scope が partial のとき、無料になる展覧会名（の一部）や区域（例: 庭園）"},
     "hours": {
       "type": "object",
       "additionalProperties": false,
@@ -97,7 +98,8 @@
       "items": {
         "type": "object", "additionalProperties": false, "required": ["from", "to", "scope"],
         "properties": {"from": {"$ref": "#/$defs/date"}, "to": {"$ref": "#/$defs/date"},
-                       "scope": {"$ref": "#/$defs/free_scope"}, "reason": {"type": ["string", "null"]}}
+                       "scope": {"$ref": "#/$defs/free_scope"}, "targets": {"$ref": "#/$defs/free_targets"},
+                       "reason": {"type": ["string", "null"]}, "source_url": {"type": ["string", "null"]}}
       }
     },
     "free_rules": {
@@ -108,7 +110,8 @@
         "properties": {"weekday": {"enum": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]},
                        "nth": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 5}},
                        "day_of_month": {"type": "integer", "minimum": 1, "maximum": 31},
-                       "scope": {"$ref": "#/$defs/free_scope"}, "reason": {"type": ["string", "null"]}}
+                       "scope": {"$ref": "#/$defs/free_scope"}, "targets": {"$ref": "#/$defs/free_targets"},
+                       "reason": {"type": ["string", "null"]}, "source_url": {"type": ["string", "null"]}}
       }
     },
     "access": {

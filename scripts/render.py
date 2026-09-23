@@ -187,6 +187,8 @@ def main() -> None:
     ap.add_argument("--log", action="store_true", help="data/run_log.jsonl に巡回結果を 1 行追記する")
     ap.add_argument("--failed", default="", help="--log 用: 取得に失敗した館の id（カンマ区切り）")
     ap.add_argument("--started", default=None, help="--log 用: 巡回開始時刻 (ISO)")
+    ap.add_argument("--weekly-before", type=int, default=None, help="--log 用: 巡回前のプラン週次使用率 (%%)")
+    ap.add_argument("--weekly-after", type=int, default=None, help="--log 用: 巡回後のプラン週次使用率 (%%)")
     args = ap.parse_args()
 
     today = now_jst().date()
@@ -250,6 +252,10 @@ def main() -> None:
         }
         if args.started:
             entry["minutes"] = round((now - datetime.fromisoformat(args.started)).total_seconds() / 60, 1)
+        if args.weekly_before is not None and args.weekly_after is not None:
+            # 巡回 1 回がサブスクの週の枠を何 % 使ったか（全国対応の見積もりに使う）
+            entry["weekly_usage"] = {"before": args.weekly_before, "after": args.weekly_after,
+                                     "delta": args.weekly_after - args.weekly_before}
         with (DATA / "run_log.jsonl").open("a", encoding="utf-8") as f:
             f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 

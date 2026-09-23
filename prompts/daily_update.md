@@ -4,6 +4,12 @@
 東京都・神奈川県の美術館の公式サイトを読み、`data/details/<id>.json` を最新にしてから `docs/index.html` を作り直す。
 ユーザーは寝ているので質問はしない。判断に迷ったら「推測で埋めずに unknown / confidence を下げる」側に倒す。
 
+## 0. 使用量を記録する
+
+`mcp__ccd_session_mgmt__get_usage` が使えるなら、最初に呼んで「Weekly · all models」の `percentUsed` を控える（巡回前の値）。
+4 の直前にもう一度呼んで巡回後の値を控え、`render.py` に `--weekly-before <前> --weekly-after <後>` で渡す。
+ツールが無い・読めないときは省略してよい（巡回は止めない）。
+
 ## 1. 計画を作る
 
 ```bash

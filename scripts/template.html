@@ -199,7 +199,8 @@ dialog::backdrop { background: rgba(20, 18, 15, .5); }
 <footer>
   情報は各館の公式サイトから自動で集めたもので、変更が反映されていないことがあります。お出かけ前に公式サイトでご確認ください。
   館の一覧: <a href="https://ja.wikipedia.org/wiki/美術館の一覧" target="_blank" rel="noopener">Wikipedia</a>（CC BY-SA 4.0）・Wikidata ／
-  <a href="https://github.com/riku1128-tong/museum-watch" target="_blank" rel="noopener">GitHub</a>
+  <a href="https://github.com/riku1128-tong/museum-watch" target="_blank" rel="noopener">GitHub</a><br>
+  出発地の位置: 駅データ <a href="https://express.heartrails.com/" target="_blank" rel="noopener">HeartRails Express</a> ／ 住所検索 <a href="https://maps.gsi.go.jp/" target="_blank" rel="noopener">国土地理院</a>
 </footer>
 
 <dialog id="route" aria-labelledby="routeTitle"><div class="dlg" id="routeBody"></div></dialog>
@@ -214,7 +215,7 @@ dialog::backdrop { background: rgba(20, 18, 15, .5); }
     </div>
     <p class="note" id="originStatus"></p>
     <p class="note">駅名か住所を登録すると、各館の「行き方」からGoogleマップの経路検索（電車）を開けて、「出発地から近い順」でも並べ替えられます。
-      位置は駅名なら HeartRails Express、住所なら国土地理院のサービスで調べます。ログイン中はアカウントに保存されるので、個人の住所より最寄駅の登録がおすすめです。</p>
+      位置は駅名なら <a href="https://express.heartrails.com/" target="_blank" rel="noopener">HeartRails Express</a>、住所なら国土地理院のサービスで調べます。ログイン中はアカウントに保存されるので、個人の住所より最寄駅の登録がおすすめです。</p>
     <h3>よく見る地域</h3>
     <div class="row"><select id="homeArea" aria-label="よく見る地域"></select></div>
     <p class="note">ページを開いたときに、この地域で絞り込んだ状態で表示します。</p>

@@ -22,6 +22,8 @@ JST = timezone(timedelta(hours=9))
 
 # 公開ページの URL（canonical・sitemap 用）。独自ドメインに移ったら環境変数で上書きする
 SITE_URL = os.environ.get("MUSEUM_WATCH_SITE_URL", "https://riku1128-tong.github.io/museum-watch/")
+# Google アナリティクス（GA4）の測定 ID。空にすると計測タグを入れない
+GA_ID = os.environ.get("MUSEUM_WATCH_GA_ID", "G-NS856TZ0KY")
 
 # 都道府県（JIS コード順）と地方。巡回の優先順は関東 → 近い地域 → 残りをコード順
 REGIONS = {

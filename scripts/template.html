@@ -14,6 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<!--__GA__-->
 </head>
 <body>
 <header>
@@ -54,7 +55,8 @@
   情報は各館の公式サイトから自動で集めたもので、変更が反映されていないことがあります。お出かけ前に公式サイトでご確認ください。
   館の一覧: <a href="https://ja.wikipedia.org/wiki/美術館の一覧" target="_blank" rel="noopener">Wikipedia</a>（CC BY-SA 4.0）・Wikidata ／
   <a href="https://github.com/riku1128-tong/museum-watch" target="_blank" rel="noopener">GitHub</a><br>
-  出発地の位置: 駅データ <a href="https://express.heartrails.com/" target="_blank" rel="noopener">HeartRails Express</a> ／ 住所検索 <a href="https://maps.gsi.go.jp/" target="_blank" rel="noopener">国土地理院</a>
+  出発地の位置: 駅データ <a href="https://express.heartrails.com/" target="_blank" rel="noopener">HeartRails Express</a> ／ 住所検索 <a href="https://maps.gsi.go.jp/" target="_blank" rel="noopener">国土地理院</a><br>
+  <a href="privacy.html">プライバシーポリシー</a>（本サイトは Google アナリティクスを使っています）
 </footer>
 
 <dialog id="route" aria-labelledby="routeTitle"><div class="dlg" id="routeBody"></div></dialog>
@@ -101,6 +103,16 @@ for (const d of DATA.days) {
 }
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+// 外部サイトへのリンクに UTM を付ける。campaign = リンクの置き場所、content = 館 ID
+// （サイト内のリンクには付けない。GA4 で流入元が上書きされてしまうため）
+const utm = (url, campaign, content) => {
+  try {
+    const u = new URL(url);
+    u.searchParams.set("utm_source", "museum-watch"); u.searchParams.set("utm_medium", "referral");
+    u.searchParams.set("utm_campaign", campaign); if (content) u.searchParams.set("utm_content", content);
+    return u.toString();
+  } catch { return url; }
+};
 const md = (iso) => { const [, m, d] = iso.split("-"); return `${+m}/${+d}`; };
 // 表示中の日と年が違う日付だけ年を付ける（例: 2027/9/24）
 const mdy = (iso, ref) => iso.slice(0, 4) === ref.slice(0, 4) ? md(iso) : `${iso.slice(0, 4)}/${md(iso)}`;
@@ -196,11 +208,11 @@ function isFreeEx(free, e) {
   if (free.scope === "collection") return e.kind === "collection";
   return (free.targets || []).some((t) => e.title.includes(t));
 }
-function exHtml(e, date, freeToday = false) {
+function exHtml(e, date, freeToday = false, mid = "") {
   const left = Math.round((new Date(e.end) - new Date(date)) / 864e5);
   const alert = left === 0 ? `<span class="alert d" title="本日が最終日">${ICON_LAST}本日最終日</span>`
     : left <= 7 ? `<span class="alert w" title="会期終了まであと${left}日">${ICON_WARN}あと${left}日</span>` : "";
-  const title = e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title);
+  const title = e.url ? `<a href="${esc(utm(e.url, "card_exhibition", mid))}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title);
   const own = e.open ? `<span class="num">${e.open}–${e.close}</span>` : "";
   const price = freeToday ? `<span class="freebadge">この日は無料</span>`
     : e.price != null ? `<span>一般 ${yen(e.price)}</span>` : e.admission ? `<span>${esc(e.admission)}</span>` : "";
@@ -240,16 +252,16 @@ function card(r, date) {
                km != null ? `出発地から <b>約${km < 10 ? km.toFixed(1) : Math.round(km)}km</b>` : ""].filter(Boolean);
   const facts = hours + (sub.length ? `<div class="facts-sub">${sub.map((x) => `<span>${x}</span>`).join("")}</div>` : "");
   const reason = r.status === "pending"
-    ? `<div class="reason">開館時間と展覧会の情報は、毎週の巡回で順番に集めています。${m.url ? `今は<a href="${esc(m.url)}" target="_blank" rel="noopener">公式サイト</a>でご確認ください。` : ""}</div>`
+    ? `<div class="reason">開館時間と展覧会の情報は、毎週の巡回で順番に集めています。${m.url ? `今は<a href="${esc(utm(m.url, "card_official", m.id))}" target="_blank" rel="noopener">公式サイト</a>でご確認ください。` : ""}</div>`
     : r.reason ? `<div class="reason">${esc(r.reason)}</div>` : "";
   const old = r.needs_check ? `<div class="warn-old">情報が古いか不確かです。公式サイトでご確認ください</div>` : "";
-  const ex = r.exhibitions.length ? `<ul class="ex">${r.exhibitions.map((e) => exHtml(e, date, isFreeEx(r.free, e))).join("")}</ul>` : "";
+  const ex = r.exhibitions.length ? `<ul class="ex">${r.exhibitions.map((e) => exHtml(e, date, isFreeEx(r.free, e), r.id)).join("")}</ul>` : "";
   const up = r.upcoming.length ? `<details class="up"><summary>まもなく開始 ${r.upcoming.length}件</summary><ul class="ex">${
-    r.upcoming.map((e) => `<li><div class="ex-title">${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}</div><div class="ex-meta num">${mdy(e.start, date)} – ${mdy(e.end, date)}</div></li>`).join("")}</ul></details>` : "";
+    r.upcoming.map((e) => `<li><div class="ex-title">${e.url ? `<a href="${esc(utm(e.url, "card_upcoming", r.id))}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}</div><div class="ex-meta num">${mdy(e.start, date)} – ${mdy(e.end, date)}</div></li>`).join("")}</ul></details>` : "";
   return `<article class="card${r.free && r.status === "open" ? " free" : ""}" data-id="${r.id}">
     <div class="top"><div><div class="name"><a href="m/${esc(m.id)}.html">${esc(m.name)}</a></div>
     <div class="meta">${esc(m.prefecture)}${m.municipality && m.municipality !== m.prefecture ? " " + esc(m.municipality) : ""} ・ ${esc(m.category)}${
-      m.url ? ` ・ <a href="${esc(m.url)}" target="_blank" rel="noopener">公式サイト</a>` : ""}</div></div>
+      m.url ? ` ・ <a href="${esc(utm(m.url, "card_official", m.id))}" target="_blank" rel="noopener">公式サイト</a>` : ""}</div></div>
     <div class="side"><span class="status ${status[0]}">${status[1]}</span>${
       visited ? `<div class="stamp" title="${cv.until ? `訪問時の展覧会は ${mdy(cv.until, date)} まで` : ""}">訪問<br>済</div>`
       : wanted ? `<div class="want-stamp" title="行きたい">行き<br>たい</div>` : ""}${
@@ -315,17 +327,20 @@ function openRoute(id) {
     a.exit ? " " + esc(a.exit) : ""}${a.walk_min != null ? ` から徒歩 <span class="num">${a.walk_min}</span> 分` : ""}${a.note ? `（${esc(a.note)}）` : ""}</li>`).join("")}</ul>`
     : `<p class="note">最寄駅の情報はまだ集めていません。下のGoogleマップでご確認ください。</p>`;
   const from = user.origin
-    ? `<a class="btn" href="${gm({ origin: user.origin, destination: dest })}" target="_blank" rel="noopener">「${esc(user.origin)}」からの経路（電車）</a>`
+    ? `<a class="btn" data-map="from_origin" href="${gm({ origin: user.origin, destination: dest })}" target="_blank" rel="noopener">「${esc(user.origin)}」からの経路（電車）</a>`
     : `<p class="note">設定で出発地（駅名・住所）を登録すると、そこからの経路をすぐに開けます。</p>
        <button class="btn ghost" data-act="settings">出発地を登録する</button>`;
   $("routeBody").innerHTML = `<h2 id="routeTitle">${esc(m.name)}</h2>
     ${m.address ? `<div class="note">${esc(m.address)}</div>` : ""}
     <h3>最寄駅</h3>${access}
-    <h3>出発地から</h3><div class="row">${from}<a class="btn ghost" href="${place}" target="_blank" rel="noopener">地図で見る</a></div>
+    <h3>出発地から</h3><div class="row">${from}<a class="btn ghost" data-map="place" href="${place}" target="_blank" rel="noopener">地図で見る</a></div>
     <button class="btn ghost close" data-act="close">閉じる</button>`;
+  $("route").dataset.id = id;
   $("route").showModal();
 }
 $("route").addEventListener("click", (e) => {
+  const map = e.target.closest("[data-map]")?.dataset.map;
+  if (map) track("route_map_click", { ...museumParams($("route").dataset.id), map });
   const act = e.target.closest("[data-act]")?.dataset.act;
   if (act === "close" || e.target === $("route")) $("route").close();
   if (act === "settings") { $("route").close(); openSettings(); }
@@ -391,11 +406,15 @@ $("saveOrigin").addEventListener("click", async () => {
   if (!user.origin || user.originGeo) $("settings").close();
 });
 
+// GA4 のイベント計測。送るのは館の識別子や選んだ項目名だけで、出発地・メールアドレス・訪問記録は送らない
+const track = (name, params = {}) => { try { window.gtag?.("event", name, params); } catch {} };
+const museumParams = (id) => ({ museum_id: id, museum_name: DATA.museums[id]?.name || "" });
+
 // カード操作
 $("grid").addEventListener("click", (e) => {
   const btn = e.target.closest("[data-act]"); if (!btn) return;
   const id = btn.closest(".card").dataset.id;
-  if (btn.dataset.act === "route") openRoute(id);
+  if (btn.dataset.act === "route") { openRoute(id); track("route_open", museumParams(id)); }
   // 「行った」と「行きたい」はどちらか片方だけ。片方を付けるともう片方は外れる
   const dropCurrentVisit = () => {
     const cv = currentVisit(id, todayJst);
@@ -410,20 +429,26 @@ $("grid").addEventListener("click", (e) => {
       delete user.wants[id];
     }
     saveUser(); render();
+    track("visit_toggle", { ...museumParams(id), on: !!currentVisit(id, todayJst) });
   }
   if (btn.dataset.act === "want") {
     if (user.wants[id] && !currentVisit(id, todayJst)) delete user.wants[id];
     else { dropCurrentVisit(); user.wants[id] = todayJst; }
     saveUser(); render();
+    track("want_toggle", { ...museumParams(id), on: !!user.wants[id] });
   }
 });
 $("grid").addEventListener("dblclick", (e) => {
   if (e.target.closest("a, button")) return;
-  const c = e.target.closest(".card"); if (c) { window.getSelection()?.removeAllRanges(); openRoute(c.dataset.id); }
+  const c = e.target.closest(".card");
+  if (c) { window.getSelection()?.removeAllRanges(); openRoute(c.dataset.id); track("route_open", { ...museumParams(c.dataset.id), via: "dblclick" }); }
 });
 $("days").addEventListener("click", (e) => { const b = e.target.closest(".day"); if (b) { state.day = +b.dataset.i; render(); } });
 $("tabs").addEventListener("click", (e) => { const b = e.target.closest(".tab"); if (b) { state.tab = b.dataset.k; render(); } });
-for (const id of ["pref", "cat", "late", "visit", "sort"]) { $(id).value = state[id]; $(id).addEventListener("change", (e) => { state[id] = e.target.value; render(); }); }
+for (const id of ["pref", "cat", "late", "visit", "sort"]) {
+  $(id).value = state[id];
+  $(id).addEventListener("change", (e) => { state[id] = e.target.value; render(); track("filter_change", { filter: id, value: e.target.value }); });
+}
 $("q").value = state.q; $("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
 render();
 </script>
@@ -505,6 +530,7 @@ if (cfg?.url && cfg?.key) {
       status = "確認中…"; renderBox();
       const { error } = await sb.auth.verifyOtp({ email: codeSentTo, token, type: "email" });
       status = error ? "ログインできませんでした: " + error.message : ""; if (!error) codeSentTo = "";
+      if (!error) window.gtag?.("event", "login", { method: "email_code" });
       renderBox();
     });
     on("back", () => { codeSentTo = ""; status = ""; renderBox(); });

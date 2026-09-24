@@ -298,7 +298,8 @@ def main() -> None:
     }
     write_json(DAILY / f"{start.isoformat()}.json", {"generated_at": payload["generated_at"], **days[0]})
 
-    html = TEMPLATE.read_text(encoding="utf-8").replace(
+    from pages import ga_snippet
+    html = TEMPLATE.read_text(encoding="utf-8").replace("<!--__GA__-->", ga_snippet()).replace(
         "/*__DATA__*/null", json.dumps(payload, ensure_ascii=False).replace("</", "<\\/"))
     SITE.mkdir(exist_ok=True)
     (SITE / "index.html").write_text(html, encoding="utf-8")

@@ -16,7 +16,7 @@ import shutil
 from datetime import date
 from html import escape
 
-from common import PREFS, REGIONS, SITE, SITE_URL
+from common import GA_ID, PREFS, REGIONS, SITE, SITE_URL
 from render import exhibition_price, museum_price
 
 WD_JA = {"mon": "月", "tue": "火", "wed": "水", "thu": "木", "fri": "金", "sat": "土", "sun": "日", "holiday": "祝"}
@@ -114,6 +114,35 @@ def access_text(a: dict) -> str:
     return text
 
 
+def utm(url: str, campaign: str, content: str = "") -> str:
+    """外部サイトへのリンクに UTM を付ける（campaign = リンクの置き場所、content = 館 ID）。サイト内のリンクには使わない。"""
+    from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+    try:
+        u = urlsplit(url)
+        q = dict(parse_qsl(u.query, keep_blank_values=True))
+        q.update({"utm_source": "museum-watch", "utm_medium": "referral", "utm_campaign": campaign,
+                  **({"utm_content": content} if content else {})})
+        return urlunsplit(u._replace(query=urlencode(q)))
+    except ValueError:
+        return url
+
+
+def ga_snippet() -> str:
+    """GA4 の計測タグ。手元の確認用サーバー（localhost）では読み込まない。"""
+    if not GA_ID:
+        return ""
+    return f"""<script>
+  // Google アナリティクス（GA4）。localhost では計測しない（確認作業でアクセス数を水増ししないため）
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {{ dataLayer.push(arguments); }}
+  if (!/^(localhost|127\\.0\\.0\\.1)$/.test(location.hostname)) {{
+    const s = document.createElement("script"); s.async = true;
+    s.src = "https://www.googletagmanager.com/gtag/js?id={GA_ID}"; document.head.appendChild(s);
+    gtag("js", new Date()); gtag("config", "{GA_ID}");
+  }}
+</script>"""
+
+
 def page(*, title: str, desc: str, path: str, body: str, depth: int, jsonld: list[dict] | None = None,
          noindex: bool = False) -> str:
     up = "../" * depth
@@ -140,6 +169,7 @@ def page(*, title: str, desc: str, path: str, body: str, depth: int, jsonld: lis
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{up}style.css">
+{ga_snippet()}
 {ld}
 </head>
 <body class="doc">
@@ -154,7 +184,7 @@ def page(*, title: str, desc: str, path: str, body: str, depth: int, jsonld: lis
 <footer>
   情報は各館の公式サイトから自動で集めたもので、変更が反映されていないことがあります。お出かけ前に公式サイトでご確認ください。
   館の一覧: <a href="https://ja.wikipedia.org/wiki/美術館の一覧" target="_blank" rel="noopener">Wikipedia</a>（CC BY-SA 4.0）・Wikidata ／
-  <a href="{up}index.html">今日開いている美術館を探す</a>
+  <a href="{up}index.html">今日開いている美術館を探す</a> ／ <a href="{up}privacy.html">プライバシーポリシー</a>
 </footer>
 </body>
 </html>
@@ -222,7 +252,7 @@ def museum_page(m: dict, det: dict | None, cal: list[tuple[dict, dict]], today: 
     url = (det or {}).get("official_url") or m.get("official_url")
     crumbs = (f'<nav class="crumbs"><a href="../index.html">全国</a> › '
               f'<a href="../p/{pref_code(m["prefecture"])}.html">{escape(m["prefecture"])}</a> › {escape(m["name"])}</nav>')
-    official = f'<a href="{escape(url)}" target="_blank" rel="noopener">公式サイト</a>' if url else ""
+    official = f'<a href="{escape(utm(url, "museum_page_official", m["id"]))}" target="_blank" rel="noopener">公式サイト</a>' if url else ""
     head = f'{crumbs}<h1>{escape(m["name"])}</h1><p class="lead">{escape(place)} ・ {escape(m["category"])}{" ・ " + official if official else ""}</p>'
     if not det:
         body = head + ('<section><p>開館時間と展覧会の情報は、毎週の巡回で順番に集めています。'
@@ -283,7 +313,7 @@ def exhibition_page(m: dict, det: dict, e: dict, today: date) -> str:
         info.append(("開館時間", "<br>".join(escape(x) for x in hours_rows(det["regular_hours"], today, det["closed_weekdays"])) or "公式サイトでご確認ください"))
     info.append(("休館日", escape(closed_text(det))))
     if e.get("url"):
-        info.append(("公式ページ", f'<a href="{escape(e["url"])}" target="_blank" rel="noopener">展覧会の公式ページ</a>'))
+        info.append(("公式ページ", f'<a href="{escape(utm(e["url"], "exhibition_page_official", m["id"]))}" target="_blank" rel="noopener">展覧会の公式ページ</a>'))
     dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in info)
     body = (crumbs + f'<h1>{escape(e["title"])}</h1><p class="lead">{escape(m["name"])} ・ {md(e["start"], today)} – {md(e["end"], today)}</p>'
             + (f'<p>{escape(e["summary"])}</p>' if e.get("summary") else "")
@@ -315,6 +345,52 @@ def prefecture_page(pref: str, museums: list[dict], details: dict, today_results
                 path=f"p/{pref_code(pref)}.html", body=body, depth=1)
 
 
+def privacy_page() -> str:
+    """プライバシーポリシー（アクセス解析・端末間同期・位置検索・外部サービスへの送信）。"""
+    body = """<h1>プライバシーポリシー</h1>
+<p class="lead">美術館ウォッチ（以下「本サイト」）での情報の取り扱いについて説明します。</p>
+<section><h2>アクセス解析（Google アナリティクス）</h2>
+<p>本サイトは、利用状況を把握してサイトを改善するために、Google LLC の「Google アナリティクス」を使っています。
+Google アナリティクスは Cookie などを使い、閲覧したページ、参照元、おおよその地域、端末やブラウザの種類などの情報を収集します。
+個人を特定する情報は含まれません。</p>
+<p>本サイトでは、ボタンの利用状況（「行きたい」「行った」「行き方」、並び順・絞り込みの変更、ログインの有無）も計測しています。
+計測するのは館の識別子や選んだ項目の名前だけで、出発地・メールアドレス・訪問の記録そのものは送りません。</p>
+<p>収集されたデータは Google のプライバシーポリシーに基づいて管理されます。
+計測を望まない場合は、<a href="https://tools.google.com/dlpage/gaoptout?hl=ja" target="_blank" rel="noopener">Google アナリティクス オプトアウト アドオン</a>
+を使うか、ブラウザの Cookie を無効にしてください。詳しくは
+<a href="https://policies.google.com/technologies/partner-sites?hl=ja" target="_blank" rel="noopener">Google のサービスを使用するサイトやアプリから収集した情報の Google による使用</a>
+をご覧ください。</p></section>
+<section><h2>この端末に保存する情報</h2>
+<p>「行きたい」「行った」の記録、出発地、よく見る地域、表示テーマなどは、お使いのブラウザ（localStorage）に保存します。
+ブラウザのサイトデータを消すと削除されます。</p></section>
+<section><h2>端末間の同期（ログインした場合のみ）</h2>
+<p>設定画面でメールアドレスによるログインをすると、上記の記録を端末間で同期するため、Supabase（Supabase, Inc.）のサーバーに保存します。
+保存するのは、ログイン用のメールアドレス、訪問の記録（館・日付）、行きたい館、出発地とその位置、よく見る地域です。
+データは本人だけが読み書きできるよう設定しています。ログアウトしても、この端末のデータは残ります。</p></section>
+<section><h2>出発地の位置の検索</h2>
+<p>出発地を保存すると、その文字列を HeartRails Express（駅名の場合）または国土地理院の住所検索（住所の場合）に送り、緯度・経度を調べます。
+個人の住所ではなく、最寄駅の登録をおすすめします。</p></section>
+<section><h2>外部サービスへの送信</h2>
+<p>本サイトは表示や機能のために、次のサービスと通信します。</p>
+<dl class="info">
+<dt>Google アナリティクス</dt><dd>アクセス解析（上記）</dd>
+<dt>Google Fonts</dt><dd>文字の書体の読み込み</dd>
+<dt>jsDelivr</dt><dd>同期機能のプログラム（supabase-js）の読み込み（ログイン機能を使うとき）</dd>
+<dt>Supabase</dt><dd>端末間の同期（ログインした場合）</dd>
+<dt>HeartRails Express・国土地理院</dt><dd>出発地の位置の検索（出発地を保存したとき）</dd>
+<dt>Google マップ</dt><dd>「行き方」から経路を開いたとき（出発地と行き先が Google マップに渡ります）</dd>
+</dl></section>
+<section><h2>掲載情報について</h2>
+<p>開館時間・休館日・料金・展覧会の情報は、各館の公式サイトなどから自動で集めたもので、正確さを保証するものではありません。
+お出かけ前に必ず公式サイトでご確認ください。</p></section>
+<section><h2>お問い合わせ・改定</h2>
+<p>お問い合わせは <a href="https://github.com/riku1128-tong/museum-watch/issues" target="_blank" rel="noopener">GitHub の Issues</a> へお願いします。
+このポリシーは必要に応じて改定し、このページに掲載します。</p>
+<p class="checked">制定: 2026年9月24日</p></section>"""
+    return page(title="プライバシーポリシー｜美術館ウォッチ", desc="美術館ウォッチでのアクセス解析・端末間同期・外部サービスへの送信など、情報の取り扱いについて。",
+                path="privacy.html", body=body, depth=0)
+
+
 def build(active: list[dict], details: dict, days: list[dict], today: date) -> int:
     """全ページと sitemap.xml を作り直す。書き出したページ数を返す。"""
     for sub in ("m", "e", "p"):
@@ -344,6 +420,8 @@ def build(active: list[dict], details: dict, days: list[dict], today: date) -> i
         (SITE / "p" / f"{pref_code(pref)}.html").write_text(prefecture_page(pref, ms, details, by_day[0]), encoding="utf-8")
         urls.append((f"p/{pref_code(pref)}.html", today.isoformat()))
         n += 1
+    (SITE / "privacy.html").write_text(privacy_page(), encoding="utf-8")
+    urls.append(("privacy.html", today.isoformat()))
     xml = "".join(f"<url><loc>{SITE_URL}{escape(u)}</loc><lastmod>{lm}</lastmod></url>" for u, lm in urls)
     (SITE / "sitemap.xml").write_text(
         f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{xml}</urlset>\n',

@@ -16,6 +16,11 @@
 - `scripts/pages.py`: 検索から人が来るための静的ページ（`docs/m/` 館、`docs/e/` 展覧会、`docs/p/` 都道府県）と `docs/sitemap.xml` を作る。render.py の最後に呼ばれ、毎回作り直す。未巡回の館のページは noindex。CSS は `scripts/style.css`（トップページと共通）。
 - `prompts/daily_update.md`: 毎週金曜 6:00 の定期タスク（Claude デスクトップアプリ）が従う手順書。
 
+## 計測（GA4）
+- 測定 ID は `common.GA_ID`（環境変数 `MUSEUM_WATCH_GA_ID`）。localhost では読み込まない。
+- イベント: `want_toggle` / `visit_toggle` / `route_open` / `route_map_click`（館 ID・館名つき）、`filter_change`、`login`。出発地・メールアドレス・訪問記録は送らない。
+- 外部サイトへのリンクだけに UTM を付ける（`utm_source=museum-watch`、`utm_campaign` = 置き場所、`utm_content` = 館 ID）。サイト内のリンクには付けない（GA4 の流入元が上書きされるため）。
+
 ## コマンド
 ```bash
 uv run scripts/build_list.py            # 全都道府県（--prefectures 東京都,千葉県 で絞れる）

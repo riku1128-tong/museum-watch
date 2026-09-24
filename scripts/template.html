@@ -340,7 +340,7 @@ function openRoute(id) {
 }
 $("route").addEventListener("click", (e) => {
   const map = e.target.closest("[data-map]")?.dataset.map;
-  if (map) track("route_map_click", { ...museumParams($("route").dataset.id), map });
+  if (map) track("route_map_click", { ...museumParams($("route").dataset.id), map_type: map });
   const act = e.target.closest("[data-act]")?.dataset.act;
   if (act === "close" || e.target === $("route")) $("route").close();
   if (act === "settings") { $("route").close(); openSettings(); }
@@ -429,13 +429,13 @@ $("grid").addEventListener("click", (e) => {
       delete user.wants[id];
     }
     saveUser(); render();
-    track("visit_toggle", { ...museumParams(id), on: !!currentVisit(id, todayJst) });
+    track("visit_toggle", { ...museumParams(id), state: currentVisit(id, todayJst) ? "on" : "off" });
   }
   if (btn.dataset.act === "want") {
     if (user.wants[id] && !currentVisit(id, todayJst)) delete user.wants[id];
     else { dropCurrentVisit(); user.wants[id] = todayJst; }
     saveUser(); render();
-    track("want_toggle", { ...museumParams(id), on: !!user.wants[id] });
+    track("want_toggle", { ...museumParams(id), state: user.wants[id] ? "on" : "off" });
   }
 });
 $("grid").addEventListener("dblclick", (e) => {
@@ -447,7 +447,7 @@ $("days").addEventListener("click", (e) => { const b = e.target.closest(".day");
 $("tabs").addEventListener("click", (e) => { const b = e.target.closest(".tab"); if (b) { state.tab = b.dataset.k; render(); } });
 for (const id of ["pref", "cat", "late", "visit", "sort"]) {
   $(id).value = state[id];
-  $(id).addEventListener("change", (e) => { state[id] = e.target.value; render(); track("filter_change", { filter: id, value: e.target.value }); });
+  $(id).addEventListener("change", (e) => { state[id] = e.target.value; render(); track("filter_change", { filter_name: id, filter_value: e.target.value }); });
 }
 $("q").value = state.q; $("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
 render();

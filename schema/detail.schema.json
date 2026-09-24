@@ -80,6 +80,8 @@
           "url": {"type": ["string", "null"]},
           "kind": {"enum": ["special", "collection", "other"]},
           "summary": {"type": ["string", "null"], "maxLength": 200},
+          "recommend": {"type": ["string", "null"], "maxLength": 180,
+                        "description": "この展覧会のおすすめポイント（AI の要約。公式の紹介文をもとに自分の言葉で 80〜120 字）"},
           "admission": {"type": ["string", "null"]},
           "adult_price": {"type": ["integer", "null"], "minimum": 0, "description": "この展覧会の大人一般（円）。無料は 0"},
           "hours": {"type": "array", "items": {"$ref": "#/$defs/hours"},
@@ -126,6 +128,8 @@
                        "note": {"type": ["string", "null"], "description": "バス利用など徒歩以外の行き方"}}
       }
     },
+    "highlights": {"type": ["string", "null"], "maxLength": 220,
+                   "description": "この美術館の見どころ（AI の要約。公式サイトの内容をもとに自分の言葉で 100〜150 字）"},
     "closed_between_exhibitions": {"type": "boolean", "description": "展示替え期間（開催中の展示が無い日）は休館する館か"},
     "notes": {"type": ["string", "null"]},
     "confidence": {"enum": ["high", "medium", "low"]}

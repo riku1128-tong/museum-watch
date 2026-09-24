@@ -267,7 +267,8 @@ def exhibition_item(m: dict, e: dict, today: date, link: bool = True) -> str:
                                    f"一般 {yen(price)}" if price is not None else "",
                                    "企画展" if e.get("kind") == "special" else "常設展・コレクション展" if e.get("kind") == "collection" else ""] if x)
     return (f'<li class="{"special" if e.get("kind") == "special" else ""}"><div class="ex-title">{title}</div>'
-            f'<div class="ex-meta">{meta}</div>{f"<div class=ex-sum>{escape(e["summary"])}</div>" if e.get("summary") else ""}</li>')
+            f'<div class="ex-meta">{meta}</div>{f"<div class=ex-sum>{escape(e["summary"])}</div>" if e.get("summary") else ""}'
+            f'{f"<div class=ex-rec><b>おすすめ</b> {escape(e["recommend"])}</div>" if e.get("recommend") else ""}</li>')
 
 
 def museum_page(m: dict, det: dict | None, cal: list[tuple[dict, dict]], today: date) -> str:
@@ -306,7 +307,11 @@ def museum_page(m: dict, det: dict | None, cal: list[tuple[dict, dict]], today: 
         info.insert(0, ("お知らせ", escape(det["status_note"])))
     dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in info)
 
-    body = head + f'<section><h2>基本情報</h2><dl class="info">{dl}</dl></section>'
+    body = head
+    if det.get("highlights"):
+        body += (f'<section class="ai"><h2>この美術館の見どころ</h2><p>{escape(det["highlights"])}</p>'
+                 f'<p class="ai-note">AI による要約（公式サイトの情報をもとに作成）</p></section>')
+    body += f'<section><h2>基本情報</h2><dl class="info">{dl}</dl></section>'
     body += f'<section><h2>開館カレンダー（{md(cal[0][0]["date"])}〜{md(cal[-1][0]["date"])}）</h2>{calendar_table(cal)}</section>'
     if current:
         body += f'<section><h2>開催中の展覧会</h2><ul class="ex">{"".join(exhibition_item(m, e, today) for e in current)}</ul></section>'
@@ -340,10 +345,12 @@ def exhibition_page(m: dict, det: dict, e: dict, today: date) -> str:
     dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in info)
     body = (crumbs + f'<h1>{escape(e["title"])}</h1><p class="lead">{escape(m["name"])} ・ {md(e["start"], today)} – {md(e["end"], today)}</p>'
             + (f'<p>{escape(e["summary"])}</p>' if e.get("summary") else "")
+            + (f'<section class="ai"><h2>この展覧会のおすすめポイント</h2><p>{escape(e["recommend"])}</p>'
+               f'<p class="ai-note">AI による要約（公式の紹介文をもとに作成）</p></section>' if e.get("recommend") else "")
             + f'<section><h2>展覧会の情報</h2><dl class="info">{dl}</dl></section>'
             + f'<p><a href="../m/{m["id"]}.html">{escape(m["name"])}の開館カレンダー・ほかの展覧会を見る</a></p>')
     desc = (f"{e['title']}（{m['name']}）の会期{md(e['start'], today)}〜{md(e['end'], today)}、"
-            f"料金{(' ' + yen(price)) if price is not None else ''}、開館時間と休館日。" + (e.get("summary") or ""))
+            f"料金{(' ' + yen(price)) if price is not None else ''}、開館時間と休館日。" + (e.get("recommend") or e.get("summary") or ""))
     return page(title=f"{e['title']}｜{m['name']}｜会期・料金・開館時間", desc=desc[:160],
                 path=f"e/{exhibition_id(m['id'], e)}.html", body=body, depth=1, jsonld=[exhibition_jsonld(m, det, e)])
 

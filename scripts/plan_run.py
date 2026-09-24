@@ -28,6 +28,8 @@ def decide(m: dict, det: dict | None, today) -> tuple[str, str]:
         return "skip", "今日確認済み"
     if "access" not in det or "adult_price" not in det:
         return "full", "料金・最寄駅が未取得"
+    if not det.get("highlights"):
+        return "full", "見どころが未作成"
     if age >= FULL_EVERY_DAYS:
         return "full", f"{age} 日前に確認"
     if det["confidence"] == "low" or det["operating_status"] == "unknown":

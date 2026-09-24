@@ -230,3 +230,10 @@ table.cal tr.today b { color: var(--gold); font-size: 12px; margin-left: 4px; }
     padding-bottom: env(safe-area-inset-bottom); }
   .doc-head { padding-top: calc(env(safe-area-inset-top) + 16px); }
 }
+
+/* ---- AI の要約（見どころ・おすすめポイント） ---- */
+.doc-main section.ai { border-top-color: var(--gold); }
+.doc-main section.ai p { margin: 0 0 6px; line-height: 1.9; }
+.ai-note { font-size: 11.5px; color: var(--muted); letter-spacing: .04em; }
+.ex-rec { font-size: 12.5px; margin-top: 2px; }
+.ex-rec b { color: var(--gold); font-weight: 500; margin-right: 4px; }

@@ -187,3 +187,5 @@ table.cal tr.free { background: var(--free-bg); }
 .pl-meta { font-size: 12px; color: var(--muted); }
 .pl-ex { font-size: 13px; }
 .checked { font-size: 12px; color: var(--muted); }
+table.cal tr.today { outline: 2px solid var(--gold); outline-offset: -2px; }
+table.cal tr.today b { color: var(--gold); font-size: 12px; margin-left: 4px; }

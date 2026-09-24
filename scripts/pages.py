@@ -232,9 +232,20 @@ def calendar_table(results: list[tuple[dict, dict]]) -> str:
         hours = f"{r['open']}–{r['close']}" if r["status"] == "open" and r.get("open") else ""
         free = r.get("free")
         note = " ".join(x for x in [r.get("reason") or "", FREE_SCOPE[free["scope"]] if free else ""] if x)
-        rows.append(f'<tr class="st-{r["status"]}{" free" if free and r["status"] == "open" else ""}"><th>{label}</th>'
+        rows.append(f'<tr data-date="{day["date"]}" class="st-{r["status"]}{" free" if free and r["status"] == "open" else ""}"><th>{label}</th>'
                     f'<td>{STATUS_JA[r["status"]]}</td><td>{hours}</td><td>{escape(note)}</td></tr>')
-    return f'<table class="cal"><thead><tr><th>日付</th><th>状況</th><th>時間</th><th>メモ</th></tr></thead><tbody>{"".join(rows)}</tbody></table>'
+    # ページは週 1 回しか作り直さないので、開いた日より前の行は隠し、その日の行に「今日」を付ける
+    script = """<script>
+  (() => {
+    const t = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+    for (const tr of document.querySelectorAll("table.cal tr[data-date]")) {
+      if (tr.dataset.date < t) tr.hidden = true;
+      if (tr.dataset.date === t) { tr.classList.add("today"); tr.querySelector("th").insertAdjacentHTML("beforeend", " <b>今日</b>"); }
+    }
+  })();
+</script>"""
+    return (f'<table class="cal"><thead><tr><th>日付</th><th>状況</th><th>時間</th><th>メモ</th></tr></thead><tbody>{"".join(rows)}</tbody></table>'
+            + script)
 
 
 def exhibition_item(m: dict, e: dict, today: date, link: bool = True) -> str:
@@ -325,7 +336,7 @@ def exhibition_page(m: dict, det: dict, e: dict, today: date) -> str:
                 path=f"e/{exhibition_id(m['id'], e)}.html", body=body, depth=1, jsonld=[exhibition_jsonld(m, det, e)])
 
 
-def prefecture_page(pref: str, museums: list[dict], details: dict, today_results: dict) -> str:
+def prefecture_page(pref: str, museums: list[dict], details: dict, today_results: dict, today: date) -> str:
     items = []
     for m in sorted(museums, key=lambda m: (m["id"] not in details, m["name"])):
         r = today_results.get(m["id"], {"status": "pending"})
@@ -333,12 +344,12 @@ def prefecture_page(pref: str, museums: list[dict], details: dict, today_results
         hours = f" {r['open']}–{r['close']}" if r["status"] == "open" and r.get("open") else ""
         titles = "・".join(e["title"] for e in r.get("exhibitions", [])[:2]) if det else ""
         items.append(f'<li><a href="../m/{m["id"]}.html">{escape(m["name"])}</a>'
-                     f'<span class="pl-meta">{" ・ ".join(escape(x) for x in [m.get("municipality") or "", m["category"], f"今日: {STATUS_JA[r['status']]}{hours}"] if x)}</span>'
+                     f'<span class="pl-meta">{" ・ ".join(escape(x) for x in [m.get("municipality") or "", m["category"], f"{today.month}/{today.day}（{'月火水木金土日'[today.weekday()]}）時点: {STATUS_JA[r['status']]}{hours}"] if x)}</span>'
                      f'{f"<span class=pl-ex>{escape(titles)}</span>" if titles else ""}</li>')
     region = next(r for r, ps in REGIONS.items() if pref in ps)
     body = (f'<nav class="crumbs"><a href="../index.html">全国</a> › {escape(region)} › {escape(pref)}</nav>'
             f'<h1>{escape(pref)}の美術館</h1><p class="lead">{len(museums)} 館。開館時間・休館日・料金・開催中の展覧会を毎週更新しています。</p>'
-            f'<ul class="pref-list">{"".join(items)}</ul>')
+            f'<p class="checked">開館状況は {today.month}/{today.day} 時点のものです（毎週更新）。各館のページで、その先 2 週間の開館カレンダーを見られます。</p><ul class="pref-list">{"".join(items)}</ul>')
     names = "・".join(m["name"] for m in museums[:4])
     return page(title=f"{pref}の美術館一覧（開館時間・休館日・展覧会）｜美術館ウォッチ",
                 desc=f"{pref}の美術館{len(museums)}館（{names}ほか）の、今日の開館状況・開館時間・料金・開催中の展覧会。",
@@ -417,7 +428,7 @@ def build(active: list[dict], details: dict, days: list[dict], today: date) -> i
         ms = [m for m in active if m["prefecture"] == pref]
         if not ms:
             continue
-        (SITE / "p" / f"{pref_code(pref)}.html").write_text(prefecture_page(pref, ms, details, by_day[0]), encoding="utf-8")
+        (SITE / "p" / f"{pref_code(pref)}.html").write_text(prefecture_page(pref, ms, details, by_day[0], today), encoding="utf-8")
         urls.append((f"p/{pref_code(pref)}.html", today.isoformat()))
         n += 1
     (SITE / "privacy.html").write_text(privacy_page(), encoding="utf-8")

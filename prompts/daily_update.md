@@ -26,7 +26,7 @@ uv run scripts/plan_run.py > "$TEMP/museum_plan.json"
 ## 1.5 無料イベントを調べる（館ごとの巡回とは別に、毎回行う）
 
 館ごとの巡回だけだと、都道府県などがまとめて発表する無料イベントを見落とす。
-そこで、サブエージェント（general-purpose）を 1 つ、2 のバッチと**同時に**起動して、次を調べさせる:
+そこで、サブエージェント（general-purpose、model: `sonnet`）を 1 つ、2 のバッチと**同時に**起動して、次を調べさせる:
 
 - 対象: 詳細データがある館（`data/details/` にある館）の都道府県
 - 期間: 今日から **6 週間先まで**
@@ -45,7 +45,8 @@ uv run scripts/plan_run.py > "$TEMP/museum_plan.json"
 
 ## 2. バッチごとにサブエージェントを並列に起動する
 
-`Agent` ツール（subagent_type: `general-purpose`）で、**全部のバッチを 1 回のメッセージで同時に**起動する。
+`Agent` ツール（subagent_type: `general-purpose`、**model: `sonnet`**）で、**全部のバッチを 1 回のメッセージで同時に**起動する。
+巡回は公式サイトを読んで決まった形に書き出す作業なので Sonnet で十分。サブスクの枠を節約するため、巡回・再挑戦・無料イベント調査のサブエージェントはすべて model: `sonnet` で起動すること。
 各エージェントへのプロンプトは次の形にする（`<ルート>` は `pwd` で確かめた絶対パス。担当バッチの JSON はそのまま貼る）:
 
 ```
@@ -62,7 +63,7 @@ uv run scripts/plan_run.py --retry > "$TEMP/museum_retry.json"
 ```
 
 `--retry` は、開館時間が空・`operating_status` が unknown・`confidence` が low の館を返す。1 館でもあれば、
-サブエージェントを 1 館に 1 つずつ（最大 8 つ並列）起動し、プロンプトの末尾に「**再挑戦モード**」と書き添える。
+サブエージェント（model: `sonnet`）を 1 館に 1 つずつ（最大 8 つ並列）起動し、プロンプトの末尾に「**再挑戦モード**」と書き添える。
 再挑戦でも取れなかった館だけを failed にする。
 
 ## 3. 検証する

@@ -12,155 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
-<style>
-:root {
-  --bg: #efece6; --surface: rgba(255, 255, 253, .82); --surface-solid: #fbfaf7; --ink: #23211e; --muted: #6f6a61;
-  --line: #d9d3c7; --gold: #a07d45; --gold-soft: #d8c39a;
-  --open: #3c6b58; --closed: #8a3b35; --unknown: #7a6420;
-  --free-bg: rgba(233, 214, 166, .55); --free-ink: #6d5222;
-  --warn: #d9a400; --danger: #c0392b; --pink: #c25b78; --pink-soft: rgba(194, 91, 120, .07);
-  --shadow: 0 1px 2px rgba(40, 32, 20, .06), 0 8px 24px rgba(40, 32, 20, .06);
-  --marble: url("marble-light.jpg");  /* scripts/marble_bake.html で生成 */
-  color-scheme: light;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #141312; --surface: rgba(28, 27, 25, .86); --surface-solid: #1c1b19; --ink: #ece7dd; --muted: #a59f93;
-    --line: #3a3630; --gold: #c9a86a; --gold-soft: #6f5a36;
-    --open: #8cc5aa; --closed: #e39a90; --unknown: #e3c97a;
-    --free-bg: rgba(125, 98, 45, .38); --free-ink: #efd79f; --pink: #e89ab0; --pink-soft: rgba(232, 154, 176, .08);
-    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 30px rgba(0, 0, 0, .35);
-    --marble: url("marble-dark.jpg");
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #141312; --surface: rgba(28, 27, 25, .86); --surface-solid: #1c1b19; --ink: #ece7dd; --muted: #a59f93;
-  --line: #3a3630; --gold: #c9a86a; --gold-soft: #6f5a36;
-  --open: #8cc5aa; --closed: #e39a90; --unknown: #e3c97a;
-  --free-bg: rgba(125, 98, 45, .38); --free-ink: #efd79f; --pink: #e89ab0; --pink-soft: rgba(232, 154, 176, .08);
-  --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 30px rgba(0, 0, 0, .35);
-  --marble: url("marble-dark.jpg");
-  color-scheme: dark;
-}
-:root[data-theme="dark"] .alert.w { color: var(--warn); }
-* { box-sizing: border-box; }
-html { background: var(--bg); }
-body {
-  margin: 0; color: var(--ink); background: var(--marble) center / cover no-repeat fixed, var(--bg);
-  font: 15px/1.7 "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic UI", system-ui, sans-serif;
-}
-a { color: var(--gold); text-underline-offset: 3px; }
-button { font: inherit; color: inherit; }
-.serif { font-family: "Shippori Mincho", "Yu Mincho", serif; }
-.num { font-variant-numeric: tabular-nums; }
-.hours, .day b { font-family: "Cormorant Garamond", "Shippori Mincho", serif; font-variant-numeric: lining-nums tabular-nums; }
-
-header { max-width: 1160px; margin: 0 auto; padding: 36px 16px 8px; display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; }
-.overline { font: 600 12px/1 "Cormorant Garamond", serif; letter-spacing: .42em; color: var(--gold); text-transform: uppercase; }
-h1 { font: 700 clamp(26px, 5vw, 38px)/1.2 "Shippori Mincho", serif; margin: 10px 0 6px; letter-spacing: .08em; }
-.sub { color: var(--muted); font-size: 13px; letter-spacing: .04em; }
-.icon-btn { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; width: 42px; height: 42px;
-  display: grid; place-items: center; cursor: pointer; flex: 0 0 auto; box-shadow: var(--shadow); }
-.icon-btn:hover { border-color: var(--gold); }
-.rule { max-width: 1160px; margin: 0 auto; padding: 0 16px; }
-.rule hr { border: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--gold) 20%, var(--gold) 80%, transparent); opacity: .6; margin: 14px 0 4px; }
-
-main { max-width: 1160px; margin: 0 auto; padding: 0 16px 56px; }
-.days { display: flex; gap: 8px; overflow-x: auto; padding: 12px 0; scrollbar-width: thin; }
-.day { flex: 0 0 auto; border: 1px solid var(--line); background: var(--surface); border-radius: 2px; padding: 8px 14px 6px;
-  cursor: pointer; text-align: center; min-width: 70px; }
-.day b { display: block; font: 600 17px/1.1 "Shippori Mincho", serif; }
-.day small { display: block; color: var(--muted); font-size: 11px; line-height: 1.5; margin-top: 3px; }
-.day.hol small, .day.sun small { color: var(--closed); }
-.day.sat small { color: #4a6fa5; }
-.day[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-.day[aria-pressed="true"] small { color: inherit; opacity: .75; }
-
-.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 4px 0 18px; }
-.tabs { display: flex; border: 1px solid var(--line); background: var(--surface); border-radius: 2px; }
-.tab { border: 0; background: transparent; padding: 7px 16px; cursor: pointer; letter-spacing: .06em; }
-.tab + .tab { border-left: 1px solid var(--line); }
-.tab[aria-selected="true"], .tab[aria-checked="true"] { background: var(--ink); color: var(--bg); }
-#theme { align-self: flex-start; flex-wrap: wrap; }
-select, input[type="search"], input[type="text"] { font: inherit; color: var(--ink); background: var(--surface);
-  border: 1px solid var(--line); border-radius: 2px; padding: 7px 10px; }
-select:focus, input:focus, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 1px; }
-input[type="search"] { flex: 1 1 200px; min-width: 0; }
-
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 18px; }
-@media (max-width: 420px) { .grid { grid-template-columns: 1fr; } }
-.card { position: relative; background: var(--surface); border: 1px solid var(--line); border-top: 2px solid var(--gold-soft);
-  padding: 18px 18px 12px; display: flex; flex-direction: column; gap: 8px; min-width: 0; box-shadow: var(--shadow);
-  user-select: none; }
-.card.free { background: linear-gradient(var(--free-bg), var(--free-bg)), var(--surface-solid); border-top-color: var(--gold); }
-.card:hover { border-color: var(--gold-soft); }
-.top { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
-.name { font: 700 18px/1.4 "Shippori Mincho", serif; letter-spacing: .03em; }
-.name a { color: inherit; text-decoration: none; }
-.name a:hover { text-decoration: underline; text-decoration-color: var(--gold); }
-.meta { color: var(--muted); font-size: 12px; letter-spacing: .04em; }
-.status { flex: 0 0 auto; font-size: 11px; letter-spacing: .18em; padding: 3px 8px; border: 1px solid currentColor; white-space: nowrap; }
-.s-open { color: var(--open); } .s-closed { color: var(--closed); } .s-unknown { color: var(--unknown); }
-.freebadge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; color: var(--free-ink);
-  letter-spacing: .08em; }
-.freebadge::before { content: ""; width: 18px; height: 1px; background: var(--gold); }
-.hours { font-size: 30px; font-weight: 600; line-height: 1.1; }
-/* 開館時間の下の 1 行（最終入館・料金・距離）。同じ書体・同じ大きさで並べる */
-.facts-sub { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 2px 12px; }
-.facts-sub b { color: var(--ink); font-weight: 500; }
-.visit-count { font-size: 11px; color: var(--gold); letter-spacing: .06em; margin-right: 4px; }
-.reason { font-size: 13px; color: var(--muted); }
-.warn-old { font-size: 12px; color: var(--unknown); }
-ul.ex { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-ul.ex li { border-left: 1px solid var(--line); padding-left: 10px; }
-ul.ex li.special { border-left: 2px solid var(--gold); }
-.ex-title { font: 600 14.5px/1.5 "Shippori Mincho", serif; overflow-wrap: anywhere; }
-.ex-title a { color: inherit; }
-.ex-meta { font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 2px 10px; align-items: center; }
-.ex-sum { font-size: 12.5px; color: var(--muted); }
-.alert { display: inline-flex; align-items: center; gap: 4px; font-weight: 500; }
-.alert svg { flex: 0 0 auto; }
-.alert.w { color: #9a7400; } .alert.d { color: var(--danger); }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .alert.w { color: var(--warn); } }
-details.up summary { cursor: pointer; font-size: 12px; color: var(--muted); }
-.foot { margin-top: auto; padding-top: 8px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted);
-  display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
-.foot-actions { display: flex; gap: 6px; }
-.chip { border: 1px solid var(--line); background: transparent; border-radius: 999px; padding: 3px 10px; cursor: pointer; font-size: 12px; }
-.chip:hover { border-color: var(--gold); }
-.chip[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: #fff; }
-/* 「行きたい」の印。「行った」の丸い金のスタンプと対になる、四角いピンクの落款風スタンプ */
-.want-stamp { width: 48px; height: 48px; border: 1.5px solid var(--pink); outline: 1px solid var(--pink); outline-offset: 2px;
-  display: grid; place-items: center; color: var(--pink); background: var(--pink-soft);
-  font: 700 11px/1.15 "Shippori Mincho", serif; letter-spacing: .1em; text-align: center;
-  transform: rotate(6deg); opacity: .85; margin: 3px 6px 0 0; }
-.chip.want-chip[aria-pressed="true"] { background: var(--pink); border-color: var(--pink); color: #fff; }
-.side { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; flex: 0 0 auto; }
-/* 「行った」の印。カードの流れの中に置き、他の要素と重ならないようにする */
-.stamp { width: 50px; height: 50px; border: 1.5px solid var(--gold); border-radius: 50%; display: grid; place-items: center;
-  color: var(--gold); font: 700 11px/1.15 "Shippori Mincho", serif; letter-spacing: .1em; text-align: center;
-  transform: rotate(-12deg); opacity: .75; margin-right: 4px; }
-.empty { color: var(--muted); padding: 40px 0; text-align: center; font-family: "Shippori Mincho", serif; }
-.gone { margin-top: 32px; font-size: 12.5px; color: var(--muted); }
-footer { max-width: 1160px; margin: 0 auto; padding: 0 16px 40px; font-size: 12px; color: var(--muted); }
-
-dialog { border: 1px solid var(--gold-soft); border-top: 2px solid var(--gold); padding: 0; background: var(--surface-solid); color: var(--ink);
-  width: min(560px, calc(100vw - 32px)); max-height: calc(100vh - 48px); box-shadow: 0 20px 60px rgba(0, 0, 0, .3); }
-dialog::backdrop { background: rgba(20, 18, 15, .5); }
-.dlg { padding: 22px 22px 18px; display: flex; flex-direction: column; gap: 12px; }
-.dlg h2 { font: 700 20px/1.4 "Shippori Mincho", serif; margin: 0; letter-spacing: .04em; }
-.dlg h3 { font: 600 13px/1 "Zen Kaku Gothic New", sans-serif; letter-spacing: .2em; color: var(--gold); margin: 8px 0 0; }
-.dlg ul { margin: 0; padding-left: 1.2em; }
-.dlg .row { display: flex; gap: 8px; flex-wrap: wrap; }
-.dlg input[type="text"] { flex: 1 1 240px; }
-.btn { border: 1px solid var(--ink); background: var(--ink); color: var(--bg); padding: 8px 16px; cursor: pointer; letter-spacing: .06em;
-  text-decoration: none; display: inline-block; }
-.btn.ghost { background: transparent; color: var(--ink); border-color: var(--line); }
-.btn:hover { opacity: .88; }
-.dlg .close { align-self: flex-end; }
-.note { font-size: 12px; color: var(--muted); }
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
@@ -195,6 +47,7 @@ dialog::backdrop { background: rgba(20, 18, 15, .5); }
   </div>
   <div class="grid" id="grid"></div>
   <div class="gone" id="gone"></div>
+  <nav class="pref-links" id="prefLinks" aria-label="都道府県から探す"></nav>
 </main>
 <footer>
   情報は各館の公式サイトから自動で集めたもので、変更が反映されていないことがあります。お出かけ前に公式サイトでご確認ください。
@@ -311,6 +164,9 @@ for (const [region, ps] of Object.entries(DATA.regions)) {
   g.append(new Option(`${region}すべて`, "region:" + region), ...ps.map((p) => new Option(p, p)));
   $("pref").append(g);
 }
+// 都道府県ごとのページへのリンク（検索エンジンがたどれるよう、ページ下部に常に出しておく）
+$("prefLinks").innerHTML = `<h2>都道府県から探す</h2>` + Object.entries(DATA.regions).filter(([, ps]) => ps.length)
+  .map(([r, ps]) => `<p><b>${esc(r)}</b> ${ps.map((p) => `<a href="p/${DATA.pref_codes[p]}.html">${esc(p)}</a>`).join(" ")}</p>`).join("");
 // 設定の「よく見る地域」は、上の都道府県の選択肢をそのまま使う
 $("homeArea").innerHTML = $("pref").innerHTML;
 
@@ -390,8 +246,9 @@ function card(r, date) {
   const up = r.upcoming.length ? `<details class="up"><summary>まもなく開始 ${r.upcoming.length}件</summary><ul class="ex">${
     r.upcoming.map((e) => `<li><div class="ex-title">${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}</div><div class="ex-meta num">${mdy(e.start, date)} – ${mdy(e.end, date)}</div></li>`).join("")}</ul></details>` : "";
   return `<article class="card${r.free && r.status === "open" ? " free" : ""}" data-id="${r.id}">
-    <div class="top"><div><div class="name">${m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)}</a>` : esc(m.name)}</div>
-    <div class="meta">${esc(m.prefecture)}${m.municipality && m.municipality !== m.prefecture ? " " + esc(m.municipality) : ""} ・ ${esc(m.category)}</div></div>
+    <div class="top"><div><div class="name"><a href="m/${esc(m.id)}.html">${esc(m.name)}</a></div>
+    <div class="meta">${esc(m.prefecture)}${m.municipality && m.municipality !== m.prefecture ? " " + esc(m.municipality) : ""} ・ ${esc(m.category)}${
+      m.url ? ` ・ <a href="${esc(m.url)}" target="_blank" rel="noopener">公式サイト</a>` : ""}</div></div>
     <div class="side"><span class="status ${status[0]}">${status[1]}</span>${
       visited ? `<div class="stamp" title="${cv.until ? `訪問時の展覧会は ${mdy(cv.until, date)} まで` : ""}">訪問<br>済</div>`
       : wanted ? `<div class="want-stamp" title="行きたい">行き<br>たい</div>` : ""}${

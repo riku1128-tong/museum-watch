@@ -13,6 +13,7 @@
 - `scripts/plan_run.py`: 各館を full / light / skip のどれで確認するか決め、バッチに分ける。まだ巡回していない館は 1 回 100 館まで（`--max-new`）、`common.CRAWL_PRIORITY` の順（関東 → 近い地域 → コード順）。
 - `scripts/template.html`: 公開ページ。大理石の背景画像（`docs/marble-*.jpg`）は `scripts/marble_bake.html` を ブラウザで開いて焼き付ける（受け取り役は `scripts/marble_upload.py`）。
 - 訪問記録・行きたい館・出発地はブラウザの localStorage に保存し、Supabase（メールのコードでログイン）で端末間同期する。接続先は `docs/sync-config.js`（publishable key。グルメレコメンドアプリと同じプロジェクトに相乗り）、テーブルは `museum_watch_state`（`supabase/museum_watch.sql`、RLS で自分の行だけ）。ログイン状態の保存キーは同じ github.io の別アプリと分けている。
+- `scripts/pages.py`: 検索から人が来るための静的ページ（`docs/m/` 館、`docs/e/` 展覧会、`docs/p/` 都道府県）と `docs/sitemap.xml` を作る。render.py の最後に呼ばれ、毎回作り直す。未巡回の館のページは noindex。CSS は `scripts/style.css`（トップページと共通）。
 - `prompts/daily_update.md`: 毎週金曜 6:00 の定期タスク（Claude デスクトップアプリ）が従う手順書。
 
 ## コマンド

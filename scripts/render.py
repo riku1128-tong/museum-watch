@@ -14,7 +14,7 @@ from datetime import date, datetime, timedelta
 
 import jpholiday
 
-from common import DATA, DAILY, DETAILS, MUSEUMS_JSON, REGIONS, ROOT, SITE, now_jst, read_json, write_json
+from common import DATA, DAILY, DETAILS, MUSEUMS_JSON, PREFS, REGIONS, ROOT, SITE, now_jst, read_json, write_json
 
 WEEKDAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
 STALE_DAYS = 8  # 巡回は毎週金曜。1 回ぶん遅れたら要確認にする
@@ -290,6 +290,7 @@ def main() -> None:
         "museums": metas,
         "gone": gone,
         "regions": {r: [p for p in ps if any(m["prefecture"] == p for m in active)] for r, ps in REGIONS.items()},
+        "pref_codes": {p: f"{i + 1:02d}" for i, p in enumerate(PREFS)},
         # 準備中の館は毎日同じなので日ごとには持たず、ページ側で各日に足す
         "pending": [m["id"] for m in active if m["id"] not in details],
         "days": [{**d, "results": [compact(r, metas[r["id"]]) for r in d["results"] if r["status"] != "pending"]}
@@ -301,12 +302,17 @@ def main() -> None:
         "/*__DATA__*/null", json.dumps(payload, ensure_ascii=False).replace("</", "<\\/"))
     SITE.mkdir(exist_ok=True)
     (SITE / "index.html").write_text(html, encoding="utf-8")
+    (SITE / "style.css").write_text((ROOT / "scripts" / "style.css").read_text(encoding="utf-8"), encoding="utf-8")
+
+    # 検索から人が来るための静的ページ（館・展覧会・都道府県）と sitemap.xml
+    import pages
+    n_pages = pages.build(active, details, days, start)
 
     r0 = days[0]["results"]
     count = {s: sum(1 for r in r0 if r["status"] == s) for s in ("open", "closed", "unknown", "pending")}
     print(f"{start}: 開館 {count['open']} / 休館 {count['closed']} / 不明 {count['unknown']} / 準備中 {count['pending']}"
           f"（詳細あり {sum(1 for m in active if m['id'] in details)}/{len(active)} 館、閉館 {len(gone)} 館）")
-    print(f"-> {SITE / 'index.html'}")
+    print(f"-> {SITE / 'index.html'} ほか {n_pages} ページ + sitemap.xml")
 
     if args.log:
         now = now_jst()

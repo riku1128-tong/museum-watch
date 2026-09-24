@@ -53,7 +53,8 @@ body {
 a { color: var(--gold); text-underline-offset: 3px; }
 button { font: inherit; color: inherit; }
 .serif { font-family: "Shippori Mincho", "Yu Mincho", serif; }
-.num { font-family: "Cormorant Garamond", "Shippori Mincho", serif; font-variant-numeric: lining-nums tabular-nums; }
+.num { font-variant-numeric: tabular-nums; }
+.hours, .day b { font-family: "Cormorant Garamond", "Shippori Mincho", serif; font-variant-numeric: lining-nums tabular-nums; }
 
 header { max-width: 1160px; margin: 0 auto; padding: 36px 16px 8px; display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; }
 .overline { font: 600 12px/1 "Cormorant Garamond", serif; letter-spacing: .42em; color: var(--gold); text-transform: uppercase; }
@@ -104,11 +105,11 @@ input[type="search"] { flex: 1 1 200px; min-width: 0; }
 .freebadge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; color: var(--free-ink);
   letter-spacing: .08em; }
 .freebadge::before { content: ""; width: 18px; height: 1px; background: var(--gold); }
-.facts { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; }
 .hours { font-size: 30px; font-weight: 600; line-height: 1.1; }
-.small { font-size: 12px; color: var(--muted); }
-.price { font-size: 13px; }
-.price .num { font-size: 18px; }
+/* 開館時間の下の 1 行（最終入館・料金・距離）。同じ書体・同じ大きさで並べる */
+.facts-sub { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 2px 12px; }
+.facts-sub b { color: var(--ink); font-weight: 500; }
+.visit-count { font-size: 11px; color: var(--gold); letter-spacing: .06em; margin-right: 4px; }
 .reason { font-size: 13px; color: var(--muted); }
 .warn-old { font-size: 12px; color: var(--unknown); }
 ul.ex { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
@@ -188,7 +189,7 @@ dialog::backdrop { background: rgba(20, 18, 15, .5); }
     </select>
     <select id="sort" aria-label="並び順">
       <option value="close">閉館が遅い順</option><option value="ending">会期末が近い順</option>
-      <option value="price">料金が安い順</option><option value="name">名前順</option>
+      <option value="price">料金が安い順</option><option value="distance">出発地から近い順</option><option value="name">名前順</option>
     </select>
     <input type="search" id="q" placeholder="館名・展覧会名で検索" aria-label="検索">
   </div>
@@ -211,8 +212,12 @@ dialog::backdrop { background: rgba(20, 18, 15, .5); }
       <input type="text" id="origin" placeholder="例: 渋谷駅、横浜市中区日本大通1" autocomplete="off">
       <button class="btn" id="saveOrigin">保存</button>
     </div>
-    <p class="note">駅名か住所を登録すると、各館の「行き方」からGoogleマップの経路検索（電車）を開けます。
-      ログイン中はアカウントに保存されるので、個人の住所より最寄駅の登録がおすすめです。</p>
+    <p class="note" id="originStatus"></p>
+    <p class="note">駅名か住所を登録すると、各館の「行き方」からGoogleマップの経路検索（電車）を開けて、「出発地から近い順」でも並べ替えられます。
+      位置は駅名なら HeartRails Express、住所なら国土地理院のサービスで調べます。ログイン中はアカウントに保存されるので、個人の住所より最寄駅の登録がおすすめです。</p>
+    <h3>よく見る地域</h3>
+    <div class="row"><select id="homeArea" aria-label="よく見る地域"></select></div>
+    <p class="note">ページを開いたときに、この地域で絞り込んだ状態で表示します。</p>
     <h3>同期</h3>
     <div id="syncBox" class="note">読み込み中…</div>
     <h3>表示</h3>
@@ -278,7 +283,11 @@ function saveUser(changed = true) {
 }
 window.mwUser = {
   get: () => user,
-  replace(next) { Object.assign(user, next); store.set("user", user); render(); renderSettings(); },
+  replace(next) {
+    // よく見る地域が別の端末で変わったら、今の絞り込みも（まだ手で変えていなければ）追従する
+    if ((next.homeArea || "") !== (user.homeArea || "") && state.pref === (user.homeArea || "")) { state.pref = next.homeArea || ""; $("pref").value = state.pref; }
+    Object.assign(user, next); store.set("user", user); render(); renderSettings();
+  },
 };
 
 const TABS = [["open", "開館"], ["closed", "休館"], ["unknown", "不明"], ["pending", "情報準備中"]];
@@ -288,6 +297,8 @@ const first = DATA.days.findIndex((d) => d.date >= todayJst);
 DATA.days = DATA.days.slice(first === -1 ? DATA.days.length - 1 : first);
 const state = Object.assign({ day: 0, tab: "open", pref: "", cat: "", late: "", visit: "", sort: "close", q: "" },
   store.get("state") || {}, { day: 0 });
+// ページを開いたときの地域は、設定の「よく見る地域」にする
+state.pref = user.homeArea || "";
 
 const prefs = Object.values(DATA.regions).flat();
 $("sub").textContent = `${prefs.length > 2 ? "全国" : prefs.join("・")} ${Object.keys(DATA.museums).length} 館 ・ 更新 ${DATA.generated_at.slice(0, 16).replace("T", " ")}`;
@@ -298,6 +309,8 @@ for (const [region, ps] of Object.entries(DATA.regions)) {
   g.append(new Option(`${region}すべて`, "region:" + region), ...ps.map((p) => new Option(p, p)));
   $("pref").append(g);
 }
+// 設定の「よく見る地域」は、上の都道府県の選択肢をそのまま使う
+$("homeArea").innerHTML = $("pref").innerHTML;
 
 const ICON_WARN = `<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5 1.5 21h21z" fill="#f2c200" stroke="#8a6a00" stroke-width="1.2" stroke-linejoin="round"/><path d="M12 9v5.5" stroke="#3a2c00" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.6" r="1.3" fill="#3a2c00"/></svg>`;
 const ICON_LAST = `<svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5 1.5 21h21z" fill="#d93025" stroke="#8c1d15" stroke-width="1.2" stroke-linejoin="round"/><path d="M12 9v5.5" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="17.6" r="1.3" fill="#fff"/></svg>`;
@@ -336,6 +349,21 @@ function exHtml(e, date, freeToday = false) {
     <div class="ex-meta"><span class="num">${mdy(e.start, date)} – ${mdy(e.end, date)}</span>${alert}${own}${price}</div>
     ${e.summary ? `<div class="ex-sum">${esc(e.summary)}</div>` : ""}</li>`;
 }
+// 大人一般の料金の目安。館の入館料があればそれ、無ければその日に開催中の展覧会の最安（料金が複数あれば「〜」）
+function priceSummary(r, m) {
+  if (m.price != null) return m.price === 0 ? "無料" : `¥${m.price.toLocaleString("ja-JP")}`;
+  const ps = [...new Set(r.exhibitions.map((e) => e.price).filter((p) => p != null))].sort((a, b) => a - b);
+  if (!ps.length) return "";
+  return ps[0] === 0 ? (ps.length > 1 ? "無料〜" : "無料") : `¥${ps[0].toLocaleString("ja-JP")}${ps.length > 1 ? "〜" : ""}`;
+}
+// 出発地からの直線距離（km）。出発地の位置か館の位置が無ければ null
+function distanceKm(m) {
+  const o = user.originGeo;
+  if (!o || m.lat == null || m.lng == null) return null;
+  const rad = (d) => d * Math.PI / 180;
+  const a = Math.sin(rad(m.lat - o.lat) / 2) ** 2 + Math.cos(rad(o.lat)) * Math.cos(rad(m.lat)) * Math.sin(rad(m.lng - o.lng) / 2) ** 2;
+  return 6371 * 2 * Math.asin(Math.sqrt(a));
+}
 function card(r, date) {
   const m = DATA.museums[r.id];
   const cv = currentVisit(r.id, date);
@@ -345,10 +373,13 @@ function card(r, date) {
   const freeLabel = r.free && { all: "無料開放日", collection: "常設展 無料開放日",
     partial: `一部無料開放日（${(r.free.targets || []).map((t) => esc(t)).join("・")}）` }[r.free.scope];
   const free = r.free ? `<div class="freebadge">${freeLabel}${r.free.reason ? "・" + esc(r.free.reason) : ""}</div>` : "";
-  const hours = r.status === "open" ? `<span class="hours num">${r.open ? `${r.open} – ${r.close}` : "時間不明"}</span>
-      ${r.last_entry ? `<span class="small">最終入館 <span class="num">${r.last_entry}</span></span>` : ""}` : "";
-  const price = m.price != null ? `<span class="price">大人 ${yen(m.price)}</span>` : "";
-  const facts = hours || price ? `<div class="facts">${hours}${price}</div>` : "";
+  const hours = r.status === "open" ? `<div class="hours">${r.open ? `${r.open} – ${r.close}` : "時間不明"}</div>` : "";
+  const price = priceSummary(r, m);
+  const km = distanceKm(m);
+  const sub = [r.status === "open" && r.last_entry ? `最終入館 <b>${r.last_entry}</b>` : "",
+               price ? `大人 <b>${price}</b>` : "",
+               km != null ? `出発地から <b>約${km < 10 ? km.toFixed(1) : Math.round(km)}km</b>` : ""].filter(Boolean);
+  const facts = hours + (sub.length ? `<div class="facts-sub">${sub.map((x) => `<span>${x}</span>`).join("")}</div>` : "");
   const reason = r.status === "pending"
     ? `<div class="reason">開館時間と展覧会の情報は、毎週の巡回で順番に集めています。${m.url ? `今は<a href="${esc(m.url)}" target="_blank" rel="noopener">公式サイト</a>でご確認ください。` : ""}</div>`
     : r.reason ? `<div class="reason">${esc(r.reason)}</div>` : "";
@@ -361,13 +392,14 @@ function card(r, date) {
     <div class="meta">${esc(m.prefecture)}${m.municipality && m.municipality !== m.prefecture ? " " + esc(m.municipality) : ""} ・ ${esc(m.category)}</div></div>
     <div class="side"><span class="status ${status[0]}">${status[1]}</span>${
       visited ? `<div class="stamp" title="${cv.until ? `訪問時の展覧会は ${mdy(cv.until, date)} まで` : ""}">訪問<br>済</div>`
-      : wanted ? `<div class="want-stamp" title="行きたい">行き<br>たい</div>` : ""}</div></div>
+      : wanted ? `<div class="want-stamp" title="行きたい">行き<br>たい</div>` : ""}${
+      count ? `<div class="visit-count">訪問 ${count}回</div>` : ""}</div></div>
     ${free}${facts}${reason}${ex}${up}${old}
-    <div class="foot"><span>${m.checked_at ? `確認 <span class="num">${md(m.checked_at.slice(0, 10))} ${m.checked_at.slice(11, 16)}</span>` : "未取得"}${
-      count ? ` ・ 訪問 <span class="num">${count}</span> 回` : ""}</span>
+    <div class="foot"><span title="${m.checked_at ? `公式サイトを確認した日時 ${m.checked_at.slice(0, 16).replace("T", " ")}` : ""}">${
+      m.checked_at ? `確認 ${md(m.checked_at.slice(0, 10))}` : "未取得"}</span>
       <span class="foot-actions">
         <button class="chip" data-act="route">行き方</button>
-        <button class="chip want-chip" data-act="want" aria-pressed="${wanted}">${wanted ? "★ 行きたい" : "☆ 行きたい"}</button>
+        <button class="chip want-chip" data-act="want" aria-pressed="${wanted}">行きたい</button>
         <button class="chip" data-act="visit" aria-pressed="${visited}">${visited ? "行った ✓" : "行った"}</button>
       </span></div></article>`;
 }
@@ -392,11 +424,19 @@ function render() {
   if (state.late) list = list.filter((r) => r.close && r.close >= state.late);
   const name = (r) => DATA.museums[r.id].name;
   const endKey = (r) => r.exhibitions.map((e) => e.end).sort()[0] || "9999";
-  const priceKey = (r) => (r.free?.scope === "all" ? 0 : DATA.museums[r.id].price ?? 1e9);
+  const priceKey = (r) => {
+    if (r.free?.scope === "all") return 0;
+    const m = DATA.museums[r.id];
+    if (m.price != null) return m.price;
+    const ps = r.exhibitions.map((e) => e.price).filter((p) => p != null);
+    return ps.length ? Math.min(...ps) : 1e9;
+  };
+  const distKey = (r) => distanceKm(DATA.museums[r.id]) ?? 1e9;
   const sorters = {
     close: (a, b) => (b.close || "").localeCompare(a.close || "") || name(a).localeCompare(name(b), "ja"),
     ending: (a, b) => endKey(a).localeCompare(endKey(b)),
     price: (a, b) => priceKey(a) - priceKey(b),
+    distance: (a, b) => distKey(a) - distKey(b),
     name: (a, b) => name(a).localeCompare(name(b), "ja"),
   };
   list.sort(sorters[state.sort]);
@@ -433,6 +473,9 @@ $("route").addEventListener("click", (e) => {
 // 設定
 function renderSettings() {
   $("origin").value = user.origin || "";
+  $("homeArea").value = user.homeArea || "";
+  $("originStatus").textContent = !user.origin ? "" : user.originGeo
+    ? `位置: ${user.originGeo.label}（「出発地から近い順」で並べ替えられます）` : "位置を特定できませんでした。駅名か住所を確かめてください。";
   const ids = Object.keys(user.visits).filter((id) => DATA.museums[id] && visitsOf(id).length);
   const now = ids.filter((id) => currentVisit(id, todayJst)).length;
   const total = ids.reduce((n, id) => n + visitsOf(id).length, 0);
@@ -456,7 +499,36 @@ function openSettings() { renderSettings(); renderTheme(); $("settings").showMod
 $("openSettings").addEventListener("click", openSettings);
 $("closeSettings").addEventListener("click", () => $("settings").close());
 $("settings").addEventListener("click", (e) => { if (e.target === $("settings")) $("settings").close(); });
-$("saveOrigin").addEventListener("click", () => { user.origin = $("origin").value.trim(); saveUser(); $("settings").close(); });
+$("homeArea").addEventListener("change", (e) => {
+  user.homeArea = e.target.value; saveUser();
+  state.pref = user.homeArea; $("pref").value = state.pref; render();
+});
+// 出発地の位置を調べる。駅名は HeartRails Express（駅データ）、住所は国土地理院の住所検索で緯度経度にする
+async function geocode(text) {
+  const t = text.trim(); if (!t) return null;
+  const station = t.replace(/駅$/, "");
+  const looksLikeStation = /駅$/.test(t) || !/[0-9０-９丁目番地号区市町村郡都道府県]/.test(t);
+  if (looksLikeStation) {
+    try {
+      const j = await (await fetch("https://express.heartrails.com/api/json?method=getStations&name=" + encodeURIComponent(station))).json();
+      const st = j.response?.station?.[0];
+      if (st) return { lat: +st.y, lng: +st.x, label: `${st.name}駅（${st.prefecture}）` };
+    } catch {}
+  }
+  try {
+    const j = await (await fetch("https://msearch.gsi.go.jp/address-search/AddressSearch?q=" + encodeURIComponent(t))).json();
+    const a = j?.[0];
+    if (a) return { lat: a.geometry.coordinates[1], lng: a.geometry.coordinates[0], label: a.properties.title };
+  } catch {}
+  return null;
+}
+$("saveOrigin").addEventListener("click", async () => {
+  user.origin = $("origin").value.trim();
+  $("originStatus").textContent = user.origin ? "位置を調べています…" : "";
+  user.originGeo = user.origin ? await geocode(user.origin) : null;
+  saveUser(); renderSettings(); render();
+  if (!user.origin || user.originGeo) $("settings").close();
+});
 
 // カード操作
 $("grid").addEventListener("click", (e) => {
@@ -516,7 +588,7 @@ if (cfg?.url && cfg?.key) {
   // 両方で変更があれば、訪問記録は訪問日で和集合、行きたい館と出発地は新しく更新した方を採る
   function merge(local, remote) {
     if (!remote) return local;
-    if ((local.updatedAt || 0) <= (meta.get().syncedAt || 0)) return { visits: {}, wants: {}, origin: "", ...remote };
+    if ((local.updatedAt || 0) <= (meta.get().syncedAt || 0)) return { visits: {}, wants: {}, origin: "", originGeo: null, homeArea: "", ...remote };
     const visits = {};
     for (const src of [remote.visits || {}, local.visits || {}])
       for (const [id, list] of Object.entries(src))
@@ -525,7 +597,8 @@ if (cfg?.url && cfg?.key) {
     const t = today();
     const wants = Object.fromEntries(Object.entries(newer.wants || {}).filter(([id]) =>
       !(visits[id] || []).some((v) => v.date <= t && (v.until == null || v.until >= t))));
-    return { visits, wants, origin: newer.origin || "", updatedAt: Math.max(local.updatedAt || 0, remote.updatedAt || 0) };
+    return { visits, wants, origin: newer.origin || "", originGeo: newer.originGeo || null, homeArea: newer.homeArea || "",
+             updatedAt: Math.max(local.updatedAt || 0, remote.updatedAt || 0) };
   }
   async function push(data) {
     if (!session) return;

@@ -188,8 +188,8 @@ dialog::backdrop { background: rgba(20, 18, 15, .5); }
       <option value="">訪問状況：すべて</option><option value="want">行きたい館</option><option value="no">まだ行っていない館（今の会期）</option><option value="yes">行った館（今の会期）</option>
     </select>
     <select id="sort" aria-label="並び順">
-      <option value="close">閉館が遅い順</option><option value="ending">会期末が近い順</option>
-      <option value="price">料金が安い順</option><option value="distance">出発地から近い順</option><option value="name">名前順</option>
+      <option value="distance">出発地から近い順</option><option value="close">閉館が遅い順</option><option value="ending">会期末が近い順</option>
+      <option value="price">料金が安い順</option><option value="name">名前順</option>
     </select>
     <input type="search" id="q" placeholder="館名・展覧会名で検索" aria-label="検索">
   </div>
@@ -298,8 +298,9 @@ const first = DATA.days.findIndex((d) => d.date >= todayJst);
 DATA.days = DATA.days.slice(first === -1 ? DATA.days.length - 1 : first);
 const state = Object.assign({ day: 0, tab: "open", pref: "", cat: "", late: "", visit: "", sort: "close", q: "" },
   store.get("state") || {}, { day: 0 });
-// ページを開いたときの地域は、設定の「よく見る地域」にする
+// ページを開いたときの地域は設定の「よく見る地域」、並び順は「出発地から近い順」にする
 state.pref = user.homeArea || "";
+state.sort = "distance";
 
 const prefs = Object.values(DATA.regions).flat();
 $("sub").textContent = `${prefs.length > 2 ? "全国" : prefs.join("・")} ${Object.keys(DATA.museums).length} 館 ・ 更新 ${DATA.generated_at.slice(0, 16).replace("T", " ")}`;
@@ -437,7 +438,8 @@ function render() {
     close: (a, b) => (b.close || "").localeCompare(a.close || "") || name(a).localeCompare(name(b), "ja"),
     ending: (a, b) => endKey(a).localeCompare(endKey(b)),
     price: (a, b) => priceKey(a) - priceKey(b),
-    distance: (a, b) => distKey(a) - distKey(b),
+    // 出発地が未登録（または館の位置が不明）で距離が同じときは、閉館が遅い順
+    distance: (a, b) => distKey(a) - distKey(b) || (b.close || "").localeCompare(a.close || "") || name(a).localeCompare(name(b), "ja"),
     name: (a, b) => name(a).localeCompare(name(b), "ja"),
   };
   list.sort(sorters[state.sort]);

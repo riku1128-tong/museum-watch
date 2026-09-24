@@ -2,7 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="theme-color" content="#efece6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="美術館ウォッチ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>ザ・ベスト・オブ・山種コレクションⅠ―横山大観、竹内栖鳳から上村松園、速水御舟へ―｜山種美術館｜会期・料金・開館時間</title>
 <meta name="description" content="ザ・ベスト・オブ・山種コレクションⅠ―横山大観、竹内栖鳳から上村松園、速水御舟へ―（山種美術館）の会期10/10〜12/6、料金 ¥1,500、開館時間と休館日。重要文化財・竹内栖鳳《班猫》など近代日本画の名品約40点">
 <link rel="canonical" href="https://riku1128-tong.github.io/museum-watch/e/4cd09a1bec.html">
@@ -28,6 +36,10 @@
     s.src = "https://www.googletagmanager.com/gtag/js?id=G-NS856TZ0KY"; document.head.appendChild(s);
     gtag("js", new Date()); gtag("config", "G-NS856TZ0KY");
   }
+</script>
+<script>
+  // ホーム画面に追加したときのオフライン表示のための Service Worker
+  if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "ザ・ベスト・オブ・山種コレクションⅠ―横山大観、竹内栖鳳から上村松園、速水御舟へ―", "startDate": "2026-10-10", "endDate": "2026-12-06", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "山種美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒150-0012 東京都渋谷区広尾3-12-36"}}, "description": "重要文化財・竹内栖鳳《班猫》など近代日本画の名品約40点", "url": "https://www.yamatane-museum.jp/exhibitions/2026/yamatane-collection1.html", "offers": {"@type": "Offer", "price": 1500, "priceCurrency": "JPY", "url": "https://www.yamatane-museum.jp/exhibitions/2026/yamatane-collection1.html"}}</script>
 </head>

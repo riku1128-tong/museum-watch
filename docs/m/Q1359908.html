@@ -2,7 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="theme-color" content="#efece6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="美術館ウォッチ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>東京国立近代美術館の開館時間・休館日・料金・展覧会｜美術館ウォッチ</title>
 <meta name="description" content="東京国立近代美術館（東京都 北の丸公園）の開館時間・休館日・料金（大人一般 ¥500）と、開催中の展覧会。今日から2週間の開館カレンダー付き。毎週更新。">
 <link rel="canonical" href="https://riku1128-tong.github.io/museum-watch/m/Q1359908.html">
@@ -28,6 +36,10 @@
     s.src = "https://www.googletagmanager.com/gtag/js?id=G-NS856TZ0KY"; document.head.appendChild(s);
     gtag("js", new Date()); gtag("config", "G-NS856TZ0KY");
   }
+</script>
+<script>
+  // ホーム画面に追加したときのオフライン表示のための Service Worker
+  if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Museum", "name": "東京国立近代美術館", "url": "https://www.momat.go.jp/", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒102-8322 東京都千代田区北の丸公園3-1"}, "geo": {"@type": "GeoCoordinates", "latitude": 35.690553, "longitude": 139.754642}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Sunday"], "opens": "10:00", "closes": "17:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday"], "opens": "10:00", "closes": "20:00"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "所蔵作品展 MOMATコレクション", "startDate": "2026-09-29", "endDate": "2027-01-11", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "東京国立近代美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒102-8322 東京都千代田区北の丸公園3-1"}}, "description": "所蔵品約200点で19世紀末から現在の日本近現代美術を全12室で紹介", "url": "https://www.momat.go.jp/exhibitions/r8-2", "offers": {"@type": "Offer", "price": 500, "priceCurrency": "JPY", "url": "https://www.momat.go.jp/exhibitions/r8-2"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "あみ・ど・ぱり　巴里の日本人芸術家たち", "startDate": "2026-09-29", "endDate": "2027-01-11", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "東京国立近代美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒102-8322 東京都千代田区北の丸公園3-1"}}, "description": "藤田嗣治・佐伯祐三・高野三三男ら戦前戦後にパリで制作した日本人芸術家を紹介（所蔵品ギャラリー2階）", "url": "https://www.momat.go.jp/exhibitions/r8-2-g4", "offers": {"@type": "Offer", "price": 500, "priceCurrency": "JPY", "url": "https://www.momat.go.jp/exhibitions/r8-2-g4"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "竹久夢二　時代を創る表現者", "startDate": "2026-10-23", "endDate": "2027-01-11", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "東京国立近代美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒102-8322 東京都千代田区北の丸公園3-1"}}, "description": "《黒船屋》ほか全国の夢二コレクション約500点で竹久夢二の多岐にわたる活動を紹介", "url": "https://www.momat.go.jp/exhibitions/570", "offers": {"@type": "Offer", "price": 2100, "priceCurrency": "JPY", "url": "https://www.momat.go.jp/exhibitions/570"}}</script>
 </head>

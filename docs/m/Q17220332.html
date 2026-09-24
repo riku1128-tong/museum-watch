@@ -2,7 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="theme-color" content="#efece6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="美術館ウォッチ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>すみだ北斎美術館の開館時間・休館日・料金・展覧会｜美術館ウォッチ</title>
 <meta name="description" content="すみだ北斎美術館（東京都 亀沢）の開館時間・休館日・料金（大人一般 ¥400）と、開催中の展覧会「特別展　ベスト オブ すみだ北斎美術館ー隅田川両岸景色図巻と名品ー・北斎を学ぶ部屋」。今日から2週間の開館カレンダー付き。毎週更新。">
 <link rel="canonical" href="https://riku1128-tong.github.io/museum-watch/m/Q17220332.html">
@@ -28,6 +36,10 @@
     s.src = "https://www.googletagmanager.com/gtag/js?id=G-NS856TZ0KY"; document.head.appendChild(s);
     gtag("js", new Date()); gtag("config", "G-NS856TZ0KY");
   }
+</script>
+<script>
+  // ホーム画面に追加したときのオフライン表示のための Service Worker
+  if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Museum", "name": "すみだ北斎美術館", "url": "https://hokusai-museum.jp/", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒130-0014 東京都墨田区亀沢2-7-2"}, "geo": {"@type": "GeoCoordinates", "latitude": 35.69675, "longitude": 139.800389}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "09:30", "closes": "17:30"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "特別展　ベスト オブ すみだ北斎美術館ー隅田川両岸景色図巻と名品ー", "startDate": "2026-09-15", "endDate": "2026-11-23", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "すみだ北斎美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒130-0014 東京都墨田区亀沢2-7-2"}}, "description": "開館10周年。「隅田川両岸景色図巻」など北斎の肉筆画・錦絵・摺物・版本と門人作品の名品展", "url": "https://hokusai-museum.jp/modules/Exhibition/exhibitions/view/5021", "offers": {"@type": "Offer", "price": 1500, "priceCurrency": "JPY", "url": "https://hokusai-museum.jp/modules/Exhibition/exhibitions/view/5021"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "北斎を学ぶ部屋", "startDate": "2026-09-24", "endDate": "2027-09-24", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "すみだ北斎美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒130-0014 東京都墨田区亀沢2-7-2"}}, "description": "通年。常設展示室", "url": "https://hokusai-museum.jp/modules/Page/pages/view/1111", "offers": {"@type": "Offer", "price": 400, "priceCurrency": "JPY", "url": "https://hokusai-museum.jp/modules/Page/pages/view/1111"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "北斎クロスオーバー　時代を超えて\"すみだ\"に集う", "startDate": "2026-12-16", "endDate": "2027-02-28", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "すみだ北斎美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒130-0014 東京都墨田区亀沢2-7-2"}}, "description": "北斎と門人の\"すみだ\"の作品と、大田南畝や正岡子規ら文学者との関わりから北斎を見る", "url": "https://hokusai-museum.jp/modules/Exhibition/exhibitions/view/5023", "offers": {"@type": "Offer", "price": 1000, "priceCurrency": "JPY", "url": "https://hokusai-museum.jp/modules/Exhibition/exhibitions/view/5023"}}</script>
 </head>

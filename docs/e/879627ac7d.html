@@ -2,7 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="theme-color" content="#efece6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="美術館ウォッチ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>コレクション展（じゆうエリア）｜横浜美術館｜会期・料金・開館時間</title>
 <meta name="description" content="コレクション展（じゆうエリア）（横浜美術館）の会期8/1〜2027/2/11、料金、開館時間と休館日。横浜美術館の所蔵作品によるコレクション展（じゆうエリア）">
 <link rel="canonical" href="https://riku1128-tong.github.io/museum-watch/e/879627ac7d.html">
@@ -28,6 +36,10 @@
     s.src = "https://www.googletagmanager.com/gtag/js?id=G-NS856TZ0KY"; document.head.appendChild(s);
     gtag("js", new Date()); gtag("config", "G-NS856TZ0KY");
   }
+</script>
+<script>
+  // ホーム画面に追加したときのオフライン表示のための Service Worker
+  if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "コレクション展（じゆうエリア）", "startDate": "2026-08-01", "endDate": "2027-02-11", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "横浜美術館", "address": {"@type": "PostalAddress", "addressRegion": "神奈川県", "addressCountry": "JP", "streetAddress": "〒220-0012 神奈川県横浜市西区みなとみらい3-4-1"}}, "description": "横浜美術館の所蔵作品によるコレクション展（じゆうエリア）", "url": "https://yokohama.art.museum/exhibition/202608_jiyu-area/"}</script>
 </head>

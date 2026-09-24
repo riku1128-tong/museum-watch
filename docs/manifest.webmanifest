@@ -1,0 +1,29 @@
+{
+  "name": "美術館ウォッチ",
+  "short_name": "美術館ウォッチ",
+  "lang": "ja",
+  "description": "全国の美術館の開館状況・開館時間・料金・開催中の展覧会",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#141312",
+  "theme_color": "#141312",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -16,6 +16,11 @@
 - `scripts/pages.py`: 検索から人が来るための静的ページ（`docs/m/` 館、`docs/e/` 展覧会、`docs/p/` 都道府県）と `docs/sitemap.xml` を作る。render.py の最後に呼ばれ、毎回作り直す。未巡回の館のページは noindex。CSS は `scripts/style.css`（トップページと共通）。
 - `prompts/daily_update.md`: 毎週金曜 6:00 の定期タスク（Claude デスクトップアプリ）が従う手順書。
 
+## スマホ・アプリ化（PWA）
+- `docs/manifest.webmanifest` と `docs/sw.js`（元は `scripts/sw.js`）は render.py が毎回書き出す。Service Worker の版は生成日時で、古いキャッシュは消える。
+- アイコンは `scripts/make_icons.py` で `docs/icons/` に作る（黒大理石に金の「美」）。
+- 640px 以下では、上部と日付の帯を固定、絞り込みは開閉式、下にタブバー（一覧・行きたい・行った・設定）、ダイアログは下からのシート。
+
 ## 計測（GA4）
 - 測定 ID は `common.GA_ID`（環境変数 `MUSEUM_WATCH_GA_ID`）。localhost では読み込まない。
 - イベント: `want_toggle` / `visit_toggle`（`state` = on/off）、`route_open`、`route_map_click`（`map_type` = from_origin/place）、`filter_change`（`filter_name` / `filter_value`）、`login`、キーイベント用に付けたときだけ送る `want_add` / `visit_add`。館のイベントには `museum_id` / `museum_name` を付ける。`value` は GA4 の予約パラメータ（金額）なので使わない。GA4 側でこれらをイベント範囲のカスタムディメンションとして登録済みの前提。出発地・メールアドレス・訪問記録は送らない。

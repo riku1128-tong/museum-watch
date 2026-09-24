@@ -2,7 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="theme-color" content="#efece6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="美術館ウォッチ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>横浜美術館の開館時間・休館日・料金・展覧会｜美術館ウォッチ</title>
 <meta name="description" content="横浜美術館（神奈川県 みなとみらい）の開館時間・休館日・料金（大人一般）と、開催中の展覧会「マリー・アントワネット・スタイル・毛利悠子 Recompose―第60回ヴェネチア・ビエンナーレ日本館帰国展」。今日から2週間の開館カレンダー付き。毎週更新。">
 <link rel="canonical" href="https://riku1128-tong.github.io/museum-watch/m/Q861588.html">
@@ -28,6 +36,10 @@
     s.src = "https://www.googletagmanager.com/gtag/js?id=G-NS856TZ0KY"; document.head.appendChild(s);
     gtag("js", new Date()); gtag("config", "G-NS856TZ0KY");
   }
+</script>
+<script>
+  // ホーム画面に追加したときのオフライン表示のための Service Worker
+  if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Museum", "name": "横浜美術館", "url": "https://yokohama.art.museum/", "address": {"@type": "PostalAddress", "addressRegion": "神奈川県", "addressCountry": "JP", "streetAddress": "〒220-0012 神奈川県横浜市西区みなとみらい3-4-1"}, "geo": {"@type": "GeoCoordinates", "latitude": 35.4571, "longitude": 139.631}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "10:00", "closes": "18:00"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "マリー・アントワネット・スタイル", "startDate": "2026-08-01", "endDate": "2026-11-23", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "横浜美術館", "address": {"@type": "PostalAddress", "addressRegion": "神奈川県", "addressCountry": "JP", "streetAddress": "〒220-0012 神奈川県横浜市西区みなとみらい3-4-1"}}, "description": "マリー・アントワネットの装いやインテリアと、時代を超えて影響を与え続けるそのスタイルを紹介", "url": "https://yokohama.art.museum/exhibition/202608_marie2026/", "offers": {"@type": "Offer", "price": 2500, "priceCurrency": "JPY", "url": "https://yokohama.art.museum/exhibition/202608_marie2026/"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "毛利悠子 Recompose―第60回ヴェネチア・ビエンナーレ日本館帰国展", "startDate": "2026-07-24", "endDate": "2026-11-23", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "横浜美術館", "address": {"@type": "PostalAddress", "addressRegion": "神奈川県", "addressCountry": "JP", "streetAddress": "〒220-0012 神奈川県横浜市西区みなとみらい3-4-1"}}, "description": "毛利悠子による第60回ヴェネチア・ビエンナーレ日本館展示の帰国展", "url": "https://yokohama.art.museum/exhibition/202607_mohriyuko/", "offers": {"@type": "Offer", "price": 0, "priceCurrency": "JPY", "url": "https://yokohama.art.museum/exhibition/202607_mohriyuko/"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "コレクション展", "startDate": "2026-08-01", "endDate": "2027-02-11", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "横浜美術館", "address": {"@type": "PostalAddress", "addressRegion": "神奈川県", "addressCountry": "JP", "streetAddress": "〒220-0012 神奈川県横浜市西区みなとみらい3-4-1"}}, "description": "横浜美術館の所蔵作品によるコレクション展", "url": "https://yokohama.art.museum/exhibition/202608_collection/"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "コレクション展（じゆうエリア）", "startDate": "2026-08-01", "endDate": "2027-02-11", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "横浜美術館", "address": {"@type": "PostalAddress", "addressRegion": "神奈川県", "addressCountry": "JP", "streetAddress": "〒220-0012 神奈川県横浜市西区みなとみらい3-4-1"}}, "description": "横浜美術館の所蔵作品によるコレクション展（じゆうエリア）", "url": "https://yokohama.art.museum/exhibition/202608_jiyu-area/"}</script>
 </head>

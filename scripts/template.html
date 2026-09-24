@@ -2,7 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#efece6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="美術館ウォッチ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="google-site-verification" content="_S8LsggDe_KGAWmNmfH1ZB7lIctDlGbPt6TN6XdTY_k">
 <title>美術館ウォッチ</title>
 <script>
@@ -15,6 +23,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <!--__GA__-->
+<script>
+  // ホーム画面に追加したときのオフライン表示のための Service Worker
+  if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+</script>
 </head>
 <body>
 <header>
@@ -30,8 +42,10 @@
 <div class="rule"><hr></div>
 <main>
   <div class="days" id="days" role="toolbar" aria-label="日付"></div>
-  <div class="controls">
+  <div class="controls" id="controls">
     <div class="tabs" role="tablist" id="tabs"></div>
+    <button type="button" class="filter-toggle" id="filterToggle" aria-expanded="false" aria-controls="filters">絞り込み・並び替え<span id="filterCount"></span></button>
+    <div class="filters" id="filters">
     <select id="pref" aria-label="都道府県"><option value="">都道府県：全国</option></select>
     <select id="cat" aria-label="区分"><option value="">区分：すべて</option><option>国立</option><option>公立</option><option>私立</option></select>
     <select id="late" aria-label="閉館時刻">
@@ -45,12 +59,19 @@
       <option value="distance">出発地から近い順</option><option value="close">閉館が遅い順</option><option value="ending">会期末が近い順</option>
       <option value="price">料金が安い順</option><option value="name">名前順</option>
     </select>
+    </div>
     <input type="search" id="q" placeholder="館名・展覧会名で検索" aria-label="検索">
   </div>
   <div class="grid" id="grid"></div>
   <div class="gone" id="gone"></div>
   <nav class="pref-links" id="prefLinks" aria-label="都道府県から探す"></nav>
 </main>
+<nav class="tabbar" id="tabbar" aria-label="メニュー"><button type="button" data-nav="list"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span>一覧</span></button><button type="button" data-nav="want"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="1"/><rect x="8" y="8" width="8" height="8" rx=".5"/></svg><span>行きたい</span></button><button type="button" data-nav="visited"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M8.5 12.2l2.4 2.4 4.6-5"/></svg><span>行った</span></button><button type="button" data-nav="settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 3v2.2M12 18.8V21M3 12h2.2M18.8 12H21M5.6 5.6l1.6 1.6M16.8 16.8l1.6 1.6M5.6 18.4l1.6-1.6M16.8 7.2l1.6-1.6"/></svg><span>設定</span></button></nav>
+<div class="install-hint" id="installHint" hidden>
+  <span id="installText"></span>
+  <button type="button" class="btn" id="installBtn" hidden>追加する</button>
+  <button type="button" class="install-close" id="installClose" aria-label="閉じる">×</button>
+</div>
 <footer>
   情報は各館の公式サイトから自動で集めたもので、変更が反映されていないことがあります。お出かけ前に公式サイトでご確認ください。
   館の一覧: <a href="https://ja.wikipedia.org/wiki/美術館の一覧" target="_blank" rel="noopener">Wikipedia</a>（CC BY-SA 4.0）・Wikidata ／
@@ -314,6 +335,7 @@ function render() {
   };
   list.sort(sorters[state.sort]);
   $("grid").innerHTML = list.length ? list.map((r) => card(r, day.date)).join("") : `<div class="empty">該当する美術館はありません</div>`;
+  renderChrome();
   $("gone").textContent = DATA.gone.length ? `閉館済みのため除外: ${DATA.gone.map((g) => g.name).join("、")}` : "";
 }
 
@@ -452,8 +474,48 @@ for (const id of ["pref", "cat", "late", "visit", "sort"]) {
   $(id).value = state[id];
   $(id).addEventListener("change", (e) => { state[id] = e.target.value; render(); track("filter_change", { filter_name: id, filter_value: e.target.value }); });
 }
+// ---- スマホのアプリらしい操作（タブバー・絞り込みの開閉・ホーム画面への追加の案内） ----
+// 上部の見出しの高さを CSS に渡す（日付の帯を見出しのすぐ下に固定するため）
+const setHeaderHeight = () => document.documentElement.style.setProperty("--hdr-h", document.querySelector("header").offsetHeight + "px");
+addEventListener("resize", setHeaderHeight); setHeaderHeight();
+function renderChrome() {
+  const nav = { "": "list", want: "want", yes: "visited" }[state.visit] || "list";
+  for (const b of document.querySelectorAll("#tabbar [data-nav]")) b.setAttribute("aria-current", b.dataset.nav === nav ? "page" : "false");
+  const n = [state.pref !== (user.homeArea || "") && state.pref, state.cat, state.late, state.visit, state.sort !== "distance"].filter(Boolean).length;
+  $("filterCount").textContent = n ? ` ・ ${n}件` : "";
+}
+$("filterToggle").addEventListener("click", () => {
+  const open = $("controls").classList.toggle("open"); $("filterToggle").setAttribute("aria-expanded", open);
+});
+$("tabbar").addEventListener("click", (e) => {
+  const k = e.target.closest("[data-nav]")?.dataset.nav; if (!k) return;
+  if (k === "settings") { openSettings(); return; }
+  state.visit = { list: "", want: "want", visited: "yes" }[k]; $("visit").value = state.visit;
+  render(); scrollTo({ top: 0, behavior: "smooth" });
+  track("filter_change", { filter_name: "tabbar", filter_value: k });
+});
+// ホーム画面への追加の案内。iPhone は共有メニューから、Android などはボタンから追加できる
+(() => {
+  let dismissed = false; try { dismissed = !!localStorage.getItem("mw:installHint"); } catch {}
+  const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  if (dismissed || standalone || innerWidth > 640) return;
+  const show = (text, withButton) => { $("installText").textContent = text; $("installBtn").hidden = !withButton; $("installHint").hidden = false; };
+  if (/iphone|ipad|ipod/i.test(navigator.userAgent)) show("共有ボタン → 「ホーム画面に追加」で、アプリのように使えます", false);
+  addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault(); window._installPrompt = e;
+    show("ホーム画面に追加すると、アプリのように使えます", true);
+  });
+})();
+$("installBtn").addEventListener("click", async () => {
+  const p = window._installPrompt; if (!p) return;
+  p.prompt(); await p.userChoice.catch(() => {}); $("installHint").hidden = true;
+});
+$("installClose").addEventListener("click", () => {
+  $("installHint").hidden = true; try { localStorage.setItem("mw:installHint", "1"); } catch {}
+});
 $("q").value = state.q; $("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
 render();
+renderChrome();
 </script>
 
 <script type="module">

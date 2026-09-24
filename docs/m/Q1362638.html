@@ -2,7 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="theme-color" content="#efece6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="美術館ウォッチ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>国立新美術館の開館時間・休館日・料金・展覧会｜美術館ウォッチ</title>
 <meta name="description" content="国立新美術館（東京都 六本木）の開館時間・休館日・料金（大人一般）と、開催中の展覧会「ルーヴル美術館展　ルネサンス・第89回　新制作展」。今日から2週間の開館カレンダー付き。毎週更新。">
 <link rel="canonical" href="https://riku1128-tong.github.io/museum-watch/m/Q1362638.html">
@@ -28,6 +36,10 @@
     s.src = "https://www.googletagmanager.com/gtag/js?id=G-NS856TZ0KY"; document.head.appendChild(s);
     gtag("js", new Date()); gtag("config", "G-NS856TZ0KY");
   }
+</script>
+<script>
+  // ホーム画面に追加したときのオフライン表示のための Service Worker
+  if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Museum", "name": "国立新美術館", "url": "https://www.nact.jp/", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒106-8558 東京都港区六本木7-22-2"}, "geo": {"@type": "GeoCoordinates", "latitude": 35.66528, "longitude": 139.72634}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "10:00", "closes": "20:00", "validFrom": "2026-12-07", "validThrough": "2026-12-10"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday"], "opens": "10:00", "closes": "20:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Sunday"], "opens": "10:00", "closes": "18:00"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "ルーヴル美術館展　ルネサンス", "startDate": "2026-09-09", "endDate": "2026-12-13", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "国立新美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒106-8558 東京都港区六本木7-22-2"}}, "description": "ルーヴル美術館の50点余りで15～16世紀ルネサンス美術を紹介。レオナルド《美しきフェロニエール》初来日", "url": "https://www.nact.jp/exhibition_special/2026/louvre2026/", "offers": {"@type": "Offer", "price": 2400, "priceCurrency": "JPY", "url": "https://www.nact.jp/exhibition_special/2026/louvre2026/"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "第89回　新制作展", "startDate": "2026-09-16", "endDate": "2026-09-28", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "国立新美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒106-8558 東京都港区六本木7-22-2"}}, "description": "新制作協会による公募展", "url": "https://www.shinseisaku.net/wp/"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "第81回　行動展", "startDate": "2026-09-16", "endDate": "2026-09-28", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "国立新美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒106-8558 東京都港区六本木7-22-2"}}, "description": "行動美術協会による公募展", "url": "https://www.kodo-bijutsu.jp/"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "少女漫画・インフィニティ　萩尾望都×山岸凉子×大和和紀 三人展", "startDate": "2026-10-28", "endDate": "2027-02-08", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "国立新美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒106-8558 東京都港区六本木7-22-2"}}, "description": "萩尾望都・山岸凉子・大和和紀の約60年の創作を原画800点以上で紹介", "url": "https://www.nact.jp/exhibition_special/2026/shojomanga/", "offers": {"@type": "Offer", "price": 2200, "priceCurrency": "JPY", "url": "https://www.nact.jp/exhibition_special/2026/shojomanga/"}}</script>
 </head>

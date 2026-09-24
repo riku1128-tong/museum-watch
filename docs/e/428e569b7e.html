@@ -2,7 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="theme-color" content="#efece6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="美術館ウォッチ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>ルーヴル美術館展　ルネサンス｜国立新美術館｜会期・料金・開館時間</title>
 <meta name="description" content="ルーヴル美術館展　ルネサンス（国立新美術館）の会期9/9〜12/13、料金 ¥2,400、開館時間と休館日。ルーヴル美術館の50点余りで15～16世紀ルネサンス美術を紹介。レオナルド《美しきフェロニエール》初来日">
 <link rel="canonical" href="https://riku1128-tong.github.io/museum-watch/e/428e569b7e.html">
@@ -28,6 +36,10 @@
     s.src = "https://www.googletagmanager.com/gtag/js?id=G-NS856TZ0KY"; document.head.appendChild(s);
     gtag("js", new Date()); gtag("config", "G-NS856TZ0KY");
   }
+</script>
+<script>
+  // ホーム画面に追加したときのオフライン表示のための Service Worker
+  if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "ルーヴル美術館展　ルネサンス", "startDate": "2026-09-09", "endDate": "2026-12-13", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "国立新美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒106-8558 東京都港区六本木7-22-2"}}, "description": "ルーヴル美術館の50点余りで15～16世紀ルネサンス美術を紹介。レオナルド《美しきフェロニエール》初来日", "url": "https://www.nact.jp/exhibition_special/2026/louvre2026/", "offers": {"@type": "Offer", "price": 2400, "priceCurrency": "JPY", "url": "https://www.nact.jp/exhibition_special/2026/louvre2026/"}}</script>
 </head>

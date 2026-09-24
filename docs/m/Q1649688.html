@@ -2,7 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="theme-color" content="#efece6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="美術館ウォッチ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>東京都現代美術館の開館時間・休館日・料金・展覧会｜美術館ウォッチ</title>
 <meta name="description" content="東京都現代美術館（東京都 三好）の開館時間・休館日・料金（大人一般 ¥500）と、開催中の展覧会「多田美波―光、凛と ゆれる・共時的星叢──時を共にした星たち　越境する芸術のまなざし」。今日から2週間の開館カレンダー付き。毎週更新。">
 <link rel="canonical" href="https://riku1128-tong.github.io/museum-watch/m/Q1649688.html">
@@ -28,6 +36,10 @@
     s.src = "https://www.googletagmanager.com/gtag/js?id=G-NS856TZ0KY"; document.head.appendChild(s);
     gtag("js", new Date()); gtag("config", "G-NS856TZ0KY");
   }
+</script>
+<script>
+  // ホーム画面に追加したときのオフライン表示のための Service Worker
+  if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Museum", "name": "東京都現代美術館", "url": "https://www.mot-art-museum.jp/", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒135-0022 東京都江東区三好4-1-1(木場公園内)"}, "geo": {"@type": "GeoCoordinates", "latitude": 35.68, "longitude": 139.80805556}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday"], "opens": "10:00", "closes": "20:00", "validFrom": "2026-11-01", "validThrough": "2026-11-30"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "10:00", "closes": "18:00"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "多田美波―光、凛と ゆれる", "startDate": "2026-08-29", "endDate": "2026-12-06", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "東京都現代美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒135-0022 東京都江東区三好4-1-1(木場公園内)"}}, "description": "戦後の抽象彫刻家・多田美波の没後初の大規模回顧展。彫刻・照明・建築関連作品など約70点", "url": "https://www.mot-art-museum.jp/exhibitions/Tada-Minami/", "offers": {"@type": "Offer", "price": 1600, "priceCurrency": "JPY", "url": "https://www.mot-art-museum.jp/exhibitions/Tada-Minami/"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "共時的星叢──時を共にした星たち　越境する芸術のまなざし", "startDate": "2026-09-05", "endDate": "2026-12-13", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "東京都現代美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒135-0022 東京都江東区三好4-1-1(木場公園内)"}}, "description": "台湾の風車詩社を起点に、近代台湾と日本の美術・資料を展観。ゲストキュレーター黄亜歴", "url": "https://www.mot-art-museum.jp/exhibitions/Constellation/", "offers": {"@type": "Offer", "price": 2000, "priceCurrency": "JPY", "url": "https://www.mot-art-museum.jp/exhibitions/Constellation/"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "MOTコレクション いつかの光を今みている", "startDate": "2026-09-19", "endDate": "2027-01-06", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "東京都現代美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒135-0022 東京都江東区三好4-1-1(木場公園内)"}}, "description": "「光」と「時間」をテーマにした所蔵作品展。小瀬村真美、土屋公雄、戸谷成雄ほか", "url": "https://www.mot-art-museum.jp/exhibitions/mot-collection-260919/", "offers": {"@type": "Offer", "price": 500, "priceCurrency": "JPY", "url": "https://www.mot-art-museum.jp/exhibitions/mot-collection-260919/"}}</script>
 </head>

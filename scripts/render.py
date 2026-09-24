@@ -304,6 +304,18 @@ def main() -> None:
     SITE.mkdir(exist_ok=True)
     (SITE / "index.html").write_text(html, encoding="utf-8")
     (SITE / "style.css").write_text((ROOT / "scripts" / "style.css").read_text(encoding="utf-8"), encoding="utf-8")
+    # ホーム画面に追加してアプリのように使うための設定（PWA）。Service Worker は生成のたびに版を変えて古いキャッシュを捨てる
+    write_json(SITE / "manifest.webmanifest", {
+        "name": "美術館ウォッチ", "short_name": "美術館ウォッチ", "lang": "ja",
+        "description": "全国の美術館の開館状況・開館時間・料金・開催中の展覧会",
+        "start_url": "./", "scope": "./", "display": "standalone",
+        "background_color": "#141312", "theme_color": "#141312",
+        "icons": [{"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+                  {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+                  {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}],
+    })
+    (SITE / "sw.js").write_text((ROOT / "scripts" / "sw.js").read_text(encoding="utf-8")
+                                .replace("__VERSION__", payload["generated_at"].replace(":", "")), encoding="utf-8")
 
     # 検索から人が来るための静的ページ（館・展覧会・都道府県）と sitemap.xml
     import pages

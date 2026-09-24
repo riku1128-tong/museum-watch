@@ -2,7 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="theme-color" content="#efece6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="美術館ウォッチ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>世田谷美術館の開館時間・休館日・料金・展覧会｜美術館ウォッチ</title>
 <meta name="description" content="世田谷美術館（東京都 砧公園）の開館時間・休館日・料金（大人一般 ¥220）と、開催中の展覧会「スウェーデン・テキスタイル 暮らしと自然に息づく北欧デザイン・ミュージアム コレクションⅡ 気になる、こんどの収蔵品―作品がつれてきた物語」。今日から2週間の開館カレンダー付き。毎週更新。">
 <link rel="canonical" href="https://riku1128-tong.github.io/museum-watch/m/Q3892314.html">
@@ -28,6 +36,10 @@
     s.src = "https://www.googletagmanager.com/gtag/js?id=G-NS856TZ0KY"; document.head.appendChild(s);
     gtag("js", new Date()); gtag("config", "G-NS856TZ0KY");
   }
+</script>
+<script>
+  // ホーム画面に追加したときのオフライン表示のための Service Worker
+  if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Museum", "name": "世田谷美術館", "url": "https://www.setagayaartmuseum.or.jp/", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒157-0075 東京都世田谷区砧公園1-2"}, "geo": {"@type": "GeoCoordinates", "latitude": 35.6316, "longitude": 139.622}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "10:00", "closes": "18:00"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "スウェーデン・テキスタイル 暮らしと自然に息づく北欧デザイン", "startDate": "2026-09-19", "endDate": "2026-11-15", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "世田谷美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒157-0075 東京都世田谷区砧公園1-2"}}, "description": "サラ・アクステイリウス氏所蔵の約200点で、スウェーデンのテキスタイルデザインを紹介", "url": "https://www.setagayaartmuseum.or.jp/exhibition/special/detail.php?id=sp00230", "offers": {"@type": "Offer", "price": 1400, "priceCurrency": "JPY", "url": "https://www.setagayaartmuseum.or.jp/exhibition/special/detail.php?id=sp00230"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "ミュージアム コレクションⅡ 気になる、こんどの収蔵品―作品がつれてきた物語", "startDate": "2026-08-08", "endDate": "2026-10-25", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "世田谷美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒157-0075 東京都世田谷区砧公園1-2"}}, "description": "2020〜2025年の新収蔵品約120点を、作品にまつわる物語とともに紹介", "url": "https://www.setagayaartmuseum.or.jp/exhibition/collection/detail.php?id=col00126", "offers": {"@type": "Offer", "price": 220, "priceCurrency": "JPY", "url": "https://www.setagayaartmuseum.or.jp/exhibition/collection/detail.php?id=col00126"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "銅版画家・駒井哲郎 掌上にひろがる星座のように", "startDate": "2026-11-28", "endDate": "2027-01-31", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "世田谷美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒157-0075 東京都世田谷区砧公園1-2"}}, "description": "没後50年。駒井哲郎の版画・若い頃の油彩・挿絵原画で歩みをたどる", "url": "https://www.setagayaartmuseum.or.jp/exhibition/special/detail.php?id=sp00231", "offers": {"@type": "Offer", "price": 1400, "priceCurrency": "JPY", "url": "https://www.setagayaartmuseum.or.jp/exhibition/special/detail.php?id=sp00231"}}</script>
 </head>

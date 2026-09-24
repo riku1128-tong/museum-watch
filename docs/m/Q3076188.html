@@ -2,7 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="theme-color" content="#efece6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="美術館ウォッチ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>三の丸尚蔵館の開館時間・休館日・料金・展覧会｜美術館ウォッチ</title>
 <meta name="description" content="三の丸尚蔵館（東京都 千代田）の開館時間・休館日・料金（大人一般）と、開催中の展覧会。今日から2週間の開館カレンダー付き。毎週更新。">
 <link rel="canonical" href="https://riku1128-tong.github.io/museum-watch/m/Q3076188.html">
@@ -28,6 +36,10 @@
     s.src = "https://www.googletagmanager.com/gtag/js?id=G-NS856TZ0KY"; document.head.appendChild(s);
     gtag("js", new Date()); gtag("config", "G-NS856TZ0KY");
   }
+</script>
+<script>
+  // ホーム画面に追加したときのオフライン表示のための Service Worker
+  if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Museum", "name": "三の丸尚蔵館", "url": "https://shozokan.nich.go.jp/", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒100-0001 東京都千代田区千代田1-8 皇居東御苑内"}, "geo": {"@type": "GeoCoordinates", "latitude": 35.686302, "longitude": 139.759247}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "09:30", "closes": "17:00"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "皇室の至宝—美いづるところ", "startDate": "2026-11-03", "endDate": "2027-01-24", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "三の丸尚蔵館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒100-0001 東京都千代田区千代田1-8 皇居東御苑内"}}, "description": "国宝・重文の収蔵品に正倉院宝物や法隆寺献納宝物、近代皇室ゆかりの名品を集める", "url": "https://shozokan.nich.go.jp/exhibitions/grand-opening-1", "offers": {"@type": "Offer", "price": 2500, "priceCurrency": "JPY", "url": "https://shozokan.nich.go.jp/exhibitions/grand-opening-1"}}</script>
 </head>

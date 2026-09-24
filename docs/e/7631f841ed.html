@@ -2,7 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="theme-color" content="#efece6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141312" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="美術館ウォッチ">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>フォンタネージ――イタリアの光・心の風景｜三菱一号館美術館｜会期・料金・開館時間</title>
 <meta name="description" content="フォンタネージ――イタリアの光・心の風景（三菱一号館美術館）の会期10/17〜2027/1/24、料金 ¥2,300、開館時間と休館日。工部美術学校で教えたフォンタネージの画業と日本の弟子たちの作品など約200点">
 <link rel="canonical" href="https://riku1128-tong.github.io/museum-watch/e/7631f841ed.html">
@@ -28,6 +36,10 @@
     s.src = "https://www.googletagmanager.com/gtag/js?id=G-NS856TZ0KY"; document.head.appendChild(s);
     gtag("js", new Date()); gtag("config", "G-NS856TZ0KY");
   }
+</script>
+<script>
+  // ホーム画面に追加したときのオフライン表示のための Service Worker
+  if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "フォンタネージ――イタリアの光・心の風景", "startDate": "2026-10-17", "endDate": "2027-01-24", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "三菱一号館美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒100-0005 東京都千代田区丸の内2-6-2"}}, "description": "工部美術学校で教えたフォンタネージの画業と日本の弟子たちの作品など約200点", "url": "https://mimt.jp/ex_sp/fontanesi/", "offers": {"@type": "Offer", "price": 2300, "priceCurrency": "JPY", "url": "https://mimt.jp/ex_sp/fontanesi/"}}</script>
 </head>

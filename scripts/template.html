@@ -430,12 +430,15 @@ $("grid").addEventListener("click", (e) => {
     }
     saveUser(); render();
     track("visit_toggle", { ...museumParams(id), state: currentVisit(id, todayJst) ? "on" : "off" });
+    // キーイベント用: 付けたときだけ送る（外した回数を成果に数えないため）
+    if (currentVisit(id, todayJst)) track("visit_add", museumParams(id));
   }
   if (btn.dataset.act === "want") {
     if (user.wants[id] && !currentVisit(id, todayJst)) delete user.wants[id];
     else { dropCurrentVisit(); user.wants[id] = todayJst; }
     saveUser(); render();
     track("want_toggle", { ...museumParams(id), state: user.wants[id] ? "on" : "off" });
+    if (user.wants[id]) track("want_add", museumParams(id));
   }
 });
 $("grid").addEventListener("dblclick", (e) => {

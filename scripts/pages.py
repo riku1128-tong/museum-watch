@@ -17,6 +17,7 @@ from datetime import date
 from html import escape
 
 from common import GA_ID, PREFS, REGIONS, SITE, SITE_URL
+from affiliate import links_html
 from render import exhibition_price, museum_price
 
 WD_JA = {"mon": "月", "tue": "火", "wed": "水", "thu": "木", "fri": "金", "sat": "土", "sun": "日", "holiday": "祝"}
@@ -182,6 +183,14 @@ def page(*, title: str, desc: str, path: str, body: str, depth: int, jsonld: lis
   // ホーム画面に追加したときのオフライン表示のための Service Worker
   if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("{up}sw.js").catch(() => {{}}));
 </script>
+<script>
+  // アフィリエイトのリンクのクリックを GA4 に送る（提携先・置き場所・館）
+  document.addEventListener("click", (e) => {{
+    const a = e.target.closest("a.aff"); if (!a || !window.gtag) return;
+    gtag("event", "affiliate_click", {{ partner: a.dataset.partner, placement: a.dataset.placement,
+      museum_id: a.dataset.museumId, museum_name: a.dataset.museumName }});
+  }});
+</script>
 {ld}
 </head>
 <body class="doc">
@@ -196,7 +205,8 @@ def page(*, title: str, desc: str, path: str, body: str, depth: int, jsonld: lis
 <footer>
   情報は各館の公式サイトから自動で集めたもので、変更が反映されていないことがあります。お出かけ前に公式サイトでご確認ください。
   館の一覧: <a href="https://ja.wikipedia.org/wiki/美術館の一覧" target="_blank" rel="noopener">Wikipedia</a>（CC BY-SA 4.0）・Wikidata ／
-  <a href="{up}index.html">今日開いている美術館を探す</a> ／ <a href="{up}privacy.html">プライバシーポリシー</a>
+  <a href="{up}index.html">今日開いている美術館を探す</a> ／ <a href="{up}f/index.html">特集</a><br>
+  <a href="{up}about.html">運営者情報・お問い合わせ</a> ／ <a href="{up}disclaimer.html">免責事項</a> ／ <a href="{up}privacy.html">プライバシーポリシー</a>
 </footer>
 </body>
 </html>
@@ -311,7 +321,7 @@ def museum_page(m: dict, det: dict | None, cal: list[tuple[dict, dict]], today: 
     if det.get("highlights"):
         body += (f'<section class="ai"><h2>この美術館の見どころ</h2><p>{escape(det["highlights"])}</p>'
                  f'<p class="ai-note">AI による要約（公式サイトの情報をもとに作成）</p></section>')
-    body += f'<section><h2>基本情報</h2><dl class="info">{dl}</dl></section>'
+    body += f'<section><h2>基本情報</h2><dl class="info">{dl}</dl></section>' + links_html("museum", m)
     body += f'<section><h2>開館カレンダー（{md(cal[0][0]["date"])}〜{md(cal[-1][0]["date"])}）</h2>{calendar_table(cal)}</section>'
     if current:
         body += f'<section><h2>開催中の展覧会</h2><ul class="ex">{"".join(exhibition_item(m, e, today) for e in current)}</ul></section>'
@@ -347,7 +357,7 @@ def exhibition_page(m: dict, det: dict, e: dict, today: date) -> str:
             + (f'<p>{escape(e["summary"])}</p>' if e.get("summary") else "")
             + (f'<section class="ai"><h2>この展覧会のおすすめポイント</h2><p>{escape(e["recommend"])}</p>'
                f'<p class="ai-note">AI による要約（公式の紹介文をもとに作成）</p></section>' if e.get("recommend") else "")
-            + f'<section><h2>展覧会の情報</h2><dl class="info">{dl}</dl></section>'
+            + f'<section><h2>展覧会の情報</h2><dl class="info">{dl}</dl></section>' + links_html("exhibition", m, e)
             + f'<p><a href="../m/{m["id"]}.html">{escape(m["name"])}の開館カレンダー・ほかの展覧会を見る</a></p>')
     desc = (f"{e['title']}（{m['name']}）の会期{md(e['start'], today)}〜{md(e['end'], today)}、"
             f"料金{(' ' + yen(price)) if price is not None else ''}、開館時間と休館日。" + (e.get("recommend") or e.get("summary") or ""))
@@ -409,6 +419,7 @@ Google アナリティクスは Cookie などを使い、閲覧したページ�
 <dt>Supabase</dt><dd>端末間の同期（ログインした場合）</dd>
 <dt>HeartRails Express・国土地理院</dt><dd>出発地の位置の検索（出発地を保存したとき）</dd>
 <dt>Google マップ</dt><dd>「行き方」から経路を開いたとき（出発地と行き先が Google マップに渡ります）</dd>
+<dt>広告の提携先</dt><dd>「PR」と表示したリンクを押したとき（提携先が Cookie などで紹介元を記録することがあります）</dd>
 </dl></section>
 <section><h2>掲載情報について</h2>
 <p>開館時間・休館日・料金・展覧会の情報は、各館の公式サイトなどから自動で集めたもので、正確さを保証するものではありません。
@@ -423,7 +434,7 @@ Google アナリティクスは Cookie などを使い、閲覧したページ�
 
 def build(active: list[dict], details: dict, days: list[dict], today: date) -> int:
     """全ページと sitemap.xml を作り直す。書き出したページ数を返す。"""
-    for sub in ("m", "e", "p"):
+    for sub in ("m", "e", "p", "f"):
         shutil.rmtree(SITE / sub, ignore_errors=True)
         (SITE / sub).mkdir(parents=True)
     by_day = [{r["id"]: r for r in d["results"]} for d in days]
@@ -452,6 +463,13 @@ def build(active: list[dict], details: dict, days: list[dict], today: date) -> i
         n += 1
     (SITE / "privacy.html").write_text(privacy_page(), encoding="utf-8")
     urls.append(("privacy.html", today.isoformat()))
+    import extras
+    for path in extras.build_features(SITE, active, details, days, today):
+        urls.append((path, today.isoformat()))
+        n += 1
+    (SITE / "about.html").write_text(extras.about_page(), encoding="utf-8")
+    (SITE / "disclaimer.html").write_text(extras.disclaimer_page(), encoding="utf-8")
+    urls += [("about.html", today.isoformat()), ("disclaimer.html", today.isoformat())]
     xml = "".join(f"<url><loc>{SITE_URL}{escape(u)}</loc><lastmod>{lm}</lastmod></url>" for u, lm in urls)
     (SITE / "sitemap.xml").write_text(
         f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{xml}</urlset>\n',

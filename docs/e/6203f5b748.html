@@ -41,6 +41,14 @@
   // ホーム画面に追加したときのオフライン表示のための Service Worker
   if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
+<script>
+  // アフィリエイトのリンクのクリックを GA4 に送る（提携先・置き場所・館）
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest("a.aff"); if (!a || !window.gtag) return;
+    gtag("event", "affiliate_click", { partner: a.dataset.partner, placement: a.dataset.placement,
+      museum_id: a.dataset.museumId, museum_name: a.dataset.museumName });
+  });
+</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "第39回 日本の自然を描く展", "startDate": "2026-09-10", "endDate": "2026-09-29", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "上野の森美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒110-0007 東京都台東区上野公園1-2"}}, "description": "身近な風景や風物を描いたF10号までの小品による公募展。作家名ごとに4期に分けて展示", "url": "https://www.ueno-mori.org/exhibitions/shizen/39/", "offers": {"@type": "Offer", "price": 800, "priceCurrency": "JPY", "url": "https://www.ueno-mori.org/exhibitions/shizen/39/"}}</script>
 </head>
 <body class="doc">
@@ -55,7 +63,8 @@
 <footer>
   情報は各館の公式サイトから自動で集めたもので、変更が反映されていないことがあります。お出かけ前に公式サイトでご確認ください。
   館の一覧: <a href="https://ja.wikipedia.org/wiki/美術館の一覧" target="_blank" rel="noopener">Wikipedia</a>（CC BY-SA 4.0）・Wikidata ／
-  <a href="../index.html">今日開いている美術館を探す</a> ／ <a href="../privacy.html">プライバシーポリシー</a>
+  <a href="../index.html">今日開いている美術館を探す</a> ／ <a href="../f/index.html">特集</a><br>
+  <a href="../about.html">運営者情報・お問い合わせ</a> ／ <a href="../disclaimer.html">免責事項</a> ／ <a href="../privacy.html">プライバシーポリシー</a>
 </footer>
 </body>
 </html>

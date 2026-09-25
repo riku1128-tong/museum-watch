@@ -41,6 +41,14 @@
   // ホーム画面に追加したときのオフライン表示のための Service Worker
   if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
+<script>
+  // アフィリエイトのリンクのクリックを GA4 に送る（提携先・置き場所・館）
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest("a.aff"); if (!a || !window.gtag) return;
+    gtag("event", "affiliate_click", { partner: a.dataset.partner, placement: a.dataset.placement,
+      museum_id: a.dataset.museumId, museum_name: a.dataset.museumName });
+  });
+</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "目黒区美術館コレクション展『東京パック』とその時代 ＋特集展示 北澤楽天の『子供之友』", "startDate": "2026-10-10", "endDate": "2026-11-15", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "目黒区美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒153-0063 東京都目黒区目黒2-4-36"}}, "description": "日本初のフルカラー漫画雑誌『東京パック』とその時代を所蔵品で紹介。北澤楽天『子供之友』の特集展示も", "url": "https://mmat.jp/exhibition/archive/2026/20261010-478.html", "offers": {"@type": "Offer", "price": 700, "priceCurrency": "JPY", "url": "https://mmat.jp/exhibition/archive/2026/20261010-478.html"}}</script>
 </head>
 <body class="doc">
@@ -55,7 +63,8 @@
 <footer>
   情報は各館の公式サイトから自動で集めたもので、変更が反映されていないことがあります。お出かけ前に公式サイトでご確認ください。
   館の一覧: <a href="https://ja.wikipedia.org/wiki/美術館の一覧" target="_blank" rel="noopener">Wikipedia</a>（CC BY-SA 4.0）・Wikidata ／
-  <a href="../index.html">今日開いている美術館を探す</a> ／ <a href="../privacy.html">プライバシーポリシー</a>
+  <a href="../index.html">今日開いている美術館を探す</a> ／ <a href="../f/index.html">特集</a><br>
+  <a href="../about.html">運営者情報・お問い合わせ</a> ／ <a href="../disclaimer.html">免責事項</a> ／ <a href="../privacy.html">プライバシーポリシー</a>
 </footer>
 </body>
 </html>

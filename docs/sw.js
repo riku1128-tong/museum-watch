@@ -1,8 +1,8 @@
-// 美術館ウォッチの Service Worker（render.py が 2026-09-25T0850+0900 を生成日時に置き換えて docs/sw.js に書き出す）
+// 美術館ウォッチの Service Worker（render.py が 2026-09-26T0025+0900 を生成日時に置き換えて docs/sw.js に書き出す）
 // - ページ（HTML）はネット優先。つながらないときは、前に見たページか、トップページを出す
 // - CSS・画像・アイコンは、キャッシュを先に使い、裏で新しいものに入れ替える
 // - 巡回のたびに版が変わり、古いキャッシュは消える
-const CACHE = "museum-watch-2026-09-25T0850+0900";
+const CACHE = "museum-watch-2026-09-26T0025+0900";
 const SHELL = ["./", "index.html", "style.css", "manifest.webmanifest", "marble-light.jpg", "marble-dark.jpg",
   "icons/icon-192.png", "icons/apple-touch-icon.png"];
 

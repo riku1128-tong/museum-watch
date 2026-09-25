@@ -41,6 +41,14 @@
   // ホーム画面に追加したときのオフライン表示のための Service Worker
   if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
 </script>
+<script>
+  // アフィリエイトのリンクのクリックを GA4 に送る（提携先・置き場所・館）
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest("a.aff"); if (!a || !window.gtag) return;
+    gtag("event", "affiliate_click", { partner: a.dataset.partner, placement: a.dataset.placement,
+      museum_id: a.dataset.museumId, museum_name: a.dataset.museumName });
+  });
+</script>
 
 </head>
 <body class="doc">
@@ -82,6 +90,7 @@ Google アナリティクスは Cookie などを使い、閲覧したページ�
 <dt>Supabase</dt><dd>端末間の同期（ログインした場合）</dd>
 <dt>HeartRails Express・国土地理院</dt><dd>出発地の位置の検索（出発地を保存したとき）</dd>
 <dt>Google マップ</dt><dd>「行き方」から経路を開いたとき（出発地と行き先が Google マップに渡ります）</dd>
+<dt>広告の提携先</dt><dd>「PR」と表示したリンクを押したとき（提携先が Cookie などで紹介元を記録することがあります）</dd>
 </dl></section>
 <section><h2>掲載情報について</h2>
 <p>開館時間・休館日・料金・展覧会の情報は、各館の公式サイトなどから自動で集めたもので、正確さを保証するものではありません。
@@ -94,7 +103,8 @@ Google アナリティクスは Cookie などを使い、閲覧したページ�
 <footer>
   情報は各館の公式サイトから自動で集めたもので、変更が反映されていないことがあります。お出かけ前に公式サイトでご確認ください。
   館の一覧: <a href="https://ja.wikipedia.org/wiki/美術館の一覧" target="_blank" rel="noopener">Wikipedia</a>（CC BY-SA 4.0）・Wikidata ／
-  <a href="index.html">今日開いている美術館を探す</a> ／ <a href="privacy.html">プライバシーポリシー</a>
+  <a href="index.html">今日開いている美術館を探す</a> ／ <a href="f/index.html">特集</a><br>
+  <a href="about.html">運営者情報・お問い合わせ</a> ／ <a href="disclaimer.html">免責事項</a> ／ <a href="privacy.html">プライバシーポリシー</a>
 </footer>
 </body>
 </html>

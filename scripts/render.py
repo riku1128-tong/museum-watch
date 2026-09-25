@@ -291,6 +291,7 @@ def main() -> None:
         "gone": gone,
         "regions": {r: [p for p in ps if any(m["prefecture"] == p for m in active)] for r, ps in REGIONS.items()},
         "pref_codes": {p: f"{i + 1:02d}" for i, p in enumerate(PREFS)},
+        "affiliates": __import__("affiliate").for_js(),  # 「行き方」シートの広告枠（有効な提携先だけ）
         # 準備中の館は毎日同じなので日ごとには持たず、ページ側で各日に足す
         "pending": [m["id"] for m in active if m["id"] not in details],
         "days": [{**d, "results": [compact(r, metas[r["id"]]) for r in d["results"] if r["status"] != "pending"]}

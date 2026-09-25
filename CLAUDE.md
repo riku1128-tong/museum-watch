@@ -16,6 +16,11 @@
 - `scripts/pages.py`: 検索から人が来るための静的ページ（`docs/m/` 館、`docs/e/` 展覧会、`docs/p/` 都道府県）と `docs/sitemap.xml` を作る。render.py の最後に呼ばれ、毎回作り直す。未巡回の館のページは noindex。CSS は `scripts/style.css`（トップページと共通）。
 - `prompts/daily_update.md`: 毎週金曜 6:00 の定期タスク（Claude デスクトップアプリ）が従う手順書。
 
+## 収益化の準備
+- 特集ページ（`docs/f/`: 会期終了間近・これから始まる・無料開放日・夜遅くまで）と運営者情報（`about.html`）・免責事項（`disclaimer.html`）は `scripts/extras.py` が毎回作る。
+- アフィリエイトの枠は `data/affiliates.json` の提携先を `enabled: true` にしたときだけ出る（行き方シート・館のページ・展覧会のページ）。「PR」表示と `rel="sponsored"` を付け、クリックは GA4 の `affiliate_click`（`partner` / `placement` / `museum_id` / `museum_name`）で計測する。
+- 広告を入れる前の数字は `private/metrics-baseline.md`（git に入れない）に控えてある。
+
 ## スマホ・アプリ化（PWA）
 - `docs/manifest.webmanifest` と `docs/sw.js`（元は `scripts/sw.js`）は render.py が毎回書き出す。Service Worker の版は生成日時で、古いキャッシュは消える。
 - アイコンは `scripts/make_icons.py` で `docs/icons/` に作る（黒大理石に金の「美」）。

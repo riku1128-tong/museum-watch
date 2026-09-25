@@ -1,0 +1,26 @@
+{
+  "_説明": "アフィリエイトの提携先。enabled を true にした提携先だけがページに表示される。url の {name} {prefecture} {municipality} {title} は館・展覧会の情報に置き換わる（scripts/affiliate.py を参照）。提携が決まったら url を ASP の発行したリンクに差し替える。",
+  "partners": [
+    {
+      "id": "hotel",
+      "label": "周辺の宿を探す",
+      "enabled": false,
+      "placements": ["route", "museum"],
+      "url": "https://example.com/hotel-search?keyword={municipality}"
+    },
+    {
+      "id": "ticket",
+      "label": "チケットを探す",
+      "enabled": false,
+      "placements": ["route", "exhibition"],
+      "url": "https://example.com/ticket-search?keyword={title}"
+    },
+    {
+      "id": "books",
+      "label": "図録・関連書籍を探す",
+      "enabled": false,
+      "placements": ["exhibition"],
+      "url": "https://example.com/book-search?keyword={title}"
+    }
+  ]
+}

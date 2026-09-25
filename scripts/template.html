@@ -64,6 +64,9 @@
   </div>
   <div class="grid" id="grid"></div>
   <div class="gone" id="gone"></div>
+  <nav class="pref-links" aria-label="特集"><h2>特集</h2><p>
+    <a href="f/ending.html">会期終了間近の展覧会</a> <a href="f/upcoming.html">これから始まる展覧会</a>
+    <a href="f/free.html">無料開放日カレンダー</a> <a href="f/late.html">夜遅くまで開いている美術館</a></p></nav>
   <nav class="pref-links" id="prefLinks" aria-label="都道府県から探す"></nav>
 </main>
 <nav class="tabbar" id="tabbar" aria-label="メニュー"><button type="button" data-nav="list"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span>一覧</span></button><button type="button" data-nav="want"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="1"/><rect x="8" y="8" width="8" height="8" rx=".5"/></svg><span>行きたい</span></button><button type="button" data-nav="visited"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M8.5 12.2l2.4 2.4 4.6-5"/></svg><span>行った</span></button><button type="button" data-nav="settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 3v2.2M12 18.8V21M3 12h2.2M18.8 12H21M5.6 5.6l1.6 1.6M16.8 16.8l1.6 1.6M5.6 18.4l1.6-1.6M16.8 7.2l1.6-1.6"/></svg><span>設定</span></button></nav>
@@ -77,6 +80,7 @@
   館の一覧: <a href="https://ja.wikipedia.org/wiki/美術館の一覧" target="_blank" rel="noopener">Wikipedia</a>（CC BY-SA 4.0）・Wikidata ／
   <a href="https://github.com/riku1128-tong/museum-watch" target="_blank" rel="noopener">GitHub</a><br>
   出発地の位置: 駅データ <a href="https://express.heartrails.com/" target="_blank" rel="noopener">HeartRails Express</a> ／ 住所検索 <a href="https://maps.gsi.go.jp/" target="_blank" rel="noopener">国土地理院</a><br>
+  <a href="f/index.html">特集</a> ／ <a href="about.html">運営者情報・お問い合わせ</a> ／ <a href="disclaimer.html">免責事項</a> ／
   <a href="privacy.html">プライバシーポリシー</a>（本サイトは Google アナリティクスを使っています）
 </footer>
 
@@ -339,6 +343,23 @@ function render() {
   $("gone").textContent = DATA.gone.length ? `閉館済みのため除外: ${DATA.gone.map((g) => g.name).join("、")}` : "";
 }
 
+// アフィリエイトの枠（data/affiliates.json で有効にした提携先だけ。無ければ何も出さない）
+function affHtml(placement, m) {
+  const ps = DATA.affiliates || [];
+  if (!ps.length) return "";
+  const fill = (u) => u.replace(/\{(name|prefecture|municipality|title)\}/g, (_, k) =>
+    encodeURIComponent({ name: m.name, prefecture: m.prefecture, municipality: m.municipality || m.prefecture, title: m.name }[k]));
+  return `<aside class="aff-box" aria-label="広告"><span class="pr">PR</span><div class="row">${ps.map((p) =>
+    `<a class="aff btn ghost" href="${esc(fill(p.url))}" target="_blank" rel="sponsored noopener" data-partner="${esc(p.id)}"
+      data-placement="${placement}" data-museum-id="${esc(m.id)}" data-museum-name="${esc(m.name)}">${esc(p.label)}</a>`).join("")}</div></aside>`;
+}
+// アフィリエイトのリンクのクリックを GA4 に送る
+document.addEventListener("click", (e) => {
+  const a = e.target.closest("a.aff"); if (!a) return;
+  track("affiliate_click", { partner: a.dataset.partner, placement: a.dataset.placement,
+    museum_id: a.dataset.museumId, museum_name: a.dataset.museumName });
+});
+
 // 行き方
 function openRoute(id) {
   const m = DATA.museums[id];
@@ -356,6 +377,7 @@ function openRoute(id) {
     ${m.address ? `<div class="note">${esc(m.address)}</div>` : ""}
     <h3>最寄駅</h3>${access}
     <h3>出発地から</h3><div class="row">${from}<a class="btn ghost" data-map="place" href="${place}" target="_blank" rel="noopener">地図で見る</a></div>
+    ${affHtml("route", m)}
     <button class="btn ghost close" data-act="close">閉じる</button>`;
   $("route").dataset.id = id;
   $("route").showModal();

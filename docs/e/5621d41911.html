@@ -41,6 +41,14 @@
   // ホーム画面に追加したときのオフライン表示のための Service Worker
   if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
+<script>
+  // アフィリエイトのリンクのクリックを GA4 に送る（提携先・置き場所・館）
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest("a.aff"); if (!a || !window.gtag) return;
+    gtag("event", "affiliate_click", { partner: a.dataset.partner, placement: a.dataset.placement,
+      museum_id: a.dataset.museumId, museum_name: a.dataset.museumName });
+  });
+</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "佐藤国際文化育英財団第35回奨学生美術展", "startDate": "2026-09-08", "endDate": "2026-10-25", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "佐藤美術館", "address": {"@type": "PostalAddress", "addressRegion": "東京都", "addressCountry": "JP", "streetAddress": "〒160-0015 東京都新宿区大京町31-10"}}, "description": "全国9大学推薦の奨学生10名と過去の奨学生2名、計12名の作品展", "url": "https://sato-museum.la.coocan.jp/exhibition/exhibition-2026.html?id=ex260908", "offers": {"@type": "Offer", "price": 0, "priceCurrency": "JPY", "url": "https://sato-museum.la.coocan.jp/exhibition/exhibition-2026.html?id=ex260908"}}</script>
 </head>
 <body class="doc">
@@ -55,7 +63,8 @@
 <footer>
   情報は各館の公式サイトから自動で集めたもので、変更が反映されていないことがあります。お出かけ前に公式サイトでご確認ください。
   館の一覧: <a href="https://ja.wikipedia.org/wiki/美術館の一覧" target="_blank" rel="noopener">Wikipedia</a>（CC BY-SA 4.0）・Wikidata ／
-  <a href="../index.html">今日開いている美術館を探す</a> ／ <a href="../privacy.html">プライバシーポリシー</a>
+  <a href="../index.html">今日開いている美術館を探す</a> ／ <a href="../f/index.html">特集</a><br>
+  <a href="../about.html">運営者情報・お問い合わせ</a> ／ <a href="../disclaimer.html">免責事項</a> ／ <a href="../privacy.html">プライバシーポリシー</a>
 </footer>
 </body>
 </html>

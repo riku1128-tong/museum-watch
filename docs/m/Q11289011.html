@@ -41,6 +41,14 @@
   // ホーム画面に追加したときのオフライン表示のための Service Worker
   if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
+<script>
+  // アフィリエイトのリンクのクリックを GA4 に送る（提携先・置き場所・館）
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest("a.aff"); if (!a || !window.gtag) return;
+    gtag("event", "affiliate_click", { partner: a.dataset.partner, placement: a.dataset.placement,
+      museum_id: a.dataset.museumId, museum_name: a.dataset.museumName });
+  });
+</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Museum", "name": "ウッドワン美術館", "url": "https://www.woodone-museum.jp/", "address": {"@type": "PostalAddress", "addressRegion": "広島県", "addressCountry": "JP"}, "geo": {"@type": "GeoCoordinates", "latitude": 34.49891667, "longitude": 132.14363889}}</script>
 </head>
 <body class="doc">
@@ -55,7 +63,8 @@
 <footer>
   情報は各館の公式サイトから自動で集めたもので、変更が反映されていないことがあります。お出かけ前に公式サイトでご確認ください。
   館の一覧: <a href="https://ja.wikipedia.org/wiki/美術館の一覧" target="_blank" rel="noopener">Wikipedia</a>（CC BY-SA 4.0）・Wikidata ／
-  <a href="../index.html">今日開いている美術館を探す</a> ／ <a href="../privacy.html">プライバシーポリシー</a>
+  <a href="../index.html">今日開いている美術館を探す</a> ／ <a href="../f/index.html">特集</a><br>
+  <a href="../about.html">運営者情報・お問い合わせ</a> ／ <a href="../disclaimer.html">免責事項</a> ／ <a href="../privacy.html">プライバシーポリシー</a>
 </footer>
 </body>
 </html>

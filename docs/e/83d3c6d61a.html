@@ -41,6 +41,14 @@
   // ホーム画面に追加したときのオフライン表示のための Service Worker
   if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("../sw.js").catch(() => {}));
 </script>
+<script>
+  // アフィリエイトのリンクのクリックを GA4 に送る（提携先・置き場所・館）
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest("a.aff"); if (!a || !window.gtag) return;
+    gtag("event", "affiliate_click", { partner: a.dataset.partner, placement: a.dataset.placement,
+      museum_id: a.dataset.museumId, museum_name: a.dataset.museumName });
+  });
+</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ExhibitionEvent", "name": "無料ミニ企画「ちょこっとTARO　太郎のかわいい」", "startDate": "2026-07-18", "endDate": "2026-12-06", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Museum", "name": "川崎市岡本太郎美術館", "address": {"@type": "PostalAddress", "addressRegion": "神奈川県", "addressCountry": "JP", "streetAddress": "〒214-0032 神奈川県川崎市多摩区枡形7-1-5 生田緑地内"}}, "description": "改修工事中の館内無料スペースで、岡本太郎作品の「かわいい」に注目するミニ企画", "url": "https://www.taromuseum.jp/exhibition.html", "offers": {"@type": "Offer", "price": 0, "priceCurrency": "JPY", "url": "https://www.taromuseum.jp/exhibition.html"}}</script>
 </head>
 <body class="doc">
@@ -55,7 +63,8 @@
 <footer>
   情報は各館の公式サイトから自動で集めたもので、変更が反映されていないことがあります。お出かけ前に公式サイトでご確認ください。
   館の一覧: <a href="https://ja.wikipedia.org/wiki/美術館の一覧" target="_blank" rel="noopener">Wikipedia</a>（CC BY-SA 4.0）・Wikidata ／
-  <a href="../index.html">今日開いている美術館を探す</a> ／ <a href="../privacy.html">プライバシーポリシー</a>
+  <a href="../index.html">今日開いている美術館を探す</a> ／ <a href="../f/index.html">特集</a><br>
+  <a href="../about.html">運営者情報・お問い合わせ</a> ／ <a href="../disclaimer.html">免責事項</a> ／ <a href="../privacy.html">プライバシーポリシー</a>
 </footer>
 </body>
 </html>

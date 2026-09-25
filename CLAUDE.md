@@ -21,6 +21,10 @@
 - アフィリエイトの枠は `data/affiliates.json` の提携先を `enabled: true` にしたときだけ出る（行き方シート・館のページ・展覧会のページ）。「PR」表示と `rel="sponsored"` を付け、クリックは GA4 の `affiliate_click`（`partner` / `placement` / `museum_id` / `museum_name`）で計測する。
 - 広告を入れる前の数字は `private/metrics-baseline.md`（git に入れない）に控えてある。
 
+## X（@museum__watch）への投稿
+- `scripts/x_posts.py plan` が巡回データから 1 週間分（12 時・19 時の 14 件）の投稿文を作り `data/x_queue.json` に書く。種類は 無料開放日・会期終了間近・開幕・まもなく開幕（企画展だけ）・館の見どころ・サイトの宣伝。リンクは個別ページで `utm_source=x&utm_medium=social&utm_campaign=<種類>`。予約した分は `done <番号...>` で `data/x_posted.jsonl` に記録し、同じ話題を繰り返さない。
+- 毎週金曜 9:00 の定期タスク「美術館ウォッチ X 週次予約投稿」（`prompts/x_weekly.md`）が一覧をユーザーに見せ、ユーザーの返事をもらってから Claude の内蔵ブラウザで X の予約投稿に入れる。X API は使わない（有料のため）。
+
 ## スマホ・アプリ化（PWA）
 - `docs/manifest.webmanifest` と `docs/sw.js`（元は `scripts/sw.js`）は render.py が毎回書き出す。Service Worker の版は生成日時で、古いキャッシュは消える。
 - アイコンは `scripts/make_icons.py` で `docs/icons/` に作る（黒大理石に金の「美」）。

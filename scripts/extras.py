@@ -222,6 +222,7 @@ Wikipedia「美術館の一覧」に載っている美術館を対象に、各�
 <dt>サイト名</dt><dd>美術館ウォッチ</dd>
 <dt>運営</dt><dd>個人（GitHub: <a href="https://github.com/riku1128-tong" target="_blank" rel="noopener">riku1128-tong</a>）</dd>
 <dt>開始</dt><dd>2026年9月</dd>
+<dt>公式 X</dt><dd><a href="https://x.com/museum__watch" target="_blank" rel="noopener">@museum__watch</a>（会期終了間近の展覧会・無料開放日などをお知らせしています）</dd>
 <dt>ソースコード</dt><dd><a href="https://github.com/riku1128-tong/museum-watch" target="_blank" rel="noopener">GitHub で公開しています</a></dd>
 </dl></section>
 {contact}

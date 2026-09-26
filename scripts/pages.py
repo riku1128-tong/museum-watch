@@ -16,7 +16,7 @@ import shutil
 from datetime import date
 from html import escape
 
-from common import GA_ID, PREFS, REGIONS, SITE, SITE_URL
+from common import GA_ID, PREFS, REGIONS, SITE, SITE_URL, X_ACCOUNT
 from affiliate import links_html
 from contact import form_url, report_html
 from render import exhibition_price, museum_price
@@ -172,6 +172,8 @@ def page(*, title: str, desc: str, path: str, body: str, depth: int, jsonld: lis
 <meta property="og:description" content="{escape(desc)}">
 <meta property="og:url" content="{SITE_URL}{path}">
 <meta property="og:site_name" content="美術館ウォッチ">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@{X_ACCOUNT}">
 <script>
   try {{ const t = localStorage.getItem("mw:theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; }} catch {{}}
 </script>
@@ -204,6 +206,7 @@ def page(*, title: str, desc: str, path: str, body: str, depth: int, jsonld: lis
 {body}
 </main>
 <footer>
+  公式 X <a href="https://x.com/{X_ACCOUNT}" target="_blank" rel="noopener">@{X_ACCOUNT}</a>（会期終了間近の展覧会・無料開放日などをお知らせしています）<br>
   情報は各館の公式サイトから自動で集めたもので、変更が反映されていないことがあります。お出かけ前に公式サイトでご確認ください。
   館の一覧: <a href="https://ja.wikipedia.org/wiki/美術館の一覧" target="_blank" rel="noopener">Wikipedia</a>（CC BY-SA 4.0）・Wikidata ／
   <a href="{up}index.html">今日開いている美術館を探す</a> ／ <a href="{up}f/index.html">特集</a><br>

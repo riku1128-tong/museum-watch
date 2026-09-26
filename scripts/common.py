@@ -22,6 +22,8 @@ JST = timezone(timedelta(hours=9))
 
 # 公開ページの URL（canonical・sitemap 用）。独自ドメインに移ったら環境変数で上書きする
 SITE_URL = os.environ.get("MUSEUM_WATCH_SITE_URL", "https://riku1128-tong.github.io/museum-watch/")
+# 公式 X アカウント（ページのフッター・運営者情報・twitter:site に出す）
+X_ACCOUNT = "museum__watch"
 # Google アナリティクス（GA4）の測定 ID。空にすると計測タグを入れない
 GA_ID = os.environ.get("MUSEUM_WATCH_GA_ID", "G-NS856TZ0KY")
 

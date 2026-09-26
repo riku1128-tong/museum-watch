@@ -1,0 +1,4282 @@
+[
+ {
+  "id": "Q28691367",
+  "name": "HOKUBU記念絵画館",
+  "prefecture": "北海道",
+  "handle": "HOKUBU16",
+  "source": "wikidata",
+  "url": "https://x.com/HOKUBU16"
+ },
+ {
+  "id": "Q4803387",
+  "name": "中原悌二郎記念旭川市彫刻美術館",
+  "prefecture": "北海道",
+  "handle": "Asa_Mus_Scu",
+  "source": "site",
+  "url": "https://x.com/Asa_Mus_Scu"
+ },
+ {
+  "id": "Q17225728",
+  "name": "中札内美術村",
+  "prefecture": "北海道",
+  "handle": "rokkatei",
+  "source": "site",
+  "url": "https://x.com/rokkatei"
+ },
+ {
+  "id": "Q17230771",
+  "name": "六花の森",
+  "prefecture": "北海道",
+  "handle": "rokkatei",
+  "source": "site",
+  "url": "https://x.com/rokkatei"
+ },
+ {
+  "id": "Q11402955",
+  "name": "北海道立三岸好太郎美術館",
+  "prefecture": "北海道",
+  "handle": "Kotaro_Art",
+  "source": "wikidata",
+  "url": "https://x.com/Kotaro_Art"
+ },
+ {
+  "id": "Q22120303",
+  "name": "北海道立函館美術館",
+  "prefecture": "北海道",
+  "handle": "Hakodate_Art",
+  "source": "wikidata",
+  "url": "https://x.com/Hakodate_Art"
+ },
+ {
+  "id": "Q11402964",
+  "name": "北海道立帯広美術館",
+  "prefecture": "北海道",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11402968",
+  "name": "北海道立旭川美術館",
+  "prefecture": "北海道",
+  "handle": "Asahikawa_Art",
+  "source": "wikidata",
+  "url": "https://x.com/Asahikawa_Art"
+ },
+ {
+  "id": "Q11402992",
+  "name": "北海道立近代美術館",
+  "prefecture": "北海道",
+  "handle": "dokinbi",
+  "source": "wikidata",
+  "url": "https://x.com/dokinbi"
+ },
+ {
+  "id": "Q11402997",
+  "name": "北海道立釧路芸術館",
+  "prefecture": "北海道",
+  "handle": "kushiroartmu",
+  "source": "wikidata",
+  "url": "https://x.com/kushiroartmu"
+ },
+ {
+  "id": "Q11403934",
+  "name": "北網圏北見文化センター",
+  "prefecture": "北海道",
+  "handle": "hokumouken59111",
+  "source": "wikidata",
+  "url": "https://x.com/hokumouken59111"
+ },
+ {
+  "id": "Q17192195",
+  "name": "安田侃彫刻美術館 アルテピアッツァ美唄",
+  "prefecture": "北海道",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11462169",
+  "name": "市立小樽美術館",
+  "prefecture": "北海道",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11249478",
+  "name": "札幌芸術の森美術館",
+  "prefecture": "北海道",
+  "handle": "mshop_managers",
+  "source": "wikidata",
+  "url": "https://x.com/mshop_managers"
+ },
+ {
+  "id": "Q11607218",
+  "name": "網走市立美術館",
+  "prefecture": "北海道",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q17222455",
+  "name": "苫小牧市美術博物館",
+  "prefecture": "北海道",
+  "handle": "tomakomai_amyu",
+  "source": "wikidata",
+  "url": "https://x.com/tomakomai_amyu"
+ },
+ {
+  "id": "Q11648286",
+  "name": "釧路市立美術館",
+  "prefecture": "北海道",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-3aececfc",
+  "name": "七戸町立鷹山宇一記念美術館",
+  "prefecture": "青森県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11391188",
+  "name": "八戸市美術館",
+  "prefecture": "青森県",
+  "handle": "hachinohe_art_m",
+  "source": "wikidata",
+  "url": "https://x.com/hachinohe_art_m"
+ },
+ {
+  "id": "Q11404944",
+  "name": "十和田市現代美術館",
+  "prefecture": "青森県",
+  "handle": "artstowada",
+  "source": "wikidata",
+  "url": "https://x.com/artstowada"
+ },
+ {
+  "id": "Q11480891",
+  "name": "帆風美術館",
+  "prefecture": "青森県",
+  "handle": "vanfumuseum",
+  "source": "wikidata",
+  "url": "https://x.com/vanfumuseum"
+ },
+ {
+  "id": "Q123124042",
+  "name": "弘前れんが倉庫美術館",
+  "prefecture": "青森県",
+  "handle": "hirosaki_moca",
+  "source": "site",
+  "url": "https://x.com/hirosaki_moca"
+ },
+ {
+  "id": "Q11662266",
+  "name": "青森県立美術館",
+  "prefecture": "青森県",
+  "handle": "aomorikenbi",
+  "source": "wikidata",
+  "url": "https://x.com/aomorikenbi"
+ },
+ {
+  "id": "wp-b7d54a4b",
+  "name": "岩手県立石神の丘美術館",
+  "prefecture": "岩手県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q3298581",
+  "name": "岩手県立美術館",
+  "prefecture": "岩手県",
+  "handle": "IMA_info",
+  "source": "wikidata",
+  "url": "https://x.com/IMA_info"
+ },
+ {
+  "id": "Q11304896",
+  "name": "サトル・サトウ・アート・ミュージアム",
+  "prefecture": "宮城県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q61398113",
+  "name": "リアス・アーク美術館",
+  "prefecture": "宮城県",
+  "handle": "riariariabi",
+  "source": "wikidata",
+  "url": "https://x.com/riariariabi"
+ },
+ {
+  "id": "Q22119783",
+  "name": "中本誠司現代美術館",
+  "prefecture": "宮城県",
+  "handle": "seishinakamoto",
+  "source": "wikidata",
+  "url": "https://x.com/seishinakamoto"
+ },
+ {
+  "id": "Q22118917",
+  "name": "塩竈市杉村惇美術館",
+  "prefecture": "宮城県",
+  "handle": "SugimuraJMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/SugimuraJMuseum"
+ },
+ {
+  "id": "Q22118153",
+  "name": "大衡村ふるさと美術館",
+  "prefecture": "宮城県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11453791",
+  "name": "宮城県美術館",
+  "prefecture": "宮城県",
+  "handle": "miyagi_bijutu",
+  "source": "wikidata",
+  "url": "https://x.com/miyagi_bijutu"
+ },
+ {
+  "id": "Q11624739",
+  "name": "藤田喬平ガラス美術館",
+  "prefecture": "宮城県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-2afa2d49",
+  "name": "仙北市立角館町平福記念美術館",
+  "prefecture": "秋田県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11436065",
+  "name": "大村美術館",
+  "prefecture": "秋田県",
+  "handle": "MuseOmura",
+  "source": "wikidata",
+  "url": "https://x.com/MuseOmura"
+ },
+ {
+  "id": "wp-56f72e05",
+  "name": "天馬美術館",
+  "prefecture": "秋田県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q38266963",
+  "name": "横手市増田まんが美術館",
+  "prefecture": "秋田県",
+  "handle": "m_mangamuseum",
+  "source": "wikidata",
+  "url": "https://x.com/m_mangamuseum"
+ },
+ {
+  "id": "Q11595323",
+  "name": "秋田市立千秋美術館",
+  "prefecture": "秋田県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11595345",
+  "name": "秋田市立赤れんが郷土館",
+  "prefecture": "秋田県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11483668",
+  "name": "秋田県立美術館 平野政吉コレクション",
+  "prefecture": "秋田県",
+  "handle": "akitakenbi",
+  "source": "wikidata",
+  "url": "https://x.com/akitakenbi"
+ },
+ {
+  "id": "Q11595519",
+  "name": "秋田県立近代美術館",
+  "prefecture": "秋田県",
+  "handle": "akitamma",
+  "source": "wikidata",
+  "url": "https://x.com/akitamma"
+ },
+ {
+  "id": "Q3539675",
+  "name": "土門拳記念館",
+  "prefecture": "山形県",
+  "handle": "domonken",
+  "source": "wikidata",
+  "url": "https://x.com/domonken"
+ },
+ {
+  "id": "Q22119512",
+  "name": "天童市美術館",
+  "prefecture": "山形県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11468661",
+  "name": "山形美術館",
+  "prefecture": "山形県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11521018",
+  "name": "本間美術館",
+  "prefecture": "山形県",
+  "handle": "hommamuseum1947",
+  "source": "wikidata",
+  "url": "https://x.com/hommamuseum1947"
+ },
+ {
+  "id": "Q22118833",
+  "name": "酒田市美術館",
+  "prefecture": "山形県",
+  "handle": "sakabi1003",
+  "source": "wikidata",
+  "url": "https://x.com/sakabi1003"
+ },
+ {
+  "id": "Q11260168",
+  "name": "いわき市立美術館",
+  "prefecture": "福島県",
+  "handle": "iwakishibi",
+  "source": "wikidata",
+  "url": "https://x.com/iwakishibi"
+ },
+ {
+  "id": "Q28688791",
+  "name": "喜多方市美術館",
+  "prefecture": "福島県",
+  "handle": "k_c_m_o_art",
+  "source": "wikidata",
+  "url": "https://x.com/k_c_m_o_art"
+ },
+ {
+  "id": "Q11505553",
+  "name": "日本きもの文化美術館",
+  "prefecture": "福島県",
+  "handle": "KimonoMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/KimonoMuseum"
+ },
+ {
+  "id": "Q5507735",
+  "name": "福島県立美術館",
+  "prefecture": "福島県",
+  "handle": "fukushima_kenbi",
+  "source": "wikidata",
+  "url": "https://x.com/fukushima_kenbi"
+ },
+ {
+  "id": "Q3248015",
+  "name": "諸橋近代美術館",
+  "prefecture": "福島県",
+  "handle": "dali_morohashi",
+  "source": "wikidata",
+  "url": "https://x.com/dali_morohashi"
+ },
+ {
+  "id": "Q11643178",
+  "name": "郡山市立美術館",
+  "prefecture": "福島県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-3a72c298",
+  "name": "いのちを語り継ぐ美術館",
+  "prefecture": "茨城県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-e7ef6686",
+  "name": "しもだて美術館",
+  "prefecture": "茨城県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q705767",
+  "name": "水戸芸術館",
+  "prefecture": "茨城県",
+  "handle": "art_tower_mito",
+  "source": "wikidata",
+  "url": "https://x.com/art_tower_mito"
+ },
+ {
+  "id": "Q11599987",
+  "name": "笠間日動美術館",
+  "prefecture": "茨城県",
+  "handle": "NichidoMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/NichidoMuseum"
+ },
+ {
+  "id": "Q11272278",
+  "name": "茨城県つくば美術館",
+  "prefecture": "茨城県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q7700648",
+  "name": "茨城県天心記念五浦美術館",
+  "prefecture": "茨城県",
+  "handle": "TenshinMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/TenshinMuseum"
+ },
+ {
+  "id": "Q11617518",
+  "name": "茨城県近代美術館",
+  "prefecture": "茨城県",
+  "handle": "ibarakikinbi",
+  "source": "wikidata",
+  "url": "https://x.com/ibarakikinbi"
+ },
+ {
+  "id": "wp-62e6ed51",
+  "name": "茨城県陶芸美術館",
+  "prefecture": "茨城県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11385006",
+  "name": "佐野市立吉澤記念美術館",
+  "prefecture": "栃木県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11449808",
+  "name": "宇都宮美術館",
+  "prefecture": "栃木県",
+  "handle": "utsunomiya_moa",
+  "source": "site",
+  "url": "https://x.com/utsunomiya_moa"
+ },
+ {
+  "id": "Q110191756",
+  "name": "栃木市立美術館",
+  "prefecture": "栃木県",
+  "handle": "tcam_tclm",
+  "source": "wikidata",
+  "url": "https://x.com/tcam_tclm"
+ },
+ {
+  "id": "Q2655386",
+  "name": "栃木県立美術館",
+  "prefecture": "栃木県",
+  "handle": "artpref_tochigi",
+  "source": "wikidata",
+  "url": "https://x.com/artpref_tochigi"
+ },
+ {
+  "id": "Q11536081",
+  "name": "栗田美術館",
+  "prefecture": "栃木県",
+  "handle": "kuritamuseum",
+  "source": "wikidata",
+  "url": "https://x.com/kuritamuseum"
+ },
+ {
+  "id": "wp-3ccaf109",
+  "name": "真岡市まちかど美術館",
+  "prefecture": "栃木県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11636775",
+  "name": "足利市立美術館",
+  "prefecture": "栃木県",
+  "handle": "ashikagamuseum",
+  "source": "wikidata",
+  "url": "https://x.com/ashikagamuseum"
+ },
+ {
+  "id": "Q11279084",
+  "name": "みどり市立富弘美術館",
+  "prefecture": "群馬県",
+  "handle": "tomihiroartmus_",
+  "source": "site",
+  "url": "https://x.com/tomihiroartmus_"
+ },
+ {
+  "id": "Q18700337",
+  "name": "アーツ前橋",
+  "prefecture": "群馬県",
+  "handle": "ArtsMaebashi",
+  "source": "wikidata",
+  "url": "https://x.com/ArtsMaebashi"
+ },
+ {
+  "id": "Q5157831",
+  "name": "大川美術館",
+  "prefecture": "群馬県",
+  "handle": "OkawaMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/OkawaMuseum"
+ },
+ {
+  "id": "wp-acd8e196",
+  "name": "富岡市立ふるさと美術館",
+  "prefecture": "群馬県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q28689358",
+  "name": "富岡市立美術博物館・福沢一郎記念美術館",
+  "prefecture": "群馬県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q24869145",
+  "name": "月夜野びーどろパーク グラスアート美術館",
+  "prefecture": "群馬県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11561571",
+  "name": "渋川市美術館・桑原巨守彫刻美術館",
+  "prefecture": "群馬県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11609528",
+  "name": "群馬ガラス工芸美術館",
+  "prefecture": "群馬県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11609688",
+  "name": "群馬県立近代美術館",
+  "prefecture": "群馬県",
+  "handle": "gunmakinbi",
+  "source": "wikidata",
+  "url": "https://x.com/gunmakinbi"
+ },
+ {
+  "id": "Q521611",
+  "name": "群馬県立館林美術館",
+  "prefecture": "群馬県",
+  "handle": "gunmatatebi",
+  "source": "wikidata",
+  "url": "https://x.com/gunmatatebi"
+ },
+ {
+  "id": "Q11669713",
+  "name": "高崎市タワー美術館",
+  "prefecture": "群馬県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11669765",
+  "name": "高崎市美術館",
+  "prefecture": "群馬県",
+  "handle": "takasaki_inoue",
+  "source": "wikidata",
+  "url": "https://x.com/takasaki_inoue"
+ },
+ {
+  "id": "Q11260799",
+  "name": "うらわ美術館",
+  "prefecture": "埼玉県",
+  "handle": "UrawaArtMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/UrawaArtMuseum"
+ },
+ {
+  "id": "Q11344966",
+  "name": "ヤオコー川越美術館",
+  "prefecture": "埼玉県",
+  "handle": "museum_yujimiss",
+  "source": "wikidata",
+  "url": "https://x.com/museum_yujimiss"
+ },
+ {
+  "id": "Q7739750",
+  "name": "原爆の図丸木美術館",
+  "prefecture": "埼玉県",
+  "handle": "marukigallery",
+  "source": "wikidata",
+  "url": "https://x.com/marukigallery"
+ },
+ {
+  "id": "Q11426772",
+  "name": "埼玉県立近代美術館",
+  "prefecture": "埼玉県",
+  "handle": "momas_kouhou",
+  "source": "wikidata",
+  "url": "https://x.com/momas_kouhou"
+ },
+ {
+  "id": "Q11554289",
+  "name": "河鍋暁斎記念美術館",
+  "prefecture": "埼玉県",
+  "handle": "kyosaimuseum",
+  "source": "wikidata",
+  "url": "https://x.com/kyosaimuseum"
+ },
+ {
+  "id": "wp-78342475",
+  "name": "秩父美術館",
+  "prefecture": "埼玉県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q109364231",
+  "name": "蓑虫美術館",
+  "prefecture": "埼玉県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q28686215",
+  "name": "角川武蔵野ミュージアム",
+  "prefecture": "埼玉県",
+  "handle": "sakuratownjp",
+  "source": "wikidata",
+  "url": "https://x.com/sakuratownjp"
+ },
+ {
+  "id": "Q60985422",
+  "name": "高坂彫刻プロムナード",
+  "prefecture": "埼玉県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q28684004",
+  "name": "SGT美術館",
+  "prefecture": "千葉県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q5878014",
+  "name": "ホキ美術館",
+  "prefecture": "千葉県",
+  "handle": "hoki_museum",
+  "source": "wikidata",
+  "url": "https://x.com/hoki_museum"
+ },
+ {
+  "id": "Q11382975",
+  "name": "佐倉市立美術館",
+  "prefecture": "千葉県",
+  "handle": "sakura_muse",
+  "source": "site",
+  "url": "https://x.com/sakura_muse"
+ },
+ {
+  "id": "Q11406050",
+  "name": "千葉市美術館",
+  "prefecture": "千葉県",
+  "handle": "ccma_jp",
+  "source": "wikidata",
+  "url": "https://x.com/ccma_jp"
+ },
+ {
+  "id": "Q11406332",
+  "name": "千葉県立美術館",
+  "prefecture": "千葉県",
+  "handle": "chiba_pref_muse",
+  "source": "wikidata",
+  "url": "https://x.com/chiba_pref_muse"
+ },
+ {
+  "id": "Q17193257",
+  "name": "市原市水と彫刻の丘",
+  "prefecture": "千葉県",
+  "handle": "LSM_ICHIHARA",
+  "source": "wikidata",
+  "url": "https://x.com/LSM_ICHIHARA"
+ },
+ {
+  "id": "Q315560",
+  "name": "市川市東山魁夷記念館",
+  "prefecture": "千葉県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q583055",
+  "name": "Bunkamura ザ・ミュージアム",
+  "prefecture": "東京都",
+  "handle": "Bunkamura_info",
+  "source": "wikidata",
+  "url": "https://x.com/Bunkamura_info"
+ },
+ {
+  "id": "wp-d33113a9",
+  "name": "O美術館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q1614504",
+  "name": "SOMPO美術館",
+  "prefecture": "東京都",
+  "handle": "sompomuseum",
+  "source": "wikidata",
+  "url": "https://x.com/sompomuseum"
+ },
+ {
+  "id": "Q17220332",
+  "name": "すみだ北斎美術館",
+  "prefecture": "東京都",
+  "handle": "HokusaiMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/HokusaiMuseum"
+ },
+ {
+  "id": "Q11271822",
+  "name": "ちひろ美術館・東京",
+  "prefecture": "東京都",
+  "handle": "ChihiroMuseum",
+  "source": "site",
+  "url": "https://x.com/ChihiroMuseum"
+ },
+ {
+  "id": "Q913808",
+  "name": "アーティゾン美術館",
+  "prefecture": "東京都",
+  "handle": "artizonmuseumJP",
+  "source": "wikidata",
+  "url": "https://x.com/artizonmuseumJP"
+ },
+ {
+  "id": "Q11249110",
+  "name": "サントリー美術館",
+  "prefecture": "東京都",
+  "handle": "sun_SMA",
+  "source": "wikidata",
+  "url": "https://x.com/sun_SMA"
+ },
+ {
+  "id": "Q97613610",
+  "name": "チームラボプラネッツ TOKYO DMM.com",
+  "prefecture": "東京都",
+  "handle": "teamLabPlanets",
+  "source": "wikidata",
+  "url": "https://x.com/teamLabPlanets"
+ },
+ {
+  "id": "Q3915469",
+  "name": "ワタリウム美術館",
+  "prefecture": "東京都",
+  "handle": "watarium",
+  "source": "wikidata",
+  "url": "https://x.com/watarium"
+ },
+ {
+  "id": "wp-5360d168",
+  "name": "一誠堂美術館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q3076188",
+  "name": "三の丸尚蔵館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q864700",
+  "name": "三井記念美術館",
+  "prefecture": "東京都",
+  "handle": "mitsui_m_museum",
+  "source": "site",
+  "url": "https://x.com/mitsui_m_museum"
+ },
+ {
+  "id": "Q3815458",
+  "name": "三菱一号館美術館",
+  "prefecture": "東京都",
+  "handle": "ichigokan_PR",
+  "source": "wikidata",
+  "url": "https://x.com/ichigokan_PR"
+ },
+ {
+  "id": "Q947907",
+  "name": "三鷹の森ジブリ美術館",
+  "prefecture": "東京都",
+  "handle": "GhibliML",
+  "source": "wikidata",
+  "url": "https://x.com/GhibliML"
+ },
+ {
+  "id": "Q11360245",
+  "name": "上野の森美術館",
+  "prefecture": "東京都",
+  "handle": "UenoMoriMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/UenoMoriMuseum"
+ },
+ {
+  "id": "Q3892314",
+  "name": "世田谷美術館",
+  "prefecture": "東京都",
+  "handle": "setabi_official",
+  "source": "wikidata",
+  "url": "https://x.com/setabi_official"
+ },
+ {
+  "id": "wp-4d8ecc6f",
+  "name": "中村屋サロン美術館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11369635",
+  "name": "久米美術館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q2374140",
+  "name": "五島美術館",
+  "prefecture": "東京都",
+  "handle": "gotoh_museum",
+  "source": "wikidata",
+  "url": "https://x.com/gotoh_museum"
+ },
+ {
+  "id": "Q11384365",
+  "name": "佐藤美術館",
+  "prefecture": "東京都",
+  "handle": "MuseumSato",
+  "source": "wikidata",
+  "url": "https://x.com/MuseumSato"
+ },
+ {
+  "id": "Q11391573",
+  "name": "八王子市夢美術館",
+  "prefecture": "東京都",
+  "handle": "yumebi_official",
+  "source": "site",
+  "url": "https://x.com/yumebi_official"
+ },
+ {
+  "id": "Q3076590",
+  "name": "出光美術館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q1362638",
+  "name": "国立新美術館",
+  "prefecture": "東京都",
+  "handle": "NACT_PR",
+  "source": "wikidata",
+  "url": "https://x.com/NACT_PR"
+ },
+ {
+  "id": "Q1362629",
+  "name": "国立西洋美術館",
+  "prefecture": "東京都",
+  "handle": "NMWATokyo",
+  "source": "wikidata",
+  "url": "https://x.com/NMWATokyo"
+ },
+ {
+  "id": "Q3329598",
+  "name": "大倉集古館",
+  "prefecture": "東京都",
+  "handle": "okura_shukokan",
+  "source": "site",
+  "url": "https://x.com/okura_shukokan"
+ },
+ {
+  "id": "wp-195f15bb",
+  "name": "奥多摩町立せせらぎの里美術館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-9beb8b9d",
+  "name": "小川美術館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11460717",
+  "name": "小平市平櫛田中彫刻美術館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-f2d42c9c",
+  "name": "小金井市立はけの森美術館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q3329572",
+  "name": "山種美術館",
+  "prefecture": "東京都",
+  "handle": "yamatanemuseum",
+  "source": "wikidata",
+  "url": "https://x.com/yamatanemuseum"
+ },
+ {
+  "id": "Q11486046",
+  "name": "府中市美術館",
+  "prefecture": "東京都",
+  "handle": "FuchuArtMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/FuchuArtMuseum"
+ },
+ {
+  "id": "Q11487473",
+  "name": "弥生美術館",
+  "prefecture": "東京都",
+  "handle": "yayoi_yumeji",
+  "source": "wikidata",
+  "url": "https://x.com/yayoi_yumeji"
+ },
+ {
+  "id": "Q3789149",
+  "name": "日本民藝館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q1528356",
+  "name": "村内美術館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11524090",
+  "name": "東京オペラシティアートギャラリー",
+  "prefecture": "東京都",
+  "handle": "TOC_ArtGallery",
+  "source": "wikidata",
+  "url": "https://x.com/TOC_ArtGallery"
+ },
+ {
+  "id": "Q115265693",
+  "name": "東京ステーションギャラリー",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q653433",
+  "name": "東京国立博物館",
+  "prefecture": "東京都",
+  "handle": "TNM_PR",
+  "source": "wikidata",
+  "url": "https://x.com/TNM_PR"
+ },
+ {
+  "id": "Q1359908",
+  "name": "東京国立近代美術館",
+  "prefecture": "東京都",
+  "handle": "MOMAT_museum",
+  "source": "wikidata",
+  "url": "https://x.com/MOMAT_museum"
+ },
+ {
+  "id": "Q1233913",
+  "name": "東京富士美術館",
+  "prefecture": "東京都",
+  "handle": "tokyofujibi",
+  "source": "wikidata",
+  "url": "https://x.com/tokyofujibi"
+ },
+ {
+  "id": "Q11525123",
+  "name": "東京藝術大学大学美術館",
+  "prefecture": "東京都",
+  "handle": "geidai_museum",
+  "source": "wikidata",
+  "url": "https://x.com/geidai_museum"
+ },
+ {
+  "id": "wp-cc00d4c2",
+  "name": "東京都井の頭自然文化園彫刻園",
+  "prefecture": "東京都",
+  "handle": "InokashiraZoo",
+  "source": "site",
+  "url": "https://x.com/InokashiraZoo"
+ },
+ {
+  "id": "Q862884",
+  "name": "東京都写真美術館",
+  "prefecture": "東京都",
+  "handle": "topmuseum",
+  "source": "wikidata",
+  "url": "https://x.com/topmuseum"
+ },
+ {
+  "id": "Q743773",
+  "name": "東京都庭園美術館",
+  "prefecture": "東京都",
+  "handle": "teienartmuseum",
+  "source": "wikidata",
+  "url": "https://x.com/teienartmuseum"
+ },
+ {
+  "id": "Q1649688",
+  "name": "東京都現代美術館",
+  "prefecture": "東京都",
+  "handle": "MOT_art_museum",
+  "source": "wikidata",
+  "url": "https://x.com/MOT_art_museum"
+ },
+ {
+  "id": "Q864957",
+  "name": "東京都美術館",
+  "prefecture": "東京都",
+  "handle": "tobikan_jp",
+  "source": "wikidata",
+  "url": "https://x.com/tobikan_jp"
+ },
+ {
+  "id": "Q11530056",
+  "name": "松岡美術館",
+  "prefecture": "東京都",
+  "handle": "matsu_bi",
+  "source": "wikidata",
+  "url": "https://x.com/matsu_bi"
+ },
+ {
+  "id": "Q11532663",
+  "name": "板橋区立美術館",
+  "prefecture": "東京都",
+  "handle": "itabashi_art_m",
+  "source": "wikidata",
+  "url": "https://x.com/itabashi_art_m"
+ },
+ {
+  "id": "Q1047097",
+  "name": "根津美術館",
+  "prefecture": "東京都",
+  "handle": "nezumuseum",
+  "source": "wikidata",
+  "url": "https://x.com/nezumuseum"
+ },
+ {
+  "id": "Q4410434",
+  "name": "森美術館",
+  "prefecture": "東京都",
+  "handle": "mori_art_museum",
+  "source": "wikidata",
+  "url": "https://x.com/mori_art_museum"
+ },
+ {
+  "id": "Q11198629",
+  "name": "武蔵野市立吉祥寺美術館",
+  "prefecture": "東京都",
+  "handle": "kichi_museum",
+  "source": "site",
+  "url": "https://x.com/kichi_museum"
+ },
+ {
+  "id": "Q728781",
+  "name": "永青文庫",
+  "prefecture": "東京都",
+  "handle": "eiseibunko",
+  "source": "wikidata",
+  "url": "https://x.com/eiseibunko"
+ },
+ {
+  "id": "Q3815442",
+  "name": "浮世絵 太田記念美術館",
+  "prefecture": "東京都",
+  "handle": "ukiyoeota",
+  "source": "wikidata",
+  "url": "https://x.com/ukiyoeota"
+ },
+ {
+  "id": "Q11561694",
+  "name": "渋谷区立松濤美術館",
+  "prefecture": "東京都",
+  "handle": "shoto_museum",
+  "source": "wikidata",
+  "url": "https://x.com/shoto_museum"
+ },
+ {
+  "id": "Q11578302",
+  "name": "町田市立国際版画美術館",
+  "prefecture": "東京都",
+  "handle": "machida_hanbi",
+  "source": "wikidata",
+  "url": "https://x.com/machida_hanbi"
+ },
+ {
+  "id": "Q3815450",
+  "name": "目黒区美術館",
+  "prefecture": "東京都",
+  "handle": "mmatinside",
+  "source": "wikidata",
+  "url": "https://x.com/mmatinside"
+ },
+ {
+  "id": "Q11598754",
+  "name": "竹久夢二美術館",
+  "prefecture": "東京都",
+  "handle": "yayoi_yumeji",
+  "source": "wikidata",
+  "url": "https://x.com/yayoi_yumeji"
+ },
+ {
+  "id": "Q11608069",
+  "name": "練馬区立美術館",
+  "prefecture": "東京都",
+  "handle": "nerima_museum",
+  "source": "wikidata",
+  "url": "https://x.com/nerima_museum"
+ },
+ {
+  "id": "Q5153794",
+  "name": "聖徳記念絵画館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q17211727",
+  "name": "西山美術館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-95d3424e",
+  "name": "長泉院附属現代彫刻美術館",
+  "prefecture": "東京都",
+  "handle": "megurosculpture",
+  "source": "site",
+  "url": "https://x.com/megurosculpture"
+ },
+ {
+  "id": "Q109603143",
+  "name": "青梅市立美術館",
+  "prefecture": "東京都",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q3329573",
+  "name": "静嘉堂文庫美術館",
+  "prefecture": "東京都",
+  "handle": "seikadomuseum",
+  "source": "site",
+  "url": "https://x.com/seikadomuseum"
+ },
+ {
+  "id": "Q1574475",
+  "name": "ポーラ美術館",
+  "prefecture": "神奈川県",
+  "handle": "promotion_pma",
+  "source": "wikidata",
+  "url": "https://x.com/promotion_pma"
+ },
+ {
+  "id": "Q22119727",
+  "name": "中川一政美術館",
+  "prefecture": "神奈川県",
+  "handle": "nakagawamuseum",
+  "source": "wikidata",
+  "url": "https://x.com/nakagawamuseum"
+ },
+ {
+  "id": "Q127432181",
+  "name": "中村正義の美術館",
+  "prefecture": "神奈川県",
+  "handle": "masayoshi_mus",
+  "source": "wikidata",
+  "url": "https://x.com/masayoshi_mus"
+ },
+ {
+  "id": "Q30923413",
+  "name": "人間国宝美術館",
+  "prefecture": "神奈川県",
+  "handle": "nikonikobi",
+  "source": "wikidata",
+  "url": "https://x.com/nikonikobi"
+ },
+ {
+  "id": "Q17224006",
+  "name": "岡田美術館",
+  "prefecture": "神奈川県",
+  "handle": "okada_museum",
+  "source": "wikidata",
+  "url": "https://x.com/okada_museum"
+ },
+ {
+  "id": "Q7686506",
+  "name": "川崎市岡本太郎美術館",
+  "prefecture": "神奈川県",
+  "handle": "taromuseum",
+  "source": "wikidata",
+  "url": "https://x.com/taromuseum"
+ },
+ {
+  "id": "Q11478412",
+  "name": "川崎市市民ミュージアム",
+  "prefecture": "神奈川県",
+  "handle": "kawasaki_museum",
+  "source": "wikidata",
+  "url": "https://x.com/kawasaki_museum"
+ },
+ {
+  "id": "Q861588",
+  "name": "横浜美術館",
+  "prefecture": "神奈川県",
+  "handle": "yokobi_tweet",
+  "source": "wikidata",
+  "url": "https://x.com/yokobi_tweet"
+ },
+ {
+  "id": "Q11543551",
+  "name": "横須賀市美術館",
+  "prefecture": "神奈川県",
+  "handle": "yokosuka_moa",
+  "source": "wikidata",
+  "url": "https://x.com/yokosuka_moa"
+ },
+ {
+  "id": "Q11589187",
+  "name": "神奈川県立近代美術館",
+  "prefecture": "神奈川県",
+  "handle": "kanagawamoma",
+  "source": "wikidata",
+  "url": "https://x.com/kanagawamoma"
+ },
+ {
+  "id": "Q1134422",
+  "name": "箱根 彫刻の森美術館",
+  "prefecture": "神奈川県",
+  "handle": "hakone_museum",
+  "source": "wikidata",
+  "url": "https://x.com/hakone_museum"
+ },
+ {
+  "id": "Q11603353",
+  "name": "箱根ラリック美術館",
+  "prefecture": "神奈川県",
+  "handle": "laliquemuseum",
+  "source": "wikidata",
+  "url": "https://x.com/laliquemuseum"
+ },
+ {
+  "id": "Q11284659",
+  "name": "箱根美術館",
+  "prefecture": "神奈川県",
+  "handle": "hakonemuseum",
+  "source": "wikidata",
+  "url": "https://x.com/hakonemuseum"
+ },
+ {
+  "id": "Q11499516",
+  "name": "敦井美術館",
+  "prefecture": "新潟県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-e2e58fdb",
+  "name": "新津美術館",
+  "prefecture": "新潟県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11502938",
+  "name": "新潟市美術館",
+  "prefecture": "新潟県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11503023",
+  "name": "新潟県立万代島美術館",
+  "prefecture": "新潟県",
+  "handle": "niigata_banbi",
+  "source": "wikidata",
+  "url": "https://x.com/niigata_banbi"
+ },
+ {
+  "id": "Q11503129",
+  "name": "新潟県立近代美術館",
+  "prefecture": "新潟県",
+  "handle": "niigata_kinbi",
+  "source": "wikidata",
+  "url": "https://x.com/niigata_kinbi"
+ },
+ {
+  "id": "Q11668358",
+  "name": "駒形十吉記念美術館",
+  "prefecture": "新潟県",
+  "handle": "komagatamuseum",
+  "source": "wikidata",
+  "url": "https://x.com/komagatamuseum"
+ },
+ {
+  "id": "Q28690458",
+  "name": "ギャルリ・ミレー",
+  "prefecture": "富山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q30927870",
+  "name": "世界一かわいい美術館",
+  "prefecture": "富山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11384443",
+  "name": "佐藤記念美術館",
+  "prefecture": "富山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q22119820",
+  "name": "南砺市立福光美術館",
+  "prefecture": "富山県",
+  "handle": "fukumitu_museum",
+  "source": "site",
+  "url": "https://x.com/fukumitu_museum"
+ },
+ {
+  "id": "Q21653817",
+  "name": "富山市ガラス美術館",
+  "prefecture": "富山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-bdc7c7cf",
+  "name": "富山市篁牛人記念美術館",
+  "prefecture": "富山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11456481",
+  "name": "富山県水墨美術館",
+  "prefecture": "富山県",
+  "handle": "suibiofficial",
+  "source": "wikidata",
+  "url": "https://x.com/suibiofficial"
+ },
+ {
+  "id": "Q28689689",
+  "name": "富山県美術館",
+  "prefecture": "富山県",
+  "handle": "toyamakenbii",
+  "source": "wikidata",
+  "url": "https://x.com/toyamakenbii"
+ },
+ {
+  "id": "Q55526676",
+  "name": "樂翠亭美術館",
+  "prefecture": "富山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11587642",
+  "name": "砺波市美術館",
+  "prefecture": "富山県",
+  "handle": "tonamiart",
+  "source": "site",
+  "url": "https://x.com/tonamiart"
+ },
+ {
+  "id": "Q26424152",
+  "name": "秋水美術館",
+  "prefecture": "富山県",
+  "handle": "morishusui",
+  "source": "wikidata",
+  "url": "https://x.com/morishusui"
+ },
+ {
+  "id": "Q55537764",
+  "name": "西田美術館",
+  "prefecture": "富山県",
+  "handle": "NISHIDA_MUSEUM",
+  "source": "site",
+  "url": "https://x.com/NISHIDA_MUSEUM"
+ },
+ {
+  "id": "wp-44750138",
+  "name": "青井記念館美術館",
+  "prefecture": "富山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11669515",
+  "name": "高岡市美術館",
+  "prefecture": "富山県",
+  "handle": "tam_info",
+  "source": "wikidata",
+  "url": "https://x.com/tam_info"
+ },
+ {
+  "id": "Q28687423",
+  "name": "黒部市美術館",
+  "prefecture": "富山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11436507",
+  "name": "大樋美術館",
+  "prefecture": "石川県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11585933",
+  "name": "石川県七尾美術館",
+  "prefecture": "石川県",
+  "handle": "NanaoArtMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/NanaoArtMuseum"
+ },
+ {
+  "id": "Q11585938",
+  "name": "石川県九谷焼美術館",
+  "prefecture": "石川県",
+  "handle": "KUTANIYAKI_M",
+  "source": "wikidata",
+  "url": "https://x.com/KUTANIYAKI_M"
+ },
+ {
+  "id": "Q3297759",
+  "name": "石川県立美術館",
+  "prefecture": "石川県",
+  "handle": "ishikawa_premus",
+  "source": "wikidata",
+  "url": "https://x.com/ishikawa_premus"
+ },
+ {
+  "id": "Q11586039",
+  "name": "石川県能登島ガラス美術館",
+  "prefecture": "石川県",
+  "handle": "NotojimaGlass",
+  "source": "wikidata",
+  "url": "https://x.com/NotojimaGlass"
+ },
+ {
+  "id": "Q3242206",
+  "name": "金沢21世紀美術館",
+  "prefecture": "石川県",
+  "handle": "Kanazawa_21",
+  "source": "wikidata",
+  "url": "https://x.com/Kanazawa_21"
+ },
+ {
+  "id": "Q11591305",
+  "name": "福井市愛宕坂茶道美術館",
+  "prefecture": "福井県",
+  "handle": "atagozaka_sado",
+  "source": "wikidata",
+  "url": "https://x.com/atagozaka_sado"
+ },
+ {
+  "id": "Q24874086",
+  "name": "福井市美術館",
+  "prefecture": "福井県",
+  "handle": "fukuishibi",
+  "source": "wikidata",
+  "url": "https://x.com/fukuishibi"
+ },
+ {
+  "id": "Q11591489",
+  "name": "福井県立美術館",
+  "prefecture": "福井県",
+  "handle": "fukui_arts",
+  "source": "wikidata",
+  "url": "https://x.com/fukui_arts"
+ },
+ {
+  "id": "Q109361733",
+  "name": "アフリカンアートミュージアム",
+  "prefecture": "山梨県",
+  "handle": "AfricanartM2010",
+  "source": "wikidata",
+  "url": "https://x.com/AfricanartM2010"
+ },
+ {
+  "id": "Q109324144",
+  "name": "フジヤマミュージアム",
+  "prefecture": "山梨県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11469731",
+  "name": "山梨県立美術館",
+  "prefecture": "山梨県",
+  "handle": "yamanashi_kenbi",
+  "source": "wikidata",
+  "url": "https://x.com/yamanashi_kenbi"
+ },
+ {
+  "id": "wp-508e1ba5",
+  "name": "清春 旅と空想の美術館",
+  "prefecture": "山梨県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q115566051",
+  "name": "清春白樺美術館",
+  "prefecture": "山梨県",
+  "handle": "kiyoharuart",
+  "source": "site",
+  "url": "https://x.com/kiyoharuart"
+ },
+ {
+  "id": "Q11561407",
+  "name": "清里ポーセリンミュージアム",
+  "prefecture": "山梨県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11599754",
+  "name": "笛吹市立青楓美術館",
+  "prefecture": "山梨県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-4baec777",
+  "name": "須玉美術館",
+  "prefecture": "山梨県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11631824",
+  "name": "SUWAガラスの里の美術館",
+  "prefecture": "長野県",
+  "handle": "SUWAGARASU",
+  "source": "site",
+  "url": "https://x.com/SUWAGARASU"
+ },
+ {
+  "id": "Q105334745",
+  "name": "おぶせミュージアム",
+  "prefecture": "長野県",
+  "handle": "obusemuseum",
+  "source": "wikidata",
+  "url": "https://x.com/obusemuseum"
+ },
+ {
+  "id": "Q11306065",
+  "name": "サンリツ服部美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11314323",
+  "name": "セゾン現代美術館",
+  "prefecture": "長野県",
+  "handle": "sezonmuseum",
+  "source": "wikidata",
+  "url": "https://x.com/sezonmuseum"
+ },
+ {
+  "id": "Q85876422",
+  "name": "佐久市立天来記念館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q78314906",
+  "name": "佐久市立近代美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q86743755",
+  "name": "信州新町美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11390430",
+  "name": "八ヶ岳美術館",
+  "prefecture": "長野県",
+  "handle": "yatsugatake_mus",
+  "source": "wikidata",
+  "url": "https://x.com/yatsugatake_mus"
+ },
+ {
+  "id": "Q78072490",
+  "name": "北アルプス展望美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11403773",
+  "name": "北澤美術館",
+  "prefecture": "長野県",
+  "handle": "kitazawa_museum",
+  "source": "wikidata",
+  "url": "https://x.com/kitazawa_museum"
+ },
+ {
+  "id": "Q11404260",
+  "name": "北野カルチュラルセンター",
+  "prefecture": "長野県",
+  "handle": "KitanoMuseum",
+  "source": "site",
+  "url": "https://x.com/KitanoMuseum"
+ },
+ {
+  "id": "Q63565237",
+  "name": "北野美術館",
+  "prefecture": "長野県",
+  "handle": "KitanoMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/KitanoMuseum"
+ },
+ {
+  "id": "Q131457036",
+  "name": "奥村土牛記念美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11450770",
+  "name": "安曇野ちひろ美術館",
+  "prefecture": "長野県",
+  "handle": "ChihiroMuseum",
+  "source": "site",
+  "url": "https://x.com/ChihiroMuseum"
+ },
+ {
+  "id": "Q11450773",
+  "name": "安曇野ジャンセン美術館",
+  "prefecture": "長野県",
+  "handle": "musee_Jansem",
+  "source": "wikidata",
+  "url": "https://x.com/musee_Jansem"
+ },
+ {
+  "id": "Q85879363",
+  "name": "安曇野山岳美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11450790",
+  "name": "安曇野市美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11450795",
+  "name": "安曇野高橋節郎記念美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11458738",
+  "name": "小さな美術館軽井沢草花館",
+  "prefecture": "長野県",
+  "handle": "kusabanakan",
+  "source": "wikidata",
+  "url": "https://x.com/kusabanakan"
+ },
+ {
+  "id": "Q11463703",
+  "name": "小諸市立小山敬三美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q85879727",
+  "name": "市立小諸高原美術館・白鳥映雪館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q84468012",
+  "name": "康耀堂美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11531052",
+  "name": "松本市美術館",
+  "prefecture": "長野県",
+  "handle": "MatsumotoMuseum",
+  "source": "site",
+  "url": "https://x.com/MatsumotoMuseum"
+ },
+ {
+  "id": "Q64416043",
+  "name": "梅野記念絵画館・ふれあい館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11549453",
+  "name": "水野美術館",
+  "prefecture": "長野県",
+  "handle": "Mizuno_Museum",
+  "source": "wikidata",
+  "url": "https://x.com/Mizuno_Museum"
+ },
+ {
+  "id": "Q11577117",
+  "name": "田淵行男記念館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11587726",
+  "name": "碌山美術館",
+  "prefecture": "長野県",
+  "handle": "rokuzanmuseum",
+  "source": "wikidata",
+  "url": "https://x.com/rokuzanmuseum"
+ },
+ {
+  "id": "Q85883183",
+  "name": "絵本美術館 森のおうち",
+  "prefecture": "長野県",
+  "handle": "morinoouchi",
+  "source": "wikidata",
+  "url": "https://x.com/morinoouchi"
+ },
+ {
+  "id": "Q28683263",
+  "name": "脇田美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11621785",
+  "name": "蓼科テディベア美術館",
+  "prefecture": "長野県",
+  "handle": "Tateshina_bear",
+  "source": "wikidata",
+  "url": "https://x.com/Tateshina_bear"
+ },
+ {
+  "id": "Q11631864",
+  "name": "諏訪市原田泰治美術館",
+  "prefecture": "長野県",
+  "handle": "haradamu2",
+  "source": "wikidata",
+  "url": "https://x.com/haradamu2"
+ },
+ {
+  "id": "Q109370433",
+  "name": "諏訪市美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q5771042",
+  "name": "軽井沢千住博美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q114674643",
+  "name": "軽井沢安東美術館",
+  "prefecture": "長野県",
+  "handle": "musee_ando",
+  "source": "wikidata",
+  "url": "https://x.com/musee_ando"
+ },
+ {
+  "id": "Q11637569",
+  "name": "軽井沢絵本の森美術館",
+  "prefecture": "長野県",
+  "handle": "muse_ehon_erz",
+  "source": "site",
+  "url": "https://x.com/muse_ehon_erz"
+ },
+ {
+  "id": "Q110245475",
+  "name": "長野県立美術館",
+  "prefecture": "長野県",
+  "handle": "naganoartmuseum",
+  "source": "wikidata",
+  "url": "https://x.com/naganoartmuseum"
+ },
+ {
+  "id": "wp-c0270259",
+  "name": "須坂版画美術館・平塚運一版画美術館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11666522",
+  "name": "飯田市川本喜八郎人形美術館",
+  "prefecture": "長野県",
+  "handle": "KawamotoPuppet",
+  "source": "wikidata",
+  "url": "https://x.com/KawamotoPuppet"
+ },
+ {
+  "id": "Q11666529",
+  "name": "飯田市美術博物館",
+  "prefecture": "長野県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11364291",
+  "name": "中山道広重美術館",
+  "prefecture": "岐阜県",
+  "handle": "hiroshige_ena",
+  "source": "wikidata",
+  "url": "https://x.com/hiroshige_ena"
+ },
+ {
+  "id": "Q5760427",
+  "name": "光記念館",
+  "prefecture": "岐阜県",
+  "handle": "iwwJZoOHfGRg7Em",
+  "source": "wikidata",
+  "url": "https://x.com/iwwJZoOHfGRg7Em"
+ },
+ {
+  "id": "Q5350087",
+  "name": "加藤栄三・東一記念美術館",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q78909892",
+  "name": "多治見市モザイクタイルミュージアム",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11471861",
+  "name": "多治見市美濃焼ミュージアム",
+  "prefecture": "岐阜県",
+  "handle": "minoyaki_museum",
+  "source": "wikidata",
+  "url": "https://x.com/minoyaki_museum"
+ },
+ {
+  "id": "Q48747109",
+  "name": "大垣市守屋多々志美術館",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11471469",
+  "name": "岐阜県現代陶芸美術館",
+  "prefecture": "岐阜県",
+  "handle": "gpmomca",
+  "source": "wikidata",
+  "url": "https://x.com/gpmomca"
+ },
+ {
+  "id": "Q5359197",
+  "name": "岐阜県美術館",
+  "prefecture": "岐阜県",
+  "handle": "gifukenbi",
+  "source": "site",
+  "url": "https://x.com/gifukenbi"
+ },
+ {
+  "id": "Q117066057",
+  "name": "川辺町ギャラリー山惠",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q111803091",
+  "name": "日本国際ポスター美術館",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q48747268",
+  "name": "日比野五鳳記念美術館",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11526757",
+  "name": "東山魁夷 心の旅路館",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q114905513",
+  "name": "瑞浪市市之瀬廣太記念美術館",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q48749054",
+  "name": "美濃加茂市民ミュージアム",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11609219",
+  "name": "美濃和紙あかりアート館",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q123242570",
+  "name": "羽島市竹鼻町屋ギャラリー",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11655772",
+  "name": "関市立篠田桃紅美術空間",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11665929",
+  "name": "飛騨高山美術館",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q112693403",
+  "name": "齋藤美術館",
+  "prefecture": "岐阜県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q843638",
+  "name": "MOA美術館",
+  "prefecture": "静岡県",
+  "handle": "moa_museum",
+  "source": "wikidata",
+  "url": "https://x.com/moa_museum"
+ },
+ {
+  "id": "Q102427225",
+  "name": "フェルケール博物館",
+  "prefecture": "静岡県",
+  "handle": "verkehrmuseum",
+  "source": "wikidata",
+  "url": "https://x.com/verkehrmuseum"
+ },
+ {
+  "id": "Q11299606",
+  "name": "ベルナール・ビュフェ美術館",
+  "prefecture": "静岡県",
+  "handle": "clematis_no_oka",
+  "source": "wikidata",
+  "url": "https://x.com/clematis_no_oka"
+ },
+ {
+  "id": "Q11380530",
+  "name": "伊豆の長八美術館",
+  "prefecture": "静岡県",
+  "handle": "chohachi1",
+  "source": "wikidata",
+  "url": "https://x.com/chohachi1"
+ },
+ {
+  "id": "Q11385099",
+  "name": "佐野美術館",
+  "prefecture": "静岡県",
+  "handle": "sanobi_koho",
+  "source": "wikidata",
+  "url": "https://x.com/sanobi_koho"
+ },
+ {
+  "id": "Q6583120",
+  "name": "富士美術館",
+  "prefecture": "静岡県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-b56bdb09",
+  "name": "常葉美術館",
+  "prefecture": "静岡県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q104636664",
+  "name": "掛川市二の丸美術館",
+  "prefecture": "静岡県",
+  "handle": "kakegawa_NMM",
+  "source": "wikidata",
+  "url": "https://x.com/kakegawa_NMM"
+ },
+ {
+  "id": "Q11551651",
+  "name": "池田20世紀美術館",
+  "prefecture": "静岡県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q77806922",
+  "name": "浜松市秋野不矩美術館",
+  "prefecture": "静岡県",
+  "handle": "akinofuku_mu",
+  "source": "wikidata",
+  "url": "https://x.com/akinofuku_mu"
+ },
+ {
+  "id": "Q11557851",
+  "name": "浜松市美術館",
+  "prefecture": "静岡県",
+  "handle": "hamamatsushibi",
+  "source": "wikidata",
+  "url": "https://x.com/hamamatsushibi"
+ },
+ {
+  "id": "Q71821967",
+  "name": "海野光弘版画記念館",
+  "prefecture": "静岡県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-9f789550",
+  "name": "象牙と石の彫刻美術館-ジュエルピア-",
+  "prefecture": "静岡県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q104575629",
+  "name": "資生堂アートハウス",
+  "prefecture": "静岡県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-6ce865bf",
+  "name": "静岡市東海道広重美術館",
+  "prefecture": "静岡県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q78120016",
+  "name": "静岡市立芹沢銈介美術館",
+  "prefecture": "静岡県",
+  "handle": "seribi_shizuoka",
+  "source": "wikidata",
+  "url": "https://x.com/seribi_shizuoka"
+ },
+ {
+  "id": "Q11621188",
+  "name": "静岡市美術館",
+  "prefecture": "静岡県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11663204",
+  "name": "静岡県立美術館",
+  "prefecture": "静岡県",
+  "handle": "shizuokakenbi",
+  "source": "wikidata",
+  "url": "https://x.com/shizuokakenbi"
+ },
+ {
+  "id": "wp-54d27a43",
+  "name": "静岡近代美術館",
+  "prefecture": "静岡県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q109370382",
+  "name": "駿府博物館",
+  "prefecture": "静岡県",
+  "handle": "sumpu_museum",
+  "source": "wikidata",
+  "url": "https://x.com/sumpu_museum"
+ },
+ {
+  "id": "Q17226489",
+  "name": "かみや美術館",
+  "prefecture": "愛知県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11318993",
+  "name": "ティレク・ティレセク美浜美術館",
+  "prefecture": "愛知県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11340324",
+  "name": "マスプロ美術館",
+  "prefecture": "愛知県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q1920251",
+  "name": "メナード美術館",
+  "prefecture": "愛知県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11345132",
+  "name": "ヤマザキマザック美術館",
+  "prefecture": "愛知県",
+  "handle": "MazakArtMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/MazakArtMuseum"
+ },
+ {
+  "id": "Q11396288",
+  "name": "刈谷市美術館",
+  "prefecture": "愛知県",
+  "handle": "kariyashibi",
+  "source": "wikidata",
+  "url": "https://x.com/kariyashibi"
+ },
+ {
+  "id": "Q11411184",
+  "name": "古川美術館",
+  "prefecture": "愛知県",
+  "handle": "furukawamuseum",
+  "source": "wikidata",
+  "url": "https://x.com/furukawamuseum"
+ },
+ {
+  "id": "Q469573",
+  "name": "名古屋市美術館",
+  "prefecture": "愛知県",
+  "handle": "ncam_Nagoya",
+  "source": "wikidata",
+  "url": "https://x.com/ncam_Nagoya"
+ },
+ {
+  "id": "Q11427745",
+  "name": "堀美術館",
+  "prefecture": "愛知県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11431794",
+  "name": "大一美術館",
+  "prefecture": "愛知県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11472922",
+  "name": "岡崎市美術博物館",
+  "prefecture": "愛知県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q18608421",
+  "name": "岡崎市美術館",
+  "prefecture": "愛知県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q3077236",
+  "name": "徳川美術館",
+  "prefecture": "愛知県",
+  "handle": "tokubi_nagoya",
+  "source": "wikidata",
+  "url": "https://x.com/tokubi_nagoya"
+ },
+ {
+  "id": "Q11256823",
+  "name": "愛知県美術館",
+  "prefecture": "愛知県",
+  "handle": "apmoa",
+  "source": "wikidata",
+  "url": "https://x.com/apmoa"
+ },
+ {
+  "id": "Q11514132",
+  "name": "昭和美術館",
+  "prefecture": "愛知県",
+  "handle": "ShowaMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/ShowaMuseum"
+ },
+ {
+  "id": "Q47461613",
+  "name": "桑山美術館",
+  "prefecture": "愛知県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11541558",
+  "name": "楽只美術館",
+  "prefecture": "愛知県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q42634129",
+  "name": "横山美術館",
+  "prefecture": "愛知県",
+  "handle": "YokoyamaArtMuse",
+  "source": "wikidata",
+  "url": "https://x.com/YokoyamaArtMuse"
+ },
+ {
+  "id": "Q11561458",
+  "name": "清須市はるひ美術館",
+  "prefecture": "愛知県",
+  "handle": "kh_museum",
+  "source": "wikidata",
+  "url": "https://x.com/kh_museum"
+ },
+ {
+  "id": "Q11566635",
+  "name": "瀬戸市美術館",
+  "prefecture": "愛知県",
+  "handle": "setocitymuseum",
+  "source": "wikidata",
+  "url": "https://x.com/setocitymuseum"
+ },
+ {
+  "id": "Q11587773",
+  "name": "碧南市藤井達吉現代美術館",
+  "prefecture": "愛知県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11596708",
+  "name": "稲沢市荻須記念美術館",
+  "prefecture": "愛知県",
+  "handle": "oguiss_museum",
+  "source": "wikidata",
+  "url": "https://x.com/oguiss_museum"
+ },
+ {
+  "id": "Q11605716",
+  "name": "紫峰人形美術館",
+  "prefecture": "愛知県",
+  "handle": "shihoudoll",
+  "source": "wikidata",
+  "url": "https://x.com/shihoudoll"
+ },
+ {
+  "id": "Q11618013",
+  "name": "茶臼山 高原の美術館",
+  "prefecture": "愛知県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q7830656",
+  "name": "豊橋市美術博物館",
+  "prefecture": "愛知県",
+  "handle": "toyohashibi",
+  "source": "wikidata",
+  "url": "https://x.com/toyohashibi"
+ },
+ {
+  "id": "Q4461630",
+  "name": "豊田市美術館",
+  "prefecture": "愛知県",
+  "handle": "toyotashibi",
+  "source": "wikidata",
+  "url": "https://x.com/toyotashibi"
+ },
+ {
+  "id": "Q11671831",
+  "name": "高浜市やきものの里かわら美術館・図書館",
+  "prefecture": "愛知県",
+  "handle": "m_kawara",
+  "source": "wikidata",
+  "url": "https://x.com/m_kawara"
+ },
+ {
+  "id": "Q17221655",
+  "name": "パラミタミュージアム",
+  "prefecture": "三重県",
+  "handle": "paramita_muse",
+  "source": "wikidata",
+  "url": "https://x.com/paramita_muse"
+ },
+ {
+  "id": "Q11340103",
+  "name": "マコンデ美術館",
+  "prefecture": "三重県",
+  "handle": "Makonde_Muse",
+  "source": "site",
+  "url": "https://x.com/Makonde_Muse"
+ },
+ {
+  "id": "Q11349249",
+  "name": "ルーブル彫刻美術館",
+  "prefecture": "三重県",
+  "handle": "m_louvre",
+  "source": "wikidata",
+  "url": "https://x.com/m_louvre"
+ },
+ {
+  "id": "Q11357837",
+  "name": "三重県立美術館",
+  "prefecture": "三重県",
+  "handle": "mie_kenbi",
+  "source": "wikidata",
+  "url": "https://x.com/mie_kenbi"
+ },
+ {
+  "id": "Q17193123",
+  "name": "伊勢現代美術館",
+  "prefecture": "三重県",
+  "handle": "ise_muse",
+  "source": "wikidata",
+  "url": "https://x.com/ise_muse"
+ },
+ {
+  "id": "Q24868589",
+  "name": "澄懐堂美術館",
+  "prefecture": "三重県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q1268542",
+  "name": "MIHO MUSEUM",
+  "prefecture": "滋賀県",
+  "handle": "mihomuseum",
+  "source": "wikidata",
+  "url": "https://x.com/mihomuseum"
+ },
+ {
+  "id": "Q11338923",
+  "name": "ボーダレス・アートミュージアム NO-MA",
+  "prefecture": "滋賀県",
+  "handle": "museum_noma",
+  "source": "wikidata",
+  "url": "https://x.com/museum_noma"
+ },
+ {
+  "id": "Q11356025",
+  "name": "三橋節子美術館",
+  "prefecture": "滋賀県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q7399081",
+  "name": "佐川美術館",
+  "prefecture": "滋賀県",
+  "handle": "sagawaart",
+  "source": "wikidata",
+  "url": "https://x.com/sagawaart"
+ },
+ {
+  "id": "Q11495725",
+  "name": "成田美術館",
+  "prefecture": "滋賀県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11558989",
+  "name": "海洋堂フィギュアミュージアム黒壁",
+  "prefecture": "滋賀県",
+  "handle": "ryuyukan",
+  "source": "wikidata",
+  "url": "https://x.com/ryuyukan"
+ },
+ {
+  "id": "Q11564683",
+  "name": "滋賀県立美術館",
+  "prefecture": "滋賀県",
+  "handle": "shiga_kinbi",
+  "source": "wikidata",
+  "url": "https://x.com/shiga_kinbi"
+ },
+ {
+  "id": "Q11564689",
+  "name": "滋賀県立陶芸の森",
+  "prefecture": "滋賀県",
+  "handle": "tougeinomori",
+  "source": "wikidata",
+  "url": "https://x.com/tougeinomori"
+ },
+ {
+  "id": "Q11678066",
+  "name": "黒壁ガラス館",
+  "prefecture": "滋賀県",
+  "handle": "kurokabeglass",
+  "source": "wikidata",
+  "url": "https://x.com/kurokabeglass"
+ },
+ {
+  "id": "wp-cf11837b",
+  "name": "こころの森美術館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11283175",
+  "name": "アサヒグループ大山崎山荘美術館",
+  "prefecture": "京都府",
+  "handle": "asahi_oyamazaki",
+  "source": "site",
+  "url": "https://x.com/asahi_oyamazaki"
+ },
+ {
+  "id": "Q61818339",
+  "name": "ヒカリ美術館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-b2ff92b8",
+  "name": "ルイ・イカール美術館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11374199",
+  "name": "京セラギャラリー",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q18336820",
+  "name": "京都ギリシアローマ美術館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q147286",
+  "name": "京都国立博物館",
+  "prefecture": "京都府",
+  "handle": "kyohaku_gallery",
+  "source": "wikidata",
+  "url": "https://x.com/kyohaku_gallery"
+ },
+ {
+  "id": "Q1055628",
+  "name": "京都国立近代美術館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q3330657",
+  "name": "京都市美術館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11375242",
+  "name": "京都府立堂本印象美術館",
+  "prefecture": "京都府",
+  "handle": "domoto_insho",
+  "source": "wikidata",
+  "url": "https://x.com/domoto_insho"
+ },
+ {
+  "id": "Q11375286",
+  "name": "京都府立陶板名画の庭",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11402029",
+  "name": "北村美術館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q17230147",
+  "name": "古田織部美術館",
+  "prefecture": "京都府",
+  "handle": "m_Furuta_Oribe",
+  "source": "wikidata",
+  "url": "https://x.com/m_Furuta_Oribe"
+ },
+ {
+  "id": "Q11497319",
+  "name": "承天閣美術館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11532219",
+  "name": "松花堂",
+  "prefecture": "京都府",
+  "handle": "syojyo1582",
+  "source": "wikidata",
+  "url": "https://x.com/syojyo1582"
+ },
+ {
+  "id": "wp-7ff0c895",
+  "name": "森の中の家 安野光雅館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q3478488",
+  "name": "泉屋博古館",
+  "prefecture": "京都府",
+  "handle": "SenOkuKyoto",
+  "source": "wikidata",
+  "url": "https://x.com/SenOkuKyoto"
+ },
+ {
+  "id": "Q17213428",
+  "name": "清水三年坂美術館",
+  "prefecture": "京都府",
+  "handle": "Sannenzaka_Mus",
+  "source": "site",
+  "url": "https://x.com/Sannenzaka_Mus"
+ },
+ {
+  "id": "Q102045484",
+  "name": "福田美術館",
+  "prefecture": "京都府",
+  "handle": "ArtFukuda",
+  "source": "wikidata",
+  "url": "https://x.com/ArtFukuda"
+ },
+ {
+  "id": "Q11594325",
+  "name": "福知山市佐藤太清記念美術館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11606115",
+  "name": "細見美術館",
+  "prefecture": "京都府",
+  "handle": "HosomiMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/HosomiMuseum"
+ },
+ {
+  "id": "wp-4dc600c0",
+  "name": "茶道資料館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11622794",
+  "name": "藤井斉成会有鄰館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11645680",
+  "name": "野村美術館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11660820",
+  "name": "霞中庵 竹内栖鳳記念館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q21019672",
+  "name": "高麗美術館",
+  "prefecture": "京都府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q59536065",
+  "name": "あべのハルカス美術館",
+  "prefecture": "大阪府",
+  "handle": "harukas_museum",
+  "source": "wikidata",
+  "url": "https://x.com/harukas_museum"
+ },
+ {
+  "id": "Q55538467",
+  "name": "コヤノ美術館",
+  "prefecture": "大阪府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-311ff022",
+  "name": "上方浮世絵館",
+  "prefecture": "大阪府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11408411",
+  "name": "南蛮文化館",
+  "prefecture": "大阪府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11417787",
+  "name": "和泉市久保惣記念美術館",
+  "prefecture": "大阪府",
+  "handle": "kuboso_museum",
+  "source": "wikidata",
+  "url": "https://x.com/kuboso_museum"
+ },
+ {
+  "id": "Q1055037",
+  "name": "国立国際美術館",
+  "prefecture": "大阪府",
+  "handle": "nmaoJP",
+  "source": "wikidata",
+  "url": "https://x.com/nmaoJP"
+ },
+ {
+  "id": "wp-895b7e10",
+  "name": "堺市立文化館",
+  "prefecture": "大阪府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11440000",
+  "name": "大阪モノレール美術館",
+  "prefecture": "大阪府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q50375431",
+  "name": "大阪中之島美術館",
+  "prefecture": "大阪府",
+  "handle": "nakkaart2022",
+  "source": "wikidata",
+  "url": "https://x.com/nakkaart2022"
+ },
+ {
+  "id": "Q11440555",
+  "name": "大阪市立東洋陶磁美術館",
+  "prefecture": "大阪府",
+  "handle": "toyotoji2024",
+  "source": "site",
+  "url": "https://x.com/toyotoji2024"
+ },
+ {
+  "id": "Q9004920",
+  "name": "大阪市立美術館",
+  "prefecture": "大阪府",
+  "handle": "ocmfa_since1936",
+  "source": "wikidata",
+  "url": "https://x.com/ocmfa_since1936"
+ },
+ {
+  "id": "wp-35bc875e",
+  "name": "大阪府立江之子島文化芸術創造センター",
+  "prefecture": "大阪府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q140247058",
+  "name": "大阪文化館・天保山",
+  "prefecture": "大阪府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-ecd92410",
+  "name": "小林美術館",
+  "prefecture": "大阪府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-d68e5c58",
+  "name": "山王美術館",
+  "prefecture": "大阪府",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11545519",
+  "name": "正木美術館",
+  "prefecture": "大阪府",
+  "handle": "masaki__museum",
+  "source": "wikidata",
+  "url": "https://x.com/masaki__museum"
+ },
+ {
+  "id": "Q11563573",
+  "name": "湯木美術館",
+  "prefecture": "大阪府",
+  "handle": "Yuki_Museum",
+  "source": "site",
+  "url": "https://x.com/Yuki_Museum"
+ },
+ {
+  "id": "Q3329563",
+  "name": "藤田美術館",
+  "prefecture": "大阪府",
+  "handle": "FujitaMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/FujitaMuseum"
+ },
+ {
+  "id": "Q11640228",
+  "name": "逸翁美術館",
+  "prefecture": "大阪府",
+  "handle": "hankyu_culture_",
+  "source": "site",
+  "url": "https://x.com/hankyu_culture_"
+ },
+ {
+  "id": "Q11190936",
+  "name": "BBプラザ美術館",
+  "prefecture": "兵庫県",
+  "handle": "bbplazamu",
+  "source": "wikidata",
+  "url": "https://x.com/bbplazamu"
+ },
+ {
+  "id": "Q11257182",
+  "name": "あさご芸術の森美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11263124",
+  "name": "うろこ美術館",
+  "prefecture": "兵庫県",
+  "handle": "uroko_group",
+  "source": "site",
+  "url": "https://x.com/uroko_group"
+ },
+ {
+  "id": "Q11291442",
+  "name": "エンバ中国近代美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11286729",
+  "name": "プラトン装飾美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11362538",
+  "name": "世良美術館",
+  "prefecture": "兵庫県",
+  "handle": "seramuseum",
+  "source": "wikidata",
+  "url": "https://x.com/seramuseum"
+ },
+ {
+  "id": "Q11368569",
+  "name": "丹波市立植野記念美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11603687",
+  "name": "丹波篠山市立歴史美術館",
+  "prefecture": "兵庫県",
+  "handle": "osyoin",
+  "source": "site",
+  "url": "https://x.com/osyoin"
+ },
+ {
+  "id": "Q117635320",
+  "name": "伊丹市立美術館",
+  "prefecture": "兵庫県",
+  "handle": "itami_museum",
+  "source": "wikidata",
+  "url": "https://x.com/itami_museum"
+ },
+ {
+  "id": "Q11380269",
+  "name": "伊藤清永記念館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11381621",
+  "name": "但陽美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11386430",
+  "name": "俵美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11392878",
+  "name": "兵庫県公館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q3329607",
+  "name": "兵庫県立美術館",
+  "prefecture": "兵庫県",
+  "handle": "hyogoartm",
+  "source": "wikidata",
+  "url": "https://x.com/hyogoartm"
+ },
+ {
+  "id": "Q11393672",
+  "name": "兵庫陶芸美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11407282",
+  "name": "南あわじ市滝川記念美術館玉青館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11426144",
+  "name": "城崎美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11447481",
+  "name": "姫路市書写の里・美術工芸館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11447532",
+  "name": "姫路市立美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11464999",
+  "name": "尼崎市総合文化センター",
+  "prefecture": "兵庫県",
+  "handle": "ARChall_info",
+  "source": "site",
+  "url": "https://x.com/ARChall_info"
+ },
+ {
+  "id": "Q11471937",
+  "name": "岡之山美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11535060",
+  "name": "柿衞文庫",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11555555",
+  "name": "波止場町TEN×TEN",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11559811",
+  "name": "淡路大磯アート山・大石可久也美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11565343",
+  "name": "滴翠美術館",
+  "prefecture": "兵庫県",
+  "handle": "tekisui_museum",
+  "source": "wikidata",
+  "url": "https://x.com/tekisui_museum"
+ },
+ {
+  "id": "Q612608",
+  "name": "白鶴美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11589726",
+  "name": "神戸ゆかりの美術館",
+  "prefecture": "兵庫県",
+  "handle": "kobeyukarin",
+  "source": "wikidata",
+  "url": "https://x.com/kobeyukarin"
+ },
+ {
+  "id": "Q11589762",
+  "name": "神戸ファッション美術館",
+  "prefecture": "兵庫県",
+  "handle": "KobeFashionM",
+  "source": "wikidata",
+  "url": "https://x.com/KobeFashionM"
+ },
+ {
+  "id": "Q11589817",
+  "name": "神戸北野美術館",
+  "prefecture": "兵庫県",
+  "handle": "kitano_museum",
+  "source": "wikidata",
+  "url": "https://x.com/kitano_museum"
+ },
+ {
+  "id": "Q11589991",
+  "name": "神戸市立小磯記念美術館",
+  "prefecture": "兵庫県",
+  "handle": "koisomuseum1992",
+  "source": "site",
+  "url": "https://x.com/koisomuseum1992"
+ },
+ {
+  "id": "Q11614836",
+  "name": "芦屋市立美術博物館",
+  "prefecture": "兵庫県",
+  "handle": "ashiyabihaku",
+  "source": "wikidata",
+  "url": "https://x.com/ashiyabihaku"
+ },
+ {
+  "id": "Q11627626",
+  "name": "西宮市大谷記念美術館",
+  "prefecture": "兵庫県",
+  "handle": "otani_artmuseum",
+  "source": "wikidata",
+  "url": "https://x.com/otani_artmuseum"
+ },
+ {
+  "id": "Q11634295",
+  "name": "豊雲記念館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11635883",
+  "name": "赤穂市立田淵記念館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11649561",
+  "name": "鉄斎美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11664968",
+  "name": "頴川美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11667775",
+  "name": "香雪美術館",
+  "prefecture": "兵庫県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11678218",
+  "name": "黒川古文化研究所",
+  "prefecture": "兵庫県",
+  "handle": "kurokawakobunka",
+  "source": "wikidata",
+  "url": "https://x.com/kurokawakobunka"
+ },
+ {
+  "id": "Q11367709",
+  "name": "中野美術館",
+  "prefecture": "奈良県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11388956",
+  "name": "入江泰吉記念奈良市写真美術館",
+  "prefecture": "奈良県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q3329639",
+  "name": "大和文華館",
+  "prefecture": "奈良県",
+  "handle": "yamatobunkakan",
+  "source": "wikidata",
+  "url": "https://x.com/yamatobunkakan"
+ },
+ {
+  "id": "Q147312",
+  "name": "奈良国立博物館",
+  "prefecture": "奈良県",
+  "handle": "narahaku_PR",
+  "source": "wikidata",
+  "url": "https://x.com/narahaku_PR"
+ },
+ {
+  "id": "wp-767cae4e",
+  "name": "奈良市杉岡華邨書道美術館",
+  "prefecture": "奈良県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11445098",
+  "name": "奈良市美術館",
+  "prefecture": "奈良県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11445231",
+  "name": "奈良県立美術館",
+  "prefecture": "奈良県",
+  "handle": "ArtmuseumN",
+  "source": "wikidata",
+  "url": "https://x.com/ArtmuseumN"
+ },
+ {
+  "id": "Q11457608",
+  "name": "寧楽美術館",
+  "prefecture": "奈良県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11529256",
+  "name": "松伯美術館",
+  "prefecture": "奈良県",
+  "handle": "SHOHAKU_Museum",
+  "source": "wikidata",
+  "url": "https://x.com/SHOHAKU_Museum"
+ },
+ {
+  "id": "Q11617979",
+  "name": "茶房長谷路",
+  "prefecture": "奈良県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11367892",
+  "name": "串本応挙芦雪館",
+  "prefecture": "和歌山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11417477",
+  "name": "和歌山県立近代美術館",
+  "prefecture": "和歌山県",
+  "handle": "moma_wakayama",
+  "source": "wikidata",
+  "url": "https://x.com/moma_wakayama"
+ },
+ {
+  "id": "Q11568880",
+  "name": "熊野古道なかへち美術館",
+  "prefecture": "和歌山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11577335",
+  "name": "田辺市立美術館",
+  "prefecture": "和歌山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11605043",
+  "name": "紀州博物館",
+  "prefecture": "和歌山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11278841",
+  "name": "三朝バイオリン美術館",
+  "prefecture": "鳥取県",
+  "handle": "eOqmKuwB2qZdkW7",
+  "source": "wikidata",
+  "url": "https://x.com/eOqmKuwB2qZdkW7"
+ },
+ {
+  "id": "Q11386562",
+  "name": "倉吉博物館・倉吉歴史民俗資料館",
+  "prefecture": "鳥取県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q9047014",
+  "name": "植田正治写真美術館",
+  "prefecture": "鳥取県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11562497",
+  "name": "渡辺美術館",
+  "prefecture": "鳥取県",
+  "handle": "info_watart",
+  "source": "wikidata",
+  "url": "https://x.com/info_watart"
+ },
+ {
+  "id": "Q6355904",
+  "name": "米子市美術館",
+  "prefecture": "鳥取県",
+  "handle": "yonagoshibi_83",
+  "source": "site",
+  "url": "https://x.com/yonagoshibi_83"
+ },
+ {
+  "id": "Q7828504",
+  "name": "鳥取民芸美術館",
+  "prefecture": "鳥取県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q127385607",
+  "name": "鳥取県立美術館",
+  "prefecture": "鳥取県",
+  "handle": "tottori_moa",
+  "source": "site",
+  "url": "https://x.com/tottori_moa"
+ },
+ {
+  "id": "Q11398790",
+  "name": "加納美術館",
+  "prefecture": "島根県",
+  "handle": "ysg_kano_museum",
+  "source": "site",
+  "url": "https://x.com/ysg_kano_museum"
+ },
+ {
+  "id": "Q11476530",
+  "name": "島根県立石見美術館",
+  "prefecture": "島根県",
+  "handle": "Grand_Toit",
+  "source": "site",
+  "url": "https://x.com/Grand_Toit"
+ },
+ {
+  "id": "Q2655425",
+  "name": "島根県立美術館",
+  "prefecture": "島根県",
+  "handle": "shimanekenbi",
+  "source": "wikidata",
+  "url": "https://x.com/shimanekenbi"
+ },
+ {
+  "id": "wp-d535f106",
+  "name": "松江北堀美術館",
+  "prefecture": "島根県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11548167",
+  "name": "江津市水ふれあい公園水の国/MUSEUM104",
+  "prefecture": "島根県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11577460",
+  "name": "田部美術館",
+  "prefecture": "島根県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q3329561",
+  "name": "足立美術館",
+  "prefecture": "島根県",
+  "handle": "adachimuseum",
+  "source": "wikidata",
+  "url": "https://x.com/adachimuseum"
+ },
+ {
+  "id": "Q11373381",
+  "name": "井原市立平櫛田中美術館",
+  "prefecture": "岡山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11386685",
+  "name": "倉敷刀剣美術館",
+  "prefecture": "岡山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11386746",
+  "name": "倉敷市立美術館",
+  "prefecture": "岡山県",
+  "handle": "kcamsince1983",
+  "source": "site",
+  "url": "https://x.com/kcamsince1983"
+ },
+ {
+  "id": "wp-91542172",
+  "name": "備前市美術館",
+  "prefecture": "岡山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q18336747",
+  "name": "加計美術館",
+  "prefecture": "岡山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q2386994",
+  "name": "夢二郷土美術館",
+  "prefecture": "岡山県",
+  "handle": "YumejiArtMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/YumejiArtMuseum"
+ },
+ {
+  "id": "Q2977589",
+  "name": "大原美術館",
+  "prefecture": "岡山県",
+  "handle": "OharaMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/OharaMuseum"
+ },
+ {
+  "id": "Q15933226",
+  "name": "奈義町現代美術館",
+  "prefecture": "岡山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q4707582",
+  "name": "岡山市立オリエント美術館",
+  "prefecture": "岡山県",
+  "handle": "okayama_orienta",
+  "source": "wikidata",
+  "url": "https://x.com/okayama_orienta"
+ },
+ {
+  "id": "Q4677150",
+  "name": "岡山県立美術館",
+  "prefecture": "岡山県",
+  "handle": "okayama_kenbi",
+  "source": "wikidata",
+  "url": "https://x.com/okayama_kenbi"
+ },
+ {
+  "id": "wp-3e00452c",
+  "name": "岡山県総合文化センター",
+  "prefecture": "岡山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q4707602",
+  "name": "林原美術館",
+  "prefecture": "岡山県",
+  "handle": "hayashibara1964",
+  "source": "wikidata",
+  "url": "https://x.com/hayashibara1964"
+ },
+ {
+  "id": "Q6059267",
+  "name": "犬島アートプロジェクト",
+  "prefecture": "岡山県",
+  "handle": "benesse_artsite",
+  "source": "site",
+  "url": "https://x.com/benesse_artsite"
+ },
+ {
+  "id": "Q11620132",
+  "name": "華鴒大塚美術館",
+  "prefecture": "岡山県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11670668",
+  "name": "高梁市成羽美術館",
+  "prefecture": "岡山県",
+  "handle": "nariwamuseum",
+  "source": "wikidata",
+  "url": "https://x.com/nariwamuseum"
+ },
+ {
+  "id": "Q11274070",
+  "name": "なかた美術館",
+  "prefecture": "広島県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q63828",
+  "name": "ひろしま美術館",
+  "prefecture": "広島県",
+  "handle": "HiroshimaMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/HiroshimaMuseum"
+ },
+ {
+  "id": "Q11277001",
+  "name": "ふくやま美術館",
+  "prefecture": "広島県",
+  "handle": "fukuyama_bi",
+  "source": "wikidata",
+  "url": "https://x.com/fukuyama_bi"
+ },
+ {
+  "id": "Q11289011",
+  "name": "ウッドワン美術館",
+  "prefecture": "広島県",
+  "handle": "woodone_museum",
+  "source": "site",
+  "url": "https://x.com/woodone_museum"
+ },
+ {
+  "id": "Q11364934",
+  "name": "中川美術館",
+  "prefecture": "広島県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q22117727",
+  "name": "八千代の丘美術館",
+  "prefecture": "広島県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q22118199",
+  "name": "奥田元宋・小由女美術館",
+  "prefecture": "広島県",
+  "handle": "OGS_ArtMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/OGS_ArtMuseum"
+ },
+ {
+  "id": "Q11465485",
+  "name": "尾道市立美術館",
+  "prefecture": "広島県",
+  "handle": "bijutsu1",
+  "source": "wikidata",
+  "url": "https://x.com/bijutsu1"
+ },
+ {
+  "id": "Q93425",
+  "name": "広島市現代美術館",
+  "prefecture": "広島県",
+  "handle": "hiroshimamoca",
+  "source": "wikidata",
+  "url": "https://x.com/hiroshimamoca"
+ },
+ {
+  "id": "Q3330773",
+  "name": "広島県立美術館",
+  "prefecture": "広島県",
+  "handle": "H_pref",
+  "source": "wikidata",
+  "url": "https://x.com/H_pref"
+ },
+ {
+  "id": "Q17223767",
+  "name": "東広島市立美術館",
+  "prefecture": "広島県",
+  "handle": "hhmoa_twi",
+  "source": "wikidata",
+  "url": "https://x.com/hhmoa_twi"
+ },
+ {
+  "id": "wp-dbae1df9",
+  "name": "泉美術館",
+  "prefecture": "広島県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q97342261",
+  "name": "下関市立美術館",
+  "prefecture": "山口県",
+  "handle": "artshimonoseki",
+  "source": "wikidata",
+  "url": "https://x.com/artshimonoseki"
+ },
+ {
+  "id": "Q7881987",
+  "name": "山口県立美術館",
+  "prefecture": "山口県",
+  "handle": "yma_tweet",
+  "source": "wikidata",
+  "url": "https://x.com/yma_tweet"
+ },
+ {
+  "id": "Q11467091",
+  "name": "山口県立萩美術館浦上記念館",
+  "prefecture": "山口県",
+  "handle": "hagibi_tweet",
+  "source": "wikidata",
+  "url": "https://x.com/hagibi_tweet"
+ },
+ {
+  "id": "Q28690114",
+  "name": "柏原美術館",
+  "prefecture": "山口県",
+  "handle": "kashiwabaramsm",
+  "source": "wikidata",
+  "url": "https://x.com/kashiwabaramsm"
+ },
+ {
+  "id": "Q3329659",
+  "name": "大塚国際美術館",
+  "prefecture": "徳島県",
+  "handle": "OtsukaMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/OtsukaMuseum"
+ },
+ {
+  "id": "Q11489972",
+  "name": "徳島県立近代美術館",
+  "prefecture": "徳島県",
+  "handle": "tokkinby",
+  "source": "wikidata",
+  "url": "https://x.com/tokkinby"
+ },
+ {
+  "id": "Q11582282",
+  "name": "相生森林美術館",
+  "prefecture": "徳島県",
+  "handle": "aioiart",
+  "source": "wikidata",
+  "url": "https://x.com/aioiart"
+ },
+ {
+  "id": "Q11619959",
+  "name": "菘翁美術館",
+  "prefecture": "徳島県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11286501",
+  "name": "イサム・ノグチ庭園美術館",
+  "prefecture": "香川県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11337011",
+  "name": "ベネッセアートサイト直島",
+  "prefecture": "香川県",
+  "handle": "benesse_artsite",
+  "source": "wikidata",
+  "url": "https://x.com/benesse_artsite"
+ },
+ {
+  "id": "Q11337013",
+  "name": "ベネッセハウス",
+  "prefecture": "香川県",
+  "handle": "benesse_artsite",
+  "source": "site",
+  "url": "https://x.com/benesse_artsite"
+ },
+ {
+  "id": "Q11367991",
+  "name": "丸亀市猪熊弦一郎現代美術館",
+  "prefecture": "香川県",
+  "handle": "mimoca_org",
+  "source": "wikidata",
+  "url": "https://x.com/mimoca_org"
+ },
+ {
+  "id": "Q11368010",
+  "name": "丸亀平井美術館",
+  "prefecture": "香川県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11366422",
+  "name": "丸亀美術館",
+  "prefecture": "香川県",
+  "handle": "nakazubansyouen",
+  "source": "wikidata",
+  "url": "https://x.com/nakazubansyouen"
+ },
+ {
+  "id": "Q17211689",
+  "name": "四国村ギャラリー",
+  "prefecture": "香川県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q4556499",
+  "name": "地中美術館",
+  "prefecture": "香川県",
+  "handle": "benesse_artsite",
+  "source": "site",
+  "url": "https://x.com/benesse_artsite"
+ },
+ {
+  "id": "Q11522528",
+  "name": "李禹煥美術館",
+  "prefecture": "香川県",
+  "handle": "benesse_artsite",
+  "source": "site",
+  "url": "https://x.com/benesse_artsite"
+ },
+ {
+  "id": "Q17217541",
+  "name": "豊島横尾館",
+  "prefecture": "香川県",
+  "handle": "benesse_artsite",
+  "source": "site",
+  "url": "https://x.com/benesse_artsite"
+ },
+ {
+  "id": "Q2379884",
+  "name": "豊島美術館",
+  "prefecture": "香川県",
+  "handle": "benesse_artsite",
+  "source": "site",
+  "url": "https://x.com/benesse_artsite"
+ },
+ {
+  "id": "Q11667379",
+  "name": "香川県立東山魁夷せとうち美術館",
+  "prefecture": "香川県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-8d41b22c",
+  "name": "高松市塩江美術館",
+  "prefecture": "香川県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11670406",
+  "name": "高松市美術館",
+  "prefecture": "香川県",
+  "handle": "takamatsu_art_m",
+  "source": "wikidata",
+  "url": "https://x.com/takamatsu_art_m"
+ },
+ {
+  "id": "Q11315898",
+  "name": "タオル美術館ICHIHIRO",
+  "prefecture": "愛媛県",
+  "handle": "towelmuseumboy",
+  "source": "wikidata",
+  "url": "https://x.com/towelmuseumboy"
+ },
+ {
+  "id": "Q11377193",
+  "name": "今治市大三島美術館",
+  "prefecture": "愛媛県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "wp-8b5495b4",
+  "name": "今治市朝倉ふるさと美術古墳館",
+  "prefecture": "愛媛県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11377196",
+  "name": "今治市河野美術館",
+  "prefecture": "愛媛県",
+  "handle": "imabari_kouno",
+  "source": "wikidata",
+  "url": "https://x.com/imabari_kouno"
+ },
+ {
+  "id": "Q11377199",
+  "name": "今治市玉川近代美術館",
+  "prefecture": "愛媛県",
+  "handle": "imabari_tamabi",
+  "source": "wikidata",
+  "url": "https://x.com/imabari_tamabi"
+ },
+ {
+  "id": "Q11493678",
+  "name": "愛媛県美術館",
+  "prefecture": "愛媛県",
+  "handle": "ehime_art_Mus",
+  "source": "site",
+  "url": "https://x.com/ehime_art_Mus"
+ },
+ {
+  "id": "Q11672301",
+  "name": "高畠華宵大正ロマン館",
+  "prefecture": "愛媛県",
+  "handle": "kashomuseum",
+  "source": "site",
+  "url": "https://x.com/kashomuseum"
+ },
+ {
+  "id": "Q2496483",
+  "name": "高知県立美術館",
+  "prefecture": "高知県",
+  "handle": "ARTMUSEUM_Kochi",
+  "source": "wikidata",
+  "url": "https://x.com/ARTMUSEUM_Kochi"
+ },
+ {
+  "id": "Q11586698",
+  "name": "久留米市美術館",
+  "prefecture": "福岡県",
+  "handle": "KurumeCityArtMu",
+  "source": "wikidata",
+  "url": "https://x.com/KurumeCityArtMu"
+ },
+ {
+  "id": "Q148543",
+  "name": "九州国立博物館",
+  "prefecture": "福岡県",
+  "handle": "kyuhaku_koho",
+  "source": "wikidata",
+  "url": "https://x.com/kyuhaku_koho"
+ },
+ {
+  "id": "Q11370311",
+  "name": "九州産業大学美術館",
+  "prefecture": "福岡県",
+  "handle": "ksu_museum",
+  "source": "wikidata",
+  "url": "https://x.com/ksu_museum"
+ },
+ {
+  "id": "Q3297769",
+  "name": "北九州市立美術館",
+  "prefecture": "福岡県",
+  "handle": "kmma_kitakyushu",
+  "source": "site",
+  "url": "https://x.com/kmma_kitakyushu"
+ },
+ {
+  "id": "Q11576742",
+  "name": "田川市美術館",
+  "prefecture": "福岡県",
+  "handle": "tagawashibi",
+  "source": "site",
+  "url": "https://x.com/tagawashibi"
+ },
+ {
+  "id": "Q3330163",
+  "name": "福岡アジア美術館",
+  "prefecture": "福岡県",
+  "handle": "faamajibi",
+  "source": "wikidata",
+  "url": "https://x.com/faamajibi"
+ },
+ {
+  "id": "Q3073273",
+  "name": "福岡市美術館",
+  "prefecture": "福岡県",
+  "handle": "fukuoka_fam",
+  "source": "wikidata",
+  "url": "https://x.com/fukuoka_fam"
+ },
+ {
+  "id": "Q11592587",
+  "name": "福岡県立美術館",
+  "prefecture": "福岡県",
+  "handle": "fukuoka_kenbi",
+  "source": "wikidata",
+  "url": "https://x.com/fukuoka_kenbi"
+ },
+ {
+  "id": "Q22118826",
+  "name": "佐賀県立美術館",
+  "prefecture": "佐賀県",
+  "handle": "saga_hakubi",
+  "source": "site",
+  "url": "https://x.com/saga_hakubi"
+ },
+ {
+  "id": "Q11516626",
+  "name": "有田陶磁美術館",
+  "prefecture": "佐賀県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q1191845",
+  "name": "ハウステンボス",
+  "prefecture": "長崎県",
+  "handle": "HTB_official",
+  "source": "wikidata",
+  "url": "https://x.com/HTB_official"
+ },
+ {
+  "id": "Q11382536",
+  "name": "佐世保市博物館島瀬美術センター",
+  "prefecture": "長崎県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11588461",
+  "name": "祈りの丘絵本美術館",
+  "prefecture": "長崎県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11652552",
+  "name": "長崎市野口彌太郎記念美術館",
+  "prefecture": "長崎県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11652770",
+  "name": "長崎県美術館",
+  "prefecture": "長崎県",
+  "handle": "nagasaki_museum",
+  "source": "wikidata",
+  "url": "https://x.com/nagasaki_museum"
+ },
+ {
+  "id": "Q17216016",
+  "name": "つなぎ美術館",
+  "prefecture": "熊本県",
+  "handle": "tsunagiart",
+  "source": "wikidata",
+  "url": "https://x.com/tsunagiart"
+ },
+ {
+  "id": "Q17228812",
+  "name": "不知火美術館",
+  "prefecture": "熊本県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q17222013",
+  "name": "八代市立博物館未来の森ミュージアム",
+  "prefecture": "熊本県",
+  "handle": "museum8246",
+  "source": "wikidata",
+  "url": "https://x.com/museum8246"
+ },
+ {
+  "id": "wp-eae66755",
+  "name": "古代の郷美術館",
+  "prefecture": "熊本県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11425245",
+  "name": "坂本善三美術館",
+  "prefecture": "熊本県",
+  "handle": "SAKAMOTOZENZO",
+  "source": "wikidata",
+  "url": "https://x.com/SAKAMOTOZENZO"
+ },
+ {
+  "id": "Q17213009",
+  "name": "島田美術館",
+  "prefecture": "熊本県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q17225954",
+  "name": "湯前まんが美術館",
+  "prefecture": "熊本県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11568021",
+  "name": "熊本市現代美術館",
+  "prefecture": "熊本県",
+  "handle": "camk_kumamoto",
+  "source": "wikidata",
+  "url": "https://x.com/camk_kumamoto"
+ },
+ {
+  "id": "Q4556482",
+  "name": "熊本県立美術館",
+  "prefecture": "熊本県",
+  "handle": "kumamoto_kenbi",
+  "source": "wikidata",
+  "url": "https://x.com/kumamoto_kenbi"
+ },
+ {
+  "id": "Q17191286",
+  "name": "芦北町立星野富弘美術館",
+  "prefecture": "熊本県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q24874639",
+  "name": "別府市美術館",
+  "prefecture": "大分県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11432755",
+  "name": "大分市美術館",
+  "prefecture": "大分県",
+  "handle": "OitaArtMuseum",
+  "source": "wikidata",
+  "url": "https://x.com/OitaArtMuseum"
+ },
+ {
+  "id": "Q11432891",
+  "name": "大分県立美術館",
+  "prefecture": "大分県",
+  "handle": "OPAM_OPAM",
+  "source": "wikidata",
+  "url": "https://x.com/OPAM_OPAM"
+ },
+ {
+  "id": "Q3298536",
+  "name": "宮崎県立美術館",
+  "prefecture": "宮崎県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11643539",
+  "name": "都城市立美術館",
+  "prefecture": "宮崎県",
+  "handle": "mcma1981",
+  "source": "wikidata",
+  "url": "https://x.com/mcma1981"
+ },
+ {
+  "id": "Q11673182",
+  "name": "高鍋町美術館",
+  "prefecture": "宮崎県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q25045409",
+  "name": "長島美術館",
+  "prefecture": "鹿児島県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q10855706",
+  "name": "霧島アートの森",
+  "prefecture": "鹿児島県",
+  "handle": "open_air_museum",
+  "source": "wikidata",
+  "url": "https://x.com/open_air_museum"
+ },
+ {
+  "id": "Q10854956",
+  "name": "鹿児島市立美術館",
+  "prefecture": "鹿児島県",
+  "handle": "kcmoa",
+  "source": "wikidata",
+  "url": "https://x.com/kcmoa"
+ },
+ {
+  "id": "Q11383094",
+  "name": "佐喜眞美術館",
+  "prefecture": "沖縄県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q4617100",
+  "name": "沖縄県立博物館・美術館",
+  "prefecture": "沖縄県",
+  "handle": "OkiMu_chan",
+  "source": "wikidata",
+  "url": "https://x.com/OkiMu_chan"
+ },
+ {
+  "id": "wp-3e96c226",
+  "name": "沖縄県立芸術大学付属図書・芸術資料館",
+  "prefecture": "沖縄県",
+  "handle": null,
+  "source": null,
+  "url": null
+ },
+ {
+  "id": "Q11558303",
+  "name": "浦添市美術館",
+  "prefecture": "沖縄県",
+  "handle": "urasoeartmuseum",
+  "source": "wikidata",
+  "url": "https://x.com/urasoeartmuseum"
+ },
+ {
+  "id": "wp-04a0237f",
+  "name": "読谷村立美術館",
+  "prefecture": "沖縄県",
+  "handle": null,
+  "source": null,
+  "url": null
+ }
+]

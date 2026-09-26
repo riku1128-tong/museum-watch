@@ -1,11 +1,11 @@
 {
-  "_説明": "アフィリエイトの提携先。enabled を true にした提携先だけがページに表示される。url の {name} {prefecture} {municipality} {title} は館・展覧会の情報に置き換わる（scripts/affiliate.py を参照）。提携が決まったら url を ASP の発行したリンクに差し替える。",
+  "_説明": "アフィリエイトの提携先。enabled を true にした提携先だけがページに表示される。url の {name} {prefecture} {municipality} {title} は館・展覧会の情報に、{placement}（置き場所）{museum_id}（館の ID）はサブ ID 用の値に置き換わる（scripts/affiliate.py を参照）。ASP のリンクにサブ ID の欄があれば {placement}_{museum_id} を入れておくと、置き場所・館ごとの成約が ASP の管理画面で見られる。提携が決まったら url を ASP の発行したリンクに差し替える。",
   "partners": [
     {
       "id": "hotel",
       "label": "周辺の宿を探す",
       "enabled": false,
-      "placements": ["route", "museum"],
+      "placements": ["route", "museum", "area"],
       "url": "https://example.com/hotel-search?keyword={municipality}"
     },
     {

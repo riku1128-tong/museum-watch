@@ -140,3 +140,24 @@ def test_partial_free_day_lists_targets_and_all_wins():
         {"from": "2026-11-03", "to": "2026-11-03", "scope": "all", "reason": "文化の日"}])
     assert judge(M, d, date(2026, 10, 1), date(2026, 9, 30))["free"] == {"scope": "partial", "reason": "都民の日", "targets": ["庭園"]}
     assert judge(M, d, date(2026, 11, 3), date(2026, 11, 2))["free"]["scope"] == "all"
+
+
+# 観光地・アフィリエイトの差し込み
+from affiliate import fill  # noqa: E402
+from areas import area_of, place_name  # noqa: E402
+
+
+def test_area_of_uses_distance_and_prefecture():
+    pola = {"prefecture": "神奈川県", "lat": 35.2437, "lng": 139.0513, "municipality": "箱根町"}
+    assert area_of(pola) == "hakone" and place_name(pola) == "箱根"
+    # 範囲の中でも都道府県が違えば入れない
+    assert area_of(pola | {"prefecture": "静岡県"}) is None
+    # 座標が無い館は市区町村で代用する
+    assert area_of({"prefecture": "東京都", "lat": None, "lng": None}) is None
+    assert place_name({"prefecture": "東京都", "lat": None, "lng": None, "municipality": "港区"}) == "港区"
+
+
+def test_fill_subid_placeholders():
+    m = {"id": "Q1", "name": "ポーラ美術館", "prefecture": "神奈川県", "lat": 35.2437, "lng": 139.0513}
+    url = fill("https://x.test/?kw={municipality}&sid={placement}_{museum_id}", m, None, "museum")
+    assert url == "https://x.test/?kw=%E7%AE%B1%E6%A0%B9&sid=museum_Q1"

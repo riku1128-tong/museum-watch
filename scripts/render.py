@@ -14,6 +14,7 @@ from datetime import date, datetime, timedelta
 
 import jpholiday
 
+from areas import place_name
 from common import DATA, DAILY, DETAILS, MUSEUMS_JSON, PREFS, REGIONS, ROOT, SITE, now_jst, read_json, write_json
 
 WEEKDAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
@@ -213,6 +214,7 @@ def museum_meta(m: dict, det: dict | None) -> dict:
     return {
         "id": m["id"], "name": m["name"], "category": m["category"], "prefecture": m["prefecture"],
         "municipality": m.get("municipality"),
+        "place": place_name(m),  # 宿の検索（アフィリエイト）に使う地名
         "url": (det or {}).get("official_url") or m.get("official_url"),
         "address": (det or {}).get("address"),
         "wiki": f"https://ja.wikipedia.org/wiki/{m['wiki_title']}",

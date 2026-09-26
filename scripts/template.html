@@ -347,8 +347,9 @@ function render() {
 function affHtml(placement, m) {
   const ps = DATA.affiliates || [];
   if (!ps.length) return "";
-  const fill = (u) => u.replace(/\{(name|prefecture|municipality|title)\}/g, (_, k) =>
-    encodeURIComponent({ name: m.name, prefecture: m.prefecture, municipality: m.municipality || m.prefecture, title: m.name }[k]));
+  const fill = (u) => u.replace(/\{(name|prefecture|municipality|title|placement|museum_id)\}/g, (_, k) =>
+    encodeURIComponent({ name: m.name, prefecture: m.prefecture, municipality: m.place || m.municipality || m.prefecture, title: m.name,
+                         placement, museum_id: m.id }[k]));
   return `<aside class="aff-box" aria-label="広告"><span class="pr">PR</span><div class="row">${ps.map((p) =>
     `<a class="aff btn ghost" href="${esc(fill(p.url))}" target="_blank" rel="sponsored noopener" data-partner="${esc(p.id)}"
       data-placement="${placement}" data-museum-id="${esc(m.id)}" data-museum-name="${esc(m.name)}">${esc(p.label)}</a>`).join("")}</div></aside>`;

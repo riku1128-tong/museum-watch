@@ -19,6 +19,10 @@
 ## 収益化の準備
 - 特集ページ（`docs/f/`: 会期終了間近・これから始まる・無料開放日・夜遅くまで）と運営者情報（`about.html`）・免責事項（`disclaimer.html`）は `scripts/extras.py` が毎回作る。
 - アフィリエイトの枠は `data/affiliates.json` の提携先を `enabled: true` にしたときだけ出る（行き方シート・館のページ・展覧会のページ）。「PR」表示と `rel="sponsored"` を付け、クリックは GA4 の `affiliate_click`（`partner` / `placement` / `museum_id` / `museum_name`）で計測する。
+- 提携先の URL には `{placement}`（置き場所）と `{museum_id}` も差し込める。ASP のサブ ID に入れて、置き場所・館ごとの成約を見る。宿の検索語 `{municipality}` は観光地の中なら地域名（`areas.place_name`）。
+- 観光地（`scripts/areas.py` の `AREAS`。中心の緯度・経度と半径で決める）ごとに `docs/f/area-<key>.html`（館の一覧・日ごとの開館状況・開催中の企画展・宿の枠 `area`）を作る。まだ巡回していない館は観光地の館から先に読む（`plan_run.py`）。
+- お問い合わせフォーム（Google フォーム）は `data/contact.json` の `form_url` に入れると、運営者情報のページ・各館と展覧会のページ（「掲載内容の誤りを報告する」）・プライバシーポリシーに出る（`scripts/contact.py`）。未設定なら GitHub の Issues のまま。
+- `scripts/check_links.py` が有効な提携先とお問い合わせフォームのリンク切れを確かめる（毎週の巡回の 4.5）。NG でも自動では無効にしない。
 - 広告を入れる前の数字は `private/metrics-baseline.md`（git に入れない）に控えてある。
 
 ## X（@museum__watch）への投稿

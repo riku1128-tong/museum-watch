@@ -11,6 +11,7 @@ import json
 from datetime import datetime
 
 from common import CRAWL_PRIORITY, DETAILS, MUSEUMS_JSON, now_jst, read_json
+from areas import area_of
 
 FULL_EVERY_DAYS = 28  # 週 1 回の巡回では、4 週に 1 回だけ全体を読み直す
 CLOSED_RECHECK_DAYS = 30
@@ -51,7 +52,7 @@ def main() -> None:
     ap.add_argument("--only", default="", help="カンマ区切りの id だけを対象にする")
     ap.add_argument("--mode", choices=["full", "light"], help="判定を無視してこのモードにする")
     ap.add_argument("--max-new", type=int, default=100,
-                    help="まだ一度も巡回していない館を 1 回に何館まで読むか（関東 → 近い地域 → 都道府県コード順）")
+                    help="まだ一度も巡回していない館を 1 回に何館まで読むか（観光地 → 関東 → 近い地域 → 都道府県コード順）")
     ap.add_argument("--retry", action="store_true",
                     help="今日確認したのに情報が不十分な館（時間が空・状態不明・confidence low）と未取得の館だけを 1 館ずつ返す")
     args = ap.parse_args()
@@ -80,8 +81,10 @@ def main() -> None:
                       "wiki_title": m["wiki_title"], "mode": mode, "why": why,
                       "detail_path": f"data/details/{m['id']}.json"})
 
-    # 初回の館は 1 回あたり max_new 館まで。残りは次回以降に回す
-    fresh = sorted((i for i in items if i["why"] == "初回"), key=lambda i: CRAWL_PRIORITY.index(i["prefecture"]))
+    # 初回の館は 1 回あたり max_new 館まで。残りは次回以降に回す。観光地（areas.AREAS）の館を先に読む（宿の紹介につながるため）
+    in_area = {m["id"] for m in read_json(MUSEUMS_JSON)["museums"] if area_of(m)}
+    fresh = sorted((i for i in items if i["why"] == "初回"),
+                   key=lambda i: (i["id"] not in in_area, CRAWL_PRIORITY.index(i["prefecture"])))
     for i in fresh[args.max_new:]:
         i["mode"], i["why"] = "skip", "順番待ち"
 

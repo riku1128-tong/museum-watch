@@ -1,0 +1,5 @@
+{
+  "_説明": "お問い合わせフォーム（Google フォーム）の設定。form_url に回答用の URL（https://docs.google.com/forms/d/e/…/viewform）を入れると、運営者情報のページと各館・展覧会のページにフォームへのリンクが出る。prefill_entry は「事前入力した URL を取得」で出る entry.〇〇（件名の欄）。空なら事前入力しない。scripts/contact.py を参照。",
+  "form_url": "",
+  "prefill_entry": ""
+}

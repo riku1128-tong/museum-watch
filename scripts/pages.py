@@ -18,6 +18,7 @@ from html import escape
 
 from common import GA_ID, PREFS, REGIONS, SITE, SITE_URL
 from affiliate import links_html
+from contact import form_url, report_html
 from render import exhibition_price, museum_price
 
 WD_JA = {"mon": "月", "tue": "火", "wed": "水", "thu": "木", "fri": "金", "sat": "土", "sun": "日", "holiday": "祝"}
@@ -256,8 +257,12 @@ def calendar_table(results: list[tuple[dict, dict]]) -> str:
         note = " ".join(x for x in [r.get("reason") or "", FREE_SCOPE[free["scope"]] if free else ""] if x)
         rows.append(f'<tr data-date="{day["date"]}" class="st-{r["status"]}{" free" if free and r["status"] == "open" else ""}"><th>{label}</th>'
                     f'<td>{STATUS_JA[r["status"]]}</td><td>{hours}</td><td>{escape(note)}</td></tr>')
-    # ページは週 1 回しか作り直さないので、開いた日より前の行は隠し、その日の行に「今日」を付ける
-    script = """<script>
+    return (f'<table class="cal"><thead><tr><th>日付</th><th>状況</th><th>時間</th><th>メモ</th></tr></thead><tbody>{"".join(rows)}</tbody></table>'
+            + CAL_SCRIPT)
+
+
+# ページは週 1 回しか作り直さないので、開いた日より前の行（table.cal tr[data-date]）は隠し、その日の行に「今日」を付ける
+CAL_SCRIPT = """<script>
   (() => {
     const t = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
     for (const tr of document.querySelectorAll("table.cal tr[data-date]")) {
@@ -266,8 +271,6 @@ def calendar_table(results: list[tuple[dict, dict]]) -> str:
     }
   })();
 </script>"""
-    return (f'<table class="cal"><thead><tr><th>日付</th><th>状況</th><th>時間</th><th>メモ</th></tr></thead><tbody>{"".join(rows)}</tbody></table>'
-            + script)
 
 
 def exhibition_item(m: dict, e: dict, today: date, link: bool = True) -> str:
@@ -327,7 +330,7 @@ def museum_page(m: dict, det: dict | None, cal: list[tuple[dict, dict]], today: 
         body += f'<section><h2>開催中の展覧会</h2><ul class="ex">{"".join(exhibition_item(m, e, today) for e in current)}</ul></section>'
     if upcoming:
         body += f'<section><h2>これからの展覧会</h2><ul class="ex">{"".join(exhibition_item(m, e, today) for e in upcoming)}</ul></section>'
-    body += f'<p class="checked">公式サイトの確認: {det["checked_at"][:10]}</p>'
+    body += f'<p class="checked">公式サイトの確認: {det["checked_at"][:10]}</p>' + report_html(f"{m['name']}（{m['id']}）")
 
     titles = "・".join(e["title"] for e in current[:2])
     desc = (f"{m['name']}（{place}）の開館時間・休館日・料金（大人一般{' ' + yen(price) if price is not None else ''}）と、"
@@ -358,7 +361,8 @@ def exhibition_page(m: dict, det: dict, e: dict, today: date) -> str:
             + (f'<section class="ai"><h2>この展覧会のおすすめポイント</h2><p>{escape(e["recommend"])}</p>'
                f'<p class="ai-note">AI による要約（公式の紹介文をもとに作成）</p></section>' if e.get("recommend") else "")
             + f'<section><h2>展覧会の情報</h2><dl class="info">{dl}</dl></section>' + links_html("exhibition", m, e)
-            + f'<p><a href="../m/{m["id"]}.html">{escape(m["name"])}の開館カレンダー・ほかの展覧会を見る</a></p>')
+            + f'<p><a href="../m/{m["id"]}.html">{escape(m["name"])}の開館カレンダー・ほかの展覧会を見る</a></p>'
+            + report_html(f"{m['name']}「{e['title']}」"))
     desc = (f"{e['title']}（{m['name']}）の会期{md(e['start'], today)}〜{md(e['end'], today)}、"
             f"料金{(' ' + yen(price)) if price is not None else ''}、開館時間と休館日。" + (e.get("recommend") or e.get("summary") or ""))
     return page(title=f"{e['title']}｜{m['name']}｜会期・料金・開館時間", desc=desc[:160],
@@ -387,6 +391,8 @@ def prefecture_page(pref: str, museums: list[dict], details: dict, today_results
 
 def privacy_page() -> str:
     """プライバシーポリシー（アクセス解析・端末間同期・位置検索・外部サービスへの送信）。"""
+    form_row = ("<dt>Google フォーム</dt><dd>お問い合わせフォームを使ったとき（入力した内容が Google に送られます）</dd>"
+                if form_url() else "")
     body = """<h1>プライバシーポリシー</h1>
 <p class="lead">美術館ウォッチ（以下「本サイト」）での情報の取り扱いについて説明します。</p>
 <section><h2>アクセス解析（Google アナリティクス）</h2>
@@ -420,14 +426,16 @@ Google アナリティクスは Cookie などを使い、閲覧したページ�
 <dt>HeartRails Express・国土地理院</dt><dd>出発地の位置の検索（出発地を保存したとき）</dd>
 <dt>Google マップ</dt><dd>「行き方」から経路を開いたとき（出発地と行き先が Google マップに渡ります）</dd>
 <dt>広告の提携先</dt><dd>「PR」と表示したリンクを押したとき（提携先が Cookie などで紹介元を記録することがあります）</dd>
+{form_row}
 </dl></section>
 <section><h2>掲載情報について</h2>
 <p>開館時間・休館日・料金・展覧会の情報は、各館の公式サイトなどから自動で集めたもので、正確さを保証するものではありません。
 お出かけ前に必ず公式サイトでご確認ください。</p></section>
 <section><h2>お問い合わせ・改定</h2>
-<p>お問い合わせは <a href="https://github.com/riku1128-tong/museum-watch/issues" target="_blank" rel="noopener">GitHub の Issues</a> へお願いします。
+<p>お問い合わせは<a href="about.html">運営者情報・お問い合わせ</a>のページの窓口へお願いします。
 このポリシーは必要に応じて改定し、このページに掲載します。</p>
 <p class="checked">制定: 2026年9月24日</p></section>"""
+    body = body.replace("{form_row}", form_row)
     return page(title="プライバシーポリシー｜美術館ウォッチ", desc="美術館ウォッチでのアクセス解析・端末間同期・外部サービスへの送信など、情報の取り扱いについて。",
                 path="privacy.html", body=body, depth=0)
 

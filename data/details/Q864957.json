@@ -1,6 +1,6 @@
 {
   "id": "Q864957",
-  "checked_at": "2026-09-24T00:32:52+09:00",
+  "checked_at": "2026-09-28T23:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -12,7 +12,8 @@
     "https://www.tobikan.jp/exhibition/index.html",
     "https://www.tobikan.jp/exhibition/2026_britishmuseum.html",
     "https://www.tobikan.jp/information/index.html",
-    "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607"
+    "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607",
+    "https://www.tobikan.jp/outline/architecture2.html"
   ],
   "regular_hours": [
     {
@@ -174,8 +175,15 @@
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "定休日は第1・第3月曜（祝日・振替休日の場合は翌平日）。スキーマで第n曜日を表せないため、2027-01 までの該当日を special_closures に展開した（次回以降も追加が必要）。特別展・企画展は毎週月曜休室（祝日は開室、翌平日休室）、会期中の金曜は20:00まで。2026-09-18 付お知らせ「大英博物館展 開室時間の変更について」は WebFetch 上限のため未読（トップに 9:30～21:00 の表示あり）。展覧会の URL は一覧ページの相対リンクから推定したもので、/exhibition/ 配下かは未確認。",
+  "notes": "定休日は第1・第3月曜（祝日・振替休日の場合は翌平日）。スキーマで第n曜日を表せないため、2027-01 までの該当日を special_closures に展開した（次回以降も追加が必要）。特別展・企画展は毎週月曜休室（祝日は開室、翌平日休室）、会期中の金曜は20:00まで。2026-09-18 付お知らせ「大英博物館展 開室時間の変更について」は WebFetch 上限のため未読（トップに 9:30～21:00 の表示あり）。展覧会の URL は一覧ページの相対リンクから推定したもので、/exhibition/ 配下かは未確認。常設のコレクションを持たず観覧料は展覧会ごとに異なるため adult_price は null。お知らせ一覧を確認したが臨時休館・時間変更の新着なし。",
   "confidence": "medium",
+  "adult_price": null,
+  "access": [
+    {"station": "上野", "lines": "JR", "exit": "公園改札", "walk_min": 7},
+    {"station": "上野", "lines": "東京メトロ銀座線・日比谷線", "exit": "7番出口", "walk_min": 10},
+    {"station": "京成上野", "lines": "京成電鉄", "exit": null, "walk_min": 10}
+  ],
+  "highlights": "1975年竣工、前川國男設計のモダニズム建築。赤茶色の打込みタイルの外壁と、中央の広場を囲むように展示棟・公募展示室・文化活動棟を配置した構成が特徴。サンクンガーデンには東京大空襲を生き延びた大イチョウが茂り、常設のコレクションは持たず特別展や公募団体展の会場として親しまれている。",
   "free_days": [
     {
       "from": "2026-10-01",

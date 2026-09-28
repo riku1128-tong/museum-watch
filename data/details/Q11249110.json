@@ -1,6 +1,6 @@
 {
   "id": "Q11249110",
-  "checked_at": "2026-09-24T00:43:53+09:00",
+  "checked_at": "2026-09-29T00:10:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -12,8 +12,8 @@
     "https://www.museum.or.jp/museum/13940"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00"},
-    {"days": ["fri"], "open": "10:00", "close": "20:00"}
+    {"days": ["mon", "wed", "thu", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
+    {"days": ["fri", "sat"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
   ],
   "closed_weekdays": ["tue"],
   "holiday_rule": "open",
@@ -27,7 +27,8 @@
       "url": "https://www.suntory.co.jp/sma/exhibition/2026_3/index.html",
       "kind": "special",
       "summary": "小林一三が集めた逸翁美術館コレクションから古筆切・茶道具・与謝蕪村と呉春の絵画などの名品を紹介",
-      "admission": "一般 1,700円"
+      "admission": "一般 1,700円",
+      "adult_price": 1700
     },
     {
       "title": "法華経の美術（仮称）",
@@ -36,10 +37,17 @@
       "url": null,
       "kind": "special",
       "summary": "法華経にかかわる美術を紹介する展覧会（仮称）",
-      "admission": null
+      "admission": null,
+      "adult_price": null
     }
   ],
+  "adult_price": null,
+  "access": [
+    {"station": "六本木", "lines": "都営大江戸線", "exit": "8番出口", "walk_min": 0, "note": "出口8よりガレリア直結"},
+    {"station": "六本木", "lines": "東京メトロ日比谷線", "exit": null, "walk_min": null, "note": "地下通路で直結"},
+    {"station": "乃木坂", "lines": "東京メトロ千代田線", "exit": "3番出口", "walk_min": 3, "note": null}
+  ],
   "closed_between_exhibitions": true,
-  "notes": "公式サイト（suntory.co.jp/sma）は WebFetch・curl とも 403 で読めず、サントリー美術館のプレスリリース（共同通信PRワイヤー）とインターネットミュージアムで確認。火曜休館（9/22・11/3 は18時まで開館）、年末年始・展示替期間休館。蕪村・呉春展の会期中は金曜と 11/7（土）が20時まで、10/31（土）は六本木アートナイトで延長（終了時刻は未確認）。展示替：前期 9/16〜10/12、後期 10/14〜11/8。インターネットミュージアムには「金・土は20:00まで」とあるが、今回の展覧会の告知は金曜のみのため金曜だけ延長にしている。",
+  "notes": "公式サイト（suntory.co.jp/sma）は WebFetch・curl とも 403 で読めず、サントリー美術館のプレスリリース（共同通信PRワイヤー）とインターネットミュージアムで確認。火曜休館、年末年始・展示替期間休館。今回インターネットミュージアムを再確認したところ「金・土は20:00まで」と明記されていたため、前回の「金曜だけ延長」の扱いを訂正し、金・土とも20:00までとした（最終入館は閉館30分前）。常設展が無く展覧会ごとに料金が異なるため adult_price は null。アクセスは都営大江戸線六本木駅8番出口直結・東京メトロ日比谷線六本木駅地下通路直結・東京メトロ千代田線乃木坂駅3番出口徒歩3分。",
   "confidence": "medium"
 }

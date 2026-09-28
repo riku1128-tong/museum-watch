@@ -1,0 +1,44 @@
+{
+  "id": "Q18336747",
+  "checked_at": "2026-09-28T23:27:31+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kake.ac.jp/kakebi/",
+  "address": "〒710-0046 岡山県倉敷市中央1-4-7(美観地区)",
+  "source_urls": [
+    "https://www.kake.ac.jp/kakebi/",
+    "https://www.kake.ac.jp/kakebi/acsses%20guide.html",
+    "https://www.kusa.ac.jp/kakebi/",
+    "https://www.kusa.ac.jp/kakebi/access/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "児島虎次郎研究『虎次郎物語－学生時代－』展",
+      "start": "2026-09-20",
+      "end": "2026-10-12",
+      "url": "https://www.kusa.ac.jp/kakebi/",
+      "kind": "special",
+      "summary": "同館所蔵作家・児島虎次郎の学生時代に焦点をあてた研究展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "access": [
+    {"station": "倉敷", "lines": "JR山陽本線・伯備線", "exit": null, "walk_min": 15, "note": "美観地区内。倉敷駅から南へ徒歩約15分(公式サイトに具体的な徒歩分数の記載は無く、二次情報による概算)。"}
+  ],
+  "highlights": "倉敷美観地区にある倉敷芸術科学大学附属の美術館。同大学ゆかりの洋画家・児島虎次郎の研究展示や、学生・卒業生らの作品展を中心に紹介している。",
+  "closed_between_exhibitions": false,
+  "notes": "観覧料の記載を公式サイト・利用案内ページのいずれにも確認できず(adult_priceはnull)。休館日は「毎週月曜日(祝日は除く)」で、祝日の月曜は開館すると解釈しholiday_ruleはopenとした。アクセスの徒歩分数は公式サイトに記載が無く二次情報による概算のため、access.note に明記。",
+  "confidence": "medium"
+}

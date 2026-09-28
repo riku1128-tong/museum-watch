@@ -1,6 +1,6 @@
 {
   "id": "Q3329573",
-  "checked_at": "2026-09-24T00:49:52+09:00",
+  "checked_at": "2026-09-28T23:27:38+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,7 +10,8 @@
     "https://www.seikado.or.jp/",
     "https://www.seikado.or.jp/museumguide/",
     "https://www.seikado.or.jp/current_exhibition",
-    "https://www.seikado.or.jp/next_exhibition"
+    "https://www.seikado.or.jp/next_exhibition",
+    "https://www.seikado.or.jp/guide/museumguide/"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
@@ -30,6 +31,7 @@
       "kind": "special",
       "summary": "館蔵の河井寬次郎作品51点で創作の源泉をさぐる。国宝《曜変天目（稲葉天目）》も出品",
       "admission": "一般 1,500円",
+      "adult_price": 1500,
       "hours": [
         {"days": ["wed", "holiday"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-09-23", "to": "2026-09-23"},
         {"days": ["wed"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-10-28", "to": "2026-10-28"},
@@ -44,6 +46,7 @@
       "kind": "special",
       "summary": "伎楽面の模作や松浦武四郎旧蔵の木鬼面、溝口家旧蔵の能面群で仮面に魅かれた人々の眼差しを辿る",
       "admission": "一般 1,500円",
+      "adult_price": 1500,
       "hours": [
         {"days": ["wed"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-11-25", "to": "2026-11-25"},
         {"days": ["wed"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-12-23", "to": "2026-12-23"},
@@ -52,6 +55,12 @@
     }
   ],
   "closed_between_exhibitions": true,
-  "notes": "会場は静嘉堂@丸の内（明治生命館1階）。休館日は「月曜日（祝休日は開館し翌平日休館）、展示替期間、年末年始など」。第4水曜などに夜間開館（展覧会ページ記載）。民藝SHOCK!!展の休館日に9/24（木）・10/13（火）を明記。THE MASKS展は前期11/21〜12/20、後期12/22〜1/17。",
+  "adult_price": null,
+  "access": [
+    {"station": "二重橋前", "lines": "東京メトロ千代田線", "exit": "3", "walk_min": 0, "note": "3番出口直結"},
+    {"station": "東京", "lines": "JR各線", "exit": "丸の内南口", "walk_min": 5},
+    {"station": "有楽町", "lines": "JR各線", "exit": "国際フォーラム口", "walk_min": 5}
+  ],
+  "notes": "会場は静嘉堂@丸の内（明治生命館1階）。休館日は「月曜日（祝休日は開館し翌平日休館）、展示替期間、年末年始など」。第4水曜などに夜間開館（展覧会ページ記載）。民藝SHOCK!!展の休館日に9/24（木）・10/13（火）を明記。THE MASKS展は前期11/21〜12/20、後期12/22〜1/17。常設のコレクション展示は無く企画展のみの運営のため、館の adult_price は null にし、各展覧会側に1,500円を入れた。",
   "confidence": "high"
 }

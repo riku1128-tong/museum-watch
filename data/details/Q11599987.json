@@ -1,0 +1,55 @@
+{
+  "id": "Q11599987",
+  "checked_at": "2026-09-28T23:50:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.nichido-museum.or.jp/",
+  "address": "〒309-1611 茨城県笠間市笠間978-4",
+  "source_urls": [
+    "https://www.nichido-museum.or.jp/",
+    "https://www.nichido-museum.or.jp/information/",
+    "https://www.nichido-museum.or.jp/event-2/",
+    "https://www.nichido-museum.or.jp/french/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30", "from": "2026-03-01", "to": "2026-11-30"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:30", "last_entry": "16:00", "from": "2026-12-01", "to": "2027-02-28"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "鴨居 玲　―カメラが捉えた画家の素顔―",
+      "start": "2026-10-03",
+      "end": "2026-12-20",
+      "url": "https://www.nichido-museum.or.jp/event-2/",
+      "kind": "special",
+      "summary": "写真家が捉えた画家・鴨居玲の素顔を紹介する企画展",
+      "recommend": "波乱の画業で知られる鴨居玲を、公表されてこなかった写真という視点から捉え直す珍しい企画展。人物像に迫る写真と代表作を合わせて見られる",
+      "admission": "大人1,300円／65歳以上1,000円／大学・高校生900円／中学生300円／小学生無料",
+      "adult_price": 1300
+    },
+    {
+      "title": "フランス館 常設展示（印象派・エコール・ド・パリ）",
+      "start": "2026-09-28",
+      "end": "2027-09-28",
+      "url": "https://www.nichido-museum.or.jp/french/",
+      "kind": "collection",
+      "summary": "ドガ、モネ、ルノワール、ゴッホ、セザンヌ、マティス、ピカソ、シャガール、藤田嗣治らを常設展示",
+      "recommend": null,
+      "admission": "大人1,300円",
+      "adult_price": 1300
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": 1300,
+  "access": [
+    {"station": "友部", "lines": "JR常磐線", "exit": null, "walk_min": null, "note": "友部駅からバスで「道の駅かさま」乗り換え「日動美術館入口」まで約45分。品川・上野駅から特急ときわで友部駅まで約1時間30分"}
+  ],
+  "highlights": "笠間の高台に立つ美術館で、フランス館ではドガやモネ、セザンヌ、マティス、ピカソに加え藤田嗣治らエコール・ド・パリの画家の作品を展示。日本館・野外彫刻庭園・企画展示館も備え、創設者ゆかりの蒔絵箪笥を紹介する記念室もある",
+  "notes": "2026年7月25日〜9月27日開催の「さかなクンのギョ苦楽展」は会期終了のため掲載していない。次回企画展「鴨居玲」の開館時間・休館日は現行の利用案内どおり（企画展固有の変更なし）。年末年始休館の具体的日付は未確認。",
+  "confidence": "high"
+}

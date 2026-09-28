@@ -1,6 +1,6 @@
 {
   "id": "Q728781",
-  "checked_at": "2026-09-24T00:49:52+09:00",
+  "checked_at": "2026-09-29T00:15:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,6 +10,12 @@
     "https://www.eiseibunko.com/",
     "https://www.eiseibunko.com/exhibition.html",
     "https://www.eiseibunko.com/traffic.html"
+  ],
+  "adult_price": 1000,
+  "access": [
+    {"station": "早稲田", "lines": "都電荒川線", "exit": null, "walk_min": 10, "note": null},
+    {"station": "江戸川橋", "lines": "東京メトロ有楽町線", "exit": "1a", "walk_min": 15, "note": null},
+    {"station": "早稲田", "lines": "東京メトロ東西線", "exit": "3a", "walk_min": 15, "note": "JR目白駅・副都心線雑司が谷駅からも都営バス「白61 新宿駅西口」行きで「目白台三丁目」下車徒歩5分"}
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:30", "last_entry": "16:00"}
@@ -28,7 +34,8 @@
       "url": "https://www.eiseibunko.com/exhibition.html",
       "kind": "special",
       "summary": "秋季展。白隠の作品から細川護立コレクションのはじまりを紹介（前期10/3〜11/3、後期11/6〜11/29）",
-      "admission": "一般 1,000円"
+      "admission": "一般 1,000円",
+      "adult_price": 1000
     }
   ],
   "closed_between_exhibitions": true,

@@ -1,0 +1,71 @@
+{
+  "id": "Q11436507",
+  "checked_at": "2026-09-28T23:38:55+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.ohimuseum.com/",
+  "address": "〒920-0911 石川県金沢市橋場町2-17",
+  "source_urls": [
+    "https://ohimuseum.com/",
+    "https://ohimuseum.com/access",
+    "https://ohimuseum.com/exhibition",
+    "https://ohimuseum.com/information/",
+    "https://ohimuseum.com/information/2261/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-08-17",
+      "to": "2026-10-20",
+      "reason": "空調ならびにメンテナンス改修工事のため臨時休館（期間中も仮設ギャラリーでの作品鑑賞・邸内茶室での呈茶は可）"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "空中茶盌",
+      "start": "2026-02-21",
+      "end": "2027-09-28",
+      "url": "https://ohimuseum.com/exhibition",
+      "kind": "collection",
+      "summary": "大樋美術館2階での展示。終了日は未公表（通年）",
+      "recommend": null,
+      "admission": "一般 1,000円（呈茶付 2,000円）",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "金沢",
+      "lines": "JR各線",
+      "exit": "兼六園口（東口）",
+      "walk_min": null,
+      "note": "北鉄バスで約15分、「橋場町」下車徒歩1分以内。老舗料亭「金城楼」隣"
+    }
+  ],
+  "highlights": "江戸時代から続く大樋焼の窯元敷地内に立つ美術館。初代から現代までの歴代作品や加賀藩ゆかりの茶道具を三部屋でたどれる。勅使河原宏が手がけた前庭「風庭」や陶壁も見どころで、ミシュランガイドで個人美術館として星を獲得した実力派。",
+  "closed_between_exhibitions": false,
+  "notes": "2026年8月17日〜10月20日は空調・メンテナンス改修工事のため臨時休館（special_closuresに反映済み、公式 https://ohimuseum.com/information/2261/ より）。休館日は「年中無休」、開館時間は「9:00〜17:00」と公式アクセスページで確認（最終入館の記載なし、前回値の16:30は根拠不明のため削除）。観覧料は2026.03.30の価格改定で一般1,000円（呈茶付2,000円）に変更（公式アクセスページで確認）。「空中茶盌」展（2階常設）は会期終了日の公表なし、通年展示として end を今日から1年後にした。最寄りは鉄道駅でなく北鉄バス「橋場町」のため、参考として金沢駅からのバスアクセスを access に記載。",
+  "confidence": "high"
+}

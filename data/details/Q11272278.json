@@ -1,0 +1,27 @@
+{
+  "id": "Q11272278",
+  "checked_at": "2026-09-28T23:32:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.tsukuba.museum.ibk.ed.jp/",
+  "address": "茨城県つくば市吾妻2-8 つくば文化会館アルス内",
+  "source_urls": [
+    "https://www.tsukuba.museum.ibk.ed.jp/guide.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "closed_between_exhibitions": false,
+  "access": [
+    {"station": "つくば", "lines": "つくばエクスプレス", "exit": null, "walk_min": null, "note": "駅を降りてすぐの中央公園に隣接（具体的な徒歩分数の記載なし）"}
+  ],
+  "notes": "貸しギャラリー専門の美術館（茨城県近代美術館の分館）で、館主催の企画展は行っておらず、外部団体・個人による展覧会利用の場。基本入館は無料だが「主催者の都合により有料の場合があります」とのことで、個別の展示情報は追えないため exhibitions は空とした。休館日は「月曜日（祝日の場合は開館、翌日休館）及び年末年始」だが、年末年始の具体的な日付は公式サイトに記載がなく special_closures には入れていない。",
+  "confidence": "medium"
+}

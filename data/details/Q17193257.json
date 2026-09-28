@@ -1,0 +1,61 @@
+{
+  "id": "Q17193257",
+  "checked_at": "2026-09-28T23:27:31+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://lsm-ichihara.jp/",
+  "address": "〒290-0554 千葉県市原市不入75-1",
+  "source_urls": [
+    "https://lsm-ichihara.jp/",
+    "https://lsm-ichihara.jp/information/",
+    "https://lsm-ichihara.jp/information/fee/",
+    "https://lsm-ichihara.jp/access/",
+    "https://lsm-ichihara.jp/exhibition/",
+    "https://lsm-ichihara.jp/collection/now/",
+    "https://lsm-ichihara.jp/exhibition/tatsuokawaguchi/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri"], "open": "10:00", "close": "17:00"},
+    {"days": ["sat"], "open": "09:30", "close": "19:00"},
+    {"days": ["sun", "holiday"], "open": "09:30", "close": "18:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "河口龍夫 関係ー無関係 湖畔にて",
+      "start": "2026-10-17",
+      "end": "2026-12-20",
+      "url": "https://lsm-ichihara.jp/exhibition/tatsuokawaguchi/",
+      "kind": "special",
+      "summary": "「関係」をテーマに活動する現代美術家・河口龍夫の新作と未発表作による個展",
+      "recommend": "半世紀以上にわたり現代美術の最前線で制作を続ける河口龍夫が、美術館の建築や湖畔の環境から着想した新作を発表。房総のアトリエで生まれた未発表作も見られる貴重な機会。",
+      "admission": "一般1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "深沢幸雄と文学の世界",
+      "start": "2026-10-10",
+      "end": "2027-02-07",
+      "url": "https://lsm-ichihara.jp/collection/now/",
+      "kind": "collection",
+      "summary": "市原市にアトリエを構えた銅版画家・深沢幸雄の、文学にちなむ作品を紹介する常設コレクション展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "高滝", "lines": "小湊鉄道", "exit": null, "walk_min": 20, "note": "JR内房線「五井」駅で小湊鉄道に乗り換え「高滝」駅下車、徒歩約20分(タクシー約3分)。高速バスで東京駅八重洲口・羽田空港・横浜駅から「市原鶴舞バスターミナル」(約60〜90分)、そこからタクシー約4分。"}
+  ],
+  "highlights": "旧ダム湖畔に立つ美術館で、建物や湖畔の環境を生かしたサイトスペシフィックな企画展に定評がある。銅版画家・深沢幸雄の常設コレクションや、湖を望むテラスも見どころ。",
+  "closed_between_exhibitions": false,
+  "notes": "土曜・祝前日は9:30〜19:00、日曜・祝日は9:30〜18:00に延長されるが、「祝前日」が土曜以外の平日にあたる場合の延長はスキーマ上表現できないため反映していない。常設展(コレクション展示)のみの入館料は個別ページに記載が無く未確認(adult_price は null)。旧称「市原市水と彫刻の丘」(1995年開館、2013年リノベーションで改称)。",
+  "confidence": "medium"
+}

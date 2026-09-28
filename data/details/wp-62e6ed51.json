@@ -1,0 +1,75 @@
+{
+  "id": "wp-62e6ed51",
+  "checked_at": "2026-09-28T23:28:05+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.tougei.museum.ibk.ed.jp/",
+  "address": "〒309-1611 茨城県笠間市笠間2345番地（笠間芸術の森公園内）",
+  "source_urls": [
+    "https://www.tougei.museum.ibk.ed.jp/",
+    "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=6",
+    "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=5",
+    "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=11",
+    "https://www.tougei.museum.ibk.ed.jp/viewer/genre.html?id=2",
+    "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=601",
+    "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=563",
+    "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=603&g=138"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-01", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "テーマ展「国立美術館 コレクション・プラス　近代ヨーロッパの工芸とデザイン」",
+      "start": "2026-09-03",
+      "end": "2026-12-24",
+      "url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=601",
+      "kind": "collection",
+      "summary": "当館所蔵品・寄託品に国立工芸館・茨城県立歴史館の所蔵品を加え、19世紀末〜20世紀半ばの欧州工芸を紹介",
+      "recommend": "国立工芸館などとの合同企画で、日本国内では見る機会が少ない近代ヨーロッパの工芸・デザインをまとめて鑑賞できる",
+      "admission": "一般 360円（団体290円）",
+      "adult_price": 360
+    },
+    {
+      "title": "コレクション展・新収蔵品展",
+      "start": "2026-05-13",
+      "end": "2026-10-18",
+      "url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=563",
+      "kind": "collection",
+      "summary": "令和7年度に新収蔵した45作家115件のうち、富本憲吉や小堤晶子・堀貴春・丸山純・鮫島陽・今川朋実らの作品を紹介",
+      "admission": "一般 360円",
+      "adult_price": 360
+    },
+    {
+      "title": "企画展「THE HEADLINERS 2026　キュン発力の時代」",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=603&g=138",
+      "kind": "special",
+      "summary": "注目の陶芸作家に光を当てるシリーズ第3弾。14名が架空の動物や巨大オブジェなど多様な陶芸表現を展示",
+      "recommend": "光が透ける器や大型オブジェなど、従来の「やきもの」観を覆す遊び心あふれる作品が並ぶ、若手中心の意欲作",
+      "admission": "一般 950円（団体770円）",
+      "adult_price": 950
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": 360,
+  "free_days": [
+    {"from": "2026-11-13", "to": "2026-11-13", "scope": "all", "reason": "茨城県民の日",
+     "source_url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=6"}
+  ],
+  "access": [
+    {"station": "笠間", "lines": "JR水戸線", "exit": null, "walk_min": null,
+     "note": "上野駅からJR常磐線特急で友部駅（約70分）、友部駅でJR水戸線に乗り換え笠間駅（9分）。笠間駅からタクシー5分、友部駅からタクシー15分。「かさま観光周遊バス」で「陶芸美術館・工芸の丘」下車、または秋葉原駅などから茨城交通高速バスで笠間駅（約120分）"}
+  ],
+  "highlights": "笠間芸術の森公園内にある県立の陶芸専門美術館。文化勲章受章者や重要無形文化財保持者など、日本の近現代陶芸を代表する作家の作品を常設展示するほか、陶芸を中心にガラスや染織など工芸全般の企画展を開催。エントランスロビーには現代作家による巨大な陶のオブジェが置かれている。",
+  "notes": "2000年4月開館。観覧料はコレクション展・テーマ展が一般360円、企画展は展覧会ごとに異なる（THE HEADLINERS 2026は950円）。茨城県民の日（11/13）は入館無料。満70歳以上無料日が別途複数回あるが「大人一般」ではないため free_days には入れていない。official_url は museums.json に未登録だったため、公式サイト（tougei.museum.ibk.ed.jp）を新たに設定した。",
+  "confidence": "high"
+}

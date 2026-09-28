@@ -1,0 +1,47 @@
+{
+  "id": "Q78120016",
+  "checked_at": "2026-09-28T23:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.seribi.jp/",
+  "address": "〒422-8033 静岡県静岡市駿河区登呂五丁目10-5",
+  "source_urls": [
+    "https://www.seribi.jp/",
+    "https://www.seribi.jp/guidance.html",
+    "https://www.seribi.jp/exhibition.html",
+    "https://www.seribi.jp/schedule-year.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-24", "to": "2026-10-09", "reason": "展示替え休館（夏秋展終了～秋冬展開幕まで）"},
+    {"from": "2026-11-04", "to": "2026-11-04", "reason": "臨時休館（開催中の展覧会に伴う告知）"},
+    {"from": "2026-12-14", "to": "2027-01-04", "reason": "展示替え・年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "開館45周年記念展　街角に息づく芹沢デザイン",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": "https://www.seribi.jp/exhibition.html",
+      "kind": "special",
+      "summary": "型染の芹沢銈介によるブックデザイン・看板・包装紙・建築意匠など幅広いデザイン仕事を300点で紹介",
+      "recommend": "型染作家として知られる芹沢銈介が手がけた書籍装丁、老舗の看板やロゴ、菓子の包装紙、建築の内装やステンドグラスまで、暮らしに息づいたデザインの仕事を約300点の資料でたどる。開館45周年を記念する大規模な企画展。",
+      "admission": "一般 420円",
+      "adult_price": 420
+    }
+  ],
+  "adult_price": 420,
+  "access": [
+    {"station": "新静岡", "lines": "静岡鉄道", "exit": null, "walk_min": null, "note": "新静岡駅からしずてつジャストラインのバス（登呂方面）で約20分、「登呂」下車 徒歩約10分"}
+  ],
+  "highlights": "染色家・芹沢銈介の作品と収集品を展示する美術館で、遺跡公園「登呂」に隣接する。建物自体も芹沢が意匠に関わり、椅子や照明、ステンドグラスまで手がけた。年4回、型染作品や書籍装丁・広告デザインなど幅広い仕事を紹介する企画展を開催している。",
+  "closed_between_exhibitions": true,
+  "notes": "今日（9/28）時点は夏秋展終了（9/23）から秋冬展開幕（10/10）までの展示替え休館期間中。観覧料420円は常設・企画展共通の館の入館料として扱った（展覧会ごとの別料金の記載なし）。バスの所要時間・停留所は利用案内ページに詳細な系統番号の記載が薄く、主要ルートのみ記載。",
+  "confidence": "high"
+}

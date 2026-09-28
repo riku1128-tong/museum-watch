@@ -1,0 +1,45 @@
+{
+  "id": "Q17230147",
+  "checked_at": "2026-09-28T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.furutaoribe-museum.com/",
+  "address": "〒603-8054 京都市北区上賀茂桜井町107-2 B1",
+  "source_urls": [
+    "http://www.furutaoribe-museum.com/",
+    "https://www.museum.or.jp/museum/17611"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:40"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-04", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "織部十作",
+      "start": "2026-09-17",
+      "end": "2027-03-07",
+      "url": "http://furutaoribe-museum.com/exhibition.html",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "北山", "lines": "京都市営地下鉄烏丸線", "exit": "4番出口", "walk_min": 3, "note": null}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（furutaoribe-museum.com）はツールの証明書エラーで直接読めず、WebSearch とインターネットミュージアム（museum.or.jp）の情報で補った。定休日は「展示替期間・年末年始」とのみ案内され、毎週の定休曜日の記載が見当たらないため closed_weekdays は空、holiday_rule も判断材料がなく unknown にした。開館時間は情報源により「9:30〜17:00」「9:30〜17:30」の表記ゆれがあり、入館締切（16:40）付きの museum.or.jp の情報を採用した。",
+  "confidence": "medium"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q1359908",
-  "checked_at": "2026-09-24T00:43:21+09:00",
+  "checked_at": "2026-09-28T23:28:05+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -14,7 +14,8 @@
     "https://www.momat.go.jp/topics",
     "https://www.momat.go.jp/exhibitions/r8-2",
     "https://www.momat.go.jp/exhibitions/r8-2-g4",
-    "https://www.momat.go.jp/exhibitions/570"
+    "https://www.momat.go.jp/exhibitions/570",
+    "https://www.momat.go.jp/access"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"},
@@ -57,6 +58,12 @@
     }
   ],
   "closed_between_exhibitions": true,
-  "notes": "休館日は「月曜日（祝休日は開館し翌平日休館）、展示替期間、年末年始」。現在は展示替期間で開催中の展覧会なし（次は9/29から）。展示替期間の具体的な日付の告知は見当たらない。10/13・11/24 は祝日翌日の休館（holiday_rule で判定）。10/22 は所蔵作品展と「あみ・ど・ぱり」の休館日に記載（夢二展は 10/23 開幕）。「あみ・ど・ぱり」の休館日には 10/13 の記載が無い。所蔵作品展の観覧料は 2027/2/9 から一般 1,000円に改定予定。",
+  "adult_price": 500,
+  "access": [
+    {"station": "竹橋", "lines": "東京メトロ東西線", "exit": "1b出口", "walk_min": 3},
+    {"station": "九段下", "lines": "東京メトロ東西線・半蔵門線・都営新宿線", "exit": "4番出口", "walk_min": 15},
+    {"station": "神保町", "lines": "東京メトロ半蔵門線・都営新宿線・三田線", "exit": "A1出口", "walk_min": 15}
+  ],
+  "notes": "休館日は「月曜日（祝休日は開館し翌平日休館）、展示替期間、年末年始」。現在は展示替期間で開催中の展覧会なし（次は9/29から）。展示替期間の具体的な日付の告知は見当たらない。10/13・11/24 は祝日翌日の休館（holiday_rule で判定）。10/22 は所蔵作品展と「あみ・ど・ぱり」の休館日に記載（夢二展は 10/23 開幕）。「あみ・ど・ぱり」の休館日には 10/13 の記載が無い。所蔵作品展の観覧料は 2027/2/9 から一般 1,000円に改定予定（adult_price は現行の500円）。",
   "confidence": "high"
 }

@@ -1,0 +1,44 @@
+{
+  "id": "Q11645680",
+  "checked_at": "2026-09-28T23:28:05+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://nomura-museum.or.jp/",
+  "address": "〒606-8434 京都府京都市左京区南禅寺下河原町61",
+  "source_urls": [
+    "https://nomura-museum.or.jp/",
+    "https://nomura-museum.or.jp/publics/index/16/",
+    "https://nomura-museum.or.jp/publics/index/21/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:30", "last_entry": "16:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-19", "to": "2026-10-23", "reason": "展示替え（秋季展 前期・後期の間）"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "秋季特別展「寛永時代の茶の湯」",
+      "start": "2026-09-05",
+      "end": "2026-12-06",
+      "url": "https://nomura-museum.or.jp/publics/index/16/",
+      "kind": "special",
+      "summary": "前期9/5〜10/18・後期10/24〜12/6の二期制。寛永期の茶の湯文化にまつわる所蔵の茶道具・書画を紹介",
+      "recommend": "重要文化財・重要美術品を含む茶道具コレクションで、寛永期の公家・武家・僧侶が育んだ茶の湯文化の広がりをたどる",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "adult_price": null,
+  "access": [
+    {"station": "蹴上", "lines": "京都市営地下鉄東西線", "exit": "1番出口", "walk_min": 10}
+  ],
+  "highlights": "実業家・野村徳七の旧邸「碧雲荘」に隣接する茶道美術専門の美術館。重要文化財7件・重要美術品9件を含む茶道具・書画・能面などの収蔵品を、南禅寺近くの静かな邸宅風の建物で鑑賞できる。",
+  "notes": "開館は春季（3月上旬〜6月上旬）・秋季（9月上旬〜12月上旬）の年2回のみで、夏季・冬季は休館。会期の正確な日付は展覧会ごとに発表され、2027年春季展の会期は2026年9月時点で未発表のため special_closures には入れず、closed_between_exhibitions: true として exhibitions が無い期間（次回開幕まで）を休館扱いにしている。次回巡回で2027年春季展の情報が出たら追記すること。休館日は「月曜（祝日の場合は翌日）」。",
+  "confidence": "high"
+}

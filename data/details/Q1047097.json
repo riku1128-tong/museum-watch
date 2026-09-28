@@ -1,6 +1,6 @@
 {
   "id": "Q1047097",
-  "checked_at": "2026-09-24T00:43:53+09:00",
+  "checked_at": "2026-09-28T23:28:04+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,7 +10,8 @@
     "https://www.nezu-muse.or.jp/",
     "https://www.nezu-muse.or.jp/jp/visit/",
     "https://www.nezu-muse.or.jp/jp/exhibitions/schedule/",
-    "https://www.nezu-muse.or.jp/jp/exhibitions/view-120.html"
+    "https://www.nezu-muse.or.jp/jp/exhibitions/view-120.html",
+    "https://www.nezu-muse.or.jp/jp/about/"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
@@ -27,7 +28,9 @@
       "url": "https://www.nezu-muse.or.jp/jp/exhibitions/view-120.html",
       "kind": "special",
       "summary": "館蔵陶磁器から名品を厳選し、中国・日本・朝鮮半島のやきものを展示室ごとに紹介",
-      "admission": "一般 1,600円（オンライン日時指定予約 1,400円）"
+      "recommend": "中国・日本・朝鮮半島のやきものを産地ごとに見比べられる構成。館蔵屈指の陶磁コレクションを一度に楽しめる企画展",
+      "admission": "一般 1,600円（オンライン日時指定予約 1,400円）",
+      "adult_price": 1600
     },
     {
       "title": "舞楽装束",
@@ -48,7 +51,12 @@
       "admission": null
     }
   ],
+  "adult_price": null,
+  "access": [
+    {"station": "表参道", "lines": "東京メトロ銀座線・半蔵門線・千代田線", "exit": "A5", "walk_min": 8, "note": "B4出口（徒歩10分）、都バス渋88系統「南青山六丁目」下車徒歩5分の行き方もある"}
+  ],
+  "highlights": "実業家・根津嘉一郎が蒐集した日本・東洋古美術7,600件以上を収蔵し、国宝7件を含む。隈研吾設計の新本館と、四季の景観が美しい17,000㎡の庭園・茶室が見どころ",
   "closed_between_exhibitions": true,
-  "notes": "月曜休館（祝日の場合は翌火曜）・展示替期間・年末年始休館。やきもの名品紀行の会期中は 9/21・10/12（月・祝）開館、9/24（木）休館と明記。入館料は企画展 一般1,600円（当日）、特別展 一般1,800円〜（当日）。オンライン日時指定予約あり。年末年始の具体的な休館日は未確認。トップページは 403 で読めなかった。",
+  "notes": "月曜休館（祝日の場合は翌火曜）・展示替期間・年末年始休館。やきもの名品紀行の会期中は 9/21・10/12（月・祝）開館、9/24（木）休館と明記。入館料は企画展 一般1,600円（当日）、特別展 一般1,800円〜（当日）。オンライン日時指定予約あり。年末年始の具体的な休館日は未確認。トップページは 403 で読めなかった。「舞楽装束」「彫る漆」の観覧料は展覧会ページ未公開のため未確認。",
   "confidence": "high"
 }

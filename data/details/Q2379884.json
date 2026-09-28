@@ -1,0 +1,31 @@
+{
+  "id": "Q2379884",
+  "checked_at": "2026-09-28T23:28:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://benesse-artsite.jp/art/teshima-artmuseum.html",
+  "address": "〒761-4662 香川県小豆郡土庄町豊島唐櫃607",
+  "source_urls": [
+    "https://benesse-artsite.jp/art/teshima-artmuseum.html",
+    "https://benesse-artsite.jp/access/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30", "from": "2026-03-01", "to": "2026-09-30"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "last_entry": "15:30", "from": "2026-10-01", "to": "2027-02-28"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 1800,
+  "free_days": [],
+  "access": [
+    {"station": "家浦港", "lines": null, "exit": null, "walk_min": null, "note": "直島（宮浦・本村）・高松・宇野からフェリーで家浦港または唐櫃港へ。港からはレンタサイクルまたは町営バスを利用"}
+  ],
+  "highlights": "建築家・西沢立衛が設計した、柱を1本も使わないコンクリートシェル構造のドーム。天井の開口部から風や光、音が入り込み、内藤礼の常設作品「母型」が一日を通して床から水を湧き出させる、水滴のような空間。",
+  "closed_between_exhibitions": false,
+  "notes": "内藤礼の常設インスタレーション「母型」を鑑賞する美術館で、期間の決まった企画展は行っていないため exhibitions は空にした（開館以来の常設作品で正確な開始日が確認できないため日付は入れていない）。観覧料はオンライン購入1,800円、窓口購入2,000円（日時指定予約制）。休館日は3/1～11/30が火曜、12/1～2月末は火～木曜と季節で変わる（次回の full 巡回で12月分を要確認）。祝日の扱いは公式サイトに記載が見当たらず unknown。臨時休館のお知らせは確認時点でなし。",
+  "confidence": "medium"
+}

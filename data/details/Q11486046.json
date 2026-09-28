@@ -1,6 +1,6 @@
 {
   "id": "Q11486046",
-  "checked_at": "2026-09-24T00:42:54+09:00",
+  "checked_at": "2026-09-28T23:28:17+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,7 +11,8 @@
     "https://www.city.fuchu.tokyo.jp/art/goriyou/riyo.html",
     "https://www.city.fuchu.tokyo.jp/art/tenrankai/kikakutenkaisai/2026_BotanicalArt.html",
     "https://www.city.fuchu.tokyo.jp/art/tenrankai/schedule/index.html",
-    "https://www.city.fuchu.tokyo.jp/art/tenrankai/jyosetu/index.html"
+    "https://www.city.fuchu.tokyo.jp/art/tenrankai/jyosetu/index.html",
+    "https://www.city.fuchu.tokyo.jp/art/goriyou/fam_access.html"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
@@ -61,6 +62,10 @@
     }
   ],
   "closed_between_exhibitions": true,
-  "notes": "休館日は「月曜日（この日が祝日の場合はその翌日）」「国民の祝日の翌日など」「年末年始、展示替えの期間など」。トップの休館日一覧で 9/24（木）・10/13（火）休館、10/12 開館を確認。展示替え期間は館全体が休館（9/7-9/18 の実績）のため closed_between_exhibitions=true。年末年始休館の日付と 11/30-12/11 の休館日程は未確認。",
+  "access": [
+    {"station": "府中", "lines": "京王線", "walk_min": null, "note": "京王バス武蔵小金井駅南口行き（一本木経由・武71）『天神町二丁目（府中市美術館）』下車徒歩3分、または、ちゅうバス多磨町行き『府中の森公園』下車徒歩6分"},
+    {"station": "東府中", "lines": "京王線", "exit": "北口", "walk_min": 17}
+  ],
+  "notes": "休館日は「月曜日（この日が祝日の場合はその翌日）」「国民の祝日の翌日など」「年末年始、展示替えの期間など」。トップの休館日一覧で 9/24（木）・10/13（火）休館、10/12 開館を確認。展示替え期間は館全体が休館（9/7-9/18 の実績）のため closed_between_exhibitions=true。年末年始休館の日付と 11/30-12/11 の休館日程は未確認。府中市臨時駐車場（無料・約44台）あり。",
   "confidence": "high"
 }

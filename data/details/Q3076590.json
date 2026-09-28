@@ -1,15 +1,17 @@
 {
   "id": "Q3076590",
-  "checked_at": "2026-09-24T00:55:00+09:00",
+  "checked_at": "2026-09-28T23:29:44+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "ビルの建替えに伴い長期休館中（建替工事は2025年度〜2030年度予定、同じ場所で再開予定）",
   "official_url": "https://idemitsu-museum.or.jp/",
-  "address": null,
+  "address": "〒100-0005 東京都千代田区丸の内3-1-1 帝劇ビル",
   "source_urls": [
     "https://idemitsu-museum.or.jp/",
     "https://idemitsu-museum.or.jp/faq/",
-    "https://idemitsu-museum.or.jp/news/260911.php"
+    "https://idemitsu-museum.or.jp/news/260911.php",
+    "https://idemitsu-museum.or.jp/utilization/access/",
+    "https://bijutsutecho.com/museums-galleries/344"
   ],
   "regular_hours": [],
   "closed_weekdays": [],
@@ -17,7 +19,12 @@
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [],
+  "adult_price": null,
+  "access": [
+    {"station": "有楽町", "lines": "JR各線", "exit": "国際フォーラム口", "walk_min": 5, "note": "休館前の情報。同じ帝劇ビルの場所で再開予定"}
+  ],
+  "highlights": "出光興産創業者・出光佐三が蒐集した東洋古美術のコレクションを公開するため1966年に開館。日本の書画や中国・日本の陶磁器を中心に、テーマを掲げた展覧会で紹介してきた美術館（現在はビル建替えのため長期休館中）。",
   "closed_between_exhibitions": false,
-  "notes": "館外展示として「出光美術館開館60周年記念　藝大でみる珠玉の出光コレクション」を2027年3月27日～5月23日に東京藝術大学大学美術館で開催予定（当館での開催ではない）。",
+  "notes": "館外展示として「出光美術館開館60周年記念　藝大でみる珠玉の出光コレクション」を2027年3月27日～5月23日に東京藝術大学大学美術館で開催予定（当館での開催ではない）。住所・アクセスは休館前（帝劇ビル9階）の情報で、公式アクセスページは現在アクセス情報を掲載していない。",
   "confidence": "high"
 }

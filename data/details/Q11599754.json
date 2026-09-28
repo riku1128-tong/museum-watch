@@ -1,0 +1,40 @@
+{
+  "id": "Q11599754",
+  "checked_at": "2026-09-28T23:35:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.fuefuki.yamanashi.jp/shisetsu/museum/001.html",
+  "address": "〒405-0051 山梨県笛吹市一宮町北野呂3-1",
+  "source_urls": [
+    "https://www.city.fuefuki.yamanashi.jp/shisetsu/museum/001.html",
+    "https://www.city.fuefuki.yamanashi.jp/sports/bijutsukan/sefubijutsukan/index.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "美笛アレンジ画展～笛吹高校美術部が青楓のデザイン画をアレンジしました～",
+      "start": "2026-07-22",
+      "end": "2026-10-20",
+      "url": null,
+      "kind": "other",
+      "summary": "笛吹高校美術部が津田青楓のデザイン画をアレンジ。館の玄関階段に展示",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 300,
+  "closed_between_exhibitions": false,
+  "access": [
+    {"station": "石和温泉", "lines": "JR中央本線", "exit": null, "walk_min": null, "note": "駅から車で約20分"},
+    {"station": "山梨市", "lines": "JR中央本線", "exit": null, "walk_min": null, "note": "駅から車で約12分"}
+  ],
+  "notes": "休館日は「月曜日・祝日の翌日（土日を除く）」。祝日そのものの扱いは記載が無いため、月曜が祝日の場合は開館し翌平日休館と推定（open_next_weekday_closed）。ただし「祝日の翌日」は月曜以外の祝日にも一般的にかかる可能性があり、schema の holiday_rule では表現しきれない。年に2回（春・秋）展示替え。次の企画展「画家青楓の見た景色-心に映る風景画展-」は予告されているが会期の記載が見つからず、推測を避け exhibitions には入れていない。年末年始の休館日も公式ページに具体的な日付の記載が見当たらなかった。",
+  "confidence": "medium"
+}

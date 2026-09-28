@@ -1,0 +1,47 @@
+{
+  "id": "Q11609688",
+  "checked_at": "2026-09-28T23:27:31+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://mmag.pref.gunma.jp/",
+  "address": "〒370-1293 群馬県高崎市綿貫町992-1 群馬の森公園内",
+  "source_urls": [
+    "https://mmag.pref.gunma.jp/",
+    "https://mmag.pref.gunma.jp/faq",
+    "https://mmag.pref.gunma.jp/price",
+    "https://mmag.pref.gunma.jp/access",
+    "https://mmag.pref.gunma.jp/exhibition/exhibition-7201"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "孤高の彫刻家 村山琴泉",
+      "start": "2026-09-19",
+      "end": "2026-11-08",
+      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7201",
+      "kind": "special",
+      "summary": "前橋出身の彫刻家・村山琴泉(1885-1967)の木彫を紹介する初の回顧展",
+      "recommend": "団体展から離れ独自の道を歩んだ木彫家の仕事を、美術館で初めてまとまった形で紹介。兵役を経て木彫に専念した作家の、静かで力強い作品世界にふれられる。",
+      "admission": "一般300円、大高生150円",
+      "adult_price": 300
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [
+    {"from": "2026-10-28", "to": "2026-10-28", "scope": "all", "reason": "群馬県民の日", "source_url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7201"}
+  ],
+  "access": [
+    {"station": "高崎", "lines": "JR高崎線・湘南新宿ライン・上野東京ライン、上越・北陸新幹線", "exit": null, "walk_min": null, "note": "高崎駅東口から市内循環バスぐるりん「群馬の森線」9系統(約34分)・10系統(約29分)または「岩鼻線」15系統(約26分)で「群馬の森」下車(200円)。倉賀野駅・新町駅からタクシー約10分。"}
+  ],
+  "highlights": "群馬の森公園内にあり、緑豊かな敷地でブールデルなどの野外彫刻も楽しめる。地元ゆかりの作家を含む近代・現代美術のコレクションを、企画展とあわせてゆったり鑑賞できる。",
+  "closed_between_exhibitions": false,
+  "notes": "2025年12月17日から設備更新工事のため休館していたが、2026年9月19日に再開(9月18日までの休館は終了済みのため special_closures には残していない)。祝日で月曜休館となる場合は翌火曜休館だが、ゴールデンウィーク・お盆期間は月曜も開館する例外がある(スキーマの holiday_rule では表現できないため notes に記載)。",
+  "confidence": "high"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "wp-acd8e196",
+  "checked_at": "2026-09-28T23:33:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒379-0201 群馬県富岡市妙義町妙義1-5",
+  "source_urls": [
+    "https://art.xtone.jp/museum/archives/myogi-furusato.html",
+    "https://www.museum.or.jp/museum/1816",
+    "https://www.dan-b.com/mu_hurusatobijyutukan/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-27", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "妙義山を描く絵画展",
+      "start": "2026-09-28",
+      "end": "2027-09-28",
+      "url": null,
+      "kind": "collection",
+      "summary": "昭和58年から続く「妙義山を描く」をテーマにした所蔵絵画の常設展示（通年）",
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": 300,
+  "access": [
+    {"station": "松井田", "lines": "JR信越本線", "exit": null, "walk_min": null, "note": "駅からタクシー約10分、または乗合タクシー「あいタク」279系統（要予約）。上信越自動車道 松井田妙義ICから車で約5分"}
+  ],
+  "highlights": "妙義山を望む高台に立つ美術館で、昭和58年から続く「妙義山を描く」絵画展の入選作を中心に、四季折々の妙義山を描いた作品を集めて展示している。道の駅みょうぎに隣接し、車での立ち寄りに便利な立地",
+  "notes": "official_url に挙げられていた city.tomioka.lg.jp/facility/003/ は404で確認できず、公式サイトは未確認。美術情報サイト（インターネットミュージアム）と地域ポータルサイトの情報をもとに作成（confidence medium）。企画展の会期は未掲載のため、常設の「妙義山を描く絵画展」のみ記載。最寄駅は徒歩圏になく、車・タクシー利用が中心。",
+  "confidence": "medium"
+}

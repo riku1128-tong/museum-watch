@@ -1,6 +1,6 @@
 {
   "id": "Q864700",
-  "checked_at": "2026-09-24T00:44:20+09:00",
+  "checked_at": "2026-09-28T23:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,7 +11,9 @@
     "https://www.mitsui-museum.jp/guide/index.html",
     "https://www.mitsui-museum.jp/exhibition/index.html",
     "https://www.mitsui-museum.jp/exhibition/schedule.html",
-    "https://www.mitsui-museum.jp/exhibition/next.html"
+    "https://www.mitsui-museum.jp/exhibition/next.html",
+    "https://www.mitsui-museum.jp/guide/access.html",
+    "https://mitsui-museum.jp/overview/overview.html"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
@@ -34,7 +36,8 @@
       "url": "https://www.mitsui-museum.jp/exhibition/index.html",
       "kind": "special",
       "summary": "国宝・重要文化財を含む館蔵の茶碗から、三井家ゆかりの名品など100件を選んで展示",
-      "admission": "一般 1,200円"
+      "admission": "一般 1,200円",
+      "adult_price": 1200
     },
     {
       "title": "国宝 雪松図と四季",
@@ -43,10 +46,18 @@
       "url": "https://www.mitsui-museum.jp/exhibition/next.html",
       "kind": "special",
       "summary": "国宝「雪松図屏風」の公開にあわせ、館蔵の書画・工芸の四季・気象表現に注目",
-      "admission": "一般 1,200円"
+      "admission": "一般 1,200円",
+      "adult_price": 1200
     }
   ],
   "closed_between_exhibitions": true,
-  "notes": "休館日は「月曜日」。祝日の扱いは利用案内に記載なし。展覧会ページでは 9/21・10/12・11/2・11/23 の月曜は開館、10/13（火）休館（9/21 後の振替休館は記載なし）のため holiday_rule は open とし、10/13 を special_closures に入れた。展示替え期間（11/24〜12/11）は閉館扱い。夜間開館の記載なし。",
-  "confidence": "high"
+  "notes": "休館日は「月曜日」。祝日の扱いは利用案内に記載なし。展覧会ページでは 9/21・10/12・11/2・11/23 の月曜は開館、10/13（火）休館（9/21 後の振替休館は記載なし）のため holiday_rule は open とし、10/13 を special_closures に入れた。展示替え期間（11/24〜12/11）は閉館扱い。夜間開館の記載なし。常設展示を持たず観覧料は館蔵品展・特別展ごとに異なるため adult_price は null（館蔵品展1,200円・特別展1,500円が目安）。お知らせページは URL 不明のため今回は未確認。",
+  "confidence": "high",
+  "adult_price": null,
+  "access": [
+    {"station": "三越前", "lines": "東京メトロ銀座線", "exit": "A7出口", "walk_min": 1},
+    {"station": "三越前", "lines": "東京メトロ半蔵門線", "exit": null, "walk_min": 3},
+    {"station": "日本橋", "lines": "東京メトロ銀座線・東西線", "exit": "B9出口", "walk_min": 4}
+  ],
+  "highlights": "重要文化財・三井本館7階にある美術館。江戸時代から三井家が蒐集した茶道具を中核に、国宝6点・重要文化財75点を含む約4000点を収蔵する。国宝「志野茶碗 卯花墻」や円山応挙「雪松図屏風」など、大名家に匹敵する伝世の名品を間近で観られるのが魅力。"
 }

@@ -1,0 +1,51 @@
+{
+  "id": "Q11402029",
+  "checked_at": "2026-09-28T23:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kitamura-museum.com/",
+  "address": "〒602-0841 京都府京都市上京区河原町今出川南一筋目東入梶井町448",
+  "source_urls": [
+    "https://www.kitamura-museum.com/",
+    "https://www.kitamura-museum.com/access.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:30", "last_entry": "16:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "令和8年秋季取合展「晩秋有朋」",
+      "start": "2026-09-05",
+      "end": "2026-12-06",
+      "url": "https://www.kitamura-museum.com/",
+      "kind": "special",
+      "summary": "館蔵の茶道具などによる秋季の取合展",
+      "admission": "一般600円/学生400円",
+      "adult_price": 600
+    },
+    {
+      "title": "四君子苑秋季公開",
+      "start": "2026-10-20",
+      "end": "2026-10-25",
+      "url": "https://www.kitamura-museum.com/",
+      "kind": "other",
+      "summary": "北村美術館の茶室・四君子苑（重要文化財）の秋季特別公開",
+      "admission": "共通券2,000円（美術館入館料含む）",
+      "adult_price": 2000
+    }
+  ],
+  "adult_price": 600,
+  "closed_between_exhibitions": false,
+  "access": [
+    {"station": "出町柳", "lines": "京阪本線", "exit": null, "walk_min": 5, "note": null},
+    {"station": "今出川", "lines": "京都市営地下鉄烏丸線", "exit": null, "walk_min": 18, "note": null},
+    {"station": "京都", "lines": null, "exit": null, "walk_min": null, "note": "市バス4・7・205系統で「河原町今出川」下車、徒歩2分"}
+  ],
+  "notes": "休館日は「月曜日、祝日の翌日」。「祝日の翌日」は曜日を問わず一般にかかる可能性があり、月曜が祝日の場合の扱いも明記が無いため holiday_rule は unknown とした。中学生以下は無料。",
+  "confidence": "high"
+}

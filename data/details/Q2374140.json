@@ -1,11 +1,15 @@
 {
   "id": "Q2374140",
-  "checked_at": "2026-09-24T00:42:20+09:00",
+  "checked_at": "2026-09-28T23:28:12+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.gotoh-museum.or.jp/",
   "address": "〒158-8510 東京都世田谷区上野毛3-9-25",
+  "adult_price": null,
+  "access": [
+    {"station": "上野毛", "lines": "東急大井町線", "walk_min": 5}
+  ],
   "source_urls": [
     "https://www.gotoh-museum.or.jp/",
     "https://www.gotoh-museum.or.jp/howto/",

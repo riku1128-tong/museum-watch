@@ -1,0 +1,56 @@
+{
+  "id": "Q110191756",
+  "checked_at": "2026-09-28T23:29:44+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.tochigi.lg.jp/site/museum-tcam/",
+  "address": "〒328-0016 栃木県栃木市入舟町7-26",
+  "source_urls": [
+    "https://www.city.tochigi.lg.jp/site/museum-tcam/",
+    "https://www.city.tochigi.lg.jp/site/museum-tcam/48373.html",
+    "https://www.city.tochigi.lg.jp/site/museum-tcam/48377.html",
+    "https://www.city.tochigi.lg.jp/site/museum-tcam/93647.html",
+    "https://www.city.tochigi.lg.jp/site/museum-tcam/48382.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-24", "to": "2026-10-09", "reason": "展示替えのため休館"},
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "絵師も動物も、人気モノ勢揃い 動物たちの浮世絵",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": null,
+      "kind": "special",
+      "summary": "動物が主題・脇役として描かれた浮世絵を集めた企画展",
+      "admission": "一般800円(団体640円)",
+      "adult_price": 800
+    },
+    {
+      "title": "収蔵品展 3",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": null,
+      "kind": "collection",
+      "summary": "喜多川歌麿や市ゆかりの作家たちの所蔵作品を紹介する収蔵品展",
+      "admission": "一般330円(団体260円)",
+      "adult_price": 330
+    }
+  ],
+  "adult_price": 330,
+  "access": [
+    {"station": "栃木", "lines": "JR両毛線・東武日光線", "exit": "北口", "walk_min": 20, "note": "栃木駅北口からふれあいバス「市街地循環線（西回り）」等で「藤沼酒店前」下車、徒歩約1分"}
+  ],
+  "highlights": "旧市役所跡地に令和4年開館。喜多川歌麿や、清水登之・田中一村ら栃木市ゆかりの画家、竹工芸の飯塚鳳齋・琅玕斎親子の作品を収蔵し、隣接の文学館とともに「ふるさと」をテーマにした企画展を開く。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「月曜日（月曜日が祝日の場合は開館し、火曜日休館）」に加え、「祝日の翌日（祝日の翌日が土日祝の場合は開館）」も休館とする規則がある。後者は holiday_rule では表現できないため要確認（render.py の holiday_rule ロジックは前者のみ対応）。9/24〜10/9は展示替えのため休館中。",
+  "confidence": "high"
+}

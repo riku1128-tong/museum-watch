@@ -1,0 +1,46 @@
+{
+  "id": "Q114674643",
+  "checked_at": "2026-09-29T00:05:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.musee-ando.com/",
+  "address": "〒389-0104 長野県北佐久郡軽井沢町軽井沢東43番地10",
+  "source_urls": [
+    "https://www.musee-ando.com/",
+    "https://www.musee-ando.com/pages/userguide",
+    "https://www.musee-ando.com/pages/access",
+    "https://www.musee-ando.com/blogs/exhibition/exhibit202607",
+    "https://www.musee-ando.com/blogs/information/closed"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2026-12-31", "to": "2027-01-01", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "生誕140周年記念企画「ニューヨークの藤田嗣治」",
+      "start": "2026-07-11",
+      "end": "2027-01-11",
+      "url": "https://www.musee-ando.com/blogs/exhibition/exhibit202607",
+      "kind": "special",
+      "summary": "1949年に日本を離れパリへ渡るまでの約10か月間のニューヨーク滞在期に焦点をあてた企画",
+      "recommend": "画家として再起をかけたニューヨーク時代に焦点をあて、この時期ならではの作品を紹介する企画です。",
+      "admission": "当日 一般2,600円（前売2,300円・電子チケット2,400円）",
+      "adult_price": 2600
+    }
+  ],
+  "adult_price": null,
+  "access": [
+    {"station": "軽井沢", "lines": "JR北陸新幹線・しなの鉄道", "exit": "北口", "walk_min": 8, "note": null}
+  ],
+  "highlights": "藤田嗣治の作品だけを展示する、自宅のような美術館。現在は生誕140周年企画としてニューヨーク時代の作品を紹介している。",
+  "closed_between_exhibitions": false,
+  "notes": "毎週の定休日についての明確な記載が見つからず、closed_weekdays は空、holiday_rule は unknown とした（要再確認）。休館日として明記されているのは「12月31日、1月1日」「冬季メンテナンス期間（1月または2月、日付未定）」「展示替え期間中（日付未定）」。冬季メンテナンス・展示替えは具体的日付が読めなかったため special_closures には入れていない。常設展はなく企画展のみのため adult_price（館共通）は null、展覧会ごとの当日一般料金2,600円を exhibitions の adult_price に入れた。",
+  "confidence": "medium"
+}

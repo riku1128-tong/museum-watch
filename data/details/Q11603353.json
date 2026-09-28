@@ -1,6 +1,6 @@
 {
   "id": "Q11603353",
-  "checked_at": "2026-09-24T00:42:54+09:00",
+  "checked_at": "2026-09-28T23:28:17+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://www.lalique-museum.com/",
     "https://www.lalique-museum.com/about_use/",
-    "https://www.lalique-museum.com/news/"
+    "https://www.lalique-museum.com/news/",
+    "https://www.lalique-museum.com/access/"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "16:00", "last_entry": "15:30"}
@@ -30,6 +31,9 @@
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "休館日は「成人の日の翌日から11日間(展示替えのため臨時休館あり)」で、定休日なし。2027年の日付は公式未掲載。レストランは 11:00-17:00。入館料 1,500円は館の大人料金。常設展示は会期表記がないため未記載。",
+  "access": [
+    {"station": "箱根湯本", "lines": "箱根登山バス T路線", "note": "箱根湯本駅から約25分「仙石案内所前」下車徒歩4分。小田急ハイウェイバス「箱根仙石案内所」、観光施設めぐりバス「箱根ラリック美術館」停留所も利用可"}
+  ],
+  "notes": "休館日は「成人の日の翌日から11日間(展示替えのため臨時休館あり)」で、定休日なし。2027年の日付は公式未掲載。レストランは 11:00-17:00。入館料 1,500円は館の大人料金。常設展示は会期表記がないため未記載。バス以外に最寄り駅は無く、箱根湯本駅からバス利用が基本。",
   "confidence": "high"
 }

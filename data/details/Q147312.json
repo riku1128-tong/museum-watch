@@ -1,0 +1,37 @@
+{
+  "id": "Q147312",
+  "checked_at": "2026-09-28T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.narahaku.go.jp",
+  "address": null,
+  "source_urls": [
+    "https://www.museum.or.jp/museum/5804"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-01", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第78回 正倉院展",
+      "start": "2026-10-24",
+      "end": "2026-11-09",
+      "url": "https://www.narahaku.go.jp/exhibition/special/special_exhibition/202610_shosoin/",
+      "kind": "special",
+      "summary": "古都奈良の秋の風物詩。正倉院宝物を公開する特別展",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 700,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（narahaku.go.jp）は WebFetch で終始 403 エラーとなり直接確認できなかったため、インターネットミュージアムの情報と WebSearch の結果を根拠にした（confidence: medium）。名品展の一般料金は700円・大学生350円、70歳以上と高校生以下（18歳未満）は無料。金・土は名品展・特別陳列のみ20時まで開館との情報があるが、対象が展示の一部に限られ館全体の時間ではないため regular_hours には反映していない。名品展・特別陳列（例: 仏像セレクション、坂本コレクション）の会期詳細は公式サイトで確認できず exhibitions には入れていない。正倉院展の観覧料も確認できず null。",
+  "confidence": "medium"
+}

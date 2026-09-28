@@ -1,14 +1,15 @@
 {
   "id": "Q97613610",
-  "checked_at": "2026-09-24T00:43:21+09:00",
+  "checked_at": "2026-09-28T23:35:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.teamlab.art/jp/e/planets/",
   "address": "東京都江東区豊洲6-1-16",
   "source_urls": [
-    "https://planets.teamlab.art/tokyo/",
-    "https://www.teamlab.art/jp/e/planets/"
+    "https://www.teamlab.art/e/planets/",
+    "https://www.teamlab.art/jp/e/planets/",
+    "https://teamlabplanets.dmm.com/en/guide"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "08:00", "close": "22:00", "last_entry": "21:00"}
@@ -28,7 +29,12 @@
       "admission": "大人 4,200円（変動価格制）"
     }
   ],
+  "adult_price": null,
+  "access": [
+    {"station": "新豊洲", "lines": "ゆりかもめ", "exit": null, "walk_min": 1, "note": null},
+    {"station": "豊洲", "lines": "東京メトロ有楽町線", "exit": null, "walk_min": 10, "note": null}
+  ],
   "closed_between_exhibitions": false,
-  "notes": "公式ページは JS 描画のため HTML を直接取得して読んだ。会期は「2018.7.07(土) – 2027年末」。休館日の記載は見当たらない（定休日なしとして扱った）。入場時間指定制。作品「人と共に踊る鯉によって描かれる水面のドローイング - Infinity」は 9/24 までメンテナンスで鑑賞不可。",
+  "notes": "公式ページは JS 描画のため HTML を直接取得して読んだ。会期は「2018.7.07(土) – 2027年末」。休館日の記載は見当たらない（定休日なしとして扱った）。入場時間指定制。作品「人と共に踊る鯉によって描かれる水面のドローイング - Infinity」は 9/24 までメンテナンスで鑑賞不可。料金は変動価格制で公式サイトに固定額の記載が無いため adult_price は null（admission に目安を記載）。",
   "confidence": "medium"
 }

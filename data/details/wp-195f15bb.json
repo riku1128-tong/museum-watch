@@ -1,6 +1,6 @@
 {
   "id": "wp-195f15bb",
-  "checked_at": "2026-09-24T00:42:20+09:00",
+  "checked_at": "2026-09-28T23:27:31+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,6 +10,10 @@
     "https://www.town.okutama.tokyo.jp/1/kyoikuka/bunka_sports/2/1064.html",
     "https://www.okutamas.co.jp/seseragi/",
     "https://www.okutamas.co.jp/seseragi/exhibition/"
+  ],
+  "adult_price": 300,
+  "access": [
+    {"station": "御嶽", "lines": "JR青梅線", "exit": null, "walk_min": 20, "note": "御嶽駅下車、多摩川沿いの遊歩道を上流へ徒歩約20分。"}
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "from": "2026-03-01", "to": "2026-11-30"},
@@ -41,6 +45,6 @@
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "町のページ: 開館時間「午前10時から午後5時まで 12月~2月までは午後4時まで」、休館日「月曜日（祝日の場合は翌日）、年末年始」、入館料「大人300円、小中学生200円」（展示によっては無料の記載あり）。公式サイトに「昼休み 12:00〜12:45」の記載あり（休館扱いかは不明）。展示の合間（11/2〜11/6 など）の開館可否と年末年始の日付は未確認。official_url は Wikidata に無かったため町のページに載っている公式サイトを採用。",
+  "notes": "町のページ: 開館時間「午前10時から午後5時まで 12月~2月までは午後4時まで」、休館日「月曜日（祝日の場合は翌日）、年末年始」、入館料「大人300円、小中学生200円」（展示によっては無料の記載あり）。公式サイトに「昼休み 12:00〜12:45」の記載あり（休館扱いかは不明）。展示の合間（11/2〜11/6 など）の開館可否と年末年始の日付は未確認。official_url は Wikidata に無かったため町のページに載っている公式サイトを採用。アクセスは公式サイトに「JR青梅線、御嶽駅で下車し...川沿いの遊歩道を上流へ歩くこと20分」と記載。",
   "confidence": "high"
 }

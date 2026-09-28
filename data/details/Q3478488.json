@@ -1,0 +1,69 @@
+{
+  "id": "Q3478488",
+  "checked_at": "2026-09-28T23:35:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://sen-oku.or.jp/kyoto/",
+  "address": "〒606-8431 京都市左京区鹿ヶ谷下宮ノ前町24",
+  "source_urls": [
+    "https://sen-oku.or.jp/kyoto/",
+    "https://sen-oku.or.jp/kyoto/facility/",
+    "https://sen-oku.or.jp/kyoto/facility/access",
+    "https://sen-oku.or.jp/program/202609_splendidparade400/",
+    "https://sen-oku.or.jp/program/20260905_bronzegallery/",
+    "https://sen-oku.or.jp/program/202610_shunsui100/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "寛永行幸四百年記念 特別展　寛永行幸と花の都の文化びと",
+      "start": "2026-09-05",
+      "end": "2026-10-18",
+      "url": "https://sen-oku.or.jp/program/202609_splendidparade400/",
+      "kind": "special",
+      "summary": "所蔵の京都市指定文化財「二条城行幸図屏風」を軸に、寛永期の宮廷文化を紹介する特別展",
+      "recommend": "現存最古の十二単をはじめ徳川家出身皇后の衣裳調度や、東福門院ゆかりの押絵など、寛永の宮廷を彩った品々を間近で見られる",
+      "admission": "一般 1,200円（団体 1,000円）",
+      "adult_price": 1200
+    },
+    {
+      "title": "ブロンズギャラリー 中国青銅器の時代　ギャラリー3特集展示「金文の世界」",
+      "start": "2026-09-05",
+      "end": "2026-12-20",
+      "url": "https://sen-oku.or.jp/program/20260905_bronzegallery/",
+      "kind": "collection",
+      "summary": "住友家伝来の中国古代青銅器コレクションによる常設展示。器に鋳込まれた古代文字「金文」を特集",
+      "recommend": "殷周時代の青銅器に刻まれた漢字の古い字形＝金文を通じて、当時の社会や文化のあり方を読み解ける",
+      "admission": "一般 1,000円（団体 800円）",
+      "adult_price": 1000
+    },
+    {
+      "title": "没後100年記念 特別展　住友春翠－仕合せの住友近代美術コレクション",
+      "start": "2026-10-31",
+      "end": "2026-12-20",
+      "url": "https://sen-oku.or.jp/program/202610_shunsui100/",
+      "kind": "special",
+      "summary": "住友家15代・春翠が蒐集した近代美術コレクションの代表作を紹介する没後100年記念展",
+      "recommend": "春翠のもとに集まった同時代作家との交流を、購入の歴史を追うクロニクル形式で辿りながら鑑賞できる",
+      "admission": "一般 1,200円（団体 1,000円）",
+      "adult_price": 1200
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "蹴上", "lines": "京都市営地下鉄東西線", "exit": null, "walk_min": 20, "note": "京都市バス5系統「東天王町」または105系統「宮ノ前町」下車（宮ノ前町は土日祝のみ）でも行ける"}
+  ],
+  "highlights": "住友家伝来の中国古代青銅器・鏡鑑コレクションで知られる美術館。京都・鹿ヶ谷の緑豊かな敷地に建ち、住友家15代春翠が蒐集した近代日本画・洋画のコレクションも特別展で紹介する",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「月曜日（祝日の場合は翌平日）、夏期・冬期、その他臨時に定める日」とあるが、夏期・冬期休館の具体的な日程は公式サイト上で見つけられず未確認（推測で special_closures には入れていない）。特別展「寛永行幸」終了(10/18)から次の特別展「住友春翠」開始(10/31)までの間に展示替え休館が入る可能性があるが、公式に日付の明記が見当たらず未確認。",
+  "confidence": "high"
+}

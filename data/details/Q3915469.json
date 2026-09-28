@@ -1,6 +1,6 @@
 {
   "id": "Q3915469",
-  "checked_at": "2026-09-24T00:42:54+09:00",
+  "checked_at": "2026-09-29T00:00:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,7 +8,8 @@
   "address": "〒150-0001 東京都渋谷区神宮前3-7-6",
   "source_urls": [
     "http://www.watarium.co.jp/",
-    "http://www.watarium.co.jp/jp/exhibition/202607/"
+    "http://www.watarium.co.jp/jp/exhibition/202607/",
+    "https://www.museum.or.jp/museum/2643"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "19:00"}
@@ -25,7 +26,8 @@
       "url": "http://www.watarium.co.jp/jp/exhibition/202607/",
       "kind": "special",
       "summary": "メディアアートの創始者ナムジュン・パイク没後20年の個展",
-      "admission": "大人 1,500円"
+      "admission": "大人 1,500円",
+      "adult_price": 1500
     },
     {
       "title": "ワン・シュウ＋ルー・ウェンユー展 建築すなわち庭",
@@ -38,6 +40,11 @@
     }
   ],
   "closed_between_exhibitions": true,
-  "notes": "HTTPS は証明書不一致のため HTTP で取得。パイク展の休館日は「月曜日（7/20、9/21、10/12、11/23は開館）」で、振替休館の記載なし。ランダムトーク開催日は 20時まで延長（日程は PDF、未確認）。年末年始の休館日は未確認。",
-  "confidence": "high"
+  "adult_price": null,
+  "access": [
+    {"station": "外苑前", "lines": "東京メトロ銀座線", "exit": "3番", "walk_min": 7, "note": null},
+    {"station": "表参道", "lines": "東京メトロ銀座線・半蔵門線・千代田線", "exit": null, "walk_min": null, "note": null}
+  ],
+  "notes": "今回、公式サイトは HTTP でも証明書エラーで接続できず（前回取得分の休館日情報は維持）。アクセス情報はインターネットミュージアム等の情報サイトで確認（confidence medium 扱い）。パイク展の休館日は「月曜日（7/20、9/21、10/12、11/23は開館）」で、振替休館の記載なし。ランダムトーク開催日は 20時まで延長（日程は PDF、未確認）。年末年始の休館日は未確認。企画展のみの運営で常設のコレクション展示がないため adult_price は null。",
+  "confidence": "medium"
 }

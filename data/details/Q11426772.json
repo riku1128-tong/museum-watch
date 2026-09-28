@@ -1,0 +1,51 @@
+{
+  "id": "Q11426772",
+  "checked_at": "2026-09-28T23:28:17+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://pref.spec.ed.jp/momas/",
+  "address": "〒330-0061 埼玉県さいたま市浦和区常盤9-30-1（北浦和公園内）",
+  "source_urls": [
+    "https://pref.spec.ed.jp/momas/",
+    "https://pref.spec.ed.jp/momas/利用案内---交通案内",
+    "https://pref.spec.ed.jp/momas/2026uchima"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:30", "last_entry": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "MOMASコレクション",
+      "start": "2026-09-05",
+      "end": "2026-11-29",
+      "url": "https://pref.spec.ed.jp/momas/",
+      "kind": "collection",
+      "summary": "所蔵作品による常設のコレクション展示",
+      "admission": "一般 200円",
+      "adult_price": 200
+    },
+    {
+      "title": "内間安瑆・俊子展　色を織り、記憶を紡ぐ",
+      "start": "2026-10-10",
+      "end": "2027-01-17",
+      "url": "https://pref.spec.ed.jp/momas/2026uchima",
+      "kind": "special",
+      "summary": "版画・コラージュを中心に内間安瑆・俊子夫妻の創作世界をたどる回顧展",
+      "recommend": "版画家・内間安瑆と染織作家の妻・俊子。二人の独自性ある創作世界を振り返り、俊子については初期から晩年までの軌跡をたどる初めての機会",
+      "admission": "一般 1,400円",
+      "adult_price": 1400
+    }
+  ],
+  "adult_price": 200,
+  "closed_between_exhibitions": false,
+  "access": [
+    {"station": "北浦和", "lines": "JR京浜東北線", "exit": "西口", "walk_min": 3}
+  ],
+  "notes": "休館日は「月曜日（祝日または県民の日の場合は開館）」に加え「年末年始、メンテナンス日」。具体的な年末年始・メンテナンス日の日付は公式サイトに記載が見当たらず未確認のため special_closures には入れていない。専用駐車場はなく、提携駐車場「タイムズ埼玉県立近代美術館東」で割引あり。",
+  "confidence": "high"
+}

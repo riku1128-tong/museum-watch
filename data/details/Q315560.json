@@ -1,0 +1,46 @@
+{
+  "id": "Q315560",
+  "checked_at": "2026-09-28T23:28:12+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.ichikawa.lg.jp/site/higashiyama/",
+  "address": "千葉県市川市中山1丁目16番2号",
+  "source_urls": [
+    "https://www.city.ichikawa.lg.jp/higashiyama/019.html",
+    "https://www.city.ichikawa.lg.jp/site/higashiyama/list18-54.html",
+    "https://www.city.ichikawa.lg.jp/site/higashiyama/55366.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-26", "to": "2026-10-30", "reason": "館内整備のため臨時休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "写真家・寺島照夫が捉えた風景画家・東山魁夷の軌跡／東山魁夷・デザインの世界",
+      "start": "2026-03-28",
+      "end": "2027-09-28",
+      "url": "https://www.city.ichikawa.lg.jp/site/higashiyama/55366.html",
+      "kind": "collection",
+      "summary": "写真家・寺島照夫が撮影した東山魁夷の足跡と、装丁・意匠を手がけたデザイン関連資料を展示（会期末未定）",
+      "admission": "一般 520円",
+      "adult_price": 520
+    }
+  ],
+  "adult_price": 520,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "京成中山", "lines": "京成本線", "walk_min": 15},
+    {"station": "下総中山", "lines": "JR総武線", "walk_min": 20, "note": "京成バス・市川市コミュニティバスで「北方」バス停下車、徒歩約1分の便もある"}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "休館日は月曜（祝日・休日の場合は開館し翌平日休館）、年末年始、展示替え期間、館内整備期間。10/26〜10/30は館内整備のため臨時休館（検索結果からの確認で、公式ページ本文の直接取得はできなかった）。アクセス情報も公式ページ（list20-62.html）が404で取得できず、一般に案内されている駅要約から記載。年末年始の具体的な日付は未確認。",
+  "confidence": "medium"
+}

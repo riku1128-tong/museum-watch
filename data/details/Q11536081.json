@@ -1,0 +1,34 @@
+{
+  "id": "Q11536081",
+  "checked_at": "2026-09-28T23:55:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kurita.or.jp/",
+  "address": "〒329-4217 栃木県足利市駒場町1542",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/1474"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-02", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 1250,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "富田", "lines": "JR両毛線", "exit": null, "walk_min": 10, "note": null},
+    {"station": "あしかがフラワーパーク", "lines": "JR両毛線", "exit": null, "walk_min": 10, "note": null},
+    {"station": "足利市", "lines": "東武伊勢崎線", "exit": null, "walk_min": null, "note": "タクシーで約15分"}
+  ],
+  "highlights": "江戸時代に肥前鍋島藩で焼かれた伊万里・鍋島焼を専門に収蔵する陶磁美術館。世界最大級の伊万里焼コレクションを誇り、約3万坪の敷地に大手門や世界陶磁館など30あまりの施設が広がる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（kurita.or.jp、www.kurita.or.jp とも）はサーバー証明書の設定不備（SSLホスト名不一致）でWebFetch・通常のブラウザとも接続できず読めなかったため、インターネットミュージアム（museum.or.jp）の掲載情報のみで作成。常設で伊万里・鍋島の館蔵品約400点を展示し、年2回特集陳列を行うとのことだが、現在開催中の特集陳列の会期・タイトルは確認できなかったため exhibitions は空のまま。入館料は一般1,250円（団体1,000円）、小中高生500円（団体400円）。月曜休館（祝日の場合翌日休館）。次回以降、公式サイトの証明書が復旧していないか確認すること。",
+  "confidence": "medium"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q11525123",
-  "checked_at": "2026-09-24T00:44:20+09:00",
+  "checked_at": "2026-09-29T00:05:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -14,7 +14,8 @@
     "https://museum.geidai.ac.jp/exhibit/2026/09/sentan-gap2026.html",
     "https://museum.geidai.ac.jp/exhibit/2026/10/mikamiryo.html",
     "https://museum.geidai.ac.jp/exhibit/2026/10/furukawakiyoshi.html",
-    "https://museum.geidai.ac.jp/exhibit/2026/11/bunponichi26.html"
+    "https://museum.geidai.ac.jp/exhibit/2026/11/bunponichi26.html",
+    "https://museum.geidai.ac.jp/news/"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
@@ -32,6 +33,7 @@
       "kind": "special",
       "summary": "陶芸研究室・三上亮の退任展。代表作、焼成テスト、新作《round》を紹介（陳列館・正木記念館）",
       "admission": "無料",
+      "adult_price": 0,
       "hours": [{"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}],
       "closed_dates": ["2026-10-05", "2026-10-13"]
     },
@@ -43,6 +45,7 @@
       "kind": "special",
       "summary": "古川聖教授の退任記念展。体験型作品、記録映像、メディアパフォーマンス（陳列館）",
       "admission": "無料",
+      "adult_price": 0,
       "hours": [{"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}]
     },
     {
@@ -53,10 +56,16 @@
       "kind": "special",
       "summary": "保存修復日本画研究室の学生・教員による研究成果を基にした創作展（陳列館2階）",
       "admission": "無料",
+      "adult_price": 0,
       "hours": [{"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}]
     }
   ],
+  "adult_price": null,
+  "access": [
+    {"station": "上野", "lines": "JR", "exit": "公園口", "walk_min": 10, "note": null},
+    {"station": "根津", "lines": "東京メトロ千代田線", "exit": "1番出口", "walk_min": 10, "note": null}
+  ],
   "closed_between_exhibitions": true,
-  "notes": "「展覧会の開催会期以外は閉館」「開館時間、観覧料は展覧会ごとに異なる」との記載。regular_hours は掲載した 3 展がいずれも 10:00〜17:00（入館16:30まで）のため、その値を入れた（総合案内に館共通の時間は無い）。上野の本館・陳列館の展覧会のみ掲載。9/23 で「藝大式 美術の“ミカタ”」「うるしのかたち展2026」が終了し、次は 10/3 から。取手館（茨城県）の「魅せる収蔵庫」（〜2027/3/30）と「先端芸術表現 x GAP合同助教・助手展」（9/25-27）は上野ではないため除外。9/21 の台風による臨時休館は終了済み。",
+  "notes": "「展覧会の開催会期以外は閉館」「開館時間、観覧料は展覧会ごとに異なる」との記載。regular_hours は掲載した 3 展がいずれも 10:00〜17:00（入館16:30まで）のため、その値を入れた（総合案内に館共通の時間は無い）。上野の本館・陳列館の展覧会のみ掲載。9/23 で「藝大式 美術の“ミカタ”」「うるしのかたち展2026」が終了し、次は 10/3 から。取手館（茨城県）の「魅せる収蔵庫」（〜2027/3/30）と「先端芸術表現 x GAP合同助教・助手展」（9/25-27）は上野ではないため除外。9/21 の台風による臨時休館は終了済み。常設の館入館料は無く、展覧会ごとに異なる（今回掲載の3展はいずれも無料）ため adult_price は null。アクセスはJR上野駅公園口・東京メトロ千代田線根津駅1番出口からいずれも徒歩10分。9/28時点のお知らせを再確認したが新たな臨時休館・時間変更は無し。",
   "confidence": "high"
 }

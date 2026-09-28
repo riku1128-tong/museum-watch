@@ -1,6 +1,6 @@
 {
   "id": "Q11608069",
-  "checked_at": "2026-09-24T00:43:53+09:00",
+  "checked_at": "2026-09-28T23:28:05+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,7 +11,8 @@
     "https://www.neribun.or.jp/event/museum.cgi",
     "https://www.neribun.or.jp/event/detail_m.cgi?id=202606171781677585",
     "https://www.neribun.or.jp/event/detail_m.cgi?id=202606301782802063",
-    "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919"
+    "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919",
+    "https://www.neribun.or.jp/access/museum.html"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
@@ -52,6 +53,11 @@
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝休日のときはその翌平日）。9/21・10/12・11/23（月・祝）は開館、9/24・10/13・11/24 は休館（展覧会ページに明記、holiday_rule と一致）。休館日に「展示準備期間」もあるが、具体的な日付の告知は見当たらない。",
+  "adult_price": 500,
+  "access": [
+    {"station": "中村橋", "lines": "西武池袋線（東京メトロ有楽町線・副都心線直通）", "exit": null, "walk_min": 3,
+     "note": "改札を左に出て線路沿いを石神井公園駅方向へ約130m。JR中央線阿佐ヶ谷駅・荻窪駅の北口から関東バスでも「中村橋駅」下車徒歩5分"}
+  ],
+  "notes": "月曜休館（祝休日のときはその翌平日）。9/21・10/12・11/23（月・祝）は開館、9/24・10/13・11/24 は休館（展覧会ページに明記、holiday_rule と一致）。休館日に「展示準備期間」もあるが、具体的な日付の告知は見当たらない。adult_price はコレクション展の一般料金（500円）。",
   "confidence": "high"
 }

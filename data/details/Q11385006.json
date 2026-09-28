@@ -1,0 +1,44 @@
+{
+  "id": "Q11385006",
+  "checked_at": "2026-09-28T23:28:04+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "展示替え・館内整備のため休館中。次回開館は2026-10-31（確認時点9/28で休館を確認。休館の開始日は公式サイトに記載が無く不明）。",
+  "official_url": "https://www.city.sano.lg.jp/sp/yoshizawakinembijutsukan/",
+  "address": "〒327-0501 栃木県佐野市葛生東1-14-30",
+  "source_urls": [
+    "https://www.city.sano.lg.jp/sp/yoshizawakinembijutsukan/",
+    "https://www.city.sano.lg.jp/sp/yoshizawakinembijutsukan/4/1653.html",
+    "https://www.city.sano.lg.jp/sp/yoshizawakinembijutsukan/2/1_7/27423.html",
+    "https://www.city.sano.lg.jp/sp/yoshizawakinembijutsukan/1/index.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-28", "to": "2026-10-30", "reason": "展示替え・館内整備"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "若冲がやってきた！",
+      "start": "2026-10-31",
+      "end": "2026-12-13",
+      "url": "https://www.city.sano.lg.jp/sp/yoshizawakinembijutsukan/2/1_7/27423.html",
+      "kind": "special",
+      "summary": "重要文化財《菜蟲譜》と京都・福田美術館所蔵《果蔬図巻》が関東で初共演。福田美術館の若冲作品18点も出品",
+      "recommend": "吉澤記念美術館を代表する《菜蟲譜》と福田美術館の《果蔬図巻》が関東で初めて並ぶ。鶏・鶴から人物画まで若冲の多彩な画業をたどれる",
+      "admission": "一般520円（20名以上の団体470円）",
+      "adult_price": 520
+    }
+  ],
+  "adult_price": 520,
+  "access": [
+    {"station": "葛生", "lines": "東武佐野線", "walk_min": 8}
+  ],
+  "highlights": "葛生の旧家・吉澤家が江戸後期から200年かけて集めた吉澤コレクション約500点が核。近世絵画から近代日本画、現代陶芸まで幅広く、展覧会ごとにほぼ全作品を入れ替える企画展示が魅力",
+  "notes": "休館日は「毎週月曜日（祝日の場合は開館、翌日休館）・祝日の翌日（祝日の翌日が土日曜、休日の場合は開館）・年末年始(12/29〜1/3)・展示替え期間」。「祝日の翌日は休館（曜日を問わず）」という規則はスキーマで表現できないため未反映（holiday_rule は月曜祝日時の振替のみ）。年末年始(12/29〜1/3)の具体的な special_closures 追加は年末に近づいてから確認する。",
+  "confidence": "high"
+}

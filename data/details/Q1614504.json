@@ -1,15 +1,16 @@
 {
   "id": "Q1614504",
-  "checked_at": "2026-09-24T00:42:54+09:00",
+  "checked_at": "2026-09-28T23:48:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.sompo-museum.org/",
-  "address": null,
+  "address": "〒160-8338 東京都新宿区西新宿1-26-1",
   "source_urls": [
     "https://www.sompo-museum.org/",
     "https://www.sompo-museum.org/exhibitions/schedule/",
-    "https://www.sompo-museum.org/exhibitions/2025/albertmarquet/"
+    "https://www.sompo-museum.org/exhibitions/2025/albertmarquet/",
+    "https://www.sompo-museum.org/visit/"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
@@ -26,14 +27,21 @@
       "url": "https://www.sompo-museum.org/exhibitions/2025/albertmarquet/",
       "kind": "special",
       "summary": "フォーヴィスムに関わり水辺の風景を描いたマルケの35年ぶりの回顧展。約90点",
-      "admission": "一般 2,000円",
+      "admission": "一般 2,000円（当日券）",
+      "adult_price": 2000,
       "hours": [
         {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"},
         {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
       ]
     }
   ],
+  "adult_price": null,
+  "access": [
+    {"station": "新宿", "lines": "JR各線", "exit": "西口", "walk_min": 5, "note": null},
+    {"station": "新宿", "lines": "東京メトロ丸ノ内線", "exit": null, "walk_min": 5, "note": null},
+    {"station": "西新宿", "lines": "東京メトロ丸ノ内線", "exit": "C13出口", "walk_min": 6, "note": null}
+  ],
   "closed_between_exhibitions": true,
-  "notes": "休館日は「月曜日（祝日・振替休日の場合は開館し翌平日休）、展示替期間／年末年始」。マルケ展ページで 9/24・10/13・11/24 休館、10/12・11/23 開館を確認。金曜 20:00 までの延長は展覧会ごと。前期 11/1 まで、後期 11/3 から。次回「生誕130年 東郷青児展」は 2027/1/9〜。台風等で JR 計画運休時は臨時休館。",
+  "notes": "休館日は「月曜日（祝日・振替休日の場合は開館し翌平日休）、展示替期間／年末年始」。常設展は無く企画展ごとの料金のみのため館の adult_price は null。次回「生誕130年 東郷青児展」（2027/1/9〜）・「FACE展2027」（2027/3/6〜）はいずれも3か月超先のため exhibitions には入れていない。台風等で JR 計画運休時は臨時休館の場合あり。",
   "confidence": "high"
 }

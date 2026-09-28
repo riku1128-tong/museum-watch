@@ -1,0 +1,23 @@
+{
+  "id": "Q24869145",
+  "checked_at": "2026-09-28T23:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "運営会社（上越クリスタル硝子）が2023年10月1日付で事業停止・破産申請し、廃業。再開の見込みなし",
+  "official_url": null,
+  "address": null,
+  "source_urls": [
+    "https://www.nikkei.com/article/DGKKZO75048570V01C23A0L60000/",
+    "https://www.tokyo-np.co.jp/article/281543",
+    "https://www.jomo-news.co.jp/articles/-/559111"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（tsukiyono-kobo.jp）はWebFetchで403、代替と思われるドメイン（vidro-park.jp）はドメイン販売ページになっており、いずれも接続できない。日本経済新聞・東京新聞・上毛新聞の報道により、運営会社の月夜野クラフトビール／上越クリスタル硝子が2023年10月1日に事業停止し破産申請したことを確認。跡地前の歩道橋も2024年11月に群馬県が行政代執行で撤去予定と報じられており、再開の見込みはないと判断した。",
+  "confidence": "high"
+}

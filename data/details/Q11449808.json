@@ -1,0 +1,55 @@
+{
+  "id": "Q11449808",
+  "checked_at": "2026-09-28T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://u-moa.jp/",
+  "address": "〒320-0004 栃木県宇都宮市長岡町1077",
+  "source_urls": [
+    "http://u-moa.jp/",
+    "http://u-moa.jp/about/info.html",
+    "http://u-moa.jp/about/traffic.html",
+    "http://u-moa.jp/exhibition/schedule.html",
+    "http://u-moa.jp/exhibition/exhibition.html",
+    "http://u-moa.jp/exhibition/collection.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第1回 コレクション展",
+      "start": "2026-05-23",
+      "end": "2026-10-12",
+      "url": "http://u-moa.jp/exhibition/collection.html",
+      "kind": "collection",
+      "summary": "特集「佐藤時啓―光の記憶、時間をえがく」。長時間露光の写真で光と時間を可視化してきた佐藤時啓の作品を紹介",
+      "recommend": "カメラの構造や光学の原理に着目し続けてきた作家が、肉眼では捉えられない光の動きや空間の時間の層を写真に写し出す、他では見られない表現に出会える",
+      "admission": "一般310円",
+      "adult_price": 310
+    },
+    {
+      "title": "没後50年 髙島野十郎展",
+      "start": "2026-09-20",
+      "end": "2026-12-06",
+      "url": "http://u-moa.jp/exhibition/exhibition.html",
+      "kind": "special",
+      "summary": "『蝋燭』『月』などで知られる福岡出身の洋画家・髙島野十郎の没後50年回顧展。初公開作を含む約180点",
+      "recommend": "独学で徹底した写実を追求した孤高の画家の、これまでで最大規模となる回顧展。初公開の作品も含まれ、代表作の蝋燭や月の絵をまとめて見られる貴重な機会",
+      "admission": "一般1,200円",
+      "adult_price": 1200
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "access": [
+    {"station": "宇都宮", "lines": "JR宇都宮線ほか", "exit": "西口", "walk_min": null, "note": "西口5番バス乗場より関東バス「豊郷台・帝京大学経由宇都宮美術館」行き終点下車（約25分）"}
+  ],
+  "highlights": "緑豊かな長岡公園の中にある公立美術館。国内外の近現代美術に加え宇都宮ゆかりの作家の作品を収集し、企画展とあわせて所蔵品によるコレクション展も常に楽しめる。",
+  "notes": "休館日は「毎週月曜日（祝日の場合は開館、翌平日休館）」に加え、公式サイトに「祝休日の翌日（土日祝日の場合は開館）」も休館とする記載がある。月曜起点以外の祝日翌日休館は現行スキーマ（holiday_rule）では表現できないため、render.py 側での対応が必要な場合はこの notes を参照。毎月第三日曜「家庭の日」は高校生以下無料、4/1（市民の日）・11/3（文化の日）は宇都宮市民のみ無料のため、大人一般の free_days としては採用していない。",
+  "confidence": "high"
+}

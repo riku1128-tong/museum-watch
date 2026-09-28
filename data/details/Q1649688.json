@@ -1,6 +1,6 @@
 {
   "id": "Q1649688",
-  "checked_at": "2026-09-24T00:42:36+09:00",
+  "checked_at": "2026-09-28T23:27:38+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -14,7 +14,8 @@
     "https://www.mot-art-museum.jp/exhibitions/Tada-Minami/",
     "https://www.mot-art-museum.jp/exhibitions/Constellation/",
     "https://www.mot-art-museum.jp/exhibitions/mot-collection-260919/",
-    "https://www.mot-art-museum.jp/guide/museum-info/"
+    "https://www.mot-art-museum.jp/guide/museum-info/",
+    "https://www.mot-art-museum.jp/guide/access/"
   ],
   "regular_hours": [
     {
@@ -63,7 +64,8 @@
       "url": "https://www.mot-art-museum.jp/exhibitions/Tada-Minami/",
       "kind": "special",
       "summary": "戦後の抽象彫刻家・多田美波の没後初の大規模回顧展。彫刻・照明・建築関連作品など約70点",
-      "admission": "一般 1,600円"
+      "admission": "一般 1,600円",
+      "adult_price": 1600
     },
     {
       "title": "共時的星叢──時を共にした星たち　越境する芸術のまなざし",
@@ -72,7 +74,8 @@
       "url": "https://www.mot-art-museum.jp/exhibitions/Constellation/",
       "kind": "special",
       "summary": "台湾の風車詩社を起点に、近代台湾と日本の美術・資料を展観。ゲストキュレーター黄亜歴",
-      "admission": "一般 2,000円"
+      "admission": "一般 2,000円",
+      "adult_price": 2000
     },
     {
       "title": "MOTコレクション いつかの光を今みている",
@@ -81,11 +84,18 @@
       "url": "https://www.mot-art-museum.jp/exhibitions/mot-collection-260919/",
       "kind": "collection",
       "summary": "「光」と「時間」をテーマにした所蔵作品展。小瀬村真美、土屋公雄、戸谷成雄ほか",
-      "admission": "一般 500円"
+      "admission": "一般 500円",
+      "adult_price": 500
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "休館日は「月曜日（祝日の場合は翌平日）、展示替え期間、年末年始（12/28-1/1）」。各展覧会ページに休館日 9/24・10/13・11/24 の記載あり（祝日ルールで算出されるものと一致）。11月の毎金曜日は20:00まで。台風25号接近に伴い臨時休館の可能性あり（9/18 お知らせ、決定時は公式サイト・SNSで告知）。コレクション展の正式タイトル表記は「いつかの光を今みている」の部分のみ確認。",
+  "adult_price": 500,
+  "access": [
+    {"station": "清澄白河", "lines": "東京メトロ半蔵門線", "exit": "B2", "walk_min": 9},
+    {"station": "清澄白河", "lines": "都営地下鉄大江戸線", "exit": "A3", "walk_min": 13},
+    {"station": "木場", "lines": "東京メトロ東西線", "exit": "3", "walk_min": 15}
+  ],
+  "notes": "休館日は「月曜日（祝日の場合は翌平日）、展示替え期間、年末年始（12/28-1/1）」。各展覧会ページに休館日 9/24・10/13・11/24 の記載あり（祝日ルールで算出されるものと一致）。11月の毎金曜日は20:00まで。台風25号接近に伴い臨時休館の可能性あり（9/18 お知らせ、決定時は公式サイト・SNSで告知）。コレクション展の正式タイトル表記は「いつかの光を今みている」の部分のみ確認。最寄駅はアクセスページで清澄白河駅（徒歩9分）が最短、都営バスでの来館も案内あり。",
   "confidence": "high",
   "free_days": [
     {

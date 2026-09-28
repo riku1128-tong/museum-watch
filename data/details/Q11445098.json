@@ -1,0 +1,51 @@
+{
+  "id": "Q11445098",
+  "checked_at": "2026-09-28T23:27:05+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://ncmoa.art",
+  "address": "〒630-8012 奈良市二条大路南一丁目3番1号 ミ・ナーラ5階",
+  "source_urls": [
+    "https://ncmoa.art",
+    "https://ncmoa.art/events/",
+    "https://sogozaidan.nara.jp/kanri/ncmoa/",
+    "https://sogozaidan.nara.jp/8904/",
+    "https://www.mina-ra.com/access/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:30", "last_entry": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-27", "to": "2027-01-03", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "奈良市美術家協会 創立45周年記念　奈良市美術家展",
+      "start": "2026-09-15",
+      "end": "2026-10-12",
+      "url": "https://sogozaidan.nara.jp/8904/",
+      "kind": "special",
+      "summary": "奈良市美術家協会の創立45周年を記念した会員による作品展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "新大宮", "lines": "近鉄奈良線", "walk_min": null, "note": "奈良交通バス約6分「宮跡庭園」下車すぐ（施設はミ・ナーラ5階）"},
+    {"station": "JR奈良", "lines": "JR奈良線・桜井線・和歌山線・関西本線", "walk_min": null, "note": "奈良交通バス約9分「宮跡庭園」下車すぐ"},
+    {"station": "近鉄奈良", "lines": "近鉄奈良線", "walk_min": null, "note": "奈良交通バス約15分「宮跡庭園」下車すぐ"}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "商業施設「ミ・ナーラ」5階に所在。休館日は月曜（月曜が祝日の場合は翌日休館）に加え、祝日の翌日（土日・祝日と重なる場合を除く）も休館だが、この規則はスキーマの holiday_rule / closed_weekdays では表現しきれない。観覧料は展覧会ごとに異なる（常設展なし）。ミ・ナーラの無料シャトルバスは2026年9月30日で運行終了予定。",
+  "confidence": "high"
+}

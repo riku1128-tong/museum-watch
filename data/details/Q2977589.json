@@ -1,0 +1,67 @@
+{
+  "id": "Q2977589",
+  "checked_at": "2026-09-28T23:28:12+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.ohara.or.jp/",
+  "address": "〒710-8575 岡山県倉敷市中央1-1-15",
+  "source_urls": [
+    "https://www.ohara.or.jp/",
+    "https://www.ohara.or.jp/visitor_info",
+    "https://www.ohara.or.jp/access",
+    "https://www.ohara.or.jp/event/",
+    "https://project.ohara.or.jp/annunciation2",
+    "https://project.ohara.or.jp/collection_exhibition3"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30", "from": "2026-03-01", "to": "2026-11-30"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "15:00", "last_entry": "14:30", "from": "2026-12-01", "to": "2027-02-28"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "エル・グレコ《受胎告知》 よみがえる色彩の輝き",
+      "start": "2026-04-25",
+      "end": "2027-03-28",
+      "url": "https://project.ohara.or.jp/annunciation2",
+      "kind": "special",
+      "summary": "本館所蔵のエル・グレコ《受胎告知》の修復後の色彩を特別公開。通常の入館券で観覧可",
+      "admission": "入館料に含む",
+      "adult_price": null
+    },
+    {
+      "title": "コレクション展 OHARAコレクション・ハイライト",
+      "start": "2026-04-25",
+      "end": "2027-09-28",
+      "url": "https://project.ohara.or.jp/collection_exhibition3",
+      "kind": "collection",
+      "summary": "大原コレクションの名品を紹介する常設のコレクション展（会期末未定）",
+      "admission": "入館料に含む",
+      "adult_price": null
+    },
+    {
+      "title": "工芸・東洋館の展示",
+      "start": "2025-12-01",
+      "end": "2027-09-28",
+      "url": "https://www.ohara.or.jp/2025/12/01/26682/",
+      "kind": "collection",
+      "summary": "工芸館・東洋館の常設コレクション展示（会期末未定）",
+      "admission": "入館料に含む",
+      "adult_price": null
+    }
+  ],
+  "adult_price": 2000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "倉敷", "lines": "JR山陽本線", "walk_min": 15, "note": "新幹線利用時は岡山または新倉敷でJR山陽本線に乗り換え"}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "休館日は毎週月曜だが祝日は開館（8月は無休、と案内あり）。振替休館の有無は記載が無いため holiday_rule は open とした。開館時間は3〜11月が9:00〜17:00、12〜2月が9:00〜15:00の季節制。エル・グレコ《受胎告知》展、コレクション展、工芸・東洋館の展示はいずれも通常の入館料で観覧可能な常設的な展示で、会期末の記載が無いため今日から1年後を暫定の end とした。見どころ紹介文は個別ページを読めておらず highlights は空にした。",
+  "confidence": "medium"
+}

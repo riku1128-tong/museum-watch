@@ -1,0 +1,56 @@
+{
+  "id": "Q11279084",
+  "checked_at": "2026-09-28T23:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.midori.gunma.jp/tomihiro/",
+  "address": "〒376-0302 群馬県みどり市東町草木86番地",
+  "source_urls": [
+    "https://www.city.midori.gunma.jp/tomihiro/",
+    "https://www.city.midori.gunma.jp/tomihiro/1004716/1003465.html",
+    "https://www.city.midori.gunma.jp/tomihiro/1003354/1003362/1009845.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-11-30", "to": "2026-11-30", "reason": "臨時休館"},
+    {"from": "2026-12-26", "to": "2027-01-04", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "愛、深き淵より。",
+      "start": "2026-08-29",
+      "end": "2026-11-29",
+      "url": "https://www.city.midori.gunma.jp/tomihiro/1003354/1003362/1009845.html",
+      "kind": "special",
+      "summary": "開館35周年記念展。著作『愛、深き淵より。』にちなみ、苦難の道のりと花々の作品を紹介",
+      "admission": "一般600円（入館料に含む）",
+      "adult_price": 600
+    },
+    {
+      "title": "イマーシブミュージアム",
+      "start": "2026-08-29",
+      "end": "2026-11-29",
+      "url": "https://www.city.midori.gunma.jp/tomihiro/1003354/1003362/1009845.html",
+      "kind": "special",
+      "summary": "映像・音・光で空間を演出し、富弘が過ごした鈴の鳴る道の世界を体感する没入型展示",
+      "admission": "一般600円（入館料に含む）",
+      "adult_price": 600
+    }
+  ],
+  "adult_price": 600,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "神戸", "lines": "わたらせ渓谷鐵道", "exit": null, "walk_min": null, "note": "神戸駅から路線バス（美術館線・沢入線）で約10分、美術館下車すぐ"}
+  ],
+  "highlights": "詩人・画家の星野富弘の作品を専門に展示する美術館。渡良瀬渓谷の自然に囲まれた建物で、花の詩画とともに、四季折々の景色も楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「11月30日、12月～3月の月曜（祝日の場合は火曜）、年末年始12/26～1/4」。12月～3月は月曜定休となるため、その期間はcheck時に closed_weekdays の見直しが必要（今回は9月時点のため開館中の期間として [] のまま）。開館35周年記念展「愛、深き淵より。」「イマーシブミュージアム」は8/13先行公開、8/29グランドオープン、入館料に含まれ追加料金なし。",
+  "confidence": "high"
+}

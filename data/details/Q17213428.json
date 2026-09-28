@@ -1,0 +1,40 @@
+{
+  "id": "Q17213428",
+  "checked_at": "2026-09-28T23:29:44+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://sannenzaka-museum.co.jp/",
+  "address": "〒605-0862 京都府京都市東山区清水寺門前産寧坂北入清水三丁目337-1",
+  "source_urls": [
+    "https://sannenzaka-museum.co.jp/",
+    "https://sannenzaka-museum.co.jp/exhibition/"
+  ],
+  "regular_hours": [
+    {"days": ["wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon", "tue"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "幕末・明治の名宝―世界を魅了した日本の技と美―",
+      "start": "2026-09-28",
+      "end": "2027-09-28",
+      "url": "https://sannenzaka-museum.co.jp/exhibition/",
+      "kind": "collection",
+      "summary": "幕末・明治期の金工・七宝・蒔絵・京薩摩・彫刻・美術染織などの工芸品を常時展示する常設展。通年",
+      "admission": "一般800円",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": 800,
+  "access": [
+    {"station": "清水道", "lines": "京都市バス", "walk_min": 7, "note": "「清水道」または「東山安井」下車、八坂通または清水坂を東へ徒歩7分"}
+  ],
+  "highlights": "幕末から明治にかけて欧米を魅了した金工・七宝・蒔絵・京薩摩・彫刻・染織などの超絶技巧の工芸品を常時展示する専門美術館。清水寺門前・産寧坂という古都の風情ある立地も魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "企画展（2F）は「終了しました」の表示のみで、現在開催中・今後の企画展の告知は公式サイトに見当たらなかった。1F常設展は会期表記が無いため、通年展示として end を1年後に設定した。",
+  "confidence": "high"
+}

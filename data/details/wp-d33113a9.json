@@ -1,13 +1,18 @@
 {
   "id": "wp-d33113a9",
-  "checked_at": "2026-09-24T00:43:53+09:00",
+  "checked_at": "2026-09-28T23:28:12+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.shinagawa-culture.or.jp/o-art/",
   "address": "東京都品川区大崎1-6-2 大崎ニューシティ2号館2階",
+  "adult_price": null,
+  "access": [
+    {"station": "大崎", "lines": "JR山手線・湘南新宿ライン・埼京線・りんかい線", "exit": "北改札口・東口", "walk_min": 2, "note": "東急バス「渋41」（大井町駅－渋谷駅）大崎駅下車徒歩2分"}
+  ],
   "source_urls": [
     "https://www.shinagawa-culture.or.jp/o-art/",
+    "https://www.shinagawa-culture.or.jp/o-art/access.html",
     "https://www.shinagawa-culture.or.jp/o-art/event/schedule/index.html",
     "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.9.html",
     "https://www.shinagawa-culture.or.jp/o-art/event/schedule/2026.10.html",

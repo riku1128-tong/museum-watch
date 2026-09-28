@@ -1,6 +1,6 @@
 {
   "id": "Q743773",
-  "checked_at": "2026-09-24T00:42:20+09:00",
+  "checked_at": "2026-09-28T23:28:49+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,8 +9,10 @@
   "source_urls": [
     "https://www.teien-art-museum.ne.jp/",
     "https://www.teien-art-museum.ne.jp/visit/",
+    "https://www.teien-art-museum.ne.jp/ticket/",
     "https://www.teien-art-museum.ne.jp/exhibition/",
     "https://www.teien-art-museum.ne.jp/exhibition/20261003-1220_marimekko/",
+    "https://www.teien-art-museum.ne.jp/news/",
     "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607"
   ],
   "regular_hours": [
@@ -45,6 +47,7 @@
       "kind": "special",
       "summary": "フィンランドのデザインハウス、マリメッコのドレス60点超やファブリック、制作資料を紹介",
       "admission": "一般 1,400円",
+      "adult_price": 1400,
       "hours": [
         {
           "days": [
@@ -145,8 +148,13 @@
     }
   ],
   "closed_between_exhibitions": true,
-  "notes": "休館日は「毎週月曜日（祝日の場合は開館、翌日休館）、年末年始」。9/24 時点で開催中の展覧会は無く、トップに「本日は休館日」と表示（展示替え期間）。西洋庭園は 2026-10-02〜2027-03-31 閉鎖予定。次々回「愛を紡ぎ、祈りを刻む―リトアニアの手仕事―」は 2027-01-16〜03-28。年末年始の具体的な日付は未確認。",
+  "notes": "休館日は「毎週月曜日（祝日の場合は開館、翌日休館）、年末年始」。9/24 時点で開催中の展覧会は無く、トップに「本日は休館日」と表示（展示替え期間）。西洋庭園は 2026-10-02〜2027-03-31 閉鎖予定。次々回「愛を紡ぎ、祈りを刻む―リトアニアの手仕事―」は 2027-01-16〜03-28。年末年始の具体的な日付は未確認。庭園のみ入場料は一般200円（マリメッコ展会期中）。敬老の日（9/21）の庭園無料公開は65歳以上限定のため free_days には入れていない。",
   "confidence": "high",
+  "adult_price": null,
+  "access": [
+    {"station": "白金台", "lines": "都営三田線・東京メトロ南北線", "exit": "1番出口", "walk_min": 6},
+    {"station": "目黒", "lines": "JR山手線・東急目黒線", "exit": "東口／正面口", "walk_min": 7, "note": "都営バス・東急バスで「白金台5丁目」下車徒歩3分も可"}
+  ],
   "free_days": [
     {
       "from": "2026-10-01",

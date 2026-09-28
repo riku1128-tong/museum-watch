@@ -1,6 +1,6 @@
 {
   "id": "Q3789149",
-  "checked_at": "2026-09-24T00:43:21+09:00",
+  "checked_at": "2026-09-28T23:28:49+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,6 +9,7 @@
   "source_urls": [
     "https://mingeikan.or.jp/",
     "https://mingeikan.or.jp/information/admission/",
+    "https://mingeikan.or.jp/information/access/",
     "https://mingeikan.or.jp/information/calendar/",
     "https://mingeikan.or.jp/exhibition/schedule/",
     "https://mingeikan.or.jp/special/ex202608/",
@@ -31,7 +32,8 @@
       "url": "https://mingeikan.or.jp/special/ex202608/",
       "kind": "special",
       "summary": "尚家ゆかりの琉球紅型・織物約50点を中心に、沖縄染織に対する柳宗悦の眼を検証",
-      "admission": "一般 1,500円"
+      "admission": "一般 1,500円",
+      "adult_price": 1500
     },
     {
       "title": "2026年度日本民藝館展 —新作工藝公募展—",
@@ -40,10 +42,16 @@
       "url": "https://mingeikan.or.jp/exhibition/schedule/",
       "kind": "special",
       "summary": "日本各地の新作工芸品（陶磁・織物・染物・木工・漆工・金工ほか）の公募展",
-      "admission": null
+      "admission": null,
+      "adult_price": null
     }
   ],
   "closed_between_exhibitions": true,
-  "notes": "休館日は「毎週月曜日（ただし祝日の場合は開館し翌日休館）年末年始、陳列替え等に伴う臨時休館あり」。年末年始の日付はカレンダー表示（12/29～1/1）から。10/17 の記念講演会時は 17:00～17:45頃に大展示室を閉鎖し、講演会後 20:00 まで展示公開。次の特別展「柳宗悦・蒐集物語」は 2027/1/6～3/10。",
-  "confidence": "high"
+  "notes": "休館日は「毎週月曜日（ただし祝日の場合は開館し翌日休館）年末年始、陳列替え等に伴う臨時休館あり」。年末年始の日付はカレンダー表示（12/29～1/1）から。10/17 の記念講演会時は 17:00～17:45頃に大展示室を閉鎖し、講演会後 20:00 まで展示公開。次の特別展「柳宗悦・蒐集物語」は 2027/1/6～3/10。観覧料一般1,500円（20名以上の団体は1,300円）。",
+  "confidence": "high",
+  "adult_price": 1500,
+  "access": [
+    {"station": "駒場東大前", "lines": "京王井の頭線", "exit": "西口", "walk_min": 7},
+    {"station": "東北沢", "lines": "小田急線", "exit": "東口", "walk_min": 15}
+  ]
 }

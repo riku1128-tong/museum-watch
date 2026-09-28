@@ -1,0 +1,67 @@
+{
+  "id": "Q28686215",
+  "checked_at": "2026-09-28T23:28:17+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kadcul.com/",
+  "address": "〒359-0023 埼玉県所沢市東所沢和田3-31-3",
+  "source_urls": [
+    "https://kadcul.com/",
+    "https://kadcul.com/guide/info",
+    "https://kadcul.com/guide/access",
+    "https://kadcul.com/calendar"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "銀河鉄道999 THE GALAXY EXPERIENCE　あの旅は、まだ続いている。",
+      "start": "2026-04-25",
+      "end": "2026-11-23",
+      "url": "https://kadcul.com/",
+      "kind": "special",
+      "summary": "1Fグランドギャラリーで開催する『銀河鉄道999』の世界観を体感する展示",
+      "admission": null
+    },
+    {
+      "title": "『銀河鉄道999』50周年プロジェクト　松本零士展　創作の旅路",
+      "start": "2026-09-19",
+      "end": "2026-10-26",
+      "url": "https://kadcul.com/",
+      "kind": "special",
+      "summary": "3F展示室で開催する、松本零士の創作の歩みをたどる50周年記念展",
+      "admission": null
+    },
+    {
+      "title": "わたしをすくう　エッセイマンガの処方箋展",
+      "start": "2026-09-18",
+      "end": "2027-01-11",
+      "url": "https://kadcul.com/",
+      "kind": "special",
+      "summary": "4Fエディット アンド アートギャラリーで開催するエッセイマンガをテーマにした企画展",
+      "admission": null
+    },
+    {
+      "title": "角川源義の時代～荒波を越えて～",
+      "start": "2025-10-25",
+      "end": "2027-09-28",
+      "url": "https://kadcul.com/",
+      "kind": "collection",
+      "summary": "5F武蔵野ギャラリーで開催中、角川書店創業者・角川源義の歩みを紹介する展示（通年）",
+      "admission": null
+    }
+  ],
+  "adult_price": null,
+  "closed_between_exhibitions": false,
+  "access": [
+    {"station": "東所沢", "lines": "JR武蔵野線", "walk_min": 10}
+  ],
+  "notes": "ところざわサクラタウン内の複合文化施設。料金はエリア・時間帯ごとのチケット制（Fever予約サイトで販売）で、公式サイトの静的ページには金額の記載が無く、館全体の入館料・展覧会ごとの料金は未確認のため入れていない（推測で埋めない方針のため）。休館日は「毎週火曜日（火曜日が祝日の場合は開館）」。カレンダーで10月の火曜休館日の一部（10/22）が記載から漏れているように見えたが確証が持てず special_closures/special_openings には反映していない。「角川源義の時代」は継続開催中の展示のため、通年扱いで終了日を今日から1年後としている。museums.json の official_url（tokorozawa-sakuratown.jp）はサクラタウン全体のサイトのため、ミュージアム公式サイト kadcul.com に上書きした。",
+  "confidence": "medium"
+}

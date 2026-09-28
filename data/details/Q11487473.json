@@ -1,6 +1,6 @@
 {
   "id": "Q11487473",
-  "checked_at": "2026-09-24T00:42:20+09:00",
+  "checked_at": "2026-09-28T23:28:49+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,8 +9,6 @@
   "source_urls": [
     "https://www.yayoi-yumeji-museum.jp/",
     "https://www.yayoi-yumeji-museum.jp/guide/visit.html",
-    "https://www.yayoi-yumeji-museum.jp/yayoi/exhibition/now.html",
-    "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/now.html",
     "https://www.yayoi-yumeji-museum.jp/yayoi/exhibition/next.html",
     "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/next.html"
   ],
@@ -25,40 +23,15 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "『My Birthday』展　80～90年代を席巻した占いカルチャー少女雑誌",
-      "start": "2026-07-04",
-      "end": "2026-09-27",
-      "url": "https://www.yayoi-yumeji-museum.jp/yayoi/exhibition/now.html",
-      "kind": "special",
-      "summary": "占い少女雑誌『My Birthday』を、まつざきあけみ・野崎ふみこらの表紙原画などで紹介",
-      "admission": "一般 1,200円"
-    },
-    {
-      "title": "高畠華宵 大正・昭和 悩み多き乙女らいふ展",
-      "start": "2026-07-04",
-      "end": "2026-09-27",
-      "url": "https://www.yayoi-yumeji-museum.jp/",
-      "kind": "special",
-      "summary": "弥生美術館3階。高畠華宵の作品で大正・昭和の乙女の暮らしを紹介",
-      "admission": "一般 1,200円"
-    },
-    {
-      "title": "あなたも目利きに! 竹久夢二入門展 —夢二絵の見かた＆楽しみかた—",
-      "start": "2026-07-04",
-      "end": "2026-09-27",
-      "url": "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/now.html",
-      "kind": "special",
-      "summary": "竹久夢二美術館。10のキーワードと10の表現から夢二絵の鑑賞のコツを紹介",
-      "admission": "一般 1,200円"
-    },
-    {
       "title": "虚構世界をリアルに描いた　石原豪人展　around the 1970sの妄想画、大集合",
       "start": "2026-10-03",
       "end": "2026-12-20",
       "url": "https://www.yayoi-yumeji-museum.jp/yayoi/exhibition/next.html",
       "kind": "special",
       "summary": "1970年前後の少年誌で怪人・怪獣を描いた石原豪人と同時代のイラストレーターの作品",
-      "admission": "一般 1,200円"
+      "recommend": "少年誌の口絵や挿絵で怪奇・怪獣ブームを支えた石原豪人の妄想的な画業を、同時代のイラストレーターとあわせて紹介。昭和のサブカルチャーの熱量を体感できる。",
+      "admission": "一般 1,200円",
+      "adult_price": 1200
     },
     {
       "title": "夢二の日本　描かれた理想郷",
@@ -67,10 +40,17 @@
       "url": "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/next.html",
       "kind": "special",
       "summary": "竹久夢二美術館。夢二が理想とした日本の風景や文化、郷愁・浮世絵・古典題材の作品",
-      "admission": "一般 1,200円"
+      "recommend": "竹久夢二が憧れた日本の原風景や古典・浮世絵からの引用を通して、夢二が思い描いた理想郷を追う。夢二絵の郷愁的な魅力を新たな切り口で楽しめる。",
+      "admission": "一般 1,200円",
+      "adult_price": 1200
     }
   ],
   "closed_between_exhibitions": true,
-  "notes": "弥生美術館・竹久夢二美術館は共通券（一般1200円で2館観覧）。休館日は「月曜日（祝日の場合は翌火曜日）、展示替え期間中、年末年始」。次回展の休館日「月曜日 ※ただし10月12日、11月23日(祝・月) 開館、翌10月13日、11月24日(火) 休館」。年末年始の具体的な日付は未確認。",
-  "confidence": "high"
+  "notes": "弥生美術館・竹久夢二美術館は共通券（一般1200円で2館観覧）。休館日は「月曜日（祝日の場合は翌火曜日）、展示替え期間中、年末年始」。次回展の休館日「月曜日 ※ただし10月12日、11月23日(祝・月) 開館、翌10月13日、11月24日(火) 休館」。年末年始の具体的な日付は未確認。9/27に前会期の展示（『My Birthday』展、高畠華宵展、竹久夢二入門展）が終了し、9/28～10/2は展示替えのため休館、10/3から次会期が開始。",
+  "confidence": "high",
+  "adult_price": 1200,
+  "access": [
+    {"station": "根津", "lines": "地下鉄千代田線", "exit": "1番出口", "walk_min": 7},
+    {"station": "東大前", "lines": "地下鉄南北線", "exit": "1番出口", "walk_min": 7, "note": "JR上野駅公園口からは徒歩25分、または都営バス（上60系統など）で「弥生2丁目」下車徒歩3分"}
+  ]
 }

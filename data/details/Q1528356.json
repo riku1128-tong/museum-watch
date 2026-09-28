@@ -1,6 +1,6 @@
 {
   "id": "Q1528356",
-  "checked_at": "2026-09-24T00:55:00+09:00",
+  "checked_at": "2026-09-28T23:55:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,7 +10,8 @@
     "https://www.murauchi.net/museum/",
     "https://www.murauchi.net/museum/aceess.html",
     "https://www.murauchi.net/museum/exhibition.html",
-    "https://www.murauchi.net/museum/news_rn.html"
+    "https://www.murauchi.net/museum/news_rn.html",
+    "https://www.murauchi.net/museum/information.html"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:30", "close": "17:30", "last_entry": "17:00"}
@@ -27,10 +28,15 @@
       "url": "https://www.murauchi.net/museum/exhibition.html",
       "kind": "collection",
       "summary": "通年。所蔵絵画と名作チェア、名車の常設展示。9月は「今月の椅子」を紹介",
-      "admission": null
+      "admission": "一般 600円",
+      "adult_price": 600
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "休館日は「毎週水曜日（祝日の場合は開館、翌平日は振替休館）、年末年始」。年末年始の具体的な日付は未掲載。入館料の記載は見当たらず。常設展示のみで会期のある企画展は見当たらない（start は確認日）。",
+  "adult_price": 600,
+  "access": [
+    {"station": "八王子", "lines": "JR中央線・横浜線・八高線", "exit": "北口", "walk_min": null, "note": "北口から無料シャトルバス運行（水曜運休）。路線バス「左入経由純心女子学園行」等で「村内ファニチャーアクセス」下車。京王八王子駅からも利用可"}
+  ],
+  "notes": "休館日は「毎週水曜日（祝日の場合は開館、翌平日は振替休館）、年末年始」。年末年始の具体的な日付は未掲載。入館料は information.html に「一般600円」の記載を確認。常設展示のみで会期のある企画展は見当たらない（start は確認日）。",
   "confidence": "high"
 }

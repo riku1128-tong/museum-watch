@@ -1,0 +1,28 @@
+{
+  "id": "Q11450773",
+  "checked_at": "2026-09-28T23:27:38+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "屋内外の改修工事のため休館中。公式X/公式サイトで2026年5月22日付の休館告知、6月5日付で休館延長の告知があった模様（本文は公式サイトに接続できず未確認）。今年度中の再開を目指すとされるが、具体的な再開予定日は確認できていない。",
+  "official_url": "http://www.musee-de-jansem.jp/",
+  "address": "〒399-8301 長野県安曇野市穂高有明4018-6",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/4049"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "16:30"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "adult_price": 850,
+  "access": [
+    {"station": "穂高", "lines": "JR大糸線", "note": "松本駅から大糸線で穂高駅まで約30分。豊科ICから車で約15分"}
+  ],
+  "highlights": null,
+  "notes": "公式サイト（musee-de-jansem.jp）にWebFetchで接続できず（SSLエラー）、インターネットミュージアム（museum.or.jp）を情報源とした。通常の休館日は火曜（ゴールデンウィーク・8月・祝日は無休）、冬期休館（例年11月下旬〜4月20日ごろ、正確な日付は未確認のためspecial_closuresには入れていない）。ただし現在は改修工事のため長期休館中で、この通常スケジュールは工事終了までは適用されない。観覧料はインターネットミュージアム記載の850円としたが、他の旅行系サイトでは1,100円との記載もあり、確定できていない。フランスの画家ジャン・ジャンセンの専門美術館。展覧会情報は休館中のため確認できず空欄。",
+  "confidence": "low"
+}

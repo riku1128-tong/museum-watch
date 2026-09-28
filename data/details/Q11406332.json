@@ -1,0 +1,49 @@
+{
+  "id": "Q11406332",
+  "checked_at": "2026-09-28T23:29:44+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.chiba-muse.or.jp/ART/",
+  "address": "〒260-0024 千葉県千葉市中央区中央港1丁目10番1号",
+  "source_urls": [
+    "https://www.chiba-muse.or.jp/ART/",
+    "https://www.chiba-muse.or.jp/ART/visit/",
+    "https://www.chiba-muse.or.jp/ART/exhibition/",
+    "https://www.chiba-muse.or.jp/ART/exhibition/events/event-10036/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "16:30", "last_entry": "16:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-06", "to": "2026-10-07", "reason": "臨時休館"},
+    {"from": "2026-10-20", "to": "2026-10-25", "reason": "臨時休館"},
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "大チーバくん展―さかざきちはるとチーバくんの20年",
+      "start": "2026-10-31",
+      "end": "2027-01-17",
+      "url": "https://www.chiba-muse.or.jp/ART/exhibition/events/event-10036/",
+      "kind": "special",
+      "summary": "千葉県公式キャラクター「チーバくん」誕生20年を記念し、生みの親さかざきちはるの原画などを紹介",
+      "admission": "一般1,000円(団体一般800円)",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": null,
+  "access": [
+    {"station": "千葉みなと", "lines": "JR京葉線・千葉都市モノレール", "walk_min": 10}
+  ],
+  "highlights": "海と空が広がる千葉みなとに面し、緑豊かな庭園を持つ県立美術館。2024年に開館50周年を迎え、千葉ゆかりの作家の作品を核に日本画・洋画・彫刻・工芸・書・版画など幅広いコレクションを収蔵する。",
+  "closed_between_exhibitions": false,
+  "notes": "入場料は展覧会ごとに異なり、常設のコレクション展固有の料金は公式サイトに明記なし（adult_price は null）。県民の日（6/15）と文化の日（11/3）は全展示の入場料が無料（free_days に登録済み、今回は3か月以内の文化の日のみ）。65歳以上・中学生以下・障害者手帳所持者と介護者1名は常時無料（大人一般ではないため free_days には含めていない）。「大髙正人展」（2027/1/30〜4/11）は開始が3か月超先のため未登録。",
+  "free_days": [
+    {"from": "2026-11-03", "to": "2026-11-03", "scope": "all", "reason": "文化の日", "source_url": "https://www.chiba-muse.or.jp/ART/visit/"}
+  ],
+  "confidence": "high"
+}

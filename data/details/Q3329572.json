@@ -1,6 +1,6 @@
 {
   "id": "Q3329572",
-  "checked_at": "2026-09-24T00:42:36+09:00",
+  "checked_at": "2026-09-28T23:27:31+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,7 +10,13 @@
     "https://www.yamatane-museum.jp/",
     "https://www.yamatane-museum.jp/guidance/",
     "https://www.yamatane-museum.jp/exhibitions/2026/togyu.html",
-    "https://www.yamatane-museum.jp/exhibitions/2026/yamatane-collection1.html"
+    "https://www.yamatane-museum.jp/exhibitions/2026/yamatane-collection1.html",
+    "https://www.yamatane-museum.jp/access/",
+    "https://www.yamatane-museum.jp/ticket/"
+  ],
+  "adult_price": null,
+  "access": [
+    {"station": "恵比寿", "lines": "JR山手線・埼京線、東京メトロ日比谷線", "exit": "西口/2番出口", "walk_min": 10, "note": "恵比寿駅西口から都バス(学06番)で約5分「広尾高校前」下車徒歩1分、または渋谷駅東口から都バス(学03番)で約10分「東4丁目」下車徒歩2分。専用駐車場なし。"}
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
@@ -40,6 +46,6 @@
     }
   ],
   "closed_between_exhibitions": true,
-  "notes": "休館日は「毎週月曜日（祝日は開館、翌日火曜日は休館）展示替え期間、年末年始」。奥村土牛展ページに「9月24日(木)は休館」と明記（祝日ルールの算出と一致）。10/5〜10/9 は展示と展示の間。年末年始の具体的日付は未確認。",
+  "notes": "休館日は「毎週月曜日（祝日は開館、翌日火曜日は休館）展示替え期間、年末年始」。奥村土牛展ページに「9月24日(木)は休館」と明記（祝日ルールの算出と一致）。10/5〜10/9 は展示と展示の間。年末年始の具体的日付は未確認。常設の展示室を持たず企画展ごとの入替制のため adult_price（館共通の常設料金）は null。",
   "confidence": "high"
 }

@@ -1,0 +1,29 @@
+{
+  "id": "wp-3ccaf109",
+  "checked_at": "2026-09-28T23:28:12+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.moka.lg.jp/event_bunka_sports/rekishi_bunka/bunka_geijutsu/1/index.html",
+  "address": null,
+  "source_urls": [
+    "https://www.city.moka.lg.jp/event_bunka_sports/rekishi_bunka/bunka_geijutsu/1/index.html",
+    "https://www.city.moka.lg.jp/kakuka/bunka/gyomu/rekishi_bunka/bunka_geijutsu/1/23241.html"
+  ],
+  "regular_hours": [
+    {"days": ["sat"], "open": "12:00", "close": "16:00"}
+  ],
+  "closed_weekdays": ["mon", "tue", "wed", "thu", "fri", "sun"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "真岡市が認定した市内数か所の小さな私設ギャラリーをめぐる企画。各会場とも土曜のみ開館し、地元の作家や愛好家の作品を無料で見ることができる、まちなか散策と組み合わせやすい美術館群。",
+  "closed_between_exhibitions": false,
+  "notes": "「真岡市まちかど美術館」は真岡市が認定した複数の小規模ギャラリー（趣味の美術館：土曜12:00-16:00、渡辺私塾美術館：土曜13:00-16:00・毎月末土曜休館 など）の総称で、単一の施設・住所・アクセス情報を持たない。開館は各会場とも土曜のみで、観覧料はいずれも無料。祝日の扱い・臨時休館の有無は会場ごとに異なり公式サイトに一覧記載が無いため unknown。常設企画展「線のアンソロジー」等の会期は公式サイト上に具体的な日付の記載が確認できず、展覧会情報は掲載を見送った。年間スケジュールは「令和8年度 真岡市まちかど美術館年間スケジュール」として公式サイトに掲載されているが、詳細ページの本文取得ができなかった。",
+  "confidence": "medium"
+}

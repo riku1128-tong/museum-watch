@@ -1,0 +1,32 @@
+{
+  "id": "Q11577117",
+  "checked_at": "2026-09-28T23:35:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://azumino-bunka.com/facility/tabuchi-museum/",
+  "address": "〒399-8201 長野県安曇野市豊科南穂高5078-2",
+  "source_urls": [
+    "https://www.82bunka.or.jp/bunkashisetsu/detail.php?no=147"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 310,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "柏矢町", "lines": "JR大糸線", "exit": null, "walk_min": 20, "note": "長野自動車道 安曇野ICから車で5分"}
+  ],
+  "highlights": "山岳写真家・田淵行男の業績を伝える記念館。高山蝶の生態写真や蝶の水彩画、雪形の記録など約7万枚のネガを収蔵し、地下展示室では県ゆかりの写真家や田淵行男賞受賞作家の企画展も開催する",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（azumino-bunka.com）はSSL証明書の問題でWebFetchから直接読めず、安曇野市の外郭団体である八十二文化財団の施設紹介ページで確認した（confidence: medium）。祝日の翌平日も休館という規則があるが、現在のスキーマの closed_weekdays / holiday_rule では表現できないため注記に留める（月曜が定休日、祝日なら開館。ただし『祝日の翌平日』も別途休館とのこと）。現在開催中の企画展タイトル・会期は公式で確認できず未掲載。",
+  "confidence": "medium"
+}

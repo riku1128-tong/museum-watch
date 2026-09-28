@@ -1,6 +1,6 @@
 {
   "id": "Q11198629",
-  "checked_at": "2026-09-24T00:44:20+09:00",
+  "checked_at": "2026-09-28T23:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -31,7 +31,8 @@
       "url": "https://www.musashino.or.jp/museum/1002006/1003349/1009837.html",
       "kind": "special",
       "summary": "絵本作家・谷口智則の新作絵本の原画全25点や「100にんのサンタクロース」原画などを紹介",
-      "admission": "一般 300円"
+      "admission": "一般 300円",
+      "adult_price": 300
     },
     {
       "title": "【浜口陽三記念室】食を楽しむ",
@@ -40,7 +41,8 @@
       "url": "https://www.musashino.or.jp/museum/1002006/1003366/1010061.html",
       "kind": "collection",
       "summary": "浜口陽三記念室のコレクション展示。テーマは「食」",
-      "admission": "常設展 100円"
+      "admission": "常設展 100円",
+      "adult_price": 100
     },
     {
       "title": "【萩原英雄記念室】道化師の役割",
@@ -49,10 +51,18 @@
       "url": "https://www.musashino.or.jp/museum/1002006/1003367/1009463.html",
       "kind": "collection",
       "summary": "萩原英雄記念室のコレクション展示。テーマは「道化師」",
-      "admission": "常設展 100円"
+      "admission": "常設展 100円",
+      "adult_price": 100
     }
   ],
+  "adult_price": 100,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "吉祥寺", "lines": "JR中央線・総武線、京王井の頭線", "exit": "中央口（北口）", "walk_min": 3, "note": "コピス吉祥寺A館7階"}
+  ],
+  "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "休館日は「毎月最終水曜日（祝日の場合は開館し、翌日を休館日）」。最終水曜日は closed_nth_weekdays で表せないため、公式に日付が出ている 9/30・10/28（谷口展ページ）だけ special_closures に入れた。11/25 以降の最終水曜日は未掲載。11/4 以降の展示と、展示替え休館の有無は未確認（次の企画展は 2027/1/16〜）。入館締切の記載なし。official_url は武蔵野文化生涯学習事業団のページ。",
+  "notes": "休館日は「毎月最終水曜日（祝日の場合は開館し、翌日を休館日）」。最終水曜日は closed_nth_weekdays で表せないため、公式に日付が出ている 9/30・10/28（谷口展ページ）だけ special_closures に入れた。11/25 以降の最終水曜日は未掲載。11/4 以降の展示と、展示替え休館の有無は未確認（次の企画展は 2027/1/16〜）。入館締切の記載なし。official_url は武蔵野文化生涯学習事業団のページ。今回、最寄駅（吉祥寺駅）は公式サイトのアクセスページで確認、常設展のみの入館料（100円）は展覧会ページの記載（既存の exhibitions.admission）から確認した。",
   "confidence": "medium"
 }

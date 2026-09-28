@@ -1,0 +1,33 @@
+{
+  "id": "Q11450795",
+  "checked_at": "2026-09-28T23:28:05+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://azumino-bunka.com/facility/setsuro-museum/",
+  "address": "〒399-8302 長野県安曇野市穂高北穂高408-1",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/10700",
+    "https://www.culture.nagano.jp/facilities/564/",
+    "https://azumino-artline.net/museum/setsuro"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "adult_price": 410,
+  "access": [
+    {"station": "穂高", "lines": "JR大糸線", "exit": null, "walk_min": null,
+     "note": "穂高駅からタクシー約5〜10分、レンタサイクル約20分。有明駅から徒歩15〜20分。JR篠ノ井線明科駅からタクシー約7〜15分。長野自動車道安曇野ICから車で約15分"}
+  ],
+  "highlights": "漆芸家・高橋節郎の生家跡（登録有形文化財）に建つ美術館。黒と金を基調に、少年時代に親しんだ安曇野の風景を幻想的に描いた漆屏風や漆版画、墨彩画などを展示する、作家ゆかりの地ならではの記念館。",
+  "notes": "公式サイト（azumino-bunka.com、および別名setsuro-museum.com）はサーバー証明書のホスト名不一致でWebFetchから読み込めず（Hostname does not match certificate's altnames）、時間をおいて複数回試したが解消しなかった。そのため、インターネットミュージアム・長野県文化施設ポータル・安曇野アートラインの3件で内容が一致する開館時間・休館日・観覧料・アクセスのみを採用し、confidenceはmediumとした。企画展は2026年5〜9月開催の「見る聞くうるし」展が9/6で終了しており、秋以降の企画展名・会期は各サイトとも未掲載のため確認できず、exhibitionsは空欄にした。次回巡回時に公式サイトへの再接続を試すこと。",
+  "confidence": "medium"
+}

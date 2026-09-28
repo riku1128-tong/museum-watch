@@ -1,6 +1,6 @@
 {
   "id": "Q1362629",
-  "checked_at": "2026-09-24T00:55:00+09:00",
+  "checked_at": "2026-09-28T23:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -16,7 +16,9 @@
     "https://www.nmwa.go.jp/jp/exhibitions/2026italy.html",
     "https://www.nmwa.go.jp/jp/exhibitions/2026turner.html",
     "https://www.nmwa.go.jp/jp/exhibitions/2026CinF.html",
-    "https://www.nmwa.go.jp/jp/information/index.html"
+    "https://www.nmwa.go.jp/jp/information/index.html",
+    "https://www.nmwa.go.jp/jp/visit/map.html",
+    "https://www.nmwa.go.jp/jp/about/index.html"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "sun"], "open": "09:30", "close": "17:30", "last_entry": "17:00"},
@@ -60,6 +62,16 @@
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日・振替休日なら開館し翌平日休館）。9/24〜9/30は休館（理由は明記なし）。10/23(金)はカレンダー上休館（ターナー展開幕前日）。2027-01-12〜02-21は常設展示室閉室（館・企画展は開館）。常設展観覧料は国立美術館の料金改定のお知らせ(2026-09-18)あり、改定後額は未確認。",
-  "confidence": "high"
+  "adult_price": 500,
+  "access": [
+    {"station": "上野", "lines": "JR", "exit": "公園口", "walk_min": 1},
+    {"station": "京成上野", "lines": "京成電鉄", "exit": null, "walk_min": 7},
+    {"station": "上野", "lines": "東京メトロ銀座線・日比谷線", "exit": null, "walk_min": 8}
+  ],
+  "highlights": "フランスから返還された松方コレクションを核に、モネやロダンなど印象派を中心とした西洋美術の常設展を鑑賞できる。本館はル・コルビュジエ設計で世界遺産に登録された建築。上野公園内、JR上野駅から徒歩1分。",
+  "notes": "月曜休館（祝日・振替休日なら開館し翌平日休館）。9/24〜9/30は休館（理由は明記なし）。10/23(金)はカレンダー上休館（ターナー展開幕前日）。2027-01-12〜02-21は常設展示室閉室（館・企画展は開館）。常設展観覧料は国立美術館の料金改定のお知らせ(2026-09-18)あり、改定後額は未確認のため500円のまま据え置き。",
+  "confidence": "high",
+  "free_days": [
+    {"from": "2026-11-03", "to": "2026-11-03", "scope": "collection", "reason": "文化の日", "source_url": "https://www.nmwa.go.jp/jp/visit/faqs.html"}
+  ]
 }

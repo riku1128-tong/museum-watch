@@ -1,6 +1,6 @@
 {
   "id": "Q11460717",
-  "checked_at": "2026-09-24T01:05:00+09:00",
+  "checked_at": "2026-09-28T23:35:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://www.city.kodaira.tokyo.jp/dencyu/",
     "https://www.city.kodaira.tokyo.jp/kurashi/061/061391.html",
-    "https://www.city.kodaira.tokyo.jp/kurashi/061/061404.html"
+    "https://www.city.kodaira.tokyo.jp/kurashi/061/061404.html",
+    "https://www.city.kodaira.tokyo.jp/kurashi/061/061410.html"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "16:00", "last_entry": "15:30"}
@@ -41,6 +42,11 @@
     }
   ],
   "closed_between_exhibitions": true,
+  "adult_price": 300,
+  "access": [
+    {"station": "一橋学園", "lines": "西武多摩湖線", "exit": "南口", "walk_min": 10},
+    {"station": "小平", "lines": "西武新宿線・西武拝島線", "exit": null, "walk_min": null, "note": "西武バスで「一橋病院」下車徒歩7分（国分寺駅北入口⇔小平駅南口の寺61・62系統）"}
+  ],
   "notes": "火曜休館（祝日の場合はその翌日以降の直近の平日）。展示替え期間は休館。開館時間 10:00〜16:00（15:30までに入館）。観覧料は現金のみ。公式サイトは小平市ウェブサイト内のページ。",
   "confidence": "high"
 }

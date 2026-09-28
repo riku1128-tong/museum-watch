@@ -1,0 +1,59 @@
+{
+  "id": "Q147286",
+  "checked_at": "2026-09-28T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kyohaku.go.jp/jp/",
+  "address": "〒605-0931 京都市東山区茶屋町527",
+  "source_urls": [
+    "https://www.kyohaku.go.jp/jp/visit/info/",
+    "https://www.kyohaku.go.jp/jp/announcements/",
+    "https://www.kyohaku.go.jp/jp/announcements/post_260807.html",
+    "https://www.kyohaku.go.jp/jp/exhibitions/",
+    "https://www.kyohaku.go.jp/jp/exhibitions/special/2026_genji/",
+    "https://www.kyohaku.go.jp/jp/calendar/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"},
+    {"days": ["fri"], "open": "09:30", "close": "20:00", "last_entry": "19:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-08", "to": "2026-10-04", "reason": "展示替えのため展示室休室（庭園・屋外展示のみ開館）"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "特別展　源氏物語　王朝のかがやき",
+      "start": "2026-10-06",
+      "end": "2026-11-29",
+      "url": "https://www.kyohaku.go.jp/jp/exhibitions/special/2026_genji/",
+      "kind": "special",
+      "summary": "国宝「源氏物語絵巻」など過去最大規模、約250件の文化財で源氏物語の世界を紹介",
+      "recommend": "国宝「源氏物語絵巻」に加え、藤原定家校訂の写本や分蔵ゆえ全体像不明の「盛安本」など貴重な資料が集結する、過去最大規模の源氏物語展です。",
+      "admission": "一般 2,200円（前売・団体2,000円）",
+      "adult_price": 2200
+    },
+    {
+      "title": "新春特集展示　ひつじづくし―干支を愛でる―",
+      "start": "2026-12-22",
+      "end": "2027-02-07",
+      "url": null,
+      "kind": "other",
+      "summary": "干支「羊」にちなむ作品を集めた新春の特集展示",
+      "admission": "一般 700円（名品ギャラリー観覧料）",
+      "adult_price": 700
+    }
+  ],
+  "adult_price": 700,
+  "access": [
+    {"station": "七条", "lines": "京阪電車", "exit": null, "walk_min": 7, "note": null},
+    {"station": "東山七条", "lines": null, "exit": null, "walk_min": null, "note": "市バス「博物館三十三間堂前」下車すぐ（206・208号系統）"}
+  ],
+  "highlights": "明治期の本館「明治古都館」と現代的な展示棟「平成知新館」の2棟からなり、日本・東洋の文化財を紹介する名品ギャラリーのほか、庭園には石造物などの屋外展示もある。",
+  "closed_between_exhibitions": false,
+  "notes": "2026年9月8日～10月4日は展示替えのため展示室が休室し、庭園・屋外展示のみ開館（入園料300円）。名品ギャラリー（平常展示）は一般700円だが、現在の会期・展示替えサイクルは未確認のため exhibitions には入れていない。",
+  "confidence": "high"
+}

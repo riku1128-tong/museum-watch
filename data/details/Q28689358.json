@@ -1,0 +1,66 @@
+{
+  "id": "Q28689358",
+  "checked_at": "2026-09-28T23:27:38+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.tomioka.lg.jp/www/genre/1387242529968/index.html",
+  "address": "〒370-2344 群馬県富岡市黒川351-1",
+  "source_urls": [
+    "https://www.city.tomioka.lg.jp/www/genre/1387242529968/index.html",
+    "https://www.city.tomioka.lg.jp/www/contents/1395887478508/index.html",
+    "https://www.city.tomioka.lg.jp/www/contents/1394159028138/index.html",
+    "https://www.city.tomioka.lg.jp/www/contents/1000000001735/index.html",
+    "https://www.city.tomioka.lg.jp/www/contents/1607578938940/index.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-27", "to": "2027-01-04", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "アートの学び展　アートインクルージョンの練習問題",
+      "start": "2026-09-05",
+      "end": "2026-11-01",
+      "url": "https://www.city.tomioka.lg.jp/www/contents/1607578938940/index.html",
+      "kind": "special",
+      "summary": "アートインクルージョン（誰もが参加できるアート）をテーマにした企画展",
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "福沢一郎　はじまりの一歩",
+      "start": "2026-07-14",
+      "end": "2026-11-01",
+      "url": "https://www.city.tomioka.lg.jp/www/contents/1607578938940/index.html",
+      "kind": "collection",
+      "summary": "富岡出身の洋画家・福沢一郎の画業の出発点に注目した常設展示",
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "富岡市の歴史と文化",
+      "start": "2026-09-28",
+      "end": "2027-09-28",
+      "url": "https://www.city.tomioka.lg.jp/www/contents/1607578938940/index.html",
+      "kind": "other",
+      "summary": "通年。郷土資料展示室で富岡市とその周辺の考古・歴史・民俗資料を通史的に紹介",
+      "admission": "一般 210円",
+      "adult_price": 210
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": 210,
+  "access": [
+    {"station": "上州富岡", "lines": "上信電鉄", "note": "駅からタクシーで10分"},
+    {"station": "磯部", "lines": "JR信越線", "note": "駅からタクシーで10分"}
+  ],
+  "highlights": "もみじ平総合公園内にある美術博物館。富岡出身の洋画家・福沢一郎の作品を一堂に集めた記念展示室を併設し、アトリエ再現室で制作の様子もわかる。郷土の考古・歴史・民俗資料も通史的に展示する。",
+  "notes": "利用案内ページの休館日は「月曜日（祝日の場合はその翌日）」「年末年始（12/27〜1/4）」、そのほか臨時休館あり。「福沢一郎　はじまりの一歩」の会期は公式ページに開始日の記載が無く、群馬県民カレッジのイベント情報（7/14〜11/1）で補った。最寄駅は無くタクシー利用が案内されている。",
+  "confidence": "medium"
+}

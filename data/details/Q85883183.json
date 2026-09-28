@@ -1,0 +1,42 @@
+{
+  "id": "Q85883183",
+  "checked_at": "2026-09-29T00:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.morinoouchi.com/",
+  "address": "〒399-8301 長野県安曇野市穂高有明2215-9",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/8044"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30", "from": "2026-03-01", "to": "2026-11-30"},
+    {"days": ["mon", "tue", "sat", "sun", "holiday"], "open": "09:30", "close": "16:30", "last_entry": "16:00", "from": "2026-12-01", "to": "2027-02-28"}
+  ],
+  "closed_weekdays": ["thu"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "「みんな、おかえり。」いせひでこ絵本原画展・石井麻木写真展",
+      "start": "2026-07-04",
+      "end": "2026-09-28",
+      "url": "http://www.morinoouchi.com/exhibition.html",
+      "kind": "special",
+      "summary": "絵本作家いせひでこの原画と写真家石井麻木の写真を紹介する展覧会",
+      "admission": "一般800円（入館料に含む）",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": 800,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "穂高", "lines": "JR大糸線", "exit": null, "walk_min": null, "note": "穂高駅からタクシーで約10分（バス便は乏しい）"}
+  ],
+  "highlights": "北アルプスの麓、安曇野の森の中にある絵本原画専門の美術館。国内外の絵本原画展を年5～6回入れ替え、約8,000冊の絵本を備えたライブラリーやカフェ、コテージも併設する。",
+  "closed_between_exhibitions": true,
+  "notes": "公式サイト（morinoouchi.com）はサーバー証明書の不一致（証明書のドメインが pweb02.nttbiz.jp になっている）でWebFetchが接続できず、インターネットミュージアムの情報のみで作成。次回開催の展覧会（2026年9月28日で会期終了する「いせひでこ絵本原画展・石井麻木写真展」の後続企画）は情報を確認できなかったため未掲載。木曜定休（展示替え休館・祝日振替休館・1月上旬連続休館あり、GW・お盆の週は無休、との記載あり。具体的な追加休館日は確認できず special_closures は空のまま）。冬期（12～2月）は最終入館16:00・閉館16:30。",
+  "confidence": "medium"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "Q28683263",
+  "checked_at": "2026-09-28T23:27:05+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.wakita-museum.com/",
+  "address": "〒389-0102 長野県北佐久郡軽井沢町大字軽井沢1570-4",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/4111",
+    "https://www.town.karuizawa.lg.jp/page/1202.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "from": "2026-07-15", "to": "2026-09-15"}
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "軽井沢", "lines": "JR・しなの鉄道", "walk_min": null, "note": "旧軽井沢銀座方面へ徒歩約10分"}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（www.wakita-museum.com）は今回 WebFetch で本文を取得できず（トップページはロゴ画像リンクのみ、下位ページは404）、インターネットミュージアム掲載情報と軽井沢町公式ページを情報源にした。開館期間は4月中旬〜11月下旬でこの間は無休、11月下旬〜4月中旬は冬季休館（具体的な開始・終了日は公式サイトで要確認のため special_closures には未計上）。洋画家・脇田和の油彩・水彩・デッサン・版画等200点以上を展示。建物は吉村順三設計。展覧会情報は取得できなかった。",
+  "confidence": "medium"
+}

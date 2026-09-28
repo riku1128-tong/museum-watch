@@ -1,0 +1,42 @@
+{
+  "id": "Q4556499",
+  "checked_at": "2026-09-28T23:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://benesse-artsite.jp/art/chichu.html",
+  "address": "〒761-3110 香川県香川郡直島町3449-1",
+  "source_urls": [
+    "https://benesse-artsite.jp/en/art/chichu.html",
+    "https://benesse-artsite.jp/art/chichu.html",
+    "https://benesse-artsite.jp/access/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "地中美術館コレクション（クロード・モネ、ジェームズ・タレル、ウォルター・デ・マリア）",
+      "start": "2026-09-28",
+      "end": "2027-09-28",
+      "url": "https://benesse-artsite.jp/art/chichu.html",
+      "kind": "collection",
+      "summary": "モネの睡蓮連作、タレルの光の空間作品、デ・マリアの球体と幾何学形体を安藤忠雄設計の建物に恒久展示。通年",
+      "recommend": "作品ごとに設計された専用の展示空間が魅力。タレルの「Open Sky」は日没時の特別プログラムでも鑑賞でき、自然光の移ろいとともに作品の見え方が変化する体験ができる。",
+      "admission": "平日 2,500円（web）/2,800円（窓口）、土日祝 2,700円（web）/3,000円（窓口）",
+      "adult_price": null
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "official_url は museums.json の英語版ページから日本語版（/art/chichu.html）へ上書き。観覧料は平日・土日祝およびWeb事前購入・窓口購入で異なる（平日2,500円/2,800円、土日祝2,700円/3,000円、15歳以下無料）ため、館・展示とも adult_price は単一の数値で表せず null とし、admission に内訳を記載した。アクセスはフェリー（高松港・宇野港から宮浦港、四国汽船）＋島内バス。コレクション展示（モネ・タレル・デ・マリア）は開館以来の常設で開始日は未確認のため、start は今回確認した日付とし、summary に「通年」と明記した。",
+  "confidence": "medium",
+  "adult_price": null,
+  "access": [
+    {"station": "宮浦港", "lines": "四国汽船（高松港から約60分・宇野港から約20分）", "exit": null, "walk_min": null, "note": "宮浦港から町営バス・シャトルバスで地中美術館入口へ"}
+  ],
+  "highlights": "建築家・安藤忠雄が設計した、建物の大半が地下に埋め込まれた美術館。クロード・モネの睡蓮、ジェームズ・タレルの光の空間、ウォルター・デ・マリアの巨大な球体と幾何学形体が恒久展示され、自然光の変化とともに作品の見え方が移り変わっていく。"
+}

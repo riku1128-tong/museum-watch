@@ -1,0 +1,61 @@
+{
+  "id": "Q3242206",
+  "checked_at": "2026-09-28T23:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kanazawa21.jp/",
+  "address": "〒920-8509 石川県金沢市広坂1-2-1",
+  "source_urls": [
+    "https://www.kanazawa21.jp/",
+    "https://www.kanazawa21.jp/data_list.php?g=7&d=1"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "sun", "holiday"], "open": "10:00", "close": "18:00"},
+    {"days": ["fri", "sat"], "open": "10:00", "close": "20:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "コレクション展 歩く、とどまる",
+      "start": "2026-05-23",
+      "end": "2026-10-18",
+      "url": "https://www.kanazawa21.jp/",
+      "kind": "collection",
+      "summary": "所蔵作品による「歩く」「とどまる」をテーマにしたコレクション展",
+      "admission": "一般 450円",
+      "adult_price": 450
+    },
+    {
+      "title": "牛嶋均　さわひらき　ともにある風景",
+      "start": "2026-09-08",
+      "end": "2027-04-18",
+      "url": "https://www.kanazawa21.jp/",
+      "kind": "special",
+      "summary": "牛嶋均とさわひらき、2作家による「ともにある風景」をテーマにした展示",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "NEUTRAL COLORS　NEW CIRCUIT / ニュー・サーキット",
+      "start": "2026-09-15",
+      "end": "2027-04-18",
+      "url": "https://www.kanazawa21.jp/",
+      "kind": "special",
+      "summary": "雑誌「NEUTRAL COLORS」による企画展示",
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 450,
+  "access": [
+    {"station": "金沢", "lines": "JR各線", "exit": "兼六園口（東口）3番・8番のりば", "walk_min": null, "note": "バスで約10分"}
+  ],
+  "highlights": "円形のガラス張りの建物が特徴的な現代美術館。無料の交流ゾーンにはレアンドロ・エルリッヒの《スイミングプール》などの体験型作品が常設され、有料の展覧会ゾーンでは国内外の現代アートの企画展・コレクション展を開催している。",
+  "closed_between_exhibitions": false,
+  "notes": "展覧会ゾーンの休館日は月曜（休日の場合は直後の平日）。無料の交流ゾーンは開館時間が異なる可能性があるが確認できず、展覧会ゾーンの時間を採用。恒久展示作品《スイミングプール》は2026/10/19-10/30に閉場予定（館全体の休館ではないため special_closures には含めていない）。2027年5月6日～2028年3月（予定）に長期休館予定との告知があるが終了日が「予定」で確定していないため special_closures には未記載（要継続確認）。最寄り駅からは徒歩圏外でバス利用が基本のため access の walk_min は null とした。",
+  "confidence": "high"
+}

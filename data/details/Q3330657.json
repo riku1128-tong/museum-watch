@@ -1,0 +1,57 @@
+{
+  "id": "Q3330657",
+  "checked_at": "2026-09-28T23:28:04+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kyotocity-kyocera.museum/",
+  "address": "〒606-8344 京都市左京区岡崎円勝寺町124",
+  "source_urls": [
+    "https://kyotocity-kyocera.museum/",
+    "https://kyotocity-kyocera.museum/info",
+    "https://kyotocity-kyocera.museum/news/infomation",
+    "https://kyotocity-kyocera.museum/greeting/",
+    "https://kyotocity-kyocera.museum/exhibition/20260320-20270314",
+    "https://kyotocity-kyocera.museum/exhibition/20260919-20261220"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-02", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "生誕140年記念 染織家 山鹿清華─宙翔ぶイマジネーション",
+      "start": "2026-09-19",
+      "end": "2026-12-20",
+      "url": "https://kyotocity-kyocera.museum/exhibition/20260919-20261220",
+      "kind": "special",
+      "summary": "生誕140年を記念した染織家・山鹿清華の回顧展。前期・後期で展示替えを行いながら作品を紹介",
+      "recommend": "友禅の枠を超えた独自の「山鹿刺繍」で知られる染織家の画業を回顧。前後期で作品を入れ替え、初期から円熟期までの仕事を辿れる",
+      "admission": "一般1,800円（前売・団体1,600円）",
+      "adult_price": 1800
+    },
+    {
+      "title": "コレクションルーム 特集「美術館物語　市美の産声」（秋期）",
+      "start": "2026-10-09",
+      "end": "2026-12-13",
+      "url": "https://kyotocity-kyocera.museum/exhibition/20260320-20270314",
+      "kind": "collection",
+      "summary": "2026年度コレクションルーム秋期。「美術館物語　市美の産声」と題し、館の歩みに関わる所蔵品を特集",
+      "admission": "一般730円（市内在住520円）",
+      "adult_price": 730
+    }
+  ],
+  "adult_price": 730,
+  "access": [
+    {"station": "東山", "lines": "京都市営地下鉄東西線", "walk_min": 8},
+    {"station": "三条京阪・三条", "lines": "京都市営地下鉄東西線・京阪本線", "walk_min": 16, "note": "市バス5系統で「岡崎公園 美術館・平安神宮前」下車の行き方もある"}
+  ],
+  "highlights": "1933年開館の帝冠様式建築で、現存する日本の公立美術館建築で最も古い。2020年に新館「東山キューブ」が加わり、京都画壇の名品を紹介するコレクションルームや新進作家支援の展示も展開",
+  "notes": "休館日は「月曜日（祝・休日の場合は開館）・年末年始（12/28〜1/2）」で、振替休館の記載は無いため holiday_rule は open。コレクションルーム観覧料は京都市内在住520円・市外在住730円（一般）で、adult_price は市外在住の標準額を採用。台風等で臨時休館・時間変更の可能性がある旨の記載あり。",
+  "confidence": "high"
+}

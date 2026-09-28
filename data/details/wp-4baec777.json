@@ -1,0 +1,31 @@
+{
+  "id": "wp-4baec777",
+  "checked_at": "2026-09-28T23:40:27+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "美術系ギャラリー「ときの忘れもの」のブログ（2015年6月18日付）が、須玉美術館自身からの案内として『弊館は平成十年四月の開館以来、皆様のご高配を賜り、美術館活動を続けてまいりましたが、この度諸般の事情により、六月十五日をもって当分の間休館することになりました』という文面を引用している（https://tokinowasuremono.blog.jp/archives/53197449.html）。それから11年以上経つ今日まで再開の情報は無く、旧公式サイト（http://sukui.jp/sutamamuseum/）は404で、ドメイン自体が無関係の宗教法人のサイトに転用されている（https://sukui.jp/ ）。北杜市公式サイトの文化施設案内や北杜市観光協会サイトにも須玉美術館の掲載が無い（同市の他の美術館〈平山郁夫シルクロード美術館・北杜市囲碁美術館・清春芸術村〉は掲載あり）。以上から2015年6月15日以降、実質的に閉館が続いていると判断した。電話番号（0551-42-5007）での最終確認はできていない。",
+  "official_url": null,
+  "address": "〒408-0112 山梨県北杜市須玉町若神子4495-18",
+  "source_urls": [
+    "https://tokinowasuremono.blog.jp/archives/53197449.html",
+    "https://sukui.jp/sutamamuseum/",
+    "https://sukui.jp/",
+    "https://www.museum.or.jp/museum/3586",
+    "https://online.bunka.go.jp/museums/detail/320",
+    "https://www.hokuto-kanko.jp/?s=%E9%A0%88%E7%8E%89%E7%BE%8E%E8%A1%93%E9%A4%A8",
+    "https://www.city.hokuto.yamanashi.jp/mizunoyama/spots/learn/"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "access": [
+    {"station": "日野春", "lines": "JR中央本線", "note": "タクシーで約7分。中央自動車道「須玉IC」から車で約5分（駅からの徒歩ルートは公式情報なし）"}
+  ],
+  "highlights": "丸をモチーフに描いた抽象画家オノサト・トシノブの油彩・水彩・版画を中心に収蔵する、山あいの小さな美術館。ドーナツ状のユニークな展示空間が特徴",
+  "notes": "再挑戦（前回は404の公式サイトしか手がかりが無く operating_status unknown）。今回、美術ギャラリーのブログが引用する須玉美術館自身の休館案内文（2015年6月15日付、当分の間休館）を発見し、加えて旧公式ドメインが無関係の宗教法人サイトに転用されていること、北杜市・北杜市観光協会のいずれにも掲載が無いことを確認できたため、11年以上動きが無いとみて permanently_closed とした。ただし公式の「閉館」宣言そのもの（「当分の間休館」を「閉館」と言い切った一次情報）は見つかっておらず、電話でも確認できていないため confidence は medium とする。開館時間・料金など過去の営業情報は現状と無関係になったため削除した。",
+  "confidence": "medium"
+}

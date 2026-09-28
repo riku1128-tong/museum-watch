@@ -1,0 +1,48 @@
+{
+  "id": "Q11669713",
+  "checked_at": "2026-09-28T23:28:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.takasaki.gunma.jp/site/tower/",
+  "address": "〒370-0841 群馬県高崎市栄町3-23 高崎タワー21",
+  "source_urls": [
+    "https://www.city.takasaki.gunma.jp/site/tower/",
+    "https://www.city.takasaki.gunma.jp/site/tower/3150.html",
+    "https://www.city.takasaki.gunma.jp/site/tower/95791.html",
+    "https://www.city.takasaki.gunma.jp/site/tower/list56-131.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
+    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-11-04", "to": "2026-11-04", "reason": "祝日（11/3文化の日）の翌日"},
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "日本画の窓－旅する風景",
+      "start": "2026-10-17",
+      "end": "2026-12-20",
+      "url": "https://www.city.takasaki.gunma.jp/site/tower/95791.html",
+      "kind": "special",
+      "summary": "「旅」をテーマに、日本画に描かれた各地の風景を紹介する企画展",
+      "recommend": "収蔵する近現代の日本画から、旅先で出会った風景を描いた作品を厳選。画家が各地で捉えた光や空気感を、旅する気分で楽しめる構成になっている。",
+      "admission": "一般 500円（400円）",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "access": [
+    {"station": "高崎", "lines": "JR各線", "exit": "東口", "walk_min": 2}
+  ],
+  "highlights": "JR高崎駅東口すぐの高層ビル内にある美術館。横山大観や平山郁夫、奥村土牛など近現代の日本画家の作品を収蔵し、風景画や松竹梅・鶴亀などの吉祥画をテーマに、年5～6回の展覧会で多彩な日本画表現を紹介している。",
+  "closed_between_exhibitions": true,
+  "notes": "9/28時点、直前の企画展「鳥を愛でたい」は9/27に終了し、次の企画展「日本画の窓－旅する風景」は10/17開始（展示替え期間は開催中の展示なし）。休館日は「月曜日（祝日は開館し翌平日休館）、祝日の翌日、展示替期間、年末年始（12/28～1/4）」。次回企画展の休館日として公式に11/4（水、11/3文化の日の翌日）が明記されている。11/23（月・祝）は開館し翌11/24（火）休館の想定（holiday_rule で計算）。年間スケジュールには2027/1/16～3/22の開館25周年記念展も予告あり。",
+  "confidence": "high"
+}

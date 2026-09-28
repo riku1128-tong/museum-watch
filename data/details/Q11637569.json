@@ -1,0 +1,58 @@
+{
+  "id": "Q11637569",
+  "checked_at": "2026-09-28T23:55:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://museen.org/ehon",
+  "address": null,
+  "source_urls": [
+    "https://museen.org/ehon",
+    "https://museen.org/information/",
+    "https://museen.org/access/",
+    "https://museen.org/ehon/exhibition/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "from": "2026-05-01", "to": "2026-10-31"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "from": "2026-11-01", "to": "2027-01-31"}
+  ],
+  "closed_weekdays": ["tue"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [
+    {"date": "2026-09-29", "note": "7月〜9月は火曜日も無休のため開館"}
+  ],
+  "exhibitions": [
+    {
+      "title": "2026年特別展「ピーターラビット™となかまたち」夏展",
+      "start": "2026-06-27",
+      "end": "2026-10-19",
+      "url": "https://museen.org/ehon/exhibition/",
+      "kind": "special",
+      "summary": "ピーターラビットシリーズから、ねことねずみを中心にしたお話8作品を紹介",
+      "recommend": "ビアトリクス・ポターが自然保護に注いだ想いに触れながら、ねこやねずみ、時にはカエルが主人公の物語を絵本原画でたどれる。種入りの絵手紙を送るぬりえワークショップも楽しめる。",
+      "admission": "一般 1,000円（絵本の森美術館入館料に含む）",
+      "adult_price": 1000
+    },
+    {
+      "title": "2026年特別展「ピーターラビット™となかまたち」秋冬展",
+      "start": "2026-10-24",
+      "end": "2027-01-11",
+      "url": "https://museen.org/ehon/exhibition/",
+      "kind": "special",
+      "summary": "ピーターラビットシリーズから、冬やわらべうたを感じさせる9作品を紹介",
+      "recommend": "雪景色やわらべうたの雰囲気を感じさせる物語を集めた秋冬限定の内容で、寒い季節ならではのしっとりとした絵本の世界を原画でじっくり味わえる。夏展とはまた違う一面に出会える。",
+      "admission": "一般 1,000円（絵本の森美術館入館料に含む）",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "access": [
+    {"station": "軽井沢", "lines": "北陸新幹線・しなの鉄道", "note": "タクシーで約10分（ムーゼの森）。または軽井沢町内循環バスで「風越公園」下車、塩沢湖方面へ徒歩約8分。急行塩沢湖〜風越公園線なら「絵本の森美術館」バス停下車すぐ"}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "ムーゼの森内にある施設。開館時間は季節で変動（5〜10月 9:30-17:00／3・4月・11〜1月 10:00-16:00）、冬期（1月中旬〜3月中旬）と展示入替期間は休館するが、公式に具体的な日付の記載が無いため special_closures には日付未確定として入れていない（例年12月頃に翌年の休館期間が告知される見込み。次回巡回時に確認要）。火曜休館だがGW期間・7〜9月は無休の例外あり。GWの具体的な開館日は次回のGW前に確認要。観覧料1,000円はピクチャレスク・ガーデン入園料を含む。",
+  "confidence": "medium"
+}

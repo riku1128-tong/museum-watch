@@ -1,6 +1,6 @@
 {
   "id": "Q3815458",
-  "checked_at": "2026-09-24T00:42:36+09:00",
+  "checked_at": "2026-09-29T00:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,7 +9,14 @@
   "source_urls": [
     "https://mimt.jp/",
     "https://mimt.jp/guide/",
-    "https://mimt.jp/ex_sp/fontanesi/"
+    "https://mimt.jp/ex_sp/fontanesi/",
+    "https://mimt.jp/access/"
+  ],
+  "adult_price": null,
+  "access": [
+    {"station": "二重橋前〈丸の内〉", "lines": "東京メトロ千代田線", "exit": "1番", "walk_min": 3, "note": null},
+    {"station": "日比谷", "lines": "都営三田線", "exit": "B7", "walk_min": 3, "note": null},
+    {"station": "東京", "lines": "JR", "exit": "丸の内南口", "walk_min": 5, "note": null}
   ],
   "regular_hours": [
     {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"},
@@ -31,7 +38,8 @@
       "url": "https://mimt.jp/ex_sp/fontanesi/",
       "kind": "special",
       "summary": "工部美術学校で教えたフォンタネージの画業と日本の弟子たちの作品など約200点",
-      "admission": "一般 2,300円"
+      "admission": "一般 2,300円",
+      "adult_price": 2300
     }
   ],
   "closed_between_exhibitions": true,

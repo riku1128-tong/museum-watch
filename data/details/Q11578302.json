@@ -1,6 +1,6 @@
 {
   "id": "Q11578302",
-  "checked_at": "2026-09-24T00:47:00+09:00",
+  "checked_at": "2026-09-28T23:28:04+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,7 +10,9 @@
     "https://hanga-museum.jp/",
     "https://hanga-museum.jp/guide/index",
     "https://hanga-museum.jp/exhibition/index/2026-631",
-    "https://hanga-museum.jp/exhibition/schedule"
+    "https://hanga-museum.jp/exhibition/schedule",
+    "https://hanga-museum.jp/access",
+    "https://hanga-museum.jp/about/index"
   ],
   "regular_hours": [
     {"days": ["tue", "wed", "thu", "fri"], "open": "10:00", "close": "17:00", "last_entry": "16:30"},
@@ -30,7 +32,9 @@
       "url": "https://hanga-museum.jp/exhibition/index/2026-631",
       "kind": "special",
       "summary": "広重・国芳の戯画、鯰絵、麻疹絵、風刺画など幕末明治の浮世絵約250点。前期・後期で展示替え",
+      "recommend": "戯画や鯰絵、風刺画など「笑い」をテーマにした浮世絵約250点を前後期で展示替え。幕末明治の世相を庶民目線のユーモアから読み解ける",
       "admission": "一般 1,000円",
+      "adult_price": 1000,
       "closed_dates": ["2026-10-14"]
     },
     {
@@ -40,7 +44,8 @@
       "url": "https://hanga-museum.jp/exhibition/index/2026-637",
       "kind": "other",
       "summary": "ミニ企画展。ミロとタピエスの版画で戦後スペイン美術（1945-1980）を紹介",
-      "admission": "無料"
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "恩地孝四郎と創作版画の作家たち",
@@ -49,7 +54,8 @@
       "url": "https://hanga-museum.jp/exhibition/schedule/2026-638",
       "kind": "other",
       "summary": "ミニ企画展。恩地孝四郎と創作版画の作家たちの作品を紹介",
-      "admission": "無料"
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "新収蔵作品展",
@@ -61,6 +67,12 @@
       "admission": null
     }
   ],
+  "adult_price": 0,
+  "access": [
+    {"station": "町田", "lines": "小田急線", "exit": "東口", "walk_min": 15},
+    {"station": "町田", "lines": "JR横浜線", "exit": "ターミナル口", "walk_min": 12, "note": "町田バスセンター8・9番乗り場から「原町田四丁目」下車徒歩5分の行き方もある"}
+  ],
+  "highlights": "世界でも数少ない版画専門の美術館。国内外の版画作品・資料3万点超を収蔵し、緑豊かな芹ヶ谷公園内に立地。常設展示室の特集展示は入館料のみで観覧できる",
   "closed_between_exhibitions": false,
   "notes": "休館日は「毎週月曜日（祝日および振り替え休日にあたった場合はその翌日）、12月28日～1月4日」。入館無料、企画展は有料。10/14（水）は「うき世のたわむれ」展示替えのため閉室（館の休館ではない）。前期9/12〜10/12、後期10/15〜11/23。新収蔵作品展の観覧料は未掲載。",
   "confidence": "high"

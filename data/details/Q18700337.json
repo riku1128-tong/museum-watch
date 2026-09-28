@@ -1,0 +1,46 @@
+{
+  "id": "Q18700337",
+  "checked_at": "2026-09-28T23:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.artsmaebashi.jp/",
+  "address": "〒371-0022 群馬県前橋市千代田町5-1-16",
+  "source_urls": [
+    "https://www.artsmaebashi.jp/",
+    "https://www.artsmaebashi.jp/guide/",
+    "https://www.artsmaebashi.jp/exhibition_post/2026-geijutsusai2026/",
+    "https://artsmaebashi.jp/about/concept/",
+    "https://artsmaebashi.jp/guide/access/",
+    "https://www.artsmaebashi.jp/?s=%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["wed"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第一回 前橋国際芸術祭2026｜めぶく。Where good things grow.",
+      "start": "2026-09-19",
+      "end": "2026-12-20",
+      "url": "https://www.artsmaebashi.jp/exhibition_post/2026-geijutsusai2026/",
+      "kind": "special",
+      "summary": "前橋のまちなかを舞台にした第一回国際芸術祭。会期中は水曜休場（祝日は開場し翌平日休場）",
+      "recommend": "前橋の中心市街地を会場に、館内外を横断して現代アートを楽しめる新しい国際芸術祭の第一回展。まちを歩きながら作品に出会える構成が見どころ。",
+      "admission": "一般 3,000円",
+      "adult_price": 3000
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "休館日は水曜日。9/23（水・祝）は開場し、翌9/24（木）が休場となる例が確認できたため holiday_rule は open_next_weekday_closed とした。年末年始休館の記載は検索・お知らせページで見当たらず未確認（次回確認）。観覧料は展覧会ごとに異なり常設のコレクション展示は確認できなかったため adult_price は null。「廣瀬智央《19の空》」（10/24）はまちなかの地域アートプロジェクトで館内展示か未確認のため exhibitions には含めていない。",
+  "confidence": "medium",
+  "adult_price": null,
+  "access": [
+    {"station": "前橋", "lines": "JR両毛線", "exit": "北口", "walk_min": 10},
+    {"station": "中央前橋", "lines": "上毛電気鉄道", "exit": null, "walk_min": 5}
+  ],
+  "highlights": "前橋中心街の旧百貨店を改修した現代美術館。創造性・共有・対話の3つを理念に、展覧会だけでなく市民参加の企画やアーティストの滞在制作にも力を入れる。ジャンルを問わず同時代の表現を紹介し、まちなかを歩きながらアートに出会えるのが魅力。"
+}

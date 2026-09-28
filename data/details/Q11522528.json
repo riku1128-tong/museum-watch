@@ -1,0 +1,32 @@
+{
+  "id": "Q11522528",
+  "checked_at": "2026-09-28T23:27:05+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://benesse-artsite.jp/art/lee-ufan.html",
+  "address": "〒761-3110 香川県香川郡直島町字倉浦1390",
+  "source_urls": [
+    "https://benesse-artsite.jp/art/lee-ufan.html",
+    "https://benesse-artsite.jp/en/art/lee-ufan.html"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 1400,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "宮浦港", "lines": null, "walk_min": null, "note": "宮浦港からベネッセアートサイト直島場内シャトルバスまたは町営バス（つつじ荘経由）を利用"}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "李禹煥の作品を安藤忠雄設計の建築・自然とともに恒久展示する美術館（企画展は行わない）。観覧料はオンライン購入1,200円／窓口購入1,400円（adult_priceは窓口価格）。15歳以下無料。年末年始の休館日は公式サイトに具体的な日付の記載がなく確認できなかった（開館カレンダー要確認）。",
+  "confidence": "high"
+}

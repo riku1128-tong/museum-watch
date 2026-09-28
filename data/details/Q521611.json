@@ -1,0 +1,49 @@
+{
+  "id": "Q521611",
+  "checked_at": "2026-09-28T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://gmat.pref.gunma.jp/",
+  "address": "〒374-0076 群馬県館林市日向町2003",
+  "source_urls": [
+    "https://gmat.pref.gunma.jp/",
+    "https://gmat.pref.gunma.jp/guide/",
+    "https://gmat.pref.gunma.jp/guide/access/",
+    "https://gmat.pref.gunma.jp/guide/calendar/",
+    "https://gmat.pref.gunma.jp/exhibition/",
+    "https://gmat.pref.gunma.jp/exhibition/ex/textileart/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "テキスタイル・アートを楽しむ　―現代の糸、布、繊維の芸術―",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": "https://gmat.pref.gunma.jp/exhibition/ex/textileart/",
+      "kind": "special",
+      "summary": "糸や布、天然・人工の繊維を素材にした現代の染織芸術（テキスタイル・アート）を紹介",
+      "recommend": "糸や布、天然・人工の繊維を使った作品を通じて、素材ならではの質感や技法の多様さを楽しめる展覧会。染織芸術が現代でどのように広がっているかを体感できる。",
+      "admission": "一般 850円",
+      "adult_price": 850
+    }
+  ],
+  "adult_price": null,
+  "free_days": [
+    {"from": "2026-10-28", "to": "2026-10-28", "scope": "all", "reason": "群馬県民の日", "source_url": "https://gmat.pref.gunma.jp/guide/"}
+  ],
+  "access": [
+    {"station": "館林", "lines": "東武伊勢崎線", "note": "タクシーで約10分、または多々良巡回線バスで「県立館林美術館前」下車すぐ"},
+    {"station": "多々良", "lines": "東武伊勢崎線", "walk_min": 20}
+  ],
+  "highlights": "群馬県邑楽郡出身の彫刻家フランソワ・ポンポンの作品を中心に、近現代の彫刻や自然と親しむ造形作品を集めた美術館。多々良沼に近い広い敷地に建ち、別館「彫刻家のアトリエ」ではポンポンにまつわる資料も見られる。",
+  "closed_between_exhibitions": false,
+  "notes": "「テキスタイル・アートを楽しむ」展の前は展示替え期間とみられるが、公式の休館日カレンダーに具体的な日付の記載は確認できず（メンテナンス等により予告なく臨時休館する場合がある旨の注記のみ）。休館日カレンダーで9/28(月)が休館日であることは確認済み。展示室では常設のコレクション展示「近現代の彫刻」、別館「彫刻家のアトリエ」でポンポン関連資料も見られるが、会期の記載が無いため展覧会リストには含めていない。次回「南桂子―銅版が紡ぐひそやかな夢―」（2027/1/16〜4/4）は3か月超先のため未掲載。年末年始の休館日は公式で日付が確認できず未確認のまま。",
+  "confidence": "high"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "Q11617518",
+  "checked_at": "2026-09-28T23:35:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.modernart.museum.ibk.ed.jp/",
+  "address": "〒310-0851 茨城県水戸市千波町東久保666-1",
+  "source_urls": [
+    "http://www.modernart.museum.ibk.ed.jp/",
+    "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=48",
+    "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=46",
+    "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=517",
+    "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=539"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-01", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "所蔵作品展「金の世界」",
+      "start": "2026-11-12",
+      "end": "2027-01-11",
+      "url": "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=539",
+      "kind": "collection",
+      "summary": "小川芋銭の修復後初公開作品を起点に、日本画・工芸における「金」の表現を紹介",
+      "recommend": "総裏箔が施され金の光をまとう小川芋銭最晩年の代表作の修復後初公開が見どころです。",
+      "admission": "一般 360円（所蔵作品展料金）",
+      "adult_price": 360
+    },
+    {
+      "title": "企画展「中西夏之　緩やかにみつめるためにいつまでも佇む、装置」",
+      "start": "2026-11-12",
+      "end": "2027-01-17",
+      "url": "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=517",
+      "kind": "special",
+      "summary": "作家没後初の本格的回顧展。作品約75点・資料200点超で戦後日本美術の代表画家を紹介",
+      "recommend": "ハイレッド・センターの伝説的パフォーマンス資料や、茨城会場だけの東日本大震災を契機とした大作インスタレーションが見どころです。",
+      "admission": "一般 1,240円（団体1,130円）",
+      "adult_price": 1240
+    },
+    {
+      "title": "令和8年度茨城県芸術祭美術展覧会",
+      "start": "2026-10-03",
+      "end": "2026-10-18",
+      "url": "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=609",
+      "kind": "other",
+      "summary": "茨城県主催の公募美術展",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 360,
+  "free_days": [
+    {"from": "2026-11-13", "to": "2026-11-13", "scope": "all", "reason": "茨城県民の日", "source_url": "https://www.pref.ibaraki.jp/bugai/koho/kenmin/kenminnohi/r6kenmin.html"}
+  ],
+  "access": [
+    {"station": "水戸", "lines": "JR", "exit": "南口", "walk_min": 20, "note": "南口8番・北口2番のりばから「払沢方面」または「本郷方面」行きバスで「文化センター入口」下車、徒歩5分。タクシーは南口から約5分"}
+  ],
+  "highlights": "千波湖畔に立ち、地元ゆかりの日本画家・小川芋銭の作品を中心に近代日本画や工芸を所蔵する。所蔵作品展では「金の表現」など切り口を変えた企画を随時開催している。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「月曜日（祝日の場合は開館、翌日休館）、年末年始（12月29日から1月1日まで）」。年末年始の終了日は1月1日までとの記載のため special_closures を12/29〜1/1とした。",
+  "confidence": "high"
+}

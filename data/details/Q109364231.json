@@ -1,0 +1,24 @@
+{
+  "id": "Q109364231",
+  "checked_at": "2026-09-28T23:28:05+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "公式サイトに「蓑虫美術館は休館中です。移転・再開などは準備中です」と記載。再開時期・移転先は未定。",
+  "official_url": "https://mnmsm.wordpress.com/",
+  "address": "埼玉県蓮田市黒浜（縄文うるしパーク内）",
+  "source_urls": [
+    "https://mnmsm.wordpress.com/",
+    "https://ja.wikipedia.org/wiki/蓑虫美術館",
+    "https://www.museum.or.jp/museum/102330"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "adult_price": null,
+  "notes": "公式サイト（mnmsm.wordpress.com）のトップに「休館中です。移転・再開などは準備中です」とのみ記載されており、休館理由・休館開始日・再開予定は書かれていない。開館時間・休館日・観覧料・アクセス・展覧会の情報も公式サイトには無い。インターネットミュージアム等の第三者サイトには休館前と思われる開館時間（10:00〜17:30）等の記載があるが、公式の休館告知と矛盾するため採用しなかった。次回巡回時に再開の有無を確認すること。",
+  "confidence": "medium"
+}

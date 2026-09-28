@@ -1,6 +1,6 @@
 {
   "id": "Q1362638",
-  "checked_at": "2026-09-24T00:49:52+09:00",
+  "checked_at": "2026-09-28T23:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -12,7 +12,9 @@
     "https://www.nact.jp/calendar/",
     "https://www.nact.jp/common/json/opening_date.json",
     "https://www.nact.jp/exhibition_special/2026/louvre2026/",
-    "https://www.nact.jp/exhibition_special/2026/shojomanga/"
+    "https://www.nact.jp/exhibition_special/2026/shojomanga/",
+    "https://www.nact.jp/information/access/",
+    "https://www.nact.jp/introduce/architecture.html"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-12-07", "to": "2026-12-10"},
@@ -36,7 +38,8 @@
       "url": "https://www.nact.jp/exhibition_special/2026/louvre2026/",
       "kind": "special",
       "summary": "ルーヴル美術館の50点余りで15～16世紀ルネサンス美術を紹介。レオナルド《美しきフェロニエール》初来日",
-      "admission": "一般 2,400円"
+      "admission": "一般 2,400円",
+      "adult_price": 2400
     },
     {
       "title": "第89回　新制作展",
@@ -45,7 +48,8 @@
       "url": "https://www.shinseisaku.net/wp/",
       "kind": "other",
       "summary": "新制作協会による公募展",
-      "admission": null
+      "admission": null,
+      "adult_price": null
     },
     {
       "title": "第81回　行動展",
@@ -54,7 +58,8 @@
       "url": "https://www.kodo-bijutsu.jp/",
       "kind": "other",
       "summary": "行動美術協会による公募展",
-      "admission": null
+      "admission": null,
+      "adult_price": null
     },
     {
       "title": "少女漫画・インフィニティ　萩尾望都×山岸凉子×大和和紀 三人展",
@@ -63,10 +68,17 @@
       "url": "https://www.nact.jp/exhibition_special/2026/shojomanga/",
       "kind": "special",
       "summary": "萩尾望都・山岸凉子・大和和紀の約60年の創作を原画800点以上で紹介",
-      "admission": "一般 2,200円"
+      "admission": "一般 2,200円",
+      "adult_price": 2200
     }
   ],
+  "adult_price": null,
   "closed_between_exhibitions": false,
-  "notes": "時間・休館日は公式カレンダーのデータ（opening_date.json）で確認。企画展会期中は毎週金・土曜20:00まで、12/7〜12/10も20:00まで。9/22（火・国民の休日）は開館、9/24は振替休館なし。11/4（水）は11/3祝日開館の振替休館。公募展の観覧料・時間は団体ごとに異なる。",
+  "access": [
+    {"station": "乃木坂", "lines": "東京メトロ千代田線", "exit": "6番出口", "walk_min": 1, "note": "6番出口から美術館に直結"},
+    {"station": "六本木", "lines": "東京メトロ日比谷線・都営大江戸線", "exit": "日比谷線4a出口・大江戸線7出口", "walk_min": 5, "note": null}
+  ],
+  "highlights": "建築家・黒川紀章が手がけた最後の美術館で、大波のようにうねるガラスカーテンウォールが特徴。常設コレクションを持たず、国内最大級の展示スペースで多彩な企画展・公募展を開催するアートセンター",
+  "notes": "時間・休館日は公式カレンダーのデータ（opening_date.json）で確認。企画展会期中は毎週金・土曜20:00まで、12/7〜12/10も20:00まで。9/22（火・国民の休日）は開館、9/24は振替休館なし。11/4（水）は11/3祝日開館の振替休館。公募展の観覧料・時間は団体ごとに異なる。常設コレクションが無いため館共通の adult_price は null（各展覧会の料金を参照）。",
   "confidence": "high"
 }

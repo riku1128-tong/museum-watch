@@ -1,0 +1,61 @@
+{
+  "id": "Q11669765",
+  "checked_at": "2026-09-28T23:27:05+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.takasaki.gunma.jp/site/art-museum/",
+  "address": "〒370-8501 群馬県高崎市高松町35番地1",
+  "source_urls": [
+    "https://www.city.takasaki.gunma.jp/site/art-museum/",
+    "https://www.city.takasaki.gunma.jp/site/art-museum/93842.html",
+    "https://www.city.takasaki.gunma.jp/site/art-museum/3459.html",
+    "https://www.city.takasaki.gunma.jp/site/art-museum/list9.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
+    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-24", "to": "2026-10-09", "reason": "展示替え休館"},
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "収蔵作品展「Human Figure　人を見つめ、かたちづくる」",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": "https://www.city.takasaki.gunma.jp/site/art-museum/93842.html",
+      "kind": "collection",
+      "summary": null,
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300
+    },
+    {
+      "title": "開館35周年記念展「ザ・ベスト・オブ・高崎市美術館」",
+      "start": "2027-01-09",
+      "end": "2027-03-22",
+      "url": "https://www.city.takasaki.gunma.jp/site/art-museum/3459.html",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "高崎", "lines": "JR", "exit": "西口", "walk_min": 3}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "常設展は無く、収蔵作品展・企画展を順次開催（会期ごとに観覧料が異なり、一般の基本料金は無い）。9/24〜10/9は展示替えのため休館中。次回は10/10開館の「Human Figure」展。",
+  "confidence": "high"
+}

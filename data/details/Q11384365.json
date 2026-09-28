@@ -1,6 +1,6 @@
 {
   "id": "Q11384365",
-  "checked_at": "2026-09-24T00:55:00+09:00",
+  "checked_at": "2026-09-28T23:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,7 +10,9 @@
     "https://sato-museum.la.coocan.jp/",
     "https://sato-museum.la.coocan.jp/guide/",
     "https://sato-museum.la.coocan.jp/exhibition/",
-    "https://sato-museum.la.coocan.jp/exhibition/exhibition-2026.html?id=ex260908"
+    "https://sato-museum.la.coocan.jp/exhibition/exhibition-2026.html?id=ex260908",
+    "https://sato-museum.la.coocan.jp/traffic/",
+    "https://sato-museum.la.coocan.jp/museum/"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:45"}
@@ -40,6 +42,13 @@
     }
   ],
   "closed_between_exhibitions": true,
-  "notes": "休館日は「月曜日・展示替え期間」。奨学生展の休館日一覧（9/14,9/24,9/28,10/5,10/13,10/19）から、祝日の月曜は開館し翌平日休館と判断。入館料は展覧会ごと（トップには一般800円の記載あり）。2025年4月から金曜夜間開館は中止。",
-  "confidence": "high"
+  "notes": "休館日は「月曜日・展示替え期間」。奨学生展の休館日一覧（9/14,9/24,9/28,10/5,10/13,10/19）から、祝日の月曜は開館し翌平日休館と判断。入館料は展覧会ごと（トップには一般800円の記載あり）。2025年4月から金曜夜間開館は中止（全日10-17時、入館16:45まで、で既存の regular_hours と一致）。「現代日本画トリビュート」展個別の料金はページに記載がなく確認できなかったため admission/adult_price は null のまま。常設展示は無いため館の adult_price も null。",
+  "confidence": "high",
+  "adult_price": null,
+  "access": [
+    {"station": "千駄ヶ谷", "lines": "JR総武線", "exit": null, "walk_min": 5},
+    {"station": "信濃町", "lines": "JR総武線", "exit": null, "walk_min": 6},
+    {"station": "国立競技場", "lines": "都営大江戸線", "exit": "A3出口", "walk_min": 4}
+  ],
+  "highlights": "佐藤国際文化育英財団が運営する、美術を志す学生の奨学と作品発表の場としての美術館。花や緑、自然をテーマとする現代日本画を中心に収集し、奨学生や若手作家の展覧会、卒業制作展、貸しギャラリーとしての企画展を通じて次世代の作家の表現に出会える。"
 }

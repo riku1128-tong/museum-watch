@@ -1,0 +1,33 @@
+{
+  "id": "Q11388956",
+  "checked_at": "2026-09-28T23:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://naracmp.jp/",
+  "address": "〒630-8301 奈良県奈良市高畑町600-1",
+  "source_urls": [
+    "https://naracmp.jp/",
+    "https://naracmp.jp/guide/",
+    "https://sogozaidan.nara.jp/kanri/naracmp/",
+    "https://narashikanko.or.jp/spot/detail_10042.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-01", "to": "2027-03-15", "reason": "改修工事のため長期休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（naracmp.jp）はJavaScriptで描画されるトップページのみ WebFetch で読めず、開館時間・料金・改修休館の情報は指定管理者の奈良市総合財団のページと奈良市観光協会のページで確認した。展覧会情報は今回未確認（exhibitions は空のまま）。休館ルールは「月曜日（休日の場合は最も近い平日）、および休日の翌日（平日の場合）、年末年始」で、後半の『休日の翌日も休館』はスキーマの holiday_rule では表現できないため、月曜が祝日の場合の振替休館（open_next_weekday_closed）のみ反映した。2026-10-01～2027-03-15 は改修工事のため休館（sogozaidan.nara.jp に日付明記）。confidence は medium。",
+  "confidence": "medium",
+  "adult_price": 500,
+  "access": [
+    {"station": "JR奈良・近鉄奈良", "lines": null, "exit": null, "walk_min": null, "note": "市内循環バスで「破石町」下車、東へ徒歩10分"}
+  ],
+  "highlights": "戦後の奈良を撮り続けた写真家・入江泰吉の作品約8万点を収蔵する、建築家・黒川紀章設計の写真専門美術館。生前に全作品が奈良市へ寄贈されたのを機に開館し、奈良の風景や仏像を写した代表作とともに、他の写真家の企画展も楽しめる。"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Q18336820",
+  "checked_at": "2026-09-28T23:55:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "京都府京都市左京区下鴨北園町1-72",
+  "source_urls": [
+    "https://ja.kyoto.travel/tourism/single01.php?category_id=11&tourism_id=808",
+    "https://www.museum.or.jp/museum/5149"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 800,
+  "access": [
+    {"station": "北山", "lines": "京都市営地下鉄烏丸線", "exit": "1番出口", "walk_min": 10, "note": "市バス・京都バス「北園町」下車、徒歩約2分でも行ける"}
+  ],
+  "highlights": "住宅街にたたずむ洋館で、古代ギリシア美術に魅せられた収集家が四十年以上かけて集めた個人コレクションを公開。1階には古代ローマの大理石彫刻やアウグストゥス帝の胸像、上階には約120点の壺絵、エトルリアや南イタリアの装身具・生活用品を展示。4階の休憩室からの眺めも楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト・SNSが見つからなかった（Web検索でも公開ホームページなし）。京都市公式観光サイト「京都観光Navi」とインターネットミュージアム（museum.or.jp）の2つの信頼できる情報源から確認したため confidence は medium。観覧料はインターネットミュージアムの記載（800円）を採用したが、Wikipediaには「大人1000円、中高生600円、小学生300円」という異なる記載もあり、公式に確認できなかったため注記のみに留める。常設の個人コレクション展示のみで、企画展の情報は見つからなかった。住所の郵便番号も情報源により表記ゆれ（606-0831/606-0837）があったため番地のみ記載。",
+  "confidence": "medium"
+}

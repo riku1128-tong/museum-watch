@@ -1,0 +1,46 @@
+{
+  "id": "Q11314323",
+  "checked_at": "2026-09-28T23:28:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://smma.or.jp/",
+  "address": "〒389-0111 長野県北佐久郡軽井沢町長倉芹ヶ沢2140",
+  "source_urls": [
+    "https://smma.or.jp/",
+    "https://smma.or.jp/visit/",
+    "https://smma.or.jp/exhibitions/",
+    "https://smma.or.jp/collection/",
+    "https://smma.or.jp/history/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:00"}
+  ],
+  "closed_weekdays": ["thu"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "中西夏之　緩やかにみつめるためにいつまでも佇む、装置",
+      "start": "2026-09-05",
+      "end": "2026-11-03",
+      "url": "https://smma.or.jp/exhibitions/nakanishi-natsuyuki-devices-for-gentle-gazing-and-endless-lingering/",
+      "kind": "special",
+      "summary": "画家・中西夏之の絵画やオブジェを通して、静かにみつめ続けるための「装置」としての作品を紹介",
+      "recommend": "絵画とオブジェが呼応し合う中西夏之の代表作群を、コレクション常設展示とあわせて鑑賞できる。軽井沢の森の空気の中で作品と静かに向き合える構成。",
+      "admission": "前売 3,000円／当日 3,300円",
+      "adult_price": 3300
+    }
+  ],
+  "adult_price": 3300,
+  "free_days": [],
+  "access": [
+    {"station": "軽井沢", "lines": "JR北陸新幹線・しなの鉄道", "exit": "北口", "walk_min": null, "note": "タクシーで約20分。西武バスで「軽井沢千ヶ滝温泉入口」下車徒歩7分も可"},
+    {"station": "中軽井沢", "lines": "しなの鉄道", "exit": "北口", "walk_min": null, "note": "タクシーで約10分"}
+  ],
+  "highlights": "建築家・菊竹清訓が設計し、彫刻家・若林奮が庭園を手がけた軽井沢の森の中の美術館。クレーやカンディンスキー、ポロック、ロスコら20世紀西洋美術と、荒川修作ら日本の戦後現代美術まで約800点を収蔵する。",
+  "closed_between_exhibitions": false,
+  "notes": "観覧料はコレクション常設展示と企画展示を合わせた共通料金（前売3,000円／当日3,300円）。休館日は時期により変動しており、9/5～11/3は木曜定休（8/24～9/4は展示替えのため全館休館だったが既に終了）。祝日の扱いは公式サイトに記載が見当たらず unknown とした。次回会期・休館日は公式サイトで要確認。",
+  "confidence": "medium"
+}

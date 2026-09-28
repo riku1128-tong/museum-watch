@@ -1,0 +1,48 @@
+{
+  "id": "Q11636775",
+  "checked_at": "2026-09-28T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.watv.ne.jp/ashi-bi/",
+  "address": "栃木県足利市通2-14-7",
+  "source_urls": [
+    "https://www.watv.ne.jp/ashi-bi/schedule.html",
+    "https://www.watv.ne.jp/ashi-bi/index.html",
+    "https://www.watv.ne.jp/ashi-bi/2026-Funabiki.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-24", "to": "2026-09-24", "reason": "臨時休館（開催中の展覧会に伴う告知）"},
+    {"from": "2026-10-13", "to": "2026-10-13", "reason": "臨時休館（開催中の展覧会に伴う告知）"},
+    {"from": "2026-11-04", "to": "2026-11-04", "reason": "臨時休館（開催中の展覧会に伴う告知）"},
+    {"from": "2026-11-24", "to": "2026-11-24", "reason": "臨時休館（開催中の展覧会に伴う告知）"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "８人の写真家たち　船曳由美　小さきコレクション を核として",
+      "start": "2026-09-05",
+      "end": "2026-12-27",
+      "url": "https://www.watv.ne.jp/ashi-bi/2026-Funabiki.html",
+      "kind": "special",
+      "summary": "編集者・船曳由美氏が寄贈した土門拳ら写真家8人の作品と、取材先で得た焼物・織物などの品々を紹介",
+      "recommend": "編集者・船曳由美氏が寄贈した土門拳、石元泰博ら8人の写真家の作品と、取材先で集めた焼物や織物などの品々を一緒に展示。写真と「もの」が織りなす物語から、日本の原風景や異国への憧れを味わえる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": null,
+  "access": [
+    {"station": "足利", "lines": "JR両毛線", "exit": null, "walk_min": 10, "note": null},
+    {"station": "足利市", "lines": "東武伊勢崎線", "exit": null, "walk_min": 10, "note": null}
+  ],
+  "highlights": "足利市が運営する美術館で、地域ゆかりの作家や現代アートを軸にした企画展を年間通じて開催。現在は編集者・船曳由美氏が寄贈した土門拳、石元泰博ら写真家8人の作品と、取材先で集めた焼物や織物などの品々を合わせて展示。ミュージアムショップや図書コーナーも備える。",
+  "closed_between_exhibitions": true,
+  "notes": "年末年始の休館は例年あるが、公式サイトに具体的な日付の記載が無いため special_closures には入れていない。住所の郵便番号は公式サイト内で「326-0802」（アクセス欄）と「326-0814」（サイドバー）の表記ゆれがあったため、番地のみ記載。",
+  "confidence": "high"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q1574475",
-  "checked_at": "2026-09-24T00:32:52+09:00",
+  "checked_at": "2026-09-28T23:58:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,7 +11,9 @@
     "https://www.polamuseum.or.jp/info/",
     "https://www.polamuseum.or.jp/exhibition/",
     "https://www.polamuseum.or.jp/news/",
-    "https://www.polamuseum.or.jp/exhibition/2026061701/"
+    "https://www.polamuseum.or.jp/exhibition/2026061701/",
+    "https://www.polamuseum.or.jp/info/access/",
+    "https://www.polamuseum.or.jp/nature/"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
@@ -52,6 +54,12 @@
     }
   ],
   "closed_between_exhibitions": false,
+  "adult_price": 2200,
+  "access": [
+    {"station": "強羅", "lines": "箱根登山鉄道（箱根湯本駅で乗換）", "exit": null, "walk_min": null, "note": "強羅駅から無料送迎バス約8分（1日13便、約30分間隔）"},
+    {"station": "仙郷楼", "lines": "小田急箱根高速バス", "exit": null, "walk_min": null, "note": "新宿から約2時間。仙郷楼で観光施設めぐりバスに乗換え「ポーラ美術館」下車約3分"}
+  ],
+  "highlights": "モネ・ルノワール・ゴッホら西洋絵画から藤田嗣治まで幅広く所蔵。箱根の森の木々を越えない高さに抑えた建築で自然と一体化し、遊歩道に配された彫刻や野鳥の声も楽しめる森の美術館。",
   "notes": "年中無休（展示替えのため臨時休館あり）。2026-12-02〜03 は展示室3のみ休室（館は開館）。入館料は館共通（大人 2,200円）で、展覧会ごとの料金ではない。",
   "confidence": "high"
 }

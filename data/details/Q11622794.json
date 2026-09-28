@@ -1,0 +1,45 @@
+{
+  "id": "Q11622794",
+  "checked_at": "2026-09-28T23:50:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.yurinkan-museum.jp/index.html",
+  "address": "京都市左京区岡崎円勝寺町44",
+  "source_urls": [
+    "https://ja.kyoto.travel/tourism/single01.php?category_id=11&tourism_id=760",
+    "https://kyoto-museums.city.kyoto.lg.jp/museum/246/"
+  ],
+  "regular_hours": [
+    {"days": ["sun"], "open": "11:00", "close": "15:00", "last_entry": "14:30"}
+  ],
+  "closed_weekdays": ["mon", "tue", "wed", "thu", "fri", "sat"],
+  "closed_nth_weekdays": [
+    {"weekday": "sun", "nth": [2, 4, 5]}
+  ],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2027-01-01", "to": "2027-01-31", "reason": "1月は休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "中国美術コレクション常設展示",
+      "start": "2026-09-28",
+      "end": "2027-09-28",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。中国・殷代から清代までの書画・青銅器など、国宝1件・重要文化財9件を含むコレクションを展示",
+      "admission": "一般1,300円",
+      "adult_price": 1300
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": 1300,
+  "access": [
+    {"station": "三条", "lines": "京都市営地下鉄東西線", "exit": null, "walk_min": 10, "note": "市バス「美術館前」下車の場合は徒歩5分"}
+  ],
+  "highlights": "実業家・藤井善助が設立した、日本で2番目に古い私立美術館。中国の商代から清代にわたる書画・青銅器などの美術品を収蔵し、国宝・重要文化財も含まれる。開館日が毎月第1・第3日曜のみという希少な美術館。",
+  "notes": "公式サイト（www.yurinkan-museum.jp）は自動取得ツールで本文を取得できなかった（ドメインのみでコンテンツが空）。京都市の観光公式ページと京都市美術館連絡協議会のページを根拠にしている。開館日は「1・8月を除く毎月第1・第3日曜のみ、11:00〜15:00（入館は14:30まで）」。祝日と重なった場合の扱いは資料に記載がないため holiday_rule は unknown。1月・8月は全休のため、直近の1月休館分を special_closures に反映した（8月分は次回巡回時に追記）。観覧料は本館一般1,300円（別途、第二館一般600円があるが今回は本館のみ確認）。",
+  "confidence": "medium"
+}

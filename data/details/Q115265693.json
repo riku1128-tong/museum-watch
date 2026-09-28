@@ -1,6 +1,6 @@
 {
   "id": "Q115265693",
-  "checked_at": "2026-09-24T00:42:20+09:00",
+  "checked_at": "2026-09-28T23:38:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,7 +8,8 @@
   "address": "〒100-0005 東京都千代田区丸の内1-9-1",
   "source_urls": [
     "https://www.ejrcf.or.jp/gallery/",
-    "https://www.ejrcf.or.jp/gallery/exhibition/202609_suikoden.html"
+    "https://www.ejrcf.or.jp/gallery/exhibition/202609_suikoden.html",
+    "https://www.ejrcf.or.jp/gallery/access.html"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
@@ -28,7 +29,9 @@
       "url": "https://www.ejrcf.or.jp/gallery/exhibition/202609_suikoden.html",
       "kind": "special",
       "summary": "北宋の名品、明代の刊本、国芳の錦絵から漫画・衣裳まで、水滸伝の成立と日本での受容をたどる",
-      "admission": "一般 1,600円"
+      "recommend": "国芳の豪快な錦絵から現代の漫画・衣裳まで、水滸伝というひとつの物語が時代や国を越えて形を変えていく様子をまとめて見比べられる",
+      "admission": "一般 1,600円",
+      "adult_price": 1600
     },
     {
       "title": "ニコライ・アストルップ 創造する庭",
@@ -36,11 +39,18 @@
       "end": "2027-01-31",
       "url": null,
       "kind": "special",
-      "summary": "ノルウェーの画家ニコライ・アストルップの展覧会",
-      "admission": null
+      "summary": "ノルウェー南西部の湖畔で生涯を過ごした画家アストルップの日本初となる回顧展。油彩に加え木版画約130点を紹介",
+      "recommend": "刷るたびに違う表情を持つ一点物の木版画は、浮世絵の影響を独自に消化した作風がうかがえる。日本初公開となる作品を多数含む貴重な機会",
+      "admission": null,
+      "adult_price": null
     }
   ],
   "closed_between_exhibitions": true,
+  "access": [
+    {"station": "東京", "lines": "JR東日本", "exit": "丸の内北口", "walk_min": 0},
+    {"station": "東京", "lines": "東京メトロ丸ノ内線", "exit": "M12出口", "walk_min": 3},
+    {"station": "大手町", "lines": "東京メトロ東西線", "exit": "M12出口", "walk_min": 5}
+  ],
   "notes": "休館日は「原則、月曜日（祝日の場合は翌平日／ただし会期最終週、ゴールデンウィーク・お盆・シルバーウィーク期間中の月曜日は開館）、年末年始、展示替期間」。水滸伝展の休館日「月曜日［ただし9/21、10/12、11/2は開館］、10/13 (火)」。金曜の祝日の扱いは未記載。年末年始の具体的な日付は未確認。次々回「生誕140年 染織家 山鹿清華」2027-02-20〜04-11。展覧会一覧ページは 403 で読めず。",
   "confidence": "high"
 }

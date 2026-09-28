@@ -1,0 +1,51 @@
+{
+  "id": "Q115566051",
+  "checked_at": "2026-09-28T23:48:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kiyoharu-art.com/",
+  "address": "〒408-0036 山梨県北杜市長坂町中丸2072",
+  "source_urls": [
+    "https://www.kiyoharu-art.com/",
+    "https://www.kiyoharu-art.com/?page_id=10",
+    "https://www.kiyoharu-art.com/?page_id=8",
+    "https://www.kiyoharu-art.com/?p=3434",
+    "https://www.kiyoharu-art.com/?p=3399"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "白樺派コレクション展",
+      "start": "2026-03-31",
+      "end": "2027-09-28",
+      "url": "https://www.kiyoharu-art.com/?p=3434",
+      "kind": "collection",
+      "summary": "通年。第一展示室でジョルジュ・ルオー、ロダン、梅原龍三郎、バーナード・リーチら白樺派ゆかりの作品を展示",
+      "recommend": "白樺派の同人たちが紹介・収集した西洋近代美術と日本近代美術を、当時の交流を伝える資料とともに見られる常設コレクション展。ロダンの彫刻やルオーの版画など、美術館の核となる収蔵品を静かな展示室でじっくり鑑賞できる。"
+    },
+    {
+      "title": "伊東豊雄展「桜の下でー自然と建築ー」",
+      "start": "2026-08-01",
+      "end": "2026-10-11",
+      "url": "https://www.kiyoharu-art.com/?p=3399",
+      "kind": "special",
+      "summary": "建築家・伊東豊雄の新作ドローイングと代表作の模型で「こどものための建築」を紹介",
+      "recommend": "建築家・伊東豊雄が清春芸術村に設計した「こどもの遊び場」の完成を記念する展覧会。新作ドローイングに加え、〈せんだいメディアテーク〉〈台中国家歌劇院〉など代表作の模型を通じて、こどものための建築という設計思想を辿れる。"
+    }
+  ],
+  "adult_price": 1500,
+  "access": [
+    {"station": "長坂", "lines": "JR中央本線", "exit": null, "walk_min": 30, "note": "長坂駅からタクシー5分、または市民バス10分（バス停「中丸公民館南」下車、徒歩3分）"}
+  ],
+  "highlights": "武者小路実篤ら白樺派ゆかりの美術館で、ジョルジュ・ルオーやロダン、梅原龍三郎、バーナード・リーチらの作品を収蔵・展示。パリのアトリエ「ラ・リューシュ」を移築・再現した建物や著名建築家による礼拝堂など、建物散策も楽しめる芸術村の一角にある。",
+  "closed_between_exhibitions": false,
+  "notes": "「清春芸術村」全体の入館料（一般1,500円、光の美術館分も含む）で清春白樺美術館を観覧できる。第一展示室は「白樺派コレクション展」を通年展示、第二展示室は通常「私の宇宙 – Inner Cosmos」を展示しているが、2026/8/1～10/11は伊東豊雄展のためこちらに差し替え中（伊東豊雄展終了後の再開時期は公式サイトに明記なし）。ラ・リューシュ横庭園での久保寛子個展「赤土」は清春白樺美術館ではなく別施設のため展示一覧に含めていない。年末年始休館の具体的な日付は公式サイトに記載が無かったため special_closures には入れていない。観覧料に学生・障がい者手帳等の各種割引がある。",
+  "confidence": "high"
+}

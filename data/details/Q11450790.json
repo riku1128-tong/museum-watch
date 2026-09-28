@@ -1,0 +1,47 @@
+{
+  "id": "Q11450790",
+  "checked_at": "2026-09-29T00:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.azumino-museum.com/",
+  "address": "〒399-8205 長野県安曇野市豊科5609-3",
+  "source_urls": [
+    "http://www.azumino-museum.com/",
+    "http://www.azumino-museum.com/cafe/html/cat/1-1.html",
+    "http://www.azumino-museum.com/cafe/html/cat/14-1.html",
+    "http://www.azumino-museum.com/cafe/html/cat/16-1.html",
+    "http://azumino-bunka.com/facility/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展",
+      "start": "2025-08-30",
+      "end": "2027-09-28",
+      "url": "http://www.azumino-museum.com/cafe/html/cat/16-1.html",
+      "kind": "collection",
+      "summary": "通年。高田博厚の彫刻、宮芳平・小林邦らの油彩など地元ゆかりの作家を中心に紹介する常設展示",
+      "recommend": "パリで活躍した彫刻家・高田博厚の作品を約100点収蔵し、常時展示。森鴎外の小説にも描かれた画家・宮芳平のアトリエ再現コーナーなど、地域と縁の深い作家の画業をたどれる。",
+      "admission": "一般 520円",
+      "adult_price": 520
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": 520,
+  "access": [
+    {"station": "豊科", "lines": "JR大糸線", "exit": null, "walk_min": 10},
+    {"station": "田沢", "lines": "JR篠ノ井線", "exit": null, "walk_min": null, "note": "田沢駅からタクシー10分"}
+  ],
+  "highlights": "安曇野の中心部に立地し、西に北アルプスの名峰・常念岳を望む。中世ヨーロッパの修道院を思わせる建物とバラ園が調和し、高田博厚の彫刻や宮芳平の油彩など地元ゆかりの作家の作品を中心に展示する。",
+  "notes": "2025年4月に「豊科近代美術館」から「安曇野市美術館」へ改称、同年8/30に改修工事を経てリニューアルオープン。公式サイトは古いフレーム構成＋文字コードの記載と実際のエンコードが食い違うページがあり、生バイトをUTF-8として読み直して確認した。直近の企画展（第78回長野県美術展 9/13-9/23、望月桂展 7/4-8/30）はいずれも終了しており、確認時点で次回企画展の告知は未掲載（「開催予定の展示」カテゴリは0件）。休館日は公式表記「月曜日と祝祭日の翌日」で、他館と同様の振替休館ルールとして扱った。財団運営ページ（azumino-bunka.com）の情報とも一致。",
+  "confidence": "medium"
+}

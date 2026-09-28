@@ -1,6 +1,6 @@
 {
   "id": "Q11530056",
-  "checked_at": "2026-09-24T01:25:00+09:00",
+  "checked_at": "2026-09-28T23:28:05+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -12,7 +12,8 @@
     "https://www.matsuoka-museum.jp/schedule/",
     "https://www.matsuoka-museum.jp/exhibition/",
     "https://www.matsuoka-museum.jp/contents/10416/",
-    "https://www.matsuoka-museum.jp/contents/10604/"
+    "https://www.matsuoka-museum.jp/contents/10604/",
+    "https://www.matsuoka-museum.jp/access/"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
@@ -72,6 +73,12 @@
     }
   ],
   "closed_between_exhibitions": false,
+  "adult_price": 1400,
+  "access": [
+    {"station": "白金台", "lines": "東京メトロ南北線・都営三田線", "exit": "1番出口", "walk_min": 7},
+    {"station": "目黒", "lines": "JR山手線ほか", "exit": "東口", "walk_min": 15,
+     "note": "目黒駅東口バスターミナル2番のりばから黒77・橋86系統バスで「東大医科研病院西門」下車徒歩1分"}
+  ],
   "notes": "月曜休館（祝日の場合は翌平日）。展示替え期間・年末年始は休館（開館カレンダーに日付あり）。入館料は館共通（一般1,400円）。常設展示もあるが会期の記載は未確認のため展示一覧には入れていない。",
   "confidence": "high"
 }

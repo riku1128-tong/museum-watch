@@ -1,6 +1,6 @@
 {
   "id": "Q862884",
-  "checked_at": "2026-09-24T00:42:54+09:00",
+  "checked_at": "2026-09-28T23:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,6 +9,8 @@
   "source_urls": [
     "https://www.topmuseum.jp/",
     "https://topmuseum.jp/guide/",
+    "https://topmuseum.jp/access/",
+    "https://topmuseum.jp/admission/",
     "https://topmuseum.jp/schedule/",
     "https://topmuseum.jp/upcoming/",
     "https://topmuseum.jp/exhibition/12474/",
@@ -100,7 +102,12 @@
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "休館日は「毎週月曜日（月曜日が祝休日の場合は開館し、翌平日休館）」。9/24・10/13 は休館と展覧会ページに明記（振替休館）。年末年始 12/28-1/1 は vol.23 展ページの記載。利用案内の「21:00まで」延長は 2025 年の記載のため採用していない。木村伊兵衛展・岡田敦展の観覧料は未確認。",
+  "adult_price": null,
+  "access": [
+    {"station": "恵比寿", "lines": "JR山手線・埼京線", "exit": "東口", "walk_min": 7, "note": null},
+    {"station": "恵比寿", "lines": "東京メトロ日比谷線", "exit": null, "walk_min": 10, "note": null}
+  ],
+  "notes": "休館日は「毎週月曜日（月曜日が祝休日の場合は開館し、翌平日休館）」。9/24・10/13 は休館と展覧会ページに明記（振替休館）。年末年始 12/28-1/1 は vol.23 展ページの記載。利用案内の「21:00まで」延長は 2025 年の記載のため採用していない。木村伊兵衛展・岡田敦展の観覧料は未確認。常設のコレクション展示室がなく展覧会ごとの料金制のため adult_price は null。",
   "confidence": "high",
   "free_days": [
     {

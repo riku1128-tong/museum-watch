@@ -1,0 +1,46 @@
+{
+  "id": "Q11469731",
+  "checked_at": "2026-09-28T23:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.art-museum.pref.yamanashi.jp/",
+  "address": "〒400-0065 山梨県甲府市貢川1-4-27",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/3460",
+    "https://bijutsutecho.com/exhibitions/18668",
+    "https://artexhibition.jp/topics/news/20260907-AEJ2989097/",
+    "https://www.pref.yamanashi.jp/shigaku-kgk/kenminnohi/kenmin2025_muryoukaihou.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "特別展　印象派の先駆者　ウジェーヌ・ブーダン展　―瞬間の美学、光の探求",
+      "start": "2026-09-12",
+      "end": "2026-11-03",
+      "url": "https://www.art-museum.pref.yamanashi.jp/exhibition/2026/75158.html",
+      "kind": "special",
+      "summary": "「空の王者」と称された印象派の先駆者ブーダンの油彩・素描・パステルなど約100点を紹介",
+      "recommend": "モネの師としても知られるブーダンの、日本では約30年ぶりとなる大規模な回顧展で、フランス風景画の発展への貢献をたどれます。",
+      "admission": "一般 1,000円（前売・団体840円）",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 520,
+  "free_days": [
+    {"from": "2026-11-20", "to": "2026-11-20", "scope": "all", "reason": "山梨県民の日", "source_url": "https://www.pref.yamanashi.jp/shigaku-kgk/kenminnohi/kenmin2025_muryoukaihou.html"}
+  ],
+  "access": [
+    {"station": "甲府", "lines": "JR中央本線", "exit": null, "walk_min": null, "note": "バスで約15分「山梨県立美術館」下車、またはタクシーで約15分"}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（art-museum.pref.yamanashi.jp）は WebFetch で403エラーとなり直接読めなかったため、インターネットミュージアム・美術手帖・美術展ニュースサイトの記載をもとに作成（confidence: medium）。コレクション展の一般料金は520円（団体420円）。休館日は「月曜日（祝日の場合はその翌日）、祝日の翌日（日曜日の場合は開館）、年末年始」。9/21・10/12は祝日のため開館し、翌9/24・10/13が休館という報道があったが、通常の holiday_rule（open_next_weekday_closed）どおりのため special_closures ではなく special_openings の注記のみ残した。highlights は公式サイトを読めなかったため null のまま。",
+  "confidence": "medium"
+}

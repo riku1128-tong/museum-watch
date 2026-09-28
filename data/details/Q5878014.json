@@ -1,0 +1,53 @@
+{
+  "id": "Q5878014",
+  "checked_at": "2026-09-28T23:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.hoki-museum.jp/",
+  "address": "〒267-0067 千葉県千葉市緑区あすみが丘東3-15",
+  "source_urls": [
+    "https://www.hoki-museum.jp/",
+    "https://www.hoki-museum.jp/about/open_close/",
+    "https://www.hoki-museum.jp/access/",
+    "https://www.hoki-museum.jp/special_exhibition/four_seasons/",
+    "https://www.hoki-museum.jp/about/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:30"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "コレクション展（森本草介コレクションほか写実絵画）",
+      "start": "2026-09-28",
+      "end": "2027-09-28",
+      "url": "https://www.hoki-museum.jp/",
+      "kind": "collection",
+      "summary": "通年。日本最大の森本草介コレクション36点を含む、約60名の現代作家による写実絵画の名品約120点を常設展示",
+      "admission": "一般2,100円",
+      "adult_price": 2100
+    },
+    {
+      "title": "四季を写す絵画たち",
+      "start": "2026-05-27",
+      "end": "2026-11-08",
+      "url": "https://www.hoki-museum.jp/special_exhibition/four_seasons/",
+      "kind": "special",
+      "summary": "写実表現の中にある空気感や雰囲気から、季節ごとの気配を読み取って構成した展覧会",
+      "recommend": "同じ写実絵画でも作家ごとに異なる四季の切り取り方を見比べられる構成。単なる記録を超えた絵画ならではの空気感を味わえる",
+      "admission": "一般2,100円",
+      "adult_price": 2100
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "access": [
+    {"station": "土気", "lines": "JR外房線", "exit": null, "walk_min": 1, "note": "土気駅南口3番乗場から京成バス千葉イースト「ブランニューモール」行きで「あすみが丘東4丁目」下車、徒歩1分（バス約5分）"}
+  ],
+  "highlights": "世界でも珍しい写実絵画専門の美術館。地上1階・地下2階、全長500メートルの回廊型ギャラリーは一部が宙に浮くように設計され、窓から森を望める展示室もある。レストラン・カフェも併設。",
+  "notes": "休館日は火曜・年末年始・展示替え期間（公式サイトに記載）だが、年末年始と展示替え期間の具体的な日付は非掲載のため special_closures には未反映。判明次第追記が必要。",
+  "confidence": "high"
+}

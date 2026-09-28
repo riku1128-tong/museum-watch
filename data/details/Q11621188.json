@@ -1,0 +1,44 @@
+{
+  "id": "Q11621188",
+  "checked_at": "2026-09-28T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://shizubi.jp/",
+  "address": "〒420-0852 静岡県静岡市葵区紺屋町17-1 葵タワー3階",
+  "source_urls": [
+    "https://shizubi.jp/museum_guide/about/",
+    "https://shizubi.jp/exhibition/cat_ex/insession/",
+    "https://shizubi.jp/exhibition/20260922_renoir/260922_01.php"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "19:00", "last_entry": "18:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "わたしたちのルノワール 日本が愛した、幸せの画家",
+      "start": "2026-09-22",
+      "end": "2026-11-15",
+      "url": "https://shizubi.jp/exhibition/20260922_renoir/260922_01.php",
+      "kind": "special",
+      "summary": "ルノワールを中心に、日本に紹介された印象派と、その影響を受けた日本近代洋画を紹介",
+      "recommend": null,
+      "admission": "一般 1,600円",
+      "adult_price": 1600
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "静岡", "lines": "JR東海道本線", "exit": "北口", "walk_min": 3, "note": "静岡鉄道 新静岡駅からは徒歩5分"}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "official_url は museums.json の aoi-tower.jp（建物側の公式サイトで美術館の情報が無い）から美術館公式の shizubi.jp に修正した。常設のコレクション展示は無く企画展のみの運営のため adult_price（館共通）は null、展覧会の adult_price に個別入力。年末年始・展示替期間の具体的な休館日は今回未確認。",
+  "confidence": "high"
+}

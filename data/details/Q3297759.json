@@ -1,0 +1,121 @@
+{
+  "id": "Q3297759",
+  "checked_at": "2026-09-28T23:50:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.ishibi.pref.ishikawa.jp/",
+  "address": "〒920-0963 石川県金沢市出羽町2-1",
+  "source_urls": [
+    "https://www.ishibi.pref.ishikawa.jp/",
+    "https://www.ishibi.pref.ishikawa.jp/guide/hours/",
+    "https://www.ishibi.pref.ishikawa.jp/access/",
+    "https://www.ishibi.pref.ishikawa.jp/exhibition/",
+    "https://www.ishibi.pref.ishikawa.jp/exhibition/hasuda/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "蓮田修吾郎 －世界を拓く窓",
+      "start": "2026-09-20",
+      "end": "2026-10-25",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/hasuda/",
+      "kind": "special",
+      "summary": "金属造形の分野を切り拓いた彫刻家・蓮田修吾郎の作品を紹介する特別展",
+      "admission": "一般1,000円（800円）",
+      "adult_price": 1000
+    },
+    {
+      "title": "加賀藩の美術工芸",
+      "start": "2026-09-19",
+      "end": "2026-10-25",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/",
+      "kind": "collection",
+      "summary": "前田育徳会尊経閣文庫分館で加賀藩に伝わる美術工芸品を紹介",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "琳派Ⅱ －相説と草花図の広がり－",
+      "start": "2026-09-19",
+      "end": "2026-10-25",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/",
+      "kind": "collection",
+      "summary": "琳派の相説（学統）と草花図表現の広がりを紹介するコレクション展",
+      "admission": "一般370円",
+      "adult_price": 370
+    },
+    {
+      "title": "優品選",
+      "start": "2026-09-19",
+      "end": "2026-10-25",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/",
+      "kind": "collection",
+      "summary": "館蔵の絵画・彫刻の優品を選んで紹介するコレクション展",
+      "admission": "一般370円",
+      "adult_price": 370
+    },
+    {
+      "title": "県美工芸の新しい仲間たち－新収蔵品展－",
+      "start": "2026-09-19",
+      "end": "2026-10-25",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/",
+      "kind": "collection",
+      "summary": "近年新たに収蔵した工芸作品を紹介するコレクション展",
+      "admission": "一般370円",
+      "adult_price": 370
+    },
+    {
+      "title": "第73回日本伝統工芸展金沢展",
+      "start": "2026-10-30",
+      "end": "2026-11-08",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/",
+      "kind": "special",
+      "summary": "人間国宝を含む現代の伝統工芸作家の入選作品を展示",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 370,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "金沢",
+      "lines": "JR",
+      "exit": "東口",
+      "walk_min": null,
+      "note": "金沢駅東口から路線バスで「広坂・21世紀美術館（石浦神社前）」または「出羽町」下車、徒歩約5分"
+    }
+  ],
+  "highlights": "加賀藩前田家ゆかりの美術工芸品や近現代美術を収蔵する県立美術館。国宝「色絵雉香炉」（野々村仁清作）など、加賀の伝統工芸を代表する名品を鑑賞できる。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は年末年始（2026/12/29～2027/1/3）と展示替え期間の臨時休館のみで、通常は無休。コレクション展一般370円（団体290円）。企画展（特別展）は展覧会ごとに料金が異なる。「加賀藩の美術工芸」の公式ページはキャッシュが古く現行会期の記載がなかったため、料金はコレクション展料金を仮に採用（confidence 判断材料）。",
+  "confidence": "high"
+}

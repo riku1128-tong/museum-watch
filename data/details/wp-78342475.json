@@ -1,0 +1,41 @@
+{
+  "id": "wp-78342475",
+  "checked_at": "2026-09-28T23:32:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.chichibumuseum.com/",
+  "address": "〒368-0013 埼玉県秩父市永田町7-1",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/1942"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:30"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2026-12-25", "to": "2027-01-04", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展（仏教美術・地方ゆかりの画家作品）",
+      "start": "2026-09-28",
+      "end": "2027-09-28",
+      "url": "http://www.chichibumuseum.com/",
+      "kind": "collection",
+      "summary": "鎌倉時代から江戸末期の仏像・仏具・経典など仏教美術と、幕末から現代までの秩父地方ゆかりの画家の作品を通年展示",
+      "admission": "一般500円",
+      "adult_price": 500
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "access": [
+    {"station": "秩父", "lines": "秩父鉄道", "exit": null, "walk_min": 15},
+    {"station": "西武秩父", "lines": "西武鉄道", "exit": null, "walk_min": 50}
+  ],
+  "highlights": "秩父地域おもてなし観光公社の拠点近くにある私設美術館。仏教美術館を併設し、鎌倉時代から江戸末期の仏像・仏画に加え、秩父ゆかりの画家の作品をあわせて見られる。骨董・古美術の販売コーナーも併設。",
+  "notes": "公式サイト（www.chichibumuseum.com）は自動取得ツールから接続できず（証明書エラー）本文を確認できなかったため、インターネットミュージアム（museum.or.jp）掲載情報を根拠にしている。開館時間はサイトにより「9:30〜17:30」「10:00〜17:00（最終入館16:00）」と表記が揺れており、実際に読めた museum.or.jp の記載（9:30〜17:30）を採用した。企画展（ギャラリーでの個展・グループ展、秩父美術館賞公募展など）は開催中のものが確認できなかったため常設展のみ記載。次回公式サイトが読めた際に要確認。",
+  "confidence": "medium"
+}

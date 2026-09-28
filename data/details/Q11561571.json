@@ -1,0 +1,54 @@
+{
+  "id": "Q11561571",
+  "checked_at": "2026-09-28T23:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.shibukawa.lg.jp/shisetsu/000349/p010271.html",
+  "address": "〒377-0007 群馬県渋川市石原6-1（渋川市役所 第二庁舎 1階西側）",
+  "source_urls": [
+    "https://www.city.shibukawa.lg.jp/shisetsu/000349/p010271.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "08:30", "close": "20:00"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休館（常設展示室・庁舎閉庁日に準ずる）"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "企画展『南雲龍展－旅路－』",
+      "start": "2026-09-11",
+      "end": "2026-10-12",
+      "url": "https://www.city.shibukawa.lg.jp/shisetsu/000349/p010271.html",
+      "kind": "special",
+      "summary": "南雲龍の作品による企画展（企画展示室）",
+      "admission": "その都度定める（詳細不明）",
+      "hours": [
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+      ],
+      "closed_weekdays": ["tue"]
+    },
+    {
+      "title": "常設展示室（桑原巨守彫刻コレクション）",
+      "start": "2026-09-28",
+      "end": "2027-09-28",
+      "url": "https://www.city.shibukawa.lg.jp/shisetsu/000349/p010271.html",
+      "kind": "collection",
+      "summary": "通年。群馬県出身の彫刻家・桑原巨守の作品を半屋外の常設展示室で無料公開",
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": null,
+  "access": [
+    {"station": "渋川", "lines": "JR上越線", "exit": null, "walk_min": 15, "note": "地図サービスによる目安（公式サイトに記載なし）"}
+  ],
+  "highlights": "渋川市役所第二庁舎に2024年にリニューアル移転した美術館。半屋外の常設展示室では地元出身の彫刻家・桑原巨守の彫刻作品をいつでも無料で見ることができ、企画展示室では入れ替わりの企画展を開催している。",
+  "closed_between_exhibitions": false,
+  "notes": "館は2つの展示室からなる。常設展示室（無料・彫刻）は庁舎の開館時間に準じ8:30-20:00、休館は年末年始（庁舎閉庁日）のみで曜日休館なし。企画展示室（有料・その都度定める）は10:00-17:00（入館16:30まで）、火曜休館（祝日の場合は翌平日、詳細な振替規則は未確認）、12/27-1/4休館。館全体としての closed_weekdays は常設展示室の開館状況に合わせ空とした。企画展の観覧料は「その都度定める」で具体額の記載なし。最寄り駅は公式記載が無いため地図サービスの目安（徒歩15分）を参考値として記載。",
+  "confidence": "medium"
+}

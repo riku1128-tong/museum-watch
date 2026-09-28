@@ -1,0 +1,42 @@
+{
+  "id": "Q11458738",
+  "checked_at": "2026-09-28T23:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kusabana.net/",
+  "address": "長野県北佐久郡軽井沢町軽井沢東19-40",
+  "source_urls": [
+    "https://www.kusabana.net/",
+    "https://www.kusabana.net/museum/indoor.htm",
+    "https://www.kusabana.net/museum/main.htm"
+  ],
+  "regular_hours": [
+    {"days": ["sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30", "from": "2026-06-06", "to": "2026-11-08"}
+  ],
+  "closed_weekdays": ["mon", "tue", "wed", "thu", "fri"],
+  "holiday_rule": "closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "石川功一の水彩・油彩展 軽井沢の林道でむすぶ草花",
+      "start": "2026-06-06",
+      "end": "2026-11-08",
+      "url": "https://www.kusabana.net/",
+      "kind": "special",
+      "summary": "画家・石川功一が描いた軽井沢の林道沿いの草花スケッチと油彩画を紹介",
+      "recommend": "野山に分け入りその場で描き上げた石川功一の草花スケッチと油彩画を、軽井沢の林道地図やメモとあわせて見られる。地元の草花を知る人にも新鮮な発見がある構成。",
+      "admission": "500円（中学生以上、小学生以下無料）",
+      "adult_price": 500
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "notes": "2026年は6/6（土）～11/8（日）の土曜・日曜のみ営業（月～金・祝日は休館、当初7/26までを2回延長して11/8までとした旨の告知あり）。公式サイトに「11月9日以降は冬期休館」とあるが、2027年の再開日は未確認のため special_closures には追加していない（次回の巡回で要確認）。展覧会ページの直接URLが見つからず、トップページに掲載のPDF（2026exhibit_A_B_1108.pdf）へのリンクは404で確認できなかったため exhibitions の url はトップページとした。入館料は常時500円（中学生以上）で企画展替わりでも変わらない模様。",
+  "confidence": "medium",
+  "adult_price": 500,
+  "access": [
+    {"station": "軽井沢", "lines": null, "exit": "北口", "walk_min": 7, "note": "専用無料駐車場5台あり"}
+  ],
+  "highlights": "軽井沢の草花を描き続けた画家・石川功一の個人美術館。山地に自ら足を運び、その場で描き上げた草花スケッチ約3,000点と油彩画百数十点を所蔵する。小さな庭には代表作にも描かれたアサマキスゲなど軽井沢ゆかりの草花が植えられている。"
+}

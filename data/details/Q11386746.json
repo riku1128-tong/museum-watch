@@ -1,0 +1,67 @@
+{
+  "id": "Q11386746",
+  "checked_at": "2026-09-28T23:28:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.kurashiki.okayama.jp/kcam/",
+  "address": "〒710-0046 岡山県倉敷市中央2丁目6番1号",
+  "source_urls": [
+    "https://www.city.kurashiki.okayama.jp/kcam/",
+    "https://www.city.kurashiki.okayama.jp/11485.htm",
+    "https://www.callcenter-kurashiki-city.jp/faq/detail.aspx?id=1544"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:15"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "池田遙邨コーナー「月を観る」",
+      "start": "2026-09-15",
+      "end": "2026-11-15",
+      "url": "https://www.city.kurashiki.okayama.jp/kcam/",
+      "kind": "collection",
+      "summary": "所蔵する倉敷ゆかりの日本画家・池田遙邨の作品から「月」を描いた作品を紹介",
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "コレクション展　特集展示「生誕150年記念　寺松国太郎」",
+      "start": "2026-10-03",
+      "end": "2026-12-13",
+      "url": "https://www.city.kurashiki.okayama.jp/kcam/",
+      "kind": "collection",
+      "summary": "生誕150年を記念し、倉敷ゆかりの洋画家・寺松国太郎の作品を特集",
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "コレクション展「彼女たちのポエジー」",
+      "start": "2026-10-03",
+      "end": "2026-12-13",
+      "url": "https://www.city.kurashiki.okayama.jp/kcam/",
+      "kind": "collection",
+      "summary": "所蔵作品の中から女性作家の作品を中心に、詩情豊かな表現を紹介",
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    }
+  ],
+  "adult_price": 210,
+  "free_days": [],
+  "access": [
+    {"station": "倉敷", "lines": "JR山陽本線・伯備線", "exit": null, "walk_min": 15, "note": "倉敷駅前からバスで「大原美術館前」下車徒歩1分も可"}
+  ],
+  "highlights": "1960年竣工の旧倉敷市庁舎を丹下健三が設計・改修した建物で、打ち放しコンクリートの壁や10mの吹き抜けエントランスが見どころ。国の登録有形文化財。倉敷ゆかりの日本画家・池田遙邨の作品を中心としたコレクションを展示する。",
+  "closed_between_exhibitions": false,
+  "notes": "料金は「コレクション展は一般210円、特別展は展覧会により異なる」。倉敷市内の小中学生・65歳以上・障害者手帳所持者などは無料（大人一般は対象外のため free_days には入れていない）。年末年始（12/28～1/4）は公式FAQより。",
+  "confidence": "high"
+}

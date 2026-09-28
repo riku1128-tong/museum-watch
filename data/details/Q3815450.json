@@ -1,6 +1,6 @@
 {
   "id": "Q3815450",
-  "checked_at": "2026-09-24T01:00:00+09:00",
+  "checked_at": "2026-09-28T23:32:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,7 +9,7 @@
   "source_urls": [
     "https://mmat.jp/",
     "https://mmat.jp/information/index.html",
-    "https://mmat.jp/exhibition/archive/2026/20260916-477.html",
+    "https://mmat.jp/access/index.html",
     "https://mmat.jp/exhibition/archive/2026/20261010-478.html"
   ],
   "regular_hours": [
@@ -23,20 +23,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "第50回記念 区展（目黒区民作品展）",
-      "start": "2026-09-16",
-      "end": "2026-09-27",
-      "url": "https://mmat.jp/exhibition/archive/2026/20260916-477.html",
-      "kind": "other",
-      "summary": "区民の公募による絵画・書・手工芸・写真の作品展（目黒区美術館協力事業）",
-      "admission": "無料",
-      "hours": [
-        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:30", "last_entry": "17:00", "to": "2026-09-26"},
-        {"days": ["sun"], "open": "10:00", "close": "15:00", "last_entry": "14:30", "from": "2026-09-27", "to": "2026-09-27"}
-      ],
-      "closed_dates": ["2026-09-24"]
-    },
-    {
       "title": "目黒区美術館コレクション展『東京パック』とその時代 ＋特集展示 北澤楽天の『子供之友』",
       "start": "2026-10-10",
       "end": "2026-11-15",
@@ -46,7 +32,12 @@
       "admission": "一般 700円"
     }
   ],
+  "adult_price": null,
+  "access": [
+    {"station": "目黒", "lines": "JR山手線・東京メトロ南北線・都営三田線・東急目黒線", "exit": null, "walk_min": 10, "note": null},
+    {"station": "中目黒", "lines": "東京メトロ日比谷線・東急東横線", "exit": null, "walk_min": 20, "note": null}
+  ],
   "closed_between_exhibitions": true,
-  "notes": "月曜休館（祝日・休日の場合はその翌日）。展示替期間は休館。常設展示なし。区展は開館時間が異なる（10:00〜17:30、最終日15:00まで）。9/24(木)は休館。次回「めぐろの子どもたち展」2027-01-16〜01-31。",
+  "notes": "月曜休館（祝日・休日の場合はその翌日）。展示替期間は休館。常設展示なし（公式サイトに明記）。区展（第50回記念、9/16〜9/27）は終了したため削除。次回「めぐろの子どもたち展」2027-01-16〜01-31（3か月超のため未掲載）。観覧料は展覧会ごとに異なり館共通の入館料は無いため adult_price は null。",
   "confidence": "high"
 }

@@ -1,0 +1,43 @@
+{
+  "id": "Q17217541",
+  "checked_at": "2026-09-28T23:27:38+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://benesse-artsite.jp/art/teshima-yokoohouse.html",
+  "address": "香川県小豆郡土庄町豊島家浦2359",
+  "source_urls": [
+    "https://benesse-artsite.jp/art/teshima-yokoohouse.html",
+    "https://benesse-artsite.jp/access/",
+    "https://benesse-artsite.jp/access/teshima/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30", "from": "2026-03-01", "to": "2026-09-30"},
+    {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "last_entry": "15:30", "from": "2026-10-01", "to": "2027-02-28"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "豊島横尾館（常設展示）",
+      "start": "2013-07-26",
+      "end": "2027-09-28",
+      "url": "https://benesse-artsite.jp/art/teshima-yokoohouse.html",
+      "kind": "collection",
+      "summary": "通年。横尾忠則が「生と死」をテーマに手がけた常設インスタレーション。古民家（母屋・倉・納屋）と庭・塔からなる",
+      "recommend": "横尾忠則が描き下ろした絵画や、色ガラスで光や色を操る建築空間が一体化したインスタレーション。石庭や塔の演出も含め、敷地全体を巡りながら「生と死」の世界観を体感できる",
+      "admission": "一般 700円（オンライン購入600円）",
+      "adult_price": 700
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": 700,
+  "access": [
+    {"station": "家浦港", "lines": null, "note": "高松港・宇野港・宝伝港からフェリーで豊島・家浦港へ。港からはバス・レンタサイクル等を利用"}
+  ],
+  "highlights": "築約100年の古民家3棟（母屋・倉・納屋）を建築家・永山祐子が改修。横尾忠則が描いた絵画に加え、石庭や塔にもインスタレーションが広がり、色ガラス越しの光や色が空間体験をつなげる",
+  "notes": "休館日は「火曜日（3月1日〜11月30日）、火曜日から木曜日（12月1日〜2月末日）※祝日・休日の場合は開館、翌日休館」。schema の closed_weekdays は季節変化に対応しないため、12月〜2月の水・木曜の追加休館はここに反映していない（表示対象の直近14日間には影響しない）。常設展示のため会期の定めが無く、開館日である2013年7月26日（瀬戸内国際芸術祭2013夏会期）を start、schema のルールに従い今日から1年後を end とした。",
+  "confidence": "medium"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "Q109324144",
+  "checked_at": "2026-09-28T23:28:12+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.fujiyama-museum.com/",
+  "address": "山梨県富士吉田市新西原5-6-1",
+  "source_urls": [
+    "https://www.fujiyama-museum.com/",
+    "https://www.fujiyama-museum.com/visiting.html",
+    "https://www.fujiyama-museum.com/exhibition.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:30", "last_entry": "17:00"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "特集展示「吉田博《冨士拾景》全10作品初展示」",
+      "start": "2026-09-17",
+      "end": "2026-12-06",
+      "url": "https://www.fujiyama-museum.com/",
+      "kind": "special",
+      "summary": "吉田博の版画《冨士拾景》シリーズ全10作品を初めて一堂に展示。富士山を背景にした人々の営みを描いた絵画も同時展示",
+      "admission": "一般1,000円（本館観覧料に含む）",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "富士山", "lines": "富士急行線", "note": "無料巡回バスまたはタクシーで「ハイランドリゾートホテル&スパ」へ約20分"},
+    {"station": "富士急ハイランド", "lines": "富士急行線", "note": "無料巡回バスまたはタクシーで「ハイランドリゾートホテル&スパ」へ約10分"}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "ハイランドリゾートホテル&スパ敷地内にあり、最寄り駅から徒歩ではなく無料巡回バス・タクシーでの来館が前提。休館日はウェブ上に明記されておらず、外部の情報サイトでは「不定休」とされているため closed_weekdays は空、holiday_rule は unknown とした。来館案内ページの休館日カレンダー（visiting.html#calendar）はJS描画のため本文取得できなかった。見どころ紹介文は公式サイトから該当ページを読めず、推測を避けて highlights は空にした。",
+  "confidence": "medium"
+}

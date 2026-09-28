@@ -1,0 +1,30 @@
+{
+  "id": "wp-3a72c298",
+  "checked_at": "2026-09-28T23:38:38+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "Wikipedia記事は2011年6月26日開館・2012年閉館としており、出典は創設者・山﨑理恵子自身の著書『合作絵画 画文集 原爆ドーム4000人の心』（幻冬舎、2020年、34頁）。常総市公式サイト・常総市観光物産協会（joso-kankou.com、農産物直売所や洋菓子店まで載る詳細な会員・観光サイト）のいずれにも本館の掲載が無く、報道・現況を示す一次情報も見当たらない。創設者の山﨑理恵子は2024年1月18日に没している。閉館・営業のどちらも自治体公式ページや報道では確認できなかった。",
+  "official_url": null,
+  "address": "〒303-0033 茨城県常総市水海道高野町2153 常和ビル4F/5F",
+  "source_urls": [
+    "https://ja.wikipedia.org/wiki/いのちを語り継ぐ美術館",
+    "https://ja.wikipedia.org/wiki/山﨑理恵子",
+    "https://ja.wikipedia.org/wiki/原爆ドーム合作絵画の会",
+    "https://www.museum.or.jp/museum/16720",
+    "https://www.joso-kankou.com/"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "adult_price": null,
+  "access": [
+    {"station": "水海道", "lines": "関東鉄道常総線", "walk_min": 10}
+  ],
+  "highlights": null,
+  "notes": "【再挑戦】公式サイトが見つからないため、WebSearch・Wikipedia・インターネットミュージアム・常総市公式サイト・常総市観光物産協会サイトを確認した。常総市公式サイト内検索・観光物産協会サイト（農産物直売所や洋菓子店まで載せる詳細な会員一覧を持つ）のいずれにも本館は掲載されておらず、現存する施設として扱われていない可能性を示唆する。一方でWikipediaの「2012年閉館」の出典は創設者自身の2020年刊行の著書（書籍のため本文をオンラインで直接確認できず）であり、自治体の公式発表や報道による裏付けは見つからなかった。創設者の山﨑理恵子は2024年1月18日に死去している。以上より、閉館・現存のいずれとも自治体公式ページや報道で確認できず、確信度は引き続き低いまま据え置く（推測で operating に変更しない）。原爆の惨禍を伝える絵画19点を展示する私設美術館として開館した。",
+  "confidence": "low"
+}

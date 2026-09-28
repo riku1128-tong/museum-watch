@@ -1,11 +1,16 @@
 {
   "id": "Q11369635",
-  "checked_at": "2026-09-24T01:30:00+09:00",
+  "checked_at": "2026-09-28T23:28:12+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://kume-museum.com/",
   "address": "〒141-0021 東京都品川区上大崎2-25-5 久米ビル8階",
+  "adult_price": 500,
+  "access": [
+    {"station": "目黒", "lines": "JR山手線", "exit": "西口", "walk_min": 1},
+    {"station": "目黒", "lines": "東急目黒線・東京メトロ南北線・都営三田線", "walk_min": 2}
+  ],
   "source_urls": [
     "https://kume-museum.com/",
     "https://kume-museum.com/information/",

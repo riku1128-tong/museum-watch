@@ -1,0 +1,62 @@
+{
+  "id": "Q11399552",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "address": "〒506-0012 岐阜県高山市八軒町1-5",
+  "source_urls": [
+    "https://jinya.gifu.jp/",
+    "https://jinya.gifu.jp/access/",
+    "https://jinya.gifu.jp/event/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "08:45",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "from": "2026-04-01",
+      "to": "2026-10-31"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "08:45",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "from": "2026-11-01",
+      "to": "2027-03-31"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 500,
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "文化の日",
+      "source_url": "https://jinya.gifu.jp/event/"
+    }
+  ],
+  "access": [
+    {
+      "station": "高山",
+      "lines": "JR高山本線",
+      "walk_min": 10,
+      "note": "高山濃飛バスセンターからも徒歩10分。まちなみバス（左回り）「高山陣屋前」下車（約8分）も可"
+    }
+  ],
+  "highlights": "江戸時代から幕末まで飛騨国を治めた代官・郡代の役所を保存・公開する国史跡。現存する唯一の陣屋建築で、御白洲や大広間など当時の建物が良好に残り、郡代の執務を伝える古文書や陣屋の道具類を展示する。",
+  "confidence": "high"
+}

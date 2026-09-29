@@ -1,0 +1,27 @@
+{
+  "id": "Q11404777",
+  "checked_at": "2026-09-29T23:08:37+09:00",
+  "check_mode": "full",
+  "operating_status": "unknown",
+  "status_note": "公式サイト（https://www.city.tsuyama.lg.jp/culture/index.cgi?id=21）がコンテンツを返さず、他のソースでも詳細情報を確認できなかった。",
+  "official_url": null,
+  "address": null,
+  "source_urls": [
+    "https://www.city.tsuyama.lg.jp/culture/index.cgi?id=21"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式URLが機能せず情報取得不可。津山市文化課に問い合わせ要。",
+  "confidence": "low"
+}

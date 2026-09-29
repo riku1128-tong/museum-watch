@@ -1,0 +1,78 @@
+{
+  "id": "Q11403773",
+  "checked_at": "2026-09-29T23:19:43+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kitazawa-museum.or.jp/",
+  "address": "〒392-0027 長野県諏訪市湖岸通り1-13-28",
+  "source_urls": [
+    "https://www.kitazawa-museum.or.jp/",
+    "https://www.kitazawa-museum.or.jp/about/",
+    "https://www.kitazawa-museum.or.jp/exhibition/article.php?post_id=5235",
+    "https://www.kitazawa-museum.or.jp/exhibition/article.php?post_id=5315"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-09-30",
+      "to": "2026-09-30",
+      "reason": "ガラス展示替えのため"
+    },
+    {
+      "from": "2026-12-31",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "ガレとドーム、アール・ヌーヴォーのガラス 水辺のやすらぎ、海の神秘",
+      "start": "2026-03-14",
+      "end": "2027-03-16",
+      "url": "https://www.kitazawa-museum.or.jp/exhibition/article.php?post_id=5235",
+      "kind": "collection",
+      "summary": "エミール・ガレとドーム兄弟によるアール・ヌーヴォーのガラス工芸。水・海をテーマにした作品を特集展示",
+      "recommend": "ガレの故郷ロレーヌの森と湖への詩情、ドームの海洋生物を幻想的に表現した技法が光る作品群。水辺のやすらぎをガラスに閉じ込めた繊細な美を堪能できる",
+      "admission": "一般 1,200円",
+      "adult_price": 1200
+    },
+    {
+      "title": "ミクロモザイク ～緻密なガラスの世界～",
+      "start": "2026-09-12",
+      "end": "2026-11-08",
+      "url": "https://www.kitazawa-museum.or.jp/exhibition/article.php?post_id=5315",
+      "kind": "special",
+      "summary": "イタリア発祥の伝統工芸・ミクロモザイクを用いた繊細なガラスアクセサリーや額絵を紹介",
+      "recommend": "1〜2ミリの微細なガラス片を緻密に並べて描くミクロモザイクの世界を、海津屋・川中薫ら国内作家の個性豊かな作品で体験できる",
+      "admission": "一般 1,200円",
+      "adult_price": 1200
+    }
+  ],
+  "adult_price": 1200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "上諏訪",
+      "lines": "JR中央本線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "タクシーで約5分"
+    }
+  ],
+  "highlights": "諏訪湖畔に面した美術館で、エミール・ガレやドームなどアール・ヌーヴォーのガラス工芸を中心に所蔵。湖を望む立地と、光と色彩を生かしたガラス作品の展示が見どころ。日本画展示室も併設し年間を通じて多彩な企画を開催する。",
+  "closed_between_exhibitions": false,
+  "notes": "定期休館日の記載なし。閉館日は展示替え日・年末年始のみ（公式サイト「ご利用案内」より）。9/30はガラス展示替えのため臨時休館。holiday_rule は公式未記載のため open に設定。",
+  "confidence": "high"
+}

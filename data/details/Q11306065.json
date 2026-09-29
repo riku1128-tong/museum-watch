@@ -1,0 +1,56 @@
+{
+  "id": "Q11306065",
+  "checked_at": "2026-09-29T23:14:27+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://sunritz-hattori-museum.or.jp/",
+  "address": "〒392-0027 長野県諏訪市湖岸通り2-1-1",
+  "source_urls": [
+    "https://sunritz-hattori-museum.or.jp/",
+    "https://sunritz-hattori-museum.or.jp/pages/28/",
+    "https://sunritz-hattori-museum.or.jp/pages/59/",
+    "https://sunritz-hattori-museum.or.jp/pages/265/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "16:30", "last_entry": "16:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-09-28", "to": "2026-10-03", "reason": "展示替え休館（前期→後期）"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "私室に飾る　私室を描く",
+      "start": "2026-04-26",
+      "end": "2027-04-11",
+      "url": "https://sunritz-hattori-museum.or.jp/pages/59/",
+      "kind": "collection",
+      "summary": "服部一郎コレクションから「私室」をキーワードに小型の西洋絵画と親密な空間を描いた作品を紹介",
+      "recommend": "自宅の私室に飾られた絵を想像しながら小品と向き合える、親密でゆったりした鑑賞体験が魅力。前期・後期で展示替えあり",
+      "admission": "一般 1,100円",
+      "adult_price": 1100
+    },
+    {
+      "title": "特別企画展　未来へつなぐ美　作品の保存・修理",
+      "start": "2026-10-04",
+      "end": "2026-11-29",
+      "url": "https://sunritz-hattori-museum.or.jp/",
+      "kind": "special",
+      "summary": "美術品の保存・修理をテーマに、作品が受け継がれてきた過程と技術を紹介する特別企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": 1100,
+  "access": [
+    {"station": "上諏訪", "lines": "JR中央本線", "exit": null, "walk_min": 15, "note": null}
+  ],
+  "highlights": "諏訪湖岸に立つ東洋・西洋の美術を収蔵する私立美術館。創業者・服部一郎が収集した近現代の西洋絵画、茶道具、漆工・陶磁器など幅広いコレクションを展示。諏訪湖を望むロケーションと洗練された展示空間が特徴で、年2回の企画展を中心に運営する。",
+  "notes": "休館日は「祝日を除く月曜日・年末年始・展示替え期間・館内整理期間」。祝日が月曜の場合は開館し振替休館の記載なし（holiday_rule: open）。特別企画展「未来へつなぐ美」の入館料は公式未確認（別途料金の可能性あり）。「私室に飾る 私室を描く」は前期（4/26〜9/27）・後期（10/4〜2027/4/11）の二期制で、展示替え休館9/28〜10/3をはさむ。",
+  "confidence": "high"
+}

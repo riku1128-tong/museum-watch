@@ -1,0 +1,93 @@
+{
+  "id": "Q11666529",
+  "checked_at": "2026-09-29T23:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒395-0034 長野県飯田市追手町2-655-7",
+  "source_urls": [
+    "https://www.iida-museum.org/",
+    "https://www.iida-museum.org/guidance/",
+    "https://www.iida-museum.org/18929/",
+    "https://www.museum.or.jp/museum/3668"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-05", "to": "2026-10-09", "reason": "展示替え"},
+    {"from": "2026-11-16", "to": "2026-11-21", "reason": "展示替え"},
+    {"from": "2026-12-28", "to": "2027-01-08", "reason": "年末年始・展示替え"},
+    {"from": "2027-03-01", "to": "2027-03-05", "reason": "展示替え"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "古生物学の系譜 −鹿間時夫と長谷川善和−",
+      "start": "2026-07-11",
+      "end": "2026-10-04",
+      "url": "https://www.iida-museum.org/",
+      "kind": "special",
+      "summary": "長谷川善和コレクション寄贈記念。日本古生物学を牽引した鹿間時夫と長谷川善和の業績と収集資料を紹介",
+      "recommend": "化石・標本・研究資料を通じて、2人の古生物学者が積み上げた学問の軌跡を体感できる。寄贈されたばかりの長谷川コレクションを初めて公開する貴重な展示。",
+      "admission": "一般500円",
+      "adult_price": 500
+    },
+    {
+      "title": "菱田春草常設展示 第62期「菊慈童と秋の絵画」",
+      "start": "2026-08-29",
+      "end": "2026-10-04",
+      "url": "https://www.iida-museum.org/",
+      "kind": "collection",
+      "summary": "飯田市出身の日本画家・菱田春草の作品から、菊慈童と秋をテーマにした作品を選んで紹介",
+      "recommend": null,
+      "admission": "一般310円",
+      "adult_price": 310
+    },
+    {
+      "title": "コレクション展示「風景は語る３－山水の心－」",
+      "start": "2026-08-29",
+      "end": "2026-10-04",
+      "url": "https://www.iida-museum.org/",
+      "kind": "collection",
+      "summary": "館所蔵の風景・山水をテーマにした美術作品・歴史資料・自然資料を紹介するコレクション展第3弾",
+      "recommend": null,
+      "admission": "一般310円",
+      "adult_price": 310
+    },
+    {
+      "title": "文化トピック展示「日本の教科書の父・田中義廉」",
+      "start": "2026-08-29",
+      "end": "2026-11-15",
+      "url": "https://www.iida-museum.org/",
+      "kind": "other",
+      "summary": "飯田出身で明治の教科書整備に貢献した田中義廉の業績と関連資料を紹介する小企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "没後110年 田中芳男大博覧会",
+      "start": "2026-10-10",
+      "end": "2026-11-15",
+      "url": "https://www.iida-museum.org/",
+      "kind": "special",
+      "summary": "明治の博物・園芸・農業振興に尽くした飯田出身の田中芳男の没後110年記念展。近年の寄贈品初公開を含む約200点",
+      "recommend": "万国博覧会に尽力した田中芳男が創り上げた「知の世界」を、初披露の寄贈品を含む約200点で体験できる。飯田ゆかりの偉人の生涯を網羅的に追う機会。",
+      "admission": "一般500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 310,
+  "closed_between_exhibitions": false,
+  "access": [
+    {"station": "飯田", "lines": "JR飯田線", "walk_min": 20},
+    {"station": "飯田", "lines": "高速バス（飯田バスターミナル）", "walk_min": 5, "note": "JR飯田駅から徒歩約20分、または飯田バスターミナルから徒歩約5分。中央自動車道飯田ICから車で約15分"}
+  ],
+  "highlights": "美術・自然科学・歴史・民俗の4部門とプラネタリウムを一体化した飯田市の総合文化施設。飯田出身の日本画家・菱田春草の常設コレクションと、地域の博物学の歩みを伝える展示が二本柱。小中高校生は入館無料で、教育機能にも力を入れている。",
+  "notes": "開館時間は公式サイトに「9:30〜17:00（入館受付は16:30まで）」と記載。休館日「月曜日（祝日の場合は開館）、祝日の翌日、年末年始、その他展示替え等の臨時休館」。臨時休館日は公式サイトの2026年度一覧を参照（iida-museum.org/18929/）。小中高校生の入館料は無料（常設展・コレクション展）。特別展の高校生300円、小中学生200円との記載もあるため、展示内容によって異なる可能性あり。",
+  "confidence": "high"
+}

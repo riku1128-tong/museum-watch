@@ -1,0 +1,17 @@
+{
+  "id": "Q11404773",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "unknown",
+  "status_note": "公式URL（www.city.soja.okayama.jp/kyoiku/kanko_bunka/bunkazai/kyodobi/）が404。別の検索でも施設情報が見つからなかった。",
+  "address": null,
+  "source_urls": [],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "confidence": "low"
+}

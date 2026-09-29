@@ -1,61 +1,48 @@
 {
   "id": "Q11669765",
-  "checked_at": "2026-09-28T23:27:05+09:00",
+  "checked_at": "2026-09-29T23:22:37+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.takasaki.gunma.jp/site/art-museum/",
-  "address": "〒370-8501 群馬県高崎市高松町35番地1",
+  "address": "〒370-0849 群馬県高崎市八島町110-27",
   "source_urls": [
     "https://www.city.takasaki.gunma.jp/site/art-museum/",
-    "https://www.city.takasaki.gunma.jp/site/art-museum/93842.html",
     "https://www.city.takasaki.gunma.jp/site/art-museum/3459.html",
-    "https://www.city.takasaki.gunma.jp/site/art-museum/list9.html"
+    "https://www.city.takasaki.gunma.jp/site/art-museum/93842.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
+    {"days": ["tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
     {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
   ],
   "closed_weekdays": ["mon"],
-  "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {"from": "2026-09-24", "to": "2026-10-09", "reason": "展示替え休館"},
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休館"}
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
   ],
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "収蔵作品展「Human Figure　人を見つめ、かたちづくる」",
+      "title": "Human Figure　人を見つめ、かたちづくる",
       "start": "2026-10-10",
       "end": "2026-12-13",
       "url": "https://www.city.takasaki.gunma.jp/site/art-museum/93842.html",
       "kind": "collection",
-      "summary": null,
-      "recommend": null,
+      "summary": "人物表現をテーマに「ヌード」「愛するものへのまなざし」「芸術家とモデル」など多彩な収蔵作品と陶芸作家・山本優美の作品を紹介",
+      "recommend": "「人間を見つめる」という普遍のテーマのもと、1,600点超のコレクションから厳選した絵画・彫刻・工芸を展示。陶芸家・山本優美の作品も加わり、ジャンルを横断した人物表現の多様さを体感できる収蔵作品展。",
       "admission": "一般 300円",
       "adult_price": 300
-    },
-    {
-      "title": "開館35周年記念展「ザ・ベスト・オブ・高崎市美術館」",
-      "start": "2027-01-09",
-      "end": "2027-03-22",
-      "url": "https://www.city.takasaki.gunma.jp/site/art-museum/3459.html",
-      "kind": "special",
-      "summary": null,
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
     }
   ],
-  "adult_price": null,
+  "adult_price": 300,
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "高崎", "lines": "JR", "exit": "西口", "walk_min": 3}
+    {"station": "高崎", "lines": "JR高崎線・上越新幹線ほか", "exit": "西口", "walk_min": 3}
   ],
-  "highlights": null,
+  "highlights": "JR高崎駅西口から徒歩3分。近代日本の洋画・版画・彫刻・工芸を中心に1,600点超のコレクションを所蔵。同敷地に旧井上房一郎邸（昭和初期建築）と庭園を併設し、展覧会後の邸内・庭園散策も楽しめる。65歳以上・中学生以下は入館無料。",
   "closed_between_exhibitions": false,
-  "notes": "常設展は無く、収蔵作品展・企画展を順次開催（会期ごとに観覧料が異なり、一般の基本料金は無い）。9/24〜10/9は展示替えのため休館中。次回は10/10開館の「Human Figure」展。",
+  "notes": "月曜休館（祝日の場合は開館し翌平日休館）。9/24-10/9は展示替え休館中（10/10よりHuman Figure展開幕）。年末年始（12/28-1/4）休館。65歳以上・中学生以下・障害者手帳所持者は無料。金曜日のみ20:00まで夜間開館（入館19:30まで）。",
   "confidence": "high"
 }

@@ -1,0 +1,37 @@
+{
+  "id": "Q11595536",
+  "checked_at": "2026-09-29T23:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.chichibu.lg.jp/2090.html",
+  "address": "埼玉県秩父市熊木町8番15号",
+  "source_urls": [
+    "https://www.city.chichibu.lg.jp/2090.html",
+    "https://www1.g-reiki.net/chichibu/reiki_honbun/r165RG00000285.html",
+    "https://www.city.chichibu.lg.jp/2265.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "21:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "秩父市中心部に位置する歴史・文化の複合施設。秩父の歴史的遺産と文化財を収集・展示して後世への伝承を担う。中央公民館を併設しており、絵画・書道・謡曲など多彩な文化講座・クラブの活動拠点にもなっている。",
+  "closed_between_exhibitions": false,
+  "notes": "開館時間・展示内容の詳細は公式サイトで確認できなかったため、条例（秩父市歴史文化伝承館条例）の情報をもとに記入。展示の具体的な内容・入館料は不明。",
+  "confidence": "medium"
+}

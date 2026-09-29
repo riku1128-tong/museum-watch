@@ -1,0 +1,73 @@
+{
+  "id": "Q11595323",
+  "checked_at": "2026-09-29T23:06:47+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.akita.lg.jp/kanko/kanrenshisetsu/1003643/index.html",
+  "address": "〒010-0001 秋田県秋田市中通二丁目3-8（アトリオン内）",
+  "source_urls": [
+    "https://www.city.akita.lg.jp/kanko/kanrenshisetsu/1003643/1045665/1024255.html",
+    "https://www.city.akita.lg.jp/kanko/kanrenshisetsu/1003643/1049300.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-09-28",
+      "to": "2026-10-16",
+      "reason": "展覧会準備のため臨時休館"
+    },
+    {
+      "from": "2026-12-21",
+      "to": "2026-12-28",
+      "reason": "展覧会準備のため臨時休館"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "スウェーデンのうつわ　グスタフスベリのある暮らし",
+      "start": "2026-10-17",
+      "end": "2026-12-20",
+      "url": "https://www.city.akita.lg.jp/kanko/kanrenshisetsu/1003643/index.html",
+      "kind": "special",
+      "summary": "スウェーデンの老舗陶磁器ブランド「グスタフスベリ」の作品と、北欧の豊かな暮らしを紹介",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "closed_weekdays": [],
+      "closed_dates": []
+    }
+  ],
+  "adult_price": 310,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "秋田",
+      "lines": "JR奥羽本線・秋田新幹線",
+      "exit": "東口",
+      "walk_min": 10,
+      "note": "秋田駅東口から徒歩約10分。アトリオン（ファッションビル）4階"
+    }
+  ],
+  "highlights": "秋田市の文化複合施設アトリオン内に位置する市立美術館。秋田県ゆかりの近代洋画・日本画・版画を中心に収蔵し、地元作家の作品も多数展示。特別展では国内外の話題作を招致し、ショッピング施設に隣接することから日常的にアートに触れる場として市民に親しまれている。",
+  "closed_between_exhibitions": false,
+  "notes": "museums.jsonの公式URL（/kanko/bunka/1003375/index.html）は404。正しいURLに更新。週固定休館日なし（アトリオン営業日に準ずる）。",
+  "confidence": "medium"
+}

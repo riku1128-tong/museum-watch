@@ -1,0 +1,88 @@
+{
+  "id": "Q28689689",
+  "checked_at": "2026-09-29T23:14:27+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://tad-toyama.jp/",
+  "address": "〒930-0806 富山県富山市木場町3-20",
+  "source_urls": [
+    "https://tad-toyama.jp/",
+    "https://tad-toyama.jp/visit",
+    "https://tad-toyama.jp/access",
+    "https://tad-toyama.jp/exhibition-event/category/exhibition",
+    "https://tad-toyama.jp/exhibition-event/20731"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["wed"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "コレクション展Ⅱ",
+      "start": "2026-07-09",
+      "end": "2026-09-29",
+      "url": "https://tad-toyama.jp/",
+      "kind": "collection",
+      "summary": "通年コレクション展の第2期。20世紀美術・デザイン・富山の作家を網羅",
+      "recommend": null,
+      "admission": "一般 350円",
+      "adult_price": 350
+    },
+    {
+      "title": "デザインコレクション展Ⅲ",
+      "start": "2026-09-25",
+      "end": "2026-12-28",
+      "url": "https://tad-toyama.jp/",
+      "kind": "collection",
+      "summary": "プロダクト・グラフィック・ポスターなどデザインの名品を展示するコレクション展第3期",
+      "recommend": null,
+      "admission": "一般 350円",
+      "adult_price": 350
+    },
+    {
+      "title": "瀧口修造コレクションⅢ",
+      "start": "2026-09-25",
+      "end": "2026-12-28",
+      "url": "https://tad-toyama.jp/",
+      "kind": "collection",
+      "summary": "富山出身の詩人・美術評論家・瀧口修造が収集した作品のコレクション展第3期",
+      "recommend": null,
+      "admission": "一般 350円",
+      "adult_price": 350
+    },
+    {
+      "title": "シモン・ゴールドベルク＆山根美代子コレクションⅢ",
+      "start": "2026-09-25",
+      "end": "2026-12-28",
+      "url": "https://tad-toyama.jp/",
+      "kind": "collection",
+      "summary": "ヴァイオリニスト・シモン・ゴールドベルクと富山出身ピアニスト・山根美代子ゆかりのコレクション第3期",
+      "recommend": null,
+      "admission": "一般 350円",
+      "adult_price": 350
+    },
+    {
+      "title": "つぐ minä perhonen",
+      "start": "2026-10-10",
+      "end": "2026-12-22",
+      "url": "https://tad-toyama.jp/exhibition-event/20731",
+      "kind": "special",
+      "summary": "創設30周年のミナ ペルホネンが「つぐ（継ぐ・接ぐ）」をテーマにものづくりを紐解く展覧会",
+      "recommend": "テキスタイルの原画・刺繍・プリント工場の記録など多彩な素材で、100年後も続くブランドを目指すミナ ペルホネンの哲学に迫る。ファッション・デザイン好きに特におすすめ",
+      "admission": "一般 1,500円（前売 1,150円）",
+      "adult_price": 1500
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": 350,
+  "access": [
+    {"station": "富山", "lines": "JR北陸新幹線・あいの風とやま鉄道・高山本線", "exit": null, "walk_min": 15, "note": "1番のりばより「富山赤十字病院・県美術館経由」バスで「富山県美術館」下車も可"}
+  ],
+  "highlights": "富山市の富岩運河環水公園に面した県立美術館。ピカソ・ポロック・棟方志功のほかリートフェルトの椅子など20世紀美術・デザインの国際的名品を収蔵。屋上庭園「オノマトペの屋上」は夜22時まで無料で開放され、夜景とともに楽しめる。",
+  "notes": "休館日は毎週水曜（祝日は開館）と祝日の翌日・年末年始。祝日の翌日に休館する規則はスキーマで完全には表現できないため holiday_rule: open_next_weekday_closed で近似し、祝日が水曜以外に来る週は翌日も休館となる点は注記にとどめる。年末年始の具体的な閉館日程は公式サイト未確認のため special_closures には入れていない。70歳以上・大学生以下はコレクション展無料。",
+  "confidence": "high"
+}

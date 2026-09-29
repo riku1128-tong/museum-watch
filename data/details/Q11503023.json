@@ -1,0 +1,56 @@
+{
+  "id": "Q11503023",
+  "checked_at": "2026-09-29T23:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒950-0078 新潟市中央区万代島5-1 万代島ビル5階",
+  "source_urls": [
+    "https://banbi.pref.niigata.lg.jp/",
+    "https://banbi.pref.niigata.lg.jp/guide/",
+    "https://banbi.pref.niigata.lg.jp/guide/access/",
+    "https://banbi.pref.niigata.lg.jp/exhibition/open"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "大どろぼうの家",
+      "start": "2026-09-19",
+      "end": "2026-12-20",
+      "url": "https://banbi.pref.niigata.lg.jp/exhibition/open",
+      "kind": "special",
+      "summary": "引退を決意した大どろぼうが最後の盗みに出た家を舞台にした体験型展覧会。8つの部屋のコレクションを巡る",
+      "recommend": "「どろぼう」を主役にした体験型展覧会で、気鋭のクリエイターがデザインした8つの部屋それぞれに異なるコレクションが展示されている。脱出ゲームのような設定でアートに没入できる珍しい企画。",
+      "admission": "一般 1,600円（団体1,400円）",
+      "adult_price": 1600
+    },
+    {
+      "title": "鈴木のりたけ「大ピンチ展！」",
+      "start": "2027-03-06",
+      "end": "2027-05-30",
+      "url": null,
+      "kind": "special",
+      "summary": "絵本『大ピンチずかん』の作者・鈴木のりたけを題材にした体験型展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "新潟", "lines": "JR上越新幹線・信越本線・白新線・越後線", "exit": null, "walk_min": 25, "note": "バス（17番線・朱鷺メッセ経由）で約15分「朱鷺メッセ」下車。タクシー約8分。"}
+  ],
+  "highlights": "朱鷺メッセ内の万代島ビル5階に位置する新潟県立美術館。国内外の著名作家による体験型の企画展を中心に展開し、万代島の港を望む立地が魅力。常設展はなく企画展ごとに入れ替わる展示構成を採る。",
+  "closed_between_exhibitions": true,
+  "notes": "展覧会ごとに休館日が異なるため、特定月曜が休館の場合がある。年末年始の具体的な休館日は公式サイトに記載なし。",
+  "confidence": "high"
+}

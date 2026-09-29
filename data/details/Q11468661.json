@@ -1,0 +1,62 @@
+{
+  "id": "Q11468661",
+  "checked_at": "2026-09-29T23:01:13+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.yamagata-art-museum.or.jp/",
+  "address": "〒990-0047 山形県山形市大手町1-63",
+  "source_urls": [
+    "http://www.yamagata-art-museum.or.jp/",
+    "http://www.yamagata-art-museum.or.jp/?yr=2026&month=9",
+    "http://www.yamagata-art-museum.or.jp/?yr=2026&month=10"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-15", "to": "2026-09-18", "reason": "展示替え休館"},
+    {"from": "2026-10-05", "to": "2026-10-06", "reason": "展示替え休館"},
+    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "収蔵品展「吉野石膏コレクション・服部コレクション・山形の美術─東西にまたがる美の世界」",
+      "start": "2026-09-19",
+      "end": "2026-11-01",
+      "url": null,
+      "kind": "collection",
+      "summary": "吉野石膏コレクション（モネ・ルノワールら印象派）、服部コレクション（現代美術）、山形ゆかりの美術を一堂に紹介",
+      "admission": "一般 800円"
+    },
+    {
+      "title": "収蔵品展「長谷川コレクション─東洋日本の美術をたのしもう」",
+      "start": "2026-09-19",
+      "end": "2026-11-01",
+      "url": null,
+      "kind": "collection",
+      "summary": "中国・日本の書画・工芸を中心とした東洋美術コレクション",
+      "admission": "一般 800円"
+    },
+    {
+      "title": "企画展「第51回山形県総合書道展」",
+      "start": "2026-09-19",
+      "end": "2026-10-04",
+      "url": null,
+      "kind": "other",
+      "summary": "山形県内の書道団体による総合書道展",
+      "admission": "一般 800円"
+    }
+  ],
+  "adult_price": 800,
+  "access": [
+    {"station": "山形", "lines": "JR奥羽本線（山形線）", "exit": null, "walk_min": null, "note": "徒歩約15分またはバス利用"}
+  ],
+  "highlights": "実業家・吉野竹次郎が設立し、吉野石膏（株）が寄贈したモネ・ルノワールなど印象派の名作を核に、服部コレクション（現代美術）、長谷川コレクション（東洋美術）を擁する山形市の総合美術館。",
+  "closed_between_exhibitions": false,
+  "notes": "開館時間・休館日・年末年始はサイトのinfo欄から確認。月曜休館（祝日なら開館、翌平日休館）はカレンダー（9月・10月）で確認済み（9/21 敬老の日開館→9/24 翌平日休館、10/12 スポーツの日開館→10/13 翌火曜休館）。9/15〜18の展示替え休館・10/5〜6の展示替え休館はカレンダーで確認。10/7以降は展示施設貸与事業（山形市芸文協総合展覧会・平和祈念展in山形）のため展覧会情報不掲載。テーマ展一般料金800円をadult_priceに設定（展覧会によって変わる場合あり）。住所は990-0047（山形市大手町）で確認。",
+  "confidence": "medium"
+}

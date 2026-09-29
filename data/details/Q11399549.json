@@ -1,0 +1,42 @@
+{
+  "id": "Q11399549",
+  "checked_at": "2026-09-29T23:06:09+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.togeihida.co.jp/",
+  "address": "岐阜県高山市千島町1111",
+  "source_urls": [
+    "https://www.kankou-gifu.jp/spot/detail_3305.html",
+    "https://rurubu.jp/andmore/spot/80020713"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 1100,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "高山",
+      "lines": "JR高山本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "JR高山駅から車で約10分"
+    }
+  ],
+  "highlights": "高山祭の豪華絢爛な屋台（山車）11台を一堂に展示する博物館。精緻な彫刻や金工で飾られた屋台を間近で鑑賞でき、からくり人形の実演も行われる。世界の昆虫標本を展示する「昆虫館」も併設。",
+  "closed_between_exhibitions": false,
+  "notes": null,
+  "confidence": "medium"
+}

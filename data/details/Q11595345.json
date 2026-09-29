@@ -1,0 +1,88 @@
+{
+  "id": "Q11595345",
+  "checked_at": "2026-09-29T23:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.akita.lg.jp/kanko/kanrenshisetsu/1003617/index.html",
+  "address": "〒010-0921 秋田市大町三丁目3番21号",
+  "source_urls": [
+    "https://www.city.akita.lg.jp/kanko/kanrenshisetsu/1003617/index.html",
+    "https://www.city.akita.lg.jp/shisetsu/hakubutukan-tpsyokan/1011113/1006759.html",
+    "https://www.city.akita.lg.jp/kanko/kanrenshisetsu/1003617/1002325.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:15"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {
+      "from": "2026-09-28",
+      "to": "2026-10-02",
+      "reason": "展示替え作業のため全館休館"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "秋田公立美術大学連携企画「秋田アーツ&クラフツ」",
+      "start": "2026-10-03",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "special",
+      "summary": "秋田公立美術大学との連携企画展。会期未定のため1年後を仮設定",
+      "recommend": null,
+      "admission": "一般 310円",
+      "adult_price": 310
+    },
+    {
+      "title": "秋田の自然と風俗「秋田の祭り」",
+      "start": "2026-10-03",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "勝平得之記念館常設展示室。通年",
+      "recommend": null,
+      "admission": "一般 310円",
+      "adult_price": 310
+    },
+    {
+      "title": "鍛金の至宝 前期展",
+      "start": "2026-10-03",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "special",
+      "summary": "関谷四郎記念室。金工・鍛金作品の特集展示。会期未定のため1年後を仮設定",
+      "recommend": null,
+      "admission": "一般 310円",
+      "adult_price": 310
+    }
+  ],
+  "adult_price": 310,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "秋田",
+      "lines": "JR奥羽本線・羽越本線など",
+      "exit": null,
+      "walk_min": 15,
+      "note": "秋田中央交通バス「赤れんが郷土館前」または「川反入口」下車徒歩約1分"
+    }
+  ],
+  "highlights": "明治時代に建てられた赤れんが造りの旧秋田銀行本店（国指定重要文化財）を活用した郷土館。重厚なレンガ建築の中で、版画家・勝平得之の作品や鍛金作家・関谷四郎の金工品を常設展示。秋田の祭りや民俗文化に関する企画展も行う。",
+  "closed_between_exhibitions": false,
+  "notes": "竿燈まつり期間中（8/3〜8/6）は19:00まで延長開館。年末年始以外は休館曜日の記載なし（展示替え期間中を除く）。",
+  "confidence": "medium"
+}

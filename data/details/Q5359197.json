@@ -1,0 +1,96 @@
+{
+  "id": "Q5359197",
+  "checked_at": "2026-09-29T23:01:13+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kenbi.pref.gifu.lg.jp/",
+  "address": "〒500-8368 岐阜市宇佐4-1-22",
+  "source_urls": [
+    "https://kenbi.pref.gifu.lg.jp/",
+    "https://kenbi.pref.gifu.lg.jp/about/",
+    "https://kenbi.pref.gifu.lg.jp/access",
+    "https://kenbi.pref.gifu.lg.jp/events/2026ewomite/",
+    "https://kenbi.pref.gifu.lg.jp/events/gifu-no-nihonga202609/",
+    "https://kenbi.pref.gifu.lg.jp/events/modernfrenchpaintings/",
+    "https://kenbi.pref.gifu.lg.jp/events/redon_komai/",
+    "https://kenbi.pref.gifu.lg.jp/events/noa-noa-the-arcadia-of-gauguin/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "えをみてえをかく展覧会",
+      "start": "2026-07-23",
+      "end": "2026-11-08",
+      "url": "https://kenbi.pref.gifu.lg.jp/events/2026ewomite/",
+      "kind": "collection",
+      "summary": "当館収蔵作品を鑑賞しながら絵を描くことを楽しむ体験型コレクション展",
+      "recommend": null,
+      "admission": "一般370円",
+      "adult_price": 370
+    },
+    {
+      "title": "ぎふの日本画 屏風 ―大画面にみる美の世界―",
+      "start": "2026-09-08",
+      "end": "2026-11-03",
+      "url": "https://kenbi.pref.gifu.lg.jp/events/gifu-no-nihonga202609/",
+      "kind": "collection",
+      "summary": "岐阜ゆかりの画家が描いた日本画の屏風作品を紹介するコレクション展",
+      "recommend": null,
+      "admission": "一般370円",
+      "adult_price": 370
+    },
+    {
+      "title": "フランス近代絵画の祝宴",
+      "start": "2026-09-26",
+      "end": "2026-12-13",
+      "url": "https://kenbi.pref.gifu.lg.jp/events/modernfrenchpaintings/",
+      "kind": "special",
+      "summary": "19世紀末〜20世紀初頭のフランス近代絵画を集めた大型企画展",
+      "recommend": null,
+      "admission": "一般1,300円",
+      "adult_price": 1300
+    },
+    {
+      "title": "ルドンコレクションから：ルドンと駒井哲郎",
+      "start": "2026-09-29",
+      "end": "2026-12-20",
+      "url": "https://kenbi.pref.gifu.lg.jp/events/redon_komai/",
+      "kind": "collection",
+      "summary": "当館コレクションのルドン作品と版画家・駒井哲郎の作品を対比展示",
+      "recommend": null,
+      "admission": "一般370円",
+      "adult_price": 370
+    },
+    {
+      "title": "NOA NOA ゴーギャンのアルカディア",
+      "start": "2026-10-01",
+      "end": "2026-12-20",
+      "url": "https://kenbi.pref.gifu.lg.jp/events/noa-noa-the-arcadia-of-gauguin/",
+      "kind": "collection",
+      "summary": "当館所蔵のゴーギャン作品を中心にタヒチ時代の楽園の世界を紹介するコレクション展",
+      "recommend": null,
+      "admission": "一般370円",
+      "adult_price": 370
+    }
+  ],
+  "adult_price": 370,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "西岐阜", "lines": "JR東海道本線", "exit": null, "walk_min": 15, "note": null},
+    {"station": "岐阜", "lines": "JR東海道本線・高山本線", "exit": null, "walk_min": null, "note": "岐阜バスまたはタクシー利用"},
+    {"station": "名鉄岐阜", "lines": "名古屋鉄道名古屋本線", "exit": null, "walk_min": null, "note": "岐阜バスまたはタクシー利用"}
+  ],
+  "highlights": "岐阜市に位置する県立美術館。充実したルドンのコレクションをはじめ、フランス近代絵画や岐阜ゆかりの日本画など幅広い収蔵品を誇る。コレクション展は370円と手頃な価格で楽しめ、企画展では大型の国際巡回展も開催。企画展開催時の第3金曜は20時まで夜間開館。",
+  "closed_between_exhibitions": false,
+  "notes": "企画展開催時の毎月第3金曜日は10:00〜20:00（入場19:30まで）の夜間開館。年末年始の休館日程は公式サイトに日付記載なし。",
+  "confidence": "high"
+}

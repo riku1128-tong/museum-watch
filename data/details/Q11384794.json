@@ -1,0 +1,23 @@
+{
+  "id": "Q11384794",
+  "checked_at": "2026-09-29T23:10:49+09:00",
+  "check_mode": "full",
+  "operating_status": "unknown",
+  "status_note": "公式サイト chaenya.jp がDNSエラーで接続不可。掛川市観光・茶振興サイトにも掲載なし。静岡県のお茶施設一覧にも記載なし。閉館・未開館の可能性あり。",
+  "official_url": null,
+  "address": null,
+  "source_urls": [],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "notes": "公式サイト（chaenya.jp）に接続できず、情報取得不可。掛川市観光情報にも掲載なし。",
+  "confidence": "low"
+}

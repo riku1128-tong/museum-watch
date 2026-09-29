@@ -1,15 +1,14 @@
 {
   "id": "wp-acd8e196",
-  "checked_at": "2026-09-28T23:33:00+09:00",
+  "checked_at": "2026-09-29T23:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": null,
   "address": "〒379-0201 群馬県富岡市妙義町妙義1-5",
   "source_urls": [
-    "https://art.xtone.jp/museum/archives/myogi-furusato.html",
-    "https://www.museum.or.jp/museum/1816",
-    "https://www.dan-b.com/mu_hurusatobijyutukan/"
+    "https://gunma-kanko.jp/spots/449",
+    "https://artscape.jp/museum/1552/"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
@@ -22,23 +21,25 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "妙義山を描く絵画展",
-      "start": "2026-09-28",
-      "end": "2027-09-28",
+      "title": "妙義山を描く絵画展 大賞・優秀作品展示",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
       "url": null,
       "kind": "collection",
-      "summary": "昭和58年から続く「妙義山を描く」をテーマにした所蔵絵画の常設展示（通年）",
+      "summary": "通年。妙義山を描く絵画展の大賞・優秀作品を常時展示。3階は360度パノラマ展示写生ホール",
       "recommend": null,
-      "admission": "一般 300円",
-      "adult_price": 300
+      "admission": null,
+      "adult_price": null
     }
   ],
-  "closed_between_exhibitions": false,
-  "adult_price": 300,
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
   "access": [
-    {"station": "松井田", "lines": "JR信越本線", "exit": null, "walk_min": null, "note": "駅からタクシー約10分、または乗合タクシー「あいタク」279系統（要予約）。上信越自動車道 松井田妙義ICから車で約5分"}
+    {"station": "松井田", "lines": "JR信越本線", "exit": null, "walk_min": null, "note": "松井田駅からタクシーまたは車で約10分。妙義山麓の山中に位置するため車利用を推奨。"}
   ],
-  "highlights": "妙義山を望む高台に立つ美術館で、昭和58年から続く「妙義山を描く」絵画展の入選作を中心に、四季折々の妙義山を描いた作品を集めて展示している。道の駅みょうぎに隣接し、車での立ち寄りに便利な立地",
-  "notes": "official_url に挙げられていた city.tomioka.lg.jp/facility/003/ は404で確認できず、公式サイトは未確認。美術情報サイト（インターネットミュージアム）と地域ポータルサイトの情報をもとに作成（confidence medium）。企画展の会期は未掲載のため、常設の「妙義山を描く絵画展」のみ記載。最寄駅は徒歩圏になく、車・タクシー利用が中心。",
+  "highlights": "妙義山を一望する景勝地に立つ小規模美術館。3階の360度パノラマ展示写生ホールから妙義山の絶景を楽しめる。毎年開催の「妙義山を描く絵画展」入賞作品を常設展示し、地域の自然と芸術が結びついた独自の鑑賞体験を提供する。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトのURLが不明（旧URL404）。群馬の観光サイト・artscapeより情報取得。館の正式名は「富岡市立妙義ふるさと美術館」の可能性あり。入館料・詳細展覧会情報は要確認。",
   "confidence": "medium"
 }

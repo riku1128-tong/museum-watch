@@ -1,13 +1,15 @@
 {
   "id": "Q11272278",
-  "checked_at": "2026-09-28T23:32:00+09:00",
+  "checked_at": "2026-09-29T23:14:25+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.tsukuba.museum.ibk.ed.jp/",
-  "address": "茨城県つくば市吾妻2-8 つくば文化会館アルス内",
+  "address": "茨城県つくば市吾妻2-8（つくば文化会館アルス内）",
   "source_urls": [
-    "https://www.tsukuba.museum.ibk.ed.jp/guide.html"
+    "https://www.tsukuba.museum.ibk.ed.jp/",
+    "https://www.tsukuba.museum.ibk.ed.jp/guide.html",
+    "https://www.tsukuba.museum.ibk.ed.jp/access.html"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
@@ -16,12 +18,60 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "茨城県立歴史館パネル展",
+      "start": "2026-09-15",
+      "end": "2026-10-12",
+      "url": null,
+      "kind": "special",
+      "summary": "茨城県立歴史館によるパネル展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "アートフォーラム展「茨城と日本画ー中世から近代まで」",
+      "start": "2026-09-25",
+      "end": "2026-10-12",
+      "url": "https://www.tsukuba.museum.ibk.ed.jp/event.html#event260925",
+      "kind": "special",
+      "summary": "中世から近代にかけての茨城ゆかりの日本画を紹介するアートフォーラム展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "Field Notes ［写真］［映像］",
+      "start": "2026-10-14",
+      "end": "2026-10-18",
+      "url": null,
+      "kind": "special",
+      "summary": "写真・映像作品による展覧会",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "西陣美術織 伊藤若冲展",
+      "start": "2026-10-14",
+      "end": "2026-10-18",
+      "url": null,
+      "kind": "special",
+      "summary": "西陣織の技法で再現した伊藤若冲の作品展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
   "adult_price": 0,
   "closed_between_exhibitions": false,
+  "free_days": [],
+  "free_rules": [],
   "access": [
-    {"station": "つくば", "lines": "つくばエクスプレス", "exit": null, "walk_min": null, "note": "駅を降りてすぐの中央公園に隣接（具体的な徒歩分数の記載なし）"}
+    {"station": "つくば", "lines": "つくばエクスプレス", "exit": "A2出口", "walk_min": 3}
   ],
-  "notes": "貸しギャラリー専門の美術館（茨城県近代美術館の分館）で、館主催の企画展は行っておらず、外部団体・個人による展覧会利用の場。基本入館は無料だが「主催者の都合により有料の場合があります」とのことで、個別の展示情報は追えないため exhibitions は空とした。休館日は「月曜日（祝日の場合は開館、翌日休館）及び年末年始」だが、年末年始の具体的な日付は公式サイトに記載がなく special_closures には入れていない。",
-  "confidence": "medium"
+  "highlights": "つくばエクスプレス駅直結の「つくば文化会館アルス」内に位置する公立美術館。入場無料で、茨城ゆかりの美術・歴史パネル展から現代写真・映像まで幅広い企画展を開催。筑波研究学園都市の知的な雰囲気の中、多彩なアート体験ができる。",
+  "notes": "通常入場無料。一部の展覧会は有料になる場合あり。年末年始休館（具体的な日程は公式サイトで要確認）。元のURLはDNSが解決できなかったため、公式サイト（https://www.tsukuba.museum.ibk.ed.jp/）に更新。",
+  "confidence": "high"
 }

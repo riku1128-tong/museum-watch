@@ -1,7 +1,7 @@
 {
   "id": "Q11406050",
-  "checked_at": "2026-09-28T23:28:04+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-29T23:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.ccma-net.jp/",
@@ -60,6 +60,28 @@
       "recommend": "作家が制作途中の空間に足を踏み入れられる体験型企画。訪れるたびに変化していく展示を見比べる楽しみがある",
       "admission": "無料",
       "adult_price": 0
+    },
+    {
+      "title": "つくりかけラボ22 タムラサトル｜1トンになる",
+      "start": "2026-10-17",
+      "end": "2027-01-31",
+      "url": "https://www.ccma-net.jp/exhibitions/lab/26-10-17-27-1-31/",
+      "kind": "other",
+      "summary": "「重さ」に注目した参加型アーティストプロジェクト第22弾。巨大なはかりを使って0〜1000kgの重さをみんなで可視化",
+      "recommend": "普段は数字でしか認識しない「重さ」を体で体験できる新感覚の参加型展示。栃木出身のアーティスト・タムラサトルが千葉市美術館で初めて展開する大型インスタレーション",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "八木一夫、その家族",
+      "start": "2026-12-09",
+      "end": "2027-02-11",
+      "url": "https://www.ccma-net.jp/exhibitions/special/26-12-9-27-2-11/",
+      "kind": "special",
+      "summary": "前衛陶芸グループ「走泥社」の中心的存在・八木一夫とその家族（彫刻家・八木一夫の家族）の仕事を紹介",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 300,

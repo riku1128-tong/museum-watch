@@ -1,6 +1,6 @@
 {
   "id": "Q11617518",
-  "checked_at": "2026-09-28T23:35:00+09:00",
+  "checked_at": "2026-09-29T23:24:28+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,7 +11,8 @@
     "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=48",
     "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=46",
     "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=517",
-    "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=539"
+    "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=539",
+    "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=545"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
@@ -24,7 +25,7 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "所蔵作品展「金の世界」",
+      "title": "所蔵作品展「金の世界 小川芋銭《江村六月 雲巒烟水》修復完成を記念して」",
       "start": "2026-11-12",
       "end": "2027-01-11",
       "url": "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=539",
@@ -44,6 +45,17 @@
       "recommend": "ハイレッド・センターの伝説的パフォーマンス資料や、茨城会場だけの東日本大震災を契機とした大作インスタレーションが見どころです。",
       "admission": "一般 1,240円（団体1,130円）",
       "adult_price": 1240
+    },
+    {
+      "title": "所蔵作品展「新収蔵記念 中村彝と同時代の美術家たち」",
+      "start": "2026-11-12",
+      "end": "2027-01-11",
+      "url": "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=545",
+      "kind": "collection",
+      "summary": "新収蔵作品を記念し、中村彝と同時代の美術家たちのコレクションを紹介",
+      "recommend": null,
+      "admission": "一般 360円（所蔵作品展料金）",
+      "adult_price": 360
     },
     {
       "title": "令和8年度茨城県芸術祭美術展覧会",

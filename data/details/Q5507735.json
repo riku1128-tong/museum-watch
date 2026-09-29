@@ -1,0 +1,51 @@
+{
+  "id": "Q5507735",
+  "checked_at": "2026-09-29T23:01:13+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://art-museum.fcs.ed.jp/",
+  "address": "〒960-8003 福島市森合字西養山1番地",
+  "source_urls": [
+    "https://art-museum.fcs.ed.jp/",
+    "https://art-museum.fcs.ed.jp/visit",
+    "https://art-museum.fcs.ed.jp/exhibition/current",
+    "https://art-museum.fcs.ed.jp/exhibition/upcoming",
+    "https://art-museum.fcs.ed.jp/access"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-25", "to": "2026-10-09", "reason": "展示替えのための臨時休館"},
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "Ukiyo-e 猫百科 ごろごろまるまるネコづくし",
+      "start": "2026-10-10",
+      "end": "2026-12-06",
+      "url": null,
+      "kind": "special",
+      "summary": "浮世絵や絵巻に描かれた猫をテーマにした企画展",
+      "recommend": null,
+      "admission": "一般・大学生 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 360,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "美術館図書館前", "lines": "福島交通飯坂線", "exit": null, "walk_min": 2, "note": null},
+    {"station": "福島", "lines": "JR東北本線・奥羽本線・東北新幹線", "exit": null, "walk_min": null, "note": "9番バス乗り場より福島交通ももりん2コース「県立美術館入口」下車 徒歩3分"}
+  ],
+  "highlights": "福島市に位置する県立美術館。コレクション展と多彩な企画展を年間を通じて開催し、草間彌生・ゴッホなど国内外の著名作家の展覧会を定期的に実施する。飯坂線「美術館図書館前」駅から徒歩2分とアクセスがよく、常設展は一般360円と手頃な料金。",
+  "closed_between_exhibitions": false,
+  "notes": "提供されたofficial_url（https://www.art-museum.fks.ed.jp/）は接続拒否のため使用不可。正しいURLはhttps://art-museum.fcs.ed.jp/（ドメインはfcs.ed.jp）。月曜休館だが祝日は開館し、祝日の翌日（土日除く）を振替で休館する規則。",
+  "confidence": "high"
+}

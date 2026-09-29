@@ -1,0 +1,48 @@
+{
+  "id": "Q11595540",
+  "checked_at": "2026-09-29T23:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/kyodohakubutsukan/index.html",
+  "address": "埼玉県行田市本丸17番23号",
+  "source_urls": [
+    "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/kyodohakubutsukan/index.html",
+    "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/kyodohakubutsukan/riyou/kaikan.html",
+    "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/kyodohakubutsukan/riyou/nyukanryo.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [
+    {"weekday": "fri", "nth": [4]}
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "行田",
+      "lines": "秩父鉄道",
+      "exit": null,
+      "walk_min": null,
+      "note": "行田市（忍城）周辺。最寄りはJR吹上駅・JR行田駅またはバス利用"
+    }
+  ],
+  "highlights": "忍城址に隣接する行田市の歴史博物館。市内の考古・歴史・民俗資料を収集・展示し、古代さきたまから近世の忍藩までの地域の歩みを紹介する。御三階櫓（復元）を備え、城址の雰囲気とともに行田の歴史を体感できる。",
+  "closed_between_exhibitions": false,
+  "notes": "第4金曜は原則休館だが、テーマ展・企画展の開催中は開館する。月曜休館で、月曜が祝日・休日の場合は開館し翌平日が振替休館。企画展「第39回 忍藩十万石」が開催中の模様だが、会期詳細はウェブから確認できなかった。",
+  "confidence": "medium"
+}

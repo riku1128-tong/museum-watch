@@ -1,0 +1,42 @@
+{
+  "id": "Q11595521",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.town.ugo.lg.jp/sightseeing/detail.html?id=1015&category_id=41",
+  "address": "秋田県雄勝郡羽後町西馬音内字本町108-1",
+  "source_urls": [
+    "https://www.town.ugo.lg.jp/sightseeing/detail.html?id=1015&category_id=41",
+    "https://akita-fun.jp/spots/134"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "access": [
+    {
+      "station": "湯沢",
+      "lines": "JR奥羽本線",
+      "note": "湯沢駅からバス約25分（北都銀行角下車）または車で約20分（湯沢横手道路湯沢ICから）"
+    }
+  ],
+  "highlights": "ユネスコ無形文化遺産にも認定された西馬音内盆踊りを紹介する専門会館。江戸時代からの古い踊り衣装・キルト・藍染の大型壁掛けを展示し、大型スクリーンで盆踊りの映像を上映。毎月第2土曜14時からの定期公演で実際の踊りも楽しめる。",
+  "notes": "定期公演（毎月第2土曜 14:00）の観覧料は1,000円/人（団体割引あり）。入館自体は無料。",
+  "confidence": "high"
+}

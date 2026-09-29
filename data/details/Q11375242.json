@@ -1,6 +1,6 @@
 {
   "id": "Q11375242",
-  "checked_at": "2026-09-28T23:28:12+09:00",
+  "checked_at": "2026-09-29T23:24:28+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": "2026-09-24〜10-14は展示替えのため臨時休館中（10/15より特別企画展IIで再開予定）",
@@ -12,13 +12,37 @@
     "https://insho-domoto.com/access/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-24", "to": "2026-10-14", "reason": "展示替えのため臨時休館"},
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休館"}
+    {
+      "from": "2026-09-24",
+      "to": "2026-10-14",
+      "reason": "展示替えのため臨時休館"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -34,13 +58,29 @@
     }
   ],
   "adult_price": 580,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-14",
+      "to": "2026-11-15",
+      "scope": "collection",
+      "reason": "関西文化の日",
+      "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/index/kyoto/art-museums/"
+    }
+  ],
   "free_rules": [],
   "access": [
-    {"station": "立命館大学前", "lines": "京都市バス・JRバス", "note": "バス停「立命館大学前」下車すぐ。駐車場なし"},
-    {"station": "わら天神前", "lines": "京都市バス・JRバス", "walk_min": 10}
+    {
+      "station": "立命館大学前",
+      "lines": "京都市バス・JRバス",
+      "note": "バス停「立命館大学前」下車すぐ。駐車場なし"
+    },
+    {
+      "station": "わら天神前",
+      "lines": "京都市バス・JRバス",
+      "walk_min": 10
+    }
   ],
-  "highlights": null,
+  "highlights": "大正から昭和に活躍した日本画家・堂本印象が自ら設計した美術館。外観から内装まですべてが印象のデザインで、ステンドグラスや壁面装飾など建物自体が作品世界。2025年に国登録有形文化財に登録された空間で、初期から晩年にわたる印象の画業を鑑賞できる。",
   "closed_between_exhibitions": false,
   "notes": "休館日は月曜（祝休日の場合は開館し翌平日休館）、年末年始（12/28〜1/4）、展示替え期間。2026-09-24〜10-14は展示替えのため休館中で、10/15より特別企画展IIが開幕する。特別企画展IIの観覧料（一般600円）は公式サイト本文からの直接確認ができず、報道等の二次情報での確認にとどまるため、この点は confidence を medium とした。次々回以降の展覧会は未掲載。",
   "confidence": "medium"

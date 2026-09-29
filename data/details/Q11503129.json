@@ -1,0 +1,79 @@
+{
+  "id": "Q11503129",
+  "checked_at": "2026-09-29T23:19:43+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kinbi.pref.niigata.lg.jp/",
+  "address": "〒940-2083 新潟県長岡市千秋3丁目278-14",
+  "source_urls": [
+    "https://kinbi.pref.niigata.lg.jp/",
+    "https://kinbi.pref.niigata.lg.jp/goriyo/kaikan.php",
+    "https://kinbi.pref.niigata.lg.jp/tenran/kikakuten/kkk_kaisaichu/",
+    "https://kinbi.pref.niigata.lg.jp/tenran/collection-ten/c_kaisaichu",
+    "https://kinbi.pref.niigata.lg.jp/tenran/collection-ten/c_jikaikaisai/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "きもののヒミツ　友禅のうまれるところ ―京都 千總コレクションを中心に―",
+      "start": "2026-09-12",
+      "end": "2026-11-15",
+      "url": "https://kinbi.pref.niigata.lg.jp/tenran/kikakuten/kkk_kaisaichu/",
+      "kind": "special",
+      "summary": "創業470年超の老舗・千總コレクションを軸に、近世のきもの・染織図案・京都画壇の絵画など全4章で構成",
+      "recommend": "平面と立体のあいだを行き来するきものの意匠の工夫と時代背景を、友禅の老舗・千總の貴重なコレクションと人間国宝作品で一覧できる機会",
+      "admission": "一般 1,800円（前売 1,600円）",
+      "adult_price": 1800
+    },
+    {
+      "title": "2026年度 第3期コレクション展 作品の中のきもの／祈りと叫び 宗教主題のドイツ表現主義版画を中心に／近代美術館の名品",
+      "start": "2026-09-08",
+      "end": "2026-11-23",
+      "url": "https://kinbi.pref.niigata.lg.jp/tenran/collection-ten/c_kaisaichu",
+      "kind": "collection",
+      "summary": "所蔵作品によるコレクション展。きもの表現・ドイツ表現主義版画・名品の3テーマで構成",
+      "recommend": null,
+      "admission": "一般 430円",
+      "adult_price": 430
+    },
+    {
+      "title": "2026年度 第4期コレクション展 生誕100年 前田常作／江口草玄の書―ことばの姿—／近代美術館の名品",
+      "start": "2026-12-01",
+      "end": "2027-02-21",
+      "url": "https://kinbi.pref.niigata.lg.jp/tenran/collection-ten/c_jikaikaisai/",
+      "kind": "collection",
+      "summary": "所蔵作品によるコレクション展。前田常作生誕100年・江口草玄の書・名品の3テーマで構成",
+      "recommend": null,
+      "admission": "一般 430円",
+      "adult_price": 430
+    }
+  ],
+  "adult_price": 430,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "長岡",
+      "lines": "JR信越本線・上越新幹線",
+      "exit": "大手口",
+      "walk_min": null,
+      "note": "長岡駅大手口から中央循環バス「くるりん」内回り「県立近代美術館」下車（約20分）。タクシーで約15分"
+    }
+  ],
+  "highlights": "JR長岡駅からバスで20分ほどの緑豊かな場所に建つ新潟県を代表する近現代美術館。明治以降の日本・西洋絵画や版画・彫刻など約6,400点を収蔵し、地域ゆかりの作家から国際的な巨匠まで幅広い企画展とコレクション展を年間通じて開催する。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトURL は museums.json の https://kinbi.pref.niigata.jp/ が誤りで、正しくは https://kinbi.pref.niigata.lg.jp/ のため official_url で上書き。年末年始・展示替え期間も休館（具体的な日付は年間スケジュールで公開）。",
+  "confidence": "high"
+}

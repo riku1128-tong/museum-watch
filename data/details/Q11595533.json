@@ -1,0 +1,28 @@
+{
+  "id": "Q11595533",
+  "checked_at": "2026-09-29T23:08:37+09:00",
+  "check_mode": "full",
+  "operating_status": "unknown",
+  "status_note": "公式URL（https://www.town.miyoshi.saitama.jp/）がDNS解決不可。三芳町の正式ドメインはwww.town.saitama-miyoshi.lg.jpだが、当該施設の専用ページが確認できなかった。",
+  "official_url": "https://www.town.saitama-miyoshi.lg.jp/",
+  "address": null,
+  "source_urls": [
+    "https://www.town.saitama-miyoshi.lg.jp/kanko/rekishi/kyuShimadake.html",
+    "https://www.town.saitama-miyoshi.lg.jp/study/shakai/rekishi_minzoku.html"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "「三芳町立上富小学校旧敷地」は三芳町上富地区の史跡保全エリアとみられるが、独立した博物館施設としての情報を確認できなかった。近隣に旧島田家住宅（上富1279-3）・三芳町立歴史民俗資料館（竹間沢877）が存在する。三芳町教育委員会への問い合わせで確認要。",
+  "confidence": "low"
+}

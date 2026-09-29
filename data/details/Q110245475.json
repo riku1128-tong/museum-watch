@@ -1,0 +1,94 @@
+{
+  "id": "Q110245475",
+  "checked_at": "2026-09-29T23:23:32+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://nagano.art.museum/",
+  "address": "〒380-0801 長野県長野市箱清水1-4-4（城山公園内・善光寺東隣）",
+  "source_urls": [
+    "https://nagano.art.museum/",
+    "https://nagano.art.museum/access/",
+    "https://nagano.art.museum/exhibition/",
+    "https://nagano.art.museum/exhibition/namcollection2026_2",
+    "https://nagano.art.museum/exhibition/higashiyama2026_2",
+    "https://nagano.art.museum/exhibition/artlab2026_2_kanebako"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["wed"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "信州のダイナミズム―疎開画家たちの作品を中心に",
+      "start": "2026-08-08",
+      "end": "2026-10-05",
+      "url": "https://nagano.art.museum/exhibition/kouryuten2026",
+      "kind": "special",
+      "summary": "おぶせミュージアム・中島千波館との交流名品展。疎開画家たちの作品を中心に信州の芸術家の仕事を紹介",
+      "recommend": null,
+      "admission": "一般700円",
+      "adult_price": 700
+    },
+    {
+      "title": "アートラボ2026第Ⅱ期　金箱淳一「質感のあわい｜Mediated Textures」",
+      "start": "2026-07-18",
+      "end": "2026-10-12",
+      "url": "https://nagano.art.museum/exhibition/artlab2026_2_kanebako",
+      "kind": "special",
+      "summary": "触れる知覚の変化に焦点をあてた体験型インスタレーション。踏むと光る石や音の振動装置を展示",
+      "recommend": "身体で感じる「音」と「光」の装置が並ぶ実験的な展覧会。視覚に頼らず触覚や聴覚で作品に関わることで、普段気づかない感覚の変化を発見できる体験型の空間",
+      "admission": "一般700円",
+      "adult_price": 700
+    },
+    {
+      "title": "東山魁夷館コレクション2026 第Ⅱ期",
+      "start": "2026-07-31",
+      "end": "2026-10-27",
+      "url": "https://nagano.art.museum/exhibition/higashiyama2026_2",
+      "kind": "collection",
+      "summary": "中国取材の水墨表現《灕江暮色》《桂林月夜》と、代表連作「白い馬の見える風景」から《草青む》《白馬の森》を展示",
+      "recommend": "墨と色彩の境界を探った中国水墨作品と、北欧の精神的風景から生まれた白馬の連作を対比して鑑賞できる。東山魁夷の表現の幅広さを一室で体感できる機会",
+      "admission": "一般700円",
+      "adult_price": 700
+    },
+    {
+      "title": "NAMコレクション2026 第Ⅱ期",
+      "start": "2026-08-21",
+      "end": "2026-11-17",
+      "url": "https://nagano.art.museum/exhibition/namcollection2026_2",
+      "kind": "collection",
+      "summary": "新収蔵作家・梅津庸一（ドローイング・陶芸・映像）と中ザワヒデキを中心に、長野ゆかりの工芸・風景画とともに紹介",
+      "recommend": "多領域で活動する梅津庸一の新収蔵15点と、方法理論で知られる中ザワヒデキの作品を初公開。長野の自然を描いた松井康成ら工芸作家との対話も見どころ",
+      "admission": "一般700円",
+      "adult_price": 700
+    },
+    {
+      "title": "映像作品上映",
+      "start": "2026-04-01",
+      "end": "2027-03-31",
+      "url": "https://nagano.art.museum/exhibition/communityspace",
+      "kind": "other",
+      "summary": "交流スペースで映像作品を上映（土・日・祝日のみ）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 700,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "長野", "lines": "JR北陸新幹線・しなの鉄道・長野電鉄", "exit": "善光寺口", "walk_min": null, "note": "JR長野駅善光寺口バス乗り場①から複数系統で約15分「善光寺北」下車、徒歩3分"},
+    {"station": "善光寺下", "lines": "長野電鉄長野線", "exit": null, "walk_min": 15}
+  ],
+  "highlights": "善光寺の東隣、城山公園内に建つ県立美術館。プリツカー賞建築家・槇文彦が設計した本館と、東山魁夷の作品を専門に収蔵する東山魁夷館からなる。自然光を取り込む展示室で、信州ゆかりの現代美術や工芸から東山魁夷の繊細な風景画まで幅広く鑑賞できる。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「水曜日（祝日の場合は翌平日）」。入館料は各展示共通700円（団体600円）。映像作品上映は土・日・祝日のみ（交流スペース、入館不要の無料エリアかは要確認。adult_priceをnullとした）。2026年11月以降の展覧会は公式サイト未掲載。",
+  "confidence": "high"
+}

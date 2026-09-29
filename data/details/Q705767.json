@@ -1,7 +1,7 @@
 {
   "id": "Q705767",
-  "checked_at": "2026-09-28T23:35:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-29T23:23:32+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.arttowermito.or.jp/",
@@ -29,6 +29,17 @@
       "kind": "special",
       "summary": "「縫う」という行為で記憶や喪失、時間の不可逆性に向き合う竹村京の個展",
       "recommend": "修復や天災をテーマにした新作インスタレーションと参加型ワークショップを通じて、個人の記憶や出来事を作品に仮留めし未来へつなぐ試みにふれられる",
+      "admission": "一般 900円（団体20名以上 700円）",
+      "adult_price": 900
+    },
+    {
+      "title": "収蔵作品展「再会―17人のアーティストによる伝言」",
+      "start": "2026-11-07",
+      "end": "2027-01-31",
+      "url": "https://www.arttowermito.or.jp/gallery/lineup/article_5432.html",
+      "kind": "collection",
+      "summary": "ATM収蔵作品より17人のアーティストの作品を紹介する収蔵作品展",
+      "recommend": null,
       "admission": "一般 900円（団体20名以上 700円）",
       "adult_price": 900
     }

@@ -1,0 +1,49 @@
+{
+  "id": "Q11468703",
+  "checked_at": "2026-09-29T23:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kaminoyama-castle.info/",
+  "address": "〒999-3154 山形県上山市城跡町7番地",
+  "source_urls": [
+    "https://kaminoyama-castle.info/",
+    "https://yamagatakanko.com/attractions/detail_2533.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:15",
+      "last_entry": "16:45"
+    }
+  ],
+  "closed_weekdays": ["thu"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2026-12-31",
+      "reason": "年末休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 600,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "かみのやま温泉",
+      "lines": "JR奥羽本線",
+      "exit": null,
+      "walk_min": 12,
+      "note": null
+    }
+  ],
+  "highlights": "慶長年間に築城された上山城を復元した天守閣型の郷土資料館。山形・上山の歴史や文化財、藩政時代の武具や古文書などを展示する。霞城（かすみじょう）とも呼ばれ、城址からは蔵王連峰を望む眺望が素晴らしい。かみのやま温泉の観光拠点としても知られる。",
+  "closed_between_exhibitions": false,
+  "notes": "定休日が祝日の場合、「直前の平日」を代替休館日とする変則ルール（通常の「翌平日休館」ではない点に注意）。",
+  "confidence": "high"
+}

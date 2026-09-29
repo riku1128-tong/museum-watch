@@ -1,0 +1,47 @@
+{
+  "id": "Q11595530",
+  "checked_at": "2026-09-29T23:10:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.kazuno.lg.jp/kanko_bunka_sports/bunkazai/4/3914.html",
+  "address": "〒018-5334 秋田県鹿角市十和田毛馬内字柏崎3番地2",
+  "source_urls": [
+    "https://www.city.kazuno.lg.jp/kanko_bunka_sports/bunkazai/4/3914.html",
+    "https://www.city.kazuno.lg.jp/kanko_bunka_sports/bunkazai/4/index.html",
+    "https://kemanai.akita.jp/kazunoshi_senjin_kenshokan/gaiyou/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon", "thu"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 220,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "十和田南",
+      "lines": "JR花輪線",
+      "exit": null,
+      "walk_min": null,
+      "note": "車で約5分。秋北バス利用の場合は毛馬内下小路下車徒歩3分。東北自動車道十和田ICより車で約5分"
+    }
+  ],
+  "highlights": "東洋史学の泰斗・内藤湖南とヒメマス養殖を成功させた和井内貞行をはじめ、鹿角市ゆかりの先人の業績を紹介する顕彰館。郷土の文人・文化人にまつわる資料や著作も多数展示し、地域の文化的遺産を次世代に伝える。",
+  "notes": "月・木曜休館（祝日の場合は翌平日休館）。企画展「先人顕彰シリーズ」を定期的に開催。",
+  "confidence": "high"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "Q11595532",
+  "checked_at": "2026-09-29T23:08:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://ranzan-shiseki.spec.ed.jp/",
+  "address": "〒355-0221 埼玉県比企郡嵐山町大字菅谷757",
+  "source_urls": [
+    "https://ranzan-shiseki.spec.ed.jp/",
+    "https://ranzan-shiseki.spec.ed.jp/r7kikakuten",
+    "https://www.museum.or.jp/museum/1886"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun"],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    },
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "from": "2026-07-01",
+      "to": "2026-08-31"
+    },
+    {
+      "days": ["holiday"],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 100,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "武蔵嵐山",
+      "lines": "東武東上線",
+      "exit": null,
+      "walk_min": 13,
+      "note": null
+    }
+  ],
+  "highlights": "国指定史跡「菅谷館跡」に建つ埼玉県立の中世史博物館。武蔵武士の実態を発掘調査の成果から紹介し、館跡内の土塁・空堀を散策できる。令和7年度企画展「東山道と『鎌倉街道』」など古代から中世の道路変遷も取り上げ、歴史ファンに人気。",
+  "closed_between_exhibitions": false,
+  "notes": "祝日の翌日も休館（月曜以外の祝日の場合も翌日休館）。公式URLが旧来のpref.saitama.lg.jp/b0407から移転済み（ranzan-shiseki.spec.ed.jp）。",
+  "confidence": "high"
+}

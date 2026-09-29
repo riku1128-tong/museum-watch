@@ -1,0 +1,27 @@
+{
+  "id": "Q11384790",
+  "checked_at": "2026-09-29T23:04:37+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "2018年10月1日より改修工事のため休館。以降再開しておらず、Tokyo Art Beatで【閉館】として掲載。",
+  "official_url": "https://izuphoto-museum.jp/",
+  "address": "静岡県長泉町東野クレマチスの丘347-1",
+  "source_urls": [
+    "https://www.tokyoartbeat.com/venues/-/C047AAD2",
+    "https://www.museum.or.jp/museum/15120"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "クレマチスの丘内にあった写真専門の美術館。2018年10月から休館し、以降閉館状態が続いている。",
+  "confidence": "medium"
+}

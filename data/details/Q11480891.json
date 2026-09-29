@@ -1,0 +1,31 @@
+{
+  "id": "Q11480891",
+  "checked_at": "2026-09-29T23:22:10+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.vanfu.co.jp/vf/csr/museum.html",
+  "address": "〒039-2245 青森県八戸市北インター工業団地1-5-2（八戸グリーンハイテクランド内）",
+  "source_urls": [
+    "https://www.vanfu.co.jp/vf/csr/museum.html",
+    "https://visithachinohe.com/spot/banfu-bijutsukan/"
+  ],
+  "regular_hours": [
+    {"days": ["wed", "thu", "fri", "sun", "holiday"], "open": "10:00", "close": "16:00", "last_entry": "15:30"}
+  ],
+  "closed_weekdays": ["mon", "tue", "sat"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "八戸", "lines": "JR東北新幹線・八戸線", "walk_min": null, "note": "八戸駅から車約20分、八戸北インターチェンジから車約5分。駐車場完備"}
+  ],
+  "highlights": "印刷会社・帆風（バンフー）が地域貢献として八戸市に開設した、江戸期の日本画の高精細複製画を専門とする無料美術館。カラーマネジメント技術と画像処理技術を駆使した「デジタル光筆画」による複製画は、実物に迫る質感を明るい照明の下で間近に鑑賞でき、画帖や絵巻物に触れる展示もある。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（hankazemuseum.jp）は名前解決エラーで直接取得できず、vanfu.co.jp のページを公式情報として利用。月・火・土曜が定休日で、月・火が祝日の場合は開館し水曜が休館（open_next_weekday_closedで近似）。現在の展示は公式サイトから取得できないためXアカウント（@vanfumuseum）を参照のこと（exhibits: []のまま）。常設の江戸期複製画展示は常時あり、入館無料。展示替え期間・年末年始ほかにも臨時休館あり。",
+  "confidence": "medium"
+}

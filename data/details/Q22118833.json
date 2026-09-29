@@ -1,0 +1,47 @@
+{
+  "id": "Q22118833",
+  "checked_at": "2026-09-29T23:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "2026年4月3日から2027年7月31日まで長期休館中",
+  "official_url": "https://www.sakata-art-museum.jp/",
+  "address": "〒998-0055 山形県酒田市飯森山3丁目17-95",
+  "source_urls": [
+    "https://www.sakata-art-museum.jp/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-04-03",
+      "to": "2027-07-31",
+      "reason": "長期休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "酒田",
+      "lines": "JR羽越本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "酒田駅大学線バスで約20分「酒田市美術館・出羽遊心館」下車徒歩1分"
+    }
+  ],
+  "highlights": "最上川の河口近く、飯森山公園に隣接する美術館。酒田・庄内ゆかりの作家の作品や郷土の文化・歴史に関する企画展を開催してきた。2026年4月より長期休館中（2027年8月再開予定）。",
+  "closed_between_exhibitions": false,
+  "notes": "2026年4月3日〜2027年7月31日 長期休館。再開時期は公式サイトで確認のこと。冬期（12月〜3月）は月曜休館。",
+  "confidence": "high"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "Q11384795",
+  "checked_at": "2026-09-29T23:08:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://ulotto.entetsuassist-dms.com/",
+  "address": "〒431-0214 静岡県浜松市中央区舞阪町弁天島5005-3",
+  "source_urls": [
+    "https://ulotto.entetsuassist-dms.com/information/",
+    "https://ulotto.entetsuassist-dms.com/",
+    "https://ulotto.entetsuassist-dms.com/news/detail/794"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "秋合同企画展示「No.1な生き物展」",
+      "start": "2026-10-03",
+      "end": "2026-12-06",
+      "url": "https://ulotto.entetsuassist-dms.com/news/detail/794",
+      "kind": "special",
+      "summary": "ウォット×磐田市竜洋昆虫自然観察公園の2施設合同企画。最大・最毒など王道No.1生き物から飼育員目線のNo.1生き物を展示・紹介。",
+      "recommend": "2施設合同の特別展。「1番大きい」「1番毒が強い」など生き物の記録に迫るとともに、飼育員だから知る意外なNo.1も紹介される見どころ満載の企画展。",
+      "admission": "大人400円（通常入館料に含む）",
+      "adult_price": 400
+    }
+  ],
+  "adult_price": 400,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "弁天島",
+      "lines": "JR東海道本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "弁天島駅から徒歩圏内"
+    }
+  ],
+  "highlights": "「浜名湖をみて・さわって楽しむ」をコンセプトにした体験型の小さな水族館。大水槽のバクバクランチタイム・ウナギのパクパクタイムなど体験イベントが毎日開催。タッチプールで生き物に直接触れられる。高校生以下・70歳以上は無料。",
+  "closed_between_exhibitions": false,
+  "notes": "GW・夏休み期間は月曜も含め毎日開館。年末年始は休館（具体的な日程は公式サイトで確認）。",
+  "confidence": "high"
+}

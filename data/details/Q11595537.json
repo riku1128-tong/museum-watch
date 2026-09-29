@@ -1,0 +1,41 @@
+{
+  "id": "Q11595537",
+  "checked_at": "2026-09-29T23:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.tokorozawa.saitama.jp/shisetu/bunka/maizobunkazaichosacenter.html",
+  "address": "埼玉県所沢市北野2丁目12番地の1",
+  "source_urls": [
+    "https://www.city.tokorozawa.saitama.jp/shisetu/bunka/maizobunkazaichosacenter.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "open": "08:30",
+      "close": "17:15"
+    }
+  ],
+  "closed_weekdays": ["sat", "sun"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "小手指",
+      "lines": "西武池袋線",
+      "exit": "南口",
+      "walk_min": null,
+      "note": "南口からバス利用"
+    }
+  ],
+  "highlights": "所沢市内の発掘調査で出土した土器・石器・埴輪などの遺物を収集・保管・整理・公開する埋蔵文化財調査センター。収蔵資料や調査成果の展示を行い、市内の考古資料を通じて地域の歴史を学べる。入館無料。",
+  "closed_between_exhibitions": false,
+  "notes": "wiki_title「所沢市文化財資料館」と検索結果の「所沢市立埋蔵文化財調査センター」が同一施設かは確認できず。提供URLが接続不可のため、確認できた埋蔵文化財調査センターの情報を使用。",
+  "confidence": "medium"
+}

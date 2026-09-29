@@ -1,0 +1,67 @@
+{
+  "id": "Q11595528",
+  "checked_at": "2026-09-29T23:10:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://nikaho-kanko.jp/kisakatakyoudoshiryoukan/",
+  "address": "〒018-0121 秋田県にかほ市象潟町大塩越36-1（道の駅象潟「ねむの丘」内）",
+  "source_urls": [
+    "https://nikaho-kanko.jp/kisakatakyoudoshiryoukan/",
+    "https://www.kisakata.nemunooka.jp/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "from": "2026-03-01",
+      "to": "2026-10-31"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:00",
+      "from": "2026-11-01",
+      "to": "2027-02-28"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "象潟の潟時代と芭蕉",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。1804年の地震で陸地化した潟時代の象潟を825分の1の模型で再現。図屏風・埋もれ木など",
+      "recommend": null,
+      "admission": "一般 150円",
+      "adult_price": 150
+    }
+  ],
+  "adult_price": 150,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "象潟",
+      "lines": "JR羽越本線",
+      "exit": null,
+      "walk_min": 25,
+      "note": "車で約5分。日本海東北自動車道金浦ICより約8分"
+    }
+  ],
+  "highlights": "道の駅象潟「ねむの丘」内にある郷土資料館。1804年の地震で陸地化した潟時代の象潟を精巧な模型（825分の1）で体感できる。松尾芭蕉も訪れた景勝地の歴史を伝える図屏風や、埋もれ木など貴重な資料が揃う。",
+  "notes": "道の駅「象潟ねむの丘」内の象潟郷土資料館として運営。公式URL（www.kisakata.co.jp）はDNS不可のため別ページに更新。",
+  "confidence": "high"
+}

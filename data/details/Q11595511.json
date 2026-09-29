@@ -1,0 +1,78 @@
+{
+  "id": "Q11595511",
+  "checked_at": "2026-09-29T23:04:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://manga-museum.com/",
+  "address": "〒019-0701 秋田県横手市増田町増田字新町285",
+  "source_urls": [
+    "https://manga-museum.com/",
+    "https://manga-museum.com/access/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [
+    {
+      "weekday": "tue",
+      "nth": [3]
+    }
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "高橋よしひろ自薦原画展",
+      "start": "2026-09-19",
+      "end": "2026-11-08",
+      "url": "https://manga-museum.com/takahashi-yoshihiro-jisen/",
+      "kind": "special",
+      "summary": "『銀牙』などの作家・高橋よしひろが自ら選んだ原画を展示",
+      "recommend": "漫画家自身が選び抜いた原画を展示する自薦展。代表作『銀牙－流れ星 銀－』などの力強いタッチが間近で楽しめる貴重な機会。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "しげの秀一原画展～峠から未来へ～",
+      "start": "2026-10-24",
+      "end": "2026-12-27",
+      "url": "https://manga-museum.com/shigenoshuichi-exhibition",
+      "kind": "special",
+      "summary": "『頭文字D』『MFゴースト』などで知られるしげの秀一の原画展",
+      "recommend": "『頭文字D』で峠バトルを描き続けた作者の原画を一堂に。迫力あるレース描写の線の緻密さや躍動感を肉眼で堪能できる。",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "十文字",
+      "lines": "JR奥羽本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "十文字駅前からバス「増田蔵の駅」下車約5〜10分"
+    },
+    {
+      "station": "横手",
+      "lines": "JR奥羽本線",
+      "exit": "東口",
+      "walk_min": null,
+      "note": "横手駅東口からバス「増田蔵の駅」下車約25〜30分"
+    }
+  ],
+  "highlights": "日本最大規模の漫画原画の常設展示館。秋田ゆかりの漫画家を中心に約500人分、約94,000枚の原画を保管・展示する。増田の蔵の町並みに建つ外観も印象的で、企画展では各作家が自ら選んだ作品を間近に楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "常設展は無料。企画展（特別展）は大人1,000円、中学生500円、小学生300円。",
+  "confidence": "high"
+}

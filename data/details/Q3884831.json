@@ -1,0 +1,73 @@
+{
+  "id": "Q3884831",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "address": "兵庫県西宮市川添町15番26号",
+  "source_urls": [
+    "https://www.nishi.or.jp/access/hakubutsukan/kyodoshirokan/kyodo-access.html",
+    "https://harimap.com/nishinomiya-nishihaku-collection-20260919/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "にしはくコレクション－学び、近代の風景、くらし－",
+      "start": "2026-09-12",
+      "end": "2026-10-25",
+      "url": null,
+      "kind": "special",
+      "summary": "教育史資料・民俗資料・近代の西宮の風景を伝える絵画・絵葉書・広告など",
+      "recommend": "西宮の教育や地域のくらし、まちの変遷を伝える資料を一堂に集めた企画展。身近な歴史資料から近代の風景を再発見できる。",
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "香櫨園",
+      "lines": "阪神電車",
+      "exit": null,
+      "walk_min": 6,
+      "note": "南へ徒歩6分"
+    },
+    {
+      "station": "さくら夙川",
+      "lines": "JR神戸線",
+      "exit": null,
+      "walk_min": 14,
+      "note": "南へ徒歩14分"
+    },
+    {
+      "station": "夙川",
+      "lines": "阪急神戸線",
+      "exit": null,
+      "walk_min": 17,
+      "note": "南へ徒歩17分"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "臨時休館（展示設営・復旧期間）あり。2025年の情報では9月2日〜9月12日・10月28日〜10月31日が臨時休館だった。",
+  "confidence": "high"
+}

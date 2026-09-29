@@ -1,0 +1,52 @@
+{
+  "id": "Q11399536",
+  "checked_at": "2026-09-29T23:06:49+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "総合展示室リニューアルのため休館中（2025年10月23日〜2026年11月2日予定）。忠節橋展示場の個別情報は公式サイトから確認できなかったため、本館の休館状況に準ずる。",
+  "official_url": "https://www.rekihaku.gifu.gifu.jp/",
+  "address": "岐阜県岐阜市大宮町2丁目18番地1（岐阜公園内）",
+  "source_urls": [
+    "https://www.rekihaku.gifu.gifu.jp/",
+    "https://www.city.gifu.lg.jp/kankoubunka/1036969/index.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2025-10-23",
+      "to": "2026-11-02",
+      "reason": "総合展示室リニューアル工事"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "岐阜",
+      "lines": "JR東海道本線・高山本線",
+      "walk_min": null,
+      "note": "岐阜バスで岐阜公園・歴史博物館前下車"
+    }
+  ],
+  "highlights": "岐阜市歴史博物館に付属する忠節橋展示場。忠節橋周辺の歴史や文化を紹介する小規模な展示施設。現在は本館の総合展示室リニューアルに伴い休館中。",
+  "closed_between_exhibitions": false,
+  "notes": "岐阜市歴史博物館本館（rekihaku.gifu.gifu.jp）のリニューアルに伴い2026年11月2日まで休館予定。忠節橋展示場の個別の開館状況は未確認。",
+  "confidence": "low"
+}

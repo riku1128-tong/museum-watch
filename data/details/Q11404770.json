@@ -1,0 +1,55 @@
+{
+  "id": "Q11404770",
+  "checked_at": "2026-09-29T23:05:41+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.tamano.lg.jp/site/kaihaku/",
+  "address": "〒706-0001 岡山県玉野市渋川2丁目6番1号",
+  "source_urls": [
+    "https://www.city.tamano.lg.jp/site/kaihaku/48106.html",
+    "https://www.city.tamano.lg.jp/site/kaihaku/5638.html",
+    "https://www.city.tamano.lg.jp/site/kaihaku/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["wed"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2026-12-31",
+      "reason": "年末"
+    },
+    {
+      "from": "2027-01-04",
+      "to": "2027-01-04",
+      "reason": "年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 800,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "宇野",
+      "lines": "JR宇野みなと線",
+      "exit": null,
+      "walk_min": null,
+      "note": "宇野駅より路線バス（渋川行）30分「渋川」下車、徒歩5分"
+    }
+  ],
+  "highlights": "瀬戸内海に面した渋川海岸に立つ水族館型海洋博物館（渋川マリン水族館）。34個の水槽に瀬戸内海の魚類を中心に約180種2,000点を展示。キタオットセイ・ゴマフアザラシの屋外展示やシンボルの御幸灯台も見どころ。",
+  "closed_between_exhibitions": false,
+  "notes": "夏休み期間（7〜8月）および春休み・GWは水曜も開館。夏季は8:30〜17:30（入館17:00まで）に延長あり。天候等で臨時休館の場合あり。元の公式URLが404のため玉野市公式サイトに更新。",
+  "confidence": "high"
+}

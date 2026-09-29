@@ -1,0 +1,28 @@
+{
+  "id": "Q11595531",
+  "checked_at": "2026-09-29T23:08:37+09:00",
+  "check_mode": "full",
+  "operating_status": "unknown",
+  "status_note": "公式URL（https://www.town.ogano.lg.jp/machi_info/kyouiku/03.html）が404。小鹿野町の文化施設一覧にも「小鹿野町立郷土博物館」の記載が見当たらず、施設の現状を確認できなかった。",
+  "official_url": null,
+  "address": null,
+  "source_urls": [
+    "https://www.town.ogano.lg.jp/machi_info/kyouiku/03.html",
+    "https://www.town.ogano.lg.jp/chousei-jouhou/public-facility/culture-sports-recreation/"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "小鹿野町の文化施設として「おがの化石館」（下小鹿野453）・「小鹿野文化センター」（小鹿野167-1）が存在するが、いずれも「郷土博物館」という名称ではない。施設の存否・現状は小鹿野町教育委員会への問い合わせで確認要。",
+  "confidence": "low"
+}

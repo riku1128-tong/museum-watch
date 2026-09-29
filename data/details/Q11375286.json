@@ -1,16 +1,14 @@
 {
   "id": "Q11375286",
-  "checked_at": "2026-09-28T23:27:31+09:00",
+  "checked_at": "2026-09-29T23:14:25+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
-  "official_url": "http://kyoto-toban-hp.or.jp/",
-  "address": "〒606-0823 京都市左京区下鴨半木町(京都府立植物園 北山門東隣)",
+  "official_url": "https://kyoto-toban-hp.or.jp/",
+  "address": "〒606-0823 京都市左京区下鴨半木町（京都府立植物園北山門出口東隣）",
   "source_urls": [
-    "http://kyoto-toban-hp.or.jp/",
-    "https://kyoto-toban-hp.or.jp/%e4%ba%a4%e9%80%9a%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9/",
-    "https://kyoto-toban-hp.or.jp/2025/01/31/%e5%85%a5%e5%9c%92%e6%96%99%e3%81%ae%e6%94%b9%e5%ae%9a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bc%882025%e5%b9%b44%e6%9c%881%e6%97%a5%e3%82%88%e3%82%8a%ef%bc%89/",
-    "http://faq.pref.kyoto.lg.jp/faq.asp?faqno=01289&sugtype=6&logid=0"
+    "https://kyoto-toban-hp.or.jp/",
+    "https://kyoto-museums.city.kyoto.lg.jp/museum/164/"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
@@ -21,14 +19,27 @@
     {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休園"}
   ],
   "special_openings": [],
-  "exhibitions": [],
-  "adult_price": 200,
-  "free_days": [],
-  "access": [
-    {"station": "北山", "lines": "京都市営地下鉄烏丸線", "exit": "3番出口", "walk_min": 1, "note": "京都市営バス「北山駅前」下車、西へ徒歩5分。"}
+  "exhibitions": [
+    {
+      "title": "陶板名画 常設展示",
+      "start": "2026-04-01",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。モネ「睡蓮・朝」、ミケランジェロ「最後の審判」、ダ・ヴィンチ「最後の晩餐」など世界の名画8点を陶板で再現した屋外常設展示",
+      "recommend": "安藤忠雄設計の屋外空間に、モネやミケランジェロ、ルノワールら西洋絵画の傑作を実物大の陶板で再現。自然光の下で名画と向き合えるのは世界でここだけの体験。",
+      "admission": "大人 200円",
+      "adult_price": 200
+    }
   ],
-  "highlights": "安藤忠雄設計の屋外空間に、モネ《睡蓮・朝》やミケランジェロ《最後の審判》など8点の陶板名画を実物大で再現。京都府立植物園に隣接し、屋外で名画を間近に鑑賞できる世界初の絵画庭園。",
+  "adult_price": 200,
   "closed_between_exhibitions": false,
-  "notes": "常設の絵画庭園で、企画展・特別展の開催は確認できなかったため exhibitions は空。毎週の定休日はなく、年末年始(12/28〜1/4)のみ休園。観覧料は2025年4月1日改定後の額(一般(65歳未満)200円、65歳以上100円、幼・小・中学生無料)。",
-  "confidence": "high"
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "北山", "lines": "京都市営地下鉄烏丸線", "walk_min": 1}
+  ],
+  "highlights": "安藤忠雄設計の建築が京都府立植物園に隣接して佇む世界初の屋外絵画庭園。モネの「睡蓮・朝」やミケランジェロの「最後の審判」など名画8点を陶板に実物大で再現し、自然光の中で鑑賞できる。入場200円と手頃で、地下鉄駅から徒歩1分の好立地。",
+  "notes": "元の公式URL（https://www.plants-plus.co.jp/topangarden/）はDNSが解決できなかったため、実際の公式サイト（https://kyoto-toban-hp.or.jp/）に更新。施設メンテナンス等で臨時休園する場合あり（公式サイトで要確認）。TEL 075-724-2188。",
+  "confidence": "medium"
 }

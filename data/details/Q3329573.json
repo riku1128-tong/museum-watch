@@ -1,6 +1,6 @@
 {
   "id": "Q3329573",
-  "checked_at": "2026-09-28T23:27:38+09:00",
+  "checked_at": "2026-09-29T23:19:43+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -30,6 +30,7 @@
       "url": "https://www.seikado.or.jp/current_exhibition",
       "kind": "special",
       "summary": "館蔵の河井寬次郎作品51点で創作の源泉をさぐる。国宝《曜変天目（稲葉天目）》も出品",
+      "recommend": "没後60年記念展として館蔵の寬次郎作品51点を一堂に公開。民藝との出会いが生んだ「用の美」の陶芸と、国宝《曜変天目（稲葉天目）》を同時に鑑賞できる見逃せない機会",
       "admission": "一般 1,500円",
       "adult_price": 1500,
       "hours": [
@@ -45,6 +46,7 @@
       "url": "https://www.seikado.or.jp/next_exhibition",
       "kind": "special",
       "summary": "伎楽面の模作や松浦武四郎旧蔵の木鬼面、溝口家旧蔵の能面群で仮面に魅かれた人々の眼差しを辿る",
+      "recommend": "加納鉄哉の伎楽面模作・松浦武四郎の木鬼面・新発田藩主旧蔵の能面群と、近世から近代の眼差しを通じて仮面の世界を多角的に体験できる。前期・後期で展示替えがある点も楽しみ",
       "admission": "一般 1,500円",
       "adult_price": 1500,
       "hours": [

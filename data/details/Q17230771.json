@@ -1,0 +1,48 @@
+{
+  "id": "Q17230771",
+  "checked_at": "2026-09-29T23:23:32+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.rokkatei.co.jp/facilities/",
+  "address": "〒089-1365 北海道河西郡中札内村常盤西3線249-6",
+  "source_urls": [
+    "https://www.rokkatei.co.jp/facilities/%E5%85%AD%E8%8A%B1%E3%81%AE%E6%A3%AE-2/",
+    "https://www.visit-hokkaido.jp/spot/detail_11228.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "from": "2026-04-24", "to": "2026-05-31"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "16:00", "from": "2026-06-01", "to": "2026-07-31"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "from": "2026-08-01", "to": "2026-09-30"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "15:00", "from": "2026-10-01", "to": "2026-10-12"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-10-13", "to": "2027-04-23", "reason": "冬期休館（2026年度）"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "坂本直行コレクション常設展示",
+      "start": "2026-04-24",
+      "end": "2026-10-12",
+      "url": "https://www.rokkatei.co.jp/facilities/%E5%85%AD%E8%8A%B1%E3%81%AE%E6%A3%AE-2/",
+      "kind": "collection",
+      "summary": "通年（開館期間中）。坂本直行記念館・デッサン館・花柄包装紙館・山岳館・絶筆館など7棟で作品を展示",
+      "recommend": "六花亭の花柄包装紙の原画7点や、開拓生涯を記録した直行スケッチブック、NHK日曜美術館で紹介された日高三連作など、坂本直行の多面的な仕事を館ごとに味わえる。",
+      "admission": "大人1,200円、小中学生800円",
+      "adult_price": 1200
+    }
+  ],
+  "adult_price": 1200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "帯広", "lines": "JR根室本線", "exit": null, "walk_min": null, "note": "JR帯広駅から車で約40分。とかち帯広空港から車で約15分。公共交通機関でのアクセスは公式サイトに記載なし"}
+  ],
+  "highlights": "六花亭が運営する、花と川と森に囲まれた自然庭園の中の美術館群。花柄包装紙で知られる坂本直行の油彩・水彩・デッサンを専門7棟に分けて展示し、十勝の自然景観を背景に作品と語らうように鑑賞できる。開館は毎年4〜10月のみ。",
+  "closed_between_exhibitions": false,
+  "notes": "2026年の開館期間は4月24日〜10月12日。今年度の冬期休館開始日（10/13）は公式サイトの開館期間から算出。翌年の開館開始日（2027年4月）は確定情報がなく目安として記載。special_closures の終了日は要確認。",
+  "confidence": "high"
+}

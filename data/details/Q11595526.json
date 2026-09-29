@@ -1,0 +1,52 @@
+{
+  "id": "Q11595526",
+  "checked_at": "2026-09-29T23:01:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://lib-odate.jp/",
+  "address": "秋田県大館市字谷地町13",
+  "source_urls": [
+    "https://lib-odate.jp/",
+    "https://www.city.odate.lg.jp/city/koukyoushisetsu/annai/kyoiku_bunka/libraly"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue","wed","thu","fri"],
+      "open": "09:30",
+      "close": "19:00"
+    },
+    {
+      "days": ["sat","sun","holiday"],
+      "open": "09:30",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "大館",
+      "lines": "JR奥羽本線・花輪線",
+      "walk_min": null,
+      "note": "住所：大館市字谷地町13。詳細アクセスは図書館公式サイト参照"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "図書館施設。美術展示・ギャラリー機能の有無は公式サイトから確認できなかった。指定管理者制度により運営。月曜・年末年始休館。ばく書期間も休館あり。",
+  "confidence": "medium"
+}

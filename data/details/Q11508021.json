@@ -1,0 +1,66 @@
+{
+  "id": "Q11508021",
+  "checked_at": "2026-09-29T23:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.taitogeibun.net/asakura/",
+  "address": "〒110-0001 東京都台東区谷中7丁目18番10号",
+  "source_urls": [
+    "https://www.taitogeibun.net/asakura/",
+    "https://www.taitogeibun.net/asakura/guidance/nyukanryo/",
+    "https://www.taitogeibun.net/asakura/guidance/access/",
+    "https://www.taitogeibun.net/asakura/exhibitions/e_special/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon", "thu"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "ASAKURA ZOO 2026",
+      "start": "2026-07-18",
+      "end": "2026-12-27",
+      "url": "https://www.taitogeibun.net/asakura/exhibitions/e_special/",
+      "kind": "special",
+      "summary": "朝倉文夫の動物彫刻全作品と、収集した動物・昆虫を題材とする美術工芸品を展示",
+      "recommend": "彫刻家・朝倉文夫の原点ともいえる動物彫刻が一堂に集結。猫や犬から虎まで多彩な動物たちを生き生きと捉えた作品群と、朝倉が愛したコレクションが空間を彩る見応えある展覧会。",
+      "admission": "一般500円（団体300円）",
+      "adult_price": 500,
+      "hours": [],
+      "closed_weekdays": [],
+      "closed_dates": []
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "日暮里",
+      "lines": "JR山手線・常磐線・京成本線・日暮里舎人ライナー",
+      "exit": "北改札口 西口",
+      "walk_min": 5,
+      "note": null
+    }
+  ],
+  "highlights": "彫刻家・朝倉文夫が自ら設計した旧アトリエ兼住居を公開する国指定重要文化財。屋上庭園・池のある中庭・書庫「六角堂」など大正・昭和の文化人の美意識を今に伝える邸宅建築も必見。谷中の路地に佇むひっそりとした佇まいが、東京にいながら別世界のような静けさを感じさせる。",
+  "closed_between_exhibitions": false,
+  "notes": "外壁塗装工事実施中（2026年）のため臨時休館や一部見学場所の制限あり。月・木の定休が祝休日と重なる場合は開館し翌平日に休館。台東区内在住の高校生相当年齢以下・在学の小中高生は無料。",
+  "confidence": "high"
+}

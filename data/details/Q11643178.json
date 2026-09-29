@@ -1,0 +1,94 @@
+{
+  "id": "Q11643178",
+  "checked_at": "2026-09-29T23:06:28+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.koriyama.lg.jp/site/artmuseum/",
+  "address": "〒963-0666 福島県郡山市安原町字大谷地130-2",
+  "source_urls": [
+    "https://www.city.koriyama.lg.jp/site/artmuseum/",
+    "https://www.city.koriyama.lg.jp/site/artmuseum/list48.html",
+    "https://www.city.koriyama.lg.jp/site/artmuseum/28668.html",
+    "https://www.city.koriyama.lg.jp/site/artmuseum/174715.html",
+    "https://www.city.koriyama.lg.jp/site/artmuseum/6872.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "うつりゆく自然を描く　小野竹喬の世界",
+      "start": "2026-09-05",
+      "end": "2026-10-12",
+      "url": "https://www.city.koriyama.lg.jp/site/artmuseum/189156.html",
+      "kind": "special",
+      "summary": "日本画家・小野竹喬の自然観と画業を探る企画展",
+      "recommend": "近代日本画壇の巨匠、小野竹喬の穏やかな自然への眼差しと独自の画風を一堂に鑑賞できる機会。繊細な筆致で描かれた四季の風景画が並ぶ。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "常設展2026年度第3期",
+      "start": "2026-09-30",
+      "end": "2027-01-17",
+      "url": "https://www.city.koriyama.lg.jp/site/artmuseum/186091.html",
+      "kind": "collection",
+      "summary": "2026年度第3期のコレクション展示",
+      "recommend": null,
+      "admission": "一般 200円",
+      "adult_price": 200
+    },
+    {
+      "title": "雪村周継 特別展示",
+      "start": "2026-10-24",
+      "end": "2026-11-03",
+      "url": "https://www.city.koriyama.lg.jp/site/artmuseum/194316.html",
+      "kind": "special",
+      "summary": "室町時代の画僧・雪村周継の作品特別展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "アーツ・アンド・クラフツとデザイン　ウィリアム・モリスからフランク・ロイド・ライトまで",
+      "start": "2026-11-14",
+      "end": "2027-01-17",
+      "url": null,
+      "kind": "special",
+      "summary": "19〜20世紀のアーツ・アンド・クラフツ運動とデザインの系譜を辿る展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "郡山",
+      "lines": "JR東北本線・磐越西線・磐越東線ほか",
+      "exit": "西口",
+      "walk_min": null,
+      "note": "JR郡山駅西口からバス「美術館経由東部ニュータウン」行きで約10分、「郡山市美術館」下車すぐ"
+    }
+  ],
+  "highlights": "福島県郡山市郊外の緑豊かな安原地区に位置する市立美術館。印象派から現代美術まで幅広いコレクションを持ち、国内外の優れた企画展を多数開催。無料駐車場完備で車でのアクセスも便利。",
+  "confidence": "high"
+}

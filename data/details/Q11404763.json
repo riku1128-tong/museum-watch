@@ -1,0 +1,87 @@
+{
+  "id": "Q11404763",
+  "checked_at": "2026-09-29T23:01:13+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒700-0823 岡山県岡山市北区丸の内2-7-15",
+  "source_urls": [
+    "https://www.hayashibara-museumofart.jp/",
+    "https://www.hayashibara-museumofart.jp/list/exhibition/",
+    "https://www.hayashibara-museumofart.jp/list/guide/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "うるしの風景 －日本の名所と花鳥の彩り－",
+      "start": "2026-09-12",
+      "end": "2026-11-08",
+      "url": "https://www.hayashibara-museumofart.jp/data/1707/exhibition_tpl/",
+      "kind": "special",
+      "summary": "蒔絵・螺鈿で描かれた名所と花鳥の風情を紹介",
+      "recommend": "漆工の伝統技法で表現された日本各地の景勝地と四季の花鳥。光沢豊かな蒔絵・螺鈿の繊細な美が一堂に集まる贅沢な展観。",
+      "admission": "一般 600円",
+      "adult_price": 600
+    },
+    {
+      "title": "干支巡礼 －馬具から羊毛へ－",
+      "start": "2026-11-21",
+      "end": "2027-01-17",
+      "url": null,
+      "kind": "special",
+      "summary": "来年の干支にちなんだ馬具・羊毛などの工芸",
+      "recommend": null,
+      "admission": "一般 600円",
+      "adult_price": 600
+    },
+    {
+      "title": "SUMI －美と知の結晶－",
+      "start": "2027-01-30",
+      "end": "2027-03-28",
+      "url": null,
+      "kind": "special",
+      "summary": "墨の美と知を探る企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "岡山",
+      "lines": "JR山陽本線ほか",
+      "exit": null,
+      "walk_min": 25,
+      "note": "岡電バス「県庁前」下車徒歩3分、市内電車「県庁通」下車徒歩7分"
+    }
+  ],
+  "highlights": "岡山城の隣に立つ日本・東洋美術の専門美術館。旧林原グループが収集した刀剣・甲冑・絵画・染織・陶磁器など多彩な工芸品を所蔵し、季節ごとのテーマ企画展で紹介。中学生以下無料で入りやすい。",
+  "closed_between_exhibitions": true,
+  "notes": "展示替期間中は休館。年末年始も休館（公式サイトで詳細確認）。",
+  "confidence": "high"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "Q4677150",
+  "checked_at": "2026-09-29T23:01:13+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.okayama-kenbi.info/",
+  "address": "〒700-0814 岡山市北区天神町8-48",
+  "source_urls": [
+    "https://www.okayama-kenbi.info/",
+    "https://www.okayama-kenbi.info/access-2/",
+    "https://www.okayama-kenbi.info/schedule-okabi2026/",
+    "https://www.okayama-kenbi.info/exh-20261009-mushi_ten/",
+    "https://www.okayama-kenbi.info/okabi-20261003-ishi15/",
+    "https://www.okayama-kenbi.info/okayama_syuzouhin20261003/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-24", "to": "2026-10-02", "reason": "展示替えのための臨時休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第十五回 I氏賞受賞作家展 横山翔平・赤木秀明・伊勢崎寛太郎",
+      "start": "2026-10-03",
+      "end": "2026-11-03",
+      "url": "https://www.okayama-kenbi.info/okabi-20261003-ishi15/",
+      "kind": "special",
+      "summary": "岡山県新進美術家育成「I氏賞」受賞者3名による展覧会",
+      "recommend": "大賞の横山翔平はリサイクルガラスを用いた造形作品、奨励賞の赤木秀明は群像表現、伊勢崎寛太郎は自然石焼成による作品を出品。岡山が育てた新進作家3人の多彩な素材と表現を一堂に見られる。",
+      "admission": "一般360円",
+      "adult_price": 360
+    },
+    {
+      "title": "岡山の美術展 3期",
+      "start": "2026-10-03",
+      "end": "2026-11-03",
+      "url": "https://www.okayama-kenbi.info/okayama_syuzouhin20261003/",
+      "kind": "collection",
+      "summary": "岡山ゆかりの作家の作品を紹介する収蔵品展",
+      "recommend": null,
+      "admission": "一般360円",
+      "adult_price": 360
+    },
+    {
+      "title": "養老孟司と小檜山賢二の虫展 ～みて、かんじて、そしてかんがえよう",
+      "start": "2026-10-09",
+      "end": "2026-11-29",
+      "url": "https://www.okayama-kenbi.info/exh-20261009-mushi_ten/",
+      "kind": "special",
+      "summary": "解剖学者・養老孟司と研究者・小檜山賢二による虫の超高精細写真と言葉の展覧会",
+      "recommend": "解剖学者・養老孟司の言葉と、虫を数百倍に拡大した超高精細写真を組み合わせた異色のコラボ展。「虫を見れば世界が分かる」という視点で生命の不思議を体感できる。",
+      "admission": "一般1,500円",
+      "adult_price": 1500
+    }
+  ],
+  "adult_price": 360,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "城下", "lines": "岡山電気軌道（路面電車）東山本線", "exit": null, "walk_min": 3, "note": null},
+    {"station": "岡山", "lines": "JR山陽本線・伯備線ほか", "exit": null, "walk_min": 15, "note": "岡電バス1番のりば 藤原団地行「天神町」下車すぐ"}
+  ],
+  "highlights": "岡山市の城下エリア・天神町に位置する県立美術館。岡山ゆかりの作家の作品を紹介する「岡山の美術展」が定評あり、I氏賞など地元新進作家の育成にも注力する。路面電車「城下」電停から徒歩3分のアクセスの良さも魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "提供されたofficial_url（https://www.pref.okayama.jp/site/okayama-kenbi/）は404のため使用不可。正しいURLはhttps://www.okayama-kenbi.info/。年末年始の休館日程は公式サイトに日付記載なし。",
+  "confidence": "high"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "Q11384788",
+  "checked_at": "2026-09-29T23:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "ヴァンジ彫刻庭園美術館・クレマチスガーデンは2023年9月30日閉館。ベルナール・ビュフェ美術館と長泉町井上靖文学館が引き続き営業中。",
+  "official_url": "https://www.buffet-museum.jp/",
+  "address": "〒411-0931 静岡県駿東郡長泉町東野515-57",
+  "source_urls": [
+    "https://www.buffet-museum.jp/information/",
+    "https://www.buffet-museum.jp/exhibition/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "from": "2026-03-01",
+      "to": "2026-11-30"
+    },
+    {
+      "days": ["mon", "tue", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "from": "2026-12-01",
+      "to": "2027-02-28"
+    }
+  ],
+  "closed_weekdays": ["wed", "thu"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-01",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "鈴木のりたけ 大ピンチ展！",
+      "start": "2026-09-12",
+      "end": "2026-11-24",
+      "url": "https://www.buffet-museum.jp/exhibition/",
+      "kind": "special",
+      "summary": "絵本作家・鈴木のりたけの作品をテーマにした展覧会",
+      "recommend": null,
+      "admission": "大人1,500円",
+      "adult_price": 1500,
+      "hours": [],
+      "closed_weekdays": [],
+      "closed_dates": []
+    },
+    {
+      "title": "ベルナール・ビュフェの時代―戦後の具象画の変遷",
+      "start": "2026-12-04",
+      "end": "2027-03-30",
+      "url": "https://www.buffet-museum.jp/exhibition/",
+      "kind": "special",
+      "summary": "戦後フランスを代表する具象画家ビュフェの画業と、同時代の具象絵画の潮流を紹介",
+      "recommend": null,
+      "admission": "大人1,500円",
+      "adult_price": 1500,
+      "hours": [],
+      "closed_weekdays": [],
+      "closed_dates": []
+    }
+  ],
+  "adult_price": 1500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "三島",
+      "lines": "JR東海道新幹線・東海道本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "三島駅からバスまたはタクシーで約15分。東名沼津ICより車で約20分"
+    }
+  ],
+  "highlights": "静岡県長泉町の自然豊かな高台に立つベルナール・ビュフェ美術館。戦後フランスを代表する具象画家ビュフェの大規模コレクションを擁し、建物・常設展示ともに充実。富士山や愛鷹山を望む立地で、絵本作家・鈴木のりたけのコーナーも常設されている。かつてヴァンジ彫刻庭園美術館があったクレマチスの丘の中心施設。",
+  "closed_between_exhibitions": false,
+  "notes": "水・木曜が祝日の場合は開館し翌金曜が休館。特定期間（2026年9月12日〜11月24日）は日時指定チケット制。中学生以下は無料。",
+  "confidence": "high"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "Q11404771",
+  "checked_at": "2026-09-29T23:06:09+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "リニューアル工事中（2026年3月15日より閉館）。展示即売場は伊部駅南口「ふるさと交流センター」（備前市伊部1681）に仮移転中。仮移転先営業時間：水〜月 10:00〜17:00、火曜定休（祝日の場合は翌日休）。",
+  "official_url": "https://touyuukai.jp/",
+  "address": "〒705-0001 岡山県備前市伊部1657-7",
+  "source_urls": [
+    "https://touyuukai.jp/",
+    "https://touyuukai.jp/news/%E5%82%99%E5%89%8D%E7%84%BC%E4%BC%9D%E7%B5%B1%E7%94%A3%E6%A5%AD%E4%BC%9A%E9%A4%A8%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E5%B7%A5%E4%BA%8B%E3%81%AB%E4%BC%B4%E3%81%86%E4%BB%AE%E7%A7%BB.html",
+    "https://touyuukai.jp/news/%E5%96%B6%E6%A5%AD%E5%86%8D%E9%96%8B%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-3.html",
+    "https://www.museum.or.jp/museum/6247"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "伊部",
+      "lines": "JR赤穂線",
+      "exit": null,
+      "walk_min": 1,
+      "note": "伊部駅から徒歩すぐ（仮移転先の伊部駅南口ふるさと交流センターも同様）"
+    }
+  ],
+  "highlights": "備前焼の産地・伊部に立地し、約180名の会員による作品4000点以上を常設展示する備前焼専門館。土ひねり体験も実施し、毎年10月の備前焼まつりの拠点にもなる。現在リニューアル工事中。",
+  "closed_between_exhibitions": false,
+  "notes": "リニューアル工事により本館は2026年3月15日より閉館。工事完了後に再開予定（時期未定）。",
+  "confidence": "medium"
+}

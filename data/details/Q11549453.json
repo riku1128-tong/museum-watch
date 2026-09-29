@@ -1,0 +1,47 @@
+{
+  "id": "Q11549453",
+  "checked_at": "2026-09-29T23:22:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.mizuno-museum.jp/",
+  "address": "〒380-0928 長野県長野市若里6-2-20",
+  "source_urls": [
+    "https://www.mizuno-museum.jp/",
+    "https://mizuno-museum.jp/guide/",
+    "https://mizuno-museum.jp/exhibition/2026-10-exhibition/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:30", "last_entry": "17:00", "from": "2026-04-01", "to": "2026-10-31"},
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30", "from": "2026-11-01", "to": "2027-03-31"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-28", "to": "2026-10-09", "reason": "展示替え休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "水野コレクション「あの画家、この画家、推しの画家！」",
+      "start": "2026-10-10",
+      "end": "2026-12-06",
+      "url": "https://mizuno-museum.jp/exhibition/2026-10-exhibition/",
+      "kind": "special",
+      "summary": "橋本雅邦・菊池契月ら日本画の巨匠と長野ゆかりの画家8人を特集した企画展",
+      "recommend": "実力がありながら最近特集の機会に恵まれない日本画家8人を厳選。近代日本画の立役者・橋本雅邦や歴史人物画の大家・菊池契月ら「推したい」作家の名品を通じて、水野コレクションの奥行きを堪能できる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "長野", "lines": "JR信越本線・北陸新幹線ほか", "exit": "東口", "walk_min": null, "note": "長野駅東口から長電バス（日赤・水野美術館行き）約10分「水野美術館」下車すぐ（平日のみ）。土日祝はアルピコバス「ビッグハット」下車徒歩5分。タクシーは約6分"}
+  ],
+  "highlights": "実業家・水野正幸が長年蒐集した約500点の日本画コレクションをもとに2002年開館した日本画専門美術館。横山大観・菱田春草・川合玉堂ら近代日本画の巨匠の名品を収蔵。四季折々の表情を見せる700坪の日本庭園も見どころ。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日の場合は翌日）。9/28-10/9は展示替え休館中。12月に長期休館あり（日程は公式サイト要確認）。1月1日休館。夏期（4-10月）と冬期（11-3月）で閉館時間が異なる。20名以上の団体は各100円引。着物・浴衣での来館は半額。",
+  "confidence": "high"
+}

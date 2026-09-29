@@ -1,6 +1,6 @@
 {
   "id": "Q11426772",
-  "checked_at": "2026-09-28T23:28:17+09:00",
+  "checked_at": "2026-09-29T23:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,12 +9,29 @@
   "source_urls": [
     "https://pref.spec.ed.jp/momas/",
     "https://pref.spec.ed.jp/momas/利用案内---交通案内",
+    "https://pref.spec.ed.jp/momas/2026momas02",
     "https://pref.spec.ed.jp/momas/2026uchima"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:30", "last_entry": "17:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:30",
+      "last_entry": "17:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -23,9 +40,10 @@
       "title": "MOMASコレクション",
       "start": "2026-09-05",
       "end": "2026-11-29",
-      "url": "https://pref.spec.ed.jp/momas/",
+      "url": "https://pref.spec.ed.jp/momas/2026momas02",
       "kind": "collection",
-      "summary": "所蔵作品による常設のコレクション展示",
+      "summary": "シャガールほか所蔵名品を紹介。特集「堀浩哉：ゼロからの実践」で1960年代末〜2000年頃の制作軌跡をたどる",
+      "recommend": "シャガールをはじめとするコレクションの名品と、日本の前衛芸術を牽引した堀浩哉の半世紀にわたる実践を一度に楽しめる",
       "admission": "一般 200円",
       "adult_price": 200
     },
@@ -44,8 +62,22 @@
   "adult_price": 200,
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "北浦和", "lines": "JR京浜東北線", "exit": "西口", "walk_min": 3}
+    {
+      "station": "北浦和",
+      "lines": "JR京浜東北線",
+      "exit": "西口",
+      "walk_min": 3
+    }
   ],
   "notes": "休館日は「月曜日（祝日または県民の日の場合は開館）」に加え「年末年始、メンテナンス日」。具体的な年末年始・メンテナンス日の日付は公式サイトに記載が見当たらず未確認のため special_closures には入れていない。専用駐車場はなく、提携駐車場「タイムズ埼玉県立近代美術館東」で割引あり。",
-  "confidence": "high"
+  "confidence": "high",
+  "free_days": [
+    {
+      "from": "2026-11-14",
+      "to": "2026-11-14",
+      "scope": "collection",
+      "reason": "埼玉県民の日",
+      "source_url": "https://artexhibition.jp/topics/news/20251104-AEJ2774096/"
+    }
+  ]
 }

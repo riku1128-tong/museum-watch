@@ -1,0 +1,46 @@
+{
+  "id": "Q11384796",
+  "checked_at": "2026-09-29T23:08:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.kakegawa.shizuoka.jp/kanko/spot-list/12127.html",
+  "address": "〒436-0008 静岡県掛川市千羽986番地",
+  "source_urls": [
+    "https://www.city.kakegawa.shizuoka.jp/kanko/spot-list/12127.html",
+    "https://www.city.kakegawa.shizuoka.jp/gyosei/docs/7928.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "open": "09:00",
+      "close": "16:00"
+    }
+  ],
+  "closed_weekdays": ["sat", "sun"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "掛川市内の埋蔵文化財展示",
+      "start": "2020-01-01",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "旧石器時代から江戸時代にかけての遺物・発掘調査写真を常設展示。通年。",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "掛川市内の発掘調査で出土した旧石器時代から江戸時代にかけての遺物や調査写真を展示する埋蔵文化財センター。入館無料で、市内の歴史的土地利用の変遷を学べる専門施設。土日・祝日は休館のため平日のみ見学可。",
+  "closed_between_exhibitions": false,
+  "notes": "土日・祝日は休館。毎年5月11日・8月10日も休館（日程は年度により変更の可能性あり）。年末年始（12月28日から1月3日）休館。",
+  "confidence": "high"
+}

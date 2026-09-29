@@ -1,0 +1,113 @@
+{
+  "id": "Q3884829",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "address": null,
+  "source_urls": [
+    "https://www.kobecitymuseum.jp/",
+    "https://www.kobecitymuseum.jp/guide",
+    "https://www.kobecitymuseum.jp/exhibition/upcoming",
+    "https://www.kobecitymuseum.jp/about",
+    "https://www.kobecitymuseum.jp/exhibition/detail?exhibition=392"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:30"
+    },
+    {
+      "days": ["fri", "sat"],
+      "open": "09:30",
+      "close": "20:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-09-24",
+      "to": "2026-10-09",
+      "reason": "展示替えのため休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "神戸の歴史展示室",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。古代から現代までの神戸・兵庫の地域の歴史を紹介する常設展示（1階）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "コレクション展示室",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。考古・歴史資料、南蛮紅毛美術、古地図など館蔵品をテーマ別に紹介（2階）",
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300
+    },
+    {
+      "title": "特別展　トーベとムーミン展～とっておきのものを探しに～",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": "https://www.kobecitymuseum.jp/exhibition/detail?exhibition=392",
+      "kind": "special",
+      "summary": "トーベ・ヤンソンの油彩画・風刺画・ムーミン原画など約300点。ヘルシンキ市立美術館との共同開催",
+      "recommend": "ムーミン小説出版80周年記念展。トーベの初期油彩から大戦前後の風刺画、ムーミン原画まで幅広い作品を通して、ムーミンが生まれた背景と作者の人生を一度に体感できる。",
+      "admission": "一般 2,200円",
+      "adult_price": 2200
+    },
+    {
+      "title": "大ゴッホ展 アルルの跳ね橋",
+      "start": "2027-02-06",
+      "end": "2027-05-30",
+      "url": "https://www.kobecitymuseum.jp/exhibition/detail?exhibition=397",
+      "kind": "special",
+      "summary": "ゴッホの絵画を中心とした大規模特別展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "三ノ宮",
+      "lines": "JR神戸線",
+      "exit": "西口",
+      "walk_min": 10,
+      "note": null
+    },
+    {
+      "station": "元町",
+      "lines": "JR神戸線",
+      "exit": "東口",
+      "walk_min": 10,
+      "note": null
+    },
+    {
+      "station": "旧居留地・大丸前",
+      "lines": "神戸市営地下鉄海岸線",
+      "exit": null,
+      "walk_min": 8,
+      "note": null
+    }
+  ],
+  "highlights": "「国際文化交流」をテーマに、国宝・桜ヶ丘銅鐸をはじめとする考古資料、南蛮紅毛美術コレクション、古地図など多彩な館蔵品を誇る。1935年竣工の旧横浜正金銀行神戸支店をリノベーションした、ドリス様式の円柱が並ぶ新古典様式の名建築も見どころ。",
+  "closed_between_exhibitions": false,
+  "notes": null,
+  "confidence": "high"
+}

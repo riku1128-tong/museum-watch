@@ -1,0 +1,76 @@
+{
+  "id": "Q11399539",
+  "checked_at": "2026-09-29T23:06:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.hida.gifu.jp/site/museum/",
+  "address": "〒509-4221 岐阜県飛騨市古川町若宮2-1-58",
+  "source_urls": [
+    "https://www.city.hida.gifu.jp/site/museum/",
+    "https://www.city.hida.gifu.jp/site/museum/visit.html",
+    "https://www.city.hida.gifu.jp/site/museum/55743.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第22回 飛騨市美術展",
+      "start": "2026-09-20",
+      "end": "2026-10-04",
+      "url": "https://www.city.hida.gifu.jp/site/museum/87136.html",
+      "kind": "special",
+      "summary": "日本画・洋画・彫刻・工芸・書・写真の6部門、計144点を展示する市民美術展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "袖垣 治彦　木版画展（第Ⅱ期）～飛騨の獅子舞・民具を彫る～",
+      "start": "2026-11-21",
+      "end": "2027-01-31",
+      "url": null,
+      "kind": "special",
+      "summary": "飛騨の獅子舞や民具をモチーフにした木版画展（第Ⅱ期）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "布施 伸介展　古川の屋台・三寺まいりを描く",
+      "start": "2026-11-21",
+      "end": "2027-02-14",
+      "url": null,
+      "kind": "special",
+      "summary": "飛騨古川の屋台行列や三寺まいりを題材にした絵画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "飛騨古川",
+      "lines": "JR高山本線",
+      "walk_min": 10,
+      "note": null
+    }
+  ],
+  "highlights": "飛騨市古川町にある市立美術館。地元作家の作品を中心に企画展を年間通して開催し、地域文化の発信拠点となっている。古民家の残る古川の街並みに近く、三寺まいりなど地域の伝統文化とも縁が深い。",
+  "closed_between_exhibitions": false,
+  "notes": null,
+  "confidence": "high"
+}

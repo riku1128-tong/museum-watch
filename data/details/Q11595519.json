@@ -1,0 +1,39 @@
+{
+  "id": "Q11595519",
+  "checked_at": "2026-09-29T23:01:13+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "9/24〜10/11 全館展示替えのため休館中",
+  "official_url": "https://akita-kinbi.jp/",
+  "address": "〒013-0064 秋田県横手市赤坂字富ヶ沢62-46（秋田ふるさと村内）",
+  "source_urls": [
+    "https://akita-kinbi.jp/",
+    "https://akita-kinbi.jp/ja_pages/access/",
+    "https://akita-kinbi.jp/ja_pages/tickets/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2026-09-24", "to": "2026-10-11", "reason": "全館展示替え"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "原安三郎コレクション 北斎×広重",
+      "start": "2026-10-12",
+      "end": "2026-11-30",
+      "url": null,
+      "kind": "special",
+      "summary": "実業家・原安三郎が蒐集した葛飾北斎・歌川広重の作品を紹介する特別展",
+      "admission": null
+    }
+  ],
+  "adult_price": null,
+  "access": [],
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（akita-kinbi.jp）はSPA（WordPress）のため curl では実際のコンテンツが取得できず、開館時間はトップ固定バーの静的HTMLから確認（9:30〜17:00・最終入館16:30）。休館日・入館料・アクセスはサイトからは未取得。全館展示替え（9/24〜10/11）はお知らせ記事から確認。「北斎×広重」展の終了日（2026-11-30）は推定（サイトから未取得）・入館料も未取得。秋田ふるさと村（横手市）に隣接立地。秋田蘭画のコレクションで知られる県立近代美術館。",
+  "confidence": "low"
+}

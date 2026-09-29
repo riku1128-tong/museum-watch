@@ -1,0 +1,48 @@
+{
+  "id": "Q11404768",
+  "checked_at": "2026-09-29T23:05:41+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.tsuyamakan.jp/manabi",
+  "address": "〒708-0882 岡山県津山市大谷",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/115270",
+    "https://www.tsuyamakan.jp/manabi"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:00",
+      "last_entry": "15:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2026-12-31",
+      "reason": "年末"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 310,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "津山",
+      "lines": "JR津山線・姫新線・因美線",
+      "exit": null,
+      "walk_min": 10
+    }
+  ],
+  "highlights": "旧津山扇形機関車庫（国の重要文化財）を活用した鉄道博物館。全国最大規模のSLを含む蒸気機関車14両が扇形庫に並ぶ圧巻の展示が見どころ。鉄道の歴史や仕組みをわかりやすく学べる体験型展示も充実。",
+  "closed_between_exhibitions": false,
+  "notes": "元の公式URL（westjr.co.jp）は404のため津山観光協会の公式ページに更新。",
+  "confidence": "high"
+}

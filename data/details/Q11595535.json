@@ -1,0 +1,59 @@
+{
+  "id": "Q11595535",
+  "checked_at": "2026-09-29T23:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kumagayacity.library.ne.jp/",
+  "address": "埼玉県熊谷市桜木町二丁目33番地2",
+  "source_urls": [
+    "https://www.kumagayacity.library.ne.jp/",
+    "https://www.kumagayacity.library.ne.jp/access/",
+    "https://www.kumagayacity.library.ne.jp/access/%E7%86%8A%E8%B0%B7%E5%9B%B3%E6%9B%B8%E9%A4%A8/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [
+    {"weekday": "fri", "nth": [1]}
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "郷土資料展示室ミニ企画展「画家・大久保隆史展」",
+      "start": "2026-09-08",
+      "end": "2026-12-06",
+      "url": "https://www.kumagayacity.library.ne.jp/",
+      "kind": "special",
+      "summary": "熊谷ゆかりの画家・大久保隆史の作品を展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "熊谷",
+      "lines": "JR高崎線・秩父鉄道",
+      "exit": "南口",
+      "walk_min": 4,
+      "note": null
+    }
+  ],
+  "highlights": "熊谷市の中心部にある公共図書館。3階に郷土資料展示室と美術展示室を備え、地域の歴史・文化に関する展示や美術展を定期的に開催する。郷土資料は熊谷に関する文献・資料を広く収集しており、地域の歴史を学ぶ拠点となっている。",
+  "closed_between_exhibitions": false,
+  "notes": "図書館の営業時間は9:00〜19:00だが、3階展示室は17:00まで。月曜が国民の休日の場合は翌平日休館。また国民の休日が火〜金曜に当たる場合、その翌平日も休館する場合がある（特別整理期間は年間14日以内）。",
+  "confidence": "high"
+}

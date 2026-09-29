@@ -1,7 +1,7 @@
 {
   "id": "Q1055628",
-  "checked_at": "2026-09-28T23:35:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-29T23:19:43+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.momak.go.jp/",
@@ -15,12 +15,31 @@
     "https://www.momak.go.jp/Japanese/exhibitionarchive/2026/468.html"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2027-01-18", "to": "2027-03-31", "reason": "館内整備のため休館（公式発表は「2027年1月18日～3月休館」で、正確な再開日は未確定）"}
+    {
+      "from": "2027-01-18",
+      "to": "2027-03-31",
+      "reason": "館内整備のため休館（公式発表は「2027年1月18日～3月休館」で、正確な再開日は未確定）"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -70,11 +89,31 @@
     }
   ],
   "adult_price": 430,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-15",
+      "to": "2026-11-15",
+      "scope": "collection",
+      "reason": "関西文化の日",
+      "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/index/kyoto/art-museums/"
+    }
+  ],
   "free_rules": [],
   "access": [
-    {"station": "東山", "lines": "京都市営地下鉄東西線", "exit": "1番出口", "walk_min": 10, "note": null},
-    {"station": "京都", "lines": "JR・近鉄・地下鉄烏丸線", "exit": null, "walk_min": null, "note": "京都駅前(A1のりば)から市バス5番・105番「岡崎公園 美術館・平安神宮前」下車すぐ"}
+    {
+      "station": "東山",
+      "lines": "京都市営地下鉄東西線",
+      "exit": "1番出口",
+      "walk_min": 10,
+      "note": null
+    },
+    {
+      "station": "京都",
+      "lines": "JR・近鉄・地下鉄烏丸線",
+      "exit": null,
+      "walk_min": null,
+      "note": "京都駅前(A1のりば)から市バス5番・105番「岡崎公園 美術館・平安神宮前」下車すぐ"
+    }
   ],
   "highlights": "岡崎公園に建つ、工芸分野に力を入れる国立美術館。近代から現代の絵画・彫刻・工芸・写真など幅広い分野の作品を収集し、京都・関西の芸術活動にも注目した企画展・コレクション展を開催する",
   "closed_between_exhibitions": false,

@@ -1,0 +1,61 @@
+{
+  "id": "Q78909892",
+  "checked_at": "2026-09-29T23:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.mosaictile-museum.jp/",
+  "address": "〒507-0901 岐阜県多治見市笠原町2082-5",
+  "source_urls": [
+    "https://www.mosaictile-museum.jp/",
+    "https://www.mosaictile-museum.jp/guidance/",
+    "https://www.mosaictile-museum.jp/exhibition/collection202606/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "ザ 美術タイル 第Ⅰ部 ～煌めきのむこうがわ～",
+      "start": "2026-06-02",
+      "end": "2026-12-27",
+      "url": "https://www.mosaictile-museum.jp/exhibition/collection202606/",
+      "kind": "special",
+      "summary": "美術タイルの展開を起点に大正時代から現代まで多様なタイル表現を展観する企画展（第Ⅰ部）",
+      "recommend": "関東大震災後の装飾タイル黄金期から現代に至るタイルアートの系譜を、新発見資料とともに圧巻の大壁面展示で体験できる。第Ⅱ部に続く二部構成の前半。",
+      "admission": "個人 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "多治見",
+      "lines": "JR中央本線",
+      "exit": "南口",
+      "walk_min": null,
+      "note": "多治見駅南口から東鉄バス笠原線「東草口行き」または「羽根行き」で約17分「モザイクタイルミュージアム」下車"
+    }
+  ],
+  "highlights": "磁器製モザイクタイルの産地・笠原町に2016年開館した個性的な美術館。建築家・藤森照信設計の土と草の外壁が印象的。地元産業の歴史と美術的側面を同時に学べ、タイルを使った体験ワークショップも充実。高校生以下は無料。",
+  "closed_between_exhibitions": false,
+  "notes": "高校生以下無料。年間パスポートあり（1,020円）。",
+  "confidence": "high"
+}

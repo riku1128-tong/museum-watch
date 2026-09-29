@@ -1,0 +1,72 @@
+{
+  "id": "Q11399556",
+  "checked_at": "2026-09-29T23:01:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.forest.minokamo.gifu.jp/",
+  "address": "岐阜県美濃加茂市蜂屋町上蜂屋3299-1",
+  "source_urls": [
+    "https://www.forest.minokamo.gifu.jp/",
+    "https://www.forest.minokamo.gifu.jp/access/access.cfm",
+    "https://www.city.minokamo.lg.jp/soshiki/5/2778.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon","tue","wed","thu","fri","sat","sun"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "2026年度 蚕とまゆ展",
+      "start": "2026-04-25",
+      "end": "2026-10-12",
+      "url": "https://www.forest.minokamo.gifu.jp/",
+      "kind": "special",
+      "summary": "蚕を育てる道具など養蚕文化に関する展示",
+      "recommend": "木曽川流域で盛んだった養蚕・製糸業の歴史と道具を紹介する企画展。隣接する「まゆの家」（昭和30年代の養蚕民家）とあわせて見ることで、かつての農村の暮らしをリアルに体感できる。",
+      "admission": null,
+      "adult_price": 0
+    },
+    {
+      "title": "第71回 美濃加茂市美術展",
+      "start": "2026-10-08",
+      "end": "2026-10-18",
+      "url": "https://www.forest.minokamo.gifu.jp/",
+      "kind": "special",
+      "summary": "美濃加茂市民による公募の総合美術展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "美濃太田",
+      "lines": "JR高山本線・太多線",
+      "exit": "北口",
+      "walk_min": 17,
+      "note": "北口から徒歩約17分、またはあい愛バス「文化の森」下車（約10分）。東海環状自動車道美濃加茂ICから車で約5分"
+    }
+  ],
+  "highlights": "木曽川流域の農耕・養蚕文化を伝える市民ミュージアム。昭和30年代の養蚕民家を復原した「まゆの家」と農耕民具を展示する民具展示館が見どころ。約9haの緑豊かな敷地に本館・生活体験館・アトリエ棟などが点在し、体験プログラムも充実。",
+  "closed_between_exhibitions": false,
+  "notes": "提供された公式URL（https://www.city.minokamo.gifu.jp/main/shisetsu/hakubutsukan.html）は404のため、実際の公式サイト（forest.minokamo.gifu.jp）に差し替え。Wikidata名「加茂農耕文化博物館」はみのかも文化の森（美濃加茂市民ミュージアム）に対応する可能性が高い。",
+  "confidence": "high"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "Q3329607",
+  "checked_at": "2026-09-29T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.artm.pref.hyogo.jp/",
+  "address": "〒651-0073 兵庫県神戸市中央区脇浜海岸通1-1-1（HAT神戸内）",
+  "source_urls": [
+    "https://www.artm.pref.hyogo.jp/",
+    "https://www.artm.pref.hyogo.jp/exhibition/",
+    "https://www.artm.pref.hyogo.jp/access/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    },
+    {
+      "days": [
+        "fri",
+        "sat"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "国立美術館 コレクション・ダイアローグ 松方幸次郎×山村德太郎",
+      "start": "2026-10-10",
+      "end": "2026-12-27",
+      "url": "https://www.artm.pref.hyogo.jp/exhibition/",
+      "kind": "special",
+      "summary": "国立美術館のコレクションを通じて、実業家・コレクターの松方幸次郎と山村德太郎の収集活動を対比させて紹介する特別展",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 550,
+  "free_days": [],
+  "free_rules": [
+    {
+      "weekday": "sun",
+      "nth": [
+        2
+      ],
+      "scope": "collection",
+      "reason": "毎月第2日曜日（コレクション展・伊藤文化財団コレクション展）無料"
+    }
+  ],
+  "access": [
+    {
+      "station": "灘",
+      "lines": "JR神戸線",
+      "exit": null,
+      "walk_min": 8,
+      "note": "JR灘駅から徒歩約8分。または阪神電鉄「岩屋（兵庫県立美術館前）」駅下車徒歩約8分。HAT神戸内"
+    }
+  ],
+  "highlights": "建築家・安藤忠雄設計の本格的な美術館。HAT神戸の海岸沿いに立ち、国内外の近現代美術コレクションを所蔵。安藤忠雄ギャラリー（無料）も常設展示。毎月第2日曜は無料開放日。",
+  "closed_between_exhibitions": false,
+  "notes": "コレクション展一般550円。特別展は展覧会ごとに料金が異なる。特別展開催中の金・土は20:00まで開館（最終入館19:30）。安藤忠雄ギャラリーおよびエントランスロビーは無料。毎月第2日曜はコレクション展・伊藤文化財団コレクション展が無料（特別展を除く）。 特別展開催中の金・土は20:00まで開館（最終入館19:30）。regular_hours は通常時（10-18）とFri/Sat延長（10-20）の2パターンで記録したが、additionalPropertiesエラーのため note を削除し代わりに notes に記載。",
+  "confidence": "medium"
+}

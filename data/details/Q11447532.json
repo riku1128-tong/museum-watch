@@ -1,0 +1,58 @@
+{
+  "id": "Q11447532",
+  "checked_at": "2026-09-29T09:25:00+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "空調設備大規模改修工事のため2026年4月から2027年12月末（予定）まで長期休館。閉館中も庭園（美術館前）を開放（開放時間9:00〜17:00、月曜・年末年始は閉鎖）",
+  "official_url": "https://www.city.himeji.lg.jp/art/",
+  "address": "〒670-0012 兵庫県姫路市本町68-25",
+  "source_urls": [
+    "https://www.city.himeji.lg.jp/art/",
+    "https://www.city.himeji.lg.jp/art/english/index.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-04-01",
+      "to": "2027-12-31",
+      "reason": "空調設備大規模改修工事のため長期休館（予定）"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 210,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "姫路",
+      "lines": "JR各線・山陽電鉄",
+      "exit": null,
+      "walk_min": 20,
+      "note": "JR・山陽電鉄姫路駅から徒歩約20分。または神姫バス（7・8番のりば発）「姫路城南/医療センター/美術館前」下車すぐ（約8分）"
+    }
+  ],
+  "highlights": "姫路城三の丸跡に立つ赤レンガの明治建築（旧陸軍第10師団司令部庁舎）を活用した市立美術館。ロダンの彫刻やモネ・コローなどの西洋絵画コレクションに加え、地元ゆかりの近代日本画も収蔵。",
+  "closed_between_exhibitions": false,
+  "notes": "2026年4月から2027年12月末まで空調設備大規模改修工事のため長期休館中（英語公式ページで確認）。再開館後の開館時間・料金は通常運営時の情報（一般210円、10:00-17:00）を記録。庭園（美術館前）は閉館中も平日・土日祝9:00-17:00開放（月曜・年末年始は閉鎖）。",
+  "confidence": "high"
+}

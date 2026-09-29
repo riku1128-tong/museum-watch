@@ -1,0 +1,81 @@
+{
+  "id": "Q11595539",
+  "checked_at": "2026-09-29T23:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.kawagoe.saitama.jp/museum/index.html",
+  "address": "埼玉県川越市郭町2丁目30番地1",
+  "source_urls": [
+    "https://www.city.kawagoe.saitama.jp/museum/index.html",
+    "https://www.city.kawagoe.saitama.jp/museum/1013701/1013703.html",
+    "https://www.city.kawagoe.saitama.jp/museum/1013715/1021477.html",
+    "https://www.city.kawagoe.saitama.jp/museum/1013701/1013705.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [
+    {"weekday": "fri", "nth": [4]}
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-06-22", "to": "2026-07-01", "reason": "館内消毒期間"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第53回企画展「旅ゆけば―旅する川越人―」",
+      "start": "2026-07-25",
+      "end": "2026-10-04",
+      "url": "https://www.city.kawagoe.saitama.jp/museum/1013715/1021477.html",
+      "kind": "special",
+      "summary": "江戸時代の川越と旅の文化史を紹介。大名から庶民まで多様な旅の形態を展示",
+      "recommend": "公用移動・信仰・観光と目的はさまざまだが、江戸時代の川越人が旅した姿を一次資料で描く展示。城下町川越と旅文化の結びつきを多角的な視点で楽しめる。",
+      "admission": "一般 200円（団体160円）",
+      "adult_price": 200,
+      "closed_weekdays": ["mon"],
+      "closed_dates": ["2026-08-28", "2026-09-24", "2026-09-25"]
+    },
+    {
+      "title": "令和8年度埼玉県名刀展「安土桃山時代の刀剣」",
+      "start": "2026-10-24",
+      "end": "2026-11-08",
+      "url": "https://www.city.kawagoe.saitama.jp/museum/index.html",
+      "kind": "special",
+      "summary": "安土桃山時代の刀剣を特集した埼玉県名刀展",
+      "recommend": null,
+      "admission": "一般 200円",
+      "adult_price": 200
+    }
+  ],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "川越",
+      "lines": "JR埼京線（川越線）・東武東上線",
+      "exit": null,
+      "walk_min": null,
+      "note": "東武バス（蔵のまち経由）「札ノ辻」下車 徒歩10分。小江戸巡回バス「博物館・美術館前」下車 徒歩1分"
+    },
+    {
+      "station": "本川越",
+      "lines": "西武新宿線",
+      "exit": null,
+      "walk_min": null,
+      "note": "小江戸巡回バス「博物館・美術館前」下車 徒歩1分"
+    }
+  ],
+  "highlights": "川越城本丸御殿に隣接する市立博物館。江戸時代の城下町「小江戸川越」の歴史と文化を豊富な資料で紹介する常設展示を中心に、地域の歴史に迫る企画展を年数回開催。川越の蔵造りの町並みの一角に位置し、観光と学びを兼ねた立地が魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "第4金曜休館（祝日の場合は開館、振替なし）。企画展「旅ゆけば」は9/21（月・祝）開館あり（展覧会固有の臨時開館）。",
+  "confidence": "high"
+}

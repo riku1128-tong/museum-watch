@@ -1,0 +1,66 @@
+{
+  "id": "Q11404779",
+  "checked_at": "2026-09-29T23:08:10+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "official_url": "https://www.city.kurashiki.okayama.jp/musnat/index.html",
+  "address": "〒710-0046 岡山県倉敷市中央2丁目6番1号",
+  "source_urls": [
+    "https://www.city.kurashiki.okayama.jp/musnat/index.html",
+    "https://www.city.kurashiki.okayama.jp/musnat/exhibition-info/1026948.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:15",
+      "last_entry": "16:45"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "令和8年度倉敷市児童生徒自然史標本作品展",
+      "start": "2026-09-26",
+      "end": "2026-10-11",
+      "kind": "special",
+      "url": "https://www.city.kurashiki.okayama.jp/musnat/exhibition-info/1026948.html",
+      "summary": "倉敷市内の小中学生が制作した昆虫・植物などの自然史標本作品を一堂に展示",
+      "recommend": "地元の小中学生が丁寧に仕上げた昆虫・植物標本が並ぶ毎年恒例の展示。子どもたちの自由研究の成果を通じて、身近な自然の多様性に触れられる。最終日（10/11）は11時まで。",
+      "admission": "一般 150円",
+      "adult_price": 150
+    },
+    {
+      "title": "常設展示（自然史資料）",
+      "start": "2020-01-01",
+      "end": "2027-09-29",
+      "kind": "collection",
+      "summary": "通年。岡山の動植物・地質・化石・ミニ水族館を展示",
+      "admission": "一般 150円",
+      "adult_price": 150
+    }
+  ],
+  "adult_price": 150,
+  "free_days": [
+    {
+      "from": "2026-10-31",
+      "to": "2026-11-01",
+      "scope": "all",
+      "reason": "第26回自然史博物館まつり",
+      "source_url": "https://www.city.kurashiki.okayama.jp/musnat/event/1008993/1027254.html"
+    }
+  ],
+  "free_rules": [],
+  "access": [],
+  "highlights": "倉敷美観地区近くに立つ自然史博物館。岡山の動植物・地質・化石資料を豊富に展示し、ミニ水族館も併設。毎年秋の「自然史博物館まつり」は入場無料で親子連れに人気。",
+  "confidence": "high"
+}

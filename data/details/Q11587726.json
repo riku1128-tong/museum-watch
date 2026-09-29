@@ -1,7 +1,7 @@
 {
   "id": "Q11587726",
-  "checked_at": "2026-09-28T23:55:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-29T23:14:25+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://rokuzan.jp/",
@@ -21,12 +21,13 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "特別企画展　高村光太郎・智恵子展",
+      "title": "特別企画展　髙村光太郎没後70年　智恵子生誕140年記念　高村光太郎・智恵子展",
       "start": "2026-09-19",
       "end": "2026-11-23",
       "url": "http://rokuzan.jp/",
       "kind": "special",
-      "summary": "高村光太郎と智恵子をテーマにした特別企画展",
+      "summary": "髙村光太郎没後70年・智恵子生誕140年を記念。未発表の木彫《沙魚（はぜ）》・智恵子の未発表紙絵も展示",
+      "recommend": "碌山と同時代に生きた高村光太郎と妻・智恵子の世界を、没後70年・生誕140年の節目に振り返る記念展。光太郎の未発表木彫《沙魚》と智恵子の未発表紙絵を含む貴重な作品が一堂に集まる。",
       "admission": "一般 1,000円"
     },
     {

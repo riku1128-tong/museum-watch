@@ -1,0 +1,28 @@
+{
+  "id": "Q11595525",
+  "checked_at": "2026-09-29T23:01:20+09:00",
+  "check_mode": "full",
+  "operating_status": "unknown",
+  "status_note": "公式URL（仙北市ウェブサイト）が404で、仙北市の観光施設一覧にも名称が見当たらない。施設の存在・開館状況を確認できなかった。",
+  "official_url": null,
+  "address": null,
+  "source_urls": [
+    "https://www.city.semboku.akita.jp/sightseeing/spot/04.html",
+    "https://www.city.semboku.akita.jp/sightseeing/miraikan/shisetsu.html"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "提供されたURL（https://www.city.semboku.akita.jp/sightseeing/spot/04_tazawa.html）は404。仙北市公式サイトおよび観光情報に施設名の記載なし。閉館・移転の可能性あり。再確認要。",
+  "confidence": "low"
+}

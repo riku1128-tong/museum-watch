@@ -1,0 +1,64 @@
+{
+  "id": "Q11621785",
+  "checked_at": "2026-09-29T23:24:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://1027.jp/",
+  "address": "〒391-0321 長野県北佐久郡立科町芦田八ヶ野1522 白樺湖畔",
+  "source_urls": [
+    "https://1027.jp/",
+    "https://1027.jp/facility/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "to": "2026-11-23"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "from": "2026-11-24"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-07", "to": "2026-12-17", "reason": "施設及び展示品管理のための休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "蓼科の森動物園～テディベアとその仲間たち～",
+      "start": "2026-09-29",
+      "end": "2027-09-29",
+      "url": "https://1027.jp/",
+      "kind": "collection",
+      "summary": "通年。世界各地から集めた約11,000体のテディベアや動物ぬいぐるみを館内に展示",
+      "recommend": null,
+      "admission": "大人 1,400円",
+      "adult_price": 1400
+    }
+  ],
+  "adult_price": 1400,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "茅野",
+      "lines": "JR中央本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "アルピコ交通バス白樺湖・車山高原線で約50分「西白樺湖」下車、徒歩2分"
+    }
+  ],
+  "highlights": "長野県の白樺湖畔に立つ世界最大規模のテディベア美術館。英国アンティークから国内外の現代作家による作品まで約11,000体を展示し、テーマ別に構成された展示空間を楽しめる。ビーナスライン沿いの高原に位置し、周辺の自然の中での散策とあわせて訪れやすい。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（1027.jp）のアクセスページで施設情報を確認。冬季（11/24〜）は開館時間が9:30〜16:30（最終受付16:00）に変更される。12/7〜17は施設・展示品管理のため休館。入館料は大人1,400円（中学生以上）、小人800円（小学生）、幼児500円（3才以上）、3才未満無料。",
+  "confidence": "high"
+}

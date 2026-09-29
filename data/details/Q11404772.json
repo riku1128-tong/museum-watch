@@ -1,0 +1,49 @@
+{
+  "id": "Q11404772",
+  "checked_at": "2026-09-29T23:06:09+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.akaiwa.lg.jp/akaiwa_rekishi/sanyo/index.html",
+  "address": "〒709-0816 岡山県赤磐市下市337",
+  "source_urls": [
+    "https://www.city.akaiwa.lg.jp/akaiwa_rekishi/sanyo/1775.html",
+    "https://www.city.akaiwa.lg.jp/annai/kyouikuiinkai/syakai/kosodate/bunnka/bunka/1198.html",
+    "https://www.museum.or.jp/museum/6190"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "岡山",
+      "lines": "JR山陽本線・各線",
+      "exit": null,
+      "walk_min": null,
+      "note": "JR岡山駅から宇野バスネオポリス線で約30分、新道赤磐市役所前下車 徒歩5分。山陽自動車道山陽ICから車で約8分"
+    }
+  ],
+  "highlights": "赤磐市（旧山陽町）の歴史と文化を伝える無料の郷土資料館。古墳時代の遺物や農耕具など地域の考古・民俗資料を展示。吉備高原に広がる遺跡から出土した資料も豊富で、地域史の入門に最適。",
+  "closed_between_exhibitions": false,
+  "notes": null,
+  "confidence": "medium"
+}

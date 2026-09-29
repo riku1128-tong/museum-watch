@@ -1,6 +1,6 @@
 {
   "id": "Q11530056",
-  "checked_at": "2026-09-28T23:28:05+09:00",
+  "checked_at": "2026-09-29T23:27:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,6 +13,8 @@
     "https://www.matsuoka-museum.jp/exhibition/",
     "https://www.matsuoka-museum.jp/contents/10416/",
     "https://www.matsuoka-museum.jp/contents/10604/",
+    "https://www.matsuoka-museum.jp/contents/10631/",
+    "https://www.matsuoka-museum.jp/contents/10633/",
     "https://www.matsuoka-museum.jp/access/"
   ],
   "regular_hours": [
@@ -57,7 +59,7 @@
       "title": "粧い眠る 秋と冬の日本画名品選",
       "start": "2026-10-27",
       "end": "2027-02-07",
-      "url": "https://www.matsuoka-museum.jp/exhibition/",
+      "url": "https://www.matsuoka-museum.jp/contents/10631/",
       "kind": "collection",
       "summary": "秋と冬を主題とする所蔵日本画の名品選",
       "admission": "一般 1,400円"
@@ -66,7 +68,7 @@
       "title": "百花精彩 明から清までの中国陶磁",
       "start": "2026-10-27",
       "end": "2027-02-07",
-      "url": "https://www.matsuoka-museum.jp/exhibition/",
+      "url": "https://www.matsuoka-museum.jp/contents/10633/",
       "kind": "collection",
       "summary": "明から清までの中国陶磁を館蔵品で紹介",
       "admission": "一般 1,400円"
@@ -79,6 +81,6 @@
     {"station": "目黒", "lines": "JR山手線ほか", "exit": "東口", "walk_min": 15,
      "note": "目黒駅東口バスターミナル2番のりばから黒77・橋86系統バスで「東大医科研病院西門」下車徒歩1分"}
   ],
-  "notes": "月曜休館（祝日の場合は翌平日）。展示替え期間・年末年始は休館（開館カレンダーに日付あり）。入館料は館共通（一般1,400円）。常設展示もあるが会期の記載は未確認のため展示一覧には入れていない。",
+  "notes": "月曜休館（祝日の場合は翌平日）。展示替え期間・年末年始は休館（開館カレンダーに日付あり）。入館料は館共通（一般1,400円）。常設展示もあるが会期の記載は未確認のため展示一覧には入れていない。展覧会ページより次期展示（10/27〜）のURLを更新（10631/・10633/）。",
   "confidence": "high"
 }

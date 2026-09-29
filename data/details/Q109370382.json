@@ -1,0 +1,43 @@
+{
+  "id": "Q109370382",
+  "checked_at": "2026-09-29T23:23:30+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.sbs-bunkafukushi.com/museum/",
+  "address": "〒422-8076 静岡県静岡市駿河区登呂3-1-1",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/4437",
+    "https://www.aobasymbolroad.com/kenta-nakajima-manazashi-to-jikan-shizuoka-2026/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "静岡",
+      "lines": "JR東海道本線",
+      "exit": "南口",
+      "walk_min": 30,
+      "note": "JR静岡駅南口よりしずてつバス21番「駿河区役所・静岡新聞社前」下車徒歩3分（バスで約10分）"
+    }
+  ],
+  "highlights": "静岡新聞社・静岡放送（SBS）グループが運営する美術館。伊藤深水・橋本雅邦・下村観山らの日本画、徳川家康・徳川秀忠・伊藤博文・犬養毅の書跡などを収蔵。常設展はなく、年4〜5回多彩なジャンルの企画展を開催するため、登呂遺跡公園そばの静かな環境で訪問のたびに新しい展示を楽しめる。",
+  "closed_between_exhibitions": true,
+  "notes": "常設展なし。会期中の月曜休館（祝日の場合は開館し翌日休館）。公式サイト（sbs-bunkafukushi.com/museum/）はコンテンツ不達。直近展覧会「中島健太展〜眼差しと時間〜」は9/23終了。9/29現在、次回展覧会の開幕前の展示替え期間とみられるが、正確な開閉幕日は未確認。special_closures の展示替え期間（9/24〜10/9）は推測のため参考値。",
+  "confidence": "low"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "wp-e2e58fdb",
+  "checked_at": "2026-09-29T23:14:25+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.niigata.lg.jp/nam/",
+  "address": "〒956-0846 新潟市秋葉区蒲ヶ沢109番地1（花と遺跡のふるさと公園内）",
+  "source_urls": [
+    "https://www.city.niigata.lg.jp/nam/",
+    "https://www.city.niigata.lg.jp/nam/guidance/index.html",
+    "https://www.city.niigata.lg.jp/nam/kotsuannai/index.html",
+    "https://www.city.niigata.lg.jp/nam/exhibitions/fy2026exh/index.html",
+    "https://www.city.niigata.lg.jp/nam/exhibitions/fy2026exh/2026miniature.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "田中達也展　みたてのくみたて",
+      "start": "2026-09-18",
+      "end": "2026-11-08",
+      "url": "https://www.city.niigata.lg.jp/nam/exhibitions/fy2026exh/2026miniature.html",
+      "kind": "special",
+      "summary": "ミニチュア写真家・田中達也の「みたて」の発想過程を写真と立体あわせて約160点で紹介",
+      "recommend": "日常の小物をミニチュア人形と組み合わせた「みたて」作品で知られる田中達也の個展。アイデアの発想から完成まで約160点を通して追える構成で、全作品撮影可能。子どもから大人まで楽しめる。",
+      "admission": "一般 1,600円（当日）、1,400円（前売）",
+      "adult_price": 1600
+    },
+    {
+      "title": "第20回秋葉区美術展覧会",
+      "start": "2026-11-28",
+      "end": "2026-12-06",
+      "url": null,
+      "kind": "other",
+      "summary": "秋葉区の美術愛好家による公募展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第22回新潟教育アート展",
+      "start": "2027-01-04",
+      "end": "2027-01-09",
+      "url": null,
+      "kind": "other",
+      "summary": "新潟の教育現場の美術作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "新津美術館の「舞台裏」",
+      "start": "2027-01-23",
+      "end": "2027-03-07",
+      "url": null,
+      "kind": "other",
+      "summary": "美術館の収蔵・展示の裏側を紹介する企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "closed_between_exhibitions": true,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "新津", "lines": "JR信越本線・羽越本線", "walk_min": null, "note": "秋葉区バスで約25分「美術館・植物園前」下車"},
+    {"station": "矢代田", "lines": "JR信越本線", "walk_min": null, "note": "秋葉区バスで約10分「美術館・植物園前」下車、またはタクシー約5分"}
+  ],
+  "highlights": "新潟市郊外・花と遺跡のふるさと公園内に立つ郊外型美術館。無料駐車場250台完備でゆったりと鑑賞できる環境が魅力。写真・映像・現代アートなど幅広いジャンルの企画展を年数回開催し、田中達也など人気作家の個展も積極的に誘致している。",
+  "notes": "タスクに含まれていた公式URLは西区のページ（https://www.city.niigata.lg.jp/nishi/shisetsu/art/niibi.html）で404だったため、公式サイト（https://www.city.niigata.lg.jp/nam/）に更新。正式名称は「新潟市新津美術館」。展覧会準備期間中は休館。",
+  "confidence": "high"
+}

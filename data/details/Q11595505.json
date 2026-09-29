@@ -1,0 +1,57 @@
+{
+  "id": "Q11595505",
+  "checked_at": "2026-09-29T23:06:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kosaka-mco.com/",
+  "address": "〒017-0202 秋田県鹿角郡小坂町小坂鉱山字古館48-2",
+  "source_urls": [
+    "https://kosaka-mco.com/pages/46/",
+    "https://kosaka-mco.com/pages/92/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "from": "2026-04-01",
+      "to": "2026-10-31"
+    },
+    {
+      "days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:00",
+      "last_entry": "15:30",
+      "from": "2026-11-01",
+      "to": "2027-03-31"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-27",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 380,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "十和田南",
+      "lines": "JR花輪線",
+      "walk_min": null,
+      "note": "小坂町中心部からタクシー約5分。無料駐車場あり。"
+    }
+  ],
+  "highlights": "1905年（明治38年）竣工の木造3階建て国重要文化財。ルネッサンス様式の外観に秋田杉のらせん階段、イスラム風バルコニーを備える。明治期の小坂鉱山（銅山）の繁栄を今に伝え、明治・大正時代のモダン衣裳のレンタル体験も人気。",
+  "closed_between_exhibitions": false,
+  "notes": "12月〜3月は毎週火曜日が定休日（年末年始 12/27〜1/4 を除く）。4月〜11月は無休。スキーマが季節ごとの定休日に対応していないため、冬季火曜定休はnotesに記載。",
+  "confidence": "high"
+}

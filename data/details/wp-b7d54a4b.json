@@ -1,0 +1,61 @@
+{
+  "id": "wp-b7d54a4b",
+  "checked_at": "2026-09-29T23:20:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://ishigami-iwate.jp/",
+  "address": "〒028-4307 岩手県岩手郡岩手町大字五日市10-121-21",
+  "source_urls": [
+    "https://ishigami-iwate.jp/",
+    "https://ishigami-iwate.jp/aboutus/access/",
+    "https://ishigami-iwate.jp/7196",
+    "https://ishigami-iwate.jp/7226"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "菅沼 綠 新作展 SUGANUMA Roku 芸術とはナンだというトンチンカンな話",
+      "start": "2026-09-12",
+      "end": "2026-11-08",
+      "url": "https://ishigami-iwate.jp/7196",
+      "kind": "special",
+      "summary": "色鮮やかで巨大な「カタチ」が展示室を埋め尽くす新作展。企画ギャラリーのほか館前の野外にも展示",
+      "recommend": "岩手ゆかりの作家・菅沼綠が、独自の造形言語で展示室と屋外空間をダイナミックに埋め尽くす新作展。鑑賞者を圧倒する大型作品と岩手の自然が一体化した、ここならではの体験が得られます。",
+      "admission": "野外展示エリア共通観覧券 一般700円、企画ギャラリーのみ 一般300円",
+      "adult_price": 700
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "文化の日",
+      "source_url": "https://ishigami-iwate.jp/7226"
+    }
+  ],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "いわて沼宮内",
+      "lines": "東北新幹線・いわて銀河鉄道",
+      "exit": "西口",
+      "walk_min": 10,
+      "note": null
+    }
+  ],
+  "highlights": "岩手町の国道4号沿い・道の駅石神の丘の隣にある美術館。屋外の彫刻と四季の草花を楽しめる「花とアートの森」と企画ギャラリーの2エリアで構成され、岩手ゆかりの作家を中心とした企画展を年数回開催。高校生以下は常時無料で入場できる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトの URL は ishigami-iwate.jp（museums.json の isigami.iwate.jp は DNS エラー）。通常入館料（花とアートの森観覧券）は季節により変動：4〜10月 一般500円、11〜3月 一般300円（adult_price には現行の500円を設定）。企画展示時は別料金（ギャラリーのみ300円 or 野外展示共通700円）。",
+  "confidence": "high"
+}

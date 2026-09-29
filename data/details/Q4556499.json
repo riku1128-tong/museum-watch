@@ -1,7 +1,7 @@
 {
   "id": "Q4556499",
-  "checked_at": "2026-09-28T23:45:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-29T23:22:10+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://benesse-artsite.jp/art/chichu.html",
@@ -21,8 +21,8 @@
   "exhibitions": [
     {
       "title": "地中美術館コレクション（クロード・モネ、ジェームズ・タレル、ウォルター・デ・マリア）",
-      "start": "2026-09-28",
-      "end": "2027-09-28",
+      "start": "2026-09-29",
+      "end": "2027-09-29",
       "url": "https://benesse-artsite.jp/art/chichu.html",
       "kind": "collection",
       "summary": "モネの睡蓮連作、タレルの光の空間作品、デ・マリアの球体と幾何学形体を安藤忠雄設計の建物に恒久展示。通年",

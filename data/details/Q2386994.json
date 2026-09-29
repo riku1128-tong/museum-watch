@@ -1,0 +1,61 @@
+{
+  "id": "Q2386994",
+  "checked_at": "2026-09-29T23:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://yumeji-art-museum.com/",
+  "address": "岡山県岡山市中区浜2丁目1-32",
+  "source_urls": [
+    "https://yumeji-art-museum.com/",
+    "https://yumeji-art-museum.com/access/",
+    "https://yumeji-art-museum.com/honkan/honkan_60th_fall/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "夢二郷土美術館創立60周年 特別展「夢二とドイツ」",
+      "start": "2026-09-04",
+      "end": "2026-12-06",
+      "url": "https://yumeji-art-museum.com/honkan/honkan_60th_fall/",
+      "kind": "special",
+      "summary": "ドイツ・ベルリン滞在中に描いた秘蔵の美人画《南枝早春》を60周年に初公開する特別展",
+      "recommend": "夢二がベルリンのイッテン・シューレで日本画を教えた1933年の記録と、秘蔵されていた美人画《南枝早春》が創立60周年を機に初公開。夢二の「異国への憧れ」という生涯のテーマが凝縮された見応えある展覧会。",
+      "admission": "大人 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "岡山",
+      "lines": "JR各線",
+      "exit": null,
+      "walk_min": null,
+      "note": "路面電車（東山行）で城下下車徒歩15分、または岡電バス（藤原団地・後楽園行）で蓬莱橋バス停下車すぐ"
+    }
+  ],
+  "highlights": "大正ロマンの詩人画家・竹久夢二の世界を伝える専門美術館。夢二のポスター・デザイン・水彩画など膨大なコレクションを有し、旭川沿いの緑豊かな環境に建つ。2026年は創立60周年の節目で、ドイツ滞在時の秘蔵作品も初公開された。",
+  "closed_between_exhibitions": false,
+  "notes": "范曽美術館（岡山市東区）は原則2月第3金・土・日曜日のみ開館（10:00-16:00）。夢二生家記念館・少年山荘（瀬戸内市邑久町）も同法人が運営。",
+  "confidence": "high"
+}

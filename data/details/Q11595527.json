@@ -1,0 +1,23 @@
+{
+  "id": "Q11595527",
+  "checked_at": "2026-09-29T23:10:49+09:00",
+  "check_mode": "full",
+  "operating_status": "unknown",
+  "status_note": "公式URL（city.kitaakita.akita.jp/shisetsu/bunka_sports/min-zoku-shiry-okan.html）が404。ウェブ検索でも詳細情報が見つからない。",
+  "official_url": null,
+  "address": null,
+  "source_urls": [],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "notes": "公式ページ（北秋田市ウェブサイト）が404。北秋田市観光ページにも掲載なし。開館状況の確認が必要。",
+  "confidence": "low"
+}

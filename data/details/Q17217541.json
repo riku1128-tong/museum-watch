@@ -1,7 +1,7 @@
 {
   "id": "Q17217541",
-  "checked_at": "2026-09-28T23:27:38+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-29T23:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://benesse-artsite.jp/art/teshima-yokoohouse.html",
@@ -13,7 +13,8 @@
   ],
   "regular_hours": [
     {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30", "from": "2026-03-01", "to": "2026-09-30"},
-    {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "last_entry": "15:30", "from": "2026-10-01", "to": "2027-02-28"}
+    {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "last_entry": "15:30", "from": "2026-10-01", "to": "2027-02-28"},
+    {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30", "from": "2027-03-01", "to": "2027-09-30"}
   ],
   "closed_weekdays": ["tue"],
   "holiday_rule": "open_next_weekday_closed",
@@ -23,7 +24,7 @@
     {
       "title": "豊島横尾館（常設展示）",
       "start": "2013-07-26",
-      "end": "2027-09-28",
+      "end": "2027-09-29",
       "url": "https://benesse-artsite.jp/art/teshima-yokoohouse.html",
       "kind": "collection",
       "summary": "通年。横尾忠則が「生と死」をテーマに手がけた常設インスタレーション。古民家（母屋・倉・納屋）と庭・塔からなる",

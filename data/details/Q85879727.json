@@ -1,0 +1,23 @@
+{
+  "id": "Q85879727",
+  "checked_at": "2026-09-29T23:01:13+09:00",
+  "check_mode": "full",
+  "operating_status": "unknown",
+  "status_note": null,
+  "official_url": "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/4/",
+  "address": "〒384-0041 長野県小諸市大字菱平2805番地1",
+  "source_urls": [
+    "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/4/"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "access": [],
+  "closed_between_exhibitions": false,
+  "notes": "小諸市公式サイトがリニューアルされ、旧URLは404エラー。新サイト内でのsubpageも404となりほぼ全情報が未取得。電話: 0267-26-2070。美術家・白鳥映雪の作品を所蔵する市立美術館。次回の巡回で公式ページの正しいURLを特定し再確認が必要。",
+  "confidence": "low"
+}

@@ -1,7 +1,7 @@
 {
   "id": "Q60985422",
-  "checked_at": "2026-09-28T23:35:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-29T23:22:10+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.higashimatsuyama.lg.jp/soshiki/51/3415.html",
@@ -20,8 +20,8 @@
   "exhibitions": [
     {
       "title": "高坂彫刻プロムナード～高田博厚彫刻群～",
-      "start": "2026-09-28",
-      "end": "2027-09-28",
+      "start": "2026-09-29",
+      "end": "2027-09-29",
       "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/51/3415.html",
       "kind": "collection",
       "summary": "通年。彫刻家・高田博厚の作品32体を常設で屋外展示する野外彫刻ギャラリー"

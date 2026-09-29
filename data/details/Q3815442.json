@@ -1,6 +1,6 @@
 {
   "id": "Q3815442",
-  "checked_at": "2026-09-28T23:28:04+09:00",
+  "checked_at": "2026-09-29T23:01:13+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -23,7 +23,7 @@
     {"from": "2026-09-28", "to": "2026-10-05", "reason": "展示替え休館"},
     {"from": "2026-11-04", "to": "2026-11-06", "reason": "展示替え休館（前期・後期の入れ替え）"},
     {"from": "2026-12-07", "to": "2026-12-11", "reason": "展示替え休館"},
-    {"from": "2026-12-24", "to": "2026-12-31", "reason": "年末年始休館"}
+    {"from": "2026-12-24", "to": "2027-01-05", "reason": "年末年始休館"}
   ],
   "special_openings": [],
   "exhibitions": [
@@ -44,8 +44,10 @@
       "end": "2027-01-17",
       "url": "https://www.ukiyoe-ota-muse.jp/exhibition/schedule",
       "kind": "special",
-      "summary": null,
-      "admission": null
+      "summary": "水野廬朝・五郷・歌川国虎・蒔田俊親など、現在あまり知られていない浮世絵師たちにスポットをあてる展覧会",
+      "recommend": "北斎・広重・歌麿以外の埋もれた絵師たちを発掘。時代とともに忘れられた作者の個性と技量を再発見できる、浮世絵の裾野の広さを実感させる展覧会",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
     }
   ],
   "adult_price": null,

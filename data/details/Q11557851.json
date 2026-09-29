@@ -1,0 +1,45 @@
+{
+  "id": "Q11557851",
+  "checked_at": "2026-09-29T23:22:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.hamamatsu.shizuoka.jp/artmuse/",
+  "address": "〒430-0947 浜松市中央区松城町100-1",
+  "source_urls": [
+    "https://www.city.hamamatsu.shizuoka.jp/artmuse/",
+    "https://www.city.hamamatsu.shizuoka.jp/artmuse/karennda-2026.html",
+    "https://www.city.hamamatsu.shizuoka.jp/artmuse/akusesu2026.html",
+    "https://www.city.hamamatsu.shizuoka.jp/artmuse/20260711.html"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "みほとけのキセキⅢ―三・遠・駿　神仏オールスター☆―",
+      "start": "2026-10-10",
+      "end": "2026-12-06",
+      "url": "https://www.city.hamamatsu.shizuoka.jp/artmuse/20260711.html",
+      "kind": "special",
+      "summary": "遠州・東三河・駿河地域の重要な仏像・神像30体を一堂に展示するシリーズ第3弾",
+      "recommend": "延べ約37,000人を動員した人気シリーズの第3弾。今回は初めて駿河地域を加え、三地域の仏教文化圏を比較。最新調査による新出作例も含む30体の仏像・神像を通じて、東海地方の多彩な神仏の世界を体感できる。",
+      "admission": "一般 1,800円",
+      "adult_price": 1800
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "浜松", "lines": "JR東海道本線・東海道新幹線ほか", "exit": "北口", "walk_min": null, "note": "浜松駅北口（遠鉄バス）バスターミナル1番乗り場から約8分「美術館」下車"}
+  ],
+  "highlights": "浜松城公園に隣接する浜松市の美術館。浜松・遠州地方ゆかりの近現代美術を中心に収蔵し、絵画・版画・彫刻・工芸など多彩なジャンルを網羅。毎週水曜日・日曜日は作品についての会話が弾む「トークフリーデー」を設けている。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日の場合は開館し翌日休館）。年末年始・展示替え期間も休館。現在（9/29）は8/30終了の現代アート展と10/10開始のみほとけ展の間で展示替え休館中。常設展はなく企画展ごとの料金（adult_price: null）。バスでのアクセスが主な行き方（最寄り停留所「美術館」）。",
+  "confidence": "high"
+}

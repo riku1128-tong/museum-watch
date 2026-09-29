@@ -1,0 +1,49 @@
+{
+  "id": "Q11399544",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kpac.or.jp/",
+  "address": "〒509-0203 岐阜県可児市下恵土3433-139",
+  "source_urls": [
+    "https://kpac.or.jp/",
+    "https://kpac.or.jp/use/services/",
+    "https://kpac.or.jp/access/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "22:30"
+    }
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "日本ライン今渡",
+      "lines": "名鉄広見線",
+      "exit": null,
+      "walk_min": 10,
+      "note": "タクシーなら5分"
+    },
+    {
+      "station": "可児",
+      "lines": "JR太多線",
+      "exit": null,
+      "walk_min": 30,
+      "note": "タクシーなら10分。可児市コミュニティバス「さつきバス」も利用可"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "舞台芸術を中心とした公共文化施設（劇場）。常設展示はなく、主にコンサート・演劇・ダンスなどの公演を実施。無料駐車場437台あり。",
+  "confidence": "medium"
+}

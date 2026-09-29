@@ -1,0 +1,65 @@
+{
+  "id": "Q3884828",
+  "checked_at": "2026-09-29T23:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.fashionmuseum.jp/",
+  "address": "〒658-0032 神戸市東灘区向洋町中2-9-1",
+  "source_urls": [
+    "https://www.fashionmuseum.jp/info/info.html",
+    "https://www.fashionmuseum.jp/info/access.html",
+    "https://www.fashionmuseum.jp/special/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "水木しげる 魂の漫画展",
+      "start": "2026-09-12",
+      "end": "2026-11-29",
+      "url": "https://www.fashionmuseum.jp/special/",
+      "kind": "special",
+      "summary": "漫画家・水木しげるの画業と精神世界をたどる回顧展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [],
+      "closed_weekdays": [],
+      "closed_dates": ["2026-09-24", "2026-10-13", "2026-11-24"]
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "アイランドセンター",
+      "lines": "六甲ライナー",
+      "exit": null,
+      "walk_min": 3,
+      "note": "JR「住吉駅」または阪神「魚崎駅」から六甲ライナーに乗り換え「アイランドセンター駅」下車、南東へ徒歩すぐ"
+    }
+  ],
+  "highlights": "六甲アイランドに立つ国内唯一のファッション専門美術館。西洋の宮廷衣装から近現代のハイファッションまで、服飾の歴史と文化を世界規模のコレクションで紹介する。特別展示とコレクション展示を同時開催し、ファッションを通じて時代と社会を読み解く視点が刺激的。",
+  "closed_between_exhibitions": false,
+  "notes": "展示替え期間中は展示室のみ閉室（館自体は開館）。入館料は展示内容により変動。小・中・高校生無料、大学生は一般の半額。月曜が祝日の場合は開館し翌平日休館。",
+  "confidence": "high"
+}

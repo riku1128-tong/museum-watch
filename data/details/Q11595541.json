@@ -1,0 +1,46 @@
+{
+  "id": "Q11595541",
+  "checked_at": "2026-09-29T23:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.town.yoshimi.saitama.jp/soshiki/shogaigakushuk/4/maizou/2113.html",
+  "address": "埼玉県比企郡吉見町大字北吉見321番地",
+  "source_urls": [
+    "https://www.town.yoshimi.saitama.jp/soshiki/shogaigakushuk/4/maizou/2113.html",
+    "https://www.town.yoshimi.saitama.jp/soshiki/shogaigakushuk/4/maizou/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "08:30",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展示（吉見町の埋蔵文化財）",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": "https://www.town.yoshimi.saitama.jp/soshiki/shogaigakushuk/4/maizou/2113.html",
+      "kind": "collection",
+      "summary": "通年。吉見百穴内にある埋蔵文化財センターで、町内出土の遺物を展示",
+      "recommend": null,
+      "admission": "中学生以上300円（吉見百穴観覧料）",
+      "adult_price": 300
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "国指定史跡「吉見百穴」の遺跡内に設置された埋蔵文化財センター。吉見町内の発掘調査で出土した遺物を展示室に公開しており、古代の横穴墓群（吉見百穴）とあわせて見学できる。入場には吉見百穴の観覧料が必要。",
+  "closed_between_exhibitions": false,
+  "notes": "吉見百穴の観覧料（中学生以上300円、小学生200円、小学生未満無料）で入館可能。休館日・祝日対応は公式ページで確認できなかった。元のURL（museum.html）は404。",
+  "confidence": "medium"
+}

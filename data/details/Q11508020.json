@@ -1,0 +1,83 @@
+{
+  "id": "Q11508020",
+  "checked_at": "2026-09-29T23:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.museum.city.katsushika.lg.jp/",
+  "address": "東京都葛飾区白鳥3-25-1",
+  "source_urls": [
+    "https://www.museum.city.katsushika.lg.jp/information/",
+    "https://www.museum.city.katsushika.lg.jp/information/access/",
+    "https://www.museum.city.katsushika.lg.jp/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu"],
+      "open": "09:00",
+      "close": "17:00"
+    },
+    {
+      "days": ["fri", "sat"],
+      "open": "09:00",
+      "close": "21:00"
+    },
+    {
+      "days": ["sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [
+    {"weekday": "tue", "nth": [2, 4]}
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "葛飾区大花菖蒲展",
+      "start": "2026-07-25",
+      "end": "2026-11-03",
+      "url": "https://www.museum.city.katsushika.lg.jp/",
+      "kind": "special",
+      "summary": "花菖蒲の園芸文化の発展と葛飾・堀切地区の観光花菖蒲園の歴史を辿る特別展（第2期）",
+      "recommend": "江戸期から飛躍的に発展した花菖蒲の栽培技術と、葛飾・堀切が誇る観光花菖蒲園の成立史を豊富な資料で紹介。下町文化と植物愛好の交点が見えてくる展覧会。",
+      "admission": "大人100円",
+      "adult_price": 100,
+      "hours": [],
+      "closed_weekdays": [],
+      "closed_dates": []
+    }
+  ],
+  "adult_price": 100,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "お花茶屋",
+      "lines": "京成本線",
+      "exit": null,
+      "walk_min": 8,
+      "note": null
+    },
+    {
+      "station": "亀有",
+      "lines": "JR常磐線",
+      "exit": null,
+      "walk_min": 25,
+      "note": "京成バス東京（有57系統）で「上千葉小学校」または「共栄学園」下車後徒歩5分も可"
+    }
+  ],
+  "highlights": "葛飾区の郷土史と天文学を融合させたユニークな博物館。1階・2階に郷土展示室、地下1階にプラネタリウムを備え、下町の歴史・民俗資料から宇宙まで幅広く学べる。平日夜9時まで開館（金・土）で社会人も訪れやすい。入館料が大人100円と低廉なのも魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "金・土曜日は祝日を除いて21時まで開館。月曜は祝日なら開館。第2・第4火曜は祝日なら開館し翌平日休館。年末年始は12月28日〜1月4日。",
+  "confidence": "high"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "Q11404775",
+  "checked_at": "2026-09-29T23:01:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://shizutani.jp/",
+  "address": "岡山県備前市閑谷784",
+  "source_urls": [
+    "https://shizutani.jp/",
+    "https://www.museum.or.jp/museum/6192"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon","tue","wed","thu","fri","sat","sun"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2026-12-31",
+      "reason": "年末"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "吉永",
+      "lines": "JR山陽本線",
+      "walk_min": null,
+      "note": "JR吉永駅よりタクシーで約5分。JR赤穂線吉備片山駅よりタクシーで約10分。山陽自動車道備前ICから車で約15分"
+    }
+  ],
+  "highlights": "江戸時代の庶民教育のために岡山藩主・池田光政が創建した特別史跡・旧閑谷学校内の資料館。明治38年建築の洋風木造校舎（国登録有形文化財）で歴史資料を展示。明治〜昭和期の閑谷黌・旧制閑谷中学校の変遷を紹介。紅葉の名所としても知られる。",
+  "closed_between_exhibitions": false,
+  "notes": "特別史跡旧閑谷学校（入場料込み）の施設。Wikipedia記載名は「和気閑谷高校閑谷歴史館」だが、実際には旧閑谷学校敷地内の閑谷学校資料館として運営。65歳以上120円。",
+  "confidence": "medium"
+}

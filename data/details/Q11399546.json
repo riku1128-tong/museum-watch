@@ -1,0 +1,64 @@
+{
+  "id": "Q11399546",
+  "checked_at": "2026-09-29T23:05:41+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.mizunami.lg.jp/kankou_bunka/1004960/kaseki_museum/index.html",
+  "address": "〒509-6132 岐阜県瑞浪市明世町山野内1-47",
+  "source_urls": [
+    "https://www.city.mizunami.lg.jp/kankou_bunka/1004960/kaseki_museum/index.html",
+    "https://www.city.mizunami.lg.jp/kankou_bunka/1004960/kaseki_museum/1002232.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-01",
+      "to": "2026-12-01",
+      "reason": "資料整理のための休館"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    },
+    {
+      "from": "2027-02-02",
+      "to": "2027-02-02",
+      "reason": "資料整理のための休館"
+    },
+    {
+      "from": "2027-03-02",
+      "to": "2027-03-02",
+      "reason": "資料整理のための休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "瑞浪",
+      "lines": "JR中央線",
+      "exit": null,
+      "walk_min": null,
+      "note": "瑞浪駅から徒歩30分またはタクシー5分"
+    }
+  ],
+  "highlights": "新生代中新世（約2,000〜1,550万年前）の地層から産出した化石を専門的に展示する博物館。25万点以上を収蔵し、常設展では約3,000点の貝・魚・哺乳類・植物の化石を公開。地元・瑞浪を化石の宝庫として紹介する。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜が祝日の場合は翌日（火曜）が休館。資料整理日（6/30・9/1・12/1・2/2・3/2頃）は年次で異なる場合がある。瑞浪市地球回廊・瑞浪市陶磁資料館との3館共通入館料500円もあり。",
+  "confidence": "high"
+}

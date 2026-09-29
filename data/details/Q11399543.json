@@ -1,0 +1,58 @@
+{
+  "id": "Q11399543",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://hiroshige-ena.jp/",
+  "address": "〒509-7201 岐阜県恵那市大井町176-1",
+  "source_urls": [
+    "https://hiroshige-ena.jp/",
+    "https://hiroshige-ena.jp/guide/",
+    "https://hiroshige-ena.jp/hiroshige2-where-hiroshige-ism-lives2026/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "秋季特別企画展　生誕200年記念　二代広重―広重イズムの在処（ありか）―",
+      "start": "2026-10-01",
+      "end": "2026-12-06",
+      "url": "https://hiroshige-ena.jp/hiroshige2-where-hiroshige-ism-lives2026/",
+      "kind": "special",
+      "summary": "初代広重没後に名跡を継いだ二代広重・歌川重宣に焦点。小林清親・川瀬巴水ら「広重イズム」の系譜もたどる",
+      "recommend": "「諸国名所百景」と初代広重「六十余州名所図会」の比較展示が見どころ。小林清親・川瀬巴水まで受け継がれた広重の画風の変遷と影響を一気に辿れる回顧展。",
+      "admission": "一般 820円（団体660円、18歳以下・障がい者手帳保持者無料、水曜・金曜は無料観覧）",
+      "adult_price": 820
+    },
+    {
+      "title": "企画展　超定番！浮世絵東海道おすすめスポット",
+      "start": "2026-12-10",
+      "end": "2027-02-23",
+      "url": null,
+      "kind": "special",
+      "summary": "浮世絵に描かれた東海道の名所・見どころを紹介する企画展",
+      "recommend": null,
+      "admission": "一般 520円",
+      "adult_price": 520
+    }
+  ],
+  "adult_price": 520,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": true,
+  "notes": "祝翌日も休館。年末年始休館。企画展・特別企画展のみの運営で常設展なし。毎週水曜・金曜は特別企画展観覧無料（2026-10-01〜12-06 の展覧会のみ確認）。",
+  "confidence": "high"
+}

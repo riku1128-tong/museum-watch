@@ -1,0 +1,53 @@
+{
+  "id": "Q11399550",
+  "checked_at": "2026-09-29T23:06:09+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://hidanosato.com/",
+  "address": "岐阜県高山市上岡本町1-590",
+  "source_urls": [
+    "https://www.kankou-gifu.jp/spot/detail_1232.html",
+    "https://rurubu.jp/andmore/spot/80020728"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "08:30",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "飛騨の合掌造りとくらし（常設展）",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": "https://hidanosato.com/",
+      "kind": "collection",
+      "summary": "通年。合掌造りをはじめ飛騨各地から移築した古民家30棟以上を野外展示。",
+      "recommend": null,
+      "admission": "大人700円、小中学生200円",
+      "adult_price": 700
+    }
+  ],
+  "adult_price": 700,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "高山",
+      "lines": "JR高山本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "JR高山駅から「飛騨の里」行きバスで約10分、飛騨の里バス停すぐ"
+    }
+  ],
+  "highlights": "江戸中期〜明治期の合掌造りをはじめ飛騨各地の古民家30棟以上を移築復元した野外博物館。伝統的な行事の実演や民具の展示も充実し、四季の自然の中で飛騨の暮らしと文化をじっくり体感できる。",
+  "closed_between_exhibitions": false,
+  "notes": null,
+  "confidence": "medium"
+}

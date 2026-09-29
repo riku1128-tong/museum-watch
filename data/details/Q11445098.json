@@ -1,6 +1,6 @@
 {
   "id": "Q11445098",
-  "checked_at": "2026-09-28T23:27:05+09:00",
+  "checked_at": "2026-09-29T23:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,6 +9,7 @@
   "source_urls": [
     "https://ncmoa.art",
     "https://ncmoa.art/events/",
+    "https://ncmoa.art/archives/10006",
     "https://sogozaidan.nara.jp/kanri/ncmoa/",
     "https://sogozaidan.nara.jp/8904/",
     "https://www.mina-ra.com/access/"
@@ -44,7 +45,7 @@
     {"station": "JR奈良", "lines": "JR奈良線・桜井線・和歌山線・関西本線", "walk_min": null, "note": "奈良交通バス約9分「宮跡庭園」下車すぐ"},
     {"station": "近鉄奈良", "lines": "近鉄奈良線", "walk_min": null, "note": "奈良交通バス約15分「宮跡庭園」下車すぐ"}
   ],
-  "highlights": null,
+  "highlights": "奈良市内の複合商業施設「ミ・ナーラ」5階に位置する市立美術館。常設展は持たず、公募展や地域の美術家・市民グループによる展覧会を主に開催。多彩な分野の作品に無料または低料金で触れられる、市民の文化発信の拠点。",
   "closed_between_exhibitions": false,
   "notes": "商業施設「ミ・ナーラ」5階に所在。休館日は月曜（月曜が祝日の場合は翌日休館）に加え、祝日の翌日（土日・祝日と重なる場合を除く）も休館だが、この規則はスキーマの holiday_rule / closed_weekdays では表現しきれない。観覧料は展覧会ごとに異なる（常設展なし）。ミ・ナーラの無料シャトルバスは2026年9月30日で運行終了予定。",
   "confidence": "high"

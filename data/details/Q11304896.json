@@ -1,0 +1,47 @@
+{
+  "id": "Q11304896",
+  "checked_at": "2026-09-29T23:23:32+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.tome.miyagi.jp/satorusatoartmuseum/",
+  "address": "〒987-0602 宮城県登米市中田町上沼字舘43 登米市中田生涯学習センター3F",
+  "source_urls": [
+    "https://www.city.tome.miyagi.jp/satorusatoartmuseum/",
+    "https://www.city.tome.miyagi.jp/satorusatoartmuseum/information/index.html",
+    "https://www.museum.or.jp/museum/15800"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "構造と概念・構成と概念",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。サトル・サトウが収集した幾何学構成絵画を中心に、パリで交友した国際的作家たちの作品622点を展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "くりこま高原", "lines": "JR東北新幹線", "exit": null, "walk_min": null, "note": "くりこま高原駅よりタクシーで約45分"},
+    {"station": "石越", "lines": "JR東北本線", "exit": null, "walk_min": null, "note": "石越駅よりタクシーで約20分"}
+  ],
+  "highlights": "登米市出身の造形作家・サトル・サトウがパリ滞在で交友した国際的な芸術家から集めた幾何学構成絵画622点を無料で公開。農村の生涯学習センター内という異色の立地ながら、構成主義・具体芸術の充実したコレクションを特色とする。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトURLとして登録されていたhttps://satoru-sato-art-museum.comはドメイン消滅のため、official_urlを登米市公式サイト内のページに更新。館の所在地は宮城県登米市（北海道ではない）。2026年の企画展スケジュールは公式サイト・ブログ（art-satoru.blogspot.com）いずれも未更新のため不明。常設展示室の内容のみ登録。",
+  "confidence": "medium"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "Q11385094",
+  "checked_at": "2026-09-29T23:01:13+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://sawadamuse.jp/",
+  "address": "〒413-0032 静岡県熱海市梅園町9-46",
+  "source_urls": [
+    "https://www.city.atami.lg.jp/shisetsu/bunka/1002036/1002037.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 380,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "来宮",
+      "lines": "JR伊東線",
+      "exit": null,
+      "walk_min": 15
+    },
+    {
+      "station": "熱海",
+      "lines": "JR東海道本線・伊東線",
+      "exit": null,
+      "walk_min": null,
+      "note": "熱海駅1番のりば伊豆箱根バスで「澤田記念美術館」下車徒歩2分"
+    }
+  ],
+  "highlights": "彫刻家・澤田政廣（1894-1988）の記念館。文化勲章を受章した熱海市名誉市民の彫刻・絵画・コレクションを展示し、梅園の近くに立つ小ぶりな美術館。彫刻の存在感ある展示が魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "展示替えのための臨時休館あり。詳細はsawadamuse.jpで要確認。",
+  "confidence": "medium"
+}

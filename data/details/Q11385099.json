@@ -1,0 +1,55 @@
+{
+  "id": "Q11385099",
+  "checked_at": "2026-09-29T23:01:13+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.sanobi.or.jp/",
+  "address": "〒411-0838 静岡県三島市中田町1-43",
+  "source_urls": [
+    "https://www.sanobi.or.jp/",
+    "https://www.sanobi.or.jp/guidance/",
+    "https://www.sanobi.or.jp/exhibition/japaneseswords_2026/",
+    "https://www.sanobi.or.jp/exhibition/machida-naoko_2026/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["thu"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "さのび と とくび　名刀のいろは",
+      "start": "2026-09-05",
+      "end": "2026-10-18",
+      "url": "https://www.sanobi.or.jp/exhibition/japaneseswords_2026/",
+      "kind": "special",
+      "summary": "佐野美術館創立60周年・三島市制85周年記念。「さのび」佐野美術館と「とくび」徳川美術館の刀剣コレクションを比較しながら日本刀鑑賞の基本を学ぶ展覧会",
+      "recommend": "国宝・重要文化財の名刀が両館から集結。初めて日本刀に触れる方から愛好家まで楽しめる構成で、名物三作（吉光・正宗・江義弘）も必見",
+      "admission": "一般・大学生 1,600円",
+      "adult_price": 1600
+    },
+    {
+      "title": "隙あらば猫　町田尚子絵本原画展",
+      "start": "2026-10-24",
+      "end": "2026-12-20",
+      "url": "https://www.sanobi.or.jp/exhibition/machida-naoko_2026/",
+      "kind": "special",
+      "summary": "画家・絵本作家の町田尚子の絵本原画展。『ネコヅメのよる』『なまえのないねこ』『ねこはるすばん』などの代表作をはじめ、デビュー作から最新作までを紹介",
+      "recommend": "繊細なタッチと大胆な構図で描かれた猫たちの世界。佐野美術館を題材にした描き下ろし作品も展示",
+      "admission": "一般・大学生 1,500円",
+      "adult_price": 1500
+    }
+  ],
+  "adult_price": null,
+  "access": [
+    {"station": "三島田町", "lines": "伊豆箱根鉄道駿豆線", "exit": null, "walk_min": 5, "note": null},
+    {"station": "三島", "lines": "JR東海道線・東海道新幹線", "exit": "南口", "walk_min": null, "note": "東海バス「佐野美術館」行乗車10分、または徒歩20分（南へ1.3km）"}
+  ],
+  "highlights": "昭和41年（1966）開館、刀剣・武器・武具の名品コレクションで知られる美術館。庭園「隆泉苑」を有し、館内には重要文化財の大日如来坐像（常設）も。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「木曜日（祝日の場合は開館）、年末年始、展示替期間など」（guidance/ページより確認）。祝日の木曜は開館だが翌平日休館の旨は記載なし（holiday_rule: open）。年末年始・展示替え休館の具体日程は各展覧会ページに記載のため要確認。入館料は展覧会ごとに異なる（adult_price は各展覧会に記載）。8/1（佐野隆一生誕日）は全館無料、敬老の日は65歳以上無料、こどもの日・土曜は小中学生無料（今後の日付については free_days への追加要）。",
+  "confidence": "medium"
+}

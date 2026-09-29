@@ -1,17 +1,16 @@
 {
   "id": "Q1528356",
-  "checked_at": "2026-09-28T23:55:00+09:00",
+  "checked_at": "2026-09-29T23:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
-  "official_url": "https://www.murauchi.net/museum/",
+  "official_url": null,
   "address": "〒192-0012 東京都八王子市左入町787 村内ファニチャーアクセス八王子本店内 3階",
   "source_urls": [
     "https://www.murauchi.net/museum/",
+    "https://www.murauchi.net/page.jsp?id=7191",
     "https://www.murauchi.net/museum/aceess.html",
-    "https://www.murauchi.net/museum/exhibition.html",
-    "https://www.murauchi.net/museum/news_rn.html",
-    "https://www.murauchi.net/museum/information.html"
+    "https://www.museum.or.jp/museum/2628"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:30", "close": "17:30", "last_entry": "17:00"}
@@ -22,21 +21,26 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "常設展示（絵画・チェア・名車）",
-      "start": "2026-09-24",
-      "end": "2027-09-24",
-      "url": "https://www.murauchi.net/museum/exhibition.html",
+      "title": "コレクション展示（家具と絵画のコラボレーション）",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": "https://www.murauchi.net/museum/",
       "kind": "collection",
-      "summary": "通年。所蔵絵画と名作チェア、名車の常設展示。9月は「今月の椅子」を紹介",
+      "summary": "通年。世界の著名家具デザイナーの名作椅子・家具と西洋・日本の現代画家の大作絵画を常設展示",
+      "recommend": null,
       "admission": "一般 600円",
       "adult_price": 600
     }
   ],
-  "closed_between_exhibitions": false,
   "adult_price": 600,
+  "free_days": [],
+  "free_rules": [],
   "access": [
-    {"station": "八王子", "lines": "JR中央線・横浜線・八高線", "exit": "北口", "walk_min": null, "note": "北口から無料シャトルバス運行（水曜運休）。路線バス「左入経由純心女子学園行」等で「村内ファニチャーアクセス」下車。京王八王子駅からも利用可"}
+    {"station": "八王子", "lines": "JR中央線・横浜線", "exit": "北口", "walk_min": null, "note": "JR八王子駅北口から無料シャトルバス（または路線バス11番乗り場）で村内ファニチャーアクセス下車すぐ"},
+    {"station": "京王八王子", "lines": "京王線", "exit": null, "walk_min": null, "note": "京王八王子駅4番乗り場から路線バスで村内ファニチャーアクセス下車すぐ"}
   ],
-  "notes": "休館日は「毎週水曜日（祝日の場合は開館、翌平日は振替休館）、年末年始」。年末年始の具体的な日付は未掲載。入館料は information.html に「一般600円」の記載を確認。常設展示のみで会期のある企画展は見当たらない（start は確認日）。",
+  "highlights": "村内ファニチャーアクセス八王子本店の3階に位置する日本初の「家具と絵画のコラボレーション」美術館。ウェグナーのチャイナチェアをはじめ世界の著名家具デザイナーの名作と、西洋・日本の現代画家の超大作絵画を同じ空間で鑑賞できる独自のスタイルが魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "年末年始の具体的な休館日（2023年12月29日〜2024年1月2日の例あり）は要確認。常設型美術館で常時入館可能。水曜祝日の場合は翌平日が振替休館。",
   "confidence": "high"
 }

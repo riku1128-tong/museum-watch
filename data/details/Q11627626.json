@@ -1,0 +1,81 @@
+{
+  "id": "Q11627626",
+  "checked_at": "2026-09-29T23:06:47+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://otanimuseum.jp/",
+  "address": null,
+  "source_urls": [
+    "https://www.museum.or.jp/museum/5633",
+    "http://otanimuseum.jp/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["wed"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "2026 イタリア・ボローニャ国際絵本原画展",
+      "start": "2026-08-22",
+      "end": "2026-10-18",
+      "url": "http://otanimuseum.jp/exhibition.html",
+      "kind": "special",
+      "summary": "イタリアのボローニャで毎年開催される国際絵本原画コンクールの入選作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "closed_weekdays": [],
+      "closed_dates": []
+    },
+    {
+      "title": "没後50年　大野麥風 「魚の画家」展",
+      "start": "2026-10-31",
+      "end": "2026-12-06",
+      "url": "http://otanimuseum.jp/exhibition.html",
+      "kind": "special",
+      "summary": "魚の版画で知られる大野麥風の没後50年を記念した回顧展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "closed_weekdays": [],
+      "closed_dates": []
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "香櫨園",
+      "lines": "阪神電車",
+      "exit": null,
+      "walk_min": 6
+    },
+    {
+      "station": "さくら夙川",
+      "lines": "JR神戸線",
+      "exit": null,
+      "walk_min": 15
+    },
+    {
+      "station": "夙川",
+      "lines": "阪急神戸線",
+      "exit": null,
+      "walk_min": 18
+    }
+  ],
+  "highlights": "大正期の実業家・大谷竹次郎の邸宅跡に設けられた美術館。日本庭園を備えた広大な敷地に洋館が建ち、近代日本画や西洋絵画を中心にコレクションを展示する。毎年恒例のボローニャ国際絵本原画展など多彩な企画展で知られ、阪神間の文化の拠点として親しまれている。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（https://otanimuseum.jp/）はSSL証明書の不一致でWebFetchから取得不可。museum.or.jpの情報を参照。",
+  "confidence": "medium"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "Q77806922",
+  "checked_at": "2026-09-29T23:19:43+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.akinofuku-museum.jp/",
+  "address": "〒431-3314 静岡県浜松市天竜区二俣町二俣1151-2",
+  "source_urls": [
+    "https://www.akinofuku-museum.jp/",
+    "https://www.akinofuku-museum.jp/information/",
+    "https://www.akinofuku-museum.jp/calendar/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-01",
+      "to": "2026-10-09",
+      "reason": "臨時休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "令和8年度 第3回所蔵品展",
+      "start": "2026-09-01",
+      "end": "2026-09-30",
+      "url": "https://www.akinofuku-museum.jp/",
+      "kind": "collection",
+      "summary": "秋野不矩の所蔵作品による常設的な展覧会。通年",
+      "recommend": null,
+      "admission": "一般 310円",
+      "adult_price": 310
+    },
+    {
+      "title": "猫愛に包まれる―秋野不矩から現代作家による猫たち―",
+      "start": "2026-10-10",
+      "end": "2026-11-23",
+      "url": "https://www.akinofuku-museum.jp/exhibition/%e7%8c%ab%e6%84%9b%e3%81%ab%e5%8c%85%e3%81%be%e3%82%8c%e3%82%8b%e2%80%95%e7%a7%8b%e9%87%8e%e4%b8%8d%e7%9f%a9%e3%81%8b%e3%82%89%e7%8f%be%e4%bb%a3%e4%bd%9c%e5%ae%b6%e3%81%ab%e3%82%88%e3%82%8b%e7%8c%ab/",
+      "kind": "special",
+      "summary": "秋野不矩と猫との関わりを起点に、近現代日本美術における猫表現の多様性を3コレクションから約40名の作家で紹介",
+      "recommend": "秋野不矩自身の猫作品と資料を出発点に、同世代以降の作家たちが描いた多彩な猫表現を3コレクションで一覧。人と猫との尽きない関係の豊かさを感じられる展覧会",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 310,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "天竜二俣",
+      "lines": "天竜浜名湖鉄道",
+      "exit": null,
+      "walk_min": 15,
+      "note": null
+    }
+  ],
+  "highlights": "日本画家・秋野不矩（1908〜2001）の作品と愛用品を収蔵・公開する美術館。天竜の自然に包まれた場所に建ち、インドの風土や人々を描いた大作など生涯を通じた多彩な作品を展示する。年に数回、所蔵品展のほか企画展も開催。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトURL は museums.json の https://www.city.hamamatsu.shizuoka.jp/akinofu/ が404のため、正しい公式サイト https://www.akinofuku-museum.jp/ に変更。2026/10/1〜10/9は臨時休館。所蔵品展の正確な終了日は公式で未確認のため9/30を仮設定。",
+  "confidence": "medium"
+}

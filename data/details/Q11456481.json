@@ -1,0 +1,68 @@
+{
+  "id": "Q11456481",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.pref.toyama.jp/1738/miryokukankou/bunka/bunkazai/3044/index.html",
+  "address": "〒930-0887 富山市五福777",
+  "source_urls": [
+    "https://www.pref.toyama.jp/1738/miryokukankou/bunka/bunkazai/3044/index.html",
+    "https://www.pref.toyama.jp/1738/miryokukankou/bunka/bunkazai/3044/information/index.html",
+    "https://www.pref.toyama.jp/1738/miryokukankou/bunka/bunkazai/3044/exh_0100/index.html",
+    "https://www.pref.toyama.jp/1738/miryokukankou/bunka/bunkazai/3044/access.html",
+    "https://www.pref.toyama.jp/1738/exh2026/seikado-kabuki.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "豊原国周生誕190年・歌舞伎を描く―静嘉堂秘蔵の浮世絵初公開！",
+      "start": "2026-09-19",
+      "end": "2026-11-08",
+      "url": "https://www.pref.toyama.jp/1738/exh2026/seikado-kabuki.html",
+      "kind": "special",
+      "summary": "「明治の写楽」豊原国周と師・三代歌川豊国の歌舞伎絵を軸に、静嘉堂文庫の浮世絵コレクションを紹介",
+      "recommend": "静嘉堂秘蔵で2025年1月に初公開された錦絵帖が館外初展示。幕末〜明治初期の歌舞伎絵の迫力を堪能できる",
+      "admission": "一般 1,500円（前売 1,200円）",
+      "adult_price": 1500
+    },
+    {
+      "title": "ちょっとだけわかる日本美術～水墨美術館編～",
+      "start": "2026-11-20",
+      "end": "2027-01-17",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 250,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "富山",
+      "lines": "JR北陸新幹線・あいの風とやま鉄道線",
+      "exit": null,
+      "walk_min": null,
+      "note": "市内電車（大学前行）「五福末広町（トヨタモビリティ富山Gスクエア五福前）」駅から徒歩約10分。またはJR富山駅からタクシー約10分"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「月曜日（祝日を除く）・祝日の翌日・年末年始・臨時休館日」。holiday_rule は月曜が祝日の場合（月曜開館＋翌平日休館）を反映しているが、月曜以外の祝日でも翌日が休館となる点はスキーマで表現しきれていない。年末年始の具体的な日付は公式サイトに記載が見当たらず未確認。常設展入館料は一般250円。公式サイト（pref.toyama.jp/1505/）は403エラーのため実際のページ（pref.toyama.jp/1738/...）を参照。展示替え期間（11/9〜11/19）は公式に休館の記載なし。",
+  "confidence": "high"
+}

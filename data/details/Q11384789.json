@@ -1,0 +1,74 @@
+{
+  "id": "Q11384789",
+  "checked_at": "2026-09-29T23:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.izunokuni.shizuoka.jp/hansyaro/sekaiisan/nirayamahansyarogaido.html",
+  "address": "〒410-2113 静岡県伊豆の国市中260-1",
+  "source_urls": [
+    "https://www.city.izunokuni.shizuoka.jp/hansyaro/sekaiisan/nirayamahansyarogaido.html",
+    "https://www.city.izunokuni.shizuoka.jp/bunka_bunkazai/manabi/bunkazai/hansyaro/documents/hansyarokengaku.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "from": "2026-03-01",
+      "to": "2026-09-30"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:30",
+      "from": "2026-10-01",
+      "to": "2027-02-28"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [
+    {"weekday": "wed", "nth": [3]}
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-31",
+      "to": "2027-01-01",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "韮山反射炉 常設展示",
+      "start": "2026-01-01",
+      "end": "2027-01-01",
+      "url": "https://www.city.izunokuni.shizuoka.jp/hansyaro/sekaiisan/nirayamahansyarogaido.html",
+      "kind": "collection",
+      "summary": "通年",
+      "recommend": null,
+      "admission": "大人500円、小・中学生50円",
+      "adult_price": 500,
+      "hours": [],
+      "closed_weekdays": [],
+      "closed_dates": []
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "伊豆長岡",
+      "lines": "伊豆箱根鉄道駿豆線",
+      "exit": null,
+      "walk_min": null,
+      "note": "伊豆長岡駅からバスまたはタクシーで約10分。東名沼津ICから国道136号経由で約40分"
+    }
+  ],
+  "highlights": "幕末の1857年に完成した世界文化遺産「明治日本の産業革命遺産」の構成資産。江戸幕府が洋式大砲を鋳造するために築いた反射炉で、現在も稼働当時の姿をほぼそのまま残す貴重な遺構。ガイドによる無料の解説（約20分）が好評で、近代日本の夜明けを実感できる歴史スポット。",
+  "closed_between_exhibitions": false,
+  "notes": "毎月第3水曜が祝日の場合は翌木曜が休館。伊豆の国市民・障がい者は無料。ガイド受付は9時〜16時（無料・約20分）。",
+  "confidence": "high"
+}

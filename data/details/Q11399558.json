@@ -1,0 +1,23 @@
+{
+  "id": "Q11399558",
+  "checked_at": "2026-09-29T23:10:49+09:00",
+  "check_mode": "full",
+  "operating_status": "unknown",
+  "status_note": "公式サイト nakasendo-kaikan.com がDNSエラーで接続不可。岐阜市観光サイト・岐阜観光コンベンション協会にも掲載なし。閉館・移転の可能性あり。",
+  "official_url": null,
+  "address": null,
+  "source_urls": [],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "notes": "公式サイト（nakasendo-kaikan.com）に接続できず、情報取得不可。",
+  "confidence": "low"
+}

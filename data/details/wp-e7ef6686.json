@@ -1,6 +1,6 @@
 {
   "id": "wp-e7ef6686",
-  "checked_at": "2026-09-28T23:30:00+09:00",
+  "checked_at": "2026-09-29T23:14:27+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,6 +8,7 @@
   "address": "〒308-0031 茨城県筑西市丙372（アルテリオ3階）",
   "source_urls": [
     "https://www.city.chikusei.lg.jp/museum/",
+    "https://www.city.chikusei.lg.jp/museum/tenrankai/kaisaityu-tenrankai/page013964.html",
     "https://www.city.chikusei.lg.jp/page/dir004549.html",
     "https://www.museum.or.jp/museum/12220"
   ],
@@ -20,13 +21,25 @@
     {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
   ],
   "special_openings": [],
-  "exhibitions": [],
-  "adult_price": 200,
+  "exhibitions": [
+    {
+      "title": "9（きゅー）・引力～新たなるコレクション、ぜんぶ魅せます～",
+      "start": "2026-09-26",
+      "end": "2026-11-29",
+      "url": "https://www.city.chikusei.lg.jp/museum/tenrankai/kaisaityu-tenrankai/page013964.html",
+      "kind": "special",
+      "summary": "近年新収蔵の浅香鉄心・安齋肇・横尾忠則ら9人の作品を初公開するコレクション披露展",
+      "recommend": "開館以来蒐集してきた地域ゆかりの作家を核に、近年加わった多彩な9人の新収蔵作品を一堂に初お披露目。板谷波山や森田茂とは異なる個性的な表現との出会いが楽しめる",
+      "admission": "一般 500円（団体10人以上450円）",
+      "adult_price": 500
+    }
+  ],
   "closed_between_exhibitions": false,
+  "adult_price": 200,
   "access": [
     {"station": "下館", "lines": "JR水戸線・関東鉄道常総線・真岡鐵道真岡線", "exit": "北口", "walk_min": 8, "note": null}
   ],
-  "highlights": "筑西市出身の文化勲章受章者、陶芸家・板谷波山や洋画家・森田茂ら地域ゆかりの作家の作品を中心に収蔵。地域交流拠点「アルテリオ」3階にあり、所蔵品をテーマごとに紹介する企画展を開催する",
-  "notes": "official_url は museums.json に無かったため筑西市の館ページを設定。観覧料（所蔵品展 一般200円・高校生以下無料）はインターネットミュージアム（museum.or.jp）で確認、confidence を medium とした理由の一つ。現在開催中の企画展「9（きゅー）・引力～新たなるコレクション、ぜんぶ魅せます～」（9/26開始、公式サイト・SNSで告知）は終了日を公式サイト上で確認できなかったため exhibitions には未掲載（次回巡回で再確認）。",
+  "highlights": "筑西市出身の文化勲章受章者、陶芸家・板谷波山や洋画家・森田茂ら地域ゆかりの作家の作品を中心に収蔵。地域交流拠点「アルテリオ」3階にあり、所蔵品をテーマごとに紹介する企画展を開催する。",
+  "notes": "観覧料（所蔵品展 一般200円・高校生以下無料）はインターネットミュージアムで確認。展覧会「9（きゅー）・引力」（9/26〜11/29、一般500円）は公式ページで会期確認。adult_price は所蔵品展の料金で、企画展は別料金。",
   "confidence": "medium"
 }

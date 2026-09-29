@@ -1,0 +1,59 @@
+{
+  "id": "Q11595510",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://tuchizaki.com/",
+  "address": "〒011-0945 秋田県秋田市土崎港西3丁目10-27",
+  "source_urls": [
+    "https://tuchizaki.com/",
+    "https://www.city.akita.lg.jp/shisetsu/hakubutukan-tpsyokan/1011113/1006765.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展示（曳山展示ホール・常設展示室・空襲展示ホール）",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。土崎神明社祭の曳山（高さ11.5m）、北前船、土崎空襲、土崎の近代史資料を展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "土崎",
+      "lines": "JR奥羽本線",
+      "exit": null,
+      "walk_min": 10,
+      "note": "路線バス「土崎駅入口」バス停から徒歩約5分も可"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "旧称「秋田市立土崎港郷土資料館」。2018年3月に「秋田市土崎みなと歴史伝承館」として開館。ユネスコ無形文化遺産「土崎神明社祭の曳山行事」の大型曳山展示が目玉。駐車場28台（障がい者用2台）。",
+  "confidence": "high"
+}

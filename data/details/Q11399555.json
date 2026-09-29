@@ -1,0 +1,62 @@
+{
+  "id": "Q11399555",
+  "checked_at": "2026-09-29T23:01:20+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.ena.lg.jp/soshikiichiran/kyoikuiinkai/bunka/1/2027.html",
+  "address": "岐阜県恵那市岩村町98番地",
+  "source_urls": [
+    "https://www.city.ena.lg.jp/soshikiichiran/kyoikuiinkai/bunka/1/2027.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon","tue","wed","thu","fri","sat","sun"],
+      "open": "09:00",
+      "close": "17:00",
+      "from": "2026-04-01",
+      "to": "2026-11-30"
+    },
+    {
+      "days": ["mon","tue","wed","thu","fri","sat","sun"],
+      "open": "09:30",
+      "close": "16:00",
+      "from": "2026-12-01",
+      "to": "2027-03-31"
+    },
+    {
+      "days": ["mon","tue","wed","thu","fri","sat","sun"],
+      "open": "09:00",
+      "close": "17:00",
+      "from": "2027-04-01",
+      "to": "2027-11-30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "岩村",
+      "lines": "明知鉄道明知線",
+      "walk_min": 20,
+      "note": "JR中央線恵那駅で明知鉄道に乗り換え岩村駅下車、徒歩約20分。車の場合は中央自動車道恵那ICから国道257号で約20分"
+    }
+  ],
+  "highlights": "岩村城に関する多くの史料を収蔵する歴史資料館。享保3年岩村城絵図・明和3年岩村城平面図・佐藤一斎自讃画像軸など県重要文化財を所蔵。藩主邸跡には正門・太鼓櫓・御殿茶室も復元。隣接する民俗資料館は移築民家に先人の生活を偲ばせる民具を展示。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜が祝日の場合は月曜開館・翌日・翌々日が休館。祝日の翌日も休館。令和8年9月24日〜28日は展示替え・館内清掃で臨時休館（9/29から再開済み）。",
+  "confidence": "high"
+}

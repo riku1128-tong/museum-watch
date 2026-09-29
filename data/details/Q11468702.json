@@ -1,0 +1,41 @@
+{
+  "id": "Q11468702",
+  "checked_at": "2026-09-29T23:06:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kamo-kurage.jp/",
+  "address": "〒997-1206 山形県鶴岡市今泉字大久保657-1",
+  "source_urls": [
+    "https://kamo-kurage.jp/",
+    "https://dobutsubiyori.com/kamoaquarium/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "鶴岡",
+      "lines": "JR羽越本線",
+      "walk_min": null,
+      "note": "JR鶴岡駅から庄内交通路線バス「湯野浜温泉行き」乗車、「加茂水族館停留所」下車。車は山形自動車道鶴岡ICから約15分。無料駐車場あり。"
+    }
+  ],
+  "highlights": "クラゲの展示種類数世界一を誇る水族館。常時60種以上のクラゲを展示し、直径5メートルの「クラゲドリームシアター」が圧巻。2026年4月にリニューアルし100種展示に拡大。ゴマフアザラシやアシカの解説プログラムも人気。",
+  "closed_between_exhibitions": false,
+  "notes": "不定期でメンテナンス休館あり。公式サイト（kamo-kurage.jp）の直接取得ができなかったため情報は一般情報サイト等からの取得。",
+  "confidence": "medium"
+}

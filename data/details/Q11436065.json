@@ -1,0 +1,45 @@
+{
+  "id": "Q11436065",
+  "checked_at": "2026-09-29T23:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.museomura.com/",
+  "address": "〒014-0326 秋田県仙北市角館町山根町39-1",
+  "source_urls": [
+    "https://www.museomura.com/",
+    "https://www.museomura.com/exhibitions",
+    "https://www.museum.or.jp/museum/956"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "last_entry": "15:30", "from": "2026-04-01", "to": "2026-12-31"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "15:00", "last_entry": "14:30", "from": "2027-01-01", "to": "2027-03-31"}
+  ],
+  "closed_weekdays": ["wed", "thu"],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-02", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "アール・デコのうつわ ーラリックのワイングラスを中心としてー",
+      "start": "2026-10-03",
+      "end": "2027-01-31",
+      "url": "https://www.museomura.com/exhibitions",
+      "kind": "special",
+      "summary": "フランスの装飾芸術家ルネ・ラリックのワイングラスを中心に、アール・デコのガラス器を紹介",
+      "recommend": "繊細な文様と色彩が光に映えるラリックのグラスを間近で鑑賞できる。角館の武家屋敷街に隣接する小さな美術館ならではのゆったりとした空間で、アール・デコの美を堪能できる。",
+      "admission": "一般 800円",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": 800,
+  "closed_between_exhibitions": false,
+  "access": [
+    {"station": "角館", "lines": "JR秋田新幹線・田沢湖線", "walk_min": 15}
+  ],
+  "highlights": "武家屋敷の街・角館に位置するルネ・ラリックのガラス作品専門の私立美術館。約400点のラリック作品（ガラス・陶磁器）に加え、スザンヌ・ラリック装飾のリモージュ磁器や1925年パリ万博の写真・カタログも収蔵。約100㎡のコンパクトな空間で展示を2〜3ヶ月ごとに入れ替える。",
+  "notes": "タスクで渡されたofficial_url（https://www.omura-museum.jp/）はDNS不明のため、実際のURL（https://www.museomura.com/）に更新。2026年より休館日が毎週水・木曜日（通年）に変更。holiday_ruleの記載が公式サイトに無かったためunknown。展覧会は2〜3ヶ月ごとに入れ替え。今日（9/29）と次回展覧会開始（10/3）の間の展示については公式サイトに記載なし。",
+  "confidence": "high"
+}

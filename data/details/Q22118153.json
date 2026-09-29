@@ -1,0 +1,63 @@
+{
+  "id": "Q22118153",
+  "checked_at": "2026-09-29T23:23:30+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.village.ohira.miyagi.jp/9/10/60.html",
+  "address": "〒981-3602 宮城県黒川郡大衡村大衡字平林39番地12",
+  "source_urls": [
+    "https://www.village.ohira.miyagi.jp/9/10/60.html",
+    "https://www.museum.or.jp/museum/789"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "16:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "さかいふうか作品展「並行世界クロニクル」",
+      "start": "2026-09-19",
+      "end": "2026-10-18",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": "一般 200円",
+      "adult_price": 200
+    },
+    {
+      "title": "東北生活文化大学美術学部選抜作品展",
+      "start": "2026-10-31",
+      "end": "2026-11-15",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": "一般 200円",
+      "adult_price": 200
+    }
+  ],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "宮城県大衡村の豊かな自然に囲まれた村立美術館。大衡村出身の洋画家・菅野廉の作品を中心に常設展示するほか、地元ゆかりの作家や美術系大学との連携による企画展・公募展を年間通じて開催する。村の文化拠点として地域に根ざした活動を続けている。",
+  "closed_between_exhibitions": false,
+  "notes": "最寄り交通：ミヤコー高速バス「大衡村役場前」下車徒歩約10分、東北自動車道大衡ICから車で約5分。公式サイトでは休館曜日・入館料の記載なし。インターネットミュージアムでは「一般200円、高大生150円、小中生100円、年末年始（12/28-1/4）のみ休館」と掲載。展覧会情報（さかいふうか作品展・東北生活文化大学選抜展）は公式サイトより。定休日の情報が公式で確認できないため holiday_rule は unknown。",
+  "confidence": "medium"
+}

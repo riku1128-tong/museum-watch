@@ -1,0 +1,83 @@
+{
+  "id": "Q11391188",
+  "checked_at": "2026-09-29T23:24:28+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://hachinohe-art-museum.jp/",
+  "address": "〒031-0031 青森県八戸市大字番町10-4",
+  "source_urls": [
+    "https://hachinohe-art-museum.jp/",
+    "https://hachinohe-art-museum.jp/visitor/",
+    "https://hachinohe-art-museum.jp/exhibition/",
+    "https://hachinohe-art-museum.jp/exhibition/7048",
+    "https://hachinohe-art-museum.jp/exhibition/7150"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "19:00"
+    }
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "コレクションラボ014　岡山良一　八戸モダンの風",
+      "start": "2026-07-25",
+      "end": "2026-11-16",
+      "url": "https://hachinohe-art-museum.jp/exhibition/7048",
+      "kind": "collection",
+      "summary": "モダンアート協会で活動した八戸出身の岡山良一の絵画・半立体作品と仲間たちの作品を紹介",
+      "recommend": "八戸モダンアートのパイオニア・岡山良一の絵画や半立体から雑誌挿絵・建築デザインまで多彩な活動を紹介。ゆかりの仲間たちの作品もあわせて展示する、無料で楽しめるコレクション展。",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第63回八戸市美術展",
+      "start": "2026-10-08",
+      "end": "2026-10-18",
+      "url": "https://hachinohe-art-museum.jp/exhibition/7144",
+      "kind": "other",
+      "summary": "八戸市民による公募美術展（前期：10/8〜11、後期：10/15〜18）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "closed_dates": ["2026-10-12", "2026-10-13", "2026-10-14"]
+    },
+    {
+      "title": "ヨシタケシンスケ展かもしれない",
+      "start": "2026-11-21",
+      "end": "2027-01-11",
+      "url": "https://hachinohe-art-museum.jp/exhibition/7150",
+      "kind": "special",
+      "summary": "絵本作家ヨシタケシンスケのスケッチや原画・立体物など400点超を展示する初の大規模展",
+      "recommend": "子どもから大人まで人気の絵本作家ヨシタケシンスケの「頭のなか」をのぞく展覧会。スケッチや絵本原画、立体物など400点超で、独特の発想の源泉に迫る。",
+      "admission": "一般 1,300円",
+      "adult_price": 1300
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "本八戸",
+      "lines": "JR八戸線",
+      "walk_min": 10
+    }
+  ],
+  "highlights": "2021年開館の「アートファーム」をコンセプトにした美術館。可動間仕切りで自在に使えるジャイアントルーム（834㎡）を核に、八戸ゆかりの作品約3,000点を収蔵。展覧会だけでなく市民参加のプロジェクト活動も重視し、地域と一体になった創造空間を作る。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は火曜日（祝日の場合は翌平日休館）、年末年始（12/29〜1/1）。12/28と1/2〜3は時間短縮（10:00〜17:00）。コレクションラボ014は無料。第63回八戸市美術展は前期（10/8〜11）・後期（10/15〜18）の2期制のため中間日（10/12〜14）をclosed_datesに入れた（10/12はスポーツの日祝日のため美術館本体は開館）。",
+  "confidence": "high"
+}

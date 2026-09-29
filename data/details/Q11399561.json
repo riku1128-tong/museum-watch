@@ -1,0 +1,73 @@
+{
+  "id": "Q11399561",
+  "checked_at": "2026-09-29T23:08:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.forest.minokamo.gifu.jp/",
+  "address": "〒505-0004 岐阜県美濃加茂市蜂屋町上蜂屋3299-1",
+  "source_urls": [
+    "https://www.forest.minokamo.gifu.jp/access/access.cfm",
+    "https://www.forest.minokamo.gifu.jp/",
+    "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_02.cfm",
+    "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_05.cfm"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "2026年度 蚕とまゆ展 蚕を育てるいろいろな道具",
+      "start": "2026-04-25",
+      "end": "2026-10-12",
+      "url": "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_02.cfm",
+      "kind": "special",
+      "summary": "養蚕で使われた道具を通じて、美濃加茂市域の養蚕の歴史と人々の歩みを紹介。",
+      "recommend": "明治から昭和にかけて地域の暮らしを支えた養蚕の道具を実物で紹介。桑の管理から繭の収穫まで各工程の道具を見ながら、養蚕に取り組んだ人々の知恵と歩みをたどれる。",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第71回 美濃加茂市美術展",
+      "start": "2026-10-08",
+      "end": "2026-10-18",
+      "url": "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_05.cfm",
+      "kind": "special",
+      "summary": "日本画・洋画・彫刻・書・写真の5部門の公募入賞入選作品を展示する市民美術展。",
+      "recommend": "地域の美術愛好家たちの公募作品を5部門にわたって展示する年次美術展。多様なジャンルの作品が一堂に会し、市民の創作力の高さを感じられる。",
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "美濃太田",
+      "lines": "JR高山本線・太多線",
+      "exit": "北口",
+      "walk_min": 17,
+      "note": null
+    }
+  ],
+  "highlights": "森の空気を感じながら学び・遊び・創作できる美濃加茂市の文化施設。常設展示室のほか、生活体験館「まゆの家」やミュージアムカフェを備える。養蚕など地域の生活文化を紹介する企画展や市民向け講座を定期開催。入館無料。",
+  "closed_between_exhibitions": false,
+  "notes": null,
+  "confidence": "high"
+}

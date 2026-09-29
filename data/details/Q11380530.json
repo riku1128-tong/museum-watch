@@ -1,0 +1,55 @@
+{
+  "id": "Q11380530",
+  "checked_at": "2026-09-29T23:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒410-3611 静岡県賀茂郡松崎町松崎23",
+  "source_urls": [
+    "https://www.town.matsuzaki.shizuoka.jp/docs/2016020300578/",
+    "https://www.izu-matsuzaki.com/pages/69/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
+  ],
+  "closed_weekdays": ["thu"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [
+    {"date": "2026-10-17", "open": "17:00", "close": "20:00", "note": "ナイトミュージアム2026（入館無料）"}
+  ],
+  "exhibitions": [
+    {
+      "title": "第26回全国漆喰鏝絵コンクール作品展",
+      "start": "2026-10-02",
+      "end": "2026-10-31",
+      "url": "https://www.izu-matsuzaki.com/pages/69/",
+      "kind": "special",
+      "summary": "全国から公募した漆喰鏝絵作品のコンクール入賞・入選作を一堂に展示",
+      "recommend": "入江長八の伝統を受け継ぐ現代の鏝絵師たちの技が競われる年1回の発表の場。入賞作品を通じて伝統技法の現在を確かめられる。",
+      "admission": "一般500円",
+      "adult_price": 500
+    },
+    {
+      "title": "入江長八 鏝絵常設展示",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": "https://www.izu-matsuzaki.com/pages/69/",
+      "kind": "collection",
+      "summary": "通年。松崎の左官職人・入江長八（1815〜1889）の漆喰鏝絵約50点を常設展示。代表作『遊女普賢菩薩』や『富岳』など",
+      "recommend": null,
+      "admission": "一般500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "下田", "lines": "伊豆急行線", "note": "下田駅から東海バス「松崎」行きに乗り「長八美術館前」下車、徒歩1分。熱海から伊豆急行で下田経由、バスで松崎へ。車：伊豆縦貫道月ケ瀬ICから国道136号で約60分"}
+  ],
+  "highlights": "幕末〜明治の天才左官職人・入江長八の漆喰鏝絵を専門に収蔵・公開する美術館。松崎に生まれた長八が残した傑作約50点を間近で鑑賞できる。建物は石山修武設計（吉田五十八賞受賞）で、江戸と21世紀を融合させたドーム天井が印象的。",
+  "notes": "公式URL（https://izu-chohachi.jp/）はDNS不明。情報は松崎町公式サイトと観光サイトを参照。木曜が祝日の場合はその直前の平日が休館（代替休館日が前日）。12/29〜1/3・4/29〜5/5・8/13〜8/15は開館（通常通り）。松崎町民は身分証提示で無料。",
+  "confidence": "medium"
+}

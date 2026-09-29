@@ -1,0 +1,72 @@
+{
+  "id": "Q11404764",
+  "checked_at": "2026-09-29T23:06:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://nariwa-museum.jp/",
+  "address": "〒716-0111 岡山県高梁市成羽町下原1068-3",
+  "source_urls": [
+    "https://nariwa-museum.jp/",
+    "https://nariwa-museum.jp/user_guide/",
+    "https://nariwa-museum.jp/exhibition/open/2026_teachers_of_jonanhs/",
+    "https://nariwa-museum.jp/exhibition/open/2026_hoshino_michio_yukyu/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2025-12-25",
+      "to": "2026-01-07",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "わたしたちのしごと　ボクたちのいきかたー高梁城南高校に勤める6名が描く　教師としての私と、表現者としての僕",
+      "start": "2026-09-12",
+      "end": "2026-10-24",
+      "url": "https://nariwa-museum.jp/exhibition/open/2026_teachers_of_jonanhs/",
+      "kind": "special",
+      "summary": "県立高校で教育に携わる6名の教師による多様な表現を展示する企画展",
+      "recommend": "教えることと表現することを両立させる6人の教師作家の作品を展示。絵画・彫刻・現代アート・陶芸・プロダクトデザインなど多彩なジャンルが一堂に会する異色の展覧会。",
+      "admission": "無料（静水の庭ホール鑑賞は星野道夫展チケット要）",
+      "adult_price": 0
+    },
+    {
+      "title": "没後30年　星野道夫 悠久の時を旅する",
+      "start": "2026-09-12",
+      "end": "2027-01-31",
+      "url": "https://nariwa-museum.jp/exhibition/open/2026_hoshino_michio_yukyu/",
+      "kind": "special",
+      "summary": "アラスカを拠点にした写真家・星野道夫の没後30年を記念した大規模回顧展",
+      "recommend": "極北の大地に魅せられた写真家・星野道夫の軌跡を辿る。アラスカからカムチャツカまでの膨大な作品と貴重な資料で、人間と自然の共生を問い直す没後30年の集大成展。",
+      "admission": "一般・シニア：1,300円、高大生：800円、小中生：600円",
+      "adult_price": 1300
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "備中高梁",
+      "lines": "JR伯備線",
+      "walk_min": null,
+      "note": "備中高梁駅直通のバスセンター4番のりばから備北バス成羽方面行きで約20分"
+    }
+  ],
+  "highlights": "岡山県高梁市成羽の自然に囲まれた美術館。安藤忠雄設計による建築が特徴で、地域の山間の風景に溶け込んだ外観と、光と影を活かした内部空間が印象的。写真・現代美術・郷土芸術など多彩な企画展を開催。",
+  "closed_between_exhibitions": true,
+  "notes": null,
+  "confidence": "high"
+}

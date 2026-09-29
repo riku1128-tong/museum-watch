@@ -1,0 +1,82 @@
+{
+  "id": "Q123124042",
+  "checked_at": "2026-09-29T23:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒036-8188 青森県弘前市吉野町2-1",
+  "source_urls": [
+    "https://www.hirosaki-moca.jp/",
+    "https://www.hirosaki-moca.jp/visit/",
+    "https://www.hirosaki-moca.jp/access/",
+    "https://www.hirosaki-moca.jp/exhibitions/kazama-sachiko/",
+    "https://www.hirosaki-moca.jp/exhibitions/collection2026/",
+    "https://www.hirosaki-moca.jp/exhibitions/avant-garde/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "from": "2026-12-01", "to": "2027-02-28"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "風間サチコ展：方丈ルームの1000里眼",
+      "start": "2026-06-05",
+      "end": "2026-11-15",
+      "url": "https://www.hirosaki-moca.jp/exhibitions/kazama-sachiko/",
+      "kind": "special",
+      "summary": "黒一色の木版画で日本社会の矛盾を描く風間サチコの東北初個展。近年の大型木版画と初公開の油彩画を展示",
+      "recommend": "四畳半のアトリエから世界を射抜く独自の視点が凝縮された東北初個展。弘前での本との出会いから生まれた「白鳥」シリーズや青森の風景が登場する作品など、木版画と初公開の油彩画で作家の世界観を体感できる。",
+      "admission": "一般 1,600円",
+      "adult_price": 1600
+    },
+    {
+      "title": "コレクション展 2026",
+      "start": "2026-06-05",
+      "end": "2026-11-15",
+      "url": "https://www.hirosaki-moca.jp/exhibitions/collection2026/",
+      "kind": "collection",
+      "summary": "「記憶・世界・地域」をキーワードに、弘前ゆかりの作品を中心とした所蔵コレクション展",
+      "recommend": "寺山修司をテーマにした小沢剛《帰って来たS.T.》をはじめ、煉瓦倉庫という場に合わせて制作された作品が並ぶ。建物と土地の記憶が作品と響き合う、この美術館ならではの展示構成が見どころ。",
+      "admission": "一般 1,600円",
+      "adult_price": 1600
+    },
+    {
+      "title": "大正⇆令和アヴァンギャルド",
+      "start": "2026-12-04",
+      "end": "2027-05-16",
+      "url": "https://www.hirosaki-moca.jp/exhibitions/avant-garde/",
+      "kind": "special",
+      "summary": "大正時代の北東北作家と令和の現代作家の表現を並べ、100年を隔てた「前衛」をたどる企画展",
+      "recommend": "大正時代に「アヴァンギャルド」という言葉が広まった時代と現代の作家を同じ場に並べ、100年越しの「前衛性」とは何かを問う意欲的な企画。北東北の地で生まれた表現の系譜が鮮やかに浮かび上がる。",
+      "admission": "一般 1,600円",
+      "adult_price": 1600
+    },
+    {
+      "title": "コレクション展 2026-2027",
+      "start": "2026-12-04",
+      "end": "2027-05-16",
+      "url": "https://www.hirosaki-moca.jp/exhibitions/collection-2026-2027/",
+      "kind": "collection",
+      "summary": null,
+      "recommend": null,
+      "admission": "一般 1,600円",
+      "adult_price": 1600
+    }
+  ],
+  "adult_price": 1600,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "弘前", "lines": "JR奥羽本線", "exit": null, "walk_min": 20, "note": "タクシーで約7分"},
+    {"station": "中央弘前", "lines": "弘南鉄道大鰐線", "exit": null, "walk_min": 2, "note": "駅自由通路から徒歩2分"}
+  ],
+  "highlights": "旧サッポロビール工場のレンガ倉庫を改修した、青森・弘前初の現代美術館。2020年開館で、煉瓦造りの歴史的建築を生かした独特の展示空間が特徴。風間サチコをはじめ国内外の現代作家を紹介する企画展と、地域の記憶に根ざしたコレクション展を年2期構成で開催する。",
+  "closed_between_exhibitions": false,
+  "notes": "年末年始の休館日は公式サイトに具体的な日付の記載がなかったため special_closures には入れていない。",
+  "confidence": "high"
+}

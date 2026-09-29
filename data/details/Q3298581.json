@@ -1,0 +1,92 @@
+{
+  "id": "Q3298581",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒020-0866 岩手県盛岡市本宮字松幅12-3",
+  "source_urls": [
+    "https://www.ima.or.jp/",
+    "https://www.ima.or.jp/information/",
+    "https://www.ima.or.jp/exhibition/temporary/20260912.html",
+    "https://www.ima.or.jp/exhibition/collection/2026_2nd.html",
+    "https://www.ima.or.jp/exhibition/temporary/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-02", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "芥見下々『呪術廻戦』展",
+      "start": "2026-09-12",
+      "end": "2026-11-08",
+      "url": "https://www.ima.or.jp/exhibition/temporary/20260912.html",
+      "kind": "special",
+      "summary": "作者・芥見下々による創作工程の解説を交えながら、呪術廻戦の世界観をデジタル手法で紹介",
+      "recommend": "デジタル手法による創作過程を作者自身の解説で追えるほか、ストーリー・キャラクター・イラストワークの進化を一挙公開する企画展",
+      "admission": "一般 2,000円（前売 1,800円）",
+      "adult_price": 2000
+    },
+    {
+      "title": "コレクション展 第2期 特集：新収蔵作品のご紹介1",
+      "start": "2026-07-17",
+      "end": "2026-10-12",
+      "url": "https://www.ima.or.jp/exhibition/collection/2026_2nd.html",
+      "kind": "collection",
+      "summary": "令和7年度新収蔵作品を初公開。初収蔵作家・畠山三朗、大成浩をはじめとする作品を紹介",
+      "recommend": null,
+      "admission": "一般 490円",
+      "adult_price": 490
+    },
+    {
+      "title": "ヘンリー・ムーア展",
+      "start": "2026-11-21",
+      "end": "2026-12-13",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "トーベとムーミン展",
+      "start": "2026-12-26",
+      "end": "2027-02-28",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 490,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "盛岡",
+      "lines": "JR東北新幹線・東北本線・IGRいわて銀河鉄道ほか",
+      "exit": null,
+      "walk_min": 20,
+      "note": "盛岡駅東口から岩手県交通バス「盛南ループ200」で約13分「県立美術館前」下車すぐ。または駅西口から徒歩約20分（約1.7km）。タクシーは駅西口から約5分"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「月曜日（ただし月曜日が祝日、振替休日の場合は開館し、直後の平日に休館）、年末年始（12/29〜1/2）」。コレクション展入館料は一般490円。企画展は別料金（呪術廻戦展は当日一般2,000円）。ヘンリー・ムーア展・トーベとムーミン展は年間スケジュールページのみの情報で、入館料等の詳細は未確認。",
+  "confidence": "high"
+}

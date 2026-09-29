@@ -1,0 +1,54 @@
+{
+  "id": "Q11595542",
+  "checked_at": "2026-09-29T23:08:10+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "official_url": "https://www.city.kazo.lg.jp/soshiki/shougai/kankou/6496.html",
+  "address": "〒347-0104 埼玉県加須市根古屋633-2",
+  "source_urls": [
+    "https://www.city.kazo.lg.jp/soshiki/shougai/kankou/6496.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon", "tue", "wed", "thu", "fri"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "郷土史料常設展示",
+      "start": "2020-01-01",
+      "end": "2027-09-29",
+      "kind": "collection",
+      "summary": "通年。旧石器〜戦国時代の出土品（十六間筋兜など）・農具・民俗資料・昭和期の写真を展示",
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "加須",
+      "lines": "東武伊勢崎線",
+      "walk_min": null,
+      "note": "加須駅南口・北口から朝日バス鴻巣免許センター行き約15分「騎西城」バス停下車徒歩1分"
+    }
+  ],
+  "highlights": "騎西城跡に建つコンクリート製の城郭建築の中に、市指定有形文化財の十六間筋兜や旧石器時代から戦国時代の出土品、農具・民俗資料を展示。3階回廊から富士山・筑波山・日光連山など遠方の眺望が楽しめる観光スポットでもある。",
+  "notes": "土曜・日曜・祝日のみ公開（平日休館）。年末年始（12/29〜1/3）も休館。",
+  "confidence": "high"
+}

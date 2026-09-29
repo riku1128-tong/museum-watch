@@ -1,0 +1,42 @@
+{
+  "id": "Q11595520",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.yurihonjo.lg.jp/shisetsu/1005609/1005612/1006451.html",
+  "address": "〒015-0404 秋田県由利本荘市矢島町七日町字羽坂64-1",
+  "source_urls": [
+    "https://www.city.yurihonjo.lg.jp/bunka-sport/bunka/c1336/9520",
+    "https://www.city.yurihonjo.lg.jp/shisetsu/1005609/1005612/1006451.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "access": [
+    {
+      "station": "矢島",
+      "lines": "由利高原鉄道鳥海山ろく線",
+      "walk_min": 5,
+      "note": "羽後交通バス本荘伏見線「矢島幹部交番前」からも徒歩5分"
+    }
+  ],
+  "highlights": "矢島地区の歴史・民俗文化を収蔵・展示する郷土資料館。矢島藩ゆかりの資料や地域の民俗文化財を紹介し、隣接する矢島郷土文化保存伝習施設と一体で地域文化の保存・普及を担う。",
+  "confidence": "high"
+}

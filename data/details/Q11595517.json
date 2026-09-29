@@ -1,0 +1,47 @@
+{
+  "id": "Q11595517",
+  "checked_at": "2026-09-29T23:06:09+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.daisen.lg.jp/genre/culture/culture-facilities/exchange",
+  "address": "〒014-0063 秋田県大仙市大曲日の出町2丁目7-53",
+  "source_urls": [
+    "https://www.city.daisen.lg.jp/genre/culture/culture-facilities/exchange",
+    "https://www.mapion.co.jp/phonebook/M13007/05212/20530197534/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "21:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [
+    {
+      "weekday": "mon",
+      "nth": [2, 4]
+    }
+  ],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "大曲",
+      "lines": "JR奥羽本線・田沢湖線・秋田新幹線",
+      "exit": null,
+      "walk_min": null,
+      "note": "JR大曲駅から徒歩圏内"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公民館・交流施設。展示・博物館機能については詳細不明。",
+  "confidence": "medium"
+}

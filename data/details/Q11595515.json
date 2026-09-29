@@ -1,0 +1,59 @@
+{
+  "id": "Q11595515",
+  "checked_at": "2026-09-29T23:05:41+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kawatsura.or.jp/",
+  "address": "〒012-0105 秋田県湯沢市川連町字大舘中野142-1",
+  "source_urls": [
+    "https://www.kawatsura.or.jp/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {
+      "from": "2026-12-31",
+      "to": "2027-01-05",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "川連漆器 歴史資料館（常設）",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "2階に川連漆器の歴史資料を常設展示。通年",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "湯沢",
+      "lines": "JR奥羽本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "湯沢駅よりバスで15分"
+    }
+  ],
+  "highlights": "川連漆器（かわつらしっき）の産地・湯沢市川連にある伝統工芸館。2階の歴史資料館では漆器の歴史と技法を紹介。1階では職人による実演や沈金・蒔絵体験プログラムも行われており、伝統工芸を間近に体験できる。",
+  "closed_between_exhibitions": false,
+  "notes": "体験プログラム（沈金・蒔絵体験）は別途料金2,750〜3,500円。定期休館日の記載はなかったが公式サイトの再確認を推奨。",
+  "confidence": "medium"
+}

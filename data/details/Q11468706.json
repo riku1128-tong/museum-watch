@@ -1,0 +1,62 @@
+{
+  "id": "Q11468706",
+  "checked_at": "2026-09-29T23:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.yamagata-yamagata.lg.jp/shisetsu/bunkasports/1008032/1005895.html",
+  "address": "〒990-0826 山形県山形市霞城町1-1（霞城公園内）",
+  "source_urls": [
+    "https://www.city.yamagata-yamagata.lg.jp/shisetsu/bunkasports/1008032/1005895.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "郷土史・医学関係資料展示",
+      "start": "2026-01-01",
+      "end": "2027-01-01",
+      "url": "https://www.city.yamagata-yamagata.lg.jp/shisetsu/bunkasports/1008032/1005895.html",
+      "kind": "collection",
+      "summary": "通年。山形市の郷土史資料と旧済生館に関する医学資料を1・2階で公開",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0,
+      "hours": [],
+      "closed_weekdays": [],
+      "closed_dates": []
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "山形",
+      "lines": "JR山形新幹線・奥羽本線",
+      "exit": "西口",
+      "walk_min": 15,
+      "note": "バス「霞城公園前」下車、東大手門経由で徒歩約15分"
+    }
+  ],
+  "highlights": "明治11年（1878年）竣工の擬洋風建築「旧済生館本館」を活用した無料の郷土館。国指定重要文化財の建物自体が見どころで、山形市の開明的な近代化の歩みを物語る。霞城公園（山形城跡）内にあり、公園散策とあわせて気軽に立ち寄ることができる。",
+  "closed_between_exhibitions": false,
+  "notes": "入館料は2009年4月1日より無料。季節やイベントによって開館時間が変更になる場合あり。",
+  "confidence": "high"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "wp-3aececfc",
+  "checked_at": "2026-09-29T23:14:27+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.takayamamuseum.jp/",
+  "address": "〒039-2501 青森県上北郡七戸町字荒熊内67-94（道の駅しちのへ・七戸町文化村内）",
+  "source_urls": [
+    "https://www.takayamamuseum.jp/",
+    "https://www.takayamamuseum.jp/guide/",
+    "https://www.takayamamuseum.jp/next_exhibition/",
+    "https://www.museum.or.jp/museum/566"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-28", "to": "2026-10-02", "reason": "展示替え休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "Art to You！障がい者芸術世界展 IN しちのへ 2026",
+      "start": "2026-10-03",
+      "end": "2026-10-25",
+      "url": "https://www.takayamamuseum.jp/next_exhibition/",
+      "kind": "special",
+      "summary": "東北障がい者芸術支援機構主催の公募展から入賞作品を展示。多彩な障がい者アートを紹介",
+      "recommend": "入館無料で気軽に立ち寄れる参加型企画展。東北の障がいのある作家たちの個性あふれる作品群に触れ、アートを通じた共生社会を考えるきっかけになる",
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": 500,
+  "access": [
+    {"station": "七戸十和田", "lines": "東北新幹線", "exit": null, "walk_min": 7, "note": null}
+  ],
+  "highlights": "七戸町出身の洋画家・鷹山宇一の油彩・木版・素描を核に、彼が収集した19世紀末〜20世紀初頭の装飾オイルランプも展示。同じ七戸ゆかりの上泉華陽ら地域作家の作品も収蔵する。道の駅しちのへ内の七戸町文化村に位置し、東北新幹線七戸十和田駅から徒歩でアクセスできる。",
+  "notes": "入館料は特別展ごとに異なる。2026年9月28日〜10月2日は展示替えのため休館。館内整備休館が1月下旬〜2月上旬に不定期で設けられる場合あり。",
+  "confidence": "high"
+}

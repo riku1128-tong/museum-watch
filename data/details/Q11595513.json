@@ -1,0 +1,71 @@
+{
+  "id": "Q11595513",
+  "checked_at": "2026-09-29T23:04:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.yurihonjo.lg.jp/shisetsu/1005609/1005612/1006450.html",
+  "address": "〒015-0011 秋田県由利本荘市石脇字弁慶川5",
+  "source_urls": [
+    "https://www.city.yurihonjo.lg.jp/shisetsu/1005609/1005612/1006450.html",
+    "https://www.city.yurihonjo.lg.jp/1001503/1002098/1002115/1003601.html",
+    "https://www.city.yurihonjo.lg.jp/1001503/1002098/1002115/1003600.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon", "tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "本荘の歴史と文化 常設展",
+      "start": "2026-01-01",
+      "end": "2027-03-31",
+      "url": "https://www.city.yurihonjo.lg.jp/1001503/1002098/1002115/1003601.html",
+      "kind": "collection",
+      "summary": "通年。遺跡出土物・むかしの道具・猿倉人形芝居・鳥海山信仰など本荘の歴史と文化を展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "本荘ごてんまりと全国コンクールの歩み 常設展",
+      "start": "2026-01-01",
+      "end": "2027-03-31",
+      "url": "https://www.city.yurihonjo.lg.jp/1001503/1002098/1002115/1003601.html",
+      "kind": "collection",
+      "summary": "通年。本荘ごてんまりと本荘刺し子の展示。製作道具や歴史を紹介",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "羽後本荘",
+      "lines": "JR羽越本線",
+      "exit": null,
+      "walk_min": 28,
+      "note": "徒歩約28分（2km）。バス利用を推奨。"
+    }
+  ],
+  "highlights": "本荘城下町の歴史と民俗を伝える郷土資料館。秋田を代表する工芸品「本荘ごてんまり」と「本荘刺し子」の常設展示が充実しており、年4回の企画展では地域の多彩な文化を紹介する。",
+  "closed_between_exhibitions": false,
+  "notes": "常設展は無料。企画展は大人100円（20名以上は50円）、学生無料。月・火曜定休（祝日の場合は次の平日）。",
+  "confidence": "high"
+}

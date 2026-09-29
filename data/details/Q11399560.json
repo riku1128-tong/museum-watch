@@ -1,0 +1,70 @@
+{
+  "id": "Q11399560",
+  "checked_at": "2026-09-29T23:10:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.town.ibigawa.lg.jp/site/kankou/1363.html",
+  "address": "〒501-0603 岐阜県揖斐郡揖斐川町上南方901-5",
+  "source_urls": [
+    "https://www.town.ibigawa.lg.jp/site/kankou/1363.html",
+    "https://www.kankou-gifu.jp/spot/detail_7010.html",
+    "https://ja.wikipedia.org/wiki/%E6%8F%96%E6%96%90%E5%B7%9D%E6%AD%B4%E5%8F%B2%E6%B0%91%E4%BF%97%E8%B3%87%E6%96%99%E9%A4%A8"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "戦国武将 稲葉一鉄",
+      "start": "2026-10-16",
+      "end": "2026-11-29",
+      "url": "https://www.town.ibigawa.lg.jp/site/kankou/1363.html",
+      "kind": "special",
+      "summary": "室町末期から安土桃山時代に活躍した美濃三人衆の一人・稲葉一鉄（稲葉良通）の甲冑などを特集",
+      "recommend": "揖斐川町ゆかりの戦国武将・稲葉一鉄の甲冑や関連資料を紹介。美濃三人衆の一人として織田信長を支えた武将の実像に迫る企画展。",
+      "admission": "一般 110円",
+      "adult_price": 110
+    },
+    {
+      "title": "常設展示",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。縄文〜古墳時代の石器・土器、揖斐川舟運資料、揖斐まつり曳山模型、旧徳山村移築民家など",
+      "recommend": null,
+      "admission": "一般 110円",
+      "adult_price": 110
+    }
+  ],
+  "adult_price": 110,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "揖斐",
+      "lines": "養老鉄道養老線",
+      "exit": null,
+      "walk_min": null,
+      "note": "車で約10分（4.3km）"
+    }
+  ],
+  "highlights": "揖斐川町の歴史と民俗を伝える資料館。縄文・古墳時代の石器・土器から、揖斐川の舟運をしのぶ漁具、揖斐まつりの曳山模型まで幅広い展示。旧徳山村から移築した民家（町指定文化財）も見どころ。戦国武将・稲葉一鉄ゆかりの甲冑も所蔵する。",
+  "notes": "毎週月曜日は祝日でも休館（holiday_rule: closed）。国民の祝日の翌日も休館（翌日が土日月の場合は火曜休館）。資料整理・展示替え期間も臨時休館あり。",
+  "confidence": "high"
+}

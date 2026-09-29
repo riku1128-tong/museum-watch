@@ -1,0 +1,92 @@
+{
+  "id": "Q17225728",
+  "checked_at": "2026-09-29T23:15:54+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.rokkatei.co.jp/facilities/%E4%B8%AD%E6%9C%AD%E5%86%85%E7%BE%8E%E8%A1%93%E6%9D%91/",
+  "address": "北海道中川郡中札内村字栄東4-6",
+  "source_urls": [
+    "https://www.rokkatei.co.jp/facilities/%E4%B8%AD%E6%9C%AD%E5%86%85%E7%BE%8E%E8%A1%93%E6%9D%91/",
+    "https://www.rokkatei.co.jp/facilities/",
+    "https://obikan.jp/post_spot/10033/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "16:00",
+      "from": "2026-04-29",
+      "to": "2026-05-31"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:00",
+      "from": "2026-06-01",
+      "to": "2026-07-31"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "16:00",
+      "from": "2026-08-01",
+      "to": "2026-09-30"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "15:00",
+      "from": "2026-10-01",
+      "to": "2026-10-31"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-11-01",
+      "to": "2027-04-28",
+      "reason": "冬季休園"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "相原求一朗記念館 常設展",
+      "start": "2026-04-29",
+      "end": "2026-10-31",
+      "url": "https://www.rokkatei.co.jp/facilities/%E4%B8%AD%E6%9C%AD%E5%86%85%E7%BE%8E%E8%A1%93%E6%9D%91/",
+      "kind": "collection",
+      "summary": "北海道の自然を力強く描いた洋画家・相原求一朗の作品を展示する常設館。通年（開園期間中）",
+      "recommend": null,
+      "admission": "美術館エリア無料（寄付受け付け）",
+      "adult_price": 0
+    },
+    {
+      "title": "小泉淳作記念館 常設展",
+      "start": "2026-04-29",
+      "end": "2026-10-31",
+      "url": "https://www.rokkatei.co.jp/facilities/%E4%B8%AD%E6%9C%AD%E5%86%85%E7%BE%8E%E8%A1%93%E6%9D%91/",
+      "kind": "collection",
+      "summary": "仏画・日本画で知られる日本画家・小泉淳作の作品を展示する常設館。通年（開園期間中）",
+      "recommend": null,
+      "admission": "美術館エリア無料（寄付受け付け）",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "access": [
+    {
+      "station": "帯広",
+      "lines": "JR根室本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "JR帯広駅から車で約40分。とかち帯広空港から車で約15分。駐車場130台"
+    }
+  ],
+  "highlights": "六花亭が運営する中札内村の複合芸術施設。相原求一朗・小泉淳作の記念館のほか、企画公募展の北の大地美術館、庭園内の真野正美作品館などが点在。広大な北海道の自然の中でアートとお菓子の世界を体験できる。開園期間は4月下旬〜10月末。",
+  "closed_between_exhibitions": false,
+  "notes": "六花亭アートヴィレッジ 中札内美術村。museums.jsonのofficial_urlはwww.obihiro.or.jp/nakasatsu/だったが、現在は存在しないため六花亭公式サイトに更新。美術館エリア（相原・小泉の記念館など）は入館無料（寄付受付）、庭園エリア（真野正美作品館含む）は有料チケット制（大人1,000円）。火〜金は美術館と庭園のみ開放、レストラン等は土日月祝のみ営業。",
+  "confidence": "medium"
+}

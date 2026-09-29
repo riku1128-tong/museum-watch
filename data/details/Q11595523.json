@@ -1,0 +1,83 @@
+{
+  "id": "Q11595523",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "address": "秋田県にかほ市象潟町大塩越36-1",
+  "source_urls": [
+    "https://www.city.nikaho.akita.jp/soshikikarasagasu/bunkazaihogoka/gyomuannai/2/1/1025.html",
+    "https://nikaho-kanko.jp/kisakatakyoudoshiryoukan/",
+    "https://akita-fun.jp/spots/618"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "from": "2026-03-01",
+      "to": "2026-10-31"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:00",
+      "from": "2026-11-01",
+      "to": "2027-02-28"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "「おくのほそ道」象潟の変遷をたどる",
+      "start": "2026-06-06",
+      "end": "2027-05-23",
+      "kind": "collection",
+      "summary": "松尾芭蕉が訪れた象潟の1804年地震前後の景観変遷や芭蕉の足跡を資料で紹介",
+      "recommend": "潟の時代から陸地へと変貌した象潟の歴史を芭蕉の視点でたどれる通常展示。825分の1の模型・象潟図屏風・埋もれ木など唯一無二の展示物が揃う",
+      "admission": "一般150円",
+      "adult_price": 150
+    },
+    {
+      "title": "池田修三作品展「おもひで」前期",
+      "start": "2026-06-06",
+      "end": "2026-10-25",
+      "kind": "special",
+      "summary": "木版画家・池田修三の作品を展示する企画展（前期）",
+      "recommend": null,
+      "admission": "一般150円",
+      "adult_price": 150
+    },
+    {
+      "title": "池田修三作品展「おもひで」後期",
+      "start": "2026-10-27",
+      "end": "2027-05-23",
+      "kind": "special",
+      "summary": "木版画家・池田修三の作品を展示する企画展（後期）",
+      "recommend": null,
+      "admission": "一般150円",
+      "adult_price": 150
+    }
+  ],
+  "adult_price": 150,
+  "access": [
+    {
+      "station": "象潟",
+      "lines": "JR羽越本線",
+      "walk_min": 15,
+      "note": "車の場合は象潟駅から約5分、日本海東北自動車道「象潟IC」より約3分"
+    }
+  ],
+  "highlights": "松尾芭蕉が『おくのほそ道』で訪れた象潟の歴史と地形変遷を伝える資料館。1804年の地震で潟から陸地へ変貌する前の景観を825分の1の模型で再現し、藩主が描かせた象潟図屏風や2500年前の埋もれ木も展示する。",
+  "confidence": "high"
+}

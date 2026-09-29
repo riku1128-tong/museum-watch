@@ -1,0 +1,60 @@
+{
+  "id": "Q5771042",
+  "checked_at": "2026-09-29T23:23:32+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://senju-museum.jp/",
+  "address": "〒389-0111 長野県北佐久郡軽井沢町長倉815",
+  "source_urls": [
+    "https://senju-museum.jp/",
+    "https://senju-museum.jp/guide/",
+    "https://senju-museum.jp/access/",
+    "https://www.senju-museum.jp/exhibition/3850/",
+    "https://www.senju-museum.jp/gallery/3938/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-26", "to": "2027-02-28", "reason": "冬期休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "シンウォーターフォール　千住博が山水図で描く時空の記憶、未来と希望",
+      "start": "2026-03-01",
+      "end": "2026-12-25",
+      "url": "https://www.senju-museum.jp/exhibition/3850/",
+      "kind": "special",
+      "summary": "開館15周年記念。新作「ウォーターフォール・オン・カラーズ白糸の滝」を軸に、ウォーターフォール・崖・森シリーズ15年の集大成",
+      "recommend": "軽井沢の名所「白糸の滝」を題材にした新作大型ウォーターフォール作品と、15年にわたる山水図の展開を一覧できる記念的な展覧会。自然光が変化する建築空間とともに鑑賞できる",
+      "admission": "一般1,500円",
+      "adult_price": 1500
+    },
+    {
+      "title": "シンウォーターフォール　回廊 -Corridor（コリドー）-",
+      "start": "2026-07-02",
+      "end": "2026-11-23",
+      "url": "https://www.senju-museum.jp/gallery/3938/",
+      "kind": "special",
+      "summary": "15周年記念。歴代企画展ポスターと「白糸の滝」制作ドキュメンタリー映像をギャラリーで展示",
+      "recommend": "開館以来の企画展ポスター一覧と、2025〜2026年の新作制作を追ったドキュメンタリー映像が見られる。軽井沢の四季を背景に千住博の15年の歩みを振り返れる貴重な機会",
+      "admission": "一般1,500円",
+      "adult_price": 1500
+    }
+  ],
+  "adult_price": 1500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "軽井沢", "lines": "JR北陸新幹線・しなの鉄道", "exit": null, "walk_min": null, "note": "軽井沢駅からタクシーで約10分"},
+    {"station": "中軽井沢", "lines": "しなの鉄道", "exit": null, "walk_min": null, "note": "中軽井沢駅からタクシーで約5分"}
+  ],
+  "highlights": "SANAA（妹島和世＋西沢立衛）設計の建築で知られる千住博専属の美術館。天井近くまで広がる大型の滝の連作「ウォーターフォール」が見どころで、森に囲まれた自然光のなかで繊細な日本画を鑑賞できる。カフェ・ショップも完備。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「火曜日（祝日・GW・7〜9月は開館）」。7〜9月は火曜も開館するため、この期間の火曜は実質非休館。冬期休館は12月26日〜2月末日（毎年）。2027年3月以降の展覧会は未掲載。アクセスはタクシー利用が基本で、徒歩・バスによるアクセス情報は公式サイトに記載なし。",
+  "confidence": "high"
+}

@@ -1,7 +1,7 @@
 {
   "id": "Q11609688",
-  "checked_at": "2026-09-28T23:27:31+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-29T23:24:28+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://mmag.pref.gunma.jp/",
@@ -30,6 +30,28 @@
       "summary": "前橋出身の彫刻家・村山琴泉(1885-1967)の木彫を紹介する初の回顧展",
       "recommend": "団体展から離れ独自の道を歩んだ木彫家の仕事を、美術館で初めてまとまった形で紹介。兵役を経て木彫に専念した作家の、静かで力強い作品世界にふれられる。",
       "admission": "一般300円、大高生150円",
+      "adult_price": 300
+    },
+    {
+      "title": "コレクション展示：日本と西洋の近代美術Ⅰ",
+      "start": "2026-09-19",
+      "end": "2026-11-08",
+      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7191",
+      "kind": "collection",
+      "summary": "群馬県立近代美術館コレクションから日本と西洋の近代美術を紹介するコレクション展示",
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300
+    },
+    {
+      "title": "コレクション展示：新収蔵作品紹介",
+      "start": "2026-09-19",
+      "end": "2026-11-08",
+      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7198",
+      "kind": "collection",
+      "summary": "新たに収蔵した作品を紹介するコレクション展示",
+      "recommend": null,
+      "admission": "一般 300円",
       "adult_price": 300
     }
   ],

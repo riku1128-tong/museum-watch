@@ -1,0 +1,78 @@
+{
+  "id": "Q11595534",
+  "checked_at": "2026-09-29T23:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://sakitama-muse.spec.ed.jp/",
+  "address": "埼玉県行田市埼玉4834",
+  "source_urls": [
+    "https://sakitama-muse.spec.ed.jp/",
+    "https://sakitama-muse.spec.ed.jp/information",
+    "https://sakitama-muse.spec.ed.jp/%E4%BC%81%E7%94%BB%E5%B1%95%E3%83%BB%E7%89%B9%E5%88%A5%E5%B1%95",
+    "https://www.pref.saitama.lg.jp/shisetsu/hakubutsukan/001.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    },
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "from": "2026-07-01",
+      "to": "2026-08-31"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展示（埼玉古墳群と古代の北武蔵）",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": "https://sakitama-muse.spec.ed.jp/",
+      "kind": "collection",
+      "summary": "通年。国宝の金錯銘鉄剣や埼玉古墳群の出土品を中心に、古墳時代の北武蔵地域の歴史を紹介",
+      "recommend": null,
+      "admission": "一般 200円（団体120円）",
+      "adult_price": 200
+    },
+    {
+      "title": "令和8年度企画展「ヲワケの生きた時代－5世紀の北武蔵－」",
+      "start": "2026-10-03",
+      "end": "2026-11-23",
+      "url": "https://sakitama-muse.spec.ed.jp/%E4%BC%81%E7%94%BB%E5%B1%95%E3%83%BB%E7%89%B9%E5%88%A5%E5%B1%95",
+      "kind": "special",
+      "summary": "稲荷山古墳の金錯銘鉄剣に記された「ヲワケ」と5世紀の北武蔵地域の歴史に焦点を当てた展示",
+      "recommend": "稲荷山古墳の金錯銘鉄剣に刻まれた「ヲワケ」に焦点を当て、5世紀の北武蔵に生きた人々の姿を豊富な出土品で紹介する。大和王権との結びつきや地域の権力構造を、考古資料を通して立体的に描き出す。",
+      "admission": "一般 200円（団体120円）",
+      "adult_price": 200
+    }
+  ],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "吹上",
+      "lines": "JR高崎線",
+      "exit": null,
+      "walk_min": null,
+      "note": "北口から朝日バス（佐間経由行田折返し場・行田工業団地行）乗車、産業道路下車 徒歩約15分"
+    }
+  ],
+  "highlights": "国指定特別史跡「埼玉古墳群」の中に立つ考古博物館。稲荷山古墳から出土した国宝の金錯銘鉄剣をはじめ、古墳時代の北武蔵地域の歴史を豊富な出土品で紹介する。古代体験工房ではまが玉づくりなどの体験プログラムも充実している。",
+  "closed_between_exhibitions": false,
+  "notes": null,
+  "confidence": "high"
+}

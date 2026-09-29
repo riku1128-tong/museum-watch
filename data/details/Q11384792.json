@@ -1,0 +1,54 @@
+{
+  "id": "Q11384792",
+  "checked_at": "2026-09-29T23:04:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://toi-gold-mine.jp/",
+  "address": "〒410-3302 静岡県伊豆市土肥2726",
+  "source_urls": [
+    "https://toi-gold-mine.jp/",
+    "https://kanko.city.izu.shizuoka.jp/sightseeing/toikinzan/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "金坑めぐり・黄金館 常設展示",
+      "start": "2026-01-01",
+      "end": "2027-03-31",
+      "url": "https://toi-gold-mine.jp/",
+      "kind": "collection",
+      "summary": "通年。江戸時代の金鉱山を再現した坑道めぐりと黄金館で金の歴史を展示",
+      "recommend": null,
+      "admission": "大人1,200円・子供600円",
+      "adult_price": 1200
+    }
+  ],
+  "adult_price": 1200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "修善寺",
+      "lines": "伊豆箱根鉄道駿豆線",
+      "exit": null,
+      "walk_min": null,
+      "note": "修善寺駅または沼津・三島方面からバスで土肥金山前下車"
+    }
+  ],
+  "highlights": "江戸時代に栄えた土肥金山の坑道を再現したテーマパーク型施設。全長400mの坑道で採掘の歴史を体感でき、黄金館には世界最大級の金塊（250kg）を展示。砂金採り体験も人気。",
+  "closed_between_exhibitions": false,
+  "notes": "年中無休（12月・1月にメンテナンス休業あり。詳細は要問合せ）。",
+  "confidence": "medium"
+}

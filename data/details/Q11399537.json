@@ -1,0 +1,48 @@
+{
+  "id": "Q11399537",
+  "checked_at": "2026-09-29T23:06:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.takayama.lg.jp/shisetsu/1004141/1004142/1004245.html",
+  "address": "岐阜県高山市上三之町82",
+  "source_urls": [
+    "https://www.navitime.co.jp/poi?spot=00004-21103900015"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "08:30",
+      "close": "17:30",
+      "from": "2026-03-01",
+      "to": "2026-11-30"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:30",
+      "from": "2026-12-01",
+      "to": "2027-02-28"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "高山",
+      "lines": "JR高山本線",
+      "walk_min": 15,
+      "note": null
+    }
+  ],
+  "highlights": "飛騨の民俗文化や考古資料を展示する小規模な施設。高山の古い町並みが残る上三之町に位置し、飛騨地方で出土した土器・石器や民俗資料を収蔵・展示する。さんまち通りの散策に合わせて立ち寄れる。",
+  "closed_between_exhibitions": false,
+  "notes": "元の公式URL（hida.jp）は404のため、公式URLを高山市サイトに修正。開館時間はNAVITIMEから取得（中間データ）。入館料・詳細展示情報は未取得。",
+  "confidence": "medium"
+}

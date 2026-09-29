@@ -1,0 +1,76 @@
+{
+  "id": "Q11450770",
+  "checked_at": "2026-09-29T23:22:10+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://chihiro.jp/azumino/",
+  "address": "〒399-8501 長野県北安曇郡松川村西原3358-24",
+  "source_urls": [
+    "https://chihiro.jp/azumino/",
+    "https://chihiro.jp/azumino/visit/",
+    "https://chihiro.jp/azumino/exhibitions/",
+    "https://chihiro.jp/azumino/exhibitions/00052/",
+    "https://chihiro.jp/azumino/exhibitions/00034/",
+    "https://chihiro.jp/azumino/exhibitions/14368/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "from": "2027-04-25", "to": "2027-05-06"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "from": "2027-07-18", "to": "2027-08-31"}
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [
+    {"weekday": "wed", "nth": [2, 4]}
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-16", "to": "2027-02-28", "reason": "冬期休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "いわさきちひろと堀文子　童画の世界",
+      "start": "2026-09-11",
+      "end": "2026-12-15",
+      "url": "https://chihiro.jp/azumino/exhibitions/00052/",
+      "kind": "special",
+      "summary": "同じ年に生まれたいわさきちひろ（1918-1974）と堀文子（1918-2019）の童画家としての仕事を比較しながら紹介",
+      "recommend": "戦後の絵雑誌や絵本の原画を通じ、平和への思いを根底に持ちながら異なる個性で世界を描いたふたりの仕事を並べて見られる。黒柳徹子館長の視点も交えた構成が見どころ。",
+      "admission": "大人1,200円（18歳以下無料）",
+      "adult_price": 1200
+    },
+    {
+      "title": "絵本の舞台を訪ねて　赤羽末吉の日本一周",
+      "start": "2026-09-11",
+      "end": "2026-12-15",
+      "url": "https://chihiro.jp/azumino/exhibitions/00034/",
+      "kind": "special",
+      "summary": "絵本画家・赤羽末吉（1910-1990）が旅の取材スケッチをもとに日本の風土を描いた絵本づくりの過程を紹介",
+      "recommend": "10冊のスケッチブックや取材ノートとともに絵本の原画を展示し、実地調査に基づいた創作の背景に迫れる。日本の四季と風土への深い愛情が伝わる展覧会。",
+      "admission": "大人1,200円（18歳以下無料）",
+      "adult_price": 1200
+    },
+    {
+      "title": "ちひろ美術館コレクション　波にゆられて舟の旅",
+      "start": "2026-09-11",
+      "end": "2026-12-15",
+      "url": "https://chihiro.jp/azumino/exhibitions/14368/",
+      "kind": "collection",
+      "summary": "コレクションから舟の旅をテーマに選んだ作品を展示。多様な絵本画家が描く舟と波の表現を比較しながら鑑賞できる",
+      "recommend": null,
+      "admission": "大人1,200円（18歳以下無料）",
+      "adult_price": 1200
+    }
+  ],
+  "adult_price": 1200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "信濃松川", "lines": "JR大糸線", "walk_min": null, "note": "信濃松川駅から約2.5km（タクシー約5分）。駐車場150台・大型バス8台完備"}
+  ],
+  "highlights": "いわさきちひろが愛した安曇野の自然に囲まれた美術館。建築家・内藤廣が設計した切妻屋根の建物は北アルプスの山々と調和し、世界35ヶ国228人の絵本画家の原画約28,000点（うちちひろの遺作約9,654点）を所蔵する。復元されたちひろの黒姫山荘やパツォウスカーの庭なども見どころ。冬期は休館。",
+  "closed_between_exhibitions": false,
+  "notes": "第2・4水曜が定休日（水曜が祝日の場合は翌日休館）。GW（4/25〜5/6）と夏期（7/18〜8/31）は開館時間が9:00〜17:00に変わり無休。冬期休館は12/16〜2/28（2026-2027年度）。入館料は大人1,200円、18歳以下無料（高校生以下、他に65歳以上900円・学生900円）。",
+  "confidence": "high"
+}

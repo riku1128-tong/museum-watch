@@ -1,0 +1,17 @@
+{
+  "id": "Q11468711",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "unknown",
+  "status_note": "公式サイトのドメイン（www.nonohanabijutsukan.com）が存在しない。閉館の可能性あり。",
+  "address": null,
+  "source_urls": [],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "confidence": "low"
+}

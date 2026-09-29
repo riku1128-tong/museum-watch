@@ -1,0 +1,58 @@
+{
+  "id": "Q11648286",
+  "checked_at": "2026-09-29T23:22:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://k-bijutsukan.net/",
+  "address": "〒085-0836 北海道釧路市幣舞町4-28（生涯学習センターまなぼっと幣舞3F）",
+  "source_urls": [
+    "https://k-bijutsukan.net/",
+    "https://k-bijutsukan.net/info/",
+    "https://k-bijutsukan.net/exposition/kiji2026/",
+    "https://k-bijutsukan.net/exposition/collectionthroughthrlends2026/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "生誕90周年 木路毛五郎展",
+      "start": "2026-09-05",
+      "end": "2026-10-18",
+      "url": "https://k-bijutsukan.net/exposition/kiji2026/",
+      "kind": "special",
+      "summary": "釧路出身の洋画家・木路毛五郎の生誕90周年を記念した回顧展",
+      "recommend": null,
+      "admission": "一般 600円",
+      "adult_price": 600
+    },
+    {
+      "title": "コレクションを通して見える新しい側面",
+      "start": "2026-10-31",
+      "end": "2026-12-06",
+      "url": "https://k-bijutsukan.net/exposition/collectionthroughthrlends2026/",
+      "kind": "collection",
+      "summary": "所蔵コレクション50点のデジタルアーカイブ化の取り組みで、特殊光撮影による作品の新たな側面を紹介",
+      "recommend": null,
+      "admission": "一般 140円",
+      "adult_price": 140
+    }
+  ],
+  "adult_price": 140,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "釧路", "lines": "JR根室本線・釧網本線", "exit": null, "walk_min": 20, "note": "JR釧路駅からタクシーで約5分。または釧路駅前バスターミナルからバス利用可"}
+  ],
+  "highlights": "北海道東部・釧路ゆかりの作家の作品を中心に収蔵・展示する地域密着型の美術館。生涯学習センター（まなぼっと幣舞）3階に位置し、釧路の風土が育んだ絵画や彫刻を通じて道東の美術文化を紹介する。所蔵作品のデジタルアーカイブ化にも取り組み、特殊光撮影による新視点を提示する。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館。特別展会期中の月曜日が祝日・振替休日の場合は開館（振替休館なし）。年末年始（12/29〜1/3）休館。展示替え期間も休館（日程は公式サイト参照）。入館料は展覧会ごとに異なる（コレクション展は一般140円）。65歳以上の釧路市民・障がい者手帳所持者等は無料。",
+  "confidence": "high"
+}

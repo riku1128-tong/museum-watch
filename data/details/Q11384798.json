@@ -1,0 +1,54 @@
+{
+  "id": "Q11384798",
+  "checked_at": "2026-09-29T23:08:10+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "official_url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/toshokan_bunka/tenji/1003509.html",
+  "address": "〒438-0086 静岡県磐田市見付2452",
+  "source_urls": [
+    "https://www.city.iwata.shizuoka.jp/shisetsu_guide/toshokan_bunka/tenji/1003509.html",
+    "https://kanko-iwata.jp/spot/tanoshimu-298/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "旧見付学校常設展示",
+      "start": "2020-01-01",
+      "end": "2027-09-29",
+      "kind": "collection",
+      "summary": "通年。明治期の教育資料・教科書・授業風景の再現展示、「伝酒井の太鼓」などを展示",
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "磐田",
+      "lines": "JR東海道本線",
+      "walk_min": null,
+      "note": "JR磐田駅前バスターミナル1番のりばから遠鉄バス31「磐田市立病院行き」乗車、「旧見付学校」バス停下車徒歩約1分"
+    }
+  ],
+  "highlights": "明治8年竣工の現存する日本最古の木造擬洋風小学校校舎。国指定史跡で、隣接する旧磐田文庫とともに保存されている。校内には授業風景の再現展示や「伝酒井の太鼓」などの教育資料があり、文明開化期の教育の歴史を体感できる。",
+  "notes": "月曜が祝日・振替休日の場合は開館。国民の祝日の翌日も休館（土日月にあたる場合は翌火曜）。",
+  "confidence": "high"
+}

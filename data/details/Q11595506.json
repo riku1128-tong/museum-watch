@@ -1,0 +1,60 @@
+{
+  "id": "Q11595506",
+  "checked_at": "2026-09-29T23:06:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.odate.lg.jp/museum",
+  "address": "〒017-0012 秋田県大館市釈迦内字獅子ヶ森1番地",
+  "source_urls": [
+    "https://www.city.odate.lg.jp/museum",
+    "https://www.city.odate.lg.jp/museum/information",
+    "https://www.city.odate.lg.jp/museum/news/p12283"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "木村泰治コレクション　～あなたは知っていますか　木村泰治という人を～",
+      "start": "2026-09-19",
+      "end": "2026-11-15",
+      "url": "https://www.city.odate.lg.jp/museum/news/p12283",
+      "kind": "special",
+      "summary": "大館出身の実業家・木村泰治（1870-1961）が収集した書・画・長慶金山関連資料などを紹介",
+      "recommend": "地元大館で長年顕彰されてきた実業家・木村泰治の珍しいコレクションを初公開。「貼交屏風」など郷土ゆかりの希少資料が一堂に会する、開館30周年記念の特別展。",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 330,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "大館",
+      "lines": "JR花輪線・奥羽本線",
+      "walk_min": null,
+      "note": "JR大館駅から秋北バス獅子ヶ森行きで約15分、終点下車徒歩3分。無料駐車場50台。"
+    }
+  ],
+  "highlights": "秋田県大館市の自然豊かな獅子ヶ森に立つ郷土博物館。地域の自然・産業・歴史を紹介する展示館のほか、大館ゆかりの美術作品展示室・曲げわっぱ展示室・こども科学室を備える。長走風穴や芝谷地湿原など周辺の自然環境とも連携した活動を行う。",
+  "closed_between_exhibitions": false,
+  "notes": null,
+  "confidence": "high"
+}

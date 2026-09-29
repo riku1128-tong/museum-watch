@@ -1,0 +1,48 @@
+{
+  "id": "Q22118917",
+  "checked_at": "2026-09-29T23:22:10+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://sugimurajun.shiomo.jp/",
+  "address": "〒985-0052 宮城県塩竈市本町8番1号",
+  "source_urls": [
+    "https://sugimurajun.shiomo.jp/",
+    "https://sugimurajun.shiomo.jp/planning",
+    "https://sugimurajun.shiomo.jp/archives/14752",
+    "https://sugimurajun.shiomo.jp/access"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "杉村惇賞受賞者　釣舟富紀子展",
+      "start": "2026-11-03",
+      "end": "2026-11-08",
+      "url": "https://sugimurajun.shiomo.jp/archives/14752",
+      "kind": "special",
+      "summary": "第78回塩竈市美術展「杉村惇賞」受賞者・釣舟富紀子の作品展。塩竈の風景と架空の地方都市を描くアクリル画・日本画材作品",
+      "recommend": "塩竈市在住の画家が地元の風景をモチーフに描いたアクリル画と日本画材作品を一堂に展示。地域の視点から創り出された架空の都市の表情が楽しめる受賞記念展。",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "本塩釜", "lines": "JR仙石線", "walk_min": 10},
+    {"station": "塩釜", "lines": "JR東北本線", "walk_min": 20}
+  ],
+  "highlights": "1950年建造の旧塩竈市公民館本町分室を改修した、昭和レトロな大講堂が印象的な美術館。洋画家・杉村惇（1910–2004）の作品を核に、若手作家支援プログラム「Voyage」や市美術展受賞者展など地域密着の企画を年間を通して開催する。建物自体も見どころのひとつ。",
+  "closed_between_exhibitions": false,
+  "notes": "GW等の長期連休は月曜でも開館（休館日の翌日振替なし）。入館料は常設展：一般200円・高校生100円・中学生以下無料、企画展は別料金の場合あり。Voyage2026（松田ハル展・あるがあく展）は9/6終了。市民ギャラリー（貸館）は企画展とは別で随時開催。公式サイトの元々のURL（city.shiogama.miyagi.jp/museum/）は404のため、実際の公式URL（sugimurajun.shiomo.jp）を official_url に記入。",
+  "confidence": "medium"
+}

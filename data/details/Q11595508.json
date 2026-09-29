@@ -1,0 +1,125 @@
+{
+  "id": "Q11595508",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "address": "〒010-0673 秋田県男鹿市戸賀塩浜",
+  "source_urls": [
+    "https://www.gao-aqua.jp/",
+    "https://www.gao-aqua.jp/news/49802.html",
+    "https://www.gao-aqua.jp/about/price/",
+    "https://www.gao-aqua.jp/about/access/",
+    "https://www.gao-aqua.jp/event/52359.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:00",
+      "from": "2026-04-01",
+      "to": "2026-10-31"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+      "open": "09:00",
+      "close": "16:00",
+      "last_entry": "15:00",
+      "from": "2026-11-01",
+      "to": "2027-02-28"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:00",
+      "from": "2027-03-01",
+      "to": "2027-03-31"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-10-15",
+      "to": "2026-10-15",
+      "reason": "休館日"
+    },
+    {
+      "from": "2026-11-19",
+      "to": "2026-11-19",
+      "reason": "休館日"
+    },
+    {
+      "from": "2026-12-17",
+      "to": "2026-12-17",
+      "reason": "休館日"
+    },
+    {
+      "from": "2027-01-14",
+      "to": "2027-01-14",
+      "reason": "休館日"
+    },
+    {
+      "from": "2027-01-21",
+      "to": "2027-01-21",
+      "reason": "休館日"
+    },
+    {
+      "from": "2027-01-25",
+      "to": "2027-01-29",
+      "reason": "休館日"
+    },
+    {
+      "from": "2027-02-04",
+      "to": "2027-02-04",
+      "reason": "休館日"
+    },
+    {
+      "from": "2027-02-18",
+      "to": "2027-02-18",
+      "reason": "休館日"
+    },
+    {
+      "from": "2027-02-25",
+      "to": "2027-02-25",
+      "reason": "休館日"
+    },
+    {
+      "from": "2027-03-18",
+      "to": "2027-03-18",
+      "reason": "休館日"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "1歳までのキセキをめぐる「モモ太のすくすくアニバーサリー」",
+      "start": "2026-09-16",
+      "end": "2026-12-06",
+      "url": "https://www.gao-aqua.jp/event/52359.html",
+      "kind": "special",
+      "summary": "ホッキョクグマ「モモ太」の1歳誕生を記念したスタンプラリー・成長記録パネル展示・フォトスポット",
+      "recommend": "スタンプを重ねると1つの絵柄になるラリーやクリアファイルのプレゼントなど参加型コンテンツが充実。11・12月には豪太・モモ・モモ太それぞれの誕生会も開催。",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 1300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "男鹿",
+      "lines": "JR男鹿線",
+      "exit": null,
+      "walk_min": null,
+      "note": "男鹿駅前から男鹿北線バスで「男鹿水族館前」下車。車で約30〜60分"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "休館日は毎月1回程度の木曜日（1月のみ複数回、1/25〜29は5日連続休館）。夏期は5/2〜5、8/14〜15は8:30〜18:00（最終入館17:00）、8/1〜13・8/16は9:00〜17:30（最終入館16:30）の延長営業あり。",
+  "confidence": "high"
+}

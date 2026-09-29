@@ -1,0 +1,121 @@
+{
+  "id": "Q11453791",
+  "checked_at": "2026-09-29T23:15:54+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.pref.miyagi.jp/site/mmoa/",
+  "address": "〒980-0862 宮城県仙台市青葉区川内元支倉34-1",
+  "source_urls": [
+    "https://www.pref.miyagi.jp/site/mmoa/",
+    "https://www.pref.miyagi.jp/site/mmoa/information-information-01.html",
+    "https://www.pref.miyagi.jp/site/mmoa/information-information-02.html",
+    "https://www.pref.miyagi.jp/site/mmoa/exhibition-00000000-s00-1.html",
+    "https://www.pref.miyagi.jp/site/mmoa/exhibition-20260912-s01-01.html",
+    "https://www.pref.miyagi.jp/site/mmoa/exhibition-20260902-p01-01.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "2026年度所蔵品展 第1期",
+      "start": "2026-09-02",
+      "end": "2026-11-03",
+      "url": "https://www.pref.miyagi.jp/site/mmoa/exhibition-20260902-p01-01.html",
+      "kind": "collection",
+      "summary": "洲之内コレクション・日本の近現代美術・カンディンスキーと同時代の美術・林明子の絵本原画・佐藤忠良の彫刻と素描",
+      "recommend": "150点超の林明子絵本原画と佐藤忠良の彫刻を同時に楽しめる充実の所蔵品展。洲之内コレクションの名品も見逃せない。",
+      "admission": "一般 350円（団体280円）、小〜大学生無料",
+      "adult_price": 350
+    },
+    {
+      "title": "カンディンスキー 世界は鳴りひびく ―日本のコレクションでたどる画業と反響―",
+      "start": "2026-09-12",
+      "end": "2026-10-28",
+      "url": "https://www.pref.miyagi.jp/site/mmoa/exhibition-20260912-s01-01.html",
+      "kind": "special",
+      "summary": "日本所蔵作品で辿るカンディンスキーの画業。ミュンヘンから青騎士・ロシア・バウハウス・パリへ、色と形の交響を紹介",
+      "recommend": "抽象絵画の先駆者を日本コレクション視点で読み解く意欲作。バウハウス指導期から円熟パリ期まで、日本人との出会いにも焦点を当てる。",
+      "admission": "一般 1,300円（団体1,100円）",
+      "adult_price": 1300
+    },
+    {
+      "title": "いま、私は現代アートと出会う",
+      "start": "2026-11-14",
+      "end": "2027-01-24",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "棟方志功展（仮）",
+      "start": "2027-02-06",
+      "end": "2027-03-28",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 350,
+  "free_days": [
+    {
+      "from": "2026-10-31",
+      "to": "2026-11-01",
+      "scope": "collection",
+      "reason": "東北文化の日（10月最終土曜・日曜）",
+      "source_url": "https://www.pref.miyagi.jp/site/mmoa/information-information-01.html"
+    },
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "collection",
+      "reason": "文化の日・開館記念日",
+      "source_url": "https://www.pref.miyagi.jp/site/mmoa/information-information-01.html"
+    }
+  ],
+  "free_rules": [
+    {
+      "weekday": "mon",
+      "nth": [3],
+      "scope": "collection",
+      "reason": "敬老の日（9月第3月曜）",
+      "source_url": "https://www.pref.miyagi.jp/site/mmoa/information-information-01.html"
+    }
+  ],
+  "access": [
+    {
+      "station": "国際センター",
+      "lines": "仙台市地下鉄東西線",
+      "exit": "西1出口",
+      "walk_min": 7,
+      "note": null
+    },
+    {
+      "station": "川内",
+      "lines": "仙台市地下鉄東西線",
+      "exit": "北1出口",
+      "walk_min": 7,
+      "note": null
+    }
+  ],
+  "highlights": "2026年6月にリニューアルオープンした宮城県の総合美術館。佐藤忠良記念館を併設し、洲之内コレクションをはじめ幅広い近現代作品を所蔵する。常設の所蔵品展では林明子の絵本原画・佐藤忠良の彫刻など多彩な切り口で宮城の美術を紹介。仙台城跡そばの緑豊かな環境に立地し、地下鉄東西線からのアクセスも良い。",
+  "closed_between_exhibitions": false,
+  "notes": "2026年6月20日にリニューアルオープン。特別展は有料（所蔵品展と別料金）。文化の日・開館記念日・東北文化の日・敬老の日などは所蔵品展が無料。",
+  "confidence": "high"
+}

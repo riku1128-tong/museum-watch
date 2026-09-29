@@ -1,0 +1,36 @@
+{
+  "id": "Q11399545",
+  "checked_at": "2026-09-29T23:05:41+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "2024年4月1日より休館中。2028年に新博物館としてオープン予定。",
+  "official_url": "https://www.city.toki.lg.jp/kanko/bunkazai/1006472/1004842/index.html",
+  "address": "〒509-5142 岐阜県土岐市泉町久尻1263",
+  "source_urls": [
+    "https://www.city.toki.lg.jp/kanko/bunkazai/1006472/1004842/1004532.html",
+    "https://www.city.toki.lg.jp/kanko/bunkazai/1006472/1004842/index.html",
+    "https://www.museum.or.jp/museum/4213"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "土岐市",
+      "lines": "JR中央線",
+      "exit": null,
+      "walk_min": 10
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "休館前の開館時間は10:00〜16:30（入館16:00まで）、月曜・祝日翌日・12/26〜1/6休館、入館料一般200円。2028年に新施設として再オープン予定（土岐市文化振興事業団HPで告知）。",
+  "confidence": "high"
+}

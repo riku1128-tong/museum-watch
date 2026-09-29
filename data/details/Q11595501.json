@@ -1,0 +1,116 @@
+{
+  "id": "Q11595501",
+  "checked_at": "2026-09-29T23:01:13+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.akihaku.jp/",
+  "address": "〒010-0124 秋田県秋田市金足鳰崎字後山52",
+  "source_urls": [
+    "https://www.akihaku.jp/",
+    "https://www.akihaku.jp/exhibition/",
+    "https://www.akihaku.jp/exhibition-i/exhibition-i-10537/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "16:30",
+      "from": "2026-04-01",
+      "to": "2026-10-31"
+    },
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "16:00",
+      "from": "2026-11-01",
+      "to": "2027-03-31"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "シン・秋田画人伝 補遺と訂正のジレンマ",
+      "start": "2026-09-19",
+      "end": "2026-11-29",
+      "url": "https://www.akihaku.jp/exhibition-i/exhibition-i-10537/",
+      "kind": "special",
+      "summary": "1975年刊「秋田書画人伝」の誤記・補遺を美術史研究で再検証",
+      "recommend": "刊行から半世紀を経た秋田の画人研究書の補遺と訂正を試みる意欲的な展覧会。各機関の研究者が集結し、美術史研究の最前線を紹介する。入場無料。",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "秋田で見ない？鉱山(やま)の石たち",
+      "start": "2025-10-24",
+      "end": "2026-10-30",
+      "url": "https://www.akihaku.jp/exhibition-i/exhibition-i-9759/",
+      "kind": "special",
+      "summary": "秋田の鉱山の歴史と鉱石を紹介",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "栗駒山麓の縄文人 成瀬ダム建設地内の発掘調査から",
+      "start": "2026-03-18",
+      "end": "2027-02-21",
+      "url": "https://www.akihaku.jp/exhibition-i/exhibition-i-10022/",
+      "kind": "special",
+      "summary": "成瀬ダム建設に伴う発掘調査で出土した縄文遺物を展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "追分",
+      "lines": "JR奥羽本線",
+      "exit": null,
+      "walk_min": 20
+    },
+    {
+      "station": "秋田",
+      "lines": "JR各線",
+      "exit": null,
+      "walk_min": null,
+      "note": "秋田駅から五城目線バス「金足農業高校入口」下車徒歩約15分。または秋田北ICから車で約15分"
+    }
+  ],
+  "highlights": "秋田市郊外の自然豊かな環境に立つ総合博物館。自然・考古・歴史・民俗の4部門と菅江真澄資料センターを有し、入館無料（特別展除く）。秋田の自然史から民俗まで幅広い展示が楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "全館燻蒸消毒期間中は臨時休館（年間1回程度）。",
+  "confidence": "high"
+}

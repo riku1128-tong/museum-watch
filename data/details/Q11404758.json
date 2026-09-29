@@ -1,0 +1,78 @@
+{
+  "id": "Q11404758",
+  "checked_at": "2026-09-29T23:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.kasaoka.okayama.jp/site/museum/",
+  "address": "〒714-0087 岡山県笠岡市六番町1-17",
+  "source_urls": [
+    "https://www.city.kasaoka.okayama.jp/site/museum/",
+    "https://www.city.kasaoka.okayama.jp/site/museum/list41.html",
+    "https://www.city.kasaoka.okayama.jp/site/museum/3164.html",
+    "https://www.city.kasaoka.okayama.jp/site/museum/77147.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-05",
+      "to": "2026-10-16",
+      "reason": "陳列替期間（推定：テーマ展後期終了後・特別展開始前）"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "テーマ展示「絵のなかの いきものたち」後期",
+      "start": "2026-09-05",
+      "end": "2026-10-04",
+      "url": null,
+      "kind": "special",
+      "summary": "動物・植物など自然の生き物をモチーフにした作品を紹介するテーマ展。後期",
+      "recommend": null,
+      "admission": "一般 600円",
+      "adult_price": 600
+    },
+    {
+      "title": "特別展「榊原始更 伝統に息づく革新」",
+      "start": "2026-10-17",
+      "end": "2026-11-29",
+      "url": "https://www.city.kasaoka.okayama.jp/site/museum/77147.html",
+      "kind": "special",
+      "summary": "日本画家・榊原始更（1895〜1969）の回顧展。初期から晩年まで70点を展示",
+      "recommend": "没後半世紀以上を経て開催される待望の回顧展。伝統的な日本画に洋画の革新的影響を取り入れた独自の画風を、初期スケッチから晩年まで70点で体感できる。",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 600,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "笠岡",
+      "lines": "JR山陽本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "JR笠岡駅からバス利用（時刻表は竹喬美術館ウェブサイトで確認）"
+    }
+  ],
+  "highlights": "近代日本画の巨匠・小野竹喬の作品を中心に収蔵・展示する笠岡市立の美術館。竹喬の繊細で詩情あふれる風景画が常設展示の核を成す。特別展では竹喬ゆかりの作家や日本画の世界を多彩に紹介する。2026年4月より入館料が改定。",
+  "closed_between_exhibitions": false,
+  "notes": "陳列替期間中は休館。令和8年4月1日より入館料改定。特別展の入館料は展覧会ごとに異なる。",
+  "confidence": "medium"
+}

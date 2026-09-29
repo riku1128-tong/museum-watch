@@ -1,0 +1,61 @@
+{
+  "id": "Q11404944",
+  "checked_at": "2026-09-29T23:14:25+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://towadaartcenter.com/",
+  "address": "〒034-0082 青森県十和田市西二番町10-9",
+  "source_urls": [
+    "https://towadaartcenter.com/",
+    "https://towadaartcenter.com/visit/",
+    "https://towadaartcenter.com/collection/",
+    "https://towadaartcenter.com/exhibitions/tsubaki_noboru/",
+    "https://towadaartcenter.com/exhibitions/steve_bishop/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-24", "to": "2026-10-24", "reason": "臨時休館"},
+    {"from": "2027-04-01", "to": "2028-03-31", "reason": "空調設備改修工事"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "椿昇 フリーダムー像(ゾウ)と生きる",
+      "start": "2026-06-06",
+      "end": "2026-11-08",
+      "url": "https://towadaartcenter.com/exhibitions/tsubaki_noboru/",
+      "kind": "special",
+      "summary": "制作活動40年超の椿昇が新たに制作した巨大ゾウ像を中心に、同調圧力社会の中の自由を問う",
+      "recommend": "巨大生命体造形で社会問題を問いかけてきた椿昇が、地上最大の哺乳類・ゾウをモチーフに新作を制作。「私たちの日常の行為や思考」を問い直す体験型の展示で、常設の草間彌生や奈良美智作品との共演も見どころ。",
+      "admission": "一般 1,800円（常設展含む）",
+      "adult_price": 1800
+    },
+    {
+      "title": "スティーヴ・ビショップ展（仮称）",
+      "start": "2026-12-05",
+      "end": "2027-03-31",
+      "url": "https://towadaartcenter.com/exhibitions/steve_bishop/",
+      "kind": "special",
+      "summary": "映像・音響・彫刻を組み合わせた没入型インスタレーション。不在や記憶をテーマにした日本初個展",
+      "recommend": "映像・音響・彫刻を組み合わせた没入型インスタレーションで不在や記憶を探求するイギリス人作家の日本初個展。初期代表作から世界初公開の最新作までを一堂に見られる貴重な機会。",
+      "admission": "一般 1,800円（常設展含む）",
+      "adult_price": 1800
+    }
+  ],
+  "adult_price": 1800,
+  "closed_between_exhibitions": false,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "七戸十和田", "lines": "JR東北新幹線", "walk_min": null, "note": "バス約35分またはタクシー約20分"},
+    {"station": "八戸", "lines": "JR東北新幹線・八戸線・青い森鉄道", "walk_min": null, "note": "バス約60分またはタクシー約40分"}
+  ],
+  "highlights": "草間彌生・奈良美智・塩田千春・レアンドロ・エルリッヒら世界的現代アーティストの大型常設作品が青森・十和田市内の街区に点在。館内外一体で現代アートを体感できるまちなか型の美術館で、都市空間とアートが融合した独自のスケール感が魅力。",
+  "notes": "月曜休館（月曜日が祝日の場合は翌日休館）。2026年10月24日（土）は臨時休館。2027年4月1日〜2028年3月31日は空調設備改修工事のため休館予定。",
+  "confidence": "high"
+}

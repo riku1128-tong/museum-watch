@@ -1,0 +1,124 @@
+{
+  "id": "wp-2afa2d49",
+  "checked_at": "2026-09-29T23:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.semboku.akita.jp/sightseeing/hirafuku/",
+  "address": "〒014-0334 秋田県仙北市角館町表町上丁4-4",
+  "source_urls": [
+    "https://www.city.semboku.akita.jp/sightseeing/hirafuku/",
+    "https://www.city.semboku.akita.jp/sightseeing/hirafuku/riyou.html",
+    "https://www.city.semboku.akita.jp/sightseeing/hirafuku/tenji2026.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "from": "2026-04-01",
+      "to": "2026-11-30"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "from": "2026-12-01",
+      "to": "2027-03-31"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {
+      "from": "2026-09-24",
+      "to": "2026-09-30",
+      "reason": "展示替え休館"
+    },
+    {
+      "from": "2026-11-13",
+      "to": "2026-11-27",
+      "reason": "展示替え休館"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    },
+    {
+      "from": "2027-01-26",
+      "to": "2027-01-31",
+      "reason": "展示替え休館"
+    },
+    {
+      "from": "2027-02-16",
+      "to": "2027-02-23",
+      "reason": "展示替え休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "平福穂庵・百穂展",
+      "start": "2026-10-01",
+      "end": "2026-11-12",
+      "url": null,
+      "kind": "collection",
+      "summary": "秋田ゆかりの日本画家・平福穂庵と息子の百穂の常設展示",
+      "recommend": null,
+      "admission": "大人 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "第4回はんぽの会 日本画展",
+      "start": "2026-10-01",
+      "end": "2026-11-12",
+      "url": null,
+      "kind": "special",
+      "summary": "日本画グループ「はんぽの会」による企画展",
+      "recommend": null,
+      "admission": "大人 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "平福穂庵・百穂展",
+      "start": "2026-12-01",
+      "end": "2027-01-24",
+      "url": null,
+      "kind": "collection",
+      "summary": "秋田ゆかりの日本画家・平福穂庵と息子の百穂の常設展示",
+      "recommend": null,
+      "admission": "大人 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "第49回児童生徒県南美術展",
+      "start": "2026-12-01",
+      "end": "2027-01-24",
+      "url": null,
+      "kind": "special",
+      "summary": "秋田県南地域の児童生徒による美術展",
+      "recommend": null,
+      "admission": "大人 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "角館",
+      "lines": "JR秋田新幹線・田沢湖線",
+      "exit": null,
+      "walk_min": 25,
+      "note": null
+    }
+  ],
+  "highlights": "武家屋敷が残る角館の中心地に位置し、明治・大正期の秋田を代表する日本画家・平福穂庵とその息子・百穂の作品を収蔵・展示する美術館。江戸の暮らしや東北の山野を描いた繊細な日本画が見られる。桜の名所・武家屋敷の散策と合わせて訪れたい。",
+  "closed_between_exhibitions": false,
+  "notes": null,
+  "confidence": "high"
+}

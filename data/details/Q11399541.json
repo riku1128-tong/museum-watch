@@ -1,0 +1,60 @@
+{
+  "id": "Q11399541",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒506-0844 岐阜県高山市上一之町75",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/4309"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+      "open": "08:30",
+      "close": "17:00",
+      "from": "2026-03-01",
+      "to": "2026-11-30"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+      "open": "09:00",
+      "close": "16:30",
+      "from": "2026-12-01",
+      "to": "2027-02-28"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+      "open": "08:30",
+      "close": "17:00",
+      "from": "2027-03-01",
+      "to": "2027-11-30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展示",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。城下町高山の生い立ち、武家文化、町人文化、伝統工芸など郷土の文献・民俗・歴史資料",
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "月曜定休は11月〜3月のみ（4月〜10月は月曜も開館）。公式URL（hida.jp）が取得不可のためアイエム（museum.or.jp）の情報を使用。飛騨高山まちの博物館として再編された可能性があり要確認。",
+  "confidence": "medium"
+}

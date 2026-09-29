@@ -1,0 +1,83 @@
+{
+  "id": "Q11531052",
+  "checked_at": "2026-09-29T23:22:10+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://matsumoto-artmuse.jp/",
+  "address": "〒390-0811 長野県松本市中央4-2-22",
+  "source_urls": [
+    "https://matsumoto-artmuse.jp/",
+    "https://matsumoto-artmuse.jp/visit/information/",
+    "https://matsumoto-artmuse.jp/exhibition/exhibition/",
+    "https://matsumoto-artmuse.jp/exhibition/collection/",
+    "https://matsumoto-artmuse.jp/events/event/sustainable-world/",
+    "https://matsumoto-artmuse.jp/events/event/yayoi/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-22", "to": "2026-12-22", "reason": "特別休館日"},
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "草間彌生 魂のおきどころ",
+      "start": "2026-09-29",
+      "end": "2027-09-29",
+      "url": "https://matsumoto-artmuse.jp/events/event/yayoi/",
+      "kind": "collection",
+      "summary": "草間彌生の初期作品から最新シリーズ「わが永遠の魂」に至る創作活動と魂の軌跡を紹介する通年展示",
+      "recommend": null,
+      "admission": "一般 電子チケット700円／窓口800円",
+      "adult_price": 800
+    },
+    {
+      "title": "第2期コレクション展示",
+      "start": "2026-08-25",
+      "end": "2026-11-15",
+      "url": "https://matsumoto-artmuse.jp/events/event/%e7%ac%ac2%e6%9c%9f%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e5%b1%95%e7%a4%ba/",
+      "kind": "collection",
+      "summary": "辰野登恵子、仙石翠淵、滝川太郎ら松本市美術館を代表する所蔵作品を紹介",
+      "recommend": null,
+      "admission": "一般 電子チケット700円／窓口800円",
+      "adult_price": 800
+    },
+    {
+      "title": "山の画家 ―武井真澂と石井鶴三―",
+      "start": "2026-08-25",
+      "end": "2026-11-15",
+      "url": "https://matsumoto-artmuse.jp/events/event/%e5%b1%b1%e3%81%ae%e7%94%bb%e5%ae%b6-%e2%80%95%e6%ad%a6%e4%ba%95%e7%9c%9f%e6%be%82%e3%81%a8%e7%9f%b3%e4%ba%95%e9%b6%b4%e4%b8%89%e2%80%95/",
+      "kind": "collection",
+      "summary": "諏訪市出身の武井真澂と東京出身の石井鶴三、山を愛した二人の芸術家による山岳画を紹介",
+      "recommend": null,
+      "admission": "一般 電子チケット700円／窓口800円",
+      "adult_price": 800
+    },
+    {
+      "title": "Sustainable World　－佐藤大史・磯部昭子 ふたりの視点から－",
+      "start": "2026-09-19",
+      "end": "2026-12-06",
+      "url": "https://matsumoto-artmuse.jp/events/event/sustainable-world/",
+      "kind": "special",
+      "summary": "長野県ゆかりの写真家・佐藤大史とフォトグラファー・磯部昭子が、エプソンの最先端プロジェクターとデジタル捺染技術で環境と持続可能性を問う",
+      "recommend": "最新のプロジェクター技術とデジタル捺染による独自の展示空間で、写真の新しい可能性を体感できる。ふたりの異なる視点が重なり合い、変わりゆく地球環境を問いかける。",
+      "admission": "一般 1,500円（前売1,300円）",
+      "adult_price": 1500
+    }
+  ],
+  "adult_price": 800,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "松本", "lines": "JR篠ノ井線・大糸線・松本電鉄上高地線", "walk_min": 12, "note": "松本駅からぐるっとまつもとバス横田信大循環線で約5分「美術館前」下車"}
+  ],
+  "highlights": "草間彌生の故郷・松本市に立つ市立美術館。草間の初期作品から最新作「わが永遠の魂」まで常設展示しており、草間ファンの聖地的存在。建物の前には巨大なオブジェが置かれ、館内にはカフェ・レストランとアートライブラリーも備わる。地元ゆかりの作家の作品も充実。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（休日の場合は次の最初の平日が休館）。12/22は特別休館日。年末年始は12/28〜1/4休館。コレクション展示（草間彌生展を含む）の入館料は電子チケット700円／窓口800円。企画展は別料金（「Sustainable World」は一般1,500円）。草間彌生展の開始日は確認できないため今回の確認日を記載し、summaryに「通年」と明記。",
+  "confidence": "high"
+}

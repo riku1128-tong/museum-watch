@@ -1,0 +1,42 @@
+{
+  "id": "Q11595522",
+  "checked_at": "2026-09-29T23:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city-yuzawa.jp/soshiki/86/1201.html",
+  "address": "秋田県湯沢市高松字上地6-2（高松地区センター2階）",
+  "source_urls": [
+    "https://www.city-yuzawa.jp/soshiki/86/1201.html",
+    "https://akitayuzawa.jp/midokoro0422.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "16:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "access": [
+    {
+      "station": "湯沢",
+      "lines": "JR奥羽本線",
+      "note": "湯沢駅から車で約20分（湯沢横手道路須川ICから車で約10分）"
+    }
+  ],
+  "highlights": "湯沢市の大地の歴史・先人の歩み・地域の風土と文化を伝える展示施設（ジオスタ☆ゆざわ）。長蓮寺遺跡の出土品・地層・岩石・化石・鉱山・酒造用具など多彩な資料を無料公開し、工作体験学習も楽しめる。",
+  "notes": "元の公式URL（www.city.yuzawa.akita.jp/site/kyodobunka/）はドメインが存在しないため、市の新ドメイン（city-yuzawa.jp）の対応ページを使用。「ジオスタ☆ゆざわ（湯沢市郷土学習資料展示施設）」として案内されており、施設名が変わった可能性あり。",
+  "confidence": "medium"
+}

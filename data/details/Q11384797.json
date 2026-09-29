@@ -1,0 +1,53 @@
+{
+  "id": "Q11384797",
+  "checked_at": "2026-09-29T23:08:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://ryu-yo.jp/",
+  "address": "〒438-0214 静岡県磐田市大中瀬320番地1",
+  "source_urls": [
+    "https://ryu-yo.jp/guide/",
+    "https://ryu-yo.jp/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["thu"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "カイコ展",
+      "start": "2026-09-05",
+      "end": "2026-11-03",
+      "url": "https://ryu-yo.jp/",
+      "kind": "special",
+      "summary": "カイコの生態・養蚕の歴史を紹介する特別展示。ソフビカイコの色塗り体験やカイコ講演会も開催。",
+      "recommend": "昆虫の中でも人との関わりが深いカイコに特化した展示。ソフビ模型の色塗り体験や専門家による講演会など参加型イベントも充実し、大人も子どもも楽しめる。",
+      "admission": "大人330円（通常入園料に含む）",
+      "adult_price": 330
+    }
+  ],
+  "adult_price": 330,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "「虫と人が集まる いつもの場所」をコンセプトとする磐田市の昆虫自然観察公園。年間50以上のイベントを開催し、スタッフによるガイドウォークで野外の昆虫・植物を季節ごとに観察できる。車でのアクセスが主（東名浜松IC・磐田ICから約25分）。",
+  "closed_between_exhibitions": false,
+  "notes": "GW・夏休み期間（7/21〜8/31）・正月（1/4〜5）は無休。公共交通機関でのアクセスは不便なため車推奨。",
+  "confidence": "high"
+}

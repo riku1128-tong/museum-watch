@@ -1,0 +1,57 @@
+{
+  "id": "Q11595538",
+  "checked_at": "2026-09-29T23:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.higashimatsuyama.lg.jp/soshiki/55/3713.html",
+  "address": "埼玉県東松山市下野本528番地1",
+  "source_urls": [
+    "https://www.city.higashimatsuyama.lg.jp/soshiki/55/3713.html",
+    "https://www.city.higashimatsuyama.lg.jp/soshiki/55/3733.html",
+    "https://higashimatsuyama-kanko.com/sightseeing/learn/bunkazai-center/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "open": "09:00",
+      "close": "16:30"
+    }
+  ],
+  "closed_weekdays": ["sat", "sun"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展示（東松山市の埋蔵文化財）",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/55/3713.html",
+      "kind": "collection",
+      "summary": "通年。市内の発掘調査で出土した土器・石器・埴輪などを展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "東松山",
+      "lines": "東武東上線",
+      "exit": null,
+      "walk_min": null,
+      "note": "東松山駅東口より川越駅（八幡団地経由）行きバス「柏崎」下車 徒歩約15分。または駅より車で約10分"
+    }
+  ],
+  "highlights": "東松山市内の発掘調査で出土した土器・石器・埴輪などを収集・保管・展示する埋蔵文化財センター。遺物の復元や実測図作成を行う資料整理室も公開しており、考古学の現場を身近に感じられる。入館無料。",
+  "closed_between_exhibitions": false,
+  "notes": "提供URLのwww.museum.city.higashimatsuyama.saitama.jpはDNS不解決のため、東松山市公式サイトの埋蔵文化財センターページを使用。wiki_title「東松山市立博物館」と同施設かは確認できず。展示室開館時間は9:00〜16:30（事務は8:30〜17:15）。",
+  "confidence": "medium"
+}

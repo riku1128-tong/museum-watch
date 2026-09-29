@@ -1,0 +1,60 @@
+{
+  "id": "Q11595529",
+  "checked_at": "2026-09-29T23:10:49+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.akita.lg.jp/kanko/kanrenshisetsu/1003644/index.html",
+  "address": "〒010-0921 秋田市大町一丁目3番30号",
+  "source_urls": [
+    "https://www.city.akita.lg.jp/shisetsu/hakubutukan-tpsyokan/1011113/1006737.html",
+    "https://www.city.akita.lg.jp/kanko/kanrenshisetsu/1003644/1002380.html",
+    "https://akita-fun.jp/spots/332"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:15"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "秋田の民俗芸能と祭り",
+      "start": "2026-01-01",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。竿燈まつり・土崎神明社祭・三吉梵天祭など秋田市の民俗行事の資料を展示。竿燈体験コーナーあり",
+      "recommend": null,
+      "admission": "一般 130円",
+      "adult_price": 130
+    }
+  ],
+  "adult_price": 130,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "秋田",
+      "lines": "JR各線",
+      "exit": "西口",
+      "walk_min": 15,
+      "note": "秋田中央交通バス「通町」または「ねぶり流し館前」下車すぐ。中心市街地循環バス（ぐるる）「ねぶり流し館前」下車すぐ"
+    }
+  ],
+  "highlights": "愛称「ねぶり流し館」。秋田三大祭りのひとつ・竿燈まつりを中心に、秋田市の民俗芸能を体感できる施設。実物大の竿燈を手に持って体験できるコーナーが人気。江戸時代後期の町家建築・旧金子家住宅（土蔵付き）も見学できる。",
+  "notes": "竿燈まつり期間中（8月3〜6日）は19:00まで開館延長。共通観覧券370円（旧金子家住宅との共通）あり。",
+  "confidence": "high"
+}

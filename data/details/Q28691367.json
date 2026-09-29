@@ -1,0 +1,57 @@
+{
+  "id": "Q28691367",
+  "checked_at": "2026-09-29T23:22:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.hokubu-kinen.or.jp/",
+  "address": "〒062-0911 北海道札幌市豊平区旭町1丁目1-36",
+  "source_urls": [
+    "https://www.hokubu-kinen.or.jp/",
+    "https://www.hokubu-kinen.or.jp/blank",
+    "https://www.hokubu-kinen.or.jp/blank-7"
+  ],
+  "regular_hours": [
+    {"days": ["thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon", "tue", "wed"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "藤森詔子展",
+      "start": "2026-10-01",
+      "end": "2026-11-01",
+      "url": "https://www.hokubu-kinen.or.jp/",
+      "kind": "special",
+      "summary": "藤森詔子の個展",
+      "recommend": null,
+      "admission": "一般 800円",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": 800,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "学園前",
+      "lines": "札幌市営地下鉄東豊線",
+      "exit": "①番出口",
+      "walk_min": 7,
+      "note": null
+    },
+    {
+      "station": "中島公園",
+      "lines": "札幌市営地下鉄南北線",
+      "exit": "①番出口",
+      "walk_min": 11,
+      "note": null
+    }
+  ],
+  "highlights": "北海道内外の画家を中心に、洋画・版画などのコレクションを個展形式で紹介する私立美術館。年間4〜5回の展示入れ替えを行い、期間中の木〜日曜のみ開館。展示のないインターバル期間は休館となるため、来館前に開催スケジュールの確認が必要。",
+  "closed_between_exhibitions": true,
+  "notes": "museums.json の official_url（hokubu-memorial.jp）は DNS エラーのため、公式サイト（hokubu-kinen.or.jp）を確認。museums.json の prefecture が「富山県」となっているが、実際の所在地は北海道札幌市豊平区。展示スケジュールには開始日のみ記載で終了日が明示されていない場合が多い（藤森詔子展のみ終了日 11/1 を確認）。次回の小西政秀展（11/19〜）は終了日不明のため exhibitions に含めていない。",
+  "confidence": "medium"
+}

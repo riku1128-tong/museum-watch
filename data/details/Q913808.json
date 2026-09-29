@@ -1,6 +1,6 @@
 {
   "id": "Q913808",
-  "checked_at": "2026-09-28T23:34:00+09:00",
+  "checked_at": "2026-09-29T23:24:28+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -30,7 +30,8 @@
       "url": "https://www.artizon.museum/exhibition/detail/602",
       "kind": "special",
       "summary": "メンフィスを結成したイタリアのデザイナー、エットレ・ソットサスの日本初の大回顧展",
-      "admission": "一般 1,200円（ウェブ予約）／1,500円（窓口）"
+      "admission": "一般 1,200円（ウェブ予約）／1,500円（窓口）",
+      "adult_price": 1500
     },
     {
       "title": "瀧口修造　書くことと描くこと",
@@ -48,7 +49,8 @@
       "url": "https://www.artizon.museum/exhibition/detail/608",
       "kind": "special",
       "summary": "藤井光が「洞窟の比喩」を手がかりに、石橋財団コレクション22点と新作で真理の構造を問う",
-      "admission": "一般 1,200円（ウェブ予約）／1,500円（窓口）"
+      "admission": "一般 1,200円（ウェブ予約）／1,500円（窓口）",
+      "adult_price": 1500
     },
     {
       "title": "エトランゼたち —洋画家たちのヨーロッパ体験",

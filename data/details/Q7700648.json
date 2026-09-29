@@ -15,12 +15,32 @@
     "http://www.tenshin.museum.ibk.ed.jp/viewer/info.html?id=290"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-01", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-01",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -50,9 +70,24 @@
   "closed_between_exhibitions": false,
   "adult_price": 210,
   "access": [
-    {"station": "大津港", "lines": "JR常磐線", "exit": null, "walk_min": null, "note": "駅から距離があり、市の巡回バス（「五浦美術館前」バス停）またはタクシーの利用が案内されている"}
+    {
+      "station": "大津港",
+      "lines": "JR常磐線",
+      "exit": null,
+      "walk_min": null,
+      "note": "駅から距離があり、市の巡回バス（「五浦美術館前」バス停）またはタクシーの利用が案内されている"
+    }
   ],
   "highlights": "岡倉天心と、天心の指導を受けた横山大観・下村観山ら「五浦の作家」の作品を紹介する美術館。天心関連の書簡・遺品など7,000点余の資料を所蔵し、太平洋を望む五浦の景勝地に立地する。",
   "notes": "企画展の入館料（950円）で常設展（岡倉天心記念室）も観覧可。最寄駅からの徒歩所要時間は公式サイトに記載なし。free_days/free_rules は該当する記載を確認できなかったため未設定。",
-  "confidence": "high"
+  "confidence": "high",
+  "free_days": [
+    {
+      "from": "2026-11-13",
+      "to": "2026-11-13",
+      "scope": "all",
+      "reason": "茨城県民の日",
+      "source_url": "http://www.tenshin.museum.ibk.ed.jp/viewer/info.html?id=36"
+    }
+  ]
 }

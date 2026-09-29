@@ -1,0 +1,55 @@
+{
+  "id": "Q11595543",
+  "checked_at": "2026-09-29T23:08:10+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "official_url": "https://www.city.satte.lg.jp/soshiki/kyoudomuseum/index.html",
+  "address": "埼玉県幸手市大字下宇和田58番地4",
+  "source_urls": [
+    "https://www.city.satte.lg.jp/soshiki/kyoudomuseum/index.html",
+    "https://www.city.satte.lg.jp/soshiki/kyoudomuseum/005/15811.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "日光道中幸手 荒宿 長嶋屋 栄枯盛衰",
+      "start": "2026-07-25",
+      "end": "2026-10-18",
+      "kind": "special",
+      "url": "https://www.city.satte.lg.jp/soshiki/kyoudomuseum/005/15811.html",
+      "summary": "日光道中の宿場町で繁栄した大商人・長嶋屋青木家を墓碑銘解読などの調査で紹介",
+      "recommend": "「幸手には無いものはない」と言われた商人のまちで栄えた「まぼろしの豪商」長嶋屋の実像に迫る企画展。史料発掘により明らかになった歴代当主の人物像が見どころ。",
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "東武動物公園",
+      "lines": "東武スカイツリーライン",
+      "walk_min": null,
+      "note": "東武動物公園駅から朝日バス境車庫行き「吉田橋」バス停下車徒歩約5分"
+    }
+  ],
+  "highlights": "昭和24年竣工の旧校舎を活用した民具展示室と歴史展示室を持つ郷土資料館。縄文時代から現代まで幸手の歴史を資料・パネルで紹介し、日光道中の宿場町として栄えた町の面影を伝える。",
+  "confidence": "high"
+}

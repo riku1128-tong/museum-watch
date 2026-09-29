@@ -1,0 +1,62 @@
+{
+  "id": "Q84468012",
+  "checked_at": "2026-09-29T23:15:54+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.koyodo-museum.com/",
+  "address": "〒391-0213 長野県茅野市豊平4734-215",
+  "source_urls": [
+    "https://www.culture.nagano.jp/facilities/548/",
+    "https://www.kyoto-art.ac.jp/info/facility/koyodo/competition/",
+    "https://www.museum.or.jp/museum/11823"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [
+    {"weekday": "tue", "nth": [2, 4]}
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-01",
+      "to": "2027-04-19",
+      "reason": "冬季休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "康耀堂美術館20周年記念展",
+      "start": "2026-10-01",
+      "end": "2026-11-29",
+      "url": "https://www.kyoto-art.ac.jp/info/facility/koyodo/competition/",
+      "kind": "special",
+      "summary": "開館20周年を記念した公募展。1次審査通過の36名による作品を展示。大賞・審査員賞・佳作賞を発表",
+      "recommend": "京都芸術大学附属として運営される美術館の節目を飾る公募展。国内外の新進作家36名の多彩な平面・立体作品を一堂に観られる。",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 300,
+  "access": [
+    {
+      "station": "茅野",
+      "lines": "JR中央本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "茅野駅からメルヘン街道バスで約20分「尖石縄文考古館前」下車。中央道諏訪ICまたは諏訪南ICから車で約30分"
+    }
+  ],
+  "highlights": "蓼科高原の入口、6,000坪の森の中に佇む京都芸術大学附属の美術館。近現代の日本画・油彩・水彩・版画など400点余を収蔵し、年3〜4回の展示替えで季節の移ろいとともに作品を紹介する。高原の澄んだ空気と緑豊かな庭園も魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（https://koyodo-museum.com/）はSSLエラーのためアクセス不可。情報はculture.nagano.jpおよびkyoto-art.ac.jpから取得。冬季休館は通常12月〜4月中旬。2026年秋の20周年記念展(10/1-11/29)以外のコレクション展情報は公式サイトで要確認。",
+  "confidence": "medium"
+}

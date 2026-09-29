@@ -1,0 +1,45 @@
+{
+  "id": "Q104636664",
+  "checked_at": "2026-09-29T23:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒436-0079 静岡県掛川市掛川1142-1",
+  "source_urls": [
+    "https://k-kousya.or.jp/ninomaru/",
+    "https://k-kousya.or.jp/ninomaru/pages/19/",
+    "https://www.museum.or.jp/museum/4368",
+    "https://www.kakegawa-kankou.com/news/26189/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "97歳セツの新聞ちぎり絵原画展",
+      "start": "2026-09-15",
+      "end": "2026-11-23",
+      "url": "https://k-kousya.or.jp/ninomaru/",
+      "kind": "special",
+      "summary": "木村セツ 静岡初の大規模個展。新聞をちぎって貼り合わせて作る「ちぎり絵」の原画を展示",
+      "recommend": "97歳という年齢で新聞紙のみを素材に独自の「ちぎり絵」世界を作り上げた木村セツの静岡初大規模個展。素材の制約を超えた自由な表現と、長い年月が育んだ独特の色彩感覚に触れられる。",
+      "admission": "高校生以上 700円",
+      "adult_price": 700
+    }
+  ],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "掛川", "lines": "JR東海道新幹線・東海道本線", "exit": "北口", "walk_min": 11, "note": "北口より徒歩約11分（約700m）。掛川城公園内。"}
+  ],
+  "highlights": "掛川城公園に隣接する掛川市立美術館。掛川城二の丸址に建つ歴史的な立地で、地域ゆかりの作家や全国の現代作家の企画展を開催。常設コレクションはなく企画展ごとに展示替えを行う。掛川城と合わせて観覧できる観光スポットとしても知られる。",
+  "closed_between_exhibitions": true,
+  "notes": "常設展示はなく（館蔵品の展示はありませんと明記）、企画展のみ。基本入館料200円は企画展非開催時の施設入館料の可能性あり。特別展の観覧料は展覧会ごとに異なる。",
+  "confidence": "high"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "Q11595502",
+  "checked_at": "2026-09-29T23:01:13+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.samuraiworld.com/",
+  "address": "秋田県仙北市角館町表町下丁3",
+  "source_urls": [
+    "https://akita-fun.jp/spots/29",
+    "https://rurubu.jp/andmore/spot/80004199"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "from": "2026-04-01",
+      "to": "2026-11-30"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "16:30",
+      "from": "2026-12-01",
+      "to": "2027-03-31"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "武家屋敷・蔵・展示館（常設）",
+      "start": "2020-01-01",
+      "end": "2027-09-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "江戸時代の武家屋敷と6棟の蔵に約3万点の資料を展示。通年",
+      "recommend": null,
+      "admission": "大人 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "角館",
+      "lines": "JR秋田新幹線・田沢湖線",
+      "exit": null,
+      "walk_min": 15
+    }
+  ],
+  "highlights": "秋田県仙北市・角館の武家屋敷地区に位置する約200年前の主屋と6棟の蔵・展示館。解体新書記念館、秋田郷土館、武具館、幕末写真館など館内に約3万点の資料を展示。甲冑着付け体験もできる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（samuraiworld.com）はSSL証明書の問題で接続不可。二次情報源より取得。",
+  "confidence": "medium"
+}

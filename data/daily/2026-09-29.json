@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T23:29+09:00",
+  "generated_at": "2026-09-29T23:49+09:00",
   "date": "2026-09-29",
   "weekday": "火",
   "holiday": null,
@@ -3459,14 +3459,14 @@
     },
     {
       "id": "Q85879727",
-      "status": "unknown",
-      "reason": "営業状況不明",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "09:00",
+      "close": "17:00",
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": true,
+      "needs_check": false,
       "free": null
     },
     {
@@ -7773,14 +7773,14 @@
     },
     {
       "id": "Q109370382",
-      "status": "open",
-      "reason": null,
-      "open": "10:00",
-      "close": "17:00",
-      "last_entry": "16:30",
+      "status": "closed",
+      "reason": "展示替え期間",
+      "open": null,
+      "close": null,
+      "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": true,
+      "needs_check": false,
       "free": null
     },
     {
@@ -9857,7 +9857,7 @@
     {
       "id": "Q11595507",
       "status": "unknown",
-      "reason": "公式ウェブサイト（www.city.noshiro.akita.jp）に接続できず（ドメイン解決エラー）。開館状況の確認不可。",
+      "reason": "営業状況不明",
       "open": null,
       "close": null,
       "last_entry": null,
@@ -9930,7 +9930,7 @@
     {
       "id": "Q11404769",
       "status": "unknown",
-      "reason": "公式URLにアクセスできず（404）。検索でも現在の施設情報が確認できなかった。",
+      "reason": "営業状況不明",
       "open": null,
       "close": null,
       "last_entry": null,
@@ -10257,7 +10257,7 @@
     {
       "id": "Q11595525",
       "status": "unknown",
-      "reason": "公式URL（仙北市ウェブサイト）が404で、仙北市の観光施設一覧にも名称が見当たらない。施設の存在・開館状況を確認できなかった。",
+      "reason": "営業状況不明",
       "open": null,
       "close": null,
       "last_entry": null,
@@ -10413,7 +10413,7 @@
     {
       "id": "Q11404777",
       "status": "unknown",
-      "reason": "公式サイト（https://www.city.tsuyama.lg.jp/culture/index.cgi?id=21）がコンテンツを返さず、他のソースでも詳細情報を確認できなかった。",
+      "reason": "営業状況不明",
       "open": null,
       "close": null,
       "last_entry": null,
@@ -10425,7 +10425,7 @@
     {
       "id": "Q11595531",
       "status": "unknown",
-      "reason": "公式URL（https://www.town.ogano.lg.jp/machi_info/kyouiku/03.html）が404。小鹿野町の文化施設一覧にも「小鹿野町立郷土博物館」の記載が見当たらず、施設の現状を確認できなかった。",
+      "reason": "営業状況不明",
       "open": null,
       "close": null,
       "last_entry": null,
@@ -10449,7 +10449,7 @@
     {
       "id": "Q11595533",
       "status": "unknown",
-      "reason": "公式URL（https://www.town.miyoshi.saitama.jp/）がDNS解決不可。三芳町の正式ドメインはwww.town.saitama-miyoshi.lg.jpだが、当該施設の専用ページが確認できなかった。",
+      "reason": "営業状況不明",
       "open": null,
       "close": null,
       "last_entry": null,
@@ -10648,7 +10648,7 @@
     {
       "id": "Q11404773",
       "status": "unknown",
-      "reason": "公式URL（www.city.soja.okayama.jp/kyoiku/kanko_bunka/bunkazai/kyodobi/）が404。別の検索でも施設情報が見つからなかった。",
+      "reason": "営業状況不明",
       "open": null,
       "close": null,
       "last_entry": null,
@@ -10752,18 +10752,6 @@
       "exhibitions": [],
       "upcoming": [],
       "needs_check": false,
-      "free": null
-    },
-    {
-      "id": "Q11468711",
-      "status": "unknown",
-      "reason": "公式サイトのドメイン（www.nonohanabijutsukan.com）が存在しない。閉館の可能性あり。",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": true,
       "free": null
     },
     {
@@ -10953,18 +10941,6 @@
       "free": null
     },
     {
-      "id": "Q11399558",
-      "status": "unknown",
-      "reason": "公式サイト nakasendo-kaikan.com がDNSエラーで接続不可。岐阜市観光サイト・岐阜観光コンベンション協会にも掲載なし。閉館・移転の可能性あり。",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": true,
-      "free": null
-    },
-    {
       "id": "Q11399560",
       "status": "open",
       "reason": null,
@@ -11004,7 +10980,7 @@
     {
       "id": "Q11595527",
       "status": "unknown",
-      "reason": "公式URL（city.kitaakita.akita.jp/shisetsu/bunka_sports/min-zoku-shiry-okan.html）が404。ウェブ検索でも詳細情報が見つからない。",
+      "reason": "営業状況不明",
       "open": null,
       "close": null,
       "last_entry": null,
@@ -11073,18 +11049,6 @@
       "exhibitions": [],
       "upcoming": [],
       "needs_check": false,
-      "free": null
-    },
-    {
-      "id": "Q11384794",
-      "status": "unknown",
-      "reason": "公式サイト chaenya.jp がDNSエラーで接続不可。掛川市観光・茶振興サイトにも掲載なし。静岡県のお茶施設一覧にも記載なし。閉館・未開館の可能性あり。",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": true,
       "free": null
     },
     {

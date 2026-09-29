@@ -1,6 +1,6 @@
 {
   "id": "Q11399564",
-  "checked_at": "2026-09-29T23:08:10+09:00",
+  "checked_at": "2026-09-29T09:30:00+09:00",
   "check_mode": "full",
   "operating_status": "unknown",
   "official_url": "https://www.vill.higashishirakawa.gifu.jp/",
@@ -20,6 +20,7 @@
   "free_rules": [],
   "access": [],
   "highlights": null,
-  "notes": "公式サイトの資料館専用ページ（/kanko/bunka/rekishiminzoku_shiryokan/）が404で取得できず、施設案内ページにも該当施設の記載なし。電話問い合わせ先：東白川村役場 0574-78-3111。",
+  "closed_between_exhibitions": false,
+  "notes": "2026年9月再調査。東白川村公式サイト（vill.higashishirakawa.gifu.jp）は正常接続可能。村内公共施設一覧に「歴史民俗資料館」の記載なし（平和祈念館の記載のみあり）。資料館専用ページ（/kanko/bunka/rekishiminzoku_shiryokan/）は404のまま。施設が廃止または移転した可能性あり。東白川村役場（0574-78-3111）に要確認。",
   "confidence": "low"
 }

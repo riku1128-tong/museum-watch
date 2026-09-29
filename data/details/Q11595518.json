@@ -1,12 +1,14 @@
 {
   "id": "Q11595518",
-  "checked_at": "2026-09-29T23:06:09+09:00",
+  "checked_at": "2026-09-29T09:30:00+09:00",
   "check_mode": "full",
   "operating_status": "unknown",
   "status_note": null,
   "official_url": null,
   "address": null,
-  "source_urls": [],
+  "source_urls": [
+    "https://www.city.semboku.akita.jp/sightseeing/spot/07_shiroato.html"
+  ],
   "regular_hours": [],
   "closed_weekdays": [],
   "holiday_rule": "unknown",
@@ -19,6 +21,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "公式URL（https://www.city.semboku.akita.jp/sightseeing/spot/06_shiro.html）は404。仙北市公式サイトおよびWebSearchで施設情報を確認できなかった。",
+  "notes": "公式URL（https://www.city.semboku.akita.jp/sightseeing/spot/06_shiro.html）は404。2026年9月再調査でも仙北市公式サイトの角館エリア観光情報に「角館城跡資料館」の記載なし。角館城跡（古城山公園）は現存するが、専用の資料館・展示施設の存在が確認できなかった。仙北市観光情報センター「角館駅前蔵」（0187-54-2700）に要確認。",
   "confidence": "low"
 }

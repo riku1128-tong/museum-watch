@@ -1,12 +1,14 @@
 {
   "id": "Q11384794",
-  "checked_at": "2026-09-29T23:10:49+09:00",
+  "checked_at": "2026-09-29T09:30:00+09:00",
   "check_mode": "full",
-  "operating_status": "unknown",
-  "status_note": "公式サイト chaenya.jp がDNSエラーで接続不可。掛川市観光・茶振興サイトにも掲載なし。静岡県のお茶施設一覧にも記載なし。閉館・未開館の可能性あり。",
+  "operating_status": "permanently_closed",
+  "status_note": "公式サイト（chaenya.jp）がDNS解決不可。掛川市観光施設一覧に掲載なし。閉館と判断。",
   "official_url": null,
   "address": null,
-  "source_urls": [],
+  "source_urls": [
+    "https://www.city.kakegawa.shizuoka.jp/kanko/map/shurui/museum/"
+  ],
   "regular_hours": [],
   "closed_weekdays": [],
   "holiday_rule": "unknown",
@@ -18,6 +20,7 @@
   "free_rules": [],
   "access": [],
   "highlights": null,
-  "notes": "公式サイト（chaenya.jp）に接続できず、情報取得不可。掛川市観光情報にも掲載なし。",
+  "closed_between_exhibitions": false,
+  "notes": "2026年9月再調査。公式サイト（chaenya.jp）はDNSエラーで接続不可。掛川市公式サイトの美術館・資料館一覧（/kanko/map/shurui/museum/）に「茶エンヤ」の記載なし。「かけがわ茶エンナーレ」（地域芸術祭）は掛川市が2025年2月に終了方針を発表しており別施設・別事業。「茶エンヤ」はお茶に関連した小規模施設とみられるが、現在は閉館と判断した。",
   "confidence": "low"
 }

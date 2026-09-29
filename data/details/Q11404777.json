@@ -1,14 +1,12 @@
 {
   "id": "Q11404777",
-  "checked_at": "2026-09-29T23:08:37+09:00",
+  "checked_at": "2026-09-29T09:30:00+09:00",
   "check_mode": "full",
   "operating_status": "unknown",
-  "status_note": "公式サイト（https://www.city.tsuyama.lg.jp/culture/index.cgi?id=21）がコンテンツを返さず、他のソースでも詳細情報を確認できなかった。",
+  "status_note": null,
   "official_url": null,
   "address": null,
-  "source_urls": [
-    "https://www.city.tsuyama.lg.jp/culture/index.cgi?id=21"
-  ],
+  "source_urls": [],
   "regular_hours": [],
   "closed_weekdays": [],
   "closed_nth_weekdays": [],
@@ -22,6 +20,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "公式URLが機能せず情報取得不可。津山市文化課に問い合わせ要。",
+  "notes": "2026年9月再調査。公式URL（https://www.city.tsuyama.lg.jp/culture/index.cgi?id=21）はコンテンツ不達（CGI応答なし）。津山市公式サイト・岡山県博物館協議会・美作エリア加盟館一覧にも「美作東部博物館」の記載なし。Webサービス検索でも確認できず。廃館または別名への移行の可能性あり。津山市文化振興課（0868-32-2121）に要確認。",
   "confidence": "low"
 }

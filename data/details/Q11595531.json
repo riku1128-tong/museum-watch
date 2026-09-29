@@ -1,14 +1,14 @@
 {
   "id": "Q11595531",
-  "checked_at": "2026-09-29T23:08:37+09:00",
+  "checked_at": "2026-09-29T09:30:00+09:00",
   "check_mode": "full",
   "operating_status": "unknown",
-  "status_note": "公式URL（https://www.town.ogano.lg.jp/machi_info/kyouiku/03.html）が404。小鹿野町の文化施設一覧にも「小鹿野町立郷土博物館」の記載が見当たらず、施設の現状を確認できなかった。",
+  "status_note": null,
   "official_url": null,
   "address": null,
   "source_urls": [
-    "https://www.town.ogano.lg.jp/machi_info/kyouiku/03.html",
-    "https://www.town.ogano.lg.jp/chousei-jouhou/public-facility/culture-sports-recreation/"
+    "https://www.town.ogano.lg.jp/oganokasekikan/",
+    "https://www.town.ogano.lg.jp/kanko-bunka-sports/kanko/ogano-kanko-kouryukan/"
   ],
   "regular_hours": [],
   "closed_weekdays": [],
@@ -23,6 +23,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "小鹿野町の文化施設として「おがの化石館」（下小鹿野453）・「小鹿野文化センター」（小鹿野167-1）が存在するが、いずれも「郷土博物館」という名称ではない。施設の存否・現状は小鹿野町教育委員会への問い合わせで確認要。",
+  "notes": "2026年9月再調査。小鹿野町公式サイトおよび観光協会に「郷土博物館」の記載なし。小鹿野町の文化施設として「おがの化石館」「小鹿野町観光交流館（旧本陣）」が存在するが、いずれも「郷土博物館」ではない。小鹿野町観光交流館1階には郷土ギャラリー（宮沢賢治関連資料・歌舞伎道具・秩父銘仙）がある。「郷土博物館」として独立した施設は廃止・統合された可能性あり。小鹿野町教育委員会（0494-75-2280）に要確認。",
   "confidence": "low"
 }

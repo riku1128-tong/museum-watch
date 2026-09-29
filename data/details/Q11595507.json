@@ -1,12 +1,14 @@
 {
   "id": "Q11595507",
-  "checked_at": "2026-09-29T23:06:49+09:00",
+  "checked_at": "2026-09-29T09:30:00+09:00",
   "check_mode": "full",
   "operating_status": "unknown",
-  "status_note": "公式ウェブサイト（www.city.noshiro.akita.jp）に接続できず（ドメイン解決エラー）。開館状況の確認不可。",
-  "official_url": "https://www.city.noshiro.akita.jp/soshiki/47/futatsuirekishiminzoku.html",
+  "status_note": null,
+  "official_url": "https://www.city.noshiro.lg.jp/section/kyoiku/gakushu-sports/bunkazai-hogo/2173",
   "address": null,
-  "source_urls": [],
+  "source_urls": [
+    "https://www.city.noshiro.lg.jp/section/kyoiku/gakushu-sports/bunkazai-hogo/2173"
+  ],
   "regular_hours": [],
   "closed_weekdays": [],
   "holiday_rule": "unknown",
@@ -19,6 +21,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（www.city.noshiro.akita.jp）のドメインが解決できず情報取得不可。能代市の正しいウェブサイトドメインの確認が必要。",
+  "notes": "2026年9月再調査。能代市公式サイト（city.noshiro.lg.jp）は正常に接続可能。同ドメインのページに「二ツ井伝承ホール」（民俗芸能伝承施設、能代市二ツ井町字上台1番地1、9:00〜22:00、年末年始のみ休館）が存在するが、「二ツ井歴史民俗資料館」という名称での施設ページは確認できず。伝承ホール内に資料展示がある可能性あり。詳細は二ツ井伝承ホール（0185-74-6040）に要確認。",
   "confidence": "low"
 }

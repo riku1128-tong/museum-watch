@@ -1,11 +1,14 @@
 {
   "id": "Q11404773",
-  "checked_at": "2026-09-29T23:30:00+09:00",
+  "checked_at": "2026-09-29T09:30:00+09:00",
   "check_mode": "full",
   "operating_status": "unknown",
-  "status_note": "公式URL（www.city.soja.okayama.jp/kyoiku/kanko_bunka/bunkazai/kyodobi/）が404。別の検索でも施設情報が見つからなかった。",
+  "status_note": null,
   "address": null,
-  "source_urls": [],
+  "source_urls": [
+    "https://www.city.soja.okayama.jp/bunka/bunka_sport/hakubutu/soja_kibiji_bunkakan.html",
+    "https://www.okayama-kanko.jp/spot/detail_15850.html"
+  ],
   "regular_hours": [],
   "closed_weekdays": [],
   "holiday_rule": "unknown",
@@ -13,5 +16,6 @@
   "special_openings": [],
   "exhibitions": [],
   "adult_price": null,
-  "confidence": "low"
+  "confidence": "low",
+  "notes": "2026年9月再調査。公式URL（https://www.city.soja.okayama.jp/kyoiku/kanko_bunka/bunkazai/kyodobi/index.html）は404。総社市には「総社吉備路文化館」（上林1252、9:00〜17:00・最終入館16:30、月曜・年末年始休館）が存在するが、名称・住所ともに「総社郷土美術館」とは異なる。「総社市立総社郷土美術館」は廃館または名称変更の可能性あり。総社市文化芸術課（0866-92-8277）に要確認。"
 }

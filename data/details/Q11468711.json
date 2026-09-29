@@ -1,9 +1,9 @@
 {
   "id": "Q11468711",
-  "checked_at": "2026-09-29T23:30:00+09:00",
+  "checked_at": "2026-09-29T09:30:00+09:00",
   "check_mode": "full",
-  "operating_status": "unknown",
-  "status_note": "公式サイトのドメイン（www.nonohanabijutsukan.com）が存在しない。閉館の可能性あり。",
+  "operating_status": "permanently_closed",
+  "status_note": "公式サイトのドメイン（nonohanabijutsukan.com）が存在せず、山形県・置賜地方の観光情報・美術館データベースにも掲載なし。閉館と判断。",
   "address": null,
   "source_urls": [],
   "regular_hours": [],
@@ -13,5 +13,6 @@
   "special_openings": [],
   "exhibitions": [],
   "adult_price": null,
-  "confidence": "low"
+  "confidence": "low",
+  "notes": "2026年9月再調査。公式サイトドメイン（www.nonohanabijutsukan.com）がDNS解決できず存在しない。山形県公式観光サイト・museum.or.jp・じゃらんnet・Webサービス検索でも「置賜野の花美術館」の記載が見当たらない。「深沢紅子野の花美術館」（盛岡市・長野県軽井沢）は別施設。閉館と判断した。"
 }

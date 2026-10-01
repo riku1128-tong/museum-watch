@@ -1,0 +1,86 @@
+{
+  "id": "Q11357837",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.bunka.pref.mie.lg.jp/art-museum/",
+  "address": "三重県津市大谷町11",
+  "source_urls": [
+    "https://www.bunka.pref.mie.lg.jp/art-museum/",
+    "https://www.bunka.pref.mie.lg.jp/art-museum/55015038090.htm",
+    "https://www.bunka.pref.mie.lg.jp/art-museum/000314637.htm"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "ルーシー・リー展―東西をつなぐ優美のうつわ―",
+      "start": "2026-09-26",
+      "end": "2026-12-13",
+      "url": "https://www.bunka.pref.mie.lg.jp/art-museum/000314637.htm",
+      "kind": "special",
+      "summary": "陶芸家ルーシー・リーの優美なうつわを紹介",
+      "recommend": null,
+      "admission": "一般 1,200円",
+      "adult_price": 1200
+    },
+    {
+      "title": "美術館のコレクションⅢ",
+      "start": "2026-09-08",
+      "end": "2026-12-27",
+      "url": null,
+      "kind": "collection",
+      "summary": "所蔵作品によるコレクション展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "Y² project 水野勝規 刻まれるとき、揺らぐかたち",
+      "start": "2026-09-01",
+      "end": "2026-12-27",
+      "url": null,
+      "kind": "special",
+      "summary": "柳原義達記念館での水野勝規の展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "津",
+      "lines": "近鉄・JR",
+      "walk_min": 10,
+      "note": "西口より徒歩約10分"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝休日は開館し翌平日休館）。年末年始の休館日程・コレクション展の観覧料は未確認。10/17 14時にアーティストトークの予定。",
+  "confidence": "medium"
+}

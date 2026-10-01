@@ -1,0 +1,71 @@
+{
+  "id": "Q1920251",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://museum.menard.co.jp/",
+  "address": "〒485-0041 愛知県小牧市小牧5-250",
+  "source_urls": [
+    "https://museum.menard.co.jp/",
+    "https://www.museum.or.jp/museum/4853"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-09-24",
+      "to": "2026-10-05",
+      "reason": "展示替え"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "画家とモデル",
+      "start": "2026-10-06",
+      "end": "2026-12-20",
+      "url": "https://museum.menard.co.jp/exhibition/",
+      "kind": "special",
+      "summary": "所蔵企画展。画家とモデルをテーマにした所蔵作品展",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "岩倉",
+      "lines": "名鉄犬山線",
+      "exit": null,
+      "walk_min": null,
+      "note": "バス利用。東名・名神小牧ICから車で10分"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトは403で直接読めず、検索結果の公式ページ抜粋と museum.or.jp で確認。休館日は月曜（museum.or.jp は月・金とするが、公式抜粋は月曜のみ）。展覧会ページが読めず recommend / highlights は未記入。",
+  "confidence": "medium"
+}

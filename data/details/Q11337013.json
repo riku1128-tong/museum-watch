@@ -1,6 +1,6 @@
 {
   "id": "Q11337013",
-  "checked_at": "2026-09-30T09:03:59+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -15,7 +15,21 @@
     "https://benesse-artsite.jp/calendar/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "08:00", "close": "21:00", "last_entry": "20:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "08:00",
+      "close": "21:00",
+      "last_entry": "20:00"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
@@ -24,8 +38,16 @@
   "exhibitions": [],
   "adult_price": 1500,
   "access": [
-    {"station": "宇野", "lines": "JR宇野線", "note": "宇野港から直島・宮浦港までフェリー約20分。ベネッセアートサイト直島の送迎バス等で美術館へ"},
-    {"station": "高松", "lines": "JR高松駅・高松港", "note": "高松港から直島・宮浦港までフェリー約50〜60分、高速船約50分"}
+    {
+      "station": "宇野",
+      "lines": "JR宇野線",
+      "note": "宇野港から直島・宮浦港までフェリー約20分。ベネッセアートサイト直島の送迎バス等で美術館へ"
+    },
+    {
+      "station": "高松",
+      "lines": "JR高松駅・高松港",
+      "note": "高松港から直島・宮浦港までフェリー約50〜60分、高速船約50分"
+    }
   ],
   "highlights": "安藤忠雄設計の建物自体が展示空間となった「美術館とホテルが一体化した」施設。海を望む立地に、杉本博司や草間彌生ら国内外作家のサイトスペシフィック・ワークが常設で点在し、宿泊しながら作品と一体の時間を過ごせる。",
   "closed_between_exhibitions": false,

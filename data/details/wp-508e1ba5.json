@@ -1,6 +1,6 @@
 {
   "id": "wp-508e1ba5",
-  "checked_at": "2026-09-30T09:26:27+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -11,9 +11,23 @@
     "https://www.hokuto-kanko.jp/spot/kiyoharu_tabitokuusou_museum/"
   ],
   "regular_hours": [
-    {"days": ["thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00"}
+    {
+      "days": [
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00"
+    }
   ],
-  "closed_weekdays": ["mon", "tue", "wed"],
+  "closed_weekdays": [
+    "mon",
+    "tue",
+    "wed"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -44,7 +58,13 @@
   "adult_price": 500,
   "free_days": [],
   "access": [
-    {"station": "長坂", "lines": "JR中央本線", "exit": null, "walk_min": null, "note": "長坂駅からタクシーで約5分。中央自動車道 長坂ICから車で約10分。"}
+    {
+      "station": "長坂",
+      "lines": "JR中央本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "長坂駅からタクシーで約5分。中央自動車道 長坂ICから車で約10分。"
+    }
   ],
   "highlights": "旅・空想・クリスマスの優しい気持ちをテーマに、旅の風景画やアジアの世界写真展、素朴派絵画などの企画展を年4回ほど開催。世界各国のクリスマスグッズを集めたショップや多国籍カフェも併設する。",
   "closed_between_exhibitions": false,

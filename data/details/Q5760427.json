@@ -1,7 +1,7 @@
 {
   "id": "Q5760427",
-  "checked_at": "2026-09-30T09:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://h-am.jp/",
@@ -12,9 +12,25 @@
     "https://h-am.jp/access/access.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:00"
+    }
   ],
-  "closed_weekdays": ["wed"],
+  "closed_weekdays": [
+    "wed"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -46,7 +62,13 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "高山", "lines": "JR高山本線", "exit": null, "walk_min": null, "note": "高山駅からタクシー約10分。土日祝は高山駅西口から無料送迎バスあり（高山濃飛バスセンター発も利用可）"}
+    {
+      "station": "高山",
+      "lines": "JR高山本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "高山駅からタクシー約10分。土日祝は高山駅西口から無料送迎バスあり（高山濃飛バスセンター発も利用可）"
+    }
   ],
   "highlights": "岐阜県高山市にある複合型ミュージアム。古代文明の遺跡をモチーフにしたライムストーン建築が異彩を放ち、美術品・古代遺物・化石・岩石まで幅広く収蔵・展示する。土日祝は高山駅から無料送迎バスも運行し飛騨観光の立ち寄りスポットとしても人気。",
   "closed_between_exhibitions": false,

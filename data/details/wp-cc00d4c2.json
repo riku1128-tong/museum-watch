@@ -1,7 +1,7 @@
 {
   "id": "wp-cc00d4c2",
-  "checked_at": "2026-09-30T09:31:55+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.tokyo-zoo.net/zoo/ino/",
@@ -14,12 +14,31 @@
     "https://www.tokyo-zoo.net/inokashira/news/11545/index.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-01", "reason": "年末年始休園"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-01",
+      "reason": "年末年始休園"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -37,11 +56,29 @@
   ],
   "adult_price": 400,
   "access": [
-    {"station": "吉祥寺", "lines": "JR中央線・総武線/京王井の頭線", "exit": null, "walk_min": 15, "note": "井の頭公園内を通って徒歩約15分"},
-    {"station": "井の頭公園", "lines": "京王井の頭線", "exit": null, "walk_min": 5, "note": null}
+    {
+      "station": "吉祥寺",
+      "lines": "JR中央線・総武線/京王井の頭線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "井の頭公園内を通って徒歩約15分"
+    },
+    {
+      "station": "井の頭公園",
+      "lines": "京王井の頭線",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    }
   ],
   "free_days": [
-    {"from": "2026-10-01", "to": "2026-10-01", "scope": "all", "reason": "都民の日", "source_url": "https://www.tokyo-zoo.net/zoo/ino/"}
+    {
+      "from": "2026-10-01",
+      "to": "2026-10-01",
+      "scope": "all",
+      "reason": "都民の日",
+      "source_url": "https://www.tokyo-zoo.net/zoo/ino/"
+    }
   ],
   "closed_between_exhibitions": false,
   "highlights": "長崎平和公園の《平和祈念像》で知られる彫刻家・北村西望の記念館。ブロンズ・石膏原型など500点超の収蔵作品のうち常時約200点を展示する。平和祈念像の実寸大石膏原型を見られるアトリエ館をはじめ、A館・B館の3棟で巨匠の全キャリアをたどれる。",

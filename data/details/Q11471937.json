@@ -1,0 +1,86 @@
+{
+  "id": "Q11471937",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.nishiwaki-cs.or.jp/okanoyama-museum/",
+  "address": "〒677-0039 兵庫県西脇市上比延町345-1",
+  "source_urls": [
+    "http://www.nishiwaki-cs.or.jp/okanoyama-museum/",
+    "https://www.nishiwaki-cs.or.jp/okanoyama-museum/exhibition/20260220-1644.html",
+    "https://www.nishiwaki-cs.or.jp/okanoyama-museum/atelier/20260425-1115.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-13",
+      "reason": "祝日の翌日"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "子午線上のアートⅢ展 ―みんなのひみつの旅",
+      "start": "2026-07-26",
+      "end": "2026-12-06",
+      "url": "https://www.nishiwaki-cs.or.jp/okanoyama-museum/exhibition/20260220-1644.html",
+      "kind": "special",
+      "summary": "子午線上で活躍するイラストレーター・はるのいづみと風景画家・松本知佳の作品展",
+      "recommend": "東経135度の子午線が通る西脇市と淡路市から、イラストレーターと風景画家の二人を迎えた三回目の展示。二人の作風の違いを見比べながら楽しめる。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "イヌイマサノリ展『絵とイラストレーション』",
+      "start": "2026-09-29",
+      "end": "2026-11-01",
+      "url": "https://www.nishiwaki-cs.or.jp/okanoyama-museum/atelier/20260425-1115.html",
+      "kind": "special",
+      "summary": "駆け出しの頃から現在までの絵と仕事のイラストレーションを展示するアトリエ展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "closed_dates": [
+        "2026-10-05",
+        "2026-10-13",
+        "2026-10-19",
+        "2026-10-26"
+      ]
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "企画展示室のみで常設展示室なし。休館日は月曜（祝日は開館）・祝日の翌日（土日の場合を除く）・年末年始・展示替期間。祝日の翌日休館は holiday_rule では表せず、10/13 のみ明記。観覧料は公式ページに記載なし。",
+  "confidence": "medium"
+}

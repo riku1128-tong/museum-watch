@@ -1,0 +1,81 @@
+{
+  "id": "Q17221655",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.paramitamuseum.com/",
+  "address": "三重県三重郡菰野町大羽根園松ヶ枝町21-6",
+  "source_urls": [
+    "https://www.paramitamuseum.com/",
+    "https://www.paramitamuseum.com/guide/guide.html",
+    "https://www.paramitamuseum.com/plan/next_exhibition.html",
+    "https://www.paramitamuseum.com/plan/schedule.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:30",
+      "last_entry": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "没後60年 川端龍子展 KAWABATA Ryushi 画人生涯筆一管",
+      "start": "2026-10-02",
+      "end": "2026-11-29",
+      "url": "https://www.paramitamuseum.com/plan/next_exhibition.html",
+      "kind": "special",
+      "summary": "大正から昭和に活躍した日本画家・川端龍子の没後60年回顧展",
+      "recommend": "和歌山生まれで10歳で上京し、読売新聞社の記念事業入選を機に画家を志した川端龍子の歩みをたどる回顧展。会期中は無休で、没後60年の節目に画業を振り返れる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "THE 新版画 版元・渡邊庄三郎の挑戦",
+      "start": "2026-12-05",
+      "end": "2027-01-31",
+      "url": "https://www.paramitamuseum.com/plan/schedule.html",
+      "kind": "special",
+      "summary": "版元・渡邊庄三郎が手がけた新版画を紹介",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "大羽根園",
+      "lines": "近鉄湯の山線",
+      "exit": null,
+      "walk_min": 4
+    }
+  ],
+  "highlights": "池田満寿夫の陶彫《般若心経シリーズ》を軸に、日本美術を中心とした企画展を開く三重・菰野の美術館。2003年開館で、館外のパラミタガーデンでは山野草が季節ごとに彩りを添え、展覧会と合わせて散策も楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "年中無休（年末年始は休館、展示替え期間は一部閉場）。一般1,000円、大学生800円、高校生500円、中学生以下無料。住所・最寄駅は公式ページで読めず、観光情報サイトの記載を参照。2027/2/5〜3/28にインド更紗展を予定。",
+  "confidence": "medium"
+}

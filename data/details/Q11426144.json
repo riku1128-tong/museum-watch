@@ -1,0 +1,71 @@
+{
+  "id": "Q11426144",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.kinosaki-onsenji.jp/guide/museum.html",
+  "address": "〒669-6101 兵庫県豊岡市城崎町湯島985-2",
+  "source_urls": [
+    "http://www.kinosaki-onsenji.jp/guide/museum.html",
+    "https://www.museum.or.jp/museum/5537"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "16:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [
+    {
+      "weekday": "thu",
+      "nth": [
+        2,
+        4
+      ]
+    }
+  ],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展（温泉寺の仏教美術・城崎の遺跡）",
+      "start": "2026-10-02",
+      "end": "2027-10-02",
+      "url": "http://www.kinosaki-onsenji.jp/guide/museum.html",
+      "kind": "collection",
+      "summary": "温泉寺所蔵の仏教美術と城崎の遺跡出土品。通年",
+      "recommend": null,
+      "admission": "大人 300円",
+      "adult_price": 300
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "城崎温泉",
+      "lines": "JR山陰本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "城崎温泉ロープウェイの中間駅「温泉寺」の本堂東隣"
+    }
+  ],
+  "highlights": "城崎温泉を見下ろす山腹、温泉寺本堂の東隣にある館。温泉寺に伝わる仏教美術と、城崎で発掘された遺跡の出土品を展示し、温泉街の歴史を美術の視点でたどれる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式ページ（2010年頃の表記）では開館 9:00〜16:30、休館 第2・第4木曜、大人300円（学生無料、温泉寺と共通券400円）。museum.or.jp には「9:00〜17:00（11〜3月は16:00まで）・100円・休館不定期」とあり食い違うため、公式を採用し confidence は medium。祝日の扱いは公式に記載なし。",
+  "confidence": "medium"
+}

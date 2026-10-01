@@ -1,6 +1,6 @@
 {
   "id": "Q11609688",
-  "checked_at": "2026-09-30T09:19:05+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -15,9 +15,25 @@
     "https://mmag.pref.gunma.jp/exhibition/exhibition-7218"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -146,10 +162,22 @@
   ],
   "adult_price": 300,
   "free_days": [
-    {"from": "2026-10-28", "to": "2026-10-28", "scope": "all", "reason": "群馬県民の日", "source_url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7201"}
+    {
+      "from": "2026-10-28",
+      "to": "2026-10-28",
+      "scope": "all",
+      "reason": "群馬県民の日",
+      "source_url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7201"
+    }
   ],
   "access": [
-    {"station": "高崎", "lines": "JR高崎線・湘南新宿ライン・上野東京ライン、上越・北陸新幹線", "exit": null, "walk_min": null, "note": "高崎駅東口から市内循環バスぐるりん「群馬の森線」9系統(約34分)・10系統(約29分)または「岩鼻線」15系統(約26分)で「群馬の森」下車(200円)。倉賀野駅・新町駅からタクシー約10分。"}
+    {
+      "station": "高崎",
+      "lines": "JR高崎線・湘南新宿ライン・上野東京ライン、上越・北陸新幹線",
+      "exit": null,
+      "walk_min": null,
+      "note": "高崎駅東口から市内循環バスぐるりん「群馬の森線」9系統(約34分)・10系統(約29分)または「岩鼻線」15系統(約26分)で「群馬の森」下車(200円)。倉賀野駅・新町駅からタクシー約10分。"
+    }
   ],
   "highlights": "群馬の森公園内にあり、緑豊かな敷地でブールデルなどの野外彫刻も楽しめる。地元ゆかりの作家を含む近代・現代美術のコレクションを、企画展とあわせてゆったり鑑賞できる。",
   "closed_between_exhibitions": false,

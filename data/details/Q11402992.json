@@ -1,7 +1,7 @@
 {
   "id": "Q11402992",
-  "checked_at": "2026-09-30T09:02:37+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": null,
@@ -16,19 +16,37 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [
-    {"date": "2026-11-02", "note": "芸術週間のため月曜日も開館"}
+    {
+      "date": "2026-11-02",
+      "note": "芸術週間のため月曜日も開館"
+    }
   ],
   "exhibitions": [
     {
@@ -88,7 +106,15 @@
     }
   ],
   "adult_price": 510,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-01",
+      "to": "2026-11-07",
+      "scope": "all",
+      "reason": "北海道芸術週間（全員無料）",
+      "source_url": "https://artmuseum.pref.hokkaido.lg.jp/knb/guide/about"
+    }
+  ],
   "free_rules": [],
   "access": [
     {

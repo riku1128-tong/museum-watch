@@ -1,7 +1,7 @@
 {
   "id": "Q11249110",
-  "checked_at": "2026-09-30T09:02:37+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.suntory.co.jp/sma/",
@@ -12,10 +12,31 @@
     "https://www.museum.or.jp/museum/13940"
   ],
   "regular_hours": [
-    {"days": ["mon", "wed", "thu", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
-    {"days": ["fri", "sat"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
+    {
+      "days": [
+        "mon",
+        "wed",
+        "thu",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    },
+    {
+      "days": [
+        "fri",
+        "sat"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -43,9 +64,27 @@
   ],
   "adult_price": null,
   "access": [
-    {"station": "六本木", "lines": "都営大江戸線", "exit": "8番出口", "walk_min": 0, "note": "出口8よりガレリア直結"},
-    {"station": "六本木", "lines": "東京メトロ日比谷線", "exit": null, "walk_min": null, "note": "地下通路で直結"},
-    {"station": "乃木坂", "lines": "東京メトロ千代田線", "exit": "3番出口", "walk_min": 3, "note": null}
+    {
+      "station": "六本木",
+      "lines": "都営大江戸線",
+      "exit": "8番出口",
+      "walk_min": 0,
+      "note": "出口8よりガレリア直結"
+    },
+    {
+      "station": "六本木",
+      "lines": "東京メトロ日比谷線",
+      "exit": null,
+      "walk_min": null,
+      "note": "地下通路で直結"
+    },
+    {
+      "station": "乃木坂",
+      "lines": "東京メトロ千代田線",
+      "exit": "3番出口",
+      "walk_min": 3,
+      "note": null
+    }
   ],
   "highlights": "「生活の中の美」を理念に1961年開館、2007年に東京ミッドタウン ガレリア3階へ移転。漆工・陶磁・染織・ガラスなど日本の古美術を中心に国宝1件・重要文化財13件を含む約3,000件のコレクションを誇る。常設展はなく企画展のみを年4〜5回開催し、六本木の中心地で日本美術の精粋に出会える。",
   "closed_between_exhibitions": true,

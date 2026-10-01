@@ -1,0 +1,65 @@
+{
+  "id": "Q61818339",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.hikaribijyutukan.net",
+  "address": "〒629-3245 京都府京丹後市網野町浜詰677-19",
+  "source_urls": [
+    "https://www.hikaribijyutukan.net/aboutus.html",
+    "https://www.hikaribijyutukan.net/exhibition.html",
+    "https://museumforum.pref.kyoto.lg.jp/museum-map/hikari-bijyutukan/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "18:00"
+    }
+  ],
+  "closed_weekdays": [
+    "tue",
+    "wed"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "大地は器 2026",
+      "start": "2026-10-24",
+      "end": "2026-11-03",
+      "url": "https://www.hikaribijyutukan.net/exhibition.html",
+      "kind": "special",
+      "summary": "ヒカリ美術館の企画展「大地は器」2026年版",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "木津温泉",
+      "lines": "京都丹後鉄道",
+      "exit": null,
+      "walk_min": 20,
+      "note": null
+    }
+  ],
+  "highlights": "「火」と「光」をテーマにした京丹後の私設美術館。土を焼いたクレイワークや光を意識した作品、海岸の漂着物を再生した作品を展示する。夕日の名所として知られる浜詰の景勝地にあり、観光とあわせて立ち寄れる。",
+  "closed_between_exhibitions": false,
+  "notes": "開館 9:00-18:00、火・水曜休館（公式 aboutus）。入館無料は京都府ミュージアムフォーラムの記載による。祝日の扱いは公式に記載なし。",
+  "confidence": "medium"
+}

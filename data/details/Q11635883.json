@@ -1,0 +1,60 @@
+{
+  "id": "Q11635883",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.ako-art.jp/",
+  "address": "〒678-0215 兵庫県赤穂市御崎314-10",
+  "source_urls": [
+    "https://www.city.ako.lg.jp/edu/shougai/shisetsu/bunka/tabuchikinenkan.html",
+    "https://ako-kankou.jp/sightseeing/ako-art.html",
+    "https://www.museum.or.jp/museum/5466"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "tue"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "播州赤穂",
+      "lines": "JR赤穂線",
+      "exit": null,
+      "walk_min": null,
+      "note": "「かんぽの宿 赤穂」行きバスで「川口町東」下車すぐ"
+    }
+  ],
+  "highlights": "赤穂の塩田・塩問屋として栄えた田淵家から寄贈された日本画や書、茶道具を保存・公開する記念館。茶道具の展示が多く、館内には茶室も備える。郷土ゆかりの美術工芸を静かに味わえる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（ako-art.jp）は証明書エラーで読めず、赤穂市公式ページで確認。開催中の展覧会は確認できず。年末年始12/28〜1/4は検索結果の記載（公式サイトでは未確認）。",
+  "confidence": "medium"
+}

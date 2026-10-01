@@ -1,6 +1,6 @@
 {
   "id": "Q11595523",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,7 +12,16 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30",
@@ -20,19 +29,30 @@
       "to": "2026-10-31"
     },
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "16:00",
       "from": "2026-11-01",
       "to": "2027-02-28"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-12-29",
-      "to": "2027-01-03",
+      "from": "2026-12-28",
+      "to": "2027-01-04",
       "reason": "年末年始"
     }
   ],
@@ -79,5 +99,14 @@
     }
   ],
   "highlights": "松尾芭蕉が『おくのほそ道』で訪れた象潟の歴史と地形変遷を伝える資料館。1804年の地震で潟から陸地へ変貌する前の景観を825分の1の模型で再現し、藩主が描かせた象潟図屏風や2500年前の埋もれ木も展示する。",
-  "confidence": "high"
+  "confidence": "high",
+  "free_days": [
+    {
+      "from": "2026-10-31",
+      "to": "2026-11-02",
+      "scope": "all",
+      "reason": "東北文化の日",
+      "source_url": "https://tohokubunka.pref.miyagi.jp/facilities/akita-24/"
+    }
+  ]
 }

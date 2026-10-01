@@ -1,0 +1,125 @@
+{
+  "id": "Q1055037",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.nmao.go.jp/",
+  "address": "〒530-0005 大阪府大阪市北区中之島4-2-55",
+  "source_urls": [
+    "https://www.nmao.go.jp/",
+    "https://www.nmao.go.jp/visit/admission/",
+    "https://www.nmao.go.jp/events/event/20260719_sasamoto-aki/",
+    "https://www.nmao.go.jp/events/event/collection20260719/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    },
+    {
+      "days": [
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [
+    {
+      "date": "2026-11-02",
+      "note": "月曜だが開館（展覧会ページの記載）"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "笹本晃　ラボラトリー",
+      "start": "2026-07-19",
+      "end": "2026-11-03",
+      "url": "https://www.nmao.go.jp/events/event/20260719_sasamoto-aki/",
+      "kind": "special",
+      "summary": "糸や管、日用品、音などを組み合わせる笹本晃のインスタレーション展",
+      "recommend": "彫刻的な思考と身体表現を行き来する笹本晃が、糸や管、日用品、音、言葉を組み合わせて空間を構築。思考や感情が行き交う回路のようなインスタレーションを体感できる。",
+      "admission": "一般 1,800円",
+      "adult_price": 1800
+    },
+    {
+      "title": "コレクション1：私／行為",
+      "start": "2026-07-19",
+      "end": "2026-11-03",
+      "url": "https://www.nmao.go.jp/events/event/collection20260719/",
+      "kind": "collection",
+      "summary": "開館50周年記念プレ企画。セザンヌから1960年代半ばまでの作品で「私」と「行為」を考える",
+      "recommend": "館のコレクションで最も古い1890年代のセザンヌから1960年代半ばまでをたどり、制作の主体としての「私」の確立と揺らぎ、制作行為をめぐる言説の変化に注目する。",
+      "admission": "一般 430円",
+      "adult_price": 430
+    }
+  ],
+  "adult_price": 430,
+  "free_days": [
+    {
+      "from": "2026-10-16",
+      "to": "2026-10-17",
+      "scope": "all",
+      "reason": "ラボラトリー・スペシャルフリーデー（特別無料観覧日）",
+      "source_url": "https://www.nmao.go.jp/"
+    },
+    {
+      "from": "2026-10-23",
+      "to": "2026-10-24",
+      "scope": "all",
+      "reason": "ラボラトリー・スペシャルフリーデー（特別無料観覧日）",
+      "source_url": "https://www.nmao.go.jp/"
+    }
+  ],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "渡辺橋",
+      "lines": "京阪中之島線",
+      "exit": "2番出口",
+      "walk_min": 5,
+      "note": null
+    },
+    {
+      "station": "肥後橋",
+      "lines": "大阪メトロ四つ橋線",
+      "exit": "3番出口",
+      "walk_min": 10,
+      "note": null
+    },
+    {
+      "station": "新福島",
+      "lines": "JR東西線",
+      "exit": "2番出口",
+      "walk_min": 10,
+      "note": null
+    }
+  ],
+  "highlights": "大阪・中之島にある現代美術中心の国立美術館。展示空間は地下に広がり、国内外の現代美術を所蔵するコレクションと、現代作家を紹介する特別展を開催。毎週金曜は20時まで夜間開館している。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日の場合は開館し翌平日休館）。展示替え期間は休館。夜間開館（金）は20時まで。笹本晃展の休館日は月曜（7/20・9/21・10/12・11/2は開館）と7/21・9/24・10/13。",
+  "confidence": "high"
+}

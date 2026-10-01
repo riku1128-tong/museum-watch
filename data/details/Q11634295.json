@@ -1,0 +1,27 @@
+{
+  "id": "Q11634295",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "2018年の「未来への扉-Reborn」展を最後に閉館。2024年から解体工事が行われている。",
+  "official_url": null,
+  "address": "〒658-0063 兵庫県神戸市東灘区住吉山手4丁目12-70",
+  "source_urls": [
+    "https://ja.wikipedia.org/wiki/豊雲記念館",
+    "https://www.museum.or.jp/event/12344"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "小原流が運営していた施設で、閉館済み。公式サイトは見つからず、Wikipedia と検索結果で確認した。",
+  "confidence": "medium"
+}

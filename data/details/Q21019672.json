@@ -1,7 +1,7 @@
 {
   "id": "Q21019672",
-  "checked_at": "2026-09-30T09:01:14+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://koryomuseum.or.jp/",
@@ -12,9 +12,26 @@
     "https://artexhibition.jp/exhibitions/20260823-AEJ2976006/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:30", "last_entry": "16:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
   ],
-  "closed_weekdays": ["mon", "tue"],
+  "closed_weekdays": [
+    "mon",
+    "tue"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -35,7 +52,12 @@
   "highlights": "1988年に創立した、京都にある朝鮮美術を専門とする美術館。鄭詔文氏の情熱と司馬遼太郎らの賛同で生まれた。朝鮮半島の陶磁器・民画・工芸品を収蔵・研究し、民衆レベルの日韓文化交流推進を理念とする。企画展を年数回開催する小規模ながら個性豊かな専門館。",
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "北大路", "lines": "京都市営地下鉄烏丸線", "walk_min": 20, "note": "市バス37系統で約10分「加茂川中学前」下車徒歩1分。JR京都駅から市バス9系統で約40分、京阪三条駅から市バス37系統で約30分でも同バス停下車"}
+    {
+      "station": "北大路",
+      "lines": "京都市営地下鉄烏丸線",
+      "walk_min": 20,
+      "note": "市バス37系統で約10分「加茂川中学前」下車徒歩1分。JR京都駅から市バス9系統で約40分、京阪三条駅から市バス37系統で約30分でも同バス停下車"
+    }
   ],
   "notes": "休館日は「毎週月曜日・火曜日（但し祝日の場合は開館・翌日への振替休館はありません）」「年末年始」「展示替期間」。年末年始の具体的な日付は公式サイトに記載が見当たらず未確認。開催中の展覧会のタイトル・開始日・料金は公式トップページで確認したが、終了日は公式ページを見つけられず美術展情報サイト（artexhibition.jp）で確認した。",
   "confidence": "high"

@@ -1,0 +1,89 @@
+{
+  "id": "Q11407282",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.minamiawaji.hyogo.jp/soshiki/gyokuseikan/main.html",
+  "address": "〒656-0314 兵庫県南あわじ市松帆西路1137番地1",
+  "source_urls": [
+    "https://www.city.minamiawaji.hyogo.jp/soshiki/gyokuseikan/main.html",
+    "https://www.city.minamiawaji.hyogo.jp/soshiki/gyokuseikan/raisan3.html",
+    "https://www.city.minamiawaji.hyogo.jp/soshiki/gyokuseikan/35syuunenn.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-01",
+      "to": "2026-10-02",
+      "reason": "展示入替"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "秋季特別展「銅鐸礼賛ー地宝を訪ねて和歌山ー」",
+      "start": "2026-10-03",
+      "end": "2026-11-29",
+      "url": "https://www.city.minamiawaji.hyogo.jp/soshiki/gyokuseikan/raisan3.html",
+      "kind": "special",
+      "summary": "和歌山県出土の銅鐸・弥生土器と松帆銅鐸などから淡路島と和歌山の古代交流を探る",
+      "recommend": "和歌山で出土した銅鐸や土器と、南あわじ市内出土の紀伊型甕、国指定重要文化財の松帆銅鐸を並べ、海を越えた古代の交流を読み解ける展示。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "開館35周年記念「新館蔵品展ー巡縁3ー」",
+      "start": "2026-10-03",
+      "end": "2026-11-29",
+      "url": "https://www.city.minamiawaji.hyogo.jp/soshiki/gyokuseikan/35syuunenn.html",
+      "kind": "special",
+      "summary": "直原玉青の新収蔵作品7点を初披露する館蔵品展",
+      "recommend": "南画家・直原玉青が90代で描いた世界各地の自然や遺跡、街並みの新収蔵作品を初公開。衰えない情熱が伝わる筆致を楽しめる。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "志知",
+      "lines": "高速バス",
+      "exit": null,
+      "walk_min": 20,
+      "note": "高速バス「志知」「陸の港西淡」下車徒歩20分またはタクシー5分。神戸淡路鳴門道西淡三原ICから車で約5分"
+    }
+  ],
+  "highlights": "淡路島出身の南画家・直原玉青の作品を核に、南画の世界を紹介する市立美術館。館蔵品展のほか、松帆銅鐸など地域の考古資料を扱う特別展も開く。2026年に開館35周年を迎え、新収蔵作品の披露が続く。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は公式に「毎週月曜日（祝日の翌日は休館）」とあるが、祝日の扱いは詳細ページで「祝日の場合は翌平日」と記載のため open_next_weekday_closed とした。10月の個別休館日（5・13・19・26日）は月曜・祝日翌日に相当。展示入替で9/24〜10/2休館（本日以降は10/1-2のみ）。",
+  "confidence": "high"
+}

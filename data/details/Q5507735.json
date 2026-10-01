@@ -1,6 +1,6 @@
 {
   "id": "Q5507735",
-  "checked_at": "2026-09-30T09:13:02+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -14,14 +14,37 @@
     "https://art-museum.fcs.ed.jp/access"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-25", "to": "2026-10-09", "reason": "展示替えのための臨時休館"},
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+    {
+      "from": "2026-09-25",
+      "to": "2026-10-09",
+      "reason": "展示替えのための臨時休館"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -35,14 +58,45 @@
       "recommend": "歌川国芳など江戸〜明治の浮世絵師が描いた猫作品を一堂に展示。猫の生態・歴史・人との関わりを多彩な浮世絵で読み解き、単なるかわいさを超えた猫と社会の深い結びつきを発見できる。",
       "admission": "一般・大学生 1,000円",
       "adult_price": 1000
+    },
+    {
+      "title": "第Ⅲ期 コレクション展",
+      "start": "2026-10-10",
+      "end": "2026-12-06",
+      "url": null,
+      "kind": "collection",
+      "summary": "所蔵作品によるコレクション展（第Ⅲ期）",
+      "recommend": null,
+      "admission": "一般 360円",
+      "adult_price": 360
     }
   ],
   "adult_price": 360,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "collection",
+      "reason": "東北文化の日（文化の日・常設展示のみ）",
+      "source_url": "https://tohokubunka.pref.miyagi.jp/facilities/fukushima-2/"
+    }
+  ],
   "free_rules": [],
   "access": [
-    {"station": "美術館図書館前", "lines": "福島交通飯坂線", "exit": null, "walk_min": 2, "note": null},
-    {"station": "福島", "lines": "JR東北本線・奥羽本線・東北新幹線", "exit": null, "walk_min": null, "note": "9番バス乗り場より福島交通ももりん2コース「県立美術館入口」下車 徒歩3分"}
+    {
+      "station": "美術館図書館前",
+      "lines": "福島交通飯坂線",
+      "exit": null,
+      "walk_min": 2,
+      "note": null
+    },
+    {
+      "station": "福島",
+      "lines": "JR東北本線・奥羽本線・東北新幹線",
+      "exit": null,
+      "walk_min": null,
+      "note": "9番バス乗り場より福島交通ももりん2コース「県立美術館入口」下車 徒歩3分"
+    }
   ],
   "highlights": "福島市に位置する県立美術館。コレクション展と多彩な企画展を年間を通じて開催し、草間彌生・ゴッホなど国内外の著名作家の展覧会を定期的に実施する。飯坂線「美術館図書館前」駅から徒歩2分とアクセスがよく、常設展は一般360円と手頃な料金。",
   "closed_between_exhibitions": false,

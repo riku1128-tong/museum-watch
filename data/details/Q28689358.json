@@ -1,6 +1,6 @@
 {
   "id": "Q28689358",
-  "checked_at": "2026-09-30T10:00:00+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -14,12 +14,32 @@
     "https://www.city.tomioka.lg.jp/www/contents/1607578938940/index.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-27", "to": "2027-01-04", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-27",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -79,10 +99,27 @@
   "closed_between_exhibitions": false,
   "adult_price": 210,
   "access": [
-    {"station": "上州富岡", "lines": "上信電鉄", "note": "駅からタクシーで10分"},
-    {"station": "磯部", "lines": "JR信越線", "note": "駅からタクシーで10分"}
+    {
+      "station": "上州富岡",
+      "lines": "上信電鉄",
+      "note": "駅からタクシーで10分"
+    },
+    {
+      "station": "磯部",
+      "lines": "JR信越線",
+      "note": "駅からタクシーで10分"
+    }
   ],
   "highlights": "もみじ平総合公園内にある美術博物館。富岡出身の洋画家・福沢一郎の作品を一堂に集めた記念展示室を併設し、アトリエ再現室で制作の様子もわかる。郷土の考古・歴史・民俗資料も通史的に展示する。",
   "notes": "利用案内ページの休館日は「月曜日（祝日の場合はその翌日）」「年末年始（12/27〜1/4）」、そのほか臨時休館あり。「福沢一郎　はじまりの一歩」の会期は公式ページに開始日の記載が無く、群馬県民カレッジのイベント情報（7/14〜11/1）で補った。最寄駅は無くタクシー利用が案内されている。",
-  "confidence": "medium"
+  "confidence": "medium",
+  "free_days": [
+    {
+      "from": "2026-10-28",
+      "to": "2026-10-28",
+      "scope": "all",
+      "reason": "群馬県民の日",
+      "source_url": "https://www.city.tomioka.lg.jp/www/contents/1464669180770/index.html"
+    }
+  ]
 }

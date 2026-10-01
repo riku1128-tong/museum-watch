@@ -1,7 +1,7 @@
 {
   "id": "Q11671831",
-  "checked_at": "2026-09-30T09:08:12+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T09:00:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.takahama-kawara-museum.com/",
@@ -14,13 +14,25 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon", "tue"],
+  "closed_weekdays": [
+    "mon",
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {

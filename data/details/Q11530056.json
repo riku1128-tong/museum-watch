@@ -1,7 +1,7 @@
 {
   "id": "Q11530056",
-  "checked_at": "2026-09-30T09:03:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:30:15+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.matsuoka-museum.jp/",
@@ -18,13 +18,36 @@
     "https://www.matsuoka-museum.jp/access/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-10-13", "to": "2026-10-26", "reason": "展示替えにつき休館"},
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休館"}
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-26",
+      "reason": "展示替えにつき休館"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -78,9 +101,19 @@
   "highlights": "実業家・松岡清次郎が「日本では見られないものを」という信念で収集した私立美術館。東洋陶磁を500点以上収蔵し、中国・日本・朝鮮・ベトナムの名品が揃う。古代ローマ彫刻やエジプト美術から西洋絵画・現代彫刻まで幅広いコレクションを白金台の邸宅建築で公開する。",
   "adult_price": 1400,
   "access": [
-    {"station": "白金台", "lines": "東京メトロ南北線・都営三田線", "exit": "1番出口", "walk_min": 7},
-    {"station": "目黒", "lines": "JR山手線ほか", "exit": "東口", "walk_min": 15,
-     "note": "目黒駅東口バスターミナル2番のりばから黒77・橋86系統バスで「東大医科研病院西門」下車徒歩1分"}
+    {
+      "station": "白金台",
+      "lines": "東京メトロ南北線・都営三田線",
+      "exit": "1番出口",
+      "walk_min": 7
+    },
+    {
+      "station": "目黒",
+      "lines": "JR山手線ほか",
+      "exit": "東口",
+      "walk_min": 15,
+      "note": "目黒駅東口バスターミナル2番のりばから黒77・橋86系統バスで「東大医科研病院西門」下車徒歩1分"
+    }
   ],
   "notes": "月曜休館（祝日の場合は翌平日）。展示替え期間・年末年始は休館（開館カレンダーに日付あり）。入館料は館共通（一般1,400円）。常設展示もあるが会期の記載は未確認のため展示一覧には入れていない。展覧会ページより次期展示（10/27〜）のURLを更新（10631/・10633/）。",
   "confidence": "high"

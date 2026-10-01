@@ -1,7 +1,7 @@
 {
   "id": "Q11445231",
-  "checked_at": "2026-09-30T09:15:56+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.pref.nara.lg.jp/n044/11842.html",
@@ -15,9 +15,25 @@
     "https://www.pref.nara.lg.jp/n044/p105026.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -47,8 +63,17 @@
   ],
   "adult_price": null,
   "access": [
-    {"station": "近鉄奈良", "lines": "近鉄奈良線", "exit": "1番出口", "walk_min": 5},
-    {"station": "JR奈良", "lines": "JR関西本線", "note": "東口バス乗り場から奈良交通バスで「県庁前」下車"}
+    {
+      "station": "近鉄奈良",
+      "lines": "近鉄奈良線",
+      "exit": "1番出口",
+      "walk_min": 5
+    },
+    {
+      "station": "JR奈良",
+      "lines": "JR関西本線",
+      "note": "東口バス乗り場から奈良交通バスで「県庁前」下車"
+    }
   ],
   "highlights": "風俗史研究家・吉川観方の寄贈コレクション4,600点を核とする奈良市唯一の県立美術館。江戸絵画・浮世絵・工芸品を幅広く収蔵し、由良コレクション（中世〜近世の日本・中国絵画）、大橋コレクション（前衛美術）、陶芸家・富本憲吉作品も擁する。奈良公園に隣接し、近鉄奈良駅から徒歩5分の好立地。",
   "closed_between_exhibitions": false,

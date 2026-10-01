@@ -1,29 +1,48 @@
 {
   "id": "Q11450773",
-  "checked_at": "2026-09-30T09:29:29+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
-  "status_note": "屋内外の改修工事のため休館中。公式サイト（www.jansen-museum.com）および旧URL（musee-de-jansem.jp）ともに接続不可。インターネットミュージアムと検索結果によれば2026年中の再開を目指しているが、具体的な再開日は未発表。",
+  "status_note": "屋内外の工事のため休館中。2026年6月5日に休館期間の延長が告知され、2026年度中の開館を目指すが再開日は未発表",
   "official_url": "http://www.musee-de-jansem.jp/",
   "address": "〒399-8301 長野県安曇野市穂高有明4018-6",
   "source_urls": [
+    "https://azumino-artline.net/museum/jansem",
     "https://www.museum.or.jp/museum/4049",
     "https://www.culture.nagano.jp/facilities/420/"
   ],
   "regular_hours": [
-    {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [],
   "closed_between_exhibitions": false,
-  "adult_price": 850,
+  "adult_price": 1100,
   "access": [
-    {"station": "穂高", "lines": "JR大糸線", "note": "松本駅から大糸線で穂高駅まで約30分。豊科ICから車で約15分"}
+    {
+      "station": "穂高",
+      "lines": "JR大糸線",
+      "note": "松本駅から大糸線で穂高駅まで約30分。豊科ICから車で約15分"
+    }
   ],
   "highlights": "フランスとアルメニアの国家勲章を受けた画家ジャン・ジャンセンに特化した世界初の美術館。安曇野の山並みを背景に、500号の油彩を中心に常時50〜80点を展示。ミレーやピカソ、シャガールら物故作家や現代作家の作品、ブロンズ彫刻・木彫彫刻も随時紹介する。",
-  "notes": "公式サイト（musee-de-jansem.jp）にWebFetchで接続できず（SSLエラー）、インターネットミュージアム（museum.or.jp）を情報源とした。通常の休館日は火曜（ゴールデンウィーク・8月・祝日は無休）、冬期休館（例年11月下旬〜4月20日ごろ、正確な日付は未確認のためspecial_closuresには入れていない）。ただし現在は改修工事のため長期休館中で、この通常スケジュールは工事終了までは適用されない。観覧料はインターネットミュージアム記載の850円としたが、他の旅行系サイトでは1,100円との記載もあり、確定できていない。フランスの画家ジャン・ジャンセンの専門美術館。展覧会情報は休館中のため確認できず空欄。",
-  "confidence": "low"
+  "notes": "公式サイト（musee-de-jansem.jp）はSSLエラーで接続不可。安曇野アートライン（公式の案内を転載）で確認: 休館日なし（展示替えで臨時休館あり）、毎日9:00〜16:30入館（17:00閉館）、大人1,100円。12月中旬〜3月初旬は16時閉館の場合あり。再開日未発表のため休館中。",
+  "confidence": "medium"
 }

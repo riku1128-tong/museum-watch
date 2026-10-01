@@ -1,0 +1,96 @@
+{
+  "id": "Q1268542",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "季節開館の館（会期中のみ開館）。次の会期の日程は未確認",
+  "official_url": "https://www.miho.jp/",
+  "address": "〒529-1814 滋賀県甲賀市信楽町田代桃谷300",
+  "source_urls": [
+    "https://www.miho.jp/",
+    "http://www.miho.jp/current_exhibition/",
+    "http://www.miho.jp/exhibition/autumn2026-2/",
+    "http://www.miho.jp/exhibition/autumn2026/",
+    "http://www.miho.jp/exhibition/collection/",
+    "http://www.miho.jp/access/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "MIHO MUSEUMコレクション　花ひらく寛永の美",
+      "start": "2026-09-26",
+      "end": "2026-12-06",
+      "url": "https://www.miho.jp/exhibition/autumn2026-2/",
+      "kind": "special",
+      "summary": "後水尾天皇の二条城行幸と、寛永文化の茶の湯・華道などの美を紹介",
+      "recommend": "1626年の後水尾天皇二条城行幸にまつわる作品約20点と、小堀遠州ら文化人が育んだ寛永の茶・華の美を紹介。当時の京都の交流から生まれた豊かな美の世界に触れられる。",
+      "admission": "大人 1,300円",
+      "adult_price": 1300
+    },
+    {
+      "title": "百済寺と近江の仏教美術ー百済寺秘仏公開によせてー",
+      "start": "2026-09-26",
+      "end": "2026-12-06",
+      "url": "https://www.miho.jp/exhibition/autumn2026/",
+      "kind": "special",
+      "summary": "百済寺の本尊十一面観音立像を寺外で初公開、近江の仏教美術を展観",
+      "recommend": "聖徳太子創建と伝わる百済寺の本尊・十一面観音立像が、本堂の保存修理に伴い初めて寺外で公開される。滋賀県内の金銅仏や木彫仏、絵画もあわせて見られる。",
+      "admission": "大人 1,300円",
+      "adult_price": 1300
+    },
+    {
+      "title": "MIHO MUSEUM世界の古代美術コレクション",
+      "start": "2026-09-26",
+      "end": "2026-12-06",
+      "url": "https://www.miho.jp/exhibition/collection/",
+      "kind": "collection",
+      "summary": "エジプト・西アジア・ギリシア・ローマ・古代中国などの古代美術",
+      "recommend": null,
+      "admission": "一般 1,300円",
+      "adult_price": 1300
+    }
+  ],
+  "adult_price": 1300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "石山",
+      "lines": "JR東海道本線",
+      "walk_min": null,
+      "note": "帝産バス「3番のりば 150系統」で約50分"
+    },
+    {
+      "station": "信楽",
+      "lines": "信楽高原鐵道",
+      "walk_min": null,
+      "note": "信楽駅前から「田代・畑・陶芸の森巡回線」バスで約20分、タクシー約20分"
+    }
+  ],
+  "highlights": "I.M.ペイ設計の美術館。古代エジプト、ギリシャ・ローマ、アジアなど世界各地の優品と日本美術の名品を所蔵・展示する。信楽の山中に建つ建築そのものも見どころ。",
+  "closed_between_exhibitions": true,
+  "notes": "開館カレンダー（/calendar）は画像のため日付を読めず。10/13・11/24は祝日翌日の振替で休館、10/12・11/23は開館。会期外の休館期間は未確認で special_closures には入れていない。大・高生1,000円、中学生以下無料。",
+  "confidence": "medium"
+}

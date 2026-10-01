@@ -1,6 +1,6 @@
 {
   "id": "Q3815458",
-  "checked_at": "2026-09-30T09:02:54+09:00",
+  "checked_at": "2026-10-02T08:30:44+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -14,21 +14,69 @@
   ],
   "adult_price": null,
   "access": [
-    {"station": "二重橋前〈丸の内〉", "lines": "東京メトロ千代田線", "exit": "1番", "walk_min": 3, "note": null},
-    {"station": "日比谷", "lines": "都営三田線", "exit": "B7", "walk_min": 3, "note": null},
-    {"station": "東京", "lines": "JR", "exit": "丸の内南口", "walk_min": 5, "note": null}
+    {
+      "station": "二重橋前〈丸の内〉",
+      "lines": "東京メトロ千代田線",
+      "exit": "1番",
+      "walk_min": 3,
+      "note": null
+    },
+    {
+      "station": "日比谷",
+      "lines": "都営三田線",
+      "exit": "B7",
+      "walk_min": 3,
+      "note": null
+    },
+    {
+      "station": "東京",
+      "lines": "JR",
+      "exit": "丸の内南口",
+      "walk_min": 5,
+      "note": null
+    }
   ],
   "regular_hours": [
-    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"},
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-12-31", "to": "2027-01-01", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-31",
+      "to": "2027-01-01",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [
-    {"date": "2027-01-18", "note": "月曜だが開館（フォンタネージ展ページの記載）"}
+    {
+      "date": "2027-01-18",
+      "note": "月曜だが開館（フォンタネージ展ページの記載）"
+    }
   ],
   "exhibitions": [
     {

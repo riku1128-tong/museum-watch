@@ -1,0 +1,46 @@
+{
+  "id": "Q11408411",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "年2回（5月・11月）のみ開館する私設美術館。公式サイトは証明書期限切れで直接読めず、検索結果・美術館情報サイトで確認",
+  "official_url": "https://www.namban.jp/namban/",
+  "address": "〒531-0071 大阪府大阪市北区中津6-2-18",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/5414",
+    "https://www.namban.jp/namban/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2026-10-01", "to": "2026-10-31", "reason": "閉館期間（開館は5月・11月のみ）"},
+    {"from": "2026-12-01", "to": "2027-04-30", "reason": "閉館期間（開館は5月・11月のみ）"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展示（南蛮美術・キリシタン関係資料）",
+      "start": "2026-11-01",
+      "end": "2026-11-30",
+      "url": "https://www.namban.jp/namban/",
+      "kind": "collection",
+      "summary": "1階にキリシタン関係、2階に南蛮美術を展示。開館は11月の1か月間のみ",
+      "recommend": null,
+      "admission": "一般 800円",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": 800,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "中津", "lines": "大阪メトロ御堂筋線", "exit": null, "walk_min": null, "note": null}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "開館は毎年5月1〜31日と11月1〜30日のみ、期間中の月曜休館。入館料は美術館情報サイトで500円、検索結果の複数サイトで大人800円と食い違い、新しい800円を採用。最寄駅の出口・徒歩分数は未確認。2027年5月の開館は次回確認。",
+  "confidence": "medium"
+}

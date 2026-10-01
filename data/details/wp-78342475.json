@@ -1,23 +1,34 @@
 {
   "id": "wp-78342475",
-  "checked_at": "2026-09-30T09:35:00+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.chichibumuseum.com/",
   "address": "〒368-0013 埼玉県秩父市永田町7-1",
   "source_urls": [
-    "https://www.museum.or.jp/museum/1942"
+    "https://www.museum.or.jp/museum/1942",
+    "https://www.jalan.net/kankou/spt_11207cc3300033907/"
   ],
   "regular_hours": [
     {
-      "days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "17:00",
       "last_entry": "16:00"
     }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [
     {
@@ -52,6 +63,6 @@
   ],
   "highlights": "秩父の地にゆかりのある幕末から現代の画家たちの絵画・掛軸と仏教美術・民俗資料を収蔵・展示する地域密着型の美術館。仏教資料館も併設し、地域の文化遺産を幅広く紹介する。公募展「秩父美術館賞」も定期的に開催。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（http://www.chichibumuseum.com/）は自己署名証明書のためWebFetchでアクセス不可。開館時間・休館日・入館料はインターネットミュージアムおよび検索結果から取得。祝日の扱いは確認できなかったため holiday_rule を unknown とした。",
+  "notes": "公式サイト（http://www.chichibumuseum.com/）は自己署名証明書のためWebFetchでアクセス不可。開館時間・休館日・入館料はインターネットミュージアムおよび検索結果から取得。祝日の扱いは確認できなかったため holiday_rule を unknown とした。 10/2: 公式は引き続き証明書エラー。検索結果で休館日(火曜・12/25〜1/4)と時間が一致、新たな休館告知なし。",
   "confidence": "medium"
 }

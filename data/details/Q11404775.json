@@ -1,7 +1,7 @@
 {
   "id": "Q11404775",
-  "checked_at": "2026-09-30T09:28:58+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://shizutani.jp/",
@@ -12,7 +12,15 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon","tue","wed","thu","fri","sat","sun"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
       "open": "09:00",
       "close": "17:00"
     }

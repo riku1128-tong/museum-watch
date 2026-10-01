@@ -1,7 +1,7 @@
 {
   "id": "Q521611",
-  "checked_at": "2026-09-30T09:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://gmat.pref.gunma.jp/",
@@ -15,12 +15,32 @@
     "https://gmat.pref.gunma.jp/exhibition/ex/textileart/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -71,11 +91,25 @@
   ],
   "adult_price": null,
   "free_days": [
-    {"from": "2026-10-28", "to": "2026-10-28", "scope": "all", "reason": "群馬県民の日", "source_url": "https://gmat.pref.gunma.jp/guide/"}
+    {
+      "from": "2026-10-28",
+      "to": "2026-10-28",
+      "scope": "all",
+      "reason": "群馬県民の日",
+      "source_url": "https://gmat.pref.gunma.jp/guide/"
+    }
   ],
   "access": [
-    {"station": "館林", "lines": "東武伊勢崎線", "note": "タクシーで約10分、または多々良巡回線バスで「県立館林美術館前」下車すぐ"},
-    {"station": "多々良", "lines": "東武伊勢崎線", "walk_min": 20}
+    {
+      "station": "館林",
+      "lines": "東武伊勢崎線",
+      "note": "タクシーで約10分、または多々良巡回線バスで「県立館林美術館前」下車すぐ"
+    },
+    {
+      "station": "多々良",
+      "lines": "東武伊勢崎線",
+      "walk_min": 20
+    }
   ],
   "highlights": "群馬県邑楽郡出身の彫刻家フランソワ・ポンポンの作品を中心に、近現代の彫刻や自然と親しむ造形作品を集めた美術館。多々良沼に近い広い敷地に建ち、別館「彫刻家のアトリエ」ではポンポンにまつわる資料も見られる。",
   "closed_between_exhibitions": false,

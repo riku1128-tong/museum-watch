@@ -1,0 +1,59 @@
+{
+  "id": "Q11380269",
+  "checked_at": "2026-10-02T08:50:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/",
+  "address": "〒668-0214 兵庫県豊岡市出石町内町98",
+  "source_urls": [
+    "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/",
+    "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/1002142.html",
+    "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/1002138.html",
+    "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/1004510/1038824.html",
+    "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/1004510/1038319.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["wed"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "絵のいのちをつなぐ―修復作品―",
+      "start": "2026-08-30",
+      "end": "2026-10-18",
+      "url": "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/1004510/1038824.html",
+      "kind": "special",
+      "summary": "2022〜2025年に修復を終えた伊藤清永の7作品を、修復前後の比較写真や作業内容とともに紹介（B展示室）",
+      "recommend": "《辰鼓楼》《舞妓》《海女》など7点が、修復前後の写真や作業の解説とともに並ぶ。傷みが直されて蘇る絵の姿と、作品を守る仕事の裏側を知ることができる。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "第30回伊藤清永賞子ども絵画展",
+      "start": "2026-10-04",
+      "end": "2026-10-18",
+      "url": "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/1004510/1038319.html",
+      "kind": "special",
+      "summary": "伊藤清永賞をはじめ入賞・入選作品110点を展示する子ども絵画展（観覧無料）",
+      "recommend": "30回目を迎える、子どもたちの絵画コンクールの入賞・入選作110点を展示。のびのびとした感性が光る作品が並ぶ。",
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "豊岡", "lines": "JR山陰本線", "exit": null, "walk_min": null, "note": "JR豊岡駅から全但バス出石行きで約30分、「出石」下車徒歩約5分。専用駐車場なし"}
+  ],
+  "highlights": "豊麗優美な裸婦像で知られる洋画家・伊藤清永（1911-2001）の故郷、出石に建つ美術館。代表作を収蔵・展示し、年に2〜3回の特別展を開く。城下町出石の散策とあわせて立ち寄れる。",
+  "closed_between_exhibitions": false,
+  "notes": "水曜休館（祝日の場合は翌日休館）。展示替えのため臨時休館する日があり、開館カレンダーは未確認（日付は入れていない）。観覧料は常設展期間中の料金（大学生・高校生300円、中学生以下無料、障害者手帳所持者半額）。",
+  "confidence": "medium"
+}

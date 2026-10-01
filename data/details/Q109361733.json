@@ -1,6 +1,6 @@
 {
   "id": "Q109361733",
-  "checked_at": "2026-09-30T09:26:20+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,12 +12,33 @@
     "http://www.africanartmuseum.jp/about.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["tue", "wed"],
+  "closed_weekdays": [
+    "tue",
+    "wed"
+  ],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-11-20", "to": "2026-11-22", "reason": "臨時休館"}
+    {
+      "from": "2026-11-20",
+      "to": "2026-11-22",
+      "reason": "臨時休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -36,7 +57,13 @@
   "closed_between_exhibitions": false,
   "adult_price": 800,
   "access": [
-    {"station": "長坂", "lines": "JR中央本線", "exit": null, "walk_min": null, "note": "長坂駅から車で5分"}
+    {
+      "station": "長坂",
+      "lines": "JR中央本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "長坂駅から車で5分"
+    }
   ],
   "highlights": "八ヶ岳南麓、甲斐駒ケ岳や富士山を望む地に立つ、日本で唯一のアフリカ美術専門美術館。紀元前から近代までのアフリカのマスクや立像、テキスタイルなど約1900点に、アジア・オセアニアの美術約700点もあわせて紹介する。",
   "notes": "休館日は「祭日を除く火曜・水曜。海の日から8月31日まで無休、12月～3月は冬季休館」。夏季の無休期間・冬季休館の具体的な開始日は公式サイトに月単位でしか記載がなく、現行スキーマ（special_closures は日付指定必須）では表現できないため、closed_weekdays（火・水）と holiday_rule（祝日は開館）のみ反映し、この notes に記載する。冬季休館（12月〜3月）の正確な開始・終了日は次回巡回時に要確認。",

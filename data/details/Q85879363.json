@@ -1,6 +1,6 @@
 {
   "id": "Q85879363",
-  "checked_at": "2026-09-30T09:35:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -14,12 +14,30 @@
     "https://azumino.mt-museum.jp/tenji-next/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:00"
+    }
   ],
-  "closed_weekdays": ["thu"],
+  "closed_weekdays": [
+    "thu"
+  ],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-12-11", "to": "2027-03-09", "reason": "冬期休館"}
+    {
+      "from": "2026-12-11",
+      "to": "2027-03-09",
+      "reason": "冬期休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -49,7 +67,13 @@
   "closed_between_exhibitions": false,
   "adult_price": 800,
   "access": [
-    {"station": "穂高", "lines": "JR大糸線", "exit": null, "walk_min": null, "note": "タクシー約10分（目安1,720円）。中房温泉行き定期バスで「花水木会館」下車徒歩3分、または周遊バスで「Vif穂高」下車徒歩10分。長野自動車道 安曇野ICから車で約25分"}
+    {
+      "station": "穂高",
+      "lines": "JR大糸線",
+      "exit": null,
+      "walk_min": null,
+      "note": "タクシー約10分（目安1,720円）。中房温泉行き定期バスで「花水木会館」下車徒歩3分、または周遊バスで「Vif穂高」下車徒歩10分。長野自動車道 安曇野ICから車で約25分"
+    }
   ],
   "highlights": "安曇野・有明の高台にあり、山岳画家たちが描いた山の絵画を集めた美術館。11名の画家を紹介する常設のコレクションと、季節ごとの企画展を通じて、山を描くことの魅力を伝えている",
   "notes": "休館日は「木曜日（祝祭日は開館）【ゴールデンウィーク期間・8月は無休】」だが、2026年内は該当する祝日がGW・8月になく今回の巡回対象期間には影響しないため、closed_weekdays は木曜のみ・holiday_rule は open とした（GW・8月の特例は来年の巡回時に要反映）。冬期休館（12/11〜3/9）は公式利用案内より。今後の展覧会（渡辺幸雄山岳写真展など）はタイトルのみで会期の記載がなく未掲載。",

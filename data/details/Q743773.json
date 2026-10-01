@@ -1,6 +1,6 @@
 {
   "id": "Q743773",
-  "checked_at": "2026-09-30T09:35:00+09:00",
+  "checked_at": "2026-10-02T08:50:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -154,8 +154,19 @@
   "confidence": "high",
   "adult_price": null,
   "access": [
-    {"station": "白金台", "lines": "都営三田線・東京メトロ南北線", "exit": "1番出口", "walk_min": 6},
-    {"station": "目黒", "lines": "JR山手線・東急目黒線", "exit": "東口／正面口", "walk_min": 7, "note": "都営バス・東急バスで「白金台5丁目」下車徒歩3分も可"}
+    {
+      "station": "白金台",
+      "lines": "都営三田線・東京メトロ南北線",
+      "exit": "1番出口",
+      "walk_min": 6
+    },
+    {
+      "station": "目黒",
+      "lines": "JR山手線・東急目黒線",
+      "exit": "東口／正面口",
+      "walk_min": 7,
+      "note": "都営バス・東急バスで「白金台5丁目」下車徒歩3分も可"
+    }
   ],
   "free_days": [
     {

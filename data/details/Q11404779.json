@@ -1,6 +1,6 @@
 {
   "id": "Q11404779",
-  "checked_at": "2026-09-30T09:22:11+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "official_url": "https://www.city.kurashiki.okayama.jp/musnat/index.html",
@@ -11,15 +11,30 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:15",
       "last_entry": "16:45"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
+    {
+      "from": "2026-11-23",
+      "to": "2026-11-23",
+      "reason": "休館日（公式の休館日カレンダーに記載）"
+    },
     {
       "from": "2026-12-28",
       "to": "2027-01-04",

@@ -1,0 +1,76 @@
+{
+  "id": "Q3329639",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kintetsu-g-hd.co.jp/culture/yamato/",
+  "address": "〒631-0034 奈良県奈良市学園南1丁目11番6号",
+  "source_urls": [
+    "https://www.kintetsu-g-hd.co.jp/culture/yamato/",
+    "https://www.kintetsu-g-hd.co.jp/culture/yamato/access/",
+    "https://www.kintetsu-g-hd.co.jp/culture/yamato/exhibition/nihonkougei.html",
+    "https://www.kintetsu-g-hd.co.jp/culture/yamato/exhibition/tenjou-paradise.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "日本工芸の美―古代から近世まで―",
+      "start": "2026-08-29",
+      "end": "2026-10-18",
+      "url": "https://www.kintetsu-g-hd.co.jp/culture/yamato/exhibition/nihonkougei.html",
+      "kind": "special",
+      "summary": "やきもの・漆工・金工・染織・ガラスを時代順に並べ、飛鳥・奈良から江戸までの日本工芸の発展をたどる",
+      "recommend": "素材ごとの手仕事の技を、古代から近世までの流れの中で見比べられる。日常の器から信仰や宴の場を彩った華やかな品まで、日本工芸の幅広さを一度に味わえる。",
+      "admission": "一般 630円",
+      "adult_price": 630
+    },
+    {
+      "title": "特別展 地上の天堂 杭州と呉越国",
+      "start": "2026-10-24",
+      "end": "2026-12-06",
+      "url": "https://www.kintetsu-g-hd.co.jp/culture/yamato/exhibition/tenjou-paradise.html",
+      "kind": "special",
+      "summary": "仏教文化が栄えた五代十国の呉越国と杭州を軸に、平安日本や高麗など東アジアの文化交流を紹介（前後期で展示替え）",
+      "recommend": "仏教美術が花開いた呉越国の杭州を手がかりに、日本や高麗との文化の往来をたどる特別展。前期・後期で展示替えがあるため、会期中に二度訪ねる楽しみもある。",
+      "admission": "一般 1,100円",
+      "adult_price": 1100
+    }
+  ],
+  "adult_price": 630,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "学園前",
+      "lines": "近鉄奈良線",
+      "exit": null,
+      "walk_min": 7
+    }
+  ],
+  "highlights": "1960年に近鉄創立50周年記念で開館した東洋美術の美術館。国宝4件・重要文化財31件を含む約2000件の日本・中国・朝鮮の美術工芸を収蔵する。吉田五十八設計の数寄屋風建築と、四季の草花が茂る文華苑の庭も魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "年末年始・展示替え期間は休館とあるが、具体的な日付は公式ページで確認できず special_closures には入れていない。祝日の月曜は開館し翌平日休館（9/24、10/13、11/24）。",
+  "confidence": "medium"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q11458738",
-  "checked_at": "2026-09-30T09:29:29+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,9 +12,25 @@
     "https://www.kusabana.net/museum/main.htm"
   ],
   "regular_hours": [
-    {"days": ["sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30", "from": "2026-06-06", "to": "2026-11-08"}
+    {
+      "days": [
+        "sat",
+        "sun"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "from": "2026-06-06",
+      "to": "2026-11-08"
+    }
   ],
-  "closed_weekdays": ["mon", "tue", "wed", "thu", "fri"],
+  "closed_weekdays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri"
+  ],
   "holiday_rule": "closed",
   "special_closures": [],
   "special_openings": [],
@@ -36,7 +52,13 @@
   "confidence": "medium",
   "adult_price": 500,
   "access": [
-    {"station": "軽井沢", "lines": null, "exit": "北口", "walk_min": 7, "note": "専用無料駐車場5台あり"}
+    {
+      "station": "軽井沢",
+      "lines": null,
+      "exit": "北口",
+      "walk_min": 7,
+      "note": "専用無料駐車場5台あり"
+    }
   ],
   "highlights": "軽井沢の草花を描き続けた画家・石川功一の個人美術館。山地に自ら足を運び、その場で描き上げた草花スケッチ約3,000点と油彩画百数十点を所蔵する。小さな庭には代表作にも描かれたアサマキスゲなど軽井沢ゆかりの草花が植えられている。"
 }

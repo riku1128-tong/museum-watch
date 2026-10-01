@@ -1,0 +1,94 @@
+{
+  "id": "wp-895b7e10",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://mucha.sakai-bunshin.com/",
+  "address": "〒590-0014 大阪府堺市堺区田出井町1-2-200 ベルマージュ堺弐番館2F〜4F",
+  "source_urls": [
+    "https://mucha.sakai-bunshin.com/",
+    "https://mucha.sakai-bunshin.com/fee/",
+    "https://mucha.sakai-bunshin.com/event/",
+    "https://mucha.sakai-bunshin.com/event/mucha2026ex2/",
+    "https://mucha.sakai-bunshin.com/access/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:15",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-13",
+      "reason": "休日の翌日休館"
+    },
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-04",
+      "reason": "休日の翌日休館"
+    },
+    {
+      "from": "2026-11-24",
+      "to": "2026-11-24",
+      "reason": "休日の翌日休館"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [
+    {
+      "date": "2026-11-02",
+      "note": "月曜だが開館"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "ミュシャ芸術博覧会リターンズ",
+      "start": "2026-08-01",
+      "end": "2026-11-29",
+      "url": "https://mucha.sakai-bunshin.com/event/mucha2026ex2/",
+      "kind": "special",
+      "summary": "ポスター・油彩・壁画・彫刻・ジュエリーなど多彩なミュシャ作品を紹介する体験型の展覧会",
+      "recommend": "巨大な油彩画から小さな絵葉書まで、ジャンルを横断してミュシャの仕事を一望できる。2021年の好評展をリニューアルして再登場した、幅広い世代向けの構成。",
+      "admission": "一般 510円",
+      "adult_price": 510
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "堺市",
+      "lines": "JR阪和線",
+      "exit": null,
+      "walk_min": null,
+      "note": "改札を出て陸橋を通りベルマージュ堺へ"
+    }
+  ],
+  "highlights": "堺出身のミュシャ愛好家コレクションを核に、ポスターや装飾パネルなどアール・ヌーヴォーを代表する作品を所蔵する美術館。ベルマージュ堺内にあり、企画展ごとに体験型の展示も行う。",
+  "notes": "堺市立文化館（堺 アルフォンス・ミュシャ館・ギャラリー）。展示替えで臨時休館することがある。観覧料510円は現在の企画展のもの。ギャラリーは別の開館時間（9:30〜19:00）。",
+  "confidence": "high"
+}

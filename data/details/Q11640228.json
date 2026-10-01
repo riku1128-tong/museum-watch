@@ -1,0 +1,94 @@
+{
+  "id": "Q11640228",
+  "checked_at": "2026-10-02T08:50:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "展覧会開催期間のみ開館（常設展示なし）",
+  "official_url": "https://www.hankyu-bunka.or.jp/itsuo-museum/",
+  "address": "〒563-0058 大阪府池田市栄本町12-27",
+  "source_urls": [
+    "https://www.hankyu-bunka.or.jp/itsuo-museum/",
+    "https://www.hankyu-bunka.or.jp/itsuo-museum/guide/",
+    "https://www.hankyu-bunka.or.jp/itsuo-museum/exhibition/20260919/",
+    "https://www.hankyu-bunka.or.jp/itsuo-museum/topics/2025/12/17/2026/008315/",
+    "https://www.museum.or.jp/museum/5340"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-22",
+      "reason": "展示替え期間・年末年始（次回展は2027-01-23開幕、会期外は閉室）"
+    }
+  ],
+  "special_openings": [
+    {
+      "date": "2026-10-12",
+      "note": "月曜だが開館（祝日）"
+    },
+    {
+      "date": "2026-11-02",
+      "note": "月曜だが開館"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "のむ ―茶器と酒器と喫煙具―",
+      "start": "2026-09-19",
+      "end": "2026-11-23",
+      "url": "https://www.hankyu-bunka.or.jp/itsuo-museum/exhibition/20260919/",
+      "kind": "special",
+      "summary": "飲む・呑む・喫むの三つの「のむ」に関わる茶碗・徳利・盃・煙草道具など館蔵品128点",
+      "recommend": "茶碗やカップ、徳利と盃、煙草の道具まで、暮らしの中の「のむ」を三つの視点で見直す展覧会。小林一三が集めた館蔵コレクションの茶器・酒器が並び、道具の美しさと使い方の楽しさを味わえる。",
+      "admission": "一般 700円",
+      "adult_price": 700
+    },
+    {
+      "title": "小林一三没後70年 小林一三のART愛",
+      "start": "2027-01-23",
+      "end": "2027-03-28",
+      "url": null,
+      "kind": "special",
+      "summary": "小林一三没後70年の展覧会（2027年展示I）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "池田",
+      "lines": "阪急宝塚線",
+      "exit": null,
+      "walk_min": 10,
+      "note": "阪急梅田から池田まで急行で約20分"
+    }
+  ],
+  "highlights": "阪急電鉄の創業者・小林一三（逸翁）のコレクションを核に、蕪村・呉春ら円山四条派の絵画や陶磁、漆芸など約5500点を所蔵。館内には一三考案の茶室「即庵」を再現した「即心庵」があり、会期中の日曜は呈茶も楽しめる。",
+  "notes": "常設展示はなく、展覧会期間以外は展示室を閉室。展覧会期間中の月曜休館（祝日・振替休日は開館し翌平日休館）。2026展示IVでは9/21・10/12・11/2・11/23の月曜は開館、9/24・10/13・11/4は休館。企画展は一般700円、特別展は都度設定。",
+  "confidence": "high"
+}

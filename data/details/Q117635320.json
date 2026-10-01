@@ -1,0 +1,102 @@
+{
+  "id": "Q117635320",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://itami-im.jp/",
+  "address": "〒664-0895 兵庫県伊丹市宮ノ前2-5-20",
+  "source_urls": [
+    "https://itami-im.jp/",
+    "https://itami-im.jp/visit/",
+    "https://itami-im.jp/exhibitions/",
+    "https://www.museum.or.jp/museum/106660"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "酒にのまれ展",
+      "start": "2026-10-16",
+      "end": "2026-12-13",
+      "url": "https://itami-im.jp/exhibitions/%e9%85%92%e3%81%ab%e3%81%ae%e3%81%be%e3%82%8c%e5%b1%95/",
+      "kind": "special",
+      "summary": "展示室1・2・3・5で開催する企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "I/Mクラフト会員展 2026伊丹クラフトフェア",
+      "start": "2026-10-23",
+      "end": "2026-11-03",
+      "url": "https://itami-im.jp/exhibitions/2026itamicraftfair/",
+      "kind": "special",
+      "summary": "展示室6で開かれるクラフト会員展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "2026伊丹国際クラフト展「酒器・酒盃台」",
+      "start": "2026-11-14",
+      "end": "2026-12-20",
+      "url": "https://itami-im.jp/exhibitions/2026itamiinternationalcraft/",
+      "kind": "special",
+      "summary": "展示室6で開く、酒器・酒盃台をテーマにした国際クラフト展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "伊丹",
+      "lines": "JR福知山線（宝塚線）",
+      "exit": null,
+      "walk_min": 6,
+      "note": null
+    },
+    {
+      "station": "伊丹",
+      "lines": "阪急伊丹線",
+      "exit": "北出口・東出口",
+      "walk_min": 9,
+      "note": null
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "2026-10-02 時点で開催中の企画展なし（常設展示室4は観覧無料）。企画展の観覧料・紹介文は公式に未掲載のため null。旧岡田家住宅・酒蔵、旧石橋家住宅を併設。アクセス（駅・徒歩分）は museum.or.jp 等の検索結果による。",
+  "confidence": "medium"
+}

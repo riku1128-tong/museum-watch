@@ -1,0 +1,76 @@
+{
+  "id": "Q11551651",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://ikeda20.or.jp/",
+  "address": "静岡県伊東市十足614",
+  "source_urls": [
+    "https://ikeda20.or.jp/",
+    "https://ikeda20.or.jp/guide/",
+    "https://ikeda20.or.jp/access/",
+    "https://artexhibition.jp/exhibitions/20260607-AEJ2921332/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [
+    "wed"
+  ],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [
+    {
+      "date": "2026-09-23",
+      "note": "水曜だが開館（公式カレンダー）"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "入江観展 空遙か",
+      "start": "2026-06-25",
+      "end": "2026-10-13",
+      "url": "https://ikeda20.or.jp/",
+      "kind": "special",
+      "summary": "洋画家・入江観の回顧展。日光の自然から茅ヶ崎の海景まで43点",
+      "recommend": "春陽会を長く支えた洋画家の歩みを、故郷・日光を描いた初期作から茅ヶ崎の海を描く近作まで43点でたどれる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "伊豆高原",
+      "lines": "伊豆急行線",
+      "walk_min": null,
+      "note": "バス「一碧湖」「伊東市民病院」行きで「池田美術館」下車、約20分（本数少）"
+    },
+    {
+      "station": "伊東",
+      "lines": "JR伊東線",
+      "walk_min": null,
+      "note": "「一碧湖経由 シャボテン公園」行きバスで「池田美術館」下車、約30分"
+    }
+  ],
+  "highlights": "人間をテーマにした20世紀の絵画・彫刻を約1400点収蔵する美術館。ルノワール、ピカソ、ミロ、ダリ、シャガール、マティスなどの大作が常設で並ぶ。",
+  "closed_between_exhibitions": false,
+  "notes": "毎週水曜休館（祝日は開館）。7月・8月・年末年始は無休。年末年始の無休のため special_closures は無し。観覧料ページに「2014年4月1日現在」との注記があるが、開催中の展覧会ページの料金（一般1,000円）と一致。",
+  "confidence": "high"
+}

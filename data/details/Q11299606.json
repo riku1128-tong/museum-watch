@@ -1,7 +1,7 @@
 {
   "id": "Q11299606",
-  "checked_at": "2026-09-30T09:05:04+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.buffet-museum.jp/",
@@ -14,10 +14,41 @@
     "https://www.buffet-museum.jp/exhibition/%e9%88%b4%e6%9c%a8%e3%81%ae%e3%82%8a%e3%81%9f%e3%81%91%e3%80%80%e5%a4%a7%e3%83%94%e3%83%b3%e3%83%81%e5%b1%95%ef%bc%81/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30", "from": "2026-03-01", "to": "2026-11-30"},
-    {"days": ["mon", "tue", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:30", "last_entry": "16:00", "from": "2026-12-01", "to": "2027-02-28"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "from": "2026-03-01",
+      "to": "2026-11-30"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "from": "2026-12-01",
+      "to": "2027-02-28"
+    }
   ],
-  "closed_weekdays": ["wed", "thu"],
+  "closed_weekdays": [
+    "wed",
+    "thu"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],

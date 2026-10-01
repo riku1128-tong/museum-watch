@@ -1,6 +1,6 @@
 {
   "id": "Q17193257",
-  "checked_at": "2026-09-30T09:25:27+09:00",
+  "checked_at": "2026-10-02T08:55:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -16,11 +16,36 @@
     "https://lsm-ichihara.jp/exhibition/tatsuokawaguchi/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri"], "open": "10:00", "close": "17:00"},
-    {"days": ["sat"], "open": "09:30", "close": "19:00"},
-    {"days": ["sun", "holiday"], "open": "09:30", "close": "18:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "days": [
+        "sat"
+      ],
+      "open": "09:30",
+      "close": "19:00"
+    },
+    {
+      "days": [
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "18:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -46,13 +71,30 @@
       "recommend": null,
       "admission": "一般 200円",
       "adult_price": 200
+    },
+    {
+      "title": "第14回市原湖畔美術館子ども絵画展",
+      "start": "2026-09-01",
+      "end": "2026-10-09",
+      "url": "https://lsm-ichihara.jp/exhibition/kodomo14bosyu/",
+      "kind": "other",
+      "summary": "子ども絵画展の作品募集（9/1〜10/9）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 200,
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "高滝", "lines": "小湊鉄道", "exit": null, "walk_min": 20, "note": "JR内房線「五井」駅で小湊鉄道に乗り換え「高滝」駅下車、徒歩約20分(タクシー約3分)。高速バスで東京駅八重洲口・羽田空港・横浜駅から「市原鶴舞バスターミナル」(約60〜90分)、そこからタクシー約4分。"}
+    {
+      "station": "高滝",
+      "lines": "小湊鉄道",
+      "exit": null,
+      "walk_min": 20,
+      "note": "JR内房線「五井」駅で小湊鉄道に乗り換え「高滝」駅下車、徒歩約20分(タクシー約3分)。高速バスで東京駅八重洲口・羽田空港・横浜駅から「市原鶴舞バスターミナル」(約60〜90分)、そこからタクシー約4分。"
+    }
   ],
   "highlights": "旧ダム湖畔に立つ美術館で、建物や湖畔の環境を生かしたサイトスペシフィックな企画展に定評がある。銅版画家・深沢幸雄の常設コレクションや、湖を望むテラスも見どころ。",
   "closed_between_exhibitions": false,

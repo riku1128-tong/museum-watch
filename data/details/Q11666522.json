@@ -1,6 +1,6 @@
 {
   "id": "Q11666522",
-  "checked_at": "2026-09-30T09:05:27+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -8,18 +8,28 @@
   "address": "〒395-0044 長野県飯田市本町1丁目2番地",
   "source_urls": [
     "http://www.kawamoto-iida.com/guide/index.html",
-    "https://www.museum.or.jp/museum/17385",
+    "http://www.kawamoto-iida.com/tenji/index.html",
     "https://kawamoto-info.jugem.jp/"
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "18:30",
       "last_entry": "18:00"
     }
   ],
-  "closed_weekdays": ["wed"],
+  "closed_weekdays": [
+    "wed"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [],
@@ -37,14 +47,15 @@
       "adult_price": 400
     },
     {
-      "title": "志野ヶ原人形劇 NHK文化講演会記念展示",
+      "title": "企画展③ 木曾源氏",
       "start": "2026-09-12",
       "end": "2026-11-29",
-      "url": null,
+      "url": "http://www.kawamoto-iida.com/tenji/index.html",
       "kind": "special",
-      "summary": "NHK文化講演会で放映された志野ヶ原人形劇の関連展示",
+      "summary": "平家物語の木曾義仲と巴・今井兼平ら木曾源氏の人形と背景を紹介",
       "recommend": null,
-      "admission": null
+      "admission": "一般 400円",
+      "adult_price": 400
     }
   ],
   "adult_price": 400,
@@ -60,6 +71,6 @@
   ],
   "highlights": "NHKの連続人形劇「三国志」「平家物語」などで知られる人形作家・川本喜八郎の作品を専門に展示する世界唯一の美術館。繊細な表情と豪華な衣装をまとった人形たちが醸す幻想的な空間は唯一無二で、飯田の歴史的な商店街に位置しリンゴ並木とともに周遊できる。",
   "closed_between_exhibitions": false,
-  "notes": "水曜休館（祝日は開館）。年末年始休館（具体的な日程は公式サイト要確認）。第32回常設展の会期は2027年2月初旬まで（公式サイト不達のため参照先はinternetmuseum・jugem）。入館料は一般個人400円・団体300円（20名以上）、小中高生個人200円・団体150円。",
+  "notes": "水曜休館（祝日は開館）。年末年始休館（具体的な日程は公式サイト要確認）。入館料は一般個人400円・団体300円（20名以上）、小中高生個人200円・団体150円。 2026-10-02 公式の展示案内で企画展③「木曾源氏」(9/12〜11/29)を確認し、誤っていた展示名を差し替え。",
   "confidence": "medium"
 }

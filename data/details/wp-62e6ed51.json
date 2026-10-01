@@ -1,6 +1,6 @@
 {
   "id": "wp-62e6ed51",
-  "checked_at": "2026-09-30T09:25:27+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -17,12 +17,32 @@
     "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=603&g=138"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-01", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -62,12 +82,36 @@
   "closed_between_exhibitions": false,
   "adult_price": 360,
   "free_days": [
-    {"from": "2026-11-13", "to": "2026-11-13", "scope": "all", "reason": "茨城県民の日",
-     "source_url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=6"}
+    {
+      "from": "2026-11-13",
+      "to": "2026-11-13",
+      "scope": "all",
+      "reason": "茨城県民の日",
+      "source_url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=6"
+    },
+    {
+      "from": "2026-10-17",
+      "to": "2026-10-18",
+      "scope": "all",
+      "reason": "茨城トヨタプレゼンツ1日無料day",
+      "source_url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=611&g=146"
+    },
+    {
+      "from": "2026-11-01",
+      "to": "2026-11-01",
+      "scope": "all",
+      "reason": "関彰商事プレゼンツ1日無料day",
+      "source_url": "https://www.tougei.museum.ibk.ed.jp/viewer/info.html?id=612&g=146"
+    }
   ],
   "access": [
-    {"station": "笠間", "lines": "JR水戸線", "exit": null, "walk_min": null,
-     "note": "上野駅からJR常磐線特急で友部駅（約70分）、友部駅でJR水戸線に乗り換え笠間駅（9分）。笠間駅からタクシー5分、友部駅からタクシー15分。「かさま観光周遊バス」で「陶芸美術館・工芸の丘」下車、または秋葉原駅などから茨城交通高速バスで笠間駅（約120分）"}
+    {
+      "station": "笠間",
+      "lines": "JR水戸線",
+      "exit": null,
+      "walk_min": null,
+      "note": "上野駅からJR常磐線特急で友部駅（約70分）、友部駅でJR水戸線に乗り換え笠間駅（9分）。笠間駅からタクシー5分、友部駅からタクシー15分。「かさま観光周遊バス」で「陶芸美術館・工芸の丘」下車、または秋葉原駅などから茨城交通高速バスで笠間駅（約120分）"
+    }
   ],
   "highlights": "笠間芸術の森公園内にある県立の陶芸専門美術館。文化勲章受章者や重要無形文化財保持者など、日本の近現代陶芸を代表する作家の作品を常設展示するほか、陶芸を中心にガラスや染織など工芸全般の企画展を開催。エントランスロビーには現代作家による巨大な陶のオブジェが置かれている。",
   "notes": "2000年4月開館。観覧料はコレクション展・テーマ展が一般360円、企画展は展覧会ごとに異なる（THE HEADLINERS 2026は950円）。茨城県民の日（11/13）は入館無料。満70歳以上無料日が別途複数回あるが「大人一般」ではないため free_days には入れていない。official_url は museums.json に未登録だったため、公式サイト（tougei.museum.ibk.ed.jp）を新たに設定した。",

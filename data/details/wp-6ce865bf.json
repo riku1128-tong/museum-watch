@@ -1,6 +1,6 @@
 {
   "id": "wp-6ce865bf",
-  "checked_at": "2026-09-28T23:42:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "設備入替工事のため2026年6月1日から2027年3月末まで長期休館。2027年4月初旬に再開予定。",
@@ -12,20 +12,50 @@
     "https://www.city.shizuoka.lg.jp/shisetsu/s0000152.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-06-01", "to": "2027-03-31", "reason": "設備入替工事のための長期休館"},
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休館"}
+    {
+      "from": "2026-06-01",
+      "to": "2027-03-31",
+      "reason": "設備入替工事のための長期休館"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [],
   "closed_between_exhibitions": false,
   "adult_price": 520,
   "access": [
-    {"station": "由比", "lines": "JR東海道本線", "exit": null, "walk_min": 25, "note": "旧東海道を東へ直進。タクシーなら約5分"}
+    {
+      "station": "由比",
+      "lines": "JR東海道本線",
+      "exit": null,
+      "walk_min": 25,
+      "note": "旧東海道を東へ直進。タクシーなら約5分"
+    }
   ],
   "highlights": "東海道の宿場町・由比宿の本陣跡地に建つ、歌川広重の名を冠した日本で最初の美術館。「東海道五拾三次之内」や「名所江戸百景」など、広重の風景版画の揃物を中心に約1400点を所蔵する。",
   "notes": "2026年6月1日〜2027年3月末は設備入替工事のため長期休館中（公式サイトのお知らせで確認）。再開後の展覧会予定は公式サイトに未掲載のため展示は空欄。年末年始休館の具体的な日付は改修前の通常運営時のもの（12/28〜1/4）を参考値として記載。",

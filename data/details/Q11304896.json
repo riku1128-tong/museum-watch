@@ -1,6 +1,6 @@
 {
   "id": "Q11304896",
-  "checked_at": "2026-09-30T09:20:00+09:00",
+  "checked_at": "2026-10-02T09:05:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,12 +12,31 @@
     "https://www.museum.or.jp/museum/15800"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:00"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -37,8 +56,20 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "くりこま高原", "lines": "JR東北新幹線", "exit": null, "walk_min": null, "note": "くりこま高原駅よりタクシーで約45分"},
-    {"station": "石越", "lines": "JR東北本線", "exit": null, "walk_min": null, "note": "石越駅よりタクシーで約20分"}
+    {
+      "station": "くりこま高原",
+      "lines": "JR東北新幹線",
+      "exit": null,
+      "walk_min": null,
+      "note": "くりこま高原駅よりタクシーで約45分"
+    },
+    {
+      "station": "石越",
+      "lines": "JR東北本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "石越駅よりタクシーで約20分"
+    }
   ],
   "highlights": "登米市出身の造形作家・サトル・サトウがパリ滞在で交友した国際的な芸術家から集めた幾何学構成絵画622点を無料で公開。農村の生涯学習センター内という異色の立地ながら、構成主義・具体芸術の充実したコレクションを特色とする。",
   "closed_between_exhibitions": false,

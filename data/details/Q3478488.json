@@ -1,6 +1,6 @@
 {
   "id": "Q3478488",
-  "checked_at": "2026-09-30T10:00:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -15,9 +15,24 @@
     "https://sen-oku.or.jp/program/202610_shunsui100/"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -60,7 +75,13 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "蹴上", "lines": "京都市営地下鉄東西線", "exit": null, "walk_min": 20, "note": "京都市バス5系統「東天王町」または105系統「宮ノ前町」下車（宮ノ前町は土日祝のみ）でも行ける"}
+    {
+      "station": "蹴上",
+      "lines": "京都市営地下鉄東西線",
+      "exit": null,
+      "walk_min": 20,
+      "note": "京都市バス5系統「東天王町」または105系統「宮ノ前町」下車（宮ノ前町は土日祝のみ）でも行ける"
+    }
   ],
   "highlights": "住友家伝来の中国古代青銅器・鏡鑑コレクションで知られる美術館。京都・鹿ヶ谷の緑豊かな敷地に建ち、住友家15代春翠が蒐集した近代日本画・洋画のコレクションも特別展で紹介する",
   "closed_between_exhibitions": false,

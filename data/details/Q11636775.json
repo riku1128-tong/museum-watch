@@ -1,6 +1,6 @@
 {
   "id": "Q11636775",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,15 +12,42 @@
     "https://www.watv.ne.jp/ashi-bi/2026-Funabiki.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-24", "to": "2026-09-24", "reason": "臨時休館（開催中の展覧会に伴う告知）"},
-    {"from": "2026-10-13", "to": "2026-10-13", "reason": "臨時休館（開催中の展覧会に伴う告知）"},
-    {"from": "2026-11-04", "to": "2026-11-04", "reason": "臨時休館（開催中の展覧会に伴う告知）"},
-    {"from": "2026-11-24", "to": "2026-11-24", "reason": "臨時休館（開催中の展覧会に伴う告知）"}
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-13",
+      "reason": "臨時休館（開催中の展覧会に伴う告知）"
+    },
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-04",
+      "reason": "臨時休館（開催中の展覧会に伴う告知）"
+    },
+    {
+      "from": "2026-11-24",
+      "to": "2026-11-24",
+      "reason": "臨時休館（開催中の展覧会に伴う告知）"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -38,8 +65,20 @@
   ],
   "adult_price": null,
   "access": [
-    {"station": "足利", "lines": "JR両毛線", "exit": null, "walk_min": 10, "note": null},
-    {"station": "足利市", "lines": "東武伊勢崎線", "exit": null, "walk_min": 10, "note": null}
+    {
+      "station": "足利",
+      "lines": "JR両毛線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    },
+    {
+      "station": "足利市",
+      "lines": "東武伊勢崎線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    }
   ],
   "highlights": "足利市が運営する美術館で、地域ゆかりの作家や現代アートを軸にした企画展を年間通じて開催。現在は編集者・船曳由美氏が寄贈した土門拳、石元泰博ら写真家8人の作品と、取材先で集めた焼物や織物などの品々を合わせて展示。ミュージアムショップや図書コーナーも備える。",
   "closed_between_exhibitions": true,

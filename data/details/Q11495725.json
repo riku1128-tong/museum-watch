@@ -1,0 +1,51 @@
+{
+  "id": "Q11495725",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒526-0056 滋賀県長浜市朝日町34-24",
+  "source_urls": [
+    "https://sam.shiga.jp/%E6%88%90%E7%94%B0%E7%BE%8E%E8%A1%93%E9%A4%A8/",
+    "https://www.biwako-visitors.jp/spot/detail/1007/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 800,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "長浜",
+      "lines": "JR北陸本線（琵琶湖線）",
+      "walk_min": 8,
+      "note": null
+    }
+  ],
+  "highlights": "アール・ヌーヴォー、アール・デコを代表するガラス工芸家ルネ・ラリックの作品を収蔵・展示する長浜の美術館。作品ごとにライティングを替え、見る角度や光でガラスが見せる表情の違いを楽しめるよう工夫している。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトが見つからず、滋賀県の美術館情報サイトとびわ湖観光サイトの記載による（開館時間 10:00〜17:00、月曜休館・祝日の場合は翌日、展示替えのため臨時休館あり）。展示替えの臨時休館日は未確認。入館料 一般800円・学生600円・中学生以下500円。常設のラリック作品展示のため展覧会は未登録。",
+  "confidence": "medium"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Q11589991",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.kobe.lg.jp/kanko/bunka/bunkashisetsu/koisogallery/",
+  "address": "〒658-0032 兵庫県神戸市東灘区向洋町中5-7（六甲アイランド公園内）",
+  "source_urls": [
+    "https://www.city.kobe.lg.jp/kanko/bunka/bunkashisetsu/koisogallery/",
+    "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/koisogallery/migishisetsuko120.html",
+    "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/koisogallery/riyou/access/index.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "生誕120年 三岸節子展",
+      "start": "2026-08-29",
+      "end": "2026-11-08",
+      "url": "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/koisogallery/migishisetsuko120.html",
+      "kind": "special",
+      "summary": "洋画家・三岸節子の生誕120年回顧展。代表作約70点と資料で生涯を5章でたどる（小磯良平作品選Ⅲを同時開催）",
+      "recommend": "愛知県一宮市生まれの三岸節子の画業を、初期から晩年のブルゴーニュやヴェネチアの風景までたどる大回顧展。1950年代の華やかな卓上の静物画も見どころで、色彩の変遷を一度に味わえる。",
+      "admission": "一般 1,200円",
+      "adult_price": 1200
+    }
+  ],
+  "adult_price": 1200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "アイランド北口", "lines": "神戸新交通 六甲ライナー", "exit": null, "walk_min": 3, "note": "JR住吉駅または阪神魚崎駅で六甲ライナーに乗り換え。阪急御影駅からはみなと観光バス131系統「ウエストコート3番街前」下車すぐ"}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "観覧料は企画展ごと。高校生以下無料、障がい者手帳・ミライロID所持者無料。年末年始休館の日付は未確認。館の紹介文（highlights）は未読のため null。",
+  "confidence": "medium"
+}

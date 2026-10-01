@@ -1,7 +1,7 @@
 {
   "id": "Q77806922",
-  "checked_at": "2026-09-30T09:00:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-02T09:00:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.akinofuku-museum.jp/",
@@ -13,13 +13,24 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -30,17 +41,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "令和8年度 第3回所蔵品展",
-      "start": "2026-09-01",
-      "end": "2026-09-30",
-      "url": "https://www.akinofuku-museum.jp/",
-      "kind": "collection",
-      "summary": "秋野不矩の所蔵作品による常設的な展覧会。通年",
-      "recommend": null,
-      "admission": "一般 310円",
-      "adult_price": 310
-    },
     {
       "title": "猫愛に包まれる―秋野不矩から現代作家による猫たち―",
       "start": "2026-10-10",
@@ -67,6 +67,6 @@
   ],
   "highlights": "日本画家・秋野不矩（1908〜2001）の作品と愛用品を収蔵・公開する美術館。天竜の自然に包まれた場所に建ち、インドの風土や人々を描いた大作など生涯を通じた多彩な作品を展示する。年に数回、所蔵品展のほか企画展も開催。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイトURL は museums.json の https://www.city.hamamatsu.shizuoka.jp/akinofu/ が404のため、正しい公式サイト https://www.akinofuku-museum.jp/ に変更。2026/10/1〜10/9は臨時休館。所蔵品展の正確な終了日は公式で未確認のため9/30を仮設定。",
+  "notes": "公式サイト 2026/10/1〜10/9 臨時休館。所蔵品展（第3回）は9月で終了のため削除。次回特別展は10/10開幕。開館時間は今回のトップでは確認できず前回値を維持。",
   "confidence": "medium"
 }

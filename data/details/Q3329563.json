@@ -1,0 +1,95 @@
+{
+  "id": "Q3329563",
+  "checked_at": "2026-10-02T08:30:44+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://fujita-museum.or.jp",
+  "address": "〒534-0026 大阪市都島区網島町10番32号",
+  "source_urls": [
+    "https://fujita-museum.or.jp",
+    "https://fujita-museum.or.jp/exhibition/",
+    "https://fujita-museum.or.jp/access/",
+    "https://fujita-museum.or.jp/news/2026/09/27/17026/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-05",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "能～教えて能楽師！",
+      "start": "2026-10-01",
+      "end": "2026-12-28",
+      "url": "https://fujita-museum.or.jp/exhibition/",
+      "kind": "special",
+      "summary": "夙川能舞台「瓦照苑」と共同。能面・唐織・能由来の茶道具などで能の世界を紹介",
+      "recommend": "能の演目が画題や茶道具の銘になってきた関わりを、能面や縫箔・唐織などの装束、高砂釜などで紐解く。能楽の現場を知る瓦照苑との協奏で、美術と能のつながりが分かりやすく味わえる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "徳川時代のお茶",
+      "start": "2026-08-01",
+      "end": "2026-10-31",
+      "url": "https://fujita-museum.or.jp/exhibition/",
+      "kind": "collection",
+      "summary": "小堀遠州ゆかりの茶杓・茶入など、江戸時代の茶の湯の「好み」を紹介",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "大阪城北詰",
+      "lines": "JR東西線",
+      "exit": "3番出口",
+      "walk_min": 1,
+      "note": null
+    },
+    {
+      "station": "京橋",
+      "lines": "大阪メトロ長堀鶴見緑地線",
+      "exit": "2番出口",
+      "walk_min": 7,
+      "note": null
+    },
+    {
+      "station": "京橋",
+      "lines": "京阪電車",
+      "exit": "片町口",
+      "walk_min": 10,
+      "note": null
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "開館時間10:00-18:00（予約不要）、休館は12/29〜1/5のみ。入館料1,000円（19歳以下無料）。展示室は複数の企画が重なって開催。公式ページに特別展の正式名称の記載がなく、タイトルは検索結果の掲載名による。館の紹介文は未取得のため highlights は null。",
+  "confidence": "medium"
+}

@@ -1,7 +1,7 @@
 {
   "id": "Q11469731",
-  "checked_at": "2026-09-30T09:20:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.art-museum.pref.yamanashi.jp/",
@@ -13,9 +13,25 @@
     "https://www.pref.yamanashi.jp/shigaku-kgk/kenminnohi/kenmin2025_muryoukaihou.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -34,10 +50,22 @@
   ],
   "adult_price": 520,
   "free_days": [
-    {"from": "2026-11-20", "to": "2026-11-20", "scope": "all", "reason": "山梨県民の日", "source_url": "https://www.pref.yamanashi.jp/shigaku-kgk/kenminnohi/kenmin2025_muryoukaihou.html"}
+    {
+      "from": "2026-11-20",
+      "to": "2026-11-20",
+      "scope": "all",
+      "reason": "山梨県民の日",
+      "source_url": "https://www.pref.yamanashi.jp/shigaku-kgk/kenminnohi/kenmin2025_muryoukaihou.html"
+    }
   ],
   "access": [
-    {"station": "甲府", "lines": "JR中央本線", "exit": null, "walk_min": null, "note": "バスで約15分「山梨県立美術館」下車、またはタクシーで約15分"}
+    {
+      "station": "甲府",
+      "lines": "JR中央本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "バスで約15分「山梨県立美術館」下車、またはタクシーで約15分"
+    }
   ],
   "highlights": "「ミレーの美術館」として1978年に開館。ジャン＝フランソワ・ミレーの《種をまく人》をはじめバルビゾン派の作品を中心に約1万点を収蔵。ヨーロッパ風景画や山梨ゆかりの近現代作家の作品も充実し、コレクション展は年4回展示替えを行う。",
   "closed_between_exhibitions": false,

@@ -1,7 +1,7 @@
 {
   "id": "Q28687423",
-  "checked_at": "2026-09-30T09:08:12+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://kurobe-city-art-museum.jp/",
@@ -14,15 +14,47 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "16:30",
       "last_entry": "16:00"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-10-02",
+      "to": "2026-10-09",
+      "reason": "展示替え休館"
+    },
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-14",
+      "reason": "松元悠展 休館日"
+    },
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-04",
+      "reason": "松元悠展 休館日"
+    },
+    {
+      "from": "2026-11-24",
+      "to": "2026-11-25",
+      "reason": "松元悠展 休館日"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -62,6 +94,6 @@
   ],
   "highlights": "黒部市総合公園内に立つ富山県東部最大の美術館。市ゆかりの作家による企画展を軸に、地域の自然・文化を題材にした作品を紹介する。近隣の生地海岸を舞台に「蜃気楼」を活用した屋外アートプロジェクトも展開中。",
   "closed_between_exhibitions": false,
-  "notes": "休館日：月曜・祝日の翌日・年末年始ほか。入館料は企画展ごとに異なる（中学生以下無料）。",
+  "notes": "休館日：月曜・祝日の翌日・年末年始ほか。入館料は企画展ごとに異なる（中学生以下無料）。 公式トップに「展示替え休館中 〜2026年10月9日(金)」の表示（開始日は未記載のため確認日から計上）。断水の影響でお手洗い使用不可の告知あり。松元悠展の休館日は月曜・10/13・10/14・11/4・11/24・11/25（10/12と11/23の月曜は開館）。",
   "confidence": "medium"
 }

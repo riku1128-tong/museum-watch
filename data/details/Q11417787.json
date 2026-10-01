@@ -1,0 +1,76 @@
+{
+  "id": "Q11417787",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.ikm-art.jp/",
+  "address": "〒594-1156 大阪府和泉市内田町三丁目6番12号",
+  "source_urls": [
+    "https://www.ikm-art.jp/",
+    "https://www.ikm-art.jp/tenrankai/",
+    "https://www.ikm-art.jp/tenrankai/2026/04/202602.html",
+    "https://www.ikm-art.jp/access"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "初！全点一挙公開 久保惣の西洋絵画 ─モネ・ルノワール・ゴッホをはじめとして─",
+      "start": "2026-07-05",
+      "end": "2026-10-04",
+      "url": "https://www.ikm-art.jp/tenrankai/2026/04/202602.html",
+      "kind": "special",
+      "summary": "館所蔵の西洋絵画を初めて全点公開。モネ、ルノワール、ゴッホらの作品を展示",
+      "recommend": "モネ《睡蓮》にひろしま美術館所蔵の《セーヌ河の朝》が加わる点が見どころ。普段は並ばない所蔵の西洋絵画が全点そろう初の機会。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "Ocean View・横須賀ストーリー ─横須賀美術館コレクション展─",
+      "start": "2026-10-25",
+      "end": "2026-12-25",
+      "url": "https://www.ikm-art.jp/tenrankai/",
+      "kind": "special",
+      "summary": "横須賀美術館のコレクションを紹介する展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "和泉中央",
+      "lines": "南海泉北線",
+      "walk_min": null,
+      "note": "南海バス「美術館前」行きで終点「美術館前」下車すぐ"
+    }
+  ],
+  "highlights": "東洋古美術の専門館として開館し、1997年の新館開館以来、西洋美術の常設展示室も備える。大阪でも数少ない、年間を通して西洋絵画を鑑賞できる施設で、モネ《睡蓮》などの所蔵でも知られる。無料駐車場あり。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は月曜（祝日の場合は開館、翌平日休館）・陳列替期間・年末年始。陳列替期間と年末年始の具体的な日付は公式サイトで未確認。常設展は一般500円。特別展は一般1,000円。次の次の展覧会「茶の湯の美 ─千利休が開いた世界─」は2027-01-17〜3-22。12/12〜12/25に光と映像のイベント「KUBOSO YORU no SEKAI」を開催予定。料金は検索結果の情報による（公式ページには記載なし）。",
+  "confidence": "medium"
+}

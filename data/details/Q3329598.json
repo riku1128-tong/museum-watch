@@ -1,6 +1,6 @@
 {
   "id": "Q3329598",
-  "checked_at": "2026-09-30T09:00:43+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,9 +13,25 @@
     "https://www.shukokan.org/exhibition/future.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -34,12 +50,27 @@
   ],
   "adult_price": 1000,
   "access": [
-    {"station": "六本木一丁目", "lines": "東京メトロ南北線", "exit": "中央改札（泉ガーデン方面）", "walk_min": 5},
-    {"station": "神谷町", "lines": "東京メトロ日比谷線", "exit": "4b出口", "walk_min": 7},
-    {"station": "虎ノ門ヒルズ", "lines": "東京メトロ日比谷線", "exit": "A2a出口", "walk_min": 8}
+    {
+      "station": "六本木一丁目",
+      "lines": "東京メトロ南北線",
+      "exit": "中央改札（泉ガーデン方面）",
+      "walk_min": 5
+    },
+    {
+      "station": "神谷町",
+      "lines": "東京メトロ日比谷線",
+      "exit": "4b出口",
+      "walk_min": 7
+    },
+    {
+      "station": "虎ノ門ヒルズ",
+      "lines": "東京メトロ日比谷線",
+      "exit": "A2a出口",
+      "walk_min": 8
+    }
   ],
   "closed_between_exhibitions": true,
   "highlights": "1902年創館の現存する日本最古の私立美術館。国宝3件・重要文化財13件を含む約2,500件の東洋古美術と日本近代絵画を所蔵。伊東忠太設計の中国古典様式の建物には幻獣や龍の装飾が施され、建築自体も見どころ。",
-  "notes": "休館日は「月曜日（休日の場合は翌平日）、展示替期間、年末」。美人画展は前期 10/3-11/8、後期 11/10-12/20。次回「正月の風物詩」は 2027/1/1〜3/22で3か月超先のため未掲載。年末休館の具体的日付は未確認。",
+  "notes": "休館日は「月曜日（休日の場合は翌平日）、展示替期間、年末」。美人画展は前期 10/3-11/8、後期 11/10-12/20。次回「正月の風物詩」は 2027/1/1〜3/22で3か月超先のため未掲載。年末休館の具体的日付は未確認。 2026-10-02時点で開催中の展覧会なし（展示替え中）。《夜桜》は11/10〜12/20に展示予定。",
   "confidence": "high"
 }

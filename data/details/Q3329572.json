@@ -1,6 +1,6 @@
 {
   "id": "Q3329572",
-  "checked_at": "2026-09-30T09:10:00+09:00",
+  "checked_at": "2026-10-02T08:50:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -17,15 +17,41 @@
   ],
   "adult_price": null,
   "access": [
-    {"station": "恵比寿", "lines": "JR山手線・埼京線、東京メトロ日比谷線", "exit": "西口/2番出口", "walk_min": 10, "note": "恵比寿駅西口から都バス(学06番)で約5分「広尾高校前」下車徒歩1分、または渋谷駅東口から都バス(学03番)で約10分「東4丁目」下車徒歩2分。専用駐車場なし。"}
+    {
+      "station": "恵比寿",
+      "lines": "JR山手線・埼京線、東京メトロ日比谷線",
+      "exit": "西口/2番出口",
+      "walk_min": 10,
+      "note": "恵比寿駅西口から都バス(学06番)で約5分「広尾高校前」下車徒歩1分、または渋谷駅東口から都バス(学03番)で約10分「東4丁目」下車徒歩2分。専用駐車場なし。"
+    }
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-10-05", "to": "2026-10-09", "reason": "展示替えのため"}
+    {
+      "from": "2026-10-05",
+      "to": "2026-10-09",
+      "reason": "展示替えのため"
+    }
   ],
   "special_openings": [],
   "exhibitions": [

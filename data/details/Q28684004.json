@@ -1,6 +1,6 @@
 {
   "id": "Q28684004",
-  "checked_at": "2026-09-30T09:35:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,24 +13,65 @@
     "https://maruchiba.jp/spot/detail_10389.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["tue", "wed", "thu"],
+  "closed_weekdays": [
+    "tue",
+    "wed",
+    "thu"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [
-    {"from": "2026-10-18", "to": "2026-10-19", "reason": "展示替え休館"},
-    {"from": "2026-12-26", "to": "2027-01-05", "reason": "年末年始休館"}
+    {
+      "from": "2026-10-18",
+      "to": "2026-10-19",
+      "reason": "展示替え休館"
+    },
+    {
+      "from": "2026-12-26",
+      "to": "2027-01-05",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "光が織りなす輝きのハーモニー・ガラス工芸展",
+      "start": "2026-05-15",
+      "end": "2026-10-17",
+      "url": "http://sgtmuseum.s2.xrea.com/",
+      "kind": "special",
+      "summary": "ガレ、ドーム、ルソー、ラリックなどのガラス作品を展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
   "adult_price": 900,
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "勝浦", "lines": "JR外房線", "exit": null, "walk_min": null, "note": "JR勝浦駅からタクシーで約15分、またはバスで「清海小学校入口」下車後徒歩約35分。無料駐車場あり"}
+    {
+      "station": "勝浦",
+      "lines": "JR外房線",
+      "exit": null,
+      "walk_min": null,
+      "note": "JR勝浦駅からタクシーで約15分、またはバスで「清海小学校入口」下車後徒歩約35分。無料駐車場あり"
+    }
   ],
   "highlights": "勝浦市の緑豊かな丘上に建つモダンな美術館。江戸〜近代の絵画・陶磁器・漆器・旧皇室調度品（昌子内親王の婚礼箪笥など）を収蔵し、洋画家・西村計雄の常設展示も。ガラスケースを極力排した「肉薄」展示と、眺め抜群のオープンカフェが特徴。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（http://sgtmuseum.s2.xrea.com/）は証明書がドメイン名と一致せず（*.xrea.com 向けの証明書）WebFetch で直接読めなかったため、WebSearch の要約のみで確認した（confidence を medium にした理由）。休館日が火・水・木という情報のため holiday_rule（祝日の扱い）は不明。常設のコレクション展示が中心で、公式サイトに個別の企画展タイトル・会期の記載が見当たらず exhibitions は空。観覧料は江戸〜近代の絵画等常設コレクションの入館料として adult_price に入れた。次回巡回時は証明書エラーを踏まえ、可能なら別経路（例: WebSearch のキャッシュや別ページ）で公式サイト本文を確認したい。",
+  "notes": "公式サイト（http://sgtmuseum.s2.xrea.com/）は証明書がドメイン名と一致せず（*.xrea.com 向けの証明書）WebFetch で直接読めなかったため、WebSearch の要約のみで確認した（confidence を medium にした理由）。休館日が火・水・木という情報のため holiday_rule（祝日の扱い）は不明。常設のコレクション展示が中心で、公式サイトに個別の企画展タイトル・会期の記載が見当たらず exhibitions は空。観覧料は江戸〜近代の絵画等常設コレクションの入館料として adult_price に入れた。次回巡回時は証明書エラーを踏まえ、可能なら別経路（例: WebSearch のキャッシュや別ページ）で公式サイト本文を確認したい。 2026-10-02: 公式サイトは証明書エラーで直接読めず、WebSearch の検索結果（公式サイト由来の要約）で展覧会と展示替え休館日(10/18-19)を確認。",
   "confidence": "medium"
 }

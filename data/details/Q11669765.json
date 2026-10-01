@@ -1,6 +1,6 @@
 {
   "id": "Q11669765",
-  "checked_at": "2026-09-30T09:19:05+09:00",
+  "checked_at": "2026-10-02T09:05:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -12,14 +12,43 @@
     "https://www.city.takasaki.gunma.jp/site/art-museum/93842.html"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
-    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    },
+    {
+      "days": [
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-24", "to": "2026-10-09", "reason": "展示替え休館"},
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+    {
+      "from": "2026-09-24",
+      "to": "2026-10-09",
+      "reason": "展示替え休館"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -39,7 +68,12 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "高崎", "lines": "JR高崎線・上越新幹線ほか", "exit": "西口", "walk_min": 3}
+    {
+      "station": "高崎",
+      "lines": "JR高崎線・上越新幹線ほか",
+      "exit": "西口",
+      "walk_min": 3
+    }
   ],
   "highlights": "JR高崎駅西口から徒歩3分。近代日本の洋画・版画・彫刻・工芸を中心に1,600点超のコレクションを所蔵。同敷地に旧井上房一郎邸（昭和初期建築）と庭園を併設し、展覧会後の邸内・庭園散策も楽しめる。65歳以上・中学生以下は入館無料。",
   "closed_between_exhibitions": false,

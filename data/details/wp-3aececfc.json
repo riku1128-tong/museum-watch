@@ -1,6 +1,6 @@
 {
   "id": "wp-3aececfc",
-  "checked_at": "2026-09-30T09:08:17+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,15 +10,41 @@
     "https://www.takayamamuseum.jp/",
     "https://www.takayamamuseum.jp/guide/",
     "https://www.takayamamuseum.jp/next_exhibition/",
-    "https://www.museum.or.jp/museum/566"
+    "https://www.museum.or.jp/museum/566",
+    "https://www.takayamamuseum.jp/current_exhibition/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-28", "to": "2026-10-02", "reason": "展示替え休館"}
+    {
+      "from": "2026-09-28",
+      "to": "2026-10-02",
+      "reason": "展示替え休館"
+    },
+    {
+      "from": "2026-10-26",
+      "to": "2026-10-30",
+      "reason": "展示替え休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -26,20 +52,45 @@
       "title": "Art to You！障がい者芸術世界展 IN しちのへ 2026",
       "start": "2026-10-03",
       "end": "2026-10-25",
-      "url": "https://www.takayamamuseum.jp/next_exhibition/",
+      "url": "https://www.takayamamuseum.jp/current_exhibition/",
       "kind": "special",
       "summary": "東北障がい者芸術支援機構主催の公募展から入賞作品を展示。多彩な障がい者アートを紹介",
       "recommend": "入館無料で気軽に立ち寄れる参加型企画展。東北の障がいのある作家たちの個性あふれる作品群に触れ、アートを通じた共生社会を考えるきっかけになる",
       "admission": "無料",
-      "adult_price": 0
+      "adult_price": 0,
+      "hours": [
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "10:00",
+          "close": "20:00",
+          "last_entry": "19:30"
+        }
+      ]
     }
   ],
   "closed_between_exhibitions": false,
   "adult_price": 500,
   "access": [
-    {"station": "七戸十和田", "lines": "東北新幹線", "exit": null, "walk_min": 7, "note": null}
+    {
+      "station": "七戸十和田",
+      "lines": "東北新幹線",
+      "exit": null,
+      "walk_min": 7,
+      "note": null
+    }
   ],
   "highlights": "七戸町出身の洋画家・鷹山宇一の油彩・木版・素描を核に、彼が収集した19世紀末〜20世紀初頭の装飾オイルランプも展示。同じ七戸ゆかりの上泉華陽ら地域作家の作品も収蔵する。道の駅しちのへ内の七戸町文化村に位置し、東北新幹線七戸十和田駅から徒歩でアクセスできる。",
-  "notes": "入館料は特別展ごとに異なる。2026年9月28日〜10月2日は展示替えのため休館。館内整備休館が1月下旬〜2月上旬に不定期で設けられる場合あり。",
-  "confidence": "high"
+  "notes": "入館料は特別展ごとに異なる。展示替え休館は2026/9/28〜10/2と10/26〜10/30。次回展は「ミュージアム・コレクション展」（10/26以降、会期未掲載）。会期中の金曜は20:00まで開館（最終入館19:30）。館内整備休館が1月下旬〜2月上旬に不定期で設けられる場合あり。",
+  "confidence": "high",
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "東北文化の日（文化の日）",
+      "source_url": "https://tohokubunka.pref.miyagi.jp/facilities/aomori-20/"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q11666529",
-  "checked_at": "2026-09-30T09:15:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -13,15 +13,47 @@
     "https://www.museum.or.jp/museum/3668"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-10-05", "to": "2026-10-09", "reason": "展示替え"},
-    {"from": "2026-11-16", "to": "2026-11-21", "reason": "展示替え"},
-    {"from": "2026-12-28", "to": "2027-01-08", "reason": "年末年始・展示替え"},
-    {"from": "2027-03-01", "to": "2027-03-05", "reason": "展示替え"}
+    {
+      "from": "2026-10-05",
+      "to": "2026-10-09",
+      "reason": "展示替え"
+    },
+    {
+      "from": "2026-11-16",
+      "to": "2026-11-21",
+      "reason": "展示替え"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-08",
+      "reason": "年末年始・展示替え"
+    },
+    {
+      "from": "2027-03-01",
+      "to": "2027-03-05",
+      "reason": "展示替え"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -84,8 +116,17 @@
   "adult_price": 310,
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "飯田", "lines": "JR飯田線", "walk_min": 20},
-    {"station": "飯田", "lines": "高速バス（飯田バスターミナル）", "walk_min": 5, "note": "JR飯田駅から徒歩約20分、または飯田バスターミナルから徒歩約5分。中央自動車道飯田ICから車で約15分"}
+    {
+      "station": "飯田",
+      "lines": "JR飯田線",
+      "walk_min": 20
+    },
+    {
+      "station": "飯田",
+      "lines": "高速バス（飯田バスターミナル）",
+      "walk_min": 5,
+      "note": "JR飯田駅から徒歩約20分、または飯田バスターミナルから徒歩約5分。中央自動車道飯田ICから車で約15分"
+    }
   ],
   "highlights": "美術・自然科学・歴史・民俗の4部門とプラネタリウムを一体化した飯田市の総合文化施設。飯田出身の日本画家・菱田春草の常設コレクションと、地域の博物学の歩みを伝える展示が二本柱。小中高校生は入館無料で、教育機能にも力を入れている。",
   "notes": "開館時間は公式サイトに「9:30〜17:00（入館受付は16:30まで）」と記載。休館日「月曜日（祝日の場合は開館）、祝日の翌日、年末年始、その他展示替え等の臨時休館」。臨時休館日は公式サイトの2026年度一覧を参照（iida-museum.org/18929/）。小中高校生の入館料は無料（常設展・コレクション展）。特別展の高校生300円、小中学生200円との記載もあるため、展示内容によって異なる可能性あり。",

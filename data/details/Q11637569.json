@@ -1,7 +1,7 @@
 {
   "id": "Q11637569",
-  "checked_at": "2026-09-30T09:36:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://museen.org/ehon/",
@@ -14,7 +14,16 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30",
@@ -22,7 +31,16 @@
       "to": "2026-10-31"
     },
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "16:00",
       "last_entry": "15:30",
@@ -30,7 +48,9 @@
       "to": "2027-04-30"
     }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [
     {

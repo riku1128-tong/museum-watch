@@ -1,7 +1,7 @@
 {
   "id": "Q102427225",
-  "checked_at": "2026-09-30T09:28:58+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.verkehr-museum.jp/",
@@ -13,19 +13,35 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
   "special_closures": [
     {
       "from": "2026-10-13",
       "to": "2026-10-13",
       "reason": "振替休日（スポーツの日の翌日）"
+    },
+    {
+      "from": "2026-11-24",
+      "to": "2026-11-24",
+      "reason": "祝日（11/23）の翌日"
     }
   ],
   "special_openings": [],
@@ -40,7 +56,24 @@
       "recommend": "帆に風を受けて走る帆船の美しさを、絵画と精巧な模型の両方から堪能できる。東西の帆船文化の違いも比較でき、清水港ゆかりの日本丸の活躍が見どころ。",
       "admission": "大人 400円",
       "adult_price": 400,
-      "closed_dates": ["2026-10-13"]
+      "closed_dates": [
+        "2026-10-13"
+      ]
+    },
+    {
+      "title": "ギャラリー展示「ふと、おもいだす」",
+      "start": "2026-10-01",
+      "end": "2026-11-29",
+      "url": "https://www.verkehr-museum.jp/",
+      "kind": "other",
+      "summary": "ギャラリー展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "closed_dates": [
+        "2026-10-13",
+        "2026-11-24"
+      ]
     },
     {
       "title": "常設展示（港と船の資料）",

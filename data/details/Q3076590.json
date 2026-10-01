@@ -1,6 +1,6 @@
 {
   "id": "Q3076590",
-  "checked_at": "2026-09-30T09:30:10+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "ビルの建替えに伴い長期休館中（建替工事は2025年度〜2030年度予定、同じ場所で再開予定）",
@@ -21,7 +21,13 @@
   "exhibitions": [],
   "adult_price": null,
   "access": [
-    {"station": "有楽町", "lines": "JR各線", "exit": "国際フォーラム口", "walk_min": 5, "note": "休館前の情報。同じ帝劇ビルの場所で再開予定"}
+    {
+      "station": "有楽町",
+      "lines": "JR各線",
+      "exit": "国際フォーラム口",
+      "walk_min": 5,
+      "note": "休館前の情報。同じ帝劇ビルの場所で再開予定"
+    }
   ],
   "highlights": "出光興産創業者・出光佐三が蒐集した東洋古美術のコレクションを公開するため1966年に開館。日本の書画や中国・日本の陶磁器を中心に、テーマを掲げた展覧会で紹介してきた美術館（現在はビル建替えのため長期休館中）。",
   "closed_between_exhibitions": false,

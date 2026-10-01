@@ -1,0 +1,51 @@
+{
+  "id": "Q11618013",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "営業は土日祝のみ（秋期は9/19〜11/8）。冬期（12月〜3月）は休館",
+  "official_url": "https://www.chausuyama.jp/spot/2014030311333914.html",
+  "address": "愛知県北設楽郡豊根村坂宇場字御所平70-185（茶臼山高原内）",
+  "source_urls": [
+    "https://www.chausuyama.jp/spot/2014030311333914.html",
+    "https://www.chausuyama.jp/day/2014030614552885.html",
+    "https://www.chausuyama.jp/event/2026091008393769.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "16:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-11-09",
+      "to": "2027-03-31",
+      "reason": "秋期営業（〜11/8）終了後は休館、冬期休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "写真家・前田真三が奥三河を題材に撮った作品を常設で展示する、茶臼山高原の小さな写真ギャラリー。春の花まつり写真展など企画展も開かれ、入館は無料。高原散策の合間に立ち寄れる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式の日次案内に「美術館（9/19～11/8までの土日祝）9：00～16：00」とあり、秋期は土日祝のみ開館。平日は閉館。入館無料。令和8年度第一期（4〜6月）は常設展と企画展の案内のみで、第二期以降の展示内容は読めなかったため展示は空。11/9以降の営業は公式に記載が無く、冬期（12〜3月）休館のみ確認（「冬期に休館」）。2027年4月以降の営業日は未確認。",
+  "confidence": "medium"
+}

@@ -1,7 +1,7 @@
 {
   "id": "Q11595508",
-  "checked_at": "2026-09-30T10:00:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "address": "〒010-0673 秋田県男鹿市戸賀塩浜",
@@ -14,7 +14,15 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:00",
@@ -22,7 +30,15 @@
       "to": "2026-10-31"
     },
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
       "open": "09:00",
       "close": "16:00",
       "last_entry": "15:00",
@@ -30,7 +46,15 @@
       "to": "2027-02-28"
     },
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:00",

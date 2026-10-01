@@ -1,7 +1,7 @@
 {
   "id": "Q3884831",
-  "checked_at": "2026-09-30T09:05:04+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.nishi.or.jp/access/hakubutsukan/kyodoshirokan/index.html",
@@ -13,13 +13,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [
     {
@@ -70,6 +80,6 @@
   ],
   "highlights": "西宮地方の歴史と文化財を実物資料で学べる市内唯一の郷土資料館。約4万点の収蔵資料から約250点を常設展示し、県指定天然記念物の植物遺体・市指定重文の古墳出土品・江戸時代の樽廻船模型・宿駅生瀬の街並み復元模型など原始から近代を幅広くカバー。企画展や講座も定期開催。",
   "closed_between_exhibitions": false,
-  "notes": "祝日の営業については公式サイトに明記なし（holiday_rule: unknown）。臨時休館（展示設営・復旧期間）あり。次回展覧会の情報は公式サイトへの掲載を確認できず。",
+  "notes": "祝日の営業については公式サイトに明記なし（holiday_rule: unknown）。臨時休館（展示設営・復旧期間）あり。次回展覧会の情報は公式サイトへの掲載を確認できず。 【2026-10-02 light】利用案内で月曜休館・年末年始12/29〜1/4・観覧料無料を再確認。",
   "confidence": "high"
 }

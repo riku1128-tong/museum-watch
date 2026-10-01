@@ -1,7 +1,7 @@
 {
   "id": "Q11198629",
-  "checked_at": "2026-09-30T09:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.musashino.or.jp/museum/",
@@ -13,14 +13,39 @@
     "https://www.musashino.or.jp/museum/1002006/1003349/1009837.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "19:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "19:30"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-30", "to": "2026-09-30", "reason": "休館日（毎月最終水曜日）"},
-    {"from": "2026-10-28", "to": "2026-10-28", "reason": "休館日（毎月最終水曜日）"},
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休館"}
+    {
+      "from": "2026-09-30",
+      "to": "2026-09-30",
+      "reason": "休館日（毎月最終水曜日）"
+    },
+    {
+      "from": "2026-10-28",
+      "to": "2026-10-28",
+      "reason": "休館日（毎月最終水曜日）"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -59,7 +84,13 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "吉祥寺", "lines": "JR中央線・総武線、京王井の頭線", "exit": "中央口（北口）", "walk_min": 3, "note": "コピス吉祥寺A館7階"}
+    {
+      "station": "吉祥寺",
+      "lines": "JR中央線・総武線、京王井の頭線",
+      "exit": "中央口（北口）",
+      "walk_min": 3,
+      "note": "コピス吉祥寺A館7階"
+    }
   ],
   "highlights": "吉祥寺の繁華街・コピス吉祥寺A館7階にある市立美術館。銅版画家・浜口陽三と木版画家・萩原英雄の記念室を常設し、野田九浦の日本画を含む約2,600点のコレクションを擁する。「観る・創る・育てる」を掲げ、多彩な企画展で街に開かれた文化の場として機能する。",
   "closed_between_exhibitions": false,

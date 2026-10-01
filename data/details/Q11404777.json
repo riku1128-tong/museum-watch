@@ -1,6 +1,6 @@
 {
   "id": "Q11404777",
-  "checked_at": "2026-09-30T09:30:10+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "unknown",
   "status_note": null,
@@ -20,6 +20,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "2026年9月再調査。公式URL（https://www.city.tsuyama.lg.jp/culture/index.cgi?id=21）はコンテンツ不達（CGI応答なし）。津山市公式サイト・岡山県博物館協議会・美作エリア加盟館一覧にも「美作東部博物館」の記載なし。Webサービス検索でも確認できず。廃館または別名への移行の可能性あり。津山市文化振興課（0868-32-2121）に要確認。",
+  "notes": "2026年9月再調査。公式URL（https://www.city.tsuyama.lg.jp/culture/index.cgi?id=21）はコンテンツ不達（CGI応答なし）。津山市公式サイト・岡山県博物館協議会・美作エリア加盟館一覧にも「美作東部博物館」の記載なし。Webサービス検索でも確認できず。廃館または別名への移行の可能性あり。津山市文化振興課（0868-32-2121）に要確認。 2026-10-02 再挑戦: 公式URLはSPAの空シェル（津山市公式サイト トップ相当）で本文なし。WebSearch 2種でも「美作東部博物館」は見つからず（近隣は津山郷土博物館・つやま自然のふしぎ館のみ）。実在・営業状況は未確認。",
   "confidence": "low"
 }

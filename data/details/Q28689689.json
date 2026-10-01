@@ -1,7 +1,7 @@
 {
   "id": "Q28689689",
-  "checked_at": "2026-09-30T09:15:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://tad-toyama.jp/",
@@ -14,9 +14,25 @@
     "https://tad-toyama.jp/exhibition-event/20731"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["wed"],
+  "closed_weekdays": [
+    "wed"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -69,7 +85,13 @@
   "closed_between_exhibitions": false,
   "adult_price": 350,
   "access": [
-    {"station": "富山", "lines": "JR北陸新幹線・あいの風とやま鉄道・高山本線", "exit": null, "walk_min": 15, "note": "1番のりばより「富山赤十字病院・県美術館経由」バスで「富山県美術館」下車も可"}
+    {
+      "station": "富山",
+      "lines": "JR北陸新幹線・あいの風とやま鉄道・高山本線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "1番のりばより「富山赤十字病院・県美術館経由」バスで「富山県美術館」下車も可"
+    }
   ],
   "highlights": "富山市の富岩運河環水公園に面した県立美術館。ピカソ・ポロック・棟方志功のほかリートフェルトの椅子など20世紀美術・デザインの国際的名品を収蔵。屋上庭園「オノマトペの屋上」は夜22時まで無料で開放され、夜景とともに楽しめる。",
   "notes": "休館日は毎週水曜（祝日は開館）と祝日の翌日・年末年始。祝日の翌日に休館する規則はスキーマで完全には表現できないため holiday_rule: open_next_weekday_closed で近似し、祝日が水曜以外に来る週は翌日も休館となる点は注記にとどめる。年末年始の具体的な閉館日程は公式サイト未確認のため special_closures には入れていない。70歳以上・大学生以下はコレクション展無料。",

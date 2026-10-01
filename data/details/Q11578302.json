@@ -1,6 +1,6 @@
 {
   "id": "Q11578302",
-  "checked_at": "2026-09-30T09:05:04+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -15,13 +15,38 @@
     "https://hanga-museum.jp/about/index"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri"], "open": "10:00", "close": "17:00", "last_entry": "16:30"},
-    {"days": ["sat", "sun", "holiday"], "open": "10:00", "close": "17:30", "last_entry": "17:00"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    },
+    {
+      "days": [
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:30",
+      "last_entry": "17:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -35,7 +60,9 @@
       "recommend": "戯画や鯰絵、風刺画など「笑い」をテーマにした浮世絵約250点を前後期で展示替え。幕末明治の世相を庶民目線のユーモアから読み解ける",
       "admission": "一般 1,000円",
       "adult_price": 1000,
-      "closed_dates": ["2026-10-14"]
+      "closed_dates": [
+        "2026-10-14"
+      ]
     },
     {
       "title": "ミロとタピエス―戦後スペインの渦　1945-1980",
@@ -69,8 +96,19 @@
   ],
   "adult_price": 0,
   "access": [
-    {"station": "町田", "lines": "小田急線", "exit": "東口", "walk_min": 15},
-    {"station": "町田", "lines": "JR横浜線", "exit": "ターミナル口", "walk_min": 12, "note": "町田バスセンター8・9番乗り場から「原町田四丁目」下車徒歩5分の行き方もある"}
+    {
+      "station": "町田",
+      "lines": "小田急線",
+      "exit": "東口",
+      "walk_min": 15
+    },
+    {
+      "station": "町田",
+      "lines": "JR横浜線",
+      "exit": "ターミナル口",
+      "walk_min": 12,
+      "note": "町田バスセンター8・9番乗り場から「原町田四丁目」下車徒歩5分の行き方もある"
+    }
   ],
   "highlights": "世界でも数少ない版画専門の美術館。国内外の版画作品・資料3万点超を収蔵し、緑豊かな芹ヶ谷公園内に立地。常設展示室の特集展示は入館料のみで観覧できる",
   "closed_between_exhibitions": false,

@@ -1,0 +1,26 @@
+{
+  "id": "Q11605716",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "2017年11月に閉館",
+  "official_url": null,
+  "address": "〒444-1331 愛知県高浜市屋敷町1-5-14（吉浜人形本店6階）",
+  "source_urls": [
+    "https://ja.wikipedia.org/wiki/紫峰人形美術館",
+    "https://www.museum.or.jp/museum/4710"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "notes": "Wikipedia等で2017年11月閉館を確認。公式サイトなし。",
+  "confidence": "medium"
+}

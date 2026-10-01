@@ -1,6 +1,6 @@
 {
   "id": "Q109603143",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "改修工事は2026年3月末に完了したが、2026年度（令和8年度）は「からし期間」のため休館。再開館は2027年度（令和9年度）予定",
@@ -22,7 +22,13 @@
   "exhibitions": [],
   "adult_price": null,
   "access": [
-    {"station": "青梅", "lines": "JR青梅線", "exit": null, "walk_min": 6, "note": null}
+    {
+      "station": "青梅",
+      "lines": "JR青梅線",
+      "exit": null,
+      "walk_min": 6,
+      "note": null
+    }
   ],
   "highlights": "多摩川沿いの青梅市に立つ市立美術館で、近現代の絵画・版画・工芸を中心に約2,200点を収蔵。青梅ゆかりの洋画家・小島善太郎と工芸家・藤本能道の常設室を備え、地域の美術文化を継承する。2027年度のリニューアルオープンが予定されている。",
   "closed_between_exhibitions": false,

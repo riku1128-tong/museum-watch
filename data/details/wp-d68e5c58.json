@@ -1,0 +1,77 @@
+{
+  "id": "wp-d68e5c58",
+  "checked_at": "2026-10-02T08:28:44+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.hotelmonterey.co.jp/sannomuseum/",
+  "address": "〒540-0001 大阪府大阪市中央区城見2丁目2番27号",
+  "source_urls": [
+    "https://www.hotelmonterey.co.jp/sannomuseum/",
+    "https://www.hotelmonterey.co.jp/sannomuseum/about/",
+    "https://www.hotelmonterey.co.jp/sannomuseum/exhibition/",
+    "https://www.hotelmonterey.co.jp/sannomuseum/exhibition/202609.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "tue",
+    "wed"
+  ],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-02",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "生誕135年 山王美術館コレクションでつづる 岸田劉生展",
+      "start": "2026-09-03",
+      "end": "2027-01-31",
+      "url": "https://www.hotelmonterey.co.jp/sannomuseum/exhibition/202609.html",
+      "kind": "special",
+      "summary": "岸田劉生の肖像画・京都時代の日本画・晩年の静物画など所蔵作品を公開",
+      "recommend": "代表作《麗子肖像》が4年ぶりに登場し、《麗子桜花図》は初展示。白樺派の文化人との交友を伝える作品や同時代の作家の作品も並ぶ。",
+      "admission": "一般 1,300円",
+      "adult_price": 1300
+    }
+  ],
+  "adult_price": 1300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "京橋",
+      "lines": "JR大阪環状線・JR東西線・京阪本線",
+      "walk_min": 5
+    },
+    {
+      "station": "大阪ビジネスパーク",
+      "lines": "大阪メトロ長堀鶴見緑地線",
+      "walk_min": 5
+    }
+  ],
+  "highlights": "ホテルモントレ創立者が半世紀以上かけて集めた約600点の近代西洋絵画・日本洋画・日本画・陶磁器・彫刻を所蔵し、2022年に大阪ビジネスパークへ移転オープンした美術館。テーマごとの企画展で名品をじっくり見られる。",
+  "closed_between_exhibitions": false,
+  "notes": "大阪市に特別警報または暴風警報が発令された場合は休館。次回展は2027-03-04開始の荻須高徳展（3か月超先のため未登録）。入館料は岸田劉生展ページの一般料金。",
+  "confidence": "high"
+}

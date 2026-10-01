@@ -1,6 +1,6 @@
 {
   "id": "Q147312",
-  "checked_at": "2026-09-30T09:00:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,18 +8,50 @@
   "address": "〒630-8213 奈良県奈良市登大路町50番地",
   "source_urls": [
     "https://www.museum.or.jp/museum/5804",
-    "https://shosoin-ten.jp/info/ticket/"
+    "https://shosoin-ten.jp/info/ticket/",
+    "https://www.narahaku.go.jp/exhibition/usual/202609_butsuzo_selection/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-01", "reason": "年末年始"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
+    {
+      "title": "ナラハク仏像セレクション―受け継ぎ、未来へ―",
+      "start": "2026-09-15",
+      "end": "2027-09-15",
+      "url": "https://www.narahaku.go.jp/exhibition/usual/202609_butsuzo_selection/",
+      "kind": "collection",
+      "summary": "館蔵・寄託の仏像から選りすぐり、仏教美術と奈良の歴史を紹介（青銅器館2階・会期終了日未定のため通年扱い）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
     {
       "title": "第78回 正倉院展",
       "start": "2026-10-24",
@@ -31,8 +63,28 @@
       "admission": "一般 2,000円",
       "adult_price": 2000,
       "hours": [
-        {"days": ["mon", "tue", "wed", "thu"], "open": "08:00", "close": "18:00", "last_entry": "17:00"},
-        {"days": ["fri", "sat", "sun", "holiday"], "open": "08:00", "close": "20:00", "last_entry": "19:00"}
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu"
+          ],
+          "open": "08:00",
+          "close": "18:00",
+          "last_entry": "17:00"
+        },
+        {
+          "days": [
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "08:00",
+          "close": "20:00",
+          "last_entry": "19:00"
+        }
       ],
       "closed_weekdays": []
     }
@@ -40,10 +92,22 @@
   "adult_price": 700,
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "近鉄奈良", "lines": "近鉄奈良線", "exit": null, "walk_min": 15, "note": "または近鉄奈良駅・JR奈良駅から奈良交通市内循環バス「氷室神社・国立博物館」下車すぐ"},
-    {"station": "奈良", "lines": "JR大和路線", "exit": null, "walk_min": null, "note": "JR奈良駅から奈良交通市内循環バス「氷室神社・国立博物館」下車すぐ"}
+    {
+      "station": "近鉄奈良",
+      "lines": "近鉄奈良線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "または近鉄奈良駅・JR奈良駅から奈良交通市内循環バス「氷室神社・国立博物館」下車すぐ"
+    },
+    {
+      "station": "奈良",
+      "lines": "JR大和路線",
+      "exit": null,
+      "walk_min": null,
+      "note": "JR奈良駅から奈良交通市内循環バス「氷室神社・国立博物館」下車すぐ"
+    }
   ],
   "highlights": "1895年創設の歴史ある国立博物館。重要文化財の「なら仏像館」に飛鳥・奈良・鎌倉時代の仏像や仏教工芸品を系統的に展示。毎秋恒例の正倉院展は全国から観覧者が集まる奈良の秋の風物詩として定着している。",
-  "notes": "公式サイト（narahaku.go.jp）は WebFetch で終始 403 エラーとなり直接確認できず、インターネットミュージアム・正倉院展公式サイト（shosoin-ten.jp）・WebSearch の結果（奈良県公式サイト）を根拠にした（confidence: medium）。名品展の一般料金は700円・大学生350円、70歳以上と高校生以下（18歳未満）は無料。正倉院展は会期中無休（closed_weekdays: []）で通常より早い8:00開館（金土日祝は20時まで）。正倉院展当日一般2,000円（70歳以上も同額）。年末年始の具体的な閉館日は12/28〜1/1（museum.or.jp記載）。",
+  "notes": "公式サイト（narahaku.go.jp）は WebFetch で終始 403 エラーとなり直接確認できず、インターネットミュージアム・正倉院展公式サイト（shosoin-ten.jp）・WebSearch の結果（奈良県公式サイト）を根拠にした（confidence: medium）。名品展の一般料金は700円・大学生350円、70歳以上と高校生以下（18歳未満）は無料。正倉院展は会期中無休（closed_weekdays: []）で通常より早い8:00開館（金土日祝は20時まで）。正倉院展当日一般2,000円（70歳以上も同額）。年末年始の具体的な閉館日は12/28〜1/1（museum.or.jp記載）。 2026-10-02: 公式サイトは引き続き403。WebSearchの検索結果（公式ページの抜粋）で「ナラハク仏像セレクション」2026/9/15〜（青銅器館2階・無料）を確認、終了日は未確認。",
   "confidence": "medium"
 }

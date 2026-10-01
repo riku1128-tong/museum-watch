@@ -1,6 +1,6 @@
 {
   "id": "Q4556499",
-  "checked_at": "2026-09-30T09:15:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,9 +12,24 @@
     "https://benesse-artsite.jp/access/"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:00"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -36,7 +51,13 @@
   "confidence": "medium",
   "adult_price": null,
   "access": [
-    {"station": "宮浦港", "lines": "四国汽船（高松港から約60分・宇野港から約20分）", "exit": null, "walk_min": null, "note": "宮浦港から町営バス・シャトルバスで地中美術館入口へ"}
+    {
+      "station": "宮浦港",
+      "lines": "四国汽船（高松港から約60分・宇野港から約20分）",
+      "exit": null,
+      "walk_min": null,
+      "note": "宮浦港から町営バス・シャトルバスで地中美術館入口へ"
+    }
   ],
   "highlights": "建築家・安藤忠雄が設計した、建物の大半が地下に埋め込まれた美術館。クロード・モネの睡蓮、ジェームズ・タレルの光の空間、ウォルター・デ・マリアの巨大な球体と幾何学形体が恒久展示され、自然光の変化とともに作品の見え方が移り変わっていく。"
 }

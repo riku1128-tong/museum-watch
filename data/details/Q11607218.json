@@ -1,7 +1,7 @@
 {
   "id": "Q11607218",
-  "checked_at": "2026-09-30T09:01:14+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.abashiri.hokkaido.jp/site/artmuseum/",
@@ -11,12 +11,29 @@
     "https://www.city.abashiri.hokkaido.jp/site/artmuseum/1244.html"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "16:00"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "10:00",
+      "close": "16:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [

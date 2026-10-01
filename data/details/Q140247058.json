@@ -1,0 +1,49 @@
+{
+ "id": "Q140247058",
+ "checked_at": "2026-10-02T08:31:22+09:00",
+ "check_mode": "full",
+ "operating_status": "operating",
+ "status_note": null,
+ "official_url": "https://www.tempo-harbor-theater.com/",
+ "address": "〒552-0022 大阪府大阪市港区海岸通1丁目5番10号",
+ "source_urls": [
+  "https://www.osaka-c-t.jp/",
+  "https://www.tempo-harbor-theater.com/",
+  "https://www.tempo-harbor-theater.com/utage-live-show"
+ ],
+ "regular_hours": [
+  {
+   "days": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun",
+    "holiday"
+   ],
+   "open": "08:00",
+   "close": "22:00"
+  }
+ ],
+ "closed_weekdays": [],
+ "holiday_rule": "unknown",
+ "special_closures": [],
+ "special_openings": [],
+ "exhibitions": [],
+ "adult_price": null,
+ "access": [
+  {
+   "station": "大阪港",
+   "lines": "Osaka Metro中央線",
+   "exit": null,
+   "walk_min": 5,
+   "note": null
+  }
+ ],
+ "highlights": "安藤忠雄が設計した天保山の複合文化施設。海遊館の隣に立ち、館内のTEMPO HARBOR THEATERで和太鼓や三味線などの和楽器と殺陣・獅子舞を組み合わせた定期公演が楽しめる。展示ではなく舞台芸術が中心の施設。",
+ "closed_between_exhibitions": false,
+ "notes": "美術展示を行う館ではなく、シアター（442席）を中心とした施設。公式の営業時間は08:00〜22:00（シアター運営会社の施設概要）。定休日の記載は見つからず、祝日の扱いは不明。公演は曜日・時間が決まっている（和太鼓ショー15:00・17:00・19:30など）。osaka-c-t.jp は旧サイトのアーカイブ。",
+ "confidence": "medium"
+}

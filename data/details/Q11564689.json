@@ -1,0 +1,74 @@
+{
+  "id": "Q11564689",
+  "checked_at": "2026-10-02T09:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "陶芸の森（公園）は入園無料。陶芸館のみ有料で、展示替え期間と冬季は休館",
+  "official_url": "https://www.sccp.jp/",
+  "address": "〒529-1804 滋賀県甲賀市信楽町勅旨2188-7",
+  "source_urls": [
+    "https://www.sccp.jp/",
+    "https://www.sccp.jp/exhibitions/21527/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "特別展「シガラキ・ニューウェーブ：ひろがる創造のいま」",
+      "start": "2026-09-12",
+      "end": "2026-12-13",
+      "url": "https://www.sccp.jp/exhibitions/21527/",
+      "kind": "special",
+      "summary": "2010年以降に信楽・伊賀を拠点とする17名のアーティストの表現を紹介",
+      "recommend": "陶芸にとどまらず彫刻・絵画・インスタレーションへ広がる、信楽周辺の新しい創造の動きを17名の作家で見渡せる展覧会。窯業の産地から生まれる現在進行形の表現に出会える。",
+      "admission": "一般 1,100円",
+      "adult_price": 1100
+    },
+    {
+      "title": "陶芸館ギャラリー展示「AIR－名品セレクション展Ⅰ」",
+      "start": "2026-09-12",
+      "end": "2026-10-12",
+      "url": null,
+      "kind": "other",
+      "summary": "陶芸館ギャラリーでの名品セレクション展",
+      "recommend": null,
+      "admission": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "信楽",
+      "lines": "信楽高原鐵道",
+      "exit": null,
+      "walk_min": 20,
+      "note": "駅から甲賀市コミュニティバス「陶芸の森前」下車（約5分）"
+    }
+  ],
+  "highlights": null,
+  "notes": "月曜休館（祝日なら翌日）・年末年始休館。陶芸館のみ展示替え期間と冬季は休館するが、日付は読めず未登録（公式ガイドページは404）。12/13以降の休館は要確認。公式の休館カレンダー未確認のため confidence は medium。",
+  "confidence": "medium"
+}

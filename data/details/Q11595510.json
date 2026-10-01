@@ -1,7 +1,7 @@
 {
   "id": "Q11595510",
-  "checked_at": "2026-09-30T09:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://tuchizaki.com/",
@@ -12,12 +12,22 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00"
     }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {

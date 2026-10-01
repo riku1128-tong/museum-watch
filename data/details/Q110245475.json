@@ -1,6 +1,6 @@
 {
   "id": "Q110245475",
-  "checked_at": "2026-09-30T09:03:00+09:00",
+  "checked_at": "2026-10-02T09:05:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -15,12 +15,31 @@
     "https://nagano.art.museum/exhibition/artlab2026_2_kanebako"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["wed"],
+  "closed_weekdays": [
+    "wed"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -78,14 +97,36 @@
       "recommend": null,
       "admission": null,
       "adult_price": null
+    },
+    {
+      "title": "カンディンスキー 世界は鳴りひびく",
+      "start": "2026-11-07",
+      "end": "2026-12-27",
+      "url": "https://nagano.art.museum/exhibition/",
+      "kind": "special",
+      "summary": "ワシリー・カンディンスキーを紹介する展覧会（公式サイトの予定掲載）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 700,
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "長野", "lines": "JR北陸新幹線・しなの鉄道・長野電鉄", "exit": "善光寺口", "walk_min": null, "note": "JR長野駅善光寺口バス乗り場①から複数系統で約15分「善光寺北」下車、徒歩3分"},
-    {"station": "善光寺下", "lines": "長野電鉄長野線", "exit": null, "walk_min": 15}
+    {
+      "station": "長野",
+      "lines": "JR北陸新幹線・しなの鉄道・長野電鉄",
+      "exit": "善光寺口",
+      "walk_min": null,
+      "note": "JR長野駅善光寺口バス乗り場①から複数系統で約15分「善光寺北」下車、徒歩3分"
+    },
+    {
+      "station": "善光寺下",
+      "lines": "長野電鉄長野線",
+      "exit": null,
+      "walk_min": 15
+    }
   ],
   "highlights": "善光寺の東隣、城山公園内に建つ県立美術館。プリツカー賞建築家・槇文彦が設計した本館と、東山魁夷の作品を専門に収蔵する東山魁夷館からなる。自然光を取り込む展示室で、信州ゆかりの現代美術や工芸から東山魁夷の繊細な風景画まで幅広く鑑賞できる。",
   "closed_between_exhibitions": false,

@@ -1,0 +1,99 @@
+{
+  "id": "Q11559811",
+  "checked_at": "2026-10-02T08:34:30+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.eonet.ne.jp/~artyama/",
+  "address": "〒656-2301 兵庫県淡路市楠本2159",
+  "source_urls": [
+    "https://www.eonet.ne.jp/~artyama/",
+    "https://www.eonet.ne.jp/~artyama/access.htm",
+    "https://www.eonet.ne.jp/~artyama/guide.htm",
+    "https://www.eonet.ne.jp/~artyama/museum.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon",
+    "tue"
+  ],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-10-29",
+      "to": "2026-10-30",
+      "reason": "展示替えのため休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第19回 ゆかいな仲間たち展",
+      "start": "2026-10-31",
+      "end": "2026-11-15",
+      "url": "https://www.eonet.ne.jp/~artyama/",
+      "kind": "special",
+      "summary": "仲間たちによるグループ展。最終日は16時まで",
+      "recommend": null,
+      "admission": "大人 800円",
+      "adult_price": 800
+    },
+    {
+      "title": "大石鉦子展",
+      "start": "2026-10-31",
+      "end": "2027-10-31",
+      "url": "https://www.eonet.ne.jp/~artyama/",
+      "kind": "special",
+      "summary": "会期未定。初期の大型油彩、貝殻・シーグラスのオブジェ、初公開のデッサン等",
+      "recommend": "アート山では初となる鉦子の個展。メインギャラリーに初期からの大型油彩や貝殻・シーグラスのオブジェ、コレクションの人形、初公開のデッサンやドローイングが並ぶ。",
+      "admission": "大人 800円",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": 800,
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "関西文化の日",
+      "source_url": "https://www.eonet.ne.jp/~artyama/"
+    },
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "関西文化の日（11月3日）",
+      "source_url": "https://www.eonet.ne.jp/~artyama/"
+    }
+  ],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "淡路夢舞台前",
+      "lines": null,
+      "exit": null,
+      "walk_min": null,
+      "note": "新神戸駅・JR三宮から高速バス約50分、高速舞子から約20分で「淡路夢舞台前」下車、遊歩道で約8分。淡路ICから車で5分"
+    }
+  ],
+  "highlights": "淡路島出身の洋画家・大石可久也夫妻が、雑木林の草刈りから手作りで育てた芸術空間。白い箱舟を模した2階建てのメインギャラリーに作品が並び、大阪湾を見下ろす眺めと林に点在する作品群を散策できる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトは証明書エラーのため curl -k で EUC-JP を読んだ。休館日は月・火（休日は開館）と冬季休館日、入館料は大人800円（公式の案内ページ）。冬季休館の日付は未掲載。大石鉦子展は会期未定のため end は仮に1年後。",
+  "confidence": "medium"
+}

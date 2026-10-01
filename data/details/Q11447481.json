@@ -1,0 +1,26 @@
+{
+  "id": "Q11447481",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "2026年3月31日をもって閉館（公式ページの告知）",
+  "official_url": "https://www.city.himeji.lg.jp/kougei/",
+  "address": null,
+  "source_urls": [
+    "https://www.city.himeji.lg.jp/kougei/"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式ページに令和8年3月31日で閉館の告知のみ。",
+  "confidence": "high"
+}

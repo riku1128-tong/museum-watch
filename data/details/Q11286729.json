@@ -1,0 +1,24 @@
+{
+  "id": "Q11286729",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "北野異人館街の公式案内で「休館中」と表示（再開日の記載なし）。別サイトでは2026年3月に閉館したとの情報もあり",
+  "official_url": "https://www.kobeijinkan.com/ijinkan_list/platon",
+  "address": "〒650-0002 神戸市中央区北野町1-6-15",
+  "source_urls": [
+    "https://www.kobeijinkan.com/ijinkan_list/platon"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトは見つからず、北野異人館街の公式案内ページ（kobeijinkan.com）の「休館中」表示を根拠にした。開館時間・料金は一次情報で確認できなかったため記載せず。再開・閉館の確認が必要。",
+  "confidence": "low"
+}

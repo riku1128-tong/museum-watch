@@ -1,7 +1,7 @@
 {
   "id": "Q11543551",
-  "checked_at": "2026-09-30T09:02:54+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.yokosuka-moa.jp/",
@@ -15,13 +15,36 @@
     "https://www.yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "18:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "10:00",
+      "close": "18:00"
+    }
   ],
   "closed_weekdays": [],
-  "closed_nth_weekdays": [{"weekday": "mon", "nth": [1]}],
+  "closed_nth_weekdays": [
+    {
+      "weekday": "mon",
+      "nth": [
+        1
+      ]
+    }
+  ],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-04", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -79,10 +102,31 @@
   "adult_price": 450,
   "highlights": "建築家・山本理顕が設計し2007年に開館した三浦半島先端の美術館。後ろ三方を森、北東を東京湾に囲まれた立地に、ボリュームの半分を地下に収めた低層建築が建つ。ガラスと鉄板の入れ子構造が光を制御し、館内の天井高約12mの吹抜空間が印象的。海を望む景色も見どころ。",
   "access": [
-    {"station": "馬堀海岸", "lines": "京浜急行本線", "note": "京急バス「観音崎」行で「ラビスタ横須賀観音崎テラス・横須賀美術館前」下車 約10分"},
-    {"station": "浦賀", "lines": "京浜急行本線", "note": "京急バス「観音崎」行で終点「観音崎」下車 約15分"},
-    {"station": "横須賀", "lines": "JR横須賀線", "note": "京急バス「観音崎」行で「ラビスタ横須賀観音崎テラス・横須賀美術館前」下車 約40分"}
+    {
+      "station": "馬堀海岸",
+      "lines": "京浜急行本線",
+      "note": "京急バス「観音崎」行で「ラビスタ横須賀観音崎テラス・横須賀美術館前」下車 約10分"
+    },
+    {
+      "station": "浦賀",
+      "lines": "京浜急行本線",
+      "note": "京急バス「観音崎」行で終点「観音崎」下車 約15分"
+    },
+    {
+      "station": "横須賀",
+      "lines": "JR横須賀線",
+      "note": "京急バス「観音崎」行で「ラビスタ横須賀観音崎テラス・横須賀美術館前」下車 約40分"
+    }
   ],
   "notes": "毎月第1月曜休館（祝日の場合は開館）。年末年始休館（利用案内は12/29〜1/3、展覧会ページは12/29〜1/4と記載。1/4は第1月曜）。企画展と所蔵品展が同時に展示替えする時期は全館休館あり。2026-09-05に再オープン。所蔵品展の観覧料は2026年4月1日改定後の450円（個人）。最寄駅からは京急バス利用が基本で、徒歩でのアクセスは案内されていない。",
-  "confidence": "high"
+  "confidence": "high",
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "collection",
+      "reason": "文化の日 無料観覧日（所蔵品展・谷内六郎館）",
+      "source_url": "https://www.yokosuka-moa.jp/outline/"
+    }
+  ]
 }

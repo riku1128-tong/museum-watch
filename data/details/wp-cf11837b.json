@@ -1,0 +1,49 @@
+{
+  "id": "wp-cf11837b",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://cocoro-no-mori.com/",
+  "address": "〒629-3102 京都府京丹後市網野町下岡1018",
+  "source_urls": [
+    "https://map.yahoo.co.jp/v3/place/SQw5JA8qlIo"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "網野",
+      "note": "車で約3分"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "2026-10-02 再挑戦。公式サイト cocoro-no-mori.com は名前解決できず読めない（別ドメイン cocoronomori.xsrv.jp も空）。WebSearch の要約（Yahoo!マップ等）で 10:00-17:00・月曜休館（祝日の場合は火曜）・入館無料・住所を確認。展示・臨時休館は未確認のため空。公式が読めるようになったら再確認する。",
+  "confidence": "low"
+}

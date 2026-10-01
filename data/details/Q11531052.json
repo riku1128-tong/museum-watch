@@ -1,6 +1,6 @@
 {
   "id": "Q11531052",
-  "checked_at": "2026-09-30T09:06:25+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -15,13 +15,37 @@
     "https://matsumoto-artmuse.jp/events/event/yayoi/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-22", "to": "2026-12-22", "reason": "特別休館日"},
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-22",
+      "to": "2026-12-22",
+      "reason": "特別休館日"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -74,7 +98,12 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "松本", "lines": "JR篠ノ井線・大糸線・松本電鉄上高地線", "walk_min": 12, "note": "松本駅からぐるっとまつもとバス横田信大循環線で約5分「美術館前」下車"}
+    {
+      "station": "松本",
+      "lines": "JR篠ノ井線・大糸線・松本電鉄上高地線",
+      "walk_min": 12,
+      "note": "松本駅からぐるっとまつもとバス横田信大循環線で約5分「美術館前」下車"
+    }
   ],
   "highlights": "草間彌生の故郷・松本市に立つ市立美術館。草間の初期作品から最新作「わが永遠の魂」まで常設展示しており、草間ファンの聖地的存在。建物の前には巨大なオブジェが置かれ、館内にはカフェ・レストランとアートライブラリーも備わる。地元ゆかりの作家の作品も充実。",
   "closed_between_exhibitions": false,

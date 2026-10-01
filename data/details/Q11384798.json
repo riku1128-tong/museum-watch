@@ -1,6 +1,6 @@
 {
   "id": "Q11384798",
-  "checked_at": "2026-09-30T09:16:46+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "official_url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/toshokan_bunka/tenji/1003509.html",
@@ -11,12 +11,22 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
   "special_closures": [
     {

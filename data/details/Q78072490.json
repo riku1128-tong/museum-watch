@@ -1,6 +1,6 @@
 {
   "id": "Q78072490",
-  "checked_at": "2026-09-30T09:02:54+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -13,12 +13,32 @@
     "https://navam.jp/contact/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-11", "to": "2027-03-31", "reason": "冬季休館"}
+    {
+      "from": "2026-12-11",
+      "to": "2027-03-31",
+      "reason": "冬季休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -81,8 +101,20 @@
   "adult_price": 400,
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "穂高", "lines": "JR大糸線", "exit": null, "walk_min": null, "note": "タクシー約15分、または町営バス安曇野線「穂高駅前」→「クラフトパーク入口」下車徒歩15分"},
-    {"station": "安曇追分", "lines": "JR大糸線", "exit": null, "walk_min": null, "note": "タクシー約6分、または町営バス安曇野線「安曇追分駅前」→「クラフトパーク入口」下車徒歩15分"}
+    {
+      "station": "穂高",
+      "lines": "JR大糸線",
+      "exit": null,
+      "walk_min": null,
+      "note": "タクシー約15分、または町営バス安曇野線「穂高駅前」→「クラフトパーク入口」下車徒歩15分"
+    },
+    {
+      "station": "安曇追分",
+      "lines": "JR大糸線",
+      "exit": null,
+      "walk_min": null,
+      "note": "タクシー約6分、または町営バス安曇野線「安曇追分駅前」→「クラフトパーク入口」下車徒歩15分"
+    }
   ],
   "highlights": "北アルプス連峰と安曇野の田園風景を一望できる高台に立つ美術館。眺望そのものが見どころで、地域ゆかりの作家によるキルトや陶芸などの企画展・公募展を年間を通じて開催している",
   "notes": "初回巡回。冬季休館は12/11〜3月末日（年またぎ）。展覧会は貸館による個展・団体展が多く、公式サイトの告知に基づいて記載。「9・引力」のような会期の明記が無いものは無し。",

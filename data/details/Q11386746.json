@@ -1,6 +1,6 @@
 {
   "id": "Q11386746",
-  "checked_at": "2026-09-30T09:08:12+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,12 +12,31 @@
     "https://www.callcenter-kurashiki-city.jp/faq/detail.aspx?id=1544"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:15"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:15"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -58,7 +77,13 @@
   "adult_price": 210,
   "free_days": [],
   "access": [
-    {"station": "倉敷", "lines": "JR山陽本線・伯備線", "exit": null, "walk_min": 15, "note": "倉敷駅前からバスで「大原美術館前」下車徒歩1分も可"}
+    {
+      "station": "倉敷",
+      "lines": "JR山陽本線・伯備線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "倉敷駅前からバスで「大原美術館前」下車徒歩1分も可"
+    }
   ],
   "highlights": "1960年竣工の旧倉敷市庁舎を丹下健三が設計・改修した建物で、打ち放しコンクリートの壁や10mの吹き抜けエントランスが見どころ。国の登録有形文化財。倉敷ゆかりの日本画家・池田遙邨の作品を中心としたコレクションを展示する。",
   "closed_between_exhibitions": false,

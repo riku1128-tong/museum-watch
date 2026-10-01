@@ -1,0 +1,51 @@
+{
+  "id": "Q11678066",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kurokabe.co.jp/shopping/glasshouse/",
+  "address": "〒526-0059 滋賀県長浜市元浜町12-38",
+  "source_urls": [
+    "https://www.kurokabe.co.jp/shopping/glasshouse/",
+    "https://www.kurokabe.co.jp/",
+    "https://www.kurokabe.co.jp/access/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "長浜",
+      "lines": "JR北陸本線",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    }
+  ],
+  "highlights": "長浜の黒壁スクエアの中心にあるガラス専門店で、レトロな建物の中に黒壁オリジナルのガラスウェア、ガラスペン、サンドピクチャーなどが並ぶ。吹きガラスやサンドブラストの体験教室も併設している。",
+  "closed_between_exhibitions": false,
+  "notes": "美術館ではなくガラス製品の販売店。入館料なし。展示としての企画展は無し。営業時間は公式ページの表記（10:00〜17:00、定休日なし）で、特定日の短縮営業(3/31 16:00まで)は過ぎているため未記載。",
+  "confidence": "high"
+}

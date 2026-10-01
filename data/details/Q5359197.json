@@ -1,6 +1,6 @@
 {
   "id": "Q5359197",
-  "checked_at": "2026-09-30T09:08:17+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -17,9 +17,24 @@
     "https://kenbi.pref.gifu.lg.jp/events/noa-noa-the-arcadia-of-gauguin/"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
@@ -82,15 +97,41 @@
     }
   ],
   "adult_price": 370,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "collection",
+      "reason": "岐阜〜ふるさとを学ぶ日（無料開放日）",
+      "source_url": "https://kenbi.pref.gifu.lg.jp/visitor/"
+    }
+  ],
   "free_rules": [],
   "access": [
-    {"station": "西岐阜", "lines": "JR東海道本線", "exit": null, "walk_min": 15, "note": null},
-    {"station": "岐阜", "lines": "JR東海道本線・高山本線", "exit": null, "walk_min": null, "note": "岐阜バスまたはタクシー利用"},
-    {"station": "名鉄岐阜", "lines": "名古屋鉄道名古屋本線", "exit": null, "walk_min": null, "note": "岐阜バスまたはタクシー利用"}
+    {
+      "station": "西岐阜",
+      "lines": "JR東海道本線",
+      "exit": null,
+      "walk_min": 15,
+      "note": null
+    },
+    {
+      "station": "岐阜",
+      "lines": "JR東海道本線・高山本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "岐阜バスまたはタクシー利用"
+    },
+    {
+      "station": "名鉄岐阜",
+      "lines": "名古屋鉄道名古屋本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "岐阜バスまたはタクシー利用"
+    }
   ],
   "highlights": "岐阜市に位置する県立美術館。充実したルドンのコレクションをはじめ、フランス近代絵画や岐阜ゆかりの日本画など幅広い収蔵品を誇る。コレクション展は370円と手頃な価格で楽しめ、企画展では大型の国際巡回展も開催。企画展開催時の第3金曜は20時まで夜間開館。",
   "closed_between_exhibitions": false,
-  "notes": "企画展開催時の毎月第3金曜日は10:00〜20:00（入場19:30まで）の夜間開館。年末年始の休館日程は公式サイトに日付記載なし。",
+  "notes": "企画展開催時の毎月第3金曜日は10:00〜20:00（入場19:30まで）の夜間開館。年末年始の休館日程は公式サイトに日付記載なし。 【2026-10-02 light】お知らせに臨時休館・時間変更なし、展覧会5件に変化なし。",
   "confidence": "high"
 }

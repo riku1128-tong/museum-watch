@@ -1,7 +1,7 @@
 {
   "id": "Q11468703",
-  "checked_at": "2026-09-30T09:38:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://kaminoyama-castle.info/",
@@ -12,13 +12,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:15",
       "last_entry": "16:45"
     }
   ],
-  "closed_weekdays": ["thu"],
+  "closed_weekdays": [
+    "thu"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [

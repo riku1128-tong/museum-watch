@@ -1,0 +1,128 @@
+{
+  "id": "Q11589762",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.fashionmuseum.jp/",
+  "address": "〒658-0032 神戸市東灘区向洋町中2-9-1",
+  "source_urls": [
+    "https://www.fashionmuseum.jp/english/",
+    "https://www.fashionmuseum.jp/",
+    "https://www.fashionmuseum.jp/special/",
+    "https://www.fashionmuseum.jp/special/mizuki-shigeru/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "特別展「水木しげる 魂の漫画展」",
+      "start": "2026-09-12",
+      "end": "2026-11-29",
+      "url": "https://www.fashionmuseum.jp/special/mizuki-shigeru/",
+      "kind": "special",
+      "summary": "『ゲゲゲの鬼太郎』の水木しげるの漫画原稿・原画・愛用の道具・映像資料を紹介する大規模回顧展",
+      "recommend": "漫画原稿や原画に加え、愛用の道具や映像資料まで並ぶ大規模回顧展。生涯にわたり不思議な世界を描き続けた水木しげるの創作の軌跡をたどれる。",
+      "admission": "一般 1,400円",
+      "adult_price": 1400,
+      "hours": [
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "10:00",
+          "close": "18:00",
+          "last_entry": "17:30"
+        },
+        {
+          "days": [
+            "fri",
+            "sat"
+          ],
+          "open": "10:00",
+          "close": "19:30"
+        },
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "10:00",
+          "close": "19:30",
+          "from": "2026-10-11",
+          "to": "2026-10-11"
+        },
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "10:00",
+          "close": "19:30",
+          "from": "2026-11-22",
+          "to": "2026-11-22"
+        }
+      ],
+      "closed_dates": [
+        "2026-10-13",
+        "2026-11-24"
+      ]
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "アイランドセンター",
+      "lines": "六甲ライナー",
+      "exit": null,
+      "walk_min": null,
+      "note": "JR住吉駅または阪神魚崎駅から六甲ライナーでアイランドセンター駅下車"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "休館日は月曜（祝日の場合は開館し翌平日休館）、年末年始、展示替え期間（展示室のみ）。年末年始の具体的な日付と常設のコレクション展示の内容・料金は公式サイトで確認できなかった。特別展開催時はコレクション展も特別展の料金で観覧可。",
+  "confidence": "medium"
+}

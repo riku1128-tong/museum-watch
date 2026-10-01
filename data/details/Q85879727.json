@@ -1,7 +1,7 @@
 {
   "id": "Q85879727",
-  "checked_at": "2026-09-30T09:22:26+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/4/index.html",
@@ -13,21 +13,39 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "from": "2026-04-01",
       "to": "2026-11-30"
     },
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "16:00",
       "from": "2026-12-01",
       "to": "2027-03-31"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
@@ -65,6 +83,6 @@
   ],
   "highlights": "日本画家・白鳥映雪の作品を専門に所蔵する小諸市立の美術館。浅間山を望む高原の豊かな自然に囲まれた場所に立地し、約2か月ごとに企画展を開催。地元の産業史や郷土ゆかりの芸術を紹介する展覧会も行う。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日の場合は翌日）、祝日の翌日も休館（スキーマの holiday_rule: open_next_weekday_closed は月曜祝日の場合のみ表現）。年末年始（12/29〜1/3）休館。開館時間は4～11月 9:00-17:00、12～3月 9:00-16:00（カルチャー・ドット・ナガノより確認）。",
+  "notes": "月曜休館（祝日の場合は翌日）、祝日の翌日も休館（スキーマの holiday_rule: open_next_weekday_closed は月曜祝日の場合のみ表現）。年末年始（12/29〜1/3）休館。開館時間は4～11月 9:00-17:00、12～3月 9:00-16:00（カルチャー・ドット・ナガノより確認）。 2026-10-02: 糸のまち小諸展（～10/4）の次回以降の企画展は公式未掲載。",
   "confidence": "high"
 }

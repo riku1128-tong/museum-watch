@@ -1,0 +1,72 @@
+{
+  "id": "Q11338923",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.no-ma.jp/",
+  "address": "〒523-0849 滋賀県近江八幡市永原町上16（旧野間邸）",
+  "source_urls": [
+    "https://www.no-ma.jp/",
+    "https://no-ma.jp/guide/",
+    "https://no-ma.jp/guide/access/",
+    "https://no-ma.jp/exhibition/nomahistory2026/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "11:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-02",
+      "to": "2026-10-02",
+      "reason": "公式トップに「2026.10.02（金）閉館」の表記（展示替えとみられる）"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "NO-MAコレクションPart 5「NO-MAヒストリー」（第Ⅲ期）",
+      "start": "2026-10-03",
+      "end": "2026-12-06",
+      "url": "https://no-ma.jp/exhibition/nomahistory2026/",
+      "kind": "special",
+      "summary": "収蔵作品をNO-MAの収蔵順に3会期に分けて紹介する第Ⅲ期",
+      "recommend": "2004年の開館以来の展示で収蔵した35作家・2万点超の作品から、収蔵順にたどる企画の最終会期。美術館の歩みとともに、アール・ブリュットの作品群を一望できる。",
+      "admission": "一般 200円",
+      "adult_price": 200
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "近江八幡",
+      "lines": "JR琵琶湖線",
+      "exit": "北口",
+      "walk_min": null,
+      "note": "北口6番乗り場から近江鉄道バス（長命寺線）約10分、下車後徒歩"
+    }
+  ],
+  "highlights": "近江八幡の重要伝統的建造物群保存地区にある昭和初期の町屋を改修し、2004年に開館した美術館。障害の有無や専門教育の有無にとらわれない表現を紹介し、35作家・2万点超の作品を収蔵している。",
+  "closed_between_exhibitions": false,
+  "notes": "休館は月曜（祝日の場合は翌平日）、展示替え期間、年末年始。年末年始の具体的な日付は未確認。展覧会ごとに料金・時間が変わる場合あり。10/2の「閉館」表記の意味は公式ページで確認できず。",
+  "confidence": "medium"
+}

@@ -1,0 +1,87 @@
+{
+  "id": "Q11577335",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "改修工事のため長期休館中。2026年10月10日（土）に展覧会を再開予定",
+  "official_url": "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/index.html",
+  "address": "〒646-0015 和歌山県田辺市たきない町24-43 新庄総合公園内",
+  "source_urls": [
+    "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/index.html",
+    "https://www.agara.co.jp/article/632801",
+    "https://www.museum.or.jp/museum/5873"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-01",
+      "to": "2026-10-09",
+      "reason": "改修工事のため長期休館（10/10再開）"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "小林古径―歴史と物語を描く",
+      "start": "2026-10-10",
+      "end": "2026-11-23",
+      "url": "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/index.html",
+      "kind": "special",
+      "summary": "日本画家・小林古径の歴史や物語を題材にした作品を紹介する特別展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "近代日本画コレクション展",
+      "start": "2026-10-10",
+      "end": "2026-11-23",
+      "url": "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/index.html",
+      "kind": "collection",
+      "summary": "館蔵の近代日本画を本館と分館（熊野古道なかへち美術館）で紹介",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "紀伊田辺",
+      "lines": "JR紀勢本線",
+      "walk_min": null,
+      "note": "JR紀伊田辺駅・白浜駅から明光バスで「南和歌山医療センター前」または「新庄病院前」下車、徒歩5分"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "休館日は月曜（祝日・振替休日なら翌日）、祝日の翌日（土日除く）、年末年始（12/28〜1/4）、展示替期間（museum.or.jp 記載。公式の案内ページは未確認）。祝日翌日休館と展示替期間は規則化していない。改修工事のため2025年6月9日から長期休館、再開は2026年10月10日。観覧料は特別展ごとに設定（館蔵品展は一般260円との情報あり、公式未確認のため未採用）。",
+  "confidence": "medium"
+}

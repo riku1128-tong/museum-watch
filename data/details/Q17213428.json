@@ -1,6 +1,6 @@
 {
   "id": "Q17213428",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -11,9 +11,24 @@
     "https://sannenzaka-museum.co.jp/exhibition/"
   ],
   "regular_hours": [
-    {"days": ["wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon", "tue"],
+  "closed_weekdays": [
+    "mon",
+    "tue"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -31,10 +46,15 @@
   ],
   "adult_price": 800,
   "access": [
-    {"station": "清水道", "lines": "京都市バス", "walk_min": 7, "note": "「清水道」または「東山安井」下車、八坂通または清水坂を東へ徒歩7分"}
+    {
+      "station": "清水道",
+      "lines": "京都市バス",
+      "walk_min": 7,
+      "note": "「清水道」または「東山安井」下車、八坂通または清水坂を東へ徒歩7分"
+    }
   ],
   "highlights": "幕末から明治にかけて欧米を魅了した金工・七宝・蒔絵・京薩摩・彫刻・染織などの超絶技巧の工芸品を常時展示する専門美術館。清水寺門前・産寧坂という古都の風情ある立地も魅力。",
   "closed_between_exhibitions": false,
-  "notes": "企画展（2F）は「終了しました」の表示のみで、現在開催中・今後の企画展の告知は公式サイトに見当たらなかった。1F常設展は会期表記が無いため、通年展示として end を1年後に設定した。",
+  "notes": "企画展（2F）は「終了しました」の表示のみで、現在開催中・今後の企画展の告知は公式サイトに見当たらなかった。1F常設展は会期表記が無いため、通年展示として end を1年後に設定した。 2026-10-02 公式トップの最新のお知らせは2025年のもので、新たな休館の告知なし。",
   "confidence": "high"
 }

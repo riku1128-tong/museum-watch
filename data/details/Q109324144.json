@@ -1,7 +1,7 @@
 {
   "id": "Q109324144",
-  "checked_at": "2026-09-30T09:26:20+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.fujiyama-museum.com/",
@@ -12,7 +12,21 @@
     "https://www.fujiyama-museum.com/exhibition.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:30", "last_entry": "17:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:30",
+      "last_entry": "17:00"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "unknown",
@@ -35,11 +49,19 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "富士山", "lines": "富士急行線", "note": "無料巡回バスまたはタクシーで「ハイランドリゾートホテル&スパ」へ約20分"},
-    {"station": "富士急ハイランド", "lines": "富士急行線", "note": "無料巡回バスまたはタクシーで「ハイランドリゾートホテル&スパ」へ約10分"}
+    {
+      "station": "富士山",
+      "lines": "富士急行線",
+      "note": "無料巡回バスまたはタクシーで「ハイランドリゾートホテル&スパ」へ約20分"
+    },
+    {
+      "station": "富士急ハイランド",
+      "lines": "富士急行線",
+      "note": "無料巡回バスまたはタクシーで「ハイランドリゾートホテル&スパ」へ約10分"
+    }
   ],
   "highlights": "富士急行と堀内浩庵会が40年かけて収集した富士山の絵画約300点を所蔵。横山大観・東山魁夷・片岡球子ら近現代の巨匠の作品がスロープ状の回廊に並び、逆さ富士をモチーフにした外観や150インチの映像コーナーも印象的。",
   "closed_between_exhibitions": false,
-  "notes": "ハイランドリゾートホテル&スパ敷地内にあり、最寄り駅から徒歩ではなく無料巡回バス・タクシーでの来館が前提。休館日はウェブ上に明記されておらず、外部の情報サイトでは「不定休」とされているため closed_weekdays は空、holiday_rule は unknown とした。来館案内ページの休館日カレンダー（visiting.html#calendar）はJS描画のため本文取得できなかった。見どころ紹介文は公式サイトから該当ページを読めず、推測を避けて highlights は空にした。",
+  "notes": "ハイランドリゾートホテル&スパ敷地内にあり、最寄り駅から徒歩ではなく無料巡回バス・タクシーでの来館が前提。休館日はウェブ上に明記されておらず、外部の情報サイトでは「不定休」とされているため closed_weekdays は空、holiday_rule は unknown とした。来館案内ページの休館日カレンダー（visiting.html#calendar）はJS描画のため本文取得できなかった。見どころ紹介文は公式サイトから該当ページを読めず、推測を避けて highlights は空にした。 【2026-10-02 light】お知らせ「10月の休館日について」で10月は全日開館（休館日なし）と確認。",
   "confidence": "medium"
 }

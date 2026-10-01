@@ -1,7 +1,7 @@
 {
   "id": "Q17230147",
-  "checked_at": "2026-09-30T09:00:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.furutaoribe-museum.com/",
@@ -11,12 +11,30 @@
     "https://www.museum.or.jp/museum/17611"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:30", "last_entry": "17:10"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:30",
+      "last_entry": "17:10"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "unknown",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-04", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -36,7 +54,13 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "北山", "lines": "京都市営地下鉄烏丸線", "exit": "4番出口", "walk_min": 3, "note": null}
+    {
+      "station": "北山",
+      "lines": "京都市営地下鉄烏丸線",
+      "exit": "4番出口",
+      "walk_min": 3,
+      "note": null
+    }
   ],
   "highlights": "戦国時代の武将・茶人、古田織部（1544〜1615）を専門に扱う日本唯一の美術館。地下1階の小ぶりな空間に、織部ゆかりの茶道具・陶芸品・古文書を収蔵・展示。「織部好み」と称される大胆な造形美の世界を、北山の地で体感できる。",
   "closed_between_exhibitions": false,

@@ -1,7 +1,7 @@
 {
   "id": "Q913808",
-  "checked_at": "2026-09-30T09:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.artizon.museum/",
@@ -13,13 +13,39 @@
     "https://www.artizon.museum/exhibition/detail/608"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
-    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    },
+    {
+      "days": [
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -64,9 +90,27 @@
   ],
   "adult_price": null,
   "access": [
-    {"station": "京橋", "lines": "東京メトロ銀座線", "exit": "6番・7番出口", "walk_min": 5, "note": null},
-    {"station": "東京", "lines": "JR各線", "exit": "八重洲中央口", "walk_min": 5, "note": null},
-    {"station": "日本橋", "lines": "東京メトロ銀座線・東西線・都営浅草線", "exit": "B1出口", "walk_min": 5, "note": null}
+    {
+      "station": "京橋",
+      "lines": "東京メトロ銀座線",
+      "exit": "6番・7番出口",
+      "walk_min": 5,
+      "note": null
+    },
+    {
+      "station": "東京",
+      "lines": "JR各線",
+      "exit": "八重洲中央口",
+      "walk_min": 5,
+      "note": null
+    },
+    {
+      "station": "日本橋",
+      "lines": "東京メトロ銀座線・東西線・都営浅草線",
+      "exit": "B1出口",
+      "walk_min": 5,
+      "note": null
+    }
   ],
   "highlights": "旧ブリヂストン美術館を前身とする石橋財団の美術館。印象派・日本近代洋画から現代美術まで「創造の体感」をテーマに幅広く収蔵し、ミュージアムタワー京橋4〜6階で展示。日時指定予約制で、金曜日は夜8時まで開館している。",
   "closed_between_exhibitions": true,

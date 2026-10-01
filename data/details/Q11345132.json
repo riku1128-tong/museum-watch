@@ -1,0 +1,95 @@
+{
+  "id": "Q11345132",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.mazak-art.com/",
+  "address": "〒461-0004 愛知県名古屋市東区葵1-19-30",
+  "source_urls": [
+    "https://www.mazak-art.com/",
+    "https://www.mazak-art.com/index.cgi?mode=schedule_view&submode=current",
+    "https://www.mazak-art.com/index.cgi?mode=schedule_view&submode=next"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "17:30",
+      "last_entry": "17:00"
+    },
+    {
+      "days": [
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-19",
+      "to": "2026-10-22",
+      "reason": "展示替え"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "所蔵品展 ―春から秋へ―",
+      "start": "2026-02-28",
+      "end": "2026-10-18",
+      "url": "https://www.mazak-art.com/index.cgi?mode=schedule_view&submode=current",
+      "kind": "collection",
+      "summary": "ロココの巨匠からモネ、ピカソまで、フランス美術300年の所蔵品とガラス・家具",
+      "recommend": "ヴァトーやブーシェらロココの名品から、モネ、モディリアーニ、ピカソへと続くフランス絵画の流れを一望できる。ガレのガラスや家具も並び、アール・ヌーヴォーの空間ごと楽しめる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "和紙を知る　ILLUSION　柴崎幸次のあかり",
+      "start": "2026-10-23",
+      "end": "2027-02-28",
+      "url": "https://www.mazak-art.com/index.cgi?mode=schedule_view&submode=next",
+      "kind": "special",
+      "summary": "柴崎幸次の和紙のあかり「Nightface series」をアール・ヌーヴォー空間で展示",
+      "recommend": "和紙を重ねた箱に灯りをともすと幾何学模様が浮かぶ柴崎幸次の作品を、100年以上前の家具の空間で体験できる。ガレに着想を得た新作も初公開予定。",
+      "admission": "一般 1,300円（特別展会期中）",
+      "adult_price": 1300
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "新栄町",
+      "lines": "名古屋市営地下鉄東山線",
+      "exit": "1番出口",
+      "walk_min": 0,
+      "note": "駅直結"
+    }
+  ],
+  "highlights": "ヴァトー、ブーシェらロココ絵画を核に、18〜20世紀フランス美術の300年をたどる所蔵品が魅力。ガレらのアール・ヌーヴォーのガラス工芸や家具も、当時の雰囲気を再現した空間で鑑賞できる。",
+  "closed_between_exhibitions": false,
+  "notes": "料金は特別展会期中は一般1,300円。展示替え期間は2027/3/1〜3/4にも予定あり（3か月超先のため未登録）。GW・お盆は全日開館。",
+  "confidence": "high"
+}

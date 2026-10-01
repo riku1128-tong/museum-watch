@@ -1,6 +1,6 @@
 {
   "id": "wp-f2d42c9c",
-  "checked_at": "2026-09-30T09:00:43+09:00",
+  "checked_at": "2026-10-02T08:28:44+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,9 +12,27 @@
     "https://www.city.koganei.lg.jp/kankobunka/453/hakenomori/goriyo.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon", "tue", "wed"],
+  "closed_weekdays": [
+    "mon",
+    "tue",
+    "wed"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -33,8 +51,20 @@
   "adult_price": 200,
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "武蔵小金井", "lines": "JR中央線", "exit": "南口", "walk_min": 15, "note": "CoCoバスミニ「はけの森美術館」下車徒歩1分、京王バス「中山谷」下車徒歩1分"},
-    {"station": "新小金井", "lines": "西武多摩川線", "exit": null, "walk_min": null, "note": "CoCoバス中町循環で「美術館入口」「中山谷」下車徒歩1分"}
+    {
+      "station": "武蔵小金井",
+      "lines": "JR中央線",
+      "exit": "南口",
+      "walk_min": 15,
+      "note": "CoCoバスミニ「はけの森美術館」下車徒歩1分、京王バス「中山谷」下車徒歩1分"
+    },
+    {
+      "station": "新小金井",
+      "lines": "西武多摩川線",
+      "exit": null,
+      "walk_min": null,
+      "note": "CoCoバス中町循環で「美術館入口」「中山谷」下車徒歩1分"
+    }
   ],
   "highlights": "洋画家・中村研一が戦後に暮らしたアトリエ跡地に建つ美術館。国登録有形文化財の旧宅と茶室「花侵庵」が今も残り、隣接する美術の森緑地には東京の名湧水にも選ばれた湧水池がある",
   "notes": "2026年から休館日は月・火・水曜日。本展会期中は 9/21・9/22・10/12・11/3・11/23（いずれも祝休日）は開館と公式に記載されているため holiday_rule は open とした（9/23 祝日は開館日の列挙に含まれていなかったが既に過去）。開館時間・観覧料（一般200円）・アクセスは小金井市公式サイトの利用案内による。年末年始・展示替え休館の具体的日付は未確認。",

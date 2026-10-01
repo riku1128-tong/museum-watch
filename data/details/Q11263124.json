@@ -1,0 +1,69 @@
+{
+  "id": "Q11263124",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://kobe-ijinkan.net/uroko/",
+  "address": "〒650-0002 兵庫県神戸市中央区北野町2丁目20-4",
+  "source_urls": [
+    "http://kobe-ijinkan.net/uroko/",
+    "https://www.kobeijinkan.com/ijinkan_list/uroko"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "うろこ美術館 常設展示（西洋絵画コレクション）",
+      "start": "2026-10-02",
+      "end": "2027-10-02",
+      "url": "https://www.kobeijinkan.com/ijinkan_list/uroko",
+      "kind": "collection",
+      "summary": "通年。トロワイヨン、マチス、ユトリロ、ビュッフェなど近・現代ヨーロッパ絵画を常設展示",
+      "recommend": null,
+      "admission": "一般 1,100円",
+      "adult_price": 1100
+    }
+  ],
+  "adult_price": 1100,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "新神戸",
+      "lines": "新幹線・地下鉄",
+      "exit": null,
+      "walk_min": 20,
+      "note": "シティーループバス「北野異人館」下車徒歩8分"
+    },
+    {
+      "station": "三宮",
+      "lines": "各線",
+      "exit": null,
+      "walk_min": 20,
+      "note": null
+    }
+  ],
+  "highlights": "神戸で最初に公開された異人館として知られる、石のスレートで覆われた外観のうろこの家。隣の展望ギャラリーには、バルビゾン派トロワイヨンの大作や、マチス・ユトリロ・ビュッフェなど近現代ヨーロッパ絵画が並ぶ。",
+  "closed_between_exhibitions": false,
+  "notes": "公式ページの休館日欄は「定休日/不定休」とだけあり曜日は不明のため closed_weekdays は空（要確認）。検索結果の一部（第三者サイト）には年中無休・夏期9:00〜18:00とあったが公式と食い違うため採用せず公式の10:00〜17:00とした。料金は公式で大人1,100円・小学生220円。",
+  "confidence": "medium"
+}

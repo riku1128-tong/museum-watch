@@ -1,6 +1,6 @@
 {
   "id": "Q11595539",
-  "checked_at": "2026-09-30T09:29:29+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -15,19 +15,38 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [
-    {"weekday": "fri", "nth": [4]}
+    {
+      "weekday": "fri",
+      "nth": [
+        4
+      ]
+    }
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-06-22", "to": "2026-07-01", "reason": "館内消毒期間"}
+    {
+      "from": "2026-06-22",
+      "to": "2026-07-01",
+      "reason": "館内消毒期間"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -41,8 +60,14 @@
       "recommend": "公用移動・信仰・観光と目的はさまざまだが、江戸時代の川越人が旅した姿を一次資料で描く展示。城下町川越と旅文化の結びつきを多角的な視点で楽しめる。",
       "admission": "一般 200円（団体160円）",
       "adult_price": 200,
-      "closed_weekdays": ["mon"],
-      "closed_dates": ["2026-08-28", "2026-09-24", "2026-09-25"]
+      "closed_weekdays": [
+        "mon"
+      ],
+      "closed_dates": [
+        "2026-08-28",
+        "2026-09-24",
+        "2026-09-25"
+      ]
     },
     {
       "title": "令和8年度埼玉県名刀展「安土桃山時代の刀剣」",

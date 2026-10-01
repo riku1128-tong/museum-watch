@@ -1,6 +1,6 @@
 {
   "id": "Q11468702",
-  "checked_at": "2026-09-30T09:16:46+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -12,7 +12,16 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:00"
@@ -36,6 +45,6 @@
   ],
   "highlights": "クラゲの展示種類数世界一を誇る水族館。常時60種以上のクラゲを展示し、直径5メートルの「クラゲドリームシアター」が圧巻。2026年4月にリニューアルし100種展示に拡大。ゴマフアザラシやアシカの解説プログラムも人気。",
   "closed_between_exhibitions": false,
-  "notes": "不定期でメンテナンス休館あり。2026年4月リニューアル後の入館料は大人一般1,500円（公式サイトnyukanページで確認）。休館日の記載は公式サイトに見当たらないため confidence は medium のまま。",
+  "notes": "不定期でメンテナンス休館あり。2026年4月リニューアル後の入館料は大人一般1,500円（公式サイトnyukanページで確認）。休館日の記載は公式サイトに見当たらないため confidence は medium のまま。 公式トップに土砂崩れによる通行止めの通知あり（営業は通常どおり）。",
   "confidence": "medium"
 }

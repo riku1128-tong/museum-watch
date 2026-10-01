@@ -1,0 +1,42 @@
+{
+  "id": "Q11614836",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://ashiya-museum.jp",
+  "address": "〒659-0052 兵庫県芦屋市伊勢町12-25",
+  "source_urls": ["https://ashiya-museum.jp", "https://ashiya-museum.jp/exhibition/", "https://ashiya-museum.jp/access/"],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-28", "to": "2026-10-21", "reason": "展示替休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "浮世絵の風景画を楽しむ 広重＋北斎",
+      "start": "2026-10-22",
+      "end": "2027-01-17",
+      "url": "https://ashiya-museum.jp/exhibition/21026.html",
+      "kind": "special",
+      "summary": "日本を代表する浮世絵師・広重と北斎の風景画を展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "阪神芦屋", "lines": "阪神本線", "exit": null, "walk_min": 15, "note": "JR芦屋駅・阪急芦屋川駅から阪急バス「緑町」下車徒歩3分"}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": true,
+  "notes": "観覧料は公式トップ・展覧会一覧・アクセスのページに記載が見つからず未確認。次回開館は10月22日(木)10:00。",
+  "confidence": "medium"
+}

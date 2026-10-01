@@ -1,0 +1,59 @@
+{
+  "id": "wp-311ff022",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://kamigata.jp/kmgt/",
+  "address": "〒542-0076 大阪府大阪市中央区難波1-6-4",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/11865",
+    "http://kamigata.jp/kmgt/guide-21/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "11:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2026-12-31",
+      "reason": "年末休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "なんば",
+      "lines": "大阪メトロ",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    }
+  ],
+  "highlights": "江戸時代の道頓堀で上演された歌舞伎を描いた上方の役者絵を専門に展示する、法善寺門前の小さな美術館。所蔵品から常時30点ほどを企画やテーマごとに入れ替えて見せ、ミュージアムショップも併設している。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト(kamigata.jp)はSSL証明書不一致でWebFetch不可のため、日本の博物館情報サイト(museum.or.jp)と検索結果の公式利用案内の要約による。休館日は月曜（祝休日の場合は翌日）と12/29〜31。展示は常時入替の企画のため展覧会は未登録。",
+  "confidence": "medium"
+}

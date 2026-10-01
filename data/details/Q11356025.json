@@ -1,0 +1,92 @@
+{
+  "id": "Q11356025",
+  "checked_at": "2026-10-02T08:50:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.otsu.lg.jp/soshiki/010/1126/index.html",
+  "address": "〒520-0035 大津市小関町1-1",
+  "source_urls": [
+    "https://www.city.otsu.lg.jp/soshiki/010/1126/s_1/24910.html",
+    "http://www.city.otsu.lg.jp/soshiki/010/1126/index.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-04",
+      "reason": "祝日の翌日"
+    },
+    {
+      "from": "2026-12-27",
+      "to": "2027-01-05",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "三橋節子美術館 企画展",
+      "start": "2026-07-14",
+      "end": "2026-11-01",
+      "url": "http://www.city.otsu.lg.jp/soshiki/010/1126/index.html",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": "一般 330円",
+      "adult_price": 330
+    },
+    {
+      "title": "第16回 叡風会能面展（長等創作展示館）",
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "url": "http://www.city.otsu.lg.jp/soshiki/010/1126/index.html",
+      "kind": "other",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 330,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "上栄町",
+      "lines": "京阪京津線",
+      "exit": null,
+      "walk_min": 10
+    },
+    {
+      "station": "大津",
+      "lines": "JR琵琶湖線",
+      "exit": null,
+      "walk_min": 20
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "休館日は月曜（祝日の場合は翌日）・祝日の翌日（日曜は開館）・12/27〜1/5。11/4 は文化の日の翌日として休館に入れた。企画展の題名は読めたページに無く、会期のみ。無料駐車場約10台。観覧料は一般330円・大学高校生240円・中小学生160円・市内65歳以上160円。",
+  "confidence": "medium"
+}

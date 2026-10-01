@@ -1,6 +1,6 @@
 {
   "id": "Q11457608",
-  "checked_at": "2026-09-30T09:08:17+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,18 +13,39 @@
     "https://isuien.or.jp/garden"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "16:30", "last_entry": "16:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [],
   "adult_price": 1200,
   "access": [
-    {"station": "近鉄奈良", "lines": "近鉄奈良線", "walk_min": 15, "note": "東大寺西隣"}
+    {
+      "station": "近鉄奈良",
+      "lines": "近鉄奈良線",
+      "walk_min": 15,
+      "note": "東大寺西隣"
+    }
   ],
   "highlights": "海運業で財を成した中村家3代が、神戸大空襲を免れた美術品2千数百点を収集。古代中国の青銅器や高麗・朝鮮王朝時代の陶磁器などを、東大寺に隣接する日本庭園「依水園」の中で鑑賞できる",
-  "notes": "休園日は「毎火曜日（祝日の場合は開園、翌平日休園）、庭園整備期間（12月末〜1月中旬および9月下旬）」。庭園整備期間は具体的な日付が公式に明記されていないため special_closures には追加していない（次回、期間が確定した時点で反映する）。入園料は庭園と美術館共通で一般1,200円。開催中・近日開催の特別展情報は公式サイトに記載が無く、春秋に重要文化財「亦復一楽帖」を一図ずつ特別陳列する旨のみ案内されている。",
+  "notes": "休園日は「毎火曜日（祝日の場合は開園、翌平日休園）、庭園整備期間（12月末〜1月中旬および9月下旬）」。庭園整備期間は具体的な日付が公式に明記されていないため special_closures には追加していない（次回、期間が確定した時点で反映する）。入園料は庭園と美術館共通で一般1,200円。開催中・近日開催の特別展情報は公式サイトに記載が無く、春秋に重要文化財「亦復一楽帖」を一図ずつ特別陳列する旨のみ案内されている。 2026-10-02 再確認。入園料は大学・高校生500円、中小学生300円。庭園整備期間のうち9月下旬は終了。",
   "confidence": "high"
 }

@@ -1,7 +1,7 @@
 {
   "id": "Q11596708",
-  "checked_at": "2026-09-30T09:25:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.inazawa.aichi.jp/museum",
@@ -14,13 +14,24 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -52,8 +63,12 @@
       "recommend": "ヨーロッパ体験を経て独自の風景美を築いた小野竹喬（日本画）と荻須高徳（洋画）の二人展。昭和の巨匠が同じ「風景」をいかに異なる筆致で捉えたか、前後期あわせてじっくり鑑賞できる。",
       "admission": "一般 1,000円（団体800円）",
       "adult_price": 1000,
-      "closed_weekdays": ["mon"],
-      "closed_dates": ["2026-11-25"]
+      "closed_weekdays": [
+        "mon"
+      ],
+      "closed_dates": [
+        "2026-11-25"
+      ]
     }
   ],
   "adult_price": 310,

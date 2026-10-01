@@ -1,6 +1,6 @@
 {
   "id": "Q115566051",
-  "checked_at": "2026-09-30T10:00:00+09:00",
+  "checked_at": "2026-10-02T08:31:57+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -14,9 +14,25 @@
     "https://www.kiyoharu-art.com/?p=3399"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -42,7 +58,13 @@
   ],
   "adult_price": 1500,
   "access": [
-    {"station": "長坂", "lines": "JR中央本線", "exit": null, "walk_min": 30, "note": "長坂駅からタクシー5分、または市民バス10分（バス停「中丸公民館南」下車、徒歩3分）"}
+    {
+      "station": "長坂",
+      "lines": "JR中央本線",
+      "exit": null,
+      "walk_min": 30,
+      "note": "長坂駅からタクシー5分、または市民バス10分（バス停「中丸公民館南」下車、徒歩3分）"
+    }
   ],
   "highlights": "武者小路実篤ら白樺派ゆかりの美術館で、ジョルジュ・ルオーやロダン、梅原龍三郎、バーナード・リーチらの作品を収蔵・展示。パリのアトリエ「ラ・リューシュ」を移築・再現した建物や著名建築家による礼拝堂など、建物散策も楽しめる芸術村の一角にある。",
   "closed_between_exhibitions": false,

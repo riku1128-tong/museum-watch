@@ -1,0 +1,95 @@
+{
+  "id": "Q59536065",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.aham.jp/",
+  "address": "〒545-6016 大阪市阿倍野区阿倍野筋1-1-43 あべのハルカス16階",
+  "source_urls": [
+    "https://www.aham.jp/",
+    "https://www.aham.jp/exhibition/future/",
+    "https://wyeth2026.jp/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "20:00"
+    },
+    {
+      "days": [
+        "mon",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-07",
+      "to": "2026-12-25",
+      "reason": "展示替え"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "アンドリュー・ワイエス展",
+      "start": "2026-10-03",
+      "end": "2026-12-06",
+      "url": "https://wyeth2026.jp/",
+      "kind": "special",
+      "summary": "20世紀アメリカ具象絵画を代表するワイエスの回顧展。窓やドアなど境界のモティーフに注目",
+      "recommend": "窓やドアといった「境界」のモティーフに着目し、アメリカの風景や人々を深い精神性をたたえたリアリズムで描いたワイエスの世界をたどる。日本では17年ぶりの大規模巡回展。",
+      "admission": "一般 2,200円",
+      "adult_price": 2200,
+      "closed_dates": [
+        "2026-10-05"
+      ]
+    },
+    {
+      "title": "ルーシー・リー展 東西をつなぐ優美のうつわ",
+      "start": "2026-12-26",
+      "end": "2027-03-07",
+      "url": "https://www.aham.jp/exhibition/future/",
+      "kind": "special",
+      "summary": "陶芸家ルーシー・リーの作品を紹介する展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "closed_between_exhibitions": true,
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "大阪阿部野橋",
+      "lines": "近鉄南大阪線",
+      "walk_min": 0,
+      "note": "あべのハルカス内（16階）"
+    },
+    {
+      "station": "天王寺",
+      "lines": "JR・地下鉄御堂筋線・谷町線",
+      "walk_min": 5
+    }
+  ],
+  "highlights": "超高層ビル「あべのハルカス」の16階にある都市型美術館。国内外の大型企画展を年間を通して開催し、近鉄の大阪阿部野橋駅から直結で、天王寺駅からもすぐ。展覧会ごとに開館時間が変わり、平日は夜8時まで観覧できる。",
+  "notes": "公式サイトの開館時間は「10:00～18:00 ※展覧会開催中の火～金（祝日を除く）10:00～20:00」。休館は展覧会ごとに設定（ワイエス展は10/5休館）。月曜休館の祝日開館・年末年始の休館日は未確認。展覧会間（12/7〜12/25）は展示替え休館と推定。入館料は企画展ごと。アクセス・料金の一部は公式以外の記載による。",
+  "confidence": "medium"
+}

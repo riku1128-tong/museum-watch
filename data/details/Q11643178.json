@@ -1,6 +1,6 @@
 {
   "id": "Q11643178",
-  "checked_at": "2026-09-30T09:22:11+09:00",
+  "checked_at": "2026-10-02T08:50:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -15,13 +15,22 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -90,5 +99,6 @@
     }
   ],
   "highlights": "福島県郡山市郊外の緑豊かな安原地区に位置する市立美術館。印象派から現代美術まで幅広いコレクションを持ち、国内外の優れた企画展を多数開催。無料駐車場完備で車でのアクセスも便利。",
-  "confidence": "high"
+  "confidence": "high",
+  "notes": "次の企画展「コンクリート／アブストラクション 柴田敏雄－写真と抽象」は 2027-01-31〜03-22（一般1,000円、公式ページ189671）。3か月先を超えるため exhibitions には未登録。"
 }

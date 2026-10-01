@@ -1,6 +1,6 @@
 {
   "id": "Q11399547",
-  "checked_at": "2026-09-30T09:26:27+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,21 +11,34 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
       "open": "10:00",
       "close": "18:00"
     },
     {
-      "days": ["sat", "sun", "holiday"],
+      "days": [
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [
     {
       "weekday": "tue",
-      "nth": [3]
+      "nth": [
+        3
+      ]
     }
   ],
   "holiday_rule": "open",
@@ -51,6 +64,6 @@
   ],
   "highlights": "中山道の宿場町として栄えた御嵩町の歴史を原始古代から近代まで通覧できる郷土館。アナンカス象の化石・縄文〜古墳時代の出土品・江戸期の宿場関連資料を展示。中山道みたけ館内の図書館と併設し、無料で利用できる。",
   "closed_between_exhibitions": false,
-  "notes": "毎月最終金曜日も休館（蔵書点検・資料燻蒸等のため）。この閉館日はスキーマで表現できないため要注意。元の公式URL（town.mitake.gifu.jp）はSSL不一致のため御嵩町の正式ドメイン（town.mitake.lg.jp）に更新。",
+  "notes": "毎月最終金曜日も休館（蔵書点検・資料燻蒸等のため）。この閉館日はスキーマで表現できないため要注意。元の公式URL（town.mitake.gifu.jp）はSSL不一致のため御嵩町の正式ドメイン（town.mitake.lg.jp）に更新。 公式の休館日には毎月最終金曜日・蔵書点検期間・資料燻蒸期間も記載。",
   "confidence": "high"
 }

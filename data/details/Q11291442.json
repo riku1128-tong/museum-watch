@@ -1,0 +1,32 @@
+{
+  "id": "Q11291442",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://embamuseum.ec-net.jp/",
+  "address": "〒659-0021 兵庫県芦屋市奥池町12-1",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/5500",
+    "https://artscape.jp/museum/2587/"
+  ],
+  "regular_hours": [
+    {"days": ["fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "last_entry": "15:30"}
+  ],
+  "closed_weekdays": ["mon", "tue", "wed", "thu"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 800,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "芦屋", "lines": "JR・阪神・阪急芦屋川", "exit": null, "walk_min": null, "note": "阪神芦屋・JR芦屋・阪急芦屋川から阪急バス（有馬行・芦屋ハイランド行）で約20分、「奥池」下車すぐ"}
+  ],
+  "highlights": "清代中期から現代までの中国近代絵画や刺繍など約1万点を所蔵する、「中国」「近代」の名を冠した珍しい美術館。芦屋の山あい奥池に建ち、春と秋に企画展を開催している。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（embamuseum.ec-net.jp）は接続不可で読めず、museum.or.jp の館情報を使用（月〜木休館・祝日は開館、大人800円）。現在の展覧会は確認できず。休館中との情報がある外部サイトもあるため要確認。",
+  "confidence": "medium"
+}

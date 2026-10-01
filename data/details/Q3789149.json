@@ -1,6 +1,6 @@
 {
   "id": "Q3789149",
-  "checked_at": "2026-09-30T09:20:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -16,12 +16,31 @@
     "https://mingeikan.or.jp/category/news/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-01", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -54,7 +73,17 @@
   "adult_price": 1500,
   "highlights": "柳宗悦が創設した日本民藝運動の拠点で、日本・朝鮮・中国・西洋の民芸品約17,000点を所蔵。江戸時代の民家を改装した重厚な館内で陶磁器・染織・木漆工・絵画など多彩な民芸品をじっくり鑑賞できる。駒場東大前駅から徒歩7分。",
   "access": [
-    {"station": "駒場東大前", "lines": "京王井の頭線", "exit": "西口", "walk_min": 7},
-    {"station": "東北沢", "lines": "小田急線", "exit": "東口", "walk_min": 15}
+    {
+      "station": "駒場東大前",
+      "lines": "京王井の頭線",
+      "exit": "西口",
+      "walk_min": 7
+    },
+    {
+      "station": "東北沢",
+      "lines": "小田急線",
+      "exit": "東口",
+      "walk_min": 15
+    }
   ]
 }

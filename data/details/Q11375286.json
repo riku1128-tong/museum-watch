@@ -1,6 +1,6 @@
 {
   "id": "Q11375286",
-  "checked_at": "2026-09-30T09:05:25+09:00",
+  "checked_at": "2026-10-02T08:28:44+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -11,12 +11,30 @@
     "https://kyoto-museums.city.kyoto.lg.jp/museum/164/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休園"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休園"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -37,7 +55,11 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "北山", "lines": "京都市営地下鉄烏丸線", "walk_min": 1}
+    {
+      "station": "北山",
+      "lines": "京都市営地下鉄烏丸線",
+      "walk_min": 1
+    }
   ],
   "highlights": "安藤忠雄設計の建築が京都府立植物園に隣接して佇む世界初の屋外絵画庭園。モネの「睡蓮・朝」やミケランジェロの「最後の審判」など名画8点を陶板に実物大で再現し、自然光の中で鑑賞できる。入場200円と手頃で、地下鉄駅から徒歩1分の好立地。",
   "notes": "元の公式URL（https://www.plants-plus.co.jp/topangarden/）はDNSが解決できなかったため、実際の公式サイト（https://kyoto-toban-hp.or.jp/）に更新。施設メンテナンス等で臨時休園する場合あり（公式サイトで要確認）。TEL 075-724-2188。",

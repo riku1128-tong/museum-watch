@@ -1,0 +1,26 @@
+{
+  "id": "Q11362538",
+  "checked_at": "2026-10-02T09:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "2025年4月をもって閉館。建物は「みかげ芸術堂」がコンサート＆イベントスペースとして運営",
+  "official_url": "https://seramuseum.weebly.com/",
+  "address": null,
+  "source_urls": [
+    "https://seramuseum.weebly.com/"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトに2025年4月の閉館告知。収蔵作品は他所へ寄贈。",
+  "confidence": "high"
+}

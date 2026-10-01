@@ -1,6 +1,6 @@
 {
   "id": "wp-bdc7c7cf",
-  "checked_at": "2026-09-30T09:05:25+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,12 +11,30 @@
     "https://www.city.toyama.toyama.jp/etc/minzokumingei/takamura/takamura_tenji.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "unknown",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -45,6 +63,6 @@
   ],
   "highlights": "富山市民俗民芸村内に立つ、富山出身の水墨画家・篁牛人（1901〜1984）を専門とした記念館。孤高の画家として無所属で制作を続けた牛人の力強くも繊細な水墨作品を展示。同じ呉羽山のアトリエで共に歩んだ盤若一郎の作品も紹介する。",
   "closed_between_exhibitions": false,
-  "notes": "富山市の公式サイト内に美術館ページあり。週の定休日は公式ページに明記なし（年末年始のみ確認）。入館料は現在の展示（牛人と盤若展）での確認値100円。民俗民芸村内の複合施設。連絡先: 076-433-9215。",
+  "notes": "富山市の公式サイト内に美術館ページあり。週の定休日は公式ページに明記なし（年末年始のみ確認）。入館料は現在の展示（牛人と盤若展）での確認値100円。民俗民芸村内の複合施設。連絡先: 076-433-9215。 展示ページに「高校生以下無料」の記載あり（大人は有料）。",
   "confidence": "medium"
 }

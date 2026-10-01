@@ -1,0 +1,57 @@
+{
+  "id": "Q11464999",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "文化棟・大ホール棟は2026年4月から休館中。白髪一雄記念室も2026年3月22日の展示終了をもって閉室。あましんアルカイックホール・オクトは営業",
+  "official_url": "http://www.archaic.or.jp",
+  "address": "〒660-0881 兵庫県尼崎市昭和通2丁目7-16",
+  "source_urls": [
+    "http://www.archaic.or.jp",
+    "http://www.archaic.or.jp/center/",
+    "http://www.archaic.or.jp/shiraga/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [
+    "tue"
+  ],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始全館休業"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "尼崎",
+      "lines": "阪神本線",
+      "exit": null,
+      "walk_min": 5
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトに展示室の案内は無く、白髪一雄記念室（4階、一般200円）は閉室。ホール施設としての営業時間（9〜17時、火曜休業）を記載。",
+  "confidence": "medium"
+}

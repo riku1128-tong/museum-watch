@@ -1,0 +1,91 @@
+{
+  "id": "Q11649561",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.kiyoshikojin.or.jp/tessai_museum/",
+  "address": "〒665-0837 兵庫県宝塚市米谷字清シ1番地",
+  "source_urls": [
+    "http://www.kiyoshikojin.or.jp/tessai_museum/",
+    "https://www.kiyoshikojin.or.jp/tessai_museum/guide/",
+    "https://www.kiyoshikojin.or.jp/tessai_exhibition/exhibition20260922/",
+    "https://www.kiyoshikojin.or.jp/access/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "【小企画展】鉄斎の書",
+      "start": "2026-09-22",
+      "end": "2026-11-01",
+      "url": "https://www.kiyoshikojin.or.jp/tessai_exhibition/exhibition20260922/",
+      "kind": "special",
+      "summary": "鉄斎美術館別館「史料館」で開く、富岡鉄斎の書の小企画展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0,
+      "hours": [
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "09:30",
+          "close": "16:30"
+        }
+      ]
+    }
+  ],
+  "adult_price": 600,
+  "free_days": [
+    {
+      "from": "2026-11-23",
+      "to": "2026-11-23",
+      "scope": "all",
+      "reason": "関西文化の日",
+      "source_url": "https://www.kiyoshikojin.or.jp/tessai_museum/guide/"
+    }
+  ],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "清荒神",
+      "lines": "阪急宝塚線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "JR宝塚駅からタクシー約10分。日曜・祝日のみJR宝塚駅から清荒神駐車場へのバスあり"
+    }
+  ],
+  "highlights": "富岡鉄斎の作品を広く公開するため昭和50年に開館。「聖光殿」と別館「史料館」の2館構成で、所蔵品は2,000余点にのぼる。小企画展では鉄斎の書など、画だけでなく多面的な魅力に触れられる。",
+  "closed_between_exhibitions": false,
+  "notes": "聖光殿は10:00〜16:30（入館16:00）、休館は月曜（祝日・振替休日と重なる場合は翌火曜）。史料館の小企画展は9:30〜16:30、10/12は開館・13日休館。観覧料は一般600円（65歳以上・障害者手帳提示は半額）。年末年始の休館日は公式で確認できず未登録。",
+  "confidence": "medium"
+}

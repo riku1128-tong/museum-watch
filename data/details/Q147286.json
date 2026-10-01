@@ -1,6 +1,6 @@
 {
   "id": "Q147286",
-  "checked_at": "2026-09-30T09:10:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -14,15 +14,63 @@
     "https://www.kyohaku.go.jp/jp/calendar/"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"},
-    {"days": ["fri"], "open": "09:30", "close": "20:00", "last_entry": "19:30"},
-    {"days": ["tue", "wed", "thu", "sat", "sun", "holiday"], "open": "09:00", "close": "17:30", "last_entry": "17:00", "from": "2026-10-06", "to": "2026-11-29"},
-    {"days": ["fri"], "open": "09:00", "close": "20:00", "last_entry": "19:30", "from": "2026-10-06", "to": "2026-11-29"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    },
+    {
+      "days": [
+        "fri"
+      ],
+      "open": "09:30",
+      "close": "20:00",
+      "last_entry": "19:30"
+    },
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:30",
+      "last_entry": "17:00",
+      "from": "2026-10-06",
+      "to": "2026-11-29"
+    },
+    {
+      "days": [
+        "fri"
+      ],
+      "open": "09:00",
+      "close": "20:00",
+      "last_entry": "19:30",
+      "from": "2026-10-06",
+      "to": "2026-11-29"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-08", "to": "2026-10-04", "reason": "展示替えのため展示室休室（庭園・屋外展示のみ開館）"}
+    {
+      "from": "2026-09-08",
+      "to": "2026-10-04",
+      "reason": "展示替えのため展示室休室（庭園・屋外展示のみ開館）"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -37,11 +85,35 @@
       "admission": "一般 2,200円（前売・団体2,000円）",
       "adult_price": 2200,
       "hours": [
-        {"days": ["tue", "wed", "thu", "sat", "sun", "holiday"], "open": "09:00", "close": "17:30", "last_entry": "17:00"},
-        {"days": ["fri"], "open": "09:00", "close": "20:00", "last_entry": "19:30"}
+        {
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "09:00",
+          "close": "17:30",
+          "last_entry": "17:00"
+        },
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "09:00",
+          "close": "20:00",
+          "last_entry": "19:30"
+        }
       ],
-      "closed_weekdays": ["mon"],
-      "closed_dates": ["2026-10-13", "2026-11-24"]
+      "closed_weekdays": [
+        "mon"
+      ],
+      "closed_dates": [
+        "2026-10-13",
+        "2026-11-24"
+      ]
     },
     {
       "title": "新春特集展示　ひつじづくし―干支を愛でる―",
@@ -68,8 +140,20 @@
   ],
   "adult_price": 700,
   "access": [
-    {"station": "七条", "lines": "京阪電車", "exit": null, "walk_min": 7, "note": null},
-    {"station": "東山七条", "lines": null, "exit": null, "walk_min": null, "note": "市バス「博物館三十三間堂前」下車すぐ（206・208号系統）"}
+    {
+      "station": "七条",
+      "lines": "京阪電車",
+      "exit": null,
+      "walk_min": 7,
+      "note": null
+    },
+    {
+      "station": "東山七条",
+      "lines": null,
+      "exit": null,
+      "walk_min": null,
+      "note": "市バス「博物館三十三間堂前」下車すぐ（206・208号系統）"
+    }
   ],
   "highlights": "明治期の本館「明治古都館」と現代的な展示棟「平成知新館」の2棟からなり、日本・東洋の文化財を紹介する名品ギャラリーのほか、庭園には石造物などの屋外展示もある。",
   "closed_between_exhibitions": false,

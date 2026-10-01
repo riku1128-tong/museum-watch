@@ -1,6 +1,6 @@
 {
   "id": "wp-4d8ecc6f",
-  "checked_at": "2026-09-30T09:03:59+09:00",
+  "checked_at": "2026-10-02T08:28:44+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -12,13 +12,40 @@
     "https://www.nakamuraya.co.jp/museum/exhibitions/"
   ],
   "access": [
-    {"station": "新宿", "lines": "JR線", "exit": "東口", "walk_min": 2},
-    {"station": "新宿", "lines": "東京メトロ丸ノ内線", "exit": "A6", "walk_min": 0, "note": "A6出口直結"}
+    {
+      "station": "新宿",
+      "lines": "JR線",
+      "exit": "東口",
+      "walk_min": 2
+    },
+    {
+      "station": "新宿",
+      "lines": "東京メトロ丸ノ内線",
+      "exit": "A6",
+      "walk_min": 0,
+      "note": "A6出口直結"
+    }
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:30", "close": "18:00", "last_entry": "17:40"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:30",
+      "close": "18:00",
+      "last_entry": "17:40"
+    }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -33,10 +60,22 @@
       "recommend": "現在も多くのファンを持つ堀文子の花や動物の美しい作品を中心に、初期から晩年まで画風の変遷を辿ることができる。高校生以下無料のため家族連れにも入りやすい。",
       "admission": "一般 1,000円",
       "adult_price": 1000
+    },
+    {
+      "title": "コレクション展示",
+      "start": "2026-12-16",
+      "end": "2027-02-07",
+      "url": "https://www.nakamuraya.co.jp/museum/",
+      "kind": "collection",
+      "summary": "中村屋サロンゆかりの作家を中心とした所蔵作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": null,
   "closed_between_exhibitions": true,
   "notes": "毎週火曜休館（火曜が祝祭日の場合は開館、翌日休館）、年末年始・展示替え期間休館。年末年始の具体的な日付は未確認。高校生以下無料。常設展なく企画展ごとの料金のため adult_price は null。",
-  "confidence": "high"
+  "confidence": "high",
+  "highlights": "新宿中村屋ビル3階にある小さな美術館。中村屋サロンに集った荻原守衛（碌山）や中村彝ら近代の芸術家の作品を軸に、企画展とコレクション展を開く。展示室は2つで、新宿の喧騒を離れて静かに鑑賞できる。"
 }

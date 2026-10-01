@@ -1,7 +1,7 @@
 {
   "id": "Q17211727",
-  "checked_at": "2026-09-30T09:01:14+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.2480.jp/",
@@ -15,12 +15,34 @@
   ],
   "adult_price": 1200,
   "access": [
-    {"station": "鶴川", "lines": "小田急線", "walk_min": null, "note": "鶴川駅から【野津田車庫・本町田経由町田駅行き】バスで「綾部入口」下車徒歩2分。タクシーで鶴川駅から10分"}
+    {
+      "station": "鶴川",
+      "lines": "小田急線",
+      "walk_min": null,
+      "note": "鶴川駅から【野津田車庫・本町田経由町田駅行き】バスで「綾部入口」下車徒歩2分。タクシーで鶴川駅から10分"
+    }
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "11:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon", "tue"],
+  "closed_weekdays": [
+    "mon",
+    "tue"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],

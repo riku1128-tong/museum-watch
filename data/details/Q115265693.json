@@ -1,6 +1,6 @@
 {
   "id": "Q115265693",
-  "checked_at": "2026-09-30T10:30:00+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,14 +13,41 @@
     "https://www.ejrcf.or.jp/gallery/access.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
-    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    },
+    {
+      "days": [
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [
-    {"date": "2026-11-02", "open": "10:00", "close": "18:00", "note": "月曜だが開館（水滸伝展の会期最終週）"}
+    {
+      "date": "2026-11-02",
+      "open": "10:00",
+      "close": "18:00",
+      "note": "月曜だが開館（水滸伝展の会期最終週）"
+    }
   ],
   "exhibitions": [
     {
@@ -59,9 +86,24 @@
   ],
   "closed_between_exhibitions": true,
   "access": [
-    {"station": "東京", "lines": "JR東日本", "exit": "丸の内北口", "walk_min": 0},
-    {"station": "東京", "lines": "東京メトロ丸ノ内線", "exit": "M12出口", "walk_min": 3},
-    {"station": "大手町", "lines": "東京メトロ東西線", "exit": "M12出口", "walk_min": 5}
+    {
+      "station": "東京",
+      "lines": "JR東日本",
+      "exit": "丸の内北口",
+      "walk_min": 0
+    },
+    {
+      "station": "東京",
+      "lines": "東京メトロ丸ノ内線",
+      "exit": "M12出口",
+      "walk_min": 3
+    },
+    {
+      "station": "大手町",
+      "lines": "東京メトロ東西線",
+      "exit": "M12出口",
+      "walk_min": 5
+    }
   ],
   "notes": "休館日は「原則、月曜日（祝日の場合は翌平日／ただし会期最終週、ゴールデンウィーク・お盆・シルバーウィーク期間中の月曜日は開館）、年末年始、展示替期間」。水滸伝展の休館日「月曜日［ただし9/21、10/12、11/2は開館］、10/13 (火)」。金曜の祝日の扱いは未記載。年末年始の具体的な日付は未確認。アストルップ展・山鹿清華展の詳細ページURLは公式展覧会一覧に未掲載。",
   "confidence": "high"

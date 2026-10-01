@@ -1,7 +1,7 @@
 {
   "id": "Q97613610",
-  "checked_at": "2026-09-30T10:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:59:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.teamlab.art/jp/e/planets/",
@@ -12,7 +12,20 @@
     "https://teamlabplanets.dmm.com/en/guide"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "08:00", "close": "22:00", "last_entry": "21:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "08:00",
+      "close": "22:00",
+      "last_entry": "21:00"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
@@ -31,8 +44,20 @@
   ],
   "adult_price": null,
   "access": [
-    {"station": "新豊洲", "lines": "ゆりかもめ", "exit": null, "walk_min": 1, "note": null},
-    {"station": "豊洲", "lines": "東京メトロ有楽町線", "exit": null, "walk_min": 10, "note": null}
+    {
+      "station": "新豊洲",
+      "lines": "ゆりかもめ",
+      "exit": null,
+      "walk_min": 1,
+      "note": null
+    },
+    {
+      "station": "豊洲",
+      "lines": "東京メトロ有楽町線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    }
   ],
   "closed_between_exhibitions": false,
   "highlights": "豊洲の倉庫跡に広がる没入型ミュージアム。水に入る体験型の巨大デジタルアート作品群は、鑑賞者の動きに反応してリアルタイムに変化し続ける。光と水が一体となった幻想空間に身体ごと溶け込む体験は唯一無二で、チームラボが世界に向けて発信する「身体で認識するアート」の集大成。",

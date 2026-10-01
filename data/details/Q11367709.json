@@ -1,0 +1,86 @@
+{
+  "id": "Q11367709",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.nakano-museum.jp/",
+  "address": "〒631-0033 奈良県奈良市あやめ池南9丁目946-2",
+  "source_urls": [
+    "http://www.nakano-museum.jp/",
+    "http://www.nakano-museum.jp/guide/index.html",
+    "http://www.nakano-museum.jp/exhibition/index.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:45"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "秋季展 近代絵画に見るモチーフの魅力（前期）",
+      "start": "2026-09-12",
+      "end": "2026-10-12",
+      "url": "http://www.nakano-museum.jp/exhibition/index.html",
+      "kind": "special",
+      "summary": "近代の洋画家・版画家が描いた静物画や人物画のモチーフに注目する秋季展の前期",
+      "recommend": null,
+      "admission": "一般 600円",
+      "adult_price": 600
+    },
+    {
+      "title": "秋季展 近代絵画に見るモチーフの魅力（後期）",
+      "start": "2026-10-21",
+      "end": "2026-11-15",
+      "url": "http://www.nakano-museum.jp/exhibition/index.html",
+      "kind": "special",
+      "summary": "近代の洋画家・版画家が描いた静物画や人物画のモチーフに注目する秋季展の後期",
+      "recommend": null,
+      "admission": "一般 600円",
+      "adult_price": 600
+    },
+    {
+      "title": "所蔵名作展「近代日本の洋画・日本画」",
+      "start": "2026-01-25",
+      "end": "2027-01-31",
+      "url": "http://www.nakano-museum.jp/",
+      "kind": "collection",
+      "summary": "洋画展示室・日本画展示室で所蔵の近代日本の洋画・日本画を紹介",
+      "recommend": null,
+      "admission": "一般 600円",
+      "adult_price": 600
+    }
+  ],
+  "adult_price": 600,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "学園前",
+      "lines": "近鉄奈良線",
+      "walk_min": null,
+      "note": "駅に程近い（徒歩分数は公式に記載なし）"
+    }
+  ],
+  "highlights": "明治・大正・昭和の近代日本の洋画・日本画・版画・彫刻を所蔵し、村上華岳や須田国太郎らの作品を展示する。緑豊かな蛙股池のほとりにあり、自然に囲まれて鑑賞できる。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は毎週月曜（臨時休館あり）。祝日の扱いは公式に明記がないが、前期の最終日が月曜祝日の10/12のため open とした。年末年始の休館日は公式に記載なし。前期と後期の間（10/13〜10/20）は秋季展の展示替えとみられるが、休館かは未確認。",
+  "confidence": "medium"
+}

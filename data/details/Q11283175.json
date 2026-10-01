@@ -1,0 +1,94 @@
+{
+  "id": "Q11283175",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.asahigroup-oyamazaki.com/",
+  "address": "〒618-0071 京都府乙訓郡大山崎町銭原5-3",
+  "source_urls": [
+    "https://www.asahigroup-oyamazaki.com/",
+    "https://www.asahigroup-oyamazaki.com/guide/",
+    "https://www.asahigroup-oyamazaki.com/exhibition/",
+    "https://www.asahigroup-oyamazaki.com/about/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "没後100年 クロード・モネ展",
+      "start": "2026-03-20",
+      "end": "2027-04-11",
+      "url": "https://www.asahigroup-oyamazaki.com/exhibition/monet/",
+      "kind": "collection",
+      "summary": "開館30周年記念。モネの《睡蓮》連作を所蔵する館で一部展示替えしつつ通年開催",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "ジョルジュ・ルオー ―いつくしむまなざし、祈りの筆あと",
+      "start": "2026-09-19",
+      "end": "2026-12-06",
+      "url": "https://www.asahigroup-oyamazaki.com/exhibition/rouault/",
+      "kind": "special",
+      "summary": "開館30周年記念。ルオーの作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "萩尾望都展 ―欧州への憧憬",
+      "start": "2026-12-19",
+      "end": "2027-04-11",
+      "url": "https://www.asahigroup-oyamazaki.com/exhibition/hagiomoto/",
+      "kind": "special",
+      "summary": "開館30周年記念。漫画家・萩尾望都の展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "山崎",
+      "lines": "JR京都線",
+      "exit": null,
+      "walk_min": 10
+    },
+    {
+      "station": "大山崎",
+      "lines": "阪急京都線",
+      "exit": null,
+      "walk_min": 10
+    }
+  ],
+  "highlights": "大正から昭和初期に実業家・加賀正太郎が築いた洋風建築の山荘を保存再生した美術館。モネの《睡蓮》連作や民藝運動ゆかりの作品を所蔵し、国の登録文化財の本館と山麓の庭園の景色も楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "一般の観覧料は展覧会ごとに異なり公式ページに記載なし（高・大学生700円、中学生以下無料）。年末年始休館の日付は未掲載のため special_closures は空。",
+  "confidence": "medium"
+}

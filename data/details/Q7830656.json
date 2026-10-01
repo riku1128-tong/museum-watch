@@ -1,6 +1,6 @@
 {
   "id": "Q7830656",
-  "checked_at": "2026-09-30T09:40:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,12 +11,30 @@
     "https://toyohashi-bihaku.jp/bihaku05/%E9%A4%A8%E3%81%AE%E5%88%A9%E7%94%A8%E6%A1%88%E5%86%85/"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -58,8 +76,18 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "豊橋公園前", "lines": "豊鉄市内線", "exit": null, "walk_min": 3},
-    {"station": "豊橋", "lines": "JR東海道新幹線・東海道本線・飯田線", "exit": null, "walk_min": 20}
+    {
+      "station": "豊橋公園前",
+      "lines": "豊鉄市内線",
+      "exit": null,
+      "walk_min": 3
+    },
+    {
+      "station": "豊橋",
+      "lines": "JR東海道新幹線・東海道本線・飯田線",
+      "exit": null,
+      "walk_min": 20
+    }
   ],
   "highlights": "豊橋公園内の吉田城址に立つ複合型博物館。郷土ゆかりの美術・歴史・考古・民俗資料を幅広く収蔵し、日本画から陶磁器・古文書まで企画展で紹介する。コレクション展・一般ギャラリーは無料で入館可能。豊鉄市内線「豊橋公園前」停から徒歩3分。",
   "closed_between_exhibitions": false,

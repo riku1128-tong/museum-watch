@@ -1,7 +1,7 @@
 {
   "id": "Q11585933",
-  "checked_at": "2026-09-30T09:12:10+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://nanao-art-museum.jp/",
@@ -15,13 +15,24 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -64,6 +75,6 @@
     }
   ],
   "highlights": "能登半島唯一の総合美術館として1995年に開館（設計：内井昭蔵）。地元が生んだ桃山時代の絵師・長谷川等伯の作品を大型ハイビジョンで紹介するほか、池田コレクションをはじめ能登ゆかりの作品を多数収蔵。ボローニャ絵本原画展など国際的な企画展も毎年開催する。",
-  "notes": "定休日は月曜日（祝休日は開館）、祝休日の翌日（スキーマのholiday_ruleには「祝日翌日も休館」を表現するenumがないためholiday_ruleは\"open\"とし、本noteで補足）、展示替え期間、年末年始。長谷川等伯展（9/19〜10/18）は会期中無休。10/19〜11/6は展示替えの可能性があるが公式未確認。",
+  "notes": "定休日は月曜日（祝休日は開館）、祝休日の翌日（スキーマのholiday_ruleには「祝日翌日も休館」を表現するenumがないためholiday_ruleは\"open\"とし、本noteで補足）、展示替え期間、年末年始。長谷川等伯展（9/19〜10/18）は会期中無休。10/19〜11/6は展示替えの可能性があるが公式未確認。 観覧料: 一般1,000円（前売・20名以上団体900円）、大学生350円、高校生以下無料。年末年始の休館日は公式に未掲載。",
   "confidence": "high"
 }

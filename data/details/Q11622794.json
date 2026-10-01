@@ -1,6 +1,6 @@
 {
   "id": "Q11622794",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -11,16 +11,45 @@
     "https://kyoto-museums.city.kyoto.lg.jp/museum/246/"
   ],
   "regular_hours": [
-    {"days": ["sun"], "open": "11:00", "close": "15:00", "last_entry": "14:30"}
+    {
+      "days": [
+        "sun"
+      ],
+      "open": "11:00",
+      "close": "15:00",
+      "last_entry": "14:30"
+    }
   ],
-  "closed_weekdays": ["mon", "tue", "wed", "thu", "fri", "sat"],
+  "closed_weekdays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat"
+  ],
   "closed_nth_weekdays": [
-    {"weekday": "sun", "nth": [2, 4, 5]}
+    {
+      "weekday": "sun",
+      "nth": [
+        2,
+        4,
+        5
+      ]
+    }
   ],
   "holiday_rule": "unknown",
   "special_closures": [
-    {"from": "2027-01-01", "to": "2027-01-31", "reason": "1月は休館"},
-    {"from": "2027-08-01", "to": "2027-08-31", "reason": "8月は休館"}
+    {
+      "from": "2027-01-01",
+      "to": "2027-01-31",
+      "reason": "1月は休館"
+    },
+    {
+      "from": "2027-08-01",
+      "to": "2027-08-31",
+      "reason": "8月は休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -38,9 +67,15 @@
   "closed_between_exhibitions": false,
   "adult_price": 1300,
   "access": [
-    {"station": "三条", "lines": "京都市営地下鉄東西線", "exit": null, "walk_min": 10, "note": "市バス「美術館前」下車の場合は徒歩5分"}
+    {
+      "station": "三条",
+      "lines": "京都市営地下鉄東西線",
+      "exit": null,
+      "walk_min": 10,
+      "note": "市バス「美術館前」下車の場合は徒歩5分"
+    }
   ],
   "highlights": "実業家・藤井善助が設立した、日本で2番目に古い私立美術館。中国の商代から清代にわたる書画・青銅器などの美術品を収蔵し、国宝・重要文化財も含まれる。開館日が毎月第1・第3日曜のみという希少な美術館。",
-  "notes": "公式サイト（www.yurinkan-museum.jp または www.yurinkan.com）は DNS エラーで接続不可。京都市の観光公式ページと京都市美術館連絡協議会のページを根拠にしている。開館日は「1・8月を除く毎月第1・第3日曜のみ、11:00〜15:00（入館は14:30まで）」。祝日と重なった場合の扱いは資料に記載がないため holiday_rule は unknown。1月・8月は全休のため special_closures に反映（2027/1・2027/8）。観覧料は本館一般1,300円（別途、第二館一般600円があるが本館のみ確認）。【2026-09-30 light 確認】変化なし（公式サイト DNS 障害継続）。",
+  "notes": "公式サイト（www.yurinkan-museum.jp または www.yurinkan.com）は DNS エラーで接続不可。京都市の観光公式ページと京都市美術館連絡協議会のページを根拠にしている。開館日は「1・8月を除く毎月第1・第3日曜のみ、11:00〜15:00（入館は14:30まで）」。祝日と重なった場合の扱いは資料に記載がないため holiday_rule は unknown。1月・8月は全休のため special_closures に反映（2027/1・2027/8）。観覧料は本館一般1,300円（別途、第二館一般600円があるが本館のみ確認）。【2026-09-30 light 確認】変化なし（公式サイト DNS 障害継続）。 【2026-10-02 light】公式サイトは本文を取得できず変化なし。",
   "confidence": "medium"
 }

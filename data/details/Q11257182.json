@@ -1,0 +1,101 @@
+{
+  "id": "Q11257182",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://asagoart.com/",
+  "address": "兵庫県朝来市多々良木739-3",
+  "source_urls": [
+    "https://www.city.asago.hyogo.jp/site/art-village/11872.html",
+    "https://www.city.asago.hyogo.jp/site/art-village/1075.html",
+    "https://asagoart.com/kikaku.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "wed"
+  ],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-13",
+      "reason": "祝日の翌日"
+    },
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-04",
+      "reason": "祝日の翌日（水曜）"
+    },
+    {
+      "from": "2026-11-24",
+      "to": "2026-11-24",
+      "reason": "祝日の翌日"
+    },
+    {
+      "from": "2026-12-25",
+      "to": "2027-01-05",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第3回あさごビエンナーレ2026",
+      "start": "2026-09-19",
+      "end": "2026-10-25",
+      "url": "https://www.city.asago.hyogo.jp/site/art-village/1075.html",
+      "kind": "special",
+      "summary": "応募142点から入賞・入選した平面作品62点を2階企画展示室で展示",
+      "recommend": "朝来の芸術文化を受け継ぎ若手作家を支援する公募展。選ばれた平面作品62点を一度に見比べられる。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "椿野聖梨展－通りすぎる日常－",
+      "start": "2026-09-19",
+      "end": "2026-10-25",
+      "url": "https://www.city.asago.hyogo.jp/site/art-village/1075.html",
+      "kind": "special",
+      "summary": "第1回ビエンナーレ大賞の朝来市在住作家・椿野聖梨の油彩画を中心とした個展",
+      "recommend": "第1回あさごビエンナーレで大賞を受けた地元作家の個展。日常の風景を油彩で描いた作品が1階企画展示室に並ぶ。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "第22回あさご四季の子どもアート展2026",
+      "start": "2026-10-31",
+      "end": "2026-11-28",
+      "url": "https://asagoart.com/kikaku.html",
+      "kind": "special",
+      "summary": "子どもたちの作品を1・2階の展示室で紹介する恒例の展覧会",
+      "recommend": null,
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "休館日は水曜・祝日の翌日・展示替え日・年末年始（12/25〜1/5）。ビエンナーレ最終日(10/25)は表彰式のため15時閉館。公式サイトは文字化けして直接読めず、朝来市公式ページで確認。展示替え日の日付は未掲載。",
+  "confidence": "medium"
+}

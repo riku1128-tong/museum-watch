@@ -1,6 +1,6 @@
 {
   "id": "Q11468661",
-  "checked_at": "2026-09-30T09:15:56+09:00",
+  "checked_at": "2026-10-02T09:00:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,13 +12,37 @@
     "http://www.yamagata-art-museum.or.jp/?yr=2026&month=10"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-10-05", "to": "2026-10-06", "reason": "展示替え休館"},
-    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始休館"}
+    {
+      "from": "2026-10-05",
+      "to": "2026-10-06",
+      "reason": "展示替え休館"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -52,7 +76,13 @@
   ],
   "adult_price": 800,
   "access": [
-    {"station": "山形", "lines": "JR奥羽本線（山形線）", "exit": null, "walk_min": null, "note": "徒歩約15分またはバス利用"}
+    {
+      "station": "山形",
+      "lines": "JR奥羽本線（山形線）",
+      "exit": null,
+      "walk_min": null,
+      "note": "徒歩約15分またはバス利用"
+    }
   ],
   "highlights": "実業家・吉野竹次郎が設立し、吉野石膏（株）が寄贈したモネ・ルノワールなど印象派の名作を核に、服部コレクション（現代美術）、長谷川コレクション（東洋美術）を擁する山形市の総合美術館。",
   "closed_between_exhibitions": false,

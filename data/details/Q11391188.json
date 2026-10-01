@@ -1,6 +1,6 @@
 {
   "id": "Q11391188",
-  "checked_at": "2026-09-30T09:12:10+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -15,12 +15,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "19:00"
     }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -29,7 +40,14 @@
       "reason": "年末年始"
     }
   ],
-  "special_openings": [],
+  "special_openings": [
+    {
+      "date": "2026-10-03",
+      "open": "10:00",
+      "close": "20:00",
+      "note": "ヨルニワ開催日（一部エリアを除き20時まで）"
+    }
+  ],
   "exhibitions": [
     {
       "title": "コレクションラボ014　岡山良一　八戸モダンの風",
@@ -52,7 +70,11 @@
       "recommend": null,
       "admission": null,
       "adult_price": null,
-      "closed_dates": ["2026-10-12", "2026-10-13", "2026-10-14"]
+      "closed_dates": [
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-14"
+      ]
     },
     {
       "title": "ヨシタケシンスケ展かもしれない",

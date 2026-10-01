@@ -1,0 +1,51 @@
+{
+  "id": "Q7399081",
+  "checked_at": "2026-10-02T08:50:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.sagawa-artmuseum.or.jp/",
+  "address": "〒524-0102 滋賀県守山市水保町北川2891",
+  "source_urls": ["https://www.sagawa-artmuseum.or.jp/", "https://www.sagawa-artmuseum.or.jp/plan/2026/07/140-1.html", "https://www.sagawa-artmuseum.or.jp/use/access.html"],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "生誕140周年 藤田嗣治 ７つの情熱",
+      "start": "2026-09-17",
+      "end": "2026-11-23",
+      "url": "https://www.sagawa-artmuseum.or.jp/plan/2026/07/140-1.html",
+      "kind": "special",
+      "summary": "藤田嗣治の芸術を「自己表現」「風景」「前衛」など7つのテーマで紹介",
+      "recommend": "藤田研究の第一人者シルヴィー・ビュイッソン氏の監修で、画業を7つの情熱という切り口から読み解く構成。節目の生誕140年に、多面的な藤田像に出会える。",
+      "admission": "一般 1,600円（WEB予約 1,500円）",
+      "adult_price": 1600
+    },
+    {
+      "title": "佐川美術館コレクション",
+      "start": "2026-09-17",
+      "end": "2026-11-23",
+      "url": "https://www.sagawa-artmuseum.or.jp/plan/2026/09/post-182.html",
+      "kind": "collection",
+      "summary": "佐川美術館の所蔵作品によるコレクション展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "堅田", "lines": "JR湖西線", "exit": null, "walk_min": null, "note": "江若交通バスまたはタクシーで約15分。守山駅(JR琵琶湖線)からは近江鉄道バスまたはタクシーで約35分"}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "展示替え等で臨時休館の場合あり。年末年始休館の日付は未掲載。コレクション展の単独料金は未確認。",
+  "confidence": "medium"
+}

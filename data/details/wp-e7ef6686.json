@@ -1,6 +1,6 @@
 {
   "id": "wp-e7ef6686",
-  "checked_at": "2026-09-30T09:31:55+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -13,12 +13,32 @@
     "https://www.museum.or.jp/museum/12220"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -37,7 +57,13 @@
   "closed_between_exhibitions": false,
   "adult_price": 200,
   "access": [
-    {"station": "下館", "lines": "JR水戸線・関東鉄道常総線・真岡鐵道真岡線", "exit": "北口", "walk_min": 8, "note": null}
+    {
+      "station": "下館",
+      "lines": "JR水戸線・関東鉄道常総線・真岡鐵道真岡線",
+      "exit": "北口",
+      "walk_min": 8,
+      "note": null
+    }
   ],
   "highlights": "筑西市出身の文化勲章受章者、陶芸家・板谷波山や洋画家・森田茂ら地域ゆかりの作家の作品を中心に収蔵。地域交流拠点「アルテリオ」3階にあり、所蔵品をテーマごとに紹介する企画展を開催する。",
   "notes": "観覧料（所蔵品展 一般200円・高校生以下無料）はインターネットミュージアムで確認。展覧会「9（きゅー）・引力」（9/26〜11/29、一般500円）は公式ページで会期確認。adult_price は所蔵品展の料金で、企画展は別料金。",

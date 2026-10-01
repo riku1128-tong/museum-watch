@@ -1,6 +1,6 @@
 {
   "id": "Q55537764",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T09:00:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,26 +8,61 @@
   "address": "富山県中新川郡上市町郷柿沢1番地",
   "source_urls": [
     "https://www.nishida-museum.com/",
-    "https://rurubu.jp/andmore/spot/80016137"
+    "https://www.nishida-museum.com/annai/"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "16:30", "last_entry": "16:00"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon",
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休館"}
+    {
+      "from": "2026-10-02",
+      "to": "2026-10-09",
+      "reason": "展示替え等の臨時休館（公式カレンダー）"
+    },
+    {
+      "from": "2026-10-14",
+      "to": "2026-10-14",
+      "reason": "臨時休館（公式カレンダー）"
+    },
+    {
+      "from": "2026-10-18",
+      "to": "2026-10-18",
+      "reason": "臨時休館（公式カレンダー）"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "企画展 上市町・西田美術館共同展Part2　－神の建築家－アントニ・ガウディ展",
+      "title": "没後100周年記念 ガウディへのオマージュ －ガウディから広がる造形世界－",
       "start": "2026-10-10",
       "end": "2026-11-23",
-      "url": null,
+      "url": "https://www.nishida-museum.com/",
       "kind": "special",
-      "summary": "建築家アントニ・ガウディの没後100周年を記念した企画展。上市町との共同開催",
-      "recommend": "サグラダ・ファミリアなど唯一無二の建築で知られるガウディの没後100周年を記念する展覧会。上市町との共同企画で、「神の建築家」の創造の軌跡を富山の地で体感できる機会。",
+      "summary": "没後100周年を記念し、上市町との共同で開くガウディ関連の企画展",
+      "recommend": null,
       "admission": "一般 700円",
       "adult_price": 700
     }
@@ -36,11 +71,20 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "新宮川", "lines": "富山地方鉄道本線", "walk_min": 15},
-    {"station": "上市", "lines": "富山地方鉄道本線", "walk_min": null, "note": "タクシー約5分"}
+    {
+      "station": "新宮川",
+      "lines": "富山地方鉄道本線",
+      "walk_min": 15
+    },
+    {
+      "station": "上市",
+      "lines": "富山地方鉄道本線",
+      "walk_min": null,
+      "note": "タクシー約5分"
+    }
   ],
   "highlights": "富山県上市町の山間部に建つ地域密着型の私立美術館。国内外の多彩な企画展を年間を通じて開催し、アリス展・ガウディ展など幅広いテーマの展覧会が特徴。北陸自動車道上市スマートICから車で約5分とアクセスしやすい。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日の場合は開館し翌火曜休館）。年末年始休館。企画展開催時の一般料金は700円、通常時（コレクション展）は500円。公式サイトのサブページは404が多く、るるぶ等二次資料を参照した。特に「アリス展」は9/13終了確認。",
-  "confidence": "medium"
+  "notes": "トップページの臨時休館カレンダーと /annai/ を確認。休館は月・火曜（祝日の場合は翌平日休館）。入館料は常設500円・企画展700円。10/10開幕の展覧会の個別ページは取得できずURLはトップ。今後の展覧会: ART BOX 第19回 画家・YUIGA（2027-02-13〜03-14）、イコン展（2027-03-03〜03-28、仮称）は3か月超先のため未登録。",
+  "confidence": "high"
 }

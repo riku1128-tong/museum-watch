@@ -1,6 +1,6 @@
 {
   "id": "Q22118153",
-  "checked_at": "2026-09-30T09:16:46+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,7 +12,16 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "16:00"
     }
@@ -51,13 +60,51 @@
       "admission": "一般 200円",
       "adult_price": 200,
       "hours": [
-        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "from": "2026-10-31", "to": "2026-10-31"},
-        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "15:30", "from": "2026-11-01", "to": "2026-11-15"}
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "10:00",
+          "close": "16:00",
+          "from": "2026-10-31",
+          "to": "2026-10-31"
+        },
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "09:30",
+          "close": "15:30",
+          "from": "2026-11-01",
+          "to": "2026-11-15"
+        }
       ]
     }
   ],
   "adult_price": 200,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-10-31",
+      "to": "2026-11-01",
+      "scope": "all",
+      "reason": "東北文化の日",
+      "source_url": "https://tohokubunka.pref.miyagi.jp/facilities/miyagi-6/"
+    }
+  ],
   "free_rules": [],
   "access": [],
   "highlights": "宮城県大衡村の豊かな自然に囲まれた村立美術館。大衡村出身の洋画家・菅野廉の作品を中心に常設展示するほか、地元ゆかりの作家や美術系大学との連携による企画展・公募展を年間通じて開催する。村の文化拠点として地域に根ざした活動を続けている。",

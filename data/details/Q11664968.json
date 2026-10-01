@@ -1,0 +1,46 @@
+{
+  "id": "Q11664968",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.egawa-mus.or.jp/",
+  "address": "〒662-0813 兵庫県西宮市上甲東園1-10-40",
+  "source_urls": [
+    "https://nishinomiya-kanko.jp/wp/meguruno057/",
+    "https://www.museum.or.jp/museum/5498"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "last_entry": "15:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-21", "to": "2026-10-26", "reason": "展示替え（前期・後期の間）"},
+    {"from": "2026-11-04", "to": "2026-11-04", "reason": "祝日（文化の日）の翌日"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "秋季展「名所へのいざない」",
+      "start": "2026-09-13",
+      "end": "2026-11-29",
+      "url": "https://nishinomiya-kanko.jp/wp/meguruno057/",
+      "kind": "special",
+      "summary": "前期9/13〜10/20・後期10/27〜11/29。名所にちなむ古美術を紹介",
+      "recommend": null,
+      "admission": "大人 600円",
+      "adult_price": 600
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "甲東園", "lines": "阪急今津線", "exit": null, "walk_min": 3, "note": "駅から西へ約200m"}
+  ],
+  "highlights": "西宮市の甲東園駅近くにある、東洋の古美術を専門とする美術館。四代目の頴川徳助が集めた古美術の蒐集品を保存・公開する目的で1973年に開館した。春と秋の年2回の会期だけ開く。",
+  "closed_between_exhibitions": true,
+  "notes": "公式サイト（www.egawa-mus.or.jp）はDNS解決できず読めなかったため、西宮市観光協会ページと日本の美術館・博物館情報サイトの情報で作成（confidence: medium）。開館は2月中旬〜5月上旬と9月中旬〜11月下旬の会期中のみ。休館日は月曜と祝日の翌日（ただし9/21・9/22・9/23・10/12・11/23の祝日は開館）。11/4は文化の日（火）の翌日のため休館として記載。観覧料は大人600円・大学生400円・70歳以上300円・小中高生無料（西宮市観光協会掲載）。",
+  "confidence": "medium"
+}

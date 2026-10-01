@@ -1,6 +1,6 @@
 {
   "id": "Q11404772",
-  "checked_at": "2026-09-30T09:13:02+09:00",
+  "checked_at": "2026-10-02T08:57:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,17 +9,27 @@
   "source_urls": [
     "https://www.city.akaiwa.lg.jp/akaiwa_rekishi/sanyo/1775.html",
     "https://www.city.akaiwa.lg.jp/annai/kyouikuiinkai/syakai/kosodate/bunnka/bunka/1198.html",
-    "https://www.museum.or.jp/museum/6190"
+    "https://www.museum.or.jp/museum/6190",
+    "https://www.city.akaiwa.lg.jp/akaiwa_rekishi/sanyo/index.html"
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "closed",
   "special_closures": [
     {

@@ -1,7 +1,7 @@
 {
   "id": "Q3329607",
-  "checked_at": "2026-09-30T09:13:02+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:50:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.artm.pref.hyogo.jp/",
@@ -15,19 +15,30 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "18:00",
       "last_entry": "17:30"
     },
     {
-      "days": ["fri", "sat"],
+      "days": [
+        "fri",
+        "sat"
+      ],
       "open": "10:00",
       "close": "20:00",
       "last_entry": "19:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -97,7 +108,9 @@
   "free_rules": [
     {
       "weekday": "sun",
-      "nth": [2],
+      "nth": [
+        2
+      ],
       "scope": "collection",
       "reason": "毎月第2日曜日（コレクション展・伊藤文化財団コレクション展）無料"
     }

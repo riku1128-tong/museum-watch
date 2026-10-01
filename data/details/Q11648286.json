@@ -1,6 +1,6 @@
 {
   "id": "Q11648286",
-  "checked_at": "2026-09-30T09:13:42+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -13,12 +13,32 @@
     "https://k-bijutsukan.net/exposition/collectionthroughthrlends2026/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -49,7 +69,13 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "釧路", "lines": "JR根室本線・釧網本線", "exit": null, "walk_min": 20, "note": "JR釧路駅からタクシーで約5分。または釧路駅前バスターミナルからバス利用可"}
+    {
+      "station": "釧路",
+      "lines": "JR根室本線・釧網本線",
+      "exit": null,
+      "walk_min": 20,
+      "note": "JR釧路駅からタクシーで約5分。または釧路駅前バスターミナルからバス利用可"
+    }
   ],
   "highlights": "北海道東部・釧路ゆかりの作家の作品を中心に収蔵・展示する地域密着型の美術館。生涯学習センター（まなぼっと幣舞）3階に位置し、釧路の風土が育んだ絵画や彫刻を通じて道東の美術文化を紹介する。所蔵作品のデジタルアーカイブ化にも取り組み、特殊光撮影による新視点を提示する。",
   "closed_between_exhibitions": false,

@@ -1,7 +1,7 @@
 {
   "id": "Q11402964",
-  "checked_at": "2026-09-30T09:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://artmuseum.pref.hokkaido.lg.jp/obj",
@@ -17,12 +17,32 @@
     "https://artmuseum.pref.hokkaido.lg.jp/obj/exhibition/program/372"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -83,5 +103,14 @@
   "highlights": "十勝の豊かな自然に囲まれた帯広市緑ヶ丘公園内に立地する北海道立の美術館。道内の作家を中心に絵画・彫刻・工芸などの作品を収蔵し、コレクション展と年数回の特別展を開催する。広大な公園の恵まれた自然環境の中で、十勝・北海道ゆかりのアートと親しめる施設。",
   "closed_between_exhibitions": false,
   "notes": "月曜休館（月曜が祝日・振替休日の場合は開館、翌火曜休館）。11/1は芸術週間のため開館と明記されているが、2026年11月1日は日曜日のため通常通り開館。展示替期間（11/24〜12/4頃）は休館になる可能性があるが、公式に具体的な日付が示されていないためspecial_closuresには未記載（巡回時に要確認）。",
-  "confidence": "high"
+  "confidence": "high",
+  "free_days": [
+    {
+      "from": "2026-11-01",
+      "to": "2026-11-07",
+      "scope": "collection",
+      "reason": "北海道芸術週間（コレクション・ギャラリー）",
+      "source_url": "https://artmuseum.pref.hokkaido.lg.jp/obj/guide/about"
+    }
+  ]
 }

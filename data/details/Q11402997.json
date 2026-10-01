@@ -1,6 +1,6 @@
 {
   "id": "Q11402997",
-  "checked_at": "2026-09-30T09:03:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,18 +8,41 @@
   "address": "〒085-0017 北海道釧路市幸町4丁目1番5号",
   "source_urls": [
     "https://www.kushiro-artmu.jp/",
-    "https://www.kushiro-artmu.jp/guide/",
     "https://www.kushiro-artmu.jp/schedule/",
+    "https://www.kushiro-artmu.jp/guide/",
     "https://www.kushiro-artmu.jp/collection/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-14", "to": "2026-10-02", "reason": "展示替えのため休館"},
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-09-14",
+      "to": "2026-10-02",
+      "reason": "展示替えのため休館"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -29,8 +52,8 @@
       "end": "2026-12-13",
       "url": "https://www.kushiro-artmu.jp/schedule/",
       "kind": "special",
-      "summary": "北海道出身の洋画家・三岸好太郎の画業を紹介する企画展",
-      "recommend": null,
+      "summary": "札幌生まれの洋画家・三岸好太郎の多彩な表現と軌跡をたどる企画展",
+      "recommend": "31年の短い生涯で時代の新潮流を吸収し独創的な作品を生んだ好太郎。三岸好太郎美術館のコレクションから、その表現の変遷をまとめてたどれる。",
       "admission": "一般 1,000円",
       "adult_price": 1000
     },
@@ -41,7 +64,7 @@
       "url": "https://www.kushiro-artmu.jp/schedule/",
       "kind": "special",
       "summary": "釧路出身の彫刻家・米坂ヒデノリの没後10年を記念する展覧会",
-      "recommend": null,
+      "recommend": "釧路生まれの彫刻家・米坂ヒデノリ（1934-2016）の没後10年展。館の所蔵作品を中心に、思索的な造形世界にふれられる。観覧は無料。",
       "admission": "無料",
       "adult_price": 0
     }

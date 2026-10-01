@@ -1,0 +1,76 @@
+{
+  "id": "Q11563573",
+  "checked_at": "2026-10-02T09:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.yuki-museum.or.jp/",
+  "address": "〒541-0046 大阪府大阪市中央区平野町3-3-9",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/5453",
+    "http://www.yuki-museum.or.jp/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-14",
+      "reason": "展示替え（前期10/12まで・後期10/15から）"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "豊臣のいた時代",
+      "start": "2026-08-29",
+      "end": "2026-12-06",
+      "url": "http://www.yuki-museum.or.jp/exhibition/",
+      "kind": "special",
+      "summary": "令和8年秋季展。前期 8/29〜10/12、後期 10/15〜12/6",
+      "recommend": null,
+      "admission": "一般 700円",
+      "adult_price": 700
+    }
+  ],
+  "adult_price": 700,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "淀屋橋",
+      "lines": "大阪メトロ御堂筋線",
+      "exit": "11番",
+      "walk_min": 5
+    },
+    {
+      "station": "淀屋橋",
+      "lines": "京阪電車",
+      "exit": "8番",
+      "walk_min": 7
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": true,
+  "notes": "公式サイトは接続拒否(ECONNREFUSED)で本文を読めず、検索結果の公式ページ要約と美術館協会のページ(museum.or.jp)で確認。展示替え休館は前期終了(10/12)と後期開始(10/15)の間の日として設定。入館料は一般700円（割引で600円の記載あり）。見どころ・展覧会のおすすめは未確認のため空。",
+  "confidence": "medium"
+}

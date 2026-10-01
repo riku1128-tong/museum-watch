@@ -1,6 +1,6 @@
 {
   "id": "Q4461630",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,20 +10,37 @@
     "https://www.museum.toyota.aichi.jp",
     "https://www.museum.toyota.aichi.jp/visit/",
     "https://www.museum.toyota.aichi.jp/visit/admission.html",
-    "https://www.museum.toyota.aichi.jp/exhibition/"
+    "https://www.museum.toyota.aichi.jp/exhibition/",
+    "https://www.museum.toyota.aichi.jp/exhibition/hasegawa2026",
+    "https://www.museum.toyota.aichi.jp/exhibition/ida2026"
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "17:30",
       "last_entry": "17:00"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-09-24", "to": "2026-10-23", "reason": "展示替え休館"}
+    {
+      "from": "2026-09-24",
+      "to": "2026-10-23",
+      "reason": "展示替え休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -31,23 +48,23 @@
       "title": "長谷川 繁　ペイン天狗",
       "start": "2026-10-24",
       "end": "2027-01-24",
-      "url": null,
+      "url": "https://www.museum.toyota.aichi.jp/exhibition/hasegawa2026",
       "kind": "special",
-      "summary": null,
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "summary": "絵画に憑かれた画家・長谷川繁（1963-）の個展",
+      "recommend": "ドイツでヤン・ディベッツに学び、西洋由来の絵画と向き合い続けてきた画家の仕事を紹介。絵画に取り憑かれた作家の世界に浸れる個展。",
+      "admission": "一般 1,300円（オンライン 1,100円）",
+      "adult_price": 1300
     },
     {
       "title": "没後20年　井田照一展",
       "start": "2026-10-24",
       "end": "2027-01-24",
-      "url": null,
+      "url": "https://www.museum.toyota.aichi.jp/exhibition/ida2026",
       "kind": "special",
-      "summary": null,
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "summary": "実験的な版画で知られる井田照一（1941-2006）の没後20年回顧",
+      "recommend": "1960年代から実験的な版画を発表し、油彩・立体・インスタレーションへと広げた作家の歩みを辿る。「表面は間である」という発想を軸にした展観。",
+      "admission": "一般 1,300円（オンライン 1,100円）",
+      "adult_price": 1300
     }
   ],
   "adult_price": 300,
@@ -71,6 +88,6 @@
   ],
   "highlights": "グスタフ・クリムト、ゲルハルト・リヒター、ジョゼフ・コスースなど近・現代の国際的な美術作品を所蔵する市立美術館。レストラン、茶室、ライブラリーを備えた充実した施設で、年に数回の企画展を中心に運営している。名鉄豊田市駅・愛知環状鉄道新豊田駅から徒歩約15分の丘の上に位置する。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日は開館）。年末年始の具体的な休館日は公式サイト要確認。現在は展示替え休館中（2026/9/24〜10/23）。常設展一般300円。企画展は展覧会ごとに料金が異なる（詳細は各展覧会ページ参照）。",
+  "notes": "月曜休館（祝日は開館）。年末年始の具体的な休館日は公式サイト要確認。現在は展示替え休館中（2026/9/24〜10/23）。常設展一般300円。企画展は一般1,300円（オンライン1,100円）。10/24開幕の2展は月曜休館（11/23・1/11は開館）、年末年始休み。",
   "confidence": "high"
 }

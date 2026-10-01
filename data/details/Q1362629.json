@@ -1,6 +1,6 @@
 {
   "id": "Q1362629",
-  "checked_at": "2026-09-30T09:08:12+09:00",
+  "checked_at": "2026-10-02T09:00:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -21,15 +21,48 @@
     "https://www.nmwa.go.jp/jp/about/index.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "sun"], "open": "09:30", "close": "17:30", "last_entry": "17:00"},
-    {"days": ["fri", "sat"], "open": "09:30", "close": "20:00", "last_entry": "19:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "sun"
+      ],
+      "open": "09:30",
+      "close": "17:30",
+      "last_entry": "17:00"
+    },
+    {
+      "days": [
+        "fri",
+        "sat"
+      ],
+      "open": "09:30",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-24", "to": "2026-09-30", "reason": "臨時休館（カレンダー・展覧会ページに休館日として記載）"},
-    {"from": "2026-10-23", "to": "2026-10-23", "reason": "臨時休館（カレンダーに休館日として記載）"},
-    {"from": "2026-12-28", "to": "2027-01-01", "reason": "年末年始休館"}
+    {
+      "from": "2026-09-24",
+      "to": "2026-09-30",
+      "reason": "臨時休館（カレンダー・展覧会ページに休館日として記載）"
+    },
+    {
+      "from": "2026-10-23",
+      "to": "2026-10-23",
+      "reason": "臨時休館（カレンダーに休館日として記載）"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-01",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -59,22 +92,61 @@
       "kind": "collection",
       "summary": "松方コレクションを中心とする所蔵作品展。コレクション・イン・フォーカス等を併催。2027-01-12から閉室",
       "admission": "一般 500円"
+    },
+    {
+      "title": "小企画展「劇場をめぐるイメージ」",
+      "start": "2026-10-20",
+      "end": "2027-01-11",
+      "url": null,
+      "kind": "special",
+      "summary": "所蔵作品などから劇場をめぐるイメージをたどる小企画展",
+      "recommend": null,
+      "admission": null
     }
   ],
   "closed_between_exhibitions": false,
   "adult_price": 500,
   "access": [
-    {"station": "上野", "lines": "JR", "exit": "公園口", "walk_min": 1},
-    {"station": "京成上野", "lines": "京成電鉄", "exit": null, "walk_min": 7},
-    {"station": "上野", "lines": "東京メトロ銀座線・日比谷線", "exit": null, "walk_min": 8}
+    {
+      "station": "上野",
+      "lines": "JR",
+      "exit": "公園口",
+      "walk_min": 1
+    },
+    {
+      "station": "京成上野",
+      "lines": "京成電鉄",
+      "exit": null,
+      "walk_min": 7
+    },
+    {
+      "station": "上野",
+      "lines": "東京メトロ銀座線・日比谷線",
+      "exit": null,
+      "walk_min": 8
+    }
   ],
   "highlights": "フランスから返還された松方コレクションを核に、モネやロダンなど印象派を中心とした西洋美術の常設展を鑑賞できる。本館はル・コルビュジエ設計で世界遺産に登録された建築。上野公園内、JR上野駅から徒歩1分。",
-  "notes": "月曜休館（祝日・振替休日なら開館し翌平日休館）。9/24〜9/30は休館（理由は明記なし）。10/23(金)はカレンダー上休館（ターナー展開幕前日）。2027-01-12〜03-19（予定）は施設整備のため常設展示室を長期閉室（館・企画展は開館）。常設展観覧料は500円（公式サイト確認済）。",
+  "notes": "月曜休館（祝日・振替休日なら開館し翌平日休館）。9/24〜9/30は休館（理由は明記なし）。10/23(金)はカレンダー上休館（ターナー展開幕前日）。2027-01-12〜03-19（予定）は施設整備のため常設展示室を長期閉室（館・企画展は開館）。常設展観覧料は500円（公式サイト確認済）。 【2026-10-02 light】国立美術館6館が所蔵作品展の観覧料を2026年10月以降の会期から改定（西洋美術館は一般500円→1,000円の報道、開始日の公式詳細は未確認のため adult_price は500円のまま）。",
   "confidence": "high",
   "free_days": [
-    {"from": "2026-11-03", "to": "2026-11-03", "scope": "collection", "reason": "文化の日", "source_url": "https://www.nmwa.go.jp/jp/visit/index.html"}
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "collection",
+      "reason": "文化の日",
+      "source_url": "https://www.nmwa.go.jp/jp/visit/index.html"
+    }
   ],
   "free_rules": [
-    {"weekday": "sun", "nth": [2], "scope": "collection", "reason": "毎月第2日曜日（Kawasaki Free Sunday）", "source_url": "https://www.nmwa.go.jp/jp/visit/index.html"}
+    {
+      "weekday": "sun",
+      "nth": [
+        2
+      ],
+      "scope": "collection",
+      "reason": "毎月第2日曜日（Kawasaki Free Sunday）",
+      "source_url": "https://www.nmwa.go.jp/jp/visit/index.html"
+    }
   ]
 }

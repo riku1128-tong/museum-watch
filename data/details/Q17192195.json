@@ -1,7 +1,7 @@
 {
   "id": "Q17192195",
-  "checked_at": "2026-09-30T09:10:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": "アートスペース（旧体育館）は2026年6月10日より一時閉鎖中",
   "official_url": "https://www.artepiazza.jp/",
@@ -11,12 +11,31 @@
     "https://www.artepiazza.jp/guide/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00"
+    }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-31", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-31",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -45,6 +64,6 @@
   ],
   "highlights": "彫刻家・安田侃の大理石とブロンズ作品約40点を野外と旧木造校舎ギャラリーに展示する野外彫刻公園。廃校となった旧栄小学校を改装した趣ある空間で、自然の移ろいとともに彫刻を体験できる。毎月「こころを彫る授業」も開催。入場無料。",
   "closed_between_exhibitions": false,
-  "notes": "「祝日の翌日（日曜を除く）」も休館（任意の祝日の翌日が休みになる）。アートスペース（旧体育館）は2026年6月10日より一時閉鎖中だが、屋外や校舎ギャラリーは通常開館。入場無料（任意による寄附をお願いしています）。",
+  "notes": "「祝日の翌日（日曜を除く）」も休館（任意の祝日の翌日が休みになる）。アートスペース（旧体育館）は2026年6月10日より一時閉鎖中だが、屋外や校舎ギャラリーは通常開館。入場無料（任意による寄附をお願いしています）。 【2026-10-02 light】変化なし。10月の「こころを彫る授業」は3日・4日。",
   "confidence": "high"
 }

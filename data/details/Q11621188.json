@@ -1,6 +1,6 @@
 {
   "id": "Q11621188",
-  "checked_at": "2026-09-30T09:01:14+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -14,9 +14,25 @@
     "https://shizubi.jp/exhibition/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "19:00", "last_entry": "18:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "19:00",
+      "last_entry": "18:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -48,7 +64,13 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "静岡", "lines": "JR東海道本線", "exit": "北口", "walk_min": 3, "note": "静岡鉄道 新静岡駅からは徒歩5分"}
+    {
+      "station": "静岡",
+      "lines": "JR東海道本線",
+      "exit": "北口",
+      "walk_min": 3,
+      "note": "静岡鉄道 新静岡駅からは徒歩5分"
+    }
   ],
   "highlights": "JR静岡駅直結の葵タワー3階に位置し、開放感あふれるロビーが特徴の市立美術館。常設展はなく、印象派から現代絵本まで多彩なジャンルの企画展を年間を通じて開催する。交流ゾーンとショップは無料で利用できる。",
   "closed_between_exhibitions": true,

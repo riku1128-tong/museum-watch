@@ -1,7 +1,7 @@
 {
   "id": "Q11471861",
-  "checked_at": "2026-09-30T09:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.tajimi-bunka.or.jp/minoyaki_museum/",
@@ -12,12 +12,32 @@
     "https://www.tajimi-bunka.or.jp/minoyaki_museum/archives/7300"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -48,7 +68,13 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "多治見", "lines": "JR中央本線・太多線", "exit": null, "walk_min": null, "note": "タクシーで約10分（1,500円程度）。土日祝はきこうバス「美濃焼ミュージアム前」下車（多治見駅前から約20分）。無料駐車場（普通50台・大型4台）あり"}
+    {
+      "station": "多治見",
+      "lines": "JR中央本線・太多線",
+      "exit": null,
+      "walk_min": null,
+      "note": "タクシーで約10分（1,500円程度）。土日祝はきこうバス「美濃焼ミュージアム前」下車（多治見駅前から約20分）。無料駐車場（普通50台・大型4台）あり"
+    }
   ],
   "highlights": "美濃焼の産地・岐阜県多治見市にある専門ミュージアム。桃山時代以来の美濃焼の歴史展示に加え現代陶芸作家の特別展も開催。人間国宝の茶碗で抹茶を味わう体験や陶芸制作体験もあり、見て・知って・作れる総合的なやきもの施設。",
   "closed_between_exhibitions": false,

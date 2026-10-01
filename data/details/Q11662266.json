@@ -1,6 +1,6 @@
 {
   "id": "Q11662266",
-  "checked_at": "2026-09-30T09:15:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -16,7 +16,16 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
@@ -24,7 +33,13 @@
   ],
   "closed_weekdays": [],
   "closed_nth_weekdays": [
-    {"weekday": "mon", "nth": [2, 4]}
+    {
+      "weekday": "mon",
+      "nth": [
+        2,
+        4
+      ]
+    }
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
@@ -37,6 +52,11 @@
       "from": "2026-12-24",
       "to": "2027-01-01",
       "reason": "年末年始"
+    },
+    {
+      "from": "2027-09-27",
+      "to": "2028-04-14",
+      "reason": "改修工事に伴う長期休館"
     }
   ],
   "special_openings": [],
@@ -85,6 +105,6 @@
   ],
   "highlights": "三内丸山遺跡の隣に建つ、設計者・青木淳による掘り込みの地形を活かした白いキューブの建築が印象的な美術館。棟方志功・奈良美智らと青森ゆかりの作家の作品を中核に、高さ8.5mの《あおもり犬》や巨大なシャガールの舞台背景画「アレコ」など迫力の常設展示も見どころ。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は「毎月第2・第4月曜日（祝日の場合は翌日休館）、展示替え期間、年末年始（12/27〜12/31の規定だが館内整理として12/24〜1/1）」。9/28〜10/9は展示替え休館中。",
+  "notes": "休館日は「毎月第2・第4月曜日（祝日の場合は翌日休館）、展示替え期間、年末年始（12/27〜12/31の規定だが館内整理として12/24〜1/1）」。9/28〜10/9は展示替え休館中。 公式トップに「2027/9/27(月)〜2028/4/14(金)改修工事に伴う長期休館」の告知あり。",
   "confidence": "high"
 }

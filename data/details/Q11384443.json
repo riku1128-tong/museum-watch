@@ -1,6 +1,6 @@
 {
   "id": "Q11384443",
-  "checked_at": "2026-09-30T09:03:59+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,13 +13,31 @@
     "https://chitetsu.co.jp/ecomyca_tokuten/public/satou.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
   "closed_weekdays": [],
   "closed_nth_weekdays": [],
   "holiday_rule": "unknown",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -39,10 +57,14 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "富山", "lines": "JR北陸本線・あいの風とやま鉄道", "walk_min": 10}
+    {
+      "station": "富山",
+      "lines": "JR北陸本線・あいの風とやま鉄道",
+      "walk_min": 10
+    }
   ],
   "highlights": "富山城址公園内に位置し、茶人・佐藤助九郎氏が1961年に開館した東洋古美術の専門館。中国・日本・ペルシャの古陶磁や日本近世絵画・墨蹟を収蔵し、移築された茶室「助庵」「柳汀庵」と総檜造書院座敷で茶の湯文化を体験できる。年4回程度の館蔵企画展を開催。",
   "closed_between_exhibitions": false,
-  "notes": "定期的な曜日休館の記載なし。展示替え日と館内整備日（不定期）に臨時休館あり。特別展開催中は入館料が変更される。土日祝は中学生以下無料。公式サイトはフレームセット構造のため直接読み込み不可（museum.or.jp等の情報を参照）。",
+  "notes": "定期的な曜日休館の記載なし。展示替え日と館内整備日（不定期）に臨時休館あり。特別展開催中は入館料が変更される。土日祝は中学生以下無料。公式サイトはフレームセット構造のため直接読み込み不可（museum.or.jp等の情報を参照）。 【2026-10-02】museum.or.jp で開館時間・休館日（展示替え日・館内整備日・12/28〜1/4）・一般210円を再確認。",
   "confidence": "medium"
 }

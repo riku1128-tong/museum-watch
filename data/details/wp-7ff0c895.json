@@ -1,0 +1,83 @@
+{
+  "id": "wp-7ff0c895",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://mori.wakuden.kyoto/museum-annomitsumasa",
+  "address": "〒629-3452 京都府京丹後市久美浜町谷764",
+  "source_urls": [
+    "https://mori.wakuden.kyoto/museum-annomitsumasa",
+    "https://mori.wakuden.kyoto/upcoming-exhibition",
+    "https://mori.wakuden.kyoto/access"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "tue"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-02",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "安野光雅 生誕100年 『物語の街から村へ』 ほか",
+      "start": "2026-09-09",
+      "end": "2026-12-07",
+      "url": "https://mori.wakuden.kyoto/upcoming-exhibition",
+      "kind": "special",
+      "summary": "生誕100年記念。『物語の街から村へ』ほかの原画を展示",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "安野光雅 生誕100年 『あしながおじさん』ほか安野光雅の世界",
+      "start": "2026-12-09",
+      "end": "2027-03-08",
+      "url": "https://mori.wakuden.kyoto/upcoming-exhibition",
+      "kind": "special",
+      "summary": "生誕100年記念。『あしながおじさん』ほかの作品を展示",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "久美浜",
+      "lines": "京都丹後鉄道",
+      "exit": null,
+      "walk_min": null,
+      "note": "丹海バス「谷工業団地前」下車（約15分）、徒歩約5分"
+    }
+  ],
+  "highlights": "安藤忠雄さんが設計した、絵本画家・安野光雅の作品を常時展示する小さな美術館。企画展は約3か月ごとに入れ替わり、和久傳ノ森の自然の中で原画をじっくり味わえる。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は毎週火曜（祝日の場合は翌日）。身障者手帳等所持者と同伴者1名は半額。公式トップの開催中展示が第37回のまま古いため、今後の展示予定ページの第38回・第39回を登録。",
+  "confidence": "high"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q3076188",
-  "checked_at": "2026-09-30T09:06:54+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "開館準備のため休館中。2026年11月3日（火・祝）グランドオープン予定",
@@ -13,14 +13,42 @@
     "https://shozokan.nich.go.jp/visit/access"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-11-25", "to": "2026-11-25", "reason": "展示替えのため休館"},
-    {"from": "2026-12-22", "to": "2026-12-22", "reason": "展示替えのため休館"},
-    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始休館"}
+    {
+      "from": "2026-11-25",
+      "to": "2026-11-25",
+      "reason": "展示替えのため休館"
+    },
+    {
+      "from": "2026-12-22",
+      "to": "2026-12-22",
+      "reason": "展示替えのため休館"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -35,8 +63,28 @@
       "admission": "一般 2,500円",
       "adult_price": 2500,
       "hours": [
-        {"days": ["fri", "sat"], "open": "09:30", "close": "20:00", "last_entry": "19:30"},
-        {"days": ["mon", "tue", "wed", "thu", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+        {
+          "days": [
+            "fri",
+            "sat"
+          ],
+          "open": "09:30",
+          "close": "20:00",
+          "last_entry": "19:30"
+        },
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "sun",
+            "holiday"
+          ],
+          "open": "09:30",
+          "close": "17:00",
+          "last_entry": "16:30"
+        }
       ]
     }
   ],
@@ -44,9 +92,27 @@
   "adult_price": null,
   "highlights": "皇居東御苑内に2026年11月3日全面開館。絵画・書跡・工芸・武具など約9,800件の皇室収蔵品を公開し、国宝・重要文化財を含む至宝を鑑賞できる。3期に分けた展示替えで異なる名品を展観。金・土曜は20時まで夜間開館。",
   "access": [
-    {"station": "大手町", "lines": "地下鉄各線", "exit": "C13a", "walk_min": 5, "note": "大手門から入門（館まで約100m）"},
-    {"station": "東京", "lines": "JR各線", "exit": "丸の内北口", "walk_min": 15, "note": "大手門から入門"},
-    {"station": "竹橋", "lines": "地下鉄東西線", "exit": "1a", "walk_min": 10, "note": "平川門から入門の場合"}
+    {
+      "station": "大手町",
+      "lines": "地下鉄各線",
+      "exit": "C13a",
+      "walk_min": 5,
+      "note": "大手門から入門（館まで約100m）"
+    },
+    {
+      "station": "東京",
+      "lines": "JR各線",
+      "exit": "丸の内北口",
+      "walk_min": 15,
+      "note": "大手門から入門"
+    },
+    {
+      "station": "竹橋",
+      "lines": "地下鉄東西線",
+      "exit": "1a",
+      "walk_min": 10,
+      "note": "平川門から入門の場合"
+    }
   ],
   "notes": "休館日は「月曜日（ただし月曜が祝日または休日の場合は開館し、翌平日休館）、年末年始、天皇誕生日および展示替期間」。グランドオープン展の休館日は月曜（11/23・1/11除く）、11/24・11/25・12/22・12/28〜1/3・1/12。前期11/3-23、中期11/26-12/20、後期12/23-1/24で全作品入れ替え。金曜は皇居東御苑休園で大手門からのみ入門。11/3の開館後は operating に切り替えること。グランドオープン展の観覧料は一般2,500円（小中高大生・23歳未満・障がい者手帳所持者と介助者1名は無料）。通常の収蔵品展の入館料は未確認（現在は休館中のため）。",
   "confidence": "high"

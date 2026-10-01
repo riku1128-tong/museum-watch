@@ -1,6 +1,6 @@
 {
   "id": "Q3242206",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -11,10 +11,30 @@
     "https://www.kanazawa21.jp/data_list.php?g=7&d=1"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "sun", "holiday"], "open": "10:00", "close": "18:00"},
-    {"days": ["fri", "sat"], "open": "10:00", "close": "20:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00"
+    },
+    {
+      "days": [
+        "fri",
+        "sat"
+      ],
+      "open": "10:00",
+      "close": "20:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -63,7 +83,13 @@
   ],
   "adult_price": 450,
   "access": [
-    {"station": "金沢", "lines": "JR各線", "exit": "兼六園口（東口）3番・8番のりば", "walk_min": null, "note": "バスで約10分"}
+    {
+      "station": "金沢",
+      "lines": "JR各線",
+      "exit": "兼六園口（東口）3番・8番のりば",
+      "walk_min": null,
+      "note": "バスで約10分"
+    }
   ],
   "highlights": "円形のガラス張りの建物が特徴的な現代美術館。無料の交流ゾーンにはレアンドロ・エルリッヒの《スイミングプール》などの体験型作品が常設され、有料の展覧会ゾーンでは国内外の現代アートの企画展・コレクション展を開催している。",
   "closed_between_exhibitions": false,

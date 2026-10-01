@@ -1,6 +1,6 @@
 {
   "id": "Q11260799",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -21,14 +21,45 @@
     "https://www.city.saitama.lg.jp/urawa-art-museum/about/p046823.html"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"},
-    {"days": ["fri", "sat"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    },
+    {
+      "days": [
+        "fri",
+        "sat"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-14", "to": "2026-09-28", "reason": "展示替え等のための臨時休館"},
-    {"from": "2026-12-27", "to": "2027-01-04", "reason": "年末年始"}
+    {
+      "from": "2026-09-14",
+      "to": "2026-09-28",
+      "reason": "展示替え等のための臨時休館"
+    },
+    {
+      "from": "2026-12-27",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -48,10 +79,16 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "浦和", "lines": "JR京浜東北線・高崎線・宇都宮線・上野東京ライン・湘南新宿ライン", "exit": "西口", "walk_min": 7, "note": null}
+    {
+      "station": "浦和",
+      "lines": "JR京浜東北線・高崎線・宇都宮線・上野東京ライン・湘南新宿ライン",
+      "exit": "西口",
+      "walk_min": 7,
+      "note": null
+    }
   ],
   "highlights": "浦和センチュリーシティビル3階にあるさいたま市立の美術館。4つのギャラリーで企画展やコレクション展を開催するほか、情報コーナーでは国内外のしかけ絵本約100種類を自由に閲覧でき、「本」をテーマにした収蔵品を紹介する展覧会が多いのが特徴。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（city.saitama.lg.jp）は WebFetch では「安全性を確認できない」エラーで読めなかったため、Bash の curl（UA を指定）でHTMLを直接取得し、Python でタグを除去して読んだ。2026-09-28 時点、開催中だった「Ukiyo-e 猫百科」展は 8/30 で終了済み、次回の「エコーズ・ビトゥイーン」展は 11/14 開始で、公式の年間スケジュールページ（p119827.html）で確認するとこの間は企画展の予定なし（教育利用等の貸館のみ）。臨時休館のお知らせ（p087767.html）に 9/14～9/28 の展示替え等による休館期間が明記されていたため special_closures に追加。エコーズ・ビトゥイーン展の観覧料・休館日（年末年始 12/27～1/4 含む）は展覧会詳細ページで確認。アクセスは公式の交通案内ページで確認（バス経路の記載なし、最寄りはJR浦和駅のみ）。",
+  "notes": "公式サイト（city.saitama.lg.jp）は WebFetch では「安全性を確認できない」エラーで読めなかったため、Bash の curl（UA を指定）でHTMLを直接取得し、Python でタグを除去して読んだ。2026-09-28 時点、開催中だった「Ukiyo-e 猫百科」展は 8/30 で終了済み、次回の「エコーズ・ビトゥイーン」展は 11/14 開始で、公式の年間スケジュールページ（p119827.html）で確認するとこの間は企画展の予定なし（教育利用等の貸館のみ）。臨時休館のお知らせ（p087767.html）に 9/14～9/28 の展示替え等による休館期間が明記されていたため special_closures に追加。エコーズ・ビトゥイーン展の観覧料・休館日（年末年始 12/27～1/4 含む）は展覧会詳細ページで確認。アクセスは公式の交通案内ページで確認（バス経路の記載なし、最寄りはJR浦和駅のみ）。 2026-10-02 再確認: 開催中の展覧会は無く、次回は11/14開始。",
   "confidence": "high"
 }

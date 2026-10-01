@@ -1,0 +1,44 @@
+{
+  "id": "Q11678218",
+  "checked_at": "2026-10-02T08:27:08+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "展観期間のみ開館。現在は展観準備のため休館中で、次回は2026年10月17日から。",
+  "official_url": "http://www.kurokawa-institute.or.jp/",
+  "address": "〒662-0081 兵庫県西宮市苦楽園三番町14-50",
+  "source_urls": [
+    "http://www.kurokawa-institute.or.jp/",
+    "http://www.kurokawa-institute.or.jp/pages/29/",
+    "https://www.nishi.or.jp/access/hakubutsukan/kurokawa.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第136回展観「通貨錯乱−貨幣の明治維新」",
+      "start": "2026-10-17",
+      "end": "2026-11-29",
+      "url": "http://www.kurokawa-institute.or.jp/",
+      "kind": "special",
+      "summary": "明治維新期の貨幣の混乱をテーマにした秋季展観",
+      "recommend": null,
+      "admission": "大人 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "夙川", "lines": "阪急神戸線", "walk_min": null, "note": "夙川駅・さくら夙川駅からバスで柏堂町下車、徒歩15〜20分。展観期間中の土日祝は阪急苦楽園口から無料ハイヤー運行"}
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": true,
+  "notes": "開館は展観期間中のみ（春季・秋季）。開館時間 10:00〜16:00、休館は展観期間中の月曜（西宮市の案内による）。入館料は大人500円・大学生300円・中学生以下無料。祝日の扱いは記載なし。",
+  "confidence": "medium"
+}

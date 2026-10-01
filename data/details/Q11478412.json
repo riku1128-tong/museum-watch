@@ -1,11 +1,11 @@
 {
   "id": "Q11478412",
-  "checked_at": "2026-09-30T09:05:27+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "2019年の台風被災により等々力緑地の旧施設は閉鎖。市内の他施設やオンラインでアウトリーチ形式の展覧会等を実施中。新たなミュージアムは計画段階で開館時期は未公表。",
   "official_url": "https://www.kawasaki-museum.jp/",
-  "address": null,
+  "address": "〒215-0021 川崎市麻生区上麻生6丁目15番2号",
   "source_urls": [
     "https://www.kawasaki-museum.jp/",
     "https://www.kawasaki-museum.jp/exhibition/34490/"
@@ -33,9 +33,24 @@
       "kind": "other",
       "summary": "オンライン開催。明治から戦後にかけて女性が和装から洋装へ着替えていった過程を収蔵品で紹介",
       "admission": "無料"
+    },
+    {
+      "title": "第60回かわさき市美術展",
+      "start": "2027-02-26",
+      "end": "2027-03-13",
+      "url": "https://www.kawasaki-museum.jp/exhibition/34275/",
+      "kind": "other",
+      "summary": "公募展の入選・入賞作品展。アートガーデンかわさき展示室（川崎駅前タワー・リバーク3F）で開催",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0,
+      "closed_dates": [
+        "2027-03-01",
+        "2027-03-08"
+      ]
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "事務所の連絡先は 〒215-0021 川崎市麻生区上麻生6丁目15番2号（施設所在地ではない）。展覧会はオンライン（「the 3rd Area of \"C\"」）で実施。",
+  "notes": "事務所の連絡先は 〒215-0021 川崎市麻生区上麻生6丁目15番2号（施設所在地ではない）。展覧会はオンライン（「the 3rd Area of \"C\"」）で実施。 開館時間・観覧料・最寄駅は公式サイトに記載なし（施設閉鎖中）。第60回かわさき市美術展の会場は川崎市幸区大宮町1310（最終日3/13は13:00まで）。",
   "confidence": "high"
 }

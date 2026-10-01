@@ -1,7 +1,7 @@
 {
   "id": "Q11402955",
-  "checked_at": "2026-09-30T09:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:50:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://artmuseum.pref.hokkaido.lg.jp/mkb/",
@@ -34,6 +34,17 @@
       "recommend": "31歳で夭折した三岸好太郎の画業を、妻・節子や親友・俣野ら7人との絆から照らし出す展覧会。人間関係の中から生まれた珠玉の作品群を多角的に体験でき、少年期から晩年まで一気にたどれる。",
       "admission": "一般 510円",
       "adult_price": 510
+    },
+    {
+      "title": "mima移動美術館2026 in 知事公館",
+      "start": "2026-04-27",
+      "end": "2027-03-31",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/mkb/exhibition/program/359",
+      "kind": "special",
+      "summary": "知事公館（北1条西16丁目）での移動美術館展示「好太郎の部屋」",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 510,

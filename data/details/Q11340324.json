@@ -1,0 +1,94 @@
+{
+  "id": "Q11340324",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.maspro.co.jp/museum/",
+  "address": "〒470-0194 愛知県日進市浅田町上納80",
+  "source_urls": [
+    "https://www.maspro.co.jp/museum/",
+    "https://www.maspro.co.jp/museum/news/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "sat",
+    "sun"
+  ],
+  "holiday_rule": "closed",
+  "special_closures": [],
+  "special_openings": [
+    {
+      "date": "2026-10-11",
+      "open": "09:00",
+      "close": "17:00",
+      "note": "第2・第4日曜日は開館"
+    },
+    {
+      "date": "2026-10-25",
+      "open": "09:00",
+      "close": "17:00",
+      "note": "第2・第4日曜日は開館"
+    },
+    {
+      "date": "2026-11-08",
+      "open": "09:00",
+      "close": "17:00",
+      "note": "第2・第4日曜日は開館"
+    },
+    {
+      "date": "2026-11-22",
+      "open": "09:00",
+      "close": "17:00",
+      "note": "第2・第4日曜日は開館"
+    },
+    {
+      "date": "2026-12-13",
+      "open": "09:00",
+      "close": "17:00",
+      "note": "第2・第4日曜日は開館"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "常設展（浮世絵・陶磁器）",
+      "start": "2026-10-02",
+      "end": "2027-10-02",
+      "url": "https://www.maspro.co.jp/museum/collection/",
+      "kind": "collection",
+      "summary": "開化絵・美人画などの浮世絵と猿投・瀬戸・美濃の陶磁器。通年",
+      "recommend": null,
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "赤池",
+      "lines": "地下鉄鶴舞線",
+      "exit": null,
+      "walk_min": null,
+      "note": "赤池駅から名鉄バスで約20分「浅田東」下車"
+    }
+  ],
+  "highlights": "マスプロ電工の敷地内にある私設美術館。横浜・東京・地方の開化絵や江戸期の美人画など浮世絵のほか、猿投・瀬戸・美濃の陶磁器を所蔵し、江戸から明治の文化を一望できる。",
+  "closed_between_exhibitions": false,
+  "notes": "開館日はマスプロ電工の営業日。休館は土・日・祝日だが第2・第4日曜は開館（special_openings に 12/13 までの該当日を入れた。12/27 は会社の年末休みの可能性があり未確認のため入れていない）。夏季・年末年始の休みは公式に記載なし。学生250円。",
+  "confidence": "medium"
+}

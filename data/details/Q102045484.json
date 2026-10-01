@@ -1,0 +1,105 @@
+{
+  "id": "Q102045484",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://fukuda-art-museum.jp/",
+  "address": "〒616-8385 京都府京都市右京区嵯峨天龍寺芒ノ馬場町3-16",
+  "source_urls": [
+    "https://fukuda-art-museum.jp/",
+    "https://fukuda-art-museum.jp/guide/",
+    "https://fukuda-art-museum.jp/access/",
+    "https://fukuda-art-museum.jp/exhibition/",
+    "https://fukuda-art-museum.jp/exhibition/202607014791"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-10-20",
+      "to": "2026-10-20",
+      "reason": "設備点検"
+    },
+    {
+      "from": "2026-12-15",
+      "to": "2026-12-15",
+      "reason": "設備点検"
+    },
+    {
+      "from": "2026-12-30",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "愛のカタチ ー幻の春画《稚児草紙》公開ー",
+      "start": "2026-09-19",
+      "end": "2027-01-17",
+      "url": "https://fukuda-art-museum.jp/exhibition/202607014791",
+      "kind": "special",
+      "summary": "福田美術館初の春画展。14世紀初めの《稚児草紙》を初公開",
+      "recommend": "醍醐寺に伝わる幻の春画《稚児草紙》の初公開に加え、北斎《浪千鳥》、27年ぶり公開の《源氏物語図扇面屏風》、松園・清方の「愛」の作品まで並ぶ。18歳未満は入館不可。",
+      "admission": "一般・大学生 1,500円",
+      "adult_price": 1500
+    },
+    {
+      "title": "Timeless Code 現代 ⇔ 江戸",
+      "start": "2027-01-30",
+      "end": "2027-06-06",
+      "url": "https://fukuda-art-museum.jp/exhibition/202609174984",
+      "kind": "special",
+      "summary": "現代と江戸時代、それぞれを代表する作家に焦点を当てる企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "嵐山",
+      "lines": "嵐電（京福電鉄）",
+      "exit": null,
+      "walk_min": 4
+    },
+    {
+      "station": "嵐山",
+      "lines": "阪急嵐山線",
+      "exit": null,
+      "walk_min": 11
+    },
+    {
+      "station": "嵯峨嵐山",
+      "lines": "JR嵯峨野線",
+      "exit": null,
+      "walk_min": 12
+    }
+  ],
+  "highlights": "京都・嵯峨嵐山にあり、江戸時代から近代の日本画を中心に、季節ごとの企画展を年4回開く美術館。嵐山の自然と日本美術が溶け合う空間で、パンとエスプレッソを楽しめるカフェ・ショップも併設する。",
+  "notes": "展示替え期間は休館（日付は公式の展覧会ページで確認）。常設展は無く企画展ごとの料金のため adult_price は null。",
+  "confidence": "high"
+}

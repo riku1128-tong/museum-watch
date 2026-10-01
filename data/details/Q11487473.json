@@ -1,6 +1,6 @@
 {
   "id": "Q11487473",
-  "checked_at": "2026-09-30T09:05:25+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,12 +13,32 @@
     "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/next.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-28", "to": "2026-10-02", "reason": "展示替えのため全館休館"}
+    {
+      "from": "2026-09-28",
+      "to": "2026-10-02",
+      "reason": "展示替えのため全館休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -51,7 +71,18 @@
   "confidence": "high",
   "adult_price": 1200,
   "access": [
-    {"station": "根津", "lines": "地下鉄千代田線", "exit": "1番出口", "walk_min": 7},
-    {"station": "東大前", "lines": "地下鉄南北線", "exit": "1番出口", "walk_min": 7, "note": "JR上野駅公園口からは徒歩25分、または都営バス（上60系統など）で「弥生2丁目」下車徒歩3分"}
+    {
+      "station": "根津",
+      "lines": "地下鉄千代田線",
+      "exit": "1番出口",
+      "walk_min": 7
+    },
+    {
+      "station": "東大前",
+      "lines": "地下鉄南北線",
+      "exit": "1番出口",
+      "walk_min": 7,
+      "note": "JR上野駅公園口からは徒歩25分、または都営バス（上60系統など）で「弥生2丁目」下車徒歩3分"
+    }
   ]
 }

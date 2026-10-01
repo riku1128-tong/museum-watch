@@ -1,6 +1,6 @@
 {
   "id": "Q11497319",
-  "checked_at": "2026-09-30T09:02:54+09:00",
+  "checked_at": "2026-10-02T08:31:57+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,12 +13,40 @@
     "https://www.shokoku-ji.jp/museum/exhibition/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-09-28", "to": "2026-10-16", "reason": "展示替え休館"}
+    {
+      "from": "2026-09-28",
+      "to": "2026-10-16",
+      "reason": "展示替え休館"
+    },
+    {
+      "from": "2026-12-27",
+      "to": "2027-01-08",
+      "reason": "年末年始休館"
+    },
+    {
+      "from": "2027-02-15",
+      "to": "2027-02-19",
+      "reason": "展示替休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -37,10 +65,22 @@
   "adult_price": null,
   "closed_between_exhibitions": true,
   "access": [
-    {"station": "今出川", "lines": "京都市営地下鉄烏丸線", "exit": null, "walk_min": 10, "note": null},
-    {"station": "烏丸今出川", "lines": "京都市バス 51・59・201・203・急102系統", "exit": null, "walk_min": 10, "note": "バス停下車後徒歩約10分"}
+    {
+      "station": "今出川",
+      "lines": "京都市営地下鉄烏丸線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    },
+    {
+      "station": "烏丸今出川",
+      "lines": "京都市バス 51・59・201・203・急102系統",
+      "exit": null,
+      "walk_min": 10,
+      "note": "バス停下車後徒歩約10分"
+    }
   ],
   "highlights": "臨済宗相国寺派の相国寺・金閣寺・銀閣寺が所蔵する美術品を公開する美術館。円山応挙や伊藤若冲ら江戸期の名品から、若冲が鹿苑寺大書院のために描いた障壁画まで、禅寺ならではの文化財に出会える",
-  "notes": "初回巡回。「円山応挙と伊藤若冲」はⅠ期（2026/10/17〜2027/2/14）とⅡ期（2027/2/20〜2027/6/20）の2部制で、展示替えの詳細な休館日は未確認のため exhibitions にはⅠ期のみ記載。常設コレクションが無く企画展ごとの拝観料のため館共通の adult_price は null、closed_between_exhibitions は true（展示替期間は休館）。前回の「後水尾院の京」展（〜9/27）は会期終了のため掲載しない。",
+  "notes": "初回巡回。「円山応挙と伊藤若冲」はⅠ期（2026/10/17〜2027/2/14）とⅡ期（2027/2/20〜2027/6/20）の2部制で、Ⅱ期（2027/2/20〜6/20）は3か月以内に始まらないため exhibitions にはⅠ期のみ記載。常設コレクションが無く企画展ごとの拝観料のため館共通の adult_price は null、closed_between_exhibitions は true（展示替期間は休館）。前回の「後水尾院の京」展（〜9/27）は会期終了のため掲載しない。",
   "confidence": "high"
 }

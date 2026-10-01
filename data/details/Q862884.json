@@ -1,6 +1,6 @@
 {
   "id": "Q862884",
-  "checked_at": "2026-09-28T23:40:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -62,7 +62,9 @@
       "url": "https://topmuseum.jp/exhibition/12474/",
       "kind": "special",
       "summary": "学生が森山大道の収蔵作品約140点を実物とデジタルアーカイブで再構成するハイブリッド展（B1F）",
-      "admission": "無料"
+      "admission": "無料",
+      "recommend": "奈良女子大学の学生たちが、森山大道の収蔵作品約140点を実物とデジタルアーカイブの両方から再構成する試み。複製と感性という視点で、写真の見方が変わるハイブリッド展。",
+      "adult_price": 0
     },
     {
       "title": "ふたたびくみたてる 日本の新進作家 vol.23",
@@ -71,7 +73,9 @@
       "url": "https://topmuseum.jp/exhibition/5423/",
       "kind": "special",
       "summary": "市田小百合、苅部太郎、野村在、橋本麦、藤倉麻子。AIやCG等でイメージを組み立てる5作家（3F）",
-      "admission": "一般 700円"
+      "admission": "一般 700円",
+      "recommend": "AIやCGなどを使い、イメージを「組み立てる」5人の新進作家（市田小百合、苅部太郎、野村在、橋本麦、藤倉麻子）を紹介。現代の映像表現の最前線をまとめて見渡せる。",
+      "adult_price": 700
     },
     {
       "title": "デュエット――アジアン・コンテンポラリー",
@@ -80,7 +84,9 @@
       "url": "https://topmuseum.jp/exhibition/5421/",
       "kind": "special",
       "summary": "村越としや、ワン・トゥオ、スイ・タカ、ルオ・ヤン、ジャン・ポンイー、fumiko imanoによるアジア現代写真（2F）",
-      "admission": "一般 900円"
+      "admission": "一般 900円",
+      "recommend": "村越としや、ワン・トゥオ、スイ・タカ、ルオ・ヤン、ジャン・ポンイー、fumiko imanoの6人が並ぶアジア現代写真展。作家同士の響き合いを通して、アジアの今を見つめる。",
+      "adult_price": 900
     },
     {
       "title": "木村伊兵衛写真賞第50回記念写真展",
@@ -104,22 +110,23 @@
   "closed_between_exhibitions": false,
   "adult_price": null,
   "access": [
-    {"station": "恵比寿", "lines": "JR山手線・埼京線", "exit": "東口", "walk_min": 7, "note": null},
-    {"station": "恵比寿", "lines": "東京メトロ日比谷線", "exit": null, "walk_min": 10, "note": null}
+    {
+      "station": "恵比寿",
+      "lines": "JR山手線・埼京線",
+      "exit": "東口",
+      "walk_min": 7,
+      "note": null
+    },
+    {
+      "station": "恵比寿",
+      "lines": "東京メトロ日比谷線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    }
   ],
   "notes": "休館日は「毎週月曜日（月曜日が祝休日の場合は開館し、翌平日休館）」。9/24・10/13 は休館と展覧会ページに明記（振替休館）。年末年始 12/28-1/1 は vol.23 展ページの記載。利用案内の「21:00まで」延長は 2025 年の記載のため採用していない。木村伊兵衛展・岡田敦展の観覧料は未確認。常設のコレクション展示室がなく展覧会ごとの料金制のため adult_price は null。",
   "confidence": "high",
-  "free_days": [
-    {
-      "from": "2026-10-01",
-      "to": "2026-10-01",
-      "scope": "partial",
-      "targets": [
-        "日本の新進作家 vol.23",
-        "アジアン・コンテンポラリー"
-      ],
-      "reason": "都民の日",
-      "source_url": "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607"
-    }
-  ]
+  "free_days": [],
+  "highlights": "1995年開館、写真と映像を専門とする世界でも数少ない美術館。約3.9万点の収蔵作品から、写真の黎明期の作品から現代作家の最新作までを体系的に紹介し、年約15本の展覧会を開く。恵比寿ガーデンプレイス内にあり、毎年恵比寿映像祭も運営する。"
 }

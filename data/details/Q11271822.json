@@ -1,7 +1,7 @@
 {
   "id": "Q11271822",
-  "checked_at": "2026-09-30T09:08:12+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://chihiro.jp/tokyo/",
@@ -16,16 +16,44 @@
     "https://chihiro.jp/tokyo/news/68140/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-02", "reason": "年末年始休館"},
-    {"from": "2027-02-01", "to": "2027-02-28", "reason": "冬期休館"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-02",
+      "reason": "年末年始休館"
+    },
+    {
+      "from": "2027-02-01",
+      "to": "2027-02-28",
+      "reason": "冬期休館"
+    }
   ],
   "special_openings": [
-    {"date": "2026-09-24", "open": "10:00", "close": "17:00", "note": "シルバーウィーク期間（9/19〜9/27）は無休"}
+    {
+      "date": "2026-09-24",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "シルバーウィーク期間（9/19〜9/27）は無休"
+    }
   ],
   "exhibitions": [
     {
@@ -71,8 +99,20 @@
   ],
   "adult_price": 1200,
   "access": [
-    {"station": "上井草", "lines": "西武新宿線", "exit": null, "walk_min": 7, "note": null},
-    {"station": "上井草駅入口", "lines": null, "exit": null, "walk_min": 5, "note": "JR中央線荻窪駅・西武池袋線石神井公園駅から西武バス（荻14系統）「上井草駅入口」下車"}
+    {
+      "station": "上井草",
+      "lines": "西武新宿線",
+      "exit": null,
+      "walk_min": 7,
+      "note": null
+    },
+    {
+      "station": "上井草駅入口",
+      "lines": null,
+      "exit": null,
+      "walk_min": 5,
+      "note": "JR中央線荻窪駅・西武池袋線石神井公園駅から西武バス（荻14系統）「上井草駅入口」下車"
+    }
   ],
   "highlights": "いわさきちひろが晩年の22年間を過ごした自宅兼アトリエ跡に建つ世界初の絵本美術館（1977年開館）。ちひろの透明感ある水彩画を常設し、国内外の絵本作家の企画展も開催。復元アトリエと四季の草花が咲く「ちひろの庭」、絵本約2,000冊を揃えた図書室も必見。",
   "closed_between_exhibitions": true,

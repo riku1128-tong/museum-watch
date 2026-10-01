@@ -1,7 +1,7 @@
 {
   "id": "Q11249478",
-  "checked_at": "2026-09-30T09:06:25+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://artpark.or.jp/shisetsu/sapporo-art-museum/",
@@ -14,21 +14,88 @@
     "https://artpark.or.jp/tenrankai/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:45", "close": "17:00", "last_entry": "16:30"},
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:45", "close": "17:30", "last_entry": "17:00", "from": "2026-06-01", "to": "2026-08-31"},
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:45", "close": "17:30", "last_entry": "17:00", "from": "2027-06-01", "to": "2027-08-31"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:45",
+      "close": "17:00",
+      "last_entry": "16:30"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:45",
+      "close": "17:30",
+      "last_entry": "17:00",
+      "from": "2026-06-01",
+      "to": "2026-08-31"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:45",
+      "close": "17:30",
+      "last_entry": "17:00",
+      "from": "2027-06-01",
+      "to": "2027-08-31"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [
-    {"date": "2026-10-05", "note": "4/29〜11/3は月曜も開館（無休期間）"},
-    {"date": "2026-10-12", "note": "4/29〜11/3は月曜も開館（無休期間）"},
-    {"date": "2026-10-19", "note": "4/29〜11/3は月曜も開館（無休期間）"},
-    {"date": "2026-10-26", "note": "4/29〜11/3は月曜も開館（無休期間）"},
-    {"date": "2026-11-02", "note": "4/29〜11/3は月曜も開館（無休期間）"}
+    {
+      "date": "2026-10-05",
+      "note": "4/29〜11/3は月曜も開館（無休期間）"
+    },
+    {
+      "date": "2026-10-12",
+      "note": "4/29〜11/3は月曜も開館（無休期間）"
+    },
+    {
+      "date": "2026-10-19",
+      "note": "4/29〜11/3は月曜も開館（無休期間）"
+    },
+    {
+      "date": "2026-10-26",
+      "note": "4/29〜11/3は月曜も開館（無休期間）"
+    },
+    {
+      "date": "2026-11-02",
+      "note": "4/29〜11/3は月曜も開館（無休期間）"
+    }
   ],
   "exhibitions": [
     {
@@ -52,6 +119,16 @@
       "recommend": "浮世絵の代表的な五大絵師の作品が一堂に揃い、美人画・役者絵・風景画・武者絵の各ジャンルを横断して楽しめる贅沢な構成。絵解きパネルで江戸文化への理解も深まる。",
       "admission": "一般 1,700円（前売 1,500円）",
       "adult_price": 1700
+    },
+    {
+      "title": "札幌芸術の森美術館所蔵品展 五十嵐威暢 アニマルイラストレーション",
+      "start": "2026-10-10",
+      "end": "2027-01-11",
+      "url": "https://artpark.or.jp/tenrankai/",
+      "kind": "collection",
+      "summary": "所蔵する五十嵐威暢のアニマルイラストレーションを紹介する所蔵品展",
+      "recommend": null,
+      "admission": null
     }
   ],
   "adult_price": null,

@@ -1,6 +1,6 @@
 {
   "id": "Q4677150",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -15,13 +15,32 @@
     "https://www.okayama-kenbi.info/okayama_syuzouhin20261003/"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-24", "to": "2026-10-02", "reason": "展示替えのための臨時休館"}
+    {
+      "from": "2026-09-24",
+      "to": "2026-10-02",
+      "reason": "展示替えのための臨時休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -43,7 +62,7 @@
       "url": "https://www.okayama-kenbi.info/okayama_syuzouhin20261003/",
       "kind": "collection",
       "summary": "岡山ゆかりの作家の作品を紹介する収蔵品展",
-      "recommend": null,
+      "recommend": "岡山ゆかりの作家の収蔵品を3期に分けて紹介するシリーズの3期目。県立美術館ならではの地元作家の作品群を、I氏賞展と合わせて一度に見渡せる。",
       "admission": "一般360円",
       "adult_price": 360
     },
@@ -63,8 +82,20 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "城下", "lines": "岡山電気軌道（路面電車）東山本線", "exit": null, "walk_min": 3, "note": null},
-    {"station": "岡山", "lines": "JR山陽本線・伯備線ほか", "exit": null, "walk_min": 15, "note": "岡電バス1番のりば 藤原団地行「天神町」下車すぐ"}
+    {
+      "station": "城下",
+      "lines": "岡山電気軌道（路面電車）東山本線",
+      "exit": null,
+      "walk_min": 3,
+      "note": null
+    },
+    {
+      "station": "岡山",
+      "lines": "JR山陽本線・伯備線ほか",
+      "exit": null,
+      "walk_min": 15,
+      "note": "岡電バス1番のりば 藤原団地行「天神町」下車すぐ"
+    }
   ],
   "highlights": "岡山市の城下エリア・天神町に位置する県立美術館。岡山ゆかりの作家の作品を紹介する「岡山の美術展」が定評あり、I氏賞など地元新進作家の育成にも注力する。路面電車「城下」電停から徒歩3分のアクセスの良さも魅力。",
   "closed_between_exhibitions": false,

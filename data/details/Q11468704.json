@@ -1,6 +1,6 @@
 {
   "id": "Q11468704",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,7 +12,16 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
@@ -20,7 +29,12 @@
   ],
   "closed_weekdays": [],
   "closed_nth_weekdays": [
-    {"weekday": "wed", "nth": [4]}
+    {
+      "weekday": "wed",
+      "nth": [
+        4
+      ]
+    }
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
@@ -33,13 +47,13 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "開館25周年記念特別展 上杉鷹山と米沢の学び舎",
+      "title": "開館25周年記念特別展 上杉鷹山と米沢の学び舎 藩校「興譲館」から近代の学校へ",
       "start": "2026-09-19",
       "end": "2026-11-23",
       "url": "https://www.denkoku-no-mori.yonezawa.yamagata.jp/top.htm",
       "kind": "special",
-      "summary": "開館25周年を記念し、上杉鷹山の藩政改革と米沢の教育・文化をテーマにした特別展",
-      "recommend": "江戸時代の名君・上杉鷹山が米沢藩の財政再建に取り組んだ改革の精神と、藩内の学問振興の足跡を一次資料で辿る展覧会。鷹山ゆかりの資料が一堂に会する貴重な機会。",
+      "summary": "藩校「興譲館」から近代の学校へ、上杉鷹山以来の米沢の学びの歩みをたどる特別展",
+      "recommend": null,
       "admission": null,
       "adult_price": null,
       "hours": [],
@@ -59,6 +73,17 @@
       "hours": [],
       "closed_weekdays": [],
       "closed_dates": []
+    },
+    {
+      "title": "上杉文華館「西からの手紙」第7回 北陸の大名（2）",
+      "start": "2026-09-25",
+      "end": "2026-10-27",
+      "url": "https://www.denkoku-no-mori.yonezawa.yamagata.jp/top.htm",
+      "kind": "collection",
+      "summary": "常設展示・上杉文華館のテーマ展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": null,
@@ -75,6 +100,6 @@
   ],
   "highlights": "山形県米沢市にある複合文化施設「伝国の杜」内に位置する米沢市上杉博物館と置賜文化ホール。上杉家伝来の国宝「上杉本洛中洛外図屛風」をはじめ、上杉家ゆかりの武具や甲冑、地域の歴史資料を所蔵。米沢城跡（松が岬公園）に隣接し、上杉神社とあわせて訪れることができる。",
   "closed_between_exhibitions": false,
-  "notes": "4月〜11月は毎月第4水曜日休館、12月〜3月は毎週月曜日休館（祝日の場合は翌平日）。置賜文化ホールは通年毎週月曜休館。入館料は公式サイト要確認（今回取得できず）。",
+  "notes": "4月〜11月は毎月第4水曜日休館、12月〜3月は毎週月曜日休館（祝日の場合は翌平日）。置賜文化ホールは通年毎週月曜休館。入館料は公式サイト要確認（今回取得できず）。 2026-10-02 確認: 特別展の休館日は9/24・10/28（第4水曜）。国宝洛中洛外図の原本展示は今回のトップでは確認できず前回の記載を維持。",
   "confidence": "medium"
 }

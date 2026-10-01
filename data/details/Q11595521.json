@@ -1,6 +1,6 @@
 {
   "id": "Q11595521",
-  "checked_at": "2026-09-30T09:05:27+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,16 +8,28 @@
   "address": "秋田県雄勝郡羽後町西馬音内字本町108-1",
   "source_urls": [
     "https://www.town.ugo.lg.jp/sightseeing/detail.html?id=1015&category_id=41",
-    "https://akita-fun.jp/spots/134"
+    "https://akita-fun.jp/spots/134",
+    "https://ugokanko.com/kaikan/"
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -27,7 +39,19 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "西馬音内盆踊り常設展示",
+      "start": "2026-01-01",
+      "end": "2027-10-02",
+      "url": "https://www.town.ugo.lg.jp/sightseeing/detail.html?id=1015&category_id=41",
+      "kind": "collection",
+      "summary": "通年。古い踊り衣装、盆踊りを再現した人形、藍染の壁掛け、キルト作品を展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
   "adult_price": 0,
   "access": [
     {

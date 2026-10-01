@@ -1,0 +1,33 @@
+{
+  "id": "Q11440000",
+  "checked_at": "2026-10-02T08:33:50+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.osaka-monorail.co.jp/ekimono/museum.html",
+  "address": null,
+  "source_urls": [
+    "http://www.osaka-monorail.co.jp/ekimono/museum.html",
+    "https://www.osaka-monorail.co.jp/event/museum/"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "万博記念公園",
+      "lines": "大阪モノレール",
+      "note": "本線・彩都線の各駅コンコースに彫刻を展示（少路、宇野辺、沢良宜、摂津、南摂津、門真市、公園東口、阪大病院前など）"
+    }
+  ],
+  "highlights": "大阪モノレールの駅構内に、大阪府20世紀美術コレクションから選んだ彫刻作品を並べた施設。大阪トリエンナーレの優秀作品や清水九兵衞らの作品を、乗り降りの合間に無料で眺められる。",
+  "closed_between_exhibitions": false,
+  "notes": "独立した館ではなく、モノレール各駅に彫刻を展示する取り組み。観覧時間・料金の記載はなく、駅の利用時間内に見られるとみられる（公式に明記なし）。作品のない駅あり（大阪空港・蛍池・柴原阪大前・千里中央・山田・南茨木・大日・豊川・彩都西）。公式は問い合わせ先を江之子島文化芸術創造センターと案内。",
+  "confidence": "low"
+}

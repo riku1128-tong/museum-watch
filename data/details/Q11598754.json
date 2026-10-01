@@ -1,6 +1,6 @@
 {
   "id": "Q11598754",
-  "checked_at": "2026-09-30T09:42:00+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -14,20 +14,60 @@
   ],
   "adult_price": 1200,
   "access": [
-    {"station": "根津", "lines": "東京メトロ千代田線", "exit": "1", "walk_min": 7},
-    {"station": "東大前", "lines": "東京メトロ南北線", "exit": "1", "walk_min": 7},
-    {"station": "上野", "lines": "JR各線", "exit": "公園口", "walk_min": 25}
+    {
+      "station": "根津",
+      "lines": "東京メトロ千代田線",
+      "exit": "1",
+      "walk_min": 7
+    },
+    {
+      "station": "東大前",
+      "lines": "東京メトロ南北線",
+      "exit": "1",
+      "walk_min": 7
+    },
+    {
+      "station": "上野",
+      "lines": "JR各線",
+      "exit": "公園口",
+      "walk_min": 25
+    }
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-28", "to": "2026-10-02", "reason": "展示替えのため全館休館"}
+    {
+      "from": "2026-09-28",
+      "to": "2026-10-02",
+      "reason": "展示替えのため全館休館"
+    }
   ],
   "special_openings": [
-    {"date": "2026-09-24", "open": "10:00", "close": "17:00", "note": "公式トップに「9月22日㊋㊗～27日㊐まで無休」と記載"}
+    {
+      "date": "2026-09-24",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "公式トップに「9月22日㊋㊗～27日㊐まで無休」と記載"
+    }
   ],
   "exhibitions": [
     {

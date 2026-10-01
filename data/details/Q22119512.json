@@ -1,7 +1,7 @@
 {
   "id": "Q22119512",
-  "checked_at": "2026-09-30T09:12:10+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://tendocity-museum.jp",
@@ -15,13 +15,24 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "18:00",
       "last_entry": "17:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -57,6 +68,6 @@
     }
   ],
   "highlights": "公益財団法人天童市文化・スポーツ振興事業団が運営する山形・天童の美術館。吉野石膏コレクションなど近代日本絵画の名品を中心とした企画展を年間を通じて開催し、体験美術館やミュージアムコンサートといった鑑賞以外のプログラムも充実。JR天童駅東口から徒歩15分。",
-  "notes": "企画展のみ開催で、展示替え期間中は休館（closed_between_exhibitions: true）。月曜休館（祝日の場合は翌日）。年末年始は12/29〜1/3休館。開館時間・入館料は市公式サイトと美術館公式サイトより確認。",
+  "notes": "企画展のみ開催で、展示替え期間中は休館（closed_between_exhibitions: true）。月曜休館（祝日の場合は翌日）。年末年始は12/29〜1/3休館。開館時間・入館料は市公式サイトと美術館公式サイトより確認。 次回展は公式で「予定未定」。",
   "confidence": "medium"
 }

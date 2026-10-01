@@ -1,7 +1,7 @@
 {
   "id": "Q11391573",
-  "checked_at": "2026-09-30T09:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.yumebi.com/",
@@ -13,12 +13,32 @@
     "https://www.yumebi.com/scd.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "19:00", "last_entry": "18:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "19:00",
+      "last_entry": "18:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -41,12 +61,33 @@
       "summary": "ムットーニのからくりシアター作品展（シリーズ第6弾）",
       "admission": "一般 1,000円",
       "adult_price": 1000
+    },
+    {
+      "title": "畦地梅太郎　いきている山、いきている版",
+      "start": "2027-01-22",
+      "end": "2027-03-22",
+      "url": "https://www.yumebi.com/exb.html",
+      "kind": "special",
+      "summary": "山の版画家・畦地梅太郎の版画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": null,
   "access": [
-    {"station": "八王子", "lines": "JR各線", "exit": "北口", "walk_min": 15},
-    {"station": "京王八王子", "lines": "京王線", "walk_min": 18, "note": "バスは「八日町一丁目」（高尾・陣馬方面からは「八日町四丁目」）下車"}
+    {
+      "station": "八王子",
+      "lines": "JR各線",
+      "exit": "北口",
+      "walk_min": 15
+    },
+    {
+      "station": "京王八王子",
+      "lines": "京王線",
+      "walk_min": 18,
+      "note": "バスは「八日町一丁目」（高尾・陣馬方面からは「八日町四丁目」）下車"
+    }
   ],
   "highlights": "八王子駅北口の再開発ビル2階に開設された、市民に身近な小さな美術館。「くらしの中の美術館」をコンセプトに、年5回程度の企画展を開催。地域にゆかりのある洋画家から現代アートまで幅広く紹介し、ワークショップや講演会を通じて学習の場も提供している。",
   "closed_between_exhibitions": true,

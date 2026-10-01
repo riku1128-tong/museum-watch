@@ -1,0 +1,76 @@
+{
+  "id": "Q612608",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.hakutsuru-museum.org/",
+  "address": "〒658-0063 兵庫県神戸市東灘区住吉山手6丁目1-1",
+  "source_urls": [
+    "http://www.hakutsuru-museum.org/",
+    "https://www.museum.or.jp/museum/5647"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-13",
+      "reason": "10/12開館の翌日休館"
+    },
+    {
+      "from": "2026-11-24",
+      "to": "2026-11-24",
+      "reason": "11/23開館の翌日休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "秋季展「旋回する美・光彩の美 ―めくるめく東洋金石工芸」（本館）／「アナトリアのメダリオン・ランプ文」（新館）",
+      "start": "2026-09-26",
+      "end": "2026-12-13",
+      "url": "http://www.hakutsuru-museum.org/",
+      "kind": "special",
+      "summary": "本館で東洋の金石工芸、新館でアナトリアのメダリオン・ランプ文の絨毯を紹介する秋季展",
+      "recommend": null,
+      "admission": "一般 800円",
+      "adult_price": 800
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": 800,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "御影",
+      "lines": "阪急神戸線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "阪神御影駅・JR住吉駅から市バス38系統「白鶴美術館前」下車"
+    }
+  ],
+  "highlights": "六甲山南麓に立つ昭和初期の名建築で、建物そのものも見どころ。青銅器・金工、陶磁器・漆器、経巻や書、絵画、絨毯など東洋美術の幅広いコレクションを、季節ごとの展覧会で入れ替えて紹介する。",
+  "notes": "公式サイトで確認できたのは開館時間・休館日・秋季展の会期。入館料800円とアクセスは museum.or.jp による。年末年始の具体日程は未確認。",
+  "confidence": "medium"
+}

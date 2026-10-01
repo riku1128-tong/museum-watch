@@ -1,9 +1,9 @@
 {
   "id": "Q5878014",
-  "checked_at": "2026-09-30T09:28:58+09:00",
-  "check_mode": "full",
-  "operating_status": "operating",
-  "status_note": null,
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
+  "operating_status": "temporarily_closed",
+  "status_note": "2026年8月13〜14日の豪雨による浸水被害のため、8月14日から当面の間臨時休館中（再開日は未発表）",
   "official_url": "https://www.hoki-museum.jp/",
   "address": "〒267-0067 千葉県千葉市緑区あすみが丘東3-15",
   "source_urls": [
@@ -11,12 +11,28 @@
     "https://www.hoki-museum.jp/about/open_close/",
     "https://www.hoki-museum.jp/access/",
     "https://www.hoki-museum.jp/special_exhibition/four_seasons/",
-    "https://www.hoki-museum.jp/about/"
+    "https://www.hoki-museum.jp/about/",
+    "https://www.hoki-museum.jp/news/news-4096/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:30"
+    }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -46,9 +62,15 @@
   "closed_between_exhibitions": false,
   "adult_price": 2100,
   "access": [
-    {"station": "土気", "lines": "JR外房線", "exit": null, "walk_min": 1, "note": "土気駅南口3番乗場から京成バス千葉イースト「ブランニューモール」行きで「あすみが丘東4丁目」下車、徒歩1分（バス約5分）"}
+    {
+      "station": "土気",
+      "lines": "JR外房線",
+      "exit": null,
+      "walk_min": 1,
+      "note": "土気駅南口3番乗場から京成バス千葉イースト「ブランニューモール」行きで「あすみが丘東4丁目」下車、徒歩1分（バス約5分）"
+    }
   ],
   "highlights": "世界でも珍しい写実絵画専門の美術館。地上1階・地下2階、全長500メートルの回廊型ギャラリーは一部が宙に浮くように設計され、窓から森を望める展示室もある。レストラン・カフェも併設。",
-  "notes": "休館日は火曜・年末年始・展示替え期間（公式サイトに記載）だが、年末年始と展示替え期間の具体的な日付は非掲載のため special_closures には未反映。判明次第追記が必要。",
+  "notes": "休館日は火曜・年末年始・展示替え期間（公式サイトに記載）だが、年末年始と展示替え期間の具体的な日付は非掲載のため special_closures には未反映。判明次第追記が必要。 【2026-10-02 light】トップのお知らせで臨時休館を確認。レストランも当面休業。",
   "confidence": "high"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q22119727",
-  "checked_at": "2026-09-30T09:01:14+09:00",
+  "checked_at": "2026-10-02T08:31:57+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,26 +9,53 @@
   "source_urls": [
     "https://nakagawamuseum.jp/",
     "https://nakagawamuseum.jp/blog.html",
-    "https://nakagawamuseum.jp/access/"
+    "https://nakagawamuseum.jp/access/",
+    "https://nakagawamuseum.jp/guide/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "last_entry": "15:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:30"
+    }
   ],
-  "closed_weekdays": ["wed", "thu"],
+  "closed_weekdays": [
+    "wed",
+    "thu"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [],
   "special_openings": [
-    {"date": "2026-10-01", "open": "10:00", "close": "16:00", "note": "改修工事後の再開館日（通常木曜休館だが特別開館）"}
+    {
+      "date": "2026-10-01",
+      "open": "10:00",
+      "close": "16:00",
+      "note": "改修工事後の再開館日（通常木曜休館だが特別開館）"
+    }
   ],
   "exhibitions": [],
-  "adult_price": null,
+  "adult_price": 800,
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "真鶴", "lines": "JR東海道本線", "exit": null, "walk_min": null, "note": "真鶴駅から伊豆箱根バス「ケープ真鶴」行き約15分「中川一政美術館」下車徒歩1分。真鶴コミュニティバス利用可（大人200円）"}
+    {
+      "station": "真鶴",
+      "lines": "JR東海道本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "真鶴駅から伊豆箱根バス「ケープ真鶴」行き約15分「中川一政美術館」下車徒歩1分。真鶴コミュニティバス利用可（大人200円）"
+    }
   ],
   "highlights": "日本洋画壇の重鎮・文化勲章受章者の中川一政（1893-1991）の油彩・水墨・書・陶芸など多彩な作品を収蔵・展示。東洋画の境地を取り入れた豪快な筆触と鮮やかな原色対比が特徴。神奈川県真鶴半島の自然に囲まれた落ち着いた環境で、巨匠の芸術世界をじっくり堪能できる。",
   "closed_between_exhibitions": false,
-  "notes": "2025年4月より改修工事のため休館中、2026年10月1日（木）に再開館。10/1は通常の木曜休館日だが特別開館。再開後の定期休館日は水曜・木曜（公式サイトは「不定休」と記載、詳細はPDFカレンダーで要確認）。入館料は公式サイトに記載なし（要問合せ）。祝日の扱いは不明。再開後の展覧会は未発表。",
+  "notes": "2026/10/1に改修工事後の再開館。入館料は大人800円（公式利用案内）。定期休館日は公式に「不定休」で、詳細は画像カレンダー（PDF）のためテキストで読めず、水・木曜休館は前回の読み取りのまま。祝日の扱いは不明。展覧会ページは休館中の古い表示のままで再開後の展覧会は未発表。",
   "confidence": "medium"
 }

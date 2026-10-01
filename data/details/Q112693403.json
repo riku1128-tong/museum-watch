@@ -1,7 +1,7 @@
 {
   "id": "Q112693403",
-  "checked_at": "2026-09-30T10:00:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.saito-museum.com/",
@@ -12,15 +12,29 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "16:00"
     }
   ],
-  "closed_weekdays": ["thu"],
+  "closed_weekdays": [
+    "thu"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [
-    {"from": "2027-01-01", "to": "2027-02-28", "reason": "冬期休館（1〜2月）"}
+    {
+      "from": "2027-01-01",
+      "to": "2027-02-28",
+      "reason": "冬期休館（1〜2月）"
+    }
   ],
   "special_openings": [],
   "exhibitions": [

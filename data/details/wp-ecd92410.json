@@ -1,0 +1,76 @@
+{
+  "id": "wp-ecd92410",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kobayashi-bijutsu.com/",
+  "address": "〒592-0002 大阪府高石市羽衣2-2-30",
+  "source_urls": [
+    "https://www.kobayashi-bijutsu.com/flow",
+    "https://www.kobayashi-bijutsu.com/access",
+    "https://www.kobayashi-bijutsu.com/about",
+    "https://www.kobayashi-bijutsu.com/single-post/%E7%A7%8B%E5%AD%A3%E7%89%B9%E5%88%A5%E5%B1%95%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-6"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "開館10周年記念 小林美術館 名品展",
+      "start": "2026-09-18",
+      "end": "2026-12-13",
+      "url": "https://www.kobayashi-bijutsu.com/single-post/%E7%A7%8B%E5%AD%A3%E7%89%B9%E5%88%A5%E5%B1%95%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-6",
+      "kind": "special",
+      "summary": "約400点のコレクションから日本画・洋画の名品を選りすぐって紹介",
+      "recommend": "日本画・洋画の垣根を越え、開館10周年の節目に約400点の所蔵から名品を厳選。会期中は展示解説やワークショップ、藤田嗣治の勉強会も開かれる。",
+      "admission": "大人 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "羽衣",
+      "lines": "南海本線",
+      "walk_min": 4
+    },
+    {
+      "station": "東羽衣",
+      "lines": "JR",
+      "walk_min": 4
+    },
+    {
+      "station": "浜寺駅前",
+      "lines": "阪堺電車",
+      "walk_min": 8
+    }
+  ],
+  "highlights": "文化勲章を受章した日本画家の作品を集める私立美術館で、竹内栖鳳や東山魁夷ら約350点を所蔵。浜寺公園の松林の隣に建ち、展示室では作品を間近に鑑賞できる。1階には中庭に面したカフェもある。",
+  "closed_between_exhibitions": false,
+  "notes": "展示替えによる臨時休館あり（日程は公式未掲載）。入館料は大人1,000円（高校・大学生600円、小中学生300円）。",
+  "confidence": "high"
+}

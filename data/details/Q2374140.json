@@ -1,14 +1,18 @@
 {
   "id": "Q2374140",
-  "checked_at": "2026-09-30T09:20:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:27:08+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.gotoh-museum.or.jp/",
   "address": "〒158-8510 東京都世田谷区上野毛3-9-25",
   "adult_price": null,
   "access": [
-    {"station": "上野毛", "lines": "東急大井町線", "walk_min": 5}
+    {
+      "station": "上野毛",
+      "lines": "東急大井町線",
+      "walk_min": 5
+    }
   ],
   "source_urls": [
     "https://www.gotoh-museum.or.jp/",
@@ -18,9 +22,25 @@
     "https://www.gotoh-museum.or.jp/collection/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],

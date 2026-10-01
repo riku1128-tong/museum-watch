@@ -1,0 +1,65 @@
+{
+  "id": "Q11349249",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.louvre-m.com/",
+  "address": "〒515-2615 三重県津市白山町佐田東谷1957",
+  "source_urls": [
+    "https://www.louvre-m.com/",
+    "https://www.louvre-m.com/information/guide",
+    "https://www.louvre-m.com/news/20260909"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展示（ルーブル所蔵彫刻の復元作品）",
+      "start": "2026-10-02",
+      "end": "2027-10-02",
+      "url": "https://www.louvre-m.com/",
+      "kind": "collection",
+      "summary": "通年。ルーブル所蔵の彫刻を実物から型取りした作品を展示",
+      "recommend": null,
+      "admission": "一般 2,000円",
+      "adult_price": 2000
+    }
+  ],
+  "adult_price": 2000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "榊原温泉口",
+      "lines": "近鉄大阪線",
+      "exit": null,
+      "walk_min": 1,
+      "note": "駅前。無料駐車場80台"
+    }
+  ],
+  "highlights": "ルーブル美術館の姉妹館として、門外不出の彫刻の実物から直接型取りした作品をルーブルの技術陣が復元して並べる。ギリシャ・ローマの名彫刻を一堂に見られる珍しい施設で、近鉄榊原温泉口駅の目の前にある。",
+  "closed_between_exhibitions": false,
+  "notes": "年中無休（台風などで臨時休館あり）。入館料は2026年10月1日に改定、大人2,000円。公式に年末年始の日付記載なし。",
+  "confidence": "medium"
+}

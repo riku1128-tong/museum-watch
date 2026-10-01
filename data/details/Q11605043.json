@@ -1,0 +1,49 @@
+{
+  "id": "Q11605043",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.aikis.or.jp/~kishyu/",
+  "address": "〒649-2211 和歌山県西牟婁郡白浜町平草原2054",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/5845"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "白浜",
+      "lines": "JRきのくに線",
+      "exit": null,
+      "walk_min": null,
+      "note": "タクシーで約10分。バスは平草原行き（約40分、土日祝のみ1日3便）"
+    }
+  ],
+  "highlights": "掛け軸や浮世絵、陶磁器など約1,300点を所蔵する白浜町の美術館。葛飾北斎、歌川広重、喜多川歌麿、東洲斎写楽らの作品がそろう。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトは証明書期限切れで読めず、全国美術館会議の館情報で確認。無休だが特別展・企画展の前後に休館日を設けることがある。展覧会情報は取得できず。",
+  "confidence": "medium"
+}

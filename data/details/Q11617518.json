@@ -1,6 +1,6 @@
 {
   "id": "Q11617518",
-  "checked_at": "2026-09-30T09:26:27+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -15,12 +15,37 @@
     "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=545"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-01", "reason": "年末年始"}
+    {
+      "from": "2026-10-02",
+      "to": "2026-10-02",
+      "reason": "休館（公式トップに本日休館と表示）"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -68,19 +93,40 @@
       "admission": "一般 800円（団体720円）・高校生以下無料",
       "adult_price": 800,
       "hours": [
-        {"days": ["sun"], "open": "09:30", "close": "15:00", "last_entry": "14:30", "from": "2026-10-18", "to": "2026-10-18"}
+        {
+          "days": [
+            "sun"
+          ],
+          "open": "09:30",
+          "close": "15:00",
+          "last_entry": "14:30",
+          "from": "2026-10-18",
+          "to": "2026-10-18"
+        }
       ]
     }
   ],
   "adult_price": 360,
   "free_days": [
-    {"from": "2026-11-13", "to": "2026-11-13", "scope": "all", "reason": "茨城県民の日", "source_url": "https://www.pref.ibaraki.jp/bugai/koho/kenmin/kenminnohi/r6kenmin.html"}
+    {
+      "from": "2026-11-13",
+      "to": "2026-11-13",
+      "scope": "all",
+      "reason": "茨城県民の日",
+      "source_url": "https://www.pref.ibaraki.jp/bugai/koho/kenmin/kenminnohi/r6kenmin.html"
+    }
   ],
   "access": [
-    {"station": "水戸", "lines": "JR", "exit": "南口", "walk_min": 20, "note": "南口8番・北口2番のりばから「払沢方面」または「本郷方面」行きバスで「文化センター入口」下車、徒歩5分。タクシーは南口から約5分"}
+    {
+      "station": "水戸",
+      "lines": "JR",
+      "exit": "南口",
+      "walk_min": 20,
+      "note": "南口8番・北口2番のりばから「払沢方面」または「本郷方面」行きバスで「文化センター入口」下車、徒歩5分。タクシーは南口から約5分"
+    }
   ],
   "highlights": "千波湖畔に立ち、地元ゆかりの日本画家・小川芋銭の作品を中心に近代日本画や工芸を所蔵する。所蔵作品展では「金の表現」など切り口を変えた企画を随時開催している。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は「月曜日（祝日の場合は開館、翌日休館）、年末年始（12月29日から1月1日まで）」。年末年始の終了日は1月1日までとの記載のため special_closures を12/29〜1/1とした。",
+  "notes": "休館日は「月曜日（祝日の場合は開館、翌日休館）、年末年始（12月29日から1月1日まで）」。年末年始の終了日は1月1日までとの記載のため special_closures を12/29〜1/1とした。 2026-10-02 のトップに「本日休館」と表示（理由は未記載）。中村彝アトリエは7/20から当面臨時休室。",
   "confidence": "high"
 }

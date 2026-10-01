@@ -1,0 +1,65 @@
+{
+  "id": "Q11589726",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.kobe.lg.jp/kanko/bunka/bunkashisetsu/yukarimuseum/",
+  "address": "〒658-0032 神戸市東灘区向洋町中2丁目9-1",
+  "source_urls": [
+    "https://www.city.kobe.lg.jp/kanko/bunka/bunkashisetsu/yukarimuseum/",
+    "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/yukarimuseum/kurasiwoegaku.html",
+    "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/yukarimuseum/access.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "暮らしを描く -ちいさきものはみなうつくし-",
+      "start": "2026-09-21",
+      "end": "2026-11-23",
+      "url": "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/yukarimuseum/kurasiwoegaku.html",
+      "kind": "special",
+      "summary": "館のコレクションから、画家が日常の暮らしを描いた作品を紹介する企画展",
+      "recommend": "身近でありふれた営みに美を見いだした画家たちの視線をたどる展覧会。所蔵作品から暮らしの匂いが漂う絵画が並び、日常の何気ない場面の魅力を改めて感じられる。",
+      "admission": "一般 200円",
+      "adult_price": 200
+    }
+  ],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "アイランドセンター",
+      "lines": "六甲ライナー",
+      "exit": "南出口",
+      "walk_min": 3
+    }
+  ],
+  "highlights": "六甲アイランドにある神戸市立の美術館。神戸ゆかりの画家の作品や神戸の街を描いた絵画を中心に所蔵し、コレクションを切り口にした企画展を開く。六甲ライナーの駅から徒歩3分と行きやすい。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館。月曜が祝日の9/21・10/12・11/23は開館し、10/13（火）は振替休館。観覧料は大学生・65歳以上100円、高校生以下無料。公式の入口ページ記載の休館日を元にした。",
+  "confidence": "high"
+}

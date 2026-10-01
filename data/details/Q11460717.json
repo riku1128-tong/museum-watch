@@ -1,7 +1,7 @@
 {
   "id": "Q11460717",
-  "checked_at": "2026-09-30T10:00:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:50:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.kodaira.tokyo.jp/dencyu/",
@@ -13,12 +13,31 @@
     "https://www.city.kodaira.tokyo.jp/kurashi/061/061410.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "16:00", "last_entry": "15:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:30"
+    }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-27", "to": "2027-01-05", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-27",
+      "to": "2027-01-05",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -44,8 +63,19 @@
   "closed_between_exhibitions": true,
   "adult_price": 300,
   "access": [
-    {"station": "一橋学園", "lines": "西武多摩湖線", "exit": "南口", "walk_min": 10},
-    {"station": "小平", "lines": "西武新宿線・西武拝島線", "exit": null, "walk_min": null, "note": "西武バスで「一橋病院」下車徒歩7分（国分寺駅北入口⇔小平駅南口の寺61・62系統）"}
+    {
+      "station": "一橋学園",
+      "lines": "西武多摩湖線",
+      "exit": "南口",
+      "walk_min": 10
+    },
+    {
+      "station": "小平",
+      "lines": "西武新宿線・西武拝島線",
+      "exit": null,
+      "walk_min": null,
+      "note": "西武バスで「一橋病院」下車徒歩7分（国分寺駅北入口⇔小平駅南口の寺61・62系統）"
+    }
   ],
   "highlights": "近代日本彫刻の巨匠・平櫛田中の代表作《鏡獅子》をはじめとする彫刻作品を常設展示。西武多摩湖線・一橋学園駅から徒歩10分の住宅街に建ち、隣接する田中の旧宅（市指定文化財）も見学できる。晩年に日課としていた書の作品や愛用の硯・水滴も展示し、人間・田中の姿に迫る。",
   "notes": "火曜休館（祝日の場合はその翌日以降の直近の平日）。展示替え期間は休館。開館時間 10:00〜16:00（15:30までに入館）。観覧料は現金のみ。公式サイトは小平市ウェブサイト内のページ。",

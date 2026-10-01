@@ -1,6 +1,6 @@
 {
   "id": "Q11483668",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:27:08+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,7 +13,21 @@
     "https://www.akita-museum-of-art.jp/event/show_detail.php?serial_no=536"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
@@ -36,7 +50,12 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "秋田", "lines": "JR奥羽本線・羽越本線", "exit": null, "walk_min": 10}
+    {
+      "station": "秋田",
+      "lines": "JR奥羽本線・羽越本線",
+      "exit": null,
+      "walk_min": 10
+    }
   ],
   "highlights": "秋田の資産家・平野政吉が収集した藤田嗣治（レオナール・フジタ）作品を核とする美術館。縦3.65m×横20.5mの巨大壁画「秋田の行事」が圧巻。安藤忠雄設計の建物は水庭とコンクリート打ち放しが特徴で、光と影が織りなす静謐な空間が広がる。",
   "closed_between_exhibitions": false,

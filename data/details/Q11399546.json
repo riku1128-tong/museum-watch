@@ -1,6 +1,6 @@
 {
   "id": "Q11399546",
-  "checked_at": "2026-09-30T10:00:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -12,13 +12,24 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
@@ -46,7 +57,15 @@
   "special_openings": [],
   "exhibitions": [],
   "adult_price": 200,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "無料開放（文化の日）",
+      "source_url": "https://www.city.mizunami.lg.jp/kankou_bunka/1004960/kaseki_museum/1002232.html"
+    }
+  ],
   "free_rules": [],
   "access": [
     {
@@ -59,6 +78,6 @@
   ],
   "highlights": "新生代中新世（約2,000〜1,550万年前）の地層から産出した化石を専門的に展示する博物館。25万点以上を収蔵し、常設展では約3,000点の貝・魚・哺乳類・植物の化石を公開。地元・瑞浪を化石の宝庫として紹介する。",
   "closed_between_exhibitions": false,
-  "notes": "月曜が祝日の場合は翌日（火曜）が休館。資料整理日（6/30・9/1・12/1・2/2・3/2頃）は年次で異なる場合がある。瑞浪市地球回廊・瑞浪市陶磁資料館との3館共通入館料500円もあり。",
+  "notes": "月曜が祝日の場合は翌日（火曜）が休館。資料整理日（6/30・9/1・12/1・2/2・3/2頃）は年次で異なる場合がある。瑞浪市地球回廊・瑞浪市陶磁資料館との3館共通入館料500円もあり。 【2026-10-02】公式ページで11/3は無料開放と確認。特別展・企画展の詳細ページは読めず展示は未登録。",
   "confidence": "high"
 }

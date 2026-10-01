@@ -1,0 +1,73 @@
+{
+  "id": "Q11545519",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://masaki-art-museum.jp/",
+  "address": "〒595-0812 大阪府泉北郡忠岡町忠岡中2-9-26",
+  "source_urls": [
+    "http://masaki-art-museum.jp/",
+    "http://masaki-art-museum.jp/event/",
+    "http://masaki-art-museum.jp/access/",
+    "http://masaki-art-museum.jp/about/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-25",
+      "to": "2026-10-28",
+      "reason": "展示替え"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "祈りの造形―千姿万態の神仏―",
+      "start": "2026-09-12",
+      "end": "2026-12-13",
+      "url": "http://masaki-art-museum.jp/event/",
+      "kind": "special",
+      "summary": "秋季展。前期9/12〜10/25、後期10/29〜12/13。神仏の造形を紹介",
+      "recommend": null,
+      "admission": "一般 700円",
+      "adult_price": 700
+    }
+  ],
+  "adult_price": 700,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "忠岡",
+      "lines": "南海本線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "泉大津駅からタクシーで約7分"
+    }
+  ],
+  "highlights": "国宝3件・重要文化財13件を含む約1300点を収蔵する財団の美術館。禅宗の墨蹟や水墨画、茶道具など東洋古美術が中心。隣接する正木記念邸は国登録有形文化財で、茶室も備える。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は月曜（祝日は開館し翌平日休館。2026年は9/24・10/13・11/24）。展示替え 10/26〜10/28、10/25も休館と記載。団体20名以上は各100円引き、障害者手帳提示で本人含む2名まで半額。高大生500円・小中生300円。",
+  "confidence": "high"
+}

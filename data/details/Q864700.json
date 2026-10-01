@@ -1,6 +1,6 @@
 {
   "id": "Q864700",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -16,17 +16,51 @@
     "https://mitsui-museum.jp/overview/overview.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-10-13", "to": "2026-10-13", "reason": "休館日（展覧会ページの記載）"},
-    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始休館"}
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-13",
+      "reason": "休館日（展覧会ページの記載）"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [
-    {"date": "2026-11-02", "open": "10:00", "close": "17:00", "note": "月曜だが開館（展覧会ページの記載）"},
-    {"date": "2027-01-04", "open": "10:00", "close": "17:00", "note": "月曜だが開館（次回展ページの記載）"}
+    {
+      "date": "2026-11-02",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "月曜だが開館（展覧会ページの記載）"
+    },
+    {
+      "date": "2027-01-04",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "月曜だが開館（次回展ページの記載）"
+    }
   ],
   "exhibitions": [
     {
@@ -66,9 +100,24 @@
   "confidence": "high",
   "adult_price": null,
   "access": [
-    {"station": "三越前", "lines": "東京メトロ銀座線", "exit": "A7出口", "walk_min": 1},
-    {"station": "三越前", "lines": "東京メトロ半蔵門線", "exit": null, "walk_min": 3},
-    {"station": "日本橋", "lines": "東京メトロ銀座線・東西線", "exit": "B9出口", "walk_min": 4}
+    {
+      "station": "三越前",
+      "lines": "東京メトロ銀座線",
+      "exit": "A7出口",
+      "walk_min": 1
+    },
+    {
+      "station": "三越前",
+      "lines": "東京メトロ半蔵門線",
+      "exit": null,
+      "walk_min": 3
+    },
+    {
+      "station": "日本橋",
+      "lines": "東京メトロ銀座線・東西線",
+      "exit": "B9出口",
+      "walk_min": 4
+    }
   ],
   "highlights": "重要文化財・三井本館7階にある美術館。江戸時代から三井家が蒐集した茶道具を中核に、国宝6点・重要文化財75点を含む約4000点を収蔵する。国宝「志野茶碗 卯花墻」や円山応挙「雪松図屏風」など、大名家に匹敵する伝世の名品を間近で観られるのが魅力。"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q7739750",
-  "checked_at": "2026-09-30T09:29:29+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "全館改修工事のため長期休館中。リニューアルオープンは2027年5月5日（開館60周年記念日）頃を予定",
@@ -23,9 +23,25 @@
   "closed_between_exhibitions": false,
   "adult_price": 900,
   "access": [
-    {"station": "東松山", "lines": "東武東上線", "exit": null, "walk_min": null, "note": "東松山駅東口から市内循環バス「唐子コース」約15分「丸木美術館東」下車"},
-    {"station": "森林公園", "lines": "東武東上線", "exit": null, "walk_min": null},
-    {"station": "つきのわ", "lines": "東武東上線", "exit": null, "walk_min": null}
+    {
+      "station": "東松山",
+      "lines": "東武東上線",
+      "exit": null,
+      "walk_min": null,
+      "note": "東松山駅東口から市内循環バス「唐子コース」約15分「丸木美術館東」下車"
+    },
+    {
+      "station": "森林公園",
+      "lines": "東武東上線",
+      "exit": null,
+      "walk_min": null
+    },
+    {
+      "station": "つきのわ",
+      "lines": "東武東上線",
+      "exit": null,
+      "walk_min": null
+    }
   ],
   "highlights": "画家・丸木位里と俊夫妻が原爆をテーマに描いた連作《原爆の図》第1部から第14部を常設展示する美術館。1945年8月の原爆投下から1982年まで描き継がれた作品群を伝える。",
   "notes": "2026年9月時点で全館改修工事のため長期休館中。休館の開始日は公式サイトで確認できず、再開予定（2027年5月5日頃）のみ確認できた。休館中のため通常時の開館時間・休館日・展覧会情報は公式サイトに掲載されておらず未確認（unknown）。観覧料900円は休館前の通常料金として掲載されていたもの。",

@@ -1,0 +1,65 @@
+{
+  "id": "Q11558989",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.ryuyukan.net/",
+  "address": "〒526-0059 滋賀県長浜市元浜町13-31",
+  "source_urls": [
+    "https://www.ryuyukan.net/kurokabe",
+    "https://www.ryuyukan.net/kurokabeinformation",
+    "https://www.ryuyukan.net/2026summer-announce"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "特別展「海洋堂アクアリウム」",
+      "start": "2026-07-15",
+      "end": "2027-05-17",
+      "url": "https://www.ryuyukan.net/2026summer-announce",
+      "kind": "special",
+      "summary": "海洋生物フィギュアによるジオラマ水族館。50以上の新作ジオラマを展示",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "長浜",
+      "lines": "JR北陸本線",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "休館日は不定休で、公式の営業カレンダーでの確認が必要（カレンダー本文は読めず）。9/30は棚卸のため休館。年末年始の休館は未確認。",
+  "confidence": "medium"
+}

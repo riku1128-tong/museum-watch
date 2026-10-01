@@ -1,12 +1,14 @@
 {
   "id": "Q6583120",
-  "checked_at": "2026-09-30T09:30:10+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
-  "operating_status": "unknown",
-  "status_note": null,
+  "operating_status": "permanently_closed",
+  "status_note": "2008年5月11日に閉館",
   "official_url": null,
-  "address": null,
-  "source_urls": [],
+  "address": "静岡県富士宮市上条1954番地",
+  "source_urls": [
+    "https://ja.wikipedia.org/wiki/富士美術館"
+  ],
   "regular_hours": [],
   "closed_weekdays": [],
   "closed_nth_weekdays": [],
@@ -20,6 +22,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "2026年9月30日初回調査。Wikipedia題名「富士美術館」（静岡県）。公式URLが未登録のため「富士美術館 静岡県 公式サイト」で検索したが、明確に「富士美術館」と名乗る施設を確認できなかった。東京富士美術館（東京都八王子市）・富士山かぐや姫ミュージアム（静岡県富士市立博物館）とは別の施設と思われる。セッション制限により詳細調査が不可。再調査（plan_run.py --retry）が必要。",
-  "confidence": "low"
+  "notes": "Wikipedia「富士美術館」によると、財団法人富士美術館（創価学会系）が1973年に開き、2008年5月11日に閉館。建物は大石寺の所有となり宝物殿に転用。横井照子富士美術館（富士市）・東京富士美術館とは別の施設。公式サイトは閉鎖済みで、閉館はWikipediaのみで確認。",
+  "confidence": "medium"
 }

@@ -1,10 +1,10 @@
 {
   "id": "Q11260168",
-  "checked_at": "2026-09-30T09:13:11+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
-  "official_url": null,
+  "official_url": "https://www.city.iwaki.lg.jp/artmuseum.html",
   "address": "福島県いわき市平字堂根町4-4",
   "source_urls": [
     "https://www.city.iwaki.lg.jp/artmuseum.html",
@@ -16,13 +16,24 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {

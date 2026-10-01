@@ -1,0 +1,28 @@
+{
+  "id": "Q11667775",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "施設設備の改築工事のため2021年12月20日から長期休館中。再開時期は未定（公式サイトで案内予定）。展覧会は中之島香雪美術館（大阪市北区）で開催。",
+  "official_url": "https://www.kosetsu-museum.or.jp/mikage/",
+  "address": "〒658-0048 兵庫県神戸市東灘区御影郡家2丁目12-1",
+  "source_urls": [
+    "https://www.kosetsu-museum.or.jp/mikage/",
+    "https://www.kosetsu-museum.or.jp/mikage/news/20211112.html"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "神戸市東灘区御影の美術館。長谷川等伯筆「柳橋水車図」が2026年4月に重要文化財に指定された所蔵品を持ち、旧村山家住宅書院棟の保存修理も進む。現在は改築工事で長期休館中で、展覧会は中之島香雪美術館で行っている。",
+  "closed_between_exhibitions": false,
+  "notes": "開館時間・休館日・観覧料は休館中のため公式に記載なし。再開日程の発表を待つ。",
+  "confidence": "medium"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q28683263",
-  "checked_at": "2026-09-30T09:25:27+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,8 +12,36 @@
     "https://www.82bunka.or.jp/bunkashisetsu/detail.php?no=612"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "from": "2026-07-15", "to": "2026-09-15"},
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "from": "2026-07-15",
+      "to": "2026-09-15"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
@@ -48,9 +76,14 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "軽井沢", "lines": "JR北陸新幹線・しなの鉄道", "walk_min": 10, "note": "旧軽井沢銀座方面へ徒歩約10分"}
+    {
+      "station": "軽井沢",
+      "lines": "JR北陸新幹線・しなの鉄道",
+      "walk_min": 10,
+      "note": "旧軽井沢銀座方面へ徒歩約10分"
+    }
   ],
   "highlights": "旧軽井沢の別荘地に佇む洋画家・脇田和（1908-2005）専門の私立美術館。鳥や花を澄明な色彩で描き続けた画家の全時代を代表する油彩・素描・版画に触れられる。吉村順三設計のアトリエ山荘も附属施設として必見。例年4月中旬〜11月下旬開館。",
-  "notes": "元の公式URL（https://www.wakita.or.jp/museum/）はDNSが解決できなかったため、正しい公式サイト（https://www.wakita-museum.com/）に更新。開館期間は例年4月中旬〜11月下旬（11月下旬〜4月中旬は冬季休館）。夏期（7/15〜9/15）は18:00まで開館。展示替え等による臨時休館あり。入館料: 一般1,000円（団体900円）、高・大学生600円（団体500円）、中学生以下無料。",
+  "notes": "元の公式URL（https://www.wakita.or.jp/museum/）はDNSが解決できなかったため、正しい公式サイト（https://www.wakita-museum.com/）に更新。開館期間は例年4月中旬〜11月下旬（11月下旬〜4月中旬は冬季休館）。夏期（7/15〜9/15）は18:00まで開館。展示替え等による臨時休館あり。入館料: 一般1,000円（団体900円）、高・大学生600円（団体500円）、中学生以下無料。 10/2: 公式イベントページで「Journey to New Hope」10/1〜11/24を再確認。",
   "confidence": "medium"
 }

@@ -1,7 +1,7 @@
 {
   "id": "Q11595532",
-  "checked_at": "2026-09-30T09:20:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://ranzan-shiseki.spec.ed.jp/",
@@ -13,13 +13,27 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
       "open": "09:00",
       "close": "16:30",
       "last_entry": "16:00"
     },
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30",
@@ -27,13 +41,17 @@
       "to": "2026-08-31"
     },
     {
-      "days": ["holiday"],
+      "days": [
+        "holiday"
+      ],
       "open": "09:00",
       "close": "16:30",
       "last_entry": "16:00"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [

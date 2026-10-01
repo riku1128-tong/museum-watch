@@ -1,0 +1,54 @@
+{
+  "id": "Q11589817",
+  "checked_at": "2026-10-02T08:50:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.kitano-museum.com/",
+  "address": "〒650-0002 兵庫県神戸市中央区北野町2-9-6",
+  "source_urls": [
+    "http://www.kitano-museum.com/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:30", "last_entry": "17:00"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "佐野菜見展　Fin.",
+      "start": "2026-08-07",
+      "end": "2026-10-11",
+      "url": "https://www.kitano-museum.com/%e4%bd%90%e9%87%8e%e8%8f%9c%e8%a6%8b%e5%b1%95%e3%80%80fin-%e3%80%808-710-11/",
+      "kind": "special",
+      "summary": "佐野菜見の作品展",
+      "recommend": null,
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "DRiLL FESTIVAL 30×30",
+      "start": "2026-10-17",
+      "end": "2026-10-25",
+      "url": null,
+      "kind": "other",
+      "summary": "DRiLL FESTIVAL 30×30の展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "三宮", "lines": "JR・阪急・阪神・神戸市営地下鉄", "exit": null, "walk_min": 10, "note": "三宮駅から北へ"},
+    {"station": "新神戸", "lines": "神戸市営地下鉄・山陽新幹線", "exit": null, "walk_min": 10, "note": "新神戸駅から西へ"}
+  ],
+  "highlights": "1898年建設で、かつてアメリカ領事館官舎だった北野異人館を使ったギャラリー＆カフェ。館のコレクションや歴史資料に加え、兵庫・神戸出身の若手作家やパリ・モンマルトルの画家の作品を展示・販売する。",
+  "closed_between_exhibitions": false,
+  "notes": "毎週火曜休館（祝日の場合は開館）。年末年始・臨時休館の案内は公式トップに記載なし。団体割引あり（10名以上10％、20名以上20％）。展覧会の詳細ページは読めておらず、会期以外は未確認。",
+  "confidence": "medium"
+}

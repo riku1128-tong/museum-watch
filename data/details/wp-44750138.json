@@ -1,6 +1,6 @@
 {
   "id": "wp-44750138",
-  "checked_at": "2026-09-30T09:15:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,17 +9,29 @@
   "source_urls": [
     "https://www.kogei-h.tym.ed.jp/museum",
     "https://www.kogei-h.tym.ed.jp/archives/category/museum/guide",
-    "https://www.museum.or.jp/museum/3191"
+    "https://www.museum.or.jp/museum/3191",
+    "https://www.kogei-h.tym.ed.jp/archives/category/museum",
+    "https://www.kogei-h.tym.ed.jp/archives/21097"
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "16:00",
       "last_entry": "15:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
@@ -30,7 +42,46 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "2026尚美展企画展～文化部作品展～",
+      "start": "2026-09-27",
+      "end": "2026-10-25",
+      "url": "https://www.kogei-h.tym.ed.jp/archives/21097",
+      "kind": "special",
+      "summary": "高岡工芸高校の文化部による作品展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0,
+      "hours": [
+        {
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "10:00",
+          "close": "16:00",
+          "last_entry": "15:30"
+        }
+      ]
+    },
+    {
+      "title": "第119回 尚美展",
+      "start": "2026-10-16",
+      "end": "2026-10-17",
+      "url": "https://www.kogei-h.tym.ed.jp/archives/21101",
+      "kind": "special",
+      "summary": "尚美展（10/16・17の2日間）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
   "adult_price": 0,
   "free_days": [],
   "free_rules": [],
@@ -52,6 +103,6 @@
   ],
   "highlights": "富山県立高岡工芸高等学校に附属する、全国でも珍しい高校附属の美術館。年間を通じて一般公開し、教職員・卒業生の作品展や外部企画展を開催。工芸・美術の専門学校ならではの多彩な表現を幅広い世代が楽しめる。入館無料で、最寄りのJR氷見線・越中中川駅から徒歩5分とアクセスも良好。",
   "closed_between_exhibitions": false,
-  "notes": "2026年9月時点の展覧会スケジュールは公式ページに掲載なし（直近は8月23日で終了）。展示替え中の可能性あり。月曜が祝日の場合は翌平日休館。",
+  "notes": "月曜が祝日の場合は翌平日休館。展覧会は公式の展覧会一覧（category/museum）に掲載のもの。",
   "confidence": "medium"
 }

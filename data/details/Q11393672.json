@@ -1,0 +1,71 @@
+{
+  "id": "Q11393672",
+  "checked_at": "2026-10-02T08:30:15+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.mcart.jp/",
+  "address": "〒669-2135 兵庫県丹波篠山市今田町上立杭4",
+  "source_urls": [
+    "https://www.mcart.jp/",
+    "https://www.mcart.jp/guide/",
+    "https://www.mcart.jp/guide/admission_fee/",
+    "https://www.mcart.jp/exhibition/",
+    "https://www.mcart.jp/exhibition/e3803/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "ゲンダイトウゲイ＊ミニ＊クロニクル－やきものはアートだ！",
+      "start": "2026-09-19",
+      "end": "2026-11-23",
+      "url": "https://www.mcart.jp/exhibition/e3803/",
+      "kind": "special",
+      "summary": "戦後の現代陶芸の立体作品を年代順に紹介。林康夫、走泥社ら",
+      "recommend": "戦後に自由なかたちを得た現代陶芸の歩みを、パイオニア世代から若手まで年代順にコンパクトにたどれる。やきものの枠を超えた造形の多様さが見どころ。",
+      "admission": "一般 1,300円",
+      "adult_price": 1300
+    },
+    {
+      "title": "丹波焼の世界 season10",
+      "start": "2026-03-10",
+      "end": "2026-11-23",
+      "url": "https://www.mcart.jp/exhibition/e3805/",
+      "kind": "collection",
+      "summary": "田中寛コレクションの丹波焼、古陶磁、現代陶芸",
+      "recommend": "当館設立のきっかけとなった田中寛コレクションの丹波焼を軸に、古陶磁や現代陶芸も並び、館のコレクションの幅を知ることができる。",
+      "admission": "一般 200円（特別展開催中は特別展料金に含む）",
+      "adult_price": 200
+    }
+  ],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "丹波焼の産地・今田の立杭に建つ陶芸専門の美術館。田中寛コレクションの丹波焼をはじめ古陶磁や現代陶芸を所蔵し、特別展とテーマ展で焼き物の魅力を紹介する。無料の駐車場があり、車で訪れやすい。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館。特別展期間中の祝日開館は9/21・10/12・11/23で、振替休館は9/24・10/13。高校生以下無料、70歳以上は半額。年末年始休館の日付は読めず未記載。最寄駅・バスの行き方は読めなかった。",
+  "confidence": "medium"
+}

@@ -1,29 +1,60 @@
 {
   "id": "Q105334745",
-  "checked_at": "2026-09-30T09:35:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.town.obuse.nagano.jp/site/obusemuseum/",
   "address": "〒381-0201 長野県上高井郡小布施町小布施595",
   "source_urls": [
-    "https://www.town.obuse.nagano.jp/site/obusemuseum/"
+    "https://www.town.obuse.nagano.jp/site/obusemuseum/",
+    "https://nagano.art.museum/exhibition/kouryuten2026"
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00"
     }
   ],
-  "closed_weekdays": ["wed"],
+  "closed_weekdays": [
+    "wed"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [
-    {"from": "2026-10-06", "to": "2026-10-09", "reason": "展示替えのため休館"},
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-10-06",
+      "to": "2026-10-09",
+      "reason": "展示替えのため休館"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
+    {
+      "title": "おぶせミュージアム・中島千波館×長野県立美術館 交流名品展 「信州のダイナミズム―疎開画家たちの作品を中心に」",
+      "start": "2026-08-08",
+      "end": "2026-10-05",
+      "url": "https://nagano.art.museum/exhibition/kouryuten2026",
+      "kind": "special",
+      "summary": "信州ゆかりの作家や疎開画家の近代・戦時中・戦後の作品を紹介。中島清之の特別展示も同時開催",
+      "recommend": "中島清之が小布施へ疎開したことが当館の開館につながった経緯を踏まえ、疎開画家や戦争を経験した信州ゆかりの画家の創作の軌跡をたどる。県立美術館との共同企画。",
+      "admission": "一般800円",
+      "adult_price": 800
+    },
     {
       "title": "中島千波・春山文典コレクション常設展",
       "start": "2026-01-01",

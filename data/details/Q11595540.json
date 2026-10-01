@@ -1,6 +1,6 @@
 {
   "id": "Q11595540",
-  "checked_at": "2026-09-30T09:48:00+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,19 +13,38 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "16:30",
       "last_entry": "16:00"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [
-    {"weekday": "fri", "nth": [4]}
+    {
+      "weekday": "fri",
+      "nth": [
+        4
+      ]
+    }
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -37,6 +56,17 @@
       "kind": "special",
       "summary": "忍城を居城とした忍藩の藩領の村々の統治実態と人々の営みを資料で紹介",
       "recommend": "江戸時代に十万石の大名として行田周辺を治めた忍藩の藩領社会を、秩父や摂津の分領も含む各地の資料で立体的に展示。忍城址に隣接する博物館ならではの地域密着テーマ。",
+      "admission": "一般 200円",
+      "adult_price": 200
+    },
+    {
+      "title": "常設展",
+      "start": "2026-10-02",
+      "end": "2027-10-02",
+      "url": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/kyodohakubutsukan/tenji/index.html",
+      "kind": "collection",
+      "summary": "通年。行田の考古・歴史・民俗資料を展示",
+      "recommend": null,
       "admission": "一般 200円",
       "adult_price": 200
     }

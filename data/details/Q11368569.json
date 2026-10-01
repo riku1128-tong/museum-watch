@@ -1,0 +1,58 @@
+{
+  "id": "Q11368569",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.tamba.lg.jp/site/bijyutukan/",
+  "address": "〒669-3603 兵庫県丹波市氷上町西中615-4",
+  "source_urls": [
+    "https://www.tambacity-kankou.jp/spot/ueno-kinen-museum/",
+    "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/5/1/museumevent/12542.html",
+    "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/5/1/information/7366.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "若き日の川端謹次展（仮称）",
+      "start": "2026-10-17",
+      "end": "2026-12-13",
+      "url": "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/5/1/museumevent/12542.html",
+      "kind": "special",
+      "summary": "丹波出身の洋画家・川端謹次の学生時代の活動と、師や恩人との関わりをたどる",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "加古川を望む丹波地方の中核美術館で、1994年開館。古代ギリシャ神殿のイオニア式を基本にルネッサンス様式を一部取り入れた石造りの建物が目を引く。中国美術や版画、現代美術など約1,000点を収蔵し、地域ゆかりの作家展も開く。",
+  "closed_between_exhibitions": true,
+  "notes": "月曜（祝日の場合はその翌日）・年末年始（12/29〜1/3）・展示替え期間が休館。公式ページで観覧料は読めず null。次の展覧会は仮称。9/27で前回展が終了し10/17開幕まで展示替え期間。",
+  "confidence": "medium"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q3892314",
-  "checked_at": "2026-09-30T09:25:00+09:00",
+  "checked_at": "2026-10-02T09:00:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -18,12 +18,32 @@
     "https://www.setagayaartmuseum.or.jp/guide/open/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -58,9 +78,27 @@
   "closed_between_exhibitions": false,
   "adult_price": 220,
   "access": [
-    {"station": "用賀", "lines": "東急田園都市線", "exit": null, "walk_min": 17, "note": "美術館行バス「美術館」下車徒歩3分（バス1時間1〜2本）"},
-    {"station": "成城学園前", "lines": "小田急線", "exit": null, "walk_min": null, "note": "渋谷駅行バス「砧町」下車徒歩10分（約5〜10分毎）"},
-    {"station": "千歳船橋", "lines": "小田急線", "exit": null, "walk_min": null, "note": "田園調布駅行バス「美術館入口」下車徒歩5分（1時間2〜3本）"}
+    {
+      "station": "用賀",
+      "lines": "東急田園都市線",
+      "exit": null,
+      "walk_min": 17,
+      "note": "美術館行バス「美術館」下車徒歩3分（バス1時間1〜2本）"
+    },
+    {
+      "station": "成城学園前",
+      "lines": "小田急線",
+      "exit": null,
+      "walk_min": null,
+      "note": "渋谷駅行バス「砧町」下車徒歩10分（約5〜10分毎）"
+    },
+    {
+      "station": "千歳船橋",
+      "lines": "小田急線",
+      "exit": null,
+      "walk_min": null,
+      "note": "田園調布駅行バス「美術館入口」下車徒歩5分（1時間2〜3本）"
+    }
   ],
   "highlights": "緑豊かな砧公園の一角に立地し、自然と一体になった建築が特徴。近現代美術のコレクション展や企画展に加え、ライブラリーやレストラン・カフェも充実し、一日ゆっくり過ごせる美術館。",
   "notes": "休館日は「月曜日（祝休日の時はその翌平日）、年末年始（12月29日〜1月3日）」。9/24（木）は9/21〜23の祝休日の振替で休館。大規模改修工事のため令和9（2027）年4月〜令和12（2030）年1月（予定）休館（具体的な開始日は未掲載）。コレクション展の大人一般料金220円は展覧会ごとに変わる場合あり。",

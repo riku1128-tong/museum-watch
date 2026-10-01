@@ -1,7 +1,7 @@
 {
   "id": "Q11399549",
-  "checked_at": "2026-09-30T09:08:12+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.togeihida.co.jp/",
@@ -12,7 +12,16 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
@@ -49,6 +58,6 @@
   ],
   "highlights": "高山祭の豪華絢爛な屋台（山車）11台を一堂に展示する博物館。精緻な彫刻や金工で飾られた屋台を間近で鑑賞でき、からくり人形の実演も行われる。世界の昆虫標本を展示する「昆虫館」も併設。",
   "closed_between_exhibitions": false,
-  "notes": null,
+  "notes": "公式サイトは証明書エラーで読めず、岐阜県観光公式サイトの情報（9:00〜17:00・年中無休・大人1,100円）で確認。",
   "confidence": "medium"
 }

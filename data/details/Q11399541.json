@@ -1,7 +1,7 @@
 {
   "id": "Q11399541",
-  "checked_at": "2026-09-30T09:06:54+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.takayama.lg.jp/machihaku/",
@@ -13,13 +13,37 @@
     "https://www.museum.or.jp/museum/4309"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "19:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "19:00"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
+    {
+      "title": "飛騨高山はじめて物語ー華麗なる文明開化の足跡ー",
+      "start": "2026-07-11",
+      "end": "2026-10-12",
+      "url": "https://www.city.takayama.lg.jp/machihaku/",
+      "kind": "special",
+      "summary": "飛騨高山に文明開化がもたらした足跡を紹介する特別展示（特別展示室）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
     {
       "title": "常設展示",
       "start": "2026-01-01",

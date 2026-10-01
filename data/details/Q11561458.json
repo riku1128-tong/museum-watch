@@ -1,6 +1,6 @@
 {
   "id": "Q11561458",
-  "checked_at": "2026-09-30T09:00:00+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,17 +9,29 @@
   "source_urls": [
     "https://www.museum-kiyosu.jp",
     "https://www.museum-kiyosu.jp/information/",
-    "https://www.museum-kiyosu.jp/rental_gallery/exhibition/hotch-potch/"
+    "https://www.museum-kiyosu.jp/rental_gallery/exhibition/hotch-potch/",
+    "https://www.museum-kiyosu.jp/exhibition/triennale2026/"
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "19:00",
       "last_entry": "18:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {

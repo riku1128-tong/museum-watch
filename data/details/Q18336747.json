@@ -1,6 +1,6 @@
 {
   "id": "Q18336747",
-  "checked_at": "2026-09-30T09:06:25+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -13,9 +13,23 @@
     "https://www.kusa.ac.jp/kakebi/access/"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -35,7 +49,13 @@
   "adult_price": null,
   "free_days": [],
   "access": [
-    {"station": "倉敷", "lines": "JR山陽本線・伯備線", "exit": null, "walk_min": 15, "note": "美観地区内。倉敷駅から南へ徒歩約15分(公式サイトに具体的な徒歩分数の記載は無く、二次情報による概算)。"}
+    {
+      "station": "倉敷",
+      "lines": "JR山陽本線・伯備線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "美観地区内。倉敷駅から南へ徒歩約15分(公式サイトに具体的な徒歩分数の記載は無く、二次情報による概算)。"
+    }
   ],
   "highlights": "倉敷美観地区にある倉敷芸術科学大学附属の美術館。同大学ゆかりの洋画家・児島虎次郎の研究展示や、学生・卒業生らの作品展を中心に紹介している。",
   "closed_between_exhibitions": false,

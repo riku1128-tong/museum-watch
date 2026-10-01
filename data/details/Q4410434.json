@@ -1,6 +1,6 @@
 {
   "id": "Q4410434",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -17,15 +17,64 @@
     "https://art-view.roppongihills.com/common/download/info/index/mc_map_jp.pdf"
   ],
   "regular_hours": [
-    {"days": ["tue", "holiday"], "open": "10:00", "close": "18:00", "from": "2026-11-03", "to": "2026-11-03"},
-    {"days": ["fri"], "open": "10:00", "close": "17:00", "from": "2026-11-27", "to": "2026-11-27"},
-    {"days": ["tue"], "open": "10:00", "close": "17:00"},
-    {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "22:00"}
+    {
+      "days": [
+        "tue",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "22:00",
+      "from": "2027-02-23",
+      "to": "2027-02-23"
+    },
+    {
+      "days": [
+        "tue",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "from": "2026-11-03",
+      "to": "2026-11-03"
+    },
+    {
+      "days": [
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "from": "2026-11-27",
+      "to": "2026-11-27"
+    },
+    {
+      "days": [
+        "tue"
+      ],
+      "open": "10:00",
+      "close": "17:00"
+    },
+    {
+      "days": [
+        "mon",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "22:00"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-09-24", "to": "2026-10-30", "reason": "展示替えのため休館"}
+    {
+      "from": "2026-09-24",
+      "to": "2026-10-30",
+      "reason": "展示替えのため休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -77,8 +126,19 @@
   "closed_between_exhibitions": true,
   "adult_price": null,
   "access": [
-    {"station": "六本木", "lines": "東京メトロ日比谷線", "exit": "1C", "walk_min": 3, "note": "改札を出てコンコース経由で直結"},
-    {"station": "六本木", "lines": "都営地下鉄大江戸線", "exit": "3", "walk_min": 6}
+    {
+      "station": "六本木",
+      "lines": "東京メトロ日比谷線",
+      "exit": "1C",
+      "walk_min": 3,
+      "note": "改札を出てコンコース経由で直結"
+    },
+    {
+      "station": "六本木",
+      "lines": "都営地下鉄大江戸線",
+      "exit": "3",
+      "walk_min": 6
+    }
   ],
   "highlights": "六本木ヒルズ森タワー53階、東京を一望できる高層に位置する現代アートの美術館。常設コレクションを持たず、国内外の企画展を会期中無休・夜遅くまで開催するのが特徴。",
   "notes": "9/24〜10/30 は展示替えのため休館。10/31 から「森万里子：燦燦」ほか4展が同時開幕（会期中無休）。開館時間は10:00〜22:00（火曜は17:00まで）、ただし11/3は18:00まで、11/27（金）は17:00まで。10/31 は翌朝6:00まで開館（特別開館。special_openings では表現できないため notes に記載）。最終入館は閉館30分前。2027年9月〜2028年4月は改修工事で一時休館予定。住所は未確認。",

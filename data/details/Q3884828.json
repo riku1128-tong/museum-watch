@@ -1,6 +1,6 @@
 {
   "id": "Q3884828",
-  "checked_at": "2026-09-30T10:25:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -13,13 +13,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "18:00",
       "last_entry": "17:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
@@ -43,7 +53,11 @@
       "adult_price": 1400,
       "hours": [],
       "closed_weekdays": [],
-      "closed_dates": ["2026-09-24", "2026-10-13", "2026-11-24"]
+      "closed_dates": [
+        "2026-09-24",
+        "2026-10-13",
+        "2026-11-24"
+      ]
     }
   ],
   "adult_price": null,

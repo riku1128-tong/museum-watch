@@ -1,7 +1,7 @@
 {
   "id": "Q11399543",
-  "checked_at": "2026-09-30T09:02:37+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://hiroshige-ena.jp/",
@@ -13,17 +13,38 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
+    {
+      "title": "特別展観 開館25周年記念 渓斎英泉・歌川広重 木曽海道六拾九次之内",
+      "start": "2026-08-27",
+      "end": "2026-12-06",
+      "url": "https://hiroshige-ena.jp/",
+      "kind": "special",
+      "summary": "渓斎英泉・歌川広重による木曽海道六拾九次之内の浮世絵を展観",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
     {
       "title": "秋季特別企画展　生誕200年記念　二代広重―広重イズムの在処（ありか）―",
       "start": "2026-10-01",
@@ -49,7 +70,20 @@
   ],
   "adult_price": 520,
   "free_days": [],
-  "free_rules": [],
+  "free_rules": [
+    {
+      "weekday": "wed",
+      "scope": "all",
+      "reason": "フリーウエンズデー（2027年3月末まで）",
+      "source_url": "https://hiroshige-ena.jp/guide/"
+    },
+    {
+      "weekday": "fri",
+      "scope": "all",
+      "reason": "フリーフライデー（2027年3月末まで）",
+      "source_url": "https://hiroshige-ena.jp/guide/"
+    }
+  ],
   "access": [
     {
       "station": "恵那",

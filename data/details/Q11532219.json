@@ -1,0 +1,76 @@
+{
+  "id": "Q11532219",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "草庵「松花堂」・泉坊書院を含む内園は大阪北部地震の復旧工事のため通常は見学不可（特別公開日を除く）",
+  "official_url": "https://shokado-garden-art-museum.jp/",
+  "address": "〒614-8077 京都府八幡市八幡女郎花43-1",
+  "source_urls": [
+    "https://shokado-garden-art-museum.jp/",
+    "https://shokado-garden-art-museum.jp/information/",
+    "https://www.yawata-bunka.jp/syokado/shiyou/index.htm"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-27",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [
+    {
+      "date": "2026-11-23",
+      "note": "特別展会期中の月曜祝日は開館"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "寛永行幸四百年記念 特別展 八幡で感じる寛永文化―松花堂昭乗の書画、茶の湯",
+      "start": "2026-10-17",
+      "end": "2026-12-06",
+      "url": "https://shokado-garden-art-museum.jp/",
+      "kind": "special",
+      "summary": "松花堂昭乗の書画と茶の湯を通して八幡の寛永文化を紹介する特別展",
+      "recommend": null,
+      "admission": "一般 600円（大学生500円、18歳以下無料）",
+      "adult_price": 600
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "石清水八幡宮",
+      "lines": "京阪本線",
+      "walk_min": null,
+      "note": "京阪「石清水八幡宮駅」または「樟葉駅」から路線バスで「大芝・松花堂前」下車"
+    }
+  ],
+  "highlights": "京都洛南の八幡にある、松花堂昭乗ゆかりの日本庭園と美術館。侘び寂びの庭を歩きながら昭乗の書画や茶の湯文化に触れられ、松花堂弁当の発祥の地としても知られる。",
+  "closed_between_exhibitions": false,
+  "notes": "adult_price 300 は庭園入園料（美術館観覧は展覧会ごとに別料金、大人400円〜）。特別展の会期・料金は検索結果で確認し、公式サイトの展覧会ページでは日付を読めなかったため confidence は medium。",
+  "confidence": "medium"
+}

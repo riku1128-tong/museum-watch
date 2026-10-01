@@ -1,6 +1,6 @@
 {
   "id": "Q11399536",
-  "checked_at": "2026-09-30T09:13:11+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "総合展示室リニューアルのため休館中（2025年10月23日〜2026年11月2日予定）。忠節橋展示場の個別情報は公式サイトから確認できなかったため、本館の休館状況に準ずる。",
@@ -12,13 +12,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -59,6 +69,6 @@
   ],
   "highlights": "岐阜市歴史博物館に付属する忠節橋展示場。忠節橋周辺の歴史や文化を紹介する小規模な展示施設。現在は本館の総合展示室リニューアルに伴い休館中。",
   "closed_between_exhibitions": false,
-  "notes": "岐阜市歴史博物館本館（rekihaku.gifu.gifu.jp）のリニューアルに伴い2026年11月2日まで休館予定。忠節橋展示場の個別の開館状況は未確認。",
+  "notes": "岐阜市歴史博物館本館（rekihaku.gifu.gifu.jp）のリニューアルに伴い2026年11月2日まで休館予定。忠節橋展示場の個別の開館状況は未確認。 2026-10-02再確認: 公式・検索とも忠節橋展示場の記載は見つからず（本館の情報で代用）。",
   "confidence": "medium"
 }

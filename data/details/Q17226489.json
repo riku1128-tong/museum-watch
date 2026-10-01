@@ -1,0 +1,75 @@
+{
+  "id": "Q17226489",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.kamiya-muse.or.jp/",
+  "address": "〒475-0017 愛知県半田市有脇町10-8-9",
+  "source_urls": [
+    "http://www.kamiya-muse.or.jp/newpage1.html",
+    "http://www.kamiya-muse.or.jp/newpage2.html",
+    "http://www.kamiya-muse.or.jp/newpage4.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "wed",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:00"
+    }
+  ],
+  "closed_weekdays": [
+    "tue",
+    "thu"
+  ],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "「シュルレアリスム」版画展",
+      "start": "2026-09-05",
+      "end": "2026-12-23",
+      "url": "http://www.kamiya-muse.or.jp/newpage2.html",
+      "kind": "special",
+      "summary": "ミロ、マン・レイ、マグリット、エルンストらの版画",
+      "recommend": null,
+      "admission": "大人 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "日本作家の版画展",
+      "start": "2027-01-04",
+      "end": "2027-03-28",
+      "url": "http://www.kamiya-muse.or.jp/newpage2.html",
+      "kind": "special",
+      "summary": "日本作家の版画",
+      "recommend": null,
+      "admission": "大人 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "亀崎",
+      "lines": "JR武豊線",
+      "exit": null,
+      "walk_min": 30,
+      "note": "徒歩約30分（1.9km）、タクシー約10分"
+    }
+  ],
+  "highlights": "1983年開館の公益財団法人の美術館。北川民次を中心に、梅原龍三郎や林武ら日本の近代洋画を収蔵する。別館「南吉の家」では新美南吉ゆかりの旧宅も見られる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（HTTP、Shift_JIS）を curl で読めた。開館10〜16時、休館は火・木曜と企画展掛け替え期間（年3回、各2週間、日付の記載なし）。入館料は大人500円・小中高生300円。祝日の扱いは記載なし。展示は公式の展示案内ページによる。",
+  "confidence": "medium"
+}

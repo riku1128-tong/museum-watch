@@ -1,6 +1,6 @@
 {
   "id": "Q11595537",
-  "checked_at": "2026-09-30T09:05:25+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,12 +11,21 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
       "open": "08:30",
       "close": "17:15"
     }
   ],
-  "closed_weekdays": ["sat", "sun"],
+  "closed_weekdays": [
+    "sat",
+    "sun"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "closed",
   "special_closures": [],

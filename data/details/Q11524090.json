@@ -1,6 +1,6 @@
 {
   "id": "Q11524090",
-  "checked_at": "2026-09-30T09:05:27+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -14,9 +14,25 @@
     "https://www.tokyoartbeat.com/events/-/Seeds-and-Roots-How-to-Cultivate-a-City/92-D81763/2026-10-17"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "19:00", "last_entry": "18:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "11:00",
+      "close": "19:00",
+      "last_entry": "18:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -59,7 +75,13 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "初台", "lines": "京王新線", "exit": "東口", "walk_min": 3, "note": "東京オペラシティビルに地下直結"}
+    {
+      "station": "初台",
+      "lines": "京王新線",
+      "exit": "東口",
+      "walk_min": 3,
+      "note": "東京オペラシティビルに地下直結"
+    }
   ],
   "highlights": "京王新線・初台駅直結の東京オペラシティビル内に位置するコンテンポラリーアートの拠点。常設展なく企画展のみで運営し、国内外の現代美術家の意欲作を紹介する。同時開催の収蔵品展（寺田コレクション）とproject N（若手アーティスト個展）も見どころ。展示替え期間中は休館。",
   "closed_between_exhibitions": true,

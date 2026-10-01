@@ -1,8 +1,7 @@
 {
   "id": "Q11384799",
-  "checked_at": "2026-09-30T09:22:26+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
-  "check_mode": "full",
   "operating_status": "operating",
   "address": "〒418-0067 静岡県富士宮市宮町5-12",
   "source_urls": [
@@ -12,13 +11,31 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     },
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "18:00",
       "last_entry": "17:30",
@@ -28,7 +45,12 @@
   ],
   "closed_weekdays": [],
   "closed_nth_weekdays": [
-    {"weekday": "tue", "nth": [3]}
+    {
+      "weekday": "tue",
+      "nth": [
+        3
+      ]
+    }
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [

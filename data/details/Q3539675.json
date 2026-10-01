@@ -1,7 +1,7 @@
 {
   "id": "Q3539675",
-  "checked_at": "2026-09-30T09:15:56+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:58:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.domonken-kinenkan.jp/",
@@ -11,9 +11,25 @@
     "https://www.city.sakata.lg.jp/bunka/geijyutsu/bunkashisetsu/dmonken_kinenkan.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -34,7 +50,13 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "酒田", "lines": "JR羽越本線", "exit": null, "walk_min": null, "note": "酒田駅からるんるんバス大学線で約16分「土門拳記念館前」下車、またはタクシー約10分"}
+    {
+      "station": "酒田",
+      "lines": "JR羽越本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "酒田駅からるんるんバス大学線で約16分「土門拳記念館前」下車、またはタクシー約10分"
+    }
   ],
   "highlights": "昭和を代表する写真家・土門拳の作品を専門に収蔵・展示する世界初の写真専門美術館。イサム・ノグチが手がけた石庭と吉村順三設計の建物が酒田の自然に溶け込み、境内のような静けさの中でリアリズム写真の巨匠の世界を体験できる。",
   "closed_between_exhibitions": false,

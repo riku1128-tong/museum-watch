@@ -1,6 +1,6 @@
 {
   "id": "Q5157831",
-  "checked_at": "2026-09-30T09:35:00+09:00",
+  "checked_at": "2026-10-02T08:31:57+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,23 +13,61 @@
     "https://okawamuseum.jp/event.php"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-14", "to": "2026-10-09", "reason": "展示作品入れ替えのため休館"}
+    {
+      "from": "2026-09-14",
+      "to": "2026-10-09",
+      "reason": "展示作品入れ替えのため休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [],
   "adult_price": 1200,
   "access": [
-    {"station": "桐生", "lines": "JR両毛線", "exit": null, "walk_min": 13, "note": null},
-    {"station": "西桐生", "lines": "上毛電鉄", "exit": null, "walk_min": 8, "note": null},
-    {"station": "新桐生", "lines": "東武伊勢崎線", "exit": null, "walk_min": null, "note": "タクシーで10分"}
+    {
+      "station": "桐生",
+      "lines": "JR両毛線",
+      "exit": null,
+      "walk_min": 13,
+      "note": null
+    },
+    {
+      "station": "西桐生",
+      "lines": "上毛電鉄",
+      "exit": null,
+      "walk_min": 8,
+      "note": null
+    },
+    {
+      "station": "新桐生",
+      "lines": "東武伊勢崎線",
+      "exit": null,
+      "walk_min": null,
+      "note": "タクシーで10分"
+    }
   ],
   "highlights": "桐生市出身の実業家・大川栄二が約40年かけて収集した日本・海外の美術コレクションを収蔵する私立美術館。水道山の中腹という高台に建ち、市街を見晴らせる立地で「逢いたいときにいつでも逢える名画の館」を掲げている。",
   "closed_between_exhibitions": true,
-  "notes": "休館日は「月曜日（祝日、振替休日の場合開館、翌火曜日休館）」。2026/9/14〜10/9は展示替えのため休館中（会期途中の本日9/28時点も休館期間内）。直前の企画「シュルレアリスムの時代」は9/13に終了し、10/10以降の次回展の詳細は公式サイト・検索とも確認できなかったため exhibitions は空欄とした。次回の情報は10月の再訪時に確認予定。",
+  "notes": "休館日は「月曜日（祝日、振替休日の場合開館、翌火曜日休館）」。2026/9/14〜10/9は展示替えのため休館中。10/10以降の次回展は10/2時点でも公式サイト・検索で確認できなかったため exhibitions は空欄。",
   "confidence": "medium"
 }

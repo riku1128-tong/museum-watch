@@ -1,6 +1,6 @@
 {
   "id": "Q11663204",
-  "checked_at": "2026-09-30T09:28:58+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -14,9 +14,25 @@
     "https://spmoa.shizuoka.shizuoka.jp/exhibition/detail/139"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:30", "last_entry": "17:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:30",
+      "last_entry": "17:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -47,8 +63,19 @@
   "highlights": "日本平のふもとにある静岡県の美術館。ロダン館でロダン彫刻32点を常設展示するのが最大の特徴で、マイヨールやブランクーシなど近代彫刻史も概観できる。伊藤若冲の《樹花鳥獣図屏風》や富士山絵画など静岡ゆかりの名品も多数所蔵。",
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "草薙", "lines": "JR東海道本線", "exit": "南口（県大・美術館口）", "walk_min": 25, "note": "バス利用の場合は草薙美術館線で約6分「県立美術館」下車"},
-    {"station": "県立美術館前", "lines": "静岡鉄道静岡清水線", "walk_min": 15, "note": "バス利用の場合は約3分「県立美術館」下車"}
+    {
+      "station": "草薙",
+      "lines": "JR東海道本線",
+      "exit": "南口（県大・美術館口）",
+      "walk_min": 25,
+      "note": "バス利用の場合は草薙美術館線で約6分「県立美術館」下車"
+    },
+    {
+      "station": "県立美術館前",
+      "lines": "静岡鉄道静岡清水線",
+      "walk_min": 15,
+      "note": "バス利用の場合は約3分「県立美術館」下車"
+    }
   ],
   "notes": "休館日は「月曜日（祝日の場合開館・翌日休館）」。NHK日曜美術館50年展・新収蔵品展はいずれも2026年9月27日で会期終了のため今回は掲載から外した（10/10からゴールドマンコレクション河鍋暁斎の世界・山水画の名品が開幕。9/28〜10/9は次回展待ちの端境期）。2027年1月23日開幕の「開館40周年記念展 おかげさまで展」は3か月超先のため未掲載。",
   "confidence": "high"

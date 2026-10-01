@@ -1,0 +1,28 @@
+{
+  "id": "Q17193123",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "2025年6月30日閉館",
+  "official_url": "https://www.ise-muse.com/",
+  "address": null,
+  "source_urls": [
+    "https://www.ise-muse.com/",
+    "https://www.ise-muse.com/closure-notice"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトに「2025年6月30日をもって閉館」と告知（2003年開館）。",
+  "confidence": "high"
+}

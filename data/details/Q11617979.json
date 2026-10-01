@@ -1,0 +1,62 @@
+{
+  "id": "Q11617979",
+  "checked_at": "2026-10-02T08:34:02+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒633-0112 奈良県桜井市初瀬857",
+  "source_urls": [
+    "https://ja.wikipedia.org/wiki/茶房長谷路",
+    "https://www.the-kansai-guide.com/ja/directory/item/21033/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "長谷路版画土蔵館 常設展",
+      "start": "2026-10-02",
+      "end": "2027-10-02",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。谷中安規・棟方志功らの版画約40点を内蔵で常設展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "長谷寺",
+      "lines": "近鉄大阪線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    }
+  ],
+  "highlights": "長谷寺の参道に面した和風建築で、座敷から中庭の日本庭園を眺められるカフェ・レストランに版画の土蔵館を併設する。内蔵では桜井市出身の版画家・谷中安規や棟方志功らの作品約40点を見られる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトが見つからず、Wikipedia と検索結果の要約で確認。休館日は4月・5月・11月は無休、夏期・冬期は水曜、不定休ありとされるが、期間の区切りと実際の休業日は未確認のため closed_weekdays は空にした。入館料も未確認。 再挑戦: 公式サイトは検索でも見つからず。関西ガイドは10:00〜17:00（最終入館16:00）・不定休とあり Wikipedia の10:00〜16:30と食い違うため、時間は変更せず。",
+  "confidence": "low"
+}

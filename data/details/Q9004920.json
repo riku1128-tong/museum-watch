@@ -1,0 +1,74 @@
+{
+  "id": "Q9004920",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.osaka-art-museum.jp/",
+  "address": "〒543-0063 大阪府大阪市天王寺区茶臼山町1-82（天王寺公園内）",
+  "source_urls": [
+    "https://www.osaka-art-museum.jp/",
+    "https://www.osaka-art-museum.jp/information",
+    "https://www.osaka-art-museum.jp/special_exhibition/mindai",
+    "https://www.osaka-art-museum.jp/access"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "躍動する明代の書－台北・何創時（かそうじ）コレクションの至宝",
+      "start": "2026-10-09",
+      "end": "2026-12-20",
+      "url": "https://www.osaka-art-museum.jp/special_exhibition/mindai",
+      "kind": "special",
+      "summary": "台北・何創時コレクションの明代の書82件を紹介する特別展",
+      "recommend": "明代中期から明末清初の書に焦点をあて、約9割の72件が日本初公開。個性あふれる筆墨の躍動を、台北の財団が集めた名品でたどれる。",
+      "admission": "一般 2,000円（前売 1,800円）",
+      "adult_price": 2000
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "天王寺",
+      "lines": "Osaka Metro御堂筋線・谷町線、JR",
+      "exit": "御堂筋線は西改札",
+      "walk_min": null,
+      "note": "駅から北西へ約400m（天王寺公園内）"
+    }
+  ],
+  "highlights": "天王寺公園内に建つ、国宝1件・重要文化財54件を含む約8,700件を所蔵する市立美術館。中国の書画・彫刻の世界的なコレクションと日本の古美術・工芸が柱で、旧住友家本邸跡という敷地も特徴。",
+  "closed_between_exhibitions": false,
+  "notes": "観覧料は展覧会ごと。企画展示は一般500円など。特別展期間中も10/12・11/23の月曜祝日は開館、翌10/13・11/24は休室（規則どおり）。常設展の料金は未確認のため adult_price は null。",
+  "confidence": "high"
+}

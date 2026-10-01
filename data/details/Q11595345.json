@@ -1,6 +1,6 @@
 {
   "id": "Q11595345",
-  "checked_at": "2026-09-30T09:08:12+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,7 +13,16 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "16:30",
       "last_entry": "16:15"
@@ -43,6 +52,17 @@
       "kind": "special",
       "summary": "赤れんが郷土館と秋田公立美術大学の連携企画展。現役クリエーターの作品と秋田の歴史・文化",
       "recommend": "秋田公立美術大学の教員らが秋田の歴史・文化と向き合い制作した作品を展示。地域固有のアートを通じて伝統の継承と現代の創造力との接点が体感できる企画展。",
+      "admission": "一般 310円",
+      "adult_price": 310
+    },
+    {
+      "title": "勝平コレクション　版画で名所めぐり（前期）",
+      "start": "2026-12-12",
+      "end": "2027-02-28",
+      "url": null,
+      "kind": "special",
+      "summary": "版画家・勝平得之のコレクションから日本各地の名所を描いた版画を紹介",
+      "recommend": "木版画・石版画・銅板画など多彩な技法で描かれた各地の名所を、勝平得之のコレクションでたどる企画。版画の技法の違いも見比べられる。",
       "admission": "一般 310円",
       "adult_price": 310
     },

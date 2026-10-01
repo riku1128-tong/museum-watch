@@ -1,0 +1,91 @@
+{
+  "id": "Q11190936",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://bbpmuseum.jp/",
+  "address": "〒657-0845 神戸市灘区岩屋中町4丁目2番7号 BBプラザ2F",
+  "source_urls": [
+    "https://bbpmuseum.jp/",
+    "https://bbpmuseum.jp/outline/info",
+    "https://bbpmuseum.jp/exhibition/%e4%b8%8a%e5%89%8d%e6%99%ba%e7%a5%90%e3%81%ae%e8%87%aa%e7%94%bb%e9%81%93-2"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "上前智祐の自画道",
+      "start": "2026-09-15",
+      "end": "2026-11-08",
+      "url": "https://bbpmuseum.jp/exhibition/%e4%b8%8a%e5%89%8d%e6%99%ba%e7%a5%90%e3%81%ae%e8%87%aa%e7%94%bb%e9%81%93-2",
+      "kind": "special",
+      "summary": "具体美術協会の上前智祐。1975年からの「縫い」の作品に焦点",
+      "recommend": "具体美術協会に草創期から在籍した上前智祐が、1975年に始めた「縫い」の作品を軸に紹介。点や線が積み重なる色彩と質感を間近で味わえる。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [
+    {
+      "from": "2026-11-01",
+      "to": "2026-11-01",
+      "scope": "partial",
+      "targets": [
+        "上前智祐"
+      ],
+      "reason": "11/1は入館無料",
+      "source_url": "https://bbpmuseum.jp/exhibition/%e4%b8%8a%e5%89%8d%e6%99%ba%e7%a5%90%e3%81%ae%e8%87%aa%e7%94%bb%e9%81%93-2"
+    }
+  ],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "岩屋",
+      "lines": "阪神本線",
+      "exit": null,
+      "walk_min": 1,
+      "note": "改札を出てすぐ南側"
+    },
+    {
+      "station": "灘",
+      "lines": "JR神戸線",
+      "exit": null,
+      "walk_min": 3,
+      "note": null
+    },
+    {
+      "station": "王子公園",
+      "lines": "阪急神戸線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "祝日の場合は翌火曜休館。年末年始・展示替え期間も休館（日付は未確認）。館の紹介文が読めず見どころは未記入。",
+  "confidence": "high"
+}

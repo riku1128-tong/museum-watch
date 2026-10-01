@@ -1,6 +1,6 @@
 {
   "id": "Q11306065",
-  "checked_at": "2026-09-30T09:31:55+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -13,12 +13,32 @@
     "https://sunritz-hattori-museum.or.jp/pages/265/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "16:30", "last_entry": "16:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-09-28", "to": "2026-10-03", "reason": "展示替え休館（前期→後期）"}
+    {
+      "from": "2026-09-28",
+      "to": "2026-10-03",
+      "reason": "展示替え休館（前期→後期）"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -48,7 +68,13 @@
   "closed_between_exhibitions": false,
   "adult_price": 1100,
   "access": [
-    {"station": "上諏訪", "lines": "JR中央本線", "exit": null, "walk_min": 15, "note": null}
+    {
+      "station": "上諏訪",
+      "lines": "JR中央本線",
+      "exit": null,
+      "walk_min": 15,
+      "note": null
+    }
   ],
   "highlights": "諏訪湖岸に立つ東洋・西洋の美術を収蔵する私立美術館。創業者・服部一郎が収集した近現代の西洋絵画、茶道具、漆工・陶磁器など幅広いコレクションを展示。諏訪湖を望むロケーションと洗練された展示空間が特徴で、年2回の企画展を中心に運営する。",
   "notes": "休館日は「祝日を除く月曜日・年末年始・展示替え期間・館内整理期間」。祝日が月曜の場合は開館し振替休館の記載なし（holiday_rule: open）。特別企画展「未来へつなぐ美」の入館料は公式未確認（別途料金の可能性あり）。「私室に飾る 私室を描く」は前期（4/26〜9/27）・後期（10/4〜2027/4/11）の二期制で、展示替え休館9/28〜10/3をはさむ。",

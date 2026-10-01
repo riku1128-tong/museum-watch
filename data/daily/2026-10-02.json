@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T08:24+09:00",
+  "generated_at": "2026-10-02T08:35+09:00",
   "date": "2026-10-02",
   "weekday": "金",
   "holiday": null,
@@ -110,7 +110,20 @@
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30",
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "ナラハク仏像セレクション―受け継ぎ、未来へ―",
+          "start": "2026-09-15",
+          "end": "2027-09-15",
+          "url": "https://www.narahaku.go.jp/exhibition/usual/202609_butsuzo_selection/",
+          "kind": "collection",
+          "summary": "館蔵・寄託の仏像から選りすぐり、仏教美術と奈良の歴史を紹介（青銅器館2階・会期終了日未定のため通年扱い）",
+          "admission": "無料",
+          "price": 0,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
       "needs_check": false,
       "free": null
@@ -165,14 +178,40 @@
     },
     {
       "id": "Q1055037",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30",
+      "exhibitions": [
+        {
+          "title": "笹本晃　ラボラトリー",
+          "start": "2026-07-19",
+          "end": "2026-11-03",
+          "url": "https://www.nmao.go.jp/events/event/20260719_sasamoto-aki/",
+          "kind": "special",
+          "summary": "糸や管、日用品、音などを組み合わせる笹本晃のインスタレーション展",
+          "admission": "一般 1,800円",
+          "price": 1800,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "コレクション1：私／行為",
+          "start": "2026-07-19",
+          "end": "2026-11-03",
+          "url": "https://www.nmao.go.jp/events/event/collection20260719/",
+          "kind": "collection",
+          "summary": "開館50周年記念プレ企画。セザンヌから1960年代半ばまでの作品で「私」と「行為」を考える",
+          "admission": "一般 430円",
+          "price": 430,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q1359908",
@@ -380,6 +419,18 @@
       "last_entry": "16:30",
       "exhibitions": [
         {
+          "title": "mima移動美術館2026 in 知事公館",
+          "start": "2026-04-27",
+          "end": "2027-03-31",
+          "url": "https://artmuseum.pref.hokkaido.lg.jp/mkb/exhibition/program/359",
+          "kind": "special",
+          "summary": "知事公館（北1条西16丁目）での移動美術館展示「好太郎の部屋」",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        },
+        {
           "title": "第2期所蔵品展「好太郎をめぐる7人の男と女」",
           "start": "2026-09-20",
           "end": "2026-12-10",
@@ -553,6 +604,12 @@
           "start": "2026-10-10",
           "end": "2027-01-11",
           "url": "https://artpark.or.jp/tenrankai-event/5ukiyoeshi/"
+        },
+        {
+          "title": "札幌芸術の森美術館所蔵品展 五十嵐威暢 アニマルイラストレーション",
+          "start": "2026-10-10",
+          "end": "2027-01-11",
+          "url": "https://artpark.or.jp/tenrankai/"
         }
       ],
       "needs_check": false,
@@ -921,7 +978,7 @@
           "title": "Art to You！障がい者芸術世界展 IN しちのへ 2026",
           "start": "2026-10-03",
           "end": "2026-10-25",
-          "url": "https://www.takayamamuseum.jp/next_exhibition/"
+          "url": "https://www.takayamamuseum.jp/current_exhibition/"
         }
       ],
       "needs_check": false,
@@ -1369,6 +1426,12 @@
           "start": "2026-10-10",
           "end": "2026-12-06",
           "url": null
+        },
+        {
+          "title": "第Ⅲ期 コレクション展",
+          "start": "2026-10-10",
+          "end": "2026-12-06",
+          "url": null
         }
       ],
       "needs_check": false,
@@ -1474,11 +1537,11 @@
     },
     {
       "id": "Q2655386",
-      "status": "open",
-      "reason": null,
-      "open": "09:30",
-      "close": "17:00",
-      "last_entry": "16:30",
+      "status": "closed",
+      "reason": "展示替えのため休館（公式トップに「展示替えのため休館中」。日付は展示の会期から）",
+      "open": null,
+      "close": null,
+      "last_entry": null,
       "exhibitions": [
         {
           "title": "伊東直子 マイセン磁器コレクション",
@@ -1572,7 +1635,7 @@
           "title": "絵師も動物も、人気モノ勢揃い 動物たちの浮世絵",
           "start": "2026-10-10",
           "end": "2026-12-13",
-          "url": null
+          "url": "https://www.city.tochigi.lg.jp/site/museum-tcam/92628.html"
         },
         {
           "title": "収蔵品展 3",
@@ -1829,23 +1892,10 @@
       "id": "wp-acd8e196",
       "status": "open",
       "reason": null,
-      "open": "09:30",
+      "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30",
-      "exhibitions": [
-        {
-          "title": "妙義山を描く絵画展 大賞・優秀作品展示",
-          "start": "2026-01-01",
-          "end": "2027-09-29",
-          "url": null,
-          "kind": "collection",
-          "summary": "通年。妙義山を描く絵画展の大賞・優秀作品を常時展示。3階は360度パノラマ展示写生ホール",
-          "admission": "一般 300円",
-          "price": 300,
-          "open": null,
-          "close": null
-        }
-      ],
+      "exhibitions": [],
       "upcoming": [],
       "needs_check": false,
       "free": null
@@ -1926,11 +1976,11 @@
     },
     {
       "id": "Q11617518",
-      "status": "open",
-      "reason": null,
-      "open": "09:30",
-      "close": "17:00",
-      "last_entry": "16:30",
+      "status": "closed",
+      "reason": "休館（公式トップに本日休館と表示）",
+      "open": null,
+      "close": null,
+      "last_entry": null,
       "exhibitions": [],
       "upcoming": [
         {
@@ -2311,7 +2361,20 @@
       "open": "10:00",
       "close": "17:00",
       "last_entry": null,
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "第14回市原湖畔美術館子ども絵画展",
+          "start": "2026-09-01",
+          "end": "2026-10-09",
+          "url": "https://lsm-ichihara.jp/exhibition/kodomo14bosyu/",
+          "kind": "other",
+          "summary": "子ども絵画展の作品募集（9/1〜10/9）",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [
         {
           "title": "2026年度第2.3回深沢幸雄と文学の世界",
@@ -3520,18 +3583,38 @@
       "open": "10:00",
       "close": "16:00",
       "last_entry": "15:30",
-      "exhibitions": [],
-      "upcoming": [],
+      "exhibitions": [
+        {
+          "title": "2026尚美展企画展～文化部作品展～",
+          "start": "2026-09-27",
+          "end": "2026-10-25",
+          "url": "https://www.kogei-h.tym.ed.jp/archives/21097",
+          "kind": "special",
+          "summary": "高岡工芸高校の文化部による作品展",
+          "admission": "無料",
+          "price": 0,
+          "open": "10:00",
+          "close": "16:00"
+        }
+      ],
+      "upcoming": [
+        {
+          "title": "第119回 尚美展",
+          "start": "2026-10-16",
+          "end": "2026-10-17",
+          "url": "https://www.kogei-h.tym.ed.jp/archives/21101"
+        }
+      ],
       "needs_check": false,
       "free": null
     },
     {
       "id": "Q28687423",
-      "status": "open",
-      "reason": null,
-      "open": "09:30",
-      "close": "16:30",
-      "last_entry": "16:00",
+      "status": "closed",
+      "reason": "展示替え休館",
+      "open": null,
+      "close": null,
+      "last_entry": null,
       "exhibitions": [
         {
           "title": "《infinity～mirage》プロジェクト",
@@ -4145,14 +4228,14 @@
       "last_entry": "18:00",
       "exhibitions": [
         {
-          "title": "志野ヶ原人形劇 NHK文化講演会記念展示",
+          "title": "企画展③ 木曾源氏",
           "start": "2026-09-12",
           "end": "2026-11-29",
-          "url": null,
+          "url": "http://www.kawamoto-iida.com/tenji/index.html",
           "kind": "special",
-          "summary": "NHK文化講演会で放映された志野ヶ原人形劇の関連展示",
-          "admission": null,
-          "price": null,
+          "summary": "平家物語の木曾義仲と巴・今井兼平ら木曾源氏の人形と背景を紹介",
+          "admission": "一般 400円",
+          "price": 400,
           "open": null,
           "close": null
         },
@@ -4350,8 +4433,8 @@
       "status": "open",
       "reason": null,
       "open": "09:00",
-      "close": "17:00",
-      "last_entry": "16:30",
+      "close": "16:30",
+      "last_entry": "16:00",
       "exhibitions": [],
       "upcoming": [],
       "needs_check": false,
@@ -4557,6 +4640,18 @@
       "close": "17:00",
       "last_entry": null,
       "exhibitions": [
+        {
+          "title": "おぶせミュージアム・中島千波館×長野県立美術館 交流名品展 「信州のダイナミズム―疎開画家たちの作品を中心に」",
+          "start": "2026-08-08",
+          "end": "2026-10-05",
+          "url": "https://nagano.art.museum/exhibition/kouryuten2026",
+          "kind": "special",
+          "summary": "信州ゆかりの作家や疎開画家の近代・戦時中・戦後の作品を紹介。中島清之の特別展示も同時開催",
+          "admission": "一般800円",
+          "price": 800,
+          "open": null,
+          "close": null
+        },
         {
           "title": "中島千波・春山文典コレクション常設展",
           "start": "2026-01-01",
@@ -4885,18 +4980,6 @@
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30",
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false,
-      "free": null
-    },
-    {
-      "id": "Q48747109",
-      "status": "closed",
-      "reason": "施設老朽化に伴う市公共施設再編のため2026年3月31日に閉館。守屋多々志作品の企画展・ワークショップ・講座は大垣市スイトピアセンターで継続開催",
-      "open": null,
-      "close": null,
-      "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
       "needs_check": false,
@@ -5261,7 +5344,14 @@
       "close": "17:00",
       "last_entry": "16:30",
       "exhibitions": [],
-      "upcoming": [],
+      "upcoming": [
+        {
+          "title": "長江錄彌生誕100年記念特別企画展「父子二代に連なる創作の世界」",
+          "start": "2026-10-03",
+          "end": "2026-12-20",
+          "url": "https://www.seto-cul.jp/culture-center/event.html"
+        }
+      ],
       "needs_check": false,
       "free": null
     },
@@ -5403,36 +5493,138 @@
     },
     {
       "id": "Q11357837",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "ルーシー・リー展―東西をつなぐ優美のうつわ―",
+          "start": "2026-09-26",
+          "end": "2026-12-13",
+          "url": "https://www.bunka.pref.mie.lg.jp/art-museum/000314637.htm",
+          "kind": "special",
+          "summary": "陶芸家ルーシー・リーの優美なうつわを紹介",
+          "admission": "一般 1,200円",
+          "price": 1200,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "Y² project 水野勝規 刻まれるとき、揺らぐかたち",
+          "start": "2026-09-01",
+          "end": "2026-12-27",
+          "url": null,
+          "kind": "special",
+          "summary": "柳原義達記念館での水野勝規の展示",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "美術館のコレクションⅢ",
+          "start": "2026-09-08",
+          "end": "2026-12-27",
+          "url": null,
+          "kind": "collection",
+          "summary": "所蔵作品によるコレクション展",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11564683",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "丸木スマ展　73歳からのアーティスト",
+          "start": "2026-09-11",
+          "end": "2026-11-23",
+          "url": "https://www.shigamuseum.jp/exhibitions/12995/",
+          "kind": "special",
+          "summary": "73歳から絵を描き始めた丸木スマの身近な自然や生き物を描いた作品を紹介",
+          "admission": "一般 1,200円",
+          "price": 1200,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "時間はかたち？",
+          "start": "2026-09-05",
+          "end": "2026-11-23",
+          "url": "https://www.shigamuseum.jp/exhibitions/14578/",
+          "kind": "collection",
+          "summary": "コレクション展",
+          "admission": "一般 570円",
+          "price": 570,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "小倉遊亀コーナー",
+          "start": "2026-02-25",
+          "end": "2027-04-04",
+          "url": "https://www.shigamuseum.jp/exhibitions/13627/",
+          "kind": "collection",
+          "summary": "小倉遊亀の作品を紹介する常設コーナー",
+          "admission": "一般 570円",
+          "price": 570,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11564689",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "特別展「シガラキ・ニューウェーブ：ひろがる創造のいま」",
+          "start": "2026-09-12",
+          "end": "2026-12-13",
+          "url": "https://www.sccp.jp/exhibitions/21527/",
+          "kind": "special",
+          "summary": "2010年以降に信楽・伊賀を拠点とする17名のアーティストの表現を紹介",
+          "admission": "一般 1,100円",
+          "price": 1100,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "陶芸館ギャラリー展示「AIR－名品セレクション展Ⅰ」",
+          "start": "2026-09-12",
+          "end": "2026-10-12",
+          "url": null,
+          "kind": "other",
+          "summary": "陶芸館ギャラリーでの名品セレクション展",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3330657",
@@ -5460,7 +5652,7 @@
           "title": "コレクションルーム 特集「美術館物語　市美の産声」（秋期）",
           "start": "2026-10-09",
           "end": "2026-12-13",
-          "url": "https://kyotocity-kyocera.museum/exhibition/20260320-20270314"
+          "url": "https://kyotocity-kyocera.museum/exhibition/20261009-20261213"
         }
       ],
       "needs_check": false,
@@ -5512,14 +5704,15 @@
     },
     {
       "id": "Q11594325",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11445231",
@@ -5560,19 +5753,27 @@
     },
     {
       "id": "wp-767cae4e",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
+      "status": "open",
+      "reason": null,
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
       "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "upcoming": [
+        {
+          "title": "第3回　書で巡る　まほろば展",
+          "start": "2026-10-03",
+          "end": "2026-10-25",
+          "url": "https://sugiokakason.com/exhibition.html"
+        }
+      ],
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11388956",
       "status": "closed",
-      "reason": "改修工事のため長期休館",
+      "reason": "改修工事のため2027年3月15日まで休館中。期間中の企画展はならまちセンター3階会議室で実施",
       "open": null,
       "close": null,
       "last_entry": null,
@@ -5608,80 +5809,134 @@
     },
     {
       "id": "wp-35bc875e",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "21:00",
       "last_entry": null,
       "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "upcoming": [
+        {
+          "title": "生誕120年記念 須田剋太展 私は造型になりたい！",
+          "start": "2026-10-16",
+          "end": "2026-11-14",
+          "url": "https://www.enokojima-art.jp/sudakokuta120/"
+        }
+      ],
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q9004920",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30",
       "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "upcoming": [
+        {
+          "title": "躍動する明代の書－台北・何創時（かそうじ）コレクションの至宝",
+          "start": "2026-10-09",
+          "end": "2026-12-20",
+          "url": "https://www.osaka-art-museum.jp/special_exhibition/mindai"
+        }
+      ],
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q50375431",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "展示替えのため展示室休室（公式「当館のご利用について」）",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "upcoming": [
+        {
+          "title": "ＮＨＫ日曜美術館５０年展",
+          "start": "2026-10-10",
+          "end": "2026-12-20",
+          "url": "https://nakka-art.jp/exhibition-post/nichibiten50/"
+        }
+      ],
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11440555",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "2027年4月頃まで改修工事のため休館中（カフェは営業）",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "wp-895b7e10",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "17:15",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "ミュシャ芸術博覧会リターンズ",
+          "start": "2026-08-01",
+          "end": "2026-11-29",
+          "url": "https://mucha.sakai-bunshin.com/event/mucha2026ex2/",
+          "kind": "special",
+          "summary": "ポスター・油彩・壁画・彫刻・ジュエリーなど多彩なミュシャ作品を紹介する体験型の展覧会",
+          "admission": "一般 510円",
+          "price": 510,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11417787",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "初！全点一挙公開 久保惣の西洋絵画 ─モネ・ルノワール・ゴッホをはじめとして─",
+          "start": "2026-07-05",
+          "end": "2026-10-04",
+          "url": "https://www.ikm-art.jp/tenrankai/2026/04/202602.html",
+          "kind": "special",
+          "summary": "館所蔵の西洋絵画を初めて全点公開。モネ、ルノワール、ゴッホらの作品を展示",
+          "admission": "一般 1,000円",
+          "price": 1000,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11392878",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "16:00",
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3329607",
@@ -5717,36 +5972,78 @@
     },
     {
       "id": "Q11589991",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "生誕120年 三岸節子展",
+          "start": "2026-08-29",
+          "end": "2026-11-08",
+          "url": "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/koisogallery/migishisetsuko120.html",
+          "kind": "special",
+          "summary": "洋画家・三岸節子の生誕120年回顧展。代表作約70点と資料で生涯を5章でたどる（小磯良平作品選Ⅲを同時開催）",
+          "admission": "一般 1,200円",
+          "price": 1200,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11589762",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "19:30",
+      "last_entry": "17:30",
+      "exhibitions": [
+        {
+          "title": "特別展「水木しげる 魂の漫画展」",
+          "start": "2026-09-12",
+          "end": "2026-11-29",
+          "url": "https://www.fashionmuseum.jp/special/mizuki-shigeru/",
+          "kind": "special",
+          "summary": "『ゲゲゲの鬼太郎』の水木しげるの漫画原稿・原画・愛用の道具・映像資料を紹介する大規模回顧展",
+          "admission": "一般 1,400円",
+          "price": 1400,
+          "open": "10:00",
+          "close": "19:30"
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11589726",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "暮らしを描く -ちいさきものはみなうつくし-",
+          "start": "2026-09-21",
+          "end": "2026-11-23",
+          "url": "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/yukarimuseum/kurasiwoegaku.html",
+          "kind": "special",
+          "summary": "館のコレクションから、画家が日常の暮らしを描いた作品を紹介する企画展",
+          "admission": "一般 200円",
+          "price": 200,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11447532",
@@ -5761,125 +6058,214 @@
       "free": null
     },
     {
-      "id": "Q11447481",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
-    },
-    {
       "id": "Q11635883",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
+      "status": "open",
+      "reason": null,
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11471937",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "イヌイマサノリ展『絵とイラストレーション』",
+          "start": "2026-09-29",
+          "end": "2026-11-01",
+          "url": "https://www.nishiwaki-cs.or.jp/okanoyama-museum/atelier/20260425-1115.html",
+          "kind": "special",
+          "summary": "駆け出しの頃から現在までの絵と仕事のイラストレーションを展示するアトリエ展",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "子午線上のアートⅢ展 ―みんなのひみつの旅",
+          "start": "2026-07-26",
+          "end": "2026-12-06",
+          "url": "https://www.nishiwaki-cs.or.jp/okanoyama-museum/exhibition/20260220-1644.html",
+          "kind": "special",
+          "summary": "子午線上で活躍するイラストレーター・はるのいづみと風景画家・松本知佳の作品展",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11603687",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
+      "status": "open",
+      "reason": null,
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11393672",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "ゲンダイトウゲイ＊ミニ＊クロニクル－やきものはアートだ！",
+          "start": "2026-09-19",
+          "end": "2026-11-23",
+          "url": "https://www.mcart.jp/exhibition/e3803/",
+          "kind": "special",
+          "summary": "戦後の現代陶芸の立体作品を年代順に紹介。林康夫、走泥社ら",
+          "admission": "一般 1,300円",
+          "price": 1300,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "丹波焼の世界 season10",
+          "start": "2026-03-10",
+          "end": "2026-11-23",
+          "url": "https://www.mcart.jp/exhibition/e3805/",
+          "kind": "collection",
+          "summary": "田中寛コレクションの丹波焼、古陶磁、現代陶芸",
+          "admission": "一般 200円（特別展開催中は特別展料金に含む）",
+          "price": 200,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11380269",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "絵のいのちをつなぐ―修復作品―",
+          "start": "2026-08-30",
+          "end": "2026-10-18",
+          "url": "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/1004510/1038824.html",
+          "kind": "special",
+          "summary": "2022〜2025年に修復を終えた伊藤清永の7作品を、修復前後の比較写真や作業内容とともに紹介（B展示室）",
+          "admission": "一般 500円",
+          "price": 500,
+          "open": null,
+          "close": null
+        }
+      ],
+      "upcoming": [
+        {
+          "title": "第30回伊藤清永賞子ども絵画展",
+          "start": "2026-10-04",
+          "end": "2026-10-18",
+          "url": "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/1004510/1038319.html"
+        }
+      ],
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11368569",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "展示替え期間",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11407282",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "展示入替",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "upcoming": [
+        {
+          "title": "秋季特別展「銅鐸礼賛ー地宝を訪ねて和歌山ー」",
+          "start": "2026-10-03",
+          "end": "2026-11-29",
+          "url": "https://www.city.minamiawaji.hyogo.jp/soshiki/gyokuseikan/raisan3.html"
+        },
+        {
+          "title": "開館35周年記念「新館蔵品展ー巡縁3ー」",
+          "start": "2026-10-03",
+          "end": "2026-11-29",
+          "url": "https://www.city.minamiawaji.hyogo.jp/soshiki/gyokuseikan/35syuunenn.html"
+        }
+      ],
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11464999",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "文化棟・大ホール棟は2026年4月から休館中。白髪一雄記念室も2026年3月22日の展示終了をもって閉室。あましんアルカイックホール・オクトは営業",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q117635320",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30",
       "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "upcoming": [
+        {
+          "title": "酒にのまれ展",
+          "start": "2026-10-16",
+          "end": "2026-12-13",
+          "url": "https://itami-im.jp/exhibitions/%e9%85%92%e3%81%ab%e3%81%ae%e3%81%be%e3%82%8c%e5%b1%95/"
+        }
+      ],
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11535060",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30",
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11627626",
@@ -5908,47 +6294,108 @@
     },
     {
       "id": "Q11614836",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "展示替休館",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11417477",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "MOMAWコレクション　版画と美術散歩　第2期 ピカソ《泣く女》と―凹版の小道",
+          "start": "2026-09-12",
+          "end": "2026-10-18",
+          "url": "https://www.momaw.jp/exhibit/2026col_prints_2nd/",
+          "kind": "collection",
+          "summary": "所蔵版画から、ピカソ《泣く女》を起点に凹版表現の受容と深化をたどる",
+          "admission": "一般 400円",
+          "price": 400,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "MOMAWコレクション　絵画と彫刻",
+          "start": "2026-08-04",
+          "end": "2027-01-11",
+          "url": "https://www.momaw.jp/exhibit/2026col_painting_sculpture/",
+          "kind": "collection",
+          "summary": "和歌山ゆかりの作家を軸に、19世紀末から今日の内外美術を紹介",
+          "admission": "一般 400円",
+          "price": 400,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "和歌山県立近代美術館・博物館の建築とデザイン",
+          "start": "2026-05-30",
+          "end": "2027-03-28",
+          "url": "https://www.momaw.jp/exhibit/architecture_design/",
+          "kind": "other",
+          "summary": "黒川紀章設計の館の建築とデザインを模型・資料で紹介",
+          "admission": "無料",
+          "price": 0,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11568880",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "改修工事による長期休館",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "upcoming": [
+        {
+          "title": "近代日本画コレクション展「日本画表現の革新」",
+          "start": "2026-10-10",
+          "end": "2026-11-23",
+          "url": "https://abc0120.net/2026/09/30/230835/"
+        }
+      ],
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11577335",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "改修工事のため長期休館（10/10再開）",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "upcoming": [
+        {
+          "title": "小林古径―歴史と物語を描く",
+          "start": "2026-10-10",
+          "end": "2026-11-23",
+          "url": "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/index.html"
+        },
+        {
+          "title": "近代日本画コレクション展",
+          "start": "2026-10-10",
+          "end": "2026-11-23",
+          "url": "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/index.html"
+        }
+      ],
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q127385607",
@@ -6999,7 +7446,7 @@
     {
       "id": "Q3248015",
       "status": "closed",
-      "reason": "改修工事のため2025年11月10日から長期休館中。2027年4月頃に再開館予定。",
+      "reason": "改修工事のため2025年11月10日から長期休館中。2027年4月に再開館予定（公式トップに「2027年4月まで長期休館中」）。",
       "open": null,
       "close": null,
       "last_entry": null,
@@ -7172,11 +7619,11 @@
       "exhibitions": [
         {
           "title": "三栖右嗣 ―大地がもたらす美なる温かな恵み",
-          "start": "2026-09-14",
+          "start": "2026-09-15",
           "end": "2027-03-14",
-          "url": "https://www.yaoko-net.com/museum/",
+          "url": "https://www.yaoko-net.com/museum/blog/exhibitions/page52274.html",
           "kind": "collection",
-          "summary": "2026年秋・冬期展示。三栖右嗣の秋冬の植物・風景の大作を中心に紹介",
+          "summary": "三栖右嗣の秋冬の植物・風景の大作36点を中心に紹介（通期展示）",
           "admission": "一般 300円",
           "price": 300,
           "open": null,
@@ -7255,17 +7702,30 @@
       "open": "10:00",
       "close": "17:00",
       "last_entry": "16:30",
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "光が織りなす輝きのハーモニー・ガラス工芸展",
+          "start": "2026-05-15",
+          "end": "2026-10-17",
+          "url": "http://sgtmuseum.s2.xrea.com/",
+          "kind": "special",
+          "summary": "ガレ、ドーム、ルソー、ラリックなどのガラス作品を展示",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
       "needs_check": false,
       "free": null
     },
     {
       "id": "Q5878014",
-      "status": "open",
-      "reason": null,
-      "open": "10:00",
-      "close": "17:30",
+      "status": "closed",
+      "reason": "2026年8月13〜14日の豪雨による浸水被害のため、8月14日から当面の間臨時休館中（再開日は未発表）",
+      "open": null,
+      "close": null,
       "last_entry": null,
       "exhibitions": [
         {
@@ -8303,7 +8763,7 @@
           "end": "2026-12-06",
           "url": "https://www.lalique-museum.com/",
           "kind": "special",
-          "summary": "ルネ・ラリック作品から日仏の「かわいい」文化交流をたどる企画展",
+          "summary": "ラリックの作品を\"かわいい\"の視点で紹介し、竹久夢二ら同時代の日本の芸術家の作品も展示",
           "admission": "大人 1,500円",
           "price": 1500,
           "open": null,
@@ -8341,13 +8801,20 @@
     },
     {
       "id": "Q11499516",
-      "status": "open",
-      "reason": null,
-      "open": "10:00",
-      "close": "17:00",
-      "last_entry": "16:30",
+      "status": "closed",
+      "reason": "展示替え期間",
+      "open": null,
+      "close": null,
+      "last_entry": null,
       "exhibitions": [],
-      "upcoming": [],
+      "upcoming": [
+        {
+          "title": "近代陶芸の革新者　楠部彌弌展",
+          "start": "2026-10-05",
+          "end": "2026-12-12",
+          "url": "https://www.tsurui.co.jp/museum/exhibition/"
+        }
+      ],
       "needs_check": false,
       "free": null
     },
@@ -8452,18 +8919,18 @@
     },
     {
       "id": "Q55537764",
-      "status": "open",
-      "reason": null,
-      "open": "09:30",
-      "close": "16:30",
-      "last_entry": "16:00",
+      "status": "closed",
+      "reason": "展示替え等の臨時休館（公式カレンダー）",
+      "open": null,
+      "close": null,
+      "last_entry": null,
       "exhibitions": [],
       "upcoming": [
         {
-          "title": "企画展 上市町・西田美術館共同展Part2　－神の建築家－アントニ・ガウディ展",
+          "title": "没後100周年記念 ガウディへのオマージュ －ガウディから広がる造形世界－",
           "start": "2026-10-10",
           "end": "2026-11-23",
-          "url": null
+          "url": "https://www.nishida-museum.com/"
         }
       ],
       "needs_check": false,
@@ -8883,13 +9350,13 @@
     {
       "id": "Q11450773",
       "status": "closed",
-      "reason": "屋内外の改修工事のため休館中。公式サイト（www.jansen-museum.com）および旧URL（musee-de-jansem.jp）ともに接続不可。インターネットミュージアムと検索結果によれば2026年中の再開を目指しているが、具体的な再開日は未発表。",
+      "reason": "屋内外の工事のため休館中。2026年6月5日に休館期間の延長が告知され、2026年度中の開館を目指すが再開日は未発表",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": true,
+      "needs_check": false,
       "free": null
     },
     {
@@ -8934,8 +9401,8 @@
       "status": "open",
       "reason": null,
       "open": "09:00",
-      "close": "16:30",
-      "last_entry": "16:00",
+      "close": "17:00",
+      "last_entry": "16:30",
       "exhibitions": [
         {
           "title": "蓼科の森動物園～テディベアとその仲間たち～",
@@ -9222,6 +9689,18 @@
           "close": null
         },
         {
+          "title": "ギャラリー展示「ふと、おもいだす」",
+          "start": "2026-10-01",
+          "end": "2026-11-29",
+          "url": "https://www.verkehr-museum.jp/",
+          "kind": "other",
+          "summary": "ギャラリー展示",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        },
+        {
           "title": "常設展示（港と船の資料）",
           "start": "2026-09-30",
           "end": "2027-09-30",
@@ -9240,14 +9719,28 @@
     },
     {
       "id": "Q11551651",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "09:00",
+      "close": "17:00",
       "last_entry": null,
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "入江観展 空遙か",
+          "start": "2026-06-25",
+          "end": "2026-10-13",
+          "url": "https://ikeda20.or.jp/",
+          "kind": "special",
+          "summary": "洋画家・入江観の回顧展。日光の自然から茅ヶ崎の海景まで43点",
+          "admission": "一般 1,000円",
+          "price": 1000,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q843638",
@@ -9275,25 +9768,26 @@
       "free": null
     },
     {
-      "id": "Q6583120",
-      "status": "unknown",
-      "reason": "営業状況不明",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": true,
-      "free": null
-    },
-    {
       "id": "wp-9f789550",
       "status": "open",
       "reason": null,
       "open": "10:00",
       "close": "16:00",
       "last_entry": null,
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "象牙彫刻・彩石象嵌屏風 常設展示",
+          "start": "2026-10-02",
+          "end": "2027-10-02",
+          "url": "https://jewelpia.com/",
+          "kind": "collection",
+          "summary": "象牙彫刻120点と大型の彩石象嵌屏風、翡翠彫刻などを展示。通年",
+          "admission": "一般 1,200円",
+          "price": 1200,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
       "needs_check": false,
       "free": null
@@ -9598,267 +10092,499 @@
     },
     {
       "id": "Q11427745",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "13:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "医と120年 小紅葉子展-白衣の道と実践の変遷",
+          "start": "2026-05-29",
+          "end": "2027-01-17",
+          "url": "https://www.horimuseum.jp",
+          "kind": "special",
+          "summary": "小紅葉子による、医療と白衣の道・実践の変遷をたどる展覧会",
+          "admission": "一般 1,000円",
+          "price": 1000,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11340324",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "常設展（浮世絵・陶磁器）",
+          "start": "2026-10-02",
+          "end": "2027-10-02",
+          "url": "https://www.maspro.co.jp/museum/collection/",
+          "kind": "collection",
+          "summary": "開化絵・美人画などの浮世絵と猿投・瀬戸・美濃の陶磁器。通年",
+          "admission": "一般 500円",
+          "price": 500,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
-    },
-    {
-      "id": "Q11605716",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q1920251",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "展示替え",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "upcoming": [
+        {
+          "title": "画家とモデル",
+          "start": "2026-10-06",
+          "end": "2026-12-20",
+          "url": "https://museum.menard.co.jp/exhibition/"
+        }
+      ],
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q17226489",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "16:00",
       "last_entry": null,
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "「シュルレアリスム」版画展",
+          "start": "2026-09-05",
+          "end": "2026-12-23",
+          "url": "http://www.kamiya-muse.or.jp/newpage2.html",
+          "kind": "special",
+          "summary": "ミロ、マン・レイ、マグリット、エルンストらの版画",
+          "admission": "大人 500円",
+          "price": 500,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11318993",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11345132",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:30",
+      "last_entry": "17:00",
+      "exhibitions": [
+        {
+          "title": "所蔵品展 ―春から秋へ―",
+          "start": "2026-02-28",
+          "end": "2026-10-18",
+          "url": "https://www.mazak-art.com/index.cgi?mode=schedule_view&submode=current",
+          "kind": "collection",
+          "summary": "ロココの巨匠からモネ、ピカソまで、フランス美術300年の所蔵品とガラス・家具",
+          "admission": "一般 1,000円",
+          "price": 1000,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11618013",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "定休日",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q42634129",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "臨時休館",
       "open": null,
       "close": null,
       "last_entry": null,
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "常設展",
+          "start": "2026-09-29",
+          "end": "2027-10-02",
+          "url": "https://www.yokoyama-art-museum.or.jp/",
+          "kind": "collection",
+          "summary": "通年。展示替え期間（9/29〜10/22）は常設展のみ公開",
+          "admission": "一般 700円",
+          "price": 700,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q17221655",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "17:30",
+      "last_entry": "17:00",
+      "exhibitions": [
+        {
+          "title": "没後60年 川端龍子展 KAWABATA Ryushi 画人生涯筆一管",
+          "start": "2026-10-02",
+          "end": "2026-11-29",
+          "url": "https://www.paramitamuseum.com/plan/next_exhibition.html",
+          "kind": "special",
+          "summary": "大正から昭和に活躍した日本画家・川端龍子の没後60年回顧展",
+          "admission": "一般 1,000円",
+          "price": 1000,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11349249",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "常設展示（ルーブル所蔵彫刻の復元作品）",
+          "start": "2026-10-02",
+          "end": "2027-10-02",
+          "url": "https://www.louvre-m.com/",
+          "kind": "collection",
+          "summary": "通年。ルーブル所蔵の彫刻を実物から型取りした作品を展示",
+          "admission": "一般 2,000円",
+          "price": 2000,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11340103",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "マコンデ彫刻　骸骨展　－死を超えて、生を彫る－",
+          "start": "2026-07-18",
+          "end": "2026-10-18",
+          "url": "http://www.museum.makonde.jp/exhibition/index.html",
+          "kind": "special",
+          "summary": "骸骨をモチーフにしたマコンデ彫刻に焦点を当てた企画展",
+          "admission": "一般 1,000円",
+          "price": 1000,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
-    },
-    {
-      "id": "Q17193123",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q24868589",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:30",
+      "exhibitions": [
+        {
+          "title": "中国書画名品展 Ⅸ",
+          "start": "2026-10-01",
+          "end": "2026-11-15",
+          "url": "https://abc0120.net/2026/09/01/228583/",
+          "kind": "special",
+          "summary": "澄懐堂コレクションから明・清時代の書画の名品を紹介する秋季展",
+          "admission": "大人 800円",
+          "price": 800,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q7399081",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "生誕140周年 藤田嗣治 ７つの情熱",
+          "start": "2026-09-17",
+          "end": "2026-11-23",
+          "url": "https://www.sagawa-artmuseum.or.jp/plan/2026/07/140-1.html",
+          "kind": "special",
+          "summary": "藤田嗣治の芸術を「自己表現」「風景」「前衛」など7つのテーマで紹介",
+          "admission": "一般 1,600円（WEB予約 1,500円）",
+          "price": 1600,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "佐川美術館コレクション",
+          "start": "2026-09-17",
+          "end": "2026-11-23",
+          "url": "https://www.sagawa-artmuseum.or.jp/plan/2026/09/post-182.html",
+          "kind": "collection",
+          "summary": "佐川美術館の所蔵作品によるコレクション展",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q1268542",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:00",
+      "exhibitions": [
+        {
+          "title": "MIHO MUSEUMコレクション　花ひらく寛永の美",
+          "start": "2026-09-26",
+          "end": "2026-12-06",
+          "url": "https://www.miho.jp/exhibition/autumn2026-2/",
+          "kind": "special",
+          "summary": "後水尾天皇の二条城行幸と、寛永文化の茶の湯・華道などの美を紹介",
+          "admission": "大人 1,300円",
+          "price": 1300,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "百済寺と近江の仏教美術ー百済寺秘仏公開によせてー",
+          "start": "2026-09-26",
+          "end": "2026-12-06",
+          "url": "https://www.miho.jp/exhibition/autumn2026/",
+          "kind": "special",
+          "summary": "百済寺の本尊十一面観音立像を寺外で初公開、近江の仏教美術を展観",
+          "admission": "大人 1,300円",
+          "price": 1300,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "MIHO MUSEUM世界の古代美術コレクション",
+          "start": "2026-09-26",
+          "end": "2026-12-06",
+          "url": "https://www.miho.jp/exhibition/collection/",
+          "kind": "collection",
+          "summary": "エジプト・西アジア・ギリシア・ローマ・古代中国などの古代美術",
+          "admission": "一般 1,300円",
+          "price": 1300,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11356025",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "三橋節子美術館 企画展",
+          "start": "2026-07-14",
+          "end": "2026-11-01",
+          "url": "http://www.city.otsu.lg.jp/soshiki/010/1126/index.html",
+          "kind": "special",
+          "summary": null,
+          "admission": "一般 330円",
+          "price": 330,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11495725",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11678066",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11338923",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "公式トップに「2026.10.02（金）閉館」の表記（展示替えとみられる）",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "upcoming": [
+        {
+          "title": "NO-MAコレクションPart 5「NO-MAヒストリー」（第Ⅲ期）",
+          "start": "2026-10-03",
+          "end": "2026-12-06",
+          "url": "https://no-ma.jp/exhibition/nomahistory2026/"
+        }
+      ],
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11558989",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "特別展「海洋堂アクアリウム」",
+          "start": "2026-07-15",
+          "end": "2027-05-17",
+          "url": "https://www.ryuyukan.net/2026summer-announce",
+          "kind": "special",
+          "summary": "海洋生物フィギュアによるジオラマ水族館。50以上の新作ジオラマを展示",
+          "admission": "一般 1,000円",
+          "price": 1000,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q61818339",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "09:00",
+      "close": "18:00",
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "wp-cf11837b",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": true,
+      "free": null
     },
     {
       "id": "wp-7ff0c895",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "安野光雅 生誕100年 『物語の街から村へ』 ほか",
+          "start": "2026-09-09",
+          "end": "2026-12-07",
+          "url": "https://mori.wakuden.kyoto/upcoming-exhibition",
+          "kind": "special",
+          "summary": "生誕100年記念。『物語の街から村へ』ほかの原画を展示",
+          "admission": "一般 1,000円",
+          "price": 1000,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11402029",
@@ -9986,14 +10712,28 @@
     },
     {
       "id": "wp-4dc600c0",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "exhibitions": [
+        {
+          "title": "玄々斎 ―裏千家十一代家元 精中宗室居士百五十回忌記念―",
+          "start": "2026-09-29",
+          "end": "2026-12-06",
+          "url": "https://www.urasenke.or.jp/textc/gallery/exhibition/",
+          "kind": "special",
+          "summary": "裏千家十一代家元・玄々斎の百五十回忌を記念した特別展（前期9/29〜11/1、後期11/3〜12/6）",
+          "admission": "一般 1,000円",
+          "price": 1000,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q21019672",
@@ -10047,36 +10787,72 @@
     },
     {
       "id": "Q11532219",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
+      "status": "open",
+      "reason": null,
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11374199",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
       "last_entry": null,
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "exhibitions": [
+        {
+          "title": "常設展示（ピカソ銅版画347シリーズ、現代日本画ほか）",
+          "start": "2026-10-02",
+          "end": "2027-10-02",
+          "url": "https://www.kyocera.co.jp/company/csr/facility/gallery/",
+          "kind": "collection",
+          "summary": "通年。ピカソ銅版画347シリーズ・現代日本画・洋画・彫刻・乾隆ガラスなど収蔵品の一部",
+          "admission": "無料",
+          "price": 0,
+          "open": null,
+          "close": null
+        }
+      ],
+      "upcoming": [
+        {
+          "title": "2026年秋季特別展 トラバース：ピカソ「347シリーズ」と現代作家たち",
+          "start": "2026-10-16",
+          "end": "2026-11-28",
+          "url": "https://www.kyocera.co.jp/company/csr/facility/gallery/exhibition/"
+        }
+      ],
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q102045484",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "愛のカタチ ー幻の春画《稚児草紙》公開ー",
+          "start": "2026-09-19",
+          "end": "2027-01-17",
+          "url": "https://fukuda-art-museum.jp/exhibition/202607014791",
+          "kind": "special",
+          "summary": "福田美術館初の春画展。14世紀初めの《稚児草紙》を初公開",
+          "admission": "一般・大学生 1,500円",
+          "price": 1500,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11622794",
@@ -10104,26 +10880,41 @@
       "free": null
     },
     {
-      "id": "Q11660820",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
-    },
-    {
       "id": "Q11283175",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "ジョルジュ・ルオー ―いつくしむまなざし、祈りの筆あと",
+          "start": "2026-09-19",
+          "end": "2026-12-06",
+          "url": "https://www.asahigroup-oyamazaki.com/exhibition/rouault/",
+          "kind": "special",
+          "summary": "開館30周年記念。ルオーの作品展",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "没後100年 クロード・モネ展",
+          "start": "2026-03-20",
+          "end": "2027-04-11",
+          "url": "https://www.asahigroup-oyamazaki.com/exhibition/monet/",
+          "kind": "collection",
+          "summary": "開館30周年記念。モネの《睡蓮》連作を所蔵する館で一部展示替えしつつ通年開催",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q18336820",
@@ -10139,14 +10930,15 @@
     },
     {
       "id": "wp-b2ff92b8",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:30",
+      "close": "17:00",
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q17213428",
@@ -10175,36 +10967,90 @@
     },
     {
       "id": "Q3329639",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "日本工芸の美―古代から近世まで―",
+          "start": "2026-08-29",
+          "end": "2026-10-18",
+          "url": "https://www.kintetsu-g-hd.co.jp/culture/yamato/exhibition/nihonkougei.html",
+          "kind": "special",
+          "summary": "やきもの・漆工・金工・染織・ガラスを時代順に並べ、飛鳥・奈良から江戸までの日本工芸の発展をたどる",
+          "admission": "一般 630円",
+          "price": 630,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11367709",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:45",
+      "exhibitions": [
+        {
+          "title": "秋季展 近代絵画に見るモチーフの魅力（前期）",
+          "start": "2026-09-12",
+          "end": "2026-10-12",
+          "url": "http://www.nakano-museum.jp/exhibition/index.html",
+          "kind": "special",
+          "summary": "近代の洋画家・版画家が描いた静物画や人物画のモチーフに注目する秋季展の前期",
+          "admission": "一般 600円",
+          "price": 600,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "所蔵名作展「近代日本の洋画・日本画」",
+          "start": "2026-01-25",
+          "end": "2027-01-31",
+          "url": "http://www.nakano-museum.jp/",
+          "kind": "collection",
+          "summary": "洋画展示室・日本画展示室で所蔵の近代日本の洋画・日本画を紹介",
+          "admission": "一般 600円",
+          "price": 600,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11529256",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:00",
+      "exhibitions": [
+        {
+          "title": "没後２５年　上村松篁展",
+          "start": "2026-08-29",
+          "end": "2026-12-20",
+          "url": "https://www.kintetsu-g-hd.co.jp/culture/shohaku/exhibition/uemura-shoko-25th-memorial/",
+          "kind": "special",
+          "summary": "文化勲章受章の日本画家・上村松篁の没後25年回顧。前期・中期・後期で展示替え",
+          "admission": "大人 820円",
+          "price": 820,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11457608",
@@ -10220,377 +11066,640 @@
     },
     {
       "id": "Q11617979",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "16:30",
       "last_entry": null,
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "長谷路版画土蔵館 常設展",
+          "start": "2026-10-02",
+          "end": "2027-10-02",
+          "url": null,
+          "kind": "collection",
+          "summary": "通年。谷中安規・棟方志功らの版画約40点を内蔵で常設展示",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": true,
+      "free": null
     },
     {
       "id": "Q11408411",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "閉館期間（開館は5月・11月のみ）",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q3329563",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "18:00",
       "last_entry": null,
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "能～教えて能楽師！",
+          "start": "2026-10-01",
+          "end": "2026-12-28",
+          "url": "https://fujita-museum.or.jp/exhibition/",
+          "kind": "special",
+          "summary": "夙川能舞台「瓦照苑」と共同。能面・唐織・能由来の茶道具などで能の世界を紹介",
+          "admission": "一般 1,000円",
+          "price": 1000,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "徳川時代のお茶",
+          "start": "2026-08-01",
+          "end": "2026-10-31",
+          "url": "https://fujita-museum.or.jp/exhibition/",
+          "kind": "collection",
+          "summary": "小堀遠州ゆかりの茶杓・茶入など、江戸時代の茶の湯の「好み」を紹介",
+          "admission": "一般 1,000円",
+          "price": 1000,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11563573",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "exhibitions": [
+        {
+          "title": "豊臣のいた時代",
+          "start": "2026-08-29",
+          "end": "2026-12-06",
+          "url": "http://www.yuki-museum.or.jp/exhibition/",
+          "kind": "special",
+          "summary": "令和8年秋季展。前期 8/29〜10/12、後期 10/15〜12/6",
+          "admission": "一般 700円",
+          "price": 700,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q140247058",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "08:00",
+      "close": "22:00",
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "wp-311ff022",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
+      "status": "open",
+      "reason": null,
+      "open": "11:00",
+      "close": "18:00",
+      "last_entry": "17:30",
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "wp-d68e5c58",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "生誕135年 山王美術館コレクションでつづる 岸田劉生展",
+          "start": "2026-09-03",
+          "end": "2027-01-31",
+          "url": "https://www.hotelmonterey.co.jp/sannomuseum/exhibition/202609.html",
+          "kind": "special",
+          "summary": "岸田劉生の肖像画・京都時代の日本画・晩年の静物画など所蔵作品を公開",
+          "admission": "一般 1,300円",
+          "price": 1300,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q59536065",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "展示替え期間",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "upcoming": [
+        {
+          "title": "アンドリュー・ワイエス展",
+          "start": "2026-10-03",
+          "end": "2026-12-06",
+          "url": "https://wyeth2026.jp/"
+        }
+      ],
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11440000",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "unknown",
+      "reason": "開館時間が読み取れていない",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": true,
+      "free": null
     },
     {
       "id": "Q11640228",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "のむ ―茶器と酒器と喫煙具―",
+          "start": "2026-09-19",
+          "end": "2026-11-23",
+          "url": "https://www.hankyu-bunka.or.jp/itsuo-museum/exhibition/20260919/",
+          "kind": "special",
+          "summary": "飲む・呑む・喫むの三つの「のむ」に関わる茶碗・徳利・盃・煙草道具など館蔵品128点",
+          "admission": "一般 700円",
+          "price": 700,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11545519",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "exhibitions": [
+        {
+          "title": "祈りの造形―千姿万態の神仏―",
+          "start": "2026-09-12",
+          "end": "2026-12-13",
+          "url": "http://masaki-art-museum.jp/event/",
+          "kind": "special",
+          "summary": "秋季展。前期9/12〜10/25、後期10/29〜12/13。神仏の造形を紹介",
+          "admission": "一般 700円",
+          "price": 700,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "wp-ecd92410",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "開館10周年記念 小林美術館 名品展",
+          "start": "2026-09-18",
+          "end": "2026-12-13",
+          "url": "https://www.kobayashi-bijutsu.com/single-post/%E7%A7%8B%E5%AD%A3%E7%89%B9%E5%88%A5%E5%B1%95%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B-6",
+          "kind": "special",
+          "summary": "約400点のコレクションから日本画・洋画の名品を選りすぐって紹介",
+          "admission": "大人 1,000円",
+          "price": 1000,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q55538467",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
+      "status": "open",
+      "reason": null,
+      "open": "11:00",
+      "close": "18:00",
+      "last_entry": "17:30",
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11386430",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "矢立と江戸の工芸品 常設展示",
+          "start": "2026-10-02",
+          "end": "2027-10-02",
+          "url": null,
+          "kind": "collection",
+          "summary": "通年。江戸時代の筆記具・矢立と根付・鍔などの工芸品を展示",
+          "admission": "一般 600円",
+          "price": 600,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11190936",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "上前智祐の自画道",
+          "start": "2026-09-15",
+          "end": "2026-11-08",
+          "url": "https://bbpmuseum.jp/exhibition/%e4%b8%8a%e5%89%8d%e6%99%ba%e7%a5%90%e3%81%ae%e8%87%aa%e7%94%bb%e9%81%93-2",
+          "kind": "special",
+          "summary": "具体美術協会の上前智祐。1975年からの「縫い」の作品に焦点",
+          "admission": "一般 500円",
+          "price": 500,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
-    },
-    {
-      "id": "Q11362538",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11286729",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "北野異人館街の公式案内で「休館中」と表示（再開日の記載なし）。別サイトでは2026年3月に閉館したとの情報もあり",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": true,
+      "free": null
     },
     {
       "id": "Q11263124",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
       "last_entry": null,
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "うろこ美術館 常設展示（西洋絵画コレクション）",
+          "start": "2026-10-02",
+          "end": "2027-10-02",
+          "url": "https://www.kobeijinkan.com/ijinkan_list/uroko",
+          "kind": "collection",
+          "summary": "通年。トロワイヨン、マチス、ユトリロ、ビュッフェなど近・現代ヨーロッパ絵画を常設展示",
+          "admission": "一般 1,100円",
+          "price": 1100,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11589817",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "17:30",
+      "last_entry": "17:00",
+      "exhibitions": [
+        {
+          "title": "佐野菜見展　Fin.",
+          "start": "2026-08-07",
+          "end": "2026-10-11",
+          "url": "https://www.kitano-museum.com/%e4%bd%90%e9%87%8e%e8%8f%9c%e8%a6%8b%e5%b1%95%e3%80%80fin-%e3%80%808-710-11/",
+          "kind": "special",
+          "summary": "佐野菜見の作品展",
+          "admission": "一般 500円",
+          "price": 500,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
-    },
-    {
-      "id": "Q11555555",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11664968",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:30",
+      "exhibitions": [
+        {
+          "title": "秋季展「名所へのいざない」",
+          "start": "2026-09-13",
+          "end": "2026-11-29",
+          "url": "https://nishinomiya-kanko.jp/wp/meguruno057/",
+          "kind": "special",
+          "summary": "前期9/13〜10/20・後期10/27〜11/29。名所にちなむ古美術を紹介",
+          "admission": "大人 600円",
+          "price": 600,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11667775",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "施設設備の改築工事のため2021年12月20日から長期休館中。再開時期は未定（公式サイトで案内予定）。展覧会は中之島香雪美術館（大阪市北区）で開催。",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11565343",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:30",
+      "exhibitions": [
+        {
+          "title": "秋季展「翰墨清玩－書と文房の情景－」",
+          "start": "2026-09-15",
+          "end": "2026-12-13",
+          "url": "http://tekisui-museum.biz-web.jp/",
+          "kind": "special",
+          "summary": "書と文房具の取り合わせで文人の趣味の世界を紹介する秋季展",
+          "admission": "一般 630円",
+          "price": 630,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11649561",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "exhibitions": [
+        {
+          "title": "【小企画展】鉄斎の書",
+          "start": "2026-09-22",
+          "end": "2026-11-01",
+          "url": "https://www.kiyoshikojin.or.jp/tessai_exhibition/exhibition20260922/",
+          "kind": "special",
+          "summary": "鉄斎美術館別館「史料館」で開く、富岡鉄斎の書の小企画展",
+          "admission": "無料",
+          "price": 0,
+          "open": "09:30",
+          "close": "16:30"
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q612608",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "exhibitions": [
+        {
+          "title": "秋季展「旋回する美・光彩の美 ―めくるめく東洋金石工芸」（本館）／「アナトリアのメダリオン・ランプ文」（新館）",
+          "start": "2026-09-26",
+          "end": "2026-12-13",
+          "url": "http://www.hakutsuru-museum.org/",
+          "kind": "special",
+          "summary": "本館で東洋の金石工芸、新館でアナトリアのメダリオン・ランプ文の絨毯を紹介する秋季展",
+          "admission": "一般 800円",
+          "price": 800,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
-    },
-    {
-      "id": "Q11634295",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
-      "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11678218",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "closed",
+      "reason": "展示替え期間",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11291442",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:30",
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11257182",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "exhibitions": [
+        {
+          "title": "第3回あさごビエンナーレ2026",
+          "start": "2026-09-19",
+          "end": "2026-10-25",
+          "url": "https://www.city.asago.hyogo.jp/site/art-village/1075.html",
+          "kind": "special",
+          "summary": "応募142点から入賞・入選した平面作品62点を2階企画展示室で展示",
+          "admission": "一般 500円",
+          "price": 500,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "椿野聖梨展－通りすぎる日常－",
+          "start": "2026-09-19",
+          "end": "2026-10-25",
+          "url": "https://www.city.asago.hyogo.jp/site/art-village/1075.html",
+          "kind": "special",
+          "summary": "第1回ビエンナーレ大賞の朝来市在住作家・椿野聖梨の油彩画を中心とした個展",
+          "admission": "一般 500円",
+          "price": 500,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11426144",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "09:00",
+      "close": "16:30",
       "last_entry": null,
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "常設展（温泉寺の仏教美術・城崎の遺跡）",
+          "start": "2026-10-02",
+          "end": "2027-10-02",
+          "url": "http://www.kinosaki-onsenji.jp/guide/museum.html",
+          "kind": "collection",
+          "summary": "温泉寺所蔵の仏教美術と城崎の遺跡出土品。通年",
+          "admission": "大人 300円",
+          "price": 300,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11381621",
-      "status": "pending",
-      "reason": "情報準備中",
+      "status": "unknown",
+      "reason": "公式の開館情報を確認できず",
       "open": null,
       "close": null,
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": true,
+      "free": null
     },
     {
       "id": "Q11559811",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "10:00",
+      "close": "17:00",
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11367892",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
-      "last_entry": null,
-      "exhibitions": [],
+      "status": "open",
+      "reason": null,
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "exhibitions": [
+        {
+          "title": "円山応挙・長沢芦雪 墨画襖絵（常設）",
+          "start": "2026-10-02",
+          "end": "2027-10-02",
+          "url": "https://muryoji.jp/museum/about/",
+          "kind": "collection",
+          "summary": "通年。重要文化財の応挙・芦雪の墨画襖絵55面ほか近世絵画を公開",
+          "admission": "一般 1,300円",
+          "price": 1300,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q11605043",
-      "status": "pending",
-      "reason": "情報準備中",
-      "open": null,
-      "close": null,
+      "status": "open",
+      "reason": null,
+      "open": "09:00",
+      "close": "17:00",
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
-      "needs_check": false
+      "needs_check": false,
+      "free": null
     },
     {
       "id": "Q7828504",
@@ -10989,7 +12098,20 @@
       "open": "10:00",
       "close": "16:00",
       "last_entry": "15:30",
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "母型（内藤礼）",
+          "start": "2026-10-02",
+          "end": "2027-10-02",
+          "url": "https://benesse-artsite.jp/art/teshima-artmuseum.html",
+          "kind": "collection",
+          "summary": "通年。内藤礼の常設作品「母型」",
+          "admission": "オンライン 1,800円",
+          "price": 1800,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
       "needs_check": false,
       "free": null
@@ -11599,12 +12721,12 @@
       "last_entry": "16:30",
       "exhibitions": [
         {
-          "title": "開館25周年記念特別展 上杉鷹山と米沢の学び舎",
+          "title": "開館25周年記念特別展 上杉鷹山と米沢の学び舎 藩校「興譲館」から近代の学校へ",
           "start": "2026-09-19",
           "end": "2026-11-23",
           "url": "https://www.denkoku-no-mori.yonezawa.yamagata.jp/top.htm",
           "kind": "special",
-          "summary": "開館25周年を記念し、上杉鷹山の藩政改革と米沢の教育・文化をテーマにした特別展",
+          "summary": "藩校「興譲館」から近代の学校へ、上杉鷹山以来の米沢の学びの歩みをたどる特別展",
           "admission": null,
           "price": null,
           "open": null,
@@ -11617,6 +12739,18 @@
           "url": "https://www.denkoku-no-mori.yonezawa.yamagata.jp/top.htm",
           "kind": "collection",
           "summary": "国宝「上杉本洛中洛外図屛風」の原本を特別公開",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        },
+        {
+          "title": "上杉文華館「西からの手紙」第7回 北陸の大名（2）",
+          "start": "2026-09-25",
+          "end": "2026-10-27",
+          "url": "https://www.denkoku-no-mori.yonezawa.yamagata.jp/top.htm",
+          "kind": "collection",
+          "summary": "常設展示・上杉文華館のテーマ展示",
           "admission": null,
           "price": null,
           "open": null,
@@ -11978,7 +13112,14 @@
           "close": null
         }
       ],
-      "upcoming": [],
+      "upcoming": [
+        {
+          "title": "昆虫館×水族館「No.1な生き物展」",
+          "start": "2026-10-03",
+          "end": "2026-12-06",
+          "url": "https://ryu-yo.jp/"
+        }
+      ],
       "needs_check": false,
       "free": null
     },
@@ -12153,6 +13294,18 @@
       "last_entry": null,
       "exhibitions": [
         {
+          "title": "飛騨高山はじめて物語ー華麗なる文明開化の足跡ー",
+          "start": "2026-07-11",
+          "end": "2026-10-12",
+          "url": "https://www.city.takayama.lg.jp/machihaku/",
+          "kind": "special",
+          "summary": "飛騨高山に文明開化がもたらした足跡を紹介する特別展示（特別展示室）",
+          "admission": "無料",
+          "price": 0,
+          "open": null,
+          "close": null
+        },
+        {
           "title": "常設展示",
           "start": "2026-01-01",
           "end": "2027-09-30",
@@ -12178,6 +13331,18 @@
       "last_entry": "16:30",
       "exhibitions": [
         {
+          "title": "特別展観 開館25周年記念 渓斎英泉・歌川広重 木曽海道六拾九次之内",
+          "start": "2026-08-27",
+          "end": "2026-12-06",
+          "url": "https://hiroshige-ena.jp/",
+          "kind": "special",
+          "summary": "渓斎英泉・歌川広重による木曽海道六拾九次之内の浮世絵を展観",
+          "admission": null,
+          "price": null,
+          "open": null,
+          "close": null
+        },
+        {
           "title": "秋季特別企画展　生誕200年記念　二代広重―広重イズムの在処（ありか）―",
           "start": "2026-10-01",
           "end": "2026-12-06",
@@ -12192,7 +13357,10 @@
       ],
       "upcoming": [],
       "needs_check": false,
-      "free": null
+      "free": {
+        "scope": "all",
+        "reason": "フリーフライデー（2027年3月末まで）"
+      }
     },
     {
       "id": "Q11399544",
@@ -12311,7 +13479,20 @@
       "open": "09:00",
       "close": "17:00",
       "last_entry": null,
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "西馬音内盆踊り常設展示",
+          "start": "2026-01-01",
+          "end": "2027-10-02",
+          "url": "https://www.town.ugo.lg.jp/sightseeing/detail.html?id=1015&category_id=41",
+          "kind": "collection",
+          "summary": "通年。古い踊り衣装、盆踊りを再現した人形、藍染の壁掛け、キルト作品を展示",
+          "admission": "無料",
+          "price": 0,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [],
       "needs_check": false,
       "free": null
@@ -12787,8 +13968,8 @@
       "id": "Q11595536",
       "status": "open",
       "reason": null,
-      "open": "09:00",
-      "close": "21:30",
+      "open": "08:00",
+      "close": "21:00",
       "last_entry": null,
       "exhibitions": [],
       "upcoming": [],
@@ -12864,7 +14045,20 @@
       "open": "09:00",
       "close": "16:30",
       "last_entry": "16:00",
-      "exhibitions": [],
+      "exhibitions": [
+        {
+          "title": "常設展",
+          "start": "2026-10-02",
+          "end": "2027-10-02",
+          "url": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/kyodohakubutsukan/tenji/index.html",
+          "kind": "collection",
+          "summary": "通年。行田の考古・歴史・民俗資料を展示",
+          "admission": "一般 200円",
+          "price": 200,
+          "open": null,
+          "close": null
+        }
+      ],
       "upcoming": [
         {
           "title": "第39回企画展「忍藩十万石」",

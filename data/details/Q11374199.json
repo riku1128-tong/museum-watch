@@ -1,0 +1,119 @@
+{
+  "id": "Q11374199",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kyocera.co.jp/company/csr/facility/gallery/",
+  "address": "〒612-8501 京都府京都市伏見区竹田鳥羽殿町6番地 京セラ本社ビル1F",
+  "source_urls": [
+    "https://www.kyocera.co.jp/company/csr/facility/gallery/",
+    "https://www.kyocera.co.jp/company/csr/facility/gallery/exhibition/",
+    "https://www.kyocera.co.jp/company/csr/facility/gallery/guide/calendar/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [
+    "sat",
+    "sun"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "closed",
+  "special_closures": [],
+  "special_openings": [
+    {
+      "date": "2026-10-17",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "秋季特別展開催中（休館は日曜と11/23のみ）"
+    },
+    {
+      "date": "2026-10-24",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "秋季特別展開催中（休館は日曜と11/23のみ）"
+    },
+    {
+      "date": "2026-10-31",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "秋季特別展開催中（休館は日曜と11/23のみ）"
+    },
+    {
+      "date": "2026-11-03",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "秋季特別展開催中（休館は日曜と11/23のみ）"
+    },
+    {
+      "date": "2026-11-07",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "秋季特別展開催中（休館は日曜と11/23のみ）"
+    },
+    {
+      "date": "2026-11-14",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "秋季特別展開催中（休館は日曜と11/23のみ）"
+    },
+    {
+      "date": "2026-11-21",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "秋季特別展開催中（休館は日曜と11/23のみ）"
+    },
+    {
+      "date": "2026-11-28",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "秋季特別展開催中（休館は日曜と11/23のみ）"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "常設展示（ピカソ銅版画347シリーズ、現代日本画ほか）",
+      "start": "2026-10-02",
+      "end": "2027-10-02",
+      "url": "https://www.kyocera.co.jp/company/csr/facility/gallery/",
+      "kind": "collection",
+      "summary": "通年。ピカソ銅版画347シリーズ・現代日本画・洋画・彫刻・乾隆ガラスなど収蔵品の一部",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "2026年秋季特別展 トラバース：ピカソ「347シリーズ」と現代作家たち",
+      "start": "2026-10-16",
+      "end": "2026-11-28",
+      "url": "https://www.kyocera.co.jp/company/csr/facility/gallery/exhibition/",
+      "kind": "special",
+      "summary": "ピカソの347シリーズと現代作家の作品約70点を展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0,
+      "closed_weekdays": [
+        "sun"
+      ]
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "京セラ本社ビル1階にある、入館無料のギャラリー。ピカソ銅版画347シリーズを核に、現代日本画・洋画・彫刻、中国清代の乾隆ガラス、ファインセラミック茶器などの収蔵品を展示する。",
+  "closed_between_exhibitions": false,
+  "notes": "通常は土日祝・特別休館日が休館（特別休館日は変更の場合あり）。秋季特別展期間（10/16〜11/28）は日曜と11/23のみ休館のため、土曜と11/3を特別開館として入れた。最寄駅は公式に記載なし。年末年始の休館日程は未確認。",
+  "confidence": "medium"
+}

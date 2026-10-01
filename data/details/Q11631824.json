@@ -1,6 +1,6 @@
 {
   "id": "Q11631824",
-  "checked_at": "2026-09-30T09:32:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,8 +12,40 @@
     "https://www.garasunosato.com/access/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30", "from": "2026-04-01", "to": "2026-09-30"},
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30", "from": "2026-10-01", "to": "2027-03-31"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30",
+      "from": "2026-04-01",
+      "to": "2026-09-30"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "from": "2026-10-01",
+      "to": "2027-03-31"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
@@ -36,10 +68,16 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "上諏訪", "lines": "JR中央線", "exit": null, "walk_min": null, "note": "上諏訪駅からスワンバスで約20分、またはタクシーで約10分"}
+    {
+      "station": "上諏訪",
+      "lines": "JR中央線",
+      "exit": null,
+      "walk_min": null,
+      "note": "上諏訪駅からスワンバスで約20分、またはタクシーで約10分"
+    }
   ],
   "highlights": "諏訪湖畔に立つガラス工芸専門美術館。1992年に「ルネ・ラリック美術館」として開館し、「北澤美術館新館」を経て2012年に現名称となった日本最大級のガラス工芸館。世界各国の現代ガラス作家の作品を展示するほか、SUWAガラスの里のショップ・体験施設が隣接する。",
   "closed_between_exhibitions": false,
-  "notes": "営業日カレンダーがPDFで公開されているが取得できず。休館日の詳細は公式サイトで要確認。closed_weekdays は不明のため [] とした。",
+  "notes": "営業日カレンダーがPDFで公開されているが取得できず。休館日の詳細は公式サイトで要確認。closed_weekdays は不明のため [] とした。 公式トップに特別企画展「村山耕二 まろかれ土壌」の記載があるが会期は読めず未掲載。特別企画展の開催中は常設展示の公開を休止。",
   "confidence": "medium"
 }

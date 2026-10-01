@@ -1,6 +1,6 @@
 {
   "id": "Q110191756",
-  "checked_at": "2026-09-30T09:16:46+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,16 +11,56 @@
     "https://www.city.tochigi.lg.jp/site/museum-tcam/48373.html",
     "https://www.city.tochigi.lg.jp/site/museum-tcam/48377.html",
     "https://www.city.tochigi.lg.jp/site/museum-tcam/93647.html",
-    "https://www.city.tochigi.lg.jp/site/museum-tcam/48382.html"
+    "https://www.city.tochigi.lg.jp/site/museum-tcam/48382.html",
+    "https://www.city.tochigi.lg.jp/site/museum-tcam/92628.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-24", "to": "2026-10-09", "reason": "展示替えのため休館"},
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-09-24",
+      "to": "2026-10-09",
+      "reason": "展示替えのため休館"
+    },
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-13",
+      "reason": "祝日の翌日"
+    },
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-04",
+      "reason": "祝日の翌日"
+    },
+    {
+      "from": "2026-11-24",
+      "to": "2026-11-24",
+      "reason": "休館日"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -28,7 +68,7 @@
       "title": "絵師も動物も、人気モノ勢揃い 動物たちの浮世絵",
       "start": "2026-10-10",
       "end": "2026-12-13",
-      "url": null,
+      "url": "https://www.city.tochigi.lg.jp/site/museum-tcam/92628.html",
       "kind": "special",
       "summary": "動物が主題・脇役として描かれた浮世絵を集めた企画展",
       "recommend": "鈴木春信・歌川広重・葛飾北斎・歌川国芳ら人気絵師による動物作品を網羅。かわいらしい犬猫から風刺的な動物戯画まで、江戸〜明治の多彩な「動物観」が一堂に楽しめる。",
@@ -49,10 +89,26 @@
   ],
   "adult_price": 330,
   "access": [
-    {"station": "栃木", "lines": "JR両毛線・東武日光線", "exit": "北口", "walk_min": 20, "note": "栃木駅北口からふれあいバス「市街地循環線（西回り）」等で「藤沼酒店前」下車、徒歩約1分"}
+    {
+      "station": "栃木",
+      "lines": "JR両毛線・東武日光線",
+      "exit": "北口",
+      "walk_min": 20,
+      "note": "栃木駅北口からふれあいバス「市街地循環線（西回り）」等で「藤沼酒店前」下車、徒歩約1分"
+    }
   ],
   "highlights": "旧市役所跡地に令和4年開館。喜多川歌麿や、清水登之・田中一村ら栃木市ゆかりの画家、竹工芸の飯塚鳳齋・琅玕斎親子の作品を収蔵し、隣接の文学館とともに「ふるさと」をテーマにした企画展を開く。",
   "closed_between_exhibitions": false,
   "notes": "休館日は「月曜日（月曜日が祝日の場合は開館し、火曜日休館）」に加え、「祝日の翌日（祝日の翌日が土日祝の場合は開館）」も休館とする規則がある。後者は holiday_rule では表現できないため要確認（render.py の holiday_rule ロジックは前者のみ対応）。9/24〜10/9は展示替えのため休館中。",
-  "confidence": "high"
+  "confidence": "high",
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "文化の日",
+      "source_url": "https://www.city.tochigi.lg.jp/site/museum-tcam/92628.html"
+    }
+  ],
+  "free_rules": []
 }

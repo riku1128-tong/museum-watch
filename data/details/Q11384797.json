@@ -1,6 +1,6 @@
 {
   "id": "Q11384797",
-  "checked_at": "2026-09-30T09:12:10+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,13 +12,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["thu"],
+  "closed_weekdays": [
+    "thu"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
@@ -40,6 +50,17 @@
       "recommend": "昆虫の中でも人との関わりが深いカイコに特化した展示。ソフビ模型の色塗り体験や専門家による講演会など参加型イベントも充実し、大人も子どもも楽しめる。",
       "admission": "大人330円（通常入園料に含む）",
       "adult_price": 330
+    },
+    {
+      "title": "昆虫館×水族館「No.1な生き物展」",
+      "start": "2026-10-03",
+      "end": "2026-12-06",
+      "url": "https://ryu-yo.jp/",
+      "kind": "special",
+      "summary": "昆虫館と水族館の飼育員が推す生き物を紹介。浜名湖体験学習施設ウォットとの合同企画",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 330,

@@ -1,0 +1,75 @@
+{
+  "id": "wp-4dc600c0",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.urasenke.or.jp/textc/gallery/",
+  "address": "〒602-0073 京都市上京区堀川通寺之内上る寺之内竪町682番地 裏千家センター内",
+  "source_urls": [
+    "https://www.urasenke.or.jp/textc/gallery/",
+    "https://www.urasenke.or.jp/textc/gallery/access/",
+    "https://www.urasenke.or.jp/textc/gallery/exhibition/%E4%BB%A4%E5%92%8C8%E5%B9%B4%E3%80%80%E7%89%B9%E5%88%A5%E5%B1%95/",
+    "https://abc0120.net/2026/09/29/230718/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "玄々斎 ―裏千家十一代家元 精中宗室居士百五十回忌記念―",
+      "start": "2026-09-29",
+      "end": "2026-12-06",
+      "url": "https://www.urasenke.or.jp/textc/gallery/exhibition/",
+      "kind": "special",
+      "summary": "裏千家十一代家元・玄々斎の百五十回忌を記念した特別展（前期9/29〜11/1、後期11/3〜12/6）",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "鞍馬口",
+      "lines": "京都市営地下鉄烏丸線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "西へ徒歩15分"
+    },
+    {
+      "station": "京都",
+      "lines": "JR・近鉄・地下鉄",
+      "exit": null,
+      "walk_min": null,
+      "note": "市バス9系統「堀川寺ノ内」下車"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "祝日が月曜の場合は開館し翌火曜休館（前回特別展の公式案内による）。8月13〜16日は休館。年末年始の日付は未確認。前期・後期の会期は公式の特別展ページを読めず第三者の告知（2026-09-29付）による。休館日・祝日扱いは前回展の公式記載から。",
+  "confidence": "medium"
+}

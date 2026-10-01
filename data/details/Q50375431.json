@@ -1,0 +1,178 @@
+{
+  "id": "Q50375431",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://nakka-art.jp/",
+  "address": "〒530-0005 大阪府大阪市北区中之島4-3-1",
+  "source_urls": [
+    "https://nakka-art.jp/",
+    "https://nakka-art.jp/exhibition/date-held/",
+    "https://nakka-art.jp/exhibition-post/nichibiten50/",
+    "https://nakka-art.jp/exhibition-post/daiei-ten2026/",
+    "https://nakka-art.jp/exhibition-post/osaka-directory-dir13/",
+    "https://nakka-art.jp/exhibition-post/osaka-directory-dir14/",
+    "https://www.museum.or.jp/museum/17870"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-09-28",
+      "to": "2026-10-09",
+      "reason": "展示替えのため展示室休室（公式「当館のご利用について」）"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "ＮＨＫ日曜美術館５０年展",
+      "start": "2026-10-10",
+      "end": "2026-12-20",
+      "url": "https://nakka-art.jp/exhibition-post/nichibiten50/",
+      "kind": "special",
+      "summary": "番組放送50年を機に、約60作家140点超の作品と番組映像で縄文土器から現代美術までを紹介",
+      "recommend": "本物の作品と番組映像を同時に楽しめる、日曜美術館ならではの展覧会。縄文土器から現代美術まで幅広い時代とジャンルを一度にたどれる。",
+      "admission": "一般 2,000円（前売・団体 1,800円）",
+      "adult_price": 2000,
+      "closed_dates": [
+        "2026-10-13",
+        "2026-11-24"
+      ],
+      "closed_weekdays": [
+        "mon"
+      ]
+    },
+    {
+      "title": "大英博物館日本美術コレクション 百花繚乱～海を越えた江戸絵画",
+      "start": "2026-10-31",
+      "end": "2027-01-31",
+      "url": "https://nakka-art.jp/exhibition-post/daiei-ten2026/",
+      "kind": "special",
+      "summary": "大英博物館の日本コレクションから江戸絵画の屏風・掛軸・絵巻と、8人の浮世絵師の版画",
+      "recommend": "歌麿の肉筆画《文読む遊女》や応挙《虎の子渡し図屛風》など、日本初出品を含む江戸絵画が里帰りする。歌麿・写楽・北斎・広重の版画も並ぶ。",
+      "admission": "一般 当日2,300円（前売・団体 2,100円）",
+      "adult_price": 2300,
+      "closed_dates": [
+        "2026-11-24",
+        "2026-12-31",
+        "2027-01-01",
+        "2027-01-12"
+      ],
+      "closed_weekdays": [
+        "mon"
+      ],
+      "hours": [
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "10:00",
+          "close": "17:00",
+          "last_entry": "16:30"
+        },
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "10:00",
+          "close": "20:00",
+          "last_entry": "19:30"
+        }
+      ]
+    },
+    {
+      "title": "Osaka Directory 13 Supported by RICHARD MILLE「橘 葉月」",
+      "start": "2026-11-14",
+      "end": "2026-12-13",
+      "url": "https://nakka-art.jp/exhibition-post/osaka-directory-dir13/",
+      "kind": "special",
+      "summary": "大阪生まれの画家・橘葉月の、自画像を通して現実の空間とイメージの関係を探る新作（2階多目的スペース）",
+      "recommend": "2000年大阪生まれの画家が、等身大の概念に挑む大型の新作を発表する。重い現実の身体と軽やかなイメージの身体のずれがテーマ。",
+      "admission": "無料",
+      "adult_price": 0,
+      "closed_dates": [
+        "2026-11-24"
+      ],
+      "closed_weekdays": [
+        "mon"
+      ]
+    },
+    {
+      "title": "Osaka Directory 14 Supported by RICHARD MILLE「迫 鉄平」",
+      "start": "2026-12-19",
+      "end": "2027-01-17",
+      "url": "https://nakka-art.jp/exhibition-post/osaka-directory-dir14/",
+      "kind": "special",
+      "summary": "大阪の若手作家を紹介するシリーズ展。迫鉄平（2階多目的スペース）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0,
+      "closed_dates": [
+        "2026-12-31",
+        "2027-01-01",
+        "2027-01-12"
+      ],
+      "closed_weekdays": [
+        "mon"
+      ]
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "渡辺橋",
+      "lines": "京阪中之島線",
+      "exit": "2番出口",
+      "walk_min": 5
+    },
+    {
+      "station": "肥後橋",
+      "lines": "Osaka Metro四つ橋線",
+      "exit": "4番出口",
+      "walk_min": 10
+    },
+    {
+      "station": "大阪",
+      "lines": "JR",
+      "walk_min": 20
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": true,
+  "notes": "月曜休館（祝日の場合は翌平日）、年末年始12/28〜1/4は museum.or.jp 等の情報で公式の利用案内ページは取得できず。常設の企画展ごとに料金が異なる。9/28〜10/9は展示替えで展示室休室（10/2の表示は「本日展示室休室」）。",
+  "confidence": "medium"
+}

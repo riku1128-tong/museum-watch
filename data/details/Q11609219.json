@@ -1,6 +1,6 @@
 {
   "id": "Q11609219",
-  "checked_at": "2026-09-30T09:06:25+09:00",
+  "checked_at": "2026-10-02T08:28:44+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,14 +11,68 @@
     "https://www.kankou-gifu.jp/spot/detail_3186.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "16:30", "last_entry": "16:15", "from": "2026-04-01", "to": "2026-09-30"},
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "16:00", "last_entry": "15:45", "from": "2026-10-01", "to": "2027-03-31"},
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "16:30", "last_entry": "16:15", "from": "2027-04-01", "to": "2027-09-30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:15",
+      "from": "2026-04-01",
+      "to": "2026-09-30"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "16:00",
+      "last_entry": "15:45",
+      "from": "2026-10-01",
+      "to": "2027-03-31"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:15",
+      "from": "2027-04-01",
+      "to": "2027-09-30"
+    }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [],

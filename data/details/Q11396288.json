@@ -1,7 +1,7 @@
 {
   "id": "Q11396288",
-  "checked_at": "2026-09-30T09:15:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:30:44+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.kariya.lg.jp/museum/",
@@ -15,13 +15,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
@@ -45,7 +55,9 @@
       "adult_price": 1200,
       "hours": [
         {
-          "days": ["fri"],
+          "days": [
+            "fri"
+          ],
           "open": "09:00",
           "close": "19:00",
           "from": "2026-10-31",

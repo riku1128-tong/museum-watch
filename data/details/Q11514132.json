@@ -1,7 +1,7 @@
 {
   "id": "Q11514132",
-  "checked_at": "2026-09-30T09:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T09:00:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://shouwa-museum.com",
@@ -13,15 +13,48 @@
     "https://shouwa-museum.com/exhibition_f.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:30", "last_entry": "16:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
   ],
-  "closed_weekdays": ["mon", "tue"],
+  "closed_weekdays": [
+    "mon",
+    "tue"
+  ],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-10-15", "to": "2026-10-15", "reason": "特別休館"},
-    {"from": "2026-11-05", "to": "2026-11-05", "reason": "特別休館"},
-    {"from": "2026-11-26", "to": "2026-11-26", "reason": "特別休館"},
-    {"from": "2026-11-30", "to": "2026-11-30", "reason": "特別休館"}
+    {
+      "from": "2026-10-15",
+      "to": "2026-10-15",
+      "reason": "特別休館"
+    },
+    {
+      "from": "2026-11-05",
+      "to": "2026-11-05",
+      "reason": "特別休館"
+    },
+    {
+      "from": "2026-11-26",
+      "to": "2026-11-26",
+      "reason": "特別休館"
+    },
+    {
+      "from": "2026-11-30",
+      "to": "2026-11-30",
+      "reason": "特別休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [

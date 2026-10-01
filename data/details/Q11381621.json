@@ -1,0 +1,26 @@
+{
+  "id": "Q11381621",
+  "checked_at": "2026-10-02T08:34:24+09:00",
+  "check_mode": "full",
+  "operating_status": "unknown",
+  "status_note": "公式の開館情報を確認できず",
+  "official_url": "https://www.tanyo-shinkin.co.jp/tanyo-gallery/",
+  "address": "〒679-3301 兵庫県朝来市生野町口銀谷530",
+  "source_urls": [
+    "https://www.tanyo-shinkin.co.jp/tanyo-gallery/",
+    "https://ja.wikipedia.org/wiki/但陽信用金庫会館"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "生野出身の三大画伯、青山熊治・白瀧幾之助・和田三造ら、但陽信用金庫が所蔵する作品を本館・東館で展示。本館西隣の別館には18〜19世紀のバルビゾン派の絵画が並ぶ。",
+  "notes": "但陽信用金庫が運営（問い合わせ: 生野本部 079-679-2253）。公式のギャラリーページに開館時間・休館日・観覧料・展覧会の記載なし。観光協会・自治体ページにも見当たらず。推測は入れていない。",
+  "confidence": "low"
+}

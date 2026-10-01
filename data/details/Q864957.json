@@ -1,6 +1,6 @@
 {
   "id": "Q864957",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -205,9 +205,24 @@
   "confidence": "medium",
   "adult_price": null,
   "access": [
-    {"station": "上野", "lines": "JR", "exit": "公園改札", "walk_min": 7},
-    {"station": "上野", "lines": "東京メトロ銀座線・日比谷線", "exit": "7番出口", "walk_min": 10},
-    {"station": "京成上野", "lines": "京成電鉄", "exit": null, "walk_min": 10}
+    {
+      "station": "上野",
+      "lines": "JR",
+      "exit": "公園改札",
+      "walk_min": 7
+    },
+    {
+      "station": "上野",
+      "lines": "東京メトロ銀座線・日比谷線",
+      "exit": "7番出口",
+      "walk_min": 10
+    },
+    {
+      "station": "京成上野",
+      "lines": "京成電鉄",
+      "exit": null,
+      "walk_min": 10
+    }
   ],
   "highlights": "1975年竣工、前川國男設計のモダニズム建築。赤茶色の打込みタイルの外壁と、中央の広場を囲むように展示棟・公募展示室・文化活動棟を配置した構成が特徴。サンクンガーデンには東京大空襲を生き延びた大イチョウが茂り、常設のコレクションは持たず特別展や公募団体展の会場として親しまれている。",
   "free_days": [

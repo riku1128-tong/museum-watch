@@ -1,0 +1,79 @@
+{
+  "id": "Q11529256",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kintetsu-g-hd.co.jp/culture/shohaku/",
+  "address": "〒631-0004 奈良市登美ヶ丘2丁目1番4号",
+  "source_urls": [
+    "https://www.kintetsu-g-hd.co.jp/culture/shohaku/",
+    "https://www.kintetsu-g-hd.co.jp/culture/shohaku/exhibition/uemura-shoko-25th-memorial/",
+    "https://www.kintetsu-g-hd.co.jp/culture/shohaku/about/about.html",
+    "https://www.kintetsu-g-hd.co.jp/culture/shohaku/introduce/exhibition_hall.html",
+    "https://www.kintetsu-g-hd.co.jp/culture/shohaku/access/access.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-06",
+      "to": "2026-10-06",
+      "reason": "一部展示替えのため休館"
+    },
+    {
+      "from": "2026-11-17",
+      "to": "2026-11-17",
+      "reason": "一部展示替えのため休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "没後２５年　上村松篁展",
+      "start": "2026-08-29",
+      "end": "2026-12-20",
+      "url": "https://www.kintetsu-g-hd.co.jp/culture/shohaku/exhibition/uemura-shoko-25th-memorial/",
+      "kind": "special",
+      "summary": "文化勲章受章の日本画家・上村松篁の没後25年回顧。前期・中期・後期で展示替え",
+      "recommend": "初期から晩年までの所蔵作品に加え、館として初公開となる松篁が使った小学校の教科書などの資料も並ぶ。3期の展示替えで画業と生涯をたどれる。",
+      "admission": "大人 820円",
+      "adult_price": 820
+    }
+  ],
+  "adult_price": 820,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "学園前",
+      "lines": "近鉄奈良線",
+      "exit": null,
+      "walk_min": null,
+      "note": "大渕橋方面行きバス約5分「大渕橋（松伯美術館前）」下車、徒歩2分"
+    }
+  ],
+  "highlights": "上村松園・松篁・淳之の三代にわたる日本画と、草稿・写生などの資料を収集・展示する美術館。旧近鉄会長邸の庭に立つ百数十本の松と茶室「伯泉亭」ゆかりの敷地に、1994年に開館した。",
+  "closed_between_exhibitions": false,
+  "notes": "年末年始の休館日は公式に日付の記載なし。特別展・企画展は別料金の場合あり（展覧会期間中の入館料は820円と記載）。",
+  "confidence": "high"
+}

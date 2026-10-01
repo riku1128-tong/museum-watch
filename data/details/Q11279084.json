@@ -1,6 +1,6 @@
 {
   "id": "Q11279084",
-  "checked_at": "2026-09-30T09:26:27+09:00",
+  "checked_at": "2026-10-02T08:31:57+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,13 +12,35 @@
     "https://www.city.midori.gunma.jp/tomihiro/1003354/1003362/1009845.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-11-30", "to": "2026-11-30", "reason": "臨時休館"},
-    {"from": "2026-12-26", "to": "2027-01-04", "reason": "年末年始休館"}
+    {
+      "from": "2026-11-30",
+      "to": "2026-11-30",
+      "reason": "臨時休館"
+    },
+    {
+      "from": "2026-12-26",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -47,7 +69,13 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "神戸", "lines": "わたらせ渓谷鐵道", "exit": null, "walk_min": null, "note": "神戸駅から路線バス（美術館線・沢入線）で約10分、美術館下車すぐ"}
+    {
+      "station": "神戸",
+      "lines": "わたらせ渓谷鐵道",
+      "exit": null,
+      "walk_min": null,
+      "note": "神戸駅から路線バス（美術館線・沢入線）で約10分、美術館下車すぐ"
+    }
   ],
   "highlights": "詩人・画家の星野富弘の作品を専門に展示する美術館。渡良瀬渓谷の自然に囲まれた建物で、花の詩画とともに、四季折々の景色も楽しめる。",
   "closed_between_exhibitions": false,

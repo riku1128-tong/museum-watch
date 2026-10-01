@@ -1,6 +1,6 @@
 {
   "id": "Q11586039",
-  "checked_at": "2026-09-30T09:13:02+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": "空調設備故障のため規模縮小中。企画展のみ（展示室1・2）の観覧となります",
@@ -8,17 +8,56 @@
   "address": "〒926-0211 石川県七尾市能登島向田町125-10",
   "source_urls": [
     "https://nanao-af.jp/glass/",
-    "https://nanao-af.jp/glass/info/",
-    "https://nanao-af.jp/glass/info/access/",
     "https://nanao-af.jp/glass/exhibition2026-1/",
-    "https://nanao-af.jp/glass/exhibition2026-2/"
+    "https://nanao-af.jp/glass/exhibition2026-2/",
+    "https://nanao-af.jp/glass/info/",
+    "https://nanao-af.jp/glass/info/access/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30", "from": "2026-04-01", "to": "2026-11-30"},
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "16:30", "last_entry": "16:00", "from": "2026-12-01", "to": "2027-03-31"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "from": "2026-04-01",
+      "to": "2026-11-30"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "from": "2026-12-01",
+      "to": "2027-03-31"
+    }
   ],
   "closed_weekdays": [],
-  "closed_nth_weekdays": [{"weekday": "tue", "nth": [3]}],
+  "closed_nth_weekdays": [
+    {
+      "weekday": "tue",
+      "nth": [
+        3
+      ]
+    }
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -49,6 +88,6 @@
   ],
   "highlights": "能登島に位置するガラス専門の美術館。現代作家によるガラス工芸の収蔵作品を企画展形式で紹介し、石川ゆかりの作家や国際的な公募展の入選作などを通じて多様なガラス表現を発信する。七尾・和倉温泉からバスでアクセス可能。",
   "closed_between_exhibitions": false,
-  "notes": "毎月第3火曜日休館（祝日の場合は翌日休館）。展示替え期間・館内整備期間・年末年始は休館。空調設備故障のため規模縮小中（企画展のみ観覧可）。前の展示「ときめくガラス－新収蔵品を中心に－」は9月27日終了。",
+  "notes": "毎月第3火曜日休館（祝日の場合は翌日休館）。展示替え期間・館内整備期間・年末年始は休館。空調設備故障のため規模縮小中（企画展のみ観覧可）。前の展示「ときめくガラス－新収蔵品を中心に－」は9月27日終了。 観覧料は展覧会ごとに異なる（大学生350円・高校生以下無料）。",
   "confidence": "high"
 }

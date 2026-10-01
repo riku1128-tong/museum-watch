@@ -1,7 +1,7 @@
 {
   "id": "Q469573",
-  "checked_at": "2026-09-30T09:01:14+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://art-museum.city.nagoya.jp/",
@@ -16,16 +16,55 @@
     "https://art-museum.city.nagoya.jp/access/"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "sat", "sun"], "open": "09:30", "close": "17:00", "last_entry": "16:30"},
-    {"days": ["fri"], "open": "09:30", "close": "20:00", "last_entry": "19:30"},
-    {"days": ["holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "sat",
+        "sun"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    },
+    {
+      "days": [
+        "fri"
+      ],
+      "open": "09:30",
+      "close": "20:00",
+      "last_entry": "19:30"
+    },
+    {
+      "days": [
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-11-30", "to": "2026-12-09", "reason": "展示替期間"},
-    {"from": "2026-12-29", "to": "2027-01-02", "reason": "年末年始"},
-    {"from": "2027-01-23", "to": "2027-02-05", "reason": "展示替期間"}
+    {
+      "from": "2026-11-30",
+      "to": "2026-12-09",
+      "reason": "展示替期間"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-02",
+      "reason": "年末年始"
+    },
+    {
+      "from": "2027-01-23",
+      "to": "2027-02-05",
+      "reason": "展示替期間"
+    }
   ],
   "special_openings": [],
   "exhibitions": [

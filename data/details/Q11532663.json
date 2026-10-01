@@ -1,6 +1,6 @@
 {
   "id": "Q11532663",
-  "checked_at": "2026-09-30T09:00:43+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -15,12 +15,32 @@
     "https://www.city.itabashi.tokyo.jp/artmuseum/4000016/4002027/4002033.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -73,9 +93,27 @@
   ],
   "adult_price": null,
   "access": [
-    {"station": "西高島平", "lines": "都営三田線", "exit": null, "walk_min": 13, "note": null},
-    {"station": "高島平", "lines": "都営三田線", "exit": "西口2番のりば", "walk_min": null, "note": "「(増17)区立美術館経由 成増駅北口」行きバスで「区立美術館」下車"},
-    {"station": "成増", "lines": "東武東上線", "exit": "北口2番のりば", "walk_min": null, "note": "「(増17)区立美術館経由 高島平操車場」行きバスで「区立美術館」下車"}
+    {
+      "station": "西高島平",
+      "lines": "都営三田線",
+      "exit": null,
+      "walk_min": 13,
+      "note": null
+    },
+    {
+      "station": "高島平",
+      "lines": "都営三田線",
+      "exit": "西口2番のりば",
+      "walk_min": null,
+      "note": "「(増17)区立美術館経由 成増駅北口」行きバスで「区立美術館」下車"
+    },
+    {
+      "station": "成増",
+      "lines": "東武東上線",
+      "exit": "北口2番のりば",
+      "walk_min": null,
+      "note": "「(増17)区立美術館経由 高島平操車場」行きバスで「区立美術館」下車"
+    }
   ],
   "closed_between_exhibitions": true,
   "highlights": "東京23区初の区立美術館として1979年開館。江戸狩野派など近世絵画と大正〜昭和初期の前衛美術（池袋モンパルナスゆかり）が収蔵の柱。毎年開催のボローニャ国際絵本原画展など独自路線の企画展でも知られる。",

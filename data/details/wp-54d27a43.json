@@ -1,7 +1,7 @@
 {
   "id": "wp-54d27a43",
-  "checked_at": "2026-09-30T09:15:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:50:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://shizuoka-kinbi.jp/",
@@ -10,9 +10,23 @@
     "https://shizuoka-kinbi.jp/"
   ],
   "regular_hours": [
-    {"days": ["fri", "sat", "sun"], "open": "10:30", "close": "16:00", "last_entry": "15:30"}
+    {
+      "days": [
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "10:30",
+      "close": "16:00",
+      "last_entry": "15:30"
+    }
   ],
-  "closed_weekdays": ["mon", "tue", "wed", "thu"],
+  "closed_weekdays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [],
   "special_openings": [],
@@ -43,7 +57,13 @@
   "adult_price": 1200,
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "静岡", "lines": "JR東海道本線・東海道新幹線ほか", "exit": "北口", "walk_min": null, "note": "静岡駅北口より静鉄バス「県立総合病院行き」で西草深バス停下車、徒歩2分（タクシー約10分）"}
+    {
+      "station": "静岡",
+      "lines": "JR東海道本線・東海道新幹線ほか",
+      "exit": "北口",
+      "walk_min": null,
+      "note": "静岡駅北口より静鉄バス「県立総合病院行き」で西草深バス停下車、徒歩2分（タクシー約10分）"
+    }
   ],
   "highlights": "2016年開設の個人美術館。梅原龍三郎・萩須高徳・フジタら文化勲章受章者の作品を中心に、シャガール・ルノワール・マルケなど近代西洋美術の名品を所蔵・展示する。金土日のみ開館の小規模な施設だが、静岡では貴重な西洋近代美術の常設鑑賞地。",
   "notes": "金・土・日曜のみ開館（月〜木は定休）。holiday_rule は不明（月〜木が定休日のため祝日の扱い不明）。ミロ展の会期詳細は公式サイト上に記載なく、start は不明のため2026-01-01を仮置き。シャガール・ピカソ展は2023年10月27日開幕で好評につき延長中（end は1年後の2027-09-30として記録）。入館料は展覧会によらず一般1,200円・大高生700円・中学生以下無料（保護者同伴）で adult_price は1,200円。2016年10月27日開館（元・徳川慶喜公旧邸近く）。",

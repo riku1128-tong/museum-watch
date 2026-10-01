@@ -1,7 +1,7 @@
 {
   "id": "Q28691367",
-  "checked_at": "2026-09-30T09:20:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.hokubu-kinen.or.jp/",
@@ -12,9 +12,23 @@
     "https://www.hokubu-kinen.or.jp/blank-7"
   ],
   "regular_hours": [
-    {"days": ["thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon", "tue", "wed"],
+  "closed_weekdays": [
+    "mon",
+    "tue",
+    "wed"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [],
   "special_openings": [],

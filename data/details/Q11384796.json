@@ -1,6 +1,6 @@
 {
   "id": "Q11384796",
-  "checked_at": "2026-09-30T09:15:56+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,15 +12,30 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
       "open": "09:00",
       "close": "16:00"
     }
   ],
-  "closed_weekdays": ["sat", "sun"],
+  "closed_weekdays": [
+    "sat",
+    "sun"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -41,6 +56,6 @@
   "access": [],
   "highlights": "掛川市内の発掘調査で出土した旧石器時代から江戸時代にかけての遺物や調査写真を展示する埋蔵文化財センター。入館無料で、市内の歴史的土地利用の変遷を学べる専門施設。土日・祝日は休館のため平日のみ見学可。",
   "closed_between_exhibitions": false,
-  "notes": "土日・祝日は休館。毎年5月11日・8月10日も休館（日程は年度により変更の可能性あり）。年末年始（12月28日から1月3日）休館。",
+  "notes": "土日・祝日は休館。毎年5月11日・8月10日も休館。年末年始は12月28日から1月4日まで。",
   "confidence": "high"
 }

@@ -1,0 +1,75 @@
+{
+  "id": "Q11340103",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.museum.makonde.jp/",
+  "address": "〒519-0601 三重県伊勢市二見町松下1799-4",
+  "source_urls": [
+    "http://www.museum.makonde.jp/",
+    "http://www.museum.makonde.jp/guide/index.html",
+    "http://www.museum.makonde.jp/exhibition/index.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "tue"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-19",
+      "to": "2026-10-23",
+      "reason": "10月第3週の月〜金休館（展示替え）"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "マコンデ彫刻　骸骨展　－死を超えて、生を彫る－",
+      "start": "2026-07-18",
+      "end": "2026-10-18",
+      "url": "http://www.museum.makonde.jp/exhibition/index.html",
+      "kind": "special",
+      "summary": "骸骨をモチーフにしたマコンデ彫刻に焦点を当てた企画展",
+      "recommend": "骸骨を死の象徴ではなく、語り合い笑い日常を生きる存在として彫り上げた、マコンデ彫刻ならではの表現を味わえる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "マコンデ彫刻　ビナダム展　－アフリカに生きる人々の姿－",
+      "start": "2026-11-21",
+      "end": "2027-02-14",
+      "url": "http://www.museum.makonde.jp/exhibition/index.html",
+      "kind": "special",
+      "summary": "スワヒリ語で「人間」を意味するビナダムを主題に、名もなき人々の暮らしを彫った作品",
+      "recommend": "英雄や神々ではなく、日々をひたむきに生きる人々の姿を彫った作品群に出会える展覧会。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "休館日は毎週火曜（祝日の場合は翌平日）、2月・6月・10月の第3週の月〜金、年末年始。10月分は2026-10-19〜23と解釈。2月分（2027-02-15〜19）は範囲外のため未登録。年末年始の日付は未掲載。",
+  "confidence": "medium"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q315560",
-  "checked_at": "2026-09-30T09:30:10+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,12 +12,32 @@
     "https://www.city.ichikawa.lg.jp/site/higashiyama/55366.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-10-26", "to": "2026-10-30", "reason": "館内整備のため臨時休館"}
+    {
+      "from": "2026-10-26",
+      "to": "2026-10-30",
+      "reason": "館内整備のため臨時休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -37,8 +57,17 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "京成中山", "lines": "京成本線", "walk_min": 15},
-    {"station": "下総中山", "lines": "JR総武線", "walk_min": 20, "note": "京成バス・市川市コミュニティバスで「北方」バス停下車、徒歩約1分の便もある"}
+    {
+      "station": "京成中山",
+      "lines": "京成本線",
+      "walk_min": 15
+    },
+    {
+      "station": "下総中山",
+      "lines": "JR総武線",
+      "walk_min": 20,
+      "note": "京成バス・市川市コミュニティバスで「北方」バス停下車、徒歩約1分の便もある"
+    }
   ],
   "highlights": "20世紀の日本を代表する日本画家・東山魁夷（1908–1999）が生涯の大半を過ごした市川市に、2005年に開館した記念館。画家の作品や生涯に関する展示のほか、写真家・寺島照夫が撮影した魁夷の足跡や装丁デザインも紹介する。光と緑に包まれたカフェレストランを併設し、訪れやすい環境が整っている。",
   "closed_between_exhibitions": false,

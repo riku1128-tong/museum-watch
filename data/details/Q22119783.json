@@ -1,7 +1,7 @@
 {
   "id": "Q22119783",
-  "checked_at": "2026-09-30T09:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.seishi-nakamoto.com/",
@@ -10,9 +10,22 @@
     "https://www.seishi-nakamoto.com/"
   ],
   "regular_hours": [
-    {"days": ["fri", "sat", "sun", "mon"], "open": "11:00", "close": "17:00"}
+    {
+      "days": [
+        "fri",
+        "sat",
+        "sun",
+        "mon"
+      ],
+      "open": "11:00",
+      "close": "17:00"
+    }
   ],
-  "closed_weekdays": ["tue", "wed", "thu"],
+  "closed_weekdays": [
+    "tue",
+    "wed",
+    "thu"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -33,7 +46,12 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "旭ヶ丘", "lines": "仙台市地下鉄南北線", "walk_min": 30, "note": "宮城交通バス「北仙台中学校前」バス停下車徒歩1分が最寄り"}
+    {
+      "station": "旭ヶ丘",
+      "lines": "仙台市地下鉄南北線",
+      "walk_min": 30,
+      "note": "宮城交通バス「北仙台中学校前」バス停下車徒歩1分が最寄り"
+    }
   ],
   "highlights": "仙台在住の現代美術家・中本誠司が運営する私設美術館。画家自身の作品を中心に展示し、仙台市内の住宅地に構えた小規模ながら独自の空間で、現代アートを無料で鑑賞できる。",
   "closed_between_exhibitions": false,

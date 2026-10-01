@@ -1,6 +1,6 @@
 {
   "id": "Q11344966",
-  "checked_at": "2026-09-30T09:13:02+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -8,24 +8,41 @@
   "address": "〒350-0851 埼玉県川越市氷川町109-1",
   "source_urls": [
     "https://www.yaoko-net.com/museum/",
-    "https://www.yaoko-net.com/museum/about/",
-    "https://www.museum.or.jp/museum/17395"
+    "https://www.yaoko-net.com/museum/info/index.html",
+    "https://www.yaoko-net.com/museum/blog/exhibitions/page52274.html",
+    "https://www.yaoko-net.com/museum/blog/news/page52303.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {
       "title": "三栖右嗣 ―大地がもたらす美なる温かな恵み",
-      "start": "2026-09-14",
+      "start": "2026-09-15",
       "end": "2027-03-14",
-      "url": "https://www.yaoko-net.com/museum/",
+      "url": "https://www.yaoko-net.com/museum/blog/exhibitions/page52274.html",
       "kind": "collection",
-      "summary": "2026年秋・冬期展示。三栖右嗣の秋冬の植物・風景の大作を中心に紹介",
+      "summary": "三栖右嗣の秋冬の植物・風景の大作36点を中心に紹介（通期展示）",
       "recommend": "陽光が照らす大地の恵みをテーマに、三栖右嗣が描いた秋冬の植物や風景の大作をまとめて見られる期間限定の展示替え",
       "admission": "一般 300円",
       "adult_price": 300
@@ -34,10 +51,22 @@
   "adult_price": 300,
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "川越", "lines": "JR川越線・東武東上線", "exit": null, "walk_min": null, "note": "東武バスで「川越氷川神社」下車徒歩1分"},
-    {"station": "本川越", "lines": "西武新宿線", "exit": null, "walk_min": null, "note": "東武バスで「川越氷川神社」下車徒歩1分"}
+    {
+      "station": "川越",
+      "lines": "JR川越線・東武東上線",
+      "exit": null,
+      "walk_min": null,
+      "note": "東武バスで「川越氷川神社」下車徒歩1分"
+    },
+    {
+      "station": "本川越",
+      "lines": "西武新宿線",
+      "exit": null,
+      "walk_min": null,
+      "note": "東武バスで「川越氷川神社」下車徒歩1分"
+    }
   ],
   "highlights": "スーパーマーケット「ヤオコー」の創業120周年事業として、建築家・伊東豊雄の設計で建てられた美術館。洋画家・三栖右嗣の作品を通年展示し、季節ごとにテーマを変えて展示替えを行う",
-  "notes": "公式トップページで開館時間・料金は非表示のためインターネットミュージアム（museum.or.jp）情報を継続使用、confidence medium。9/24（木）に臨時休館があったが既に終了。年末年始の休館日程は未確認。展覧会は常設コレクションの季節ごとの展示替えの形で行われ、特別展料金の設定は無い（入館料に含む）。",
-  "confidence": "medium"
+  "notes": "開館時間・休館日・料金は公式ご利用案内で確認。9/24（木）の臨時休館は終了済み。年末年始の具体的な日付は公式に記載が見当たらず未確認。特別展料金の設定は無く、入館料に含む。",
+  "confidence": "high"
 }

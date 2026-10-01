@@ -1,0 +1,52 @@
+{
+  "id": "wp-35bc875e",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.enokojima-art.jp/",
+  "address": "〒550-0006 大阪市西区江之子島2丁目1番34号",
+  "source_urls": [
+    "https://www.enokojima-art.jp/",
+    "https://www.enokojima-art.jp/sudakokuta120/",
+    "https://www.enokojima-art.jp/access/",
+    "https://www.enokojima-art.jp/event/16788/",
+    "https://www.pref.osaka.lg.jp/shisetsu/cate002/074.html"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "21:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "生誕120年記念 須田剋太展 私は造型になりたい！",
+      "start": "2026-10-16",
+      "end": "2026-11-14",
+      "url": "https://www.enokojima-art.jp/sudakokuta120/",
+      "kind": "special",
+      "summary": "画家・須田剋太の関西移住後の抽象・具象作品を約100点展示",
+      "recommend": "人物画や静物画から抽象画まで、剋太が生涯追い続けた「造型」の精神を大阪府20世紀美術コレクションなどの約100点でたどる。入場無料で気軽に触れられる。",
+      "admission": "無料",
+      "adult_price": 0,
+      "hours": [
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:30", "close": "18:00"},
+        {"days": ["sat"], "open": "10:30", "close": "13:00", "from": "2026-11-14", "to": "2026-11-14"}
+      ]
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "阿波座", "lines": "Osaka Metro中央線・千日前線", "exit": "8番出口", "walk_min": 3, "note": null}
+  ],
+  "highlights": "展覧会やイベント、ワークショップを通じてアートやデザインの力で社会の課題に向き合う大阪府の文化施設。展示室のほか音響ルームやライブラリーを備え、親子向けの講座なども開かれる。入館は無料。",
+  "closed_between_exhibitions": false,
+  "notes": "開館時間 10:00-21:00 は施設全体。ギャラリー（Room1〜4）は催しごとに時間が異なる。祝日の扱いは公式に明記なし。2027年7月〜2028年2月に大規模修繕工事の予定（長期休館の予定なし）。須田剋太展は最終日（11/14）のみ13:00閉場、月曜休館。",
+  "confidence": "medium"
+}

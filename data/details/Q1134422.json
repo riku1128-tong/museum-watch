@@ -1,7 +1,7 @@
 {
   "id": "Q1134422",
-  "checked_at": "2026-09-30T09:12:10+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.hakone-oam.or.jp/",
@@ -15,7 +15,21 @@
     "https://www.hakone-oam.or.jp/aboutus/access"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
@@ -62,8 +76,13 @@
   "closed_between_exhibitions": false,
   "adult_price": 2000,
   "access": [
-    {"station": "彫刻の森", "lines": "箱根登山鉄道", "exit": null, "walk_min": 2,
-     "note": "小田原駅・箱根湯本駅から箱根登山鉄道。バスの場合は小田原駅・箱根湯本駅から「H」「J」「Z」系統で二の平入口バス停下車徒歩6分"}
+    {
+      "station": "彫刻の森",
+      "lines": "箱根登山鉄道",
+      "exit": null,
+      "walk_min": 2,
+      "note": "小田原駅・箱根湯本駅から箱根登山鉄道。バスの場合は小田原駅・箱根湯本駅から「H」「J」「Z」系統で二の平入口バス停下車徒歩6分"
+    }
   ],
   "highlights": "富士箱根伊豆国立公園の自然の中に約120点の近・現代彫刻を野外展示する、1969年開館の日本初の野外彫刻美術館。ロダン、ムーア、ジャコメッティらの名作が広がる約7万㎡の敷地に、高さ18mのステンドグラス塔「幸せをよぶシンフォニー彫刻」や足湯も備え、ピカソ館ではピカソの版画・陶芸を常設展示する。",
   "notes": "9:00〜17:00（入館は16:30まで）、年中無休。入館料は館共通で一般 当日窓口2,000円（WEBチケット1,800円、adult_price は当日窓口価格）。ピカソ館では常設企画展「ピカソの原動力」を開催中（会期未確認のため展示一覧には入れていない）。",

@@ -1,0 +1,128 @@
+{
+  "id": "Q11417477",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.momaw.jp/",
+  "address": "〒640-8137 和歌山県和歌山市吹上1-4-14",
+  "source_urls": [
+    "https://www.momaw.jp/",
+    "https://www.momaw.jp/exhibit/2026col_prints_2nd/",
+    "https://www.momaw.jp/exhibit/2026col_painting_sculpture/",
+    "https://www.momaw.jp/exhibit/architecture_design/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-20",
+      "to": "2026-10-23",
+      "reason": "展示替休館"
+    },
+    {
+      "from": "2026-12-01",
+      "to": "2026-12-04",
+      "reason": "展示替休館"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "MOMAWコレクション　版画と美術散歩　第2期 ピカソ《泣く女》と―凹版の小道",
+      "start": "2026-09-12",
+      "end": "2026-10-18",
+      "url": "https://www.momaw.jp/exhibit/2026col_prints_2nd/",
+      "kind": "collection",
+      "summary": "所蔵版画から、ピカソ《泣く女》を起点に凹版表現の受容と深化をたどる",
+      "recommend": "光に弱く長く展示できない版画コレクションの貴重な公開機会。ピカソ《泣く女》を出発点に、西洋の凹版表現が日本で受け入れられ深まっていく流れを作品でたどれる。",
+      "admission": "一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "MOMAWコレクション　絵画と彫刻",
+      "start": "2026-08-04",
+      "end": "2027-01-11",
+      "url": "https://www.momaw.jp/exhibit/2026col_painting_sculpture/",
+      "kind": "collection",
+      "summary": "和歌山ゆかりの作家を軸に、19世紀末から今日の内外美術を紹介",
+      "recommend": "和歌山県ゆかりの美術家を軸に、国内外の近現代美術を一望できる所蔵品展。1970年開館の近代美術館ならではの、地域に根ざしたコレクションの個性に触れられる。",
+      "admission": "一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "和歌山県立近代美術館・博物館の建築とデザイン",
+      "start": "2026-05-30",
+      "end": "2027-03-28",
+      "url": "https://www.momaw.jp/exhibit/architecture_design/",
+      "kind": "other",
+      "summary": "黒川紀章設計の館の建築とデザインを模型・資料で紹介",
+      "recommend": "黒川紀章が設計した建物そのものを作品として読み解く展示。メタボリズムの考え方を、模型や原寸のディテール模型、計画資料から具体的に知ることができる。",
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 400,
+  "free_days": [
+    {
+      "from": "2026-11-22",
+      "to": "2026-11-22",
+      "scope": "collection",
+      "reason": "毎月第1日曜日無料（11月は22日に変更）",
+      "source_url": "https://www.momaw.jp/exhibit/2026col_painting_sculpture/"
+    }
+  ],
+  "free_rules": [
+    {
+      "weekday": "sun",
+      "nth": [
+        1
+      ],
+      "scope": "collection",
+      "reason": "毎月第1日曜日はコレクション展無料",
+      "source_url": "https://www.momaw.jp/exhibit/2026col_painting_sculpture/"
+    }
+  ],
+  "access": [
+    {
+      "station": "和歌山",
+      "lines": "JR紀勢本線・阪和線",
+      "walk_min": null,
+      "note": "バスで約10分、「県庁前」下車徒歩2分"
+    },
+    {
+      "station": "和歌山市",
+      "lines": "南海本線",
+      "walk_min": null,
+      "note": "バスで約10分、「県庁前」下車徒歩2分"
+    }
+  ],
+  "highlights": "和歌山城に隣接し、黒川紀章が設計した建物が天守閣と対比をなす近代美術館。和歌山ゆかりの作家を軸に、19世紀末から現代までの日本と海外の美術を所蔵し、版画のコレクションにも力を入れている。",
+  "closed_between_exhibitions": false,
+  "notes": "11/23(祝)・1/11(祝)は開館、翌平日(9/24,10/13,11/24)休館。11月の無料日は第1日曜でなく22日。展示替休館は9/8〜11終了、10/20〜23、12/1〜4。観覧料は企画ごと。高校生以下・65歳以上・障害者手帳所持者は無料。",
+  "confidence": "high"
+}

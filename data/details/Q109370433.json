@@ -1,6 +1,6 @@
 {
   "id": "Q109370433",
-  "checked_at": "2026-09-30T09:37:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -15,12 +15,36 @@
     "https://www.city.suwa.lg.jp/site/museum/51647.html"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-28", "to": "2026-10-10", "reason": "展示替えのための臨時休館"}
+    {
+      "from": "2026-09-28",
+      "to": "2026-10-10",
+      "reason": "展示替えのための臨時休館"
+    },
+    {
+      "from": "2026-10-18",
+      "to": "2026-10-26",
+      "reason": "展示替えのための臨時休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -31,7 +55,7 @@
       "url": "https://www.city.suwa.lg.jp/site/museum/51647.html",
       "kind": "special",
       "summary": "諏訪市主催の公募美術展",
-      "recommend": null,
+      "recommend": "市美術会員と諏訪地域の一般応募作品が並ぶ公募展。地元の作り手の今を一度に見られる、年に一度の機会。",
       "admission": "無料",
       "adult_price": 0
     },
@@ -51,10 +75,16 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "上諏訪", "lines": "JR中央本線", "exit": "西口", "walk_min": 7, "note": null}
+    {
+      "station": "上諏訪",
+      "lines": "JR中央本線",
+      "exit": "西口",
+      "walk_min": 7,
+      "note": null
+    }
   ],
   "highlights": "諏訪湖畔に建つ開館70周年を迎えた長野県内有数の市立美術館。彫刻家・細川宗英らの収蔵作品を核に、地域ゆかりの作家の企画展・公募展を年間を通じて開催。片倉館と共有する無料駐車場から諏訪湖の眺望も楽しめる立地が魅力。",
   "closed_between_exhibitions": false,
-  "notes": "開館カレンダーは画像PDFのみで詳細不明。年間スケジュールは諏訪市公式サイトのテキスト情報から把握。「月曜と祝日の翌日」休館 = 月曜休館・月曜が祝日なら開館し翌火曜休館（holiday_rule: open_next_weekday_closed）と解釈。入館料は常設展310円（企画展開催時は別途料金）。第48回市美術展（10/11-17）の展示替えのため、9/28-10/10は臨時休館中。10/12（スポーツの日）は開館し翌10/13（火）が休館となる（holiday_rule適用）。開館70周年記念展「諏訪を歩む」（10/27-）の入館料は公式未確認。",
+  "notes": "開館カレンダーは画像PDFのみで詳細不明。年間スケジュールは諏訪市公式サイトのテキスト情報から把握。「月曜と祝日の翌日」休館 = 月曜休館・月曜が祝日なら開館し翌火曜休館（holiday_rule: open_next_weekday_closed）と解釈。入館料は常設展310円（企画展開催時は別途料金）。第48回市美術展（10/11-17）の展示替えのため、9/28-10/10は臨時休館中。10/12（スポーツの日）は開館し翌10/13（火）が休館となる（holiday_rule適用）。開館70周年記念展「諏訪を歩む」（10/27-）の入館料は公式未確認。 10/13(火)休館、10/18〜10/26は展示替えで休館（次回展覧会ページで確認）。",
   "confidence": "medium"
 }

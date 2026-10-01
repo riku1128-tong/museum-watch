@@ -1,0 +1,51 @@
+{
+  "id": "Q11318993",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒470-3236 愛知県知多郡美浜町小野浦福島1-6",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/11843"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [
+    "tue"
+  ],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "内海",
+      "lines": "名鉄知多新線",
+      "exit": null,
+      "walk_min": null,
+      "note": "内海駅からタクシーで「小野浦」交差点前。駐車場無料"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトは読めず、全国美術館会議の館情報で確認。作家来日中や展覧会準備中・会期中に臨時休館することがある。展覧会情報は取得できず。",
+  "confidence": "medium"
+}

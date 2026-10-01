@@ -1,6 +1,6 @@
 {
   "id": "Q11314323",
-  "checked_at": "2026-09-30T09:26:22+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -14,9 +14,24 @@
     "https://smma.or.jp/history/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:00"
+    }
   ],
-  "closed_weekdays": ["thu"],
+  "closed_weekdays": [
+    "thu"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [],
   "special_openings": [],
@@ -36,8 +51,20 @@
   "adult_price": 3300,
   "free_days": [],
   "access": [
-    {"station": "軽井沢", "lines": "JR北陸新幹線・しなの鉄道", "exit": "北口", "walk_min": null, "note": "タクシーで約20分。西武バスで「軽井沢千ヶ滝温泉入口」下車徒歩7分も可"},
-    {"station": "中軽井沢", "lines": "しなの鉄道", "exit": "北口", "walk_min": null, "note": "タクシーで約10分"}
+    {
+      "station": "軽井沢",
+      "lines": "JR北陸新幹線・しなの鉄道",
+      "exit": "北口",
+      "walk_min": null,
+      "note": "タクシーで約20分。西武バスで「軽井沢千ヶ滝温泉入口」下車徒歩7分も可"
+    },
+    {
+      "station": "中軽井沢",
+      "lines": "しなの鉄道",
+      "exit": "北口",
+      "walk_min": null,
+      "note": "タクシーで約10分"
+    }
   ],
   "highlights": "建築家・菊竹清訓が設計し、彫刻家・若林奮が庭園を手がけた軽井沢の森の中の美術館。クレーやカンディンスキー、ポロック、ロスコら20世紀西洋美術と、荒川修作ら日本の戦後現代美術まで約800点を収蔵する。",
   "closed_between_exhibitions": false,

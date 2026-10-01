@@ -1,0 +1,26 @@
+{
+  "id": "Q11555555",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "2018年2月28日に波止場町から移転・閉館。3月1日から元町通6丁目の「TEN×TEN神戸元町」で活動",
+  "official_url": "https://tenten.chu.jp/",
+  "address": "〒650-0042 兵庫県神戸市中央区波止場町6-5（移転前）",
+  "source_urls": [
+    "https://ja.wikipedia.org/wiki/波止場町TEN×TEN",
+    "https://tenten.chu.jp/",
+    "https://www.kobe-motomachi.or.jp/shop-search/315"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [
+    "wed"
+  ],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "adult_price": null,
+  "notes": "波止場町の施設は2018年に移転のため閉館。後継の「TEN×TEN神戸元町」（神戸市中央区元町通6丁目6-2、11:00〜17:30、水曜・年末年始休み、入館無料）は別所在地。",
+  "confidence": "medium"
+}

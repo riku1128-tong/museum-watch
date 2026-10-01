@@ -1,6 +1,6 @@
 {
   "id": "Q705767",
-  "checked_at": "2026-09-30T09:26:22+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -14,9 +14,24 @@
     "https://www.museum.or.jp/museum/1287"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -48,7 +63,13 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "水戸", "lines": "JR常磐線", "exit": "北口", "walk_min": null, "note": "水戸駅北口バスターミナル4〜7番のりばからバスで約10分「泉町1丁目」下車、徒歩2分ほど（東京駅八重洲南口からの高速バス「みと号」も同停留所に停車）"}
+    {
+      "station": "水戸",
+      "lines": "JR常磐線",
+      "exit": "北口",
+      "walk_min": null,
+      "note": "水戸駅北口バスターミナル4〜7番のりばからバスで約10分「泉町1丁目」下車、徒歩2分ほど（東京駅八重洲南口からの高速バス「みと号」も同停留所に停車）"
+    }
   ],
   "highlights": "建築家・磯崎新が設計した高さ100mのシンボルタワーが目印の複合文化施設。現代美術ギャラリーでは年3回程度、国内外の現代アーティストの企画展を開催し、若手作家を紹介する「クリテリオム」シリーズも行う",
   "closed_between_exhibitions": false,

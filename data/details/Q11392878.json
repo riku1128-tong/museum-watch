@@ -1,0 +1,32 @@
+{
+  "id": "Q11392878",
+  "checked_at": "2026-10-02T08:27:08+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://web.pref.hyogo.lg.jp/kk02/ac01_000000026.html",
+  "address": "〒650-8567 兵庫県神戸市中央区下山手通5丁目10番1号",
+  "source_urls": ["https://web.pref.hyogo.lg.jp/kk02/ac01_000000026.html"],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri"], "open": "09:30", "close": "16:00"}
+  ],
+  "closed_weekdays": ["sat", "sun"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [
+    {"date": "2026-10-10", "open": "10:00", "close": "16:00", "note": "一般開放（第2土曜）"},
+    {"date": "2026-10-24", "open": "10:00", "close": "16:00", "note": "一般開放（第4土曜）"},
+    {"date": "2026-11-14", "open": "10:00", "close": "16:00", "note": "一般開放（第2土曜）"},
+    {"date": "2026-11-28", "open": "10:00", "close": "16:00", "note": "一般開放（第4土曜）"},
+    {"date": "2026-12-12", "open": "10:00", "close": "16:00", "note": "一般開放（第2土曜）"}
+  ],
+  "exhibitions": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "県の公館で、見学は無料。一般開放は毎月第2・第4土曜 10:00〜16:00、平日見学は 9:30〜12:00 と 13:00〜16:00（昼休みあり。予約の要否は未確認）。庭園は4〜9月 9:00〜19:00、10〜3月 9:00〜18:00。休館は年末年始と全館を使う行事・災害時。2階の県政資料館は令和7年1月に閉館。祝日の扱いは記載なし。",
+  "confidence": "medium"
+}

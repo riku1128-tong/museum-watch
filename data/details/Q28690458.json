@@ -1,7 +1,7 @@
 {
   "id": "Q28690458",
-  "checked_at": "2026-09-30T09:20:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.gmillet.jp/",
@@ -12,9 +12,24 @@
     "https://www.gmillet.jp/exhibitions/68.html"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -46,8 +61,20 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "中町", "lines": "富山地方鉄道市内電車（環状線）", "exit": null, "walk_min": 5, "note": null},
-    {"station": "富山", "lines": "JR北陸新幹線・あいの風とやま鉄道", "exit": null, "walk_min": 20, "note": null}
+    {
+      "station": "中町",
+      "lines": "富山地方鉄道市内電車（環状線）",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    },
+    {
+      "station": "富山",
+      "lines": "JR北陸新幹線・あいの風とやま鉄道",
+      "exit": null,
+      "walk_min": 20,
+      "note": null
+    }
   ],
   "highlights": "2012年に富山市中央通りに開設されたまちなか美術館。ミレー、コロー、クールベをはじめバルビゾン派・写実主義の油彩53点を「田園風景」「農民の生活」など4つのテーマで展示し、19世紀フランス絵画を間近に楽しめる。北陸銀行が提供する落ち着いた空間も魅力。",
   "closed_between_exhibitions": false,

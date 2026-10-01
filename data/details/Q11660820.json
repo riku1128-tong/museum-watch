@@ -1,0 +1,28 @@
+{
+  "id": "Q11660820",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "記念館としての公開は終了。現在は一般には非公開（人形メーカーの来客施設）",
+  "official_url": null,
+  "address": null,
+  "source_urls": [
+    "https://kyoto-irodoru.city.kyoto.lg.jp/topics/topics%20kachuan.html",
+    "https://dollfie.volks.co.jp/shop/tenshinosato/blog/002223.html"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトは無い。検索結果の概要では、2003年に人形メーカーのボークスが取得し、現在は一般公開されていない（過去に秋の特定日のみ庭と建物を公開した例あり）。公開状況は京都市の紹介ページの本文が文字化けして読めず未確認のため、confidence は medium。",
+  "confidence": "medium"
+}

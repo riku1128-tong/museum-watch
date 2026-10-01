@@ -1,7 +1,7 @@
 {
   "id": "Q11390430",
-  "checked_at": "2026-09-30T09:25:27+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://yatsubi.com/",
@@ -16,7 +16,16 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
@@ -25,10 +34,26 @@
   "closed_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-12-07", "to": "2026-12-11", "reason": "展示替え休館"},
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休業"},
-    {"from": "2027-02-22", "to": "2027-03-14", "reason": "資料整理休館"},
-    {"from": "2027-03-15", "to": "2027-03-19", "reason": "展示替え休館"}
+    {
+      "from": "2026-12-07",
+      "to": "2026-12-11",
+      "reason": "展示替え休館"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休業"
+    },
+    {
+      "from": "2027-02-22",
+      "to": "2027-03-14",
+      "reason": "資料整理休館"
+    },
+    {
+      "from": "2027-03-15",
+      "to": "2027-03-19",
+      "reason": "展示替え休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [

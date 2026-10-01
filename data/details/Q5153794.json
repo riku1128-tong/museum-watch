@@ -1,6 +1,6 @@
 {
   "id": "Q5153794",
-  "checked_at": "2026-09-30T09:06:25+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "重要文化財保存修理工事（耐震補強・保存修理）のため2025年4月1日〜2027年5月末（予定）休館",
@@ -12,13 +12,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "16:30",
       "last_entry": "16:00"
     }
   ],
-  "closed_weekdays": ["wed"],
+  "closed_weekdays": [
+    "wed"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {

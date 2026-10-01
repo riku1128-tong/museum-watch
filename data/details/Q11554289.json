@@ -1,7 +1,7 @@
 {
   "id": "Q11554289",
-  "checked_at": "2026-09-30T09:26:22+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://kyosai-museum.jp/",
@@ -11,12 +11,30 @@
     "https://www.artagenda.jp/museum/detail/72"
   ],
   "regular_hours": [
-    {"days": ["mon", "wed", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00"}
+    {
+      "days": [
+        "mon",
+        "wed",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:00"
+    }
   ],
-  "closed_weekdays": ["tue", "thu"],
+  "closed_weekdays": [
+    "tue",
+    "thu"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [
-    {"from": "2026-12-24", "to": "2027-01-03", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-24",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -36,8 +54,20 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "西川口", "lines": "JR京浜東北線", "exit": "西口", "walk_min": 20, "note": null},
-    {"station": "蕨", "lines": "JR京浜東北線", "exit": "西口", "walk_min": null, "note": "蕨市コミュニティバス「ぷらっとわらび」南ルートで「河鍋暁斎記念美術館前」下車すぐ"}
+    {
+      "station": "西川口",
+      "lines": "JR京浜東北線",
+      "exit": "西口",
+      "walk_min": 20,
+      "note": null
+    },
+    {
+      "station": "蕨",
+      "lines": "JR京浜東北線",
+      "exit": "西口",
+      "walk_min": null,
+      "note": "蕨市コミュニティバス「ぷらっとわらび」南ルートで「河鍋暁斎記念美術館前」下車すぐ"
+    }
   ],
   "highlights": "幕末から明治に活躍した絵師・河鍋暁斎の曾孫が設立した美術館。妖怪画や戯画で知られる暁斎の肉筆画・版画・下絵などのコレクションを、季節ごとの企画展・特別展で紹介する",
   "closed_between_exhibitions": false,

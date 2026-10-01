@@ -1,6 +1,6 @@
 {
   "id": "Q86743755",
-  "checked_at": "2026-09-30T09:26:27+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,12 +11,31 @@
     "https://ja.wikipedia.org/wiki/%E4%BF%A1%E5%B7%9E%E6%96%B0%E7%94%BA%E7%BE%8E%E8%A1%93%E9%A4%A8"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [],
@@ -34,6 +53,6 @@
   ],
   "highlights": "長野市信州新町に立つ市立美術館。栗原信の水彩画・横井弘三の絵画・赤城泰舒の水彩画・小泉癸巳男の版画など約2300点を収蔵する。入館料は隣接する有島生馬記念館・信州新町化石博物館との3館共通券。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（ngn.janis.or.jp）が接続できなかったため、インターネットミュージアム（museum.or.jp）とWikipediaの情報をもとに作成。休館日は「月曜日・祝日の翌日・年末年始」とされており、祝日の翌日（月曜が祝日の場合は翌火曜）が休館のため holiday_rule を open_next_weekday_closed とした。入館料500円は有島生馬記念館・信州新町化石博物館との共通料金。現在の展覧会情報は公式サイトで要確認。",
+  "notes": "公式サイト（ngn.janis.or.jp）が接続できなかったため、インターネットミュージアム（museum.or.jp）とWikipediaの情報をもとに作成。休館日は「月曜日・祝日の翌日・年末年始」とされており、祝日の翌日（月曜が祝日の場合は翌火曜）が休館のため holiday_rule を open_next_weekday_closed とした。入館料500円は有島生馬記念館・信州新町化石博物館との共通料金。現在の展覧会情報は公式サイトで要確認。 2026-10-02 再確認: 公式サイトは取得できず。検索結果の公式情報では開館9:00〜16:30（入場16:00まで）、休館は月曜・祝日の翌日・年末年始。直近の展示（信州書道秀作展など）は9/23〜27で終了しており、現在の展示は確認できなかった。",
   "confidence": "medium"
 }

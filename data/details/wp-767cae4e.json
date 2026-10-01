@@ -1,0 +1,44 @@
+{
+  "id": "wp-767cae4e",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://sugiokakason.com/",
+  "address": "〒630-8337 奈良県奈良市脇戸町3番地",
+  "source_urls": [
+    "https://sugiokakason.com/",
+    "https://sugiokakason.com/exhibition.html",
+    "https://narashikanko.or.jp/spot/detail_10048.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第3回　書で巡る　まほろば展",
+      "start": "2026-10-03",
+      "end": "2026-10-25",
+      "url": "https://sugiokakason.com/exhibition.html",
+      "kind": "special",
+      "summary": "奈良教育大学との連携展。学生が「まほろば」の地を訪ねて書で表現した作品",
+      "recommend": "奈良教育大学の漢字書道研究室の学生が、詩に詠まれた「まほろば」の地を実際に訪れ、その体験を書作品に仕立てる。若い書き手の感性に出会える連携企画。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "近鉄奈良", "lines": "近鉄奈良線", "exit": null, "walk_min": 10, "note": "奈良市史料保存館横"}
+  ],
+  "highlights": "かな書の第一人者・杉岡華邨の功績を称えて2000年に開館した書道専門の美術館。世界遺産・元興寺旧境内に広がる「ならまち」の古い町並みの中にあり、かな書を中心とした書の世界を味わえる。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は月曜（祝日の場合を除く）、祝日の翌日（平日の場合）、年末年始（12/26〜1/5）、展示替え期間。展示替え期間の具体日程は未確認（9/28〜10/2頃は不明）。観覧料は奈良市在住者300円、16歳未満・高校生・大学生に準ずる者は無料。",
+  "confidence": "medium"
+}

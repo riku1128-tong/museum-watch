@@ -1,7 +1,7 @@
 {
   "id": "Q11595519",
-  "checked_at": "2026-09-30T09:05:25+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://akita-kinbi.jp/",
@@ -12,12 +12,30 @@
     "https://akita-kinbi.jp/ja_pages/tickets/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "unknown",
   "special_closures": [
-    {"from": "2026-10-05", "to": "2026-10-09", "reason": "展示替え"}
+    {
+      "from": "2026-10-05",
+      "to": "2026-10-09",
+      "reason": "展示替え"
+    }
   ],
   "special_openings": [],
   "exhibitions": [

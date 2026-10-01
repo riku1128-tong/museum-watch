@@ -1,0 +1,70 @@
+{
+  "id": "Q11535060",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.kakimori.jp/",
+  "address": "〒664-0895 兵庫県伊丹市宮ノ前2丁目5-20",
+  "source_urls": [
+    "http://www.kakimori.jp/info/",
+    "https://jarsa.jp/museum/m3858/",
+    "https://itami-im.jp/exhibitions/",
+    "https://itami-im.jp/exhibitions/kakimoribunko-meihinn/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "伊丹",
+      "lines": "阪急伊丹線",
+      "walk_min": 9
+    },
+    {
+      "station": "伊丹",
+      "lines": "JR宝塚線",
+      "walk_min": 7
+    },
+    {
+      "station": "伊丹本町",
+      "lines": null,
+      "walk_min": 2,
+      "note": "阪急バス尼崎池田線「伊丹本町」下車"
+    }
+  ],
+  "highlights": "伊丹の酒造家に受け継がれた俳諧コレクションを核にする文庫。和書約3500点、真蹟類約6500点を収蔵し、日本三大俳諧コレクションの一つとされる。芭蕉・蕪村らの俳諧資料に親しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトは証明書エラーで直接読めず、休館日・時間は公式情報を転載した案内ページ（JARSA）と市立伊丹ミュージアムの会期ページで確認。柿衞文庫は市立伊丹ミュージアムの一部。直近の展覧会は6/19〜7/26の名品展（終了）で、開催中・3か月以内の柿衞文庫単独の展示は確認できず。入館料は未確認。",
+  "confidence": "medium"
+}

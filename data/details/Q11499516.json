@@ -1,28 +1,55 @@
 {
   "id": "Q11499516",
-  "checked_at": "2026-09-30T09:20:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.tsurui.co.jp/museum/",
   "address": "〒950-0087 新潟県新潟市中央区東大通1-2-23 北陸ビル1F",
   "source_urls": [
-    "https://www.tsurui.co.jp/museum/"
+    "https://www.tsurui.co.jp/museum/",
+    "https://www.tsurui.co.jp/museum/exhibition/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["sun"],
+  "closed_weekdays": [
+    "sun"
+  ],
   "holiday_rule": "closed",
   "special_closures": [],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "近代陶芸の革新者　楠部彌弌展",
+      "start": "2026-10-05",
+      "end": "2026-12-12",
+      "url": "https://www.tsurui.co.jp/museum/exhibition/",
+      "kind": "special",
+      "summary": "京都の陶芸家・楠部彌弌の優品40点と高弟・寺池静人の作品",
+      "recommend": "古今東西の陶芸技法を究め近代陶芸を革新した楠部彌弌のコレクションから優品40点を展示。高弟の寺池静人の作品も特別に並び、師弟の造形を見比べられるのが見どころ。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
   "adult_price": null,
   "free_days": [],
   "free_rules": [],
   "access": [],
-  "highlights": null,
-  "closed_between_exhibitions": false,
-  "notes": "休館日: 日曜・祝日・年末年始・展示替期間。直近の企画展「日本画と洋画の名品で綴る 風景画の世界展」は2026年7月6日〜9月12日に終了。次の展覧会の告知は公式サイトに未掲載（展示替え期間中と推定）。入館料・アクセスの詳細は公式サイトに記載なし。",
-  "confidence": "medium"
+  "highlights": "新潟駅近くのビル1階にある、企画展のみを開く私設美術館。近代陶芸の革新者・楠部彌弌の優品をはじめとするコレクションを、展覧会ごとにテーマを変えて紹介する。常設展示はないので、来館前に会期の確認がおすすめ。",
+  "closed_between_exhibitions": true,
+  "notes": "休館日: 日曜・祝日・年末年始・展示替期間。常設展示はなく企画展のみ。企画展の観覧料は展覧会ごと（楠部彌弌展は一般500円）。アクセスの詳細は公式サイトで確認できず。",
+  "confidence": "high"
 }

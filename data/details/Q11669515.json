@@ -1,7 +1,7 @@
 {
   "id": "Q11669515",
-  "checked_at": "2026-09-30T09:35:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.e-tam.info/",
@@ -14,12 +14,31 @@
     "https://www.e-tam.info/tam_exhibition/2447/"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -50,11 +69,22 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "越中中川", "lines": "JR氷見線", "exit": null, "walk_min": 2},
-    {"station": "高岡", "lines": "あいの風とやま鉄道・JR城端線・氷見線", "exit": null, "walk_min": 20, "note": "万葉線「広小路」電停からも徒歩10分"}
+    {
+      "station": "越中中川",
+      "lines": "JR氷見線",
+      "exit": null,
+      "walk_min": 2
+    },
+    {
+      "station": "高岡",
+      "lines": "あいの風とやま鉄道・JR城端線・氷見線",
+      "exit": null,
+      "walk_min": 20,
+      "note": "万葉線「広小路」電停からも徒歩10分"
+    }
   ],
   "highlights": "高岡の伝統工芸を核にした市立美術館。金属工芸・漆芸を中心に横山大観・棟方志功らの作品も収蔵する充実のコレクション。内井昭蔵設計の建物は地元産石材とアルミキャストを活かし、「光と水の塔」がシンボル。JR氷見線越中中川駅から徒歩2分の好立地。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（月曜が祝日の場合は翌平日休館）。入館料は展覧会ごとに異なり、常設展のみの固定料金は確認できていない。",
+  "notes": "月曜休館（月曜が祝日の場合は翌平日休館）。入館料は展覧会ごとに異なり、常設展のみの固定料金は確認できていない。 【2026-10-02 light】10/1付の「休館日のおしらせ」本文は読めず（通常の月曜休館の範囲と推定）。",
   "confidence": "high"
 }

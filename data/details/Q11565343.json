@@ -1,0 +1,74 @@
+{
+  "id": "Q11565343",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "春季・秋季のみ開館。夏季・冬季は休館",
+  "official_url": "http://tekisui-museum.biz-web.jp/",
+  "address": "〒659-0082 兵庫県芦屋市山芦屋町13-3",
+  "source_urls": [
+    "http://tekisui-museum.biz-web.jp/",
+    "https://www.museum.or.jp/museum/5624",
+    "https://chanoyumap.jp/special/tekisui-museum/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {
+      "from": "2026-12-14",
+      "to": "2027-02-28",
+      "reason": "冬季休館（春季展は3月から）"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "秋季展「翰墨清玩－書と文房の情景－」",
+      "start": "2026-09-15",
+      "end": "2026-12-13",
+      "url": "http://tekisui-museum.biz-web.jp/",
+      "kind": "special",
+      "summary": "書と文房具の取り合わせで文人の趣味の世界を紹介する秋季展",
+      "recommend": null,
+      "admission": "一般 630円",
+      "adult_price": 630
+    }
+  ],
+  "adult_price": 630,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "芦屋川",
+      "lines": "阪急神戸線",
+      "walk_min": 8
+    },
+    {
+      "station": "芦屋",
+      "lines": "JR神戸線",
+      "walk_min": 15
+    }
+  ],
+  "highlights": "数寄者・山口吉郎兵衛の住宅兼コレクション施設で、約2500点の古美術を所蔵。昭和のモダニズム建築家・安井武雄の設計で、茶室「梅松庵」を備える茶の湯の美術館。",
+  "closed_between_exhibitions": true,
+  "notes": "公式サイトは証明書エラーで読めず、美術情報サイトと検索結果の公式情報に基づく（confidence medium）。料金は630円（museum.or.jp の600円は古い可能性）。月曜休館、夏季・冬季休館。冬季休館の終わりは「3月から開館」の情報からの目安で公式の日付は未確認。月曜が祝日の扱いと年末年始の日付は不明。",
+  "confidence": "medium"
+}

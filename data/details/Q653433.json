@@ -1,6 +1,6 @@
 {
   "id": "Q653433",
-  "checked_at": "2026-09-30T09:15:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -16,20 +16,84 @@
     "https://www.tnm.jp/modules/r_free_page/index.php?id=2770"
   ],
   "regular_hours": [
-    {"days": ["sun"], "open": "09:30", "close": "20:00", "last_entry": "19:30", "from": "2026-10-11", "to": "2026-10-11"},
-    {"days": ["sun"], "open": "09:30", "close": "20:00", "last_entry": "19:30", "from": "2026-11-22", "to": "2026-11-22"},
-    {"days": ["sun"], "open": "09:30", "close": "20:00", "last_entry": "19:30", "from": "2027-01-10", "to": "2027-01-10"},
-    {"days": ["fri", "sat"], "open": "09:30", "close": "20:00", "last_entry": "19:30"},
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "sun"
+      ],
+      "open": "09:30",
+      "close": "20:00",
+      "last_entry": "19:30",
+      "from": "2026-10-11",
+      "to": "2026-10-11"
+    },
+    {
+      "days": [
+        "sun"
+      ],
+      "open": "09:30",
+      "close": "20:00",
+      "last_entry": "19:30",
+      "from": "2026-11-22",
+      "to": "2026-11-22"
+    },
+    {
+      "days": [
+        "sun"
+      ],
+      "open": "09:30",
+      "close": "20:00",
+      "last_entry": "19:30",
+      "from": "2027-01-10",
+      "to": "2027-01-10"
+    },
+    {
+      "days": [
+        "fri",
+        "sat"
+      ],
+      "open": "09:30",
+      "close": "20:00",
+      "last_entry": "19:30"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-26", "to": "2026-12-31", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-26",
+      "to": "2026-12-31",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [
-    {"date": "2026-11-02", "open": "09:30", "close": "20:00", "note": "月曜だが開館（広重展・大徳寺展ページの記載。大徳寺展は20時まで）"},
-    {"date": "2026-11-30", "open": "09:30", "close": "17:00", "note": "月曜だが特別展「大徳寺」は開館（大徳寺展ページの記載。広重展は休室）"}
+    {
+      "date": "2026-11-02",
+      "open": "09:30",
+      "close": "20:00",
+      "note": "月曜だが開館（広重展・大徳寺展ページの記載。大徳寺展は20時まで）"
+    },
+    {
+      "date": "2026-11-30",
+      "open": "09:30",
+      "close": "17:00",
+      "note": "月曜だが特別展「大徳寺」は開館（大徳寺展ページの記載。広重展は休室）"
+    }
   ],
   "exhibitions": [
     {
@@ -40,7 +104,10 @@
       "kind": "special",
       "summary": "内山晋コレクション受贈記念。歌川広重の作品を紹介（本館）",
       "admission": "一般 1,500円",
-      "closed_dates": ["2026-11-30", "2026-12-15"]
+      "closed_dates": [
+        "2026-11-30",
+        "2026-12-15"
+      ]
     },
     {
       "title": "大徳寺　本朝無双之禅苑",
@@ -51,11 +118,54 @@
       "summary": "開創700年記念。京都・大徳寺の寺宝を東京で初めて公開（平成館）",
       "admission": "一般 2,300円",
       "hours": [
-        {"days": ["sun"], "open": "09:30", "close": "20:00", "from": "2026-11-01", "to": "2026-11-01"},
-        {"days": ["sun"], "open": "09:30", "close": "20:00", "from": "2026-11-22", "to": "2026-11-22"},
-        {"days": ["mon"], "open": "09:30", "close": "20:00", "from": "2026-11-02", "to": "2026-11-02"},
-        {"days": ["fri", "sat"], "open": "09:30", "close": "20:00"},
-        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "09:30", "close": "17:00"}
+        {
+          "days": [
+            "sun"
+          ],
+          "open": "09:30",
+          "close": "20:00",
+          "from": "2026-11-01",
+          "to": "2026-11-01"
+        },
+        {
+          "days": [
+            "sun"
+          ],
+          "open": "09:30",
+          "close": "20:00",
+          "from": "2026-11-22",
+          "to": "2026-11-22"
+        },
+        {
+          "days": [
+            "mon"
+          ],
+          "open": "09:30",
+          "close": "20:00",
+          "from": "2026-11-02",
+          "to": "2026-11-02"
+        },
+        {
+          "days": [
+            "fri",
+            "sat"
+          ],
+          "open": "09:30",
+          "close": "20:00"
+        },
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "open": "09:30",
+          "close": "17:00"
+        }
       ]
     },
     {
@@ -97,15 +207,39 @@
   ],
   "adult_price": 1000,
   "access": [
-    {"station": "上野", "lines": "JR各線", "exit": null, "walk_min": 10, "note": null},
-    {"station": "鶯谷", "lines": "JR各線", "exit": null, "walk_min": 10, "note": null},
-    {"station": "上野", "lines": "東京メトロ銀座線・日比谷線", "exit": null, "walk_min": 15, "note": null}
+    {
+      "station": "上野",
+      "lines": "JR各線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    },
+    {
+      "station": "鶯谷",
+      "lines": "JR各線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    },
+    {
+      "station": "上野",
+      "lines": "東京メトロ銀座線・日比谷線",
+      "exit": null,
+      "walk_min": 15,
+      "note": null
+    }
   ],
   "closed_between_exhibitions": false,
   "highlights": "明治5年（1872）創設、上野公園に6棟の建物が並ぶ国内最大の博物館。日本の考古・美術工芸を中心に12万件超を所蔵し、国宝89件を含む。金・土と一部日曜は20時まで夜間開館。庭園や茶室も鑑賞できる。",
   "notes": "夜間開館は金・土と「翌月曜日が祝・休日の場合の日曜日」（20時まで）。後者は規則から 10/11・11/22・2027/1/10 を regular_hours に入れた。9/24 は 9/21 祝日開館の振替休館（トップに「本日は休館日です」）。12/15（火）の休館は広重展ページにのみ記載のため展覧会の closed_dates に入れた（館全体かは未確認）。大徳寺展は 11/1（日）も20時まで。カレンダーは JS 描画で読めず。源氏物語展（2027/1/19〜）は3か月超のため未掲載。総合文化展の一般料金1,000円を adult_price に設定。",
   "confidence": "high",
   "free_days": [
-    {"from": "2026-11-03", "to": "2026-11-03", "scope": "collection", "reason": "文化の日", "source_url": "https://www.tnm.jp/modules/r_free_page/index.php?id=113"}
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "collection",
+      "reason": "文化の日",
+      "source_url": "https://www.tnm.jp/modules/r_free_page/index.php?id=113"
+    }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q11445098",
-  "checked_at": "2026-09-30T09:50:00+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -15,13 +15,32 @@
     "https://www.mina-ra.com/access/"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:30", "last_entry": "17:00"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:30",
+      "last_entry": "17:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-27", "to": "2027-01-03", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-27",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -41,9 +60,24 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "新大宮", "lines": "近鉄奈良線", "walk_min": null, "note": "奈良交通バス約6分「宮跡庭園」下車すぐ（施設はミ・ナーラ5階）"},
-    {"station": "JR奈良", "lines": "JR奈良線・桜井線・和歌山線・関西本線", "walk_min": null, "note": "奈良交通バス約9分「宮跡庭園」下車すぐ"},
-    {"station": "近鉄奈良", "lines": "近鉄奈良線", "walk_min": null, "note": "奈良交通バス約15分「宮跡庭園」下車すぐ"}
+    {
+      "station": "新大宮",
+      "lines": "近鉄奈良線",
+      "walk_min": null,
+      "note": "奈良交通バス約6分「宮跡庭園」下車すぐ（施設はミ・ナーラ5階）"
+    },
+    {
+      "station": "JR奈良",
+      "lines": "JR奈良線・桜井線・和歌山線・関西本線",
+      "walk_min": null,
+      "note": "奈良交通バス約9分「宮跡庭園」下車すぐ"
+    },
+    {
+      "station": "近鉄奈良",
+      "lines": "近鉄奈良線",
+      "walk_min": null,
+      "note": "奈良交通バス約15分「宮跡庭園」下車すぐ"
+    }
   ],
   "highlights": "奈良市内の複合商業施設「ミ・ナーラ」5階に位置する市立美術館。常設展は持たず、公募展や地域の美術家・市民グループによる展覧会を主に開催。多彩な分野の作品に無料または低料金で触れられる、市民の文化発信の拠点。",
   "closed_between_exhibitions": false,

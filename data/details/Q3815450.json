@@ -1,9 +1,9 @@
 {
   "id": "Q3815450",
-  "checked_at": "2026-09-30T09:14:00+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
-  "status_note": null,
+  "status_note": "展示入替のため現在休館中（次回は10/10開幕）",
   "official_url": "https://mmat.jp/",
   "address": "〒153-0063 東京都目黒区目黒2-4-36",
   "source_urls": [
@@ -14,12 +14,31 @@
     "https://mmat.jp/exhibition/archive/2026/20261010-478.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休館"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -37,8 +56,20 @@
   ],
   "adult_price": null,
   "access": [
-    {"station": "目黒", "lines": "JR山手線・東京メトロ南北線・都営三田線・東急目黒線", "exit": null, "walk_min": 10, "note": null},
-    {"station": "中目黒", "lines": "東京メトロ日比谷線・東急東横線", "exit": null, "walk_min": 20, "note": null}
+    {
+      "station": "目黒",
+      "lines": "JR山手線・東京メトロ南北線・都営三田線・東急目黒線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    },
+    {
+      "station": "中目黒",
+      "lines": "東京メトロ日比谷線・東急東横線",
+      "exit": null,
+      "walk_min": 20,
+      "note": null
+    }
   ],
   "highlights": "1987年開館、目黒区民センターの緑豊かな一角に立地する区立の美術館。近現代の日本の作家を中心に収集し、所蔵作品展や多彩な企画展を開催。展示に合わせた素材・技法体験のワークショップが大きな特色で、常設展示はなく企画展ごとに休館期間がある。",
   "closed_between_exhibitions": true,

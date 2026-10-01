@@ -1,6 +1,6 @@
 {
   "id": "Q61398113",
-  "checked_at": "2026-09-30T09:20:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -15,9 +15,26 @@
     "https://www.museum.or.jp/museum/912"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon", "tue"],
+  "closed_weekdays": [
+    "mon",
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -59,9 +76,22 @@
   "adult_price": 700,
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "気仙沼", "lines": "JR大船渡線BRT", "note": "路線バスは廃止。気仙沼駅からタクシー約20分。車：東北自動車道一関ICから国道284号線約60km、三陸自動車道石巻方面から約70km"}
+    {
+      "station": "気仙沼",
+      "lines": "JR大船渡線BRT",
+      "note": "路線バスは廃止。気仙沼駅からタクシー約20分。車：東北自動車道一関ICから国道284号線約60km、三陸自動車道石巻方面から約70km"
+    }
   ],
   "highlights": "東日本大震災で大きな被害を受けた気仙沼の丘に建つ美術館。学芸員自らが被災直後から収集した膨大な震災記録を常設展示する一方、東北・北海道の若手作家を紹介するN.E.blood展でも知られる。三陸の海と丘を望む立地も魅力。",
   "notes": "元の公式URL（www.rias-ark-museum.com）はDNS不明のため気仙沼市の公式ページをofficial_urlに設定。休館日「月・火・祝日の翌日（土日を除く）・月曜祝日振替（該当週の水曜日）」→月曜が祝日の場合は翌火曜が既に定休のため、その週の水曜が代替休館。入館料はインターネットミュージアム掲載値（700円）を参照（公式サイトのPDFが直接読めず）。",
-  "confidence": "medium"
+  "confidence": "medium",
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "東北文化の日（文化の日）",
+      "source_url": "https://tohokubunka.pref.miyagi.jp/facilities/miyagi-26/"
+    }
+  ]
 }

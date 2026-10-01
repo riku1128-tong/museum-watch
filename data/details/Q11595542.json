@@ -1,6 +1,6 @@
 {
   "id": "Q11595542",
-  "checked_at": "2026-09-30T09:20:00+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "official_url": "https://www.city.kazo.lg.jp/soshiki/shougai/kankou/6496.html",
@@ -10,13 +10,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["sat", "sun", "holiday"],
+      "days": [
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "16:30",
       "last_entry": "16:00"
     }
   ],
-  "closed_weekdays": ["mon", "tue", "wed", "thu", "fri"],
+  "closed_weekdays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri"
+  ],
   "holiday_rule": "open",
   "special_closures": [
     {

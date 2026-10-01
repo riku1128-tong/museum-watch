@@ -1,6 +1,6 @@
 {
   "id": "Q17224006",
-  "checked_at": "2026-09-30T09:30:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -14,12 +14,30 @@
     "https://www.okada-museum.com/about/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [
-    {"from": "2026-12-31", "to": "2027-01-01", "reason": "年末年始休館（12月31日、1月1日）"}
+    {
+      "from": "2026-12-31",
+      "to": "2027-01-01",
+      "reason": "年末年始休館（12月31日、1月1日）"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -37,7 +55,13 @@
   "adult_price": 2800,
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "箱根湯本", "lines": "箱根登山鉄道", "exit": null, "walk_min": null, "note": "伊豆箱根バス・箱根登山バスで約20分、「小涌園」バス停下車すぐ"}
+    {
+      "station": "箱根湯本",
+      "lines": "箱根登山鉄道",
+      "exit": null,
+      "walk_min": null,
+      "note": "伊豆箱根バス・箱根登山バスで約20分、「小涌園」バス停下車すぐ"
+    }
   ],
   "highlights": "近世・近代の日本画と東アジアの陶磁器を中心に、土偶や仏像まで幅広く所蔵。正面には12m×30mの大壁画『風・刻』（風神雷神図）があり、源泉かけ流しの足湯に浸かりながら鑑賞できる",
   "notes": "休館日は「12月31日、1月1日、展示替期間」で定休日なし。入館料は館共通（一般・大学生 2,800円）。展示替期間の日付と次回展は未確認（12/6 以降）。最寄駅からは箱根登山鉄道・バスの乗り継ぎが前提で、駅からの徒歩ルートは無い。",

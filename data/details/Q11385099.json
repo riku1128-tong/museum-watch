@@ -1,6 +1,6 @@
 {
   "id": "Q11385099",
-  "checked_at": "2026-09-30T09:05:04+09:00",
+  "checked_at": "2026-10-02T08:28:44+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -13,9 +13,25 @@
     "https://www.sanobi.or.jp/exhibition/machida-naoko_2026/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["thu"],
+  "closed_weekdays": [
+    "thu"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -45,8 +61,20 @@
   ],
   "adult_price": null,
   "access": [
-    {"station": "三島田町", "lines": "伊豆箱根鉄道駿豆線", "exit": null, "walk_min": 5, "note": null},
-    {"station": "三島", "lines": "JR東海道線・東海道新幹線", "exit": "南口", "walk_min": null, "note": "東海バス「佐野美術館」行乗車10分、または徒歩20分（南へ1.3km）"}
+    {
+      "station": "三島田町",
+      "lines": "伊豆箱根鉄道駿豆線",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    },
+    {
+      "station": "三島",
+      "lines": "JR東海道線・東海道新幹線",
+      "exit": "南口",
+      "walk_min": null,
+      "note": "東海バス「佐野美術館」行乗車10分、または徒歩20分（南へ1.3km）"
+    }
   ],
   "highlights": "昭和41年（1966）開館、刀剣・武器・武具の名品コレクションで知られる美術館。庭園「隆泉苑」を有し、館内には重要文化財の大日如来坐像（常設）も。",
   "closed_between_exhibitions": false,

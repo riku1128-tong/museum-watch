@@ -1,7 +1,7 @@
 {
   "id": "Q127432181",
-  "checked_at": "2026-09-30T09:15:56+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://nakamuramasayoshi.com/",
@@ -12,9 +12,23 @@
     "https://nakamuramasayoshi.com/guide/index.html"
   ],
   "regular_hours": [
-    {"days": ["fri", "sat", "sun", "holiday"], "open": "11:00", "close": "17:00"}
+    {
+      "days": [
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "11:00",
+      "close": "17:00"
+    }
   ],
-  "closed_weekdays": ["mon", "tue", "wed", "thu"],
+  "closed_weekdays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -33,8 +47,20 @@
   ],
   "adult_price": null,
   "access": [
-    {"station": "読売ランド前", "lines": "小田急小田原線", "exit": null, "walk_min": 25, "note": "新百合ヶ丘駅発「よみうりランド」行きバスで「細山」下車（約15分）、徒歩5分。読売ランド前駅発「京王よみうりランド」行きバスなら「細山」まで約10分、徒歩5分"},
-    {"station": "京王よみうりランド", "lines": "京王相模原線", "exit": null, "walk_min": 25, "note": "京王よみうりランド駅発「寺尾台団地」行きバスで「細山」下車（約10分）、徒歩5分"}
+    {
+      "station": "読売ランド前",
+      "lines": "小田急小田原線",
+      "exit": null,
+      "walk_min": 25,
+      "note": "新百合ヶ丘駅発「よみうりランド」行きバスで「細山」下車（約15分）、徒歩5分。読売ランド前駅発「京王よみうりランド」行きバスなら「細山」まで約10分、徒歩5分"
+    },
+    {
+      "station": "京王よみうりランド",
+      "lines": "京王相模原線",
+      "exit": null,
+      "walk_min": 25,
+      "note": "京王よみうりランド駅発「寺尾台団地」行きバスで「細山」下車（約10分）、徒歩5分"
+    }
   ],
   "highlights": "「日本画壇の風雲児」中村正義が晩年16年を過ごした住まいを改装した私立美術館。篠原一男設計の「直方体の森」が展示空間となり、アトリエの絵の具跡も残る。約300点の「顔」シリーズや舞妓シリーズなど、川崎市麻生区の緑に囲まれた静かな環境でじっくり鑑賞できる。",
   "closed_between_exhibitions": true,

@@ -1,6 +1,6 @@
 {
   "id": "Q11609528",
-  "checked_at": "2026-09-30T09:35:00+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,10 +10,29 @@
     "https://www.museum.or.jp/museum/1694"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "thu", "fri"], "open": "09:30", "close": "16:00"},
-    {"days": ["sat", "sun", "holiday"], "open": "09:30", "close": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "thu",
+        "fri"
+      ],
+      "open": "09:30",
+      "close": "16:00"
+    },
+    {
+      "days": [
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "16:30"
+    }
   ],
-  "closed_weekdays": ["wed"],
+  "closed_weekdays": [
+    "wed"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -22,8 +41,14 @@
   "highlights": "群馬県渋川市に立つアール・ヌーヴォーのガラス工芸専門館。19世紀末から20世紀初頭に活躍したエミール・ガレ・ドーム兄弟・ワルターら巨匠の作品約120点を展示するほか、家具作家ルイ・マジョレルの書斎を部屋ごと移築した展示空間も必見。伊香保温泉近くの緑豊かな立地も魅力。",
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "渋川", "lines": "JR上越線", "exit": null, "walk_min": null, "note": "「伊香保温泉」行きバス20分、「六本松」バス停下車"}
+    {
+      "station": "渋川",
+      "lines": "JR上越線",
+      "exit": null,
+      "walk_min": null,
+      "note": "「伊香保温泉」行きバス20分、「六本松」バス停下車"
+    }
   ],
-  "notes": "公式サイト（ggart.co.jp）はSSL証明書エラーで直接確認できず、インターネットミュージアム（museum.or.jp）の情報を根拠にした（confidence: medium）。開館時間は平日9:30-16:00・土日祝9:30-16:30（前回記録の季節別時間から変更）。休館日は水曜（祝祭日は開館）だが、「8月と11月は無休」との情報があり、この月別の例外はschemaで表現できないため注記にのみ残す。企画展情報は確認できず exhibitions は空とした。",
+  "notes": "公式サイト（ggart.co.jp）はSSL証明書エラーで直接確認できず、インターネットミュージアム（museum.or.jp）の情報を根拠にした（confidence: medium）。開館時間は平日9:30-16:00・土日祝9:30-16:30（前回記録の季節別時間から変更）。休館日は水曜（祝祭日は開館）だが、「8月と11月は無休」との情報があり、この月別の例外はschemaで表現できないため注記にのみ残す。企画展情報は確認できず exhibitions は空とした。 【2026-10-02】公式サイトは引き続きSSLエラーで読めず、museum.or.jp・検索結果で開館時間と水曜休館を再確認。展覧会情報は得られず。",
   "confidence": "medium"
 }

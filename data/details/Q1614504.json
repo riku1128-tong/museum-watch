@@ -1,7 +1,7 @@
 {
   "id": "Q1614504",
-  "checked_at": "2026-09-30T09:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.sompo-museum.org/",
@@ -13,9 +13,25 @@
     "https://www.sompo-museum.org/visit/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -31,16 +47,54 @@
       "admission": "一般 2,000円（当日券）",
       "adult_price": 2000,
       "hours": [
-        {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"},
-        {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "10:00",
+          "close": "20:00",
+          "last_entry": "19:30"
+        },
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "10:00",
+          "close": "18:00",
+          "last_entry": "17:30"
+        }
       ]
     }
   ],
   "adult_price": null,
   "access": [
-    {"station": "新宿", "lines": "JR各線", "exit": "西口", "walk_min": 5, "note": null},
-    {"station": "新宿", "lines": "東京メトロ丸ノ内線", "exit": null, "walk_min": 5, "note": null},
-    {"station": "西新宿", "lines": "東京メトロ丸ノ内線", "exit": "C13出口", "walk_min": 6, "note": null}
+    {
+      "station": "新宿",
+      "lines": "JR各線",
+      "exit": "西口",
+      "walk_min": 5,
+      "note": null
+    },
+    {
+      "station": "新宿",
+      "lines": "東京メトロ丸ノ内線",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    },
+    {
+      "station": "西新宿",
+      "lines": "東京メトロ丸ノ内線",
+      "exit": "C13出口",
+      "walk_min": 6,
+      "note": null
+    }
   ],
   "highlights": "「この街には《ひまわり》がある」をコンセプトに掲げる新宿西口の企画展専門美術館。ゴッホ《ひまわり》をアジアで唯一所蔵することで知られ、東郷青児（旧館名の由来）の作品約240点も収蔵。常設展示はなく年数回の特別展で国内外の近現代美術を紹介する。",
   "closed_between_exhibitions": true,

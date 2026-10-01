@@ -1,12 +1,14 @@
 {
   "id": "Q11595516",
-  "checked_at": "2026-09-30T10:55:00+09:00",
+  "checked_at": "2026-10-02T08:34:00+09:00",
   "check_mode": "full",
   "operating_status": "unknown",
   "status_note": null,
   "official_url": null,
   "address": null,
-  "source_urls": [],
+  "source_urls": [
+    "https://www.city.yokote.lg.jp/shisetsu/1005521/1011502.html"
+  ],
   "regular_hours": [],
   "closed_weekdays": [],
   "holiday_rule": "unknown",
@@ -19,6 +21,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "公式URL（https://www.city.yokote.lg.jp/kanko/kankospot/furusato_gakushukan.html）は404。2026年9月再調査でも横手市公式サイトに施設ページなし。2024年9月に横手市生涯学習施設「Ao-na（あおーな）」が開館（横手市立横手図書館を含む複合施設）しており、ふるさと学習館が統合・廃止された可能性あり。詳細は横手市教育委員会（0182-35-2185）へ要確認。",
+  "notes": "公式URL（city.yokote.lg.jp/kanko/kankospot/furusato_gakushukan.html）は404（リニューアルによるアドレス変更の案内ページ）。横手市公式サイトの検索でも「ふるさと学習館」の施設ページは見つからず、2024年9月開館の横手市生涯学習館Ao-na（横手図書館併設）に統合・廃止された可能性あり。詳細は横手市教育委員会へ要確認。 再挑戦(10/2): 公式URLはリダイレクト、検索・横手市の施設案内・生涯学習館設置条例にも「ふるさと学習館」の記載なし。確認できず。",
   "confidence": "low"
 }

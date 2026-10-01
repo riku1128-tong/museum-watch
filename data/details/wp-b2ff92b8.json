@@ -1,0 +1,73 @@
+{
+  "id": "wp-b2ff92b8",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "春(3/20〜5/31)と秋(10/1〜12/10)のみ開館の季節開館館",
+  "official_url": "https://icartmuseum.com/",
+  "address": "〒606-0067 京都府京都市左京区上高野東山71-21",
+  "source_urls": [
+    "https://miyakomanabi.jp/facility/index.php?act=detail&id=1529"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:30",
+      "close": "17:00",
+      "from": "2026-10-01",
+      "to": "2026-12-10"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:30",
+      "close": "17:00",
+      "from": "2027-03-20",
+      "to": "2027-05-31"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-11",
+      "to": "2027-03-19",
+      "reason": "冬期休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "closed_between_exhibitions": false,
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "八瀬比叡山口",
+      "lines": "叡山電鉄",
+      "exit": null,
+      "walk_min": 3,
+      "note": "京都バス「八瀬駅前」から徒歩5分"
+    }
+  ],
+  "highlights": null,
+  "notes": "公式サイト(icartmuseum.com)は403でWebFetch不可。京都の学び情報サイト(miyakomanabi.jp)の開館期間3/20〜5/31・10/1〜12/10、10:30〜17:00、入館無料に基づく。検索結果の要約では10:00開館とする記載もあり、時間は要確認。6/1〜9/30は休館。展示内容は未確認。",
+  "confidence": "medium"
+}

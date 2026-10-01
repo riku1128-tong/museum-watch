@@ -1,6 +1,6 @@
 {
   "id": "Q11669713",
-  "checked_at": "2026-09-30T09:26:20+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,19 +13,50 @@
     "https://www.city.takasaki.gunma.jp/site/tower/list56-131.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"},
-    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    },
+    {
+      "days": [
+        "fri"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-11-04", "to": "2026-11-04", "reason": "祝日（11/3文化の日）の翌日"},
-    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-04",
+      "reason": "祝日（11/3文化の日）の翌日"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "日本画の窓－旅する風景",
+      "title": "日本画の窓―旅する風景",
       "start": "2026-10-17",
       "end": "2026-12-20",
       "url": "https://www.city.takasaki.gunma.jp/site/tower/95791.html",
@@ -39,7 +70,12 @@
   "adult_price": null,
   "free_days": [],
   "access": [
-    {"station": "高崎", "lines": "JR各線", "exit": "東口", "walk_min": 2}
+    {
+      "station": "高崎",
+      "lines": "JR各線",
+      "exit": "東口",
+      "walk_min": 2
+    }
   ],
   "highlights": "JR高崎駅東口すぐの高層ビル内にある美術館。横山大観や平山郁夫、奥村土牛など近現代の日本画家の作品を収蔵し、風景画や松竹梅・鶴亀などの吉祥画をテーマに、年5～6回の展覧会で多彩な日本画表現を紹介している。",
   "closed_between_exhibitions": true,

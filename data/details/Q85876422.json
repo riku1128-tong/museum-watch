@@ -1,6 +1,6 @@
 {
   "id": "Q85876422",
-  "checked_at": "2026-09-30T09:19:05+09:00",
+  "checked_at": "2026-10-02T08:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,12 +11,32 @@
     "https://www.city.saku.nagano.jp/bunka/sakubun/tenraikinenkan/15rinnsyoten.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00"
+    }
   ],
-  "closed_weekdays": ["mon", "tue"],
+  "closed_weekdays": [
+    "mon",
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -30,7 +50,12 @@
       "recommend": "書道の近代化を牽引した比田井天来・小琴の故郷・佐久で毎年開かれる全国公募の臨書展。天来の臨書精神を受け継ぐ全国の書家の作品が一堂に会する。",
       "admission": "一般 310円",
       "adult_price": 310,
-      "closed_dates": ["2026-11-24", "2026-11-30", "2026-12-03", "2026-12-07"]
+      "closed_dates": [
+        "2026-11-24",
+        "2026-11-30",
+        "2026-12-03",
+        "2026-12-07"
+      ]
     }
   ],
   "adult_price": 310,

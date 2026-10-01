@@ -1,0 +1,59 @@
+{
+  "id": "Q42634129",
+  "checked_at": "2026-10-02T08:55:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.yokoyama-art-museum.or.jp",
+  "address": "〒461-0004 愛知県名古屋市東区葵1-1-21",
+  "source_urls": [
+    "https://www.yokoyama-art-museum.or.jp",
+    "https://www.yokoyama-art-museum.or.jp/guide/",
+    "https://www.yokoyama-art-museum.or.jp/event/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-02", "to": "2026-10-03", "reason": "臨時休館"},
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "優美なるオールドノリタケ×ノリタケ",
+      "start": "2026-10-23",
+      "end": "2027-03-22",
+      "url": "https://www.yokoyama-art-museum.or.jp/event/",
+      "kind": "special",
+      "summary": "横山美術館所蔵品によるオールドノリタケと現代ノリタケの紹介。明治9年の貿易事業創業から150年",
+      "recommend": "欧米で愛されたブランド「ノリタケ」の歩みを、創業150年の節目に当館所蔵品で振り返る。輸出陶磁器ならではの優美な意匠を堪能できる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "常設展",
+      "start": "2026-09-29",
+      "end": "2027-10-02",
+      "url": "https://www.yokoyama-art-museum.or.jp/",
+      "kind": "collection",
+      "summary": "通年。展示替え期間（9/29〜10/22）は常設展のみ公開",
+      "recommend": null,
+      "admission": "一般 700円",
+      "adult_price": 700
+    }
+  ],
+  "adult_price": 700,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "新栄町", "lines": "名古屋市営地下鉄東山線", "exit": "1番出口", "walk_min": 4},
+    {"station": "高岳", "lines": "名古屋市営地下鉄桜通線", "exit": "3番出口", "walk_min": 4}
+  ],
+  "highlights": "明治期に欧米へ輸出された陶磁器「オールドノリタケ」を中心に所蔵する、名古屋・東区の美術館。企画展では所蔵品の優美な意匠を紹介し、常設展では陶磁器の世界を通年で楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝・休日の場合は開館し翌平日休館）。夏期休館あり（日程は未確認）。企画展開催時の観覧料は一般1,000円、常設展のみは一般700円。10/2・10/3は休館。次回予告「錦光山宗兵衛と京焼」展は2027/4/16〜8/29予定。",
+  "confidence": "high"
+}

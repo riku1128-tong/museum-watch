@@ -1,6 +1,6 @@
 {
   "id": "Q11360245",
-  "checked_at": "2026-09-30T09:05:04+09:00",
+  "checked_at": "2026-10-02T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,11 +13,30 @@
     "https://www.ueno-mori.org/exhibitions/article.cgi?id=12651051"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2027-01-11",
+      "to": "2027-01-20",
+      "reason": "展示替え"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -35,10 +54,22 @@
   "adult_price": null,
   "closed_between_exhibitions": true,
   "access": [
-    {"station": "上野", "lines": "JR各線", "exit": "公園口", "walk_min": 3, "note": null},
-    {"station": "上野", "lines": "東京メトロ銀座線・日比谷線・京成電鉄", "exit": null, "walk_min": 5, "note": null}
+    {
+      "station": "上野",
+      "lines": "JR各線",
+      "exit": "公園口",
+      "walk_min": 3,
+      "note": null
+    },
+    {
+      "station": "上野",
+      "lines": "東京メトロ銀座線・日比谷線・京成電鉄",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    }
   ],
   "highlights": "1972年開館。重要文化財の公開をはじめ様々なジャンルの美術を紹介。常設展なく展覧会・公募展で運営し、VOCA展や上野の森美術館大賞展など独自企画も毎年開催。上野公園内の立地で東京国立博物館や国立西洋美術館にほど近く、アートの拠点として多くの来館者を集める。",
-  "notes": "休館日は不定休（展示により異なる）。常設展示はなく、展覧会・公募展の会期外は休館。9/30〜10/9は会期間のため休館。シンシナティ美術館展は会期中無休。10/10〜10/31の平日は大学生以下無料（要証明）。常設展が無いため adult_price は null（各展覧会の料金を参照）。",
+  "notes": "休館日は不定休（展示により異なる）。常設展示はなく、展覧会・公募展の会期外は休館。9/30〜10/9は会期間のため休館。シンシナティ美術館展は会期中無休。10/10〜10/31の平日は大学生以下無料（要証明）。常設展が無いため adult_price は null（各展覧会の料金を参照）。 10/2確認: 公式トップに10/2〜9は全館休館、2027/1/11〜20も休館と掲載。次の公募展（第45回大賞展）は2027/4/29〜5/10予定で3か月より先のため未登録。",
   "confidence": "high"
 }

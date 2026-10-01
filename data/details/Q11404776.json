@@ -1,6 +1,6 @@
 {
   "id": "Q11404776",
-  "checked_at": "2026-09-30T09:20:00+09:00",
+  "checked_at": "2026-10-02T08:35:02+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -12,12 +12,22 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "22:00"
     }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open",
   "special_closures": [
     {
@@ -34,6 +44,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "旧落合振興局・落合公民館・市民センターなどを統合した真庭市の複合公共施設。美術・博物館としての専用展示機能は公式サイトに記載なし。施設としては稼働中だが、美術館・博物館としての展示内容の詳細が取得できていない。真庭市教育委員会文化財保護室（0867-42-1191）に要確認。",
+  "notes": "旧落合振興局・落合公民館・市民センターなどを統合した真庭市の複合公共施設。美術・博物館としての専用展示機能は公式サイトに記載なし。施設としては稼働中だが、美術館・博物館としての展示内容の詳細が取得できていない。真庭市教育委員会文化財保護室（0867-42-1191）に要確認。 2026-10-02 再確認: 公式ページに展示・見どころの記載なし（市民センター・公民館・市役所機能の複合施設、平成28年4月運営開始）。",
   "confidence": "low"
 }

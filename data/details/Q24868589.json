@@ -1,0 +1,90 @@
+{
+  "id": "Q24868589",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://chokaido.jp",
+  "address": "三重県四日市市水沢町2011番地",
+  "source_urls": [
+    "https://chokaido.jp/",
+    "https://chokaido.jp/admission/",
+    "https://chokaido.jp/access/",
+    "https://chokaido.jp/news/",
+    "https://chokaido.jp/hstory/",
+    "https://abc0120.net/2026/09/01/228583/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon",
+    "tue"
+  ],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [
+    {
+      "date": "2026-10-12",
+      "note": "秋季展期間中の祝日開館"
+    },
+    {
+      "date": "2026-11-03",
+      "note": "秋季展期間中の祝日開館"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "中国書画名品展 Ⅸ",
+      "start": "2026-10-01",
+      "end": "2026-11-15",
+      "url": "https://abc0120.net/2026/09/01/228583/",
+      "kind": "special",
+      "summary": "澄懐堂コレクションから明・清時代の書画の名品を紹介する秋季展",
+      "recommend": "筆墨芸術が円熟した明清時代の書画を、実業家・山本悌二郎の蒐集品から選んで並べる。伝統を受け継ぎつつ各画家が築いた個性と、文人文化の美意識を比べて味わえる。",
+      "admission": "大人 800円",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "近鉄四日市",
+      "lines": "近鉄",
+      "walk_min": null,
+      "note": "三重交通バス椿大神社行・宮妻口行で約50分「水沢西条」下車徒歩1分"
+    },
+    {
+      "station": "近鉄菰野",
+      "lines": "近鉄",
+      "walk_min": null,
+      "note": "タクシー約15分"
+    }
+  ],
+  "highlights": "中国書画に特化した全国でも数少ない美術館。実業家・山本悌二郎が集めた2000余件の中国美術を所蔵し、李成「喬松平遠図」などの優品や古硯・文房具も伝える。春と秋に所蔵品を公開する。",
+  "closed_between_exhibitions": true,
+  "notes": "春季・秋季の企画展期間のみ公開（休館日は月・火）。常設展期間は土日祝休みで無料との記載があるが、期間の詳細は未確認。夏季休館8/13〜16。",
+  "confidence": "medium"
+}

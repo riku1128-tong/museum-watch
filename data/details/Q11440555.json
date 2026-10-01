@@ -1,0 +1,73 @@
+{
+  "id": "Q11440555",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "2027年4月頃まで改修工事のため休館中（カフェは営業）",
+  "official_url": "https://www.moco.or.jp/",
+  "address": "大阪市中央公会堂東側（中之島）",
+  "source_urls": [
+    "https://www.moco.or.jp/",
+    "https://www.moco.or.jp/guide/info/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 1600,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "なにわ橋",
+      "lines": "京阪中之島線",
+      "exit": "1号出口",
+      "walk_min": 1,
+      "note": null
+    },
+    {
+      "station": "淀屋橋",
+      "lines": "Osaka Metro御堂筋線・京阪本線",
+      "exit": null,
+      "walk_min": null,
+      "note": null
+    },
+    {
+      "station": "北浜",
+      "lines": "Osaka Metro堺筋線・京阪本線",
+      "exit": null,
+      "walk_min": null,
+      "note": null
+    }
+  ],
+  "highlights": "大阪・中之島の大阪市中央公会堂の東隣にある、東洋陶磁を専門とする市立美術館。2027年4月頃まで改修工事で休館中だが、カフェは営業し、収蔵品検索や名品ショート動画も公式に公開している。",
+  "closed_between_exhibitions": false,
+  "notes": "住所の番地は公式トップに無く未確認。休館日は「月曜日（祝日の場合は翌日）、年末年始(12/28〜1/4)、展示替え期間」。再開後の入館料は1,600円（改修前の案内）。",
+  "confidence": "medium"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "Q55538467",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://koyafron.co.jp/museum/index.html",
+  "address": "〒534-0024 大阪府大阪市都島区東野田町1丁目19-7",
+  "source_urls": [
+    "http://koyafron.co.jp/museum/index.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat"
+      ],
+      "open": "11:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [
+    "sun"
+  ],
+  "holiday_rule": "closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "株式会社コヤノが社会貢献・文化活動として蒐集した、庶民的で懐かしさを感じるコレクションを公開する企業美術館。大阪の本館のほか、兵庫県に西脇館がある。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は日曜・祝日および展示替期間。観覧料は一般500円、小中高200円。開催中の展覧会名・会期とアクセスは公式トップでは読み取れず（各館の別ページ）。",
+  "confidence": "medium"
+}

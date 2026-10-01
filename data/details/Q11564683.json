@@ -1,0 +1,108 @@
+{
+  "id": "Q11564683",
+  "checked_at": "2026-10-02T08:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.shigamuseum.jp/",
+  "address": "〒520-2122 滋賀県大津市瀬田南大萱町1740-1",
+  "source_urls": [
+    "https://www.shigamuseum.jp/",
+    "https://www.shigamuseum.jp/visit/",
+    "https://www.shigamuseum.jp/info/ticket-pass/",
+    "https://www.shigamuseum.jp/exhibitions/12995/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "丸木スマ展　73歳からのアーティスト",
+      "start": "2026-09-11",
+      "end": "2026-11-23",
+      "url": "https://www.shigamuseum.jp/exhibitions/12995/",
+      "kind": "special",
+      "summary": "73歳から絵を描き始めた丸木スマの身近な自然や生き物を描いた作品を紹介",
+      "recommend": null,
+      "admission": "一般 1,200円",
+      "adult_price": 1200
+    },
+    {
+      "title": "時間はかたち？",
+      "start": "2026-09-05",
+      "end": "2026-11-23",
+      "url": "https://www.shigamuseum.jp/exhibitions/14578/",
+      "kind": "collection",
+      "summary": "コレクション展",
+      "recommend": null,
+      "admission": "一般 570円",
+      "adult_price": 570
+    },
+    {
+      "title": "小倉遊亀コーナー",
+      "start": "2026-02-25",
+      "end": "2027-04-04",
+      "url": "https://www.shigamuseum.jp/exhibitions/13627/",
+      "kind": "collection",
+      "summary": "小倉遊亀の作品を紹介する常設コーナー",
+      "recommend": null,
+      "admission": "一般 570円",
+      "adult_price": 570
+    }
+  ],
+  "adult_price": 570,
+  "free_days": [],
+  "free_rules": [
+    {
+      "weekday": "sat",
+      "scope": "collection",
+      "reason": "フリーサタデー（常設展無料）",
+      "source_url": "https://www.shigamuseum.jp/info/ticket-pass/"
+    },
+    {
+      "weekday": "sun",
+      "scope": "collection",
+      "reason": "フリーサンデー（常設展無料）",
+      "source_url": "https://www.shigamuseum.jp/info/ticket-pass/"
+    }
+  ],
+  "access": [
+    {
+      "station": "瀬田",
+      "lines": "JR琵琶湖線",
+      "exit": null,
+      "walk_min": null,
+      "note": "帝産バス「大学病院」行きで「県立図書館・美術館前」下車、約10分"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "金氏徹平展は米原市での開催のため未掲載。見どころは公式紹介文を読めていないため未記入。",
+  "confidence": "high"
+}

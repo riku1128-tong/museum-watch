@@ -1,7 +1,7 @@
 {
   "id": "Q71821967",
-  "checked_at": "2026-09-30T09:17:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-02T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.shimada.shizuoka.jp/shimahaku/bunkan/hanga/",
@@ -12,12 +12,32 @@
     "https://www.city.shimada.shizuoka.jp/shimahaku/docs/908781528.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-26", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-26",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -35,7 +55,12 @@
   ],
   "adult_price": 300,
   "access": [
-    {"station": "島田", "lines": "JR東海道本線", "note": "島田駅から金谷駅行きバスで5分「阿島西」下車、徒歩15分", "walk_min": 15}
+    {
+      "station": "島田",
+      "lines": "JR東海道本線",
+      "note": "島田駅から金谷駅行きバスで5分「阿島西」下車、徒歩15分",
+      "walk_min": 15
+    }
   ],
   "highlights": "静岡市生まれで39歳で急逝した版画家・海野光弘の作品を数多く収蔵。大井川川越遺跡に隣接し、江戸期の川越しの面影を残す町並みとあわせて楽しめる版画専門の記念館。",
   "closed_between_exhibitions": false,

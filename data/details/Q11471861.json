@@ -1,0 +1,57 @@
+{
+  "id": "Q11471861",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.tajimi-bunka.or.jp/minoyaki_museum/",
+  "address": "〒507-0801 岐阜県多治見市東町1-9-27",
+  "source_urls": [
+    "https://www.tajimi-bunka.or.jp/minoyaki_museum/",
+    "https://www.tajimi-bunka.or.jp/minoyaki_museum/archives/7254",
+    "https://www.tajimi-bunka.or.jp/minoyaki_museum/archives/7300"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "多治見市指定 無形文化財「織部」保持者認定記念 鈴木徹展 ―緑釉の展開―",
+      "start": "2026-09-12",
+      "end": "2026-12-27",
+      "url": "https://www.tajimi-bunka.or.jp/minoyaki_museum/archives/7254",
+      "kind": "special",
+      "summary": "多治見市の無形文化財「織部」保持者・鈴木徹の認定記念展。銅緑釉を軸とした創作の展開を紹介",
+      "recommend": "銅緑釉を軸に、櫛目・泥刷毛目・釉薬の掛け分けから近年の「破殻（ワレカラ）」シリーズへと続く表現の変遷が一覧できる。伝統と現代を橋渡しする現代陶芸の深みを堪能できる展覧会。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "TN NETWORK－Ceramix Communication－ 多治見工業高校専攻科・名古屋芸術大学美術領域工芸コース 交流展",
+      "start": "2026-09-19",
+      "end": "2026-12-20",
+      "url": "https://www.tajimi-bunka.or.jp/minoyaki_museum/archives/7300",
+      "kind": "special",
+      "summary": "多治見工業高校専攻科と名古屋芸術大学工芸コースの学生・教員による陶芸交流展",
+      "recommend": null,
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 320,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "多治見", "lines": "JR中央本線・太多線", "exit": null, "walk_min": null, "note": "タクシーで約10分（1,500円程度）。土日祝はきこうバス「美濃焼ミュージアム前」下車（多治見駅前から約20分）。無料駐車場（普通50台・大型4台）あり"}
+  ],
+  "highlights": "美濃焼の産地・岐阜県多治見市にある専門ミュージアム。桃山時代以来の美濃焼の歴史展示に加え現代陶芸作家の特別展も開催。人間国宝の茶碗で抹茶を味わう体験や陶芸制作体験もあり、見て・知って・作れる総合的なやきもの施設。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日の場合は翌平日休館）。大人320円は常設展の入場料。鈴木徹展・交流展はそれぞれ一般500円（団体400円）。土日祝のみ路線バス「ききょうバス」が多治見駅から運行。自家用車利用が便利。",
+  "confidence": "high"
+}

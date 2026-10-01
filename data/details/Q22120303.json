@@ -1,0 +1,91 @@
+{
+  "id": "Q22120303",
+  "checked_at": "2026-09-30T10:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://artmuseum.pref.hokkaido.lg.jp/hbj",
+  "address": "〒040-0001 北海道函館市五稜郭町37-6",
+  "source_urls": [
+    "https://artmuseum.pref.hokkaido.lg.jp/hbj",
+    "https://artmuseum.pref.hokkaido.lg.jp/hbj/guide/about",
+    "https://artmuseum.pref.hokkaido.lg.jp/hbj/guide/access",
+    "https://artmuseum.pref.hokkaido.lg.jp/hbj/collection",
+    "https://artmuseum.pref.hokkaido.lg.jp/hbj/schedule",
+    "https://artmuseum.pref.hokkaido.lg.jp/hbj/exhibition/program/347",
+    "https://artmuseum.pref.hokkaido.lg.jp/hbj/exhibition/program/351",
+    "https://artmuseum.pref.hokkaido.lg.jp/hbj/exhibition/program/353"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "鷗亭と同時代の書家たち",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/hbj/exhibition/program/351",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "道南の精鋭シーズン２　第３回　安田祐子展",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/hbj/exhibition/program/353",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "函館美術館開館40周年記念　金子鷗亭生誕120年　金子鷗亭と書のこれから",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/hbj/exhibition/program/347",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 260,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "五稜郭公園前",
+      "lines": "函館市電",
+      "exit": null,
+      "walk_min": 7,
+      "note": "函館バス「五稜郭公園入口」下車徒歩3分も利用可（系統19・25・30など）"
+    },
+    {
+      "station": "函館",
+      "lines": "JR函館本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "函館駅前から市電（湯の川方面）で「五稜郭公園前」下車約15分、またはタクシー約10分"
+    }
+  ],
+  "highlights": "道南ゆかりの美術・書・文字に関わる現代美術の3テーマを軸に2,556点を所蔵する北海道立美術館。松前出身の書家・金子鷗亭のコレクションを中核に持ち、函館ゆかりの日本画・油彩・版画も充実。五稜郭公園のそばに立ち、函館市電で気軽にアクセスできる。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日の場合は翌火曜休館）。毎年11月1日は「芸術週間」のため月曜でも開館。展示替え期間は臨時休館あり（今回は9/23終了〜10/10開始の間、具体的日程は公式に非明示）。常設展観覧料260円（団体210円）。特別展の観覧料は展示ごとに異なり公式サイトで順次発表される。",
+  "confidence": "medium"
+}

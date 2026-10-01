@@ -1,0 +1,86 @@
+{
+  "id": "Q11587773",
+  "checked_at": "2026-09-30T11:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.hekinan.lg.jp/museum/",
+  "address": "〒447-0847 愛知県碧南市音羽町一丁目1番地",
+  "source_urls": [
+    "https://www.city.hekinan.lg.jp/museum/",
+    "https://www.city.hekinan.lg.jp/museum/general_information/index.html",
+    "https://www.city.hekinan.lg.jp/museum/general_information/13073.html",
+    "https://www.city.hekinan.lg.jp/museum/event_guide/index.html",
+    "https://www.city.hekinan.lg.jp/museum/event_guide/kikakuten/23819.html",
+    "https://www.city.hekinan.lg.jp/museum/event_guide/kikakuten/23830.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "小林徳三郎 ―詩のような日常宇宙。―",
+      "start": "2026-09-12",
+      "end": "2026-11-08",
+      "url": "https://www.city.hekinan.lg.jp/museum/event_guide/kikakuten/23819.html",
+      "kind": "special",
+      "summary": "大正から昭和初期に活躍した洋画家・小林徳三郎の初の大回顧展。300点以上の作品と資料で画業を紹介",
+      "recommend": "魚や野菜、家族の日常風景を詩情豊かに描いた同画家の作品世界を、300点超の規模で初めて網羅的に紹介。出版・舞台美術など多彩な活動も含む見応えある内容",
+      "admission": "一般 1,000円（団体20名以上 800円）",
+      "adult_price": 1000
+    },
+    {
+      "title": "笠井誠一展 ―色彩と形態が織りなす造形の世界―",
+      "start": "2026-11-21",
+      "end": "2027-01-11",
+      "url": null,
+      "kind": "special",
+      "summary": "色彩と形態をテーマにした造形展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "称名寺と時宗の宝物展",
+      "start": "2027-01-23",
+      "end": "2027-02-28",
+      "url": null,
+      "kind": "special",
+      "summary": "称名寺と時宗に関わる宝物を紹介する展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "碧南",
+      "lines": "名古屋鉄道三河線",
+      "exit": null,
+      "walk_min": 6,
+      "note": "駐車場32台（無料）"
+    }
+  ],
+  "highlights": "碧南出身の近代日本美術のパイオニア・藤井達吉（1881-1964）の名を冠した美術館。油彩・水彩・工芸など幅広い分野で活躍した藤井の作品を核に、同時代・現代作家の企画展も開催。2023年5月にリニューアルオープンし、コレクション常設展は無料で楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "2023年5月2日にリニューアルオープン。常設展の観覧料は無料。企画展の観覧料は展覧会ごとに設定。月曜が祝日の場合は開館し翌平日が休館。",
+  "confidence": "high"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "Q11472922",
+  "checked_at": "2026-09-30T09:03:59+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.okazaki.lg.jp/museum/",
+  "address": "〒444-0002 愛知県岡崎市高隆寺町字峠1番地",
+  "source_urls": [
+    "https://www.city.okazaki.lg.jp/museum/",
+    "https://www.city.okazaki.lg.jp/museum/tenrankai/1014906.html",
+    "https://www.city.okazaki.lg.jp/museum/tenrankai/1015424.html",
+    "https://www.city.okazaki.lg.jp/museum/raikan/1010136.html",
+    "https://www.museum.or.jp/museum/4608"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "市制110周年・開館30周年記念　四季にうたえば　出光美術館名品展",
+      "start": "2026-10-17",
+      "end": "2026-11-29",
+      "url": "https://www.city.okazaki.lg.jp/museum/tenrankai/1015424.html",
+      "kind": "special",
+      "summary": "出光美術館所蔵の名品を通じて日本人が愛してきた四季の表現を探る。江戸時代の美術工芸品を中心に展示",
+      "recommend": "出光美術館の名品を岡崎で一堂に見られる貴重な機会。春夏秋冬を題材にした名品を通じて、日本美術における四季表現の豊かさを堪能できる。",
+      "admission": "一般（高校生以上）1,500円（1,400円）",
+      "adult_price": 1500
+    },
+    {
+      "title": "開館30周年記念企画展「国島征二」",
+      "start": "2026-12-19",
+      "end": "2027-03-14",
+      "url": null,
+      "kind": "special",
+      "summary": "開館30周年記念として開催する企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "東岡崎",
+      "lines": "名鉄名古屋本線",
+      "walk_min": null,
+      "note": "北口1番のりばから名鉄バス「中央総合公園行」に乗車、「美術博物館」下車徒歩5分（所要約25〜30分）"
+    }
+  ],
+  "highlights": "岡崎市中央総合公園内に位置し、1996年開館。美術・歴史・民俗など幅広い分野の企画展を年5本程度開催する複合文化施設。2026年は市制110周年・開館30周年記念プログラムを展開。市内在住・在学の小中学生は無料で観覧できる。",
+  "closed_between_exhibitions": false,
+  "notes": "常設展はなく、企画展・コレクション展ともに有料。月曜休館（祝日の場合はその翌日以降の平日に休館）。展示替え日も休館。岡崎市内在住・在学の小中学生は入館無料。",
+  "confidence": "high"
+}

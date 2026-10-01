@@ -1,14 +1,14 @@
 {
   "id": "Q11399550",
-  "checked_at": "2026-09-29T23:06:09+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T11:10:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://hidanosato.com/",
   "address": "岐阜県高山市上岡本町1-590",
   "source_urls": [
-    "https://www.kankou-gifu.jp/spot/detail_1232.html",
-    "https://rurubu.jp/andmore/spot/80020728"
+    "https://hidanosato.com/",
+    "https://www.kankou-gifu.jp/spot/detail_1232.html"
   ],
   "regular_hours": [
     {
@@ -25,7 +25,7 @@
     {
       "title": "飛騨の合掌造りとくらし（常設展）",
       "start": "2026-01-01",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "url": "https://hidanosato.com/",
       "kind": "collection",
       "summary": "通年。合掌造りをはじめ飛騨各地から移築した古民家30棟以上を野外展示。",
@@ -48,6 +48,6 @@
   ],
   "highlights": "江戸中期〜明治期の合掌造りをはじめ飛騨各地の古民家30棟以上を移築復元した野外博物館。伝統的な行事の実演や民具の展示も充実し、四季の自然の中で飛騨の暮らしと文化をじっくり体感できる。",
   "closed_between_exhibitions": false,
-  "notes": null,
-  "confidence": "medium"
+  "notes": "公式サイト（hidanosato.com）より確認。開館時間 8:30-17:00 年中無休。紅葉ライトアップ（10/10-11/8 土日祝 17:30-20:30）・クリスマスライトアップ（12/19-25）・冬のライトアップ（1/9-2/28）は通常閉館後の延長開館。",
+  "confidence": "high"
 }

@@ -1,7 +1,7 @@
 {
   "id": "Q3884828",
-  "checked_at": "2026-09-29T23:15:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T10:25:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.fashionmuseum.jp/",
@@ -39,8 +39,8 @@
       "kind": "special",
       "summary": "漫画家・水木しげるの画業と精神世界をたどる回顧展",
       "recommend": null,
-      "admission": null,
-      "adult_price": null,
+      "admission": "一般 1,400円",
+      "adult_price": 1400,
       "hours": [],
       "closed_weekdays": [],
       "closed_dates": ["2026-09-24", "2026-10-13", "2026-11-24"]

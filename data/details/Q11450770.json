@@ -1,7 +1,7 @@
 {
   "id": "Q11450770",
-  "checked_at": "2026-09-29T23:22:10+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:33:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://chihiro.jp/azumino/",
@@ -12,7 +12,8 @@
     "https://chihiro.jp/azumino/exhibitions/",
     "https://chihiro.jp/azumino/exhibitions/00052/",
     "https://chihiro.jp/azumino/exhibitions/00034/",
-    "https://chihiro.jp/azumino/exhibitions/14368/"
+    "https://chihiro.jp/azumino/exhibitions/14368/",
+    "https://chihiro.jp/azumino/events/90688/"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00"},
@@ -64,13 +65,22 @@
     }
   ],
   "adult_price": 1200,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-12-06",
+      "to": "2026-12-06",
+      "scope": "all",
+      "reason": "長野県民感謝デー",
+      "source_url": "https://chihiro.jp/azumino/events/90688/"
+    }
+  ],
   "free_rules": [],
   "access": [
     {"station": "信濃松川", "lines": "JR大糸線", "walk_min": null, "note": "信濃松川駅から約2.5km（タクシー約5分）。駐車場150台・大型バス8台完備"}
   ],
   "highlights": "いわさきちひろが愛した安曇野の自然に囲まれた美術館。建築家・内藤廣が設計した切妻屋根の建物は北アルプスの山々と調和し、世界35ヶ国228人の絵本画家の原画約28,000点（うちちひろの遺作約9,654点）を所蔵する。復元されたちひろの黒姫山荘やパツォウスカーの庭なども見どころ。冬期は休館。",
   "closed_between_exhibitions": false,
-  "notes": "第2・4水曜が定休日（水曜が祝日の場合は翌日休館）。GW（4/25〜5/6）と夏期（7/18〜8/31）は開館時間が9:00〜17:00に変わり無休。冬期休館は12/16〜2/28（2026-2027年度）。入館料は大人1,200円、18歳以下無料（高校生以下、他に65歳以上900円・学生900円）。",
+  "notes": "第2・4水曜が定休日（水曜が祝日の場合は翌日休館）。GW（4/25〜5/6）と夏期（7/18〜8/31）は開館時間が9:00〜17:00に変わり無休。冬期休館は12/16〜2/28（2026-2027年度）。入館料は大人1,200円、18歳以下無料（高校生以下、他に65歳以上900円・学生900円）。2026-12-06は「長野県民感謝デー」で長野県在住者は入館無料（受付で住所証明要）。"
+  ,
   "confidence": "high"
 }

@@ -1,7 +1,7 @@
 {
   "id": "Q11621785",
-  "checked_at": "2026-09-29T23:24:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:28:58+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://1027.jp/",
@@ -14,8 +14,9 @@
     {
       "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
       "open": "09:00",
-      "close": "17:00",
-      "last_entry": "16:30",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "from": "2026-09-26",
       "to": "2026-11-23"
     },
     {

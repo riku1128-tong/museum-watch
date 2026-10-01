@@ -1,0 +1,43 @@
+{
+  "id": "Q3539675",
+  "checked_at": "2026-09-30T09:15:56+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.domonken-kinenkan.jp/",
+  "address": "〒998-0055 山形県酒田市飯森山2-13 飯森山公園内",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/1088",
+    "https://www.city.sakata.lg.jp/bunka/geijyutsu/bunkashisetsu/dmonken_kinenkan.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "「竹の子族」「映画の人びと」そして酒田 ／ 第32回酒田市土門拳文化賞受賞作品展",
+      "start": "2026-07-17",
+      "end": "2026-10-12",
+      "url": null,
+      "kind": "special",
+      "summary": "土門拳が撮った竹の子族・映画の人々・地元酒田の風景と、第32回土門拳文化賞受賞作品展",
+      "recommend": null,
+      "admission": "一般 900円",
+      "adult_price": 900
+    }
+  ],
+  "adult_price": 700,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "酒田", "lines": "JR羽越本線", "exit": null, "walk_min": null, "note": "酒田駅からるんるんバス大学線で約16分「土門拳記念館前」下車、またはタクシー約10分"}
+  ],
+  "highlights": "昭和を代表する写真家・土門拳の作品を専門に収蔵・展示する世界初の写真専門美術館。イサム・ノグチが手がけた石庭と吉村順三設計の建物が酒田の自然に溶け込み、境内のような静けさの中でリアリズム写真の巨匠の世界を体験できる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（http://www.domonken-kinenkan.jp/）はSSL証明書不一致によりWebFetchで取得不可。インターネットミュージアムおよび酒田市公式サイトの情報を使用（confidence: medium）。2025年4月より正式名称を「土門拳写真美術館」に変更したが、official_urlはwiki登録の旧名称URL（domonken-kinenkan.jp）のまま。開館日程：4〜11月は無休（展示替えの臨時休館あり）、12〜3月は毎週月曜休館（祝日の場合は翌火曜）・年末年始休館。closed_weekdays: ['mon'] は12〜3月の規則を反映。4〜11月は月曜も開館するため、この期間の月曜休館判定は実際と異なる点に注意。入館料は特別展期間900円・通常期間700円（大人一般）。",
+  "confidence": "medium"
+}

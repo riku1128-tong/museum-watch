@@ -1,7 +1,7 @@
 {
   "id": "Q11404758",
-  "checked_at": "2026-09-29T23:15:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:02:54+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.kasaoka.okayama.jp/site/museum/",
@@ -26,7 +26,12 @@
     {
       "from": "2026-10-05",
       "to": "2026-10-16",
-      "reason": "陳列替期間（推定：テーマ展後期終了後・特別展開始前）"
+      "reason": "陳列替期間（テーマ展後期終了後・特別展開始前）"
+    },
+    {
+      "from": "2026-11-30",
+      "to": "2026-12-18",
+      "reason": "陳列替期間（榊原始更展終了後・津田白印展開始前）"
     },
     {
       "from": "2026-12-29",
@@ -57,10 +62,29 @@
       "recommend": "没後半世紀以上を経て開催される待望の回顧展。伝統的な日本画に洋画の革新的影響を取り入れた独自の画風を、初期スケッチから晩年まで70点で体感できる。",
       "admission": null,
       "adult_price": null
+    },
+    {
+      "title": "特別展「没後80年 津田白印」",
+      "start": "2026-12-19",
+      "end": "2027-02-07",
+      "url": null,
+      "kind": "special",
+      "summary": "日本画家・津田白印の没後80年を記念した特別展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 600,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-22",
+      "to": "2026-11-22",
+      "scope": "all",
+      "reason": "竹喬生誕祭（小野竹喬誕生日）",
+      "source_url": "https://www.city.kasaoka.okayama.jp/site/museum/77147.html"
+    }
+  ],
   "free_rules": [],
   "access": [
     {

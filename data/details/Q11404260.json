@@ -1,0 +1,44 @@
+{
+  "id": "Q11404260",
+  "checked_at": "2026-09-30T09:26:27+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kitano-museum.or.jp/cultural/",
+  "address": "〒380-0845 長野県長野市西後町1603",
+  "source_urls": [
+    "https://kitano-museum.or.jp/cultural/",
+    "https://kitano-museum.or.jp/cultural/facility/",
+    "https://ja.wikipedia.org/wiki/%E5%8C%97%E9%87%8E%E3%82%AB%E3%83%AB%E3%83%81%E3%83%A5%E3%83%A9%E3%83%AB%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "権堂",
+      "lines": "長野電鉄長野線",
+      "exit": null,
+      "walk_min": 5
+    },
+    {
+      "station": "長野",
+      "lines": "JR・長野電鉄",
+      "exit": "善光寺口",
+      "walk_min": null,
+      "note": "善光寺口から川中島バス10系統などで「権堂入口」下車"
+    }
+  ],
+  "highlights": "善光寺表参道に立つ北野美術館の別館で、多目的ギャラリースペース。米国デザイナーJ.LEFFが設計を担当。個人・団体に貸し画廊として提供され、様々なジャンルのアート展覧会が年間を通じて開催される。入館料は開催展覧会ごとに異なる。",
+  "closed_between_exhibitions": true,
+  "notes": "開館時間はイベント・展示会の開館時間に準じ固定時間は無い（公式サイト記載：「10:00〜18:00」は問い合わせ窓口の営業時間）。Wikipediaには10:00〜18:00・月曜休とある。入館料は展覧会ごとに異なるため null。貸し画廊のため展示の無い期間は休館する。現在開催中の展覧会情報は公式サイト・問い合わせで確認が必要。",
+  "confidence": "medium"
+}

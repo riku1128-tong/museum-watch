@@ -1,0 +1,52 @@
+{
+  "id": "Q85876422",
+  "checked_at": "2026-09-30T09:19:05+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.saku.nagano.jp/bunka/sakubun/tenraikinenkan/index.html",
+  "address": "〒384-2202 長野県佐久市望月305番地2",
+  "source_urls": [
+    "https://www.city.saku.nagano.jp/bunka/sakubun/tenraikinenkan/index.html",
+    "https://www.city.saku.nagano.jp/bunka/sakubun/tenraikinenkan/15rinnsyoten.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon", "tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第十五回 比田井天来・小琴顕彰 佐久全国臨書展",
+      "start": "2026-11-21",
+      "end": "2026-12-13",
+      "url": "https://www.city.saku.nagano.jp/bunka/sakubun/tenraikinenkan/15rinnsyoten.html",
+      "kind": "special",
+      "summary": "比田井天来・小琴の書を手本に臨書した作品の公募展。平成24年から始まった全国規模の臨書展。",
+      "recommend": "書道の近代化を牽引した比田井天来・小琴の故郷・佐久で毎年開かれる全国公募の臨書展。天来の臨書精神を受け継ぐ全国の書家の作品が一堂に会する。",
+      "admission": "一般 310円",
+      "adult_price": 310,
+      "closed_dates": ["2026-11-24", "2026-11-30", "2026-12-03", "2026-12-07"]
+    }
+  ],
+  "adult_price": 310,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "佐久平",
+      "lines": "JR北陸新幹線・小海線",
+      "exit": null,
+      "walk_min": null,
+      "note": "千曲バスで約20分「望月」下車後徒歩7分。上信越自動車道佐久ICから車で約30分"
+    }
+  ],
+  "highlights": "書道の近代化に尽力した書家・比田井天来（1872-1939）とその妻・小琴を顕彰する記念館。天来の書や遺品・資料を展示し、彼が提唱した「古典に学ぶ」姿勢を今に伝える。信州望月の歴史ある街並みに佇む小さな専門記念館。",
+  "closed_between_exhibitions": false,
+  "notes": "毎週月曜日・火曜日休館。ただし祝日の場合は翌日休館（振替）。祝日の翌日も休館（ただし土・日・祝日にあたる場合は開館）。年末年始（12/29-1/3）休館。",
+  "confidence": "high"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q5878014",
-  "checked_at": "2026-09-28T23:45:00+09:00",
+  "checked_at": "2026-09-30T09:28:58+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -44,6 +44,7 @@
     }
   ],
   "closed_between_exhibitions": false,
+  "adult_price": 2100,
   "access": [
     {"station": "土気", "lines": "JR外房線", "exit": null, "walk_min": 1, "note": "土気駅南口3番乗場から京成バス千葉イースト「ブランニューモール」行きで「あすみが丘東4丁目」下車、徒歩1分（バス約5分）"}
   ],

@@ -1,0 +1,87 @@
+{
+  "id": "Q11402964",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://artmuseum.pref.hokkaido.lg.jp/obj",
+  "address": "〒080-0846 北海道帯広市緑ヶ丘2番地",
+  "source_urls": [
+    "https://artmuseum.pref.hokkaido.lg.jp/obj",
+    "https://artmuseum.pref.hokkaido.lg.jp/obj/guide/about/",
+    "https://artmuseum.pref.hokkaido.lg.jp/obj/access/",
+    "https://artmuseum.pref.hokkaido.lg.jp/obj/exhibition/program/",
+    "https://artmuseum.pref.hokkaido.lg.jp/obj/exhibition/program/366",
+    "https://artmuseum.pref.hokkaido.lg.jp/obj/exhibition/program/371",
+    "https://artmuseum.pref.hokkaido.lg.jp/obj/exhibition/program/367",
+    "https://artmuseum.pref.hokkaido.lg.jp/obj/exhibition/program/372"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "抽象彫刻 The Wonders of Abstract Sculpture",
+      "start": "2026-09-19",
+      "end": "2026-11-23",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/obj/exhibition/program/371",
+      "kind": "collection",
+      "summary": "心象や想像の世界を表現した抽象彫刻の作品群。コレクション・ギャラリー展",
+      "recommend": "一見何か分からない不思議な立体造形が並ぶ抽象彫刻の世界。想像力を働かせ、作品の問いかけと対話する楽しさを体験できる小規模だが充実したコレクション展",
+      "admission": "一般 260円",
+      "adult_price": 260
+    },
+    {
+      "title": "さくらももこ展 Momoko Sakura Exhibition",
+      "start": "2026-09-19",
+      "end": "2026-11-23",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/obj/exhibition/program/366",
+      "kind": "special",
+      "summary": "まんが・エッセイ・作詞など多彩な活動を展開したさくらももこのカラー原画や直筆原稿など約300点",
+      "recommend": "「ちびまる子ちゃん」のカラー原画や直筆原稿、関連資料約300点で多彩な創作活動の魅力を網羅的に紹介。今なお輝く独自の感性に迫る貴重な機会",
+      "admission": "一般 1,500円",
+      "adult_price": 1500
+    },
+    {
+      "title": "ジュール・シェレの世界",
+      "start": "2026-12-05",
+      "end": "2027-02-14",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/obj/exhibition/program/372",
+      "kind": "collection",
+      "summary": "19世紀フランスでポスター表現に革新をもたらしたジュール・シェレの優美で鮮やかな作品群。コレクション・ギャラリー展",
+      "recommend": "ポスター芸術の父として名高いシェレの、女性像を明るく生き生きと描いた多色刷りリトグラフの数々。パリの華やかな空気を帯広で体感できる",
+      "admission": "一般 260円",
+      "adult_price": 260
+    },
+    {
+      "title": "大広重展 Hiroshige, Master of Ukiyo-e",
+      "start": "2026-12-05",
+      "end": "2027-02-14",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/obj/exhibition/program/367",
+      "kind": "special",
+      "summary": "「東海道五拾三次」「名所江戸百景」をはじめ、歌川広重の名所絵・肉筆美人画・戯画など約200点",
+      "recommend": "「東海道五拾三次」から最晩年の「名所江戸百景」まで約200点で広重の叙情的な世界を一覧。雨や霞を詩情豊かに描く独自の風景表現を堪能できる",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 260,
+  "access": [
+    {
+      "station": "帯広",
+      "lines": "JR根室本線",
+      "walk_min": null,
+      "note": "JR帯広駅からバス（北海道拓殖バス21〜24番・25番）で「緑ヶ丘6丁目」下車、徒歩4分。またはタクシーで約10分"
+    }
+  ],
+  "highlights": "十勝の豊かな自然に囲まれた帯広市緑ヶ丘公園内に立地する北海道立の美術館。道内の作家を中心に絵画・彫刻・工芸などの作品を収蔵し、コレクション展と年数回の特別展を開催する。広大な公園の恵まれた自然環境の中で、十勝・北海道ゆかりのアートと親しめる施設。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（月曜が祝日・振替休日の場合は開館、翌火曜休館）。11/1は芸術週間のため開館と明記されているが、2026年11月1日は日曜日のため通常通り開館。展示替期間（11/24〜12/4頃）は休館になる可能性があるが、公式に具体的な日付が示されていないためspecial_closuresには未記載（巡回時に要確認）。",
+  "confidence": "high"
+}

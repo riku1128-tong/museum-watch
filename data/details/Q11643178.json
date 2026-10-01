@@ -1,7 +1,7 @@
 {
   "id": "Q11643178",
-  "checked_at": "2026-09-29T23:06:28+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:22:11+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.koriyama.lg.jp/site/artmuseum/",
@@ -55,15 +55,15 @@
       "adult_price": 200
     },
     {
-      "title": "雪村周継 特別展示",
+      "title": "雪村周継《四季山水図屏風》特別展示",
       "start": "2026-10-24",
       "end": "2026-11-03",
       "url": "https://www.city.koriyama.lg.jp/site/artmuseum/194316.html",
       "kind": "special",
-      "summary": "室町時代の画僧・雪村周継の作品特別展示",
+      "summary": "室町時代の画僧・雪村筆《四季山水図屏風》を高精細複製画・デジタル画像と併せてガラスケースなしで展示",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 200円",
+      "adult_price": 200
     },
     {
       "title": "アーツ・アンド・クラフツとデザイン　ウィリアム・モリスからフランク・ロイド・ライトまで",

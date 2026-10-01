@@ -1,6 +1,6 @@
 {
   "id": "Q11595530",
-  "checked_at": "2026-09-29T23:10:49+09:00",
+  "checked_at": "2026-09-30T09:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -28,7 +28,19 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "先人顕彰シリーズ35「文人に描かれた鹿角」",
+      "start": "2026-04-01",
+      "end": "2027-03-31",
+      "url": null,
+      "kind": "special",
+      "summary": "令和8年度の先人顕彰シリーズ第35回。文人に描かれた鹿角をテーマにした企画展（会期は令和8年度）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
   "adult_price": 220,
   "free_days": [],
   "free_rules": [],

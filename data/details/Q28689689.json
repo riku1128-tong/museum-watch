@@ -1,6 +1,6 @@
 {
   "id": "Q28689689",
-  "checked_at": "2026-09-29T23:14:27+09:00",
+  "checked_at": "2026-09-30T09:15:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -21,17 +21,6 @@
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "コレクション展Ⅱ",
-      "start": "2026-07-09",
-      "end": "2026-09-29",
-      "url": "https://tad-toyama.jp/",
-      "kind": "collection",
-      "summary": "通年コレクション展の第2期。20世紀美術・デザイン・富山の作家を網羅",
-      "recommend": null,
-      "admission": "一般 350円",
-      "adult_price": 350
-    },
     {
       "title": "デザインコレクション展Ⅲ",
       "start": "2026-09-25",

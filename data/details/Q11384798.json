@@ -1,7 +1,7 @@
 {
   "id": "Q11384798",
-  "checked_at": "2026-09-29T23:08:10+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:16:46+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "official_url": "https://www.city.iwata.shizuoka.jp/shisetsu_guide/toshokan_bunka/tenji/1003509.html",
   "address": "〒438-0086 静岡県磐田市見付2452",
@@ -30,7 +30,7 @@
     {
       "title": "旧見付学校常設展示",
       "start": "2020-01-01",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "kind": "collection",
       "summary": "通年。明治期の教育資料・教科書・授業風景の再現展示、「伝酒井の太鼓」などを展示",
       "admission": "無料",

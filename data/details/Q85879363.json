@@ -1,7 +1,7 @@
 {
   "id": "Q85879363",
-  "checked_at": "2026-09-29T00:05:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:35:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://azumino.mt-museum.jp/",
@@ -30,6 +30,17 @@
       "url": "https://azumino.mt-museum.jp/tenji-now/",
       "kind": "special",
       "summary": "山岳画家・山下康一による「山を描く・沈黙を描く」をテーマにした作品展",
+      "recommend": null,
+      "admission": "一般・大学生 800円",
+      "adult_price": 800
+    },
+    {
+      "title": "山田恭子ボタニカルアート展",
+      "start": "2026-11-28",
+      "end": "2026-12-09",
+      "url": "https://azumino.mt-museum.jp/tenji-next/",
+      "kind": "special",
+      "summary": "植物画（ボタニカルアート）作家・山田恭子による作品展",
       "recommend": null,
       "admission": "一般・大学生 800円",
       "adult_price": 800

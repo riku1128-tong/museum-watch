@@ -1,6 +1,6 @@
 {
   "id": "Q1362629",
-  "checked_at": "2026-09-29T23:22:37+09:00",
+  "checked_at": "2026-09-30T09:08:12+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -72,6 +72,9 @@
   "notes": "月曜休館（祝日・振替休日なら開館し翌平日休館）。9/24〜9/30は休館（理由は明記なし）。10/23(金)はカレンダー上休館（ターナー展開幕前日）。2027-01-12〜03-19（予定）は施設整備のため常設展示室を長期閉室（館・企画展は開館）。常設展観覧料は500円（公式サイト確認済）。",
   "confidence": "high",
   "free_days": [
-    {"from": "2026-11-03", "to": "2026-11-03", "scope": "collection", "reason": "文化の日", "source_url": "https://www.nmwa.go.jp/jp/visit/faqs.html"}
+    {"from": "2026-11-03", "to": "2026-11-03", "scope": "collection", "reason": "文化の日", "source_url": "https://www.nmwa.go.jp/jp/visit/index.html"}
+  ],
+  "free_rules": [
+    {"weekday": "sun", "nth": [2], "scope": "collection", "reason": "毎月第2日曜日（Kawasaki Free Sunday）", "source_url": "https://www.nmwa.go.jp/jp/visit/index.html"}
   ]
 }

@@ -1,0 +1,65 @@
+{
+  "id": "Q11402997",
+  "checked_at": "2026-09-30T09:03:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kushiro-artmu.jp/",
+  "address": "〒085-0017 北海道釧路市幸町4丁目1番5号",
+  "source_urls": [
+    "https://www.kushiro-artmu.jp/",
+    "https://www.kushiro-artmu.jp/guide/",
+    "https://www.kushiro-artmu.jp/schedule/",
+    "https://www.kushiro-artmu.jp/collection/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-09-14", "to": "2026-10-02", "reason": "展示替えのため休館"},
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "三岸好太郎展　好太郎の世界とその軌跡",
+      "start": "2026-10-03",
+      "end": "2026-12-13",
+      "url": "https://www.kushiro-artmu.jp/schedule/",
+      "kind": "special",
+      "summary": "北海道出身の洋画家・三岸好太郎の画業を紹介する企画展",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "没後10年　米坂ヒデノリ展",
+      "start": "2026-10-03",
+      "end": "2026-12-13",
+      "url": "https://www.kushiro-artmu.jp/schedule/",
+      "kind": "special",
+      "summary": "釧路出身の彫刻家・米坂ヒデノリの没後10年を記念する展覧会",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 460,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "釧路",
+      "lines": "JR根室本線・釧網本線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "くしろバス「十字街」「十字街7丁目」停留所下車徒歩3〜5分"
+    }
+  ],
+  "highlights": "写真・版画・彫刻など多様なジャンルの所蔵品919点を持つ北海道立の芸術館。釧路・根室地域ゆかりの作品や自然をテーマにした作品を中心に収蔵し、三岸好太郎など地域を代表する作家の企画展を定期開催する。釧路市の中心市街地に立地し、学校連携プログラムにも積極的に取り組む。",
+  "closed_between_exhibitions": false,
+  "notes": "所蔵品展の入館料は一般460円（団体360円）。三岸好太郎展の入館料は一般1,000円（団体800円）。米坂ヒデノリ展は無料。9月14日〜10月2日は展示替えのため休館。",
+  "confidence": "high"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "Q11624739",
+  "checked_at": "2026-09-30T09:19:05+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.ichinobo.com/museum/",
+  "address": "〒981-0215 宮城県宮城郡松島町高城字浜1-4（松島一の坊内）",
+  "source_urls": [
+    "https://ichinobo.com/museum/",
+    "https://ichinobo.com/museum/access",
+    "https://ichinobo.com/museum/news/7282/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "13:30", "last_entry": "13:00"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "ガラスのクリスマス展2026",
+      "start": "2026-09-12",
+      "end": "2026-12-25",
+      "url": "https://ichinobo.com/museum/news/7282/",
+      "kind": "special",
+      "summary": "国内外で活躍する23名のガラス作家によるグループ展。クリスマスをテーマにした作品が並ぶ",
+      "recommend": "毎年恒例のクリスマスシーズンを彩るガラス作品展。個性豊かな23名の作家それぞれの解釈で表現されたクリスマスモチーフの作品が一堂に会し、松島湾の眺めとともに楽しめる。入場無料。",
+      "admission": "入場無料",
+      "adult_price": 0
+    },
+    {
+      "title": "tamaki niime2026秋冬 -イッテンモノのショールとウェア-",
+      "start": "2026-10-09",
+      "end": "2026-10-25",
+      "url": null,
+      "kind": "special",
+      "summary": "テキスタイルブランド「tamaki niime」の秋冬コレクション展示販売",
+      "recommend": null,
+      "admission": "入場無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 1200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "高城町",
+      "lines": "JR仙石線",
+      "exit": null,
+      "walk_min": 10,
+      "note": "高城町駅より徒歩約10分またはタクシー約4分。無料駐車場200台あり"
+    }
+  ],
+  "highlights": "ガラス工芸の巨匠・藤田喬平（1921-2004）の美術館として松島の旅館「松島一の坊」内に1996年開設。代表作「飾筥」シリーズなど繊細で色彩豊かな作品と、息子・藤田潤の作品を展示。松島湾を望む広大な庭園も散策できる。",
+  "closed_between_exhibitions": false,
+  "notes": "松島一の坊（旅館）に併設。開館時間が短い（9:30〜13:30）ため注意。企画展・ミュージアムショップは入場無料。旅館宿泊者以外も入館可能。定休日は火曜日（不定休の可能性あり、公式サイトのカレンダーを事前確認推奨）。",
+  "confidence": "high"
+}

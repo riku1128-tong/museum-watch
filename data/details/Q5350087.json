@@ -1,0 +1,87 @@
+{
+  "id": "Q5350087",
+  "checked_at": "2026-09-30T09:05:04+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.rekihaku.gifu.gifu.jp/katoukinen/",
+  "address": "〒500-8003 岐阜県岐阜市大宮町1丁目46番地（岐阜公園内）",
+  "source_urls": [
+    "https://www.rekihaku.gifu.gifu.jp/katoukinen/",
+    "https://www.rekihaku.gifu.gifu.jp/katoukinen/guide/",
+    "https://www.rekihaku.gifu.gifu.jp/katoukinen/guide/outline/",
+    "https://www.rekihaku.gifu.gifu.jp/katoukinen/guide/access/",
+    "https://www.rekihaku.gifu.gifu.jp/katoukinen/exhibition/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "岐阜市鵜飼観船市営100周年記念プレイベント 加藤栄三・東一 鵜飼に魅せられて",
+      "start": "2026-07-01",
+      "end": "2026-10-25",
+      "url": "https://www.rekihaku.gifu.gifu.jp/katoukinen/exhibition/",
+      "kind": "collection",
+      "summary": "岐阜市鵜飼観船市営100周年を記念し、加藤栄三・東一両画伯が描いた長良川の鵜飼をテーマとした作品を紹介",
+      "recommend": "長良川の鵜飼を独自の画風で描いた加藤栄三・東一の作品が並ぶ。岐阜公園内という鵜飼の舞台に近い立地で、まちの誇りともいえる伝統漁法の世界観を絵画から堪能できる。",
+      "admission": "一般 360円",
+      "adult_price": 360
+    },
+    {
+      "title": "宮川達也 彫刻展",
+      "start": "2026-09-08",
+      "end": "2026-10-25",
+      "url": "https://www.rekihaku.gifu.gifu.jp/katoukinen/exhibition/",
+      "kind": "special",
+      "summary": "彫刻家・宮川達也の作品展",
+      "recommend": null,
+      "admission": "一般 360円",
+      "adult_price": 360
+    },
+    {
+      "title": "岐阜市芸術文化奨励賞 創設30周年記念展",
+      "start": "2026-10-28",
+      "end": "2026-11-15",
+      "url": "https://www.rekihaku.gifu.gifu.jp/katoukinen/exhibition/",
+      "kind": "special",
+      "summary": "岐阜市芸術文化奨励賞創設30周年を記念した受賞者作品の展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "伊藤髟耳とありかめ＋はっ・とび2",
+      "start": "2026-11-18",
+      "end": "2027-01-11",
+      "url": "https://www.rekihaku.gifu.gifu.jp/katoukinen/exhibition/",
+      "kind": "special",
+      "summary": "伊藤髟耳とありかめ、はっ・とび2による展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 360,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "岐阜",
+      "lines": "JR東海道本線・名鉄名古屋本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "岐阜バスN系統（長良橋経由）乗車、「岐阜公園・岐阜城」停留所下車後徒歩5〜8分。タクシーなら約15分"
+    }
+  ],
+  "highlights": "岐阜公園内に立つ土蔵造風の建物に、岐阜が生んだ日本画家・加藤栄三と弟の東一の本画・素描・下絵約3,700点を収蔵。鵜飼や岐阜の自然を独自の筆致で描いた日本画の世界が楽しめる。若手作家の招待展示にも力を入れ、年4回ほどテーマを変えた企画展を開催。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は毎週月曜日（祝日の場合はその翌日）・祝日の翌日・年末年始（12/28〜1/3）。祝日の翌日も休館となる点に注意（holiday_rule: open_next_weekday_closed は月曜＝祝日のときの振替を反映。その他の祝日翌日休館はこの holiday_rule で対応できないためnotesに記載）。観覧料は令和8年7月1日から値上げ（分館単独: 一般360円）。",
+  "confidence": "high"
+}

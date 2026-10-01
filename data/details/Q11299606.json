@@ -1,0 +1,64 @@
+{
+  "id": "Q11299606",
+  "checked_at": "2026-09-30T09:05:04+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.buffet-museum.jp/",
+  "address": "〒411-0931 静岡県駿東郡長泉町東野クレマチスの丘515-57",
+  "source_urls": [
+    "https://www.buffet-museum.jp/",
+    "https://www.buffet-museum.jp/information/",
+    "https://www.buffet-museum.jp/access/",
+    "https://www.buffet-museum.jp/exhibition/",
+    "https://www.buffet-museum.jp/exhibition/%e9%88%b4%e6%9c%a8%e3%81%ae%e3%82%8a%e3%81%9f%e3%81%91%e3%80%80%e5%a4%a7%e3%83%94%e3%83%b3%e3%83%81%e5%b1%95%ef%bc%81/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30", "from": "2026-03-01", "to": "2026-11-30"},
+    {"days": ["mon", "tue", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:30", "last_entry": "16:00", "from": "2026-12-01", "to": "2027-02-28"}
+  ],
+  "closed_weekdays": ["wed", "thu"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "鈴木のりたけ　大ピンチ展！",
+      "start": "2026-09-12",
+      "end": "2026-11-24",
+      "url": "https://www.buffet-museum.jp/exhibition/%e9%88%b4%e6%9c%a8%e3%81%ae%e3%82%8a%e3%81%9f%e3%81%91%e3%80%80%e5%a4%a7%e3%83%94%e3%83%b3%e3%83%81%e5%b1%95%ef%bc%81/",
+      "kind": "special",
+      "summary": "ミリオンセラー絵本作家・鈴木のりたけの『大ピンチずかん』を立体化した体験型展覧会",
+      "recommend": "累計ミリオンセラー『大ピンチずかん』の世界が会場いっぱいに立体化。様々な「ピンチ」を体で体験できる参加型の仕掛けが充実し、子どもはもちろん大人も楽しめる。完全日時予約制。",
+      "admission": "大人 1,500円",
+      "adult_price": 1500
+    },
+    {
+      "title": "ベルナール・ビュフェの時代―戦後の具象画の変遷",
+      "start": "2026-12-04",
+      "end": "2027-03-30",
+      "url": "https://www.buffet-museum.jp/exhibition/%e3%83%99%e3%83%ab%e3%83%8a%e3%83%bc%e3%83%ab%e3%83%bb%e3%83%93%e3%83%a5%e3%83%95%e3%82%a7%e3%81%ae%e6%99%82%e4%bb%a3%e2%80%95%e6%88%a6%e5%be%8c%e3%81%ae%e5%85%b7%e8%b1%a1%e7%94%bb%e3%81%ae%e5%a4%89/",
+      "kind": "special",
+      "summary": "ベルナール・ビュフェを軸に戦後具象画の潮流をたどる展覧会",
+      "recommend": null,
+      "admission": "大人 1,500円",
+      "adult_price": 1500
+    }
+  ],
+  "adult_price": 1500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "三島",
+      "lines": "JR東海道本線・東海道新幹線",
+      "exit": "南口",
+      "walk_min": null,
+      "note": "三島駅南口3番乗り場から富士急シティバス駿河平線（乗車約40〜45分）「ビュフェ美術館入口」下車、徒歩約10分（500m）。タクシーは北口から約20分"
+    }
+  ],
+  "highlights": "フランスの巨匠ベルナール・ビュフェ（1928-1999）の絵画・版画・素描を専門に展示するミュージアム。戦後の虚無感を黒い描線と抑制された色彩で表現した独自のスタイルを体感できる。緑豊かなクレマチスの丘の中に位置し、こども美術館やカフェも隣接する。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は毎週水・木曜日（祝日にあたる場合は開館し翌金曜を休館）。年末年始・展示替え時にも休館あり（具体日程は要確認）。開館時間は3〜11月10:00〜17:00、12〜2月10:00〜16:30（各入館は閉館30分前まで）。鈴木のりたけ展はオンライン完全日時予約制（中学生以下も有料）。wiki掲載の公式URLは旧URL（クレマチスの丘サイト）のため、official_urlを現行公式サイトに更新。",
+  "confidence": "high"
+}

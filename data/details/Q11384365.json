@@ -1,7 +1,7 @@
 {
   "id": "Q11384365",
-  "checked_at": "2026-09-28T23:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:22:26+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://sato-museum.la.coocan.jp/",
@@ -35,7 +35,7 @@
       "title": "現代日本画トリビュート",
       "start": "2026-11-03",
       "end": "2026-12-13",
-      "url": "https://sato-museum.la.coocan.jp/exhibition/",
+      "url": "https://sato-museum.la.coocan.jp/exhibition/exhibition-2026.html?id=ex261103",
       "kind": "special",
       "summary": "伝統への敬意と現代的感性を感じさせる現代日本画の大作展",
       "admission": null

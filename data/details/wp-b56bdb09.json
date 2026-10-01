@@ -1,0 +1,26 @@
+{
+  "id": "wp-b56bdb09",
+  "checked_at": "2026-09-30T09:35:00+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "菊川市の施設は閉館済み。展示機能は常葉大学静岡瀬名キャンパスの「常葉ギャラリー」に移転。",
+  "official_url": null,
+  "address": "〒439-0019 静岡県菊川市半済1550-1",
+  "source_urls": [
+    "https://iko-yo.net/facilities/3283"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "iko-yo.net にて「この施設は閉館しました」を確認。展示機能は常葉大学静岡瀬名キャンパス内の「常葉ギャラリー」に移転しており、元の菊川市の施設は永続閉館。",
+  "confidence": "high"
+}

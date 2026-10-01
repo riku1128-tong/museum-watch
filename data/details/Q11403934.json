@@ -1,0 +1,82 @@
+{
+  "id": "Q11403934",
+  "checked_at": "2026-09-30T09:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://hokumouken.com/",
+  "address": "〒090-0015 北海道北見市公園町1",
+  "source_urls": [
+    "https://hokumouken.com/",
+    "https://hokumouken.com/exhibition/",
+    "https://www.museum.or.jp/museum/409"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-06",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第79回きたみ市民芸術祭 美術展",
+      "start": "2026-10-04",
+      "end": "2026-10-10",
+      "url": "https://hokumouken.com/exhibition/",
+      "kind": "special",
+      "summary": "北見市民による絵画・彫刻・工芸などの作品を展示する市民芸術祭の美術部門",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第79回きたみ市民芸術祭 書道・写真展",
+      "start": "2026-10-12",
+      "end": "2026-10-18",
+      "url": "https://hokumouken.com/exhibition/",
+      "kind": "special",
+      "summary": "北見市民による書道・写真作品を展示する市民芸術祭の書道・写真部門",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "オホーツク管内高校生美術展",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "url": "https://hokumouken.com/exhibition/",
+      "kind": "special",
+      "summary": "オホーツク管内の高校生による美術作品を展示する展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "北見",
+      "lines": "JR石北本線",
+      "walk_min": null,
+      "note": "北見駅からタクシーで約5分、または北見バス3・11・8番で文化センター前・児童相談所前下車徒歩2〜3分"
+    }
+  ],
+  "highlights": "科学館・博物館・美術館・プラネタリウムを一体に備えた総合文化施設。オホーツク唯一の大型プラネタリウム（直径15mドーム）が圧巻で、開拓や自然をテーマにした博物館展示と美術企画展も充実。市民の作品発表の場としても活用されている。",
+  "closed_between_exhibitions": false,
+  "notes": "定休日は月曜日（月曜日が祝日の場合は開館）および休日の翌日（土・日を除く）・年末年始（12/28〜1/6）。企画展示室は市民の作品発表の場として活用されており、展覧会ごとに料金が異なる（無料が多い）。科学館・博物館・プラネタリウムは別料金体系。",
+  "confidence": "medium"
+}

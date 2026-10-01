@@ -1,6 +1,6 @@
 {
   "id": "Q11609688",
-  "checked_at": "2026-09-29T23:24:28+09:00",
+  "checked_at": "2026-09-30T09:19:05+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -8,10 +8,11 @@
   "address": "〒370-1293 群馬県高崎市綿貫町992-1 群馬の森公園内",
   "source_urls": [
     "https://mmag.pref.gunma.jp/",
-    "https://mmag.pref.gunma.jp/faq",
-    "https://mmag.pref.gunma.jp/price",
-    "https://mmag.pref.gunma.jp/access",
-    "https://mmag.pref.gunma.jp/exhibition/exhibition-7201"
+    "https://mmag.pref.gunma.jp/exhibition",
+    "https://mmag.pref.gunma.jp/exhibition/exhibition-7201",
+    "https://mmag.pref.gunma.jp/exhibition/exhibition-7187",
+    "https://mmag.pref.gunma.jp/exhibition/exhibition-7189",
+    "https://mmag.pref.gunma.jp/exhibition/exhibition-7218"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
@@ -50,6 +51,94 @@
       "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7198",
       "kind": "collection",
       "summary": "新たに収蔵した作品を紹介するコレクション展示",
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300
+    },
+    {
+      "title": "コレクション展示：戸方庵井上コレクションの粋Ⅰ",
+      "start": "2026-09-19",
+      "end": "2026-10-12",
+      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7187",
+      "kind": "collection",
+      "summary": "戸方庵井上コレクションから選りすぐった近代美術・茶道具を紹介するコレクション展示",
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300
+    },
+    {
+      "title": "コレクション展示：戸方庵井上コレクションの粋Ⅱ",
+      "start": "2026-10-14",
+      "end": "2026-11-08",
+      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7189",
+      "kind": "collection",
+      "summary": "戸方庵井上コレクションから選りすぐった近代美術・茶道具を紹介するコレクション展示（第Ⅱ期）",
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300
+    },
+    {
+      "title": "第77回群馬県美術展覧会（県展 美術）",
+      "start": "2026-11-20",
+      "end": "2026-11-29",
+      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7208",
+      "kind": "special",
+      "summary": "群馬県内外の作家が出品する公募展。絵画・彫刻・工芸・デザインなど幅広いジャンル",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "コレクション展示：日本と西洋の近代美術Ⅱ",
+      "start": "2026-11-20",
+      "end": "2026-12-20",
+      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7206",
+      "kind": "collection",
+      "summary": "群馬県立近代美術館コレクションから日本と西洋の近代美術を紹介するコレクション展示（第Ⅱ期）",
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300
+    },
+    {
+      "title": "ウジェーヌ・ブーダン展　印象派の父―光を求めて",
+      "start": "2026-11-28",
+      "end": "2027-01-31",
+      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7218",
+      "kind": "special",
+      "summary": "19世紀フランスの画家ブーダン（1824-1898）の油彩・素描・パステル・版画など約100点を紹介",
+      "recommend": "「印象派の父」と称されるブーダンの全貌を約100点で紹介。ノルマンディーの空と海の光を独自の感性でとらえた表現は、若きモネをはじめ多くの画家に影響を与えた。新たな視点で画業の魅力に迫る。",
+      "admission": "一般 1,200円",
+      "adult_price": 1200
+    },
+    {
+      "title": "第77回群馬県書道展覧会（県展 書道）",
+      "start": "2026-12-05",
+      "end": "2026-12-15",
+      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7214",
+      "kind": "special",
+      "summary": "群馬県内外の書家が出品する公募展。漢字・かな・篆刻など多彩な書作品",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "コレクション展示：日本と西洋の近代美術Ⅲ",
+      "start": "2026-12-22",
+      "end": "2027-04-04",
+      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7203",
+      "kind": "collection",
+      "summary": "群馬県立近代美術館コレクションから日本と西洋の近代美術を紹介するコレクション展示（第Ⅲ期）",
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300
+    },
+    {
+      "title": "コレクション展示：情景・冬から春へ",
+      "start": "2026-12-22",
+      "end": "2027-02-28",
+      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7236",
+      "kind": "collection",
+      "summary": "群馬県立近代美術館コレクションから冬から春の情景を描いた作品を選んで紹介するコレクション展示",
       "recommend": null,
       "admission": "一般 300円",
       "adult_price": 300

@@ -1,0 +1,66 @@
+{
+  "id": "Q11668358",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.komagata-museum.com/",
+  "address": "新潟県長岡市今朝白2丁目1番4号",
+  "source_urls": [
+    "https://www.komagata-museum.com/",
+    "https://www.komagata-museum.com/access/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon", "tue"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-09-24",
+      "to": "2026-09-29",
+      "reason": "第2回展から第3回展への展示替え"
+    },
+    {
+      "from": "2026-12-21",
+      "to": "2027-03-31",
+      "reason": "冬期休館（終了日は推定）"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "2026年第3回展 ―日本・中国・ヨーロッパ 心に響く風景―",
+      "start": "2026-09-30",
+      "end": "2026-12-20",
+      "url": "https://www.komagata-museum.com/",
+      "kind": "special",
+      "summary": "日本・中国・ヨーロッパの風景画を集めた企画展",
+      "recommend": null,
+      "admission": "一般500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "長岡",
+      "lines": "JR上越新幹線・信越本線",
+      "exit": "東口",
+      "walk_min": 10,
+      "note": null
+    }
+  ],
+  "highlights": "長岡市内に位置する、駒形十吉の収集品を核にした記念美術館。日本・中国・ヨーロッパの作品を収蔵し、年3〜4回の企画展を開催する。冬期休館（12月下旬〜3月末）あり。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜・火曜が定休日。月曜が祝日の場合は開館し、翌火曜・水曜の2日休館（例: 10/12祝日→10/13・10/14休）。冬期休館（12/21〜）の終了日は公式に記載なし。2026年の定期閉館日（9月24〜29日・10月・11月の特定日・12月上旬）は月火定休に加え展示替え期間等が含まれる。展覧会の詳細情報はWebFetch 404のため一部未取得。",
+  "confidence": "medium"
+}

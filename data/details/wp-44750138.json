@@ -1,0 +1,57 @@
+{
+  "id": "wp-44750138",
+  "checked_at": "2026-09-30T09:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kogei-h.tym.ed.jp/museum",
+  "address": "〒933-8518 富山県高岡市中川1-1-20",
+  "source_urls": [
+    "https://www.kogei-h.tym.ed.jp/museum",
+    "https://www.kogei-h.tym.ed.jp/archives/category/museum/guide",
+    "https://www.museum.or.jp/museum/3191"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "越中中川",
+      "lines": "JR氷見線",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    },
+    {
+      "station": "高岡",
+      "lines": "あいの風とやま鉄道・JR氷見線・JR城端線",
+      "exit": null,
+      "walk_min": 25,
+      "note": null
+    }
+  ],
+  "highlights": "富山県立高岡工芸高等学校に附属する、全国でも珍しい高校附属の美術館。年間を通じて一般公開し、教職員・卒業生の作品展や外部企画展を開催。工芸・美術の専門学校ならではの多彩な表現を幅広い世代が楽しめる。入館無料で、最寄りのJR氷見線・越中中川駅から徒歩5分とアクセスも良好。",
+  "closed_between_exhibitions": false,
+  "notes": "2026年9月時点の展覧会スケジュールは公式ページに掲載なし（直近は8月23日で終了）。展示替え中の可能性あり。月曜が祝日の場合は翌平日休館。",
+  "confidence": "medium"
+}

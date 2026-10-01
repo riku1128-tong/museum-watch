@@ -1,0 +1,76 @@
+{
+  "id": "Q4461630",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒471-0034 愛知県豊田市小坂本町8丁目5番地1",
+  "source_urls": [
+    "https://www.museum.toyota.aichi.jp",
+    "https://www.museum.toyota.aichi.jp/visit/",
+    "https://www.museum.toyota.aichi.jp/visit/admission.html",
+    "https://www.museum.toyota.aichi.jp/exhibition/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:30",
+      "last_entry": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-09-24", "to": "2026-10-23", "reason": "展示替え休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "長谷川 繁　ペイン天狗",
+      "start": "2026-10-24",
+      "end": "2027-01-24",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "没後20年　井田照一展",
+      "start": "2026-10-24",
+      "end": "2027-01-24",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "豊田市",
+      "lines": "名古屋鉄道三河線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "名鉄豊田市駅または愛知環状鉄道新豊田駅より徒歩約15分（約800m）"
+    },
+    {
+      "station": "新豊田",
+      "lines": "愛知環状鉄道",
+      "exit": null,
+      "walk_min": 15,
+      "note": null
+    }
+  ],
+  "highlights": "グスタフ・クリムト、ゲルハルト・リヒター、ジョゼフ・コスースなど近・現代の国際的な美術作品を所蔵する市立美術館。レストラン、茶室、ライブラリーを備えた充実した施設で、年に数回の企画展を中心に運営している。名鉄豊田市駅・愛知環状鉄道新豊田駅から徒歩約15分の丘の上に位置する。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日は開館）。年末年始の具体的な休館日は公式サイト要確認。現在は展示替え休館中（2026/9/24〜10/23）。常設展一般300円。企画展は展覧会ごとに料金が異なる（詳細は各展覧会ページ参照）。",
+  "confidence": "high"
+}

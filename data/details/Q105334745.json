@@ -1,0 +1,55 @@
+{
+  "id": "Q105334745",
+  "checked_at": "2026-09-30T09:35:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.town.obuse.nagano.jp/site/obusemuseum/",
+  "address": "〒381-0201 長野県上高井郡小布施町小布施595",
+  "source_urls": [
+    "https://www.town.obuse.nagano.jp/site/obusemuseum/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["wed"],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2026-10-06", "to": "2026-10-09", "reason": "展示替えのため休館"},
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "中島千波・春山文典コレクション常設展",
+      "start": "2026-01-01",
+      "end": "2027-09-30",
+      "url": null,
+      "kind": "collection",
+      "summary": "小布施出身の現代日本画家・中島千波と金属造形作家・春山文典の作品を展示。通年",
+      "recommend": null,
+      "admission": "一般800円",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": 800,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "小布施",
+      "lines": "長野電鉄長野線",
+      "exit": null,
+      "walk_min": 12,
+      "note": "周遊シャトルバスも利用可（1・2月は運休）"
+    }
+  ],
+  "highlights": "小布施出身の現代日本画家・中島千波の作品を常設する「中島千波館」と、地域の祭り屋台を展示する「屋台蔵」が核となる町立美術館。金属造形作家・春山文典の常設コーナーと年間を通じた企画展示室もあり、カフェ・ショップも併設。",
+  "closed_between_exhibitions": false,
+  "notes": "9月〜11月は水曜日の定休日なし（原則無休、展示替えを除く）。通常期（12月〜8月）は毎週水曜休館。入館料は2024年4月2日より一般800円に改定。",
+  "confidence": "medium"
+}

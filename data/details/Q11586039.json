@@ -1,0 +1,54 @@
+{
+  "id": "Q11586039",
+  "checked_at": "2026-09-30T09:13:02+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "空調設備故障のため規模縮小中。企画展のみ（展示室1・2）の観覧となります",
+  "official_url": "https://nanao-af.jp/glass/",
+  "address": "〒926-0211 石川県七尾市能登島向田町125-10",
+  "source_urls": [
+    "https://nanao-af.jp/glass/",
+    "https://nanao-af.jp/glass/info/",
+    "https://nanao-af.jp/glass/info/access/",
+    "https://nanao-af.jp/glass/exhibition2026-1/",
+    "https://nanao-af.jp/glass/exhibition2026-2/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30", "from": "2026-04-01", "to": "2026-11-30"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "16:30", "last_entry": "16:00", "from": "2026-12-01", "to": "2027-03-31"}
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [{"weekday": "tue", "nth": [3]}],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "石川のガラス、その現在地",
+      "start": "2026-10-03",
+      "end": "2027-01-11",
+      "url": "https://nanao-af.jp/glass/exhibition2026-2/",
+      "kind": "special",
+      "summary": "石川のガラス公募展40年以上の歩みと金沢卯辰山工芸工房の人材育成に焦点を当て、石川ゆかりの作家の現在を紹介",
+      "recommend": "国際ガラス公募展の歴史と工芸工房の人材育成という石川独自の取り組みを振り返り、地元ゆかりの作家たちが刻むガラス芸術の深化と現在地を一望できる展覧会。",
+      "admission": "一般 800円",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "和倉温泉",
+      "lines": "JR七尾線",
+      "exit": null,
+      "walk_min": null,
+      "note": "能登島交通バス「のとじま臨海公園ゆき」で約30分"
+    }
+  ],
+  "highlights": "能登島に位置するガラス専門の美術館。現代作家によるガラス工芸の収蔵作品を企画展形式で紹介し、石川ゆかりの作家や国際的な公募展の入選作などを通じて多様なガラス表現を発信する。七尾・和倉温泉からバスでアクセス可能。",
+  "closed_between_exhibitions": false,
+  "notes": "毎月第3火曜日休館（祝日の場合は翌日休館）。展示替え期間・館内整備期間・年末年始は休館。空調設備故障のため規模縮小中（企画展のみ観覧可）。前の展示「ときめくガラス－新収蔵品を中心に－」は9月27日終了。",
+  "confidence": "high"
+}

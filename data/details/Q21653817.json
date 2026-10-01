@@ -1,0 +1,85 @@
+{
+  "id": "Q21653817",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒930-0062 富山県富山市西町5番1号",
+  "source_urls": [
+    "https://toyama-glass-art-museum.jp/",
+    "https://toyama-glass-art-museum.jp/visitor/",
+    "https://toyama-glass-art-museum.jp/outline/",
+    "https://toyama-glass-art-museum.jp/exhibition/brilliant-color/",
+    "https://toyama-glass-art-museum.jp/exhibition/exhibition-7201/",
+    "https://toyama-glass-art-museum.jp/exhibition/exhibition-7387/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [
+    {"weekday": "wed", "nth": [1, 3]}
+  ],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "コレクション展 ガラスを編む、心を織る",
+      "start": "2026-06-06",
+      "end": "2026-11-29",
+      "url": "https://toyama-glass-art-museum.jp/exhibition/exhibition-7201/",
+      "kind": "collection",
+      "summary": "富山市所蔵の現代ガラス美術作品を展示するコレクション展",
+      "recommend": null,
+      "admission": "一般 200円",
+      "adult_price": 200
+    },
+    {
+      "title": "Brilliant Color",
+      "start": "2026-07-11",
+      "end": "2026-10-12",
+      "url": "https://toyama-glass-art-museum.jp/exhibition/brilliant-color/",
+      "kind": "special",
+      "summary": "19世紀初頭から現代のガラスにおける色の進化を、ガレ・ラリック・ティファニーら約140点で紹介",
+      "recommend": "ガレ、ラリック、ティファニー、カーダーらの名品約140点を通じ、ガラスにおける色の進化と革新を一覧できる展覧会。暮らしと美が交差する19世紀から現代までの色彩の旅が楽しめる。",
+      "admission": "一般 1,200円",
+      "adult_price": 1200
+    },
+    {
+      "title": "フィンランド スピリット サウナ ―自然と生きる温もりの文化―",
+      "start": "2026-10-31",
+      "end": "2027-01-24",
+      "url": "https://toyama-glass-art-museum.jp/exhibition/exhibition-7387/",
+      "kind": "special",
+      "summary": "フィンランドのサウナ文化をその歴史・道具・建築・芸術作品から多角的に紹介",
+      "recommend": "アルヴァ・アアルト設計サウナの再現をはじめ、絵画・陶磁器・建築図面を通じてフィンランドの精神文化と自然との共生に迫る。日常と芸術が溶け合うサウナ文化の多面的な魅力を体感できる展覧会。",
+      "admission": "一般 1,200円",
+      "adult_price": 1200
+    }
+  ],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "富山",
+      "lines": "あいの風とやま鉄道・JR北陸新幹線ほか",
+      "exit": null,
+      "walk_min": null,
+      "note": "富山駅から富山地方鉄道市内電車（環状線）で約12分「グランドプラザ前」下車徒歩約2分、または（南富山駅前行き）で約12分「西町」下車徒歩約1分"
+    }
+  ],
+  "highlights": "隈研吾設計のTOYAMAキラリ複合施設内に位置する市立美術館。6階「グラス・アート・ガーデン」には現代ガラス美術の巨匠デイル・チフーリのインスタレーションを常設展示。御影石・ガラス・アルミを組み合わせた立山連峰を彷彿とさせる外観も印象的で、ガレやラリックなど近代ガラスの名品も所蔵する。",
+  "closed_between_exhibitions": false,
+  "notes": "第1・第3水曜日休館（祝日との重なりについて記載なし）。常設展（コレクション展）大人一般200円、企画展は別料金（一般1,200円）。高校生以下・富山市在住70歳以上・障害者手帳提示者は無料。",
+  "confidence": "high"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "Q63565237",
+  "checked_at": "2026-09-30T10:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kitano-museum.or.jp/",
+  "address": "〒381-0101 長野県長野市若穂綿内7963-2",
+  "source_urls": [
+    "https://www.kitano-museum.or.jp/",
+    "https://kitano-museum.or.jp/2026/08/06/2512/",
+    "https://www.kitano-museum.or.jp/collection/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "from": "2026-12-01",
+      "to": "2027-02-28"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "北野美術館版　美術でみる歳時記　夏編・秋編",
+      "start": "2026-08-22",
+      "end": "2026-11-15",
+      "url": "https://kitano-museum.or.jp/2026/08/06/2512/",
+      "kind": "special",
+      "summary": "俳句・短歌の季語を切り口に、線香花火・芙蓉・稲刈・名月など夏秋の情景を描いた所蔵日本画を紹介",
+      "recommend": "歳時記の書式になぞらえた解説文とともに、絵の中に描かれた花・食べ物・情景が「季語」として浮かび上がる斬新な展示。見慣れた日本画の細部に目を向けることで、絵画鑑賞に俳句・短歌を読むような新しい楽しみ方が生まれる。",
+      "admission": "一般 700円",
+      "adult_price": 700
+    },
+    {
+      "title": "北野美術館版　美術でみる歳時記　冬編・新年編",
+      "start": "2026-11-21",
+      "end": "2027-02-14",
+      "url": null,
+      "kind": "special",
+      "summary": "歳時記の体裁で所蔵日本画を紹介する冬・新年テーマの企画展",
+      "recommend": null,
+      "admission": "一般 700円",
+      "adult_price": 700
+    }
+  ],
+  "adult_price": 700,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "長野",
+      "lines": "JR各線・長野電鉄",
+      "exit": "善光寺口",
+      "walk_min": null,
+      "note": "長電バス・アルピコ交通（大豆島・保科温泉線）「若穂支所」バス停下車 徒歩10分。長野駅からタクシーで約30分"
+    }
+  ],
+  "highlights": "長野市若穂の田園地帯に立つ日本画専門の美術館。横山大観・川合玉堂・中島千波ら近世から現代の巨匠作品を収蔵。俳句・短歌の「歳時記」になぞらえた独自の企画展示で絵の細部の季語を読み解く鑑賞体験が楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "12月〜2月は閉館時間が16:30に変更。年末年始の休館日程は公式サイトに具体的な記載なし（special_closuresに未記入）。展覧会の admission は館の入館料700円と同額。",
+  "confidence": "high"
+}

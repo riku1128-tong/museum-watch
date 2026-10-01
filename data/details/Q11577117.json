@@ -1,6 +1,6 @@
 {
   "id": "Q11577117",
-  "checked_at": "2026-09-28T23:35:00+09:00",
+  "checked_at": "2026-09-30T10:00:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,7 +13,7 @@
     {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
   ],
   "closed_weekdays": ["mon"],
-  "holiday_rule": "open",
+  "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
   ],
@@ -27,6 +27,6 @@
   ],
   "highlights": "山岳写真家・田淵行男の業績を伝える記念館。高山蝶の生態写真や蝶の水彩画、雪形の記録など約7万枚のネガを収蔵し、地下展示室では県ゆかりの写真家や田淵行男賞受賞作家の企画展も開催する",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（azumino-bunka.com）はSSL証明書の問題でWebFetchから直接読めず、安曇野市の外郭団体である八十二文化財団の施設紹介ページで確認した（confidence: medium）。祝日の翌平日も休館という規則があるが、現在のスキーマの closed_weekdays / holiday_rule では表現できないため注記に留める（月曜が定休日、祝日なら開館。ただし『祝日の翌平日』も別途休館とのこと）。現在開催中の企画展タイトル・会期は公式で確認できず未掲載。",
+  "notes": "公式サイト（azumino-bunka.com・tabuchi-museum.com）はSSL証明書の問題でWebFetchから直接読めず、八十二文化財団の施設紹介ページ（82bunka.or.jp）と安曇野アートラインのページで確認した（confidence: medium）。holiday_rule は「月曜（祝日の場合は開館、祝日の翌平日休館）」に対応する open_next_weekday_closed を設定。azumino-artline.net によると9/28より丸山隆展「静かな隣人 里山動物」が地下展示室で開催中（2026-09-30時点）、1F では田淵行男写真展「槍・涸沢百景」（8/31〜）も開催中と思われるが、会期終了日が確認できないため exhibitions には含めていない。",
   "confidence": "medium"
 }

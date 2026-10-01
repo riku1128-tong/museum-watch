@@ -1,0 +1,51 @@
+{
+  "id": "Q64416043",
+  "checked_at": "2026-09-30T09:31:55+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.umenokinen.com/",
+  "address": "〒389-0406 長野県東御市八重原935-1 芸術むら公園",
+  "source_urls": [
+    "http://www.umenokinen.com/",
+    "https://www.museum.or.jp/museum/3755",
+    "http://www.umenokinen.com/access/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "「絵を蒐めるなら、こんな絵を蒐めたい」生誕100年記念 梅野隆 美との対話",
+      "start": "2026-09-05",
+      "end": "2026-11-23",
+      "url": "http://www.umenokinen.com/",
+      "kind": "special",
+      "summary": "埋没作家の発掘・再評価に生涯をかけた美術愛好家・梅野隆の生誕100年を記念する特別展",
+      "recommend": null,
+      "admission": "一般 600〜800円",
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "田中",
+      "lines": "しなの鉄道",
+      "exit": null,
+      "walk_min": null,
+      "note": "田中駅からバスで20分またはタクシーで約15分"
+    }
+  ],
+  "highlights": "梅野満雄による青木繁作品の蒐集から始まり、梅野隆が近代日本美術史上の埋没作家の発掘と普及に注力した私設美術館。コレクションをもとに再評価が進む作家の企画展を開催する。信州の豊かな自然に囲まれた芸術むら公園内にあり、ナイトミュージアムも楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は月曜（祝日の場合は翌日）・祝日の翌日・展示替え期間・年末年始。「祝日の翌日も休館」については holiday_rule では表現しきれないため注意。入館料は展覧会により一般600〜800円で変動のため adult_price: null。年末年始や展示替えの具体的な日程は未確認。アクセスは公共交通機関だとタクシーか路線バス利用が必要（田中駅から徒歩では遠い）。",
+  "confidence": "medium"
+}

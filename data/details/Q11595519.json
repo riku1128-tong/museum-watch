@@ -1,9 +1,9 @@
 {
   "id": "Q11595519",
-  "checked_at": "2026-09-29T23:01:13+09:00",
+  "checked_at": "2026-09-30T09:05:25+09:00",
   "check_mode": "full",
-  "operating_status": "temporarily_closed",
-  "status_note": "9/24〜10/11 全館展示替えのため休館中",
+  "operating_status": "operating",
+  "status_note": null,
   "official_url": "https://akita-kinbi.jp/",
   "address": "〒013-0064 秋田県横手市赤坂字富ヶ沢62-46（秋田ふるさと村内）",
   "source_urls": [
@@ -17,23 +17,57 @@
   "closed_weekdays": [],
   "holiday_rule": "unknown",
   "special_closures": [
-    {"from": "2026-09-24", "to": "2026-10-11", "reason": "全館展示替え"}
+    {"from": "2026-10-05", "to": "2026-10-09", "reason": "展示替え"}
   ],
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "原安三郎コレクション 北斎×広重",
-      "start": "2026-10-12",
-      "end": "2026-11-30",
+      "title": "隙あらば猫　町田尚子絵本原画展",
+      "start": "2026-08-08",
+      "end": "2026-10-04",
       "url": null,
       "kind": "special",
-      "summary": "実業家・原安三郎が蒐集した葛飾北斎・歌川広重の作品を紹介する特別展",
-      "admission": null
+      "summary": "絵本作家・町田尚子による猫を主役にした絵本の原画を展示する企画展",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "原安三郎コレクション　北斎×広重展",
+      "start": "2026-10-10",
+      "end": "2026-12-06",
+      "url": null,
+      "kind": "special",
+      "summary": "実業家・原安三郎が蒐集した葛飾北斎・歌川広重の浮世絵作品を紹介する特別展",
+      "recommend": null,
+      "admission": "一般 1,200円",
+      "adult_price": 1200
+    },
+    {
+      "title": "生誕160年　寺崎廣業展",
+      "start": "2026-12-12",
+      "end": "2027-02-14",
+      "url": null,
+      "kind": "special",
+      "summary": "秋田出身の近代日本画家・寺崎廣業（1866-1919）の生誕160年を記念した回顧展",
+      "recommend": null,
+      "admission": "一般 700円",
+      "adult_price": 700
     }
   ],
-  "adult_price": null,
-  "access": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "横手",
+      "lines": "JR奥羽本線",
+      "walk_min": null,
+      "note": "横手駅東口から横手市循環バス（2026年10月1日〜、従来は羽後交通バス）で「秋田ふるさと村」下車。横手インターより車で約3分"
+    }
+  ],
+  "highlights": "秋田蘭画をはじめ日本画・洋画・版画・彫刻・工芸まで幅広いコレクションを擁する秋田県立の近代美術館。秋田ふるさと村内という恵まれた自然環境の中に立ち、野外彫刻エリアも充実。県ゆかりの寺崎廣業ら近代作家の作品が見どころ。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（akita-kinbi.jp）はSPA（WordPress）のため curl では実際のコンテンツが取得できず、開館時間はトップ固定バーの静的HTMLから確認（9:30〜17:00・最終入館16:30）。休館日・入館料・アクセスはサイトからは未取得。全館展示替え（9/24〜10/11）はお知らせ記事から確認。「北斎×広重」展の終了日（2026-11-30）は推定（サイトから未取得）・入館料も未取得。秋田ふるさと村（横手市）に隣接立地。秋田蘭画のコレクションで知られる県立近代美術館。",
-  "confidence": "low"
+  "notes": "公式サイト（akita-kinbi.jp）はSPA（WordPress）のため curl では実際のコンテンツが取得しにくい。開館時間はトップ固定バー（9:30〜17:00・最終入館16:30）から確認。コレクション展（6階）は無料。特別展は別途入館料。年末年始・1月中旬〜下旬のメンテナンス休館あり（公式で日付未掲載）。バスは2026年10月1日以降「横手市循環バス」に変更。",
+  "confidence": "medium"
 }

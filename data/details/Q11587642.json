@@ -1,0 +1,103 @@
+{
+  "id": "Q11587642",
+  "checked_at": "2026-09-30T11:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.tonami-art-museum.jp/",
+  "address": "〒939-1383 富山県砺波市高道145-1",
+  "source_urls": [
+    "https://www.tonami-art-museum.jp/",
+    "https://www.tonami-art-museum.jp/guide/",
+    "https://www.tonami-art-museum.jp/access/",
+    "https://www.tonami-art-museum.jp/museum",
+    "https://www.tonami-art-museum.jp/archives/4895",
+    "https://www.tonami-art-museum.jp/archives/4875",
+    "https://www.tonami-art-museum.jp/archives/4791",
+    "https://www.tonami-art-museum.jp/archives/4907"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-10-05",
+      "to": "2026-10-05",
+      "reason": "施設点検日"
+    },
+    {
+      "from": "2026-10-19",
+      "to": "2026-10-19",
+      "reason": "施設点検日"
+    },
+    {
+      "from": "2026-10-26",
+      "to": "2026-10-26",
+      "reason": "施設点検日"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "音さがし展/工芸の秀作（木工芸）",
+      "start": "2026-09-05",
+      "end": "2026-11-08",
+      "url": "https://www.tonami-art-museum.jp/archives/4895",
+      "kind": "collection",
+      "summary": "視覚だけでない作品の楽しみ方を提案する常設展。音のイメージに着目した絵画と、木工芸の秀作を展示",
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "かたわらには、いつもネコ展",
+      "start": "2026-09-19",
+      "end": "2026-11-08",
+      "url": "https://www.tonami-art-museum.jp/archives/4875",
+      "kind": "special",
+      "summary": "日本の絵本100年のあゆみをたどる猫絵本の企画展。1880年代から現代まで多彩な猫表現を紹介",
+      "recommend": "明治期の雑誌挿絵から現代の絵本まで、約140年にわたる猫表現の変遷を一堂に見渡せる稀有な機会。来館者の猫写真展示などファン参加型の企画も楽しい",
+      "admission": "一般 800円",
+      "adult_price": 800
+    },
+    {
+      "title": "第22回砺波市美術展",
+      "start": "2026-11-21",
+      "end": "2026-12-20",
+      "url": "https://www.tonami-art-museum.jp/archives/4791",
+      "kind": "special",
+      "summary": "砺波市民・在勤・在学者による日本画・洋画・彫刻・工芸・書・写真の公募展",
+      "recommend": null,
+      "admission": "観覧無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 210,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "砺波",
+      "lines": "JR城端線",
+      "exit": null,
+      "walk_min": 20,
+      "note": "タクシーで約5分。北陸自動車道 砺波ICより車で約5分。駐車場35台（無料）"
+    }
+  ],
+  "highlights": "チューリップの街・砺波の文化ゾーンに1997年開館。郷土作家の絵画・日本の工芸・国際的な写真作品を収蔵し、砺波チューリップ公園に隣接する。市民アトリエを併設し、ワークショップや子どもの造形教室など参加型プログラムが充実する開かれた美術館。",
+  "closed_between_exhibitions": false,
+  "notes": "定休日は明記されていないが、施設点検・展示替えにより特定日（主に月曜）に休館することがある。月ごとに休館日を公式サイトで告知している。常設展の観覧料は210円（企画展は別途）。",
+  "confidence": "high"
+}

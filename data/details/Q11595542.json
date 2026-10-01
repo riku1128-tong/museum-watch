@@ -1,7 +1,7 @@
 {
   "id": "Q11595542",
-  "checked_at": "2026-09-29T23:08:10+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "official_url": "https://www.city.kazo.lg.jp/soshiki/shougai/kankou/6496.html",
   "address": "〒347-0104 埼玉県加須市根古屋633-2",
@@ -30,7 +30,7 @@
     {
       "title": "郷土史料常設展示",
       "start": "2020-01-01",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "kind": "collection",
       "summary": "通年。旧石器〜戦国時代の出土品（十六間筋兜など）・農具・民俗資料・昭和期の写真を展示",
       "admission": "無料",

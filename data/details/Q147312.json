@@ -1,13 +1,14 @@
 {
   "id": "Q147312",
-  "checked_at": "2026-09-28T23:30:00+09:00",
+  "checked_at": "2026-09-30T09:00:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.narahaku.go.jp",
-  "address": null,
+  "address": "〒630-8213 奈良県奈良市登大路町50番地",
   "source_urls": [
-    "https://www.museum.or.jp/museum/5804"
+    "https://www.museum.or.jp/museum/5804",
+    "https://shosoin-ten.jp/info/ticket/"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
@@ -25,13 +26,24 @@
       "end": "2026-11-09",
       "url": "https://www.narahaku.go.jp/exhibition/special/special_exhibition/202610_shosoin/",
       "kind": "special",
-      "summary": "古都奈良の秋の風物詩。正倉院宝物を公開する特別展",
-      "admission": null,
-      "adult_price": null
+      "summary": "初出陳11件を含む60件の宝物を公開。第1回展から80周年の節目",
+      "recommend": "初出陳11件を含む60件の正倉院宝物が一堂に会する年に一度の機会。今回は第1回展から80周年の節目にあたり、約1300年前の聖武天皇ゆかりの宝物に直接対面できる貴重な展覧会。金・土・日・祝は20時まで夜間開館あり。",
+      "admission": "一般 2,000円",
+      "adult_price": 2000,
+      "hours": [
+        {"days": ["mon", "tue", "wed", "thu"], "open": "08:00", "close": "18:00", "last_entry": "17:00"},
+        {"days": ["fri", "sat", "sun", "holiday"], "open": "08:00", "close": "20:00", "last_entry": "19:00"}
+      ],
+      "closed_weekdays": []
     }
   ],
   "adult_price": 700,
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（narahaku.go.jp）は WebFetch で終始 403 エラーとなり直接確認できなかったため、インターネットミュージアムの情報と WebSearch の結果を根拠にした（confidence: medium）。名品展の一般料金は700円・大学生350円、70歳以上と高校生以下（18歳未満）は無料。金・土は名品展・特別陳列のみ20時まで開館との情報があるが、対象が展示の一部に限られ館全体の時間ではないため regular_hours には反映していない。名品展・特別陳列（例: 仏像セレクション、坂本コレクション）の会期詳細は公式サイトで確認できず exhibitions には入れていない。正倉院展の観覧料も確認できず null。",
+  "access": [
+    {"station": "近鉄奈良", "lines": "近鉄奈良線", "exit": null, "walk_min": 15, "note": "または近鉄奈良駅・JR奈良駅から奈良交通市内循環バス「氷室神社・国立博物館」下車すぐ"},
+    {"station": "奈良", "lines": "JR大和路線", "exit": null, "walk_min": null, "note": "JR奈良駅から奈良交通市内循環バス「氷室神社・国立博物館」下車すぐ"}
+  ],
+  "highlights": "1895年創設の歴史ある国立博物館。重要文化財の「なら仏像館」に飛鳥・奈良・鎌倉時代の仏像や仏教工芸品を系統的に展示。毎秋恒例の正倉院展は全国から観覧者が集まる奈良の秋の風物詩として定着している。",
+  "notes": "公式サイト（narahaku.go.jp）は WebFetch で終始 403 エラーとなり直接確認できず、インターネットミュージアム・正倉院展公式サイト（shosoin-ten.jp）・WebSearch の結果（奈良県公式サイト）を根拠にした（confidence: medium）。名品展の一般料金は700円・大学生350円、70歳以上と高校生以下（18歳未満）は無料。正倉院展は会期中無休（closed_weekdays: []）で通常より早い8:00開館（金土日祝は20時まで）。正倉院展当日一般2,000円（70歳以上も同額）。年末年始の具体的な閉館日は12/28〜1/1（museum.or.jp記載）。",
   "confidence": "medium"
 }

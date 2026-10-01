@@ -1,0 +1,28 @@
+{
+  "id": "Q11499516",
+  "checked_at": "2026-09-30T09:20:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.tsurui.co.jp/museum/",
+  "address": "〒950-0087 新潟県新潟市中央区東大通1-2-23 北陸ビル1F",
+  "source_urls": [
+    "https://www.tsurui.co.jp/museum/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["sun"],
+  "holiday_rule": "closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "休館日: 日曜・祝日・年末年始・展示替期間。直近の企画展「日本画と洋画の名品で綴る 風景画の世界展」は2026年7月6日〜9月12日に終了。次の展覧会の告知は公式サイトに未掲載（展示替え期間中と推定）。入館料・アクセスの詳細は公式サイトに記載なし。",
+  "confidence": "medium"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q11445231",
-  "checked_at": "2026-09-29T00:10:00+09:00",
+  "checked_at": "2026-09-30T09:15:56+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -50,7 +50,7 @@
     {"station": "近鉄奈良", "lines": "近鉄奈良線", "exit": "1番出口", "walk_min": 5},
     {"station": "JR奈良", "lines": "JR関西本線", "note": "東口バス乗り場から奈良交通バスで「県庁前」下車"}
   ],
-  "highlights": null,
+  "highlights": "風俗史研究家・吉川観方の寄贈コレクション4,600点を核とする奈良市唯一の県立美術館。江戸絵画・浮世絵・工芸品を幅広く収蔵し、由良コレクション（中世〜近世の日本・中国絵画）、大橋コレクション（前衛美術）、陶芸家・富本憲吉作品も擁する。奈良公園に隣接し、近鉄奈良駅から徒歩5分の好立地。",
   "closed_between_exhibitions": false,
   "notes": "公式トップURL（pref.nara.jp/11842.htm）はSSL証明書エラーで接続不可のため、有効な pref.nara.lg.jp のページに official_url を変更。常設のコレクション展は無く企画展・特集展示ごとの観覧料のため adult_price（館共通）は null。次回「伝統文化の現在」（2027/1/16〜3/14）は3か月超先のため未掲載。年末年始の具体的な休館日は公式で確認できず未確認。65歳以上・外国人観光客・毎週土曜の児童生徒などの無料措置は「大人一般」の無料ではないため free_days には反映せず。",
   "confidence": "high"

@@ -1,0 +1,37 @@
+{
+  "id": "Q3248015",
+  "checked_at": "2026-09-30T09:26:20+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "改修工事のため2025年11月10日から長期休館中。2027年4月頃に再開館予定。",
+  "official_url": "https://dali.jp/",
+  "address": "〒969-2701 福島県耶麻郡北塩原村大字桧原字剣ヶ峯1093番23",
+  "source_urls": [
+    "https://dali.jp/",
+    "https://dali.jp/about/",
+    "https://dali.jp/access/",
+    "https://dali.jp/archives/exhibition/13709"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "猪苗代",
+      "lines": "JR磐越西線",
+      "exit": null,
+      "walk_min": null,
+      "note": "猪苗代駅から路線バスまたはタクシーで約20分"
+    }
+  ],
+  "highlights": "サルバドール・ダリの作品約330点を所蔵するアジア随一のダリ美術館。中世の馬小屋をモチーフにした天井高9m・全長100mの展示ホールが圧巻で、印象派からシュルレアリスムの絵画も並ぶ。窓から磐梯山の噴火口と四季の庭園を望む絶好のロケーション。",
+  "closed_between_exhibitions": false,
+  "notes": "例年4月中旬〜11月上旬の季節開館（2025年度：4月12日〜11月9日）。2025年11月10日から改修工事のため長期休館、2027年4月頃に再開館予定。再開館記念展「超・諸橋近代美術館」（仮称）を2027年4月下旬〜11月上旬に予定。休館前の開館時間は9:30〜17:00（最終入館16:30まで）。コレクション：ダリの絵画・彫刻・版画約330点、印象派〜シュルレアリスム期の絵画約40点、PJクルックの絵画約30点。",
+  "confidence": "high"
+}

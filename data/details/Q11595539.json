@@ -1,7 +1,7 @@
 {
   "id": "Q11595539",
-  "checked_at": "2026-09-29T23:10:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:29:29+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.kawagoe.saitama.jp/museum/index.html",
@@ -10,7 +10,8 @@
     "https://www.city.kawagoe.saitama.jp/museum/index.html",
     "https://www.city.kawagoe.saitama.jp/museum/1013701/1013703.html",
     "https://www.city.kawagoe.saitama.jp/museum/1013715/1021477.html",
-    "https://www.city.kawagoe.saitama.jp/museum/1013701/1013705.html"
+    "https://www.city.kawagoe.saitama.jp/museum/1013701/1013705.html",
+    "https://www.city.kawagoe.saitama.jp/museum/1013715/1022440.html"
   ],
   "regular_hours": [
     {
@@ -47,7 +48,7 @@
       "title": "令和8年度埼玉県名刀展「安土桃山時代の刀剣」",
       "start": "2026-10-24",
       "end": "2026-11-08",
-      "url": "https://www.city.kawagoe.saitama.jp/museum/index.html",
+      "url": "https://www.city.kawagoe.saitama.jp/museum/1013715/1022440.html",
       "kind": "special",
       "summary": "安土桃山時代の刀剣を特集した埼玉県名刀展",
       "recommend": null,

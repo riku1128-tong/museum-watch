@@ -1,0 +1,57 @@
+{
+  "id": "Q11402955",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://artmuseum.pref.hokkaido.lg.jp/mkb/",
+  "address": "〒060-0002 北海道札幌市中央区北2条西15丁目",
+  "source_urls": [
+    "https://artmuseum.pref.hokkaido.lg.jp/mkb/",
+    "https://artmuseum.pref.hokkaido.lg.jp/mkb/guide/",
+    "https://artmuseum.pref.hokkaido.lg.jp/mkb/access/",
+    "https://artmuseum.pref.hokkaido.lg.jp/mkb/exhibition/program/305"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [
+    {"date": "2026-11-02", "note": "北海道芸術週間（11/1〜7）中の月曜日のため開館"}
+  ],
+  "exhibitions": [
+    {
+      "title": "第2期所蔵品展「好太郎をめぐる7人の男と女」",
+      "start": "2026-09-20",
+      "end": "2026-12-10",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/mkb/exhibition/program/305",
+      "kind": "collection",
+      "summary": "三岸好太郎の創作に影響を与えた7人（妻・三岸節子、親友・俣野第四郎ら）に焦点を当て、人物との関係と作品の軌跡をたどる",
+      "recommend": "31歳で夭折した三岸好太郎の画業を、妻・節子や親友・俣野ら7人との絆から照らし出す展覧会。人間関係の中から生まれた珠玉の作品群を多角的に体験でき、少年期から晩年まで一気にたどれる。",
+      "admission": "一般 510円",
+      "adult_price": 510
+    }
+  ],
+  "adult_price": 510,
+  "free_days": [
+    {
+      "from": "2026-11-01",
+      "to": "2026-11-07",
+      "scope": "all",
+      "reason": "北海道芸術週間（全員無料）",
+      "source_url": "https://artmuseum.pref.hokkaido.lg.jp/mkb/exhibition/program/305"
+    }
+  ],
+  "free_rules": [],
+  "access": [
+    {"station": "西18丁目", "lines": "札幌市営地下鉄東西線", "exit": "4番出口", "walk_min": 7, "note": "バス「道立近代美術館」停留所から徒歩4分、「北3条西15丁目」停留所から徒歩1分。タクシーで札幌駅から約5〜10分"}
+  ],
+  "highlights": "三岸好太郎（1903-1934）の生涯の代表作を専門に収蔵する札幌の美術館。31歳で夭折した天才画家の《檸檬持てる少女》から現存最大の油彩《道化役者》まで初期から晩年を網羅し、詩情あふれる洗練された作品世界に没入できる。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日・振替休日の場合は開館し翌火曜休館。芸術週間中の月曜は開館）。北海道芸術週間（11/1〜7）は全員無料で11/2（月）も開館。mima移動美術館2026「好太郎の部屋」（4/27〜2027/3/31）は知事公館（北1条西16丁目）の別会場展示。museums.jsonの official_url（dokyoi.pref.hokkaido.lg.jp）は旧URL。現在は artmuseum.pref.hokkaido.lg.jp/mkb/ へ移転済み。",
+  "confidence": "high"
+}

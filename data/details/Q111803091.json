@@ -1,0 +1,31 @@
+{
+  "id": "Q111803091",
+  "checked_at": "2026-09-30T09:06:54+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.ogaki-postermuseum-japan.com/",
+  "address": "〒503-8550 岐阜県大垣市北方町5丁目50番地 岐阜協立大学 7号館 1階",
+  "source_urls": [
+    "http://www.ogaki-postermuseum-japan.com/",
+    "https://www.museum.or.jp/museum/4228"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri"], "open": "10:00", "close": "16:00"}
+  ],
+  "closed_weekdays": ["sat", "sun"],
+  "holiday_rule": "closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "大垣", "lines": "JR東海道本線・樽見鉄道", "exit": "北口", "walk_min": null, "note": "JR大垣駅北口から名阪近鉄バス約12分、岐阜協立大学バス停下車すぐ"}
+  ],
+  "highlights": "1985年設立、岐阜協立大学7号館内にあるポスター専門のNPO法人運営の美術館。国内外の著名デザイナーのポスターを収集・公開し、年数回の企画展を開催する。全国高校生ポスターコンクールの主催も手がける。入館無料だが平日のみ開館。",
+  "closed_between_exhibitions": false,
+  "notes": "土・日・祝祭日・年末年始・お盆（8月中旬）・GW期間は休館。大学キャンパス内のため、大学の特別休業期間中は臨時休館の場合あり。展示替え期間中も休館あり。企画展は年数回開催、常設展示はなし。展覧会によっては大垣市スイトピアセンター等の外部会場で開催する場合もある。",
+  "confidence": "medium"
+}

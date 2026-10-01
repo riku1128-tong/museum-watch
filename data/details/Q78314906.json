@@ -1,0 +1,60 @@
+{
+  "id": "Q78314906",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.saku.nagano.jp/museum/",
+  "address": "〒385-0011 長野県佐久市猿久保35番地5",
+  "source_urls": [
+    "https://www.city.saku.nagano.jp/museum/",
+    "https://www.city.saku.nagano.jp/museum/guide/index.html",
+    "https://www.city.saku.nagano.jp/museum/guide/002-access-map.html",
+    "https://www.museum.or.jp/museum/3805"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "書とはいかなる芸術かー比田井天来・南谷を起点としてー",
+      "start": "2026-09-12",
+      "end": "2026-11-03",
+      "url": null,
+      "kind": "special",
+      "summary": "近代書道の革新者・比田井天来とその妻南谷の作品を起点に、書の芸術性を多角的に問う企画展",
+      "recommend": "現代書道の礎を築いた比田井天来と南谷夫妻の作品を軸に、書が持つ芸術的な幅を掘り下げる。長野に縁の深い書道改革者の仕事を間近で感じられる貴重な機会。",
+      "admission": "一般 600円",
+      "adult_price": 600,
+      "closed_dates": ["2026-09-24", "2026-10-13"]
+    },
+    {
+      "title": "第15回　比田井天来・小琴顕彰　佐久全国臨書展",
+      "start": "2026-11-21",
+      "end": "2026-12-13",
+      "url": null,
+      "kind": "special",
+      "summary": "比田井天来・小琴を顕彰する全国公募の臨書展。第15回記念開催",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 600,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "北中込", "lines": "JR小海線", "walk_min": 15},
+    {"station": "佐久平", "lines": "北陸新幹線", "walk_min": null, "note": "タクシー約10分（佐久平駅からの路線バスは令和3年10月廃止）"}
+  ],
+  "highlights": "平山郁夫の代表作「仏教伝来」や奥村土牛・東山魁夷ら近現代巨匠の作品を含む約3000点を収蔵。日本画・洋画・彫刻・工芸・書から現代美術まで幅広く網羅し、信州佐久の自然豊かな駒場公園内に建つ静かな環境でゆっくり鑑賞できる。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜が休日の場合は開館。振替休館の設定は明示されていないが、展覧会の閉館日に9/24（木）・10/13（火）が含まれており、holiday後の振替休が展覧会レベルで設定されている可能性がある。展示替え期間は不定期休館あり。",
+  "confidence": "high"
+}

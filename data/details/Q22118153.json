@@ -1,7 +1,7 @@
 {
   "id": "Q22118153",
-  "checked_at": "2026-09-29T23:23:30+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:16:46+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.village.ohira.miyagi.jp/9/10/60.html",
@@ -49,7 +49,11 @@
       "summary": null,
       "recommend": null,
       "admission": "一般 200円",
-      "adult_price": 200
+      "adult_price": 200,
+      "hours": [
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "from": "2026-10-31", "to": "2026-10-31"},
+        {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "15:30", "from": "2026-11-01", "to": "2026-11-15"}
+      ]
     }
   ],
   "adult_price": 200,

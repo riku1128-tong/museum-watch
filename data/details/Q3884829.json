@@ -1,7 +1,7 @@
 {
   "id": "Q3884829",
-  "checked_at": "2026-09-29T23:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:13:11+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "address": null,
@@ -38,7 +38,7 @@
     {
       "title": "神戸の歴史展示室",
       "start": "2026-01-01",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "url": null,
       "kind": "collection",
       "summary": "通年。古代から現代までの神戸・兵庫の地域の歴史を紹介する常設展示（1階）",
@@ -49,7 +49,7 @@
     {
       "title": "コレクション展示室",
       "start": "2026-01-01",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "url": null,
       "kind": "collection",
       "summary": "通年。考古・歴史資料、南蛮紅毛美術、古地図など館蔵品をテーマ別に紹介（2階）",
@@ -69,15 +69,15 @@
       "adult_price": 2200
     },
     {
-      "title": "大ゴッホ展 アルルの跳ね橋",
+      "title": "大ゴッホ展 アルルの跳ね橋 第Ⅱ期",
       "start": "2027-02-06",
       "end": "2027-05-30",
       "url": "https://www.kobecitymuseum.jp/exhibition/detail?exhibition=397",
       "kind": "special",
-      "summary": "ゴッホの絵画を中心とした大規模特別展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "summary": "クレラー＝ミュラー美術館蔵《アルルの跳ね橋》ほかゴッホ晩年の名品を中心に展示。約70年ぶりの日本公開",
+      "recommend": "日本での公開が約70年ぶりとなるクレラー＝ミュラー美術館蔵《アルルの跳ね橋》が核。53万人を集めた第Ⅰ期に続く第Ⅱ期では、アルルからサン＝レミ、オーヴェルまでゴッホ晩年の軌跡を同館コレクションで一望できる。",
+      "admission": "一般 2,800円",
+      "adult_price": 2800
     }
   ],
   "adult_price": 300,

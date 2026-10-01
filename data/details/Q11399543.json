@@ -1,6 +1,6 @@
 {
   "id": "Q11399543",
-  "checked_at": "2026-09-29T23:30:00+09:00",
+  "checked_at": "2026-09-30T09:02:37+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -50,8 +50,15 @@
   "adult_price": 520,
   "free_days": [],
   "free_rules": [],
-  "access": [],
-  "highlights": null,
+  "access": [
+    {
+      "station": "恵那",
+      "lines": "JR中央本線",
+      "exit": null,
+      "walk_min": 5
+    }
+  ],
+  "highlights": "中山道の宿場町・岐阜県恵那市に位置し、初代歌川広重をはじめとする浮世絵風景画を専門に収蔵・展示する美術館。初代から二代広重への継承や小林清親・川瀬巴水など「広重イズム」の系譜をたどる企画展で知られ、中山道の旅情と版画の魅力を発信し続ける。",
   "closed_between_exhibitions": true,
   "notes": "祝翌日も休館。年末年始休館。企画展・特別企画展のみの運営で常設展なし。毎週水曜・金曜は特別企画展観覧無料（2026-10-01〜12-06 の展覧会のみ確認）。",
   "confidence": "high"

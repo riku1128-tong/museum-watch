@@ -1,6 +1,6 @@
 {
   "id": "wp-cc00d4c2",
-  "checked_at": "2026-09-29T23:01:13+09:00",
+  "checked_at": "2026-09-30T09:31:55+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -25,12 +25,12 @@
   "exhibitions": [
     {
       "title": "企画展「西望偉人伝」",
-      "start": "2026-05-29",
+      "start": "2026-05-24",
       "end": "2027-04-04",
       "url": "https://www.tokyo-zoo.net/inokashira/news/11545/index.html",
       "kind": "special",
       "summary": "彫刻家・北村西望の生涯と功績を紹介する企画展",
-      "recommend": null,
+      "recommend": "長崎の平和公園に《平和祈念像》を制作したアトリエがある彫刻園ならではの特別展。北村西望の誕生から103年の生涯にわたる制作活動と功績を、豊富な作品とエピソードを通じて紹介する。",
       "admission": null,
       "adult_price": null
     }
@@ -44,6 +44,7 @@
     {"from": "2026-10-01", "to": "2026-10-01", "scope": "all", "reason": "都民の日", "source_url": "https://www.tokyo-zoo.net/zoo/ino/"}
   ],
   "closed_between_exhibitions": false,
+  "highlights": "長崎平和公園の《平和祈念像》で知られる彫刻家・北村西望の記念館。ブロンズ・石膏原型など500点超の収蔵作品のうち常時約200点を展示する。平和祈念像の実寸大石膏原型を見られるアトリエ館をはじめ、A館・B館の3棟で巨匠の全キャリアをたどれる。",
   "notes": "井の頭自然文化園（動物園・本園）内の彫刻園。開園時間は文化園全体のもの（9:30〜17:00）で、彫刻館（A館・B館・アトリエ館）は 9:30〜16:30。北村西望の作品約200点を常時展示（館内は入れ替えあり）。入園料 一般 400円。月曜休園（祝日・振替休日なら翌日）。一部の月曜に臨時開園あり（開園日カレンダー参照・未確認）。都民の日（10/1）は無料開園日。",
   "confidence": "medium"
 }

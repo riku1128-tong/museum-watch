@@ -1,0 +1,75 @@
+{
+  "id": "Q11596708",
+  "checked_at": "2026-09-30T09:25:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.inazawa.aichi.jp/museum",
+  "address": "〒492-8217 愛知県稲沢市稲沢町前田365番地8",
+  "source_urls": [
+    "https://www.city.inazawa.aichi.jp/museum",
+    "https://www.city.inazawa.aichi.jp/0000000271.html",
+    "https://www.city.inazawa.aichi.jp/museum/0000003002.html",
+    "https://www.city.inazawa.aichi.jp/museum/0000000270.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第63回稲沢市民展",
+      "start": "2026-09-26",
+      "end": "2026-10-12",
+      "url": "https://www.city.inazawa.aichi.jp/museum/0000000270.html",
+      "kind": "other",
+      "summary": "第1部（日本画・洋画・写真）9/26-10/4、第2部（書・工芸美術）10/6-10/12。市民公募展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "没後40年特別展　小野竹喬と荻須高徳　―日本画家と洋画家、風景へのまなざし―",
+      "start": "2026-10-24",
+      "end": "2026-12-13",
+      "url": "https://www.city.inazawa.aichi.jp/museum/0000003002.html",
+      "kind": "special",
+      "summary": "日本画家・小野竹喬と洋画家・荻須高徳、文化勲章受章の二大作家による風景へのまなざしを比較する特別展",
+      "recommend": "ヨーロッパ体験を経て独自の風景美を築いた小野竹喬（日本画）と荻須高徳（洋画）の二人展。昭和の巨匠が同じ「風景」をいかに異なる筆致で捉えたか、前後期あわせてじっくり鑑賞できる。",
+      "admission": "一般 1,000円（団体800円）",
+      "adult_price": 1000,
+      "closed_weekdays": ["mon"],
+      "closed_dates": ["2026-11-25"]
+    }
+  ],
+  "adult_price": 310,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "国府宮",
+      "lines": "名鉄名古屋本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "名鉄バス「アピタ稲沢店」行きで約7分、「美術館・保健センター」バス停下車"
+    }
+  ],
+  "highlights": "昭和の洋画界を代表する荻須高徳（1901-1986）の出身地・稲沢に建つ記念美術館。荻須が寄贈した油彩・水彩・デッサン・リトグラフ約300点を収蔵し、パリの街角や運河を独特の色調で描いた作品が鑑賞できる。パリのアトリエを復元した展示コーナーも設けられ、画家の創作環境を体感できる。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は月曜（祝日の場合は翌日）・祝日の翌日・年末年始・はだか祭の日（国府宮神社裸祭、毎年2月頃）。祝日翌日も休館するため holiday_rule: open_next_weekday_closed で近似。常設は荻須高徳の作品中心。特別展の入館料は別途。",
+  "confidence": "high"
+}

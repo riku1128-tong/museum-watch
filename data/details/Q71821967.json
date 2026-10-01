@@ -1,6 +1,6 @@
 {
   "id": "Q71821967",
-  "checked_at": "2026-09-28T23:29:44+09:00",
+  "checked_at": "2026-09-30T09:17:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,26 +9,36 @@
   "source_urls": [
     "https://www.city.shimada.shizuoka.jp/shimahaku/bunkan/hanga/",
     "https://www.city.shimada.shizuoka.jp/shimahaku/docs/guide.html",
-    "https://www.city.shimada.shizuoka.jp/shimahaku/docs/899509837.html",
-    "https://www.city.shimada.shizuoka.jp/shimahaku/docs/823089156.html",
-    "https://www.museum.or.jp/museum/4410"
+    "https://www.city.shimada.shizuoka.jp/shimahaku/docs/908781528.html"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
   ],
   "closed_weekdays": ["mon"],
-  "holiday_rule": "unknown",
+  "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {"from": "2026-12-26", "to": "2027-01-03", "reason": "年末年始"}
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "海野光弘　描いた手、描かれた手",
+      "start": "2026-09-05",
+      "end": "2026-12-06",
+      "url": "https://www.city.shimada.shizuoka.jp/shimahaku/docs/908781528.html",
+      "kind": "collection",
+      "summary": "働く手・祈る手・繋ぐ手など「手」のモチーフを通じて四季折々の日本の情景を描いた木版画作品を展示",
+      "recommend": "海野光弘の版画から「手」をテーマに選んだ作品群で、働く手・祈る手・子どもの手など表情豊かな手を通じて木版画の繊細な表現と日本の四季が体感できる。制作に使った道具の展示も見どころ。",
+      "admission": "一般 300円",
+      "adult_price": 300
+    }
+  ],
   "adult_price": 300,
   "access": [
-    {"station": "島田", "lines": "JR東海道本線", "note": "金谷駅行きバスで5分「阿島西」下車、徒歩15分", "walk_min": 15}
+    {"station": "島田", "lines": "JR東海道本線", "note": "島田駅から金谷駅行きバスで5分「阿島西」下車、徒歩15分", "walk_min": 15}
   ],
   "highlights": "静岡市生まれで39歳で急逝した版画家・海野光弘の作品を数多く収蔵。大井川川越遺跡に隣接し、江戸期の川越しの面影を残す町並みとあわせて楽しめる版画専門の記念館。",
   "closed_between_exhibitions": false,
-  "notes": "本館（島田市博物館）の休館日ページは分館固有の情報を含まず、開館時間・観覧料はインターネットミュージアム（museum.or.jp、確認済みの阿島西バス停アクセスと整合）を根拠にした。祝日の扱い（holiday_rule）は公式ページに記載が見当たらず unknown。公式サイトに掲載中の企画展2件（静岡の作家が描く静岡vol.1、青木晴美木版画展）はいずれも会期終了済み（前者は2026/8/30、後者は2024/12/8）で、次回企画展の告知は確認できなかった。",
+  "notes": "島田市博物館分館。公式ガイドページより「月曜日（祝日の場合は翌日）」休館のため holiday_rule を open_next_weekday_closed に修正。年末年始休館は12/26-1/3（ガイドページ「12月26日から1月3日まで」に基づく）。",
   "confidence": "medium"
 }

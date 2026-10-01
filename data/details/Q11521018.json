@@ -1,0 +1,77 @@
+{
+  "id": "Q11521018",
+  "checked_at": "2026-09-30T09:22:11+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.homma-museum.or.jp/",
+  "address": "〒998-0024 山形県酒田市御成町7-7",
+  "source_urls": [
+    "https://www.homma-museum.or.jp/",
+    "https://www.homma-museum.or.jp/visit/",
+    "https://www.homma-museum.or.jp/schedule/",
+    "https://www.homma-museum.or.jp/event/ai1ec_event-2872/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "山形の作家たち",
+      "start": "2026-09-11",
+      "end": "2026-10-28",
+      "url": "https://www.homma-museum.or.jp/event/ai1ec_event-2872/",
+      "kind": "special",
+      "summary": "明治〜現代の山形出身作家の作品を置賜・村山・最上・庄内の４地域別に展示",
+      "recommend": "山形の郷土芸術を担ってきた各地域の作家の作品を一堂に鑑賞できる企画展。近代絵画から工芸まで幅広く、山形の文化的風土が作家の表現に与えた影響を感じられる。",
+      "admission": "一般 1,300円",
+      "adult_price": 1300
+    },
+    {
+      "title": "日本と中国の陶磁器",
+      "start": "2026-09-17",
+      "end": "2026-12-14",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。清遠閣会場。日本・中国の陶磁器コレクションを展示",
+      "recommend": null,
+      "admission": "一般 1,300円",
+      "adult_price": 1300
+    },
+    {
+      "title": "本間家の浮世絵",
+      "start": "2026-10-31",
+      "end": "2026-12-14",
+      "url": null,
+      "kind": "special",
+      "summary": "酒田の豪商・本間家に伝わった浮世絵コレクションを紹介",
+      "recommend": null,
+      "admission": "一般 1,300円",
+      "adult_price": 1300
+    }
+  ],
+  "adult_price": 1300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "酒田",
+      "lines": "JR羽越本線",
+      "exit": null,
+      "walk_min": 5
+    }
+  ],
+  "highlights": "酒田の豪商・本間家が築いた美術館。別邸「清遠閣」と庭園「鶴舞園」を含む施設に、江戸〜近現代の絵画・工芸・茶道具を豊富に収蔵。伊藤若冲・円山応挙ら江戸の名品から棟方志功・瑛九の近現代作品まで揃う。",
+  "closed_between_exhibitions": false,
+  "notes": "「無休」（年中無休）。入館料1,300円で清遠閣（別荘）と鶴舞園（庭園）も観覧可能。清遠閣と美術展覧会場でそれぞれ異なる展示を開催している。",
+  "confidence": "high"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "Q30927870",
+  "checked_at": "2026-09-30T09:16:46+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒939-3524 富山県富山市水橋伊勢屋",
+  "source_urls": [
+    "https://www.toyamashi-kankoukyoukai.jp/spot/sekaiichi-kawaii-museum/",
+    "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E4%B8%80%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E7%BE%8E%E8%A1%93%E9%A4%A8"
+  ],
+  "regular_hours": [
+    {
+      "days": ["wed", "thu", "fri", "sat", "sun"],
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon", "tue"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "三十八人展 -名前に「山」のある画家-",
+      "start": "2026-10-01",
+      "end": "2026-12-20",
+      "url": null,
+      "kind": "special",
+      "summary": "名前に「山」という字を持つ38人の画家の作品を集めた企画展",
+      "recommend": null,
+      "admission": "無料（お気持ち）",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "水橋",
+      "lines": "あいの風とやま鉄道",
+      "walk_min": 1
+    }
+  ],
+  "highlights": "築230年の砺波産ケヤキ材を用いた古民家を改修して開館した私設美術館。横山大観・葛飾北斎・上村松園・平山郁夫ら著名な日本画家の作品を収蔵し、年4回の企画展を開催。水橋駅から徒歩約1分の好立地で、入館は無料（お気持ち）。",
+  "closed_between_exhibitions": true,
+  "notes": "公式サイトが見当たらないため、富山市観光協会サイトとWikipediaを参照。開館時間・休館日は富山市観光協会情報（水〜日 10:00〜16:30、月・火休）による。holiday_ruleはWikipedia（月曜休・祝日開館・祝日翌日休）と観光協会（月・火休）で情報が異なるためunknown。年4回の企画展の合間に「作品入替のため臨時休館あり」（日程は不定）。お盆（8/14〜16）も臨時休館あり。",
+  "confidence": "medium"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q3329607",
-  "checked_at": "2026-09-29T09:30:00+09:00",
+  "checked_at": "2026-09-30T09:13:02+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,57 +9,95 @@
   "source_urls": [
     "https://www.artm.pref.hyogo.jp/",
     "https://www.artm.pref.hyogo.jp/exhibition/",
+    "https://www.artm.pref.hyogo.jp/exhibition/t_2610/index.html",
+    "https://www.artm.pref.hyogo.jp/kenten/y2026_kenten/index.html",
     "https://www.artm.pref.hyogo.jp/access/"
   ],
   "regular_hours": [
     {
-      "days": [
-        "tue",
-        "wed",
-        "thu",
-        "sun",
-        "holiday"
-      ],
+      "days": ["tue", "wed", "thu", "sun", "holiday"],
       "open": "10:00",
       "close": "18:00",
       "last_entry": "17:30"
     },
     {
-      "days": [
-        "fri",
-        "sat"
-      ],
+      "days": ["fri", "sat"],
       "open": "10:00",
       "close": "20:00",
       "last_entry": "19:30"
     }
   ],
-  "closed_weekdays": [
-    "mon"
-  ],
+  "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "国立美術館 コレクション・ダイアローグ 松方幸次郎×山村德太郎",
+      "title": "コレクション展",
+      "start": "2026-04-01",
+      "end": "2027-09-30",
+      "url": "https://www.artm.pref.hyogo.jp/collection/",
+      "kind": "collection",
+      "summary": "通年",
+      "recommend": null,
+      "admission": "一般 550円",
+      "adult_price": 550
+    },
+    {
+      "title": "国立美術館 コレクション・ダイアローグ 松方幸次郎 × 山村德太郎 蒐集のパッション―ロダンを日本へ、具体を世界へ",
       "start": "2026-10-10",
       "end": "2026-12-27",
-      "url": "https://www.artm.pref.hyogo.jp/exhibition/",
+      "url": "https://www.artm.pref.hyogo.jp/exhibition/t_2610/index.html",
       "kind": "special",
-      "summary": "国立美術館のコレクションを通じて、実業家・コレクターの松方幸次郎と山村德太郎の収集活動を対比させて紹介する特別展",
+      "summary": "松方幸次郎の生誕160年・山村德太郎の生誕100年を記念。西洋美術コレクションと戦後前衛美術コレクションの対話を通じて先人の夢を辿る",
+      "recommend": "西洋美術を日本にもたらした松方幸次郎と戦後日本の前衛を世界へ発信した山村德太郎、二つの偉大なコレクションが一堂に。ロダン彫刻から具体の作品まで国立美術館の至宝を間近に見る貴重な機会。",
+      "admission": "一般 1,800円",
+      "adult_price": 1800
+    },
+    {
+      "title": "第63回 2026県展 兵庫県で目が点になる⁉",
+      "start": "2026-10-31",
+      "end": "2026-11-14",
+      "url": "https://www.artm.pref.hyogo.jp/kenten/y2026_kenten/index.html",
+      "kind": "special",
+      "summary": "絵画・彫刻・立体・工芸・書・写真・デザイン6部門で構成される兵庫県の公募展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "黒川 岳（チャンネル17）",
+      "start": "2026-11-28",
+      "end": "2027-01-31",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
       "admission": null,
       "adult_price": null
     }
   ],
   "adult_price": 550,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "collection",
+      "reason": "文化の日",
+      "source_url": "https://bijutsutecho.com/magazine/insight/31482"
+    },
+    {
+      "from": "2026-11-14",
+      "to": "2026-11-15",
+      "scope": "collection",
+      "reason": "関西文化の日",
+      "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/index/hyogo/art-museums/"
+    }
+  ],
   "free_rules": [
     {
       "weekday": "sun",
-      "nth": [
-        2
-      ],
+      "nth": [2],
       "scope": "collection",
       "reason": "毎月第2日曜日（コレクション展・伊藤文化財団コレクション展）無料"
     }
@@ -75,6 +113,6 @@
   ],
   "highlights": "建築家・安藤忠雄設計の本格的な美術館。HAT神戸の海岸沿いに立ち、国内外の近現代美術コレクションを所蔵。安藤忠雄ギャラリー（無料）も常設展示。毎月第2日曜は無料開放日。",
   "closed_between_exhibitions": false,
-  "notes": "コレクション展一般550円。特別展は展覧会ごとに料金が異なる。特別展開催中の金・土は20:00まで開館（最終入館19:30）。安藤忠雄ギャラリーおよびエントランスロビーは無料。毎月第2日曜はコレクション展・伊藤文化財団コレクション展が無料（特別展を除く）。 特別展開催中の金・土は20:00まで開館（最終入館19:30）。regular_hours は通常時（10-18）とFri/Sat延長（10-20）の2パターンで記録したが、additionalPropertiesエラーのため note を削除し代わりに notes に記載。",
-  "confidence": "medium"
+  "notes": "コレクション展一般550円。特別展は展覧会ごとに料金が異なる。特別展開催中の金・土は20:00まで開館（最終入館19:30）。安藤忠雄ギャラリーおよびエントランスロビーは無料。毎月第2日曜はコレクション展・伊藤文化財団コレクション展が無料（特別展を除く）。",
+  "confidence": "high"
 }

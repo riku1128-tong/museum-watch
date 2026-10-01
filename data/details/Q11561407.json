@@ -1,14 +1,13 @@
 {
   "id": "Q11561407",
-  "checked_at": "2026-09-28T23:29:44+09:00",
+  "checked_at": "2026-09-30T09:19:05+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.meissen-kpm.jp/",
   "address": "〒407-0301 山梨県北杜市高根町清里3545-550",
   "source_urls": [
-    "https://www.museum.or.jp/museum/3559",
-    "http://www.meissen-kpm.jp/"
+    "https://www.museum.or.jp/museum/3559"
   ],
   "regular_hours": [
     {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "from": "2026-03-01", "to": "2026-09-30"},
@@ -20,8 +19,16 @@
   "special_openings": [],
   "exhibitions": [],
   "adult_price": 800,
-  "access": [],
-  "highlights": null,
+  "access": [
+    {
+      "station": "清里",
+      "lines": "JR小海線",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    }
+  ],
+  "highlights": "マイセンを中心に、セーブル・ロイヤルコペンハーゲンなど16世紀から現代にわたるヨーロッパ磁器コレクションを展示する美術館。個人コレクターが30年以上かけて収集した名品が並ぶ。1階から2階への吹き抜けを飾るステンドグラスも必見。JR清里駅から徒歩5分。",
   "closed_between_exhibitions": false,
   "notes": "公式サイト（www.meissen-kpm.jp）は2010年更新のフレーム構成の古いサイトで、HTTPS証明書が別ドメイン向けのため接続不可、HTTPでも本文はナビ画像のみでテキスト情報が取得できず、開館時間・観覧料などの一次情報として使えなかった。そのため信頼できる美術情報サイト（インターネットミュージアム museum.or.jp）を根拠に confidence: medium とした。museum.or.jp の休館日表記は「10月～4月の火曜日（祝日の場合その翌日）」で、3月～9月は定休日なしとも読める（＝夏期は無休の可能性）。schema の closed_weekdays は季節指定ができないため、ここでは通年 tue 休館として登録した（実際は3-9月は無休の可能性があり要再確認）。営業時間の季節切り替え月はサイトにより「4-10月/11-3月」「3-9月/10-4月」で表記に揺れがあり、museum.or.jp の記載を採用した。アクセス・展覧会情報は確認できなかった。閉館情報は見当たらないため operating とした。次回巡回で公式サイトの生存確認と、夏期の休館日・アクセス情報の追加確認が必要。",
   "confidence": "medium"

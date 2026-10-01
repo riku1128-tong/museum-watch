@@ -1,0 +1,51 @@
+{
+  "id": "Q11526757",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.nakatsugawa.lg.jp/museum/k/",
+  "address": "〒508-0501 岐阜県中津川市山口1-15",
+  "source_urls": [
+    "https://www.city.nakatsugawa.lg.jp/museum/k/",
+    "https://www.city.nakatsugawa.lg.jp/museum/k/info/index.html",
+    "https://www.city.nakatsugawa.lg.jp/museum/k/exhibits/index.html",
+    "https://www.city.nakatsugawa.lg.jp/museum/k/exhibits/2026_3.html",
+    "https://www.city.nakatsugawa.lg.jp/museum/k/about/index.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["wed"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-27", "to": "2027-01-05", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "2026年度第Ⅲ期展「白馬―心の風景」",
+      "start": "2026-09-10",
+      "end": "2026-12-22",
+      "url": "https://www.city.nakatsugawa.lg.jp/museum/k/exhibits/2026_3.html",
+      "kind": "collection",
+      "summary": "唐招提寺障壁画の構想中に魁夷の心に現れた白馬をテーマとした「白い馬の見える風景」連作を紹介",
+      "recommend": "画伯が「心の祈り」と呼んだ静謐な風景の中に白馬が浮かぶ連作群。北欧や京都の情景と重なる独自の精神世界を、木曽路の静かな館でじっくり鑑賞できる",
+      "admission": "一般 330円",
+      "adult_price": 330
+    }
+  ],
+  "adult_price": 330,
+  "access": [
+    {
+      "station": "中津川",
+      "lines": "JR中央本線",
+      "walk_min": null,
+      "note": "中津川駅からタクシーで約20分。国道19号線沿いの「道の駅 賤母」敷地内。中津川ICから車で約25分"
+    }
+  ],
+  "highlights": "日本を代表する風景画家・東山魁夷画伯が山口村（現中津川市）に寄贈したリトグラフや木版画などの版画作品を常設展示する館。「描くことは祈ることである」を信条とした画伯の芸術世界を、木曽路の入り口「道の駅 賤母」敷地内の静かな空間でじっくりと味わえる。",
+  "closed_between_exhibitions": false,
+  "notes": "水曜休館（水曜が祝日の場合は開館し翌平日休館）。年末年始12/27〜1/5休館。展示室は「旧・山口村との関わりを軸に東山魁夷を紹介するコーナー」と「作品（おもにリトグラフ）展示コーナー」で構成。年数回の展示替えあり。第Ⅲ期展終了後（12/22以降）の次期展示の詳細は未確認。",
+  "confidence": "high"
+}

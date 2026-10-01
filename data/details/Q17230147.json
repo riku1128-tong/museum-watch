@@ -1,6 +1,6 @@
 {
   "id": "Q17230147",
-  "checked_at": "2026-09-28T23:30:00+09:00",
+  "checked_at": "2026-09-30T09:00:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,7 +11,7 @@
     "https://www.museum.or.jp/museum/17611"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:40"}
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:30", "last_entry": "17:10"}
   ],
   "closed_weekdays": [],
   "holiday_rule": "unknown",
@@ -21,13 +21,13 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "織部十作",
+      "title": "織部十作 ―古田織部と十人の陶工たち―",
       "start": "2026-09-17",
       "end": "2027-03-07",
       "url": "http://furutaoribe-museum.com/exhibition.html",
       "kind": "special",
-      "summary": null,
-      "recommend": null,
+      "summary": "古田織部が指導した十人の陶工たちの作品と織部ゆかりの品を紹介する企画展",
+      "recommend": "戦国の武将・古田織部が傾倒した茶の湯文化と、彼が育てた十人の陶工それぞれの個性を作品で比較できる貴重な機会。「織部好み」と呼ばれる独特の美意識の源泉に迫る。",
       "admission": "一般 500円",
       "adult_price": 500
     }
@@ -38,8 +38,8 @@
   "access": [
     {"station": "北山", "lines": "京都市営地下鉄烏丸線", "exit": "4番出口", "walk_min": 3, "note": null}
   ],
-  "highlights": null,
+  "highlights": "戦国時代の武将・茶人、古田織部（1544〜1615）を専門に扱う日本唯一の美術館。地下1階の小ぶりな空間に、織部ゆかりの茶道具・陶芸品・古文書を収蔵・展示。「織部好み」と称される大胆な造形美の世界を、北山の地で体感できる。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（furutaoribe-museum.com）はツールの証明書エラーで直接読めず、WebSearch とインターネットミュージアム（museum.or.jp）の情報で補った。定休日は「展示替期間・年末年始」とのみ案内され、毎週の定休曜日の記載が見当たらないため closed_weekdays は空、holiday_rule も判断材料がなく unknown にした。開館時間は情報源により「9:30〜17:00」「9:30〜17:30」の表記ゆれがあり、入館締切（16:40）付きの museum.or.jp の情報を採用した。",
+  "notes": "公式サイト（furutaoribe-museum.com）はSSL証明書エラーで直接読めず、WebSearch とインターネットミュージアム（museum.or.jp）の情報で補った。定休日は「展示替期間・年末年始」とのみ案内され、毎週の定休曜日の記載が見当たらないため closed_weekdays は空、holiday_rule も判断材料がなく unknown にした。museum.or.jp では閉館時間を17:30と記載しており、旧JSONの17:00から修正した（最終入館は17:10として計算）。",
   "confidence": "medium"
 }

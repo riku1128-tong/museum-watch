@@ -1,6 +1,6 @@
 {
   "id": "wp-acd8e196",
-  "checked_at": "2026-09-29T23:45:00+09:00",
+  "checked_at": "2026-09-30T10:00:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,7 +8,8 @@
   "address": "〒379-0201 群馬県富岡市妙義町妙義1-5",
   "source_urls": [
     "https://gunma-kanko.jp/spots/449",
-    "https://artscape.jp/museum/1552/"
+    "https://artscape.jp/museum/1552/",
+    "https://art.xtone.jp/museum/archives/myogi-furusato.html"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
@@ -28,11 +29,11 @@
       "kind": "collection",
       "summary": "通年。妙義山を描く絵画展の大賞・優秀作品を常時展示。3階は360度パノラマ展示写生ホール",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 300円",
+      "adult_price": 300
     }
   ],
-  "adult_price": null,
+  "adult_price": 300,
   "free_days": [],
   "free_rules": [],
   "access": [
@@ -40,6 +41,6 @@
   ],
   "highlights": "妙義山を一望する景勝地に立つ小規模美術館。3階の360度パノラマ展示写生ホールから妙義山の絶景を楽しめる。毎年開催の「妙義山を描く絵画展」入賞作品を常設展示し、地域の自然と芸術が結びついた独自の鑑賞体験を提供する。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイトのURLが不明（旧URL404）。群馬の観光サイト・artscapeより情報取得。館の正式名は「富岡市立妙義ふるさと美術館」の可能性あり。入館料・詳細展覧会情報は要確認。",
+  "notes": "公式サイトのURLが不明（旧URL404・art.xtone.jp掲載URLも要確認）。群馬の観光サイト・artscape・art.xtone.jpより情報取得。館の正式名は「富岡市立妙義ふるさと美術館」の可能性あり。入館料は art.xtone.jp 記載の「一般300円」。詳細展覧会情報は公式で確認できず（常設の絵画展のみ記載）。",
   "confidence": "medium"
 }

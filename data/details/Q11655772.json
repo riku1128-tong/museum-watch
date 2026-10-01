@@ -1,0 +1,26 @@
+{
+  "id": "Q11655772",
+  "checked_at": "2026-09-30T09:03:00+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "令和6年3月31日（2024年3月31日）に閉館。篠田桃紅の作品は岐阜現代美術館（リニューアル後）で鑑賞可能。",
+  "official_url": "https://www.city.seki.lg.jp/kanko/0000019951.html",
+  "address": "岐阜県関市（関市役所7階）",
+  "source_urls": [
+    "https://www.city.seki.lg.jp/kanko/0000019951.html"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "関市役所7階に設置されていたが、令和6年3月31日に閉館。篠田桃紅（1913-2021）の作品は岐阜現代美術館（tel: 0575-23-1210）でリニューアル後に鑑賞可能とのこと。元の公式URL（https://www.city.seki.lg.jp/0000000059.html）は404。",
+  "confidence": "high"
+}

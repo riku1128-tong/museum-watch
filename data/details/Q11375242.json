@@ -1,6 +1,6 @@
 {
   "id": "Q11375242",
-  "checked_at": "2026-09-29T23:24:28+09:00",
+  "checked_at": "2026-09-30T09:13:42+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": "2026-09-24〜10-14は展示替えのため臨時休館中（10/15より特別企画展IIで再開予定）",
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://insho-domoto.com/",
     "https://insho-domoto.com/information/",
-    "https://insho-domoto.com/access/"
+    "https://insho-domoto.com/access/",
+    "https://insho-domoto.com/exhibitions/3041/"
   ],
   "regular_hours": [
     {
@@ -50,9 +51,10 @@
       "title": "〈開館60周年記念〉特別企画展II モデルになったミューズたち",
       "start": "2026-10-15",
       "end": "2026-12-20",
-      "url": "https://insho-domoto.com/",
+      "url": "https://insho-domoto.com/exhibitions/3041/",
       "kind": "special",
       "summary": "堂本印象が描いた女性像をテーマに、初公開作品も交えて紹介する開館60周年記念の特別展",
+      "recommend": "学生時代の花街の女性像から晩年の前衛的な表現まで、印象の60年にわたる女性描写の変遷を一堂に。初公開作品も含む規模展で、ミューズという視点から印象芸術の真髄に迫る。ギャラリートークや山のアトリエ限定公開も。",
       "admission": "一般 600円",
       "adult_price": 600
     }

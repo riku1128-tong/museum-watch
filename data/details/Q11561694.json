@@ -1,6 +1,6 @@
 {
   "id": "Q11561694",
-  "checked_at": "2026-09-28T23:58:00+09:00",
+  "checked_at": "2026-09-30T09:05:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,6 +8,7 @@
   "address": "〒150-0046 東京都渋谷区松濤2-14-14",
   "source_urls": [
     "https://shoto-museum.jp/",
+    "https://shoto-museum.jp/about/",
     "https://shoto-museum.jp/visit/",
     "https://shoto-museum.jp/access/",
     "https://shoto-museum.jp/exhibitions/213rojo/",
@@ -35,7 +36,9 @@
       "url": "https://shoto-museum.jp/exhibitions/213rojo/",
       "kind": "special",
       "summary": "路上観察学会40周年を契機に「路上」をキーワードに現代美術から歴史資料まで紹介",
-      "admission": "一般 1,000円"
+      "recommend": "今年発足40周年を迎えた路上観察学会の活動を起点に、「路上」をめぐる現代美術・歴史資料を幅広く紹介。赤瀬川原平らが見出した日常の中の発見の喜びを体験でき、普段歩く街が全く新鮮に見えてくる展覧会。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
     },
     {
       "title": "舟越直木 見えないものに形をあたえる―舟越家から生まれたもうひとりの異才―",
@@ -44,7 +47,9 @@
       "url": "https://shoto-museum.jp/exhibitions/214naoki/",
       "kind": "special",
       "summary": "没後10年、舟越直木の平面作品・抽象彫刻・ドローイングを初期から最晩年まで紹介",
-      "admission": "一般 1,000円"
+      "recommend": "彫刻家・舟越桂の父、舟越直木の没後10年回顧展。平面・抽象彫刻・ドローイングを通じて「見えないもの」に形を与え続けた独創的な世界を体感できる。父と息子の二人の異才を持つ舟越家の芸術的背景にも触れられる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
     }
   ],
   "closed_between_exhibitions": true,
@@ -53,6 +58,7 @@
     {"station": "神泉", "lines": "京王井の頭線", "exit": null, "walk_min": 5, "note": null},
     {"station": "渋谷", "lines": "JR・東急電鉄・東京メトロ", "exit": null, "walk_min": 15, "note": null}
   ],
+  "highlights": "哲学的な建築家・白井晟一が1981年に手がけた代表作。地上2階・地下2階の構成で中央の吹き抜けから採光する独特な空間が特徴。渋谷・松濤の閑静な住宅街に立ち、現代美術から歴史的企画展まで幅広い展覧会を開催する区立美術館。",
   "notes": "休館日は「毎週月曜日（祝日又は休日に当たる場合は開館）」「祝日又は休日の翌日（土・日曜日に当たる場合は開館）」「展示替期間、年末年始（12月29日～1月3日）」。祝日翌日の休館はスキーマで表せないため、展覧会ページに明記された日付（9/24・10/13・11/4・1/12）を special_closures に入れた。開館時間は特別展期間中のもの（金曜のみ20時まで）。公募展・サロン展期間中は 9:00～17:00。常設展なし。一般観覧料は展覧会ごと（各1,000円）で館共通の入館料は無いため adult_price は null。",
   "confidence": "high"
 }

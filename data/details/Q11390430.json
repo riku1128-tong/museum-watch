@@ -1,0 +1,74 @@
+{
+  "id": "Q11390430",
+  "checked_at": "2026-09-30T09:25:27+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://yatsubi.com/",
+  "address": "〒391-0115 長野県諏訪郡原村17217-1611",
+  "source_urls": [
+    "https://yatsubi.com/",
+    "https://yatsubi.com/guide/",
+    "https://yatsubi.com/about/",
+    "https://yatsubi.com/access/",
+    "https://yatsubi.com/collection/",
+    "https://yatsubi.com/exhibition/article.php?post_id=4161"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-07", "to": "2026-12-11", "reason": "展示替え休館"},
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休業"},
+    {"from": "2027-02-22", "to": "2027-03-14", "reason": "資料整理休館"},
+    {"from": "2027-03-15", "to": "2027-03-19", "reason": "展示替え休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "松本春崇 『縄文ポトラッチー つないで結ぶ八ヶ岳美術館』",
+      "start": "2026-09-19",
+      "end": "2026-12-06",
+      "url": "https://yatsubi.com/exhibition/article.php?post_id=4161",
+      "kind": "special",
+      "summary": "土器・土偶をモチーフにした絵画・彫刻・映像作品を展示。原村の子どもたちと縄で館を縛る大型インスタレーションも",
+      "recommend": "縄文文化を「超縄文時代」と捉え直す松本春崇が、子どもたちと協働した縄で館を縛る大型インスタレーションと土偶モチーフの絵画・彫刻・映像を展示。スケール感と参加の痕跡が見どころ。",
+      "admission": "大人（高校生以上）510円",
+      "adult_price": 510
+    },
+    {
+      "title": "清水多嘉示コレクション常設展示",
+      "start": "2026-01-01",
+      "end": "2027-09-30",
+      "url": "https://yatsubi.com/collection/",
+      "kind": "collection",
+      "summary": "通年。原村出身の彫刻家・清水多嘉示の彫刻・絵画・デッサンを中心に、書家・津金寉仙の書や縄文土器など原村ゆかりの作品を展示",
+      "recommend": null,
+      "admission": "大人（高校生以上）510円",
+      "adult_price": 510
+    }
+  ],
+  "adult_price": 510,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "茅野",
+      "lines": "JR中央本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "土日祝は「はらバス」が八ヶ岳美術館まで直通。富士見駅からタクシー約15分。車は中央道諏訪南ICから約7km"
+    }
+  ],
+  "highlights": "村野藤吾設計の連続ドーム型建築が特徴的な原村立美術館。標高1350mの八ヶ岳山麓に位置し、原村出身の彫刻家・清水多嘉示のコレクションを核に、館周囲の散策路では屋外彫刻と四季の山野草を楽しめる高原のアートスポット。",
+  "closed_between_exhibitions": false,
+  "notes": "入館料は大人（高校生以上）510円・小人（小中学生）250円（団体割引あり）。2026年度休館予定：展示替え6/29-7/3・9/14-9/18（終了）・12/7-12/11、年末年始12/29-1/3、資料整理2027/2/22-3/14、展示替え2027/3/15-3/19。土日祝は「はらバス」が第一ペンションビレッジ／八ヶ岳美術館まで運行。1980年開館（原村立）。",
+  "confidence": "high"
+}

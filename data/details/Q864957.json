@@ -1,6 +1,6 @@
 {
   "id": "Q864957",
-  "checked_at": "2026-09-29T23:23:30+09:00",
+  "checked_at": "2026-09-30T09:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -13,7 +13,6 @@
     "https://www.tobikan.jp/exhibition/2026_britishmuseum.html",
     "https://www.tobikan.jp/information/index.html",
     "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607",
-    "https://www.tobikan.jp/outline/architecture2.html",
     "https://www.tobikan.jp/information/20260918_1.html"
   ],
   "regular_hours": [
@@ -202,7 +201,7 @@
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "定休日は第1・第3月曜（祝日・振替休日の場合は翌平日）。特別展・企画展は毎週月曜休室（祝日は開室、翌平日休室）、会期中の金曜は20:00まで。2026-09-18付お知らせにて「大英博物館日本美術コレクション 百花繚乱」の開室時間が9月29日（火）〜10月18日（日）の期間、混雑緩和のため9:15に変更（tobikan.jp/information/20260918_1.html）。常設のコレクションを持たず観覧料は展覧会ごとに異なるため adult_price は null。",
+  "notes": "定休日は第1・第3月曜（祝日・振替休日の場合は翌平日）。特別展・企画展は毎週月曜休室（祝日は開室、翌平日休室）、会期中の金曜は20:00まで。2026-09-18付お知らせにて「大英博物館日本美術コレクション 百花繚乱」の開室時間が9月29日（火）〜10月18日（日）の期間、混雑緩和のため9:15に変更。常設のコレクションを持たず観覧料は展覧会ごとに異なるため adult_price は null。",
   "confidence": "medium",
   "adult_price": null,
   "access": [

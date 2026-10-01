@@ -1,6 +1,6 @@
 {
   "id": "Q11557851",
-  "checked_at": "2026-09-29T23:22:37+09:00",
+  "checked_at": "2026-09-30T09:08:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -39,7 +39,7 @@
     {"station": "浜松", "lines": "JR東海道本線・東海道新幹線ほか", "exit": "北口", "walk_min": null, "note": "浜松駅北口（遠鉄バス）バスターミナル1番乗り場から約8分「美術館」下車"}
   ],
   "highlights": "浜松城公園に隣接する浜松市の美術館。浜松・遠州地方ゆかりの近現代美術を中心に収蔵し、絵画・版画・彫刻・工芸など多彩なジャンルを網羅。毎週水曜日・日曜日は作品についての会話が弾む「トークフリーデー」を設けている。",
-  "closed_between_exhibitions": false,
+  "closed_between_exhibitions": true,
   "notes": "月曜休館（祝日の場合は開館し翌日休館）。年末年始・展示替え期間も休館。現在（9/29）は8/30終了の現代アート展と10/10開始のみほとけ展の間で展示替え休館中。常設展はなく企画展ごとの料金（adult_price: null）。バスでのアクセスが主な行き方（最寄り停留所「美術館」）。",
   "confidence": "high"
 }

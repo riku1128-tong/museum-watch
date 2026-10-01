@@ -1,0 +1,96 @@
+{
+  "id": "Q469573",
+  "checked_at": "2026-09-30T09:01:14+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://art-museum.city.nagoya.jp/",
+  "address": "〒460-0008 愛知県名古屋市中区栄二丁目17番25号（芸術と科学の杜・白川公園内）",
+  "source_urls": [
+    "https://art-museum.city.nagoya.jp/",
+    "https://art-museum.city.nagoya.jp/guide/calendar/",
+    "https://art-museum.city.nagoya.jp/guide/%e5%85%a5%e9%a4%a8%e6%96%99%e3%83%bb%e6%b8%9b%e5%85%8d/",
+    "https://art-museum.city.nagoya.jp/exhibitions/",
+    "https://art-museum.city.nagoya.jp/exhibitions/post/van_gogh_and_the_impressionists/",
+    "https://art-museum.city.nagoya.jp/collection/feature/",
+    "https://art-museum.city.nagoya.jp/access/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "sat", "sun"], "open": "09:30", "close": "17:00", "last_entry": "16:30"},
+    {"days": ["fri"], "open": "09:30", "close": "20:00", "last_entry": "19:30"},
+    {"days": ["holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-11-30", "to": "2026-12-09", "reason": "展示替期間"},
+    {"from": "2026-12-29", "to": "2027-01-02", "reason": "年末年始"},
+    {"from": "2027-01-23", "to": "2027-02-05", "reason": "展示替期間"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "ゴッホの跳ね橋と印象派の画家たち　ヴァルラフ＝リヒャルツ美術館所蔵",
+      "start": "2026-09-19",
+      "end": "2026-11-29",
+      "url": "https://art-museum.city.nagoya.jp/exhibitions/post/van_gogh_and_the_impressionists/",
+      "kind": "special",
+      "summary": "ドイツ・ケルンのヴァルラフ＝リヒャルツ美術館から、バルビゾン派〜ポスト印象派の傑作約70点が来日",
+      "recommend": "ドイツ屈指の美術館が誇る印象派コレクションの精華が一堂に。ゴッホ・モネ・ルノワール・ゴーガンら約70点から、近代絵画の革新の流れを体感できる充実の構成。",
+      "admission": "一般 1,900円",
+      "adult_price": 1900
+    },
+    {
+      "title": "常設展　名品コレクション展Ⅱ（後期）",
+      "start": "2026-09-19",
+      "end": "2026-11-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "エコール・ド・パリ・メキシコ・ルネサンス・郷土の美術など4分野の名品を展示",
+      "recommend": null,
+      "admission": "一般 450円（10月1日以降）",
+      "adult_price": 450
+    },
+    {
+      "title": "特集＜郷土の洋画家シリーズⅡ＞愛美社の画家・水野正一を中心に",
+      "start": "2026-09-19",
+      "end": "2026-11-29",
+      "url": "https://art-museum.city.nagoya.jp/exhibitions/post/%e7%89%b9%e9%9b%86%ef%bc%9c%e9%83%b7%e5%9c%9f%e3%81%ae%e6%b4%8b%e7%94%bb%e5%ae%b6%e3%82%b7%e3%83%aa%e3%83%bc%e3%82%ba%e2%85%b1%ef%bc%9e%e6%84%9b%e7%be%8e%e7%a4%be%e3%81%ae%e7%94%bb%e5%ae%b6%e3%83%bb/",
+      "kind": "special",
+      "summary": "愛知・伊勢湾文化圏の洋画家・水野正一ら愛美社の作家の業績を紹介",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 450,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "伏見",
+      "lines": "名古屋市営地下鉄東山線・鶴舞線",
+      "exit": "5番",
+      "walk_min": 8,
+      "note": null
+    },
+    {
+      "station": "大須観音",
+      "lines": "名古屋市営地下鉄鶴舞線",
+      "exit": "2番",
+      "walk_min": 7,
+      "note": null
+    },
+    {
+      "station": "矢場町",
+      "lines": "名古屋市営地下鉄名城線",
+      "exit": "4番",
+      "walk_min": 10,
+      "note": null
+    }
+  ],
+  "highlights": "白川公園内に立つ名古屋市立美術館。フリーダ・カーロやリベラを擁するメキシコ・ルネサンス、モディリアーニ・シャガール・藤田嗣治のエコール・ド・パリ、前田青邨ら郷土の美術という4分野に強みを持つ。常設展と大型特別展を年間通じて開催する。",
+  "closed_between_exhibitions": false,
+  "notes": "公式URL は http://www.art-museum.city.nagoya.jp/ が旧 URL で、https://art-museum.city.nagoya.jp/ に移行済みのため官設 URL を更新。金曜日は祝休日を除き 20:00 まで延長。常設展入館料は 2026年9月30日まで 300 円、10月1日より 450 円に改定。月曜が祝日の場合は開館し翌平日休館。展示替期間: 11/30-12/9、2027/1/23-2/5。年末年始: 12/29-1/2。",
+  "confidence": "high"
+}

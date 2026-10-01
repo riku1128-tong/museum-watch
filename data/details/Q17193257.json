@@ -1,6 +1,6 @@
 {
   "id": "Q17193257",
-  "checked_at": "2026-09-29T23:40:00+09:00",
+  "checked_at": "2026-09-30T09:25:27+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -12,7 +12,7 @@
     "https://lsm-ichihara.jp/information/fee/",
     "https://lsm-ichihara.jp/access/",
     "https://lsm-ichihara.jp/exhibition/",
-    "https://lsm-ichihara.jp/collection/now/",
+    "https://lsm-ichihara.jp/collection/2026_02-03/",
     "https://lsm-ichihara.jp/exhibition/tatsuokawaguchi/"
   ],
   "regular_hours": [
@@ -37,18 +37,18 @@
       "adult_price": 1000
     },
     {
-      "title": "深沢幸雄と文学の世界",
+      "title": "2026年度第2.3回深沢幸雄と文学の世界",
       "start": "2026-10-10",
       "end": "2027-02-07",
-      "url": "https://lsm-ichihara.jp/collection/now/",
+      "url": "https://lsm-ichihara.jp/collection/2026_02-03/",
       "kind": "collection",
-      "summary": "市原市にアトリエを構えた銅版画家・深沢幸雄の、文学にちなむ作品を紹介する常設コレクション展示",
+      "summary": "銅版画家・深沢幸雄の文学にちなむ作品を紹介。ポー・萩原朔太郎・宮沢賢治・ダンテらに着想した銅版画を展示",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 200円",
+      "adult_price": 200
     }
   ],
-  "adult_price": null,
+  "adult_price": 200,
   "free_days": [],
   "free_rules": [],
   "access": [

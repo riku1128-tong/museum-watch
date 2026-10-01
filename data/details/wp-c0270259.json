@@ -1,0 +1,68 @@
+{
+  "id": "wp-c0270259",
+  "checked_at": "2026-09-30T09:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.culture-suzaka.or.jp/hanga/",
+  "address": "〒382-0913 長野県須坂市大字野辺1386-8（須坂アートパーク内）",
+  "source_urls": [
+    "https://www.culture-suzaka.or.jp/hanga/",
+    "https://www.culture-suzaka.or.jp/hanga/information/index.html",
+    "https://www.culture-suzaka.or.jp/hanga/exhibition/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["wed"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "生誕100年記念 吉田穂高展",
+      "start": "2026-09-14",
+      "end": "2026-10-18",
+      "url": "https://www.culture-suzaka.or.jp/hanga/exhibition/",
+      "kind": "special",
+      "summary": "版画家・吉田穂高の生誕100年を記念した回顧展（展示室1）",
+      "recommend": "木版画・銅版画・石版画を手がけた多才な版画家・吉田穂高の生誕100年を記念した展覧会。繊細な線と独自の色彩が光る代表作を通じて、その画業をたどることができる。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "抽象画展",
+      "start": "2026-09-14",
+      "end": "2026-10-18",
+      "url": "https://www.culture-suzaka.or.jp/hanga/exhibition/",
+      "kind": "special",
+      "summary": "抽象画作品による企画展（展示室2）",
+      "recommend": null,
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "須坂",
+      "lines": "長野電鉄長野線",
+      "exit": null,
+      "walk_min": null,
+      "note": "須坂駅からタクシー約7分、またはバス（仙仁線S全便「アートパーク入口」下車、約14分）"
+    }
+  ],
+  "highlights": "長野県須坂市のアートパーク内にある版画専門美術館。創作版画と同人誌コレクションを寄贈した版画家・小林朝治を記念し1991年に開館。隣接する平塚運一版画美術館では版画芸術の普及に尽力した版画家・平塚運一の木口木版画を常設展示し、二つの施設で版画の幅広い表現世界を楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "水曜が祝日の場合は翌日休館。入館料は2026年4月1日より300円から500円に改定。須坂アートパーク内にあり、岡信孝コレクション 須坂クラシック美術館も隣接。無料駐車場あり（普通車約30台）。",
+  "confidence": "high"
+}

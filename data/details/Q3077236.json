@@ -1,0 +1,105 @@
+{
+  "id": "Q3077236",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.tokugawa-art-museum.jp/",
+  "address": "〒461-0023 愛知県名古屋市東区德川町1017",
+  "source_urls": [
+    "https://www.tokugawa-art-museum.jp/",
+    "https://www.tokugawa-art-museum.jp/visit/",
+    "https://www.tokugawa-art-museum.jp/news/",
+    "https://www.tokugawa-art-museum.jp/exhibitions/",
+    "https://www.tokugawa-art-museum.jp/exhibitions/genji2026/",
+    "https://www.tokugawa-art-museum.jp/exhibitions/tokimekuhako/",
+    "https://www.tokugawa-art-museum.jp/exhibitions/tabi/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-14",
+      "to": "2027-01-04",
+      "reason": "展示替え・年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "菊白露蒔絵婚礼調度（新指定重要文化財）特別公開",
+      "start": "2026-09-15",
+      "end": "2026-11-13",
+      "url": null,
+      "kind": "collection",
+      "summary": "新たに重要文化財に指定された「菊白露蒔絵婚礼調度」を特別公開するコレクション展示",
+      "recommend": null,
+      "admission": "一般2,000円",
+      "adult_price": 2000
+    },
+    {
+      "title": "ときめく箱",
+      "start": "2026-10-08",
+      "end": "2026-11-15",
+      "url": "https://www.tokugawa-art-museum.jp/exhibitions/tokimekuhako/",
+      "kind": "special",
+      "summary": "古代から現代に至る箱の美学と機能を紹介。青磁香炉「千鳥」・重要文化財「黒樂茶碗 時雨」など名品を展示",
+      "recommend": "「玉手箱」「箱入り娘」など日本人に馴染み深い箱をテーマに、装飾・意匠・箱書きを通じて時代を越えたメッセージを読み解く。初公開の「唐物丸壺茶入 銘 唐丸壺」も見どころ。",
+      "admission": "一般2,000円",
+      "adult_price": 2000
+    },
+    {
+      "title": "旅する侯爵 徳川義親",
+      "start": "2026-10-08",
+      "end": "2026-12-13",
+      "url": "https://www.tokugawa-art-museum.jp/exhibitions/tabi/",
+      "kind": "special",
+      "summary": "尾張徳川家19代当主・義親の生誕140年・没後50年記念展。北海道・東南アジア・欧州旅行での蒐集品と古写真で足跡を辿る",
+      "recommend": "知的探求心旺盛な義親が東南アジアやヨーロッパで集めた美術品・郷土玩具を通じ、近代の大名がたどった文化への眼差しを追体験できる。古写真とともに蒐集品が並ぶ稀有な企画。",
+      "admission": "一般2,000円",
+      "adult_price": 2000
+    },
+    {
+      "title": "国宝　源氏物語絵巻　横笛・宿木（二）【特別公開】",
+      "start": "2026-11-14",
+      "end": "2026-11-29",
+      "url": "https://www.tokugawa-art-museum.jp/exhibitions/genji2026/",
+      "kind": "special",
+      "summary": "現存最古の物語絵巻「源氏物語絵巻」から第37帖「横笛」・第49帖「宿木（二）」を毎年恒例の特別公開",
+      "recommend": "昭和に額装から巻子装に戻された絵巻本来の姿で鑑賞できる貴重な機会。千年前の王朝文化の雅さを伝える国宝絵巻の原本が、わずか2週間だけ公開される年に一度の展示。",
+      "admission": "一般2,000円",
+      "adult_price": 2000
+    }
+  ],
+  "adult_price": 2000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "大曽根",
+      "lines": "JR中央本線",
+      "exit": "南口",
+      "walk_min": 10,
+      "note": null
+    },
+    {
+      "station": "大曽根",
+      "lines": "名古屋市営地下鉄名城線",
+      "exit": "E5",
+      "walk_min": 15,
+      "note": null
+    }
+  ],
+  "highlights": "徳川家康の9男・義直から受け継ぐ尾張徳川家の至宝を収蔵する名古屋の美術館。国宝9件（「源氏物語絵巻」「初音の調度」など）・重要文化財60件を含む1万件超のコレクションを誇り、刀剣・甲冑・能装束・茶道具など武家文化の精華が一堂に揃う。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜（祝日・振替休日の場合は直後の平日）休館。2026年12月14日〜2027年1月4日は展示替え・年末年始の長期休館。徳川美術館・蓬左文庫の共通入館料は一般2,000円。名品コレクション展示は常時開催。",
+  "confidence": "high"
+}

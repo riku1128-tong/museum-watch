@@ -1,6 +1,6 @@
 {
   "id": "Q11404775",
-  "checked_at": "2026-09-29T23:01:20+09:00",
+  "checked_at": "2026-09-30T09:28:58+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -28,8 +28,20 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
-  "adult_price": 300,
+  "exhibitions": [
+    {
+      "title": "閑谷学校資料館 常設展示",
+      "start": "2026-09-30",
+      "end": "2027-09-30",
+      "url": "https://shizutani.jp/",
+      "kind": "collection",
+      "summary": "通年。特別史跡旧閑谷学校の歴史資料を展示。江戸時代の創建から明治・昭和期の閑谷黌・旧制閑谷中学校の変遷を資料・文書で紹介",
+      "recommend": null,
+      "admission": "大人 450円（旧閑谷学校入場料に含む）",
+      "adult_price": 450
+    }
+  ],
+  "adult_price": 450,
   "free_days": [],
   "free_rules": [],
   "access": [
@@ -42,6 +54,6 @@
   ],
   "highlights": "江戸時代の庶民教育のために岡山藩主・池田光政が創建した特別史跡・旧閑谷学校内の資料館。明治38年建築の洋風木造校舎（国登録有形文化財）で歴史資料を展示。明治〜昭和期の閑谷黌・旧制閑谷中学校の変遷を紹介。紅葉の名所としても知られる。",
   "closed_between_exhibitions": false,
-  "notes": "特別史跡旧閑谷学校（入場料込み）の施設。Wikipedia記載名は「和気閑谷高校閑谷歴史館」だが、実際には旧閑谷学校敷地内の閑谷学校資料館として運営。65歳以上120円。",
+  "notes": "特別史跡旧閑谷学校（入場料込み）の施設。Wikipedia記載名は「和気閑谷高校閑谷歴史館」だが、実際には旧閑谷学校敷地内の閑谷学校資料館として運営。入館料は2026年現在大人450円・小中学生100円（shizutani.jp/entrance で確認）。65歳以上230円。",
   "confidence": "medium"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q11603353",
-  "checked_at": "2026-09-28T23:28:17+09:00",
+  "checked_at": "2026-09-30T09:13:11+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -27,9 +27,12 @@
       "url": "https://www.lalique-museum.com/",
       "kind": "special",
       "summary": "ルネ・ラリック作品から日仏の「かわいい」文化交流をたどる企画展",
-      "admission": "大人 1,500円"
+      "recommend": "アール・ヌーヴォーとアール・デコの巨匠ラリックの眼を通して、日本とフランスの美意識の共鳴を読み解く企画展。香水瓶やガラス装飾品など珠玉の作品群から「かわいい」の原点をたどれる。",
+      "admission": "大人 1,500円",
+      "adult_price": 1500
     }
   ],
+  "adult_price": 1500,
   "closed_between_exhibitions": false,
   "access": [
     {"station": "箱根湯本", "lines": "箱根登山バス T路線", "note": "箱根湯本駅から約25分「仙石案内所前」下車徒歩4分。小田急ハイウェイバス「箱根仙石案内所」、観光施設めぐりバス「箱根ラリック美術館」停留所も利用可"}

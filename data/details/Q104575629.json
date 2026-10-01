@@ -1,0 +1,26 @@
+{
+  "id": "Q104575629",
+  "checked_at": "2026-09-30T09:00:43+09:00",
+  "check_mode": "full",
+  "operating_status": "permanently_closed",
+  "status_note": "2026年7月4日をもって閉館",
+  "official_url": "https://corp.shiseido.com/art-house/jp/",
+  "address": null,
+  "source_urls": [
+    "https://corp.shiseido.com/art-house/jp/"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトに「資生堂アートハウスは2026年7月4日をもって閉館しました。40年以上にわたってご愛顧いただきまことにありがとうございました。」と掲載。",
+  "confidence": "high"
+}

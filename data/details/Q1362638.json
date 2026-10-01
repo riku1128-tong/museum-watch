@@ -1,6 +1,6 @@
 {
   "id": "Q1362638",
-  "checked_at": "2026-09-28T23:30:00+09:00",
+  "checked_at": "2026-09-30T09:05:04+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,9 +8,7 @@
   "address": "〒106-8558 東京都港区六本木7-22-2",
   "source_urls": [
     "https://www.nact.jp/",
-    "https://www.nact.jp/information/inquiry/",
-    "https://www.nact.jp/calendar/",
-    "https://www.nact.jp/common/json/opening_date.json",
+    "https://www.nact.jp/exhibition_public/",
     "https://www.nact.jp/exhibition_special/2026/louvre2026/",
     "https://www.nact.jp/exhibition_special/2026/shojomanga/",
     "https://www.nact.jp/information/access/",
@@ -27,7 +25,6 @@
     {"from": "2026-12-28", "to": "2027-01-05", "reason": "年末年始"}
   ],
   "special_openings": [
-    {"date": "2026-09-24", "open": "10:00", "close": "18:00", "note": "9/22（国民の休日）開館の振替休館なし（公式カレンダーで開館）"},
     {"date": "2026-12-08", "open": "10:00", "close": "20:00", "note": "火曜だが開館（公式カレンダー・展覧会ページの記載）"}
   ],
   "exhibitions": [
@@ -42,26 +39,6 @@
       "adult_price": 2400
     },
     {
-      "title": "第89回　新制作展",
-      "start": "2026-09-16",
-      "end": "2026-09-28",
-      "url": "https://www.shinseisaku.net/wp/",
-      "kind": "other",
-      "summary": "新制作協会による公募展",
-      "admission": null,
-      "adult_price": null
-    },
-    {
-      "title": "第81回　行動展",
-      "start": "2026-09-16",
-      "end": "2026-09-28",
-      "url": "https://www.kodo-bijutsu.jp/",
-      "kind": "other",
-      "summary": "行動美術協会による公募展",
-      "admission": null,
-      "adult_price": null
-    },
-    {
       "title": "少女漫画・インフィニティ　萩尾望都×山岸凉子×大和和紀 三人展",
       "start": "2026-10-28",
       "end": "2027-02-08",
@@ -70,6 +47,86 @@
       "summary": "萩尾望都・山岸凉子・大和和紀の約60年の創作を原画800点以上で紹介",
       "admission": "一般 2,200円",
       "adult_price": 2200
+    },
+    {
+      "title": "第60回記念　一期展",
+      "start": "2026-09-30",
+      "end": "2026-10-12",
+      "url": "http://ikkikai.info",
+      "kind": "other",
+      "summary": "一期会による第60回記念公募展",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第72回　一陽展",
+      "start": "2026-09-30",
+      "end": "2026-10-12",
+      "url": "https://www.ichiyoukai-art.com",
+      "kind": "other",
+      "summary": "一陽会による公募展",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第90回　自由美術展",
+      "start": "2026-09-30",
+      "end": "2026-10-12",
+      "url": "https://jiyubijutsu.org",
+      "kind": "other",
+      "summary": "自由美術協会による公募展",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第79回　二紀展",
+      "start": "2026-10-14",
+      "end": "2026-10-26",
+      "url": "https://niki-kai.or.jp",
+      "kind": "other",
+      "summary": "二紀会による公募展",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第93回　独立展",
+      "start": "2026-10-14",
+      "end": "2026-10-26",
+      "url": "http://www.dokuritsuten.com/",
+      "kind": "other",
+      "summary": "独立美術協会による公募展",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第119回　日展",
+      "start": "2026-10-30",
+      "end": "2026-11-22",
+      "url": "https://nitten.or.jp",
+      "kind": "other",
+      "summary": "日展による国内最大規模の総合美術公募展",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第51回　秋耕展",
+      "start": "2026-11-25",
+      "end": "2026-12-07",
+      "url": "http://www.syukoukai.jp",
+      "kind": "other",
+      "summary": "秋耕会による公募展",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第98回　新構造展",
+      "start": "2026-11-25",
+      "end": "2026-12-07",
+      "url": "http://shinkozo.or.jp",
+      "kind": "other",
+      "summary": "新構造社による公募展",
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": null,
@@ -79,6 +136,6 @@
     {"station": "六本木", "lines": "東京メトロ日比谷線・都営大江戸線", "exit": "日比谷線4a出口・大江戸線7出口", "walk_min": 5, "note": null}
   ],
   "highlights": "建築家・黒川紀章が手がけた最後の美術館で、大波のようにうねるガラスカーテンウォールが特徴。常設コレクションを持たず、国内最大級の展示スペースで多彩な企画展・公募展を開催するアートセンター",
-  "notes": "時間・休館日は公式カレンダーのデータ（opening_date.json）で確認。企画展会期中は毎週金・土曜20:00まで、12/7〜12/10も20:00まで。9/22（火・国民の休日）は開館、9/24は振替休館なし。11/4（水）は11/3祝日開館の振替休館。公募展の観覧料・時間は団体ごとに異なる。常設コレクションが無いため館共通の adult_price は null（各展覧会の料金を参照）。",
+  "notes": "企画展会期中は毎週金・土曜20:00まで（通常18:00）、12/7〜12/10は全曜日20:00まで。11/4（水）は11/3祝日開館の振替休館。公募展の観覧料・時間は団体ごとに異なる。常設コレクションが無いため館共通の adult_price は null（各展覧会の料金を参照）。",
   "confidence": "high"
 }

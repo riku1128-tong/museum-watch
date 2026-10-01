@@ -1,0 +1,27 @@
+{
+  "id": "Q48747109",
+  "checked_at": "2026-09-30T09:02:37+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "施設老朽化に伴う市公共施設再編のため2026年3月31日に閉館。守屋多々志作品の企画展・ワークショップ・講座は大垣市スイトピアセンターで継続開催",
+  "official_url": "https://www.city.ogaki.lg.jp/0000069748.html",
+  "address": "〒503-0887 岐阜県大垣市郭町2-12",
+  "source_urls": [
+    "https://www.city.ogaki.lg.jp/0000069748.html",
+    "https://www.ogakikanko.jp/kanko/sp/app/sdata.php?dataid=31"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "2026年3月31日に施設老朽化・市公共施設再編のため閉館。館で保有する守屋多々志の作品に関わる企画展・市収蔵作品展・ワークショップ・講座は大垣市スイトピアセンターで引き続き開催。恒久的な移転先は検討中。",
+  "confidence": "medium"
+}

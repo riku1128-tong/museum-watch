@@ -1,0 +1,67 @@
+{
+  "id": "Q11585938",
+  "checked_at": "2026-09-30T09:15:56+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.kaga.ishikawa.jp/kutani-mus/index.html",
+  "address": "〒922-0861 石川県加賀市大聖寺地方町1-10-13",
+  "source_urls": [
+    "https://www.city.kaga.ishikawa.jp/kutani-mus/index.html",
+    "https://www.city.kaga.ishikawa.jp/kutani-mus/access/index.html",
+    "https://www.city.kaga.ishikawa.jp/kutani-mus/concept/index.html",
+    "https://www.city.kaga.ishikawa.jp/kutani-mus/collection/index.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展「九谷優品展」",
+      "start": "2026-01-01",
+      "end": "2027-09-30",
+      "url": "https://www.city.kaga.ishikawa.jp/kutani-mus/collection/index.html",
+      "kind": "collection",
+      "summary": "古九谷から近現代作家まで360年にわたる九谷焼の名品を常設展示。通年。",
+      "recommend": null,
+      "admission": "一般 560円",
+      "adult_price": 560
+    },
+    {
+      "title": "第15回伝統工芸士会作品展",
+      "start": "2026-08-01",
+      "end": "2026-10-11",
+      "url": "https://www.city.kaga.ishikawa.jp/kutani-mus/event/index.html",
+      "kind": "special",
+      "summary": "石川県の伝統工芸士による九谷焼作品展。企画展示室のみ入場無料。",
+      "recommend": null,
+      "admission": "無料（企画展示室のみ）",
+      "adult_price": 0
+    },
+    {
+      "title": "特別展「九谷焼の春夏秋冬」（前期展）",
+      "start": "2026-10-17",
+      "end": "2027-01-17",
+      "url": "https://www.city.kaga.ishikawa.jp/kutani-mus/event/index.html",
+      "kind": "special",
+      "summary": "春夏秋冬の風物を描いた九谷焼名品で四季の美を辿る特別展（前期）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 560,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "大聖寺", "lines": "IRいしかわ鉄道", "exit": null, "walk_min": 7}
+  ],
+  "highlights": "加賀市立中央図書館に隣接する「古九谷の杜親水公園」の中にある、日本唯一の九谷焼専門美術館。2002年開館で丹下健三門下の富田玲子が設計した庭園美術館。古九谷から近現代まで360年の歴史を青手・色絵五彩・赤絵金襴の3展示室で体験でき、デジタルライブラリーや茶房古九谷も併設。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日の場合は開館）。第15回伝統工芸士会作品展は入場無料（企画展示室のみ）。特別展「九谷焼の春夏秋冬」前期・後期の料金は公式サイトから確認できなかったためnull。後期展（2027/1/23〜4/18）は3か月以内に開始するが、入館料未確認のためadult_price nullのまま掲載。",
+  "confidence": "high"
+}

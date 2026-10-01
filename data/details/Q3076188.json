@@ -1,6 +1,6 @@
 {
   "id": "Q3076188",
-  "checked_at": "2026-09-28T23:28:17+09:00",
+  "checked_at": "2026-09-30T09:06:54+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "開館準備のため休館中。2026年11月3日（火・祝）グランドオープン予定",
@@ -31,7 +31,9 @@
       "url": "https://shozokan.nich.go.jp/exhibitions/grand-opening-1",
       "kind": "special",
       "summary": "国宝・重文の収蔵品に正倉院宝物や法隆寺献納宝物、近代皇室ゆかりの名品を集める",
+      "recommend": "正倉院宝物・法隆寺献納宝物・近代の名品まで一堂に。会期中に前期・中期・後期で全作品を入れ替える大規模展示。金・土の夜間開館を利用すれば落ち着いて鑑賞できる。",
       "admission": "一般 2,500円",
+      "adult_price": 2500,
       "hours": [
         {"days": ["fri", "sat"], "open": "09:30", "close": "20:00", "last_entry": "19:30"},
         {"days": ["mon", "tue", "wed", "thu", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
@@ -39,6 +41,8 @@
     }
   ],
   "closed_between_exhibitions": false,
+  "adult_price": null,
+  "highlights": "皇居東御苑内に2026年11月3日全面開館。絵画・書跡・工芸・武具など約9,800件の皇室収蔵品を公開し、国宝・重要文化財を含む至宝を鑑賞できる。3期に分けた展示替えで異なる名品を展観。金・土曜は20時まで夜間開館。",
   "access": [
     {"station": "大手町", "lines": "地下鉄各線", "exit": "C13a", "walk_min": 5, "note": "大手門から入門（館まで約100m）"},
     {"station": "東京", "lines": "JR各線", "exit": "丸の内北口", "walk_min": 15, "note": "大手門から入門"},

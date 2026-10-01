@@ -1,0 +1,41 @@
+{
+  "id": "Q11609219",
+  "checked_at": "2026-09-30T09:06:25+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒501-3728 岐阜県美濃市本住町1901-3",
+  "source_urls": [
+    "https://minokanko.com/seeing/category/townscape-architecture/p5976/",
+    "https://www.kankou-gifu.jp/spot/detail_3186.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "16:30", "last_entry": "16:15", "from": "2026-04-01", "to": "2026-09-30"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "16:00", "last_entry": "15:45", "from": "2026-10-01", "to": "2027-03-31"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "16:30", "last_entry": "16:15", "from": "2027-04-01", "to": "2027-09-30"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "美濃市",
+      "lines": "長良川鉄道",
+      "exit": null,
+      "walk_min": 15,
+      "note": "岐阜バス岐阜美濃線「うだつの町並み通り」バス停下車から徒歩2分も利用可"
+    }
+  ],
+  "highlights": "岐阜県美濃市のうだつの上がる町並みにある、美濃和紙のあかりアートを常設展示する博物館。毎年秋に開催される「美濃和紙あかりアート展」の受賞作品や歴代作品を間近で楽しめる。和紙を使った光の表現の美しさと、歴史的な町並みに溶け込む文化的な雰囲気が魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "定休日は火曜（火曜が祝日の場合は翌水曜）、および祝日の翌日も休館。holiday_ruleはopen_next_weekday_closedで火曜の扱いを表現しているが、「全祝日の翌日も休館」という別ルールがある（火曜以外の祝日翌日も含む）。公式サイトは確認できず、美濃市観光協会・岐阜県観光公式サイトを参照。入館料は大人（高校生以上）200円、団体（20名以上）150円。毎年秋の「美濃和紙あかりアート展」（2026年は第33回、10/11〜11/30）は屋外の別イベント。",
+  "confidence": "high"
+}

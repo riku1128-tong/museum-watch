@@ -1,6 +1,6 @@
 {
   "id": "Q11595345",
-  "checked_at": "2026-09-29T23:15:00+09:00",
+  "checked_at": "2026-09-30T09:08:12+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -36,20 +36,20 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "秋田公立美術大学連携企画「秋田アーツ&クラフツ」",
+      "title": "秋田公立美術大学連携企画「秋田アーツ＆クラフツ」",
       "start": "2026-10-03",
-      "end": "2027-09-29",
-      "url": null,
+      "end": "2026-12-06",
+      "url": "https://www.city.akita.lg.jp/kanko/kanrenshisetsu/1003617/1046659/1051295.html",
       "kind": "special",
-      "summary": "秋田公立美術大学との連携企画展。会期未定のため1年後を仮設定",
-      "recommend": null,
+      "summary": "赤れんが郷土館と秋田公立美術大学の連携企画展。現役クリエーターの作品と秋田の歴史・文化",
+      "recommend": "秋田公立美術大学の教員らが秋田の歴史・文化と向き合い制作した作品を展示。地域固有のアートを通じて伝統の継承と現代の創造力との接点が体感できる企画展。",
       "admission": "一般 310円",
       "adult_price": 310
     },
     {
       "title": "秋田の自然と風俗「秋田の祭り」",
       "start": "2026-10-03",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "url": null,
       "kind": "collection",
       "summary": "勝平得之記念館常設展示室。通年",
@@ -60,10 +60,10 @@
     {
       "title": "鍛金の至宝 前期展",
       "start": "2026-10-03",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "url": null,
-      "kind": "special",
-      "summary": "関谷四郎記念室。金工・鍛金作品の特集展示。会期未定のため1年後を仮設定",
+      "kind": "collection",
+      "summary": "関谷四郎記念室。秋田を代表する金工家・関谷四郎の鍛金作品を中心とした常設展示",
       "recommend": null,
       "admission": "一般 310円",
       "adult_price": 310

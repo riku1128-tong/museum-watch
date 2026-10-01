@@ -1,6 +1,6 @@
 {
   "id": "Q11468703",
-  "checked_at": "2026-09-29T23:15:00+09:00",
+  "checked_at": "2026-09-30T09:38:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -29,7 +29,30 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "ひかり絵図～上山城展～",
+      "start": "2026-09-26",
+      "end": "2026-11-01",
+      "url": "https://kaminoyama-castle.info/",
+      "kind": "special",
+      "summary": "「北の又城」と呼ばれた江戸時代の上山城の姿を紹介する企画展（多目的ホール）",
+      "recommend": "霞城とも呼ばれ江戸時代に「北の又城」と謳われた上山城の歴史と姿を、絵図資料などで紹介。城山から蔵王連峰を望む眺望と合わせて上山の歴史をたどれる。",
+      "admission": "一般 600円",
+      "adult_price": 600
+    },
+    {
+      "title": "みやまの里出戸の漫画～菅野釜右助の世界～",
+      "start": "2026-11-07",
+      "end": "2027-01-11",
+      "url": "https://kaminoyama-castle.info/",
+      "kind": "special",
+      "summary": "地域ゆかりの漫画家・菅野釜右助の作品世界を紹介する企画展（館内）",
+      "recommend": null,
+      "admission": "一般 600円",
+      "adult_price": 600
+    }
+  ],
   "adult_price": 600,
   "free_days": [],
   "free_rules": [],

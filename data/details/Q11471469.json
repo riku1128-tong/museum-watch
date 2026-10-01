@@ -1,0 +1,64 @@
+{
+  "id": "Q11471469",
+  "checked_at": "2026-09-30T09:00:43+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.cpm-gifu.jp/museum/",
+  "address": "〒507-0801 岐阜県多治見市東町4-2-5（セラミックパークMINO内）",
+  "source_urls": [
+    "https://www.cpm-gifu.jp/museum/",
+    "https://www.cpm-gifu.jp/museum/about/",
+    "https://www.cpm-gifu.jp/museum/access-facillity/visit",
+    "https://www.cpm-gifu.jp/museum/access-facillity/access",
+    "https://www.cpm-gifu.jp/museum/events/",
+    "https://www.cpm-gifu.jp/museum/events/event/event-11400"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "ヤンソン コレクション 受贈記念 ドレスデン ポルツェラン",
+      "start": "2026-09-15",
+      "end": "2026-12-06",
+      "url": "https://www.cpm-gifu.jp/museum/events/event/event-11400",
+      "kind": "special",
+      "summary": "1872年創業ドレスデン ポルツェランの豪華絢爛なテーブルウェア・シャンデリアなど受贈123点を紹介",
+      "recommend": "全工程手作業を誇る独・ドレスデン磁器の傑作123点を一堂に。シャンデリアや室内装飾品など普段目にしない豪華な陶磁器の世界を体感できる。",
+      "admission": "一般 370円",
+      "adult_price": 370
+    }
+  ],
+  "adult_price": 370,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "多治見",
+      "lines": "JR中央本線",
+      "exit": "南口",
+      "walk_min": null,
+      "note": "東鉄バス3番乗り場から「妻木線」または「瑞浪＝東駄知＝多治見線」で「セラパーク・現代陶芸美術館口」下車、徒歩10分（運賃300円、約15分）。土日祝はきぎょうバス「オリベ観光ルート」も利用可（200円、約25分）。タクシー約10分"
+    }
+  ],
+  "highlights": "磯崎新設計のセラミックパークMINO内に2002年開館。日本と世界の近現代陶芸を専門に収蔵・展示する全国唯一の公立施設で、展示室が鉄製アームで空中に吊られた先端的な建築も話題。ドイツ磁器など受贈コレクションも充実。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「月曜日（月曜日が祝日の場合は翌平日）、年末年始」。コレクション展一般料金370円（団体310円）。特別展は展覧会ごとに異なる。年末年始の具体的日付は未確認のため暫定。",
+  "confidence": "high"
+}

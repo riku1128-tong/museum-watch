@@ -1,0 +1,57 @@
+{
+  "id": "Q11463703",
+  "checked_at": "2026-09-30T09:22:11+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/2/",
+  "address": "〒384-0804 長野県小諸市丁221番3（懐古園内）",
+  "source_urls": [
+    "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/2/",
+    "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/2/1675.html",
+    "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/2/1048.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30",
+      "to": "2026-11-30"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:00",
+      "last_entry": "15:30",
+      "from": "2026-12-01",
+      "to": "2027-03-31"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "小諸",
+      "lines": "しなの鉄道・JR小海線",
+      "exit": null,
+      "walk_min": 10
+    }
+  ],
+  "highlights": "洋画家・小山敬三（1897〜1987）が作品と生家を故郷・小諸市に寄贈して生まれた美術館。信州の山々とりわけ浅間山を描いた油彩画をはじめ、小山の全画業を一堂に鑑賞できる。懐古園内に位置し、城跡の緑に囲まれた静かな環境も魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "12月3日〜3月11日の毎週水曜日は休館。年末年始（12月29日〜1月3日）も休館。12月〜3月は閉館が16時（通常は17時）。入館料は美術館単券200円（小中生100円）、懐古園内全施設共通券は大人500円（20名以上は400円）。令和8年度（2026年度）の企画展スケジュールは公式サイト未公開のため展示情報なし（スケジュールはPDF形式で別途公開予定）。",
+  "confidence": "medium"
+}

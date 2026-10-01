@@ -1,0 +1,70 @@
+{
+  "id": "Q11607218",
+  "checked_at": "2026-09-30T09:01:14+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.abashiri.hokkaido.jp/site/artmuseum/",
+  "address": "北海道網走市南6条西1丁目",
+  "source_urls": [
+    "https://www.city.abashiri.hokkaido.jp/site/artmuseum/",
+    "https://www.city.abashiri.hokkaido.jp/site/artmuseum/1244.html"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "16:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "美術館コレクション展",
+      "start": "2026-04-01",
+      "end": "2027-09-30",
+      "kind": "collection",
+      "summary": "通年。網走・オホーツクゆかりの作家の作品を中心に収蔵品を展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "郷土作家 居串 佳一・高橋道雄",
+      "start": "2026-04-01",
+      "end": "2027-09-30",
+      "kind": "collection",
+      "summary": "通年。第4展示室にて郷土出身作家2名の作品を常設展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "松浦 進 展",
+      "start": "2026-10-03",
+      "end": "2026-11-08",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 120,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "網走",
+      "lines": "JR釧網本線・石北本線",
+      "walk_min": 15,
+      "note": "女満別空港からは網走バスターミナル行きバスで約30分、バスターミナルから徒歩5分"
+    }
+  ],
+  "highlights": "1972年に地元画家・居串佳一の油絵遺作38点の寄贈を機に開館した、北海道で2番目の歴史を持つ市立美術館。居串佳一をはじめ網走・オホーツクゆかりの作家の作品を収蔵し、地域の風土に根ざした常設展示と多彩な企画展を年間を通じて開催する。",
+  "closed_between_exhibitions": false,
+  "notes": "開館時間は火曜日〜日曜日 10:00〜16:00。月曜日・国民の祝日・年末年始（12/29〜1/3）は休館。企画展開催時は別途入館料が設定される。last_entryは公式サイトに明記なし。",
+  "confidence": "high"
+}

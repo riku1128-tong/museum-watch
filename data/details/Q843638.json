@@ -1,7 +1,7 @@
 {
   "id": "Q843638",
-  "checked_at": "2026-09-29T23:06:28+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:06:54+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "address": "〒413-8511 静岡県熱海市桃山町26-2",
@@ -39,10 +39,10 @@
       "title": "伊豆の仏像　PART１",
       "start": "2026-10-23",
       "end": "2027-01-03",
-      "url": null,
+      "url": "https://www.moaart.or.jp/event/buddhist_statues_from_izu_part-1/",
       "kind": "special",
       "summary": "伊豆地域に伝わる仏像を特集する展覧会（PART１）",
-      "recommend": null,
+      "recommend": "令和6年に重文指定された伊豆最古の仏像群を含む、平安・鎌倉の仏教彫刻の名作を展覧。河津町・南禅寺伝来の薬師如来坐像など12躯が里帰りで展示される見ごたえある機会。",
       "admission": null,
       "adult_price": null
     },
@@ -50,10 +50,10 @@
       "title": "リニューアル10周年記念名品展　国宝「紅白梅図屏風」",
       "start": "2027-01-09",
       "end": "2027-02-24",
-      "url": null,
+      "url": "https://www.moaart.or.jp/event/bestcollection2027/",
       "kind": "special",
       "summary": "リニューアル10周年を記念し、尾形光琳の国宝「紅白梅図屏風」を中心に名品を紹介",
-      "recommend": null,
+      "recommend": "リニューアル10周年の節目に尾形光琳の国宝「紅白梅図屏風」を中心に名品を公開。杉本博司率いる新素材研究所が手がけた現代的な空間で日本を代表する古典美術を体験できる。",
       "admission": null,
       "adult_price": null
     }

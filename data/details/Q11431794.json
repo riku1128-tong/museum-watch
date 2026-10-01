@@ -1,0 +1,30 @@
+{
+  "id": "Q11431794",
+  "checked_at": "2026-09-30T09:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "改装休館中（2021年4月5日より）。再開予定日未定。",
+  "official_url": "https://www.daiichi-museum.co.jp",
+  "address": "〒453-0843 愛知県名古屋市中村区鴨付町1丁目22",
+  "source_urls": [
+    "https://www.daiichi-museum.co.jp",
+    "https://artscape.jp/museum/2058/",
+    "https://www.museum.or.jp/museum/4729"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "1997年開館のガラス工芸専門美術館。アール・ヌーヴォーの巨匠エミール・ガレや現代ガラスアートのデイル・チフューリの作品を所蔵し、パリ万博出品作を含む希少なコレクションを展示していた。現在は改装のため長期休館中（2021年4月〜、再開未定）。",
+  "closed_between_exhibitions": false,
+  "notes": "休館時の開館時間・休館日は参考情報（インターネットミュージアム等より）。再開後は公式サイトで確認が必要。団体予約・レンタルスペースは公式サイトで受け付けている模様。",
+  "confidence": "medium"
+}

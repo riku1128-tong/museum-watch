@@ -1,6 +1,6 @@
 {
   "id": "Q11530056",
-  "checked_at": "2026-09-29T23:27:00+09:00",
+  "checked_at": "2026-09-30T09:03:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -75,6 +75,7 @@
     }
   ],
   "closed_between_exhibitions": false,
+  "highlights": "実業家・松岡清次郎が「日本では見られないものを」という信念で収集した私立美術館。東洋陶磁を500点以上収蔵し、中国・日本・朝鮮・ベトナムの名品が揃う。古代ローマ彫刻やエジプト美術から西洋絵画・現代彫刻まで幅広いコレクションを白金台の邸宅建築で公開する。",
   "adult_price": 1400,
   "access": [
     {"station": "白金台", "lines": "東京メトロ南北線・都営三田線", "exit": "1番出口", "walk_min": 7},

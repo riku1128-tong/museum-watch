@@ -1,0 +1,105 @@
+{
+  "id": "Q11402992",
+  "checked_at": "2026-09-30T09:02:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒060-0001 北海道札幌市中央区北1条西17丁目",
+  "source_urls": [
+    "https://artmuseum.pref.hokkaido.lg.jp/knb",
+    "https://artmuseum.pref.hokkaido.lg.jp/knb/guide",
+    "https://artmuseum.pref.hokkaido.lg.jp/knb/access",
+    "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition",
+    "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/330",
+    "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/333"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [
+    {"date": "2026-11-02", "note": "芸術週間のため月曜日も開館"}
+  ],
+  "exhibitions": [
+    {
+      "title": "わたしのつくりかた",
+      "start": "2026-09-12",
+      "end": "2026-12-20",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/330",
+      "kind": "collection",
+      "summary": "北海道で活動する障がいのあるアーティストの作品と美術館コレクションを3つのテーマで紹介",
+      "recommend": "障がいのあるアーティストの創造力豊かな作品と北海道の美術館コレクションを並置し、制作のプロセスや内面性に迫る展示。固定概念を超えた造形の奥深さを体感できる機会。",
+      "admission": "一般 510円",
+      "adult_price": 510
+    },
+    {
+      "title": "MINIATURE LIFE展2 田中達也 見立ての世界",
+      "start": "2026-09-12",
+      "end": "2026-11-08",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/333",
+      "kind": "special",
+      "summary": "ミニチュア写真家・田中達也が日用品と人形で作るジオラマアートの世界を写真・立体作品約180点で紹介",
+      "recommend": "日常の小物がまったく別の場面に変わる「見立て」の発想はユーモアにあふれ、大人も子どもも楽しめる。写真作品と実際の立体ジオラマを間近で見比べられる構成が特徴。",
+      "admission": "一般 1,500円",
+      "adult_price": 1500
+    },
+    {
+      "title": "道展創立100周年記念企画展 − 時を紡ぎ 今を創る",
+      "start": "2026-11-17",
+      "end": "2026-11-23",
+      "url": null,
+      "kind": "special",
+      "summary": "北海道美術協会（道展）創立100周年を記念した企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "全道展80周年記念企画展〈会員・会友展〉",
+      "start": "2026-11-28",
+      "end": "2026-12-05",
+      "url": null,
+      "kind": "special",
+      "summary": "全道展創立80周年を記念した会員・会友の作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "新道展70周年記念展 −継承する自由な表現",
+      "start": "2026-12-10",
+      "end": "2026-12-17",
+      "url": null,
+      "kind": "special",
+      "summary": "新道展創立70周年を記念した展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 510,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "西18丁目",
+      "lines": "地下鉄東西線",
+      "exit": "4番出口",
+      "walk_min": 5
+    }
+  ],
+  "highlights": "札幌・円山公園エリアに隣接する北海道を代表する近現代美術館。日本・欧米の絵画・版画・ガラス工芸品など道内最大規模のコレクションを収蔵し、北海道ゆかりの作家の作品から世界的な巡回展まで多彩な企画展を開催。地下鉄西18丁目駅から徒歩5分とアクセスも便利。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日・振替休日の場合は開館、翌平日に休館）。年末年始（2026/12/29〜2027/1/3）休館。2026/11/2（月）は芸術週間のため開館。",
+  "confidence": "high"
+}

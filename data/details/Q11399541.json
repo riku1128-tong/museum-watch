@@ -1,60 +1,43 @@
 {
   "id": "Q11399541",
-  "checked_at": "2026-09-29T23:30:00+09:00",
+  "checked_at": "2026-09-30T09:06:54+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
-  "official_url": null,
+  "official_url": "https://www.city.takayama.lg.jp/machihaku/",
   "address": "〒506-0844 岐阜県高山市上一之町75",
   "source_urls": [
+    "https://www.city.takayama.lg.jp/machihaku/",
+    "https://www.city.takayama.lg.jp/shisetsu/1004139/1000039/1001660.html",
+    "https://www.city.takayama.lg.jp/machihaku/1016567/index.html",
     "https://www.museum.or.jp/museum/4309"
   ],
   "regular_hours": [
-    {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
-      "open": "08:30",
-      "close": "17:00",
-      "from": "2026-03-01",
-      "to": "2026-11-30"
-    },
-    {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
-      "open": "09:00",
-      "close": "16:30",
-      "from": "2026-12-01",
-      "to": "2027-02-28"
-    },
-    {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
-      "open": "08:30",
-      "close": "17:00",
-      "from": "2027-03-01",
-      "to": "2027-11-30"
-    }
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "19:00"}
   ],
-  "closed_weekdays": ["mon"],
-  "holiday_rule": "unknown",
+  "closed_weekdays": [],
+  "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {
       "title": "常設展示",
       "start": "2026-01-01",
-      "end": "2027-09-29",
-      "url": null,
+      "end": "2027-09-30",
+      "url": "https://www.city.takayama.lg.jp/machihaku/1016574/index.html",
       "kind": "collection",
-      "summary": "通年。城下町高山の生い立ち、武家文化、町人文化、伝統工芸など郷土の文献・民俗・歴史資料",
+      "summary": "通年。城下町高山の成り立ち・高山祭・町家・文人と美術・円空仏など飛騨の歴史と文化を14の展示室で紹介",
       "recommend": null,
-      "admission": "一般 300円",
-      "adult_price": 300
+      "admission": "無料",
+      "adult_price": 0
     }
   ],
-  "adult_price": 300,
+  "adult_price": 0,
   "free_days": [],
   "free_rules": [],
   "access": [],
-  "highlights": null,
+  "highlights": "江戸時代の豪商・矢嶋家と永田家の土蔵14棟を活用した無料の博物館（飛騨高山まちの博物館）。城下町高山の成り立ちから高山祭・町家文化・郷土の文人と美術・円空仏まで飛騨の歴史と文化を幅広く展示する。毎日9時〜19時開館で観光の拠点にもなる。",
   "closed_between_exhibitions": false,
-  "notes": "月曜定休は11月〜3月のみ（4月〜10月は月曜も開館）。公式URL（hida.jp）が取得不可のためアイエム（museum.or.jp）の情報を使用。飛騨高山まちの博物館として再編された可能性があり要確認。",
+  "notes": "「高山市郷土館」は飛騨高山まちの博物館に統合済み。公式URL・開館時間・入館料をまちの博物館に合わせて更新（旧情報: 入館300円、8:30-17:00、11月〜3月は月曜休）。最寄駅など交通アクセスは未確認（古い街並みの中にあり、徒歩圏内のバス停利用が一般的）。",
   "confidence": "medium"
 }

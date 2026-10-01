@@ -1,0 +1,58 @@
+{
+  "id": "Q114905513",
+  "checked_at": "2026-09-30T10:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.mizunami.lg.jp/kankou_bunka/1004960/ichinose_museum/index.html",
+  "address": "〒509-6133 岐阜県瑞浪市明世町戸狩2-17",
+  "source_urls": [
+    "https://www.city.mizunami.lg.jp/kankou_bunka/1004960/ichinose_museum/index.html",
+    "https://www.city.mizunami.lg.jp/kankou_bunka/1004960/ichinose_museum/1002221.html",
+    "https://www.museum.or.jp/museum/4286"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-22", "to": "2026-10-23", "reason": "企画展準備に伴う臨時休館"},
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "市之瀬廣太・天野裕夫 常設コレクション展",
+      "start": "2026-04-01",
+      "end": "2027-09-30",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。瑞浪市出身の彫刻家・市之瀬廣太の作品約20点と、ゆかりの彫刻家・天野裕夫の石・ブロンズ・陶器・ガラス作品を常設展示",
+      "recommend": null,
+      "admission": "一般 200円（高校生以下無料）",
+      "adult_price": 200
+    }
+  ],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "瑞浪",
+      "lines": "JR中央本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "瑞浪駅・瑞浪ICから車で約5分（徒歩・バスは不便）"
+    }
+  ],
+  "highlights": "岐阜・瑞浪市出身の彫刻家・市之瀬廣太の作品約20点を核に、同市ゆかりの彫刻家・天野裕夫の作品など石・ブロンズ・陶器・ガラスといった多彩な素材の造形作品を常設展示。丘陵の森に囲まれた落ち着いた環境で、年数回の企画展も開催する小美術館。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日の場合は翌日休館）。毎月末日は資料整理点検日として休館の場合あり（公式サイトに明示なし）。10/21（水）は企画展準備のため第1展示室のみ見学可。10/22〜23は全館臨時休館。3館共通入館料（一般500円）あり。",
+  "confidence": "medium"
+}

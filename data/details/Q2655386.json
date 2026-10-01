@@ -1,6 +1,6 @@
 {
   "id": "Q2655386",
-  "checked_at": "2026-09-28T23:30:00+09:00",
+  "checked_at": "2026-09-30T09:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,7 +9,9 @@
   "source_urls": [
     "http://www.art.pref.tochigi.lg.jp/",
     "http://www.art.pref.tochigi.lg.jp/visit/index.html",
-    "http://www.art.pref.tochigi.lg.jp/exhibition/index.html"
+    "http://www.art.pref.tochigi.lg.jp/exhibition/index.html",
+    "http://www.art.pref.tochigi.lg.jp/exhibition/t261024/index.html",
+    "http://www.art.pref.tochigi.lg.jp/exhibition/meissen/index.html"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
@@ -25,10 +27,10 @@
       "end": "2026-12-27",
       "url": "http://www.art.pref.tochigi.lg.jp/exhibition/t261024/index.html",
       "kind": "special",
-      "summary": null,
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "summary": "佐野市生まれの日本画家・松本哲男が栃木の風景から世界の名所まで描いた大画面日本画を展観",
+      "recommend": "佐野市生まれの日本画家・松本哲男の画業を通観。初期の栃木の風景から敦煌・ナイアガラ・グランドキャニオンなど世界の名所を巨大な画面に描いた晩年作まで、観る者を圧倒するスケールと迫力を体感できる。",
+      "admission": "一般 1,250円",
+      "adult_price": 1250
     },
     {
       "title": "Collection 2 いきもの・いろいろ",
@@ -40,16 +42,35 @@
       "recommend": null,
       "admission": "一般 260円",
       "adult_price": 260
+    },
+    {
+      "title": "伊東直子 マイセン磁器コレクション",
+      "start": "2026-01-01",
+      "end": "2027-09-30",
+      "url": "http://www.art.pref.tochigi.lg.jp/exhibition/meissen/index.html",
+      "kind": "collection",
+      "summary": "通年。伊東直子氏寄贈の18世紀初頭からアール・ヌーヴォーまでのマイセン磁器90点を年4回テーマ別に展示替えして公開",
+      "recommend": null,
+      "admission": "一般 260円",
+      "adult_price": 260
     }
   ],
   "adult_price": 260,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "文化の日",
+      "source_url": "http://www.art.pref.tochigi.lg.jp/exhibition/t261024/index.html"
+    }
+  ],
   "free_rules": [],
   "access": [
     {"station": "宇都宮", "lines": "JR東北本線・東武宇都宮線（東武宇都宮駅）", "exit": null, "walk_min": null, "note": "宇都宮駅西口バスターミナルから関東バスで約15分「桜通り十文字」下車、徒歩2分。最寄駅から徒歩圏ではなくバス利用が基本"}
   ],
-  "highlights": null,
+  "highlights": "宇都宮市桜に位置する栃木県立美術館。伊東直子氏より寄贈された18世紀初頭からアール・ヌーヴォーまでのマイセン磁器90点は「質量ともに国内稀に見るコレクション」と評価される。年4回テーマ別に展示替えを行うコレクション展と企画展を常時開催。多言語対応タブレットガイドや音声ガイドなど鑑賞サポートも充実している。",
   "closed_between_exhibitions": false,
-  "notes": "展覧会は「松本哲男展」（企画展）と「Collection 2 いきもの・いろいろ」（コレクション展、10/1で終了）を確認。「伊東直子 マイセン磁器コレクション」という常設的な展示もサイトにあるが会期の記載が見つからず未掲載。企画展の観覧料は展覧会ごとに異なると案内されているのみで「松本哲男展」の具体額は未確認。県民の日（とちぎ県民の日）に関する無料開放の記載は見つからなかった。",
+  "notes": "松本哲男展（10/24〜12/27、一般1,250円）・Collection 2（〜10/1、一般260円）・マイセン磁器コレクション（常設、一般260円）を確認。無料観覧日は毎年6月13〜15日・11月3日（文化の日）。とちぎ県民の日（11/14）については無料開放の公式記載なし。",
   "confidence": "high"
 }

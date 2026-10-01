@@ -1,6 +1,6 @@
 {
   "id": "Q28689358",
-  "checked_at": "2026-09-29T23:14:27+09:00",
+  "checked_at": "2026-09-30T10:00:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -50,6 +50,28 @@
       "url": "https://www.city.tomioka.lg.jp/www/contents/1607578938940/index.html",
       "kind": "other",
       "summary": "通年。郷土資料展示室で富岡市とその周辺の考古・歴史・民俗資料を通史的に紹介",
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "コレクション展（仮称）",
+      "start": "2026-12-12",
+      "end": "2027-02-28",
+      "url": "https://www.city.tomioka.lg.jp/www/contents/1460512262791/index.html",
+      "kind": "collection",
+      "summary": "12月からの企画コレクション展（タイトル未定）",
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "I氏コレクション展　今どきアート2026（仮称）",
+      "start": "2026-12-08",
+      "end": "2027-02-28",
+      "url": "https://www.city.tomioka.lg.jp/www/contents/1460512262791/index.html",
+      "kind": "special",
+      "summary": "I氏のコレクションによる現代アートの収蔵品展（タイトル未定）",
+      "recommend": null,
       "admission": "一般 210円",
       "adult_price": 210
     }

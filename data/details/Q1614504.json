@@ -1,6 +1,6 @@
 {
   "id": "Q1614504",
-  "checked_at": "2026-09-29T23:14:27+09:00",
+  "checked_at": "2026-09-30T09:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -27,6 +27,7 @@
       "url": "https://www.sompo-museum.org/exhibitions/2025/albertmarquet/",
       "kind": "special",
       "summary": "フォーヴィスムに関わり水辺の風景を描いたマルケの35年ぶりの回顧展。約90点",
+      "recommend": "セーヌや港など水辺の情景を抑制された色彩と簡潔な線で描いたマルケの国内35年ぶりの本格回顧展。油彩約65点・素描約25点を通じ、穏やかながら独自の詩情を宿す風景画の魅力を堪能できる。",
       "admission": "一般 2,000円（当日券）",
       "adult_price": 2000,
       "hours": [
@@ -41,6 +42,7 @@
     {"station": "新宿", "lines": "東京メトロ丸ノ内線", "exit": null, "walk_min": 5, "note": null},
     {"station": "西新宿", "lines": "東京メトロ丸ノ内線", "exit": "C13出口", "walk_min": 6, "note": null}
   ],
+  "highlights": "「この街には《ひまわり》がある」をコンセプトに掲げる新宿西口の企画展専門美術館。ゴッホ《ひまわり》をアジアで唯一所蔵することで知られ、東郷青児（旧館名の由来）の作品約240点も収蔵。常設展示はなく年数回の特別展で国内外の近現代美術を紹介する。",
   "closed_between_exhibitions": true,
   "notes": "休館日は「月曜日（祝日・振替休日の場合は開館し翌平日休）、展示替期間／年末年始」。常設展は無く企画展ごとの料金のみのため館の adult_price は null。次回「生誕130年 東郷青児展」（2027/1/9〜）・「FACE展2027」（2027/3/6〜）はいずれも3か月超先のため exhibitions には入れていない。台風等で JR 計画運休時は臨時休館の場合あり。",
   "confidence": "high"

@@ -1,7 +1,7 @@
 {
   "id": "Q11404764",
-  "checked_at": "2026-09-29T23:06:49+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:00:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://nariwa-museum.jp/",
@@ -24,8 +24,8 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2025-12-25",
-      "to": "2026-01-07",
+      "from": "2026-12-25",
+      "to": "2027-01-07",
       "reason": "年末年始"
     }
   ],

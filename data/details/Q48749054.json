@@ -1,0 +1,63 @@
+{
+  "id": "Q48749054",
+  "checked_at": "2026-09-30T09:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.forest.minokamo.gifu.jp/",
+  "address": "岐阜県美濃加茂市蜂屋町上蜂屋3299番地1",
+  "source_urls": [
+    "https://www.forest.minokamo.gifu.jp/",
+    "https://www.forest.minokamo.gifu.jp/access/access.cfm",
+    "https://www.city.minokamo.lg.jp/soshiki/5/2778.html",
+    "https://www.museum.or.jp/museum/4289"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "2026年度 蚕とまゆ展",
+      "start": "2026-04-25",
+      "end": "2026-10-12",
+      "url": "https://www.forest.minokamo.gifu.jp/",
+      "kind": "collection",
+      "summary": "蚕の育て方から繭・生糸・絹織物まで、養蚕の歴史と文化を紹介",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第71回 美濃加茂市美術展",
+      "start": "2026-10-08",
+      "end": "2026-10-18",
+      "url": "https://www.forest.minokamo.gifu.jp/",
+      "kind": "other",
+      "summary": "市民による美術作品を集めた公募展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "美濃太田",
+      "lines": "JR高山本線",
+      "walk_min": 17,
+      "note": "北口から徒歩約17分。またはあい愛バスで「文化の森」下車（約8〜10分）"
+    }
+  ],
+  "highlights": "歴史・民俗・自然・美術を複合展示する総合博物館。「みのかも文化の森」の豊かな自然の中に位置し、昭和30年代の養蚕農家を復原した「まゆの家」や民具展示館など地域の暮らしを体感できる施設が点在。常設展示は無料で、体験活動にも力を入れている。",
+  "closed_between_exhibitions": false,
+  "notes": "施設名は「みのかも文化の森 美濃加茂市民ミュージアム」。常設展示室は無料。企画展等は一部有料。施設内に「まゆの家」（昭和30年代の養蚕農家復原）や民具展示館がある。LED化工事および空調設備工事に伴う一部施設の閉室が告知されているが、具体的な期間は未確認。",
+  "confidence": "high"
+}

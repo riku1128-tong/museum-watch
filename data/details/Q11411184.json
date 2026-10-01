@@ -1,0 +1,85 @@
+{
+  "id": "Q11411184",
+  "checked_at": "2026-09-30T09:06:25+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.furukawa-museum.or.jp/",
+  "address": "〒464-0066 名古屋市千種区池下町2丁目50番",
+  "source_urls": [
+    "https://www.furukawa-museum.or.jp/",
+    "https://www.furukawa-museum.or.jp/about",
+    "https://www.furukawa-museum.or.jp/info/hours",
+    "https://www.furukawa-museum.or.jp/info/admission",
+    "https://www.furukawa-museum.or.jp/info/location",
+    "https://www.furukawa-museum.or.jp/show_exhibit",
+    "https://www.furukawa-museum.or.jp/show_exhibit?time_seq=1"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-06", "to": "2026-10-16", "reason": "展示替え"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第73回日本伝統工芸展 名古屋展",
+      "start": "2026-09-25",
+      "end": "2026-10-05",
+      "url": "https://www.furukawa-museum.or.jp/show_exhibit",
+      "kind": "special",
+      "summary": "陶芸・染織・漆芸・金工・木竹工・人形・諸工芸の7部門から厳選された伝統工芸品を展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "古川美術館財団設立40周年記念展「異邦人たちのパリ－ユトリロ/キスリング/レオナール・フジタ」",
+      "start": "2026-10-17",
+      "end": "2027-01-31",
+      "url": "https://www.furukawa-museum.or.jp/show_exhibit?time_seq=1",
+      "kind": "special",
+      "summary": "エコール・ド・パリを代表するユトリロ、キスリング、藤田嗣治の三画家によるパリ時代の作品を紹介する財団設立40周年記念展",
+      "recommend": "「創造の都」パリに集った異邦人画家たちの独自の感性が輝く作品が一堂に揃う。財団40周年を飾る意欲的な企画で、近代絵画の名品を通じて20世紀初頭のパリの熱気を体感できる。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "爲三郎記念館特別企画「エスプリ・アンティーク展 骨董編集人北村日出子 時の間の、贈り物」",
+      "start": "2026-10-17",
+      "end": "2026-12-25",
+      "url": "https://www.furukawa-museum.or.jp/show_exhibit?time_seq=1",
+      "kind": "special",
+      "summary": "骨董編集人・北村日出子の35年のコレクションから、ガラス・陶器・ジュエリーを登録有形文化財の数寄屋空間に展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 900,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "池下",
+      "lines": "名古屋市営地下鉄東山線",
+      "exit": "1番出口",
+      "walk_min": 3,
+      "note": "1番出口から東へ徒歩3分"
+    },
+    {
+      "station": "覚王山",
+      "lines": "名古屋市営地下鉄東山線",
+      "exit": "1番出口",
+      "walk_min": 5,
+      "note": "1番出口から西へ徒歩5分"
+    }
+  ],
+  "highlights": "初代館長・古川爲三郎が半世紀にわたって収集した約2,800点のコレクションを公開する、名古屋千種区唯一の美術館。横山大観・上村松園・前田青邨ら近代日本画の巨匠の作品が充実する。登録有形文化財の数寄屋建築「爲三郎記念館」では呈茶体験も楽しめる。",
+  "closed_between_exhibitions": true,
+  "notes": "月曜休（祝日・振替休日にあたるときは翌日休）、展示替え期間も休館。一般入館料は古川美術館（主館）単館券900円（adult_priceはこの値）。爲三郎記念館込み2館共通入館券は1,200円。展示替え期間（10/6〜10/16）は現行展と次展の間隔から推定。年末年始の具体的な日付は未確認のため special_closures に含めず。",
+  "confidence": "high"
+}

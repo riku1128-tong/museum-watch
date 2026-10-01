@@ -1,0 +1,81 @@
+{
+  "id": "Q11364291",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://hiroshige-ena.jp/",
+  "address": "〒509-7201 岐阜県恵那市大井町176-1",
+  "source_urls": [
+    "https://hiroshige-ena.jp/",
+    "https://hiroshige-ena.jp/guide/",
+    "https://hiroshige-ena.jp/access/",
+    "https://hiroshige-ena.jp/hiroshige2-where-hiroshige-ism-lives2026/",
+    "https://hiroshige-ena.jp/annual-schedule2026/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "生誕200年記念　二代広重―広重イズムの在処（ありか）―",
+      "start": "2026-10-01",
+      "end": "2026-12-06",
+      "url": "https://hiroshige-ena.jp/hiroshige2-where-hiroshige-ism-lives2026/",
+      "kind": "special",
+      "summary": "初代広重の名跡を継いだ二代広重（歌川重宣）の生誕200年記念展。「諸国名所百景」65点と初代広重作品42点を比較展示",
+      "recommend": "師・初代広重の画風を踏まえながら独自表現に挑んだ二代広重にスポットを当てる回顧展。小林清親・川瀬巴水ら「広重イズム」の系譜も追い、近世から近代へ受け継がれた浮世絵の流れを体感できる。",
+      "admission": "一般820円",
+      "adult_price": 820
+    },
+    {
+      "title": "超定番！浮世絵東海道おすすめスポット",
+      "start": "2026-12-10",
+      "end": "2027-02-23",
+      "url": null,
+      "kind": "special",
+      "summary": "東海道の定番名所を描いた浮世絵を集めた企画展。広重・英泉ほか江戸浮世絵の名品を紹介",
+      "recommend": null,
+      "admission": "一般520円",
+      "adult_price": 520
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [
+    {
+      "weekday": "wed",
+      "scope": "all",
+      "reason": "2027年3月末まで毎週水・金曜日は観覧料無料",
+      "source_url": "https://hiroshige-ena.jp/"
+    },
+    {
+      "weekday": "fri",
+      "scope": "all",
+      "reason": "2027年3月末まで毎週水・金曜日は観覧料無料",
+      "source_url": "https://hiroshige-ena.jp/"
+    }
+  ],
+  "access": [
+    {
+      "station": "恵那",
+      "lines": "JR中央本線",
+      "exit": null,
+      "walk_min": 5,
+      "note": "恵那駅から南へ徒歩約5分。名古屋からJR中央本線で約1時間"
+    }
+  ],
+  "highlights": "浮世絵の第一人者・歌川広重を専門とする美術館。中山道の宿場町・岐阜県恵那市に位置し、「木曽海道六拾九次之内」全71点を収める田中コレクションが圧巻。重ね摺り体験コーナーや所蔵品検索など参加型の取り組みも充実し、幅広い層に浮世絵の魅力を届ける。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜（祝日を除く）と祝日翌日が休館（祝日の翌平日はすべて休館）。2027年3月末まで毎週水・金曜日は観覧料無料（2027年4月以降は要確認）。常設展はなく展覧会ごとの料金（企画展520円、特別企画展820円）。18歳以下無料、障がい者手帳所持者と付き添い1名無料。年末年始は休館だが公式サイトに具体的日程の記載なし（次回確認時に更新）。展覧会間の展示替え期間（約2〜3日）は臨時休館の可能性あり。",
+  "confidence": "high"
+}

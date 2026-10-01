@@ -1,0 +1,72 @@
+{
+  "id": "Q11631864",
+  "checked_at": "2026-09-30T09:29:29+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.taizi-artmuseum.jp/",
+  "address": "〒392-0010 長野県諏訪市渋崎1792-375",
+  "source_urls": [
+    "https://www.taizi-artmuseum.jp/",
+    "https://www.taizi-artmuseum.jp/guide/",
+    "https://taizi-artmuseum.jp/exhibition/",
+    "https://taizi-artmuseum.jp/news/suu-to-%e4%bd%9c%e5%93%81%e5%b1%95%e3%80%802026-9-29%ef%bc%8d11-1/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "企画展「原田泰治の世界　日本ふるさとぐるり旅Ⅱ」",
+      "start": "2026-08-06",
+      "end": "2027-01-17",
+      "url": "https://taizi-artmuseum.jp/exhibition/",
+      "kind": "special",
+      "summary": "日本各地のふるさとの風景を素朴なまなざしで描いた原田泰治の作品51点を展示",
+      "recommend": "農村や里山など日本の原風景を温かみある独自のスタイルで描き続けた原田泰治の作品を51点一堂に公開。「日本ふるさとぐるり旅」シリーズの新章として、見慣れた风景への新鮮な驚きを届ける。",
+      "admission": "一般 840円",
+      "adult_price": 840
+    },
+    {
+      "title": "渡部陽一写真展「世界を見つめる、未来を描く。」",
+      "start": "2026-10-01",
+      "end": "2026-11-29",
+      "url": "https://taizi-artmuseum.jp/exhibition/",
+      "kind": "special",
+      "summary": "戦場カメラマン渡部陽一が撮影した写真パネル30点を展示",
+      "recommend": null,
+      "admission": "一般 840円",
+      "adult_price": 840
+    },
+    {
+      "title": "Suu to. 作品展",
+      "start": "2026-09-29",
+      "end": "2026-11-01",
+      "url": "https://taizi-artmuseum.jp/news/suu-to-%e4%bd%9c%e5%93%81%e5%b1%95%e3%80%802026-9-29%ef%bc%8d11-1/",
+      "kind": "special",
+      "summary": "障害のあるクリエイターと制作する団体Suu to.による信州の自然をテーマにした作品展（ギャラリーさざなみ）",
+      "recommend": "軽井沢のアトリエを拠点に障害のあるクリエイターと制作する団体Suu to.の作品展。信州の自然・季節・光などを清らかなタッチで表現。ギャラリーさざなみのみの観覧は無料で入場できる。",
+      "admission": "無料（ギャラリーさざなみのみ）",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 840,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "上諏訪",
+      "lines": "JR中央本線",
+      "walk_min": null,
+      "note": "上諏訪駅からバスで約10分（約2km）"
+    }
+  ],
+  "highlights": "日本の農村や里山の原風景を温かみある素朴なタッチで描いた画家・原田泰治の専門美術館。諏訪市に位置し、2つの展示室で作品を紹介するほか、2階のギャラリーさざなみでは無料の企画展も随時開催される。",
+  "closed_between_exhibitions": false,
+  "notes": "ガイドページより：月曜休館（祝日は開館）、年末年始・展示替え日も休館。holiday_rule は「open」（振替休館なし）。入館料は大人一般840円。ギャラリーさざなみ（2階）のみの観覧は無料。",
+  "confidence": "high"
+}

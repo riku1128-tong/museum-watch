@@ -1,12 +1,13 @@
 {
   "id": "Q11369635",
-  "checked_at": "2026-09-28T23:28:12+09:00",
+  "checked_at": "2026-09-30T09:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://kume-museum.com/",
   "address": "〒141-0021 東京都品川区上大崎2-25-5 久米ビル8階",
   "adult_price": 500,
+  "highlights": "岩倉使節団に参加し『米欧回覧実記』を著した歴史家・久米邦武と、ラファエル・コランに師事し黒田清輝らへ洋画を伝えた洋画家・久米桂一郎の父子が設立した美術館。目黒駅西口から徒歩1分の久米ビル8階に位置し、父子の史料・絵画のほかコランや教え子たちの作品も展示。明治近代洋画の黎明期を身近に感じられる。",
   "access": [
     {"station": "目黒", "lines": "JR山手線", "exit": "西口", "walk_min": 1},
     {"station": "目黒", "lines": "東急目黒線・東京メトロ南北線・都営三田線", "walk_min": 2}

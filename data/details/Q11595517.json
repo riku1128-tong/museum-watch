@@ -1,6 +1,6 @@
 {
   "id": "Q11595517",
-  "checked_at": "2026-09-29T23:06:09+09:00",
+  "checked_at": "2026-09-30T09:13:42+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -40,7 +40,7 @@
       "note": "JR大曲駅から徒歩圏内"
     }
   ],
-  "highlights": null,
+  "highlights": "大仙市が運営する大曲地区の多目的文化交流施設。講堂・研修室・ラウンジを備え、市民の集会・文化活動・展示の場として機能する。国内最大規模の花火大会で知られる大曲の地で、地域の文化活動を支える拠点施設。",
   "closed_between_exhibitions": false,
   "notes": "公民館・交流施設。展示・博物館機能については詳細不明。",
   "confidence": "medium"

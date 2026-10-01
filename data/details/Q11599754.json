@@ -1,6 +1,6 @@
 {
   "id": "Q11599754",
-  "checked_at": "2026-09-29T23:15:54+09:00",
+  "checked_at": "2026-09-30T09:16:46+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -45,6 +45,22 @@
     }
   ],
   "adult_price": 300,
+  "free_days": [
+    {
+      "from": "2026-11-01",
+      "to": "2026-11-08",
+      "scope": "all",
+      "reason": "教育・文化週間",
+      "source_url": "https://www.city.fuefuki.yamanashi.jp/bunkazai/seifu_fuukeigaten.html"
+    },
+    {
+      "from": "2026-11-20",
+      "to": "2026-11-20",
+      "scope": "all",
+      "reason": "山梨県民の日",
+      "source_url": "https://www.city.fuefuki.yamanashi.jp/bunkazai/seifu_fuukeigaten.html"
+    }
+  ],
   "access": [
     {
       "station": "石和温泉",
@@ -56,6 +72,6 @@
   ],
   "highlights": "桃とぶどう畑に囲まれた笛吹市一宮町の美術館。明治〜昭和に活躍した京都出身の画家・津田青楓の作品約500点を収蔵し、日本画・油彩画・版画など60〜70点を常時展示する。年2回の展示替えで多彩な顔を見せる小さな専門美術館。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は月曜日（祝日の場合は翌平日）のほか、祝日の翌日（土日は除く）も休館。2026年9月28〜30日は展示替えのため休館。10月1日から「画家青楓の見た景色-心に映る風景画展-」が開始。",
+  "notes": "休館日は月曜日（祝日の場合は翌平日）のほか、祝日の翌日（土日は除く）も休館。2026年9月28〜30日は展示替えのため休館。10月1日から「画家青楓の見た景色-心に映る風景画展-」が開始。11月1〜8日（教育・文化週間）と11月20日（山梨県民の日）は入館無料。",
   "confidence": "high"
 }

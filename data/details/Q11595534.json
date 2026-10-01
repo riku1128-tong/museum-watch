@@ -1,7 +1,7 @@
 {
   "id": "Q11595534",
-  "checked_at": "2026-09-29T23:10:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:26:27+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://sakitama-muse.spec.ed.jp/",
@@ -32,6 +32,7 @@
   "closed_nth_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [
+    {"from": "2026-11-07", "to": "2026-11-07", "reason": "館内行事のため終日閉館（本館・将軍山古墳展示館とも）"},
     {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
   ],
   "special_openings": [],

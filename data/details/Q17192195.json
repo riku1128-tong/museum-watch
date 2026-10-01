@@ -1,0 +1,50 @@
+{
+  "id": "Q17192195",
+  "checked_at": "2026-09-30T09:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": "アートスペース（旧体育館）は2026年6月10日より一時閉鎖中",
+  "official_url": "https://www.artepiazza.jp/",
+  "address": "北海道美唄市落合町栄町",
+  "source_urls": [
+    "https://www.artepiazza.jp/",
+    "https://www.artepiazza.jp/guide/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-31", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "安田侃彫刻 常設展示",
+      "start": "2026-09-30",
+      "end": "2027-09-30",
+      "url": "https://www.artepiazza.jp/",
+      "kind": "collection",
+      "summary": "屋内外に大理石・ブロンズの彫刻約40点を恒久展示。通年",
+      "recommend": "廃校となった木造校舎ギャラリーと自然豊かな屋外空間に、安田侃の温かみある彫刻が点在する。季節ごとに変わる光と緑の中で彫刻を体感できる独自の空間体験が魅力。",
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "美唄",
+      "lines": "JR函館本線",
+      "walk_min": null,
+      "note": "美唄駅からあい愛バス「アルテピアッツァ美唄」行き（東明通り経由32分または旭通り経由19分）乗車。タクシーは東口から約10分"
+    }
+  ],
+  "highlights": "彫刻家・安田侃の大理石とブロンズ作品約40点を野外と旧木造校舎ギャラリーに展示する野外彫刻公園。廃校となった旧栄小学校を改装した趣ある空間で、自然の移ろいとともに彫刻を体験できる。毎月「こころを彫る授業」も開催。入場無料。",
+  "closed_between_exhibitions": false,
+  "notes": "「祝日の翌日（日曜を除く）」も休館（任意の祝日の翌日が休みになる）。アートスペース（旧体育館）は2026年6月10日より一時閉鎖中だが、屋外や校舎ギャラリーは通常開館。入場無料（任意による寄附をお願いしています）。",
+  "confidence": "high"
+}

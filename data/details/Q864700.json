@@ -1,7 +1,7 @@
 {
   "id": "Q864700",
-  "checked_at": "2026-09-28T23:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.mitsui-museum.jp/",
@@ -48,6 +48,17 @@
       "summary": "国宝「雪松図屏風」の公開にあわせ、館蔵の書画・工芸の四季・気象表現に注目",
       "admission": "一般 1,200円",
       "adult_price": 1200
+    },
+    {
+      "title": "三井家のおひなさま 特集展示 三井家の羽箒",
+      "start": "2027-02-11",
+      "end": "2027-04-04",
+      "url": "https://www.mitsui-museum.jp/exhibition/schedule.html",
+      "kind": "special",
+      "summary": "三井家伝来の雛人形・雛道具と三井家の羽箒の特集展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "closed_between_exhibitions": true,

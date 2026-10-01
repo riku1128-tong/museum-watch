@@ -1,0 +1,73 @@
+{
+  "id": "Q17222455",
+  "checked_at": "2026-09-30T10:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.tomakomai.hokkaido.jp/hakubutsukan/",
+  "address": "〒053-0011 北海道苫小牧市末広町3-9-7",
+  "source_urls": [
+    "https://www.city.tomakomai.hokkaido.jp/hakubutsukan/",
+    "https://www.city.tomakomai.hokkaido.jp/hakubutsukan/goriyo/goriyoannai.html",
+    "https://www.city.tomakomai.hokkaido.jp/hakubutsukan/access/",
+    "https://www.city.tomakomai.hokkaido.jp/hakubutsukan/tenrankai/munakata.html",
+    "https://www.city.tomakomai.hokkaido.jp/hakubutsukan/tenrankai/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "特別展「棟方志功―北方への祈り」",
+      "start": "2026-09-19",
+      "end": "2026-11-23",
+      "url": "https://www.city.tomakomai.hokkaido.jp/hakubutsukan/tenrankai/munakata.html",
+      "kind": "special",
+      "summary": "青森への望郷と縄文・アイヌ文化への想、神仏像まで、棟方志功が北方に注いだ祈りのまなざしを展観",
+      "recommend": "「世界のムナカタ」と称された棟方志功の板画芸術を「北方への祈り」という視点で読み解く。縄文・アイヌの儀礼に着想を得た作品や郷里・青森への深い愛着が伝わる作品群を一堂に集めた展覧会",
+      "admission": "一般 600円",
+      "adult_price": 600
+    },
+    {
+      "title": "中庭展示Vol.22 森迫暁夫「もしかして縄文人」",
+      "start": "2026-04-18",
+      "end": "2026-11-23",
+      "url": "https://www.city.tomakomai.hokkaido.jp/hakubutsukan/tenrankai/",
+      "kind": "special",
+      "summary": "屋外中庭での彫刻展示。森迫暁夫による彫刻作品",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "文化の日",
+      "source_url": "https://www.city.tomakomai.hokkaido.jp/hakubutsukan/goriyo/goriyoannai.html"
+    }
+  ],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "苫小牧",
+      "lines": "JR室蘭本線・千歳線",
+      "exit": null,
+      "walk_min": 20,
+      "note": "苫小牧駅前からバス利用で「出光カルチャーパーク」下車、徒歩5分（バス利用が便利）"
+    }
+  ],
+  "highlights": "愛称「あみゅー」を持つ苫小牧の文化拠点。美術と自然史・歴史を複合展示し、漫画「ゴールデンカムイ」のモデルとなった実物資料も所蔵する。館外の中庭では屋外彫刻展示も楽しめ、こどもの日・文化の日は入館無料。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「毎週月曜日（月曜が祝日の場合は開館・次の平日が休館）、年末年始（12/29〜1/3）」。文化の日（11/3）とこどもの日（5/5）は無料公開（goriyoannai.html に記載）。中庭展示の入館料は明記なし（通常観覧料に含まれると推定）。",
+  "confidence": "high"
+}

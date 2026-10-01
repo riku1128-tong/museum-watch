@@ -1,0 +1,108 @@
+{
+  "id": "Q11260168",
+  "checked_at": "2026-09-30T09:13:11+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "福島県いわき市平字堂根町4-4",
+  "source_urls": [
+    "https://www.city.iwaki.lg.jp/artmuseum.html",
+    "https://www.city.iwaki.lg.jp/www/contents/1001000005286/index.html",
+    "https://www.city.iwaki.lg.jp/www/contents/1001000005269/index.html",
+    "https://www.city.iwaki.lg.jp/www/contents/1001000005268/index.html",
+    "https://www.city.iwaki.lg.jp/www/contents/1001000005276/index.html",
+    "https://www.city.iwaki.lg.jp/www/contents/1783468433731/index.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2027-01-18",
+      "to": "2027-03-31",
+      "reason": "館内メンテナンス工事等"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "松本陽子　宵の明星を見た日",
+      "start": "2026-09-12",
+      "end": "2026-11-01",
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1783468433731/index.html",
+      "kind": "special",
+      "summary": "1950年代初期作から2026年最新作まで約40点。65年に及ぶ画業を振り返る美術館初の大規模個展",
+      "recommend": "色彩と技法を変えながら「壮大な広がり」を追い続けた松本陽子の、美術館では初の大規模個展。1950年代の初期作から2026年制作の最新作まで40点が一堂に会し、65年の画業の全貌を一挙に体感できる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "ニューアートシーン・イン・いわき　渡邉洵　鱗次輪行",
+      "start": "2026-09-12",
+      "end": "2026-11-01",
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1784009384032/index.html",
+      "kind": "special",
+      "summary": "いわきゆかりの作家・渡邉洵の個展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "いわき市市制施行60周年記念　いわきの美術",
+      "start": "2026-09-29",
+      "end": "2027-01-17",
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1001000005276/index.html",
+      "kind": "collection",
+      "summary": "通年。市制60周年記念の常設展後期。特集「ある視点、松本陽子」を併催（9/29〜1/17）",
+      "recommend": null,
+      "admission": "一般 220円",
+      "adult_price": 220
+    }
+  ],
+  "adult_price": 220,
+  "free_days": [
+    {
+      "from": "2026-10-12",
+      "to": "2026-10-12",
+      "scope": "collection",
+      "reason": "祝日は常設展観覧無料（スポーツの日）",
+      "source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000005276/index.html"
+    },
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "collection",
+      "reason": "祝日は常設展観覧無料（文化の日）",
+      "source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000005276/index.html"
+    },
+    {
+      "from": "2026-11-23",
+      "to": "2026-11-23",
+      "scope": "collection",
+      "reason": "祝日は常設展観覧無料（勤労感謝の日）",
+      "source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000005276/index.html"
+    }
+  ],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "いわき",
+      "lines": "JR常磐線・磐越東線",
+      "exit": null,
+      "walk_min": 12,
+      "note": null
+    }
+  ],
+  "highlights": "戦後の現代美術を中心に約2,300点を収蔵し、ボイス・ジャスパー・ジョンズ・草間彌生・ヘンリー・ムーアら国内外の巨匠の作品が揃う福島県最大級の美術館。広場にはムーアの彫刻が立ち、館内は光が差し込む三層吹き抜けアトリウムが印象的。",
+  "closed_between_exhibitions": false,
+  "notes": "7月・8月の毎週金曜日は20時まで延長開館（最終入場19:30）。祝日は常設展観覧無料（free_days参照）。企画展のチケットで常設展も観覧可。2027年1月18日から3月31日まで館内メンテナンス工事等のため休館予定。",
+  "confidence": "high"
+}

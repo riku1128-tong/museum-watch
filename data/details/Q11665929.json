@@ -1,0 +1,52 @@
+{
+  "id": "Q11665929",
+  "checked_at": "2026-09-30T09:02:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://htma.rtg.jp/",
+  "address": "〒506-0055 岐阜県高山市上岡本町1丁目124番地1",
+  "source_urls": [
+    "https://htma.rtg.jp/",
+    "https://sanctuarycourt.jp/takayama/artgallery/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設コレクション アール・ヌーヴォー・アール・デコのガラス芸術",
+      "start": "2024-04-01",
+      "end": "2027-09-30",
+      "url": "https://htma.rtg.jp/",
+      "kind": "collection",
+      "summary": "通年。エミール・ガレ・ルネ・ラリックら16〜20世紀のガラス工芸品約850点とアール・デコ家具を2展示室で展示",
+      "recommend": "ロビーにはかつてパリのシャンゼリゼにあったラリックのガラス噴水が置かれ、ガレの花器やラリックの照明・アクセサリーを展示室1「ガレの杜」で、うつろいの光を演出する展示室2「うつろいの間」でも楽しめる。",
+      "admission": "一般 2,000円",
+      "adult_price": 2000
+    }
+  ],
+  "adult_price": 2000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "高山",
+      "lines": "JR高山本線",
+      "exit": null,
+      "walk_min": 25
+    }
+  ],
+  "highlights": "旧飛騨高山美術館のコレクションを引き継ぎ、2024年春にリゾートホテル内のアートギャラリーとして刷新オープン。エミール・ガレやルネ・ラリックなどアール・ヌーヴォー・アール・デコのガラス工芸品約850点と19世紀末の家具・照明器具を収蔵・展示する。",
+  "closed_between_exhibitions": false,
+  "notes": "旧飛騨高山美術館のコレクションをリゾートトラスト株式会社が運営するサンクチュアリコート高山のアートギャラリーとして引き継ぎ。公式サイトでは休館日・定休日の記載が確認できなかったため、閉館日は不明（ホテル施設のため基本無休と推定）。ホテル宿泊者は8:00〜18:00。",
+  "confidence": "medium"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Q5760427",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://h-am.jp/",
+  "address": "〒506-0051 岐阜県高山市中山町175",
+  "source_urls": [
+    "https://h-am.jp/",
+    "https://h-am.jp/info/info.html",
+    "https://h-am.jp/access/access.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:00"}
+  ],
+  "closed_weekdays": ["wed"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "刀剣とやまと心",
+      "start": "2026-02-27",
+      "end": "2026-12-27",
+      "url": null,
+      "kind": "special",
+      "summary": "日本刀とやまと心をテーマにした特別展示",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "第70回多田祐子展",
+      "start": "2026-10-01",
+      "end": "2026-12-27",
+      "url": null,
+      "kind": "special",
+      "summary": "多田祐子による第70回記念作品展",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "高山", "lines": "JR高山本線", "exit": null, "walk_min": null, "note": "高山駅からタクシー約10分。土日祝は高山駅西口から無料送迎バスあり（高山濃飛バスセンター発も利用可）"}
+  ],
+  "highlights": "岐阜県高山市にある複合型ミュージアム。古代文明の遺跡をモチーフにしたライムストーン建築が異彩を放ち、美術品・古代遺物・化石・岩石まで幅広く収蔵・展示する。土日祝は高山駅から無料送迎バスも運行し飛騨観光の立ち寄りスポットとしても人気。",
+  "closed_between_exhibitions": false,
+  "notes": "水曜休館（祝日の場合は開館、振替なし）。公式サイトに「冬期間は休館日」との記載があるが、具体的な期間が確認できなかったため special_closures に入れていない。冬期（概ね12月末〜3月頃）は休館の可能性あり。次回巡回時に要確認。展示は館共通の入館料1,000円で観覧可能。",
+  "confidence": "medium"
+}

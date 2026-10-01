@@ -1,6 +1,6 @@
 {
   "id": "Q11468702",
-  "checked_at": "2026-09-29T23:06:49+09:00",
+  "checked_at": "2026-09-30T09:16:46+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,7 +8,7 @@
   "address": "〒997-1206 山形県鶴岡市今泉字大久保657-1",
   "source_urls": [
     "https://kamo-kurage.jp/",
-    "https://dobutsubiyori.com/kamoaquarium/"
+    "https://kamo-kurage.jp/nyukan/"
   ],
   "regular_hours": [
     {
@@ -23,7 +23,7 @@
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [],
-  "adult_price": 1000,
+  "adult_price": 1500,
   "free_days": [],
   "free_rules": [],
   "access": [
@@ -36,6 +36,6 @@
   ],
   "highlights": "クラゲの展示種類数世界一を誇る水族館。常時60種以上のクラゲを展示し、直径5メートルの「クラゲドリームシアター」が圧巻。2026年4月にリニューアルし100種展示に拡大。ゴマフアザラシやアシカの解説プログラムも人気。",
   "closed_between_exhibitions": false,
-  "notes": "不定期でメンテナンス休館あり。公式サイト（kamo-kurage.jp）の直接取得ができなかったため情報は一般情報サイト等からの取得。",
+  "notes": "不定期でメンテナンス休館あり。2026年4月リニューアル後の入館料は大人一般1,500円（公式サイトnyukanページで確認）。休館日の記載は公式サイトに見当たらないため confidence は medium のまま。",
   "confidence": "medium"
 }

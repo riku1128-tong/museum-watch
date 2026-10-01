@@ -1,0 +1,41 @@
+{
+  "id": "Q24874086",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "設備更新工事（空調熱源機器のガス式→電気式更新・LED化等）のため2026年7月1日〜2027年6月末まで休館",
+  "official_url": "http://www.art.museum.city.fukui.fukui.jp/",
+  "address": "〒918-8112 福井県福井市下馬3-1111",
+  "source_urls": [
+    "https://www.city.fukui.lg.jp/dept/kankoubunka/art/index.html",
+    "https://www.city.fukui.lg.jp/kankou/bunka/sisetu/goannai.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:15",
+      "last_entry": "16:45"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-07-01",
+      "to": "2027-06-30",
+      "reason": "設備更新工事による長期休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（http://www.art.museum.city.fukui.fukui.jp/）はSSL証明書が失効のため直接読めず。2026年7月1日より設備更新工事のため2027年6月末まで約1年間休館（工事費約10.6億円、空調・LED等更新）。通常の入館料・展覧会情報は休館前の状況を反映していない。常設展は「高田博厚の世界」。祝日の翌日（日曜除く）も閉館するのが通常ルール。",
+  "confidence": "medium"
+}

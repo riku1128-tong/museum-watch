@@ -1,7 +1,7 @@
 {
   "id": "Q11595515",
-  "checked_at": "2026-09-29T23:05:41+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:08:17+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.kawatsura.or.jp/",
@@ -31,7 +31,7 @@
     {
       "title": "川連漆器 歴史資料館（常設）",
       "start": "2026-01-01",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "url": null,
       "kind": "collection",
       "summary": "2階に川連漆器の歴史資料を常設展示。通年",

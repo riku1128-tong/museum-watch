@@ -1,7 +1,7 @@
 {
   "id": "wp-78342475",
-  "checked_at": "2026-09-29T23:15:54+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:35:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.chichibumuseum.com/",
@@ -31,7 +31,7 @@
     {
       "title": "常設展（幕末から現代の地方ゆかりの絵画・仏教美術・民俗資料）",
       "start": "2026-01-01",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "url": null,
       "kind": "collection",
       "summary": "幕末から現代にかけて地方にゆかりのある画家たちの絵画・掛軸、仏教美術、民俗資料を常時展示。通年",

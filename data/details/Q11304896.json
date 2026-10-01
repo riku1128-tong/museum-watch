@@ -1,7 +1,7 @@
 {
   "id": "Q11304896",
-  "checked_at": "2026-09-29T23:23:32+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.tome.miyagi.jp/satorusatoartmuseum/",
@@ -24,7 +24,7 @@
     {
       "title": "構造と概念・構成と概念",
       "start": "2026-01-01",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "url": null,
       "kind": "collection",
       "summary": "通年。サトル・サトウが収集した幾何学構成絵画を中心に、パリで交友した国際的作家たちの作品622点を展示",

@@ -1,6 +1,6 @@
 {
   "id": "Q22118917",
-  "checked_at": "2026-09-29T23:22:10+09:00",
+  "checked_at": "2026-09-30T09:03:59+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -18,7 +18,7 @@
   "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始休館"}
+    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始休館"}
   ],
   "special_openings": [],
   "exhibitions": [

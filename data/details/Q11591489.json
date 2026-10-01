@@ -1,0 +1,83 @@
+{
+  "id": "Q11591489",
+  "checked_at": "2026-09-30T09:13:11+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://fukui-kenbi.pref.fukui.lg.jp/",
+  "address": "〒910-0017 福井県福井市文京3丁目16-1",
+  "source_urls": [
+    "https://fukui-kenbi.pref.fukui.lg.jp/",
+    "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/",
+    "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/140",
+    "https://fukui-kenbi.pref.fukui.lg.jp/collection/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [
+    {
+      "date": "2026-09-21",
+      "open": "09:00",
+      "close": "17:00",
+      "note": "ミッフィー展開催中につき月曜開館"
+    },
+    {
+      "date": "2026-11-02",
+      "open": "09:00",
+      "close": "17:00",
+      "note": "ミッフィー展開催中につき月曜開館"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "誕生70周年記念 ミッフィー展",
+      "start": "2026-09-19",
+      "end": "2026-11-08",
+      "url": "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/140",
+      "kind": "special",
+      "summary": "ディック・ブルーナによるミッフィーシリーズ全32作の原画・スケッチなど約200点。初来日の原画を含む",
+      "recommend": "誕生70周年を記念し、32冊全作品の原画やスケッチ約200点が集結。なかには日本初公開の原画も含まれ、ミッフィーが生まれた過程をブルーナ自身の筆跡から直接たどれる貴重な機会。",
+      "admission": "一般 1,500円",
+      "adult_price": 1500,
+      "closed_dates": [
+        "2026-09-28",
+        "2026-10-05",
+        "2026-10-19",
+        "2026-10-26"
+      ]
+    }
+  ],
+  "adult_price": 100,
+  "free_days": [],
+  "free_rules": [
+    {
+      "weekday": "sun",
+      "nth": [3],
+      "scope": "collection",
+      "reason": "ファミリーデー（毎月第3日曜）はコレクション展・テーマ展無料",
+      "source_url": "https://fukui-kenbi.pref.fukui.lg.jp/"
+    }
+  ],
+  "access": [
+    {
+      "station": "田原町",
+      "lines": "えちぜん鉄道三国芦原線・福井鉄道",
+      "exit": null,
+      "walk_min": 8,
+      "note": "JR福井駅から京福バスで約15分「藤島高校前」下車またはフレンドリーバスで約15分「子ども歴史文化館前」下車徒歩5分"
+    }
+  ],
+  "highlights": "1977年開館。岡倉天心ゆかりの作家を核とした日本画、江戸初期の岩佐又兵衛作品、福井ゆかりの近現代美術、西洋美術など約3,400点（寄託品除く）を収蔵。コレクション展・テーマ展を常時開催し、年数回の特別企画展も実施。",
+  "closed_between_exhibitions": false,
+  "notes": "特別企画展開催中は月曜日も開館（展示ページに記載された休館日を除く）。コレクション展・テーマ展の一般料金は100円。毎月第3日曜日（ファミリーデー）と2月7日（ふるさとの日）はコレクション展・テーマ展が無料。特別企画展の入館料は展覧会ごとに異なる。",
+  "confidence": "high"
+}

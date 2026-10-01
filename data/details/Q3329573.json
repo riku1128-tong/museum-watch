@@ -1,6 +1,6 @@
 {
   "id": "Q3329573",
-  "checked_at": "2026-09-29T23:19:43+09:00",
+  "checked_at": "2026-09-30T09:06:54+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -58,6 +58,7 @@
   ],
   "closed_between_exhibitions": true,
   "adult_price": null,
+  "highlights": "岩﨑彌之助・小彌太父子が2代かけて蒐集した国宝7件・重文84件を含む東洋古美術約6,500件を収蔵。なかでも世界に完全品が3件しかない国宝《曜変天目（稲葉天目）》は必見。展示は重要文化財・明治生命館1階で、丸の内に残る昭和初期の名建築の中で鑑賞できる。",
   "access": [
     {"station": "二重橋前", "lines": "東京メトロ千代田線", "exit": "3", "walk_min": 0, "note": "3番出口直結"},
     {"station": "東京", "lines": "JR各線", "exit": "丸の内南口", "walk_min": 5},

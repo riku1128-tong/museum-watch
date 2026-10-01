@@ -1,0 +1,74 @@
+{
+  "id": "Q11402968",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://artmuseum.pref.hokkaido.lg.jp/abj/",
+  "address": "〒070-0044 北海道旭川市常磐公園内",
+  "source_urls": [
+    "https://artmuseum.pref.hokkaido.lg.jp/abj/",
+    "https://artmuseum.pref.hokkaido.lg.jp/abj/guide/",
+    "https://artmuseum.pref.hokkaido.lg.jp/abj/access/",
+    "https://artmuseum.pref.hokkaido.lg.jp/abj/exhibition/program/324",
+    "https://artmuseum.pref.hokkaido.lg.jp/abj/exhibition/program/327"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "大広重展―東海道五拾三次と雪月花　叙情の世界",
+      "start": "2026-09-19",
+      "end": "2026-11-23",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/abj/exhibition/program/324",
+      "kind": "special",
+      "summary": "歌川広重の「東海道五拾三次」「名所江戸百景」など肉筆画・戯画・役者絵を含む多種多様な約200点を四季のテーマで紹介",
+      "recommend": "広重の代表作「東海道五拾三次」全宿をはじめ晩年の傑作「名所江戸百景」など約200点を一挙公開。臨場感あふれる風景描写と叙情的な色彩で江戸の美意識を堪能できる大回顧展。",
+      "admission": "一般1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "命ことほぐ「君の椅子」―居場所をとどけて21年－",
+      "start": "2026-09-19",
+      "end": "2026-11-23",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/abj/exhibition/program/327",
+      "kind": "special",
+      "summary": "北海道発・生まれた子へ木製椅子を贈るプロジェクト21年の軌跡。各年の椅子と関わった人々の言葉を展示",
+      "recommend": "「生まれてきてくれてありがとう」と伝える北海道発の椅子プロジェクト。2006年から21年分の椅子が並び、関わった人々の言葉とともに命の豊かさを伝える温かな展示。",
+      "admission": "一般260円",
+      "adult_price": 260
+    }
+  ],
+  "adult_price": 260,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "旭川",
+      "lines": "JR各線",
+      "exit": null,
+      "walk_min": null,
+      "note": "旭川駅から路線バス（3・33・35番）で「4条4丁目」下車徒歩5分、または「常磐公園前」下車徒歩7分。徒歩約20分"
+    }
+  ],
+  "highlights": "道北地域の美術文化の拠点となる北海道立美術館。地域性と国際性を軸に道北ゆかりの作家の絵画・版画・彫刻・工芸を多数収蔵。旭川市の緑豊かな常磐公園内に立地し、規模の大きな企画展から地域作家展まで多彩なプログラムを年間通じて開催。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜が祝日・振替休日の場合は開館し翌火曜日休館（「芸術週間」中は月曜でも開館）。第1展示室は企画展ごとの料金（現在1,000円）、第2展示室（コレクション）は一般260円の別立て料金。65歳以上・中学生以下は第2展示室無料。障がい者手帳所持者などは全展覧会無料。",
+  "confidence": "high"
+}

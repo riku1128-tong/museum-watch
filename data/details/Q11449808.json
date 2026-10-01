@@ -1,6 +1,6 @@
 {
   "id": "Q11449808",
-  "checked_at": "2026-09-28T23:30:00+09:00",
+  "checked_at": "2026-09-30T09:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -45,6 +45,7 @@
       "adult_price": 1200
     }
   ],
+  "adult_price": 310,
   "closed_between_exhibitions": false,
   "access": [
     {"station": "宇都宮", "lines": "JR宇都宮線ほか", "exit": "西口", "walk_min": null, "note": "西口5番バス乗場より関東バス「豊郷台・帝京大学経由宇都宮美術館」行き終点下車（約25分）"}

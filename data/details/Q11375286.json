@@ -1,7 +1,7 @@
 {
   "id": "Q11375286",
-  "checked_at": "2026-09-29T23:14:25+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:05:25+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://kyoto-toban-hp.or.jp/",
@@ -23,7 +23,7 @@
     {
       "title": "陶板名画 常設展示",
       "start": "2026-04-01",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "url": null,
       "kind": "collection",
       "summary": "通年。モネ「睡蓮・朝」、ミケランジェロ「最後の審判」、ダ・ヴィンチ「最後の晩餐」など世界の名画8点を陶板で再現した屋外常設展示",

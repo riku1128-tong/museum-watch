@@ -1,6 +1,6 @@
 {
   "id": "Q5507735",
-  "checked_at": "2026-09-29T23:01:13+09:00",
+  "checked_at": "2026-09-30T09:13:02+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -32,7 +32,7 @@
       "url": null,
       "kind": "special",
       "summary": "浮世絵や絵巻に描かれた猫をテーマにした企画展",
-      "recommend": null,
+      "recommend": "歌川国芳など江戸〜明治の浮世絵師が描いた猫作品を一堂に展示。猫の生態・歴史・人との関わりを多彩な浮世絵で読み解き、単なるかわいさを超えた猫と社会の深い結びつきを発見できる。",
       "admission": "一般・大学生 1,000円",
       "adult_price": 1000
     }

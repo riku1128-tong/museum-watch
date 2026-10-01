@@ -1,6 +1,6 @@
 {
   "id": "Q705767",
-  "checked_at": "2026-09-29T23:23:32+09:00",
+  "checked_at": "2026-09-30T09:26:22+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -39,7 +39,7 @@
       "url": "https://www.arttowermito.or.jp/gallery/lineup/article_5432.html",
       "kind": "collection",
       "summary": "ATM収蔵作品より17人のアーティストの作品を紹介する収蔵作品展",
-      "recommend": null,
+      "recommend": "水戸芸術館が開館以来積み重ねた展覧会の軌跡を収蔵作品で辿る企画。80年代末から2026年の新規収蔵まで約50点が一堂に集まり、彫刻・絵画・写真・インスタレーションなど多彩な手法で現代美術の変遷を俯瞰できる。",
       "admission": "一般 900円（団体20名以上 700円）",
       "adult_price": 900
     }

@@ -1,13 +1,15 @@
 {
   "id": "Q3884831",
-  "checked_at": "2026-09-29T23:30:00+09:00",
+  "checked_at": "2026-09-30T09:05:04+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
+  "official_url": "https://www.nishi.or.jp/access/hakubutsukan/kyodoshirokan/index.html",
   "address": "兵庫県西宮市川添町15番26号",
   "source_urls": [
+    "https://www.nishi.or.jp/access/hakubutsukan/kyodoshirokan/index.html",
     "https://www.nishi.or.jp/access/hakubutsukan/kyodoshirokan/kyodo-access.html",
-    "https://harimap.com/nishinomiya-nishihaku-collection-20260919/"
+    "https://www.nishi.or.jp/access/hakubutsukan/kyodoshirokan/kyodoshiryokan.html"
   ],
   "regular_hours": [
     {
@@ -66,8 +68,8 @@
       "note": "南へ徒歩17分"
     }
   ],
-  "highlights": null,
+  "highlights": "西宮地方の歴史と文化財を実物資料で学べる市内唯一の郷土資料館。約4万点の収蔵資料から約250点を常設展示し、県指定天然記念物の植物遺体・市指定重文の古墳出土品・江戸時代の樽廻船模型・宿駅生瀬の街並み復元模型など原始から近代を幅広くカバー。企画展や講座も定期開催。",
   "closed_between_exhibitions": false,
-  "notes": "臨時休館（展示設営・復旧期間）あり。2025年の情報では9月2日〜9月12日・10月28日〜10月31日が臨時休館だった。",
+  "notes": "祝日の営業については公式サイトに明記なし（holiday_rule: unknown）。臨時休館（展示設営・復旧期間）あり。次回展覧会の情報は公式サイトへの掲載を確認できず。",
   "confidence": "high"
 }

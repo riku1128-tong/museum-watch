@@ -1,0 +1,66 @@
+{
+  "id": "Q11505553",
+  "checked_at": "2026-09-30T10:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kimonomuseum.jp/",
+  "address": "〒963-1309 福島県郡山市熱海町熱海5-211",
+  "source_urls": [
+    "https://kimonomuseum.jp/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"},
+    {"from": "2027-01-19", "to": "2027-01-20", "reason": "きもの入れ替え"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "とべます？～「とべる」生きものが描かれているきもの～",
+      "start": "2026-09-10",
+      "end": "2027-01-18",
+      "url": "https://kimonomuseum.jp/",
+      "kind": "special",
+      "summary": "蝶・鳥・龍など空を飛ぶ生きものを題材にした着物を集めた企画展",
+      "recommend": "飛翔する生きものを大胆に描いた絹の着物が一堂に会する企画展。蝶や鳥、龍など多彩なモチーフを通じて、職人が意匠に込めた自由や力への憧れを感じながら、きもの文化の奥深さを楽しめる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "常設展示（婚礼衣装・歌舞伎衣装・振袖）",
+      "start": "2026-01-01",
+      "end": "2027-09-30",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。3階で婚礼衣装・歌舞伎衣装・振袖など特選きもの・染織品を展示",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "磐梯熱海",
+      "lines": "JR磐越西線",
+      "exit": null,
+      "walk_min": 7,
+      "note": "磐梯熱海ICより車で5分"
+    }
+  ],
+  "highlights": "温泉地・磐梯熱海にある、きものを専門テーマとした美術館。婚礼衣装・歌舞伎衣装・振袖などの名品を常設展示するほか、2階では毎年テーマを変えた銘仙などの企画展を開催。きもの文化を見る・知る・楽しむ体験ができる。",
+  "closed_between_exhibitions": false,
+  "notes": "1月と3月の季節変動時間については第三者情報と公式サイト情報に差異あり（公式サイトは10:00~17:00のみ記載）。1/19・1/20はきもの入れ替えに伴う臨時休館（公式サイトの案内による）。",
+  "confidence": "high"
+}

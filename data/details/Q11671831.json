@@ -1,0 +1,95 @@
+{
+  "id": "Q11671831",
+  "checked_at": "2026-09-30T09:08:12+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.takahama-kawara-museum.com/",
+  "address": "〒444-1325 愛知県高浜市青木町九丁目6番地18",
+  "source_urls": [
+    "https://www.takahama-kawara-museum.com/",
+    "https://www.takahama-kawara-museum.com/info/",
+    "https://www.takahama-kawara-museum.com/exhibition/category/curation/p11897/",
+    "https://www.takahama-kawara-museum.com/exhibition/category/collection/p11913/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon", "tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "reason": "特別休館日"
+    },
+    {
+      "from": "2026-12-02",
+      "to": "2026-12-02",
+      "reason": "特別休館日"
+    },
+    {
+      "from": "2026-12-26",
+      "to": "2027-01-05",
+      "reason": "年末年始休館"
+    },
+    {
+      "from": "2027-02-23",
+      "to": "2027-02-28",
+      "reason": "冬期休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "刀根里衣　絵本原画展",
+      "start": "2026-07-25",
+      "end": "2026-10-18",
+      "url": "https://www.takahama-kawara-museum.com/exhibition/category/curation/p11897/",
+      "kind": "special",
+      "summary": "ヨーロッパ・アジアでも人気の絵本作家・刀根里衣の絵本原画100点以上と制作資料を展示",
+      "recommend": "幻想的で優しく切ない世界観で知られる刀根里衣の絵本原画100点以上が集結。日本・ヨーロッパ・アジアの読者を魅了した美しい色彩と物語の世界を原画で体感できる。",
+      "admission": "一般 900円",
+      "adult_price": 900
+    },
+    {
+      "title": "○○をさがせ！ ―見えないものの だいそうさく！―",
+      "start": "2026-11-28",
+      "end": "2027-02-14",
+      "url": "https://www.takahama-kawara-museum.com/exhibition/category/collection/p11913/",
+      "kind": "collection",
+      "summary": "見えるものから見えない出来事を想像して楽しむコレクション展。作品鑑賞の「手がかり」を探す",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "高浜港",
+      "lines": "名鉄三河線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    },
+    {
+      "station": "三河高浜",
+      "lines": "名鉄三河線",
+      "exit": null,
+      "walk_min": null,
+      "note": "三河高浜駅からタクシー約5分"
+    }
+  ],
+  "highlights": "高浜市特産の三州瓦の文化を伝えるやきもの・かわら専門の美術館。瓦職人の技術を紹介する展示と、絵本・現代美術の企画展を融合したユニークな施設。常設展示は無料で、図書館（ライブラリー ほんの森）も併設する。",
+  "closed_between_exhibitions": false,
+  "notes": "常設展（コレクション展）は入館無料。企画展は別途料金。月曜・火曜休館（祝休日の場合は翌平日）。特定日（11/3・12/2）および年末年始・冬期も休館。",
+  "confidence": "high"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q3329572",
-  "checked_at": "2026-09-28T23:27:31+09:00",
+  "checked_at": "2026-09-30T09:10:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,6 +8,7 @@
   "address": "〒150-0012 東京都渋谷区広尾3-12-36",
   "source_urls": [
     "https://www.yamatane-museum.jp/",
+    "https://www.yamatane-museum.jp/about/",
     "https://www.yamatane-museum.jp/guidance/",
     "https://www.yamatane-museum.jp/exhibitions/2026/togyu.html",
     "https://www.yamatane-museum.jp/exhibitions/2026/yamatane-collection1.html",
@@ -23,7 +24,9 @@
   ],
   "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {"from": "2026-10-05", "to": "2026-10-09", "reason": "展示替えのため"}
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -33,7 +36,9 @@
       "url": "https://www.yamatane-museum.jp/exhibitions/2026/togyu.html",
       "kind": "special",
       "summary": "日本屈指の土牛コレクションから《鳴門》《醍醐》など約60点で画業を回顧",
-      "admission": "一般 1,500円"
+      "recommend": "日本屈指の土牛コレクションから《鳴門》《醍醐》など代表作約60点で大正から昭和にかけての画業を回顧。繊細な色彩と詩情あふれる世界が揃い、日本近代日本画の巨匠の100年の歩みを丁寧にたどれる貴重な機会。",
+      "admission": "一般 1,500円",
+      "adult_price": 1500
     },
     {
       "title": "ザ・ベスト・オブ・山種コレクションⅠ―横山大観、竹内栖鳳から上村松園、速水御舟へ―",
@@ -42,10 +47,13 @@
       "url": "https://www.yamatane-museum.jp/exhibitions/2026/yamatane-collection1.html",
       "kind": "special",
       "summary": "重要文化財・竹内栖鳳《班猫》など近代日本画の名品約40点",
-      "admission": "一般 1,500円"
+      "recommend": "開館60周年記念特別シリーズ第3弾。重要文化財の竹内栖鳳《班猫》をはじめ、横山大観・上村松園・速水御舟ら日本近代日本画を代表する名品約40点が一堂に。山種コレクションの精華を一気に体感できる充実の展覧会。",
+      "admission": "一般 1,500円",
+      "adult_price": 1500
     }
   ],
   "closed_between_exhibitions": true,
-  "notes": "休館日は「毎週月曜日（祝日は開館、翌日火曜日は休館）展示替え期間、年末年始」。奥村土牛展ページに「9月24日(木)は休館」と明記（祝日ルールの算出と一致）。10/5〜10/9 は展示と展示の間。年末年始の具体的日付は未確認。常設の展示室を持たず企画展ごとの入替制のため adult_price（館共通の常設料金）は null。",
+  "highlights": "1966年、山﨑種二のコレクションをもとに日本初の日本画専門美術館として開館。重要文化財6点を含む近・現代日本画約1800点を所蔵し、横山大観・竹内栖鳳・速水御舟・上村松園らの名品を年5〜6回の展覧会で公開。ロビーに加山又造の陶板壁画《千羽鶴》が常設されている。",
+  "notes": "休館日は「毎週月曜日（祝日は開館、翌日火曜日は休館）展示替え期間、年末年始」。奥村土牛展ページに「9月24日(木)は休館」と明記（祝日ルールの算出と一致）。10/5〜10/9 は展示替え期間（special_closures に追加）。年末年始の具体的日付は未確認。常設の展示室を持たず企画展ごとの入替制のため adult_price（館共通の常設料金）は null。",
   "confidence": "high"
 }

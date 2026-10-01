@@ -1,7 +1,7 @@
 {
   "id": "Q11595538",
-  "checked_at": "2026-09-29T23:10:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:33:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.higashimatsuyama.lg.jp/soshiki/55/3713.html",
@@ -29,7 +29,7 @@
     {
       "title": "常設展示（東松山市の埋蔵文化財）",
       "start": "2026-01-01",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/55/3713.html",
       "kind": "collection",
       "summary": "通年。市内の発掘調査で出土した土器・石器・埴輪などを展示",

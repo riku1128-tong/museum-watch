@@ -1,0 +1,44 @@
+{
+  "id": "Q11566635",
+  "checked_at": "2026-09-30T09:08:17+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.seto-cul.jp/seto-museum/",
+  "address": "〒489-0884 愛知県瀬戸市西茨町113-3（瀬戸市文化センター内）",
+  "source_urls": [
+    "http://www.seto-cul.jp/seto-museum/",
+    "http://www.seto-cul.jp/seto-museum/access.html",
+    "http://www.seto-cul.jp/archive/seto-museum.php?h=38",
+    "https://www.museum.or.jp/museum/17421"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [
+    {"weekday": "tue", "nth": [2]}
+  ],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 100,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "尾張瀬戸",
+      "lines": "名古屋鉄道瀬戸線",
+      "exit": null,
+      "walk_min": 13,
+      "note": null
+    }
+  ],
+  "highlights": "「焼き物の街」瀬戸を代表する美術館。加藤唐九郎・加藤土師萌・藤井達吉・北川民次ら地域ゆかりの作家を中心に、陶芸・絵画・彫刻約1000点を収蔵。年6回ほどの企画展と特別展で陶磁器を軸に多彩なジャンルの展覧会を開催。常設展の入館料は大人100円と手軽に楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "毎月第2火曜日は臨時休館日（定期的なパターン）。年末年始（12/28〜1/4）休館。2026年度は最後の企画展（瀬戸陶芸協会90周年記念展）が9月27日で終了。次の企画展は未発表。入館料は企画展・特別展開催中は別途設定。20名以上団体は2割引。中学生以下・障害者手帳保持者・妊婦・65歳以上は無料。",
+  "confidence": "medium"
+}

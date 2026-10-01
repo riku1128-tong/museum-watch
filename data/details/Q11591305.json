@@ -1,0 +1,43 @@
+{
+  "id": "Q11591305",
+  "checked_at": "2026-09-30T09:20:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.fukui-rekimachi.jp/atagozaka/",
+  "address": "〒918-8007 福井県福井市足羽1-8-5",
+  "source_urls": [
+    "http://www.fukui-rekimachi.jp/atagozaka/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:15", "last_entry": "16:45"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-20", "to": "2026-10-22", "reason": "展示替え臨時休館"},
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "すごいぞ、狩野派。",
+      "start": "2026-06-26",
+      "end": "2026-10-18",
+      "url": "http://www.fukui-rekimachi.jp/atagozaka/",
+      "kind": "special",
+      "summary": "室町中期から江戸末期まで約400年活動した日本最大の画派・狩野派の絵画を紹介",
+      "recommend": "約400年にわたり宮廷から幕府まで庇護を受け続けた日本最大の画派・狩野派。多彩なスタイルで日本絵画史を牽引した絵師たちの作品を、愛宕坂の茶道美術館で一堂に鑑賞できる機会。",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "福井市の歴史ある愛宕坂に佇む茶道専門の美術館。茶道史と茶道文化をテーマに茶器・茶道具を中心とした企画展を開催する。かつて料亭や茶屋が建ち並んだ風情ある石段の坂の傍らで、茶の湯の世界をゆっくりと鑑賞できる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイトに入館料・アクセスの記載なし。10/20〜22は展示替えのため臨時休館。10/18で現在の企画展終了、次展覧会の情報は未公開。",
+  "confidence": "medium"
+}

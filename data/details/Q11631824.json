@@ -1,7 +1,7 @@
 {
   "id": "Q11631824",
-  "checked_at": "2026-09-29T23:45:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:32:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": null,
@@ -23,7 +23,7 @@
     {
       "title": "現代ガラス作家展",
       "start": "2026-01-01",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "url": "https://www.garasunosato.com/museum/",
       "kind": "collection",
       "summary": "通年。世界各国の著名なガラス作家による感性豊かなガラス工芸作品を展示",

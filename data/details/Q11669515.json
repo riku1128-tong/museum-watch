@@ -1,0 +1,60 @@
+{
+  "id": "Q11669515",
+  "checked_at": "2026-09-30T09:35:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.e-tam.info/",
+  "address": "〒933-0056 富山県高岡市中川1丁目1番30号",
+  "source_urls": [
+    "https://www.e-tam.info/",
+    "https://www.e-tam.info/guide/",
+    "https://www.e-tam.info/exhibition/",
+    "https://www.e-tam.info/collection/",
+    "https://www.e-tam.info/tam_exhibition/2447/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "高岡市美術館創立75周年記念　ART☆MILKY WAY　タグチアートコレクション展",
+      "start": "2026-09-19",
+      "end": "2026-11-29",
+      "url": "https://www.e-tam.info/tam_exhibition/2447/",
+      "kind": "special",
+      "summary": "ミスミグループ創業者・田口弘氏らが収集する約770点の現代美術コレクションから約50点を展示",
+      "recommend": "「小宇宙＝アートミルキーウェイ」をテーマに、日本有数の現代美術コレクションの精鋭約50点が勢揃い。4つのキーワードでアーティストと作品のつながりを読み解く、美術館75周年にふさわしい大規模展。",
+      "admission": "一般 1,500円",
+      "adult_price": 1500
+    },
+    {
+      "title": "第13回クリエイティブ・たかおか　～未来に輝く 高岡市児童生徒作品展～",
+      "start": "2026-12-19",
+      "end": "2027-01-11",
+      "url": "https://www.e-tam.info/tam_exhibition/2448/",
+      "kind": "other",
+      "summary": "高岡市内の小・中学生が制作した図工・美術作品を展示する市民展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "越中中川", "lines": "JR氷見線", "exit": null, "walk_min": 2},
+    {"station": "高岡", "lines": "あいの風とやま鉄道・JR城端線・氷見線", "exit": null, "walk_min": 20, "note": "万葉線「広小路」電停からも徒歩10分"}
+  ],
+  "highlights": "高岡の伝統工芸を核にした市立美術館。金属工芸・漆芸を中心に横山大観・棟方志功らの作品も収蔵する充実のコレクション。内井昭蔵設計の建物は地元産石材とアルミキャストを活かし、「光と水の塔」がシンボル。JR氷見線越中中川駅から徒歩2分の好立地。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（月曜が祝日の場合は翌平日休館）。入館料は展覧会ごとに異なり、常設展のみの固定料金は確認できていない。",
+  "confidence": "high"
+}

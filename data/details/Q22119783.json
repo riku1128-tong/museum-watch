@@ -1,0 +1,42 @@
+{
+  "id": "Q22119783",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.seishi-nakamoto.com/",
+  "address": "〒981-0923 宮城県仙台市青葉区東勝山2-20-15",
+  "source_urls": [
+    "https://www.seishi-nakamoto.com/"
+  ],
+  "regular_hours": [
+    {"days": ["fri", "sat", "sun", "mon"], "open": "11:00", "close": "17:00"}
+  ],
+  "closed_weekdays": ["tue", "wed", "thu"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "中本誠司 Energy of 1975",
+      "start": "2026-08-03",
+      "end": "2026-11-30",
+      "url": null,
+      "kind": "special",
+      "summary": "中本誠司が1975年に制作したエネルギッシュな作品群を展示する個展",
+      "recommend": "美術館の創設者・中本誠司が1975年に描いた作品に焦点を当てた展示。エネルギーに満ちた初期の表現から、現代美術家としての出発点を感じ取れる濃密な個展。",
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "旭ヶ丘", "lines": "仙台市地下鉄南北線", "walk_min": 30, "note": "宮城交通バス「北仙台中学校前」バス停下車徒歩1分が最寄り"}
+  ],
+  "highlights": "仙台在住の現代美術家・中本誠司が運営する私設美術館。画家自身の作品を中心に展示し、仙台市内の住宅地に構えた小規模ながら独自の空間で、現代アートを無料で鑑賞できる。",
+  "closed_between_exhibitions": false,
+  "notes": "開館日は金・土・日・月の週4日、火・水・木は定休。月曜は通常開館のため祝日との特別な関係はなし。入場無料。連絡先: TEL 022-272-7100 / office@seishi-nakamoto.com",
+  "confidence": "high"
+}

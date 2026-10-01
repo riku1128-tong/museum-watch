@@ -1,13 +1,14 @@
 {
   "id": "Q11399537",
-  "checked_at": "2026-09-29T23:06:49+09:00",
+  "checked_at": "2026-09-30T09:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
-  "official_url": "https://www.city.takayama.lg.jp/shisetsu/1004141/1004142/1004245.html",
+  "official_url": "http://kankou.city.takayama.lg.jp/2000575/2000576/2000884.html",
   "address": "岐阜県高山市上三之町82",
   "source_urls": [
-    "https://www.navitime.co.jp/poi?spot=00004-21103900015"
+    "https://www.navitime.co.jp/poi?spot=00004-21103900015",
+    "https://www.jalan.net/kankou/spt_21203cc3290030363/"
   ],
   "regular_hours": [
     {
@@ -43,6 +44,6 @@
   ],
   "highlights": "飛騨の民俗文化や考古資料を展示する小規模な施設。高山の古い町並みが残る上三之町に位置し、飛騨地方で出土した土器・石器や民俗資料を収蔵・展示する。さんまち通りの散策に合わせて立ち寄れる。",
   "closed_between_exhibitions": false,
-  "notes": "元の公式URL（hida.jp）は404のため、公式URLを高山市サイトに修正。開館時間はNAVITIMEから取得（中間データ）。入館料・詳細展示情報は未取得。",
+  "notes": "元の公式URL（hida.jp）は404。前回更新時に高山市サイトURLに変更したが、そのURLは「飛騨高山まちの博物館」（上一之町75・無料・9-19時）を指しており、この館（上三之町82）とは別施設。今回、高山市観光情報URL（kankou.city.takayama.lg.jp）に修正。同ページもSSL証明書問題で直接読めず。開館時間はNAVITIMEから取得（中間データ）。入館料・詳細展示情報は未取得。飛騨民俗考古館（民俗）と飛騨民族考古館（民族、異字体）の表記揺れあり。",
   "confidence": "medium"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q85883183",
-  "checked_at": "2026-09-29T00:00:00+09:00",
+  "checked_at": "2026-09-30T09:25:27+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -17,18 +17,7 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "「みんな、おかえり。」いせひでこ絵本原画展・石井麻木写真展",
-      "start": "2026-07-04",
-      "end": "2026-09-28",
-      "url": "http://www.morinoouchi.com/exhibition.html",
-      "kind": "special",
-      "summary": "絵本作家いせひでこの原画と写真家石井麻木の写真を紹介する展覧会",
-      "admission": "一般800円（入館料に含む）",
-      "adult_price": 800
-    }
-  ],
+  "exhibitions": [],
   "adult_price": 800,
   "free_days": [],
   "free_rules": [],
@@ -37,6 +26,6 @@
   ],
   "highlights": "北アルプスの麓、安曇野の森の中にある絵本原画専門の美術館。国内外の絵本原画展を年5～6回入れ替え、約8,000冊の絵本を備えたライブラリーやカフェ、コテージも併設する。",
   "closed_between_exhibitions": true,
-  "notes": "公式サイト（morinoouchi.com）はサーバー証明書の不一致（証明書のドメインが pweb02.nttbiz.jp になっている）でWebFetchが接続できず、インターネットミュージアムの情報のみで作成。次回開催の展覧会（2026年9月28日で会期終了する「いせひでこ絵本原画展・石井麻木写真展」の後続企画）は情報を確認できなかったため未掲載。木曜定休（展示替え休館・祝日振替休館・1月上旬連続休館あり、GW・お盆の週は無休、との記載あり。具体的な追加休館日は確認できず special_closures は空のまま）。冬期（12～2月）は最終入館16:00・閉館16:30。",
+  "notes": "公式サイト（morinoouchi.com）はサーバー証明書の不一致（証明書のドメインが pweb02.nttbiz.jp）でWebFetchが接続できず、インターネットミュージアムの情報のみで作成。2026-09-28で会期終了の「いせひでこ絵本原画展・石井麻木写真展」を削除。後続の企画展は公式サイト・第三者サイトとも確認できなかったため未掲載。木曜定休（展示替え休館・祝日振替休館・1月上旬連続休館あり、GW・お盆の週は無休）。冬期（12～2月）は最終入館16:00・閉館16:30。closed_between_exhibitions: true のため次回展覧会が登録されるまで展示替え期間は休館扱いとなる。",
   "confidence": "medium"
 }

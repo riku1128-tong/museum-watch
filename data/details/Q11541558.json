@@ -1,0 +1,38 @@
+{
+  "id": "Q11541558",
+  "checked_at": "2026-09-30T09:05:27+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒461-0001 愛知県名古屋市東区泉1-17-28",
+  "source_urls": [
+    "https://ja.wikipedia.org/wiki/%E6%A5%BD%E5%8F%AA%E7%BE%8E%E8%A1%93%E9%A4%A8"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "久屋大通",
+      "lines": "名古屋市営地下鉄名城線・桜通線",
+      "walk_min": 5
+    }
+  ],
+  "highlights": "茶道松尾流家元が寄贈した茶道具を中心に、江戸時代以降のこの地方ゆかりの美術工芸品を展示する専門美術館。1987年開館、一般財団法人松蔭会が運営。久屋大通公園そばの閑静な環境で時季ごとに企画展を開催している。",
+  "closed_between_exhibitions": true,
+  "notes": "公式ウェブサイトが確認できず、情報源はWikipediaのみ。展示替期間は閉館。休館日の祝日扱いは不明。現在の展覧会情報は未確認。",
+  "confidence": "medium"
+}

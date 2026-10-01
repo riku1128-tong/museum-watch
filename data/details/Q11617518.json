@@ -1,6 +1,6 @@
 {
   "id": "Q11617518",
-  "checked_at": "2026-09-29T23:24:28+09:00",
+  "checked_at": "2026-09-30T09:26:27+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -64,8 +64,12 @@
       "url": "http://www.modernart.museum.ibk.ed.jp/viewer/info.html?id=609",
       "kind": "other",
       "summary": "茨城県主催の公募美術展",
-      "admission": null,
-      "adult_price": null
+      "recommend": null,
+      "admission": "一般 800円（団体720円）・高校生以下無料",
+      "adult_price": 800,
+      "hours": [
+        {"days": ["sun"], "open": "09:30", "close": "15:00", "last_entry": "14:30", "from": "2026-10-18", "to": "2026-10-18"}
+      ]
     }
   ],
   "adult_price": 360,

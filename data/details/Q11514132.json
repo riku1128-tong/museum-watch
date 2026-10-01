@@ -1,0 +1,58 @@
+{
+  "id": "Q11514132",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://shouwa-museum.com",
+  "address": "〒466-0837 愛知県名古屋市昭和区汐見町4-1",
+  "source_urls": [
+    "https://shouwa-museum.com/index.html",
+    "https://shouwa-museum.com/info.html",
+    "https://shouwa-museum.com/map.html",
+    "https://shouwa-museum.com/exhibition_f.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:30", "last_entry": "16:00"}
+  ],
+  "closed_weekdays": ["mon", "tue"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-10-15", "to": "2026-10-15", "reason": "特別休館"},
+    {"from": "2026-11-05", "to": "2026-11-05", "reason": "特別休館"},
+    {"from": "2026-11-26", "to": "2026-11-26", "reason": "特別休館"},
+    {"from": "2026-11-30", "to": "2026-11-30", "reason": "特別休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "「舶来と日本の茶陶」展",
+      "start": "2026-09-19",
+      "end": "2026-12-04",
+      "url": "https://shouwa-museum.com/exhibition_f.html",
+      "kind": "special",
+      "summary": "中国・朝鮮半島・東南アジア・ヨーロッパ産の茶陶と日本の茶陶、約40点で茶席の文化交流を紹介",
+      "recommend": "海外から伝来した器と日本で生み出された茶陶を約40点並べ、茶道具を通じた異文化交流の歴史を紹介。昭和美術館の茶陶コレクションの深みを味わえる企画展",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": null,
+  "access": [
+    {
+      "station": "いりなか",
+      "lines": "名古屋市営地下鉄鶴舞線",
+      "walk_min": 10
+    },
+    {
+      "station": "桜山",
+      "lines": "名古屋市営地下鉄桜通線",
+      "walk_min": null,
+      "note": "桜山駅3番出口付近のタクシー乗場からタクシー約8分"
+    }
+  ],
+  "highlights": "愛知県指定文化財「南山寿荘」（通常非公開）を有する名古屋の庭園美術館。茶道・書・絵画など約800点を収蔵し、春・秋・新春年3回の展示を開催。池を中心に茶室が点在する回遊式庭園は四季折々の趣があり、茶の湯文化と庭園美を合わせて楽しめる。",
+  "closed_between_exhibitions": true,
+  "notes": "「祝休日を除く月・火」休館のため、月・火が祝日の場合は開館（振替なし）。年3回（春・秋・新春）の企画展開催時のみ開館。当期展（舶来と日本の茶陶）は9/19〜12/4で、期間内の特別休館日は10/15、11/5、11/26、11/30。次の企画展（新春）の日程は未発表。定休日以外の特別閉館は'info.html#calendar'のカレンダー参照。adult_priceはnull（常設展なし）。",
+  "confidence": "high"
+}

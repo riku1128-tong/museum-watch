@@ -1,0 +1,56 @@
+{
+  "id": "Q28690458",
+  "checked_at": "2026-09-30T09:20:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.gmillet.jp/",
+  "address": "〒930-0044 富山県富山市中央通り2丁目1番20号",
+  "source_urls": [
+    "https://www.gmillet.jp/",
+    "https://www.gmillet.jp/exhibitions/72.html",
+    "https://www.gmillet.jp/exhibitions/68.html"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "時代を超えるまなざし－東京工芸大学芸術学部写真学科生によるグループ展",
+      "start": "2026-09-01",
+      "end": "2026-11-29",
+      "url": "https://www.gmillet.jp/exhibitions/72.html",
+      "kind": "special",
+      "summary": "東京工芸大学芸術学部写真学科の学生によるグループ展",
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300
+    },
+    {
+      "title": "常設展【バルビゾン派と写実主義】",
+      "start": "2012-09-01",
+      "end": "2027-09-30",
+      "url": "https://www.gmillet.jp/exhibitions/68.html",
+      "kind": "collection",
+      "summary": "通年。ミレー・コロー・クールベなどバルビゾン派と写実主義の油彩53点を4テーマ別に展示",
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "中町", "lines": "富山地方鉄道市内電車（環状線）", "exit": null, "walk_min": 5, "note": null},
+    {"station": "富山", "lines": "JR北陸新幹線・あいの風とやま鉄道", "exit": null, "walk_min": 20, "note": null}
+  ],
+  "highlights": "2012年に富山市中央通りに開設されたまちなか美術館。ミレー、コロー、クールベをはじめバルビゾン派・写実主義の油彩53点を「田園風景」「農民の生活」など4つのテーマで展示し、19世紀フランス絵画を間近に楽しめる。北陸銀行が提供する落ち着いた空間も魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「月曜日（祝日を除く）、祝日の翌日（土日を除く）、年末年始」。月曜が祝日の場合は開館し翌平日が休館（open_next_weekday_closed）。祝日が火〜金に当たる場合も翌日休館（スキーマでは表現不可）。専用駐車場なし。",
+  "confidence": "high"
+}

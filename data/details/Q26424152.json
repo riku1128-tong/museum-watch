@@ -1,0 +1,57 @@
+{
+  "id": "Q26424152",
+  "checked_at": "2026-09-30T09:22:26+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.shusui-museum.jp/",
+  "address": "〒930-0066 富山県富山市千石町1丁目3番6号",
+  "source_urls": [
+    "https://www.shusui-museum.jp/",
+    "https://www.shusui-museum.jp/visit/",
+    "https://www.shusui-museum.jp/about/",
+    "https://www.shusui-museum.jp/schedule/exhibition/ex-hold/%e7%8f%be%e4%bb%a3%e5%88%80%e8%81%b7%e5%b1%95/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon", "tue"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "現代刀職展 -今に伝わる いにしえの技-",
+      "start": "2026-09-12",
+      "end": "2026-10-18",
+      "url": "https://www.shusui-museum.jp/schedule/exhibition/ex-hold/%e7%8f%be%e4%bb%a3%e5%88%80%e8%81%b7%e5%b1%95/",
+      "kind": "special",
+      "summary": "日本美術刀剣保存協会主催、現代刀匠・研師・外装職者の技術コンクール受賞作品を展示",
+      "recommend": "現代の刀匠や研師が腕を競ったコンクール受賞作品が一堂に集結。洗練された刃文と刀装具の美を間近で体感でき、今に生きる日本刀の高い技術の粋に触れられる機会。",
+      "admission": "一般800円（600円）、大学生以下無料",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": 800,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "富山",
+      "lines": "JR北陸本線・富山地方鉄道ほか",
+      "exit": null,
+      "walk_min": 20,
+      "note": "市内電車環状線「大手モール」下車→徒歩5分（富山駅から乗車約10分・210円）"
+    }
+  ],
+  "highlights": "日本刀・刀装具と絵画・工芸を両輪に、中世から現代までの日本の工芸美を伝える富山市の美術館。精神性の高い日本独自の芸術作品を収蔵し、年に数回の企画展では各テーマに沿った充実した展示を行う。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は月曜・火曜。祝日の扱い不明（holiday_rule: unknown）。入館料は一般800円（団体20名以上600円）、大学生以下無料。",
+  "confidence": "high"
+}

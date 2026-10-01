@@ -1,6 +1,6 @@
 {
   "id": "Q11637569",
-  "checked_at": "2026-09-29T23:24:28+09:00",
+  "checked_at": "2026-09-30T09:36:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -48,7 +48,7 @@
       "url": "https://museen.org/ehon/exhibition/",
       "kind": "special",
       "summary": "ピーターラビットシリーズからねことねずみ関連の8作品を中心に原画を紹介",
-      "recommend": null,
+      "recommend": "ピーターラビット研究の第一人者・故吉田新一氏のコレクションをもとに、シリーズで活躍するねこやねずみが登場する8作品の原画を展示。初公開資料も交え、新たな読み方や作品の魅力を提示する試みが見どころ。",
       "admission": "大人 1,000円",
       "adult_price": 1000
     },
@@ -59,7 +59,7 @@
       "url": "https://museen.org/ehon/exhibition/",
       "kind": "special",
       "summary": "冬を感じさせるお話やわらべうたの要素を含む9作品の原画を紹介",
-      "recommend": null,
+      "recommend": "冬を主題にしたお話やわらべうたが登場する9作品の原画を紹介。軽井沢の晩秋・初冬の自然と重なる展示構成が魅力で、ビアトリクス・ポターが描く寒い季節の物語を通じてシリーズの新たな表現を再発見できる。",
       "admission": "大人 1,000円",
       "adult_price": 1000
     }
@@ -75,7 +75,7 @@
       "note": "タクシーで約10分"
     }
   ],
-  "highlights": null,
+  "highlights": "欧米絵本の創成期から現代まで広く紹介する日本初の絵本専門美術館。9,000㎡の軽井沢の森に3つの展示館と図書館が点在し、近現代作家の絵本原画や初版本を展示。英国風の庭園「ピクチャレスク・ガーデン」を併設し、自然の中で絵本の世界をゆったりと体感できる。",
   "closed_between_exhibitions": false,
   "notes": "休館日は火曜日（ゴールデンウィーク・7〜9月は無休）、展示入替期間、冬期（1月中旬〜3月中旬）。冬期の正確な休館日は公式サイトに都度掲載のため special_closures に入れていない。task の official_url (ehonnomoributrmuseum.jp) は存在しない URL のため、実際の URL https://museen.org/ehon/ を使用した。入館料 1,000円はインターネットミュージアム（museum.or.jp）の記載をもとにしているため、confidence を medium とした。",
   "confidence": "medium"

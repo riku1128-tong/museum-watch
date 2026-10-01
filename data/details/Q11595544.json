@@ -1,12 +1,13 @@
 {
   "id": "Q11595544",
-  "checked_at": "2026-09-29T23:08:10+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
-  "official_url": "https://www.city.hidaka.lg.jp/soshiki/kyoiku/shogaigakushu/bunkazai/rekishibunkazai/22057.html",
+  "official_url": "https://www.city.hidaka.lg.jp/soshiki/kyoiku/shogaigakushu/bunkazai/rekishibunkazai/35085.html",
   "address": "〒350-1245 埼玉県日高市大字栗坪92番地2",
   "source_urls": [
-    "https://www.city.hidaka.lg.jp/soshiki/kyoiku/shogaigakushu/bunkazai/rekishibunkazai/22057.html"
+    "https://www.city.hidaka.lg.jp/soshiki/kyoiku/shogaigakushu/bunkazai/rekishibunkazai/35085.html",
+    "https://www.city.hidaka.lg.jp/hidaka_rekishi/8/35147.html"
   ],
   "regular_hours": [
     {
@@ -24,9 +25,20 @@
     {
       "title": "高麗郷民俗資料常設展示",
       "start": "2020-01-01",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "kind": "collection",
       "summary": "通年。高麗郡の農具・生活用具・歴史資料や古代高麗郡の集落ジオラマなどを展示",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "「旭ケ丘で発見された古代の遺跡」展",
+      "start": "2026-09-30",
+      "end": "2026-10-12",
+      "url": null,
+      "kind": "special",
+      "summary": "旭ケ松の台土地区画整理事業地内の3遺跡（王神・拾石・旭ケ丘）の発掘調査成果を紹介",
+      "recommend": null,
       "admission": "無料",
       "adult_price": 0
     }
@@ -43,6 +55,6 @@
     }
   ],
   "highlights": "高麗郡建郡1300年の歴史を伝える民俗資料館。渡来人が開いた高麗郷の農具・生活用具・古文書などを展示し、古代高麗郡の集落ジオラマも見られる。近隣の高麗神社・聖天院と合わせて訪れたい歴史エリアに位置する。",
-  "notes": "月曜が国民の祝日にあたる場合は開館し、翌火曜が休館。「日高市立高麗郷民俗資料館」とも称される。元のURL（/kyoiku/hakubutsukan/）は404。",
+  "notes": "月曜が国民の祝日にあたる場合は開館し、翌火曜が休館。国民の祝日の翌日も休館（曼珠沙華まつり期間は除く）。「日高市立高麗郷民俗資料館」とも称される。元のURL（/rekishibunkazai/22057.html）は404のため新URLに更新。企画展「旭ケ丘で発見された古代の遺跡」は10/12まで開催中だが開始日は公式サイトに記載なく9/30を最初の確認日として入力。",
   "confidence": "medium"
 }

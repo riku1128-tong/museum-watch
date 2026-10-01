@@ -1,6 +1,6 @@
 {
   "id": "Q11399549",
-  "checked_at": "2026-09-29T23:06:09+09:00",
+  "checked_at": "2026-09-30T09:08:12+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -22,7 +22,19 @@
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "高山祭屋台展示（平成まつり屋台6基）",
+      "start": "2023-04-01",
+      "end": "2027-09-30",
+      "url": "http://www.togeihida.co.jp/",
+      "kind": "collection",
+      "summary": "通年。豪華絢爛な飾りの屋台6基を地中ドームに常設展示。10分間隔でからくり人形を実演",
+      "recommend": "精緻な彫刻や金工で装飾された高山祭の屋台を間近で鑑賞できる。ムービングライトに包まれた幻想的な空間と、実際に動くからくり人形の実演が圧巻。",
+      "admission": "大人 1,100円",
+      "adult_price": 1100
+    }
+  ],
   "adult_price": 1100,
   "free_days": [],
   "free_rules": [],

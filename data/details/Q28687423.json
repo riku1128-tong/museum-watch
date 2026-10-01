@@ -1,0 +1,67 @@
+{
+  "id": "Q28687423",
+  "checked_at": "2026-09-30T09:08:12+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kurobe-city-art-museum.jp/",
+  "address": "〒938-0041 富山県黒部市堀切1035（黒部市総合公園内）",
+  "source_urls": [
+    "https://kurobe-city-art-museum.jp/",
+    "https://kurobe-city-art-museum.jp/access/",
+    "https://kurobe-city-art-museum.jp/2026/07/02/haruka_matsumoto/",
+    "https://kurobe-city-art-museum.jp/2023/04/01/infinity-mirage/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "《infinity～mirage》プロジェクト",
+      "start": "2023-04-24",
+      "end": "2027-03-31",
+      "url": "https://kurobe-city-art-museum.jp/2023/04/01/infinity-mirage/",
+      "kind": "other",
+      "summary": "黒部市生地海岸の護岸堤に設置した屋外アート。下位蜃気楼で「∞」を作るプロジェクト",
+      "recommend": "地域固有の自然現象「蜃気楼」を活用した屋外アート作品。ライブカメラで世界中から鑑賞できる独創的なプロジェクトで、芸術と科学が交差する体験ができる。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "松元悠　イメージのあなた",
+      "start": "2026-10-10",
+      "end": "2026-12-20",
+      "url": "https://kurobe-city-art-museum.jp/2026/07/02/haruka_matsumoto/",
+      "kind": "special",
+      "summary": "法廷画家・松元悠がリトグラフで描いた社会事件と人物の約60点。報道・記憶・想像が交差する版画展",
+      "recommend": "法廷画家の活動を起点に社会事件の当事者を自身に置き換えて制作したリトグラフ約60点。報道の版画史的伝統とファンタジックな画面構成が共存する独自の表現に注目。",
+      "admission": "一般 800円",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "黒部",
+      "lines": "あいの風とやま鉄道",
+      "exit": null,
+      "walk_min": 25,
+      "note": "黒部駅から路線バス「石田三日市線北ルート」乗車、「総合公園口」下車徒歩約5分。またはタクシー約7分"
+    }
+  ],
+  "highlights": "黒部市総合公園内に立つ富山県東部最大の美術館。市ゆかりの作家による企画展を軸に、地域の自然・文化を題材にした作品を紹介する。近隣の生地海岸を舞台に「蜃気楼」を活用した屋外アートプロジェクトも展開中。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日：月曜・祝日の翌日・年末年始ほか。入館料は企画展ごとに異なる（中学生以下無料）。",
+  "confidence": "medium"
+}

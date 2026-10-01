@@ -1,0 +1,79 @@
+{
+  "id": "Q11256823",
+  "checked_at": "2026-09-30T09:02:54+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://apmoa.museum/",
+  "address": "〒461-8525 名古屋市東区東桜一丁目13番2号",
+  "source_urls": [
+    "https://apmoa.museum/",
+    "https://apmoa.museum/about/",
+    "https://apmoa.museum/facilities/access/",
+    "https://apmoa.museum/facilities/",
+    "https://apmoa.museum/exhibition/",
+    "https://apmoa.museum/exhibition/swedishpainting",
+    "https://apmoa.museum/exhibition/bigelow"
+  ],
+  "regular_hours": [
+    {"days": ["fri"], "open": "10:00", "close": "20:00", "last_entry": "19:30"},
+    {"days": ["mon", "tue", "wed", "thu", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "スウェーデン絵画 北欧の光、日常のかがやき",
+      "start": "2026-07-09",
+      "end": "2026-10-04",
+      "url": "https://apmoa.museum/exhibition/swedishpainting",
+      "kind": "special",
+      "summary": "スウェーデン近代絵画の名品を紹介。北欧の光と日常の情景を描いた作品群",
+      "recommend": null,
+      "admission": "一般 2,000円",
+      "adult_price": 2000
+    },
+    {
+      "title": "2026年度第2期コレクション展",
+      "start": "2026-07-09",
+      "end": "2026-10-04",
+      "url": "https://apmoa.museum/exhibition/2026collection2st",
+      "kind": "collection",
+      "summary": "通年。20世紀以降の美術と木村定三コレクションなどの所蔵作品約9,000件から選りすぐりを公開",
+      "recommend": null,
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "ビゲロー 幻のコレクションと近代日本画の夜明け",
+      "start": "2026-10-30",
+      "end": "2026-12-13",
+      "url": "https://apmoa.museum/exhibition/bigelow",
+      "kind": "special",
+      "summary": "明治期に日本画を蒐集したウィリアム・ビゲロー没後100年。歌麿・北斎の肉筆浮世絵や狩野芳崖《悲母観音》など重要文化財を含む名品が集結",
+      "recommend": "ボストン美術館の日本美術コレクションの基礎を築いたビゲローの幻の旧蔵品が一堂に。喜多川歌麿や葛飾北斎の肉筆浮世絵、狩野芳崖《悲母観音》など重要文化財も並ぶ充実の内容",
+      "admission": "一般 1,900円",
+      "adult_price": 1900
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "栄",
+      "lines": "地下鉄東山線・名城線",
+      "exit": null,
+      "walk_min": 5,
+      "note": "愛知芸術文化センター10階"
+    }
+  ],
+  "highlights": "愛知芸術文化センター10階に位置する1992年開館の県立美術館。20世紀以降の美術を中心に約9,000件のコレクションを所蔵し、木村定三コレクションも充実。学芸員の研究に基づく企画展を年4回程度開催し、常設のコレクション展で所蔵の名品も楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "旧URL（www-art.aac.pref.aichi.jp）は apmoa.museum へリダイレクト。金曜は20:00まで延長（入場は19:30まで）。展示替え期間は休館。8Fギャラリーは10:00-18:00。",
+  "confidence": "high"
+}

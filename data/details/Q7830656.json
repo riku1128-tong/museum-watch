@@ -1,0 +1,68 @@
+{
+  "id": "Q7830656",
+  "checked_at": "2026-09-30T09:40:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://toyohashi-bihaku.jp",
+  "address": "〒440-0801 愛知県豊橋市今橋町3-1（豊橋公園内）",
+  "source_urls": [
+    "https://toyohashi-bihaku.jp/",
+    "https://toyohashi-bihaku.jp/bihaku05/%E9%A4%A8%E3%81%AE%E5%88%A9%E7%94%A8%E6%A1%88%E5%86%85/"
+  ],
+  "regular_hours": [
+    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "かがくいひろしの世界展",
+      "start": "2026-10-17",
+      "end": "2026-11-15",
+      "url": "https://toyohashi-bihaku.jp/",
+      "kind": "special",
+      "summary": "絵本作家・かがくいひろしの作品世界を紹介する展覧会",
+      "recommend": null,
+      "admission": "一般・大学生 1,200円",
+      "adult_price": 1200
+    },
+    {
+      "title": "第74回豊橋市民展",
+      "start": "2026-12-15",
+      "end": "2026-12-27",
+      "url": "https://toyohashi-bihaku.jp/",
+      "kind": "other",
+      "summary": "豊橋市民による美術・工芸作品の公募展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "三瀬夏之介 一望千里",
+      "start": "2027-02-06",
+      "end": "2027-03-22",
+      "url": "https://toyohashi-bihaku.jp/",
+      "kind": "special",
+      "summary": "日本画家・三瀬夏之介の個展",
+      "recommend": null,
+      "admission": "一般・大学生 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {"station": "豊橋公園前", "lines": "豊鉄市内線", "exit": null, "walk_min": 3},
+    {"station": "豊橋", "lines": "JR東海道新幹線・東海道本線・飯田線", "exit": null, "walk_min": 20}
+  ],
+  "highlights": "豊橋公園内の吉田城址に立つ複合型博物館。郷土ゆかりの美術・歴史・考古・民俗資料を幅広く収蔵し、日本画から陶磁器・古文書まで企画展で紹介する。コレクション展・一般ギャラリーは無料で入館可能。豊鉄市内線「豊橋公園前」停から徒歩3分。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館。有料企画展開催中の月曜が祝日の場合は開館し、翌火曜が休館。コレクション展示・一般ギャラリーは無料、企画展は催しごとに料金が異なる。「豊橋公園前」は豊鉄市内線の停留所名（駅ではなく路面電車の停留所）。",
+  "confidence": "high"
+}

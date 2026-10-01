@@ -1,7 +1,7 @@
 {
   "id": "Q11384789",
-  "checked_at": "2026-09-29T23:15:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:15:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.izunokuni.shizuoka.jp/hansyaro/sekaiisan/nirayamahansyarogaido.html",
@@ -43,7 +43,7 @@
     {
       "title": "韮山反射炉 常設展示",
       "start": "2026-01-01",
-      "end": "2027-01-01",
+      "end": "2027-09-30",
       "url": "https://www.city.izunokuni.shizuoka.jp/hansyaro/sekaiisan/nirayamahansyarogaido.html",
       "kind": "collection",
       "summary": "通年",

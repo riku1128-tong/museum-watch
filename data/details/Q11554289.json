@@ -1,22 +1,37 @@
 {
   "id": "Q11554289",
-  "checked_at": "2026-09-28T23:35:00+09:00",
+  "checked_at": "2026-09-30T09:26:22+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://kyosai-museum.jp/",
   "address": "〒335-0004 埼玉県蕨市南町4-36-4",
   "source_urls": [
-    "https://www.museum.or.jp/museum/1870"
+    "https://www.museum.or.jp/museum/1870",
+    "https://www.artagenda.jp/museum/detail/72"
   ],
   "regular_hours": [
     {"days": ["mon", "wed", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00"}
   ],
   "closed_weekdays": ["tue", "thu"],
   "holiday_rule": "unknown",
-  "special_closures": [],
+  "special_closures": [
+    {"from": "2026-12-24", "to": "2027-01-03", "reason": "年末年始休館"}
+  ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "暁斎・暁翠 人物を描く",
+      "start": "2026-09-02",
+      "end": "2026-10-25",
+      "url": null,
+      "kind": "special",
+      "summary": "河鍋暁斎と娘・暁翠が描いた人物画を紹介する企画展",
+      "recommend": null,
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
   "adult_price": null,
   "free_days": [],
   "free_rules": [],
@@ -26,6 +41,6 @@
   ],
   "highlights": "幕末から明治に活躍した絵師・河鍋暁斎の曾孫が設立した美術館。妖怪画や戯画で知られる暁斎の肉筆画・版画・下絵などのコレクションを、季節ごとの企画展・特別展で紹介する",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（kyosai-museum.jp）はSSL証明書がドメイン不一致のためWebFetchから読めず、インターネットミュージアムの掲載情報で確認した（confidence: medium）。休館日は火・木曜に加えて毎月26日～末日も休館とのことだが、現スキーマに月末の日付範囲の定休を表す項目が無いため反映できていない（要スキーマ検討）。現在開催中の展覧会タイトル・会期・料金の詳細は公式で確認できず未掲載。祝日の扱い（holiday_rule）も不明。",
+  "notes": "公式サイト（kyosai-museum.jp）はSSL証明書がドメイン不一致のためWebFetchから読めず、museum.or.jp・artagenda.jpの掲載情報で確認（confidence: medium）。毎月26日〜末日も休館（スキーマでは月末の日付範囲定休を直接表現できないためnotesに記載）。木曜が祝日の場合は開館とのこと（bijutsutecho情報）、火曜の祝日扱いは不明のためholiday_rule: unknown。",
   "confidence": "medium"
 }

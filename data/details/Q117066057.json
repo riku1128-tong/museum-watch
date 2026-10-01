@@ -1,0 +1,42 @@
+{
+  "id": "Q117066057",
+  "checked_at": "2026-09-30T10:20:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kawabe-gifu.jp/?page_id=7025",
+  "address": "〒509-0304 岐阜県加茂郡川辺町中川辺24-2",
+  "source_urls": [
+    "https://www.kawabe-gifu.jp/?page_id=7025"
+  ],
+  "regular_hours": [
+    {"days": ["sun"], "open": "10:00", "close": "15:00"}
+  ],
+  "closed_weekdays": ["mon", "tue", "wed", "thu", "fri", "sat"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "山田健吾 常設展示",
+      "start": "2013-09-01",
+      "end": "2027-09-30",
+      "url": "https://www.kawabe-gifu.jp/?page_id=7025",
+      "kind": "collection",
+      "summary": "通年（日曜のみ）。川辺町ゆかりの洋画家・山田健吾から寄贈された絵画約200点の常設展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "岐阜県川辺町ゆかりの洋画家・山田健吾が寄贈した土地・建物と絵画約200点をもとに平成25年9月に開館した小規模ギャラリー。1階が常設展示スペース（毎週日曜10〜15時公開）、2階は貸しギャラリーとして地域の芸術活動を支えている。",
+  "closed_between_exhibitions": false,
+  "notes": "一般観覧は毎週日曜 10:00-15:00のみ。2階展示室は月〜日 9:00〜21:30で貸出利用可（展示利用 2,000円/日、会議利用 500円/3時間）。問い合わせ先：川辺町教育委員会生涯学習課（川辺町中央公民館内）℡ 0574-53-2623。アクセス情報は公式ページに記載なし。",
+  "confidence": "medium"
+}

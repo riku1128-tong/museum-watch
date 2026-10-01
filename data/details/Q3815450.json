@@ -1,6 +1,6 @@
 {
   "id": "Q3815450",
-  "checked_at": "2026-09-28T23:32:00+09:00",
+  "checked_at": "2026-09-30T09:14:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,6 +9,7 @@
   "source_urls": [
     "https://mmat.jp/",
     "https://mmat.jp/information/index.html",
+    "https://mmat.jp/about/index.html",
     "https://mmat.jp/access/index.html",
     "https://mmat.jp/exhibition/archive/2026/20261010-478.html"
   ],
@@ -29,7 +30,9 @@
       "url": "https://mmat.jp/exhibition/archive/2026/20261010-478.html",
       "kind": "collection",
       "summary": "日本初のフルカラー漫画雑誌『東京パック』とその時代を所蔵品で紹介。北澤楽天『子供之友』の特集展示も",
-      "admission": "一般 700円"
+      "recommend": "日本初のフルカラー漫画雑誌『東京パック』の原画96点を一挙公開する大規模展示。100年前の政治風刺から暮らしの記録まで、明治・大正の日本を色鮮やかに伝える作品群と、生誕150年を記念した北澤楽天の子ども向け絵画も見どころ。",
+      "admission": "一般 700円",
+      "adult_price": 700
     }
   ],
   "adult_price": null,
@@ -37,7 +40,8 @@
     {"station": "目黒", "lines": "JR山手線・東京メトロ南北線・都営三田線・東急目黒線", "exit": null, "walk_min": 10, "note": null},
     {"station": "中目黒", "lines": "東京メトロ日比谷線・東急東横線", "exit": null, "walk_min": 20, "note": null}
   ],
+  "highlights": "1987年開館、目黒区民センターの緑豊かな一角に立地する区立の美術館。近現代の日本の作家を中心に収集し、所蔵作品展や多彩な企画展を開催。展示に合わせた素材・技法体験のワークショップが大きな特色で、常設展示はなく企画展ごとに休館期間がある。",
   "closed_between_exhibitions": true,
-  "notes": "月曜休館（祝日・休日の場合はその翌日）。展示替期間は休館。常設展示なし（公式サイトに明記）。区展（第50回記念、9/16〜9/27）は終了したため削除。次回「めぐろの子どもたち展」2027-01-16〜01-31（3か月超のため未掲載）。観覧料は展覧会ごとに異なり館共通の入館料は無いため adult_price は null。",
+  "notes": "月曜休館（祝日・休日の場合はその翌日）。展示替期間は休館。常設展示なし（公式サイトに明記）。「杉本貴志展」は2026-09-29に開催中止が発表された（展示入替期間中の判断）。観覧料は展覧会ごとに異なり館共通の入館料は無いため adult_price は null。",
   "confidence": "high"
 }

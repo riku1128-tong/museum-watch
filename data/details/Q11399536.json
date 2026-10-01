@@ -1,6 +1,6 @@
 {
   "id": "Q11399536",
-  "checked_at": "2026-09-29T23:06:49+09:00",
+  "checked_at": "2026-09-30T09:13:11+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "総合展示室リニューアルのため休館中（2025年10月23日〜2026年11月2日予定）。忠節橋展示場の個別情報は公式サイトから確認できなかったため、本館の休館状況に準ずる。",
@@ -33,7 +33,19 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "動き出す浮世絵展 GIFU",
+      "start": "2026-11-06",
+      "end": "2027-01-11",
+      "url": "https://www.rekihaku.gifu.gifu.jp/exhibition/event/ukiyoe2026/",
+      "kind": "special",
+      "summary": "リニューアル記念。北斎・国芳・広重ら浮世絵師300点超を3DCGアニメーションで体感する企画展",
+      "recommend": "館のリニューアルを記念し、北斎・国芳・広重・写楽ら国内外で知られる浮世絵師の名品300点超を最先端の3DCGとプロジェクションマッピングで体感。岐阜ゆかりの鵜飼や織田信長をテーマにした新規デジタルコンテンツも見どころ。",
+      "admission": "高校生以上 1,500円",
+      "adult_price": 1500
+    }
+  ],
   "adult_price": null,
   "free_days": [],
   "free_rules": [],
@@ -48,5 +60,5 @@
   "highlights": "岐阜市歴史博物館に付属する忠節橋展示場。忠節橋周辺の歴史や文化を紹介する小規模な展示施設。現在は本館の総合展示室リニューアルに伴い休館中。",
   "closed_between_exhibitions": false,
   "notes": "岐阜市歴史博物館本館（rekihaku.gifu.gifu.jp）のリニューアルに伴い2026年11月2日まで休館予定。忠節橋展示場の個別の開館状況は未確認。",
-  "confidence": "low"
+  "confidence": "medium"
 }

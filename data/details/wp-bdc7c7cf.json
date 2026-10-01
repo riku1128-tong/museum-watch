@@ -1,0 +1,50 @@
+{
+  "id": "wp-bdc7c7cf",
+  "checked_at": "2026-09-30T09:05:25+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.toyama.toyama.jp/etc/minzokumingei/takamura/takamura.html",
+  "address": "〒930-0881 富山県富山市安養坊1000（富山市民俗民芸村内）",
+  "source_urls": [
+    "https://www.city.toyama.toyama.jp/etc/minzokumingei/takamura/takamura.html",
+    "https://www.city.toyama.toyama.jp/etc/minzokumingei/takamura/takamura_tenji.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "「水橋物語」連携展示　牛人と盤若～呉羽山の二画人～",
+      "start": "2026-10-03",
+      "end": "2027-02-18",
+      "url": "https://www.city.toyama.toyama.jp/etc/minzokumingei/takamura/takamura_tenji.html",
+      "kind": "special",
+      "summary": "呉羽山のアトリエで共に制作を続けた篁牛人と盤若一郎、孤高の二画人の個性的な作品を紹介",
+      "recommend": "孤高の画家として無所属で歩み続けた篁牛人と盤若一郎。それぞれ異なる個性で呉羽山のアトリエから世界を描き続けた二人の作品を、人間味溢れるエピソードとともに紹介する。",
+      "admission": "大人 100円",
+      "adult_price": 100
+    }
+  ],
+  "adult_price": 100,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "富山",
+      "lines": "JR北陸本線・あいの風とやま鉄道",
+      "walk_min": null,
+      "note": "富山駅から富山地方鉄道バスまたは市内バスで「民俗民芸村」下車。JR呉羽駅から徒歩約15分"
+    }
+  ],
+  "highlights": "富山市民俗民芸村内に立つ、富山出身の水墨画家・篁牛人（1901〜1984）を専門とした記念館。孤高の画家として無所属で制作を続けた牛人の力強くも繊細な水墨作品を展示。同じ呉羽山のアトリエで共に歩んだ盤若一郎の作品も紹介する。",
+  "closed_between_exhibitions": false,
+  "notes": "富山市の公式サイト内に美術館ページあり。週の定休日は公式ページに明記なし（年末年始のみ確認）。入館料は現在の展示（牛人と盤若展）での確認値100円。民俗民芸村内の複合施設。連絡先: 076-433-9215。",
+  "confidence": "medium"
+}

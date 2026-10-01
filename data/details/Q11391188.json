@@ -1,7 +1,7 @@
 {
   "id": "Q11391188",
-  "checked_at": "2026-09-29T23:24:28+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:12:10+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://hachinohe-art-museum.jp/",
@@ -64,6 +64,17 @@
       "recommend": "子どもから大人まで人気の絵本作家ヨシタケシンスケの「頭のなか」をのぞく展覧会。スケッチや絵本原画、立体物など400点超で、独特の発想の源泉に迫る。",
       "admission": "一般 1,300円",
       "adult_price": 1300
+    },
+    {
+      "title": "昆野清一　溯源画巻　かなしみの河を溯る",
+      "start": "2027-01-30",
+      "end": "2027-02-21",
+      "url": "https://hachinohe-art-museum.jp/exhibition/7050",
+      "kind": "special",
+      "summary": "八戸出身の画家・昆野清一（1921-2005）が戦争の悲しみと向き合い描き続けた36巻・総長360mの大作《溯源画巻》を中心に展示",
+      "recommend": "「沈黙の画家」と呼ばれた昆野清一が生涯をかけて完成させた360m超の壮大な画巻を、八戸の地で展示。戦争の深い傷と向き合い続けた画家の精神性と圧倒的なスケールが迫る。",
+      "admission": "有料（料金未確認）",
+      "adult_price": null
     }
   ],
   "adult_price": 0,

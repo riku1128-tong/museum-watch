@@ -1,6 +1,6 @@
 {
   "id": "Q11399544",
-  "checked_at": "2026-09-29T23:30:00+09:00",
+  "checked_at": "2026-09-30T09:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -42,7 +42,7 @@
       "note": "タクシーなら10分。可児市コミュニティバス「さつきバス」も利用可"
     }
   ],
-  "highlights": null,
+  "highlights": "岐阜県可児市の複合文化施設「ala」。1,000席超の大ホールを備え、演劇・バレエ・コンサートなど多彩な公演を年間通じて開催。「人間の家」を掲げ、市民の創作発表から鑑賞まで幅広く受け入れる地域の文化交流拠点。",
   "closed_between_exhibitions": false,
   "notes": "舞台芸術を中心とした公共文化施設（劇場）。常設展示はなく、主にコンサート・演劇・ダンスなどの公演を実施。無料駐車場437台あり。",
   "confidence": "medium"

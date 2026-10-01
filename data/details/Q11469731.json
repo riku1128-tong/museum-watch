@@ -1,6 +1,6 @@
 {
   "id": "Q11469731",
-  "checked_at": "2026-09-29T23:28:00+09:00",
+  "checked_at": "2026-09-30T09:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -39,7 +39,7 @@
   "access": [
     {"station": "甲府", "lines": "JR中央本線", "exit": null, "walk_min": null, "note": "バスで約15分「山梨県立美術館」下車、またはタクシーで約15分"}
   ],
-  "highlights": null,
+  "highlights": "「ミレーの美術館」として1978年に開館。ジャン＝フランソワ・ミレーの《種をまく人》をはじめバルビゾン派の作品を中心に約1万点を収蔵。ヨーロッパ風景画や山梨ゆかりの近現代作家の作品も充実し、コレクション展は年4回展示替えを行う。",
   "closed_between_exhibitions": false,
   "notes": "公式サイト（art-museum.pref.yamanashi.jp）は WebFetch で403エラーとなり直接読めなかったため、インターネットミュージアム（museum.or.jp）・美術手帖・美術展ニュースサイトの記載をもとに作成（confidence: medium）。コレクション展の一般料金は520円（団体420円）。休館日は「月曜日（祝日の場合はその翌日）、祝日の翌日（日曜日の場合は開館）、年末年始」。9/21・10/12は祝日のため開館し、翌9/24・10/13が休館という報道があったが、通常の holiday_rule（open_next_weekday_closed）どおりのため special_closures ではなく special_openings の注記のみ残した。highlights は公式サイトを読めなかったため null のまま。free_days の山梨県民の日（11/20）は2025年度の公式発表をもとに記載。2026年度の公式発表ページは未確認（pref.yamanashi.jp は404エラー）。",
   "confidence": "medium"

@@ -1,0 +1,69 @@
+{
+  "id": "Q11585933",
+  "checked_at": "2026-09-30T09:12:10+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://nanao-art-museum.jp/",
+  "address": "〒926-0855 石川県七尾市小丸山台1-1",
+  "source_urls": [
+    "https://nanao-art-museum.jp/",
+    "https://nanao-art-museum.jp/guide/",
+    "https://nanao-art-museum.jp/2026htetjfntt",
+    "https://nanao-art-museum.jp/museumoverview/",
+    "https://www.museum.or.jp/museum/3258"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "2026長谷川等伯展～信春から等伯へのあゆみ～",
+      "start": "2026-09-19",
+      "end": "2026-10-18",
+      "url": "https://nanao-art-museum.jp/2026htetjfntt",
+      "kind": "special",
+      "summary": "能登国七尾出身の桃山時代の絵師・長谷川等伯。絵仏師「信春」から水墨画家「等伯」への歩みを七尾初公開作品を含む23点で紹介",
+      "recommend": "七尾が生んだ国宝画家・長谷川等伯の軌跡を、地元初公開の作品を含む23点で辿る。信春時代の仏画から等伯の水墨まで多彩な画業を地元ゆかりの地で見られる貴重な機会。",
+      "admission": "一般1,000円（900円）、大学生350円（300円）、高校生以下無料",
+      "adult_price": 1000,
+      "closed_weekdays": []
+    },
+    {
+      "title": "2026イタリア・ボローニャ国際絵本原画展",
+      "start": "2026-11-07",
+      "end": "2026-12-13",
+      "url": "https://nanao-art-museum.jp/",
+      "kind": "special",
+      "summary": "世界最大級の絵本原画コンクール・ボローニャ国際絵本原画展の入選作品を紹介する巡回展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "七尾",
+      "lines": "JR七尾線",
+      "exit": null,
+      "walk_min": 20,
+      "note": "七尾駅から市内循環バス「まりん号」で「七尾美術館前」下車（順回り約8分、逆回り約14分）"
+    }
+  ],
+  "highlights": "能登半島唯一の総合美術館として1995年に開館（設計：内井昭蔵）。地元が生んだ桃山時代の絵師・長谷川等伯の作品を大型ハイビジョンで紹介するほか、池田コレクションをはじめ能登ゆかりの作品を多数収蔵。ボローニャ絵本原画展など国際的な企画展も毎年開催する。",
+  "notes": "定休日は月曜日（祝休日は開館）、祝休日の翌日（スキーマのholiday_ruleには「祝日翌日も休館」を表現するenumがないためholiday_ruleは\"open\"とし、本noteで補足）、展示替え期間、年末年始。長谷川等伯展（9/19〜10/18）は会期中無休。10/19〜11/6は展示替えの可能性があるが公式未確認。",
+  "confidence": "high"
+}

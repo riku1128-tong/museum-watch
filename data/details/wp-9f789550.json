@@ -1,0 +1,28 @@
+{
+  "id": "wp-9f789550",
+  "checked_at": "2026-09-30T09:24:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://jewelpia.com/",
+  "address": "〒413-0231 静岡県伊東市富戸1096-1",
+  "source_urls": [
+    "https://jewelpia.com/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00"}
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 1200,
+  "access": [
+    {"station": "伊豆高原", "lines": "伊豆急行線", "walk_min": null, "note": "伊豆高原駅からタクシー約10分。大室山麓に立地"}
+  ],
+  "highlights": "伊豆高原の大室山麓に立つ東洋美術工芸の専門館。象牙彫刻120点を中心に、『楊貴妃物語』（108枚75m）・『西遊記』（61枚50m）の大型彩石象嵌屏風や翡翠彫刻など希少な東洋美術工芸品を収蔵。施設はバリアフリー完備で、ペット同伴入館も可能。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（jewelpia.com）より。営業時間10:00-16:00、火曜定休（祝祭日は開館）。7月・12月にメンテナンス休館があるとの情報あり（具体的な日程は公式サイトで確認要）。子供料金600円、団体割引あり。",
+  "confidence": "medium"
+}

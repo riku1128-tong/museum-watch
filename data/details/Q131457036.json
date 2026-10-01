@@ -1,0 +1,58 @@
+{
+  "id": "Q131457036",
+  "checked_at": "2026-09-30T09:26:22+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒384-0702 長野県南佐久郡佐久穂町穂積1429-1",
+  "source_urls": [
+    "https://www.culture.nagano.jp/facilities/681/",
+    "https://www.museum.or.jp/museum/3712",
+    "https://yachiho-kogen.jp/article/bizyutukan/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-10-29", "to": "2026-10-30", "reason": "イベント準備のため休館"},
+    {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "コレクション展示",
+      "start": "2026-09-30",
+      "end": "2027-09-30",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。奥村土牛の素描画・日本画を中心に約42〜43点を展示。年3回（4月・7月・11月）展示替え",
+      "recommend": null,
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "八千穂",
+      "lines": "JR小海線",
+      "exit": null,
+      "walk_min": 1,
+      "note": null
+    }
+  ],
+  "highlights": "現代日本画の巨匠・奥村土牛の素描画を中心に約42〜43点を常時展示する記念美術館。JR小海線八千穂駅から徒歩1分の好立地にあり、年3回（4月・7月・11月）の展示替えで季節ごとに異なる作品の表情を楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "GW期間中（4/29-5/10）および8月は無休で開館。公式URL（https://www.town.sakuho.nagano.jp/shisetsu/okumuratogyu.html）は404エラーのためnullとして記録。情報はculture.nagano.jp・museum.or.jp・yachiho-kogen.jpから取得。2026年10月29日・30日はイベント準備のため休館。",
+  "confidence": "medium"
+}

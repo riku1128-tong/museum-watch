@@ -1,0 +1,66 @@
+{
+  "id": "Q11561458",
+  "checked_at": "2026-09-30T09:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.museum-kiyosu.jp",
+  "address": "〒452-0961 愛知県清須市春日夢の森1番地",
+  "source_urls": [
+    "https://www.museum-kiyosu.jp",
+    "https://www.museum-kiyosu.jp/information/",
+    "https://www.museum-kiyosu.jp/rental_gallery/exhibition/hotch-potch/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "19:00",
+      "last_entry": "18:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "ハッチポッチ 藤枝リュウジの世界",
+      "start": "2026-10-03",
+      "end": "2026-12-20",
+      "url": "https://www.museum-kiyosu.jp/rental_gallery/exhibition/hotch-potch/",
+      "kind": "special",
+      "summary": "イラストレーター兼アートディレクターの藤枝リュウジの半世紀以上のキャリアを紹介する大規模展覧会",
+      "recommend": "絵本・装幀・個展作品などのイラストレーションと、パペット番組などTVや広告のアートディレクション作品を一堂に介する初の大規模展。50年以上のキャリアを持つ多才なクリエイターの全貌に迫る。",
+      "admission": "一般 800円",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": 240,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "清洲",
+      "lines": "JR東海道本線",
+      "walk_min": 20,
+      "note": "清洲駅からきよすあしがるバスで「夢広場はるひ（図書館・美術館）」下車すぐ（バス運賃100円）"
+    },
+    {
+      "station": "新清洲",
+      "lines": "名鉄名古屋本線",
+      "walk_min": null,
+      "note": null
+    }
+  ],
+  "highlights": "愛知県清須市に位置する市立美術館。地域に根ざした現代美術の企画展を中心に開催し、「清須市はるひ絵画トリエンナーレ」などの公募展でも知られる。芝生広場「夢の森公園」に隣接し、子ども連れで訪れやすい環境が魅力。収蔵作品展（240円）も開催。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は月曜日（祝日の場合は翌平日）、年末年始12/29〜1/3。収蔵作品展の一般料金240円（割引190円）。展覧会によって観覧料は異なる。きよすあしがるバスはJR清洲駅・名鉄新清洲駅・JR枇杷島駅などから運行（100円）。",
+  "confidence": "high"
+}

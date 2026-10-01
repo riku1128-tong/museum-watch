@@ -1,0 +1,55 @@
+{
+  "id": "Q112693403",
+  "checked_at": "2026-09-30T10:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.saito-museum.com/",
+  "address": "〒501-4226 岐阜県郡上市八幡町新町927",
+  "source_urls": [
+    "https://www.saito-museum.com/",
+    "https://www.saito-museum.com/access"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "16:00"
+    }
+  ],
+  "closed_weekdays": ["thu"],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {"from": "2027-01-01", "to": "2027-02-28", "reason": "冬期休館（1〜2月）"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "茶道具・書画・美術工芸品 常設展",
+      "start": "2026-03-01",
+      "end": "2027-09-30",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。茶人として蒐集した茶道具・書画・美術工芸品のコレクションを展示",
+      "recommend": null,
+      "admission": "大人 300円",
+      "adult_price": 300
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "郡上八幡",
+      "lines": "長良川鉄道越美南線",
+      "exit": null,
+      "walk_min": null,
+      "note": "郡上八幡駅からタクシー約5分または徒歩約20分。岐阜バス「城下町プラザ」バス停から徒歩約5分"
+    }
+  ],
+  "highlights": "江戸時代から続く旧家の趣を残す母屋（市指定文化財）を活かした岐阜・郡上八幡の小美術館。茶人として蒐集した茶道具・書画・美術工芸品を展示する。清水が流れる観光スポット「やなか水のこみち」沿いに建ち、文化財の母屋はカフェ「町家さいとう」として開放されている。",
+  "closed_between_exhibitions": false,
+  "notes": "木曜休館。1〜2月は冬期全休。団体（20名以上）は1割引。隣接する「町家さいとう（カフェ）」は別営業。「やなか三館」の一つ。",
+  "confidence": "high"
+}

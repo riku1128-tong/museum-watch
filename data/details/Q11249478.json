@@ -1,0 +1,73 @@
+{
+  "id": "Q11249478",
+  "checked_at": "2026-09-30T09:06:25+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://artpark.or.jp/shisetsu/sapporo-art-museum/",
+  "address": "〒005-0864 札幌市南区芸術の森2丁目75番地",
+  "source_urls": [
+    "https://artpark.or.jp/shisetsu/sapporo-art-museum/",
+    "https://artpark.or.jp/access/",
+    "https://artpark.or.jp/tenrankai-event/2024_hongo-ssa/",
+    "https://artpark.or.jp/tenrankai-event/5ukiyoeshi/",
+    "https://artpark.or.jp/tenrankai/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:45", "close": "17:00", "last_entry": "16:30"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:45", "close": "17:30", "last_entry": "17:00", "from": "2026-06-01", "to": "2026-08-31"},
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:45", "close": "17:30", "last_entry": "17:00", "from": "2027-06-01", "to": "2027-08-31"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+  ],
+  "special_openings": [
+    {"date": "2026-10-05", "note": "4/29〜11/3は月曜も開館（無休期間）"},
+    {"date": "2026-10-12", "note": "4/29〜11/3は月曜も開館（無休期間）"},
+    {"date": "2026-10-19", "note": "4/29〜11/3は月曜も開館（無休期間）"},
+    {"date": "2026-10-26", "note": "4/29〜11/3は月曜も開館（無休期間）"},
+    {"date": "2026-11-02", "note": "4/29〜11/3は月曜も開館（無休期間）"}
+  ],
+  "exhibitions": [
+    {
+      "title": "第４回 本郷新記念札幌彫刻賞受賞作品 展示",
+      "start": "2024-06-29",
+      "end": "2027-04-30",
+      "url": "https://artpark.or.jp/tenrankai-event/2024_hongo-ssa/",
+      "kind": "collection",
+      "summary": "第4回本郷新記念札幌彫刻賞受賞作品・藤原千也《太陽のふね》を美術館中庭に常設展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "五大浮世絵師　歌麿に写楽、北斎と広重、そして国芳",
+      "start": "2026-10-10",
+      "end": "2027-01-11",
+      "url": "https://artpark.or.jp/tenrankai-event/5ukiyoeshi/",
+      "kind": "special",
+      "summary": "喜多川歌麿・東洲斎写楽・葛飾北斎・歌川広重・歌川国芳、浮世絵黄金時代を築いた五大絵師の名品約140点",
+      "recommend": "浮世絵の代表的な五大絵師の作品が一堂に揃い、美人画・役者絵・風景画・武者絵の各ジャンルを横断して楽しめる贅沢な構成。絵解きパネルで江戸文化への理解も深まる。",
+      "admission": "一般 1,700円（前売 1,500円）",
+      "adult_price": 1700
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "真駒内",
+      "lines": "地下鉄南北線",
+      "exit": null,
+      "walk_min": null,
+      "note": "真駒内駅中央バス2番乗り場から【滝野線】に乗車、「芸術の森入口」または「芸術の森センター」下車（約15分）"
+    }
+  ],
+  "highlights": "札幌市南区の丘陵地に広がる複合芸術施設内にある美術館。コレクション約1,500点は北海道ゆかりの作家を中心に彫刻・版画・写真など多様。隣接する野外美術館では国内外の彫刻74点を自然の中で鑑賞でき、カフェ・クラフト工房も備えた総合芸術施設。",
+  "closed_between_exhibitions": false,
+  "notes": "4月29日〜11月3日は無休（春〜秋の特別会期）。11月4日〜4月28日は月曜休（祝日の場合は翌平日）。special_openingsに無休期間内の残りの月曜（10/5〜11/2）を登録し、render.pyが正しく開館と判定できるようにした。入園（公園エリア）は無料。美術館・野外美術館（700円）は有料。特別展「五大浮世絵師」は2026/10/10開幕、一般1,700円。adult_priceは展覧会ごとに異なるためnull。",
+  "confidence": "high"
+}

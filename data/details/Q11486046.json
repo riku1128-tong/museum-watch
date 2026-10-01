@@ -1,6 +1,6 @@
 {
   "id": "Q11486046",
-  "checked_at": "2026-09-28T23:28:17+09:00",
+  "checked_at": "2026-09-30T09:02:37+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -19,9 +19,7 @@
   ],
   "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [
-    {"from": "2026-09-07", "to": "2026-09-18", "reason": "展示替え"}
-  ],
+  "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {
@@ -61,6 +59,10 @@
       "admission": null
     }
   ],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "highlights": "東京・府中の森公園内に位置する市立美術館。江戸から近代の日本画・洋画を中心にコレクションを収蔵し、自然や暮らしをテーマにした親しみやすい企画展と常設展を開催。ボタニカルアートなど植物・動物モチーフの展覧会も多く、木立に囲まれた公園内の落ち着いた環境も魅力。",
   "closed_between_exhibitions": true,
   "access": [
     {"station": "府中", "lines": "京王線", "walk_min": null, "note": "京王バス武蔵小金井駅南口行き（一本木経由・武71）『天神町二丁目（府中市美術館）』下車徒歩3分、または、ちゅうバス多磨町行き『府中の森公園』下車徒歩6分"},

@@ -1,7 +1,7 @@
 {
   "id": "Q11404779",
-  "checked_at": "2026-09-29T23:08:10+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-09-30T09:22:11+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "official_url": "https://www.city.kurashiki.okayama.jp/musnat/index.html",
   "address": "〒710-0046 岡山県倉敷市中央2丁目6番1号",
@@ -42,7 +42,7 @@
     {
       "title": "常設展示（自然史資料）",
       "start": "2020-01-01",
-      "end": "2027-09-29",
+      "end": "2027-09-30",
       "kind": "collection",
       "summary": "通年。岡山の動植物・地質・化石・ミニ水族館を展示",
       "admission": "一般 150円",

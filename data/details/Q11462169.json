@@ -1,0 +1,60 @@
+{
+  "id": "Q11462169",
+  "checked_at": "2026-09-30T09:05:27+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.otaru.lg.jp/docs/2020111300095/",
+  "address": "〒047-0031 北海道小樽市色内1丁目9番5号",
+  "source_urls": [
+    "https://www.city.otaru.lg.jp/docs/2020111300095/",
+    "https://www.city.otaru.lg.jp/docs/infomation2/",
+    "https://www.city.otaru.lg.jp/docs/2020111300231/",
+    "https://www.city.otaru.lg.jp/docs/2026072900039/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "書と俳句～池田憲亮と一原有徳～前衛俳句がひらく現代の書表現",
+      "start": "2026-09-19",
+      "end": "2026-11-29",
+      "url": "https://www.city.otaru.lg.jp/docs/2026072900039/",
+      "kind": "special",
+      "summary": "書家・池田憲亮が一原有徳の俳句集『メビウスの丘』から選んだ書作品64点と、一原の版画11点を展示",
+      "recommend": "一原有徳の俳句集から書家・池田憲亮が1年かけて選んで書にした64点と、カリグラフィーをイメージした一原の版画11点を同時展示。俳句・版画・書が交差する前衛の世界観が体感できる。",
+      "admission": "一般 300円（普通観覧券）",
+      "adult_price": 300
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "小樽",
+      "lines": "JR函館本線",
+      "walk_min": 10
+    }
+  ],
+  "highlights": "運河と歴史的建造物で知られる小樽ゆかりの芸術家を紹介する美術館。洋画家・中村善策と前衛版画家・一原有徳の常設ホールを持ち、地域の近現代アートを紹介する。石造り倉庫が立ち並ぶ色内地区に位置し、企画展示室では内外の作家の個展も開催。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は月曜日と祝日の翌日。月曜以外の祝日も翌日（次の平日）が休館になる。振替が土日祝と重なる場合はさらに翌平日に振替。観覧料は企画展のみで、各ホール単独の普通観覧券が一般300円（団体240円）、3ホール共通観覧券が500円（400円）。",
+  "confidence": "high"
+}

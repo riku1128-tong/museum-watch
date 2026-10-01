@@ -1,6 +1,6 @@
 {
   "id": "Q11595522",
-  "checked_at": "2026-09-29T23:30:00+09:00",
+  "checked_at": "2026-09-30T10:50:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -27,7 +27,19 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "常設展示（ジオスタ☆ゆざわ）",
+      "start": "2026-01-01",
+      "end": "2027-09-30",
+      "url": "https://www.city-yuzawa.jp/soshiki/86/1201.html",
+      "kind": "collection",
+      "summary": "通年。湯沢市の地質・化石・遺跡出土品・鉱山・酒造用具など地域の歴史と風土を伝える資料を無料公開",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
   "adult_price": 0,
   "access": [
     {

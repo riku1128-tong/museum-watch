@@ -1,0 +1,40 @@
+{
+  "id": "Q48747268",
+  "checked_at": "2026-09-30T09:05:27+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.town.godo.gifu.jp/event/event23.html",
+  "address": "岐阜県安八郡神戸町大字神戸1220番地の1",
+  "source_urls": [
+    "https://www.town.godo.gifu.jp/event/event23.html",
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%AF%94%E9%87%8E%E4%BA%94%E9%B3%B3%E8%A8%98%E5%BF%B5%E7%BE%8E%E8%A1%93%E9%A4%A8"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:00",
+      "last_entry": "15:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 220,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "広神戸",
+      "lines": "養老鉄道養老線",
+      "walk_min": 15
+    }
+  ],
+  "highlights": "書道家・日比野五鳳の遺品と作品を展示する記念美術館。岐阜県安八郡神戸町の公民館に併設し、春（4月下旬〜5月下旬）と秋（10月下旬〜11月下旬）の年2回の企画展期間のみ開館する。五鳳は毎日書道会の創設にも関わった昭和の代表的書道家。",
+  "closed_between_exhibitions": true,
+  "notes": "春季展（4月下旬〜5月下旬）・秋季展（10月下旬〜11月下旬）の会期中のみ開館。会期外は閉館。入館料は一般・大学生220円（団体割引あり）、高校生以下・障がい者手帳所持者は無料。秋季展2026の具体的な日程はPDFが読めず未確認（10月下旬〜11月下旬の見込み）。",
+  "confidence": "medium"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q2374140",
-  "checked_at": "2026-09-28T23:28:12+09:00",
+  "checked_at": "2026-09-30T09:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -14,7 +14,8 @@
     "https://www.gotoh-museum.or.jp/",
     "https://www.gotoh-museum.or.jp/howto/",
     "https://www.gotoh-museum.or.jp/exhibition/open/",
-    "https://www.gotoh-museum.or.jp/exhibition/next/"
+    "https://www.gotoh-museum.or.jp/exhibition/next/",
+    "https://www.gotoh-museum.or.jp/collection/"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
@@ -31,7 +32,9 @@
       "url": "https://www.gotoh-museum.or.jp/exhibition/open/",
       "kind": "special",
       "summary": "唐草文をテーマに中国の古鏡・陶磁・染織、古筆装飾など館蔵品を展示。10/3〜12は国宝紫式部日記絵巻も",
-      "admission": "一般 1,100円"
+      "recommend": "古鏡・陶磁・染織から古筆装飾まで、唐草文をテーマに館蔵の名品が揃う。会期後半（10/3〜12）には国宝「紫式部日記絵巻」も加わり、源氏物語絵巻とあわせた平安文学ゆかりの名宝を間近に見られる貴重な機会。",
+      "admission": "一般 1,100円",
+      "adult_price": 1100
     },
     {
       "title": "室町ごころの風景",
@@ -40,10 +43,13 @@
       "url": "https://www.gotoh-museum.or.jp/exhibition/next/",
       "kind": "special",
       "summary": "室町時代のやまと絵屛風や連歌懐紙などから「室町ごころ」の風景を展望",
-      "admission": "一般 1,400円"
+      "recommend": null,
+      "admission": "一般 1,400円",
+      "adult_price": 1400
     }
   ],
   "closed_between_exhibitions": true,
-  "notes": "休館日は「毎月曜日（祝日の場合は翌平日）、展示替期間、夏期整備期間、年末年始など」。唐草文の美の休館日「毎月曜日（9月21日、10月12日は開館）、9月24日［木］」、室町ごころの風景の休館日「毎月曜日（11月23日は開館）・11月24日［火］」はいずれも holiday_rule と一致。9/21 は台風のため正午閉館だった（過去）。年末年始の具体的な日付は未確認。",
+  "highlights": "東急グループ創業者・五島慶太が蒐集した国宝5件・重要文化財50件を含む約5000件を所蔵。国宝「源氏物語絵巻」と「紫式部日記絵巻」のほか、古写経・茶道具・陶磁・考古資料まで幅広い和の美が揃う。上野毛の高台に広がる緑豊かな庭園も見どころで、年数回の企画展ごとに公開される。",
+  "notes": "休館日は「毎月曜日（祝日の場合は翌平日）、展示替期間、夏期整備期間、年末年始など」。唐草文の美の休館日「毎月曜日（9月21日、10月12日は開館）、9月24日［木］」は holiday_rule と一致。室町ごころの風景の休館日「毎月曜日（11月23日は開館）・11月24日［火］」も一致。常設展なし、adult_price は null。年末年始の具体的な日付は未確認。",
   "confidence": "high"
 }

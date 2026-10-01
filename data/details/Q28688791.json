@@ -1,0 +1,43 @@
+{
+  "id": "Q28688791",
+  "checked_at": "2026-09-30T09:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.kcmofa.com/",
+  "address": "福島県喜多方市字押切二丁目2番地",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/1199",
+    "https://www.instagram.com/kitakatashi_bijyutsukan/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": ["wed"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "喜多方",
+      "lines": "JR磐越西線",
+      "exit": null,
+      "walk_min": 20,
+      "note": "約1.5km。タクシーで5分"
+    }
+  ],
+  "highlights": "喜多方市の蔵のまち文化を背景に、会津地方や福島県ゆかりの作家を中心に年間7回程度の企画展を開催する美術館。蔵造りの街並みが残る旧市街に位置し、喜多方ラーメンと蔵の観光とあわせて立ち寄れる。入館料は一般300円（展覧会によって異なる）。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（http://www.kcmofa.com/）はSSL証明書が失効しているため直接読めず、インターネットミュージアム・Instagramの二次ソースを参照。一般300円は基本料金で展覧会によって異なる場合がある。現在開催中の展覧会は確認できなかった（渡辺おさむ展は2026年9月23日終了済み）。",
+  "confidence": "medium"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q28691367",
-  "checked_at": "2026-09-29T23:22:00+09:00",
+  "checked_at": "2026-09-30T09:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -23,12 +23,23 @@
       "title": "藤森詔子展",
       "start": "2026-10-01",
       "end": "2026-11-01",
-      "url": "https://www.hokubu-kinen.or.jp/",
+      "url": "https://www.hokubu-kinen.or.jp/複製-高橋均と技術-1-15-1",
       "kind": "special",
       "summary": "藤森詔子の個展",
       "recommend": null,
       "admission": "一般 800円",
       "adult_price": 800
+    },
+    {
+      "title": "小西政秀の眼で見た日本近代絵画の歴史 2",
+      "start": "2026-11-19",
+      "end": "2026-12-20",
+      "url": "https://www.hokubu-kinen.or.jp/複製-松村繁-11-19-1",
+      "kind": "special",
+      "summary": "小西政秀のコレクションで綴る日本近代絵画の歴史（第2弾）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 800,

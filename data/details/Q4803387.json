@@ -1,0 +1,74 @@
+{
+  "id": "Q4803387",
+  "checked_at": "2026-09-30T09:02:54+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.asahikawa.hokkaido.jp/sculpture/",
+  "address": "〒070-0875 北海道旭川市春光5条7丁目",
+  "source_urls": [
+    "https://www.city.asahikawa.hokkaido.jp/sculpture/",
+    "https://www.city.asahikawa.hokkaido.jp/sculpture/100/p000286.html",
+    "https://www.city.asahikawa.hokkaido.jp/sculpture/100/p000378.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-30", "to": "2027-01-04", "reason": "年末年始休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "中原悌二郎と中原賞の作家たち",
+      "start": "2026-01-01",
+      "end": "2027-09-30",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。中原悌二郎の作品12点とロダン・荻原守衛・中原賞受賞作家の彫刻を展示（本館2階）",
+      "recommend": null,
+      "admission": "一般 670円（常設展）",
+      "adult_price": 670
+    },
+    {
+      "title": "ストーリーズ ―織田コレクションでたどる物語展―",
+      "start": "2026-07-23",
+      "end": "2026-10-04",
+      "url": null,
+      "kind": "other",
+      "summary": "織田コレクションの作品で物語をたどる展覧会（JR旭川駅東口ステーションギャラリー、入場無料）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "椎名澄子 ― 彫刻とワークショップ",
+      "start": "2026-10-03",
+      "end": "2027-01-11",
+      "url": null,
+      "kind": "special",
+      "summary": "彫刻家・椎名澄子の個展。彫刻作品とワークショップを組み合わせた展覧会（本館1階）",
+      "recommend": null,
+      "admission": "一般 670円",
+      "adult_price": 670
+    }
+  ],
+  "adult_price": 670,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "旭川",
+      "lines": "JR各線",
+      "exit": null,
+      "walk_min": null,
+      "note": "旭川駅前バスタッチ4番のりばから春光バスセンター行（5・80・522番）で約25分、「春光園前」下車"
+    }
+  ],
+  "highlights": "旭川出身の彫刻家・中原悌二郎を記念した美術館。ロダンや荻原守衛ら近代彫刻の巨匠の作品とともに、1970年創設の中原悌二郎賞の受賞作品を多数所蔵し、野外には72点の彫刻が並ぶ。JR旭川駅東口のステーションギャラリーでも作品を無料公開している。",
+  "closed_between_exhibitions": false,
+  "notes": "ステーションギャラリー（旭川駅東口）の開館時間は10:30-18:30（入館18:15まで）で入場無料。本館の入館料は一般670円（常設展と企画展の観覧料含む）。",
+  "confidence": "high"
+}

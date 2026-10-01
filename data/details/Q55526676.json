@@ -1,0 +1,40 @@
+{
+  "id": "Q55526676",
+  "checked_at": "2026-09-30T09:22:11+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "建物老朽化のため2023年11月より休館。敷地の一部にマンション建設予定のため、別地点への移転を検討中。新美術館の開館時期は未定（名称「樂翠亭」は引き継ぐ予定）。休館中のコレクションはホテルグランミラージュ（富山県魚津市）とリバーリトリート雅樂倶（富山市春日）の出張ギャラリーで展示中。",
+  "official_url": "http://www.rakusuitei.jp/",
+  "address": "〒930-0857 富山県富山市奥田新町2-27",
+  "source_urls": [
+    "http://www.rakusuitei.jp/",
+    "https://ja.wikipedia.org/wiki/%E6%A8%82%E7%BF%A0%E4%BA%AD%E7%BE%8E%E8%A1%93%E9%A4%A8"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "富山",
+      "lines": "JR北陸本線・あいの風とやま鉄道・富山地方鉄道ほか",
+      "exit": "北口",
+      "walk_min": 10
+    },
+    {
+      "station": "インテック本社前",
+      "lines": "富山地方鉄道富山港線",
+      "exit": null,
+      "walk_min": 5
+    }
+  ],
+  "highlights": "昭和初期の日本家屋・洋風建築・蔵と日本庭園からなる富山市の私立美術館。現代陶芸・現代工芸を中心に展示していたが、建物老朽化により2023年11月より休館。移転先での再開を検討中。",
+  "closed_between_exhibitions": false,
+  "notes": "現在休館中（2023年11月以降）。ホテルグランミラージュ（魚津市、10:00〜19:00）とリバーリトリート雅樂倶（富山市）でコレクションの出張展示を開催中。問い合わせ: info@rakusuitei.jp。",
+  "confidence": "high"
+}

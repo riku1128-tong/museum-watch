@@ -1,0 +1,50 @@
+{
+  "id": "Q47461613",
+  "checked_at": "2026-09-30T09:03:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kuwayama-museum.jp/",
+  "address": "〒466-0828 愛知県名古屋市昭和区山中町2-12",
+  "source_urls": [
+    "https://www.kuwayama-museum.jp/",
+    "https://www.kuwayama-museum.jp/about/",
+    "https://www.kuwayama-museum.jp/event2026091920261206/"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "last_entry": "15:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "所蔵茶道具展　茶碗をめぐる見立てと連想",
+      "start": "2026-09-19",
+      "end": "2026-12-06",
+      "url": "https://www.kuwayama-museum.jp/event2026091920261206/",
+      "kind": "collection",
+      "summary": "所蔵の茶碗を通じて「見立て」と「連想」の表現を3章構成で紹介する茶道具展",
+      "recommend": "「見立て」という日本文化の独特な感性を茶碗で体感できる展覧会。茶碗が絵画や他の茶道具と組み合わさることで生まれる意外な連想の面白さを、3章にわたって丁寧に展開。茶道になじみのない人でも楽しめる構成が魅力。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "川名",
+      "lines": "名古屋市営地下鉄鶴舞線",
+      "exit": "2番出口",
+      "walk_min": 8,
+      "note": null
+    }
+  ],
+  "highlights": "初代館長・桑山清一が生涯をかけて収集した近代日本画と、鎌倉時代から現代にいたる茶道具を公開する私立美術館。ヨーロッパの古城を思わせる丸みを帯びた緑の屋根の洋風建築が特徴で、館内には3つの茶室と回遊式庭園を備える。本館屋上からは名古屋駅の高層ビル群と濃尾平野の山並みが望める。",
+  "closed_between_exhibitions": true,
+  "notes": "展示期間中の毎週月曜休館（祝日の場合は開館）。展示入替期間と美術館が定める休館日も休館。入館料は中高大学生800円、小学生以下無料。",
+  "confidence": "high"
+}

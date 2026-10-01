@@ -1,6 +1,6 @@
 {
   "id": "Q11406332",
-  "checked_at": "2026-09-29T23:23:32+09:00",
+  "checked_at": "2026-09-30T09:29:29+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -31,6 +31,7 @@
       "url": "https://www.chiba-muse.or.jp/ART/exhibition/events/event-10036/",
       "kind": "special",
       "summary": "千葉県公式キャラクター「チーバくん」誕生20年を記念し、生みの親さかざきちはるの原画などを紹介",
+      "recommend": "2007年の誕生から20年を記念した展覧会。さかざきちはるによる描き下ろし二曲一双屏風絵『招きチーバくん』の初公開や、海洋堂とのコラボフィギュアなど、チーバくんの20年の歩みを多角的に楽しめる。",
       "admission": "一般1,000円(団体一般800円)",
       "adult_price": 1000
     }

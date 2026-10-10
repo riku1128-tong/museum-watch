@@ -1,6 +1,6 @@
 {
   "id": "Q11404775",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T10:06:39+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,15 +12,7 @@
   ],
   "regular_hours": [
     {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun"
-      ],
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
       "open": "09:00",
       "close": "17:00"
     }
@@ -62,6 +54,6 @@
   ],
   "highlights": "江戸時代の庶民教育のために岡山藩主・池田光政が創建した特別史跡・旧閑谷学校内の資料館。明治38年建築の洋風木造校舎（国登録有形文化財）で歴史資料を展示。明治〜昭和期の閑谷黌・旧制閑谷中学校の変遷を紹介。紅葉の名所としても知られる。",
   "closed_between_exhibitions": false,
-  "notes": "特別史跡旧閑谷学校（入場料込み）の施設。Wikipedia記載名は「和気閑谷高校閑谷歴史館」だが、実際には旧閑谷学校敷地内の閑谷学校資料館として運営。入館料は2026年現在大人450円・小中学生100円（shizutani.jp/entrance で確認）。65歳以上230円。",
+  "notes": "特別史跡旧閑谷学校（入場料込み）の施設。Wikipedia記載名は「和気閑谷高校閑谷歴史館」だが、実際には旧閑谷学校敷地内の閑谷学校資料館として運営。入館料は2026年現在大人450円・小中学生100円（shizutani.jp/entrance で確認）。65歳以上230円。変化なし（マルシェ開催のお知らせのみ）。",
   "confidence": "medium"
 }

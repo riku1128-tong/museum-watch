@@ -1,0 +1,63 @@
+{
+  "id": "Q11289011",
+  "checked_at": "2026-10-10T10:16:06+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.woodone-museum.jp/",
+  "address": "〒738-0301 広島県廿日市市吉和4278",
+  "source_urls": [
+    "https://www.woodone-museum.jp/",
+    "https://www.woodone-museum.jp/exhibition_now.html",
+    "https://www.woodone-museum.jp/access.html"
+  ],
+  "regular_hours": [
+    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {"from": "2026-12-07", "to": "2027-03-31", "reason": "冬期休館"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "日本画の殿堂 二階堂美術館コレクション展 ～大観・松園 美のハーモニー～",
+      "start": "2026-09-19",
+      "end": "2026-12-06",
+      "url": "https://www.woodone-museum.jp/exhibition_now.html",
+      "kind": "special",
+      "summary": "二階堂美術館所蔵の上村松園・横山大観・竹内栖鳳・川合玉堂ら日本画の大家の作品約100点",
+      "recommend": "上村松園の美人画を中心に、横山大観・竹内栖鳳ら日本画の大家の名品約100点が揃う。松園の本画23点と素描下絵33点が一堂に会し、その芸術の出発点から完成形まで辿れる充実の内容。",
+      "admission": "一般 1,800円",
+      "adult_price": 1800,
+      "closed_weekdays": ["mon"]
+    },
+    {
+      "title": "常設展（マイセン磁器・アール・ヌーヴォーガラス・薩摩焼）",
+      "start": "2026-04-01",
+      "end": "2027-10-10",
+      "url": "https://www.woodone-museum.jp/",
+      "kind": "collection",
+      "summary": "通年。マイセン磁器・アール・ヌーヴォーのガラス作品・幕末〜明治期の薩摩焼など160点以上を常設展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "宮内串戸",
+      "lines": "JR山陽本線",
+      "walk_min": null,
+      "note": "宮内串戸駅から広電バス「津田」行きでさいき文化センターへ（約40分）、吉和さくらバスに乗り換えてクヴェーレ吉和下車（約50分）、徒歩1分。広島バスセンターから石見交通バスで吉和SA下車（約90分）、美術館の送迎予約が必要（3日前まで）"
+    }
+  ],
+  "highlights": "広島県廿日市市の吉和、標高600mの原生林の中に建つ「みどりの風を感じる美術館」。近代日本絵画のほかマイセン磁器・アール・ヌーヴォーのガラス作品・幕末〜明治期の薩摩焼など160点以上を所蔵。春〜秋の開館期間のみ営業（冬期休館あり）。",
+  "closed_between_exhibitions": false,
+  "notes": "開館時間は受付時間（10:00-17:00）およびイベント時の記載（10:00-17:00 入館16:30まで）から推定（公式ページに明記なし）。冬期休館は2026年12月7日〜2027年3月中旬（確定日程は未確認のため3月末とした）。月曜休館（ただし9/21・10/12・11/23の祝日月曜は開館）。常設展のみの料金は未確認のため adult_price は null。",
+  "confidence": "medium"
+}

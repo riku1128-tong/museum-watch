@@ -1,6 +1,6 @@
 {
   "id": "Q583055",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T15:57:58+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "2023年4月10日より長期休館中。渋谷ヒカリエ9F ヒカリエホールなど近隣会場で展覧会を継続開催。渋谷アッパーウェストプロジェクト（2029年度竣工予定）の新施設7階に移転・拡大して再開予定。2027年1月4日よりBunkamura全館休館が予定されている。",
@@ -16,7 +16,19 @@
   "holiday_rule": "unknown",
   "special_closures": [],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "寺山修司生誕90年記念 寺山修司と日本のアヴァンギャルドポスター展",
+      "start": "2026-10-09",
+      "end": "2026-10-18",
+      "url": "https://www.bunkamura.co.jp/gallery/exhibition/261009terayama.html",
+      "kind": "special",
+      "summary": "寺山修司生誕90年を記念し、アヴァンギャルドポスターで振り返る展覧会。会場：Bunkamura Gallery 8/（渋谷ヒカリエ8F）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
   "adult_price": null,
   "closed_between_exhibitions": false,
   "free_days": [],

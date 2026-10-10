@@ -1,13 +1,12 @@
 {
   "id": "Q11404773",
-  "checked_at": "2026-10-02T08:35:01+09:00",
+  "checked_at": "2026-10-10T11:30:00+09:00",
   "check_mode": "full",
-  "operating_status": "unknown",
-  "status_note": null,
+  "operating_status": "permanently_closed",
+  "status_note": "公式URL（https://www.city.soja.okayama.jp/kyoiku/kanko_bunka/bunkazai/kyodobi/index.html）が404。総社市ウェブサイト上に「総社郷土美術館」の名称でのページが存在しない。総社吉備路文化館（旧岡山県立吉備路文化館の建物を2014年4月に総社市が引き継ぎ開館）は別施設であり、名称変更ではない。廃館と判断。",
   "address": null,
   "source_urls": [
-    "https://www.city.soja.okayama.jp/bunka/bunka_sport/hakubutu/soja_kibiji_bunkakan.html",
-    "https://www.okayama-kanko.jp/spot/detail_15850.html"
+    "https://www.city.soja.okayama.jp/bunka/bunka_sport/hakubutu/soja_kibiji_bunkakan.html"
   ],
   "regular_hours": [],
   "closed_weekdays": [],
@@ -17,5 +16,5 @@
   "exhibitions": [],
   "adult_price": null,
   "confidence": "low",
-  "notes": "2026年9月再調査。公式URL（https://www.city.soja.okayama.jp/kyoiku/kanko_bunka/bunkazai/kyodobi/index.html）は404。総社市には「総社吉備路文化館」（上林1252、9:00〜17:00・最終入館16:30、月曜・年末年始休館）が存在するが、名称・住所ともに「総社郷土美術館」とは異なる。「総社市立総社郷土美術館」は廃館または名称変更の可能性あり。総社市文化芸術課（0866-92-8277）に要確認。 2026-10-02再確認: 公式URLは引き続き404、検索でも当該館の情報は見つからず。 2026-10-02再挑戦: 検索では「総社郷土美術館」名の施設は見つからず、総社市公式ページに総社吉備路文化館（旧・岡山県立吉備路郷土館を2024年に市へ移管、2026年4月再開）の記載のみ。同一施設かは未確認のため開館時間等は入れていない。"
+  "notes": "2026-10-10再調査。WebSearch・WebFetchで複数回確認したが、「総社市立総社郷土美術館」の名称での現在の運営情報は一切見つからない。総社市公式サイトの文化施設一覧にも掲載なし。2014年4月に旧岡山県立吉備路文化館（総社市上林1252）を引き継いだ「総社吉備路文化館」が存在するが、これは郷土美術館の改名ではなく別エンティティ。2013年の市議会決議で「（仮称）総社市美術博物館建設」が提起されていることから、当時は独立した美術館がなかった可能性も高い。廃館または吉備路文化館への統合・移管が強く推定される。"
 }

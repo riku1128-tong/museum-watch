@@ -1,6 +1,6 @@
 {
   "id": "Q11561407",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T09:51:37+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -20,10 +20,10 @@
         "sun",
         "holiday"
       ],
-      "open": "09:00",
-      "close": "17:00",
-      "from": "2026-03-01",
-      "to": "2026-09-30"
+      "open": "10:00",
+      "close": "16:00",
+      "from": "2026-10-01",
+      "to": "2027-02-28"
     },
     {
       "days": [
@@ -35,10 +35,10 @@
         "sun",
         "holiday"
       ],
-      "open": "10:00",
-      "close": "16:00",
-      "from": "2026-10-01",
-      "to": "2027-04-30"
+      "open": "09:00",
+      "close": "17:00",
+      "from": "2027-03-01",
+      "to": "2027-09-30"
     }
   ],
   "closed_weekdays": [

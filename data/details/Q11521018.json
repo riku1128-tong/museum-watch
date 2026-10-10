@@ -1,6 +1,6 @@
 {
   "id": "Q11521018",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:13:09+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -27,15 +27,6 @@
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
-    },
-    {
-      "days": [
-        "sat"
-      ],
-      "open": "09:00",
-      "close": "19:00",
-      "from": "2026-10-03",
-      "to": "2026-10-03"
     },
     {
       "days": [
@@ -96,7 +87,7 @@
       "end": "2026-12-14",
       "url": null,
       "kind": "collection",
-      "summary": "通年。清遠閣会場。日本・中国の陶磁器コレクションを展示",
+      "summary": "清遠閣会場。日本・中国の陶磁器コレクションを展示",
       "recommend": null,
       "admission": "一般 1,300円",
       "adult_price": 1300
@@ -108,6 +99,28 @@
       "url": null,
       "kind": "special",
       "summary": "酒田の豪商・本間家に伝わった浮世絵コレクションを紹介",
+      "recommend": null,
+      "admission": "一般 1,300円",
+      "adult_price": 1300
+    },
+    {
+      "title": "酒田の旧家に伝わったコレクション",
+      "start": "2027-01-09",
+      "end": "2027-02-22",
+      "url": null,
+      "kind": "special",
+      "summary": "酒田の旧家に伝わったコレクションを紹介する企画展",
+      "recommend": null,
+      "admission": "一般 1,300円",
+      "adult_price": 1300
+    },
+    {
+      "title": "武家文書と刀装具",
+      "start": "2027-01-09",
+      "end": "2027-02-22",
+      "url": null,
+      "kind": "collection",
+      "summary": "清遠閣会場。武家文書と刀装具を紹介",
       "recommend": null,
       "admission": "一般 1,300円",
       "adult_price": 1300
@@ -126,6 +139,6 @@
   ],
   "highlights": "酒田の豪商・本間家が築いた美術館。別邸「清遠閣」と庭園「鶴舞園」を含む施設に、江戸〜近現代の絵画・工芸・茶道具を豊富に収蔵。伊藤若冲・円山応挙ら江戸の名品から棟方志功・瑛九の近現代作品まで揃う。",
   "closed_between_exhibitions": false,
-  "notes": "「無休」（年中無休）。入館料1,300円で清遠閣（別荘）と鶴舞園（庭園）も観覧可能。清遠閣と美術展覧会場でそれぞれ異なる展示を開催している。 10/3・10・17・24・31（土）はナイトミュージアムで19時まで開館。",
+  "notes": "「無休」（年中無休）。入館料1,300円で清遠閣（別荘）と鶴舞園（庭園）も観覧可能。10/10・17・24・31（土）はナイトミュージアムで19時まで開館。",
   "confidence": "high"
 }

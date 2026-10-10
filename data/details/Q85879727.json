@@ -1,15 +1,15 @@
 {
   "id": "Q85879727",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-10T10:00:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/4/index.html",
   "address": "〒384-0041 長野県小諸市大字菱平2805番地1",
   "source_urls": [
     "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/4/index.html",
-    "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/4/18484.html",
-    "https://www.culture.nagano.jp/facilities/503/"
+    "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/4/1383.html",
+    "https://www.museum.or.jp/museum/3844"
   ],
   "regular_hours": [
     {
@@ -56,19 +56,7 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "糸のまち小諸展",
-      "start": "2026-09-06",
-      "end": "2026-10-04",
-      "url": "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/4/18484.html",
-      "kind": "special",
-      "summary": "養蚕・製糸業で栄えた小諸の産業史を紹介。資料・用具から現代のシルク染織作品まで6セクション構成",
-      "recommend": "かつて日本の近代化を支えた小諸の養蚕・製糸業の歴史を、風穴の知恵や農家の暮らしの道具を通して体験できる。現代の染織作家の作品も加わり、絹の文化の今昔を一望できる。",
-      "admission": "一般500円（400円）、小中学生250円（200円）",
-      "adult_price": 500
-    }
-  ],
+  "exhibitions": [],
   "adult_price": 500,
   "free_days": [],
   "free_rules": [],
@@ -83,6 +71,6 @@
   ],
   "highlights": "日本画家・白鳥映雪の作品を専門に所蔵する小諸市立の美術館。浅間山を望む高原の豊かな自然に囲まれた場所に立地し、約2か月ごとに企画展を開催。地元の産業史や郷土ゆかりの芸術を紹介する展覧会も行う。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日の場合は翌日）、祝日の翌日も休館（スキーマの holiday_rule: open_next_weekday_closed は月曜祝日の場合のみ表現）。年末年始（12/29〜1/3）休館。開館時間は4～11月 9:00-17:00、12～3月 9:00-16:00（カルチャー・ドット・ナガノより確認）。 2026-10-02: 糸のまち小諸展（～10/4）の次回以降の企画展は公式未掲載。",
+  "notes": "月曜休館（祝日の場合は翌日）、祝日の翌日も休館（スキーマの holiday_rule: open_next_weekday_closed は月曜祝日の場合のみ表現）。年末年始（12/29〜1/3）休館。開館時間は4～11月 9:00-17:00、12～3月 9:00-16:00。 2026-10-10: 「糸のまち小諸展」（～10/4）終了。次回展覧会は令和8年度スケジュールPDF（画像形式）に掲載されているが内容を読み取れなかった。公式サイトの個別展覧会ページも未掲載のため exhibitions を空にした。",
   "confidence": "high"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q11190936",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:03:29+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,6 +9,8 @@
   "source_urls": [
     "https://bbpmuseum.jp/",
     "https://bbpmuseum.jp/outline/info",
+    "https://bbpmuseum.jp/outline",
+    "https://bbpmuseum.jp/exclass/main",
     "https://bbpmuseum.jp/exhibition/%e4%b8%8a%e5%89%8d%e6%99%ba%e7%a5%90%e3%81%ae%e8%87%aa%e7%94%bb%e9%81%93-2"
   ],
   "regular_hours": [
@@ -84,8 +86,8 @@
       "note": null
     }
   ],
-  "highlights": null,
+  "highlights": "2009年7月、シマブンコーポレーション創業100周年を機に神戸・岩屋に開館した企画展型美術館。日本の近現代絵画とフランス絵画・版画・彫刻を核にしたコレクションを背景に、「暮らしの中にアートを」をコンセプトとした個性的な企画展を開催。阪神岩屋駅から徒歩1分の好アクセス。",
   "closed_between_exhibitions": false,
-  "notes": "祝日の場合は翌火曜休館。年末年始・展示替え期間も休館（日付は未確認）。館の紹介文が読めず見どころは未記入。",
+  "notes": "月曜休館（祝日の場合は翌火曜日）。年末年始・展示替え期間も休館（日付は公式サイトに未記載）。11/1は「上前智祐の自画道」開催中につき入館無料（展覧会ページに記載）。",
   "confidence": "high"
 }

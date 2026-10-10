@@ -1,6 +1,6 @@
 {
   "id": "Q11618013",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T09:51:52+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": "営業は土日祝のみ（秋期は9/19〜11/8）。冬期（12月〜3月）は休館",
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://www.chausuyama.jp/spot/2014030311333914.html",
     "https://www.chausuyama.jp/day/2014030614552885.html",
-    "https://www.chausuyama.jp/event/2026091008393769.html"
+    "https://www.chausuyama.jp/event/2026091008393769.html",
+    "https://www.chausuyama.jp/day/2014030614552885.html"
   ],
   "regular_hours": [
     {
@@ -39,7 +40,19 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "前田真三 写真展（常設）",
+      "start": "2026-09-19",
+      "end": "2027-10-10",
+      "url": null,
+      "kind": "collection",
+      "summary": "写真家・前田真三が奥三河を題材に撮影した作品を展示する常設ギャラリー。通年（開館日のみ）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": 0
+    }
+  ],
   "adult_price": 0,
   "free_days": [],
   "free_rules": [],

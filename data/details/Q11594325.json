@@ -1,14 +1,13 @@
 {
   "id": "Q11594325",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:15:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.fukuchiyama.lg.jp/soshiki/7/2024.html",
   "address": "京都府福知山市字岡ノ（内記一丁目）32-64",
   "source_urls": [
-    "https://www.city.fukuchiyama.lg.jp/soshiki/7/2024.html",
-    "https://dokkoise.com/spot/sato-taisei-memorial-art-museum/"
+    "https://www.city.fukuchiyama.lg.jp/soshiki/7/2024.html"
   ],
   "regular_hours": [
     {
@@ -58,6 +57,6 @@
   ],
   "highlights": "福知山城公園の一角に建つ、お城の外観をした美術館。福知山出身で文化勲章を受章した日本画家・佐藤太清の日本画を中心に展示している。",
   "closed_between_exhibitions": false,
-  "notes": "公式（市）ページに開催中・予定の展覧会の記載なし（exhibitions は空）。火・水曜休館。祝日の扱いは記載が読めず unknown。入館料は大人360円・小中学生110円。2026-10-02時点。駅名は公式で確認できていないため最寄駅の徒歩分は未記入。",
+  "notes": "公式（市）ページに開催中・予定の展覧会の記載なし（exhibitions は空）。火・水曜休館。祝日の扱いは記載が読めず unknown。入館料は大人360円・小中学生110円。駅名は公式で確認できていないため最寄駅の徒歩分は未記入。",
   "confidence": "medium"
 }

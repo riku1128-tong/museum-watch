@@ -1,6 +1,6 @@
 {
   "id": "Q11585933",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T16:10:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -53,12 +53,13 @@
       "title": "2026イタリア・ボローニャ国際絵本原画展",
       "start": "2026-11-07",
       "end": "2026-12-13",
-      "url": "https://nanao-art-museum.jp/",
+      "url": "https://nanao-art-museum.jp/2026blgnip",
       "kind": "special",
       "summary": "世界最大級の絵本原画コンクール・ボローニャ国際絵本原画展の入選作品を紹介する巡回展",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 1,000円（900円）、大学生350円（300円）、高校生以下無料",
+      "adult_price": 1000,
+      "closed_weekdays": []
     }
   ],
   "closed_between_exhibitions": false,

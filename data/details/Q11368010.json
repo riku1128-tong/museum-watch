@@ -1,0 +1,48 @@
+{
+  "id": "Q11368010",
+  "checked_at": "2026-10-10T15:58:06+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒763-0082 香川県丸亀市土器町東8-538（丸亀新聞放送会館モトリス内）",
+  "source_urls": [
+    "https://www.city.marugame.lg.jp/page/3062.html",
+    "https://art.xtone.jp/museum/archives/marugame-hirai.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "open": "10:00",
+      "close": "16:00"
+    }
+  ],
+  "closed_weekdays": ["sat", "sun"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "closed_between_exhibitions": false,
+  "access": [
+    {
+      "station": "宇多津",
+      "lines": "JR予讃線・瀬戸大橋線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "車の場合、坂出ICから約10分"
+    }
+  ],
+  "highlights": "1990年代以降のスペイン現代美術を約30人の中堅・若手作家の作品で常設展示する美術館。スペイン人建築家アルフレード・アリーバスが設計した曲線的な建物内に、スペイン人が展示デザインまで手がけた空間が広がる。入場無料で、日本では珍しいスペイン現代アートに出会える。",
+  "notes": "旧公式サイト（http://www.rnc.co.jp/moto/）は現在404。2024年9月14日より開館時間を10:00〜16:00に変更（旧10:00〜18:00）。土日祝日・年末年始は休館。入場無料。丸亀市の公式ページに施設案内あり（https://www.city.marugame.lg.jp/page/3062.html）。",
+  "confidence": "medium"
+}

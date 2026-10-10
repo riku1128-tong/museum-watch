@@ -1,0 +1,103 @@
+{
+  "id": "Q4617100",
+  "checked_at": "2026-10-10T10:09:31+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://okimu.jp/",
+  "address": "〒900-0006 沖縄県那覇市おもろまち3丁目1番1号",
+  "source_urls": [
+    "https://okimu.jp/",
+    "https://okimu.jp/guide/information/",
+    "https://okimu.jp/guide/access/",
+    "https://okimu.jp/exhibition/",
+    "https://okimu.jp/exhibition/artmuseum202609/",
+    "https://okimu.jp/special/shurijo-exhibition/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "sun"],
+      "open": "09:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    },
+    {
+      "days": ["fri", "sat"],
+      "open": "09:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "博物館常設展「海と島に生きる－豊かさ、美しさ、平和を求めて－」",
+      "start": "2018-01-01",
+      "end": "2027-03-31",
+      "url": "https://okimu.jp/exhibition/1515730190/",
+      "kind": "collection",
+      "summary": "通年。沖縄の歴史・自然・文化財を「海と島に生きる」をテーマに展示する博物館常設展",
+      "recommend": null,
+      "admission": "一般 530円",
+      "adult_price": 530
+    },
+    {
+      "title": "美術館コレクション展 2026.9.19－2027.3.28",
+      "start": "2026-09-19",
+      "end": "2027-03-28",
+      "url": "https://okimu.jp/exhibition/artmuseum202609/",
+      "kind": "collection",
+      "summary": "山城見信の造形と、戦前から現代までの沖縄美術の流れを約40名の作品でたどるコレクション展",
+      "recommend": "戦後沖縄美術を代表する山城見信（1937-2023）の《沈黙の園》ほか代表作と、上原美智子ら40名超の作品で沖縄美術の歩みを俯瞰できる。",
+      "admission": "一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "首里城づくしの１年",
+      "start": "2026-05-19",
+      "end": "2027-02-28",
+      "url": "https://okimu.jp/special/shurijo-exhibition/",
+      "kind": "special",
+      "summary": "令和の復元による首里城正殿完成記念。博物館常設展示室で首里城に関する資料を通年公開（歴史部門・美術工芸部門を期ごとに展示替え）",
+      "recommend": "令和の復元により首里城正殿が完成する節目の年に、琉球王国の歴史と文化を首里城ゆかりの史料・美術工芸品で紹介。展示内容が期ごとに入れ替わる構成で、複数回の来館も楽しめる。",
+      "admission": "一般 530円（博物館常設展観覧料に含む）",
+      "adult_price": 530
+    },
+    {
+      "title": "首里城－琉球の御城－",
+      "start": "2026-12-01",
+      "end": "2027-01-31",
+      "url": "https://okimu.jp/exhibition/shurijo2026/",
+      "kind": "special",
+      "summary": "首里城をテーマにした特別展（2026年12月開幕予定）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "おもろまち",
+      "lines": "ゆいレール（沖縄都市モノレール）",
+      "exit": null,
+      "walk_min": 10,
+      "note": "バスは県立博物館前バス停（徒歩約1分）が最寄り。読谷・糸満・具志川方面からの路線バスが利用可"
+    }
+  ],
+  "highlights": "沖縄県の博物館と美術館を一体化した複合施設。博物館では「海と島に生きる」をテーマに沖縄の歴史・自然・文化財を展示し、美術館では近現代の沖縄美術を紹介する。2026年は令和復元による首里城正殿の完成を記念した企画を通年展開。金・土は20時まで開館。",
+  "closed_between_exhibitions": false,
+  "notes": "入館料は博物館常設展530円、美術館コレクション展400円（別券購入）。1DAYパスポート750円（2026年9/25-11/28限定）で両方を観覧可能。adult_priceはnull（施設ごとに入館料が異なるため）。月曜が祝日・振替休日・慰霊の日の場合は開館し翌平日が休館（公式ガイドより）。",
+  "confidence": "high"
+}

@@ -1,9 +1,9 @@
 {
   "id": "Q3815450",
-  "checked_at": "2026-10-02T08:45:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:03:29+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
-  "status_note": "展示入替のため現在休館中（次回は10/10開幕）",
+  "status_note": null,
   "official_url": "https://mmat.jp/",
   "address": "〒153-0063 東京都目黒区目黒2-4-36",
   "source_urls": [
@@ -11,7 +11,8 @@
     "https://mmat.jp/information/index.html",
     "https://mmat.jp/about/index.html",
     "https://mmat.jp/access/index.html",
-    "https://mmat.jp/exhibition/archive/2026/20261010-478.html"
+    "https://mmat.jp/exhibition/archive/2026/20261010-478.html",
+    "https://mmat.jp/exhibition/archive/2027/20270116-479.html"
   ],
   "regular_hours": [
     {
@@ -55,6 +56,16 @@
     }
   ],
   "adult_price": null,
+  "free_days": [
+    {
+      "from": "2026-10-11",
+      "to": "2026-10-11",
+      "scope": "all",
+      "reason": "目黒区民まつり",
+      "source_url": "https://mmat.jp/exhibition/archive/2026/20261010-478.html"
+    }
+  ],
+  "free_rules": [],
   "access": [
     {
       "station": "目黒",

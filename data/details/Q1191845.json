@@ -1,0 +1,55 @@
+{
+  "id": "Q1191845",
+  "checked_at": "2026-10-10T09:51:33+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.huistenbosch.co.jp/",
+  "address": "〒859-3243 長崎県佐世保市ハウステンボス町1-1",
+  "source_urls": [
+    "https://www.huistenbosch.co.jp/",
+    "https://www.huistenbosch.co.jp/ticket/",
+    "https://online.bunka.go.jp/museums/detail/13288"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon","tue","wed","thu","fri","sat","sun","holiday"],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "神の指先-M.C.エッシャー 超絶技巧の全貌",
+      "start": "2026-07-17",
+      "end": "2026-10-25",
+      "url": null,
+      "kind": "special",
+      "summary": "数学的・幻想的なだまし絵で知られるM.C.エッシャーの全貌を紹介する大規模企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "ハウステンボス",
+      "lines": "JR大村線",
+      "exit": null,
+      "walk_min": 7,
+      "note": "長崎空港からバス約60分または高速船約50分"
+    }
+  ],
+  "highlights": "長崎・佐世保にある西洋式テーマパーク内の美術館。オランダ王宮を模した「パレス ハウステンボス」を会場に西洋絵画・工芸品を展示するほか、M.C.エッシャーらの企画展を定期開催。入館にはパーク入場券が必要。",
+  "closed_between_exhibitions": false,
+  "notes": "テーマパーク「ハウステンボス」の一施設。入館にはパスポート（1DAY大人7,600円〜）が必要で、美術館単独の入場券は設定されていない。開館時間はパーク営業時間に準ずるため季節により変動する（通常10:00〜18:00）。展示スペースは「パレス ハウステンボス」内に位置する。",
+  "confidence": "medium"
+}

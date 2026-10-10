@@ -1,6 +1,6 @@
 {
   "id": "Q11445098",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T10:35:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -52,6 +52,17 @@
       "kind": "special",
       "summary": "奈良市美術家協会の創立45周年を記念した会員による作品展",
       "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "ナンシー関の消しゴムハンコをアーカイブする展",
+      "start": "2026-11-03",
+      "end": "2026-11-29",
+      "url": "https://ncmoa.art/archives/10044",
+      "kind": "special",
+      "summary": "ナンシー関が遺した5,147点の消しゴムハンコの3Dデジタルアーカイブ事業を紹介",
+      "recommend": "テレビ批評家・ナンシー関が生涯で制作した消しゴムハンコ5,147点を3Dデジタルアーカイブで未来に残す取り組みを紹介する展覧会。貴重な実物とデジタル技術の融合で、消しゴムハンコ文化の奥深さを体感できる。",
       "admission": "無料",
       "adult_price": 0
     }

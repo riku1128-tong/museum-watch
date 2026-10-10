@@ -1,6 +1,6 @@
 {
   "id": "Q11621785",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T10:04:32+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -59,12 +59,23 @@
     {
       "title": "蓼科の森動物園～テディベアとその仲間たち～",
       "start": "2026-09-29",
-      "end": "2027-09-29",
+      "end": "2027-10-10",
       "url": "https://1027.jp/",
       "kind": "collection",
       "summary": "通年。世界各地から集めた約11,000体のテディベアや動物ぬいぐるみを館内に展示",
       "recommend": null,
       "admission": "大人 1,400円",
+      "adult_price": 1400
+    },
+    {
+      "title": "2026年 秋のイラスト展",
+      "start": "2026-10-09",
+      "end": "2026-11-27",
+      "url": "https://1027.jp/",
+      "kind": "special",
+      "summary": "秋の企画展示",
+      "recommend": null,
+      "admission": "大人 1,400円（入館料に含む）",
       "adult_price": 1400
     }
   ],

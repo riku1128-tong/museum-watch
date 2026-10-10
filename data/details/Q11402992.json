@@ -1,6 +1,6 @@
 {
   "id": "Q11402992",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:12:35+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -100,6 +100,28 @@
       "url": null,
       "kind": "special",
       "summary": "新道展創立70周年を記念した展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "文字とアート －ポップ・アートから書まで",
+      "start": "2027-01-09",
+      "end": "2027-04-11",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "雪々（せつせつ）と",
+      "start": "2027-01-09",
+      "end": "2027-04-11",
+      "url": null,
+      "kind": "collection",
+      "summary": null,
       "recommend": null,
       "admission": null,
       "adult_price": null

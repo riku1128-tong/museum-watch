@@ -1,7 +1,7 @@
 {
   "id": "Q11338923",
-  "checked_at": "2026-10-02T08:45:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T16:30:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.no-ma.jp/",
@@ -32,13 +32,7 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [
-    {
-      "from": "2026-10-02",
-      "to": "2026-10-02",
-      "reason": "公式トップに「2026.10.02（金）閉館」の表記（展示替えとみられる）"
-    }
-  ],
+  "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {
@@ -67,6 +61,6 @@
   ],
   "highlights": "近江八幡の重要伝統的建造物群保存地区にある昭和初期の町屋を改修し、2004年に開館した美術館。障害の有無や専門教育の有無にとらわれない表現を紹介し、35作家・2万点超の作品を収蔵している。",
   "closed_between_exhibitions": false,
-  "notes": "休館は月曜（祝日の場合は翌平日）、展示替え期間、年末年始。年末年始の具体的な日付は未確認。展覧会ごとに料金・時間が変わる場合あり。10/2の「閉館」表記の意味は公式ページで確認できず。",
+  "notes": "休館は月曜（祝日の場合は翌平日）、展示替え期間、年末年始。年末年始の具体的な日付は未確認。展覧会ごとに料金・時間が変わる場合あり。",
   "confidence": "medium"
 }

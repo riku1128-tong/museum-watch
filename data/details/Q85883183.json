@@ -1,24 +1,25 @@
 {
   "id": "Q85883183",
-  "checked_at": "2026-10-02T08:50:00+09:00",
+  "checked_at": "2026-10-10T09:51:39+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.morinoouchi.com/",
   "address": "〒399-8301 長野県安曇野市穂高有明2215-9",
   "source_urls": [
-    "https://www.museum.or.jp/museum/8044"
+    "https://www.museum.or.jp/museum/8044",
+    "https://summer.walkerplus.com/odekake/detail_e/ar0420e602569/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30", "from": "2026-03-01", "to": "2026-11-30"},
-    {"days": ["mon", "tue", "sat", "sun", "holiday"], "open": "09:30", "close": "16:30", "last_entry": "16:00", "from": "2026-12-01", "to": "2027-02-28"}
+    {"days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"},
+    {"days": ["mon", "tue", "wed", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "16:30", "last_entry": "16:00", "from": "2027-01-01", "to": "2027-02-28"}
   ],
   "closed_weekdays": ["thu"],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [],
-  "adult_price": 800,
+  "adult_price": 900,
   "free_days": [],
   "free_rules": [],
   "access": [
@@ -26,6 +27,6 @@
   ],
   "highlights": "北アルプスの麓、安曇野の森の中にある絵本原画専門の美術館。国内外の絵本原画展を年5～6回入れ替え、約8,000冊の絵本を備えたライブラリーやカフェ、コテージも併設する。",
   "closed_between_exhibitions": true,
-  "notes": "公式サイト（morinoouchi.com）はサーバー証明書の不一致（証明書のドメインが pweb02.nttbiz.jp）でWebFetchが接続できず、インターネットミュージアムの情報のみで作成。2026-09-28で会期終了の「いせひでこ絵本原画展・石井麻木写真展」を削除。後続の企画展は公式サイト・第三者サイトとも確認できなかったため未掲載。木曜定休（展示替え休館・祝日振替休館・1月上旬連続休館あり、GW・お盆の週は無休）。冬期（12～2月）は最終入館16:00・閉館16:30。closed_between_exhibitions: true のため次回展覧会が登録されるまで展示替え期間は休館扱いとなる。",
+  "notes": "公式サイト（morinoouchi.com）はサーバー証明書の不一致（証明書のドメインが pweb02.nttbiz.jp）でWebFetchが接続できず。2026-09-28で「みんな、おかえり。いせひでこ絵本原画展・石井麻木写真展」終了。次の企画展は未発表。2026-10-10時点で休館中（closed_between_exhibitions: true）。入館料: 大人900円・小中生500円・3歳以上250円（2026年夏の展覧会資料で確認）。木曜定休（展示替え休館・祝日振替休館・1月上旬連続休館あり、GW・お盆の週は無休）。冬期（1〜2月）は最終入館16:00・閉館16:30。",
   "confidence": "medium"
 }

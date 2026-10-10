@@ -1,0 +1,109 @@
+{
+  "id": "Q24874639",
+  "checked_at": "2026-10-10T10:02:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.beppu.oita.jp/sisetu/bunka_komyuniti/01bunka_01-02bijutukan.html",
+  "address": "〒874-0903 大分県別府市大字別府字野口原3030番地16",
+  "source_urls": [
+    "https://www.city.beppu.oita.jp/sisetu/bunka_komyuniti/01bunka_01-02bijutukan.html",
+    "https://www.city.beppu.oita.jp/sisetu/kouminkan/museum_exhibition.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "別府市美術館新収蔵品展（山本五十六揮ごう掛け軸も展示）",
+      "start": "2026-09-12",
+      "end": "2026-10-25",
+      "url": null,
+      "kind": "collection",
+      "summary": "山本五十六の揮毫（掛け軸）を含む最新の新収蔵品を公開",
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "別府市美術館企画展「赤銅御殿と白蓮」",
+      "start": "2026-09-12",
+      "end": "2026-10-25",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "第31回キルトin別府～針のおしゃべり～",
+      "start": "2026-11-03",
+      "end": "2026-11-08",
+      "url": null,
+      "kind": "special",
+      "summary": "キルト作品を展示するグループ展（第31回）",
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "第18回なごみの会水彩画展",
+      "start": "2026-11-10",
+      "end": "2026-11-15",
+      "url": null,
+      "kind": "special",
+      "summary": "水彩画グループ「なごみの会」による会員作品展（第18回）",
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "市美術館　陶芸教室『翠窯会』第7回作品展",
+      "start": "2026-11-12",
+      "end": "2026-11-15",
+      "url": null,
+      "kind": "special",
+      "summary": "別府市美術館陶芸教室の生徒による陶芸作品展（第7回）",
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "第13回別府版画会員展",
+      "start": "2026-11-21",
+      "end": "2026-12-03",
+      "url": null,
+      "kind": "special",
+      "summary": "別府版画会による会員作品展（第13回）",
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    }
+  ],
+  "adult_price": 210,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "別府",
+      "lines": "JR日豊本線",
+      "exit": "西口",
+      "walk_min": null,
+      "note": "西口からバス3番・8番・36番で「ビーコンプラザ前」下車（約6分）、または徒歩25分"
+    }
+  ],
+  "highlights": "別府市が運営する市立美術館。美術品展示室と民俗資料展示室を備え、新収蔵品展・企画展のほか地域の美術団体の発表の場としても活用される。入館料210円と手軽に訪れやすく、JR別府駅からバスで約6分のビーコンプラザ近くに立地する。",
+  "closed_between_exhibitions": false,
+  "notes": "観覧料は高校生・大学生・一般 210円（団体146円）、小中学生無料。団体は20人以上。年末年始の休館日程は公式サイトに記載なし（要確認）。",
+  "confidence": "high"
+}

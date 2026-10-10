@@ -1,6 +1,6 @@
 {
   "id": "wp-311ff022",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:01:44+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,7 +8,7 @@
   "address": "〒542-0076 大阪府大阪市中央区難波1-6-4",
   "source_urls": [
     "https://www.museum.or.jp/museum/11865",
-    "http://kamigata.jp/kmgt/guide-21/"
+    "https://summer.walkerplus.com/odekake/detail_e/ar0727e603810/"
   ],
   "regular_hours": [
     {
@@ -40,20 +40,20 @@
   ],
   "special_openings": [],
   "exhibitions": [],
-  "adult_price": 500,
+  "adult_price": 700,
   "free_days": [],
   "free_rules": [],
   "access": [
     {
       "station": "なんば",
-      "lines": "大阪メトロ",
+      "lines": "近鉄・OsakaMetro各線",
       "exit": null,
-      "walk_min": 5,
-      "note": null
+      "walk_min": 1,
+      "note": "駅北へ約80m"
     }
   ],
   "highlights": "江戸時代の道頓堀で上演された歌舞伎を描いた上方の役者絵を専門に展示する、法善寺門前の小さな美術館。所蔵品から常時30点ほどを企画やテーマごとに入れ替えて見せ、ミュージアムショップも併設している。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト(kamigata.jp)はSSL証明書不一致でWebFetch不可のため、日本の博物館情報サイト(museum.or.jp)と検索結果の公式利用案内の要約による。休館日は月曜（祝休日の場合は翌日）と12/29〜31。展示は常時入替の企画のため展覧会は未登録。",
+  "notes": "公式サイト(kamigata.jp)はSSL証明書不一致でWebFetch不可のため、museum.or.jp・walkerplus.comの2026年夏企画展情報による。入館料は2026年夏の第98回企画展（walkerplus）で一般700円を確認（museum.or.jpの旧データ500円から更新）。第99回企画展（2026年9月〜）の詳細は未確認のため展覧会未登録。アクセスはwalkerplus情報により「なんば」駅北へ約80m。",
   "confidence": "medium"
 }

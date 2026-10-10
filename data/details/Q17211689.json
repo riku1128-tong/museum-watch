@@ -1,0 +1,61 @@
+{
+  "id": "Q17211689",
+  "checked_at": "2026-10-10T15:57:58+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.shikokumura.or.jp/guide/facilities/shikokumura-gallery-waterscape-garden/",
+  "address": "香川県高松市屋島中町91番地",
+  "source_urls": [
+    "https://www.shikokumura.or.jp/guide/facilities/shikokumura-gallery-waterscape-garden/",
+    "https://www.shikokumura.or.jp/information/",
+    "https://www.shikokumura.or.jp/news/",
+    "https://www.shikokumura.or.jp/news/%e7%a7%8b%e3%81%ae%e4%bc%81%e7%94%bb%e5%b1%95%e3%80%8c%e6%a8%aa%e6%ba%9d%e7%be%8e%e7%94%b1%e7%b4%80landscape%e5%b1%95%e3%80%8d%e3%81%8c10%e6%9c%8816%e6%97%a5%ef%bc%88%e9%87%91%ef%bc%89%e3%81%8b/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-05",
+      "to": "2026-10-15",
+      "reason": "展示替えのためギャラリー休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "横溝美由紀 Landscape展",
+      "start": "2026-10-16",
+      "end": "2027-02-14",
+      "url": "https://www.shikokumura.or.jp/news/%e7%a7%8b%e3%81%ae%e4%bc%81%e7%94%bb%e5%b1%95%e3%80%8c%e6%a8%aa%e6%ba%9d%e7%be%8e%e7%94%b1%e7%b4%80landscape%e5%b1%95%e3%80%8d%e3%81%8c10%e6%9c%8816%e6%97%a5%ef%bc%88%e9%87%91%ef%bc%89%e3%81%8b/",
+      "kind": "special",
+      "summary": "身近な人工物を使い時間・空間・光をテーマにしたミニマルなインスタレーションと平面作品を組み合わせた個展。冨木田家砂糖しめ小屋でも展示。",
+      "recommend": "全て新作によるインスタレーション。油彩を含ませた糸を弾いた密度の高い平面作品と空間作品が呼応し、見る人の前に新たな「landscape」を現出させる。古民家空間との組み合わせも見どころ。",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 2200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "屋島",
+      "lines": "ことでん志度線",
+      "walk_min": null,
+      "note": "屋島駅から徒歩約15分。高松中心部から車で約15分。"
+    }
+  ],
+  "highlights": "四国各地から移築した約33棟の古民家・古建築が広がる野外博物館「四国村」の中に設けられたギャラリー。伝統的な石造り土蔵群などを改修した展示空間で、年1〜2回、美術品や民具をテーマにした企画展を開催する。周囲の棚田・農村の風景と一体になった鑑賞体験が特徴。",
+  "closed_between_exhibitions": true,
+  "notes": "入場料は四国村ミウゼアム共通（大人2,200円、大学生1,000円、高校・中学生600円、小学生以下無料、15名以上の団体は各200円引き）。四国村ギャラリー単独の入場は不可。火曜が祝日の場合は翌平日休村。",
+  "confidence": "high"
+}

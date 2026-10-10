@@ -1,0 +1,114 @@
+{
+  "id": "Q10854956",
+  "checked_at": "2026-10-10T10:08:56+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.kagoshima.lg.jp/artmuseum/",
+  "address": null,
+  "source_urls": [
+    "https://www.city.kagoshima.lg.jp/artmuseum/",
+    "https://www.city.kagoshima.lg.jp/artmuseum/about.html",
+    "https://www.city.kagoshima.lg.jp/artmuseum/access.html",
+    "https://www.city.kagoshima.lg.jp/artmuseum/exhibition-r8special_saul-leiter.html",
+    "https://www.city.kagoshima.lg.jp/artmuseum/exhibition-r8-shozou4.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-01",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "秋の所蔵品展　特集：在りし日を想う～所蔵作家・作品と写真資料",
+      "start": "2026-09-15",
+      "end": "2026-11-29",
+      "url": "https://www.city.kagoshima.lg.jp/artmuseum/exhibition-r8-shozou4.html",
+      "kind": "collection",
+      "summary": "黒田清輝・藤島武二・和田英作ら鹿児島ゆかりの作家と19〜20世紀美術を展示。特集では西郷隆盛肖像・橋口五葉・和田英作の写真資料も紹介",
+      "recommend": "昨年度新収蔵の草間彌生《RED-DOTS》が特別公開。普段なかなか見られない写真資料を関連作家の作品とともに並べる特集コーナーも見逃せない。",
+      "admission": "一般 600円（市民 450円）",
+      "adult_price": 600
+    },
+    {
+      "title": "写真家ソール・ライターの原点　Origins in Color",
+      "start": "2026-10-02",
+      "end": "2026-11-15",
+      "url": "https://www.city.kagoshima.lg.jp/artmuseum/exhibition-r8special_saul-leiter.html",
+      "kind": "special",
+      "summary": "「カラー写真のパイオニア」ソール・ライターの初期〜晩年の写真・絵画・没後発見のカラースライドで色彩表現の源泉に迫る",
+      "recommend": "写真だけでなく絵画や没後に発見されたカラースライドも出品し、ライターの色彩感覚と創作の原点を多角的に探る大規模個展。日本では近年注目度が高い写真家。",
+      "admission": "一般 1,400円（前売 1,200円）",
+      "adult_price": 1400
+    },
+    {
+      "title": "第16回フォトフレンズかごしま写真展",
+      "start": "2026-10-06",
+      "end": "2026-10-12",
+      "url": null,
+      "kind": "other",
+      "summary": "地下展示室で開催される写真展（観覧無料）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "谷口午二展　春風駘蕩―絵と人のあいだ―",
+      "start": "2026-11-19",
+      "end": "2027-01-17",
+      "url": null,
+      "kind": "special",
+      "summary": "鹿児島ゆかりの洋画家・谷口午二の展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "冬の所蔵品展　特集：谷口午二をめぐる鹿児島の作家たち",
+      "start": "2026-12-01",
+      "end": "2027-02-14",
+      "url": null,
+      "kind": "collection",
+      "summary": "冬期の所蔵品展。谷口午二と関連する鹿児島の作家たちを特集展示",
+      "recommend": null,
+      "admission": "一般 600円（市民 450円）",
+      "adult_price": 600
+    }
+  ],
+  "adult_price": 600,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "朝日通",
+      "lines": "鹿児島市電",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    },
+    {
+      "station": "鹿児島中央",
+      "lines": "JR鹿児島本線・九州新幹線",
+      "exit": null,
+      "walk_min": null,
+      "note": "鹿児島中央駅から車で約10分。カゴシマシティビューバス「西郷銅像前」停留所から徒歩1分"
+    }
+  ],
+  "highlights": "黒田清輝・藤島武二・和田英作ら鹿児島ゆかりの洋画家の作品を核に、19〜20世紀の美術の流れを示す約3,500点を収蔵する公立美術館。草間彌生など現代作家の新収蔵作品も加わり、国際的な写真展も開催。西郷銅像に隣接し、観光の合間に立ち寄りやすい立地。",
+  "closed_between_exhibitions": false,
+  "notes": "所蔵品展・小企画展の観覧料は市民一般450円、市外一般600円（adult_priceは市外料金）。特別企画展はその都度料金設定。毎月第3日曜は小・中学生の常設展が無料（大人一般は対象外）。住所は別途確認要。",
+  "confidence": "high"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q11678218",
-  "checked_at": "2026-10-02T08:27:08+09:00",
+  "checked_at": "2026-10-10T10:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": "展観期間のみ開館。現在は展観準備のため休館中で、次回は2026年10月17日から。",
@@ -8,14 +8,20 @@
   "address": "〒662-0081 兵庫県西宮市苦楽園三番町14-50",
   "source_urls": [
     "http://www.kurokawa-institute.or.jp/",
-    "http://www.kurokawa-institute.or.jp/pages/29/",
+    "http://www.kurokawa-institute.or.jp/pages/17/",
+    "http://www.kurokawa-institute.or.jp/pages/49/",
     "https://www.nishi.or.jp/access/hakubutsukan/kurokawa.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00"}
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:30"
+    }
   ],
   "closed_weekdays": ["mon"],
-  "holiday_rule": "unknown",
+  "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
@@ -23,22 +29,28 @@
       "title": "第136回展観「通貨錯乱−貨幣の明治維新」",
       "start": "2026-10-17",
       "end": "2026-11-29",
-      "url": "http://www.kurokawa-institute.or.jp/",
+      "url": "http://www.kurokawa-institute.or.jp/pages/49/",
       "kind": "special",
-      "summary": "明治維新期の貨幣の混乱をテーマにした秋季展観",
-      "recommend": null,
-      "admission": "大人 500円",
-      "adult_price": 500
+      "summary": "明治初期の貨幣流通の混乱「通貨錯乱」をテーマに、当所所蔵の貨幣コレクションで辿る秋季展観",
+      "recommend": "明治維新期、幕末の諸藩札から日本銀行券誕生まで貨幣が激変した時代を、万延二分金・太政官札・大黒札など多様な実物資料で辿る。所蔵8500件を誇る貨幣コレクションの精髄を間近で見られる貴重な機会。",
+      "admission": "一般 600円（現金のみ）",
+      "adult_price": 600,
+      "closed_dates": ["2026-11-24"]
     }
   ],
-  "adult_price": 500,
+  "adult_price": 600,
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "夙川", "lines": "阪急神戸線", "walk_min": null, "note": "夙川駅・さくら夙川駅からバスで柏堂町下車、徒歩15〜20分。展観期間中の土日祝は阪急苦楽園口から無料ハイヤー運行"}
+    {
+      "station": "苦楽園口",
+      "lines": "阪急甲陽線",
+      "walk_min": null,
+      "note": "展観期間中の土日祝は苦楽園口から無料ハイヤー運行。平日は夙川駅・さくら夙川駅からバスで柏堂町下車、徒歩15〜20分"
+    }
   ],
-  "highlights": null,
+  "highlights": "1950年設立の東洋古文化研究機関。2代・黒川幸七が収集した中国・日本を主体とする美術工芸品や考古歴史資料など約8500件（2万点）を所蔵。年2回（春季・秋季）の展観期間のみ一般公開し、西宮市苦楽園の閑静な住宅地に立地する個性ある文化施設。",
   "closed_between_exhibitions": true,
-  "notes": "開館は展観期間中のみ（春季・秋季）。開館時間 10:00〜16:00、休館は展観期間中の月曜（西宮市の案内による）。入館料は大人500円・大学生300円・中学生以下無料。祝日の扱いは記載なし。",
-  "confidence": "medium"
+  "notes": "開館は春季・秋季の展観期間中のみ。展観期間中は月曜休館（祝日の場合は開館し翌平日休館）。入館料は一般600円・大学生以下無料（現金のみ）。展示室内撮影禁止。",
+  "confidence": "high"
 }

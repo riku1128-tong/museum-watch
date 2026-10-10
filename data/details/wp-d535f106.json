@@ -1,0 +1,59 @@
+{
+  "id": "wp-d535f106",
+  "checked_at": "2026-10-10T10:11:06+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "公式サイトが「閉館中」と表示。春・秋の期間限定で開館。2026年秋の再開準備中との記載あり（再開日不明）",
+  "official_url": "https://matsuekitahori.com/",
+  "address": "〒690-0888 島根県松江市北堀町333",
+  "source_urls": [
+    "https://matsuekitahori.com/",
+    "https://matsuekitahori.com/%E6%96%BD%E8%A8%AD%E6%A1%88%E5%86%85/",
+    "https://matsuekitahori.com/%e5%ba%83%e5%91%8a%e8%8a%b8%e8%a1%93%e8%b3%87%e6%96%99%e9%a4%a8/",
+    "https://kitahori.exblog.jp/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:30"
+    }
+  ],
+  "closed_weekdays": ["tue", "wed"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "広告芸術資料館 常設展示",
+      "start": "2026-01-01",
+      "end": "2027-10-10",
+      "url": "https://matsuekitahori.com/%e5%ba%83%e5%91%8a%e8%8a%b8%e8%a1%93%e8%b3%87%e6%96%99%e9%a4%a8/",
+      "kind": "collection",
+      "summary": "通年。1920〜1970年代のフランス広告芸術ポスター。ポール・コラン、カッサンドル、カッピエロらの「劇場・生活・観光」をテーマにした作品を展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 1300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "松江しんじ湖温泉",
+      "lines": "一畑電車北松江線",
+      "note": "レイクラインバス「小泉八雲記念館前」下車 徒歩1分"
+    },
+    {
+      "station": "松江",
+      "lines": "JR山陰本線",
+      "note": "レイクラインバス「小泉八雲記念館前」下車 徒歩1分"
+    }
+  ],
+  "highlights": "1920〜1970年代のフランスの広告芸術（ポスター）を収蔵・展示する美術館。ポール・コランやカッサンドル、カッピエロらの作品を「劇場・生活・観光」のテーマで紹介。松江城周辺の北堀町に位置し、春と秋の期間限定で開館する。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（matsuekitahori.com）は2026-10-10時点で「閉館中」と表示。広告芸術資料館のページに「春と秋に期間限定で開館します」「2026年秋開館準備中」とあり、現在は閉館中で再開準備中と判断。開館時間・入館料は2021年のブログ記事に基づく（10:00-16:00、最終入館15:30、一般1,300円）。現在の料金は要確認。",
+  "confidence": "low"
+}

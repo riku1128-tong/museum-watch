@@ -1,0 +1,78 @@
+{
+  "id": "Q4556482",
+  "checked_at": "2026-10-10T10:03:17+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.pref.kumamoto.jp/site/museum/",
+  "address": "〒860-0008 熊本県熊本市中央区二の丸2番",
+  "source_urls": [
+    "https://www.pref.kumamoto.jp/site/museum/",
+    "https://www.pref.kumamoto.jp/site/museum/56418.html",
+    "https://www.pref.kumamoto.jp/site/museum/52544.html",
+    "https://www.pref.kumamoto.jp/site/museum/263523.html",
+    "https://www.pref.kumamoto.jp/site/museum/263546.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:15",
+      "last_entry": "16:45"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [
+    {"date": "2026-10-26", "note": "特別開館日（月曜）"},
+    {"date": "2026-11-24", "note": "特別開館日（勤労感謝の日振替休日にあたる火曜）"}
+  ],
+  "exhibitions": [
+    {
+      "title": "令和8年度細川・美術館コレクション3",
+      "start": "2026-10-06",
+      "end": "2026-12-06",
+      "url": "https://www.pref.kumamoto.jp/site/museum/263523.html",
+      "kind": "collection",
+      "summary": "国宝・通潤橋の特集と所蔵品による「熊本の美術」「熊本の近現代絵画と西洋美術」を紹介",
+      "recommend": "令和5年に国宝指定された通潤橋を特集し、熊本藩の地域行政の歴史を概観。第2・3室では熊本ゆかりの作品や近代絵画・西洋美術も楽しめる。開館50周年の節目に低廉な料金で鑑賞できる充実の常設展。",
+      "admission": "一般 280円",
+      "adult_price": 280
+    },
+    {
+      "title": "熊本地震から10年　仏像　国宝×肥後仏",
+      "start": "2026-10-09",
+      "end": "2026-11-29",
+      "url": "https://www.pref.kumamoto.jp/site/museum/263546.html",
+      "kind": "special",
+      "summary": "熊本地震10年の節目に、県内寺社の肥後仏と京都の国宝仏が初共演。文化財レスキューの軌跡も紹介",
+      "recommend": "熊本地震から10年を機に、県内に伝わる肥後仏と京都の国宝仏が初めて一堂に揃う。災害からの文化財レスキュー活動の記録も展示し、仏像を通じて歴史の重みと文化財を守ることの大切さが伝わる展覧会。",
+      "admission": "一般 1,500円（前売1,400円）",
+      "adult_price": 1500
+    }
+  ],
+  "adult_price": 280,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "熊本",
+      "lines": "JR各線",
+      "exit": null,
+      "walk_min": null,
+      "note": "熊本城周遊バス（しろめぐりん）で「熊本城二の丸駐車場」下車、徒歩3分"
+    },
+    {
+      "station": "上熊本",
+      "lines": "JR豊肥本線・熊本市電",
+      "exit": null,
+      "walk_min": null,
+      "note": "タクシーで約10分"
+    }
+  ],
+  "highlights": "熊本城の二の丸公園内に建つ、開館50周年を迎えた県立美術館。細川家伝来の古美術を核とする常設展のほか、地域ゆかりの近現代美術や年数回の特別展を開催する。熊本地震での文化財レスキュー活動でも知られ、歴史的城郭と美術が交差するユニークな立地が魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "開館時間は9:30～17:15（入館は16:45まで）。月曜休館、月曜が祝日の場合は開館し翌平日が休館。10/26(月)と11/24(火)は特別開館日。細川・美術館コレクション展は会期中に一部展示替えあり。常設展の大人一般料金は280円（団体・友の会200円）。",
+  "confidence": "high"
+}

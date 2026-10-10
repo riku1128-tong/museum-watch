@@ -1,7 +1,7 @@
 {
   "id": "Q11399539",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-10T09:51:58+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.hida.gifu.jp/site/museum/",
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://www.city.hida.gifu.jp/site/museum/",
     "https://www.city.hida.gifu.jp/site/museum/visit.html",
-    "https://www.city.hida.gifu.jp/site/museum/55743.html"
+    "https://www.city.hida.gifu.jp/site/museum/55743.html",
+    "https://www.city.hida.gifu.jp/site/museum/87136.html"
   ],
   "regular_hours": [
     {
@@ -34,17 +35,6 @@
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "第22回 飛騨市美術展",
-      "start": "2026-09-20",
-      "end": "2026-10-04",
-      "url": "https://www.city.hida.gifu.jp/site/museum/87136.html",
-      "kind": "special",
-      "summary": "日本画・洋画・彫刻・工芸・書・写真の6部門、計144点を展示する市民美術展",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
     {
       "title": "袖垣 治彦　木版画展（第Ⅱ期）～飛騨の獅子舞・民具を彫る～",
       "start": "2026-11-21",

@@ -1,0 +1,82 @@
+{
+  "id": "Q93425",
+  "checked_at": "2026-10-10T09:51:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.hiroshima-moca.jp/",
+  "address": "〒732-0815 広島市南区比治山公園1-1",
+  "source_urls": [
+    "https://www.hiroshima-moca.jp/",
+    "https://www.hiroshima-moca.jp/visit/",
+    "https://www.hiroshima-moca.jp/moca/guide/",
+    "https://www.hiroshima-moca.jp/moca/about/",
+    "https://www.hiroshima-moca.jp/moca/access/",
+    "https://www.hiroshima-moca.jp/exhibition/melchin",
+    "https://www.hiroshima-moca.jp/exhibition/collection2026-2"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-10",
+      "to": "2026-10-11",
+      "reason": "展示替えにより臨時休館"
+    },
+    {
+      "from": "2026-12-27",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第12回ヒロシマ賞受賞記念　メル・チン展",
+      "start": "2026-07-25",
+      "end": "2026-10-12",
+      "url": "https://www.hiroshima-moca.jp/exhibition/melchin",
+      "kind": "special",
+      "summary": "環境問題・社会課題をテーマとする彫刻・映像・インスタレーション等。日本初の個展でヒロシマのための新作も展示",
+      "recommend": "第12回ヒロシマ賞受賞者メル・チン（1951年生）の日本初個展。彫刻・映像・ゲームを横断する多彩な表現と、広島のために制作した新作インスタレーションでアートによる社会変革の可能性を問う。",
+      "admission": "一般 1,600円",
+      "adult_price": 1600,
+      "closed_dates": ["2026-09-24"]
+    },
+    {
+      "title": "コレクション展2026-Ⅱ　美術館の時間_チャプター2：時間の束",
+      "start": "2026-10-10",
+      "end": "2027-01-24",
+      "url": "https://www.hiroshima-moca.jp/exhibition/collection2026-2",
+      "kind": "collection",
+      "summary": "「美術館の時間」年間テーマ第2弾。引用と応答・作品が持つ時間・ヒロシマ賞の軌跡の3セクション",
+      "recommend": "過去作品を引用し時代を超えた対話を試みる展示、修復・保存を経た作品の継承、ヒロシマ賞35年の変遷が一堂に。美術館そのものの時間を問い直す野心的なコレクション展。",
+      "admission": "一般 350円",
+      "adult_price": 350
+    }
+  ],
+  "adult_price": 350,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "比治山下",
+      "lines": "広島電鉄",
+      "exit": null,
+      "walk_min": 10,
+      "note": "坂道約500m（比治山公園内）"
+    }
+  ],
+  "highlights": "全国初の本格的な現代美術専門の公立美術館として1989年5月3日に開館。黒川紀章設計の建物が比治山公園の緑に映える。「ヒロシマ賞」を3年ごとに授与して国際的な現代美術家を支援し、約2,700点のコレクションを誇る。2023年リニューアル済み。",
+  "closed_between_exhibitions": false,
+  "notes": "8/6（広島平和記念日）が月曜に当たる場合も開館し翌平日が休館。月曜が祝日の場合も同様（holiday_rule: open_next_weekday_closed）。2026-10-10〜10-11は展示替えにより臨時休館（公式カレンダー確認）。住所はfetchで直接確認できなかったため補完。メル・チン展：9/24（木）は臨時休館、9/21（月祝）・10/12（月祝）は開館（holiday_rule通り）。",
+  "confidence": "medium"
+}

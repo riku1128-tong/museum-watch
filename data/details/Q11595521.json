@@ -1,7 +1,7 @@
 {
   "id": "Q11595521",
-  "checked_at": "2026-10-02T08:45:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:11:06+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.town.ugo.lg.jp/sightseeing/detail.html?id=1015&category_id=41",
@@ -43,7 +43,7 @@
     {
       "title": "西馬音内盆踊り常設展示",
       "start": "2026-01-01",
-      "end": "2027-10-02",
+      "end": "2027-10-10",
       "url": "https://www.town.ugo.lg.jp/sightseeing/detail.html?id=1015&category_id=41",
       "kind": "collection",
       "summary": "通年。古い踊り衣装、盆踊りを再現した人形、藍染の壁掛け、キルト作品を展示",

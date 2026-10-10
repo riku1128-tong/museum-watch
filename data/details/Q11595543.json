@@ -1,13 +1,14 @@
 {
   "id": "Q11595543",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:13:09+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "official_url": "https://www.city.satte.lg.jp/soshiki/kyoudomuseum/index.html",
   "address": "埼玉県幸手市大字下宇和田58番地4",
   "source_urls": [
     "https://www.city.satte.lg.jp/soshiki/kyoudomuseum/index.html",
-    "https://www.city.satte.lg.jp/soshiki/kyoudomuseum/005/15811.html"
+    "https://www.city.satte.lg.jp/soshiki/kyoudomuseum/005/15811.html",
+    "https://www.city.satte.lg.jp/soshiki/kyoudomuseum/005/15921.html"
   ],
   "regular_hours": [
     {
@@ -45,6 +46,17 @@
       "url": "https://www.city.satte.lg.jp/soshiki/kyoudomuseum/005/15811.html",
       "summary": "日光道中の宿場町で繁栄した大商人・長嶋屋青木家を墓碑銘解読などの調査で紹介",
       "recommend": "「幸手には無いものはない」と言われた商人のまちで栄えた「まぼろしの豪商」長嶋屋の実像に迫る企画展。史料発掘により明らかになった歴代当主の人物像が見どころ。",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "天神島の天神神社－その歴史と文化財－",
+      "start": "2026-10-24",
+      "end": "2027-01-31",
+      "kind": "special",
+      "url": "https://www.city.satte.lg.jp/soshiki/kyoudomuseum/005/15921.html",
+      "summary": "幸手市天神島の天神神社の起源・縁起・33年祭の歴史と、棟札や天神像絵馬など社蔵文化財を紹介",
+      "recommend": "応永7年（1400）銘の棟札や元和8年（1622）墨書銘の絵馬など、地域に残る貴重な文化財を通じて天神神社の600年の歴史に迫る企画展。護符の版木から読み解く江戸期の信仰の姿も見もの。",
       "admission": "無料",
       "adult_price": 0
     }

@@ -1,7 +1,7 @@
 {
   "id": "Q11367892",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T09:58:06+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://muryoji.jp/museum/about/",
@@ -33,8 +33,8 @@
   "exhibitions": [
     {
       "title": "円山応挙・長沢芦雪 墨画襖絵（常設）",
-      "start": "2026-10-02",
-      "end": "2027-10-02",
+      "start": "2026-10-10",
+      "end": "2027-10-10",
       "url": "https://muryoji.jp/museum/about/",
       "kind": "collection",
       "summary": "通年。重要文化財の応挙・芦雪の墨画襖絵55面ほか近世絵画を公開",

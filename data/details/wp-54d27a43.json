@@ -1,13 +1,14 @@
 {
   "id": "wp-54d27a43",
-  "checked_at": "2026-10-02T08:50:00+09:00",
+  "checked_at": "2026-10-10T10:10:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://shizuoka-kinbi.jp/",
   "address": "〒420-0866 静岡県静岡市葵区西草深町4-9",
   "source_urls": [
-    "https://shizuoka-kinbi.jp/"
+    "https://shizuoka-kinbi.jp/",
+    "https://shizuoka-kinbi.jp/2025/09/18/miro/"
   ],
   "regular_hours": [
     {
@@ -33,22 +34,11 @@
   "exhibitions": [
     {
       "title": "ミロ展",
-      "start": "2026-01-01",
+      "start": "2025-09-18",
       "end": "2027-09-30",
-      "url": null,
+      "url": "https://shizuoka-kinbi.jp/2025/09/18/miro/",
       "kind": "special",
-      "summary": "ミロの作品を展示。公式サイトで「開催中」と掲載されているが開始・終了日の詳細は不明",
-      "recommend": null,
-      "admission": "一般 1,200円",
-      "adult_price": 1200
-    },
-    {
-      "title": "シャガール・ピカソ（リトグラフ）展",
-      "start": "2023-10-27",
-      "end": "2027-09-30",
-      "url": null,
-      "kind": "special",
-      "summary": "シャガールとピカソのリトグラフ作品を展示。2023年10月27日開幕以来、好評につき延長中",
+      "summary": "スペイン近代美術の巨匠ジュアン・ミロの絵画・版画・彫刻・陶芸作品を展示",
       "recommend": null,
       "admission": "一般 1,200円",
       "adult_price": 1200

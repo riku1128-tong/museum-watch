@@ -1,0 +1,108 @@
+{
+  "id": "Q22118199",
+  "checked_at": "2026-10-10T09:51:41+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.genso-sayume.jp/",
+  "address": "〒728-0023 広島県三次市東酒屋町10453番地6",
+  "source_urls": [
+    "https://www.genso-sayume.jp/",
+    "https://www.genso-sayume.jp/guide/use/",
+    "https://www.genso-sayume.jp/guide/access/",
+    "https://www.genso-sayume.jp/event/10130/",
+    "https://www.genso-sayume.jp/event/10392/",
+    "https://www.genso-sayume.jp/event/2373/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "wed"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-26",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "木梨憲武展－TOUCH　SERENDIPITY－意味ある偶然",
+      "start": "2026-08-29",
+      "end": "2026-10-11",
+      "url": "https://www.genso-sayume.jp/event/10130/",
+      "kind": "special",
+      "summary": "木梨憲武の個展。自由な表現と鮮やかな色彩の作品と新手法による新作",
+      "recommend": "TOKIO・木梨憲武が制作した多彩な絵画作品を一堂に展示。自由奔放で色鮮やかな作風と新たな手法による新作も加わり、常設展「奥田元宋・小由女の世界」との同時鑑賞も楽しめる。",
+      "admission": "一般 1,500円（団体1,400円）、高校・大学生 800円（700円）、中学生以下 無料",
+      "adult_price": 1500
+    },
+    {
+      "title": "奥田元宋・奥田小由女の世界　2026年度 第２期",
+      "start": "2026-09-25",
+      "end": "2026-12-15",
+      "url": "https://www.genso-sayume.jp/event/2373/",
+      "kind": "collection",
+      "summary": "通年。文化勲章受章の芸術家夫妻の作品。元宋の秋の日本画と小由女の女性像の人形",
+      "recommend": null,
+      "admission": "一般 800円（団体700円）、大学生 400円（300円）、高校生以下 無料",
+      "adult_price": 800
+    },
+    {
+      "title": "ラブ! ヴァンガード!! 前衛を愛した、あるコレクターの眼　―草間彌生、ヘイター and more",
+      "start": "2026-10-22",
+      "end": "2027-01-05",
+      "url": "https://www.genso-sayume.jp/event/10392/",
+      "kind": "special",
+      "summary": "「Wコレクション」全貌初公開。草間彌生・河原温・田中敦子・白髪一雄ら前衛アーティストの作品",
+      "recommend": "河原温、草間彌生、田中敦子、嶋本昭三ら戦後前衛の傑作と、S・W・ヘイターら海外作家作品を含む「Wコレクション」が全貌初公開。普段見られない希少コレクションを一挙に鑑賞できる機会。",
+      "admission": "一般 1,300円（団体1,200円）、高校・大学生 700円（600円）、中学生以下 無料",
+      "adult_price": 1300
+    },
+    {
+      "title": "奥田元宋・奥田小由女の世界　2026年度 第３期",
+      "start": "2026-12-17",
+      "end": "2027-03-16",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。元宋・小由女の作品 第3期",
+      "recommend": null,
+      "admission": "一般 800円",
+      "adult_price": 800
+    }
+  ],
+  "closed_between_exhibitions": false,
+  "adult_price": 800,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "三次",
+      "lines": "JR芸備線",
+      "exit": null,
+      "walk_min": null,
+      "note": "三次駅からタクシー約10分（約5km）。広島バスセンターから美術館前への直通バスあり（約1時間30分）"
+    }
+  ],
+  "highlights": "日本で初めて夫婦ともに文化勲章を受章した日本画家・奥田元宋と人形作家・奥田小由女の作品を専門に展示する美術館。「元宋の赤」と呼ばれる深みある朱色の日本画と、繊細な人形作品が一堂に鑑賞できる。満月の夜に開館時間を延長する趣向も魅力で、広島・三次の自然豊かな環境に立つ。",
+  "notes": "満月の日は開館時間を21:00まで延長（1・2月を除く）。水曜日が祝日または満月の場合は開館し翌平日休館。企画展期間中は企画展+常設展のセット料金となる（常設展単独800円、木梨憲武展期間1,500円、ラブ!ヴァンガード期間1,300円）。年末年始2026/12/26〜2027/1/1休館。",
+  "confidence": "high"
+}

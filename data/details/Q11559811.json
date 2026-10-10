@@ -1,6 +1,6 @@
 {
   "id": "Q11559811",
-  "checked_at": "2026-10-02T08:34:30+09:00",
+  "checked_at": "2026-10-10T10:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -43,6 +43,17 @@
   "special_openings": [],
   "exhibitions": [
     {
+      "title": "大石可久也 メインギャラリー常設展示",
+      "start": "2026-01-01",
+      "end": "2027-10-10",
+      "url": "https://www.eonet.ne.jp/~artyama/",
+      "kind": "collection",
+      "summary": "通年。大石可久也の油彩・水彩・彫刻など約250点をメインギャラリーに常設展示",
+      "recommend": null,
+      "admission": "大人 800円",
+      "adult_price": 800
+    },
+    {
       "title": "第19回 ゆかいな仲間たち展",
       "start": "2026-10-31",
       "end": "2026-11-15",
@@ -73,13 +84,6 @@
       "scope": "all",
       "reason": "関西文化の日",
       "source_url": "https://www.eonet.ne.jp/~artyama/"
-    },
-    {
-      "from": "2026-11-03",
-      "to": "2026-11-03",
-      "scope": "all",
-      "reason": "関西文化の日（11月3日）",
-      "source_url": "https://www.eonet.ne.jp/~artyama/"
     }
   ],
   "free_rules": [],
@@ -94,6 +98,6 @@
   ],
   "highlights": "淡路島出身の洋画家・大石可久也夫妻が、雑木林の草刈りから手作りで育てた芸術空間。白い箱舟を模した2階建てのメインギャラリーに作品が並び、大阪湾を見下ろす眺めと林に点在する作品群を散策できる。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイトは証明書エラーのため curl -k で EUC-JP を読んだ。休館日は月・火（休日は開館）と冬季休館日、入館料は大人800円（公式の案内ページ）。冬季休館の日付は未掲載。大石鉦子展は会期未定のため end は仮に1年後。",
+  "notes": "公式サイトは文字コード（EUC-JP/Shift_JIS）の問題で本文が文字化けするため内容を直接読めない。英語版ページ（indexE.htm）にて「約250点の大石可久也作品をメインギャラリーに常設展示」「大人800円・15歳以下無料」を確認。休館日は月・火（休日は開館）。冬季休館の日付は未掲載。",
   "confidence": "medium"
 }

@@ -1,6 +1,6 @@
 {
   "id": "wp-cf11837b",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T16:09:51+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -44,6 +44,6 @@
   ],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "2026-10-02 再挑戦。公式サイト cocoro-no-mori.com は名前解決できず読めない（別ドメイン cocoronomori.xsrv.jp も空）。WebSearch の要約（Yahoo!マップ等）で 10:00-17:00・月曜休館（祝日の場合は火曜）・入館無料・住所を確認。展示・臨時休館は未確認のため空。公式が読めるようになったら再確認する。",
+  "notes": "2026-10-10 再挑戦（2回目）。公式サイト cocoro-no-mori.com は依然として名前解決できず読めない。WebSearch でも2026年の展示・臨時休館情報は見つからず。前回の値を維持。",
   "confidence": "low"
 }

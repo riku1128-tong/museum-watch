@@ -1,12 +1,13 @@
 {
   "id": "Q61818339",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:15:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.hikaribijyutukan.net",
   "address": "〒629-3245 京都府京丹後市網野町浜詰677-19",
   "source_urls": [
+    "https://www.hikaribijyutukan.net/",
     "https://www.hikaribijyutukan.net/aboutus.html",
     "https://www.hikaribijyutukan.net/exhibition.html",
     "https://museumforum.pref.kyoto.lg.jp/museum-map/hikari-bijyutukan/"

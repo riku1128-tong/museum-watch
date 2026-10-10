@@ -1,0 +1,87 @@
+{
+  "id": "Q11383094",
+  "checked_at": "2026-10-10T09:51:41+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://sakima.jp/",
+  "address": "〒901-2204 沖縄県宜野湾市上原358",
+  "source_urls": [
+    "https://sakima.jp/",
+    "https://sakima.jp/guide/access.html",
+    "https://sakima.jp/news/n3326919.html",
+    "https://sakima.jp/exhibition/e3267769.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [
+    "tue"
+  ],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "丸木位里・丸木俊「沖縄戦の図」",
+      "start": "2000-01-01",
+      "end": "2027-10-10",
+      "url": "https://sakima.jp/",
+      "kind": "collection",
+      "summary": "通年。沖縄戦の図（丸木位里・丸木俊）の常設展示",
+      "recommend": null,
+      "admission": "大人900円（団体810円）",
+      "adult_price": 900
+    },
+    {
+      "title": "ジョルジュ・ルオー　－聖と俗－",
+      "start": "2026-09-03",
+      "end": "2026-11-23",
+      "url": "https://sakima.jp/news/n3326919.html",
+      "kind": "special",
+      "summary": "佐喜眞美術館コレクションより、銅版画集『ミセレーレ』と『悪の華』を中心に計51点",
+      "recommend": "同館が所蔵するルオーの銅版画51点を久しぶりに公開。宗教と人間の尊厳を問う『ミセレーレ』など、ルオーが生涯をかけて取り組んだ作品群を通し、聖と俗の境界を問う深みある展示。",
+      "admission": "大人900円（団体810円）",
+      "adult_price": 900
+    },
+    {
+      "title": "山城見信特別展",
+      "start": "2026-09-03",
+      "end": "2026-11-23",
+      "url": "https://sakima.jp/news/n3326919.html",
+      "kind": "special",
+      "summary": "コレクションから山城見信の作品12点（1999〜2002年）を展示。県立博物館の山城大回顧展と連動",
+      "recommend": "沖縄県立博物館・美術館で開催中の山城見信大回顧展と連動する館内特別展。1999〜2002年に制作された12点に凝縮された作家の世界観を間近で体感できる。",
+      "admission": "大人900円（団体810円）",
+      "adult_price": 900
+    }
+  ],
+  "adult_price": 900,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "上原",
+      "lines": null,
+      "exit": null,
+      "walk_min": 5,
+      "note": "路線バス「上原」バス停から徒歩約5分。国道330号線「上原」交差点の海邦銀行角を入り200m先"
+    }
+  ],
+  "highlights": "沖縄戦を描いた連作絵画「沖縄戦の図」（丸木位里・丸木俊）を常設展示する美術館。普天間基地に隣接する宜野湾市上原に位置し、ジョルジュ・ルオーのコレクションも所蔵。戦争と平和・人間の尊厳を問いかけるテーマを軸に、沖縄の視点から現代美術と向き合う独自の文化空間。",
+  "closed_between_exhibitions": false,
+  "notes": "火曜休館。年末年始・お盆（旧盆）も休館（具体的な日程は公式サイトにて要確認）。台風・暴風警報発令時は臨時休館。祝日の火曜日の扱い（holiday_rule）は公式に記載なし（unknown）。入館料は大人900円（団体810円）。",
+  "confidence": "high"
+}

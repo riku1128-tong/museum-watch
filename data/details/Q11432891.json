@@ -1,0 +1,89 @@
+{
+  "id": "Q11432891",
+  "checked_at": "2026-10-10T10:01:34+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.opam.jp/",
+  "address": "〒870-0036 大分県大分市寿町2番1号",
+  "source_urls": [
+    "https://www.opam.jp/",
+    "https://www.opam.jp/info/",
+    "https://www.opam.jp/info/access.html",
+    "https://www.opam.jp/exhibitions/detail/8c4404d4-d845-4c92-a0a0-2bbff72b536f",
+    "https://www.opam.jp/exhibitions/detail/a56e8223-b250-4c01-a096-1a25013ea3de"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "19:00",
+      "last_entry": "18:30"
+    },
+    {
+      "days": [
+        "fri",
+        "sat"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "2026年コレクション展 Ⅲ【特集展示】竹のカタチー時を超えて",
+      "start": "2026-09-04",
+      "end": "2026-11-03",
+      "url": "https://www.opam.jp/exhibitions/detail/8c4404d4-d845-4c92-a0a0-2bbff72b536f",
+      "kind": "collection",
+      "summary": "生野祥雲斎ら人間国宝の竹工芸作品と竹を題材にした絵画を通じて大分の竹文化を紹介",
+      "recommend": "竹工芸を芸術の高みへ引き上げた初代田辺竹雲齋・飯塚琅玕齋、大分出身の没後40年・宇治山哲平の作品まで多彩な表現が並ぶ。地元に根差した素材を通じて近現代日本美術を見渡せる、OPAMらしいコレクション展。",
+      "admission": "一般300円",
+      "adult_price": 300,
+      "closed_dates": [
+        "2026-10-13"
+      ]
+    },
+    {
+      "title": "出光美術館名品展 出光佐三のこころ ―美を守り、未来へつなぐ",
+      "start": "2026-11-13",
+      "end": "2027-01-11",
+      "url": "https://www.opam.jp/exhibitions/detail/a56e8223-b250-4c01-a096-1a25013ea3de",
+      "kind": "special",
+      "summary": "出光美術館の名品を全六章で紹介。仙厓の禅画・古唐津・長谷川等伯・伊藤若冲・ルオーほか",
+      "recommend": "出光佐三が19歳で出会い「恋をした」と語った仙厓の掛軸から始まり、古唐津・江戸絵画・近現代の西洋美術まで幅広い名品を大分で鑑賞できる貴重な機会。一章ずつ出光の眼の変遷をたどる構成も見どころ。",
+      "admission": "一般1,500円",
+      "adult_price": 1500,
+      "closed_dates": [
+        "2026-12-14"
+      ]
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "大分",
+      "lines": "JR日豊本線",
+      "walk_min": 15,
+      "note": "JR大分駅府内中央口（北口）から徒歩15分。バスは7番乗り場から「オアシスひろば前」下車徒歩すぐ"
+    }
+  ],
+  "highlights": "大分市の中心市街地に立つ県立美術館。竹工芸など大分ゆかりの工芸・美術を収蔵するコレクション展と、国内外の多彩な企画展を両軸として展開する。金・土曜は20時まで開館するため仕事帰りにも立ち寄りやすく、都市型の文化拠点として機能する。",
+  "closed_between_exhibitions": false,
+  "notes": "定休日なし（館内点検などで臨時休館あり）。コレクション展の観覧料は一般300円。企画展は展覧会ごとに料金が異なる。",
+  "confidence": "high"
+}

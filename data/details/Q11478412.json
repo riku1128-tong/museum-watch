@@ -1,6 +1,6 @@
 {
   "id": "Q11478412",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T10:05:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "2019年の台風被災により等々力緑地の旧施設は閉鎖。市内の他施設やオンラインでアウトリーチ形式の展覧会等を実施中。新たなミュージアムは計画段階で開館時期は未公表。",
@@ -8,7 +8,8 @@
   "address": "〒215-0021 川崎市麻生区上麻生6丁目15番2号",
   "source_urls": [
     "https://www.kawasaki-museum.jp/",
-    "https://www.kawasaki-museum.jp/exhibition/34490/"
+    "https://www.kawasaki-museum.jp/exhibition/34490/",
+    "https://www.kawasaki-museum.jp/exhibition/34739/"
   ],
   "regular_hours": [],
   "closed_weekdays": [],
@@ -17,15 +18,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "オンライン展覧会「線からみつける、かたちの再発見」",
-      "start": "2026-02-13",
-      "end": "2026-10-08",
-      "url": "https://www.kawasaki-museum.jp/exhibition/33612/",
-      "kind": "other",
-      "summary": "オンライン開催",
-      "admission": null
-    },
-    {
       "title": "オンライン展覧会「和から洋へ ー女性たちはどう着替えたかー」",
       "start": "2026-10-09",
       "end": "2027-03-31",
@@ -33,6 +25,19 @@
       "kind": "other",
       "summary": "オンライン開催。明治から戦後にかけて女性が和装から洋装へ着替えていった過程を収蔵品で紹介",
       "admission": "無料"
+    },
+    {
+      "title": "ベル・エポックの煌めき　光が紡いだ夢のあとさき",
+      "start": "2026-11-07",
+      "end": "2026-12-20",
+      "url": "https://www.kawasaki-museum.jp/exhibition/34739/",
+      "kind": "other",
+      "summary": "向ヶ丘遊園中和ビル2階で開催。19世紀のアール・ヌーヴォーとベル・エポックの美意識を収蔵品で紹介",
+      "recommend": "産業革命と技術革新が生んだ「美しき時代」ベル・エポックを、川崎市民ミュージアム所蔵作品でたどる無料展。アール・ヌーヴォーの装飾美から都市文化の光と影まで、夢の軌跡を楽しめる。",
+      "admission": "無料",
+      "adult_price": 0,
+      "closed_weekdays": ["mon"],
+      "closed_dates": ["2026-11-24"]
     },
     {
       "title": "第60回かわさき市美術展",

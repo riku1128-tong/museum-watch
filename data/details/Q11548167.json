@@ -1,0 +1,42 @@
+{
+  "id": "Q11548167",
+  "checked_at": "2026-10-10T16:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "平成30年（2018年）3月26日より休館中。再開は未定。公式サイトに告知あり。",
+  "official_url": null,
+  "address": "〒699-4505 島根県江津市桜江町坂本2025",
+  "source_urls": [
+    "http://user.iwamicatv.jp/mizunokuni-k/top01.html",
+    "http://user.iwamicatv.jp/mizunokuni-k/annai01.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["tue", "wed"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 410,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "川戸",
+      "lines": "JR三江線（2018年廃止）",
+      "exit": null,
+      "walk_min": null,
+      "note": "JR三江線川戸駅（廃止）からタクシー10分。車の場合は浜田自動車道大朝IC・瑞穂IC・旭ICから各約40分"
+    }
+  ],
+  "highlights": "「水」をテーマにした現代美術と科学のミュージアム。アートギャラリーとサイエンスギャラリーに分かれ、水にふれあえる体験施設も備える。島根県江津市桜江町の山間に位置し、浜田自動車道各ICから約40分。",
+  "closed_between_exhibitions": false,
+  "notes": "2018年3月26日より休館中・再開未定。JR三江線は2018年4月1日全線廃止のため鉄道アクセス不可。上記の開館時間・入館料・休館日は休館前の情報。",
+  "confidence": "high"
+}

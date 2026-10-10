@@ -1,0 +1,58 @@
+{
+  "id": "Q3329659",
+  "checked_at": "2026-10-10T15:57:58+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://o-museum.or.jp/",
+  "address": "〒772-0053 徳島県鳴門市鳴門町土佐泊浦字福池65-1",
+  "source_urls": [
+    "https://o-museum.or.jp/",
+    "https://o-museum.or.jp/pages/28/",
+    "https://o-museum.or.jp/pages/824/",
+    "https://o-museum.or.jp/pages/30/",
+    "https://o-museum.or.jp/pages/1441/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展示（陶板名画）",
+      "start": "2026-10-10",
+      "end": "2027-10-10",
+      "url": "https://o-museum.or.jp/",
+      "kind": "collection",
+      "summary": "通年。世界26カ国の西洋名画を陶板で原寸大再現した常設展示。古代ギリシャから20世紀まで約1,000点を地下3階・地上2階で展示",
+      "recommend": null,
+      "admission": "一般 3,300円",
+      "adult_price": 3300
+    }
+  ],
+  "adult_price": 3300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "鳴門",
+      "lines": "JR鳴門線",
+      "exit": null,
+      "walk_min": null,
+      "note": "鳴門駅からタクシー約15分。神戸・大阪・京都・高松・広島など各都市から直通高速バスが美術館前に停車。車の場合は鳴門北ICから約3分。無料駐車場450台あり"
+    }
+  ],
+  "highlights": "世界26カ国・約1,000点の西洋名画を本物の土を用いた陶板に原寸大で復元した唯一無二の美術館。システィーナ礼拝堂天井画、ゲルニカ、モナリザなど国宝級の名作に触れられ、複製だから写真撮影も自由。地下3階・地上2階・全長4キロの展示空間で美術史を網羅的に辿れる。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日：月曜（祝日の場合は翌日）。8月は無休。1月は連続休館あり（具体的日程は年度により異なり、公式カレンダーで確認要）。2026/12/1〜12/3は地下2階展示室53の9作品が一部鑑賞制限（休館ではない）。入館券の販売は16:00まで（last_entryは入館券販売終了時刻）。前売券は一般3,160円。",
+  "confidence": "medium"
+}

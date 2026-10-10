@@ -1,7 +1,7 @@
 {
   "id": "Q11402997",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.kushiro-artmu.jp/",
@@ -33,11 +33,6 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {
-      "from": "2026-09-14",
-      "to": "2026-10-02",
-      "reason": "展示替えのため休館"
-    },
     {
       "from": "2026-12-29",
       "to": "2027-01-03",

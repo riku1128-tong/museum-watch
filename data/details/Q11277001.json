@@ -1,0 +1,86 @@
+{
+  "id": "Q11277001",
+  "checked_at": "2026-10-10T09:51:38+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.fukuyama.hiroshima.jp/site/fukuyama-museum/",
+  "address": "〒720-0067 広島県福山市西町二丁目4番3号",
+  "source_urls": [
+    "https://www.city.fukuyama.hiroshima.jp/site/fukuyama-museum/",
+    "https://www.city.fukuyama.hiroshima.jp/site/fukuyama-museum/2912.html",
+    "https://www.city.fukuyama.hiroshima.jp/site/fukuyama-museum/409130.html",
+    "https://www.city.fukuyama.hiroshima.jp/site/fukuyama-museum/412912.html",
+    "https://www.city.fukuyama.hiroshima.jp/site/fukuyama-museum/413803.html",
+    "https://www.museum.or.jp/museum/6339"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "千住 博展―静寂の光、水の鼓動",
+      "start": "2026-10-03",
+      "end": "2026-12-13",
+      "url": "https://www.city.fukuyama.hiroshima.jp/site/fukuyama-museum/409130.html",
+      "kind": "special",
+      "summary": "1984〜2025年の作品28点。代表的な「ウォーターフォール」シリーズを中心に生命と時の流れをテーマとした絵画",
+      "recommend": "滝を通して宇宙と生命の摂理を描いてきた千住博の40年にわたる画業を28点で振り返る。観る者を引き込む大判の「ウォーターフォール」は滝の外側の光を内側から捉えた独特の描法が圧巻。",
+      "admission": "一般 1,500円（前売・団体1,200円）",
+      "adult_price": 1500,
+      "closed_weekdays": [],
+      "closed_dates": []
+    },
+    {
+      "title": "秋季所蔵品展「絵本と芸術家　―清水良雄を中心として」",
+      "start": "2026-09-26",
+      "end": "2026-12-13",
+      "url": "https://www.city.fukuyama.hiroshima.jp/site/fukuyama-museum/412912.html",
+      "kind": "collection",
+      "summary": "絵本画家・清水良雄を中心に、シャガールや岸田劉生ら日本・西洋の近代美術約50点を展示する所蔵品展",
+      "recommend": "「くまのぷーさん」日本語版挿絵で知られる洋画家・清水良雄を軸に、岸田劉生のデッサンやシャガールの版画など多彩な作品を同時展示。絵本とアートの距離感を探る所蔵品展。",
+      "admission": "一般 310円（団体250円）",
+      "adult_price": 310,
+      "closed_weekdays": [],
+      "closed_dates": []
+    },
+    {
+      "title": "追悼　松本コレクション―茶の湯の精華―",
+      "start": "2026-10-04",
+      "end": "2026-10-30",
+      "url": "https://www.city.fukuyama.hiroshima.jp/site/fukuyama-museum/413803.html",
+      "kind": "special",
+      "summary": "福山の茶道具コレクター・松本卓臣氏の一周忌に合わせ、商工ふくやま掲載の茶道具名品約30点を無料公開",
+      "recommend": "茶碗・茶入・棗から掛物まで、長年かけて蒐集された茶道具の精華を追悼企画として無料で観覧できる。数寄者の目利きで選ばれた品々を通じ、茶の湯の深みに触れる機会。",
+      "admission": "無料",
+      "adult_price": 0,
+      "closed_weekdays": [],
+      "closed_dates": ["2026-10-13"]
+    }
+  ],
+  "adult_price": 310,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "福山",
+      "lines": "JR山陽本線・山陽新幹線",
+      "exit": "北口（福山城口）",
+      "walk_min": 5,
+      "note": "JR福山駅北口から西へ約400m"
+    }
+  ],
+  "highlights": "市民の要望で1988年に開館した広島県福山市の公立美術館。岸田劉生の「麗子十六歳之像」やイタリア未来派の作品をはじめ、日本の近現代絵画とヨーロッパ美術を幅広く収蔵。隣接するふくやま書道美術館と共通券での観覧もでき、JR福山駅から徒歩5分。",
+  "closed_between_exhibitions": false,
+  "notes": "年末年始休館日程は公式ページに具体的な日付の記載なし。月曜祝日は開館し翌平日休館（10/12開館・10/13休館の記載を展覧会ページで確認）。ふくやま書道美術館所蔵品展と共通観覧可。",
+  "confidence": "high"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q11471937",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:13:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -78,8 +78,16 @@
   "adult_price": null,
   "free_days": [],
   "free_rules": [],
-  "access": [],
-  "highlights": null,
+  "access": [
+    {
+      "station": "日本へそ公園",
+      "lines": "JR加古川線",
+      "exit": null,
+      "walk_min": 1,
+      "note": null
+    }
+  ],
+  "highlights": "東経135度の子午線が交差する兵庫県西脇市の現代美術館。JR加古川線「日本へそ公園駅」のすぐ隣に位置し、子午線上や地域で活躍するイラストレーター・画家・書家など個性豊かな現代作家の企画展を年間を通じて開催する。",
   "closed_between_exhibitions": false,
   "notes": "企画展示室のみで常設展示室なし。休館日は月曜（祝日は開館）・祝日の翌日（土日の場合を除く）・年末年始・展示替期間。祝日の翌日休館は holiday_rule では表せず、10/13 のみ明記。観覧料は公式ページに記載なし。",
   "confidence": "medium"

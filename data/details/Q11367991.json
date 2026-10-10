@@ -1,0 +1,51 @@
+{
+  "id": "Q11367991",
+  "checked_at": "2026-10-10T16:09:51+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "施設改修のため長期休館中（2026年6月28日より）。再開予定日は未公表。",
+  "official_url": "https://www.mimoca.jp/",
+  "address": "〒763-0022 香川県丸亀市浜町80-1",
+  "source_urls": [
+    "https://www.mimoca.jp/",
+    "https://www.mimoca.jp/general/",
+    "https://www.mimoca.jp/access/",
+    "https://www.mimoca.jp/news/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-25",
+      "to": "2026-12-31",
+      "reason": "年末休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "丸亀",
+      "lines": "JR予讃線",
+      "exit": "南口",
+      "walk_min": 1,
+      "note": null
+    }
+  ],
+  "highlights": "猪熊弦一郎が丸亀市に寄贈した約2万点以上のコレクションを核に現代美術を紹介する公立美術館。JR丸亀駅南口から徒歩1分という抜群のアクセスを誇り、谷口吉生設計の白いモダンな建物が駅前に佇む。20歳から90歳まで描き続けた猪熊の画業の全容と、企画展で国内外の現代美術が楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "2026年6月23日付けで施設改修による長期休館を告知、同6月28日より休館中。再開予定日は未公表。通常の開館時間・休館日・観覧料は general/ ページより確認（改修前の情報）。年末休館は公式案内どおり12/25〜12/31。常設展一般300円、企画展は1200〜1500円（会期によって異なる）。",
+  "confidence": "high"
+}

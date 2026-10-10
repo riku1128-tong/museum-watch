@@ -1,13 +1,14 @@
 {
   "id": "Q55538467",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:03:17+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://koyafron.co.jp/museum/index.html",
   "address": "〒534-0024 大阪府大阪市都島区東野田町1丁目19-7",
   "source_urls": [
-    "http://koyafron.co.jp/museum/index.html"
+    "http://koyafron.co.jp/museum/index.html",
+    "https://www.koyafron.co.jp/museum/honkan/now.html"
   ],
   "regular_hours": [
     {
@@ -30,7 +31,19 @@
   "holiday_rule": "closed",
   "special_closures": [],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "雑誌表紙展",
+      "start": "2026-02-03",
+      "end": "2026-12-24",
+      "url": "https://www.koyafron.co.jp/museum/honkan/now.html",
+      "kind": "special",
+      "summary": "昭和の雑誌を中心に江戸時代まで幅広く、映画・漫画・週刊誌・女性誌など表紙約560点を展示",
+      "recommend": "映画雑誌、漫画、週刊誌、女性誌、文芸誌など昭和期を彩った雑誌の表紙約560点が一堂に。時代ごとの流行やデザインの変遷を「表紙」という切り口でたどる、懐かしさあふれる展示。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
   "adult_price": 500,
   "free_days": [],
   "free_rules": [],

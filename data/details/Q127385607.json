@@ -1,0 +1,111 @@
+{
+  "id": "Q127385607",
+  "checked_at": "2026-10-10T15:57:58+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://tottori-moa.jp",
+  "address": "〒682-0816 鳥取県倉吉市駄経寺町2-3-12",
+  "source_urls": [
+    "https://tottori-moa.jp",
+    "https://tottori-moa.jp/visit/info/",
+    "https://tottori-moa.jp/visit/access/",
+    "https://tottori-moa.jp/exhibition-category/special/",
+    "https://tottori-moa.jp/exhibition-category/permanent/",
+    "https://tottori-moa.jp/exhibition/view/maetakanji/",
+    "https://tottori-moa.jp/exhibition/view/2609cg3/",
+    "https://tottori-moa.jp/collection/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "生誕130年 前田寛治 ―ポエジイとレアリスム 一九三〇年協会設立100年",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": "https://tottori-moa.jp/exhibition/view/maetakanji/",
+      "kind": "special",
+      "summary": "鳥取県出身の洋画家・前田寛治（1896-1930）の生誕130年・一九三〇年協会設立100年記念。詩情と写実を融合させた画業と佐伯祐三ら同世代の作品を紹介",
+      "recommend": "鳥取が生んだ夭折の洋画家・前田寛治の全貌を、パリ留学中の労働者像から帰国後の裸婦大作まで通じて辿れる貴重な機会。佐伯祐三らの作品と合わせて大正〜昭和初期の洋画壇の熱気も体感できる",
+      "admission": "一般 1,500円",
+      "adult_price": 1500
+    },
+    {
+      "title": "特集：前田昭博 / ヌード ─裸体表現のあれこれ",
+      "start": "2026-09-19",
+      "end": "2026-12-13",
+      "url": "https://tottori-moa.jp/exhibition/view/2609cg3/",
+      "kind": "collection",
+      "summary": "白磁作家・前田昭博の特集と、古代から現代の裸体表現をコレクションからたどる展示",
+      "recommend": null,
+      "admission": "一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "小早川秋聲　月の世界旅行",
+      "start": "2026-10-17",
+      "end": "2026-12-20",
+      "url": "https://tottori-moa.jp/exhibition/view/cg3261017/",
+      "kind": "collection",
+      "summary": "コレクションギャラリー。小早川秋聲の作品を紹介",
+      "recommend": null,
+      "admission": "一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "前田寛治展関連企画「もうひとつの同時代」",
+      "start": "2026-10-17",
+      "end": "2026-12-20",
+      "url": "https://tottori-moa.jp/exhibition/view/2610cg4/",
+      "kind": "collection",
+      "summary": "コレクションギャラリー。前田寛治展関連企画として同時代の作家を紹介",
+      "recommend": null,
+      "admission": "一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "画く力",
+      "start": "2026-11-07",
+      "end": "2027-02-21",
+      "url": "https://tottori-moa.jp/exhibition/view/%e7%94%bb%e3%81%8f%e5%8a%9b/",
+      "kind": "collection",
+      "summary": "コレクションギャラリー展",
+      "recommend": null,
+      "admission": "一般 400円",
+      "adult_price": 400
+    }
+  ],
+  "adult_price": 400,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "倉吉",
+      "lines": "JR山陰本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "倉吉駅からバス約10分「県立美術館前」下車すぐ、または「倉吉パークスクエア北口」下車徒歩8分。タクシー約9分"
+    }
+  ],
+  "highlights": "鳥取県初の県立美術館。前田寛治・辻晉堂ら鳥取ゆかりの作家を核に1万点超のコレクションを有し、江戸絵画から現代美術まで幅広く紹介する。倉吉市の中心部に位置し、3階の展望テラスを備えた開放的な建物。コレクション展は400円から、企画展は別料金。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜が祝日の場合は翌平日が休館日。10/15〜18「ぼうさいこくたい」開催に伴い駐車場一時閉鎖の告知あり（休館ではない）。",
+  "confidence": "high"
+}

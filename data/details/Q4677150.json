@@ -1,7 +1,7 @@
 {
   "id": "Q4677150",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:10:11+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.okayama-kenbi.info/",
@@ -35,13 +35,7 @@
   ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [
-    {
-      "from": "2026-09-24",
-      "to": "2026-10-02",
-      "reason": "展示替えのための臨時休館"
-    }
-  ],
+  "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {

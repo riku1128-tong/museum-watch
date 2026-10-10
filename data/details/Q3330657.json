@@ -1,6 +1,6 @@
 {
   "id": "Q3330657",
-  "checked_at": "2026-10-02T08:31:27+09:00",
+  "checked_at": "2026-10-10T10:03:22+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -9,10 +9,11 @@
   "source_urls": [
     "https://kyotocity-kyocera.museum/",
     "https://kyotocity-kyocera.museum/info",
-    "https://kyotocity-kyocera.museum/news/infomation",
-    "https://kyotocity-kyocera.museum/greeting/",
-    "https://kyotocity-kyocera.museum/exhibition/20260320-20270314",
-    "https://kyotocity-kyocera.museum/exhibition/20260919-20261220"
+    "https://kyotocity-kyocera.museum/exhibition/",
+    "https://kyotocity-kyocera.museum/exhibition/20260912-20261220",
+    "https://kyotocity-kyocera.museum/exhibition/20261003-20261206",
+    "https://kyotocity-kyocera.museum/exhibition/20260919-20261220",
+    "https://kyotocity-kyocera.museum/exhibition/20261009-20261213"
   ],
   "regular_hours": [
     {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00"}
@@ -25,6 +26,17 @@
   "special_openings": [],
   "exhibitions": [
     {
+      "title": "松延総司：壁",
+      "start": "2026-09-12",
+      "end": "2026-12-20",
+      "url": "https://kyotocity-kyocera.museum/exhibition/20260912-20261220",
+      "kind": "special",
+      "summary": "線・影・無意識などとらえどころのない事物を扱う美術家・松延総司の個展（入場自由・無料）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
       "title": "生誕140年記念 染織家 山鹿清華─宙翔ぶイマジネーション",
       "start": "2026-09-19",
       "end": "2026-12-20",
@@ -36,14 +48,48 @@
       "adult_price": 1800
     },
     {
+      "title": "禅とジブリ",
+      "start": "2026-10-03",
+      "end": "2026-12-06",
+      "url": "https://kyotocity-kyocera.museum/exhibition/20261003-20261206",
+      "kind": "special",
+      "summary": "スタジオジブリ作品を通して禅の精神に触れる体感型展覧会（新館 東山キューブ）",
+      "recommend": "鈴木敏夫と禅僧の対話書を起点に、ジブリ映像作品に潜む禅的まなざしを体感する展覧会。ジブリファンにも禅に関心がある人にも楽しめる新感覚の体験型展示で注目度が高い。",
+      "admission": "一般1,900円（前売・団体1,700円）",
+      "adult_price": 1900
+    },
+    {
       "title": "コレクションルーム 特集「美術館物語　市美の産声」（秋期）",
       "start": "2026-10-09",
       "end": "2026-12-13",
       "url": "https://kyotocity-kyocera.museum/exhibition/20261009-20261213",
       "kind": "collection",
       "summary": "2026年度コレクションルーム秋期。「美術館物語　市美の産声」と題し、館の歩みに関わる所蔵品を特集",
+      "recommend": null,
       "admission": "一般730円（市内在住520円）",
       "adult_price": 730
+    },
+    {
+      "title": "スタジオジブリ企画制作 白隠さんの禅",
+      "start": "2026-12-17",
+      "end": "2027-01-11",
+      "url": "https://kyotocity-kyocera.museum/exhibition/20261217-20270111",
+      "kind": "special",
+      "summary": "江戸時代の禅僧・白隠をテーマにスタジオジブリが企画制作した展覧会の京都展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第119回⽇展京都展",
+      "start": "2026-12-19",
+      "end": "2027-01-16",
+      "url": "https://kyotocity-kyocera.museum/exhibition/20261219-20270116",
+      "kind": "special",
+      "summary": "日本最大規模の総合美術展・日展の第119回展の京都会場",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 730,
@@ -52,6 +98,6 @@
     {"station": "三条京阪・三条", "lines": "京都市営地下鉄東西線・京阪本線", "walk_min": 16, "note": "市バス5系統で「岡崎公園 美術館・平安神宮前」下車の行き方もある"}
   ],
   "highlights": "1933年開館の帝冠様式建築で、現存する日本の公立美術館建築で最も古い。2020年に新館「東山キューブ」が加わり、京都画壇の名品を紹介するコレクションルームや新進作家支援の展示も展開",
-  "notes": "休館日は「月曜日（祝・休日の場合は開館）・年末年始（12/28〜1/2）」で、振替休館の記載は無いため holiday_rule は open。コレクションルーム観覧料は京都市内在住520円・市外在住730円（一般）で、adult_price は市外在住の標準額を採用。台風等で臨時休館・時間変更の可能性がある旨の記載あり。",
+  "notes": "休館日は「月曜日（祝・休日の場合は開館）・年末年始（12/28〜1/2）」で、振替休館の記載は無いため holiday_rule は open。コレクションルーム観覧料は京都市内在住520円・市外在住730円（一般）で、adult_price は市外在住の標準額を採用。【2026-10-10 light確認】「禅とジブリ」(10/3-12/6, 1,900円)・「松延総司：壁」(9/12-12/20, 無料)・年内開幕の白隠展・日展を追加。混雑のため入場整理券を配布中（禅とジブリ）。",
   "confidence": "high"
 }

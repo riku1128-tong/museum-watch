@@ -1,6 +1,6 @@
 {
   "id": "Q50375431",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:09:31+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,12 +8,13 @@
   "address": "〒530-0005 大阪府大阪市北区中之島4-3-1",
   "source_urls": [
     "https://nakka-art.jp/",
-    "https://nakka-art.jp/exhibition/date-held/",
+    "https://nakka-art.jp/visit/info/",
+    "https://nakka-art.jp/about/",
+    "https://nakka-art.jp/exhibition-post/colle-naka-2026/",
     "https://nakka-art.jp/exhibition-post/nichibiten50/",
     "https://nakka-art.jp/exhibition-post/daiei-ten2026/",
     "https://nakka-art.jp/exhibition-post/osaka-directory-dir13/",
-    "https://nakka-art.jp/exhibition-post/osaka-directory-dir14/",
-    "https://www.museum.or.jp/museum/17870"
+    "https://nakka-art.jp/exhibition-post/osaka-directory-dir14/"
   ],
   "regular_hours": [
     {
@@ -40,7 +41,7 @@
     {
       "from": "2026-09-28",
       "to": "2026-10-09",
-      "reason": "展示替えのため展示室休室（公式「当館のご利用について」）"
+      "reason": "展示替えのため展示室休室"
     },
     {
       "from": "2026-12-28",
@@ -51,6 +52,23 @@
   "special_openings": [],
   "exhibitions": [
     {
+      "title": "NMAOサテライト",
+      "start": "2026-10-10",
+      "end": "2026-11-07",
+      "url": "https://nakka-art.jp/exhibition-post/colle-naka-2026/",
+      "kind": "other",
+      "summary": "国立国際美術館（NMAO）と大阪中之島美術館（NAKKA）の連携事業。NMAOコレクションを開かれた空間に展示し、思いがけない作品との出会いをつくる",
+      "recommend": "常設展示室とは異なる開放的な空間にNMAOのコレクション作品が置かれ、訪れる人が偶然に作品と出会う状況をつくる企画。各作家のユニークなアプローチを通じ、現代美術の多様な魅力に触れることができる。",
+      "admission": "無料",
+      "adult_price": 0,
+      "closed_weekdays": [
+        "mon"
+      ],
+      "closed_dates": [
+        "2026-10-13"
+      ]
+    },
+    {
       "title": "ＮＨＫ日曜美術館５０年展",
       "start": "2026-10-10",
       "end": "2026-12-20",
@@ -60,12 +78,12 @@
       "recommend": "本物の作品と番組映像を同時に楽しめる、日曜美術館ならではの展覧会。縄文土器から現代美術まで幅広い時代とジャンルを一度にたどれる。",
       "admission": "一般 2,000円（前売・団体 1,800円）",
       "adult_price": 2000,
+      "closed_weekdays": [
+        "mon"
+      ],
       "closed_dates": [
         "2026-10-13",
         "2026-11-24"
-      ],
-      "closed_weekdays": [
-        "mon"
       ]
     },
     {
@@ -78,14 +96,14 @@
       "recommend": "歌麿の肉筆画《文読む遊女》や応挙《虎の子渡し図屛風》など、日本初出品を含む江戸絵画が里帰りする。歌麿・写楽・北斎・広重の版画も並ぶ。",
       "admission": "一般 当日2,300円（前売・団体 2,100円）",
       "adult_price": 2300,
+      "closed_weekdays": [
+        "mon"
+      ],
       "closed_dates": [
         "2026-11-24",
         "2026-12-31",
         "2027-01-01",
         "2027-01-12"
-      ],
-      "closed_weekdays": [
-        "mon"
       ],
       "hours": [
         {
@@ -122,11 +140,11 @@
       "recommend": "2000年大阪生まれの画家が、等身大の概念に挑む大型の新作を発表する。重い現実の身体と軽やかなイメージの身体のずれがテーマ。",
       "admission": "無料",
       "adult_price": 0,
-      "closed_dates": [
-        "2026-11-24"
-      ],
       "closed_weekdays": [
         "mon"
+      ],
+      "closed_dates": [
+        "2026-11-24"
       ]
     },
     {
@@ -139,13 +157,13 @@
       "recommend": null,
       "admission": "無料",
       "adult_price": 0,
+      "closed_weekdays": [
+        "mon"
+      ],
       "closed_dates": [
         "2026-12-31",
         "2027-01-01",
         "2027-01-12"
-      ],
-      "closed_weekdays": [
-        "mon"
       ]
     }
   ],
@@ -171,8 +189,8 @@
       "walk_min": 20
     }
   ],
-  "highlights": null,
+  "highlights": "2022年2月に大阪・中之島に開館した美術館。19世紀後半から現代の美術とデザインを専門とし、国内外のアーティストによる多彩な企画展を開催する。「パッサージュ（遊歩空間）」を核にした建築空間で人と作品の出会いを演出し、近隣の国立国際美術館との連携事業なども行う。",
   "closed_between_exhibitions": true,
-  "notes": "月曜休館（祝日の場合は翌平日）、年末年始12/28〜1/4は museum.or.jp 等の情報で公式の利用案内ページは取得できず。常設の企画展ごとに料金が異なる。9/28〜10/9は展示替えで展示室休室（10/2の表示は「本日展示室休室」）。",
-  "confidence": "medium"
+  "notes": "月曜休館（祝日の場合は翌平日）、年末年始12/28〜1/4。常設展はなく企画展ごとに料金が異なる。9/28〜10/9は展示替えで展示室休室（2026-10-02確認）、10/10よりNHK展・コレナカ開幕。",
+  "confidence": "high"
 }

@@ -1,0 +1,68 @@
+{
+  "id": "wp-3e96c226",
+  "checked_at": "2026-10-10T10:09:41+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.lib.okigei.ac.jp/drupal/",
+  "address": "〒903-8602 沖縄県那覇市首里当蔵町1-4",
+  "source_urls": [
+    "https://www.okigei.ac.jp/outline/facilities/library.html",
+    "https://www.lib.okigei.ac.jp/drupal/",
+    "https://www.okigei.ac.jp/experience/exhibit/exhibit-index.html",
+    "https://www.okigei.ac.jp/experience/exhibit/%e9%a6%96%e9%87%8c%e5%9f%8e%e6%ad%a3%e6%ae%bf%e5%ae%8c%e6%88%90%e8%a8%98%e5%bf%b5%ef%bc%8f%e6%b2%96%e7%b8%84%e7%9c%8c%e7%ab%8b%e8%8a%b8%e8%a1%93%e5%a4%a7%e5%ad%a6%e9%96%8b%e5%ad%a640%e5%91%a8%e5%b9%b4.html",
+    "https://www.okigei.ac.jp/experience/exhibit/%e7%95%b0%e3%83%8e%e7%9f%a5.html",
+    "https://www.okigei.ac.jp/access/access-index.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "open": "09:00",
+      "close": "20:00"
+    }
+  ],
+  "closed_weekdays": ["sat", "sun"],
+  "holiday_rule": "closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "首里城正殿完成記念／沖縄県立芸術大学開学40周年記念 特別展「文化財を未来へつなぐ ―首里城基金による修理・復元・収集のあゆみ―」",
+      "start": "2026-10-03",
+      "end": "2026-10-18",
+      "url": "https://www.okigei.ac.jp/experience/exhibit/%e9%a6%96%e9%87%8c%e5%9f%8e%e6%ad%a3%e6%ae%bf%e5%ae%8c%e6%88%90%e8%a8%98%e5%bf%b5%ef%bc%8f%e6%b2%96%e7%b8%84%e7%9c%8c%e7%ab%8b%e8%8a%b8%e8%a1%93%e5%a4%a7%e5%ad%a6%e9%96%8b%e5%ad%a640%e5%91%a8%e5%b9%b4.html",
+      "kind": "special",
+      "summary": "首里城基金による修理・復元・収集の歩みを紹介。首里城正殿完成と大学開学40周年を記念した特別展",
+      "recommend": "首里城基金が支えた修理・復元・収集のあゆみを一次資料で振り返る展示。沖縄の文化財保護を担う大学の視点から、文化財を未来へつなぐ実践の全体像を知ることができる。",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "異ノ知",
+      "start": "2026-11-11",
+      "end": "2026-11-15",
+      "url": "https://www.okigei.ac.jp/experience/exhibit/%e7%95%b0%e3%83%8e%e7%9f%a5.html",
+      "kind": "other",
+      "summary": "附属図書・芸術資料館第3展示室での展覧会（5日間）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "首里",
+      "lines": "ゆいレール（沖縄都市モノレール）",
+      "exit": null,
+      "walk_min": 10,
+      "note": "那覇空港から約35分。バス利用の場合は「当蔵」バス停下車徒歩1分（那覇バス1・7・8・14・17・346系統）"
+    }
+  ],
+  "highlights": "沖縄県立芸術大学の首里当蔵キャンパスに附属する資料館。3室の展示室では大学主催の企画展のほか、教員・学生・卒業生による個展やグループ展が活発に開催される。首里城に隣接する歴史的なキャンパス内に位置し、入場無料で沖縄の芸術・工芸に触れられる。",
+  "closed_between_exhibitions": false,
+  "notes": "開館時間は授業期間中9:00-20:00、春季・夏季・冬季の大学休業期間は9:00-17:00（短縮）。土日・祝日休館。最新の開館スケジュールは公式サイトの図書館カレンダーで確認。",
+  "confidence": "medium"
+}

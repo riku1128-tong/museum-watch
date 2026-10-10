@@ -1,0 +1,77 @@
+{
+  "id": "Q3297769",
+  "checked_at": "2026-10-10T10:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://kmma.jp/",
+  "address": "〒804-0024 北九州市戸畑区西鞘ヶ谷町21番1号",
+  "source_urls": [
+    "https://kmma.jp/",
+    "https://kmma.jp/visitor/honkan/guide",
+    "https://kmma.jp/visit/access/",
+    "https://kmma.jp/exhibition/the-shinhanga/",
+    "https://kmma.jp/exhibition/collection2-photograph/",
+    "https://kmma.jp/collection/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:30",
+      "last_entry": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "THE 新版画 版元・渡邊庄三郎の挑戦",
+      "start": "2026-09-12",
+      "end": "2026-11-08",
+      "url": "https://kmma.jp/exhibition/the-shinhanga/",
+      "kind": "special",
+      "summary": "渡邊版画店の創設者・渡邊庄三郎が浮世絵木版画を復興し「新版画」ムーブメントを牽引した軌跡を、初摺の渡邊版を中心に紹介",
+      "recommend": "衰退していた浮世絵木版画を復興し、絵師・彫師・摺師の協業で昭和初期のブームを牽引した渡邊庄三郎の全貌を一覧できる。残存数が少ない初摺の名品が多数出品され、木版画の技術と美を間近で体感できる。",
+      "admission": "一般 1,500円（前売・20名以上 1,200円）",
+      "adult_price": 1500
+    },
+    {
+      "title": "コレクション展Ⅱ 特集 フォトグラフ",
+      "start": "2026-08-29",
+      "end": "2026-12-27",
+      "url": "https://kmma.jp/exhibition/collection2-photograph/",
+      "kind": "collection",
+      "summary": "写真を切り口に所蔵品を紹介。石川直樹ら新収蔵写真作品のほか、ドガ《マネとマネ夫人像》・モネ《睡蓮》・バスキア《消防士》などの名品も展示",
+      "recommend": "写真という視点から8,400点の所蔵品を横断的に構成。大辻清司によるドキュメント写真から瑛九のフォトグラム、さらにドガやモネ、バスキアなど常設の名品を一度に見られる充実の展示。",
+      "admission": "一般 300円（20名以上 240円）",
+      "adult_price": 300
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "戸畑",
+      "lines": "JR鹿児島本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "戸畑駅バス停より北九州市営バス7M番「北九州市立美術館」下車"
+    },
+    {
+      "station": "小倉",
+      "lines": "JR鹿児島本線・新幹線",
+      "exit": null,
+      "walk_min": null,
+      "note": "小倉駅入口バス停より北九州市営バス7M番「北九州市立美術館」下車"
+    }
+  ],
+  "highlights": "昭和49年（1974）に西日本の公立美術館の先駆けとして設立。国内外の近現代美術を主軸に絵画・彫刻・版画など約8,000点を収蔵し、ドガ、モネ、バスキアらの名品を常設展で公開。充実した企画展も国内外から注目を集める北九州の文化拠点。",
+  "closed_between_exhibitions": false,
+  "notes": "年末年始休館（具体的な日付は公式サイトに記載なし）。分館（小倉リバーウォーク北九州5F）は現在休止中。THE 新版画展は10/24（土）に夜間特別開館（〜20:00、入館19:30まで）あり。",
+  "confidence": "high"
+}

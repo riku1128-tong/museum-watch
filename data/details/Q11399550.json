@@ -1,27 +1,17 @@
 {
   "id": "Q11399550",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:00:30+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://hidanosato.com/",
   "address": "岐阜県高山市上岡本町1-590",
   "source_urls": [
-    "https://hidanosato.com/",
-    "https://www.kankou-gifu.jp/spot/detail_1232.html"
+    "https://hidanosato.com/"
   ],
   "regular_hours": [
     {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
       "open": "08:30",
       "close": "17:00"
     }
@@ -57,6 +47,6 @@
   ],
   "highlights": "江戸中期〜明治期の合掌造りをはじめ飛騨各地の古民家30棟以上を移築復元した野外博物館。伝統的な行事の実演や民具の展示も充実し、四季の自然の中で飛騨の暮らしと文化をじっくり体感できる。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（hidanosato.com）より確認。開館時間 8:30-17:00 年中無休。紅葉ライトアップ（10/10-11/8 土日祝 17:30-20:30）・クリスマスライトアップ（12/19-25）・冬のライトアップ（1/9-2/28）は通常閉館後の延長開館。",
+  "notes": "公式サイト（hidanosato.com）より確認。開館時間 8:30-17:00 年中無休。紅葉ライトアップ（2026年10/10-11/8、土日祝のみ 17:30-20:30、大人300円）・クリスマスライトアップ（2026年12/19-25、17:30-20:30）・冬のライトアップ（2027年1/9-2/28、17:30-20:30）は通常閉館後の延長開館（別料金）。飛騨高山美術館との共通入館券あり（大人通常2,700円→2,500円、3日間有効）。",
   "confidence": "high"
 }

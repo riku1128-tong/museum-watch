@@ -1,6 +1,6 @@
 {
   "id": "Q11564683",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:06:48+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,31 +9,33 @@
   "source_urls": [
     "https://www.shigamuseum.jp/",
     "https://www.shigamuseum.jp/visit/",
-    "https://www.shigamuseum.jp/info/ticket-pass/",
-    "https://www.shigamuseum.jp/exhibitions/12995/"
+    "https://www.shigamuseum.jp/info/collection/",
+    "https://www.shigamuseum.jp/exhibitions/",
+    "https://www.shigamuseum.jp/exhibitions/12995/",
+    "https://www.shigamuseum.jp/exhibitions/14631/",
+    "https://www.shigamuseum.jp/exhibitions/12978/"
   ],
   "regular_hours": [
     {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": [
-    "mon"
-  ],
+  "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
+    {
+      "from": "2026-11-24",
+      "to": "2026-12-08",
+      "reason": "臨時休館（展示替え）"
+    },
+    {
+      "from": "2026-12-17",
+      "to": "2026-12-21",
+      "reason": "臨時休館（展示替え）"
+    },
     {
       "from": "2026-12-28",
       "to": "2027-01-04",
@@ -52,6 +54,17 @@
       "recommend": null,
       "admission": "一般 1,200円",
       "adult_price": 1200
+    },
+    {
+      "title": "お札を支える伝統技術～すき入れ・凹版・彩紋の世界～",
+      "start": "2026-10-06",
+      "end": "2026-11-15",
+      "url": "https://www.shigamuseum.jp/exhibitions/14631/",
+      "kind": "other",
+      "summary": "国立印刷局彦根工場との連携企画。凹版彫刻・すき入れ・彩紋画など紙幣を支える伝統技術を紹介",
+      "recommend": "紙幣に込められた精緻な職人技を間近で見られる貴重な連携企画。凹版彫刻から彩紋まで、日常では知ることのない伝統技術の世界に触れられる。",
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "時間はかたち？",
@@ -74,6 +87,17 @@
       "recommend": null,
       "admission": "一般 570円",
       "adult_price": 570
+    },
+    {
+      "title": "佐川晃司展（仮称）",
+      "start": "2027-01-15",
+      "end": "2027-03-22",
+      "url": "https://www.shigamuseum.jp/exhibitions/12978/",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 570,
@@ -101,8 +125,8 @@
       "note": "帝産バス「大学病院」行きで「県立図書館・美術館前」下車、約10分"
     }
   ],
-  "highlights": null,
+  "highlights": "1984年開館。近代日本画・滋賀県ゆかりの美術工芸・戦後の日米現代美術・アール・ブリュットの4本柱で収集を続ける。重要文化財《近江名所図》をはじめ、日本画家・小倉遊亀、染織家・志村ふくみ、マーク・ロスコらアメリカ美術、澤田真一のアール・ブリュットを所蔵。琵琶湖文化公園の緑に囲まれた環境にカフェも備える。",
   "closed_between_exhibitions": false,
-  "notes": "金氏徹平展は米原市での開催のため未掲載。見どころは公式紹介文を読めていないため未記入。",
+  "notes": "金氏徹平展は館外展示（米原市）のため未掲載。11月24日〜12月8日・12月17〜21日は臨時休館（展示替え）。フリーサタデー・フリーサンデーは常設展のみ無料。",
   "confidence": "high"
 }

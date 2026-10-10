@@ -1,14 +1,14 @@
 {
   "id": "Q11381621",
-  "checked_at": "2026-10-02T08:34:24+09:00",
+  "checked_at": "2026-10-10T16:09:51+09:00",
   "check_mode": "full",
   "operating_status": "unknown",
-  "status_note": "公式の開館情報を確認できず",
+  "status_note": "公式サイトに開館時間・休館日・観覧料の記載なし。但陽信用金庫運営の美術館で、公式ページでは月替わりで所蔵作品を公開していることを確認",
   "official_url": "https://www.tanyo-shinkin.co.jp/tanyo-gallery/",
-  "address": "〒679-3301 兵庫県朝来市生野町口銀谷530",
+  "address": "〒679-3301 兵庫県朝来市生野町口銀谷538",
   "source_urls": [
     "https://www.tanyo-shinkin.co.jp/tanyo-gallery/",
-    "https://ja.wikipedia.org/wiki/但陽信用金庫会館"
+    "https://www.tanyo-shinkin.co.jp/tanyo-gallery/index.php"
   ],
   "regular_hours": [],
   "closed_weekdays": [],
@@ -19,8 +19,17 @@
   "adult_price": null,
   "free_days": [],
   "free_rules": [],
-  "access": [],
-  "highlights": "生野出身の三大画伯、青山熊治・白瀧幾之助・和田三造ら、但陽信用金庫が所蔵する作品を本館・東館で展示。本館西隣の別館には18〜19世紀のバルビゾン派の絵画が並ぶ。",
-  "notes": "但陽信用金庫が運営（問い合わせ: 生野本部 079-679-2253）。公式のギャラリーページに開館時間・休館日・観覧料・展覧会の記載なし。観光協会・自治体ページにも見当たらず。推測は入れていない。",
+  "access": [
+    {
+      "station": "生野",
+      "lines": "JR播但線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    }
+  ],
+  "highlights": "朝来市生野町にある但陽信用金庫が運営する美術館。本館・東館に近代日本洋画の先駆者である生野出身の三大画伯・青山熊治・白瀧幾之助・和田三造の作品を月替わりで展示。別館（本館西隣）には18〜19世紀のバルビゾン派絵画が並ぶ。",
+  "closed_between_exhibitions": false,
+  "notes": "但陽信用金庫（生野本部 TEL:079-679-2253）が運営。公式ページは月替わりで所蔵作品（10月：『湖畔の風景』和田三造）を紹介しているが、開館時間・休館日・観覧料の記載は公式サイトにも美術情報サイトにも見当たらず。推測は入れていない。address は Navitime 掲載の 538 番地に更新（旧 530 は Wikipedia 由来だが実態は 538 の可能性が高い）。",
   "confidence": "low"
 }

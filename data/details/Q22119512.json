@@ -1,16 +1,16 @@
 {
   "id": "Q22119512",
-  "checked_at": "2026-10-02T08:45:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-10T09:51:41+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://tendocity-museum.jp",
   "address": "〒994-0013 山形県天童市老野森一丁目2番2号",
   "source_urls": [
     "https://tendocity-museum.jp/",
-    "https://tendocity-museum.jp/access/",
     "https://tendocity-museum.jp/ex_tax/kaisaicyu/",
-    "https://www.city.tendo.yamagata.jp/tourism/sightseeing/bijitukan.html",
+    "https://tendocity-museum.jp/ex_tax/jikai/",
+    "https://tendocity-museum.jp/access/",
     "https://www.museum.or.jp/museum/1086"
   ],
   "regular_hours": [
@@ -44,19 +44,30 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "吉野石膏コレクション　近代日本絵画名作展　第二期",
-      "start": "2026-09-10",
-      "end": "2026-10-04",
+      "title": "星をみつめておもいだす　さとうわきこ展",
+      "start": "2026-10-08",
+      "end": "2026-11-23",
       "url": "https://tendocity-museum.jp/ex_tax/kaisaicyu/",
       "kind": "special",
-      "summary": "吉野石膏の寄託作品256点から135点を展示。同社の東京新施設開設に伴い返却が始まる前の最後の機会",
-      "recommend": "石膏ボード大手・吉野石膏が収集した近代日本絵画の名品135点を一堂に見られる機会。返却が始まる直前の特別展示で、日本近代絵画の精華を俯瞰できる。",
-      "admission": "一般420円（340円）、高校・大学生210円（170円）、小・中学生100円（80円）",
-      "adult_price": 420
+      "summary": "2024年に逝去した絵本作家・さとうわきこの回顧展。「ばばばあちゃん」など代表作の原画約210点",
+      "recommend": "「ばばばあちゃん」シリーズ全22作と「せんたくかかあちゃん」シリーズ全3作をはじめ、初期から晩年までの絵本原画を一堂に集めた大規模な回顧展。2024年に他界した作家の豊かな画業をたどれる貴重な機会。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第28回市民作品展",
+      "start": "2026-12-02",
+      "end": "2026-12-20",
+      "url": "https://tendocity-museum.jp/ex_tax/jikai/",
+      "kind": "special",
+      "summary": "市内美術団体所属作家や公募展入選市民の作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "closed_between_exhibitions": true,
-  "adult_price": 420,
+  "adult_price": null,
   "free_days": [],
   "free_rules": [],
   "access": [
@@ -67,7 +78,7 @@
       "walk_min": 15
     }
   ],
-  "highlights": "公益財団法人天童市文化・スポーツ振興事業団が運営する山形・天童の美術館。吉野石膏コレクションなど近代日本絵画の名品を中心とした企画展を年間を通じて開催し、体験美術館やミュージアムコンサートといった鑑賞以外のプログラムも充実。JR天童駅東口から徒歩15分。",
-  "notes": "企画展のみ開催で、展示替え期間中は休館（closed_between_exhibitions: true）。月曜休館（祝日の場合は翌日）。年末年始は12/29〜1/3休館。開館時間・入館料は市公式サイトと美術館公式サイトより確認。 次回展は公式で「予定未定」。",
+  "highlights": "企画展専門の美術館で、公益財団法人天童市文化・スポーツ振興事業団が運営。近代日本絵画や絵本原画、市民作品展など多彩な展示を年間を通じて開催。体験型プログラムやミュージアムコンサートも充実し、将棋の町・天童市の文化発信拠点として親しまれている。",
+  "notes": "企画展のみ開催で、展示替え期間中は休館（closed_between_exhibitions: true）。月曜休館（祝日の場合は翌日）。年末年始は12/29〜1/3休館。公式サイトの開館時間ページでは個別の料金詳細を確認できなかったため、さとうわきこ展・市民作品展の入館料はnull。",
   "confidence": "medium"
 }

@@ -1,7 +1,7 @@
 {
   "id": "Q11407282",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:09:29+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.minamiawaji.hyogo.jp/soshiki/gyokuseikan/main.html",
@@ -34,11 +34,6 @@
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {
-      "from": "2026-10-01",
-      "to": "2026-10-02",
-      "reason": "展示入替"
-    },
     {
       "from": "2026-12-28",
       "to": "2027-01-04",

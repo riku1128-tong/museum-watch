@@ -1,0 +1,58 @@
+{
+  "id": "Q11672301",
+  "checked_at": "2026-10-10T10:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kashomuseum.org/home",
+  "address": "〒791-0222 愛媛県東温市下林丙654-1",
+  "source_urls": [
+    "https://www.kashomuseum.org/home",
+    "https://www.kashomuseum.org/blank-2",
+    "https://www.kashomuseum.org/blank-14"
+  ],
+  "regular_hours": [
+    {
+      "days": ["sat", "sun", "holiday"],
+      "open": "11:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon", "tue", "wed", "thu", "fri"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-11-07",
+      "to": "2026-11-07",
+      "reason": "臨時休館"
+    },
+    {
+      "from": "2027-01-02",
+      "to": "2027-01-03",
+      "reason": "臨時休館（年始）"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "やなせたかしが見た高畠華宵の世界展 ー懐かしき美の追憶ー",
+      "start": "2026-10-10",
+      "end": "2027-01-11",
+      "url": "https://www.kashomuseum.org/blank-14",
+      "kind": "special",
+      "summary": "アンパンマンの作者・やなせたかしが敬愛した大正ロマンの挿絵画家・高畠華宵の世界を紹介",
+      "recommend": "やなせたかしが生涯にわたって愛し続けた高畠華宵の美の世界を、その眼差しを通じて体験できる企画展。大正から昭和初期の豊かな想像力と装飾美が凝縮された作品が一堂に。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": "大正ロマンを代表する挿絵画家・高畠華宵（1888〜1966）を専門に扱う美術館。愛媛県東温市に立地し、雑誌や広告で一世を風靡した華宵の繊細かつ華やかな作品を収蔵・展示する。アンパンマンのやなせたかしも敬愛した画家として知られ、アール・ヌーヴォー風の美人画が館の魅力。",
+  "closed_between_exhibitions": true,
+  "notes": "開館は土・日・祝日のみ（平日休館）。11月7日（土）・2027年1月2日（土）・3日（日）は臨時休館。アクセスは車が中心（川内インターより国道11号線経由約5分）で、公式サイトに公共交通機関の案内なし。",
+  "confidence": "high"
+}

@@ -1,7 +1,7 @@
 {
   "id": "Q11380269",
-  "checked_at": "2026-10-02T08:50:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:08:56+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/",
@@ -44,6 +44,28 @@
       "recommend": "30回目を迎える、子どもたちの絵画コンクールの入賞・入選作110点を展示。のびのびとした感性が光る作品が並ぶ。",
       "admission": "無料",
       "adult_price": 0
+    },
+    {
+      "title": "特別展「躍動する作家展」前期 大森梨紗子",
+      "start": "2026-10-24",
+      "end": "2026-11-29",
+      "url": "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/1004510/1038855.html",
+      "kind": "special",
+      "summary": "但馬在住の大森梨紗子が山での暮らしを源に植物を題材に制作した作品を展示",
+      "recommend": "山での暮らしから生まれた視点で植物を描く大森梨紗子の作品が並ぶ。但馬の自然と作家の内面が交差する、地元に根ざした展覧会。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "特別展「躍動する作家展」後期 木本景子",
+      "start": "2026-12-05",
+      "end": "2027-01-24",
+      "url": "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/1004510/1038855.html",
+      "kind": "special",
+      "summary": "ドイツから豊岡に拠点を移した木本景子が色で抽象的な形を表現する作品を展示",
+      "recommend": "ドイツ仕込みの抽象的な色彩表現が但馬の風土とどう響き合うのかが見どころ。豊岡を拠点に活躍する木本景子の新作が楽しめる。",
+      "admission": "一般 500円",
+      "adult_price": 500
     }
   ],
   "adult_price": 500,

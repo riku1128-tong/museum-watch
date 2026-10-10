@@ -1,0 +1,44 @@
+{
+  "id": "Q22117727",
+  "checked_at": "2026-10-10T09:51:39+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "2022年3月19日から休館中（再開予定未定）",
+  "official_url": "https://www.akitakata.jp/ja/yachiyonooka/",
+  "address": null,
+  "source_urls": [
+    "https://www.akitakata.jp/ja/yachiyonooka/",
+    "https://www.akitakata.jp/ja/yachiyonooka/info/",
+    "https://www.akitakata.jp/ja/yachiyonooka/access/",
+    "https://www.akitakata.jp/ja/yachiyonooka/news/u102/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "広島",
+      "lines": "JR山陽本線他",
+      "exit": null,
+      "walk_min": null,
+      "note": "広島バスセンター8番乗り場から広電バス吉田行きで約1時間（勝田停留所下車）。中国縦貫自動車道千代田インターから車で約20分"
+    }
+  ],
+  "highlights": "広島県安芸高田市の芸術村「四季の里」の丘に立つ居住型美術館。国内各地の画家・陶芸家・彫刻家が各棟に滞在しながら制作し、個室展示スペースで観客と1対1で向き合う独自のスタイルが特徴。山あいの緑に囲まれた静かな環境に複数のアトリエが連なる。",
+  "closed_between_exhibitions": false,
+  "notes": "2022年3月19日から休館中。再開予定未発表（問い合わせ: 安芸高田市教育委員会生涯学習課文化スポーツ係 TEL:0826-42-0054）。掲載の開館時間・休館日・入館料は休館前の情報。年末年始（12/28〜1/4）・春期（3/15〜3/31）は休館（休館前情報）。住所は公式サイトから確認できなかったため null。",
+  "confidence": "medium"
+}

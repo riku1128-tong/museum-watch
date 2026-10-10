@@ -1,0 +1,54 @@
+{
+  "id": "Q11366422",
+  "checked_at": "2026-10-10T15:58:06+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.bansyouen.com/",
+  "address": null,
+  "source_urls": [
+    "https://www.walkerplus.com/spot/ar0937s63519/",
+    "https://www.nact.jp/artcommons/user/detail/78022"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["wed"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "コレクション展示（絵画館・陶器館）",
+      "start": "2026-10-10",
+      "end": "2027-10-10",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。バルビゾン派（ミレー、ルソーなど）のフランス絵画と古代イラン・イラク周辺の彩文土器・ガラス器を展示",
+      "recommend": null,
+      "admission": "入館料 大人500円（庭園は別途800円）",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "讃岐塩屋",
+      "lines": "JR予讃線",
+      "exit": null,
+      "walk_min": 15,
+      "note": null
+    }
+  ],
+  "highlights": "江戸時代の丸亀藩主・京極家が造営した回遊式日本庭園「中津万象園」の中に建てられた美術館。絵画館にはバルビゾン派のミレーやルソーなどの19世紀フランス絵画、陶器館には古代イラン・イラク周辺の彩文土器やガラス器を収蔵。庭園散策と合わせて異国情緒ある芸術体験ができる。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（bansyouen.com）はSSL証明書の不一致でHTTPS接続不可のため、第三者情報源（Walkerplus・インターネットミュージアム）を参照。開館時間・定休日・基本料金は確認済みだが、2026年の特別展情報は未確認。水曜定休・年末年始休館の有無は未確認（holiday_rule不明）。庭園（中津万象園）と美術館は入場料別。セット券：大人1,300円。",
+  "confidence": "medium"
+}

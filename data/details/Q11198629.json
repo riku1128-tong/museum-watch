@@ -1,6 +1,6 @@
 {
   "id": "Q11198629",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T10:15:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -8,9 +8,7 @@
   "address": "〒180-0004 東京都武蔵野市吉祥寺本町1丁目8番16号 FFビル7階（コピス吉祥寺A館7階）",
   "source_urls": [
     "https://www.musashino.or.jp/museum/",
-    "https://www.musashino.or.jp/museum/1002040/1002048.html",
-    "https://www.musashino.or.jp/museum/1002006/1002008/1009189.html",
-    "https://www.musashino.or.jp/museum/1002006/1003349/1009837.html"
+    "https://www.musashino.or.jp/museum/1002006/1002008/"
   ],
   "regular_hours": [
     {
@@ -32,13 +30,13 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-09-30",
-      "to": "2026-09-30",
+      "from": "2026-10-28",
+      "to": "2026-10-28",
       "reason": "休館日（毎月最終水曜日）"
     },
     {
-      "from": "2026-10-28",
-      "to": "2026-10-28",
+      "from": "2026-11-25",
+      "to": "2026-11-25",
       "reason": "休館日（毎月最終水曜日）"
     },
     {
@@ -56,6 +54,7 @@
       "url": "https://www.musashino.or.jp/museum/1002006/1003349/1009837.html",
       "kind": "special",
       "summary": "絵本作家・谷口智則の新作絵本の原画全25点や「100にんのサンタクロース」原画などを紹介",
+      "recommend": null,
       "admission": "一般 300円",
       "adult_price": 300
     },
@@ -66,6 +65,7 @@
       "url": "https://www.musashino.or.jp/museum/1002006/1003366/1010061.html",
       "kind": "collection",
       "summary": "浜口陽三記念室のコレクション展示。テーマは「食」",
+      "recommend": null,
       "admission": "常設展 100円",
       "adult_price": 100
     },
@@ -76,8 +76,20 @@
       "url": "https://www.musashino.or.jp/museum/1002006/1003367/1009463.html",
       "kind": "collection",
       "summary": "萩原英雄記念室のコレクション展示。テーマは「道化師」",
+      "recommend": null,
       "admission": "常設展 100円",
       "adult_price": 100
+    },
+    {
+      "title": "特別展示　武蔵野市内の「いま」をうつす",
+      "start": "2026-11-05",
+      "end": "2026-11-07",
+      "url": null,
+      "kind": "special",
+      "summary": "武蔵野市内の「いま」をテーマにした特別展示（3日間）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 100,
@@ -94,6 +106,6 @@
   ],
   "highlights": "吉祥寺の繁華街・コピス吉祥寺A館7階にある市立美術館。銅版画家・浜口陽三と木版画家・萩原英雄の記念室を常設し、野田九浦の日本画を含む約2,600点のコレクションを擁する。「観る・創る・育てる」を掲げ、多彩な企画展で街に開かれた文化の場として機能する。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は「毎月最終水曜日（祝日の場合は開館し、翌日を休館日）」。最終水曜日は closed_nth_weekdays で表せないため、公式に日付が出ている 9/30・10/28（谷口展ページ）だけ special_closures に入れた。11/25 以降の最終水曜日は未掲載。11/4 以降の展示と、展示替え休館の有無は未確認（次の企画展は 2027/1/16〜）。入館締切の記載なし。official_url は武蔵野文化生涯学習事業団のページ。今回、最寄駅（吉祥寺駅）は公式サイトのアクセスページで確認、常設展のみの入館料（100円）は展覧会ページの記載（既存の exhibitions.admission）から確認した。",
+  "notes": "休館日は「毎月最終水曜日（祝日の場合は開館し、翌日を休館日とする）」。最終水曜日は closed_nth_weekdays で表せないため、public に出ている日付 10/28・11/25 を special_closures に入れた（12/30 は年末年始休館内のため省略）。次の企画展は 2027/1/16〜（未確認）。",
   "confidence": "medium"
 }

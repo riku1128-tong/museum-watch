@@ -1,6 +1,6 @@
 {
   "id": "Q1362638",
-  "checked_at": "2026-10-02T08:55:00+09:00",
+  "checked_at": "2026-10-10T10:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -9,6 +9,7 @@
   "source_urls": [
     "https://www.nact.jp/",
     "https://www.nact.jp/exhibition_public/",
+    "https://www.nact.jp/information/news/",
     "https://www.nact.jp/exhibition_special/2026/louvre2026/",
     "https://www.nact.jp/exhibition_special/2026/shojomanga/",
     "https://www.nact.jp/information/access/",
@@ -125,6 +126,56 @@
       "url": "http://shinkozo.or.jp",
       "kind": "other",
       "summary": "新構造社による公募展",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "2026年度 伝統的工芸品公募作品展",
+      "start": "2026-11-25",
+      "end": "2026-12-07",
+      "url": "https://kyokai.kougeihin.jp/kouboten/",
+      "kind": "other",
+      "summary": "伝統的工芸品産業振興協会による公募展",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "JAGDA国際学生ポスターアワード 2026",
+      "start": "2026-11-25",
+      "end": "2026-12-07",
+      "url": "https://jagda-gakusei.jp/",
+      "kind": "other",
+      "summary": "日本グラフィックデザイン協会による国際学生ポスター展",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第18回　躍動する現代作家展",
+      "start": "2026-11-26",
+      "end": "2026-12-06",
+      "url": "https://www.toram.info/",
+      "kind": "other",
+      "summary": "現代作家による公募展",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "21世紀アートボーダレス展　Japan Renaissance",
+      "start": "2026-11-26",
+      "end": "2026-12-05",
+      "url": "https://21art.jp",
+      "kind": "other",
+      "summary": "21世紀アートボーダレス展による公募展",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "ナナ展",
+      "start": "2026-11-27",
+      "end": "2026-12-07",
+      "url": "https://nanakusakai.com/",
+      "kind": "other",
+      "summary": "ナナ草花会による展覧会",
       "admission": null,
       "adult_price": null
     }

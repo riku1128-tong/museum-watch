@@ -1,12 +1,15 @@
 {
   "id": "Q11404769",
-  "checked_at": "2026-10-02T08:34:28+09:00",
+  "checked_at": "2026-10-10T12:00:00+09:00",
   "check_mode": "full",
   "operating_status": "unknown",
-  "status_note": null,
+  "status_note": "美術館の実在が確認できない。美作市・岡山県の複数情報源を調査したが「美作市立勝田美術館」の存在を示す情報なし。",
   "official_url": null,
   "address": null,
-  "source_urls": [],
+  "source_urls": [
+    "https://www.okayama-kenbi.info/hakubutsu_mimasaka-2/",
+    "https://ja.wikipedia.org/wiki/%E7%BE%8E%E8%A1%93%E9%A4%A8%E3%81%AE%E4%B8%80%E8%A6%A7"
+  ],
   "regular_hours": [],
   "closed_weekdays": [],
   "closed_nth_weekdays": [],
@@ -20,6 +23,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "2026-10-02 再調査。岡山県博物館協議会の美作エリア加盟館一覧には「勝田美術館」の掲載なし（近隣の勝央美術文学館のみ）。WebSearchでも公式情報は見つからず、美作市作東美術館は2021年3月から休館中との情報あり。廃館・長期休館の可能性が高いが確認できず。美作市教育委員会に要確認。 再挑戦(2回目): WebSearch・NAVITIMEの美作市の美術館一覧にも「勝田美術館」なし(作東美術館のみ)。公式情報は得られず。",
+  "notes": "2026-10-10 再挑戦（3回目）。WebSearch・WebFetch で多角的に調査。(1) Wikipedia「美術館の一覧」の現行版には「美作市立勝田美術館」の記載なし（岡山県の公立館は奈義町現代美術館・備前市美術館・岡山県立美術館など8館のみ）。(2) Wikipedia API で「美作市立勝田美術館」記事を検索→ missing:true（記事存在しない）。(3) Wikidata Q11404769 を API で確認したところ「十三番目のアリス」（ライトノベルシリーズ）であり美術館ではない。IDの紐付けが誤りの可能性大。(4) 岡山県博物館協議会の美作エリア加盟館18館に「勝田美術館」の名称なし（「勝田」関連は勝田郡の勝央美術文学館・奈義町現代美術館のみ）。(5) 美作市内の美術館は作東美術館（休館中・貸館のみ）のみ。(6) 美作市公式サイトにも文化施設としての「勝田美術館」の記載なし。結論：「美作市立勝田美術館」はおそらく実在しないか廃館済みであり、また museums.json の Wikidata QID マッピングも誤りと考えられる（Q11404769はライトノベルの項目）。確定情報なしのため operating_status は unknown のまま。",
   "confidence": "low"
 }

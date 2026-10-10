@@ -1,6 +1,6 @@
 {
   "id": "Q21019672",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T15:58:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -50,6 +50,8 @@
   ],
   "adult_price": 900,
   "highlights": "1988年に創立した、京都にある朝鮮美術を専門とする美術館。鄭詔文氏の情熱と司馬遼太郎らの賛同で生まれた。朝鮮半島の陶磁器・民画・工芸品を収蔵・研究し、民衆レベルの日韓文化交流推進を理念とする。企画展を年数回開催する小規模ながら個性豊かな専門館。",
+  "free_days": [],
+  "free_rules": [],
   "closed_between_exhibitions": false,
   "access": [
     {

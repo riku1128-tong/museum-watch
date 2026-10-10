@@ -1,0 +1,173 @@
+{
+  "id": "Q11476530",
+  "checked_at": "2026-10-10T15:58:01+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.grandtoit.jp",
+  "address": "〒698-0022 島根県益田市有明町5番15号",
+  "source_urls": [
+    "https://www.grandtoit.jp",
+    "https://www.grandtoit.jp/museum/",
+    "https://www.grandtoit.jp/guide/",
+    "https://www.grandtoit.jp/access/",
+    "https://www.grandtoit.jp/museum/exhibition/fukanshitemiru_20260819/",
+    "https://www.grandtoit.jp/museum/exhibition/hitonokatachi_2026_0820/",
+    "https://www.grandtoit.jp/museum/exhibition/fashiontokaiga_2026_0820/",
+    "https://www.grandtoit.jp/museum/exhibition/iwamiban_hokusai_0919/",
+    "https://www.grandtoit.jp/museum/exhibition/sunouchitooru_2026_1014/",
+    "https://www.grandtoit.jp/museum/exhibition/azudhinaraia_2026_1015/",
+    "https://www.grandtoit.jp/museum/exhibition/unkokuha_2026_1028/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "俯瞰してみる",
+      "start": "2026-08-19",
+      "end": "2026-10-26",
+      "url": "https://www.grandtoit.jp/museum/exhibition/fukanshitemiru_20260819/",
+      "kind": "collection",
+      "summary": "石見美術館コレクションから俯瞰の視点でとらえた風景・人物・モティーフの作品を紹介",
+      "recommend": "石見美術館コレクションから風景・人物・静物まで多彩な「俯瞰」視点の作品を一堂に展示。スペクタクルな高所からの視点で描かれた絵画・写真・版画の構図の妙を楽しめる。",
+      "admission": "コレクション展 一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "ひとのかたち",
+      "start": "2026-08-20",
+      "end": "2026-10-12",
+      "url": "https://www.grandtoit.jp/museum/exhibition/hitonokatachi_2026_0820/",
+      "kind": "collection",
+      "summary": "近世初期の水墨画から現代美術まで人物表現の変遷を辿る。加藤泉の絵画3点を収蔵後初公開",
+      "recommend": "近世初期の水墨から現代美術まで多彩な「人物表現」を所蔵品でたどる構成。島根県安来市出身のアーティスト・加藤泉の絵画が収蔵後初めて公開される貴重な機会。",
+      "admission": "コレクション展 一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "ファッションと絵画にみる自然のかたち",
+      "start": "2026-08-20",
+      "end": "2026-10-12",
+      "url": "https://www.grandtoit.jp/museum/exhibition/fashiontokaiga_2026_0820/",
+      "kind": "collection",
+      "summary": "自然をモチーフにした絵画と衣服・アクセサリーを並べ、絵画とファッションの共通点を探る",
+      "recommend": null,
+      "admission": "コレクション展 一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "北斎－「葛飾北斎期」・「戴斗期」編",
+      "start": "2026-09-19",
+      "end": "2026-11-09",
+      "url": "https://www.grandtoit.jp/museum/exhibition/iwamiban_hokusai_0919/",
+      "kind": "special",
+      "summary": "永田コレクション全貌公開〈二章〉。北斎が46〜60歳頃の「葛飾北斎」「戴斗」期の版本・絵手本を展示",
+      "recommend": "北斎が46〜60歳頃に用いた「葛飾北斎」「戴斗」名の充実期の版本・絵手本を永田コレクション第二章として展示。『北斎漫画』初版板木や初摺本の実物を間近に見られる貴重な機会。",
+      "admission": "企画展 一般 1,000円（前売 900円）",
+      "adult_price": 1000,
+      "closed_dates": ["2026-10-14"]
+    },
+    {
+      "title": "洲之内徹が推した山陰ゆかりの洋画家たち",
+      "start": "2026-10-14",
+      "end": "2026-12-07",
+      "url": "https://www.grandtoit.jp/museum/exhibition/sunouchitooru_2026_1014/",
+      "kind": "collection",
+      "summary": "画廊主・評論家の洲之内徹が推した山陰ゆかりの洋画家たちの作品を、初公開の寄贈作品を含めて紹介",
+      "recommend": "小説家・美術評論家・画廊主として多くの無名画家を世に出した洲之内徹の眼が認めた山陰ゆかりの洋画家たちの個性豊かな作品が集結。初公開の寄贈作品にも注目。",
+      "admission": "コレクション展 一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "アズディン・アライア",
+      "start": "2026-10-15",
+      "end": "2026-12-14",
+      "url": "https://www.grandtoit.jp/museum/exhibition/azudhinaraia_2026_1015/",
+      "kind": "collection",
+      "summary": "世界的ファッションデザイナー、アズディン・アライアの所蔵作品（1987-88年秋冬スーツなど）を紹介するコレクション展",
+      "recommend": null,
+      "admission": "コレクション展 一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "雲谷派",
+      "start": "2026-10-28",
+      "end": "2026-12-07",
+      "url": "https://www.grandtoit.jp/museum/exhibition/unkokuha_2026_1028/",
+      "kind": "collection",
+      "summary": "雪舟の流れを汲む雲谷派の絵師たちの作品を紹介するコレクション展。雲谷等顔《山水人物花鳥図押絵貼屏風》などを展示",
+      "recommend": null,
+      "admission": "コレクション展 一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "石見根付にまつわるエトセトラ",
+      "start": "2026-12-09",
+      "end": "2027-03-08",
+      "url": "https://www.grandtoit.jp/museum/exhibition/iwaminetuke_2026_1209/",
+      "kind": "collection",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "そこには誰もいません",
+      "start": "2026-12-09",
+      "end": "2027-02-01",
+      "url": "https://www.grandtoit.jp/museum/exhibition/sokonihadaremoimasen_2026_1209/",
+      "kind": "collection",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "山本琹谷と津和野藩の絵師たち",
+      "start": "2026-12-16",
+      "end": "2027-03-08",
+      "url": "https://www.grandtoit.jp/museum/exhibition/yamamotokinkoku_2026_1216/",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "銀幕の森英恵",
+      "start": "2026-12-17",
+      "end": "2027-03-08",
+      "url": "https://www.grandtoit.jp/museum/exhibition/ginnmakunomorihanae_2026_1217/",
+      "kind": "collection",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 400,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "益田",
+      "lines": "JR山陰本線・山口線",
+      "walk_min": 15,
+      "note": "石見交通バス「医光寺」行きで約5分、「グラントワ前」下車すぐ"
+    }
+  ],
+  "highlights": "島根県益田市の芸術文化センター「グラントワ」内にある県立美術館。デザイナー・森英恵の衣装や彫刻家・澄川喜一の作品を中心に収蔵。石見ゆかりの洋画家や加藤泉ら現代作家の作品も充実し、寄贈された北斎と門人2,398件の「永田コレクション」を公開する企画展も定期開催。",
+  "closed_between_exhibitions": false,
+  "notes": "毎週火曜休館（祝日開館・翌平日休館）・年末年始休館（具体的な日付は公式未記載）。入館料はコレクション展単独400円（当日）、企画展単独1,000円（当日）・前売900円、企画・コレクション展セット1,500円（当日）。企画展「北斎」は前期9/19〜10/12・後期10/15〜11/9、10/13（火・定休）〜14（水）は展示替え休室。10/14は北斎室のみ休室、コレクション展は観覧可能。11/3（文化の日・火）は開館（holiday_rule適用）。12月以降の新展示の詳細は展覧会ページを未確認のため要次回確認。",
+  "confidence": "high"
+}

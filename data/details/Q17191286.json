@@ -1,0 +1,59 @@
+{
+  "id": "Q17191286",
+  "checked_at": "2026-10-10T10:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://hoshino-museum.com/",
+  "address": "熊本県葦北郡芦北町湯浦1439-2",
+  "source_urls": [
+    "https://iko-yo.net/facilities/77319",
+    "https://bijutsutecho.com/magazine/news/headline/32846"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [
+    {"weekday": "mon", "nth": [2, 4]}
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "湯浦",
+      "lines": "肥薩おれんじ鉄道",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    }
+  ],
+  "highlights": "詩画作家・星野富弘の水彩画と詩を専門に展示する美術館。口に筆をくわえて描いた四季折々の草花と言葉が心に響く作品が並ぶ。館内には御休み処とミュージアムショップもあり、肥薩おれんじ鉄道湯浦駅から徒歩約10分とアクセスしやすい。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（http://hoshino-museum.com/）はSSL証明書の不一致により直接アクセス不可。情報はiko-yo.net（2022年7月時点）および美術手帖（2026年8月25日）をもとに確認。2026年7月28日の令和8年熊本地震で7/29に臨時休館したが、同年8/25時点では開館中。展覧会情報は公式サイトに接続できなかったため未取得。",
+  "confidence": "medium"
+}

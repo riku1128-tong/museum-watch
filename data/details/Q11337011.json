@@ -1,0 +1,102 @@
+{
+  "id": "Q11337011",
+  "checked_at": "2026-10-10T16:45:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.benesse-artsite.jp/",
+  "address": "〒761-3110 香川県香川郡直島町",
+  "source_urls": [
+    "https://www.benesse-artsite.jp/",
+    "https://www.benesse-artsite.jp/art/",
+    "https://www.benesse-artsite.jp/access/",
+    "https://benesse-artsite.jp/art/chichu.html",
+    "https://benesse-artsite.jp/art/benessehouse-museum.html",
+    "https://benesse-artsite.jp/art/lee-ufan.html",
+    "https://benesse-artsite.jp/news/20260630-3558.html",
+    "https://benesse-artsite.jp/news/20261009-3632.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2027-01-12",
+      "to": "2027-03-19",
+      "reason": "定期メンテナンス休館（地中美術館は3/19まで。他施設は順次1/18前後に再開。施設ごとに期間が異なる）"
+    }
+  ],
+  "special_openings": [
+    {
+      "date": "2026-12-19",
+      "open": "10:00",
+      "close": "13:00",
+      "note": "李禹煥美術館のみ開館時間短縮（最終入館12:30）"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "地中美術館 常設コレクション（モネ・タレル・デ・マリア）",
+      "start": "2004-07-27",
+      "end": "2027-10-10",
+      "url": "https://benesse-artsite.jp/art/chichu.html",
+      "kind": "collection",
+      "summary": "通年。クロード・モネ《睡蓮》、ジェームズ・タレル、ウォルター・デ・マリアの常設作品",
+      "recommend": "安藤忠雄設計の地下空間に、モネの大型《睡蓮》とタレルの光のインスタレーションが恒久設置される。自然光のなかで作品が変化する体験は唯一無二。オンライン事前予約推奨（平日2,500円・土日祝2,700円）。",
+      "admission": "オンライン購入 平日2,500円・土日祝2,700円",
+      "adult_price": 2500
+    },
+    {
+      "title": "ベネッセハウス ミュージアム 常設コレクション",
+      "start": "1992-11-03",
+      "end": "2027-10-10",
+      "url": "https://benesse-artsite.jp/art/benessehouse-museum.html",
+      "kind": "collection",
+      "summary": "通年。草間彌生・杉本博司ら国際的なアーティストの常設作品。8:00〜21:00開館",
+      "recommend": null,
+      "admission": "オンライン購入 1,300円",
+      "adult_price": 1300
+    },
+    {
+      "title": "李禹煥美術館 常設展示",
+      "start": "2010-06-29",
+      "end": "2027-10-10",
+      "url": "https://benesse-artsite.jp/art/lee-ufan.html",
+      "kind": "collection",
+      "summary": "通年。安藤忠雄設計の美術館に李禹煥の絵画・彫刻を常設展示",
+      "recommend": null,
+      "admission": "オンライン購入 1,200円",
+      "adult_price": 1200
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "高松",
+      "lines": "JR予讃線・高松琴平電気鉄道",
+      "exit": null,
+      "walk_min": 5,
+      "note": "高松駅から徒歩約5分の高松港よりフェリー（約60分・680円）または高速船（約50分・1,590円）で宮浦港へ"
+    },
+    {
+      "station": "宇野",
+      "lines": "JR宇野線",
+      "exit": null,
+      "walk_min": 3,
+      "note": "宇野駅から徒歩約3分の宇野港よりフェリー約20分（370円）で宮浦港へ"
+    }
+  ],
+  "highlights": "瀬戸内の直島を核に豊島・犬島にも広がる現代アートの聖地。安藤忠雄設計の地中美術館にはモネ・タレル・デ・マリアの常設作品が、ベネッセハウス ミュージアムには24時間宿泊できるアートホテルが。島の集落には家プロジェクトが点在し、島ごと美術館として体験できる。",
+  "closed_between_exhibitions": false,
+  "notes": "施設ごとに開館時間・料金・休館日が異なる。地中美術館10:00〜17:00（最終入館16:00）・月曜休（祝日の場合翌日休）・平日2,500円/土日祝2,700円。ベネッセハウス ミュージアム8:00〜21:00・年中無休・1,300円。李禹煥美術館10:00〜17:00（最終入館16:30）・月曜休・1,200円。2027年1月12日〜3月頃に定期メンテナンス休館（施設により期間が異なり、地中美術館は3/19まで最長）。瀬戸内資料館・犬島は12月〜2月冬季休館中。入場はオンライン事前予約が推奨。",
+  "confidence": "high"
+}

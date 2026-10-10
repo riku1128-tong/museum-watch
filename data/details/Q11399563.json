@@ -1,16 +1,18 @@
 {
   "id": "Q11399563",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T12:00:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "official_url": "https://www-sk.icrr.u-tokyo.ac.jp/",
   "address": "〒506-1205 岐阜県飛騨市神岡町東茂住456",
   "source_urls": [
     "https://www-sk.icrr.u-tokyo.ac.jp/",
+    "https://www-sk.icrr.u-tokyo.ac.jp/news/",
     "https://www-sk.icrr.u-tokyo.ac.jp/access/"
   ],
   "regular_hours": [],
   "closed_weekdays": [],
+  "closed_nth_weekdays": [],
   "holiday_rule": "unknown",
   "special_closures": [],
   "special_openings": [],
@@ -28,6 +30,6 @@
   ],
   "highlights": "地下1000m超に世界最大の水チェレンコフ宇宙線検出器「スーパーカミオカンデ」を擁する東京大学の研究施設。ニュートリノ研究でノーベル物理学賞を輩出した世界的拠点。年1回の一般公開（申込抽選制）で地下施設の見学が可能。",
   "closed_between_exhibitions": false,
-  "notes": "一般公開は年1回（夏・申込抽選制、参加費3,000円）のみ。スーパーカミオカンデ一般公開2026は2026年9月19日に実施済み。教育・研究関係の団体見学は6か月〜2か月前にメール申込（kouhou@km.icrr.u-tokyo.ac.jp）が必要。観光目的の見学は不可。実質的には一般公開の美術館・博物館ではなく研究施設であり、通常の開館時間・休館日は存在しない。",
+  "notes": "実質的には研究施設であり通常の開館日・開館時間は存在しない。一般公開は年1回（夏・申込抽選制、参加費3,000円）のみ。スーパーカミオカンデ一般公開2026は2026年9月19日に実施済み。次回2027年の日程は未発表。教育・研究関係の団体見学は6か月〜2か月前にメール申込（kouhou@km.icrr.u-tokyo.ac.jp）が必要。観光目的の見学不可。",
   "confidence": "low"
 }

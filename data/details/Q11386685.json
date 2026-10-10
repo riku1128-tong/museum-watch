@@ -1,0 +1,42 @@
+{
+  "id": "Q11386685",
+  "checked_at": "2026-10-10T10:13:09+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.touken-sato.com/",
+  "address": "〒710-1101 岡山県倉敷市茶屋町173",
+  "source_urls": [
+    "https://www.touken-sato.com/",
+    "https://www.okayama-kanko.jp/spot/10388"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "茶屋町",
+      "lines": "JR瀬戸大橋線",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    }
+  ],
+  "highlights": "日本刀の展示に特化した私立美術館。1年間有効のパスポート制（1,000円）で何度でも来館できる独自の入館方式が特徴。毎月テーマを変えた刀剣展覧会のほか、刀剣研究会・刀剣講座も定期開催し、刀剣ファンから入門者まで幅広く受け入れる。JR茶屋町駅から徒歩5分。",
+  "closed_between_exhibitions": false,
+  "notes": "1年間有効パスポート制（1,000円）。小学生以下は入館不可（刀剣展示多数のため）。月ごとにテーマを定めた展覧会を開催しているが、公式サイトで個別の展覧会タイトル・会期の確認はできなかった。",
+  "confidence": "medium"
+}

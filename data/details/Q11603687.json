@@ -1,6 +1,6 @@
 {
   "id": "Q11603687",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:13:09+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,51 +8,51 @@
   "address": "兵庫県丹波篠山市呉服町53",
   "source_urls": [
     "https://withsasayama.jp/history-museum/",
-    "https://withsasayama.jp/category/event/history-museum-event/",
-    "https://withsasayama.jp/2026calendar/"
+    "https://withsasayama.jp/r8_rekibitokuten/",
+    "https://withsasayama.jp/kyukan1027/"
   ],
   "regular_hours": [
     {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": [
-    "mon"
-  ],
+  "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {
-      "from": "2026-12-25",
-      "to": "2027-01-01",
-      "reason": "年末年始"
-    }
+    {"from": "2026-10-27", "to": "2026-10-27", "reason": "展示替えのため臨時休館"},
+    {"from": "2026-12-25", "to": "2027-01-01", "reason": "年末年始"}
   ],
   "special_openings": [],
-  "exhibitions": [],
-  "adult_price": 500,
+  "exhibitions": [
+    {
+      "title": "丹波篠山の古墳",
+      "start": "2026-10-28",
+      "end": "2027-01-17",
+      "url": "https://withsasayama.jp/r8_rekibitokuten/",
+      "kind": "special",
+      "summary": "市内古墳から出土した遺物を一堂に展示。大山出土遺物コレクション（市指定文化財）も公開",
+      "recommend": "1,000基以上の古墳が眠る丹波篠山の埋蔵文化財を一堂に紹介。普段は非公開の市指定文化財「大山出土遺物コレクション」を含む初の大規模展示で、富雄丸山古墳以降の古墳ブームを地元・篠山の視点で体感できる。",
+      "admission": "一般 700円",
+      "adult_price": 700
+    }
+  ],
+  "adult_price": 700,
   "free_days": [],
   "free_rules": [],
   "access": [
     {
       "station": "篠山口",
       "lines": "JR福知山線",
-      "note": "神姫バス篠山営業所行きで「春日神社前」下車、徒歩1分"
+      "exit": null,
+      "walk_min": null,
+      "note": "ウイング神姫篠山営業所行きバスで「春日神社前」下車徒歩1分"
     }
   ],
-  "highlights": null,
+  "highlights": "明治期の旧篠山裁判所を移築した国内最古級の木造裁判所建築を利用した歴史資料館。旧法廷では明治時代の裁判官衣装を着て写真撮影できる体験コーナーが人気。王地山焼の青磁・染付、市内古墳の出土品、江戸時代の武具や源氏物語絵巻など、篠山城下町の歴史と文化財を多角的に紹介する。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイトに現在の展覧会・特別展の記載は見つからなかった（令和8年度特別展の案内は閲覧制限あり）。入館料は2026年7月改定後の一般500円（高校生以下300円）。",
-  "confidence": "medium"
+  "notes": "入館料は2026年7月1日改定。大人（18歳以上）700円、高校生以下500円（特別展単券）。2館共通券800円、4館共通券1,000円。10/27は展示替えのため臨時休館。",
+  "confidence": "high"
 }

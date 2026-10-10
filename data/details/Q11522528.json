@@ -1,6 +1,6 @@
 {
   "id": "Q11522528",
-  "checked_at": "2026-10-02T08:30:15+09:00",
+  "checked_at": "2026-10-10T16:10:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -33,7 +33,19 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "李禹煥 恒久展示",
+      "start": "2010-06-18",
+      "end": "2027-10-10",
+      "url": "https://benesse-artsite.jp/art/lee-ufan.html",
+      "kind": "collection",
+      "summary": "通年。安藤忠雄設計の建築に「関係項」シリーズを中心とした絵画・彫刻を7つの空間で恒久展示",
+      "recommend": "柱・照応・出会い・小間・沈黙・影・瞑想の7空間に配された石・鉄板・カンバスが自然光と呼応する。作品と建築・自然の「関係」そのものを体験できる、もの派を代表する美術館。",
+      "admission": "一般 1,400円（窓口購入）/ 1,200円（オンライン購入）",
+      "adult_price": 1400
+    }
+  ],
   "adult_price": 1400,
   "free_days": [],
   "free_rules": [],

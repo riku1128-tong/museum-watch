@@ -1,0 +1,114 @@
+{
+  "id": "Q148543",
+  "checked_at": "2026-10-10T10:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kyuhaku.jp/",
+  "address": "〒818-0118 福岡県太宰府市石坂4丁目7番2号",
+  "source_urls": [
+    "https://www.kyuhaku.jp/",
+    "https://www.kyuhaku.jp/visit/visit_top.html",
+    "https://www.kyuhaku.jp/exhibition/exhibition_schedule.html",
+    "https://www.museum.or.jp/museum/8180"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    },
+    {
+      "days": ["sat"],
+      "open": "09:30",
+      "close": "19:00",
+      "last_entry": "18:30",
+      "from": "2026-10-31",
+      "to": "2027-01-11"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-24",
+      "to": "2026-12-31",
+      "reason": "年末休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "文化交流展示室（常設展）",
+      "start": "2000-01-01",
+      "end": "2027-10-10",
+      "url": "https://www.kyuhaku.jp/",
+      "kind": "collection",
+      "summary": "通年。アジア諸国との文化交流の歴史を中心に国宝・重要文化財を含む幅広いコレクションを展示",
+      "recommend": null,
+      "admission": "一般 700円",
+      "adult_price": 700
+    },
+    {
+      "title": "滋味延年 ―味わいの物語―",
+      "start": "2026-10-06",
+      "end": "2026-11-29",
+      "url": "https://www.kyuhaku.jp/exhibition/exhibition_schedule.html",
+      "kind": "collection",
+      "summary": "食と祈りをテーマに、食器・調度・信仰にまつわる品々で「味わい」の文化史を辿る特集展示",
+      "recommend": null,
+      "admission": "一般 700円（文化交流展観覧料）",
+      "adult_price": 700
+    },
+    {
+      "title": "きゅーはくの琉球コレクション",
+      "start": "2026-10-27",
+      "end": "2026-12-06",
+      "url": "https://www.kyuhaku.jp/exhibition/exhibition_schedule.html",
+      "kind": "collection",
+      "summary": "九州国立博物館が収蔵する琉球の工芸・染織・美術品を紹介する特集展示",
+      "recommend": null,
+      "admission": "一般 700円（文化交流展観覧料）",
+      "adult_price": 700
+    },
+    {
+      "title": "特別展「卑弥呼の鏡 ―三角縁神獣鏡がヤマト王権をつくった―」",
+      "start": "2026-10-31",
+      "end": "2027-01-11",
+      "url": "https://www.kyuhaku.jp/exhibition/exhibition_schedule.html",
+      "kind": "special",
+      "summary": "三角縁神獣鏡に迫り、ヤマト王権の成立とアジアとのつながりを探る特別展",
+      "recommend": "邪馬台国と卑弥呼の時代に製作された三角縁神獣鏡を通じて、ヤマト王権がいかにアジア諸国と交流し発展したかを探る内容。全国から集結する鏡の総覧は圧巻で、古代史ファン必見の展覧会。",
+      "admission": "一般 2,000円",
+      "adult_price": 2000
+    },
+    {
+      "title": "徳川美術館所蔵 国宝 初音の調度",
+      "start": "2027-01-01",
+      "end": "2027-01-31",
+      "url": "https://www.kyuhaku.jp/exhibition/exhibition_schedule.html",
+      "kind": "collection",
+      "summary": "徳川美術館所蔵の国宝「初音の調度」（尾張徳川家所蔵の婚礼調度）を特集展示",
+      "recommend": null,
+      "admission": "一般 700円（文化交流展観覧料）",
+      "adult_price": 700
+    }
+  ],
+  "adult_price": 700,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "太宰府",
+      "lines": "西鉄太宰府線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    }
+  ],
+  "highlights": "西日本唯一の国立博物館として2005年に開館。日本とアジア諸国との文化交流の歴史を軸に、4階文化交流展示室で国宝・重要文化財を含む幅広いコレクションを通年展示。菊竹清訓設計の躍動的な外観と太宰府天満宮に隣接するロケーションも見どころ。特別展は3階に別展示室を設け、大型連携展を多数開催する。",
+  "closed_between_exhibitions": false,
+  "notes": "特別展「卑弥呼の鏡」会期中（10/31〜1/11）の土曜のみ夜間開館（〜19:00、入館18:30）。文化交流展の年間スケジュールは動的カレンダーのため取得できず、観覧料ページで一般700円、大学生350円、高校生以下・18歳未満・70歳以上無料を確認。年末休館は12/24〜12/31（1/1再開）。",
+  "confidence": "high"
+}

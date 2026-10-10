@@ -1,0 +1,39 @@
+{
+  "id": "wp-04a0237f",
+  "checked_at": "2026-10-10T10:10:11+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.yuntanza-museum.jp",
+  "address": "〒904-0301 沖縄県中頭郡読谷村座喜味708-6",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/17787"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": ["wed"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "2018年に読谷村立美術館と読谷村立歴史民俗資料館が統合して開館した「世界遺産座喜味城跡ユンタンザミュージアム」。入館料：高校生以上500円・65歳以上400円・小中学生300円・6歳未満無料。那覇バスターミナルから28番または29番（読谷線バス）で約75分「座喜味」バス停下車徒歩15分。公式サイトはSSL証明書エラーで直接確認不可のため、情報はインターネットミュージアム（museum.or.jp）に基づく。TEL：098-958-2254。",
+  "confidence": "medium"
+}

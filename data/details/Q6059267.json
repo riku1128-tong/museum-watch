@@ -1,0 +1,72 @@
+{
+  "id": "Q6059267",
+  "checked_at": "2026-10-10T10:25:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://benesse-artsite.jp/art/seirensho.html",
+  "address": "〒704-8153 岡山県岡山市東区犬島327-4",
+  "source_urls": [
+    "https://benesse-artsite.jp/art/seirensho.html",
+    "https://benesse-artsite.jp/access/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:00",
+      "from": "2026-03-01",
+      "to": "2026-11-30"
+    }
+  ],
+  "closed_weekdays": [
+    "tue",
+    "wed",
+    "thu"
+  ],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-01",
+      "to": "2027-02-28",
+      "reason": "冬季休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "犬島精錬所美術館 常設展示（柳幸典）",
+      "start": "2026-03-01",
+      "end": "2026-11-30",
+      "url": "https://benesse-artsite.jp/art/seirensho.html",
+      "kind": "collection",
+      "summary": "通年（開館期間中）。柳幸典が建築家・三分一博志と協働し、銅製錬所跡の6つの空間で三島由紀夫をテーマとした現代美術作品を展開。",
+      "recommend": "工業遺産の煙突やカラミ煉瓦を活かした6つの空間に柳幸典が三島由紀夫の思想を問い直す作品を展開。太陽光・地中熱のみで運営する建築との一体感が印象的で、孤島の工場跡でしか体験できない唯一無二のアートを味わえる。",
+      "admission": "一般 2,300円（窓口購入。オンライン2,100円。犬島「家プロジェクト」・くらしの植物園共通券）",
+      "adult_price": 2300
+    }
+  ],
+  "adult_price": 2300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "岡山",
+      "lines": "JR各線",
+      "exit": null,
+      "walk_min": null,
+      "note": "岡山駅から両備バス「犬島アクセスバス」で宝伝港バス停下車（徒歩約5分で宝伝港）、フェリー（あけぼのマリタイム、所要約10分、大人400円）で犬島"
+    }
+  ],
+  "highlights": "岡山沖の小島・犬島にある銅製錬所跡を活用したアート施設。柳幸典が建築家・三分一博志と協働し、工業遺産の煙突やカラミ煉瓦を活かした6つの空間に三島由紀夫をテーマとした作品を展開。太陽光・地中熱のみで運営する環境配慮型の設計も注目で、犬島「家プロジェクト」と共通券で鑑賞できる。",
+  "closed_between_exhibitions": false,
+  "notes": "開館期間：3月1日〜11月30日。火・水・木曜休館（祝日は開館）。チケットは犬島精錬所美術館・犬島「家プロジェクト」・犬島 くらしの植物園の共通券。オンライン購入2,100円、窓口購入2,300円、15歳以下無料。団体割引・障害者手帳減免なし。ベネッセアートサイト直島の関連施設。",
+  "confidence": "high"
+}

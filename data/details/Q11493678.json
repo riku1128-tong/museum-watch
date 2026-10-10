@@ -1,0 +1,103 @@
+{
+  "id": "Q11493678",
+  "checked_at": "2026-10-10T09:51:58+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.ehime-art.jp/",
+  "address": "〒790-0007 愛媛県松山市堀之内",
+  "source_urls": [
+    "https://www.ehime-art.jp/",
+    "https://www.ehime-art.jp/guide",
+    "https://www.ehime-art.jp/guide#access",
+    "https://www.ehime-art.jp/exhibition/detail/617b685f-8908-41fe-8773-12abedcc050d",
+    "https://www.ehime-art.jp/exhibition/detail/18d5fd08-fde1-4d90-a15d-976b2784434e",
+    "https://www.ehime-art.jp/exhibition/detail/623cf861-b38e-4846-8e95-f38b9cd819ef",
+    "https://www.ehime-art.jp/exhibition/detail/46e46092-cf0a-465f-a6e7-2ef584e65fe5"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:40",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    },
+    {
+      "from": "2027-01-13",
+      "to": "2027-01-29",
+      "reason": "本館・西館オープンスペースおよびサイン等改修工事に伴う休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "ジミー大西「ホームタウン」",
+      "start": "2026-10-03",
+      "end": "2026-11-08",
+      "url": "https://www.ehime-art.jp/exhibition/detail/617b685f-8908-41fe-8773-12abedcc050d",
+      "kind": "special",
+      "summary": "画家・ジミー大西の創作に影響を与えた「場所」に焦点をあてた大規模原画展",
+      "recommend": "故郷から世界の風景まで、独特の色彩と形でとらえたジミー大西の原画を大規模に紹介。創作の源となった「場所」への思いを直接感じられ、作品が生まれた背景をたどる貴重な内容。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "コレクション展Ⅲ「コレクション・ハイライト」",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": "https://www.ehime-art.jp/exhibition/detail/18d5fd08-fde1-4d90-a15d-976b2784434e",
+      "kind": "collection",
+      "summary": "郷土作家や海外作品などの名品を紹介。特集作家は新居浜市出身のイラストレーター・真鍋博",
+      "recommend": "愛媛ゆかりの作家から海外作品まで館自慢の名品を一堂に。真鍋博の装丁コレクションと愛媛県民文化会館の緞帳原画という特別テーマも見どころで、じっくり「みる冒険」ができる展示。",
+      "admission": "一般 340円",
+      "adult_price": 340
+    },
+    {
+      "title": "コレクション展Ⅲ「絵画から大衆メディアへ　柳瀬正夢と真鍋博の挑戦」",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": "https://www.ehime-art.jp/exhibition/detail/623cf861-b38e-4846-8e95-f38b9cd819ef",
+      "kind": "collection",
+      "summary": "油彩から漫画・イラストへ表現を広げた柳瀬正夢と真鍋博、2人の共通点と対照的な歩みを紹介",
+      "recommend": "油彩から出発して社会と向き合いながら漫画やイラストへ転じた愛媛出身の2作家。それぞれの選択が生み出した個性的な表現を比べながら楽しめる、コレクションならではの深掘り展示。",
+      "admission": "一般 340円",
+      "adult_price": 340
+    },
+    {
+      "title": "Mozuミニチュア展2",
+      "start": "2026-11-21",
+      "end": "2027-01-11",
+      "url": "https://www.ehime-art.jp/exhibition/detail/46e46092-cf0a-465f-a6e7-2ef584e65fe5",
+      "kind": "special",
+      "summary": "コマ撮りアニメ・ミニチュア・トリックラクガキで活躍するマルチアーティストMozuの新作を紹介",
+      "recommend": "「ちいさなせかい」に引き込まれる驚きと細部への感嘆が魅力のMozuによる新作展。緻密に作り込まれたミニチュアをのぞき込む体験は子どもから大人まで楽しめる。",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 340,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "南堀端",
+      "lines": "伊予鉄道市内電車",
+      "exit": null,
+      "walk_min": 3,
+      "note": "停留所名は「南堀端（愛媛県美術館前）」。JR松山駅前から市内電車で7分"
+    }
+  ],
+  "highlights": "愛媛の代表的な洋画家・柳瀬正夢や真鍋博のコレクションをはじめ、郷土作家から海外作品まで幅広く収蔵する県立美術館。松山城山公園内に位置し、鑑賞者自身が考えながら楽しめるキャプションや文化観光プログラムを展開。ジミー大西など話題の共催展も積極的に開催する。",
+  "closed_between_exhibitions": false,
+  "notes": "毎月第1月曜日は開館し、翌火曜日が休館となる（通常の月曜定休と異なる）。ジミー大西展の入館料は個別ページに未記載のため null とした。2027/1/13〜1/29は本館・西館改修工事による休館（公式お知らせより）。",
+  "confidence": "medium"
+}

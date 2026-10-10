@@ -1,0 +1,54 @@
+{
+  "id": "Q11619959",
+  "checked_at": "2026-10-10T15:57:58+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://suohart.com/",
+  "address": "〒770-0855 徳島県徳島市新蔵町1-46",
+  "source_urls": [
+    "https://suohart.com/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["sat"],
+      "open": "10:00",
+      "close": "15:00"
+    }
+  ],
+  "closed_weekdays": ["mon", "tue", "wed", "thu", "fri", "sun"],
+  "closed_nth_weekdays": [
+    {"weekday": "sat", "nth": [1, 3, 4, 5]}
+  ],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "貫名菘翁 書画展示",
+      "start": "2026-01-01",
+      "end": "2027-10-10",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。幕末の三筆・貫名菘翁の書画を常時約40点展示（随時展示替え）",
+      "recommend": null,
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "徳島",
+      "lines": "JR徳島線・鳴門線・高徳線・牟岐線",
+      "walk_min": 10,
+      "note": "バス利用の場合：徳島バス・徳島市営バス・小松島市営バス「新蔵町」下車 徒歩1分"
+    }
+  ],
+  "highlights": "幕末の三筆として知られる貫名菘翁（1778〜1863）の書画を専門に展示する小さな美術館。毎月第2土曜日のみ開館するという独特のスタイルで、約40点の作品を随時展示替えしながら公開する。徳島駅から徒歩10分という好立地にある。",
+  "closed_between_exhibitions": false,
+  "notes": "開館は毎月第2土曜日のみ（10:00〜15:00）。電話 088-653-2858。holiday_ruleは不明（年に1度程度しか開館しないため実運用上の影響は少ない）。常設展のみで個別の企画展情報は公式サイトに掲載なし。",
+  "confidence": "medium"
+}

@@ -1,7 +1,7 @@
 {
   "id": "Q11529256",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T09:51:41+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.kintetsu-g-hd.co.jp/culture/shohaku/",
@@ -10,7 +10,6 @@
     "https://www.kintetsu-g-hd.co.jp/culture/shohaku/",
     "https://www.kintetsu-g-hd.co.jp/culture/shohaku/exhibition/uemura-shoko-25th-memorial/",
     "https://www.kintetsu-g-hd.co.jp/culture/shohaku/about/about.html",
-    "https://www.kintetsu-g-hd.co.jp/culture/shohaku/introduce/exhibition_hall.html",
     "https://www.kintetsu-g-hd.co.jp/culture/shohaku/access/access.html"
   ],
   "regular_hours": [
@@ -35,11 +34,6 @@
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {
-      "from": "2026-10-06",
-      "to": "2026-10-06",
-      "reason": "一部展示替えのため休館"
-    },
     {
       "from": "2026-11-17",
       "to": "2026-11-17",
@@ -74,6 +68,6 @@
   ],
   "highlights": "上村松園・松篁・淳之の三代にわたる日本画と、草稿・写生などの資料を収集・展示する美術館。旧近鉄会長邸の庭に立つ百数十本の松と茶室「伯泉亭」ゆかりの敷地に、1994年に開館した。",
   "closed_between_exhibitions": false,
-  "notes": "年末年始の休館日は公式に日付の記載なし。特別展・企画展は別料金の場合あり（展覧会期間中の入館料は820円と記載）。",
+  "notes": "年末年始の休館日は公式に日付の記載なし。展示替え期間中も休館。特別展・企画展は別料金の場合あり（上村松篁展期間中の入館料は820円）。",
   "confidence": "high"
 }

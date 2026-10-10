@@ -1,6 +1,6 @@
 {
   "id": "wp-3ccaf109",
-  "checked_at": "2026-10-02T08:30:15+09:00",
+  "checked_at": "2026-10-10T09:51:44+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -30,13 +30,58 @@
   "holiday_rule": "unknown",
   "special_closures": [],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "線のアンソロジー　前期：線にみなぎる力",
+      "start": "2026-08-26",
+      "end": "2026-10-12",
+      "url": "https://www.city.moka.lg.jp/event_bunka_sports/rekishi_bunka/bunka_geijutsu/1/19900.html",
+      "kind": "special",
+      "summary": "精密な線と力強い筆致を駆使した版画・素描・絵画を集めた企画展前期",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "線のアンソロジー　後期：驚くべき細密表現",
+      "start": "2026-10-15",
+      "end": "2026-11-29",
+      "url": "https://www.city.moka.lg.jp/event_bunka_sports/rekishi_bunka/bunka_geijutsu/1/19900.html",
+      "kind": "special",
+      "summary": "繊細な細密表現による版画・素描・絵画を集めた企画展後期",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "靉嘔でつながる展　前期",
+      "start": "2026-12-02",
+      "end": "2027-01-24",
+      "url": null,
+      "kind": "special",
+      "summary": "虹色のスペクトラムで知られる前衛芸術家・靉嘔に関連する展覧会前期",
+      "recommend": null,
+      "admission": null,
+      "adult_price": 0
+    },
+    {
+      "title": "まちかど美術館市民ギャラリー　Beyond bloodlines―令和8年荒神祭写真展",
+      "start": "2026-12-12",
+      "end": "2026-12-27",
+      "url": "https://www.city.moka.lg.jp/event_bunka_sports/rekishi_bunka/bunka_geijutsu/1/24312.html",
+      "kind": "special",
+      "summary": "令和8年荒神祭を記録した写真展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": 0
+    }
+  ],
   "adult_price": 0,
   "free_days": [],
   "free_rules": [],
   "access": [],
   "highlights": "真岡市が認定した市内数か所の小さな私設ギャラリーをめぐる企画。各会場とも土曜のみ開館し、地元の作家や愛好家の作品を無料で見ることができる、まちなか散策と組み合わせやすい美術館群。",
   "closed_between_exhibitions": false,
-  "notes": "「真岡市まちかど美術館」は真岡市が認定した複数の小規模ギャラリー（趣味の美術館：土曜12:00-16:00、渡辺私塾美術館：土曜13:00-16:00・毎月末土曜休館 など）の総称で、単一の施設・住所・アクセス情報を持たない。開館は各会場とも土曜のみで、観覧料はいずれも無料。祝日の扱い・臨時休館の有無は会場ごとに異なり公式サイトに一覧記載が無いため unknown。常設企画展「線のアンソロジー」等の会期は公式サイト上に具体的な日付の記載が確認できず、展覧会情報は掲載を見送った。年間スケジュールは「令和8年度 真岡市まちかど美術館年間スケジュール」として公式サイトに掲載されているが、詳細ページの本文取得ができなかった。",
+  "notes": "「真岡市まちかど美術館」は真岡市が認定した複数の小規模ギャラリー（趣味の美術館：土曜12:00-16:00、渡辺私塾美術館：土曜13:00-16:00・毎月末土曜休館 など）の総称で、単一の施設・住所・アクセス情報を持たない。開館は各会場とも土曜のみで、観覧料はいずれも無料。祝日の扱い・臨時休館の有無は会場ごとに異なり公式サイトに一覧記載が無いため unknown。常設企画展（「線のアンソロジー」等）は公式の展示ページに開館時間9:00-17:00（最終入館16:30）と記載があり、上記の私設ギャラリー（土曜12:00-16:00）とは異なる会場で開催されていると考えられる。この会場の開館日・定休日の詳細は不明。「靉嘔でつながる展前期」の詳細ページは未確認のため admission は未設定だが、まちかど美術館の一般ポリシー（無料）に基づきadult_price: 0 とした。",
   "confidence": "medium"
 }

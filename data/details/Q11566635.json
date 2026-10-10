@@ -1,7 +1,7 @@
 {
   "id": "Q11566635",
-  "checked_at": "2026-10-02T08:50:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:00:59+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.seto-cul.jp/seto-museum/",
@@ -50,7 +50,7 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "長江錄彌生誕100年記念特別企画展「父子二代に連なる創作の世界」",
+      "title": "長江錄彌生誕100年記念「長江錄彌・長江眞弥展」",
       "start": "2026-10-03",
       "end": "2026-12-20",
       "url": "https://www.seto-cul.jp/culture-center/event.html",

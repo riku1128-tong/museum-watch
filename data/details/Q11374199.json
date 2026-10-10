@@ -1,7 +1,7 @@
 {
   "id": "Q11374199",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T09:51:29+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.kyocera.co.jp/company/csr/facility/gallery/",
@@ -84,8 +84,8 @@
   "exhibitions": [
     {
       "title": "常設展示（ピカソ銅版画347シリーズ、現代日本画ほか）",
-      "start": "2026-10-02",
-      "end": "2027-10-02",
+      "start": "2026-10-10",
+      "end": "2027-10-10",
       "url": "https://www.kyocera.co.jp/company/csr/facility/gallery/",
       "kind": "collection",
       "summary": "通年。ピカソ銅版画347シリーズ・現代日本画・洋画・彫刻・乾隆ガラスなど収蔵品の一部",
@@ -105,7 +105,8 @@
       "adult_price": 0,
       "closed_weekdays": [
         "sun"
-      ]
+      ],
+      "closed_dates": ["2026-11-23"]
     }
   ],
   "adult_price": 0,

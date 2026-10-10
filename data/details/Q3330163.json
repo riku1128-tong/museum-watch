@@ -1,0 +1,103 @@
+{
+  "id": "Q3330163",
+  "checked_at": "2026-10-10T09:59:39+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://faam.city.fukuoka.lg.jp/",
+  "address": "〒812-0027 福岡市博多区下川端町3-1 リバレインセンタービル7・8階",
+  "source_urls": [
+    "https://faam.city.fukuoka.lg.jp/",
+    "https://faam.city.fukuoka.lg.jp/guidance/access/",
+    "https://faam.city.fukuoka.lg.jp/exhibition/26076/",
+    "https://faam.city.fukuoka.lg.jp/exhibition/schedule/",
+    "https://faam.city.fukuoka.lg.jp/exhibition/27374/",
+    "https://faam.city.fukuoka.lg.jp/exhibition/27361/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "thu",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "18:00",
+      "last_entry": "17:30"
+    },
+    {
+      "days": [
+        "fri",
+        "sat"
+      ],
+      "open": "09:30",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
+  ],
+  "closed_weekdays": [
+    "wed"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-26",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "アジア美術の歩き方　南アジア特別編　対立の先へ―光の水脈をめぐる旅",
+      "start": "2026-09-19",
+      "end": "2027-01-11",
+      "url": "https://faam.city.fukuoka.lg.jp/exhibition/26076/",
+      "kind": "special",
+      "summary": "南アジア各地の現代美術を通じて、宗教や民族の対立を超えた深層のつながりを探る企画展",
+      "recommend": "ヒマラヤを源とする大河とインド洋に開かれた南アジアを題材に、国・宗教・歴史的対立の奥を流れる見えない水脈を現代アーティストの作品で探る。多彩な表現と問いかけが重なる見応えある展覧会。",
+      "admission": "一般1,000円（第2部アジアギャラリーのみ200円）",
+      "adult_price": 1000
+    },
+    {
+      "title": "GREEN MEMORY WITH MY PINK WOOBIE 41　朴美妍 個展",
+      "start": "2026-10-08",
+      "end": "2026-10-13",
+      "url": "https://faam.city.fukuoka.lg.jp/exhibition/27374/",
+      "kind": "special",
+      "summary": "マフラーを巻いた熊のぬいぐるみと飛行機を通して、平和と戦争の相反する概念を描く韓国人作家の個展",
+      "recommend": "親しみやすい玩具のモチーフに平和と戦争の二重の意味を込め、休戦国家・韓国の文脈から静かに現代社会へ問いを投げかける。色彩豊かな画面が記憶と時代の声を運ぶ。",
+      "admission": "入場無料",
+      "adult_price": 0
+    },
+    {
+      "title": "ＡＰＡ九州支部作品展「想」",
+      "start": "2026-10-15",
+      "end": "2026-10-20",
+      "url": "https://faam.city.fukuoka.lg.jp/exhibition/27361/",
+      "kind": "other",
+      "summary": "日本広告写真家協会（APA）九州支部のプロ広告写真家による会員作品展",
+      "recommend": null,
+      "admission": "入場無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 200,
+  "closed_between_exhibitions": false,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "中洲川端",
+      "lines": "福岡市地下鉄空港線・箱崎線",
+      "exit": "6番出口",
+      "walk_min": 1,
+      "note": "リバレインセンタービル7・8階。6番出口と直結"
+    }
+  ],
+  "highlights": "福岡市・博多川端地区のリバレインセンタービルに位置する、アジア現代美術を専門とする日本唯一の美術館。インド・東南アジア・東アジアなど各地の現代アーティストの作品約3000点を収蔵し、地域との交流の場となる交流ギャラリー（8F）も備える。地下鉄直結でアクセスも抜群。",
+  "notes": "開館時間はギャラリー観覧時間9:30〜18:00（金・土は20:00まで）、入室は閉室30分前まで。建物全体の開館は19:30まで（金・土は20:00）。水曜休館（水曜が祝日の場合は翌平日休館）。adult_price 200円はアジアギャラリー（常設）のみ観覧の場合。",
+  "confidence": "high"
+}

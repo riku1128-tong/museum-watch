@@ -1,0 +1,58 @@
+{
+  "id": "Q11377193",
+  "checked_at": "2026-10-10T09:58:06+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.imabari.ehime.jp/museum/omishima/",
+  "address": "〒794-1304 愛媛県今治市大三島町宮浦9099-1",
+  "source_urls": [
+    "https://www.city.imabari.ehime.jp/museum/omishima/",
+    "https://www.city.imabari.ehime.jp/museum/omishima/event/event.html?p=2055",
+    "https://www.city.imabari.ehime.jp/museum/omishima/access/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-27",
+      "to": "2026-12-31",
+      "reason": "年末休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "令和8年度今治市大三島美術館40周年記念企画展「現代日本画展　作家と大三島美術館」",
+      "start": "2026-10-03",
+      "end": "2026-11-29",
+      "url": "https://www.city.imabari.ehime.jp/museum/omishima/event/event.html?p=2055",
+      "kind": "special",
+      "summary": "開館40周年を記念し、第一線の日本画家が20〜40代に描いた作品と近年の作品を展示。開館時に色紙を寄贈した13名の作品も紹介。",
+      "recommend": "開館40周年記念として、現代を代表する日本画家たちの若き時代と近年の作品を一堂に見られる貴重な機会。開館に縁ある13名の色紙も展示され、美術館の歴史とともに画家の変遷をたどれる。",
+      "admission": "一般 520円",
+      "adult_price": 520
+    }
+  ],
+  "adult_price": 520,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "今治",
+      "lines": "JR予讃線",
+      "note": "今治駅前からバス（しまなみライナーなど特急・急行）で「大山祇神社前」下車すぐ、約60分。車は瀬戸内しまなみ海道「大三島IC」から約15分。"
+    }
+  ],
+  "highlights": "大山祇神社のほど近く、しまなみ海道の大三島に立地する現代日本画専門の美術館。1986年の開館以来40年にわたり、第一線の日本画家の作品を収集・展示してきた。島の豊かな自然と歴史的環境の中で、畠中光享ら作家の多彩な作品を鑑賞できる。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日の場合は原則翌日振替）。年末休館は12/27〜12/31（12/27が土曜になる年は確認要）。",
+  "confidence": "high"
+}

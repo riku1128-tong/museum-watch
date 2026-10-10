@@ -1,6 +1,6 @@
 {
   "id": "Q11535060",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T10:16:05+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,7 +10,7 @@
     "http://www.kakimori.jp/info/",
     "https://jarsa.jp/museum/m3858/",
     "https://itami-im.jp/exhibitions/",
-    "https://itami-im.jp/exhibitions/kakimoribunko-meihinn/"
+    "https://itami-im.jp/exhibitions/%e9%85%92%e3%81%ab%e3%81%ae%e3%81%be%e3%82%8c%e5%b1%95/"
   ],
   "regular_hours": [
     {
@@ -41,7 +41,19 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "酒にのまれ展",
+      "start": "2026-10-16",
+      "end": "2026-12-13",
+      "url": "https://itami-im.jp/exhibitions/%e9%85%92%e3%81%ab%e3%81%ae%e3%81%be%e3%82%8c%e5%b1%95/",
+      "kind": "special",
+      "summary": "日本固有の酒文化を俳諧・美術・歴史の視点から約150点の作品・資料で紹介する特別展",
+      "recommend": "酒と俳諧という日本文化の核心を結びつけた異色の展覧会。柿衞文庫が誇る俳諧資料と美術作品を通じて、江戸の文人たちが酒をどう詠み、描いたかを多角的に楽しめる。",
+      "admission": "一般1,000円（団体900円）",
+      "adult_price": 1000
+    }
+  ],
   "adult_price": null,
   "free_days": [],
   "free_rules": [],

@@ -1,15 +1,15 @@
 {
   "id": "Q11468661",
-  "checked_at": "2026-10-02T09:00:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-10T10:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.yamagata-art-museum.or.jp/",
   "address": "〒990-0047 山形県山形市大手町1-63",
   "source_urls": [
     "http://www.yamagata-art-museum.or.jp/",
-    "http://www.yamagata-art-museum.or.jp/?yr=2026&month=9",
-    "http://www.yamagata-art-museum.or.jp/?yr=2026&month=10"
+    "http://www.yamagata-art-museum.or.jp/exhibition",
+    "http://www.yamagata-art-museum.or.jp/collection"
   ],
   "regular_hours": [
     {
@@ -47,31 +47,35 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "収蔵品展「吉野石膏コレクション・服部コレクション・山形の美術─東西にまたがる美の世界」",
-      "start": "2026-09-19",
-      "end": "2026-11-01",
-      "url": null,
+      "title": "吉野石膏コレクション・服部コレクション・山形の美術 ─東西にまたがる美の世界",
+      "start": "2026-04-03",
+      "end": "2027-03-22",
+      "url": "http://www.yamagata-art-museum.or.jp/exhibition/6356.html",
       "kind": "collection",
       "summary": "吉野石膏コレクション（モネ・ルノワールら印象派）、服部コレクション（現代美術）、山形ゆかりの美術を一堂に紹介",
+      "recommend": null,
       "admission": "一般 800円"
     },
     {
-      "title": "収蔵品展「長谷川コレクション─東洋日本の美術をたのしもう」",
-      "start": "2026-09-19",
-      "end": "2026-11-01",
-      "url": null,
+      "title": "長谷川コレクション ─東洋日本の美術をたのしもう",
+      "start": "2026-04-03",
+      "end": "2027-03-22",
+      "url": "http://www.yamagata-art-museum.or.jp/exhibition/6358.html",
       "kind": "collection",
-      "summary": "中国・日本の書画・工芸を中心とした東洋美術コレクション",
+      "summary": "与謝蕪村「奥の細道図屏風」（重文）などを含む江戸期の狩野派・文人画・円山四条派を系統的に紹介する東洋美術コレクション",
+      "recommend": null,
       "admission": "一般 800円"
     },
     {
-      "title": "企画展「第51回山形県総合書道展」",
-      "start": "2026-09-19",
-      "end": "2026-10-04",
-      "url": null,
-      "kind": "other",
-      "summary": "山形県内の書道団体による総合書道展",
-      "admission": "一般 800円"
+      "title": "国画会100周年記念展",
+      "start": "2026-12-11",
+      "end": "2026-12-27",
+      "url": "http://www.yamagata-art-museum.or.jp/exhibition/6348.html",
+      "kind": "special",
+      "summary": "国展100回を機に日本画・洋画・版画・彫刻・工芸5部門の作家の作品と山形ゆかりの作品を展示",
+      "recommend": "1918年に小野竹喬・土田麦僊らが創設した国画会が100周年を迎え、5部門の作品を山形ゆかりの作品とともに紹介。国展の歴史とこれからを展望する機会となる記念的な展覧会。",
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 800,
@@ -84,8 +88,8 @@
       "note": "徒歩約15分またはバス利用"
     }
   ],
-  "highlights": "実業家・吉野竹次郎が設立し、吉野石膏（株）が寄贈したモネ・ルノワールなど印象派の名作を核に、服部コレクション（現代美術）、長谷川コレクション（東洋美術）を擁する山形市の総合美術館。",
+  "highlights": "ミレー・モネ・マティス・ピカソなどフランス近代・20世紀絵画を網羅する服部コレクションと、重要文化財・与謝蕪村「奥の細道図屏風」を擁する長谷川コレクション（東洋美術）が核。山形市出身の彫刻家・新海竹太郎の作品も収蔵する東西の美を幅広く紹介する総合美術館。",
   "closed_between_exhibitions": false,
-  "notes": "開館時間・休館日・年末年始はサイトのinfo欄から確認。月曜休館（祝日なら開館、翌平日休館）はカレンダーで確認済み。9/15〜18の展示替え休館・10/5〜6の展示替え休館はカレンダーで確認。10/7以降は展示施設貸与事業（山形市芸文協総合展覧会・平和祈念展in山形など）のため展覧会情報不掲載。テーマ展一般料金800円をadult_priceに設定（展覧会によって変わる場合あり）。住所は990-0047（山形市大手町）で確認。【2026-09-30 light確認】サイトのトピックスに「午後3時閉館と喫茶室のお休みについて(10/4)」との告知あり（10/4のみ早閉館、理由不明）。それ以外の展示・開館情報に変化なし。",
-  "confidence": "medium"
+  "notes": "開館時間・休館日は公式サイトで確認。月曜休館（祝日なら開館、翌平日休館）。2026-10-05〜10-06は展示替え休館。吉野石膏コレクション・長谷川コレクション展の会期は2026-04-03〜2027-03-22（公式展覧会一覧より）。国画会100周年記念展（2026-12-11〜12-27）を追加。第51回山形県総合書道展（終了10/4）を削除。10月は施設貸与事業（書道展・平和祈念展等）が並行開催。テーマ展一般800円。",
+  "confidence": "high"
 }

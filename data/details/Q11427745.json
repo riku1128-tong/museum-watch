@@ -1,7 +1,7 @@
 {
   "id": "Q11427745",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:13:43+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.horimuseum.jp",
@@ -27,7 +27,7 @@
   "closed_weekdays": [
     "mon"
   ],
-  "holiday_rule": "closed",
+  "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
       "from": "2026-10-13",
@@ -58,12 +58,12 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "医と120年 小紅葉子展-白衣の道と実践の変遷",
+      "title": "生誕120年 三岸節子展",
       "start": "2026-05-29",
       "end": "2027-01-17",
       "url": "https://www.horimuseum.jp",
       "kind": "special",
-      "summary": "小紅葉子による、医療と白衣の道・実践の変遷をたどる展覧会",
+      "summary": "洋画家・三岸節子（1905-1999）の生誕120周年を記念する回顧展",
       "recommend": null,
       "admission": "一般 1,000円",
       "adult_price": 1000
@@ -83,6 +83,6 @@
   ],
   "highlights": "ハイテックグループ創業者・堀榮次の美術コレクションを公開するため2006年に開館。日本画、洋画、書、彫刻など幅広い作品を収蔵・展示する、名古屋市東区の私設美術館。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は月曜・祝日の翌日・月末日（祝日・年末年始も休館とされるが、年末年始の日付は未掲載）。祝日の開館扱いは公式の記載があいまいなため休館と解釈。15名以上の団体は事前申込で祝日も開館可。展覧会の紹介文は未確認。",
+  "notes": "休館日は月曜・祝日の翌日・月末日。11/3（月・祝）にギャラリートーク開催予定の記載があり、月曜祝日は開館し翌日（火）休館のパターンを確認。holiday_rule: open_next_weekday_closed に修正。公式サイトがShift-JIS文字化けのため展覧会の紹介文は読めず。15名以上の団体は事前申込で休館日も開館可。",
   "confidence": "medium"
 }

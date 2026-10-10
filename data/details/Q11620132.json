@@ -1,0 +1,68 @@
+{
+  "id": "Q11620132",
+  "checked_at": "2026-10-10T10:12:35+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.hanatori-museum.jp/",
+  "address": "〒715-0024 岡山県井原市高屋町3丁目11番地の5",
+  "source_urls": [
+    "https://www.hanatori-museum.jp/",
+    "https://www.hanatori-museum.jp/guide/",
+    "https://www.hanatori-museum.jp/guide/access.html",
+    "https://www.hanatori-museum.jp/collection/",
+    "https://www.hanatori-museum.jp/exhibition/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-11-16",
+      "to": "2026-11-20",
+      "reason": "展示替え（煌めく個性の華々 前期→後期）"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "煌めく個性の華々 岡山の近現代日本画展",
+      "start": "2026-10-03",
+      "end": "2027-01-11",
+      "url": "https://www.hanatori-museum.jp/exhibition/",
+      "kind": "special",
+      "summary": "小野竹喬・池田遙邨ら岡山出身・来岡の画家約100点。前期（10/3〜11/15）・後期（11/21〜1/11）で全作品入替え",
+      "recommend": "小野竹喬や池田遙邨など岡山ゆかりの日本画家約100点を時代の流れで見渡す特別展。昭和100年・戦後80年の節目に近現代日本画の個性と変遷を一望でき、前期・後期で全作品を入れ替える贅沢な構成。",
+      "admission": "一般900円（団体800円）",
+      "adult_price": 900
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "子守唄の里・高屋",
+      "lines": "井原鉄道",
+      "exit": null,
+      "walk_min": 1,
+      "note": "JR福塩線「神辺駅」または伯備線「清音駅」で井原鉄道に乗り換え"
+    }
+  ],
+  "highlights": "タカヤグループ財団が設立した岡山県井原市の美術館。広島・岡山に縁ある日本画家・金島桂華の作品約600点を中心に収蔵し、竹内栖鳳・橋本関雪・横山大観ら近代日本画の大家の作品も並ぶ。花鳥画を軸に明治から昭和の日本画を堪能できる。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜（祝日・振替休日の場合は翌平日）休館。年末年始12/28〜1/4休館。「展示替えのための臨時休館あり」と記載あり。特別展の前期（10/3〜11/15）・後期（11/21〜1/11）の間（11/16〜11/20）は展示替え休館と判断。毎週土曜日は高校生以下無料（大人一般は有料のため free_days には入れず）。",
+  "confidence": "high"
+}

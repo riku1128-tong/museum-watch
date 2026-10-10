@@ -1,6 +1,6 @@
 {
   "id": "Q11404777",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T12:00:00+09:00",
   "check_mode": "full",
   "operating_status": "unknown",
   "status_note": null,
@@ -20,6 +20,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "2026年9月再調査。公式URL（https://www.city.tsuyama.lg.jp/culture/index.cgi?id=21）はコンテンツ不達（CGI応答なし）。津山市公式サイト・岡山県博物館協議会・美作エリア加盟館一覧にも「美作東部博物館」の記載なし。Webサービス検索でも確認できず。廃館または別名への移行の可能性あり。津山市文化振興課（0868-32-2121）に要確認。 2026-10-02 再挑戦: 公式URLはSPAの空シェル（津山市公式サイト トップ相当）で本文なし。WebSearch 2種でも「美作東部博物館」は見つからず（近隣は津山郷土博物館・つやま自然のふしぎ館のみ）。実在・営業状況は未確認。",
+  "notes": "2026年10月再調査（再挑戦モード）。複数の検索・WebFetchで調査した結果：(1) 公式URL https://www.city.tsuyama.lg.jp/culture/index.cgi?id=21 はコンテンツ不達（タイトルのみ）。(2) Wikidata Q11404777 は「十三詣り（じゅうさんまいり）」という行事に対応しており、博物館エントリではない。museums.json に登録されたWikidataIDが誤っている可能性が高い。(3) Wikipedia に「美作東部博物館」の記事なし（404）。(4) WebSearchでも当館の情報は一切見つからず、岡山県博物館協議会サイト（okayama-museum.jp）はドメイン不存在。(5) 津山市の観光情報・博物館一覧・文化施設一覧に記載なし。津山市内では津山郷土博物館・つやま自然のふしぎ館・津山まなびの鉄道館・津山洋学資料館が確認できる施設。廃館の可能性が高いが公式な閉館発表を確認できないため permanently_closed には設定せず。自治体への電話確認（津山市文化振興課 0868-32-2121）を推奨。",
   "confidence": "low"
 }

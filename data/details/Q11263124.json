@@ -1,7 +1,7 @@
 {
   "id": "Q11263124",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T09:51:50+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://kobe-ijinkan.net/uroko/",
@@ -34,7 +34,7 @@
     {
       "title": "うろこ美術館 常設展示（西洋絵画コレクション）",
       "start": "2026-10-02",
-      "end": "2027-10-02",
+      "end": "2027-10-10",
       "url": "https://www.kobeijinkan.com/ijinkan_list/uroko",
       "kind": "collection",
       "summary": "通年。トロワイヨン、マチス、ユトリロ、ビュッフェなど近・現代ヨーロッパ絵画を常設展示",

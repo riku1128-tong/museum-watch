@@ -1,0 +1,95 @@
+{
+  "id": "Q11377196",
+  "checked_at": "2026-10-10T09:51:58+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.imabari.ehime.jp/museum/kono/",
+  "address": "〒794-0042 愛媛県今治市旭町1-4-8",
+  "source_urls": [
+    "https://www.city.imabari.ehime.jp/museum/kono/",
+    "https://www.city.imabari.ehime.jp/museum/kono/event/",
+    "https://www.city.imabari.ehime.jp/museum/kono/access/",
+    "https://www.city.imabari.ehime.jp/museum/kono/collection/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "らイト☆クラぶ写真展（今治市中央公民館写真教室作品展）",
+      "start": "2026-10-07",
+      "end": "2026-10-12",
+      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2060",
+      "kind": "other",
+      "summary": "今治市中央公民館写真教室の作品展（貸会場）",
+      "recommend": null
+    },
+    {
+      "title": "媼二人展",
+      "start": "2026-10-07",
+      "end": "2026-10-12",
+      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2058",
+      "kind": "other",
+      "summary": "貸会場企画展",
+      "recommend": null
+    },
+    {
+      "title": "写楽写真展",
+      "start": "2026-10-07",
+      "end": "2026-10-12",
+      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2059",
+      "kind": "other",
+      "summary": "貸会場企画展",
+      "recommend": null
+    },
+    {
+      "title": "令和8年度 今治市小中学校図工・美術・書写・統計作品展",
+      "start": "2026-10-17",
+      "end": "2026-10-20",
+      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2061",
+      "kind": "other",
+      "summary": "今治市内の小中学校の図工・美術・書写・統計の作品展（貸会場）",
+      "recommend": null
+    },
+    {
+      "title": "フォルムグループ第19回油絵展",
+      "start": "2026-10-22",
+      "end": "2026-10-25",
+      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2062",
+      "kind": "other",
+      "summary": "貸会場企画展",
+      "recommend": null
+    }
+  ],
+  "adult_price": 310,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "今治",
+      "lines": "JR予讃線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    }
+  ],
+  "highlights": "今治市が運営する市立美術館。平安時代から現代にわたる屏風・掛軸・古文書・典籍など約1万点を収蔵し、源氏物語図屏風（土佐光信筆）や竹久夢二の絵画など幅広い時代の名品を所蔵する。常設展示は行わず、テーマを設けた企画展や市民向けの貸会場展示を開催。今治城に近い市街地に立地。",
+  "closed_between_exhibitions": false,
+  "notes": "企画展示は年数回。貸会場（かしかいじょう）展示が多く、常設の作品展示は行っていない。入館料は一般310円（団体20名以上250円）、学生160円。",
+  "confidence": "high"
+}

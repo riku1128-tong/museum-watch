@@ -1,6 +1,6 @@
 {
   "id": "Q48749054",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:00:12+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -59,6 +59,28 @@
       "url": "https://www.forest.minokamo.gifu.jp/",
       "kind": "other",
       "summary": "市民による美術作品を集めた公募展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "ていねいな暮らしと道具展「動物とともに生きる暮らし」",
+      "start": "2026-10-17",
+      "end": "2027-03-14",
+      "url": "https://www.forest.minokamo.gifu.jp/",
+      "kind": "collection",
+      "summary": "動物と共に生きる暮らしをテーマにした民俗・生活文化の企画展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "えげんさんに会える日（ミニ特別展）",
+      "start": "2026-11-01",
+      "end": "2026-11-07",
+      "url": "https://www.forest.minokamo.gifu.jp/",
+      "kind": "special",
+      "summary": "ミニ特別展",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0

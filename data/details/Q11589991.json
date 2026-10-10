@@ -1,6 +1,6 @@
 {
   "id": "Q11589991",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -21,6 +21,17 @@
   "special_openings": [],
   "exhibitions": [
     {
+      "title": "小磯良平作品選Ⅲ",
+      "start": "2026-08-29",
+      "end": "2026-11-08",
+      "url": "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/koisogallery/migishisetsuko120.html",
+      "kind": "collection",
+      "summary": "三岸節子展に同時開催。小磯良平の所蔵作品から選りすぐりの作品を紹介",
+      "recommend": null,
+      "admission": "特別展チケット（一般 1,200円）で観覧可",
+      "adult_price": null
+    },
+    {
       "title": "生誕120年 三岸節子展",
       "start": "2026-08-29",
       "end": "2026-11-08",
@@ -32,14 +43,14 @@
       "adult_price": 1200
     }
   ],
-  "adult_price": 1200,
+  "adult_price": 200,
   "free_days": [],
   "free_rules": [],
   "access": [
     {"station": "アイランド北口", "lines": "神戸新交通 六甲ライナー", "exit": null, "walk_min": 3, "note": "JR住吉駅または阪神魚崎駅で六甲ライナーに乗り換え。阪急御影駅からはみなと観光バス131系統「ウエストコート3番街前」下車すぐ"}
   ],
-  "highlights": null,
+  "highlights": "神戸出身の洋画家・小磯良平の作品を中心に約3,300点を収蔵する記念美術館。遺族から寄贈された2,094点が核をなし、肖像画や舞台緞帳の原画など多彩な「仕事」を特集展示する。中庭に移築復元したアトリエでイーゼルやパレットを公開。六甲ライナーのアイランド北口駅から徒歩すぐ。",
   "closed_between_exhibitions": false,
-  "notes": "観覧料は企画展ごと。高校生以下無料、障がい者手帳・ミライロID所持者無料。年末年始休館の日付は未確認。館の紹介文（highlights）は未読のため null。",
-  "confidence": "medium"
+  "notes": "コレクション展の一般入館料は200円（高校生以下無料）。特別展は展覧会ごとに別料金。障がい者手帳・ミライロID所持者無料。年末年始休館の日付は公式サイト未掲載。",
+  "confidence": "high"
 }

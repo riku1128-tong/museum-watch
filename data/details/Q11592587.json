@@ -1,0 +1,70 @@
+{
+  "id": "Q11592587",
+  "checked_at": "2026-10-10T10:00:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://fukuoka-kenbi.jp/",
+  "address": "〒810-0001 福岡県福岡市中央区天神5丁目2-1",
+  "source_urls": [
+    "https://fukuoka-kenbi.jp/",
+    "https://fukuoka-kenbi.jp/access/",
+    "https://fukuoka-kenbi.jp/exhibition/",
+    "https://fukuoka-kenbi.jp/exhibition/2026/0701_18474/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "Eric Carle: Art, Books, and the Caterpillar エリック・カール展 はじまりは、はらぺこあおむし",
+      "start": "2026-10-23",
+      "end": "2026-12-20",
+      "url": "https://fukuoka-kenbi.jp/exhibition/2026/0701_18474/",
+      "kind": "special",
+      "summary": "日本出版50周年を記念し、エリック・カール絵本美術館所蔵の原画約180点が来日。デザイナー時代の作品も紹介",
+      "recommend": "『はらぺこあおむし』日本出版50周年を記念し、絵本美術館から原画約180点が来日。デザイナー時代の作品やダミーブックも展示し、絵本作家にとどまらないカールの多彩な創作世界を伝える。",
+      "admission": "一般 2,000円（前売・団体 1,800円）",
+      "adult_price": 2000
+    }
+  ],
+  "adult_price": 210,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "天神",
+      "lines": "福岡市地下鉄空港線",
+      "exit": "東1a・東1b",
+      "walk_min": 10,
+      "note": "天神地下街「東1a」または「東1b」出口から徒歩約10分"
+    },
+    {
+      "station": "西鉄福岡（天神）",
+      "lines": "西鉄天神大牟田線",
+      "exit": null,
+      "walk_min": 15,
+      "note": null
+    }
+  ],
+  "highlights": "福岡市天神に立地し、県ゆかりの作家の作品を中心に約1万点を所蔵する県立美術館。浮世絵・洋画・現代美術まで幅広いコレクション展（一般210円）と大型企画展を交互に開催し、4階建ての展示空間と美術図書室を備える。",
+  "closed_between_exhibitions": false,
+  "notes": "初回巡回。2026年10月現在は9/27終了の県展と10/23開始のエリック・カール展の間。コレクション展「福岡県美のたからもの」は季節ごとに開催（vol.2: 7/11〜8/27, 一般210円）。アクセスの徒歩分数は公式アクセスページより。",
+  "confidence": "high"
+}

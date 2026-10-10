@@ -1,7 +1,7 @@
 {
   "id": "Q17220332",
-  "checked_at": "2026-10-02T08:31:27+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:06:48+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://hokusai-museum.jp/",
@@ -30,7 +30,8 @@
       "url": "https://hokusai-museum.jp/modules/Exhibition/exhibitions/view/5021",
       "kind": "special",
       "summary": "開館10周年。「隅田川両岸景色図巻」など北斎の肉筆画・錦絵・摺物・版本と門人作品の名品展",
-      "admission": "一般 1,500円"
+      "admission": "一般 1,500円",
+      "adult_price": 1500
     },
     {
       "title": "北斎クロスオーバー　時代を超えて\"すみだ\"に集う",
@@ -39,7 +40,8 @@
       "url": "https://hokusai-museum.jp/modules/Exhibition/exhibitions/view/5023",
       "kind": "special",
       "summary": "北斎と門人の\"すみだ\"の作品と、大田南畝や正岡子規ら文学者との関わりから北斎を見る",
-      "admission": "一般 1,000円"
+      "admission": "一般 1,000円",
+      "adult_price": 1000
     },
     {
       "title": "北斎を学ぶ部屋",
@@ -48,7 +50,8 @@
       "url": "https://hokusai-museum.jp/modules/Page/pages/view/1111",
       "kind": "collection",
       "summary": "通年。常設展示室",
-      "admission": "一般 400円"
+      "admission": "一般 400円",
+      "adult_price": 400
     }
   ],
   "access": [
@@ -57,6 +60,8 @@
   ],
   "closed_between_exhibitions": false,
   "adult_price": 400,
+  "free_days": [],
+  "free_rules": [],
   "highlights": "葛飾北斎が生涯の多くを過ごした墨田区に立つ北斎専門の美術館。常設の「北斎を学ぶ部屋」では7つの時代区分で北斎の生涯を辿り、娘・阿栄と暮らしたアトリエの再現模型も展示。本物の浮世絵は年30日以内に限定公開、それ以外は高精細レプリカで鑑賞できる。",
   "notes": "休館日は「毎週月曜日（月曜が祝日または振替休日の場合はその翌平日）、年末年始（12月29日～1月3日）」。今年度の年末年始は北斎クロスオーバー展ページに「2026年12月27（日）～2027年1月1日（金・祝）」とある。特別展の展示替え: 前期 9/15〜10/18、後期 10/21〜11/23。10/20(火) は展覧会ページで休館と記載。11/24〜12/15 の特別展の合間に館が開くかは未確認（北斎を学ぶ部屋の開室も未確認）。2026/10/1 から墨田区在住・在学の中学生は無料。",
   "confidence": "high"

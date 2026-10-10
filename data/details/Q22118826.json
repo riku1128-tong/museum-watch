@@ -1,0 +1,118 @@
+{
+  "id": "Q22118826",
+  "checked_at": "2026-10-10T10:00:35+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://saga-museum.jp/museum/",
+  "address": "〒840-0041 佐賀県佐賀市城内1-15-23",
+  "source_urls": [
+    "https://saga-museum.jp/museum/",
+    "https://saga-museum.jp/museum/access/",
+    "https://www.atpress.ne.jp/news/619408",
+    "https://prtimes.jp/main/html/rd/p/000000025.000103891.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "18:00",
+      "last_entry": "17:00"
+    },
+    {
+      "days": [
+        "fri",
+        "sat"
+      ],
+      "open": "09:30",
+      "close": "20:00",
+      "last_entry": "19:00",
+      "from": "2026-11-03",
+      "to": "2027-02-14"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [
+    {
+      "date": "2027-01-04",
+      "note": "金曜ロードショーとジブリ展 特別開館（通常は月曜休館）"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "美術館特集展示 重文・実相院の金銅宝塔と金工の名品",
+      "start": "2026-10-01",
+      "end": "2026-10-17",
+      "url": null,
+      "kind": "special",
+      "summary": "実相院（京都）所蔵の重要文化財・金銅宝塔をはじめ金工の名品を紹介する特集展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "OKADA-ROOM Vol.38 特集 生誕160年 久米桂一郎 ―共に日本洋画壇を築いた盟友・黒田清輝、そして岡田三郎助とともに―",
+      "start": "2026-07-03",
+      "end": "2026-10-18",
+      "url": null,
+      "kind": "special",
+      "summary": "岡田三郎助の盟友・久米桂一郎の生誕160年を、黒田清輝・岡田との交流を通じて紹介",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "金曜ロードショーとジブリ展",
+      "start": "2026-11-03",
+      "end": "2027-02-14",
+      "url": "https://www.atpress.ne.jp/news/619408",
+      "kind": "special",
+      "summary": "日本テレビ「金曜ロードショー」とスタジオジブリの歩みをたどる大型展覧会",
+      "recommend": "金曜ロードショーがジブリ作品を初放映した1989年から現在までの歩みを、貴重な原画・資料で振り返る。会期中の金・土曜は夜20時まで延長開館し、ナイトミュージアムとしても楽しめる。",
+      "admission": "一般 1,900円",
+      "adult_price": 1900,
+      "hours": [
+        {
+          "days": ["fri", "sat"],
+          "open": "09:30",
+          "close": "20:00",
+          "last_entry": "19:00"
+        }
+      ]
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "佐賀",
+      "lines": "JR長崎本線・唐津線・佐世保線",
+      "exit": null,
+      "walk_min": null,
+      "note": "佐賀駅バスセンターから佐賀市営バス「博物館前」下車すぐ（約15分）。徒歩約30分。長崎自動車道佐賀大和ICから車約25分"
+    }
+  ],
+  "highlights": "佐賀が生んだ近代洋画の巨匠・岡田三郎助を核に、西洋画・工芸を収蔵する県立美術館。佐賀城公園に隣接し、博物館と一体の文化ゾーンを形成する。OKADA-ROOMでは岡田と交友した作家の特集展示を定期開催。常設展は無料で入館でき、話題の企画展も積極的に誘致している。",
+  "closed_between_exhibitions": false,
+  "notes": "「金曜ロードショーとジブリ展」（2026/11/3〜2027/2/14）の期間中、金・土・祝前日は20:00まで延長開館（最終入場19:00）。祝前日の延長はスキーマで表現できないため regular_hours の from/to 付きエントリには金・土のみ記載。年末年始は12/29〜1/1休館。1/3(日)は年明け後通常開館、1/4(月)はジブリ展特別開館のため special_openings に追加。1/5(月)・1/12(火)は通常ルールで休館。ジブリ展の入場は日時指定制（土日祝および2026年12月22日以降の平日）。",
+  "confidence": "medium"
+}

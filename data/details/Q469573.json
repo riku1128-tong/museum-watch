@@ -1,6 +1,6 @@
 {
   "id": "Q469573",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T10:00:35+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -66,7 +66,12 @@
       "reason": "展示替期間"
     }
   ],
-  "special_openings": [],
+  "special_openings": [
+    {
+      "date": "2027-01-04",
+      "note": "OSAMU GOODS展 特別開館（通常は月曜休館）"
+    }
+  ],
   "exhibitions": [
     {
       "title": "ゴッホの跳ね橋と印象派の画家たち　ヴァルラフ＝リヒャルツ美術館所蔵",
@@ -100,6 +105,17 @@
       "recommend": null,
       "admission": null,
       "adult_price": null
+    },
+    {
+      "title": "The 50th Anniversary OSAMU GOODS展",
+      "start": "2026-12-10",
+      "end": "2027-01-22",
+      "url": null,
+      "kind": "special",
+      "summary": "イラストレーター・原田治の「OSAMU GOODS」50周年記念展。原画・グッズ約1,600点を展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 450,
@@ -130,6 +146,6 @@
   ],
   "highlights": "白川公園内に立つ名古屋市立美術館。フリーダ・カーロやリベラを擁するメキシコ・ルネサンス、モディリアーニ・シャガール・藤田嗣治のエコール・ド・パリ、前田青邨ら郷土の美術という4分野に強みを持つ。常設展と大型特別展を年間通じて開催する。",
   "closed_between_exhibitions": false,
-  "notes": "公式URL は http://www.art-museum.city.nagoya.jp/ が旧 URL で、https://art-museum.city.nagoya.jp/ に移行済みのため官設 URL を更新。金曜日は祝休日を除き 20:00 まで延長。常設展入館料は 2026年9月30日まで 300 円、10月1日より 450 円に改定。月曜が祝日の場合は開館し翌平日休館。展示替期間: 11/30-12/9、2027/1/23-2/5。年末年始: 12/29-1/2。",
+  "notes": "公式URL は https://art-museum.city.nagoya.jp/。金曜日は祝休日を除き 20:00 まで延長。常設展入館料は 2026年10月1日より 450 円（改定済み）。月曜が祝日の場合は開館し翌平日休館。展示替期間: 11/30-12/9、2027/1/23-2/5。年末年始: 12/29-1/2。OSAMU GOODS展（12/10-1/22）の 1/4(月)は特別開館のため special_openings に追加。1/5(月)・1/12(火)は通常ルールで休館。OSAMU GOODS展 名古屋の入場料は未確認（横浜会場は一般1,400円）。最終日 1/22(金)は17:00閉館（金曜延長なし）。",
   "confidence": "high"
 }

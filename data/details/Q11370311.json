@@ -1,0 +1,67 @@
+{
+  "id": "Q11370311",
+  "checked_at": "2026-10-10T09:51:29+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kyusan-u.ac.jp/ksumuseum/",
+  "address": null,
+  "source_urls": [
+    "https://www.kyusan-u.ac.jp/ksumuseum/",
+    "https://www.kyusan-u.ac.jp/ksumuseum/about/",
+    "https://www.kyusan-u.ac.jp/ksumuseum/tennji/",
+    "https://www.kyusan-u.ac.jp/ksumuseum/access/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "歴史にすわるpart7 ‐すわって楽しむ名作椅子とアート‐",
+      "start": "2026-09-19",
+      "end": "2026-11-03",
+      "url": "https://www.kyusan-u.ac.jp/ksumuseum/tennji/",
+      "kind": "special",
+      "summary": "九産大所蔵の名作椅子を実際に座って体験できる参加型企画展第7弾。学芸員が選んだ美術作品と合わせて展示",
+      "recommend": "九産大所蔵の名作椅子を実際に座って体験できる参加型展覧会の第7弾。ウェグナーやイームズら歴史的デザイナーの名作椅子と学芸員が選んだ美術作品を組み合わせて展示し、体で感じるユニークな鑑賞体験が楽しめる",
+      "admission": "一般 200円、大学生・専門学校生 100円、高校生以下・65歳以上 無料",
+      "adult_price": 200,
+      "closed_dates": ["2026-10-03", "2026-10-24"]
+    }
+  ],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "九産大前",
+      "lines": "JR香椎線",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    }
+  ],
+  "highlights": "九州産業大学が2002年に開館した大学附属美術館。美術・工芸・デザイン・写真など多分野の作品を収蔵し、企画展や巡回展を一般に公開する。ワークショップなど地域の文化芸術振興にも取り組み、大学の教育研究コレクションを地域に開く場として機能している。",
+  "closed_between_exhibitions": false,
+  "notes": "夏季休業期間・年末年始・展示替え期間にも休館（公式サイトに明記されているが具体的な日付は未確認）。holiday_rule は公式サイトに記載なく不明。主催展の入館料は一般200円。九産大学生・本学教職員は無料。10/3(土)・10/24(土)の休館は現在の展覧会ページに記載あり（特殊な休館日）。",
+  "confidence": "high"
+}

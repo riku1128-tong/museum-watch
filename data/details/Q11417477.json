@@ -1,7 +1,7 @@
 {
   "id": "Q11417477",
-  "checked_at": "2026-10-02T08:45:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:09:41+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.momaw.jp/",
@@ -10,7 +10,9 @@
     "https://www.momaw.jp/",
     "https://www.momaw.jp/exhibit/2026col_prints_2nd/",
     "https://www.momaw.jp/exhibit/2026col_painting_sculpture/",
-    "https://www.momaw.jp/exhibit/architecture_design/"
+    "https://www.momaw.jp/exhibit/architecture_design/",
+    "https://www.momaw.jp/exhibit/2026suzuki/",
+    "https://www.momaw.jp/information/exhibitions-2026/"
   ],
   "regular_hours": [
     {
@@ -84,16 +86,56 @@
       "recommend": "黒川紀章が設計した建物そのものを作品として読み解く展示。メタボリズムの考え方を、模型や原寸のディテール模型、計画資料から具体的に知ることができる。",
       "admission": "無料",
       "adult_price": 0
+    },
+    {
+      "title": "鈴木崇　もののをかし",
+      "start": "2026-10-14",
+      "end": "2027-02-11",
+      "url": "https://www.momaw.jp/exhibit/2026suzuki/",
+      "kind": "special",
+      "summary": "視覚と知覚の関係や認識の変化を探る鈴木崇の新旧作品と当館コレクションを展示",
+      "recommend": "写真を通じて視覚と知覚の関係や認識の変化を探ってきた鈴木崇が、作家自身が選んだ当館コレクションとともに新旧作品を「もののをかし」をテーマに展示する。写真と美術の横断的な視点が魅力。",
+      "admission": "一般 600円",
+      "adult_price": 600
+    },
+    {
+      "title": "MOMAWコレクション　版画と美術散歩　第3期 マティス『ジャズ』と―孔版の小道",
+      "start": "2026-10-24",
+      "end": "2026-11-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "マティス『ジャズ』を起点に孔版表現の軌跡をたどるコレクション展第3期",
+      "recommend": null,
+      "admission": "一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "MOMAWコレクション　版画と美術散歩　第4期 カンディンスキー『響き』と―凸版の小道",
+      "start": "2026-12-05",
+      "end": "2027-01-11",
+      "url": null,
+      "kind": "collection",
+      "summary": "カンディンスキー『響き』を起点に凸版表現の軌跡をたどるコレクション展第4期",
+      "recommend": null,
+      "admission": "一般 400円",
+      "adult_price": 400
     }
   ],
   "adult_price": 400,
   "free_days": [
     {
+      "from": "2026-11-14",
+      "to": "2026-11-15",
+      "scope": "collection",
+      "reason": "関西文化の日（入館料無料）",
+      "source_url": "https://www.momaw.jp/"
+    },
+    {
       "from": "2026-11-22",
       "to": "2026-11-22",
       "scope": "collection",
-      "reason": "毎月第1日曜日無料（11月は22日に変更）",
-      "source_url": "https://www.momaw.jp/exhibit/2026col_painting_sculpture/"
+      "reason": "ふるさと誕生日（和歌山県誕生日）のため観覧無料",
+      "source_url": "https://www.momaw.jp/"
     }
   ],
   "free_rules": [
@@ -123,6 +165,6 @@
   ],
   "highlights": "和歌山城に隣接し、黒川紀章が設計した建物が天守閣と対比をなす近代美術館。和歌山ゆかりの作家を軸に、19世紀末から現代までの日本と海外の美術を所蔵し、版画のコレクションにも力を入れている。",
   "closed_between_exhibitions": false,
-  "notes": "11/23(祝)・1/11(祝)は開館、翌平日(9/24,10/13,11/24)休館。11月の無料日は第1日曜でなく22日。展示替休館は9/8〜11終了、10/20〜23、12/1〜4。観覧料は企画ごと。高校生以下・65歳以上・障害者手帳所持者は無料。",
+  "notes": "11/1（日）は毎月第1日曜だが特別展「鈴木崇」開催のため入館料有料（お知らせ10/6付け）。11/14・15は関西文化の日、11/22はふるさと誕生日でコレクション展観覧無料。展示替休館は10/20〜23、12/1〜4。高校生以下・65歳以上・障害者手帳所持者は無料。",
   "confidence": "high"
 }

@@ -1,0 +1,85 @@
+{
+  "id": "Q63828",
+  "checked_at": "2026-10-10T10:20:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.hiroshima-museum.jp/",
+  "address": "〒730-0051 広島県広島市中区基町3-2",
+  "source_urls": [
+    "https://www.hiroshima-museum.jp/",
+    "https://www.hiroshima-museum.jp/guide/index.html",
+    "https://www.hiroshima-museum.jp/guide/access.html",
+    "https://www.hiroshima-museum.jp/special/index.html",
+    "https://www.hiroshima-museum.jp/special/detail/202610_cafe.html",
+    "https://www.hiroshima-museum.jp/collection/index.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-11-16",
+      "to": "2026-11-16",
+      "reason": "休館（月曜）"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-02",
+      "reason": "年末年始"
+    },
+    {
+      "from": "2027-08-01",
+      "to": "2028-11-02",
+      "reason": "大規模改修"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "\"カフェ\"に集う芸術家 ―印象派からゴッホ、ロートレック、ピカソまで",
+      "start": "2026-10-03",
+      "end": "2027-01-11",
+      "url": "https://www.hiroshima-museum.jp/special/detail/202610_cafe.html",
+      "kind": "special",
+      "summary": "パリのカフェ・キャバレーを芸術家の交流の場として捉え直し、印象派からピカソまでの作品を紹介",
+      "recommend": "ひろしま美術館と三菱一号館美術館の初共同企画。ゴッホの《モンマルトルの風車》やロートレックのポスター等、カフェが育んだ芸術家たちの友情と革新を、両館所蔵の約150点超の作品で体感できる。",
+      "admission": "一般 2,200円",
+      "adult_price": 2200
+    },
+    {
+      "title": "コレクション展示（フランス近代絵画・日本近代絵画）",
+      "start": "2026-01-01",
+      "end": "2027-07-31",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。印象派を中心にフランス近代絵画約80点と日本近代絵画を常設展示。特別展チケットで観覧可",
+      "recommend": null,
+      "admission": "特別展チケットで観覧可",
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "紙屋町東",
+      "lines": "広島電鉄市内線（1・2・6号線）",
+      "exit": null,
+      "walk_min": 4,
+      "note": "JR広島駅から路面電車（1号線など）で約14分"
+    }
+  ],
+  "highlights": "印象派を核に、ドラクロワからゴッホ・ピカソ・シャガールまでフランス近代絵画約80点を常設展示する市立美術館。広島城・平和記念公園に隣接し、黒田清輝や東山魁夷ら日本近代絵画も充実。2027年8月から2028年11月まで大規模改修で全館休館予定。",
+  "closed_between_exhibitions": false,
+  "notes": "特別展会期中（ほぼ常時）は月曜も開館。特別展がない期間は月曜休館（祝日は翌平日休）。現在の特別展「'カフェ'に集う芸術家」（2026/10/3-2027/1/11）では11/16と年末年始が休館。コレクション展示の単独入館料は公式に記載なし（特別展チケットで観覧可）。大規模改修のため2027年8月1日〜2028年11月2日は全館休館予定。",
+  "confidence": "high"
+}

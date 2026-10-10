@@ -1,6 +1,6 @@
 {
   "id": "Q11468703",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:00:59+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -41,23 +41,34 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "ひかり絵図～上山城展～",
+      "title": "企画展「案山子（かかし）」",
       "start": "2026-09-26",
       "end": "2026-11-01",
-      "url": "https://kaminoyama-castle.info/",
+      "url": "https://kaminoyama-castle.info/event.html",
       "kind": "special",
-      "summary": "「北の又城」と呼ばれた江戸時代の上山城の姿を紹介する企画展（多目的ホール）",
-      "recommend": "霞城とも呼ばれ江戸時代に「北の又城」と謳われた上山城の歴史と姿を、絵図資料などで紹介。城山から蔵王連峰を望む眺望と合わせて上山の歴史をたどれる。",
+      "summary": "上山城の多目的ホールで開催される企画展",
+      "recommend": null,
       "admission": "一般 600円",
       "adult_price": 600
     },
     {
-      "title": "みやまの里出戸の漫画～菅野釜右助の世界～",
+      "title": "伴淳三郎展示会〜ゆかりの品々・思い出の人々",
+      "start": "2026-10-03",
+      "end": "2026-10-31",
+      "url": "https://kaminoyama-castle.info/event.html",
+      "kind": "special",
+      "summary": "上山市ゆかりの俳優・伴淳三郎にまつわる品々や思い出の人々を紹介する展示会",
+      "recommend": null,
+      "admission": "一般 600円",
+      "adult_price": 600
+    },
+    {
+      "title": "かみのやま出身のマンガ家 星野泰視原画展",
       "start": "2026-11-07",
       "end": "2027-01-11",
-      "url": "https://kaminoyama-castle.info/",
+      "url": "https://kaminoyama-castle.info/event.html",
       "kind": "special",
-      "summary": "地域ゆかりの漫画家・菅野釜右助の作品世界を紹介する企画展（館内）",
+      "summary": "上山市出身の漫画家・星野泰視の原画を紹介する企画展",
       "recommend": null,
       "admission": "一般 600円",
       "adult_price": 600

@@ -1,7 +1,7 @@
 {
   "id": "Q11487473",
-  "checked_at": "2026-10-02T08:45:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T09:51:43+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.yayoi-yumeji-museum.jp/",
@@ -33,13 +33,7 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [
-    {
-      "from": "2026-09-28",
-      "to": "2026-10-02",
-      "reason": "展示替えのため全館休館"
-    }
-  ],
+  "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {

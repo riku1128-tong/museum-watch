@@ -1,6 +1,6 @@
 {
   "id": "Q11472922",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:10:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,6 +11,7 @@
     "https://www.city.okazaki.lg.jp/museum/tenrankai/1014906.html",
     "https://www.city.okazaki.lg.jp/museum/tenrankai/1015424.html",
     "https://www.city.okazaki.lg.jp/museum/raikan/1010136.html",
+    "https://www.city.okazaki.lg.jp/museum/raikan/1013237.html",
     "https://www.museum.or.jp/museum/4608"
   ],
   "regular_hours": [
@@ -36,6 +37,16 @@
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
+    {
+      "from": "2026-10-01",
+      "to": "2026-10-16",
+      "reason": "展示替え（四季にうたえば展 準備）"
+    },
+    {
+      "from": "2026-12-01",
+      "to": "2026-12-18",
+      "reason": "展示替え（国島征二展 準備）"
+    },
     {
       "from": "2026-12-28",
       "to": "2027-01-03",

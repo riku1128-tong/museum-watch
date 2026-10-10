@@ -1,0 +1,110 @@
+{
+  "id": "Q17223767",
+  "checked_at": "2026-10-10T10:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://hhmoa.jp/",
+  "address": "〒739-0015 広島県東広島市西条栄町9番1号",
+  "source_urls": [
+    "https://hhmoa.jp/",
+    "https://hhmoa.jp/visitor/",
+    "https://hhmoa.jp/facility/",
+    "https://hhmoa.jp/schedule26-27/",
+    "https://hhmoa.jp/next-exhibition/15111/",
+    "https://hhmoa.jp/next-exhibition/15113/",
+    "https://hhmoa.jp/news/%e4%bc%91%e9%a4%a8%e6%97%a5%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-10",
+      "to": "2026-10-11",
+      "reason": "展示替え（10/12月・祝はロビーのみ開館、10/13振替休館）"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "コレクション展 第Ⅲ期 part1 PARK: 公園と美術をめぐる旅",
+      "start": "2026-10-15",
+      "end": "2026-11-23",
+      "url": "https://hhmoa.jp/next-exhibition/15111/",
+      "kind": "collection",
+      "summary": "西条中央公園に隣接する立地から「公園（park）」をテーマに、屋外彫刻・窓・コレクションと新作を組み合わせて展示",
+      "recommend": "美術館の目の前に広がる西条中央公園との接点をテーマに、屋外彫刻や「窓」を切り口としてコレクションと東広島在住作家shunshunの新作が交わる展示。公園を散歩するような軽やかな鑑賞体験が楽しめる。",
+      "admission": "一般 300円",
+      "adult_price": 300
+    },
+    {
+      "title": "コレクション展 第Ⅲ期 part2 特集 池田満寿夫",
+      "start": "2026-10-15",
+      "end": "2026-12-27",
+      "url": "https://hhmoa.jp/next-exhibition/15113/",
+      "kind": "collection",
+      "summary": "版画家・池田満寿夫（1934-1997）の新収蔵版画・美術資料とアトリエ遺作の陶芸作品を特集展示",
+      "recommend": "国際的に評価された版画家にして、作陶・文芸・映画製作と多彩に活躍した池田満寿夫の世界を特集。近年新たに収蔵された版画と作家のアトリエに遺された陶芸作品が同時に鑑賞できる貴重な機会。",
+      "admission": "一般 300円",
+      "adult_price": 300
+    },
+    {
+      "title": "第39回東広島市美術展",
+      "start": "2027-01-09",
+      "end": "2027-01-24",
+      "url": null,
+      "kind": "other",
+      "summary": "東広島市の公募美術展。第39回",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "文化の日（無料開館）",
+      "source_url": "https://hhmoa.jp/next-exhibition/15111/"
+    }
+  ],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "西条",
+      "lines": "JR山陽本線",
+      "exit": "南口",
+      "walk_min": 10
+    }
+  ],
+  "highlights": "2020年11月開館の比較的新しい市立美術館。近現代版画・現代陶芸・郷土ゆかり作品を三本柱とするコレクションを擁し、JR西条駅南口から徒歩10分の好立地に立つ。西条中央公園に隣接した環境で屋外彫刻も楽しめ、充実した関連講座・ワークショップも魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は月曜日（祝日の場合は翌平日）・年末年始（12/28-1/4）。夜間開館日は開館時間が変わる場合あり。2026-10-10〜10-11は展示替えのため休館、10-12（月・祝）はロビーのみ開館、10-13（火）振替休館。10/15から第Ⅲ期展示開始。コレクション展料金は一般300円。特別展は展覧会ごとに料金設定。",
+  "confidence": "high"
+}

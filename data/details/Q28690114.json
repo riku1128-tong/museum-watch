@@ -1,0 +1,98 @@
+{
+  "id": "Q28690114",
+  "checked_at": "2026-10-10T16:04:13+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.kashiwabara-museum.jp/",
+  "address": "〒741-0081 山口県岩国市横山2丁目10-27",
+  "source_urls": [
+    "https://www.kashiwabara-museum.jp/",
+    "https://kashiwabara-museum.jp/307/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "from": "2026-03-01",
+      "to": "2026-11-30"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "16:00",
+      "from": "2026-12-01",
+      "to": "2027-02-28"
+    }
+  ],
+  "closed_weekdays": [
+    "tue"
+  ],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "国宝 名物稲葉江 特別公開 ×「刀剣乱舞ONLINE」コラボレーション",
+      "start": "2026-10-01",
+      "end": "2026-12-27",
+      "url": "https://kashiwabara-museum.jp/307/",
+      "kind": "special",
+      "summary": "国宝「名物稲葉江」を公開し、ゲーム『刀剣乱舞ONLINE』の刀剣男士・稲葉江とのコラボ企画も実施",
+      "recommend": "所蔵する国宝「名物稲葉江」と、同じ刀を刀剣男士として擬人化したゲーム・刀剣乱舞ONLINEのコラボ展示。等身大パネルや限定グッズも用意し、名刀愛好家からゲームファンまで楽しめる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "豊臣秀吉 特別公開",
+      "start": "2026-09-11",
+      "end": "2026-12-11",
+      "url": "https://kashiwabara-museum.jp/299/",
+      "kind": "special",
+      "summary": "豊臣秀吉ゆかりの品々を特別公開",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "岩国",
+      "lines": "JR山陽本線・岩徳線",
+      "walk_min": null,
+      "note": "岩国駅からバスで錦帯橋バス停下車後、錦帯橋を渡って徒歩約10分"
+    },
+    {
+      "station": "新岩国",
+      "lines": "JR山陽新幹線",
+      "walk_min": null,
+      "note": "新岩国駅からバスで錦帯橋バス停下車後、錦帯橋を渡って徒歩約10分"
+    }
+  ],
+  "highlights": "山口県岩国の城下町・錦帯橋エリアに構える私立美術館。武士の精神と美意識を体現した武具・刀剣を「生死の文化」、陶磁器・漆器など日常の道具を「生活の文化」の2つの視点で展示。国宝「名物稲葉江」をはじめ重要文化財を含む日本伝統文化の粋に出合える。",
+  "closed_between_exhibitions": false,
+  "notes": "火曜休館（祝日の場合は開館）。12月〜2月は16時閉館。入館料は一般1,000円（団体800円）、高・大学生600円（480円）、小・中学生250円（200円）。公式サイトにアクセス情報の記載なし（上記は地理から推測）。",
+  "confidence": "medium"
+}

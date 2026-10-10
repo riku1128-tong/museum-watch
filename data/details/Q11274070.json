@@ -1,0 +1,69 @@
+{
+  "id": "Q11274070",
+  "checked_at": "2026-10-10T10:15:16+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.nakata-museum.jp",
+  "address": "〒722-0012 広島県尾道市潮見町6番11号",
+  "source_urls": [
+    "https://www.nakata-museum.jp/",
+    "https://www.nakata-museum.jp/collection/",
+    "https://www.nakata-museum.jp/exhibition/?vnum=99",
+    "https://www.nakata-museum.jp/information/#access"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:30",
+      "last_entry": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "COLLECTIONS コレクション展2026_アイズピリをめぐる人々 第二章：交流のなかで花開いた、晩年の世界_",
+      "start": "2026-09-12",
+      "end": "2027-02-28",
+      "url": "https://www.nakata-museum.jp/exhibition/?vnum=99",
+      "kind": "collection",
+      "summary": "フランス具象画家ポール・アイズピリの晩年の世界と、コレクターとの交流をたどるコレクション展",
+      "recommend": "後援者との深い交流が晩年の画業に与えた影響に焦点を当てた展覧会。最晩年の色彩豊かで生命感あふれる作品群を通じ、支えた人々との絆が作品にどう結実したかを味わえる貴重な機会。",
+      "admission": "一般 800円",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": 800,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "尾道",
+      "lines": "JR山陽本線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "尾道駅4番のりばからバス10分「なかた美術館前」下車徒歩1分。または尾道駅から車3分"
+    },
+    {
+      "station": "新尾道",
+      "lines": "JR山陽新幹線",
+      "exit": null,
+      "walk_min": null,
+      "note": "新尾道駅からバス約10分「栗原一丁目」または「なかた美術館前」下車。または車7分"
+    }
+  ],
+  "highlights": "広島県尾道市の高台に立つ私立美術館。コロー・ルノワール・セザンヌら19〜20世紀フランス近代絵画から「エコール・ド・パリ」のアイズピリ、梅原龍三郎・小林和作ら尾道ゆかりの日本洋画まで幅広く所蔵。レストラン「ロセアン」も併設し、ゆっくり楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は毎週月曜日（祝日の場合は翌火曜日）・夏期・年末年始（12/28〜1/4）・展示替え日。夏期休館の具体的な日程は公式サイトに記載なし（巡回時に要確認）。入館料は大人800円（学生500円・高校生以下300円・65歳以上600円）。",
+  "confidence": "high"
+}

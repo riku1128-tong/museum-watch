@@ -1,17 +1,13 @@
 {
   "id": "Q1055628",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-10T09:51:29+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.momak.go.jp/",
   "address": "〒606-8344 京都市左京区岡崎円勝寺町26-1",
   "source_urls": [
     "https://www.momak.go.jp/",
-    "https://www.momak.go.jp/Japanese/guide/",
-    "https://www.momak.go.jp/Japanese/guide/access.html",
-    "https://www.momak.go.jp/Japanese/about/",
-    "https://www.momak.go.jp/Japanese/exhibitionarchive/2026/467.html",
     "https://www.momak.go.jp/Japanese/exhibitionarchive/2026/468.html"
   ],
   "regular_hours": [
@@ -36,6 +32,16 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
+      "from": "2026-10-05",
+      "to": "2026-10-23",
+      "reason": "展示替えのため休館（フォンタネージ展終了〜ジュエリー展開幕前）"
+    },
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    },
+    {
       "from": "2027-01-18",
       "to": "2027-03-31",
       "reason": "館内整備のため休館（公式発表は「2027年1月18日～3月休館」で、正確な再開日は未確定）"
@@ -44,43 +50,29 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "フォンタネージ―イタリアの光・心の風景",
-      "start": "2026-07-18",
-      "end": "2026-10-04",
-      "url": "https://www.momak.go.jp/Japanese/exhibitionarchive/2026/467.html",
-      "kind": "special",
-      "summary": "明治期洋画教育に影響を与えた画家アントニオ・フォンタネージの、光と自然を見つめた風景画の回顧展",
-      "recommend": "兵士から教育者へと多面的な人生を歩んだフォンタネージの、光への飽くなき関心が生んだ風景画の数々を通じて、日本近代洋画の源流を体感できる",
-      "admission": "一般 2,000円（前売・団体 1,700円）",
-      "adult_price": 2000
-    },
-    {
-      "title": "2026年度 第2回コレクション展",
-      "start": "2026-07-18",
-      "end": "2026-10-04",
-      "url": "https://www.momak.go.jp/Japanese/collectiongalleryarchive/2026/collectiongallery2026no02.html",
-      "kind": "collection",
-      "summary": "所蔵作品による常設のコレクション展示",
-      "recommend": null,
-      "admission": "一般 430円",
-      "adult_price": 430
-    },
-    {
       "title": "ジュエリーは、誰を夢みる",
       "start": "2026-10-24",
       "end": "2027-01-17",
       "url": "https://www.momak.go.jp/Japanese/exhibitionarchive/2026/468.html",
       "kind": "special",
       "summary": "戦後日本のコンテンポラリー・ジュエリーの展開をたどる大規模展。約350点を展示",
-      "recommend": "専門学校ヒコ・みづののコレクションを中心に、約50年ぶりに来日するドイツの作品群も含め、日本のジュエリー表現の系譜をたどれる",
-      "admission": "一般 2,000円（前売 1,800円）",
-      "adult_price": 2000
+      "recommend": "専門学校ヒコ・みづのの大規模コレクション公開と、約50年ぶりに来日するドイツ作品を含む約350件で構成。平松保城やオットー・キュンツリら70名超が参加し、「身につけるもの」への表現の歴史を日本から問い直す意欲作",
+      "admission": "一般 2,000円（前売・夜間割引 1,800円）",
+      "adult_price": 2000,
+      "hours": [
+        {
+          "days": ["fri"],
+          "open": "10:00",
+          "close": "20:00",
+          "last_entry": "19:30"
+        }
+      ]
     },
     {
       "title": "2026年度 第3回コレクション展",
       "start": "2026-10-24",
       "end": "2027-01-17",
-      "url": null,
+      "url": "https://www.momak.go.jp/Japanese/?p=131552",
       "kind": "collection",
       "summary": "所蔵作品による常設のコレクション展示",
       "recommend": null,
@@ -96,13 +88,6 @@
       "scope": "collection",
       "reason": "文化の日",
       "source_url": "https://artexhibition.jp/topics/news/20251023-AEJ2763954/"
-    },
-    {
-      "from": "2026-11-15",
-      "to": "2026-11-15",
-      "scope": "collection",
-      "reason": "関西文化の日",
-      "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/index/kyoto/art-museums/"
     }
   ],
   "free_rules": [],
@@ -124,6 +109,6 @@
   ],
   "highlights": "岡崎公園に建つ、工芸分野に力を入れる国立美術館。近代から現代の絵画・彫刻・工芸・写真など幅広い分野の作品を収集し、京都・関西の芸術活動にも注目した企画展・コレクション展を開催する",
   "closed_between_exhibitions": false,
-  "notes": "2027年1月18日～3月末は館内整備のため休館予定（終了日は公式未確定）。夜間開館「企画展開催中の毎週金曜日は20:00まで」は通常時間として反映せず注記のみ（企画展会期外は未確認のため）。2026年9月18日付で独立行政法人国立美術館の観覧料金改定についての告知あり（改定後の具体的な金額は公式ページで未確認）。",
+  "notes": "2026年10月10日時点で公式サイトに「Closed」表示あり（展示替え期間）。フォンタネージ展は2026-10-04に終了。2027年1月18日～3月末は館内整備のため休館予定（終了日は公式未確定）。企画展開催中の毎週金曜日は20:00まで夜間開館。関西文化の日（11月第3土曜）については2026年度公式発表が未確認のため除去。2026年9月付で独立行政法人国立美術館のコレクション展観覧料改定の告知あり（改定後の具体的な金額は公式ページで未確認のため、既存の430円を据え置き）。",
   "confidence": "high"
 }

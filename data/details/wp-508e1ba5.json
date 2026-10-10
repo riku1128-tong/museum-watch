@@ -1,33 +1,22 @@
 {
   "id": "wp-508e1ba5",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:00:30+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://r.goope.jp/tabikuu/",
   "address": "山梨県北杜市長坂町中丸1543-58",
   "source_urls": [
-    "https://r.goope.jp/tabikuu/",
-    "https://www.hokuto-kanko.jp/spot/kiyoharu_tabitokuusou_museum/"
+    "https://r.goope.jp/tabikuu/"
   ],
   "regular_hours": [
     {
-      "days": [
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
+      "days": ["thu", "fri", "sat", "sun", "holiday"],
       "open": "10:00",
       "close": "17:00"
     }
   ],
-  "closed_weekdays": [
-    "mon",
-    "tue",
-    "wed"
-  ],
+  "closed_weekdays": ["mon", "tue", "wed"],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -68,6 +57,6 @@
   ],
   "highlights": "旅・空想・クリスマスの優しい気持ちをテーマに、旅の風景画やアジアの世界写真展、素朴派絵画などの企画展を年4回ほど開催。世界各国のクリスマスグッズを集めたショップや多国籍カフェも併設する。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は「月・火・水(祝日は除く)」。official_url は museums.json に無かったため、公式サイト(goope上に構築)を採用。展覧会の紹介文は読めなかったため recommend は null のまま。",
+  "notes": "休館日は「月・火・水（祝日は除く）」。official_url は museums.json に無かったため、公式サイト（goope上に構築）を採用。展覧会の紹介文は読めなかったため recommend は null のまま。オーナーが脳出血療養中のため、カフェ飲食・包装紙・ネットショッピングは中止中（2026-10-10時点）。",
   "confidence": "medium"
 }

@@ -1,7 +1,7 @@
 {
   "id": "Q11595345",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T09:51:38+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.akita.lg.jp/kanko/kanrenshisetsu/1003617/index.html",
@@ -42,7 +42,20 @@
       "reason": "年末年始"
     }
   ],
-  "special_openings": [],
+  "special_openings": [
+    {
+      "date": "2026-10-10",
+      "open": "09:30",
+      "close": "12:00",
+      "note": "イベント対応のため短縮開館（観覧は正午まで）"
+    },
+    {
+      "date": "2026-10-12",
+      "open": "09:30",
+      "close": "12:00",
+      "note": "イベント対応のため短縮開館（観覧は正午まで）"
+    }
+  ],
   "exhibitions": [
     {
       "title": "秋田公立美術大学連携企画「秋田アーツ＆クラフツ」",

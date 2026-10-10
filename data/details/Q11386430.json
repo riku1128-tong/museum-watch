@@ -1,34 +1,25 @@
 {
   "id": "Q11386430",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T10:03:22+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://tawara-museum.or.jp/",
   "address": "〒659-0084 兵庫県芦屋市月若町",
   "source_urls": [
-    "https://www.tawara-museum.or.jp/information.html",
-    "https://tawara-museum.or.jp/"
+    "https://tawara-museum.or.jp/",
+    "https://tawara-museum.or.jp/information.html",
+    "https://tawara-museum.or.jp/e/e_yatate.html"
   ],
   "regular_hours": [
     {
-      "days": [
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
       "open": "10:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": [
-    "mon"
-  ],
+  "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -41,8 +32,8 @@
   "exhibitions": [
     {
       "title": "矢立と江戸の工芸品 常設展示",
-      "start": "2026-10-02",
-      "end": "2027-10-02",
+      "start": "2026-10-10",
+      "end": "2027-10-10",
       "url": null,
       "kind": "collection",
       "summary": "通年。江戸時代の筆記具・矢立と根付・鍔などの工芸品を展示",
@@ -61,8 +52,8 @@
       "walk_min": 3
     }
   ],
-  "highlights": null,
+  "highlights": "芦屋川駅至近の静かな住宅地に建つ私立美術館。江戸時代の武士や文人が携帯した筆記具「矢立」を専門に収蔵し、真鍮・象牙・べっこうなど多彩な素材と精巧な細工の品々が揃う。根付・鍔など江戸の小工芸品の名品も合わせて展示。手のひらに収まる工芸の美を間近で鑑賞できる稀少な専門美術館。",
   "closed_between_exhibitions": false,
-  "notes": "夏季休館は7/11〜8/10（来年分）。公式サイトで企画展の掲載は確認できず、展示は常設のみ登録。住所の番地は取得結果が不安定だったため省略。",
+  "notes": "夏季休館は7/11〜8/10、冬季休館は12/11〜1/10。月曜定休で祝日の場合は翌平日休館。公式サイト文字コードがShift-JISのため一部コンテンツが読めず。企画展の掲載は確認できないため常設展示のみ登録。",
   "confidence": "medium"
 }

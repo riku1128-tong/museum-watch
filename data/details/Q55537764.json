@@ -1,7 +1,7 @@
 {
   "id": "Q55537764",
-  "checked_at": "2026-10-02T09:00:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:00:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.nishida-museum.com/",
@@ -33,7 +33,7 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-10-02",
+      "from": "2026-10-01",
       "to": "2026-10-09",
       "reason": "展示替え等の臨時休館（公式カレンダー）"
     },

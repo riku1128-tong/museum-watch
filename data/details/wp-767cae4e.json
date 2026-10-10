@@ -1,7 +1,7 @@
 {
   "id": "wp-767cae4e",
-  "checked_at": "2026-10-02T08:45:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:15:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://sugiokakason.com/",
@@ -16,7 +16,13 @@
   ],
   "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-12-26",
+      "to": "2027-01-05",
+      "reason": "年末年始"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -29,6 +35,17 @@
       "recommend": "奈良教育大学の漢字書道研究室の学生が、詩に詠まれた「まほろば」の地を実際に訪れ、その体験を書作品に仕立てる。若い書き手の感性に出会える連携企画。",
       "admission": "一般 500円",
       "adult_price": 500
+    },
+    {
+      "title": "ミニ華邨賞書道コンクール作品展",
+      "start": "2026-12-09",
+      "end": "2026-12-20",
+      "url": "https://sugiokakason.com/",
+      "kind": "special",
+      "summary": "ミニ華邨賞書道コンクールの入選・入賞作品展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 500,

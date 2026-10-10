@@ -1,6 +1,6 @@
 {
   "id": "Q5157831",
-  "checked_at": "2026-10-02T08:31:57+09:00",
+  "checked_at": "2026-10-10T10:13:09+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,28 +10,17 @@
     "http://okawamuseum.jp/",
     "https://okawamuseum.jp/guidance.php",
     "https://okawamuseum.jp/traffic.php",
-    "https://okawamuseum.jp/event.php"
+    "https://okawamuseum.jp/information-detail.php?f=990782cb1ecb87d36dc973d8d30f22e8"
   ],
   "regular_hours": [
     {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
       "open": "10:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": [
-    "mon"
-  ],
+  "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -41,14 +30,39 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "ベン・シャーン ―つたえる手",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": "https://okawamuseum.jp/information-detail.php?f=990782cb1ecb87d36dc973d8d30f22e8",
+      "kind": "special",
+      "summary": "大川美術館・高崎市美術館の2館コレクション約100点が初めて一堂に会するベン・シャーン展",
+      "recommend": "社会的テーマに向き合い「伝える」ことを信念とした画家ベン・シャーンの版画・絵画約100点を一挙公開。高崎市美術館との2館コレクションが初めて一堂に並ぶ希少な機会で、つたえる手の力強さを体感できる。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "アメリカのモダン・アート ―ジョン・スローンからポップ・アートまで―",
+      "start": "2026-10-10",
+      "end": "2026-12-13",
+      "url": null,
+      "kind": "special",
+      "summary": "ジョン・スローンの銅版画を中心に、アンディ・ウォーホルやトム・ウェッセルマンらの作品で20世紀アメリカ美術を紹介",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
   "adult_price": 1200,
+  "free_days": [],
+  "free_rules": [],
   "access": [
     {
       "station": "桐生",
       "lines": "JR両毛線",
       "exit": null,
-      "walk_min": 13,
+      "walk_min": 15,
       "note": null
     },
     {
@@ -66,8 +80,8 @@
       "note": "タクシーで10分"
     }
   ],
-  "highlights": "桐生市出身の実業家・大川栄二が約40年かけて収集した日本・海外の美術コレクションを収蔵する私立美術館。水道山の中腹という高台に建ち、市街を見晴らせる立地で「逢いたいときにいつでも逢える名画の館」を掲げている。",
+  "highlights": "桐生市出身の実業家・大川栄二が約40年かけて収集した日本・欧米の美術コレクションを公開する私立美術館。松本竣介《街》やベン・シャーン作品など20世紀の名品が揃う。水道山中腹の高台に建ち、市街を見晴らせる四季折々のテラスカフェも人気の一軒。",
   "closed_between_exhibitions": true,
-  "notes": "休館日は「月曜日（祝日、振替休日の場合開館、翌火曜日休館）」。2026/9/14〜10/9は展示替えのため休館中。10/10以降の次回展は10/2時点でも公式サイト・検索で確認できなかったため exhibitions は空欄。",
-  "confidence": "medium"
+  "notes": "休館日は月曜（祝日・振替休日の場合は開館し翌火曜休館）、展示替え期間。一般1,200円、高大生600円、小中生300円。",
+  "confidence": "high"
 }

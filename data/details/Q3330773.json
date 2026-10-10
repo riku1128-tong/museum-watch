@@ -1,0 +1,105 @@
+{
+  "id": "Q3330773",
+  "checked_at": "2026-10-10T09:51:33+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.hpam.jp/museum/",
+  "address": "〒730-0014 広島市中区上幟町2-22",
+  "source_urls": [
+    "https://www.hpam.jp/museum/",
+    "https://www.hpam.jp/museum/exhibitions/sugaikumi/",
+    "https://www.hpam.jp/museum/exhibitions/3rd26/",
+    "https://www.hpam.jp/museum/exhibitions/fukutomi/",
+    "https://www.hpam.jp/museum/exhibitions/2nd26/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon","tue","wed","thu","sat","sun","holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    },
+    {
+      "days": ["fri"],
+      "open": "09:00",
+      "close": "19:00",
+      "last_entry": "18:30",
+      "from": "2026-09-24",
+      "to": "2027-03-31"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-25",
+      "to": "2027-01-01",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "第２期 サマーミュージアム アニマル＆モンスター Ａ-Ｚ",
+      "start": "2026-07-24",
+      "end": "2026-10-12",
+      "url": "https://www.hpam.jp/museum/exhibitions/2nd26/",
+      "kind": "collection",
+      "summary": "A〜Zのアルファベット順に動物・怪物をテーマにした所蔵作品展示",
+      "recommend": null,
+      "admission": "一般 510円",
+      "adult_price": 510
+    },
+    {
+      "title": "没後30年 菅井汲",
+      "start": "2026-10-02",
+      "end": "2026-12-06",
+      "url": "https://www.hpam.jp/museum/exhibitions/sugaikumi/",
+      "kind": "special",
+      "summary": "国際的に活躍した抽象画家・菅井汲の没後30年回顧展。日本初公開作品含む約70点",
+      "recommend": "ドイツを拠点に国際的な高評価を受けた抽象画家・菅井汲の日本初の大規模回顧展。木枠から外して保管されていた初公開作品や愛車ポルシェ・カレラRSも展示され、画家の情熱と軌跡をたどれる。",
+      "admission": "一般 1,500円",
+      "adult_price": 1500,
+      "closed_weekdays": []
+    },
+    {
+      "title": "第３期 コレクション・フォーカス：山を描く 佐々木邦彦―知られざる絵と言葉／戦前戦後の前衛",
+      "start": "2026-10-17",
+      "end": "2027-01-17",
+      "url": "https://www.hpam.jp/museum/exhibitions/3rd26/",
+      "kind": "collection",
+      "summary": "広島出身の日本画家・佐々木邦彦の初回顧展と、菅井汲関連の戦前戦後前衛作品を展示",
+      "recommend": null,
+      "admission": "一般 510円",
+      "adult_price": 510
+    },
+    {
+      "title": "コレクター福富太郎の眼 昭和のキャバレー王が愛した絵画",
+      "start": "2026-12-15",
+      "end": "2027-02-07",
+      "url": "https://www.hpam.jp/museum/exhibitions/fukutomi/",
+      "kind": "special",
+      "summary": "昭和のキャバレー王・福富太郎が収集した鏑木清方・岡田三郎助ら近代日本絵画の精華",
+      "recommend": "「昭和のキャバレー王」として知られた実業家・福富太郎が半世紀かけて集めた美人画の傑作群。鏑木清方や北野恒富の妖艶な筆致は必見で、民間のコレクションの在り方にも触れられる。",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 510,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "広島",
+      "lines": "JR各線・広島電鉄",
+      "exit": null,
+      "walk_min": null,
+      "note": "広島駅から市内電車1・2・6番で八丁堀へ、白島線乗り換え「縮景園前」下車すぐ。またはひろしまめいぷる～ぷ「県立美術館前（縮景園前）」下車"
+    }
+  ],
+  "highlights": "縮景園に隣接し広島城にもほど近い県立美術館。菅井汲ら広島ゆかりの作家作品を含む近現代美術コレクションを擁し、年複数回の特別展で国内外の名作を紹介。名勝・縮景園との共通券も販売され、庭園散策と合わせた鑑賞が楽しめる。金曜は夜間開館あり。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館。祝日・振替休日は開館（振替休館なし）。金曜日は9/24〜3/31の期間は19時まで夜間延長（4/1〜9/23は20時まで）。縮景園共通券：一般660円・大学生350円。高校生以下・65歳以上・障害者手帳所持者は無料。特別展は別料金。「福富太郎の眼」展の観覧料は公式サイトで未掲載のためnull。",
+  "confidence": "high"
+}

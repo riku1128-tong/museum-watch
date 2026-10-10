@@ -1,6 +1,6 @@
 {
   "id": "Q22118917",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T09:51:37+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,6 +10,7 @@
     "https://sugimurajun.shiomo.jp/",
     "https://sugimurajun.shiomo.jp/planning",
     "https://sugimurajun.shiomo.jp/archives/14752",
+    "https://sugimurajun.shiomo.jp/archives/14369",
     "https://sugimurajun.shiomo.jp/access"
   ],
   "regular_hours": [
@@ -50,6 +51,17 @@
       "kind": "special",
       "summary": "第78回塩竈市美術展「杉村惇賞」受賞者・釣舟富紀子の作品展。塩竈の風景と架空の地方都市を描くアクリル画・日本画材作品",
       "recommend": "塩竈市在住の画家が地元の風景をモチーフに描いたアクリル画と日本画材作品を一堂に展示。地域の視点から創り出された架空の都市の表情が楽しめる受賞記念展。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "ナカムラクニオコレクション展　ニッポン近代洋画を読み解く —和製洋画の源流—",
+      "start": "2026-11-14",
+      "end": "2026-12-20",
+      "url": "https://sugimurajun.shiomo.jp/archives/14369",
+      "kind": "special",
+      "summary": "「和製洋画」の視点から日本近代洋画の形成過程を読み直す展覧会。ナカムラクニオ監修・コレクション展示",
+      "recommend": "「誰が何を学び、何を引き継いだか」という問いで日本近代洋画史を再構築する試み。ナカムラクニオ氏監修のもとコレクションと資料を通じて、地域文化に宿る洋画の系譜を体験する実践的な展覧会。",
       "admission": null,
       "adult_price": null
     }

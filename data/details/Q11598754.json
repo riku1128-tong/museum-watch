@@ -1,7 +1,7 @@
 {
   "id": "Q11598754",
-  "checked_at": "2026-10-02T08:45:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T09:51:44+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.yayoi-yumeji-museum.jp/",
@@ -54,21 +54,8 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [
-    {
-      "from": "2026-09-28",
-      "to": "2026-10-02",
-      "reason": "展示替えのため全館休館"
-    }
-  ],
-  "special_openings": [
-    {
-      "date": "2026-09-24",
-      "open": "10:00",
-      "close": "17:00",
-      "note": "公式トップに「9月22日㊋㊗～27日㊐まで無休」と記載"
-    }
-  ],
+  "special_closures": [],
+  "special_openings": [],
   "exhibitions": [
     {
       "title": "夢二の日本　描かれた理想郷",

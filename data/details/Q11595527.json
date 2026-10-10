@@ -1,12 +1,16 @@
 {
   "id": "Q11595527",
-  "checked_at": "2026-10-02T09:10:00+09:00",
+  "checked_at": "2026-10-10T12:00:00+09:00",
   "check_mode": "full",
-  "operating_status": "unknown",
-  "status_note": null,
+  "operating_status": "permanently_closed",
+  "status_note": "公式URLは404。市の現行施設一覧（/shisetsu/、/genre/kankou、/genre/shigoto/kyouikuiinkai_syougaigakusyu/bunka）いずれにも掲載なし。5回の調査でウェブ上に現役施設としての情報が皆無。",
   "official_url": null,
   "address": null,
-  "source_urls": [],
+  "source_urls": [
+    "https://www.city.kitaakita.akita.jp/shisetsu/",
+    "https://www.city.kitaakita.akita.jp/genre/kankou",
+    "https://www.city.kitaakita.akita.jp/genre/shigoto/kyouikuiinkai_syougaigakusyu/bunka"
+  ],
   "regular_hours": [],
   "closed_weekdays": [],
   "holiday_rule": "unknown",
@@ -19,6 +23,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "2026年10月再々調査。公式URLは404のまま。市サイトの開館時間ページ(archive/contents-5959)は文化会館・展示史料室・鷹巣図書館のみで、本館の記載なし。WebSearchでも情報なし。北秋田市教育委員会(0186-62-8532)に要確認。",
+  "notes": "2026年10月5回目調査（再挑戦モード）。市公式URL（/shisetsu/bunka_sports/min-zoku-shiry-okan.html）は依然404。北秋田市の観光施設・文化施設・文化財係の各一覧ページをすべて確認したが、本館の記載なし。市内の現行文化施設は大太鼓の館・みちのく子供風土記館・伊勢堂岱縄文館・浜辺の歌音楽館・阿仁異人館・伝承館等のみ。複数の観光ガイドや全国博物館DB（museum.or.jp）にも登録なし。WebSearch（extended含む）でも現役施設としての情報ゼロ。廃館日・閉館発表の一次情報は未確認だが、証拠の重みから永久閉館と判定。",
   "confidence": "low"
 }

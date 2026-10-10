@@ -1,0 +1,87 @@
+{
+  "id": "Q7881987",
+  "checked_at": "2026-10-10T09:51:47+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://y-pam.jp/",
+  "address": "〒753-0089 山口県山口市亀山町3-1",
+  "source_urls": [
+    "https://y-pam.jp/",
+    "https://y-pam.jp/info/",
+    "https://y-pam.jp/exhibition/",
+    "https://www.museum.or.jp/museum/6536",
+    "https://kinro-ghibli.com/yamaguchi/",
+    "https://artscape.jp/exhibitions/77025/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-13",
+      "to": "2026-11-16",
+      "reason": "展示替え"
+    },
+    {
+      "from": "2026-12-21",
+      "to": "2027-01-07",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "金曜ロードショーとジブリ展",
+      "start": "2026-07-18",
+      "end": "2026-10-12",
+      "url": "https://kinro-ghibli.com/yamaguchi/",
+      "kind": "special",
+      "summary": "テレビ朝日「金曜ロードショー」とスタジオジブリ作品の世界を体験できる大型企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "「つくる・みる・ささえる」の創造的調和 第79回 山口県美術展覧会",
+      "start": "2026-11-26",
+      "end": "2026-12-13",
+      "url": "https://y-pam.jp/exhibition/",
+      "kind": "special",
+      "summary": "山口県内の芸術家による公募展。洋画・日本画・彫刻・工芸・書・写真など多ジャンルを展示",
+      "recommend": null,
+      "admission": "一般 600円",
+      "adult_price": 600
+    }
+  ],
+  "adult_price": 400,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "山口",
+      "lines": "JR山口線",
+      "exit": null,
+      "walk_min": 15
+    },
+    {
+      "station": "新山口",
+      "lines": "JR山陽本線・JR宇部線",
+      "exit": null,
+      "walk_min": null,
+      "note": "新山口駅から防長バス山口方面行きで約30〜40分「美術館前」下車"
+    }
+  ],
+  "highlights": "山口市の亀山公園に隣接する山口県の代表的な美術館。香月泰男・佐伯祐三ら郷土ゆかりの作家の洋画・日本画・工芸などを収蔵し、テーマ別のコレクション展とともに国内外の大型巡回展を積極的に開催する。緑に囲まれた静かな立地と充実した常設コレクションが魅力。",
+  "closed_between_exhibitions": false,
+  "notes": "旧URL（www.yma-web.jp）はDNS不一致で繋がらず、公式URLはy-pam.jpに変更済み。月曜休館（月曜が祝日・振替休日の場合は開館・翌火曜休館）。特別展開催中は火曜も開館。ジブリ展は事前予約制（当日券販売なし）。入館料はコレクション展一般400円・展覧会によって異なる。2026年10月13日〜11月16日は展示替えのため休館。",
+  "confidence": "high"
+}

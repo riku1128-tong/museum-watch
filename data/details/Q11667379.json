@@ -1,0 +1,75 @@
+{
+  "id": "Q11667379",
+  "checked_at": "2026-10-10T09:51:50+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.pref.kagawa.lg.jp/higasiyamakaii/",
+  "address": "〒762-0066 香川県坂出市沙弥島字南通224-13",
+  "source_urls": [
+    "https://www.pref.kagawa.lg.jp/higasiyamakaii/",
+    "https://www.pref.kagawa.lg.jp/higasiyamakaii/higashiyama/information.html",
+    "https://www.pref.kagawa.lg.jp/higasiyamakaii/higashiyama/access.html",
+    "https://www.pref.kagawa.lg.jp/higasiyamakaii/higashiyama/exhibitions.html",
+    "https://www.pref.kagawa.lg.jp/higasiyamakaii/higashiyama/topics/2026spring.html",
+    "https://www.pref.kagawa.lg.jp/higasiyamakaii/higashiyama/museum/kfvn.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-27",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "令和8年度秋の特別展　小磯良平－神戸が育てたもうひとりの巨匠",
+      "start": "2026-09-19",
+      "end": "2026-11-15",
+      "url": "https://www.pref.kagawa.lg.jp/higasiyamakaii/higashiyama/topics/2026spring.html",
+      "kind": "special",
+      "summary": "洋画家・小磯良平(1903〜1988)の油彩・スケッチ・挿絵原画等。東山魁夷との交友エピソードも交えて紹介",
+      "recommend": "同じ神戸の旧制中学で学んだ魁夷と小磯。神戸を愛した洋画家の油彩・スケッチ・挿絵を魁夷との縁で読み解く、二人の巨匠を同時に味わえる稀有な展覧会。",
+      "admission": "一般 800円",
+      "adult_price": 800
+    },
+    {
+      "title": "令和8年度第3期テーマ作品展　古き町にて－北欧の自然と暮らし",
+      "start": "2026-11-19",
+      "end": "2027-01-24",
+      "url": "https://www.pref.kagawa.lg.jp/higasiyamakaii/",
+      "kind": "collection",
+      "summary": "所蔵の東山魁夷版画から北欧の自然・暮らしをテーマに選んだテーマ作品展",
+      "recommend": null,
+      "admission": "一般 400円",
+      "adult_price": 400
+    }
+  ],
+  "adult_price": 400,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "坂出",
+      "lines": "JR瀬戸大橋線・予讃線",
+      "exit": null,
+      "walk_min": null,
+      "note": "駅南口3番乗り場から琴参バス瀬居線で約20分「美術館前」下車。乗合タクシー（要予約・スミレタクシー0120-307-430）も利用可。車の場合は「瀬戸大橋記念公園 西駐車場」（無料・300台）に駐車し徒歩約200m"
+    }
+  ],
+  "highlights": "東山魁夷の祖父の故郷・坂出市沙弥島に建つ香川県立美術館。遺族から寄贈された版画270点余を所蔵し、谷口建築設計研究所設計の建物から瀬戸大橋を一望できる。特別展と四半期ごとのテーマ作品展で魁夷の版画世界を多角的に紹介する。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「月曜日（休日の場合は開館、翌日火曜日が休館）」「年末年始12/27〜1/1」「展覧会準備期間」。GW・夏期（7/26〜8/31）は無休（展示替えと重なる場合は臨時休館）。開館カレンダーはPNG画像のため詳細を読めず。特別展・テーマ作品展の間に展示替え期間があると思われるが日付は未確認（臨時休館が入ることがあると公式に記載）。adult_priceはテーマ作品展（常設相当）の一般料金400円を入れた。",
+  "confidence": "high"
+}

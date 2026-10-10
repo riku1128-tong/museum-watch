@@ -1,0 +1,81 @@
+{
+  "id": "Q10855706",
+  "checked_at": "2026-10-10T10:09:29+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://open-air-museum.org/",
+  "address": "〒899-6201 鹿児島県姶良郡湧水町木場6340番地220",
+  "source_urls": [
+    "https://open-air-museum.org/",
+    "https://open-air-museum.org/facility",
+    "https://open-air-museum.org/access/",
+    "https://open-air-museum.org/event/event-44068",
+    "https://open-air-museum.org/news/news-44231",
+    "https://open-air-museum.org/news/news-44313"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    },
+    {
+      "days": ["sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "19:00",
+      "last_entry": "18:30",
+      "from": "2026-07-20",
+      "to": "2026-08-31"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-02", "reason": "年末年始"},
+    {"from": "2027-02-15", "to": "2027-02-22", "reason": "メンテナンス"}
+  ],
+  "special_openings": [
+    {"date": "2026-11-02", "note": "月曜日だが臨時開園（展覧会関連）"}
+  ],
+  "exhibitions": [
+    {
+      "title": "2026年度アートラボ・プロジェクト 井上涼展「ふたりのマチルダ」",
+      "start": "2026-10-03",
+      "end": "2026-11-29",
+      "url": "https://open-air-museum.org/event/event-44068",
+      "kind": "special",
+      "summary": "アニメ作家・井上涼の個展。初期作から最新映像まで時系列で紹介し、鹿児島を舞台の新キャラも発表",
+      "recommend": "初期作品から最新映像《忍者も樹花鳥獣図屏風に入りたい》まで時系列で展開する個展。鹿児島を舞台に描く新キャラクター「マチルダ」の新作も初お目見えで、アニメ作家ならではの視点と物語性が楽しめる。",
+      "admission": "一律 500円（幼児無料）",
+      "adult_price": 500
+    },
+    {
+      "title": "2026年度 秋コレクション展",
+      "start": "2026-10-03",
+      "end": "2026-11-29",
+      "url": "https://open-air-museum.org/news/news-44231",
+      "kind": "collection",
+      "summary": "屋内所蔵作品によるコレクション展（アートホール第1・第3展示室）。野外常設展も含む通常入場",
+      "recommend": null,
+      "admission": "一般 400円",
+      "adult_price": 400
+    }
+  ],
+  "adult_price": 400,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "栗野",
+      "lines": "JR肥薩線",
+      "walk_min": null,
+      "note": "湧水町営ふるさとバス（土日祝のみ）で約20分、またはタクシー。九州自動車道栗野ICから車で約20分"
+    }
+  ],
+  "highlights": "霧島連山を望む鹿児島の自然を舞台に、草間彌生ら国内外の作家による現代彫刻・インスタレーションが点在する野外美術館。四季を通じて野外常設作品と自然の融合が楽しめ、屋内アートホールでは毎年新たな企画展を開催。JR肥薩線が2026年7月に運行再開し、栗野駅からのアクセスも改善した。",
+  "closed_between_exhibitions": false,
+  "notes": "10/12（月・祝・スポーツの日）は開園、翌10/13（火）休園。11/2（月）は通常休園日だが臨時開園。11/23（月・祝・勤労感謝の日）は開園、翌11/24（火）休園。",
+  "confidence": "high"
+}

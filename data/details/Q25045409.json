@@ -1,0 +1,80 @@
+{
+  "id": "Q25045409",
+  "checked_at": "2026-10-10T09:51:39+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://ngp.jp/nagashima-museum/",
+  "address": "〒890-0045 鹿児島県鹿児島市武3-42-18",
+  "source_urls": [
+    "https://ngp.jp/nagashima-museum/",
+    "https://ngp.jp/nagashima-museum/entry96.html",
+    "https://ngp.jp/nagashima-museum/entry2.html",
+    "https://www.museum.or.jp/museum/7648",
+    "https://artscape.jp/museum/2893/",
+    "https://artscape.jp/exhibitions/79479/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "常設展（黒田清輝・東郷青児・ロダンほか）",
+      "start": "2026-01-01",
+      "end": "2027-10-10",
+      "url": null,
+      "kind": "collection",
+      "summary": "通年。郷土作家の黒田清輝・藤島武二・東郷青児やロダン・シャガール・ユトリロの絵画・彫刻、南米先史美術品、薩摩焼など約1,000点を展示",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "小さな さつま焼展",
+      "start": "2026-09-20",
+      "end": "2026-11-30",
+      "url": null,
+      "kind": "special",
+      "summary": "館所蔵の薩摩焼小品に焦点を当てた企画展",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "第10回ぞ展～百花繚乱、造形を超えて",
+      "start": "2026-10-03",
+      "end": "2026-10-12",
+      "url": "https://artscape.jp/exhibitions/79479/",
+      "kind": "other",
+      "summary": "鹿児島の作家26名による絵画・版画・写真・イラスト・映像・デザインのグループ展（10回目）",
+      "recommend": "10年の節目を迎えた鹿児島の草の根グループ展。多彩な表現ジャンルで約100点が一堂に集まり、地域の美術文化の厚みを感じられる機会。",
+      "admission": "無料（常設展別途）",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "鹿児島中央",
+      "lines": "JR鹿児島本線・九州新幹線他",
+      "exit": "西口",
+      "walk_min": null,
+      "note": "西口から車で約5分（敷地内無料駐車場100台）。またはJR鹿児島中央駅東22番乗り場から鹿児島交通・南国交通バスで「武中学校下」下車後、徒歩約20分（急坂あり、タクシー利用推奨）。九州自動車道鹿児島ICから武岡トンネル経由で車10分"
+    }
+  ],
+  "highlights": "1989年の鹿児島市制100周年に開館。長島企業グループ創立者が収集した黒田清輝・東郷青児ら郷土作家やロダン・シャガール・ユトリロら海外巨匠の絵画・彫刻、薩摩焼を含む約1,000点を所蔵。桜島と錦江湾を望む高台に建ち、本館2階のカフェからも絶景が楽しめる。",
+  "closed_between_exhibitions": false,
+  "notes": "常設展入館料: 一般1,000円・高大生800円・小中生400円・65歳以上500円（20名以上の団体は割引）。企画展は別途料金。公式サイトは日本語文字化けがひどく、第三者情報サイトを参照。「小さな さつま焼展」の詳細内容は公式サイト参照のこと。",
+  "confidence": "medium"
+}

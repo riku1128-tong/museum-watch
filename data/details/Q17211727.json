@@ -1,7 +1,7 @@
 {
   "id": "Q17211727",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-10T15:58:06+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.2480.jp/",
@@ -10,8 +10,8 @@
     "https://www.2480.jp/",
     "https://www.2480.jp/guide/",
     "https://www.2480.jp/news/",
-    "https://www.2480.jp/news/%e4%bc%81%e7%94%bb%e5%b1%95%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bc%88%e4%ba%88%e5%91%8a%ef%bc%89-44/",
-    "https://www.2480.jp/news/%e3%80%90%e9%87%8d%e8%a6%81%e3%81%aa%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%80%91/"
+    "https://www.2480.jp/news/%e4%bc%81%e7%94%bb%e5%b1%95%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e4%ba%88%e5%91%8a%ef%bc%89-6/",
+    "https://www.2480.jp/news/%e4%bc%81%e7%94%bb%e5%b1%95%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bc%88%e4%ba%88%e5%91%8a%ef%bc%89-44/"
   ],
   "adult_price": 1200,
   "access": [
@@ -24,42 +24,32 @@
   ],
   "regular_hours": [
     {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
       "open": "11:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": [
-    "mon",
-    "tue"
-  ],
+  "closed_weekdays": ["mon", "tue"],
+  "closed_nth_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "第5回 語りと鑑賞の美術展",
-      "start": "2026-09-16",
-      "end": "2026-10-04",
-      "url": "https://www.2480.jp/news/%e4%bc%81%e7%94%bb%e5%b1%95%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bc%88%e4%ba%88%e5%91%8a%ef%bc%89-44/",
+      "title": "えだむらかつみ個展 いのちの女神～Living by your side～",
+      "start": "2026-10-07",
+      "end": "2026-10-18",
+      "url": "https://www.2480.jp/news/%e4%bc%81%e7%94%bb%e5%b1%95%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e4%ba%88%e5%91%8a%ef%bc%89-6/",
       "kind": "special",
-      "summary": "後藤吉久ら10名の作品展。特別出展に上村松園、織田廣喜、横尾忠則",
+      "summary": "えだむらかつみによる個展",
+      "recommend": null,
       "admission": "一般 1,200円",
       "adult_price": 1200
     }
   ],
-  "highlights": "ユトリロの収蔵点数日本一を誇る私立美術館。エコール・ド・パリの巨匠モーリス・ユトリロの絵画を多数展示するユトリロ館、オーギュスト・ロダンの彫刻と世界18か国の銘石73点（計43トン）を展示するロダン銘石館、マイセン磁器でコーヒーを楽しめるカフェが揃う。",
+  "highlights": "ユトリロの収蔵点数日本一を誇る私立美術館。エコール・ド・パリの巨匠モーリス・ユトリロの絵画を多数展示するユトリロ館、オーギュスト・ロダンの彫刻と世界18か国の銘石73点（計43トン）を展示するロダン銘石館（入場無料）、マイセン磁器でコーヒーを楽しめるカフェが揃う。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は「月曜日・火曜日（祝日・振替休日は開館）」、振替休館の記載なし。「年末年始のほか、整備休館など臨時に休館及び開館することがあります」（日付は未掲載）。入館料 1,200円は館共通の一般料金（企画展・常設展共通）。ユトリロ館・ロダン銘石館などの常設展示あり（会期表記なし）。9/2 のお知らせは売却の噂の否定。",
+  "notes": "休館日は「月曜日・火曜日（祝日・振替休日は開館）」。「年末年始のほか、整備休館など臨時に休館及び開館することがあります」（日付は未掲載）。入館料1,200円は館共通の一般料金。ロダン・銘石館は2013年4月より入場無料。2026/9/30付お知らせでえだむらかつみ個展（10/7〜10/18）の告知あり。10/18以降の展覧会情報は未掲載。",
   "confidence": "high"
 }

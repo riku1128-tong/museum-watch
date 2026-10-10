@@ -1,0 +1,77 @@
+{
+  "id": "Q3298536",
+  "checked_at": "2026-10-10T10:07:19+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.miyazaki-archive.jp/bijutsu/",
+  "address": "〒880-0031 宮崎県宮崎市船塚3-210",
+  "source_urls": [
+    "https://www.miyazaki-archive.jp/bijutsu/",
+    "https://www.museum.or.jp/museum/7549",
+    "https://www.miyazaki-archive.jp/bijutsu/box/collection.html",
+    "https://www.miyazaki-archive.jp/bijutsu/box/tokubetsu.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "2026年度 第3期コレクション展",
+      "start": "2026-10-10",
+      "end": "2026-12-22",
+      "url": "https://www.miyazaki-archive.jp/bijutsu/box/collection.html",
+      "kind": "collection",
+      "summary": "年4回開催のコレクション展。宮崎ゆかりの作家や海外の作品を幅広く紹介する通年",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "特別展（イタリア近現代美術関連・詳細タイトル未確認）",
+      "start": "2026-10-31",
+      "end": "2026-12-23",
+      "url": "https://www.miyazaki-archive.jp/bijutsu/box/tokubetsu.html",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "宮崎",
+      "lines": "JR日豊本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "宮崎交通バス（古賀病院・綾・酒泉の杜方面行き）で約14分「文化公園前」下車すぐ。タクシー約15分"
+    }
+  ],
+  "highlights": "宮崎出身の洋画家・瑛九の初期から晩年までの作品群を核とし、マグリット・デ・キリコのシュルレアリスム名品、アルナルド・ポモドーロら全国屈指のイタリア現代彫刻も常設。コレクション展は無料で気軽に鑑賞できる。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日の場合は開館、翌平日休館）。また休日の翌日（土日除く）も休館するルールがある。コレクション展は無料、特別展はそのつど料金設定。公式サイトはShift_JIS圧縮による文字化けが激しく、特別展の正確なタイトルと入館料は確認できなかった（会期10/31-12/23は確認済み）。特別展の休館日: 月曜（11/23祝は開館、11/4と11/24は休館）。駐車場532台無料。",
+  "confidence": "medium"
+}

@@ -1,6 +1,6 @@
 {
   "id": "Q11431794",
-  "checked_at": "2026-10-02T08:27:08+09:00",
+  "checked_at": "2026-10-10T09:51:44+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "改装休館中（2021年4月5日より）。再開予定日未定。",
@@ -32,7 +32,12 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
-  "special_openings": [],
+  "special_openings": [
+    {
+      "date": "2026-11-03",
+      "note": "文化の日ワンデイオープン（1日限りの特別一般公開、予約不要）。所蔵コレクション「ドーム兄弟＆ルネ・ラリック展」を観覧可"
+    }
+  ],
   "exhibitions": [],
   "adult_price": null,
   "free_days": [],

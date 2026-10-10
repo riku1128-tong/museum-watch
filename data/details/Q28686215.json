@@ -1,6 +1,6 @@
 {
   "id": "Q28686215",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T15:57:58+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -33,8 +33,24 @@
     "tue"
   ],
   "holiday_rule": "open",
-  "special_closures": [],
-  "special_openings": [],
+  "special_closures": [
+    {
+      "from": "2026-12-31",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    },
+    {
+      "from": "2027-01-18",
+      "to": "2027-01-22",
+      "reason": "メンテナンス休館"
+    }
+  ],
+  "special_openings": [
+    {
+      "date": "2026-12-29",
+      "note": "年末年始 臨時開館（通常火曜休館日だが開館）"
+    }
+  ],
   "exhibitions": [
     {
       "title": "銀河鉄道999 THE GALAXY EXPERIENCE　あの旅は、まだ続いている。",

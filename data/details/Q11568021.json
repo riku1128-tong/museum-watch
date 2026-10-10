@@ -1,0 +1,96 @@
+{
+  "id": "Q11568021",
+  "checked_at": "2026-10-10T10:03:22+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.camk.jp/",
+  "address": "〒860-0845 熊本県熊本市中央区上通町2番3号",
+  "source_urls": [
+    "https://www.camk.jp/",
+    "https://www.camk.jp/information/guide/",
+    "https://www.camk.jp/information/access/",
+    "https://www.camk.jp/exhibition/",
+    "https://www.camk.jp/exhibition/placard/",
+    "https://www.camk.jp/about/museum/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    }
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "プラカードのために",
+      "start": "2026-09-19",
+      "end": "2026-11-29",
+      "url": "https://www.camk.jp/exhibition/placard/",
+      "kind": "special",
+      "summary": "田部光子(1933-2024)の仕事を起点に、社会の周縁で尊厳を問う7作家の作品を紹介",
+      "recommend": "「プラカード」という言葉に込められた社会変革への意志を軸に、生活に根ざした実践を続ける7名の作家の多様な表現が一堂に会す。",
+      "admission": "一般1,300円（前売・団体等1,100円）",
+      "adult_price": 1300
+    },
+    {
+      "title": "CAMKスクリーニングVol.4 ひびのこづえ《ROOT：根》上演資料 2025年11月23日・24日松本公演",
+      "start": "2026-08-26",
+      "end": "2026-10-25",
+      "url": "https://www.camk.jp/exhibition/",
+      "kind": "other",
+      "summary": "ひびのこづえによる上演資料の展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "GⅢ-Vol.166 熊本市の夏の名物！こどもおもしろおばけ屋敷10周年記念 大アーカイブ展",
+      "start": "2026-08-27",
+      "end": "2026-10-25",
+      "url": "https://www.camk.jp/exhibition/",
+      "kind": "other",
+      "summary": "熊本の夏の人気イベント「こどもおもしろおばけ屋敷」の10周年記念アーカイブ展（ギャラリーIII）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "GⅢ-Vol.167 Dolly ( ) 諫山元貴",
+      "start": "2026-10-31",
+      "end": "2026-12-27",
+      "url": "https://www.camk.jp/exhibition/",
+      "kind": "special",
+      "summary": "諫山元貴の個展（ギャラリーIII）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "通町筋",
+      "lines": "熊本市電",
+      "walk_min": 1,
+      "note": null
+    },
+    {
+      "station": "熊本",
+      "lines": "JR鹿児島本線・九州新幹線",
+      "walk_min": null,
+      "note": "熊本駅から熊本市電で約15分、通町筋電停下車"
+    }
+  ],
+  "highlights": "熊本市中心部・上通商店街に位置する現代美術館。2002年開館で、メインギャラリーの企画展のほか、ギャラリーIII（GⅢ）でも新進作家の個展・グループ展を常時開催。無料で楽しめるスペースが多く、街歩きのついでに立ち寄りやすい。夜20時まで開いているのも特徴。",
+  "closed_between_exhibitions": false,
+  "notes": "主ギャラリーの企画展のみ有料、GⅢ等は無料または展覧会ごとに異なる。年末年始休館（具体日程は未確認）。火曜が祝日の場合は翌平日休館。入館料は展覧会ごとに異なりlast_entry情報は展覧会ページに「展覧会入場は午後7時30分まで」と記載。",
+  "confidence": "high"
+}

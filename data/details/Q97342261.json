@@ -1,0 +1,111 @@
+{
+  "id": "Q97342261",
+  "checked_at": "2026-10-10T09:51:44+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.shimonoseki.lg.jp/site/art/",
+  "address": "〒752-0986 山口県下関市長府黒門東町1-1",
+  "source_urls": [
+    "https://www.city.shimonoseki.lg.jp/site/art/",
+    "https://www.city.shimonoseki.lg.jp/site/art/6625.html",
+    "https://www.city.shimonoseki.lg.jp/site/art/6615.html",
+    "https://www.city.shimonoseki.lg.jp/site/art/160520.html",
+    "https://www.city.shimonoseki.lg.jp/site/art/160656.html",
+    "https://www.city.shimonoseki.lg.jp/site/art/6618.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-23",
+      "reason": "展示替え（所蔵品展No.172終了→芸術文化祭開幕前）"
+    },
+    {
+      "from": "2026-11-08",
+      "to": "2026-11-27",
+      "reason": "展示替え（芸術文化祭終了→ミュシャ展開幕前）"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "所蔵品展No.172 コレクション名品選",
+      "start": "2026-08-29",
+      "end": "2026-10-12",
+      "url": "https://www.city.shimonoseki.lg.jp/site/art/160520.html",
+      "kind": "collection",
+      "summary": "館蔵品から選りすぐった名品を展示するコレクション展",
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "第20回下関市芸術文化祭・美術展",
+      "start": "2026-10-24",
+      "end": "2026-11-07",
+      "url": null,
+      "kind": "other",
+      "summary": "下関市の芸術文化祭として館内で開催される市民美術展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "ミュシャ展 アール・ヌーヴォーの女神たち",
+      "start": "2026-11-28",
+      "end": "2027-01-24",
+      "url": "https://www.city.shimonoseki.lg.jp/site/art/160656.html",
+      "kind": "special",
+      "summary": "アール・ヌーヴォーを代表するチェコの画家ミュシャの作品を紹介する特別展",
+      "recommend": null,
+      "admission": "一般 1,800円",
+      "adult_price": 1800,
+      "closed_dates": ["2026-12-28", "2026-12-29", "2026-12-30", "2026-12-31", "2027-01-01"]
+    }
+  ],
+  "adult_price": 210,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "下関",
+      "lines": "JR山陽本線・山陰本線",
+      "exit": "東口",
+      "walk_min": null,
+      "note": "東口バスロータリー1・2番乗場から「市立美術館前・関門医療センター」行きで約20分、下車徒歩1分"
+    },
+    {
+      "station": "長府",
+      "lines": "JR山陽本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "長府駅前バス停から「下関駅」または「市民病院」行きで約15分"
+    },
+    {
+      "station": "新下関",
+      "lines": "JR山陽新幹線・山陽本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "駅バスロータリー3番乗場から「マリンランド」または「下関駅」行きで約25分、「松原」下車徒歩3分（運行本数少）"
+    }
+  ],
+  "highlights": "長府の歴史的街並みに建つ下関市の公立美術館。幕末に活躍した下関藩ゆかりの画家・狩野芳崖の代表作をはじめ、近代山水画の高島北海や下関出身の小田海僊ら地元ゆかりの作家を核に、日本画・洋画・工芸を幅広く収蔵。年4〜5回テーマを替える所蔵品展のほか、国内外の意欲的な特別展も積極的に開催する。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は「祝日以外の月曜日・年末年始・展示替え期間」。祝日（月曜）は開館し振替休館なし（holiday_rule: open）。1月11日（成人の日）はミュシャ展の休館日ページに明記で開館。年末年始12/28〜1/1はミュシャ展ページに明記。展示替え期間（10/13〜10/23、11/8〜11/27）は年間スケジュールから推算し、special_closuresに追加。特別展の会期中は所蔵品を展示しないため常設展との重複はない。",
+  "confidence": "high"
+}

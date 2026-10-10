@@ -1,0 +1,89 @@
+{
+  "id": "Q11315898",
+  "checked_at": "2026-10-10T15:58:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": null,
+  "address": "〒799-1607 愛媛県今治市朝倉上甲2930",
+  "source_urls": [
+    "https://www.towelmuseum.com/",
+    "https://www.towelmuseum.com/information/",
+    "https://www.towelmuseum.com/exhibition-list/",
+    "https://www.towelmuseum.com/exhibition/sp/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2027-01-14",
+      "to": "2027-01-14",
+      "reason": "臨時休館"
+    },
+    {
+      "from": "2027-01-19",
+      "to": "2027-01-19",
+      "reason": "臨時休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "SNOOPY Hug Your Happiness ～スヌーピー 好きに包まれる展～",
+      "start": "2026-08-01",
+      "end": "2027-01-26",
+      "url": "https://www.towelmuseum.com/exhibition/sp/",
+      "kind": "special",
+      "summary": "スヌーピーをテーマにした企画展。全長約2mのぬいぐるみなど約80点のタオルアートを展示",
+      "recommend": "全長約2mの巨大スヌーピーぬいぐるみをはじめ、タオル素材ならではの柔らかな作品約80点が並ぶ。スヌーピーへの「好き」をまるごと体感する展示で、見て触れる一体感が魅力。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "ムーミンの世界へ",
+      "start": "2026-01-01",
+      "end": "2027-10-10",
+      "url": "https://www.towelmuseum.com/exhibition/exhibition-619/",
+      "kind": "collection",
+      "summary": "通年",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "キャシー中島の世界　ハワイの風をあなたに",
+      "start": "2026-01-01",
+      "end": "2027-10-10",
+      "url": "https://www.towelmuseum.com/exhibition/exhibition-243/",
+      "kind": "collection",
+      "summary": "通年",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "伊予三芳",
+      "lines": "JR予讃線",
+      "exit": null,
+      "walk_min": null,
+      "note": "伊予三芳駅からタクシー約10分（徒歩約42分）。JR今治駅からタクシー約25分。車：今治小松自動車道東予丹原ICから約13分。無料駐車場250台"
+    }
+  ],
+  "highlights": "タオルの産地・今治を代表する体験型ミュージアム。スヌーピー・ムーミンなどキャラクターをテーマにしたタオルアートのギャラリーが5フロアに展開し、製造工程の見学や工房体験、タオル製品のショッピングも楽しめる。年末年始も開館する通年施設。",
+  "closed_between_exhibitions": false,
+  "notes": "年末年始も開館（レストラン王府井・一部イルミネーションは12/31・1/1のみ制限あり）。2027/1/14・1/19は臨時休館。SNOOPY展は5階有料ギャラリーでの開催。常設展2件（ムーミン・キャシー中島）の開始日は未確認のため2026-01-01を暫定値として入力。",
+  "confidence": "medium"
+}

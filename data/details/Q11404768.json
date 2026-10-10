@@ -1,6 +1,6 @@
 {
   "id": "Q11404768",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T09:59:06+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -54,6 +54,6 @@
   ],
   "highlights": "旧津山扇形機関車庫（国の重要文化財）を活用した鉄道博物館。全国最大規模のSLを含む蒸気機関車14両が扇形庫に並ぶ圧巻の展示が見どころ。鉄道の歴史や仕組みをわかりやすく学べる体験型展示も充実。",
   "closed_between_exhibitions": false,
-  "notes": "元の公式URL（westjr.co.jp）は404のため津山観光協会の公式ページに更新。",
+  "notes": "元の公式URL（westjr.co.jp）は404のため津山観光協会の公式ページに更新。2026/10/10再確認：公式サイト（tsuyamakan.jp）はJS描画で内容を取得できず。museum.or.jp・WebSearchで開館時間・休館日は変更なしを確認。展示情報はテキストでは読み取れず。",
   "confidence": "high"
 }

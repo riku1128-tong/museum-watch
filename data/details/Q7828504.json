@@ -1,0 +1,52 @@
+{
+  "id": "Q7828504",
+  "checked_at": "2026-10-10T10:08:56+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.tottori-mingei.jp",
+  "address": "〒680-0831 鳥取県鳥取市栄町651",
+  "source_urls": [
+    "https://www.tottori-mingei.jp"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": ["wed"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "古伊万里",
+      "start": "2026-08-29",
+      "end": "2027-02-14",
+      "url": null,
+      "kind": "special",
+      "summary": "江戸時代に肥前（現佐賀県）で焼かれた古伊万里焼を紹介する展覧会",
+      "recommend": null,
+      "admission": "大人 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "鳥取",
+      "lines": "JR山陰本線・因美線",
+      "exit": "北口",
+      "walk_min": 4,
+      "note": "北口から地下道で横断し民芸館通りへ。専用駐車場なし"
+    }
+  ],
+  "highlights": "鳥取市中心部の民芸館通りに建つ民芸専門の美術館。陶磁器・漆器・染織・木工品など日常の道具に宿る「用の美」を体現する民芸品を収蔵・展示する。年間パスポートを設けるほど多彩な企画展を開催し、鳥取駅北口から地下道を経て徒歩4分とアクセスしやすい。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日は毎週水曜（祝日の場合は開館し翌日休館）、年末年始（具体日程は未確認）、展示替えの臨時休館あり。学生料金300円、高校生以下無料、年間パスポート1,000円。",
+  "confidence": "high"
+}

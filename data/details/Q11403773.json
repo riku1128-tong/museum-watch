@@ -1,6 +1,6 @@
 {
   "id": "Q11403773",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:00:52+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -33,14 +33,14 @@
   "holiday_rule": "open",
   "special_closures": [
     {
-      "from": "2026-09-30",
-      "to": "2026-09-30",
-      "reason": "ガラス展示替えのため"
-    },
-    {
       "from": "2026-12-31",
       "to": "2027-01-01",
       "reason": "年末年始"
+    },
+    {
+      "from": "2027-02-16",
+      "to": "2027-02-25",
+      "reason": "大規模修繕工事"
     }
   ],
   "special_openings": [],
@@ -57,6 +57,17 @@
       "adult_price": 1200
     },
     {
+      "title": "北澤コレクション名品展　秋",
+      "start": "2026-09-02",
+      "end": "2026-11-23",
+      "url": null,
+      "kind": "collection",
+      "summary": "北澤コレクションの日本画名品を紹介する秋の常設展示",
+      "recommend": null,
+      "admission": "一般 1,200円",
+      "adult_price": 1200
+    },
+    {
       "title": "ミクロモザイク ～緻密なガラスの世界～",
       "start": "2026-09-12",
       "end": "2026-11-08",
@@ -64,6 +75,17 @@
       "kind": "special",
       "summary": "イタリア発祥の伝統工芸・ミクロモザイクを用いた繊細なガラスアクセサリーや額絵を紹介",
       "recommend": "1〜2ミリの微細なガラス片を緻密に並べて描くミクロモザイクの世界を、海津屋・川中薫ら国内作家の個性豊かな作品で体験できる",
+      "admission": "一般 1,200円",
+      "adult_price": 1200
+    },
+    {
+      "title": "北澤コレクション名品展　冬",
+      "start": "2026-11-25",
+      "end": "2027-02-15",
+      "url": null,
+      "kind": "collection",
+      "summary": "北澤コレクションの日本画名品を紹介する冬の常設展示（準備中）",
+      "recommend": null,
       "admission": "一般 1,200円",
       "adult_price": 1200
     }

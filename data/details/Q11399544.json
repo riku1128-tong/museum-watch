@@ -1,6 +1,6 @@
 {
   "id": "Q11399544",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:03:17+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://kpac.or.jp/",
     "https://kpac.or.jp/use/services/",
-    "https://kpac.or.jp/access/"
+    "https://kpac.or.jp/access/",
+    "https://kpac.or.jp/news/news260831/"
   ],
   "regular_hours": [
     {
@@ -30,7 +31,13 @@
     "tue"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2027-01-06",
+      "to": "2027-01-07",
+      "reason": "館内メンテナンス"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [],
   "adult_price": null,

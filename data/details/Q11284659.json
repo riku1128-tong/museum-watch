@@ -1,16 +1,17 @@
 {
   "id": "Q11284659",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T09:51:29+09:00",
   "check_mode": "full",
-  "operating_status": "operating",
-  "status_note": "改修工事のため 2026-05-07〜10-29 全面休館。10/30 から別館展示室でプレオープン、12/23 に本館展示室リニューアル",
+  "operating_status": "temporarily_closed",
+  "status_note": "改修工事のため 2026-05-07〜10-29 全面休館。10/30 から別館展示室でプレオープン（一般1,000円）、12/23 に本館展示室グランドオープン",
   "official_url": "https://moaart.or.jp/hakone/",
   "address": "〒250-0408 神奈川県足柄下郡箱根町強羅1300",
   "source_urls": [
     "https://moaart.or.jp/hakone/",
     "https://moaart.or.jp/hakone/guide/",
     "https://moaart.or.jp/hakone/topinfo/20260119/",
-    "https://moaart.or.jp/hakone/informations/"
+    "https://moaart.or.jp/hakone/informations/",
+    "https://moaart.or.jp/hakone/informations/ticket/"
   ],
   "regular_hours": [
     {
@@ -26,7 +27,7 @@
       "open": "09:30",
       "close": "16:30",
       "last_entry": "16:00",
-      "from": "2026-04-01",
+      "from": "2026-10-30",
       "to": "2026-11-30"
     },
     {
@@ -63,11 +64,11 @@
       "title": "プレオープン（別館展示室での展示）",
       "start": "2026-10-30",
       "end": "2026-12-22",
-      "url": "https://moaart.or.jp/hakone/",
+      "url": "https://moaart.or.jp/hakone/informations/ticket/",
       "kind": "collection",
-      "summary": "改修後のプレオープン。別館展示室で公開、12/23に本館展示室がリニューアル",
+      "summary": "改修後のプレオープン。別館展示室で公開、12/23に本館展示室グランドオープン",
       "recommend": null,
-      "admission": "一般 1,000円（プレオープン期間）",
+      "admission": "一般 1,000円、高大生 500円、中学生以下・障がい者 無料",
       "adult_price": 1000
     }
   ],
@@ -85,6 +86,6 @@
   ],
   "highlights": "箱根・強羅に位置するMOAグループの美術館。日本の陶磁器コレクションを中心に展示し、苔むす名勝庭園「神仙郷」と秋の紅葉でも名高い。強羅公園に隣接し、箱根登山ケーブルカー「公園上」駅から徒歩約1分とアクセスしやすい。",
   "closed_between_exhibitions": false,
-  "notes": "開館時間「4月～11月 9:30-16:30（最終入館16:00）」「12月〜3月 9:30-16:00（最終入館15:30）」。休館日「木曜日（祝休日の場合は開館）、年末年始、展示替え日」。入館料 一般1,430円。10/30 以降のプレオープン（別館展示室）の展示タイトル・内容は未公開。 10/1 付でプレオープンのオンラインチケット販売開始のお知らせあり。プレオープン期間(10/30〜12/22)は一般1,000円（検索結果の情報）。展示タイトルは未公開。",
+  "notes": "2026/05/07〜10/29 改修工事のため全面休館。10/30 よりプレオープン（別館展示室、一般1,000円）、12/23 本館展示室グランドオープン予定。グランドオープン以降の入館料・展示内容は未発表（adult_price: 1,430円は改修前の価格）。プレオープン期間の展示内容は公式に未発表。",
   "confidence": "medium"
 }

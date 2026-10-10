@@ -1,0 +1,180 @@
+{
+  "id": "Q11652770",
+  "checked_at": "2026-10-10T10:00:43+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.nagasaki-museum.jp/",
+  "address": "〒850-0862 長崎県長崎市出島町2-1",
+  "source_urls": [
+    "https://www.nagasaki-museum.jp/",
+    "https://www.nagasaki-museum.jp/visit/",
+    "https://www.nagasaki-museum.jp/english/visit/info",
+    "https://www.nagasaki-museum.jp/english/visit/access",
+    "https://www.nagasaki-museum.jp/exhibition/future-exhibition",
+    "https://www.nagasaki-museum.jp/archives/exhibition_post/30638",
+    "https://www.nagasaki-museum.jp/archives/exhibition_post/30875",
+    "https://www.nagasaki-museum.jp/archives/exhibition_post/31181",
+    "https://www.nagasaki-museum.jp/archives/exhibition_post/31184",
+    "https://www.nagasaki-museum.jp/archives/exhibition_post/31185",
+    "https://www.nagasaki-museum.jp/archives/exhibition_post/31186"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "20:00"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "18:00",
+      "from": "2027-01-02",
+      "to": "2027-01-03"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [
+    {"weekday": "mon", "nth": [2, 4]}
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {"from": "2026-12-29", "to": "2027-01-01", "reason": "年末年始"}
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "収蔵名品展―新収蔵作品とともに",
+      "start": "2026-05-15",
+      "end": "2026-10-18",
+      "url": "https://www.nagasaki-museum.jp/archives/exhibition_post/30875",
+      "kind": "collection",
+      "summary": "長崎ゆかりの作品を選りすぐって紹介し、2025年度の新収蔵作品を初公開",
+      "recommend": null,
+      "admission": "一般 420円",
+      "adult_price": 420
+    },
+    {
+      "title": "長崎の工芸・デザイン―暮らしの器・道具",
+      "start": "2026-07-30",
+      "end": "2026-10-18",
+      "url": "https://www.nagasaki-museum.jp/archives/exhibition_post/31181",
+      "kind": "collection",
+      "summary": "長崎の歴史・文化から育まれた工芸・デザイン作品の日常性に焦点を当てたコレクション展",
+      "recommend": null,
+      "admission": "一般 420円",
+      "adult_price": 420
+    },
+    {
+      "title": "須磨コレクション1",
+      "start": "2026-06-09",
+      "end": "2026-11-08",
+      "url": "https://www.nagasaki-museum.jp/archives/exhibition_post/31182",
+      "kind": "collection",
+      "summary": "通年",
+      "recommend": null,
+      "admission": "一般 420円",
+      "adult_price": 420
+    },
+    {
+      "title": "シャガールの〈サーカス〉",
+      "start": "2026-07-28",
+      "end": "2026-10-25",
+      "url": "https://www.nagasaki-museum.jp/archives/exhibition_post/31183",
+      "kind": "collection",
+      "summary": "シャガールのサーカスシリーズ作品を紹介するコレクション展",
+      "recommend": null,
+      "admission": "一般 420円",
+      "adult_price": 420
+    },
+    {
+      "title": "スペイン近現代美術",
+      "start": "2025-07-05",
+      "end": "2027-10-10",
+      "url": "https://www.nagasaki-museum.jp/archives/exhibition_post/31190",
+      "kind": "collection",
+      "summary": "通年",
+      "recommend": null,
+      "admission": "一般 420円",
+      "adult_price": 420
+    },
+    {
+      "title": "Hello Kitty展 -わたしが変わるとキティも変わる-",
+      "start": "2026-10-17",
+      "end": "2027-01-11",
+      "url": "https://www.nagasaki-museum.jp/archives/exhibition_post/30638",
+      "kind": "special",
+      "summary": "誕生から半世紀のハローキティの魅力を、史上最大量のグッズとアーティストコラボ作品で探る",
+      "recommend": "サンリオ史上最大量のグッズと個性派アーティストとのコラボ作品、オリジナル映像で、なぜハローキティが世界中で愛され続けるのかを深掘りする。ファンはもちろん初めての方にも新しい発見が多い展覧会。",
+      "admission": "一般 2,000円",
+      "adult_price": 2000
+    },
+    {
+      "title": "雜賀雄二と軍艦島―〈月の道―Borderland〉",
+      "start": "2026-10-22",
+      "end": "2027-01-24",
+      "url": "https://www.nagasaki-museum.jp/archives/exhibition_post/31184",
+      "kind": "collection",
+      "summary": "写真家・雜賀雄二が月光のみで撮影した軍艦島の岸壁を捉えた「月の道」シリーズ99点",
+      "recommend": "月光だけによる長時間露光で廃墟・軍艦島の岸壁を撮影した唯一無二のシリーズ。島を「死を生きる場所」として視覚化した深い死生観が漂い、新収蔵の99点が一堂に会する稀有な機会。",
+      "admission": "一般 420円",
+      "adult_price": 420
+    },
+    {
+      "title": "彭城貞徳―近年の新収蔵作品と保存修復を中心に",
+      "start": "2026-10-22",
+      "end": "2027-01-24",
+      "url": "https://www.nagasaki-museum.jp/archives/exhibition_post/31185",
+      "kind": "collection",
+      "summary": "長崎出身の洋画家・彭城貞徳の新収蔵2点と保存修復報告を紹介するコレクション展",
+      "recommend": "継続的に収集・研究してきた長崎出身の洋画家・彭城貞徳の新収蔵作品2点を初公開。保存修復処置の報告も含み、文化財保存の現場を身近に知れる貴重な展示。",
+      "admission": "一般 420円",
+      "adult_price": 420
+    },
+    {
+      "title": "雜賀雄二と軍艦島―〈軍艦島―棄てられた島の風景〉",
+      "start": "2026-10-28",
+      "end": "2027-02-07",
+      "url": "https://www.nagasaki-museum.jp/archives/exhibition_post/31186",
+      "kind": "collection",
+      "summary": "廃墟となった軍艦島を長年撮影し続けた写真家・雜賀雄二の新収蔵99点を紹介",
+      "recommend": null,
+      "admission": "一般 420円",
+      "adult_price": 420
+    },
+    {
+      "title": "須磨コレクション2",
+      "start": "2026-11-10",
+      "end": "2027-10-10",
+      "url": "https://www.nagasaki-museum.jp/archives/exhibition_post/31187",
+      "kind": "collection",
+      "summary": "通年",
+      "recommend": null,
+      "admission": "一般 420円",
+      "adult_price": 420
+    }
+  ],
+  "adult_price": 420,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "メディカルセンター",
+      "lines": "長崎電気軌道5号系統",
+      "exit": null,
+      "walk_min": 2,
+      "note": null
+    },
+    {
+      "station": "出島",
+      "lines": "長崎電気軌道1号系統",
+      "exit": null,
+      "walk_min": 3,
+      "note": null
+    }
+  ],
+  "highlights": "長崎ゆかりの美術とスペイン美術を両輪とする県立美術館。約9,000点を収蔵し、長崎出身の洋画家・彭城貞徳やシャガールのサーカスシリーズ、スペイン近現代美術が充実。出島の地に建ち、毎日夜8時まで開館するため観光後の訪問にも適している。",
+  "closed_between_exhibitions": false,
+  "notes": "コレクション展一般420円。特別展（Hello Kitty展など）は別途料金。開館時間は通常10:00-20:00だが1/2-3は18:00まで。10/14-16は都合により10:00-18:00（最終入場17:30）に短縮。第2・第4月曜休館（祝日の場合は翌火曜休館）。年末年始12/29-1/1休館。",
+  "confidence": "high"
+}

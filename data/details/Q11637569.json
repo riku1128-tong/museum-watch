@@ -1,6 +1,6 @@
 {
   "id": "Q11637569",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T10:01:34+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -8,9 +8,8 @@
   "address": "〒389-0111 長野県北佐久郡軽井沢町長倉182",
   "source_urls": [
     "https://museen.org/ehon/",
-    "https://museen.org/access/",
-    "https://museen.org/ehon/exhibition/",
-    "https://www.museum.or.jp/museum/3736"
+    "https://museen.org/information/",
+    "https://museen.org/ehon/exhibition/"
   ],
   "regular_hours": [
     {
@@ -97,6 +96,6 @@
   ],
   "highlights": "欧米絵本の創成期から現代まで広く紹介する日本初の絵本専門美術館。9,000㎡の軽井沢の森に3つの展示館と図書館が点在し、近現代作家の絵本原画や初版本を展示。英国風の庭園「ピクチャレスク・ガーデン」を併設し、自然の中で絵本の世界をゆったりと体感できる。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は火曜日（ゴールデンウィーク・7〜9月は無休）、展示入替期間、冬期（1月中旬〜3月中旬）。冬期の正確な休館日は公式サイトに都度掲載のため special_closures に入れていない。task の official_url (ehonnomoributrmuseum.jp) は存在しない URL のため、実際の URL https://museen.org/ehon/ を使用した。入館料 1,000円はインターネットミュージアム（museum.or.jp）の記載をもとにしているため、confidence を medium とした。",
-  "confidence": "medium"
+  "notes": "休館日は火曜日（GW期間中・7〜9月は無休）、展示入替期間、冬期（1月中旬〜3月中旬）。冬期の正確な休館日は公式サイトに都度掲載。入館料 大人 1,000円（軽井沢絵本の森美術館＋ピクチャレスク・ガーデン込み）。5〜10月は9:30〜17:00、11〜1月・3〜4月は10:00〜16:00。",
+  "confidence": "high"
 }

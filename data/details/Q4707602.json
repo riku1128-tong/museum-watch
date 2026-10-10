@@ -1,0 +1,65 @@
+{
+  "id": "Q4707602",
+  "checked_at": "2026-10-10T10:13:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.hayashibara-museumofart.jp/",
+  "address": "〒700-0823 岡山県岡山市北区丸の内2-7-15",
+  "source_urls": [
+    "http://www.hayashibara-museumofart.jp/",
+    "https://www.museum.or.jp/museum/6237"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "うるしの風景 ―日本の名所と花鳥の彩り―",
+      "start": "2026-09-12",
+      "end": "2026-11-08",
+      "url": null,
+      "kind": "special",
+      "summary": "日本の名所・花鳥をテーマにした漆芸・蒔絵作品を紹介する企画展",
+      "recommend": null,
+      "admission": "一般 600円",
+      "adult_price": 600
+    },
+    {
+      "title": "干支巡礼",
+      "start": "2026-11-21",
+      "end": "2027-01-17",
+      "url": null,
+      "kind": "special",
+      "summary": "干支にちなんだ所蔵作品を紹介する企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "岡山",
+      "lines": "JR各線・新幹線",
+      "exit": null,
+      "walk_min": 25,
+      "note": "東口から徒歩約25分。路面電車「県庁通り」下車徒歩7分、バス（岡電・宇野・循環バスめぐりん）「県庁前」下車徒歩3分"
+    }
+  ],
+  "highlights": "備前岡山藩主・池田家の宝物と実業家・林原一郎が蒐集した約9,000件のコレクションを有する美術館。国宝3件・重要文化財26件を含む刀剣・武具・能装束・蒔絵・絵画など多彩な日本美術の粋が揃い、ミシュラン・グリーンガイドにも掲載された岡山屈指の文化スポット。",
+  "closed_between_exhibitions": true,
+  "notes": "常設展なし、企画展のみ開催。月曜休館（祝日は開館し翌火曜休館）・年末年始・展示替え期間（不定期）も休館。年末年始の具体的な日程は公式サイトで確認できなかったため未記入。次回展覧会「干支巡礼」の会期は museum.or.jp の掲載情報（2026-10-10 確認）。公式サイトはHTTP版が動作しているが各サブページはメインページへリダイレクトされるため詳細ページは確認不可。",
+  "confidence": "medium"
+}

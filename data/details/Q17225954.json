@@ -1,0 +1,59 @@
+{
+  "id": "Q17225954",
+  "checked_at": "2026-10-10T10:06:48+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://yunomae-manga.com/",
+  "address": "〒868-0600 熊本県球磨郡湯前町1834-1",
+  "source_urls": [
+    "https://yunomae-manga.com/",
+    "https://yunomae-manga.com/manga/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "超邪神ちゃん展！",
+      "start": "2026-09-19",
+      "end": "2027-01-11",
+      "url": "https://yunomae-manga.com/",
+      "kind": "special",
+      "summary": "人気ウェブ漫画「超邪神ちゃん」の原画や関連作品を展示する企画展",
+      "recommend": null,
+      "admission": "大人300円",
+      "adult_price": 300
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "湯前",
+      "lines": "くま川鉄道湯前線",
+      "exit": null,
+      "walk_min": 1,
+      "note": "くま川鉄道の終点・湯前駅の目の前"
+    }
+  ],
+  "highlights": "昭和の政治漫画家・那須良輔（1913〜1989年）の生誕地・湯前町に1992年開館した漫画専門の美術館（那須良輔記念館）。那須の風刺漫画作品を核に漫画文化を紹介し、「夏目友人帳」「超邪神ちゃん」など人気漫画とのコラボ企画展も定期開催。くま川鉄道の終点・湯前駅の目の前に位置する。",
+  "closed_between_exhibitions": false,
+  "notes": "年末年始（原則12/28〜1/3）のみ休館。通常は年中無休。大人300円、小・中学生100円、小学生未満無料。熊本県子ども会連合会会員証提示で入館無料。展示の詳細は公式サイトで要確認。",
+  "confidence": "medium"
+}

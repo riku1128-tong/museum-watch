@@ -1,7 +1,7 @@
 {
   "id": "Q11649561",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T09:51:58+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.kiyoshikojin.or.jp/tessai_museum/",
@@ -10,7 +10,8 @@
     "http://www.kiyoshikojin.or.jp/tessai_museum/",
     "https://www.kiyoshikojin.or.jp/tessai_museum/guide/",
     "https://www.kiyoshikojin.or.jp/tessai_exhibition/exhibition20260922/",
-    "https://www.kiyoshikojin.or.jp/access/"
+    "https://www.kiyoshikojin.or.jp/access/",
+    "https://www.kiyoshikojin.or.jp/tessai_news/tessa20260526/"
   ],
   "regular_hours": [
     {
@@ -62,6 +63,17 @@
           "close": "16:30"
         }
       ]
+    },
+    {
+      "title": "鉄斎の富士―池大雅没後250年によせて―",
+      "start": "2026-11-10",
+      "end": "2026-12-13",
+      "url": null,
+      "kind": "special",
+      "summary": "池大雅没後250年にちなんだ、富岡鉄斎の富士を題材にした作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 600,

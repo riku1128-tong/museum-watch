@@ -1,0 +1,136 @@
+{
+  "id": "Q11467091",
+  "checked_at": "2026-10-10T09:51:43+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://hum-web.jp",
+  "address": "〒758-0074 山口県萩市平安古町586-1",
+  "source_urls": [
+    "https://hum-web.jp",
+    "https://hum-web.jp/info/",
+    "https://hum-web.jp/exhibition/",
+    "https://hum-web.jp/exhibition_collection/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-30",
+      "reason": "展示替え"
+    }
+  ],
+  "special_openings": [
+    {
+      "date": "2026-11-02",
+      "note": "特別展開催中の第1月曜日（ファーストマンデー）開館"
+    },
+    {
+      "date": "2026-12-07",
+      "note": "特別展開催中の第1月曜日（ファーストマンデー）開館"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "開館30周年記念 特別企画 歌川広重Ⅰ「冨士三十六景」",
+      "start": "2026-09-15",
+      "end": "2026-10-12",
+      "url": "https://hum-web.jp/exhibition_collection/ukiyoe/",
+      "kind": "collection",
+      "summary": "歌川広重「冨士三十六景」全36図を紹介する開館30周年記念の特別企画展示",
+      "recommend": "富士山を望む各地の風景を繊細に描いた広重の「冨士三十六景」36図が揃い踏み。シリーズ全貌を通覧できる機会で、浮世絵コレクションの豊かさを実感できる。",
+      "admission": "一般400円（20名以上320円）",
+      "adult_price": 400
+    },
+    {
+      "title": "古代中国のやきもの",
+      "start": "2026-05-26",
+      "end": "2026-10-12",
+      "url": "https://hum-web.jp/exhibition_collection/oriental_ceramics/",
+      "kind": "collection",
+      "summary": "浦上コレクションから古代中国の陶磁器を紹介するコレクション展示",
+      "recommend": null,
+      "admission": "一般400円（20名以上320円）",
+      "adult_price": 400
+    },
+    {
+      "title": "焼締陶―土と炎の造形美",
+      "start": "2026-04-28",
+      "end": "2026-10-12",
+      "url": "https://hum-web.jp/exhibition_collection/pottery/",
+      "kind": "collection",
+      "summary": "釉薬をかけずに焼き締めた陶の、土と炎が生み出す造形美を紹介するコレクション展示",
+      "recommend": null,
+      "admission": "一般400円（20名以上320円）",
+      "adult_price": 400
+    },
+    {
+      "title": "第10回現代ガラス展 in 山陽小野田 特別作品展 [萩展]",
+      "start": "2026-09-01",
+      "end": "2026-10-12",
+      "url": null,
+      "kind": "other",
+      "summary": "山陽小野田市を拠点とする現代ガラス展の特別出品作品を萩で展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "NIGO®と半泥子",
+      "start": "2026-10-31",
+      "end": "2026-12-20",
+      "url": "https://hum-web.jp/exhibition/",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "萩焼 New Age",
+      "start": "2026-10-31",
+      "end": "2026-12-20",
+      "url": "https://hum-web.jp/exhibition/",
+      "kind": "special",
+      "summary": "現代の萩焼作家による新しい萩焼の姿を紹介する特別展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "現在形の陶芸 萩大賞展Ⅶ（開館30周年記念）",
+      "start": "2026-10-31",
+      "end": "2026-12-20",
+      "url": "https://hum-web.jp/exhibition/",
+      "kind": "special",
+      "summary": "開館30周年記念として開催する現代陶芸の公募展・萩大賞展第7回",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 400,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "東萩",
+      "lines": "JR山陰本線",
+      "walk_min": null,
+      "note": "東萩駅からタクシーまたはバス。JR新山口駅からは直行バス「スーパーはぎ号」約60分→萩・明倫センター下車→徒歩約5分"
+    }
+  ],
+  "highlights": "萩市出身の実業家・浦上敏朗氏のコレクションを核に1996年開館。浮世絵・東洋陶磁・陶芸工芸を中心に2,000点超のコレクションを誇り、丹下健三設計の本館と陶芸館を有する。ミシュラン・グリーンガイド・ジャポンで山口県内最高ランクの二つ星を獲得した名館。",
+  "closed_between_exhibitions": true,
+  "notes": "月曜休館（祝日は開館・振替なし）。特別展開催中の第1月曜日（ファーストマンデー）は開館（special_openings に11/2・12/7を追加済み）。コレクション展観覧料：一般400円（20名以上320円）、学生250円（200円）、70歳以上・18歳以下・高校生は無料。特別展の観覧料は未確認（admission: null）。",
+  "confidence": "high"
+}

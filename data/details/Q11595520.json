@@ -1,6 +1,6 @@
 {
   "id": "Q11595520",
-  "checked_at": "2026-10-02T08:31:22+09:00",
+  "checked_at": "2026-10-10T10:15:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -18,6 +18,7 @@
     }
   ],
   "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -29,6 +30,8 @@
   "special_openings": [],
   "exhibitions": [],
   "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
   "access": [
     {
       "station": "矢島",

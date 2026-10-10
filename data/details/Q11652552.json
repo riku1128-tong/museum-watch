@@ -1,0 +1,67 @@
+{
+  "id": "Q11652552",
+  "checked_at": "2026-10-10T10:00:59+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.nagasaki.lg.jp/kanko/820000/828000/p025651.html",
+  "address": "〒850-0918 長崎県長崎市大浦1-37 旧長崎英国領事館2階",
+  "source_urls": [
+    "https://www.city.nagasaki.lg.jp/kanko/820000/828000/p025651.html",
+    "https://www.city.nagasaki.lg.jp/page/3833.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "野口彌太郎没後50年「野口彌太郎ー色の探究者ー」",
+      "start": "2026-09-08",
+      "end": "2026-12-13",
+      "url": "https://www.city.nagasaki.lg.jp/page/3833.html",
+      "kind": "special",
+      "summary": "没後50年記念。後期展（9/8〜12/13）は鎌倉期の晩年を中心に、アジア・ヨーロッパ・モロッコへの取材と色彩画家としての名品を紹介",
+      "recommend": "生涯にわたる色彩の探究を前後期で追う回顧展。後期は鎌倉在住の晩年期に焦点を当て、渡欧・渡亜で磨いた色彩表現の到達点を示す代表作が揃う。",
+      "admission": "一般 700円",
+      "adult_price": 700
+    }
+  ],
+  "adult_price": 700,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "大浦海岸通り",
+      "lines": "長崎電気軌道（路面電車）",
+      "exit": null,
+      "walk_min": 3,
+      "note": null
+    },
+    {
+      "station": "長崎",
+      "lines": "JR長崎本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "長崎駅前南口バス停から30番・35番バスで約8分、メディカルセンターバス停下車徒歩2分"
+    }
+  ],
+  "highlights": "日本近代絵画史にフォービズムの巨匠として名を刻む野口彌太郎（1905-1971）の業績を伝える記念美術館。2026年1月に旧長崎英国領事館2階へ移転。昭和初期のパリ滞在から晩年まで油彩・水彩約340点を収蔵し、年3回の展示替えで時代ごとの色彩の変遷を見せる。",
+  "closed_between_exhibitions": false,
+  "notes": "入館料一般700円は旧長崎英国領事館（1F）の観覧料を含む。2026年1月30日に大浦1-37の旧長崎英国領事館2階へ移転オープン。月曜休館（祝日の場合は開館）、振替休館の記載なし。",
+  "confidence": "high"
+}

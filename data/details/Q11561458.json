@@ -1,7 +1,7 @@
 {
   "id": "Q11561458",
-  "checked_at": "2026-10-02T08:45:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:00:43+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.museum-kiyosu.jp",
@@ -52,6 +52,17 @@
       "recommend": "絵本・装幀・個展作品などのイラストレーションと、パペット番組などTVや広告のアートディレクション作品を一堂に介する初の大規模展。50年以上のキャリアを持つ多才なクリエイターの全貌に迫る。",
       "admission": "一般 800円",
       "adult_price": 800
+    },
+    {
+      "title": "髙橋伸行 つむじとへそのお（仮題）",
+      "start": "2027-01-08",
+      "end": "2027-02-25",
+      "url": null,
+      "kind": "special",
+      "summary": "髙橋伸行による企画展（仮題）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 240,

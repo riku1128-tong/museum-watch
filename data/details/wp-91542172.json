@@ -1,0 +1,94 @@
+{
+  "id": "wp-91542172",
+  "checked_at": "2026-10-10T09:51:29+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://bizen-moa.jp/",
+  "address": "〒705-0001 岡山県備前市伊部1659-6",
+  "source_urls": [
+    "https://bizen-moa.jp/",
+    "https://bizen-moa.jp/exhibition/exhibition-55179/",
+    "https://bizen-moa.jp/exhibition/exhibition-59916/",
+    "https://bizen-moa.jp/access/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "特別展「セラミック・レゾナンス」",
+      "start": "2026-10-10",
+      "end": "2026-12-20",
+      "url": "https://bizen-moa.jp/exhibition/exhibition-55179/",
+      "kind": "special",
+      "summary": "全国各地の現代陶芸家15人による作品が響き合うグループ展。食卓を彩る器・動物オブジェ・備前ベースの独自表現など多彩な陶芸の現在を紹介",
+      "recommend": "全国各地の作家15人が参加する現代陶芸グループ展。うつわ・オブジェ・備前ゆかりの伝統表現まで多彩な陶芸の今を俯瞰できる。「レゾナンス（共鳴）」の言葉どおり、作家間の響き合いが感じられる展覧会",
+      "admission": "一般 1,000円（団体900円）、学生（大学・専門・高校）800円、中学生以下無料",
+      "adult_price": 1000
+    },
+    {
+      "title": "池田満寿夫Vol.1",
+      "start": "2026-11-17",
+      "end": "2026-11-29",
+      "url": "https://bizen-moa.jp/exhibition/exhibition-59916/",
+      "kind": "special",
+      "summary": "マルチな芸術家・池田満寿夫（1934〜1997）の版画・書・陶芸25点を紹介。備前焼人間国宝・伊勢﨑淳との交流も焦点に",
+      "recommend": "版画・陶芸・映画・小説と多才な芸術家、池田満寿夫の1963年から晩年1997年までの版画・書・陶芸25点を紹介。人間国宝・伊勢﨑淳との交流を通じた備前との縁深い創作活動を入場無料で鑑賞できる",
+      "admission": "入場無料",
+      "adult_price": 0
+    },
+    {
+      "title": "2026年度コレクション展 第II期",
+      "start": "2027-01-09",
+      "end": "2027-04-11",
+      "url": null,
+      "kind": "collection",
+      "summary": null,
+      "recommend": null,
+      "admission": "一般 500円（団体400円）",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "伊部",
+      "lines": "JR赤穂線",
+      "exit": null,
+      "walk_min": 1,
+      "note": null
+    }
+  ],
+  "highlights": "備前焼の産地・伊部に立つ市立美術館。備前焼をはじめとした現代陶芸を中心に、版画や絵画など幅広いジャンルを収蔵・展示する。人間国宝・伊勢﨑淳ゆかりの地で、JR赤穂線伊部駅から徒歩1分とアクセスも良い。",
+  "closed_between_exhibitions": false,
+  "notes": "1階展示室0と歴史展示室は観覧無料（adult_price の500円はコレクション展・2階展示室の基本料金）。特別展・企画展は展覧会ごとに料金が異なる。池田満寿夫Vol.1（11/17-11/29、入場無料）はセラミック・レゾナンス展と並行して1階展示室0で開催。コレクション展 第II期（2027/1/9-4/11）は美術情報サイトの情報に基づき記載（公式サイトで未確認）。",
+  "confidence": "high"
+}

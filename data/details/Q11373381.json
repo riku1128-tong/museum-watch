@@ -1,0 +1,83 @@
+{
+  "id": "Q11373381",
+  "checked_at": "2026-10-10T15:58:08+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.ibara.okayama.jp/site/denchu-museum/",
+  "address": "〒715-0019 岡山県井原市井原町315",
+  "source_urls": [
+    "https://www.city.ibara.okayama.jp/site/denchu-museum/",
+    "https://www.city.ibara.okayama.jp/site/denchu-museum/21137.html",
+    "https://www.city.ibara.okayama.jp/site/denchu-museum/7999.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "鏡獅子 20年ぶりの里帰り",
+      "start": "2024-02-07",
+      "end": "2027-10-10",
+      "url": "https://www.city.ibara.okayama.jp/site/denchu-museum/7999.html",
+      "kind": "collection",
+      "summary": "通年。東京国立近代美術館所蔵の平櫛田中代表作《鏡獅子》を約5年半にわたり井原市で里帰り展示（2024年2月〜約2029年秋予定）",
+      "recommend": "国立劇場建替に伴いふるさとへ帰省中の《鏡獅子》。3メートルを超える圧倒的な存在感の大作を間近で体感できる。田中が107歳の生涯をかけて追い求めた彫刻の世界を直接感じる貴重な機会。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "特別展「共鳴スルカタチー巨匠と現代作家が仕掛ける美の冒険ー」",
+      "start": "2026-10-09",
+      "end": "2026-12-06",
+      "url": "https://www.city.ibara.okayama.jp/site/denchu-museum/21137.html",
+      "kind": "special",
+      "summary": "平櫛田中の代表作と現代作家の作品をコラボレーションさせ、田中作品の多様な魅力を伝える特別展",
+      "recommend": "巨匠・平櫛田中と気鋭の現代作家が「共鳴」する異色の展覧会。田中彫刻の多面的な表情を現代の目線で再発見できる独自の構成が新鮮で、《鏡獅子》を中心に新たな視点から名作と向き合える。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "企画展「鏡獅子ができるまで（仮称）」",
+      "start": "2026-12-15",
+      "end": "2027-03-31",
+      "url": null,
+      "kind": "special",
+      "summary": "平櫛田中の代表作《鏡獅子》の制作過程を紹介する企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "井原",
+      "lines": "井原鉄道井原線",
+      "exit": null,
+      "walk_min": 10,
+      "note": null
+    }
+  ],
+  "highlights": "岡山県井原市出身の彫刻家・平櫛田中（1872〜1979）を記念した美術館。代表作《鏡獅子》（東京国立近代美術館蔵）が約5年半の里帰り展示中で、迫力の大作を間近に鑑賞できる。《幼児狗張子》《尋牛》など所蔵作品も充実し、107歳まで現役で彫り続けた田中の生涯を伝える。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日の場合は翌日振替休館）。特別展「共鳴スルカタチ」（10/9〜12/6）開催中は入館料一般1,000円。通常（所蔵品展・鏡獅子展）は500円。特別展期間中の月曜祝日の扱い：10/12（月・祝）・11/23（月・祝）は開館、10/13・11/24がそれぞれ振替休館。年末年始休館は12/28〜1/4。展示替え期間も休館（具体的日程は要確認）。鏡獅子は令和6年2月7日から約5年半の予定で常設展示（東京国立近代美術館蔵）。",
+  "confidence": "high"
+}

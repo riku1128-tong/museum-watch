@@ -1,0 +1,109 @@
+{
+  "id": "Q11577460",
+  "checked_at": "2026-10-10T10:10:11+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.tanabe-museum.or.jp/",
+  "address": "〒690-0888 島根県松江市北堀町310-5",
+  "source_urls": [
+    "https://www.tanabe-museum.or.jp/",
+    "https://www.tanabe-museum.or.jp/information/index.html",
+    "https://www.tanabe-museum.or.jp/accessmap.html",
+    "https://www.tanabe-museum.or.jp/cgi-bin/rus7/event/view.cgi",
+    "https://www.tanabe-museum.or.jp/cgi-bin/rus7/news/view.cgi"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "楽山焼・布志名焼",
+      "start": "2026-08-21",
+      "end": "2026-10-25",
+      "url": "https://www.tanabe-museum.or.jp/cgi-bin/rus7/event/view.cgi?d=12",
+      "kind": "collection",
+      "summary": "出雲を代表する楽山焼・布志名焼の茶碗・花入・徳利など陶磁器作品",
+      "recommend": "松江藩ゆかりの楽山焼と出雲の布志名焼を一堂に展示。江戸〜昭和の名品を並べ、出雲陶芸の多彩な技法と各時代の様式の変遷を間近に鑑賞できる。",
+      "admission": "大人 700円",
+      "adult_price": 700
+    },
+    {
+      "title": "四季の茶道具「月夜見の会」",
+      "start": "2026-08-21",
+      "end": "2026-10-25",
+      "url": "https://www.tanabe-museum.or.jp/cgi-bin/rus7/event/view.cgi?d=13",
+      "kind": "collection",
+      "summary": "秋の月をテーマに選んだ茶道具の取り合わせ展示",
+      "recommend": null,
+      "admission": "大人 700円",
+      "adult_price": 700
+    },
+    {
+      "title": "所蔵 茶釜展",
+      "start": "2026-08-21",
+      "end": "2026-10-25",
+      "url": "https://www.tanabe-museum.or.jp/cgi-bin/rus7/event/view.cgi?d=14",
+      "kind": "collection",
+      "summary": "田部美術館所蔵の茶釜を紹介する展示",
+      "recommend": null,
+      "admission": "大人 700円",
+      "adult_price": 700
+    },
+    {
+      "title": "四季の茶道具「うつろひ」",
+      "start": "2026-10-28",
+      "end": "2026-12-26",
+      "url": null,
+      "kind": "collection",
+      "summary": "秋から冬へと移ろう季節をテーマに選んだ茶道具の展示（第2展示室）",
+      "recommend": null,
+      "admission": "大人 700円",
+      "adult_price": 700
+    },
+    {
+      "title": "それぞれの魅力",
+      "start": "2026-10-28",
+      "end": "2026-12-26",
+      "url": null,
+      "kind": "collection",
+      "summary": "田部美術館所蔵品を紹介する展示（第3展示室、「うつろひ」との同時開催）",
+      "recommend": null,
+      "admission": "大人 700円",
+      "adult_price": 700
+    }
+  ],
+  "adult_price": 700,
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "開館記念日（47周年）入館無料・ギャラリートーク・呈茶席・建築ツアーあり",
+      "source_url": "https://www.tanabe-museum.or.jp/cgi-bin/rus7/news/view.cgi"
+    }
+  ],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "松江",
+      "lines": "JR山陰本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "松江駅バスターミナルから一畑バス（加賀・恵曇方面行）「塩見縄手入口」下車、または市営バス（春日町行）利用"
+    }
+  ],
+  "highlights": "室町時代から600年にわたる田部家のコレクションを公開する美術館。松平不昧公ゆかりの茶道具や楽山焼・布志名焼など出雲の美術工芸品が充実。菊竹清訓設計の建物は「菅谷たたら」の炉をイメージしたコールテン鋼の屋根が印象的で、茶室の趣を保ちながら新素材を活かした空間が広がる。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日の場合は開館、振替休館の記載なし）。年末年始・臨時休館はお知らせ欄に掲載。特別展は別途料金。11/3（開館記念日）は入館無料、ギャラリートーク（14:00〜）・呈茶席（700円）・建築ツアー（10:30〜、予約制）あり。次回展「うつろひ」「それぞれの魅力」は10/28〜12/26。",
+  "confidence": "high"
+}

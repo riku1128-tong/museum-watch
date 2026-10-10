@@ -1,0 +1,90 @@
+{
+  "id": "Q11576742",
+  "checked_at": "2026-10-10T10:00:12+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://tagawa-art.jp/",
+  "address": "〒825-0016 福岡県田川市新町11-56",
+  "source_urls": [
+    "https://tagawa-art.jp/",
+    "https://tagawa-art.jp/information/",
+    "https://tagawa-art.jp/access/",
+    "https://tagawa-art.jp/schedule/",
+    "https://tagawa-art.jp/schedule/tagawa-art-exhibition61/",
+    "https://tagawa-art.jp/schedule/collection-exhibition2026_tiger-tateishi/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:30",
+      "last_entry": "17:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "2026年度常設展示 極彩色の立石大河亞",
+      "start": "2026-04-01",
+      "end": "2027-03-28",
+      "url": "https://tagawa-art.jp/schedule/collection-exhibition2026_tiger-tateishi/",
+      "kind": "collection",
+      "summary": "田川市出身の前衛美術家・立石大河亞（1941〜1998）の炭鉱体験に根ざした極彩色作品を紹介。通年",
+      "recommend": "炭鉱の町・田川で育った少年期の体験が原点となった立石大河亞のネオン絵画や陶彫の下絵を通じ、日本前衛美術の異端児が世界に発信した独自の視覚言語にふれられる。",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第61回 公募田川美術展",
+      "start": "2026-10-14",
+      "end": "2026-10-25",
+      "url": "https://tagawa-art.jp/schedule/tagawa-art-exhibition61/",
+      "kind": "special",
+      "summary": "17歳以上を対象とした公募展。洋画・日本画・書道・写真・工芸の5部門",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "田川伊田",
+      "lines": "JR日田彦山線",
+      "walk_min": null,
+      "note": "タクシー約6分"
+    },
+    {
+      "station": "田川後藤寺",
+      "lines": "JR後藤寺線",
+      "walk_min": null,
+      "note": "タクシー約8分"
+    }
+  ],
+  "highlights": "炭鉱の街として知られる田川市の文化拠点。地元出身の前衛画家・立石大河亞の極彩色作品をはじめ絵画・工芸・デザインなど約2,500点を収蔵。地域の公募展から現代美術の本格企画展まで多彩なプログラムで筑豊の歴史と文化を発信し続ける。",
+  "closed_between_exhibitions": false,
+  "notes": "展示替えのため2026年10月5〜7日は臨時休館（既に終了）。観覧料は展覧会により異なる。常設展示は無料。年末年始の具体的な日付は展覧会ページ（コールマイン展）の記載「12月29日～1月3日」から推定。",
+  "confidence": "high"
+}

@@ -1,13 +1,14 @@
 {
   "id": "Q11605043",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:15:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.aikis.or.jp/~kishyu/",
   "address": "〒649-2211 和歌山県西牟婁郡白浜町平草原2054",
   "source_urls": [
-    "https://www.museum.or.jp/museum/5845"
+    "https://www.museum.or.jp/museum/5845",
+    "https://www.navitime.co.jp/category/0705015/30401/"
   ],
   "regular_hours": [
     {
@@ -44,6 +45,6 @@
   ],
   "highlights": "掛け軸や浮世絵、陶磁器など約1,300点を所蔵する白浜町の美術館。葛飾北斎、歌川広重、喜多川歌麿、東洲斎写楽らの作品がそろう。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイトは証明書期限切れで読めず、全国美術館会議の館情報で確認。無休だが特別展・企画展の前後に休館日を設けることがある。展覧会情報は取得できず。",
+  "notes": "公式サイトは SSL 証明書期限切れで読めず、全国美術館会議・ナビタイムの館情報で確認。無休だが特別展・企画展の前後に休館日を設けることがある。展覧会情報は取得できず。",
   "confidence": "medium"
 }

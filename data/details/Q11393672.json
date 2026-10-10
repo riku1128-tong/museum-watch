@@ -1,15 +1,14 @@
 {
   "id": "Q11393672",
-  "checked_at": "2026-10-02T08:30:15+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:15:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.mcart.jp/",
   "address": "〒669-2135 兵庫県丹波篠山市今田町上立杭4",
   "source_urls": [
     "https://www.mcart.jp/",
-    "https://www.mcart.jp/guide/",
-    "https://www.mcart.jp/guide/admission_fee/",
+    "https://www.mcart.jp/guide/guide-info/",
     "https://www.mcart.jp/exhibition/",
     "https://www.mcart.jp/exhibition/e3803/"
   ],
@@ -34,7 +33,13 @@
   ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-11-24",
+      "to": "2027-03-31",
+      "reason": "大規模メンテナンス工事"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -46,7 +51,9 @@
       "summary": "戦後の現代陶芸の立体作品を年代順に紹介。林康夫、走泥社ら",
       "recommend": "戦後に自由なかたちを得た現代陶芸の歩みを、パイオニア世代から若手まで年代順にコンパクトにたどれる。やきものの枠を超えた造形の多様さが見どころ。",
       "admission": "一般 1,300円",
-      "adult_price": 1300
+      "adult_price": 1300,
+      "closed_weekdays": [],
+      "closed_dates": ["2026-09-24", "2026-10-13"]
     },
     {
       "title": "丹波焼の世界 season10",
@@ -66,6 +73,6 @@
   "access": [],
   "highlights": "丹波焼の産地・今田の立杭に建つ陶芸専門の美術館。田中寛コレクションの丹波焼をはじめ古陶磁や現代陶芸を所蔵し、特別展とテーマ展で焼き物の魅力を紹介する。無料の駐車場があり、車で訪れやすい。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館。特別展期間中の祝日開館は9/21・10/12・11/23で、振替休館は9/24・10/13。高校生以下無料、70歳以上は半額。年末年始休館の日付は読めず未記載。最寄駅・バスの行き方は読めなかった。",
-  "confidence": "medium"
+  "notes": "月曜休館。特別展期間中の祝日開館は9/21・10/12・11/23で、振替休館は9/24・10/13（展覧会の closed_dates に入れた）。2026/11/24〜2027/3月下旬は大規模メンテナンス工事のため全館休館予定（guide-info ページで確認）。高校生以下無料、70歳以上は半額。最寄駅・バスの行き方は読めなかった。",
+  "confidence": "high"
 }

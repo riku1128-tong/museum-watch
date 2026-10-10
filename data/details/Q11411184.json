@@ -1,7 +1,7 @@
 {
   "id": "Q11411184",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-10T09:51:43+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.furukawa-museum.or.jp/",
@@ -45,17 +45,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "第73回日本伝統工芸展 名古屋展",
-      "start": "2026-09-25",
-      "end": "2026-10-05",
-      "url": "https://www.furukawa-museum.or.jp/show_exhibit",
-      "kind": "special",
-      "summary": "陶芸・染織・漆芸・金工・木竹工・人形・諸工芸の7部門から厳選された伝統工芸品を展示",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    },
     {
       "title": "古川美術館財団設立40周年記念展「異邦人たちのパリ－ユトリロ/キスリング/レオナール・フジタ」",
       "start": "2026-10-17",

@@ -1,0 +1,40 @@
+{
+  "id": "Q11278841",
+  "checked_at": "2026-10-10T10:09:31+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://misasavm.com/",
+  "address": "〒682-0123 鳥取県東伯郡三朝町三朝199-1",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/5959"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "18:00"
+    }
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "倉吉",
+      "lines": "JR山陰本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "日の丸バス三朝温泉方面行きで約20分、三朝温泉バス停下車徒歩5分"
+    }
+  ],
+  "highlights": "鳥取県三朝温泉の温泉街に立地するバイオリン専門の美術館。バイオリンに関する資料や楽器の実物を展示し、国内有数のバイオリンの聖地をめざす施設として運営されている。JR倉吉駅からバスで約20分の三朝温泉街内に位置する。",
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（http://misasavm.com/）はSSL証明書の不一致でWebFetchから取得不可。museum.or.jpの情報を参照。休館日は火曜日（museum.or.jp確認）。年末年始の休館や第3月曜の定休は公式確認できず未設定。展覧会情報は公式サイト不達のため未取得。",
+  "confidence": "medium"
+}

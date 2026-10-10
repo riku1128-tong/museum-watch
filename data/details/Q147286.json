@@ -1,7 +1,7 @@
 {
   "id": "Q147286",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:09:41+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.kyohaku.go.jp/jp/",
@@ -70,6 +70,11 @@
       "from": "2026-09-08",
       "to": "2026-10-04",
       "reason": "展示替えのため展示室休室（庭園・屋外展示のみ開館）"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-01",
+      "reason": "年末年始"
     }
   ],
   "special_openings": [],
@@ -119,7 +124,7 @@
       "title": "新春特集展示　ひつじづくし―干支を愛でる―",
       "start": "2026-12-22",
       "end": "2027-02-07",
-      "url": null,
+      "url": "https://www.kyohaku.go.jp/jp/exhibitions/feature/b/2026_sheep/",
       "kind": "other",
       "summary": "干支「羊」にちなむ作品を集めた新春の特集展示",
       "recommend": null,
@@ -130,9 +135,20 @@
       "title": "特集展示　茶の湯の道具と次第",
       "start": "2026-12-22",
       "end": "2027-03-22",
-      "url": null,
+      "url": "https://www.kyohaku.go.jp/jp/exhibitions/feature/b/2026_tea/",
       "kind": "other",
       "summary": "茶の湯の道具や次第を紹介する特集展示",
+      "recommend": null,
+      "admission": "一般 700円（名品ギャラリー観覧料）",
+      "adult_price": 700
+    },
+    {
+      "title": "特別公開　和束谷の開拓者―原山古墳被葬者の実像―",
+      "start": "2027-01-02",
+      "end": "2027-03-22",
+      "url": "https://www.kyohaku.go.jp/jp/exhibitions/collection/2027/01/",
+      "kind": "collection",
+      "summary": "和束谷・原山古墳の被葬者の実像に迫る特別公開",
       "recommend": null,
       "admission": "一般 700円（名品ギャラリー観覧料）",
       "adult_price": 700

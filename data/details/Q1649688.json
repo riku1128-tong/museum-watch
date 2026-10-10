@@ -1,6 +1,6 @@
 {
   "id": "Q1649688",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T10:02:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -15,7 +15,8 @@
     "https://www.mot-art-museum.jp/exhibitions/Constellation/",
     "https://www.mot-art-museum.jp/exhibitions/mot-collection-260919/",
     "https://www.mot-art-museum.jp/guide/museum-info/",
-    "https://www.mot-art-museum.jp/guide/access/"
+    "https://www.mot-art-museum.jp/guide/access/",
+    "https://www.mot-art-museum.jp/exhibitions/20260930173546/"
   ],
   "regular_hours": [
     {
@@ -78,6 +79,17 @@
       "adult_price": 2000
     },
     {
+      "title": "ちょっとMOTフェス 2026秋",
+      "start": "2026-10-10",
+      "end": "2026-10-12",
+      "url": "https://www.mot-art-museum.jp/exhibitions/20260930173546/",
+      "kind": "other",
+      "summary": "DJ・パフォーマンス・リレートーク・参加型ツアーなど多彩なプログラムを3日間開催",
+      "recommend": "展覧会形式にとらわれない実験的なMOT Plusプロジェクトとして、ホワイエや公共スペースを使ったフェスティバル。入場無料で誰でも気軽に参加できる。",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
       "title": "MOTコレクション いつかの光を今みている",
       "start": "2026-09-19",
       "end": "2027-01-06",
@@ -113,13 +125,5 @@
   "highlights": "1995年に木場公園内に開館した東京最大規模の現代美術館。絵画・彫刻・ファッション・建築・デザインなど幅広い分野の現代美術を約6,100点所蔵し、大規模な企画展と充実したコレクション展を開催。10万件を超える美術図書室も備える。",
   "notes": "休館日は「月曜日（祝日の場合は翌平日）、展示替え期間、年末年始（12/28-1/1）」。各展覧会ページに休館日 9/24・10/13・11/24 の記載あり（祝日ルールで算出されるものと一致）。11月の毎金曜日は20:00まで。台風25号接近に伴い臨時休館の可能性あり（9/18 お知らせ、決定時は公式サイト・SNSで告知）。コレクション展の正式タイトル表記は「いつかの光を今みている」の部分のみ確認。最寄駅はアクセスページで清澄白河駅（徒歩9分）が最短、都営バスでの来館も案内あり。",
   "confidence": "high",
-  "free_days": [
-    {
-      "from": "2026-10-01",
-      "to": "2026-10-01",
-      "scope": "collection",
-      "reason": "都民の日",
-      "source_url": "https://www.mot-art-museum.jp/guide/museum-info/"
-    }
-  ]
+  "free_days": []
 }

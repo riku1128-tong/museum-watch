@@ -1,6 +1,6 @@
 {
   "id": "Q11385099",
-  "checked_at": "2026-10-02T08:28:44+09:00",
+  "checked_at": "2026-10-10T10:15:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -8,9 +8,7 @@
   "address": "〒411-0838 静岡県三島市中田町1-43",
   "source_urls": [
     "https://www.sanobi.or.jp/",
-    "https://www.sanobi.or.jp/guidance/",
-    "https://www.sanobi.or.jp/exhibition/japaneseswords_2026/",
-    "https://www.sanobi.or.jp/exhibition/machida-naoko_2026/"
+    "https://www.sanobi.or.jp/guidance/"
   ],
   "regular_hours": [
     {
@@ -78,6 +76,8 @@
   ],
   "highlights": "昭和41年（1966）開館、刀剣・武器・武具の名品コレクションで知られる美術館。庭園「隆泉苑」を有し、館内には重要文化財の大日如来坐像（常設）も。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は「木曜日（祝日の場合は開館）、年末年始、展示替期間など」（guidance/ページより確認）。祝日の木曜は開館だが翌平日休館の旨は記載なし（holiday_rule: open）。年末年始・展示替え休館の具体日程は各展覧会ページに記載のため要確認。入館料は展覧会ごとに異なる（adult_price は各展覧会に記載）。8/1（佐野隆一生誕日）は全館無料、敬老の日は65歳以上無料、こどもの日・土曜は小中学生無料（今後の日付については free_days への追加要）。",
+  "free_days": [],
+  "free_rules": [],
+  "notes": "休館日は「木曜日（祝日の場合は開館）、年末年始、展示替期間など」。祝日の木曜は開館だが翌平日休館の旨は記載なし（holiday_rule: open）。展示替え休館（10/19〜10/23 頃）の具体日程は公式サイトに記載なし。入館料は展覧会ごとに異なる。",
   "confidence": "medium"
 }

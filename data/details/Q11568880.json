@@ -1,16 +1,14 @@
 {
   "id": "Q11568880",
-  "checked_at": "2026-10-02T08:50:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:10:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
-  "status_note": "設備改修による長期休館中（2025-06-09〜2026-10-09）。2026-10-10 に展覧会を再開",
+  "status_note": null,
   "official_url": "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/13/index.html",
   "address": "〒646-1402 和歌山県田辺市中辺路町近露891",
   "source_urls": [
     "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/13/index.html",
-    "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/13/2263.html",
-    "https://www.city.tanabe.lg.jp/material/files/group/65/nakahechi_leaf_jp_QR2.pdf",
-    "https://abc0120.net/2026/09/30/230835/"
+    "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/13/1_1/2262.html"
   ],
   "regular_hours": [
     {
@@ -61,15 +59,15 @@
       "title": "近代日本画コレクション展「日本画表現の革新」",
       "start": "2026-10-10",
       "end": "2026-11-23",
-      "url": "https://abc0120.net/2026/09/30/230835/",
+      "url": "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/13/1_1/2262.html",
       "kind": "special",
       "summary": "戦後に新しい日本画表現を切り拓いた世代の画家たちの作品を紹介",
       "recommend": null,
-      "admission": "一般 600円",
-      "adult_price": 600
+      "admission": "一般 260円",
+      "adult_price": 260
     }
   ],
-  "adult_price": null,
+  "adult_price": 260,
   "free_days": [],
   "free_rules": [],
   "access": [
@@ -83,6 +81,6 @@
   ],
   "highlights": "建築家ユニットSANAA（妹島和世＋西沢立衛）が初期に手がけた美術館で、1998年に旧中辺路町立美術館として開館。熊野古道沿いの山あいに建ち、田辺市立美術館の分館として近代日本画などの所蔵品を紹介する。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は月曜（祝日の場合は翌日）・祝日の翌日（土日除く）・12/28〜1/4・展示替え。再開日と展覧会名は市の公式ページ、会期・料金・11/4・11/7休館は第三者サイト（abc0120.net）による。通常の入館料は未確認。",
+  "notes": "2026-10-10に設備改修後の展覧会を再開。休館日は月曜（祝日の場合は翌日）・祝日の翌日（土日除く）・12/28〜1/4・展示替え。入館料260円は市公式ページより確認。11/4（文化の日翌日）・11/7（土曜臨時休館）は展覧会ページに明記。田辺市立美術館（本館）の入館料は600円で別館・本館の料金体系が分かれている。",
   "confidence": "medium"
 }

@@ -1,13 +1,12 @@
 {
   "id": "Q11340103",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T09:51:54+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.museum.makonde.jp/",
   "address": "〒519-0601 三重県伊勢市二見町松下1799-4",
   "source_urls": [
-    "http://www.museum.makonde.jp/",
     "http://www.museum.makonde.jp/guide/index.html",
     "http://www.museum.makonde.jp/exhibition/index.html"
   ],
@@ -67,9 +66,21 @@
   "adult_price": 1000,
   "free_days": [],
   "free_rules": [],
-  "access": [],
-  "highlights": null,
+  "access": [
+    {
+      "station": "松下",
+      "lines": "近鉄鳥羽線",
+      "walk_min": 17
+    },
+    {
+      "station": "鳥羽",
+      "lines": "近鉄鳥羽線",
+      "walk_min": null,
+      "note": "鳥羽駅からタクシーで約7分"
+    }
+  ],
+  "highlights": "伊勢二見浦のそばに建つ、日本有数のマコンデ彫刻専門美術館。東アフリカ産アフリカ黒檀に彫られた彫刻を中心に600点超を展示し、一部の作品に実際に触れられる。ティンガ・ティンガ絵画や生活民族資料もあわせて紹介。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は毎週火曜（祝日の場合は翌平日）、2月・6月・10月の第3週の月〜金、年末年始。10月分は2026-10-19〜23と解釈。2月分（2027-02-15〜19）は範囲外のため未登録。年末年始の日付は未掲載。",
+  "notes": "休館日は毎週火曜（祝日の場合は翌平日）、2月・6月・10月の第3週の月〜金、年末年始。10月分は2026-10-19〜23と解釈。2月分（2027-02-15〜19）は範囲外のため未登録。年末年始の日付は公式未掲載。アクセスは非公式サイト情報（近鉄松下駅徒歩17分・鳥羽駅タクシー7分）を参照。",
   "confidence": "medium"
 }

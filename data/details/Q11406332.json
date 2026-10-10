@@ -1,6 +1,6 @@
 {
   "id": "Q11406332",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T09:51:52+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,7 +10,8 @@
     "https://www.chiba-muse.or.jp/ART/",
     "https://www.chiba-muse.or.jp/ART/visit/",
     "https://www.chiba-muse.or.jp/ART/exhibition/",
-    "https://www.chiba-muse.or.jp/ART/exhibition/events/event-10036/"
+    "https://www.chiba-muse.or.jp/ART/exhibition/events/event-10036/",
+    "https://www.chiba-muse.or.jp/ART/news/news-12317/"
   ],
   "regular_hours": [
     {

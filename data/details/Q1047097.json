@@ -1,6 +1,6 @@
 {
   "id": "Q1047097",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T15:58:01+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -49,22 +49,37 @@
       "adult_price": 1600
     },
     {
-      "title": "舞楽装束",
+      "title": "特別展 舞楽装束　受け継がれる染織の美",
       "start": "2026-10-24",
       "end": "2026-11-23",
-      "url": "https://www.nezu-muse.or.jp/jp/exhibitions/schedule/",
+      "url": "https://www.nezu-muse.or.jp/jp/exhibitions/upcoming/",
       "kind": "special",
-      "summary": "舞楽の装束を紹介する特別展",
-      "admission": null
+      "summary": "5世紀以来の外来楽を取り込みながら独自に発展した雅楽・舞楽の装束が宮廷や寺社でどのように受け継がれたかを染織作品で紹介",
+      "recommend": "受け継がれた雅楽装束の染織美を、宮廷から寺社へと伝わっていく過程とともに辿る特別展。古代から続く型と優美な意匠が、日本独自の形式として洗練されていく歩みが見どころ。",
+      "admission": "一般 1,800円（オンライン日時指定予約 1,600円）",
+      "adult_price": 1800
     },
     {
       "title": "彫る漆",
       "start": "2026-12-05",
       "end": "2027-01-17",
-      "url": "https://www.nezu-muse.or.jp/jp/exhibitions/schedule/",
+      "url": "https://www.nezu-muse.or.jp/jp/exhibitions/upcoming/",
       "kind": "special",
       "summary": "彫漆など漆を彫る技法の工芸を紹介する企画展",
-      "admission": null
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "根津美術館の仏像コレクション",
+      "start": "2027-01-30",
+      "end": "2027-03-28",
+      "url": "https://www.nezu-muse.or.jp/jp/exhibitions/upcoming/",
+      "kind": "special",
+      "summary": "根津美術館が所蔵する仏像コレクションを紹介する企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": null,
@@ -79,6 +94,6 @@
   ],
   "highlights": "実業家・根津嘉一郎が蒐集した日本・東洋古美術7,600件以上を収蔵し、国宝7件を含む。隈研吾設計の新本館と、四季の景観が美しい17,000㎡の庭園・茶室が見どころ",
   "closed_between_exhibitions": true,
-  "notes": "月曜休館（祝日の場合は翌火曜）・展示替期間・年末年始休館。やきもの名品紀行の会期中は 9/21・10/12（月・祝）開館、9/24（木）休館と明記。入館料は企画展 一般1,600円（当日）、特別展 一般1,800円〜（当日）。オンライン日時指定予約あり。年末年始の具体的な休館日は未確認。トップページは 403 で読めなかった。「舞楽装束」「彫る漆」の観覧料は展覧会ページ未公開のため未確認。 2026-10-02 展覧会ページで会期・開館日の注記に変更なしを確認。",
+  "notes": "月曜休館（祝日の場合は翌火曜）・展示替期間・年末年始休館。「舞楽装束」の観覧料は当日1,800円・オンライン1,600円を確認。「彫る漆」「根津美術館の仏像コレクション」の観覧料は未発表のためnull。やきもの名品紀行は10/12（月・祝）まで開催（最終日は祝日開館）。年末年始の具体的な休館日は未確認。トップページは403で読めないため展覧会スケジュールページを使用。2026-10-10 展覧会スケジュールページで会期確認、根津美術館の仏像コレクション（1/30〜3/28）を新たに登録。",
   "confidence": "high"
 }

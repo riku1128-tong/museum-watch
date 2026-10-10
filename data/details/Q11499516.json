@@ -1,7 +1,7 @@
 {
   "id": "Q11499516",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T09:58:06+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.tsurui.co.jp/museum/",
@@ -40,6 +40,17 @@
       "kind": "special",
       "summary": "京都の陶芸家・楠部彌弌の優品40点と高弟・寺池静人の作品",
       "recommend": "古今東西の陶芸技法を究め近代陶芸を革新した楠部彌弌のコレクションから優品40点を展示。高弟の寺池静人の作品も特別に並び、師弟の造形を見比べられるのが見どころ。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "静かなるモノクロームの世界展　近代水墨画展",
+      "start": "2027-01-05",
+      "end": "2027-03-13",
+      "url": "https://www.tsurui.co.jp/museum/exhibition/",
+      "kind": "special",
+      "summary": "橋本雅邦・川合玉堂・横山大観・速水御舟・村上華岳・入江波光ら水墨の名品を紹介",
+      "recommend": "雅邦が釈迦を描き玉堂が十六羅漢を配した天下の珍品と、大観・御舟の水墨名品が揃う贅沢な展覧会。京都画壇の静謐な水墨世界を新潟でまとめて鑑賞できる機会。",
       "admission": "一般 500円",
       "adult_price": 500
     }

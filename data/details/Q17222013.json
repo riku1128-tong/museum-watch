@@ -1,0 +1,44 @@
+{
+  "id": "Q17222013",
+  "checked_at": "2026-10-10T10:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "2026年7月28日発生の地震による被害のため当面の間休館中。復旧を要する箇所が多数あり、再開のめどは未定（市報・HPで告知予定）。カフェは2026年10月1日より9:00〜16:00で営業再開（月曜定休）。",
+  "official_url": "https://www.city.yatsushiro.lg.jp/museum/default.html",
+  "address": "〒866-8601 熊本県八代市西松江城町12-35",
+  "source_urls": [
+    "https://www.city.yatsushiro.lg.jp/museum/default.html",
+    "https://www.city.yatsushiro.lg.jp/museum/kiji00326755/index.html",
+    "https://www.city.yatsushiro.lg.jp/museum/kiji00327160/index.html",
+    "https://online.bunka.go.jp/museums/detail/602"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "八代",
+      "lines": "JR鹿児島本線・肥薩おれんじ鉄道線",
+      "walk_min": null,
+      "note": "JR八代駅からバスで約15分、荒神町福祉センター前下車。九州自動車道八代ICから車で約6km"
+    }
+  ],
+  "highlights": "城下町として栄えた八代の歴史と文化を総合的に紹介する博物館。八代城の精巧な城郭模型やユネスコ無形文化遺産にも関わる妙見宮祭礼の人形模型を収蔵・展示。2024年から大規模改修を経て2026年にリニューアル開館した施設で、屋外展示室も設ける。",
+  "closed_between_exhibitions": false,
+  "notes": "2026年7月28日の地震で被害を受け休館中。常設展示に八代城城郭模型・妙見宮祭礼人形模型など。開館時間・観覧料はonline.bunka.go.jp掲載情報（再開後に公式サイトで要確認）。",
+  "confidence": "low"
+}

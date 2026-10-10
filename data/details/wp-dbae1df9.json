@@ -1,0 +1,101 @@
+{
+  "id": "wp-dbae1df9",
+  "checked_at": "2026-10-10T10:13:43+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://izumi-museum.jp/",
+  "address": "〒733-0833 広島市西区商工センター2丁目3番1号 エクセル本店5階",
+  "source_urls": [
+    "https://izumi-museum.jp/",
+    "https://izumi-museum.jp/exhibition/",
+    "https://izumi-museum.jp/information/",
+    "https://izumi-museum.jp/3328/",
+    "https://izumi-museum.jp/3331/",
+    "https://www.museum.or.jp/museum/6282"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "11:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-30",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "増山たづ子展－ふるさとが消えていくこと－",
+      "start": "2026-10-10",
+      "end": "2026-11-29",
+      "url": "https://izumi-museum.jp/3328/",
+      "kind": "special",
+      "summary": "岐阜・徳山村がダムに沈む前後を記録した増山たづ子（1917-2006）の写真展",
+      "recommend": "農業と民宿を営みながら故郷の廃村を撮り続けた増山たづ子の約10万カット・600冊のアルバム。一人の住民の眼差しが記録した村の日常と自然は、記憶と場所の関係を問いかける力強い証言だ。",
+      "admission": "一般500円（団体400円）",
+      "adult_price": 500,
+      "closed_weekdays": []
+    },
+    {
+      "title": "近代絵画の巨匠たち",
+      "start": "2026-12-05",
+      "end": "2027-03-07",
+      "url": "https://izumi-museum.jp/3331/",
+      "kind": "collection",
+      "summary": "泉美術館所蔵の近代絵画の巨匠たちの作品を紹介するコレクション展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "草津南",
+      "lines": "広島電鉄宮島線",
+      "exit": null,
+      "walk_min": 7,
+      "note": null
+    },
+    {
+      "station": "新井口",
+      "lines": "JR山陽本線",
+      "exit": null,
+      "walk_min": 12,
+      "note": null
+    },
+    {
+      "station": "商工センター入口",
+      "lines": "広島電鉄宮島線",
+      "exit": null,
+      "walk_min": 12,
+      "note": null
+    }
+  ],
+  "highlights": "広島市西区の商業施設エクセル本店5階に立地する公益財団法人運営の美術館。近代から現代に至る日本画・洋画・版画・写真など幅広いジャンルの作品を収蔵し、地域ゆかりの作家展から話題の写真展まで多彩な企画展を年間を通じて開催。商業施設内のため気軽に訪れやすい。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日・振替休日の場合は開館）、年末年始（12/30〜1/1）。企画展は展覧会ごとに別料金（コレクション展は一般300円）。展示替えによる臨時休館あり。",
+  "confidence": "high"
+}

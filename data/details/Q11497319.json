@@ -1,6 +1,6 @@
 {
   "id": "Q11497319",
-  "checked_at": "2026-10-02T08:31:57+09:00",
+  "checked_at": "2026-10-10T10:00:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -54,10 +54,10 @@
       "title": "円山応挙と伊藤若冲",
       "start": "2026-10-17",
       "end": "2027-02-14",
-      "url": "https://www.shokoku-ji.jp/museum/exhibition/",
+      "url": "https://www.shokoku-ji.jp/museum/exhibition/okyo-jakuchu2026/",
       "kind": "special",
       "summary": "十八世紀の京都画壇を牽引した円山応挙と伊藤若冲を紹介。Ⅰ期（〜2027/2/14）とⅡ期（2027/2/20〜6/20）の2部制",
-      "recommend": "写実を極めた応挙と装飾性豊かな若冲、対照的な二人の名品が並ぶ。若冲が鹿苑寺のために描いた大書院障壁画の水墨画も見られる",
+      "recommend": "写実を極めた応挙の代表作《七難七福図巻》と、若冲が筋目描など超絶技巧を駆使した大書院障壁画五十面を一挙公開。静と動、写実と装飾という対照的な二巨匠の極致を一堂に体感できる。",
       "admission": "一般 1,000円",
       "adult_price": 1000
     }

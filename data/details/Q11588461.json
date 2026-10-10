@@ -1,0 +1,53 @@
+{
+  "id": "Q11588461",
+  "checked_at": "2026-10-10T09:51:37+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.douwakan.co.jp/museum/",
+  "address": "〒850-0931 長崎県長崎市南山手町2-10",
+  "source_urls": [
+    "http://douwakan.co.jp/museum/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:30",
+      "last_entry": "17:00"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "太田大八絵本原画展　まじょ",
+      "start": "2026-10-06",
+      "end": "2027-01-11",
+      "url": null,
+      "kind": "special",
+      "summary": "絵本「まじょ」の原画展。絵本画家・太田大八の作品展示",
+      "recommend": null,
+      "admission": "大人・大学 330円",
+      "adult_price": 330
+    }
+  ],
+  "adult_price": 330,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "大浦天主堂",
+      "lines": "長崎電気軌道（路面電車）",
+      "exit": null,
+      "walk_min": null,
+      "note": "「石橋」行きで「大浦天主堂」下車。または「新地中華街」乗り換え「石橋」行きも可"
+    }
+  ],
+  "highlights": "長崎・南山手の異国情緒ある街並みにある童話館系の絵本美術館。2・3階で国内外の絵本原画を展示し、童話館ゆかりの作家による常設展と企画展を開催。フロアには約500冊の選び抜かれた絵本コーナーがあり入館者が自由に楽しめる。グラバー園・大浦天主堂に隣接した観光地に位置する。",
+  "closed_between_exhibitions": false,
+  "notes": "休館日：毎週月曜（祝日の場合は翌日）・展示入替日・年末年始（詳細は公式HP参照）。公式サイトURL（www.douwakan.co.jp）はSSL証明書の不一致でアクセス不可のため www なし（douwakan.co.jp）で取得。常設展示作家：中村忠二・伴敏子・東平哲弥・大道あや。最寄り停留場からの徒歩時間は公式サイトに記載なし。",
+  "confidence": "medium"
+}

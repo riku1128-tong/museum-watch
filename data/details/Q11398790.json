@@ -1,0 +1,83 @@
+{
+  "id": "Q11398790",
+  "checked_at": "2026-10-10T10:30:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.art-kano.jp/",
+  "address": "〒692-0623 島根県安来市広瀬町布部345-27",
+  "source_urls": [
+    "https://www.art-kano.jp/",
+    "https://www.art-kano.jp/exhibition-info/current-exhibition/331",
+    "https://www.art-kano.jp/exhibition-info/next-exhibition/336"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
+  ],
+  "closed_weekdays": ["tue"],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {
+      "from": "2026-12-25",
+      "to": "2027-01-10",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "「ひろしまの子」絵本原画展　&　武上秋津 版画作品展",
+      "start": "2026-09-11",
+      "end": "2026-10-12",
+      "url": "https://www.art-kano.jp/exhibition-info/current-exhibition/331",
+      "kind": "special",
+      "summary": "四國五郎×長谷川義史の絵本原画と武上秋津の版画作品展。同時開催：開館30年記念「加納美術館の30年」",
+      "recommend": "詩人・四國五郎と絵本作家・長谷川義史が描いた平和への願いを込めた絵本『ひろしまの子』の原画と、安来出身の版画家・武上秋津の色彩豊かな抽象版画を一度に楽しめる二本立て企画展。",
+      "admission": "一般 1,100円",
+      "adult_price": 1100
+    },
+    {
+      "title": "加納莞蕾展「今願う―世界の平和を」",
+      "start": "2026-09-11",
+      "end": "2026-12-21",
+      "url": null,
+      "kind": "collection",
+      "summary": "安来出身の画家・加納莞蕾の絵画と、戦後の恩赦請願運動など平和活動の資料を展示",
+      "recommend": null,
+      "admission": "一般 1,100円",
+      "adult_price": 1100
+    },
+    {
+      "title": "河井寬次郎 没後60年記念　河井寬次郎と安来！",
+      "start": "2026-10-23",
+      "end": "2026-12-21",
+      "url": "https://www.art-kano.jp/exhibition-info/next-exhibition/336",
+      "kind": "special",
+      "summary": "没後60年を記念し、安来を美意識の源泉とした陶芸家・河井寬次郎の作品と安来とのつながりを探る",
+      "recommend": "「寬次郎の美意識を育んだのは、どこ？」「美意識を受け継いだのは、だれ？」という問いから安来との縁を読み解く展覧会。人間国宝・金重陶陽など備前焼の名品コレクションを持つ同館ならではの視点が楽しめる。",
+      "admission": "一般 1,100円",
+      "adult_price": 1100
+    }
+  ],
+  "adult_price": 1100,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "安来",
+      "lines": "JR山陰本線",
+      "walk_min": null,
+      "note": "安来駅からイエローバス広瀬行きで約30分→広瀬バスターミナルで西比田線（加納美術館入口行き）に乗り換え約17分、加納美術館入口下車すぐ。車の場合は山陰道安来ICより広瀬町方面へ"
+    }
+  ],
+  "highlights": "島根県安来市の山あいに位置する、安来出身の画家・加納莞蕾の作品と平和活動の記録を核とした美術館。油彩・水墨・書など120点以上の莞蕾作品をローテーション展示し、金重陶陽ら人間国宝の作品を含む800点超の備前焼コレクションも誇る。足立美術館からほど近く、島根の美術めぐりの拠点にもなる。",
+  "closed_between_exhibitions": false,
+  "notes": "公益財団法人加納美術振興財団が管理。展示替えによる臨時休館あり（日付は公式サイトで要確認）。高校生以下・障がい者手帳所持者と介護者1名は無料。バスの本数が少ないため事前に時刻表を確認のこと（安来市広域生活バス・イエローバス）。カーナビは足立美術館を目標にしてから再設定推奨。年末年始休館（12/25〜1/10）は公式サイトより。",
+  "confidence": "high"
+}

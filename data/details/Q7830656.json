@@ -1,6 +1,6 @@
 {
   "id": "Q7830656",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:10:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,7 +8,9 @@
   "address": "〒440-0801 愛知県豊橋市今橋町3-1（豊橋公園内）",
   "source_urls": [
     "https://toyohashi-bihaku.jp/",
-    "https://toyohashi-bihaku.jp/bihaku05/%E9%A4%A8%E3%81%AE%E5%88%A9%E7%94%A8%E6%A1%88%E5%86%85/"
+    "https://toyohashi-bihaku.jp/bihaku05/%E9%A4%A8%E3%81%AE%E5%88%A9%E7%94%A8%E6%A1%88%E5%86%85/",
+    "https://toyohashi-bihaku.jp/?page_id=6715",
+    "https://toyohashi-bihaku.jp/bihaku01/%e4%bc%81%e7%94%bb%e5%b1%95/"
   ],
   "regular_hours": [
     {
@@ -39,13 +41,24 @@
   "special_openings": [],
   "exhibitions": [
     {
+      "title": "通史展示 とよはしの歴史",
+      "start": "2026-04-01",
+      "end": "2027-10-10",
+      "url": "https://toyohashi-bihaku.jp/bihaku01/bihaku01-2/",
+      "kind": "collection",
+      "summary": "通年。豊橋・東三河の歴史を展示する通史展示（展示替えや企画展のため一部ご覧いただけない期間あり）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
       "title": "かがくいひろしの世界展",
       "start": "2026-10-17",
       "end": "2026-11-15",
-      "url": "https://toyohashi-bihaku.jp/",
+      "url": "https://toyohashi-bihaku.jp/?page_id=6715",
       "kind": "special",
       "summary": "絵本作家・かがくいひろしの作品世界を紹介する展覧会",
-      "recommend": null,
+      "recommend": "「だるまさんが」シリーズで知られる絵本作家・かがくいひろしの世界を紹介。愛らしいキャラクターたちの造形と、優しいユーモアにあふれた絵本の原画などを一堂に。親子で楽しめる貴重な機会。",
       "admission": "一般・大学生 1,200円",
       "adult_price": 1200
     },
@@ -53,9 +66,9 @@
       "title": "第74回豊橋市民展",
       "start": "2026-12-15",
       "end": "2026-12-27",
-      "url": "https://toyohashi-bihaku.jp/",
+      "url": "https://toyohashi-bihaku.jp/bihaku01/%e8%b1%8a%e6%a9%8b%e5%b8%82%e6%b0%91%e5%b1%95/",
       "kind": "other",
-      "summary": "豊橋市民による美術・工芸作品の公募展",
+      "summary": "豊橋市民による美術・工芸作品の公募展（前期 12/15-12/20、後期 12/22-12/27）",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0
@@ -64,7 +77,7 @@
       "title": "三瀬夏之介 一望千里",
       "start": "2027-02-06",
       "end": "2027-03-22",
-      "url": "https://toyohashi-bihaku.jp/",
+      "url": "https://toyohashi-bihaku.jp/?page_id=6715",
       "kind": "special",
       "summary": "日本画家・三瀬夏之介の個展",
       "recommend": null,
@@ -89,8 +102,8 @@
       "walk_min": 20
     }
   ],
-  "highlights": "豊橋公園内の吉田城址に立つ複合型博物館。郷土ゆかりの美術・歴史・考古・民俗資料を幅広く収蔵し、日本画から陶磁器・古文書まで企画展で紹介する。コレクション展・一般ギャラリーは無料で入館可能。豊鉄市内線「豊橋公園前」停から徒歩3分。",
+  "highlights": "豊橋公園内の吉田城址に立つ複合型博物館。郷土ゆかりの美術・歴史・考古・民俗資料を幅広く収蔵し、日本画から陶磁器・古文書まで企画展で紹介する。コレクション展示・一般ギャラリーは無料で入館可能。豊鉄市内線「豊橋公園前」停から徒歩3分。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館。有料企画展開催中の月曜が祝日の場合は開館し、翌火曜が休館。コレクション展示・一般ギャラリーは無料、企画展は催しごとに料金が異なる。「豊橋公園前」は豊鉄市内線の停留所名（駅ではなく路面電車の停留所）。",
+  "notes": "月曜休館。有料企画展開催中の月曜が祝日の場合は開館し、翌火曜が休館。コレクション展示・一般ギャラリーは無料、企画展は催しごとに料金が異なる。「豊橋公園前」は豊鉄市内線の停留所名（路面電車の停留所）。",
   "confidence": "high"
 }

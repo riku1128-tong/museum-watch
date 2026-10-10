@@ -1,6 +1,6 @@
 {
   "id": "Q11468702",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T09:58:06+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -31,7 +31,19 @@
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "世界初・国内希少クラゲ展示（カグツチクラゲ・オオクシヒラムシ・クコノミクラゲ）",
+      "start": "2026-08-02",
+      "end": "2027-08-02",
+      "url": "https://kamo-kurage.jp/topics/%e4%b8%96%e7%95%8c%e5%88%9d%e5%b1%95%e7%a4%ba%e3%81%a8%e6%97%a5%e6%9c%ac%e3%81%a72%e4%be%8b%e7%9b%ae%e3%81%ae%e5%b1%95%e7%a4%ba/",
+      "kind": "special",
+      "summary": "カグツチクラゲ・オオクシヒラムシ（世界初展示）とクコノミクラゲ（国内2例目）を常設水槽に追加展示。",
+      "recommend": "世界初展示2種を含む3種の希少クラゲを見られるのは国内唯一。クコノミクラゲは加茂水族館と新江ノ島水族館のみでの展示で、世界屈指のクラゲ水族館の最新の挑戦が見どころ。",
+      "admission": null,
+      "adult_price": null
+    }
+  ],
   "adult_price": 1500,
   "free_days": [],
   "free_rules": [],

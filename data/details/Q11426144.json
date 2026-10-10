@@ -1,7 +1,7 @@
 {
   "id": "Q11426144",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:35:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.kinosaki-onsenji.jp/guide/museum.html",
@@ -43,7 +43,7 @@
     {
       "title": "常設展（温泉寺の仏教美術・城崎の遺跡）",
       "start": "2026-10-02",
-      "end": "2027-10-02",
+      "end": "2027-10-10",
       "url": "http://www.kinosaki-onsenji.jp/guide/museum.html",
       "kind": "collection",
       "summary": "温泉寺所蔵の仏教美術と城崎の遺跡出土品。通年",
@@ -66,6 +66,6 @@
   ],
   "highlights": "城崎温泉を見下ろす山腹、温泉寺本堂の東隣にある館。温泉寺に伝わる仏教美術と、城崎で発掘された遺跡の出土品を展示し、温泉街の歴史を美術の視点でたどれる。",
   "closed_between_exhibitions": false,
-  "notes": "公式ページ（2010年頃の表記）では開館 9:00〜16:30、休館 第2・第4木曜、大人300円（学生無料、温泉寺と共通券400円）。museum.or.jp には「9:00〜17:00（11〜3月は16:00まで）・100円・休館不定期」とあり食い違うため、公式を採用し confidence は medium。祝日の扱いは公式に記載なし。",
+  "notes": "公式ページ（2010年頃の表記）では開館 9:00〜16:30、休館 第2・第4木曜、大人300円（学生無料、温泉寺と共通券400円）。museum.or.jp には「9:00〜17:00（11〜3月は16:00まで）・100円・休館不定期」とあり食い違うため、公式を採用し confidence は medium。祝日の扱いは公式に記載なし。【2026-10-10 light】公式ページはShift_JIS文字化けのためページ内容を確認できず（既存データ維持）。",
   "confidence": "medium"
 }

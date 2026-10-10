@@ -1,6 +1,6 @@
 {
   "id": "Q11595531",
-  "checked_at": "2026-10-02T08:34:45+09:00",
+  "checked_at": "2026-10-10T12:00:00+09:00",
   "check_mode": "full",
   "operating_status": "unknown",
   "status_note": null,
@@ -8,7 +8,8 @@
   "address": null,
   "source_urls": [
     "https://www.town.ogano.lg.jp/oganokasekikan/",
-    "https://www.town.ogano.lg.jp/kanko-bunka-sports/kanko/ogano-kanko-kouryukan/"
+    "https://www.town.ogano.lg.jp/kanko-bunka-sports/kanko/ogano-kanko-kouryukan/",
+    "https://ja.wikipedia.org/wiki/%E5%B0%8F%E9%B9%BF%E9%87%8E%E7%94%BA"
   ],
   "regular_hours": [],
   "closed_weekdays": [],
@@ -23,6 +24,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "2026年9月再調査・2026年10月再調査（再挑戦: 埼玉県博物館連絡協議会秩父地域館のページにも小鹿野町の館は「おがの化石館」のみ）。小鹿野町公式サイトおよび観光協会に「郷土博物館」の独立した施設の記載なし。小鹿野町の文化施設として「おがの化石館」「小鹿野町観光交流館（旧本陣）」が存在するが、いずれも「郷土博物館」ではない。「郷土博物館」として独立した施設は廃止・統合された可能性あり。小鹿野町教育委員会（0494-75-2280）に要確認。",
+  "notes": "2026年10月再調査（再挑戦2回目）。【Wikidata IDの疑義】WikidataでQ11595531を照会すると「秋田県第3区」（衆議院選挙区）と判定されており、博物館のエンティティではない。IDの割り当てに誤りがある可能性が高い。【施設の実在性】小鹿野町公式サイト・観光協会（kanko-ogano.jp）・日本語Wikipedia「小鹿野町」記事のいずれにも「郷土博物館」という独立施設の記載なし。Wikipediaが挙げる町の文化施設は「おがの化石館」「観光交流館（本陣）」「倉尾ふるさと館」「小鹿野文化センター」「両神ふるさと総合会館」のみ。「郷土博物館」として独立した施設が過去に存在したか、廃止・統合されたかは現時点で確認不可。小鹿野町教育委員会（0494-75-2280）への直接確認を推奨。",
   "confidence": "low"
 }

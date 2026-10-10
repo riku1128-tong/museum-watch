@@ -1,0 +1,48 @@
+{
+  "id": "Q11582282",
+  "checked_at": "2026-10-10T09:51:48+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.town.tokushima-naka.lg.jp/aioi-art/",
+  "address": "徳島県那賀郡那賀町横石字大板34",
+  "source_urls": [
+    "https://www.walkerplus.com/spot/ar0936s62967/",
+    "https://www.navitime.co.jp/category/0705014/36368/",
+    "https://artplatform.go.jp/museums/M100322"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": 330,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "徳島",
+      "lines": "JR徳島線",
+      "exit": null,
+      "walk_min": null,
+      "note": "JR徳島駅から徳島バスで約100分、もみじ川温泉バス停より徒歩約10分。駐車場50台無料"
+    }
+  ],
+  "highlights": "木材の産地として知られる徳島県那賀町の川口ダム湖畔に位置し、木彫と木版画を中心に収蔵する個性的な美術館。剣山系の豊かな自然に囲まれた環境の中、国内外の作家による木の芸術作品を年3〜4回の企画展と館蔵品展で紹介。無料駐車場完備で、秘境ならではのゆったりとした鑑賞体験が魅力。",
+  "closed_between_exhibitions": true,
+  "notes": "公式サイト（town.tokushima-naka.lg.jp/aioi-art/）は404のため、ウォーカープラス・navitime・artplatform.go.jp の情報をもとに作成。開館時間は9:30〜16:30、月曜休館（祝日の場合は翌日）、展示替え期間中・年末年始休館。大人330円（ただし企画展で変動あり）。具体的な展覧会会期は公式未確認。",
+  "confidence": "medium"
+}

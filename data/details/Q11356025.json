@@ -1,6 +1,6 @@
 {
   "id": "Q11356025",
-  "checked_at": "2026-10-02T08:50:00+09:00",
+  "checked_at": "2026-10-10T09:51:58+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -46,23 +46,23 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "三橋節子美術館 企画展",
+      "title": "節子の遊び心がひそむ小さな森 ―ひっそりとたたずむ生き物たち―",
       "start": "2026-07-14",
       "end": "2026-11-01",
-      "url": "http://www.city.otsu.lg.jp/soshiki/010/1126/index.html",
+      "url": "https://www.city.otsu.lg.jp/soshiki/010/1126/e/66374.html",
       "kind": "special",
-      "summary": null,
-      "recommend": null,
+      "summary": "作品の片隅にそっと描かれた小さな生き物を探しながら、三橋節子の遊び心と静かなメッセージを感じる企画展",
+      "recommend": "背景の木陰や人物の足元に忍び込む小さな生き物たちに気づいたとき、画家の遊び心が伝わる。目をこらして探すひとときも作品鑑賞の楽しさのひとつ。",
       "admission": "一般 330円",
       "adult_price": 330
     },
     {
-      "title": "第16回 叡風会能面展（長等創作展示館）",
+      "title": "第16回 叡風会能面展",
       "start": "2026-10-23",
       "end": "2026-10-25",
-      "url": "http://www.city.otsu.lg.jp/soshiki/010/1126/index.html",
+      "url": "https://www.city.otsu.lg.jp/soshiki/010/1126/e/76733.html",
       "kind": "other",
-      "summary": null,
+      "summary": "長等創作展示館での能面展",
       "recommend": null,
       "admission": null,
       "adult_price": null
@@ -85,7 +85,7 @@
       "walk_min": 20
     }
   ],
-  "highlights": null,
+  "highlights": "35歳の若さで逝った長等ゆかりの画家・三橋節子の作品を専門に収蔵・展示する美術館。野草や小さな生き物を丹念に描いた作品、インド人物画、近江昔話を題材にした情感あふれる絵が揃う。作品の片隅に忍ばせた遊び心も含め、短い生涯に凝縮された世界を堪能できる。",
   "closed_between_exhibitions": false,
   "notes": "休館日は月曜（祝日の場合は翌日）・祝日の翌日（日曜は開館）・12/27〜1/5。11/4 は文化の日の翌日として休館に入れた。企画展の題名は読めたページに無く、会期のみ。無料駐車場約10台。観覧料は一般330円・大学高校生240円・中小学生160円・市内65歳以上160円。",
   "confidence": "medium"

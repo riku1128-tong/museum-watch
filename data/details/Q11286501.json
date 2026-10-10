@@ -1,0 +1,58 @@
+{
+  "id": "Q11286501",
+  "checked_at": "2026-10-10T15:58:08+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "http://www.isamunoguchi.or.jp/",
+  "address": "〒761-0121 香川県高松市牟礼町牟礼3519",
+  "source_urls": [
+    "https://www.museum.or.jp/museum/6621"
+  ],
+  "regular_hours": [
+    {
+      "days": ["tue", "thu", "sat"],
+      "open": "10:00",
+      "close": "16:00"
+    }
+  ],
+  "closed_weekdays": ["mon", "wed", "fri", "sun"],
+  "holiday_rule": "unknown",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-07",
+      "reason": "冬期休館（毎年12月28日〜1月7日）"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "イサム・ノグチの彫刻と庭園",
+      "start": "1992-01-01",
+      "end": "2027-10-10",
+      "url": "http://www.isamunoguchi.or.jp/",
+      "kind": "collection",
+      "summary": "通年。イサム・ノグチが晩年を過ごした香川の地にある庭園美術館。石彫・ブロンズ・版画など150点超を展示",
+      "recommend": null,
+      "admission": "一般 2,100円",
+      "adult_price": 2100
+    }
+  ],
+  "adult_price": 2100,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "屋島",
+      "lines": "JR高徳線",
+      "exit": null,
+      "walk_min": null,
+      "note": "屋島駅よりタクシー約10分。JR高松駅よりタクシー約25分。ことでん八栗駅より徒歩約20分"
+    }
+  ],
+  "highlights": "日系米国人彫刻家イサム・ノグチ（1904〜1988）が香川に移り住み、生涯の後半をかけて築いた庭園美術館。牟礼の石工・和泉正敏との共同作業による石彫作品を中心に、ブロンズ・版画を含む150点超を展示。晩年の彫刻庭園や移築されたアトリエが残り、石と空間が一体となった独自の世界を体験できる。",
+  "closed_between_exhibitions": false,
+  "notes": "完全予約制（往復はがきで日時を指定して申し込み）。1日3回の見学ツアー（10:00・13:00・15:00）で各回約1時間・定員制。火・木・土のみ開館。夏期休館（8月13〜16日）は2026年分が終了のため special_closures に未記載。公式サイト（http）は自己証明書エラーのため museum.or.jp の情報を利用（confidence: medium）。入館料は掲載時2,100円だが変更の可能性あり。祝日扱いは不明。",
+  "confidence": "medium"
+}

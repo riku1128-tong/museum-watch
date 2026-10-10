@@ -1,7 +1,7 @@
 {
   "id": "wp-ecd92410",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T09:51:48+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.kobayashi-bijutsu.com/",
@@ -34,7 +34,13 @@
   ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-12-14",
+      "to": "2026-12-17",
+      "reason": "展示替えのための休館"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {

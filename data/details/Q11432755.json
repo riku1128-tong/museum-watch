@@ -1,0 +1,78 @@
+{
+  "id": "Q11432755",
+  "checked_at": "2026-10-10T10:01:44+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.oita.oita.jp/bunkasports/bunka/bijutsukan/",
+  "address": "〒870-0835 大分市大字上野865番地",
+  "source_urls": [
+    "https://www.city.oita.oita.jp/bunkasports/bunka/bijutsukan/",
+    "https://www.city.oita.oita.jp/bunkasports/bunka/bijutsukan/riyoannai/index.html",
+    "https://www.city.oita.oita.jp/bunkasports/bunka/bijutsukan/kotsu/index.html",
+    "https://www.city.oita.oita.jp/o210/bunkasports/bunka/bijutsukan/special_exhibition/ochan-1.html",
+    "https://www.city.oita.oita.jp/o210/bunkasports/bunka/bijutsukan/special_exhibition/meetbamboo_jk.html"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [
+    {"weekday": "mon", "nth": [2, 3, 4, 5]},
+    {"weekday": "tue", "nth": [1]}
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "Oちゃん、キミはだあれ？ 松永真のデザインと大分市美術館のこれから",
+      "start": "2026-10-02",
+      "end": "2026-11-15",
+      "url": "https://www.city.oita.oita.jp/o210/bunkasports/bunka/bijutsukan/special_exhibition/ochan-1.html",
+      "kind": "special",
+      "summary": "グラフィックデザイナー松永真のデザインワークと、大分市美術館のシンボル「Oちゃん」の歩みを辿る参加型企画展",
+      "recommend": "大分市美術館のシンボル「Oちゃん」を生んだグラフィックデザイナー・松永真の仕事を前半で紹介し、後半は参加型の「集いの部屋」で館の歩みと未来を一緒に描く体験型展覧会。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "6人の竹芸作家とコシノジュンコの出会い 『対極』（第3期コレクション展）",
+      "start": "2026-09-16",
+      "end": "2026-11-15",
+      "url": "https://www.city.oita.oita.jp/o210/bunkasports/bunka/bijutsukan/special_exhibition/meetbamboo_jk.html",
+      "kind": "collection",
+      "summary": "MEET BAMBOO PROJECT OITA JAPANの一環。大分の竹工芸作家6名がコシノジュンコとの対話から生んだ新作「対極」テーマ展",
+      "recommend": "コシノジュンコとの対話から着想した大分の竹工芸作家6人の新作が「対極」のテーマのもとに並ぶ。若手作家が1年かけて制作したテーブルセンターピースも見どころ。",
+      "admission": "一般 440円（コレクション展観覧料）",
+      "adult_price": 440
+    }
+  ],
+  "adult_price": 440,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "大分",
+      "lines": "JR日豊本線・久大本線・豊肥本線",
+      "exit": "上野の森口（南口）",
+      "walk_min": 26,
+      "note": "大分きゃんバス（大分市美術館方面行き）に乗車し「大分市美術館」下車、所要約6分。タクシーなら約5分"
+    }
+  ],
+  "highlights": "大分市の上野の森公園に隣接する総合美術館。江戸時代に大分で栄えた「豊後南画」を中心に、日本画・洋画・現代美術・工芸など多彩なジャンルを所蔵する。地域の竹工芸文化を現代アートとして世界に発信する「MEET BAMBOO PROJECT OITA JAPAN」もこの美術館ならではの取り組み。",
+  "closed_between_exhibitions": false,
+  "notes": "第1月曜日は通常開館し翌火曜日が休館（特別展会期中は火曜も開館）。第2〜5月曜は休館（祝日の場合は開館し翌平日に振替）。観覧料の詳細は公式サイトで確認要（コレクション展大人440円は2026年の展示ページより）。大分市美術展の開催日程は未取得。",
+  "confidence": "high"
+}

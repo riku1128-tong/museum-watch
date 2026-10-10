@@ -1,10 +1,10 @@
 {
   "id": "Q3884829",
-  "checked_at": "2026-10-02T08:31:57+09:00",
+  "checked_at": "2026-10-10T10:09:29+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
-  "address": null,
+  "address": "〒650-0034 神戸市中央区京町24番地",
   "source_urls": [
     "https://www.kobecitymuseum.jp/",
     "https://www.kobecitymuseum.jp/guide",
@@ -37,13 +37,7 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [
-    {
-      "from": "2026-09-24",
-      "to": "2026-10-09",
-      "reason": "展示替えのため休館"
-    }
-  ],
+  "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {

@@ -1,7 +1,7 @@
 {
   "id": "Q42634129",
-  "checked_at": "2026-10-02T08:55:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-10T10:16:06+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.yokoyama-art-museum.or.jp",
@@ -17,7 +17,6 @@
   "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-10-02", "to": "2026-10-03", "reason": "臨時休館"},
     {"from": "2026-12-28", "to": "2027-01-04", "reason": "年末年始"}
   ],
   "special_openings": [],
@@ -36,10 +35,10 @@
     {
       "title": "常設展",
       "start": "2026-09-29",
-      "end": "2027-10-02",
+      "end": "2027-10-10",
       "url": "https://www.yokoyama-art-museum.or.jp/",
       "kind": "collection",
-      "summary": "通年。展示替え期間（9/29〜10/22）は常設展のみ公開",
+      "summary": "通年。オールドノリタケなど陶磁器コレクションを常設展示",
       "recommend": null,
       "admission": "一般 700円",
       "adult_price": 700
@@ -54,6 +53,6 @@
   ],
   "highlights": "明治期に欧米へ輸出された陶磁器「オールドノリタケ」を中心に所蔵する、名古屋・東区の美術館。企画展では所蔵品の優美な意匠を紹介し、常設展では陶磁器の世界を通年で楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝・休日の場合は開館し翌平日休館）。夏期休館あり（日程は未確認）。企画展開催時の観覧料は一般1,000円、常設展のみは一般700円。10/2・10/3は休館。次回予告「錦光山宗兵衛と京焼」展は2027/4/16〜8/29予定。",
+  "notes": "月曜休館（祝・休日の場合は開館し翌平日休館）。夏期休館あり（日程は未確認）。企画展開催時の観覧料は一般1,000円、常設展のみは一般700円。10/22までの展示替え期間は1・2階常設展のみ公開。次回予告「錦光山宗兵衛と京焼」展は2027/4/16〜8/29予定。【2026-10-10 light】臨時休館（10/2・10/3）は過去のため special_closures から削除。企画展「優美なるオールドノリタケ×ノリタケ」(10/23〜)を確認。",
   "confidence": "high"
 }

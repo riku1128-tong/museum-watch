@@ -1,0 +1,73 @@
+{
+  "id": "Q11586698",
+  "checked_at": "2026-10-10T10:00:30+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.ishibashi-bunka.jp/kcam/",
+  "address": "〒839-0862 福岡県久留米市野中町1015（石橋文化センター内）",
+  "source_urls": [
+    "https://www.ishibashi-bunka.jp/kcam/",
+    "https://www.ishibashi-bunka.jp/kcam/visit/",
+    "https://www.ishibashi-bunka.jp/kcam/exhibition/20260808-2/",
+    "https://www.ishibashi-bunka.jp/kcam/exhibition/20261024-2/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "開館10周年 ちくごist 河北秀也 デザインの旅",
+      "start": "2026-08-08",
+      "end": "2026-10-12",
+      "url": "https://www.ishibashi-bunka.jp/kcam/exhibition/20260808-2/",
+      "kind": "special",
+      "summary": "久留米出身のアートディレクター河北秀也が手がけた地下鉄路線図から40年分の「いいちこ」ポスター・CMまでを網羅",
+      "recommend": "「いいちこ」の駅貼りポスターを40年以上にわたり手がけた河北秀也の全仕事を追う展覧会。商品を引き立てる「額縁」というデザイン哲学が膨大な実作品を通して体感できる。",
+      "admission": "一般800円（団体600円）",
+      "adult_price": 800
+    },
+    {
+      "title": "開館10周年 コレクションing コレクションをともに見る・語る",
+      "start": "2026-10-24",
+      "end": "2027-01-11",
+      "url": "https://www.ishibashi-bunka.jp/kcam/exhibition/20261024-2/",
+      "kind": "special",
+      "summary": "開館10周年を記念し10年間に集めた約300点から選んだ約100点を公開。来館者が作品へのコメントや投票で参加できる",
+      "recommend": "藤島武二・坂本繁二郎・青木繁・吉田博ら筑後ゆかりの近代洋画の名品を10周年コレクション総覧で一堂に展示。来館者が「コレクション選挙」で投票できる参加型展示も新鮮。",
+      "admission": "一般800円（団体600円）",
+      "adult_price": 800
+    }
+  ],
+  "adult_price": 800,
+  "free_days": [
+    {
+      "from": "2026-11-19",
+      "to": "2026-11-19",
+      "scope": "all",
+      "reason": "開館記念日（11月19日）",
+      "source_url": "https://www.ishibashi-bunka.jp/kcam/exhibition/20261024-2/"
+    }
+  ],
+  "free_rules": [],
+  "access": [],
+  "highlights": "2016年に石橋文化センター内に開館した市立美術館（KCAM）。筑後地方ゆかりの藤島武二・青木繁・坂本繁二郎・吉田博ら近代洋画の名品を10年で約300点収蔵。第一号コレクションの高島野十郎「蝋燭」をはじめ近代日本画・洋画の精選が揃う。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜日が祝日・振替休日の場合は開館（翌日休館の記載なし）。アクセスの公共交通情報は公式ページに記載がなく未確認。",
+  "confidence": "high"
+}

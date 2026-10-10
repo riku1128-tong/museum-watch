@@ -1,7 +1,7 @@
 {
   "id": "Q110245475",
-  "checked_at": "2026-10-02T09:05:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-10T10:00:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://nagano.art.museum/",
@@ -10,9 +10,13 @@
     "https://nagano.art.museum/",
     "https://nagano.art.museum/access/",
     "https://nagano.art.museum/exhibition/",
+    "https://nagano.art.museum/exhibition/future",
     "https://nagano.art.museum/exhibition/namcollection2026_2",
     "https://nagano.art.museum/exhibition/higashiyama2026_2",
-    "https://nagano.art.museum/exhibition/artlab2026_2_kanebako"
+    "https://nagano.art.museum/exhibition/artlab2026_2_kanebako",
+    "https://nagano.art.museum/exhibition/artlab2026_3_nishimura",
+    "https://nagano.art.museum/exhibition/exhibit2026_Kandinsky",
+    "https://nagano.art.museum/exhibition/higashiyama2026_3"
   ],
   "regular_hours": [
     {
@@ -43,17 +47,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "信州のダイナミズム―疎開画家たちの作品を中心に",
-      "start": "2026-08-08",
-      "end": "2026-10-05",
-      "url": "https://nagano.art.museum/exhibition/kouryuten2026",
-      "kind": "special",
-      "summary": "おぶせミュージアム・中島千波館との交流名品展。疎開画家たちの作品を中心に信州の芸術家の仕事を紹介",
-      "recommend": null,
-      "admission": "一般700円",
-      "adult_price": 700
-    },
     {
       "title": "アートラボ2026第Ⅱ期　金箱淳一「質感のあわい｜Mediated Textures」",
       "start": "2026-07-18",
@@ -99,12 +92,45 @@
       "adult_price": null
     },
     {
-      "title": "カンディンスキー 世界は鳴りひびく",
+      "title": "アートラボ2026第Ⅲ期　西村陽平　死者の書",
+      "start": "2026-10-17",
+      "end": "2027-01-17",
+      "url": "https://nagano.art.museum/exhibition/artlab2026_3_nishimura",
+      "kind": "special",
+      "summary": "美術作家・陶芸家の西村陽平を紹介するアートラボ2026年度第Ⅲ期。視覚以外の感覚も使った鑑賞が可能なラボラトリー空間",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "東山魁夷館コレクション2026 第Ⅲ期",
+      "start": "2026-10-29",
+      "end": "2027-01-26",
+      "url": "https://nagano.art.museum/exhibition/higashiyama2026_3",
+      "kind": "collection",
+      "summary": "秋から冬の情景を描いた作品群。北欧・ヨーロッパ取材作と日本の風景画。主な展示：《夕紅》《木枯らし舞う》《聖夜》《秋思》《静晨》",
+      "recommend": "秋枯れの北欧の風景と日本の晩秋を描く作品群が並ぶ第Ⅲ期。《木枯らし舞う》や《聖夜》など静謐で緊張感に満ちた冬の世界を表現した魁夷の真骨頂を、冬の訪れとともに体験できる。",
+      "admission": "一般700円",
+      "adult_price": 700
+    },
+    {
+      "title": "カンディンスキー 世界は鳴りひびく ―日本のコレクションでたどる画業と反響―",
       "start": "2026-11-07",
       "end": "2026-12-27",
-      "url": "https://nagano.art.museum/exhibition/",
+      "url": "https://nagano.art.museum/exhibition/exhibit2026_Kandinsky",
       "kind": "special",
-      "summary": "ワシリー・カンディンスキーを紹介する展覧会（公式サイトの予定掲載）",
+      "summary": "国内所蔵品で初期から晩年の画業をたどる。日本の芸術家への影響・反響にも焦点を当てた回顧展",
+      "recommend": "1987・2002年以来の国内単独回顧展。童話的なロシア絵画から抽象表現の確立まで国内所蔵品でたどり、カンディンスキーが日本の美術界に与えた影響を最新研究で解説する見応えある展覧会。",
+      "admission": "一般1,200円（団体1,100円）",
+      "adult_price": 1200
+    },
+    {
+      "title": "NAMコレクション2026 第Ⅲ期",
+      "start": "2026-11-19",
+      "end": "2027-02-15",
+      "url": "https://nagano.art.museum/exhibition/namcollection2026_3",
+      "kind": "collection",
+      "summary": null,
       "recommend": null,
       "admission": null,
       "adult_price": null
@@ -130,6 +156,6 @@
   ],
   "highlights": "善光寺の東隣、城山公園内に建つ県立美術館。プリツカー賞建築家・槇文彦が設計した本館と、東山魁夷の作品を専門に収蔵する東山魁夷館からなる。自然光を取り込む展示室で、信州ゆかりの現代美術や工芸から東山魁夷の繊細な風景画まで幅広く鑑賞できる。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は「水曜日（祝日の場合は翌平日）」。入館料は各展示共通700円（団体600円）。映像作品上映は土・日・祝日のみ（交流スペース、入館不要の無料エリアかは要確認。adult_priceをnullとした）。2026年11月以降の展覧会は公式サイト未掲載。",
+  "notes": "休館日は「水曜日（祝日の場合は翌平日）」。入館料は各展示共通700円（団体600円）。映像作品上映は土・日・祝日のみ（交流スペース）。アートラボ2026第Ⅲ期は無料。カンディンスキー展は一般1,200円（コレクション展との共通券あり）。",
   "confidence": "high"
 }

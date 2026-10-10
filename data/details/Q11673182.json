@@ -1,0 +1,83 @@
+{
+  "id": "Q11673182",
+  "checked_at": "2026-10-10T10:15:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.town.takanabe.lg.jp/museum/index.html",
+  "address": "〒884-0003 宮崎県児湯郡高鍋町大字南高鍋6916番地1",
+  "source_urls": [
+    "https://www.town.takanabe.lg.jp/museum/941.html",
+    "https://www.town.takanabe.lg.jp/museum/939.html",
+    "https://artscape.jp/exhibitions/77732/"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "高鍋町美術館収蔵作品展「Silent Colors」",
+      "start": "2026-10-10",
+      "end": "2026-11-08",
+      "url": "https://artscape.jp/exhibitions/77732/",
+      "kind": "collection",
+      "summary": "所蔵・寄託作品からモノクロームや色彩を極力抑えた作品を展示。水彩・素描・写真・日本画・版画など多彩なジャンル",
+      "recommend": "限られた色から生まれる思考の深みと作品の本質に向き合う展覧会。白黒や抑えたトーンの作品を並べることで、ジャンルを超えて浮かび上がる表現の多様さが見どころ。",
+      "admission": "大人210円（団体170円）",
+      "adult_price": 210
+    },
+    {
+      "title": "ギャラリー展「夢の舟乗り展 \"花～癒し\"」",
+      "start": "2026-10-10",
+      "end": "2026-10-25",
+      "url": null,
+      "kind": "special",
+      "summary": "夢の舟乗りによる写真展。テーマは花・癒し",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
+  "adult_price": 210,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "高鍋",
+      "lines": "JR九州日豊本線",
+      "exit": null,
+      "walk_min": null,
+      "note": "三和交通バス「一丁田経由西都行き」で「舞鶴公園前」下車徒歩3分または「蓑崎」下車徒歩1分。車で約10分。"
+    }
+  ],
+  "highlights": "宮崎県高鍋町に位置する市立美術館。水彩・素描・写真・日本画・版画など多様なジャンルの収蔵作品を季節ごとのテーマで展示するほか、無料のギャラリースペースも設ける。98台の無料駐車場を完備し、車でもアクセスしやすい。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日は除く）、祝日の翌日（土・日は除く）休館。年末年始 12/28〜1/4 休館。常設展の入館料は大人210円・小中高生・高齢者・障がい者100円（未就学児・高鍋町内小中高生は無料）。Silent Colors の URL は artscape ページ（公式サイトの展覧会ページが見つからなかった）。ギャラリー展は初日12:00開場・最終日15:00まで。",
+  "confidence": "high"
+}

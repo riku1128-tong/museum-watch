@@ -1,0 +1,36 @@
+{
+  "id": "wp-eae66755",
+  "checked_at": "2026-10-10T16:09:51+09:00",
+  "check_mode": "full",
+  "operating_status": "unknown",
+  "status_note": "2025年9月の口コミに「廃業してしまった可能性がある」との記述あり。公式サイト（OCN）は接続不可。現在の営業状況は確認できず。",
+  "official_url": "http://www3.ocn.ne.jp/~kodaibi/",
+  "address": "〒869-2612 熊本県阿蘇市一の宮町宮地下高城口6135",
+  "source_urls": [
+    "https://art.xtone.jp/museum/archives/kodainosato.html",
+    "https://www.museum.or.jp/museum/7262",
+    "https://4travel.jp/dm_shisetsu/10016079"
+  ],
+  "regular_hours": [],
+  "closed_weekdays": [],
+  "closed_nth_weekdays": [],
+  "holiday_rule": "unknown",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [],
+  "adult_price": null,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "宮地",
+      "lines": "JR豊肥本線",
+      "walk_min": null,
+      "note": "宮地駅から車で約5分"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "公式サイト（http://www3.ocn.ne.jp/~kodaibi/）はDNS解決不可で接続できず。インターネットミュージアムには住所と電話（0967-22-3313）のみ掲載。フォートラベルの最新口コミは2015年。2025年9月口コミで近隣ホテルから廃業の可能性を示唆する情報あり。最後に確認できた情報（2015年頃）は年中無休・9:30〜17:30・一般600円。",
+  "confidence": "low"
+}

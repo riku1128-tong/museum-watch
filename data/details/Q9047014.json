@@ -1,0 +1,68 @@
+{
+  "id": "Q9047014",
+  "checked_at": "2026-10-10T10:09:41+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.houki-town.jp/ueda/",
+  "address": "〒689-4107 鳥取県西伯郡伯耆町須村353-3",
+  "source_urls": [
+    "https://www.houki-town.jp/ueda/",
+    "https://www.houki-town.jp/ueda/information/",
+    "https://www.houki-town.jp/ueda/exhibition/r8d2/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-11",
+      "to": "2027-02-28",
+      "reason": "冬期休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "植田正治　まなざしの輝き",
+      "start": "2026-09-12",
+      "end": "2026-12-10",
+      "url": "https://www.houki-town.jp/ueda/exhibition/r8d2/",
+      "kind": "special",
+      "summary": "植田正治のまなざしと視点に着目し、多彩なイメージの軌跡を3セクションで紹介",
+      "recommend": "植田正治のまなざしの変遷を3つの切り口でたどる展覧会。世界的に注目された日本人写真家の多彩なイメージの軌跡を、大山山麓の同館でしか体感できない空間の中であらためて味わえる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    }
+  ],
+  "adult_price": 1000,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "岸本",
+      "lines": "JR伯備線",
+      "exit": null,
+      "walk_min": null,
+      "note": "岸本駅からタクシー約5分（または伯耆町デマンドバス「美術館前」下車10分・要予約）"
+    },
+    {
+      "station": "米子",
+      "lines": "JR山陰本線・伯備線",
+      "exit": null,
+      "walk_min": null,
+      "note": "米子駅からタクシー約25分"
+    }
+  ],
+  "highlights": "大山山麓に建つ、鳥取出身の写真家・植田正治に特化した写真美術館。高松伸設計の建物は館内から水面に映る「逆さ大山」を眺められる独特の空間を持つ。世界で最も注目された日本人写真家のひとりである植田正治の多彩な作風を、企画展で紹介する。",
+  "closed_between_exhibitions": false,
+  "notes": "冬期休館は12月11日から翌年2月末日まで。展示替期間中も休館。入館は閉館30分前まで。団体料金（20名以上）は一般900円。",
+  "confidence": "high"
+}

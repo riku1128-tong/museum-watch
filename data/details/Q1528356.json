@@ -1,10 +1,10 @@
 {
   "id": "Q1528356",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T09:51:29+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
-  "official_url": null,
+  "official_url": "https://www.murauchi.net/museum/",
   "address": "〒192-0012 東京都八王子市左入町787 村内ファニチャーアクセス八王子本店内 3階",
   "source_urls": [
     "https://www.murauchi.net/museum/",
@@ -39,7 +39,7 @@
     {
       "title": "コレクション展示（家具と絵画のコラボレーション）",
       "start": "2026-01-01",
-      "end": "2027-09-29",
+      "end": "2027-10-10",
       "url": "https://www.murauchi.net/museum/",
       "kind": "collection",
       "summary": "通年。世界の著名家具デザイナーの名作椅子・家具と西洋・日本の現代画家の大作絵画を常設展示",

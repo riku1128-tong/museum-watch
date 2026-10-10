@@ -1,0 +1,81 @@
+{
+  "id": "Q11382536",
+  "checked_at": "2026-10-10T10:00:52+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://shimabi.com/",
+  "address": "〒857-0806 長崎県佐世保市島瀬町6-22",
+  "source_urls": [
+    "https://shimabi.com/",
+    "https://shimabi.com/exhibition/",
+    "https://shimabi.com/access/",
+    "https://shimabi.com/a10/a10_13743/",
+    "https://shimabi.com/a10/a10_13588/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": ["tue"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "令和８年度　日本遺産写真展",
+      "start": "2026-10-28",
+      "end": "2026-11-01",
+      "url": "https://shimabi.com/a10/a10_13588/",
+      "kind": "special",
+      "summary": "佐世保市の日本遺産「鎮守府」と「三川内焼」認定10周年。構成文化財を写真で紹介",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "19・20世紀の芸術家とポスター展 ―マティス、ピカソ、ミュシャetc. 創作において自由なる競創―",
+      "start": "2026-11-07",
+      "end": "2026-12-20",
+      "url": "https://shimabi.com/a10/a10_13743/",
+      "kind": "special",
+      "summary": "マティス・ピカソ・ミュシャら19〜20世紀の著名作家が制作した多彩なポスターを紹介",
+      "recommend": "芸術的表現手法としてのポスターに焦点をあて、マティスやピカソ、ミュシャなど著名作家の作品が一堂に会する。ポスターという「身近な芸術」の奥深さを楽しめる展覧会。",
+      "admission": "一般1,400円（前売1,100円）、高校生以下1,200円（前売1,000円）",
+      "adult_price": 1400
+    }
+  ],
+  "adult_price": 0,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "佐世保中央",
+      "lines": "松浦鉄道（MR）",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    },
+    {
+      "station": "佐世保",
+      "lines": "JR大村線・佐世保線",
+      "exit": null,
+      "walk_min": 20,
+      "note": "バス約5分（島瀬町バス停下車）またはタクシー約4分"
+    }
+  ],
+  "highlights": null,
+  "closed_between_exhibitions": false,
+  "notes": "常設展観覧無料（特別展・企画展は別途料金）。特別展開催期間中は火曜日も開館する場合あり。館内にカフェ「Jilbe」あり。約10/8開幕の「第71回県展佐世保展」は展覧会一覧ページには掲載されていなかった（グループ/公募展の別枠の可能性）。",
+  "confidence": "high"
+}

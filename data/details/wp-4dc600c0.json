@@ -1,6 +1,6 @@
 {
   "id": "wp-4dc600c0",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:05:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,8 +9,8 @@
   "source_urls": [
     "https://www.urasenke.or.jp/textc/gallery/",
     "https://www.urasenke.or.jp/textc/gallery/access/",
-    "https://www.urasenke.or.jp/textc/gallery/exhibition/%E4%BB%A4%E5%92%8C8%E5%B9%B4%E3%80%80%E7%89%B9%E5%88%A5%E5%B1%95/",
-    "https://abc0120.net/2026/09/29/230718/"
+    "https://www.urasenke.or.jp/textc/gallery/exhibition_category/now/",
+    "https://www.urasenke.or.jp/textc/gallery/exhibition/%e4%bb%a4%e5%92%8c8%e5%b9%b4-%e7%89%b9%e5%88%a5%e5%b1%95/"
   ],
   "regular_hours": [
     {
@@ -41,10 +41,10 @@
       "title": "玄々斎 ―裏千家十一代家元 精中宗室居士百五十回忌記念―",
       "start": "2026-09-29",
       "end": "2026-12-06",
-      "url": "https://www.urasenke.or.jp/textc/gallery/exhibition/",
+      "url": "https://www.urasenke.or.jp/textc/gallery/exhibition/%e4%bb%a4%e5%92%8c8%e5%b9%b4-%e7%89%b9%e5%88%a5%e5%b1%95/",
       "kind": "special",
       "summary": "裏千家十一代家元・玄々斎の百五十回忌を記念した特別展（前期9/29〜11/1、後期11/3〜12/6）",
-      "recommend": null,
+      "recommend": "幕末から明治にかけて裏千家を率い、立礼式の点前を考案した十一代家元・玄々斎の百五十回忌記念展。掛け物・茶入・香合など家元ゆかりの一級品が一堂に会し、近代茶道の礎を築いた足跡をたどれる貴重な機会。",
       "admission": "一般 1,000円",
       "adult_price": 1000
     }
@@ -68,8 +68,8 @@
       "note": "市バス9系統「堀川寺ノ内」下車"
     }
   ],
-  "highlights": null,
+  "highlights": "裏千家センター内に設けられた茶道専門の資料館（茶道総合資料館）。歴代家元ゆかりの茶道具・書跡・陶磁器などを所蔵・公開し、年数回の特別展で体系的に展示する。幕末期に近代茶道の礎を築いた十一代家元・玄々斎など、裏千家の歴史と文化を深く学べる。",
   "closed_between_exhibitions": false,
-  "notes": "祝日が月曜の場合は開館し翌火曜休館（前回特別展の公式案内による）。8月13〜16日は休館。年末年始の日付は未確認。前期・後期の会期は公式の特別展ページを読めず第三者の告知（2026-09-29付）による。休館日・祝日扱いは前回展の公式記載から。",
+  "notes": "祝日が月曜の場合は開館し翌火曜休館（前回特別展の公式案内による）。8月13〜16日は休館（例年）。年末年始の日付は未確認。展覧会URLを令和8年特別展の正式ページに更新（2026-10-10）。",
   "confidence": "medium"
 }

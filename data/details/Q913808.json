@@ -1,7 +1,7 @@
 {
   "id": "Q913808",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-10T16:04:13+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.artizon.museum/",
@@ -9,8 +9,8 @@
   "source_urls": [
     "https://www.artizon.museum/",
     "https://www.artizon.museum/user-guide/",
-    "https://www.artizon.museum/exhibition/detail/602",
-    "https://www.artizon.museum/exhibition/detail/608"
+    "https://www.artizon.museum/exhibition/detail/608",
+    "https://www.artizon.museum/exhibition/detail/610"
   ],
   "regular_hours": [
     {
@@ -42,6 +42,11 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
+      "from": "2026-10-05",
+      "to": "2026-10-23",
+      "reason": "展示替え"
+    },
+    {
       "from": "2026-12-28",
       "to": "2027-01-04",
       "reason": "年末年始"
@@ -50,31 +55,13 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "エットレ・ソットサス —魔法がはじまるとき、デザインは生まれる",
-      "start": "2026-06-23",
-      "end": "2026-10-04",
-      "url": "https://www.artizon.museum/exhibition/detail/602",
-      "kind": "special",
-      "summary": "メンフィスを結成したイタリアのデザイナー、エットレ・ソットサスの日本初の大回顧展",
-      "admission": "一般 1,200円（ウェブ予約）／1,500円（窓口）",
-      "adult_price": 1500
-    },
-    {
-      "title": "瀧口修造　書くことと描くこと",
-      "start": "2026-06-23",
-      "end": "2026-10-04",
-      "url": "https://www.artizon.museum/exhibition/detail/604",
-      "kind": "special",
-      "summary": "瀧口修造の執筆と造形の仕事を紹介（5・4階）",
-      "admission": null
-    },
-    {
       "title": "ジャム・セッション　石橋財団コレクション×藤井光　WHOSE LIGHT? —だれのひかりか",
       "start": "2026-10-24",
       "end": "2027-01-31",
       "url": "https://www.artizon.museum/exhibition/detail/608",
       "kind": "special",
       "summary": "藤井光が「洞窟の比喩」を手がかりに、石橋財団コレクション22点と新作で真理の構造を問う",
+      "recommend": "プラトンの「洞窟の比喩」を起点に「誰が光を照らすのか」と問い直す藤井光の批評的インスタレーション。石橋財団コレクション22点と藤井の新作を時間軸に沿って組み合わせ、真理の構造を追体験できる。",
       "admission": "一般 1,200円（ウェブ予約）／1,500円（窓口）",
       "adult_price": 1500
     },
@@ -84,8 +71,10 @@
       "end": "2027-01-31",
       "url": "https://www.artizon.museum/exhibition/detail/610",
       "kind": "special",
-      "summary": "洋画家たちのヨーロッパ体験をたどる",
-      "admission": null
+      "summary": "黒田清輝・藤島武二・安井曾太郎・藤田嗣治ら滞欧作100点超を石橋財団コレクションで紹介",
+      "recommend": "黒田清輝・藤島武二・安井曾太郎・藤田嗣治ら100点超の滞欧作を一堂に展示。明治以降に海を渡った洋画家たちが何を見てどう学んだかを石橋財団コレクションで追体験できる。",
+      "admission": "一般 1,200円（ウェブ予約）／1,500円（窓口）",
+      "adult_price": 1500
     }
   ],
   "adult_price": null,
@@ -114,6 +103,6 @@
   ],
   "highlights": "旧ブリヂストン美術館を前身とする石橋財団の美術館。印象派・日本近代洋画から現代美術まで「創造の体感」をテーマに幅広く収蔵し、ミュージアムタワー京橋4〜6階で展示。日時指定予約制で、金曜日は夜8時まで開館している。",
   "closed_between_exhibitions": true,
-  "notes": "休館日は「月曜日（祝日の場合は開館し翌平日は振替休日）、展示替え期間、年末年始」。金曜20時までは「祝日を除く」。ソットサス展ページの休館日「月曜日（7月20日、9月21日は開館）、7月21日、9月24日」、ジャム・セッション展ページの休館日「月曜日（11月23日、1月11日は開館）、11月24日、12月28日–1月4日、1月12日」。日時指定予約制。瀧口修造展・エトランゼたち展の会期はトップページの記載で、個別ページは未読。常設の館共通料金は無く企画展ごとに異なるため adult_price は null。",
+  "notes": "休館日は「月曜日（祝日の場合は開館し翌平日は振替休日）、展示替え期間、年末年始」。金曜20時までは「祝日を除く」。ジャム・セッション展の休館日「月曜日（11月23日・1月11日は開館）、11月24日、12月28日–1月4日、1月12日」。日時指定予約制。常設の館共通料金は無く企画展ごとに異なるため adult_price は null。",
   "confidence": "high"
 }

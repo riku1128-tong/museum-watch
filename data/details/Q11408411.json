@@ -1,6 +1,6 @@
 {
   "id": "Q11408411",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:00:43+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": "年2回（5月・11月）のみ開館する私設美術館。公式サイトは証明書期限切れで直接読めず、検索結果・美術館情報サイトで確認",
@@ -37,9 +37,10 @@
   "free_days": [],
   "free_rules": [],
   "access": [
+    {"station": "中津", "lines": "阪急神戸線・宝塚線", "exit": null, "walk_min": 3, "note": null},
     {"station": "中津", "lines": "大阪メトロ御堂筋線", "exit": null, "walk_min": null, "note": null}
   ],
-  "highlights": null,
+  "highlights": "1968年に北村芳郎氏が設立した私設美術館。重要文化財の「南蛮屏風」をはじめ、高山右近の南蛮兜・細川ガラシャ夫人の十字架など安土桃山〜江戸初期のキリシタン・南蛮美術の精髄を収蔵。毎年5月・11月の2か月間しか開かない希少性も大きな魅力。",
   "closed_between_exhibitions": false,
   "notes": "開館は毎年5月1〜31日と11月1〜30日のみ、期間中の月曜休館。入館料は美術館情報サイトで500円、検索結果の複数サイトで大人800円と食い違い、新しい800円を採用。最寄駅の出口・徒歩分数は未確認。2027年5月の開館は次回確認。",
   "confidence": "medium"

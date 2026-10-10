@@ -1,0 +1,108 @@
+{
+  "id": "Q3329561",
+  "checked_at": "2026-10-10T10:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.adachi-museum.or.jp/",
+  "address": "〒692-0064 島根県安来市古川町320",
+  "source_urls": [
+    "https://www.adachi-museum.or.jp/",
+    "https://www.adachi-museum.or.jp/hours-admission",
+    "https://www.adachi-museum.or.jp/access",
+    "https://www.adachi-museum.or.jp/garden/",
+    "https://www.adachi-museum.or.jp/exhibition/main/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:30",
+      "from": "2026-04-01",
+      "to": "2026-09-30"
+    },
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:00",
+      "close": "17:00",
+      "from": "2026-10-01",
+      "to": "2027-03-31"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "秋季特別展 侍－日本画の革新に挑んだ7人－",
+      "start": "2026-08-31",
+      "end": "2026-11-30",
+      "url": "https://www.adachi-museum.or.jp/exhibition/main/",
+      "kind": "special",
+      "summary": "近代日本画の革新に挑んだ7人の画家の作品を紹介（本館）",
+      "recommend": null,
+      "admission": "一般 2,500円（館の入館料に含む）",
+      "adult_price": null
+    },
+    {
+      "title": "現代日本画名品選Ⅱ「ずらり100点」",
+      "start": "2026-06-26",
+      "end": "2026-10-19",
+      "url": "https://www.adachi-museum.or.jp/exhibition/",
+      "kind": "collection",
+      "summary": "現代日本画の名品100点を一堂に公開（新館）",
+      "recommend": null,
+      "admission": "一般 2,500円（館の入館料に含む）",
+      "adult_price": null
+    },
+    {
+      "title": "再興第111回 院展",
+      "start": "2026-10-24",
+      "end": "2026-11-15",
+      "url": "https://www.adachi-museum.or.jp/exhibition/",
+      "kind": "special",
+      "summary": "日本美術院の年次大展覧会・再興第111回院展（新館）",
+      "recommend": null,
+      "admission": "一般 2,500円（館の入館料に含む）",
+      "adult_price": null
+    },
+    {
+      "title": "現代日本画名品選Ⅲ",
+      "start": "2026-11-18",
+      "end": "2027-03-15",
+      "url": "https://www.adachi-museum.or.jp/exhibition/",
+      "kind": "collection",
+      "summary": "現代日本画の名品選（新館）。会期は2027年3月中旬まで",
+      "recommend": null,
+      "admission": "一般 2,500円（館の入館料に含む）",
+      "adult_price": null
+    },
+    {
+      "title": "冬季特別展 縦と横 くらべてわかる表現の違い",
+      "start": "2026-12-01",
+      "end": "2027-02-28",
+      "url": "https://www.adachi-museum.or.jp/exhibition/main/",
+      "kind": "special",
+      "summary": "縦と横の構図の違いから日本画表現の特色を比較・解説する冬季特別展（本館）",
+      "recommend": null,
+      "admission": "一般 2,500円（館の入館料に含む）",
+      "adult_price": null
+    }
+  ],
+  "adult_price": 2500,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "安来",
+      "lines": "JR山陰本線",
+      "walk_min": null,
+      "note": "JR安来駅より無料シャトルバスで約20分"
+    }
+  ],
+  "highlights": "23年連続日本一に選ばれた日本庭園はミシュラングリーンガイド三つ星。横山大観・上村松園・速水御舟ら近代日本画の名品と北大路魯山人の陶芸コレクションを擁し、窓越しに庭を一幅の絵として鑑賞できる「生の額絵」「生の掛軸」が印象的な島根の名美術館。",
+  "closed_between_exhibitions": false,
+  "notes": "年中無休（新館は展示替え期間のみ閉室。2026年: 10/20-23・11/16-17。2027年: 3/10-11・6/7-10・6/21-22）。開館時間は夏季（4-9月）9:00-17:30、冬季（10-3月）9:00-17:00。入館料は全展示込みで大人2,500円。",
+  "confidence": "high"
+}

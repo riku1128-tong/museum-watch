@@ -1,6 +1,6 @@
 {
   "id": "Q3329607",
-  "checked_at": "2026-10-02T08:50:00+09:00",
+  "checked_at": "2026-10-10T10:07:19+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -11,7 +11,8 @@
     "https://www.artm.pref.hyogo.jp/exhibition/",
     "https://www.artm.pref.hyogo.jp/exhibition/t_2610/index.html",
     "https://www.artm.pref.hyogo.jp/kenten/y2026_kenten/index.html",
-    "https://www.artm.pref.hyogo.jp/access/"
+    "https://www.artm.pref.hyogo.jp/access/",
+    "https://www.artm.pref.hyogo.jp/news/"
   ],
   "regular_hours": [
     {
@@ -44,15 +45,26 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "コレクション展",
-      "start": "2026-04-01",
-      "end": "2027-09-30",
+      "title": "2026コレクション展Ⅱ 前衛って何だ!?",
+      "start": "2026-10-20",
+      "end": "2027-02-23",
       "url": "https://www.artm.pref.hyogo.jp/collection/",
       "kind": "collection",
-      "summary": "通年",
+      "summary": "所蔵の近現代美術を「前衛」をテーマに再構成。2・3階展示室で開催",
       "recommend": null,
       "admission": "一般 550円",
       "adult_price": 550
+    },
+    {
+      "title": "小企画 美術の中のかたち―手で見る造形 青木野枝 動体",
+      "start": "2026-10-20",
+      "end": "2027-02-23",
+      "url": null,
+      "kind": "special",
+      "summary": "コレクション展Ⅱ内の小企画。青木野枝の彫刻作品を通じて手で見る造形を体感（3階展示室2）",
+      "recommend": null,
+      "admission": "コレクション展観覧料に含む",
+      "adult_price": null
     },
     {
       "title": "国立美術館 コレクション・ダイアローグ 松方幸次郎 × 山村德太郎 蒐集のパッション―ロダンを日本へ、具体を世界へ",
@@ -77,9 +89,20 @@
       "adult_price": null
     },
     {
-      "title": "黒川 岳（チャンネル17）",
+      "title": "注目作家紹介プログラム―チャンネル17 黒川 岳",
       "start": "2026-11-28",
       "end": "2027-01-31",
+      "url": null,
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "特集 王一亭とその時代（仮題）",
+      "start": "2026-12-17",
+      "end": "2027-02-23",
       "url": null,
       "kind": "special",
       "summary": null,
@@ -95,14 +118,14 @@
       "to": "2026-11-03",
       "scope": "collection",
       "reason": "文化の日",
-      "source_url": "https://bijutsutecho.com/magazine/insight/31482"
+      "source_url": "https://www.artm.pref.hyogo.jp/news/"
     },
     {
       "from": "2026-11-14",
       "to": "2026-11-15",
       "scope": "collection",
       "reason": "関西文化の日",
-      "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/index/hyogo/art-museums/"
+      "source_url": "https://www.artm.pref.hyogo.jp/news/"
     }
   ],
   "free_rules": [
@@ -121,11 +144,11 @@
       "lines": "JR神戸線",
       "exit": null,
       "walk_min": 8,
-      "note": "JR灘駅から徒歩約8分。または阪神電鉄「岩屋（兵庫県立美術館前）」駅下車徒歩約8分。HAT神戸内"
+      "note": "阪神「岩屋（兵庫県立美術館前）」駅からも徒歩約8分。HAT神戸内"
     }
   ],
   "highlights": "建築家・安藤忠雄設計の本格的な美術館。HAT神戸の海岸沿いに立ち、国内外の近現代美術コレクションを所蔵。安藤忠雄ギャラリー（無料）も常設展示。毎月第2日曜は無料開放日。",
   "closed_between_exhibitions": false,
-  "notes": "コレクション展一般550円。特別展は展覧会ごとに料金が異なる。特別展開催中の金・土は20:00まで開館（最終入館19:30）。安藤忠雄ギャラリーおよびエントランスロビーは無料。毎月第2日曜はコレクション展・伊藤文化財団コレクション展が無料（特別展を除く）。",
+  "notes": "コレクション展一般550円。特別展は展覧会ごとに料金が異なる。特別展開催中の金・土は20:00まで開館（最終入館19:30）。安藤忠雄ギャラリーおよびエントランスロビーは無料。毎月第2日曜はコレクション展が無料（特別展を除く）。9-10月の開館状況カレンダー（PDF）を確認: コレクション展Ⅰは9月末に終了し、10月1〜19日は特別展のみ（コレクション展示なし）。コレクション展Ⅱは10月20日（火）開幕。",
   "confidence": "high"
 }

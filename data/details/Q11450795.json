@@ -1,6 +1,6 @@
 {
   "id": "Q11450795",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T10:00:35+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://www.museum.or.jp/museum/10700",
     "https://www.culture.nagano.jp/facilities/564/",
-    "https://azumino-artline.net/museum/setsuro"
+    "https://azumino-artline.net/museum/setsuro",
+    "https://www.nact.jp/artcommons/user/detail/82549"
   ],
   "regular_hours": [
     {
@@ -39,7 +40,19 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "見る 聞く うるし",
+      "start": "2026-09-12",
+      "end": "2026-12-06",
+      "url": "https://www.nact.jp/artcommons/user/detail/82549",
+      "kind": "special",
+      "summary": "髙橋節郎作品と現代作家3名（伊藤南翠・井上俊介・若尾春）によるアーティストインレジデンス展",
+      "recommend": "安曇野に滞在した3名の現代漆芸作家が、髙橋節郎の作品と安曇野の風景・文化に触れて生み出した新作を発表。平面・立体・インスタレーションと多様な表現が、漆芸の現在を体験させてくれる。",
+      "admission": "一般 620円",
+      "adult_price": 620
+    }
+  ],
   "closed_between_exhibitions": false,
   "adult_price": 410,
   "access": [
@@ -51,7 +64,7 @@
       "note": "穂高駅からタクシー約5〜10分、レンタサイクル約20分。有明駅から徒歩15〜20分。JR篠ノ井線明科駅からタクシー約7〜15分。長野自動車道安曇野ICから車で約15分"
     }
   ],
-  "highlights": "漆芸家・高橋節郎の生家跡（登録有形文化財）に建つ美術館。黒と金を基調に、少年時代に親しんだ安曇野の風景を幻想的に描いた漆屏風や漆版画、墨彩画などを展示する、作家ゆかりの地ならではの記念館。",
-  "notes": "公式サイト（azumino-bunka.com、および別名setsuro-museum.com）はサーバー証明書のホスト名不一致でWebFetchから読み込めず（Hostname does not match certificate's altnames）、時間をおいて複数回試したが解消しなかった。そのため、インターネットミュージアム・長野県文化施設ポータル・安曇野アートラインの3件で内容が一致する開館時間・休館日・観覧料・アクセスのみを採用し、confidenceはmediumとした。企画展は2026年5〜9月開催の「見る聞くうるし」展が9/6で終了しており、秋以降の企画展名・会期は各サイトとも未掲載のため確認できず、exhibitionsは空欄にした。次回巡回時に公式サイトへの再接続を試すこと。 10/2再確認: 公式サイトは引き続きSSLエラーで読めず。安曇野アートラインで開館時間・休館日が一致。秋以降の企画展は未掲載のため exhibitions は空のまま。",
+  "highlights": "漆芸家・髙橋節郎の生家跡（登録有形文化財）に建つ記念美術館。黒と金を基調に安曇野の自然を幻想的に描いた漆屏風・漆版画・墨彩画を収蔵する。作家ゆかりの主屋と蔵を生かした空間で、毎年度の特別展では現代作家との対話も試みる。",
+  "notes": "公式サイト（azumino-bunka.com）はSSLエラーで引き続き読み込めない（WRONG_VERSION_NUMBER）。令和8年度特別展「見る聞くうるし」は nact.jp（文化庁アートコモンズ）で会期・観覧料を確認。一般620円は特別展料金で、常設・通常入館料（adult_price: 410）とは別。",
   "confidence": "medium"
 }

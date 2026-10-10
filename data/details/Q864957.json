@@ -1,7 +1,7 @@
 {
   "id": "Q864957",
-  "checked_at": "2026-10-02T08:45:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-10T09:51:58+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.tobikan.jp/",
@@ -128,42 +128,6 @@
       ]
     },
     {
-      "title": "この場所の風景―上野・大牟田・ブエノスアイレス",
-      "start": "2026-07-23",
-      "end": "2026-10-07",
-      "url": "https://www.tobikan.jp/exhibition/2026_viewsofthisplace.html",
-      "kind": "special",
-      "summary": "開館100周年記念の企画展。上野・大牟田・ブエノスアイレスをめぐる風景",
-      "admission": null,
-      "hours": [
-        {
-          "days": [
-            "fri"
-          ],
-          "open": "09:30",
-          "close": "20:00",
-          "last_entry": "19:30"
-        },
-        {
-          "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu",
-            "sat",
-            "sun",
-            "holiday"
-          ],
-          "open": "09:30",
-          "close": "17:30",
-          "last_entry": "17:00"
-        }
-      ],
-      "closed_weekdays": [
-        "mon"
-      ]
-    },
-    {
       "title": "オルセー美術館所蔵 いまを生きる歓び",
       "start": "2026-11-14",
       "end": "2027-03-28",
@@ -202,7 +166,7 @@
   ],
   "closed_between_exhibitions": false,
   "notes": "定休日は第1・第3月曜（祝日・振替休日の場合は翌平日）。特別展・企画展は毎週月曜休室（祝日は開室、翌平日休室）、会期中の金曜は20:00まで。2026-09-18付お知らせにて「大英博物館日本美術コレクション 百花繚乱」の開室時間が9月29日（火）〜10月18日（日）の期間、混雑緩和のため9:15に変更。常設のコレクションを持たず観覧料は展覧会ごとに異なるため adult_price は null。",
-  "confidence": "medium",
+  "confidence": "high",
   "adult_price": null,
   "access": [
     {
@@ -225,16 +189,5 @@
     }
   ],
   "highlights": "1975年竣工、前川國男設計のモダニズム建築。赤茶色の打込みタイルの外壁と、中央の広場を囲むように展示棟・公募展示室・文化活動棟を配置した構成が特徴。サンクンガーデンには東京大空襲を生き延びた大イチョウが茂り、常設のコレクションは持たず特別展や公募団体展の会場として親しまれている。",
-  "free_days": [
-    {
-      "from": "2026-10-01",
-      "to": "2026-10-01",
-      "scope": "partial",
-      "targets": [
-        "この場所の風景"
-      ],
-      "reason": "都民の日",
-      "source_url": "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607"
-    }
-  ]
+  "free_days": []
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q7399081",
-  "checked_at": "2026-10-02T08:50:00+09:00",
+  "checked_at": "2026-10-10T09:51:56+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -46,6 +46,6 @@
   ],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "展示替え等で臨時休館の場合あり。年末年始休館の日付は未掲載。コレクション展の単独料金は未確認。",
+  "notes": "展示替え等で臨時休館の場合あり。年末年始休館の日付は未掲載。コレクション展の単独料金は未確認。2026-10-10: WebFetch レート制限のため公式サイト未確認。highlights は前回未作成のまま（要再確認）。",
   "confidence": "medium"
 }

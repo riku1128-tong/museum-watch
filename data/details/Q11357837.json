@@ -1,6 +1,6 @@
 {
   "id": "Q11357837",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T10:06:39+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,23 +13,13 @@
   ],
   "regular_hours": [
     {
-      "days": [
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": [
-    "mon"
-  ],
+  "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -40,10 +30,11 @@
       "end": "2026-12-13",
       "url": "https://www.bunka.pref.mie.lg.jp/art-museum/000314637.htm",
       "kind": "special",
-      "summary": "陶芸家ルーシー・リーの優美なうつわを紹介",
-      "recommend": null,
+      "summary": "陶芸家ルーシー・リー（1902-1995）の国内約10年ぶりの回顧展。制作初期から円熟期の約82件を紹介",
+      "recommend": "20世紀イギリスを代表する陶芸家の国内約10年ぶりの回顧展。象嵌・掻き落とし・釉薬の色彩が際立つ作品82件中72件が日本初公開で、関連作家バーナード・リーチやハンス・コパーとの比較でも楽しめる。",
       "admission": "一般 1,200円",
-      "adult_price": 1200
+      "adult_price": 1200,
+      "closed_dates": ["2026-10-13", "2026-11-24"]
     },
     {
       "title": "美術館のコレクションⅢ",
@@ -51,10 +42,10 @@
       "end": "2026-12-27",
       "url": null,
       "kind": "collection",
-      "summary": "所蔵作品によるコレクション展",
+      "summary": "所蔵作品によるコレクション展（年4回展示替え）",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 310円",
+      "adult_price": 310
     },
     {
       "title": "Y² project 水野勝規 刻まれるとき、揺らぐかたち",
@@ -68,7 +59,7 @@
       "adult_price": null
     }
   ],
-  "adult_price": null,
+  "adult_price": 310,
   "free_days": [],
   "free_rules": [],
   "access": [
@@ -79,8 +70,8 @@
       "note": "西口より徒歩約10分"
     }
   ],
-  "highlights": null,
+  "highlights": "1982年開館。モネ、ルノワール、ピカソ、ダリ、ミロなどの西洋絵画と日本近代美術を中心に6,000点超を所蔵。スペイン・バレンシア州との姉妹提携を機に加わったムリーリョやゴヤの宗教画が珍しく、別棟の柳原義達記念館では彫刻家の業績をたどれる。常設展は年4回展示替え。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝休日は開館し翌平日休館）。年末年始の休館日程・コレクション展の観覧料は未確認。10/17 14時にアーティストトークの予定。",
+  "notes": "月曜休館（祝休日は開館し翌平日休館）。年末年始の休館日程は公式カレンダーで確認要（日程は画像のため読めず）。10/12・11/23は開館、10/13・11/24は休館。",
   "confidence": "medium"
 }

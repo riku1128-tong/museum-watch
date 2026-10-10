@@ -1,0 +1,193 @@
+{
+  "id": "Q3073273",
+  "checked_at": "2026-10-10T10:10:00+09:00",
+  "check_mode": "full",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.fukuoka-art-museum.jp/",
+  "address": "〒810-0051 福岡市中央区大濠公園1-6",
+  "source_urls": [
+    "https://www.fukuoka-art-museum.jp/",
+    "https://www.fukuoka-art-museum.jp/visit/",
+    "https://www.fukuoka-art-museum.jp/guide/",
+    "https://www.fukuoka-art-museum.jp/guide/access/",
+    "https://www.fukuoka-art-museum.jp/exhibition/",
+    "https://www.fukuoka-art-museum.jp/exhibition/yamauchi_terue/",
+    "https://www.fukuoka-art-museum.jp/exhibition/chintz_a_global_story_the_karunthakar_collection/",
+    "https://www.fukuoka-art-museum.jp/topics/232163/"
+  ],
+  "regular_hours": [
+    {
+      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "open": "09:30",
+      "close": "17:30",
+      "last_entry": "17:00"
+    },
+    {
+      "days": ["fri", "sat"],
+      "open": "09:30",
+      "close": "20:00",
+      "last_entry": "19:30",
+      "from": "2026-07-01",
+      "to": "2026-10-31"
+    }
+  ],
+  "closed_weekdays": ["mon"],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-10-06",
+      "to": "2026-10-06",
+      "reason": "臨時休館"
+    },
+    {
+      "from": "2026-10-20",
+      "to": "2026-10-21",
+      "reason": "臨時休館"
+    },
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [
+    {
+      "date": "2026-10-19",
+      "note": "月曜日臨時開館"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "企画展×福岡現代作家ファイル2026 山内光枝展　潮ノ記",
+      "start": "2026-09-08",
+      "end": "2026-12-20",
+      "url": "https://www.fukuoka-art-museum.jp/exhibition/yamauchi_terue/",
+      "kind": "special",
+      "summary": "福岡在住の山内光枝（1982-）による個展。海に生きる人々の生活・文化をドローイング・映像・インスタレーションで表現。塩と海水で描いた《潮ドローイング》など",
+      "recommend": "海に潜って目にした風景を塩と海水で描く《潮ドローイング》や映像作品など、海と人の関係を多彩な手法で表現。初公開の新プロジェクトも加わり、福岡発の現代美術の注目作家の現在形を体感できる。",
+      "admission": "一般200円（団体150円）",
+      "adult_price": 200
+    },
+    {
+      "title": "コレクション展 古美術 東光院のみほとけ",
+      "start": "2026-04-01",
+      "end": "2027-03-31",
+      "url": null,
+      "kind": "collection",
+      "summary": "1F東光院仏教美術室での常設展示。古代の仏像・工芸品を展示。通年",
+      "recommend": null,
+      "admission": "一般200円",
+      "adult_price": 200
+    },
+    {
+      "title": "秋の名品展",
+      "start": "2026-08-11",
+      "end": "2026-10-19",
+      "url": null,
+      "kind": "collection",
+      "summary": "1F松永記念館室での秋季名品展示",
+      "recommend": null,
+      "admission": "一般200円",
+      "adult_price": 200
+    },
+    {
+      "title": "肥前のやきもの ー田中丸コレクションを中心にー",
+      "start": "2026-09-30",
+      "end": "2026-11-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "田中丸コレクションを中心に肥前（佐賀・長崎）の陶磁器を紹介する古美術企画展示",
+      "recommend": null,
+      "admission": "一般200円",
+      "adult_price": 200
+    },
+    {
+      "title": "仙厓展　後期展示",
+      "start": "2026-09-30",
+      "end": "2026-11-29",
+      "url": null,
+      "kind": "collection",
+      "summary": "禅僧・仙厓（1750-1837）の書画作品後期展示。古美術企画展示室",
+      "recommend": null,
+      "admission": "一般200円",
+      "adult_price": 200
+    },
+    {
+      "title": "コレクション展 近現代美術 コレクションハイライト",
+      "start": "2026-06-30",
+      "end": "2027-03-31",
+      "url": null,
+      "kind": "collection",
+      "summary": "近現代美術の所蔵品から選りすぐりを紹介。2F近現代美術室A・C。通年",
+      "recommend": null,
+      "admission": "一般200円",
+      "adult_price": 200
+    },
+    {
+      "title": "生誕150年 詩と絵の旅人―吉田博",
+      "start": "2026-09-01",
+      "end": "2026-12-20",
+      "url": null,
+      "kind": "special",
+      "summary": "版画家・吉田博（1876-1950）の生誕150年記念特集展示。2F近現代美術室A",
+      "recommend": null,
+      "admission": "一般200円",
+      "adult_price": 200
+    },
+    {
+      "title": "浦川大志《スプリット・アイランド》",
+      "start": "2026-03-07",
+      "end": "2028-12-27",
+      "url": "https://www.fukuoka-art-museum.jp/exhibition/urakawataishi_hekiga_kansei/",
+      "kind": "other",
+      "summary": "2Fコレクション展示室最終壁面に展示された浦川大志の壁画作品。長期常設",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "特別展 カルン・タカール・コレクション　インド更紗　世界をめぐる物語",
+      "start": "2026-10-17",
+      "end": "2026-12-20",
+      "url": "https://www.fukuoka-art-museum.jp/exhibition/chintz_a_global_story_the_karunthakar_collection/",
+      "kind": "special",
+      "summary": "インドで生まれた更紗（チンツ）の数百年の変遷をロンドン在住コレクターの名品でたどる特別展",
+      "recommend": "茜や藍で染め抜かれた精緻な木綿布が世界を席巻した歴史を、一流コレクターの逸品で体感する贅沢な展覧会。インドからヨーロッパ、東南アジア、日本へと広がった美意識の共有と創造性の多様な展開を見られる。",
+      "admission": "一般1,700円（前売・団体1,600円）",
+      "adult_price": 1700
+    },
+    {
+      "title": "コレクション展 松永耳庵　冬の茶事",
+      "start": "2026-10-22",
+      "end": "2027-01-11",
+      "url": null,
+      "kind": "collection",
+      "summary": "近代数寄者・松永耳庵のコレクションから茶道具を中心に紹介する冬季展示",
+      "recommend": null,
+      "admission": "一般200円",
+      "adult_price": 200
+    }
+  ],
+  "adult_price": 200,
+  "free_days": [],
+  "free_rules": [],
+  "access": [
+    {
+      "station": "大濠公園",
+      "lines": "福岡市地下鉄空港線",
+      "exit": "3・6番出口",
+      "walk_min": 10
+    },
+    {
+      "station": "六本松",
+      "lines": "福岡市地下鉄七隈線",
+      "exit": "2番出口",
+      "walk_min": 10
+    }
+  ],
+  "highlights": "大濠公園に面した総合美術館。古代仏像を専用室に常設展示する東光院仏教美術室、禅僧・仙厓の書画コレクション、肥前の陶磁器など古美術が充実。2Fの近現代美術室では福岡ゆかりの作家の個展や洋画コレクションも鑑賞できる。",
+  "closed_between_exhibitions": false,
+  "notes": "7〜10月の金・土曜日は20時まで夜間延長開館（入館19:30まで）。10月の臨時休館：10/6・10/20・10/21。10月の臨時開館：10/19（月）。コレクション展・企画展の一般料金は200円。特別展は別料金（インド更紗展は1,700円）。",
+  "confidence": "high"
+}

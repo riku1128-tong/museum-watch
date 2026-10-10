@@ -1,6 +1,6 @@
 {
   "id": "Q11486046",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T10:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -64,6 +64,17 @@
       "kind": "collection",
       "summary": "近年の新収蔵作品を紹介するコレクション展",
       "admission": "一般 200円"
+    },
+    {
+      "title": "公開制作96 安田佐智種「Mothers' Daily Schedule」",
+      "start": "2026-09-19",
+      "end": "2027-02-21",
+      "url": "https://www.city.fuchu.tokyo.jp/art/koukaiseisaku/kokaikaisai/OSP96_Yasuda.html",
+      "kind": "special",
+      "summary": "布と糸で日本の名もなき人たちの記憶を織りなす安田佐智種の公開制作",
+      "recommend": "柔らかな布と糸を素材に、日常と記憶をつなぐ作品を制作過程ごと公開する。制作の場を共有することで、鑑賞者が作品の生まれる瞬間に立ち会えるのがこの公開制作の醍醐味。",
+      "admission": null,
+      "adult_price": null
     },
     {
       "title": "郵便と／の美術",

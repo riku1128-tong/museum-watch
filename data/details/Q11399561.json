@@ -1,16 +1,17 @@
 {
   "id": "Q11399561",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T10:15:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.forest.minokamo.gifu.jp/",
   "address": "〒505-0004 岐阜県美濃加茂市蜂屋町上蜂屋3299-1",
   "source_urls": [
-    "https://www.forest.minokamo.gifu.jp/access/access.cfm",
     "https://www.forest.minokamo.gifu.jp/",
-    "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_02.cfm",
-    "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_05.cfm"
+    "https://www.forest.minokamo.gifu.jp/tenrankai/2026/",
+    "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_05.cfm",
+    "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_06.cfm",
+    "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_07.cfm"
   ],
   "regular_hours": [
     {
@@ -33,6 +34,11 @@
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
+    {
+      "from": "2026-11-02",
+      "to": "2026-11-02",
+      "reason": "展覧会「えげんさんに会える日」の休館日（月曜）"
+    },
     {
       "from": "2026-12-29",
       "to": "2027-01-03",
@@ -62,6 +68,29 @@
       "recommend": "地域の美術愛好家たちの公募作品を5部門にわたって展示する年次美術展。多様なジャンルの作品が一堂に会し、市民の創作力の高さを感じられる。",
       "admission": "無料",
       "adult_price": 0
+    },
+    {
+      "title": "ていねいな暮らしと道具展　動物とともに生きる暮らし",
+      "start": "2026-10-17",
+      "end": "2027-03-14",
+      "url": "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_06.cfm",
+      "kind": "special",
+      "summary": "牛馬など動物とともに使われた道具を展示し、かつての暮らしのかたちを紹介。",
+      "recommend": "古くから人の暮らしとともにあった動物たちと使われた道具を通じ、かつての農村生活を体感できる。動物と人の関係を掘り下げた珍しい切り口の企画展。",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "えげんさんに会える日－特別公開 関山慧玄禅師ゆかりの「箱笈と護持仏」－",
+      "start": "2026-11-01",
+      "end": "2026-11-07",
+      "url": "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_07.cfm",
+      "kind": "special",
+      "summary": "鎌倉〜南北朝期の禅僧・関山慧玄ゆかりの市指定有形文化財「箱笈と護持仏」の特別公開。",
+      "recommend": "妙心寺開山・関山慧玄が伊深（現美濃加茂市）で暮らした足跡に触れられる貴重な特別公開。文化財保護強調週間に合わせた展示で、地域の仏教文化の深さを感じられる。",
+      "admission": "無料",
+      "adult_price": 0,
+      "closed_dates": ["2026-11-02"]
     }
   ],
   "adult_price": 0,
@@ -78,6 +107,6 @@
   ],
   "highlights": "森の空気を感じながら学び・遊び・創作できる美濃加茂市の文化施設。常設展示室のほか、生活体験館「まゆの家」やミュージアムカフェを備える。養蚕など地域の生活文化を紹介する企画展や市民向け講座を定期開催。入館無料。",
   "closed_between_exhibitions": false,
-  "notes": null,
+  "notes": "2026年7月より館内LED化工事・空調設備工事のため一部施設が閉室中（詳細は公式お知らせ参照）。えげんさんに会える日（11/1-11/7）は会場がエントランスホールで11/2（月）休館。",
   "confidence": "high"
 }

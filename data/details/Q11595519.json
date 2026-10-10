@@ -1,15 +1,15 @@
 {
   "id": "Q11595519",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-10T10:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://akita-kinbi.jp/",
   "address": "〒013-0064 秋田県横手市赤坂字富ヶ沢62-46（秋田ふるさと村内）",
   "source_urls": [
     "https://akita-kinbi.jp/",
-    "https://akita-kinbi.jp/ja_pages/access/",
-    "https://akita-kinbi.jp/ja_pages/tickets/"
+    "https://akita-kinbi.jp/ja_pages/tickets/",
+    "https://akita-kinbi.jp/current_exhibitions/2026%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e5%b1%95-%e7%ac%ac2%e6%9c%9f%e3%80%8c%e3%81%bf%e3%82%93%e3%81%aa%e3%81%aemuseum%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88/"
   ],
   "regular_hours": [
     {
@@ -40,15 +40,15 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "隙あらば猫　町田尚子絵本原画展",
-      "start": "2026-08-08",
-      "end": "2026-10-04",
-      "url": null,
-      "kind": "special",
-      "summary": "絵本作家・町田尚子による猫を主役にした絵本の原画を展示する企画展",
-      "recommend": null,
-      "admission": "一般 1,000円",
-      "adult_price": 1000
+      "title": "2026コレクション展 第2期「みんなのMuseumプロジェクト企画『みる』をあじわう」",
+      "start": "2026-08-14",
+      "end": "2026-11-01",
+      "url": "https://akita-kinbi.jp/current_exhibitions/2026%e3%82%b3%e3%83%ac%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e5%b1%95-%e7%ac%ac2%e6%9c%9f%e3%80%8c%e3%81%bf%e3%82%93%e3%81%aa%e3%81%aemuseum%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88/",
+      "kind": "collection",
+      "summary": "障がいの有無に関わらず誰もがコレクションを多様な感覚で楽しむためのプロジェクト企画展。無料",
+      "recommend": "「みんなのMuseumプロジェクト」が積み上げてきた、目だけでなく多様な感覚でコレクションを味わう鑑賞の工夫を体験できる。他者の視点に触れながら作品と向き合う、新しい鑑賞体験が無料で楽しめる。",
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "原安三郎コレクション　北斎×広重展",
@@ -57,7 +57,7 @@
       "url": null,
       "kind": "special",
       "summary": "実業家・原安三郎が蒐集した葛飾北斎・歌川広重の浮世絵作品を紹介する特別展",
-      "recommend": null,
+      "recommend": "実業家・原安三郎の膨大なコレクションから、富岳三十六景・東海道五十三次など北斎・広重の名品が一堂に集結。江戸の風景と美意識を秋田でじっくり味わえる貴重な機会。",
       "admission": "一般 1,200円",
       "adult_price": 1200
     },
@@ -81,11 +81,11 @@
       "station": "横手",
       "lines": "JR奥羽本線",
       "walk_min": null,
-      "note": "横手駅東口から横手市循環バス（2026年10月1日〜、従来は羽後交通バス）で「秋田ふるさと村」下車。横手インターより車で約3分"
+      "note": "横手駅東口から横手市循環バスで「秋田ふるさと村」下車。横手インターより車で約3分"
     }
   ],
-  "highlights": "秋田蘭画をはじめ日本画・洋画・版画・彫刻・工芸まで幅広いコレクションを擁する秋田県立の近代美術館。秋田ふるさと村内という恵まれた自然環境の中に立ち、野外彫刻エリアも充実。県ゆかりの寺崎廣業ら近代作家の作品が見どころ。",
+  "highlights": "秋田蘭画をはじめ日本画・洋画・版画・彫刻・工芸まで幅広いコレクションを擁する秋田県立の近代美術館。秋田ふるさと村内という恵まれた自然環境に立ち、野外彫刻エリアも充実。県ゆかりの寺崎廣業ら近代作家の作品が見どころ。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（akita-kinbi.jp）はSPA（WordPress）のため curl では実際のコンテンツが取得しにくい。開館時間はトップ固定バー（9:30〜17:00・最終入館16:30）から確認。コレクション展（6階）は無料。特別展は別途入館料。年末年始・1月中旬〜下旬のメンテナンス休館あり（公式で日付未掲載）。バスは2026年10月1日以降「横手市循環バス」に変更。",
+  "notes": "公式サイト（akita-kinbi.jp）はSPA（WordPress）のためcurlでは実際のコンテンツが取得しにくい。開館時間はトップ固定バー（9:30〜17:00・最終入館16:30）から確認。コレクション展（6階）は無料。特別展は別途入館料。年末年始・1月中旬〜下旬のメンテナンス休館あり（公式で日付未掲載）。バスは2026年10月1日以降「横手市循環バス」に変更。2026-10-10 全館開館確認（「本日は開館日です」表示）。北斎×広重展 本日開幕。",
   "confidence": "medium"
 }

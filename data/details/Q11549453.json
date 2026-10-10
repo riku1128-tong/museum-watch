@@ -1,6 +1,6 @@
 {
   "id": "Q11549453",
-  "checked_at": "2026-10-02T08:55:00+09:00",
+  "checked_at": "2026-10-10T10:00:43+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -17,9 +17,7 @@
   ],
   "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [
-    {"from": "2026-09-28", "to": "2026-10-09", "reason": "展示替え休館"}
-  ],
+  "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {
@@ -32,6 +30,17 @@
       "recommend": "実力がありながら最近特集の機会に恵まれない日本画家8人を厳選。近代日本画の立役者・橋本雅邦や歴史人物画の大家・菊池契月ら「推したい」作家の名品を通じて、水野コレクションの奥行きを堪能できる。",
       "admission": "一般 1,000円",
       "adult_price": 1000
+    },
+    {
+      "title": "水野コレクション「日本画いろトリどり」",
+      "start": "2027-01-02",
+      "end": "2027-03-22",
+      "url": null,
+      "kind": "special",
+      "summary": "水野コレクションから日本画の多彩な魅力を紹介する企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 1000,

@@ -1,6 +1,6 @@
 {
   "id": "Q11344966",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-10-10T16:04:13+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -10,7 +10,7 @@
     "https://www.yaoko-net.com/museum/",
     "https://www.yaoko-net.com/museum/info/index.html",
     "https://www.yaoko-net.com/museum/blog/exhibitions/page52274.html",
-    "https://www.yaoko-net.com/museum/blog/news/page52303.html"
+    "https://www.yaoko-net.com/museum/blog/news/page52377.html"
   ],
   "regular_hours": [
     {
@@ -49,6 +49,8 @@
     }
   ],
   "adult_price": 300,
+  "free_days": [],
+  "free_rules": [],
   "closed_between_exhibitions": false,
   "access": [
     {
@@ -66,7 +68,7 @@
       "note": "東武バスで「川越氷川神社」下車徒歩1分"
     }
   ],
-  "highlights": "スーパーマーケット「ヤオコー」の創業120周年事業として、建築家・伊東豊雄の設計で建てられた美術館。洋画家・三栖右嗣の作品を通年展示し、季節ごとにテーマを変えて展示替えを行う",
-  "notes": "開館時間・休館日・料金は公式ご利用案内で確認。9/24（木）の臨時休館は終了済み。年末年始の具体的な日付は公式に記載が見当たらず未確認。特別展料金の設定は無く、入館料に含む。",
+  "highlights": "スーパーマーケット「ヤオコー」の創業120周年事業として、建築家・伊東豊雄の設計で建てられた美術館。洋画家・三栖右嗣の作品を通年展示し、季節ごとにテーマを変えて展示替えを行う。",
+  "notes": "開館時間・休館日・料金は公式ご利用案内で確認。休館日は月曜（祝日の場合は翌平日）で規則どおり。年末年始の具体的な日付は公式に記載が見当たらず未確認。",
   "confidence": "high"
 }

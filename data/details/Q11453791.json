@@ -1,6 +1,6 @@
 {
   "id": "Q11453791",
-  "checked_at": "2026-10-02T08:30:15+09:00",
+  "checked_at": "2026-10-10T09:51:29+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -34,7 +34,13 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-12-26",
+      "to": "2027-01-06",
+      "reason": "年末年始休館"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -60,26 +66,28 @@
       "adult_price": 1300
     },
     {
-      "title": "いま、私は現代アートと出会う",
+      "title": "いま、私は現代アートと出会う　－草間彌生、奈良美智、村上隆、アンディ・ウォーホル、バンクシー …",
       "start": "2026-11-14",
       "end": "2027-01-24",
-      "url": null,
+      "url": "https://www.pref.miyagi.jp/site/mmoa/exhibition-00000000-s00-1.html",
       "kind": "special",
-      "summary": null,
+      "summary": "草間彌生・奈良美智・村上隆・アンディ・ウォーホル・バンクシーら国内外の現代アーティストによる企画展",
       "recommend": null,
       "admission": null,
-      "adult_price": null
+      "adult_price": null,
+      "closed_dates": ["2026-11-24", "2027-01-12"]
     },
     {
-      "title": "棟方志功展（仮）",
+      "title": "棟方志功記念館コレクションによる 棟方志功展",
       "start": "2027-02-06",
       "end": "2027-03-28",
-      "url": null,
+      "url": "https://www.pref.miyagi.jp/site/mmoa/exhibition-00000000-s00-1.html",
       "kind": "special",
-      "summary": null,
+      "summary": "棟方志功記念館のコレクションによる棟方志功展",
       "recommend": null,
       "admission": null,
-      "adult_price": null
+      "adult_price": null,
+      "closed_dates": ["2027-02-24"]
     }
   ],
   "adult_price": 350,
@@ -128,6 +136,6 @@
   ],
   "highlights": "2026年6月にリニューアルオープンした宮城県の総合美術館。佐藤忠良記念館を併設し、洲之内コレクションをはじめ幅広い近現代作品を所蔵する。常設の所蔵品展では林明子の絵本原画・佐藤忠良の彫刻など多彩な切り口で宮城の美術を紹介。仙台城跡そばの緑豊かな環境に立地し、地下鉄東西線からのアクセスも良い。",
   "closed_between_exhibitions": false,
-  "notes": "2026年6月20日にリニューアルオープン。特別展は有料（所蔵品展と別料金）。文化の日・開館記念日・東北文化の日・敬老の日などは所蔵品展が無料。",
+  "notes": "2026年6月20日にリニューアルオープン。特別展は有料（所蔵品展と別料金）。文化の日・開館記念日・東北文化の日・敬老の日などは所蔵品展が無料。年末年始休館は12/26〜1/6（「いま、私は現代アートと出会う」展の公式告知より）。",
   "confidence": "high"
 }

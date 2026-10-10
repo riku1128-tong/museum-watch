@@ -1,6 +1,6 @@
 {
   "id": "Q11645680",
-  "checked_at": "2026-10-02T08:50:00+09:00",
+  "checked_at": "2026-10-10T15:58:06+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -31,6 +31,72 @@
       "recommend": "重要文化財・重要美術品を含む茶道具コレクションで、寛永期の公家・武家・僧侶が育んだ茶の湯文化の広がりをたどる",
       "admission": "一般 1,000円",
       "adult_price": 1000
+    },
+    {
+      "title": "地階併設展「ちよみときは 村田浩一郎 陶展」",
+      "start": "2026-10-24",
+      "end": "2026-11-01",
+      "url": null,
+      "kind": "special",
+      "summary": "村田浩一郎の陶芸作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "地階併設展「平戸悦山をつぐもの ー今村ひとみー展」",
+      "start": "2026-11-03",
+      "end": "2026-11-08",
+      "url": null,
+      "kind": "special",
+      "summary": "今村ひとみによる陶芸作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "地階併設展「田端志音 茶箱と茶籠 展」",
+      "start": "2026-11-10",
+      "end": "2026-11-15",
+      "url": null,
+      "kind": "special",
+      "summary": "田端志音による茶箱・茶籠の工芸作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "地階併設展「大森礼二 陶展 黒と白」",
+      "start": "2026-11-17",
+      "end": "2026-11-23",
+      "url": null,
+      "kind": "special",
+      "summary": "大森礼二による陶芸作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "地階併設展「姜武昌（カンムチャン）作陶展」",
+      "start": "2026-11-25",
+      "end": "2026-11-29",
+      "url": null,
+      "kind": "special",
+      "summary": "姜武昌による陶芸作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "地階併設展「徳泉 李炳權（イビョンゴン）の月と茶碗展」",
+      "start": "2026-12-01",
+      "end": "2026-12-06",
+      "url": null,
+      "kind": "special",
+      "summary": "李炳權による陶芸作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "closed_between_exhibitions": true,

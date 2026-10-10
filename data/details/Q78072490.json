@@ -1,6 +1,6 @@
 {
   "id": "Q78072490",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T09:51:39+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -34,6 +34,11 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
+    {
+      "from": "2026-10-19",
+      "to": "2026-10-30",
+      "reason": "展示替え休館"
+    },
     {
       "from": "2026-12-11",
       "to": "2027-03-31",
@@ -74,6 +79,7 @@
       "title": "本間友幸　茶陶展",
       "start": "2026-10-31",
       "end": "2026-11-15",
+      "url": "https://navam.jp/exhibition-details/%e3%80%90%e8%b2%b8%e9%a4%a8%e3%80%91%e7%ac%ac86%e5%9b%9e%e9%99%b6%e5%b1%95%e3%80%80%e6%9c%ac%e9%96%93%e5%8f%8b%e5%b9%b8%e3%80%80%e8%8c%b6%e9%99%b6%e5%b1%95/",
       "kind": "other",
       "summary": "貸館による陶芸家・本間友幸の茶陶展",
       "admission": null,
@@ -92,8 +98,19 @@
       "title": "信州池田クラフト展 2026",
       "start": "2026-10-31",
       "end": "2026-12-10",
+      "url": "https://navam.jp/exhibition-details/%e4%bf%a1%e5%b7%9e%e6%b1%a0%e7%94%b0%e3%82%af%e3%83%a9%e3%83%95%e3%83%88%e5%b1%95-2026/",
       "kind": "other",
       "summary": "貸館によるクラフト作家グループ展",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "そして、めぐる。― 安曇野のこだま ―",
+      "start": "2026-11-21",
+      "end": "2026-12-10",
+      "url": "https://navam.jp/exhibition-details/%e3%80%90%e8%b2%b8%e9%a4%a8%e3%80%91%e3%80%8e%e3%81%9d%e3%81%97%e3%81%a6%e3%80%81%e3%82%81%e3%81%90%e3%82%8b%e3%80%82%e2%80%95-%e5%ae%89%e6%9b%87%e9%87%8e%e3%81%ae%e3%81%93%e3%81%a0%e3%81%be-%e2%80%95/",
+      "kind": "other",
+      "summary": "貸館による個展",
       "admission": null,
       "adult_price": null
     }
@@ -117,6 +134,6 @@
     }
   ],
   "highlights": "北アルプス連峰と安曇野の田園風景を一望できる高台に立つ美術館。眺望そのものが見どころで、地域ゆかりの作家によるキルトや陶芸などの企画展・公募展を年間を通じて開催している",
-  "notes": "初回巡回。冬季休館は12/11〜3月末日（年またぎ）。展覧会は貸館による個展・団体展が多く、公式サイトの告知に基づいて記載。「9・引力」のような会期の明記が無いものは無し。",
+  "notes": "冬季休館は12/11〜3月末日（年またぎ）。10/19〜10/30は展示替え休館（Instagram告知）。10/13（火）は体育の日（10/12）の振替休館（holiday_rule で処理）。展覧会は貸館による個展・団体展が多く、公式サイトの告知に基づいて記載。",
   "confidence": "high"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q4803387",
-  "checked_at": "2026-10-02T08:50:00+09:00",
+  "checked_at": "2026-10-10T09:51:33+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,28 +9,18 @@
   "source_urls": [
     "https://www.city.asahikawa.hokkaido.jp/sculpture/",
     "https://www.city.asahikawa.hokkaido.jp/sculpture/100/p000286.html",
-    "https://www.city.asahikawa.hokkaido.jp/sculpture/100/p000378.html"
+    "https://www.city.asahikawa.hokkaido.jp/sculpture/sculpture_update/d083912.html",
+    "https://www.city.asahikawa.hokkaido.jp/sculpture/sculpture_update/d084005.html"
   ],
   "regular_hours": [
     {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
+      "days": ["mon","tue","wed","thu","fri","sat","sun","holiday"],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": [
-    "mon"
-  ],
+  "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -53,26 +43,26 @@
       "adult_price": 670
     },
     {
-      "title": "ストーリーズ ―織田コレクションでたどる物語展―",
-      "start": "2026-07-23",
-      "end": "2026-10-04",
-      "url": null,
-      "kind": "other",
-      "summary": "織田コレクションの作品で物語をたどる展覧会（JR旭川駅東口ステーションギャラリー、入場無料）",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
       "title": "椎名澄子 ― 彫刻とワークショップ",
       "start": "2026-10-03",
       "end": "2027-01-11",
-      "url": null,
+      "url": "https://www.city.asahikawa.hokkaido.jp/sculpture/sculpture_update/d083912.html",
       "kind": "special",
-      "summary": "彫刻家・椎名澄子の個展。彫刻作品とワークショップを組み合わせた展覧会（本館1階）",
-      "recommend": null,
+      "summary": "彫刻家・椎名澄子の個展。ブロンズ彫刻と平面作品でインスタレーション空間を構成（本館1階）",
+      "recommend": "展示空間全体を作品とするインスタレーション形式で、ブロンズ彫刻と額装作品を組み合わせた椎名澄子の表現力が光る。師・山本正道の作品との対話を通じ、彫刻の根源に迫る個展。",
       "admission": "一般 670円",
       "adult_price": 670
+    },
+    {
+      "title": "「生まれようとするとき、光」藤原千也展",
+      "start": "2026-10-14",
+      "end": "2027-01-11",
+      "url": "https://www.city.asahikawa.hokkaido.jp/sculpture/sculpture_update/d084005.html",
+      "kind": "special",
+      "summary": "彫刻家・藤原千也の旭川初個展。樹木を掘り光を通す作品で生命を表現。砂澤ビッキ作品も同時展示（ステーションギャラリー無料）",
+      "recommend": "木の内部を掘り進み光が差し込む独自の手法で生命の神秘を問う藤原千也の旭川初個展。同会場に砂澤ビッキの代表作《カムイミンダラ》も展示され、北海道の彫刻表現の厚みを体感できる。",
+      "admission": "無料",
+      "adult_price": 0
     }
   ],
   "adult_price": 670,
@@ -89,6 +79,6 @@
   ],
   "highlights": "旭川出身の彫刻家・中原悌二郎を記念した美術館。ロダンや荻原守衛ら近代彫刻の巨匠の作品とともに、1970年創設の中原悌二郎賞の受賞作品を多数所蔵し、野外には72点の彫刻が並ぶ。JR旭川駅東口のステーションギャラリーでも作品を無料公開している。",
   "closed_between_exhibitions": false,
-  "notes": "ステーションギャラリー（旭川駅東口）の開館時間は10:30-18:30（入館18:15まで）で入場無料。本館の入館料は一般670円（常設展と企画展の観覧料含む）。",
+  "notes": "ステーションギャラリー（旭川駅東口）の開館時間は10:30-18:30（入館18:15まで）で入場無料。本館の入館料は一般670円（常設展と企画展の観覧料含む）。ステーションギャラリーは2026/10/6〜10/12展示替えのため臨時休館、10/14より藤原千也展を開催。",
   "confidence": "high"
 }

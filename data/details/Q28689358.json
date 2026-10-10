@@ -1,6 +1,6 @@
 {
   "id": "Q28689358",
-  "checked_at": "2026-10-02T08:45:00+09:00",
+  "checked_at": "2026-10-10T09:58:06+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -91,6 +91,17 @@
       "url": "https://www.city.tomioka.lg.jp/www/contents/1460512262791/index.html",
       "kind": "special",
       "summary": "I氏のコレクションによる現代アートの収蔵品展（タイトル未定）",
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "収蔵品展　所蔵作品による福沢一郎展（仮称）",
+      "start": "2026-11-14",
+      "end": "2027-02-28",
+      "url": "https://www.city.tomioka.lg.jp/www/contents/1460512262791/index.html",
+      "kind": "collection",
+      "summary": "富岡出身の洋画家・福沢一郎の所蔵作品による収蔵品展（タイトル・終了日は未定）",
       "recommend": null,
       "admission": "一般 210円",
       "adult_price": 210

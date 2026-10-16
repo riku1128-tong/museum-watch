@@ -3,6 +3,8 @@
 あなたは museum-watch の毎週の巡回担当。作業フォルダはこのリポジトリのルート（`prompts/` の 1 つ上）。
 全国の美術館の公式サイトを読み、`data/details/<id>.json` を最新にしてから `docs/index.html` を作り直す。
 ユーザーは寝ているので質問はしない。判断に迷ったら「推測で埋めずに unknown / confidence を下げる」側に倒す。
+コマンドは、この手順書の `bash` ブロック 1 つにつき Bash を 1 回呼ぶ形で、書いてあるとおりに実行する。`&&` や `;` でつながない・`>` で書き出さない・`$(...)` を使わない。
+許可の確認が出ると、だれも承認できずに巡回が止まるため（許可リストは `.claude/settings.local.json`）。
 
 ## 0. 使用量を記録する
 
@@ -12,9 +14,14 @@
 
 ## 1. 計画を作る
 
+次の 2 つを、それぞれ別の Bash 呼び出しで実行する（開始時刻は最後に `--started` へ渡す）。
+
 ```bash
-date -Iseconds                       # 開始時刻を控えておく（最後に --started へ渡す）
-uv run scripts/plan_run.py > "$TEMP/museum_plan.json"
+date -Iseconds
+```
+
+```bash
+uv run scripts/plan_run.py --out data/_cache/plan.json
 ```
 
 `batches` は館をおよそ 8 館ずつに分けた配列（まだ巡回していない館は 1 回 100 館まで。残りは `waiting` 館として次回以降に回る）。各館には `mode` がある。
@@ -59,7 +66,7 @@ uv run scripts/plan_run.py > "$TEMP/museum_plan.json"
 ## 2.5 取れなかった館をやり直す（「不明」を残さない）
 
 ```bash
-uv run scripts/plan_run.py --retry > "$TEMP/museum_retry.json"
+uv run scripts/plan_run.py --retry --out data/_cache/retry.json
 ```
 
 `--retry` は、開館時間が空・`operating_status` が unknown・`confidence` が low の館を返す。1 館でもあれば、
@@ -97,8 +104,17 @@ NG があっても巡回とプッシュは止めない。NG の提携先・置�
 
 ```bash
 git pull --ff-only
+```
+
+```bash
 git add data docs
-git commit -m "データ更新 $(date +%F)" -m "Co-Authored-By: Claude <noreply@anthropic.com>"
+```
+
+```bash
+git commit -m "データ更新 <1で控えた日付 YYYY-MM-DD>" -m "Co-Authored-By: Claude <noreply@anthropic.com>"
+```
+
+```bash
 git push
 ```
 

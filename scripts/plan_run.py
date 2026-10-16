@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from pathlib import Path
 from datetime import datetime
 
 from common import CRAWL_PRIORITY, DETAILS, MUSEUMS_JSON, now_jst, read_json
@@ -53,6 +54,7 @@ def main() -> None:
     ap.add_argument("--mode", choices=["full", "light"], help="判定を無視してこのモードにする")
     ap.add_argument("--max-new", type=int, default=100,
                     help="まだ一度も巡回していない館を 1 回に何館まで読むか（観光地 → 関東 → 近い地域 → 都道府県コード順）")
+    ap.add_argument("--out", help="計画をこのファイルにも書く（定期タスクでリダイレクトを使わずに済むように。例: data/_cache/plan.json）")
     ap.add_argument("--retry", action="store_true",
                     help="今日確認したのに情報が不十分な館（時間が空・状態不明・confidence low）と未取得の館だけを 1 館ずつ返す")
     args = ap.parse_args()
@@ -93,14 +95,19 @@ def main() -> None:
     todo.sort(key=lambda i: i["mode"] != "full")
     n = len(todo) if args.retry else max(1, -(-len(todo) // args.batch))
     batches = [todo[k::n] for k in range(n)] if todo else []
-    print(json.dumps({
+    plan = json.dumps({
         "date": today.isoformat(),
         "counts": {k: sum(1 for i in items if i["mode"] == k) for k in ("full", "light", "skip")},
         "batches": batches,
         "waiting": sum(1 for i in items if i["why"] == "順番待ち"),
         "skipped": [{"id": i["id"], "name": i["name"], "why": i["why"]} for i in items
                     if i["mode"] == "skip" and i["why"] != "順番待ち"],
-    }, ensure_ascii=False, indent=1))
+    }, ensure_ascii=False, indent=1)
+    if args.out:
+        out = Path(args.out)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(plan + "\n", encoding="utf-8")
+    print(plan)
 
 
 if __name__ == "__main__":

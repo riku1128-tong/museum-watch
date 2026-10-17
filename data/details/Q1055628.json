@@ -99,6 +99,13 @@
       "scope": "collection",
       "reason": "コレクション・ギャラリー無料観覧日",
       "source_url": "https://www.momak.go.jp/Japanese/news/?sy=2026&tp=news"
+    },
+    {
+      "from": "2026-11-15",
+      "to": "2026-11-15",
+      "scope": "collection",
+      "reason": "関西文化の日",
+      "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/"
     }
   ],
   "free_rules": [],

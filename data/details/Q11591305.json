@@ -67,7 +67,15 @@
     }
   ],
   "adult_price": null,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-14",
+      "to": "2026-11-15",
+      "scope": "collection",
+      "reason": "関西文化の日",
+      "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/"
+    }
+  ],
   "free_rules": [],
   "access": [],
   "highlights": "福井市の歴史ある愛宕坂に佇む茶道専門の美術館。茶道史と茶道文化をテーマに茶器・茶道具を中心とした企画展を開催する。かつて料亭や茶屋が建ち並んだ風情ある石段の坂の傍らで、茶の湯の世界をゆっくりと鑑賞できる。",

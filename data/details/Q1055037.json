@@ -114,6 +114,13 @@
       "scope": "all",
       "reason": "ラボラトリー・スペシャルフリーデー（特別無料観覧日）",
       "source_url": "https://www.nmao.go.jp/"
+    },
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "collection",
+      "reason": "コレクション展 無料観覧日（文化の日）",
+      "source_url": "https://www.nmao.go.jp/visit/admission/"
     }
   ],
   "free_rules": [],

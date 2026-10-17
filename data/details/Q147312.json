@@ -90,6 +90,15 @@
     }
   ],
   "adult_price": 700,
+  "free_days": [
+    {
+      "from": "2026-11-14",
+      "to": "2026-11-15",
+      "scope": "collection",
+      "reason": "関西文化の日",
+      "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/"
+    }
+  ],
   "closed_between_exhibitions": false,
   "access": [
     {

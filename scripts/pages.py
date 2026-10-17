@@ -16,7 +16,7 @@ import shutil
 from datetime import date
 from html import escape
 
-from common import GA_ID, PREFS, REGIONS, SITE, SITE_URL, X_ACCOUNT
+from common import DATA, GA_ID, PREFS, REGIONS, SITE, SITE_URL, X_ACCOUNT, read_json, write_json
 from affiliate import links_html
 from contact import form_url, report_html
 from render import exhibition_price, museum_price
@@ -97,6 +97,9 @@ def closed_text(det: dict) -> str:
         parts.append("祝日")
     for r in det.get("closed_nth_weekdays", []):
         parts.append("第" + "・第".join(map(str, r["nth"])) + WD_JA[r["weekday"]] + "曜")
+    for s in det.get("seasonal_closed_weekdays", []):
+        f, t = ([int(x) for x in v.split("-")] for v in (s["from"], s["to"]))
+        parts.append(f"{f[0]}/{f[1]}〜{t[0]}/{t[1]}は毎週" + days_text(s["weekdays"]))
     if not parts:
         return "定休日なし" if det["holiday_rule"] != "unknown" else "公式サイトでご確認ください"
     rule = {"open_next_weekday_closed": "（祝日の場合は開館し、翌平日が休館）", "open": "（祝日の場合は開館）",
@@ -443,12 +446,37 @@ Google アナリティクスは Cookie などを使い、閲覧したページ�
                 path="privacy.html", body=body, depth=0)
 
 
+ARCHIVE = DATA / "exhibition_archive.json"  # 一度でもページを作った展覧会（終了後も「終了しました」のページを残すため）
+REDIRECTS = DATA / "redirects.json"          # 消した館 ID などの転送先 {"m/旧.html": "m/新.html"}
+
+
+def ended_page(eid: str, a: dict, today: date) -> str:
+    """会期が終わった（またはデータから消えた）展覧会のページ。X の投稿などから来た人を館のページへ案内する。"""
+    body = (f'<nav class="crumbs"><a href="../index.html">全国</a> › <a href="../m/{a["museum_id"]}.html">{escape(a["museum_name"])}</a></nav>'
+            f'<h1>{escape(a["title"])}</h1>'
+            f'<section><p>この展覧会（{escape(a["museum_name"])}、{a["start"].replace("-", "/")}〜{a["end"].replace("-", "/")}）は終了したか、'
+            f'掲載を終えました。</p>'
+            f'<p><a class="btn" href="../m/{a["museum_id"]}.html">{escape(a["museum_name"])}の開催中の展覧会・開館カレンダーを見る</a></p>'
+            f'<p><a href="../f/upcoming.html">これから始まる展覧会</a> ／ <a href="../f/ending.html">会期終了間近の展覧会</a></p></section>')
+    return page(title=f"{a['title']}（終了）｜{a['museum_name']}｜美術館ウォッチ",
+                desc=f"{a['title']}（{a['museum_name']}）は終了しました。", path=f"e/{eid}.html", body=body, depth=1, noindex=True)
+
+
+def redirect_page(target: str, depth: int) -> str:
+    url = "../" * depth + target
+    return (f'<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="robots" content="noindex">'
+            f'<link rel="canonical" href="{SITE_URL}{target}"><meta http-equiv="refresh" content="0; url={url}">'
+            f'<title>移動しました｜美術館ウォッチ</title></head><body><p><a href="{url}">こちらへ移動しました</a></p></body></html>\n')
+
+
 def build(active: list[dict], details: dict, days: list[dict], today: date) -> int:
     """全ページと sitemap.xml を作り直す。書き出したページ数を返す。"""
     for sub in ("m", "e", "p", "f"):
         shutil.rmtree(SITE / sub, ignore_errors=True)
         (SITE / sub).mkdir(parents=True)
     by_day = [{r["id"]: r for r in d["results"]} for d in days]
+    archive = read_json(ARCHIVE) if ARCHIVE.exists() else {}
+    written: set[str] = set()
     urls = [("", today.isoformat())]
     n = 0
     for m in active:
@@ -462,9 +490,21 @@ def build(active: list[dict], details: dict, days: list[dict], today: date) -> i
         for e in det["exhibitions"]:
             if e["end"] < today.isoformat():
                 continue
-            (SITE / "e" / f"{exhibition_id(m['id'], e)}.html").write_text(exhibition_page(m, det, e, today), encoding="utf-8")
+            eid = exhibition_id(m["id"], e)
+            (SITE / "e" / f"{eid}.html").write_text(exhibition_page(m, det, e, today), encoding="utf-8")
+            archive[eid] = {"museum_id": m["id"], "museum_name": m["name"], "title": e["title"], "start": e["start"], "end": e["end"]}
+            written.add(eid)
             urls.append((f"e/{exhibition_id(m['id'], e)}.html", det["checked_at"][:10]))
             n += 1
+    # 終わった展覧会のページは消さずに「終了しました」にする（X の投稿や検索から来た人が 404 にならないように）
+    names = {m["id"]: m["name"] for m in active}
+    for eid, a in archive.items():
+        if eid not in written and a["museum_id"] in names:
+            (SITE / "e" / f"{eid}.html").write_text(ended_page(eid, a, today), encoding="utf-8")
+    write_json(ARCHIVE, dict(sorted(archive.items())))
+    for old, new in (read_json(REDIRECTS) if REDIRECTS.exists() else {}).items():
+        (SITE / old).parent.mkdir(parents=True, exist_ok=True)
+        (SITE / old).write_text(redirect_page(new, old.count("/")), encoding="utf-8")
     for pref in PREFS:
         ms = [m for m in active if m["prefecture"] == pref]
         if not ms:

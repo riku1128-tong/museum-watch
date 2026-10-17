@@ -27,9 +27,7 @@
       "close": "17:00"
     }
   ],
-  "closed_weekdays": [
-    "wed"
-  ],
+  "closed_weekdays": [],
   "holiday_rule": "unknown",
   "special_closures": [
     {
@@ -82,6 +80,15 @@
   ],
   "highlights": "小布施出身の現代日本画家・中島千波の作品を常設する「中島千波館」と、地域の祭り屋台を展示する「屋台蔵」が核となる町立美術館。金属造形作家・春山文典の常設コーナーと年間を通じた企画展示室もあり、カフェ・ショップも併設。",
   "closed_between_exhibitions": false,
-  "notes": "9月〜11月は水曜日の定休日なし（原則無休、展示替えを除く）。通常期（12月〜8月）は毎週水曜休館。入館料は2024年4月2日より一般800円に改定。",
-  "confidence": "high"
+  "notes": "9月〜11月は水曜日の定休日なし（原則無休、展示替えを除く）。通常期（12月〜8月）は毎週水曜休館。入館料は2024年4月2日より一般800円に改定。【2026-10-17】季節で変わる定休日を seasonal_closed_weekdays に入れた（通常期（12〜8月）の水曜休館、12-01〜08-31）。",
+  "confidence": "high",
+  "seasonal_closed_weekdays": [
+    {
+      "weekdays": [
+        "wed"
+      ],
+      "from": "12-01",
+      "to": "08-31"
+    }
+  ]
 }

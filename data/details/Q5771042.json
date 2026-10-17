@@ -16,13 +16,21 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [
     {
@@ -77,6 +85,15 @@
   ],
   "highlights": "SANAA（妹島和世＋西沢立衛）設計の建築で知られる千住博専属の美術館。天井近くまで広がる大型の滝の連作「ウォーターフォール」が見どころで、森に囲まれた自然光のなかで繊細な日本画を鑑賞できる。カフェ・ショップも完備。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は「火曜日（祝日・GW・7〜9月は開館）」。冬期休館は12月26日〜2月末日（毎年）。10/29(木)13〜15時は団体多数のため混雑予定（臨時休館・時間変更なし）。11/3(火・祝)は開館。夏季限定直通バス（急行塩沢湖線）は9/30で終了。",
-  "confidence": "high"
+  "notes": "休館日は「火曜日（祝日・GW・7〜9月は開館）」。冬期休館は12月26日〜2月末日（毎年）。10/29(木)13〜15時は団体多数のため混雑予定（臨時休館・時間変更なし）。11/3(火・祝)は開館。夏季限定直通バス（急行塩沢湖線）は9/30で終了。【2026-10-17】季節で変わる定休日を seasonal_closed_weekdays に入れた（火曜休館（7〜9月は開館。GW の開館は日付の定めが無いため入れていない）、10-01〜06-30）。",
+  "confidence": "high",
+  "seasonal_closed_weekdays": [
+    {
+      "weekdays": [
+        "tue"
+      ],
+      "from": "10-01",
+      "to": "06-30"
+    }
+  ]
 }

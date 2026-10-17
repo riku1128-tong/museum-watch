@@ -28,9 +28,7 @@
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": [
-    "mon"
-  ],
+  "closed_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -61,6 +59,15 @@
   ],
   "highlights": "昭和を代表する写真家・土門拳の作品を専門に収蔵・展示する世界初の写真専門美術館。イサム・ノグチが手がけた石庭と吉村順三設計の建物が酒田の自然に溶け込み、境内のような静けさの中でリアリズム写真の巨匠の世界を体験できる。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（http://www.domonken-kinenkan.jp/）はSSL証明書不一致によりWebFetchで取得不可。インターネットミュージアムおよび酒田市公式サイトの情報を使用（confidence: medium）。2025年4月より正式名称を「土門拳写真美術館」に変更したが、official_urlはwiki登録の旧名称URL（domonken-kinenkan.jp）のまま。開館日程：4〜11月は無休（展示替えの臨時休館あり）、12〜3月は毎週月曜休館（祝日の場合は翌火曜）・年末年始休館。closed_weekdays: ['mon'] は12〜3月の規則を反映。4〜11月は月曜も開館するため、この期間の月曜休館判定は実際と異なる点に注意。入館料は特別展期間900円・通常期間700円（大人一般）。",
-  "confidence": "medium"
+  "notes": "公式サイト（http://www.domonken-kinenkan.jp/）はSSL証明書不一致によりWebFetchで取得不可。インターネットミュージアムおよび酒田市公式サイトの情報を使用（confidence: medium）。2025年4月より正式名称を「土門拳写真美術館」に変更したが、official_urlはwiki登録の旧名称URL（domonken-kinenkan.jp）のまま。開館日程：4〜11月は無休（展示替えの臨時休館あり）、12〜3月は毎週月曜休館（祝日の場合は翌火曜）・年末年始休館。12〜3月の月曜休館は seasonal_closed_weekdays に入れた。入館料は特別展期間900円・通常期間700円（大人一般）。",
+  "confidence": "medium",
+  "seasonal_closed_weekdays": [
+    {
+      "weekdays": [
+        "mon"
+      ],
+      "from": "12-01",
+      "to": "03-31"
+    }
+  ]
 }

@@ -49,6 +49,16 @@
                        "nth": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 5}, "minItems": 1}}
       }
     },
+    "seasonal_closed_weekdays": {
+      "type": "array",
+      "description": "季節によって変わる定休日。毎年くり返す月日（MM-DD）で期間を書く。年をまたいでよい。例: 12〜3 月だけ月曜休館 → [{\"weekdays\": [\"mon\"], \"from\": \"12-01\", \"to\": \"03-31\"}]。closed_weekdays に足して判定し、holiday_rule も同じように適用される",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["weekdays", "from", "to"],
+        "properties": {"weekdays": {"type": "array", "items": {"enum": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]}, "minItems": 1},
+                       "from": {"type": "string", "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"},
+                       "to": {"type": "string", "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$"}}
+      }
+    },
     "holiday_rule": {
       "enum": ["open", "open_next_weekday_closed", "closed", "unknown"],
       "description": "open = 祝日は休館曜日でも開館（振替休館なし）。open_next_weekday_closed = 祝日なら開館し翌平日に休館。closed = 祝日は休館"

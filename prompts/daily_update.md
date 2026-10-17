@@ -147,6 +147,8 @@ git push
 - WebFetch には「開館時間・休館日・臨時休館・開催中と今後の展覧会（タイトル・会期・URL）を、**日本語の原文のまま**（翻訳しない）抜き出して」と頼む。
 
 ### 書き方のルール
+- `data/museums.json`（館の一覧）は変えない。館の追加・削除・ID の付け直しは `scripts/build_list.py` だけが Wikipedia と Wikidata から行う。
+  館の一覧に無い施設を見つけても足さず、報告に書く（Wikidata の ID を推測で付けると、別の項目を指してしまうため）。
 - `checked_at`: 今の時刻（`date -Iseconds`、+09:00 付き）。`check_mode`: `full` か `light`。
 - `operating_status`:
   - 通常営業中は `operating`
@@ -160,6 +162,8 @@ git push
 - `closed_weekdays`: 毎週の定休日の曜日（例: 月曜休館 → `["mon"]`）。定休日が無ければ `[]`。
 - `closed_nth_weekdays`: 「第1・第3月曜休館」のような第n週の定休日 → `[{"weekday": "mon", "nth": [1, 3]}]`。
   **規則から日付を計算して `special_closures` に並べてはいけない**（判定は render.py がする）。
+- `seasonal_closed_weekdays`: 季節で変わる定休日（「12〜3 月は月曜休館」「12/1〜2 月末は火〜木曜休館」など）→ `[{"weekdays": ["mon"], "from": "12-01", "to": "03-31"}]`。
+  `from` / `to` は毎年くり返す月日（MM-DD）で、年をまたいでよい。一年中の定休日は `closed_weekdays` に、その季節だけ増える曜日をここに書く。
 - 館全体の休館日と、展覧会（展示室）だけの休室日は分けて書く。館は開いていて特別展だけ毎週月曜休室なら、
   館の `closed_weekdays` には入れず、その展覧会の `closed_weekdays: ["mon"]` に入れる。展覧会だけの振替休室日は、展覧会の `closed_dates` に入れる。
 - `holiday_rule`: 定休日が祝日と重なったときの扱い。

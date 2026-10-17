@@ -51,6 +51,9 @@ uv run pytest -q
 ## ルール
 - 「不明」を残さない。公式サイトが読めなければ、別ページ・検索・自治体ページ・美術情報サイトの順に当たり、`plan_run.py --retry` で再挑戦する。
 - ただし詳細 JSON に、推測した日付や時刻は入れない。どうしても読めなかった項目だけ `unknown` にするか、`confidence` を下げる。
+- `data/museums.json` を変えてよいのは `build_list.py` だけ（巡回で館を足さない。`validate.py` が区分の値と重複で見張る）。
+- 終わった展覧会のページは消さずに「終了しました」のページにする（`data/exhibition_archive.json`。X の投稿のリンクを切らさないため）。消した館 ID の転送先は `data/redirects.json`。
+- 季節で変わる定休日は `seasonal_closed_weekdays`（MM-DD の期間、年またぎ可）。
 - 判定ロジックを変えたら `tests/test_render.py` にケースを足す。
 - 無料開放日は、館ごとの巡回に加えて、毎回の巡回で都道府県などの無料イベント（県民の日・関西文化の日・国際博物館の日など）を 6 週間先まで調べる（手順書 1.5）。
 - 定期タスクがコミットしてよいのは `data/` と `docs/` だけ（検証が通ったときに main へプッシュし、GitHub Pages を更新する）。

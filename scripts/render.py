@@ -43,9 +43,17 @@ def nth_of_month(d: date) -> int:
     return (d.day - 1) // 7 + 1
 
 
-def is_regular_closed_day(d: date, closed: set[str], nth: list[dict]) -> str | None:
-    """曜日だけで見た定休日なら理由を返す（祝日かどうかは見ない）。"""
+def in_season(d: date, start: str, end: str) -> bool:
+    """毎年くり返す期間（MM-DD〜MM-DD、年またぎ可）に d が入るか。"""
+    md = d.strftime("%m-%d")
+    return start <= md <= end if start <= end else (md >= start or md <= end)
+
+
+def is_regular_closed_day(d: date, closed: set[str], nth: list[dict], seasonal: list[dict] = ()) -> str | None:
+    """曜日だけで見た定休日なら理由を返す（祝日かどうかは見ない）。seasonal は季節ごとの定休日。"""
     if wd(d) in closed:
+        return "定休日"
+    if any(wd(d) in s["weekdays"] and in_season(d, s["from"], s["to"]) for s in seasonal):
         return "定休日"
     for r in nth:
         if r["weekday"] == wd(d) and nth_of_month(d) in r["nth"]:
@@ -53,8 +61,9 @@ def is_regular_closed_day(d: date, closed: set[str], nth: list[dict]) -> str | N
     return None
 
 
-def closed_by_rule(d: date, closed: set[str], rule: str, nth: list[dict] = ()) -> tuple[bool, str | None]:
-    """定休日（毎週・第n週）と祝日ルールによる休館判定。(休館か, 理由)"""
+def closed_by_rule(d: date, closed: set[str], rule: str, nth: list[dict] = (),
+                   seasonal: list[dict] = ()) -> tuple[bool, str | None]:
+    """定休日（毎週・第n週・季節ごと）と祝日ルールによる休館判定。(休館か, 理由)"""
     if is_holiday(d):
         if "holiday" in closed or rule == "closed":
             return True, "祝日休館"
@@ -65,10 +74,10 @@ def closed_by_rule(d: date, closed: set[str], rule: str, nth: list[dict] = ()) -
         # 定休日が祝日で開館した場合、その後の最初の平日（祝日でない月〜金）を振替休館にする
         p = d - timedelta(days=1)
         while is_holiday(p) or p.weekday() >= 5:
-            if is_holiday(p) and is_regular_closed_day(p, closed, nth):
+            if is_holiday(p) and is_regular_closed_day(p, closed, nth, seasonal):
                 return True, f"振替休館（{p.month}/{p.day} 祝日開館のため）"
             p -= timedelta(days=1)
-    why = is_regular_closed_day(d, closed, nth)
+    why = is_regular_closed_day(d, closed, nth, seasonal)
     return (True, why) if why else (False, None)
 
 
@@ -172,7 +181,7 @@ def judge(m: dict, det: dict | None, d: date, today: date) -> dict:
                                       for c in det["special_closures"]):
             base["needs_check"] = True  # 年末年始の休館情報がまだ取れていない
         closed, why = closed_by_rule(d, set(det["closed_weekdays"]), det["holiday_rule"],
-                                     det.get("closed_nth_weekdays", []))
+                                     det.get("closed_nth_weekdays", []), det.get("seasonal_closed_weekdays", []))
         if closed:
             return base | {"status": "closed", "reason": why}
         if det.get("closed_between_exhibitions") and det["exhibitions"] and not base["exhibitions"]:

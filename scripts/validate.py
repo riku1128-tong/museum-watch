@@ -54,9 +54,26 @@ def semantic_errors(d: dict) -> list[str]:
     return errs
 
 
+def museum_list_errors(museums: list[dict]) -> list[str]:
+    """museums.json は build_list.py が Wikipedia から作るもの。巡回などで手で足された館を見つける。"""
+    errs = []
+    titles: dict[str, str] = {}
+    for m in museums:
+        if m.get("category") not in ("国立", "公立", "私立"):
+            errs.append(f"{m['id']} {m['name']}: 区分 {m.get('category')!r} は build_list.py が作らない値（手で足された館？）")
+        if m["wiki_title"] in titles:
+            errs.append(f"{m['id']} {m['name']}: {titles[m['wiki_title']]} と同じ記事（重複）")
+        titles[m["wiki_title"]] = m["id"]
+    return errs
+
+
 def main(ids: list[str]) -> int:
     validator = Draft202012Validator(read_json(SCHEMA))
-    known = {m["id"] for m in read_json(MUSEUMS_JSON)["museums"]}
+    museums = read_json(MUSEUMS_JSON)["museums"]
+    known = {m["id"] for m in museums}
+    list_errs = museum_list_errors(museums)
+    for e in list_errs:
+        print(f"NG museums.json: {e}")
     files = [DETAILS / f"{i}.json" for i in ids] if ids else sorted(DETAILS.glob("*.json"))
     bad = 0
     for f in files:
@@ -80,7 +97,7 @@ def main(ids: list[str]) -> int:
             for e in errs:
                 print(f"   - {e}")
     print(f"{len(files) - bad}/{len(files)} 件 OK")
-    return 1 if bad else 0
+    return 1 if bad or list_errs else 0
 
 
 if __name__ == "__main__":

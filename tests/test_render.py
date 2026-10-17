@@ -161,3 +161,23 @@ def test_fill_subid_placeholders():
     m = {"id": "Q1", "name": "ポーラ美術館", "prefecture": "神奈川県", "lat": 35.2437, "lng": 139.0513}
     url = fill("https://x.test/?kw={municipality}&sid={placement}_{museum_id}", m, None, "museum")
     assert url == "https://x.test/?kw=%E7%AE%B1%E6%A0%B9&sid=museum_Q1"
+
+
+def test_seasonal_closed_weekdays():
+    # 土門拳記念館の型: 12〜3 月だけ月曜休館（祝日なら翌平日休館）、4〜11 月は無休
+    det = detail(closed_weekdays=[], seasonal_closed_weekdays=[{"weekdays": ["mon"], "from": "12-01", "to": "03-31"}])
+    assert judge(M, det, date(2027, 1, 18), date(2027, 1, 18))["status"] == "closed"   # 1 月の月曜
+    assert judge(M, det, date(2026, 11, 16), date(2026, 11, 16))["status"] == "open"   # 11 月の月曜
+    assert judge(M, det, date(2027, 3, 29), date(2027, 3, 29))["status"] == "closed"   # 期間の最終週
+    # 成人の日（祝日の月曜）は開館し、翌日の火曜が振替休館
+    assert judge(M, det, date(2027, 1, 11), date(2027, 1, 11))["status"] == "open"
+    assert judge(M, det, date(2027, 1, 12), date(2027, 1, 12))["status"] == "closed"
+
+
+def test_seasonal_adds_to_weekly():
+    # 豊島美術館の型: 通年火曜休館 + 12/1〜2 月末は水・木曜も休館
+    det = detail(closed_weekdays=["tue"],
+                 seasonal_closed_weekdays=[{"weekdays": ["wed", "thu"], "from": "12-01", "to": "02-29"}])
+    assert judge(M, det, date(2026, 12, 2), date(2026, 12, 2))["status"] == "closed"   # 12 月の水曜
+    assert judge(M, det, date(2026, 10, 14), date(2026, 10, 14))["status"] == "open"   # 10 月の水曜
+    assert judge(M, det, date(2026, 10, 13), date(2026, 10, 13))["status"] == "closed"  # 通年の火曜

@@ -29,7 +29,7 @@
     }
   ],
   "closed_weekdays": [],
-  "holiday_rule": "open",
+  "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
       "from": "2026-11-30",
@@ -79,6 +79,15 @@
   ],
   "highlights": "詩人・画家の星野富弘の作品を専門に展示する美術館。渡良瀬渓谷の自然に囲まれた建物で、花の詩画とともに、四季折々の景色も楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は「11月30日、12月～3月の月曜（祝日の場合は火曜）、年末年始12/26～1/4」。12月～3月は月曜定休となるため、その期間はcheck時に closed_weekdays の見直しが必要（今回は9月時点のため開館中の期間として [] のまま）。開館35周年記念展「愛、深き淵より。」「イマーシブミュージアム」は8/13先行公開、8/29グランドオープン、入館料に含まれ追加料金なし。",
-  "confidence": "high"
+  "notes": "休館日は「11月30日、12月～3月の月曜（祝日の場合は火曜）、年末年始12/26～1/4」。12〜3月の月曜休館（祝日なら翌火曜）は seasonal_closed_weekdays と holiday_rule に入れた。開館35周年記念展「愛、深き淵より。」「イマーシブミュージアム」は8/13先行公開、8/29グランドオープン、入館料に含まれ追加料金なし。",
+  "confidence": "high",
+  "seasonal_closed_weekdays": [
+    {
+      "weekdays": [
+        "mon"
+      ],
+      "from": "12-01",
+      "to": "03-31"
+    }
+  ]
 }

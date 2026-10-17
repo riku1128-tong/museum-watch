@@ -1,6 +1,6 @@
 {
   "id": "Q61398113",
-  "checked_at": "2026-10-10T09:51:33+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -36,7 +36,13 @@
     "tue"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-04",
+      "reason": "11月3日（文化の日）開館に伴う振替休館"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {

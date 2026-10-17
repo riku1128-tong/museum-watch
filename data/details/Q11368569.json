@@ -1,6 +1,6 @@
 {
   "id": "Q11368569",
-  "checked_at": "2026-10-10T10:13:43+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -46,16 +46,31 @@
       "title": "作品受贈記念 若き日の川端謹次展",
       "start": "2026-10-17",
       "end": "2026-12-13",
-      "url": "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/5/1/museumevent/12542.html",
+      "url": "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/5/1/museumevent/13634.html",
       "kind": "special",
       "summary": "丹波市出身の洋画家・川端謹次の師弟関係や学生時代の活動に注目した回顧展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "recommend": "東京美術学校で学んだ丹波市出身の洋画家・川端謹次を、若手時代に焦点を当てて紹介。初期の指導者や影響を受けた作家の作品、新たに寄贈された学生時代のデッサンも見られる。",
+      "admission": "一般 400円",
+      "adult_price": 400
     }
   ],
   "adult_price": 310,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "文化の日（開館記念日）",
+      "source_url": "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/5/1/museumevent/13634.html"
+    },
+    {
+      "from": "2026-11-14",
+      "to": "2026-11-15",
+      "scope": "all",
+      "reason": "関西文化の日",
+      "source_url": "https://www.city.tamba.lg.jp/soshiki/shakaikyoikubunkazaika/gyomuannai/5/1/museumevent/13634.html"
+    }
+  ],
   "free_rules": [],
   "access": [
     {

@@ -1,7 +1,7 @@
 {
   "id": "Q11619959",
-  "checked_at": "2026-10-10T15:57:58+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-16T22:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://suohart.com/",
@@ -27,7 +27,7 @@
     {
       "title": "貫名菘翁 書画展示",
       "start": "2026-01-01",
-      "end": "2027-10-10",
+      "end": "2027-10-16",
       "url": null,
       "kind": "collection",
       "summary": "通年。幕末の三筆・貫名菘翁の書画を常時約40点展示（随時展示替え）",

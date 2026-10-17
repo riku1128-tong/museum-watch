@@ -1,7 +1,7 @@
 {
   "id": "Q10855706",
-  "checked_at": "2026-10-10T10:09:29+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-16T22:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://open-air-museum.org/",
@@ -16,13 +16,25 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     },
     {
-      "days": ["sat", "sun", "holiday"],
+      "days": [
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "19:00",
       "last_entry": "18:30",
@@ -30,14 +42,27 @@
       "to": "2026-08-31"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-02", "reason": "年末年始"},
-    {"from": "2027-02-15", "to": "2027-02-22", "reason": "メンテナンス"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-02",
+      "reason": "年末年始"
+    },
+    {
+      "from": "2027-02-15",
+      "to": "2027-02-22",
+      "reason": "メンテナンス"
+    }
   ],
   "special_openings": [
-    {"date": "2026-11-02", "note": "月曜日だが臨時開園（展覧会関連）"}
+    {
+      "date": "2026-11-02",
+      "note": "月曜日だが臨時開園（展覧会関連）"
+    }
   ],
   "exhibitions": [
     {
@@ -64,7 +89,15 @@
     }
   ],
   "adult_price": 400,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "collection",
+      "reason": "霧島アートの日（文化の日）。入園料無料、秋コレクション展も無料。井上涼展は別料金",
+      "source_url": "https://open-air-museum.org/news/news-44323"
+    }
+  ],
   "free_rules": [],
   "access": [
     {
@@ -76,6 +109,6 @@
   ],
   "highlights": "霧島連山を望む鹿児島の自然を舞台に、草間彌生ら国内外の作家による現代彫刻・インスタレーションが点在する野外美術館。四季を通じて野外常設作品と自然の融合が楽しめ、屋内アートホールでは毎年新たな企画展を開催。JR肥薩線が2026年7月に運行再開し、栗野駅からのアクセスも改善した。",
   "closed_between_exhibitions": false,
-  "notes": "10/12（月・祝・スポーツの日）は開園、翌10/13（火）休園。11/2（月）は通常休園日だが臨時開園。11/23（月・祝・勤労感謝の日）は開園、翌11/24（火）休園。",
+  "notes": "11/2（月）は通常休園日だが臨時開園。11/23（月・祝・勤労感謝の日）は開園、翌11/24（火）休園。",
   "confidence": "high"
 }

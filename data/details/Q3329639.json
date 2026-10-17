@@ -1,6 +1,6 @@
 {
   "id": "Q3329639",
-  "checked_at": "2026-10-10T09:51:38+09:00",
+  "checked_at": "2026-10-16T22:35:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -32,7 +32,9 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {"from": "2026-10-19", "to": "2026-10-23", "reason": "展示替え作業のため休館"}
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -59,7 +61,9 @@
     }
   ],
   "adult_price": 630,
-  "free_days": [],
+  "free_days": [
+    {"from": "2026-10-30", "to": "2026-10-30", "scope": "all", "reason": "開館記念日 無料招待デー", "source_url": "https://www.kintetsu-g-hd.co.jp/culture/yamato/"}
+  ],
   "free_rules": [],
   "access": [
     {

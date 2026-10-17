@@ -1,23 +1,34 @@
 {
   "id": "wp-8b5495b4",
-  "checked_at": "2026-10-10T10:10:00+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
-  "official_url": null,
+  "official_url": "https://www.city.imabari.ehime.jp/kanko/spot/?a=141",
   "address": "愛媛県今治市朝倉下甲898",
   "source_urls": [
     "https://www.city.imabari.ehime.jp/kanko/spot/?a=141"
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
@@ -43,6 +54,6 @@
   ],
   "highlights": "今治市朝倉地区の「緑のふるさと公園」内に立つ複合施設。1階考古室では地域の古墳・遺跡から出土した埋蔵文化財の代表品を展示し、2階企画展示室では郷土芸術家の美術作品を収蔵した館蔵品展を開催。伊予文化発祥の地とされる朝倉の古代文化を身近に体感できる。",
   "closed_between_exhibitions": false,
-  "notes": "公式ウェブサイトは見当たらない。情報は今治市観光情報（公式）から取得。入館無料。月曜休館（祝日の場合は翌日振替）、年末年始（12/29〜1/3）休館。展覧会の詳細は今治市公式サイトで要確認。",
+  "notes": "公式ウェブサイトは見当たらない。情報は今治市観光情報（公式）から取得。入館無料。月曜休館（祝日の場合は翌日振替）、年末年始（12/29〜1/3）休館。展覧会の詳細は今治市公式サイトで要確認。 独自の公式サイトは無く、今治市公式の観光情報ページが公式情報（2026-10-16 再確認、内容変化なし）。",
   "confidence": "medium"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q3073273",
-  "checked_at": "2026-10-10T10:10:00+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -156,6 +156,17 @@
       "recommend": "茜や藍で染め抜かれた精緻な木綿布が世界を席巻した歴史を、一流コレクターの逸品で体感する贅沢な展覧会。インドからヨーロッパ、東南アジア、日本へと広がった美意識の共有と創造性の多様な展開を見られる。",
       "admission": "一般1,700円（前売・団体1,600円）",
       "adult_price": 1700
+    },
+    {
+      "title": "カンボジアの染織",
+      "start": "2026-12-02",
+      "end": "2027-02-07",
+      "url": "https://www.fukuoka-art-museum.jp/exhibition/the_textikle_of_cambodia2026/",
+      "kind": "special",
+      "summary": "カンボジアの染織を紹介する企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     },
     {
       "title": "コレクション展 松永耳庵　冬の茶事",

@@ -1,6 +1,6 @@
 {
   "id": "Q2496483",
-  "checked_at": "2026-10-10T09:59:06+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,11 +11,21 @@
     "https://moak.jp/guide/",
     "https://moak.jp/event/exhibitions/",
     "https://moak.jp/event/exhibitions/post_591.html",
-    "https://moak.jp/event/exhibitions/artistfocus_06.html"
+    "https://moak.jp/event/exhibitions/artistfocus_06.html",
+    "https://moak.jp/event/collection/"
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
@@ -53,6 +63,42 @@
       "recommend": "液体の絵具が渦を巻き混ざり合う「Alive Painting」の近作に加え、カンヴァスを用いた初のインスタレーション新作を公開。過去の記録映像も交え、中山晃子の表現の全容を体感できる初の公立美術館個展。",
       "admission": "一般 400円",
       "adult_price": 400
+    },
+    {
+      "title": "コレクション・アラカルト③ ジャン=ミシェル・バスキア《フーイー》など",
+      "start": "2026-09-15",
+      "end": "2026-11-15",
+      "url": "https://moak.jp/event/collection/",
+      "kind": "collection",
+      "summary": "バスキア《フーイー》などコレクションから選んだ作品を展示。10/19〜30は休室",
+      "recommend": null,
+      "admission": "一般 400円",
+      "adult_price": 400,
+      "closed_dates": [
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30"
+      ]
+    },
+    {
+      "title": "石元泰博・コレクション展 出版記念　Little Ones",
+      "start": "2026-09-16",
+      "end": "2027-03-28",
+      "url": "https://moak.jp/event/collection/",
+      "kind": "collection",
+      "summary": "写真家・石元泰博のコレクション展（出版記念）",
+      "recommend": null,
+      "admission": "一般 400円",
+      "adult_price": 400
     }
   ],
   "adult_price": 400,
@@ -77,6 +123,6 @@
   ],
   "highlights": "高知市に位置する高知県唯一の県立美術館。マルク・シャガールの版画コレクションや幕末土佐の奇才・絵金の芝居絵屏風など、国内外の近現代美術から郷土文化まで幅広く収蔵する。映像・現代美術の企画展も積極的に開催し、路面電車でアクセスしやすい。",
   "closed_between_exhibitions": false,
-  "notes": "年中無休（年末年始12/27〜1/1のみ休館）。コレクション展は一般400円、企画展は別途料金（絵金展は当日1,500円）。11/3（文化の日・開館記念日）は無料。2026年10月時点、特集展示（〜9/22）終了後で次の企画展（10/31）まで展示替え期間の可能性あり（コレクション常設の詳細は未確認）。",
+  "notes": "年中無休（年末年始12/27〜1/1のみ休館）。コレクション展は一般400円、企画展は別途料金（絵金展は当日1,500円）。11/3（文化の日・開館記念日）は無料。2026年10月時点、特集展示（〜9/22）終了後で次の企画展（10/31）まで展示替え期間の可能性あり（コレクション常設の詳細は未確認）。 コレクション展はアラカルト③(〜11/15、10/19〜30は展示替えで休室)と石元泰博展が開催中。",
   "confidence": "high"
 }

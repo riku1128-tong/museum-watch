@@ -1,6 +1,6 @@
 {
   "id": "Q11399547",
-  "checked_at": "2026-10-10T10:00:12+09:00",
+  "checked_at": "2026-10-16T22:17:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -50,7 +50,19 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "常設展示（御嵩の歴史）",
+      "start": "2026-10-16",
+      "end": "2027-10-16",
+      "url": "https://www.town.mitake.lg.jp/event/mitakekan-kyodo/",
+      "kind": "collection",
+      "summary": "通年。御嵩のあけぼの・躍進する御嵩・隆盛をきわめた御嵩・東濃の中枢御嵩・まつりと伝承の5テーマで町の歴史を紹介",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
   "adult_price": 0,
   "free_days": [],
   "free_rules": [],

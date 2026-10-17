@@ -1,6 +1,6 @@
 {
   "id": "Q11402997",
-  "checked_at": "2026-10-10T10:20:00+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -62,6 +62,17 @@
       "recommend": "釧路生まれの彫刻家・米坂ヒデノリ（1934-2016）の没後10年展。館の所蔵作品を中心に、思索的な造形世界にふれられる。観覧は無料。",
       "admission": "無料",
       "adult_price": 0
+    },
+    {
+      "title": "ももちゃん芸術祭2027　みて、しゃべって、すきになる！",
+      "start": "2027-01-05",
+      "end": "2027-03-07",
+      "url": "https://www.kushiro-artmu.jp/schedule/",
+      "kind": "special",
+      "summary": "子どもから大人まで鑑賞を楽しむ参加型の芸術祭",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 460,

@@ -1,7 +1,7 @@
 {
   "id": "Q11585938",
-  "checked_at": "2026-10-10T15:58:01+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.kaga.ishikawa.jp/kutani-mus/index.html",
@@ -54,26 +54,26 @@
       "adult_price": 560
     },
     {
-      "title": "第15回伝統工芸士会作品展",
-      "start": "2026-08-01",
-      "end": "2026-10-11",
-      "url": "https://www.city.kaga.ishikawa.jp/kutani-mus/event/index.html",
-      "kind": "special",
-      "summary": "石川県の伝統工芸士による九谷焼作品展。企画展示室のみ入場無料。",
-      "recommend": null,
-      "admission": "無料（企画展示室のみ）",
-      "adult_price": 0
-    },
-    {
       "title": "特別展「九谷焼の春夏秋冬」（前期展）",
       "start": "2026-10-17",
       "end": "2027-01-17",
-      "url": "https://www.city.kaga.ishikawa.jp/kutani-mus/event/index.html",
+      "url": "https://www.city.kaga.ishikawa.jp/kutani-mus/event/next/index.html",
       "kind": "special",
-      "summary": "春夏秋冬の風物を描いた九谷焼名品で四季の美を辿る特別展（前期）",
+      "summary": "古九谷から再興九谷、近現代まで九谷焼の各窯・作家の名品を時系列で通観する特別展（前期）",
+      "recommend": "古九谷から近現代まで、各窯や作家の基準作・名品を時代順にたどる構成。技術と美意識が移り変わる流れを一望でき、九谷焼の歴史を初めて知る人にも入りやすい。",
+      "admission": "一般 1,000円（常設展含む）",
+      "adult_price": 1000
+    },
+    {
+      "title": "特別展「九谷焼の春夏秋冬」（後期展）",
+      "start": "2027-01-23",
+      "end": "2027-04-18",
+      "url": "https://www.city.kaga.ishikawa.jp/kutani-mus/event/next/index.html",
+      "kind": "special",
+      "summary": "古九谷から近現代まで九谷焼の名品を通観する特別展（後期）",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 1,000円（常設展含む）",
+      "adult_price": 1000
     }
   ],
   "adult_price": 560,
@@ -89,6 +89,6 @@
   ],
   "highlights": "加賀市立中央図書館に隣接する「古九谷の杜親水公園」の中にある、日本唯一の九谷焼専門美術館。2002年開館で丹下健三門下の富田玲子が設計した庭園美術館。古九谷から近現代まで360年の歴史を青手・色絵五彩・赤絵金襴の3展示室で体験でき、デジタルライブラリーや茶房古九谷も併設。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日の場合は開館）。10/13（火）〜16（金）は臨時休館（公式サイトより）。第15回伝統工芸士会作品展は10/11（日）で終了。特別展「九谷焼の春夏秋冬」前期（10/17〜）の料金は公式サイトから確認できなかったためnull。後期展（2027/1/23〜4/18）は3か月以内に開始するが、入館料未確認のためadult_price nullのまま掲載。",
+  "notes": "月曜休館（祝日の場合は開館）。10/13（火）〜16（金）は臨時休館（公式サイトより）。特別展期間の観覧料は一般1,000円（常設展含む、団体800円、75歳以上500円、高校生以下無料）。",
   "confidence": "high"
 }

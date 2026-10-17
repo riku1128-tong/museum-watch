@@ -1,7 +1,7 @@
 {
   "id": "Q11403934",
-  "checked_at": "2026-10-10T15:57:58+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://hokumouken.com/",
@@ -48,17 +48,6 @@
       "url": "https://hokumouken.com/2026/06/28/%e4%bb%a4%e5%92%8c2%e5%b9%b4%e5%ba%a6%e7%ac%ac3%e6%9c%9f%e3%80%80%e5%b8%b8%e8%a8%ad%e7%be%8e%e8%a1%93%e5%b1%95%e7%a4%ba%e3%80%8e%e5%8c%97%e8%a6%8b%e3%81%ae%e6%b2%b9%e5%bd%a9%e7%94%bb%e3%80%8f11-25/",
       "kind": "collection",
       "summary": "センター収蔵作品から生命の営みや人々の暮らしに関わる作品を選んだ常設展。生き物・山野・厳しい環境に生きる人々を描いた作品で構成。",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    },
-    {
-      "title": "第79回きたみ市民芸術祭 美術展",
-      "start": "2026-10-04",
-      "end": "2026-10-10",
-      "url": "https://hokumouken.com/exhibition/",
-      "kind": "special",
-      "summary": "北見市民による絵画・彫刻・工芸などの作品を展示する市民芸術祭の美術部門",
       "recommend": null,
       "admission": null,
       "adult_price": null

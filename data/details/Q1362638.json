@@ -1,7 +1,7 @@
 {
   "id": "Q1362638",
-  "checked_at": "2026-10-10T10:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.nact.jp/",
@@ -16,17 +16,62 @@
     "https://www.nact.jp/introduce/architecture.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"], "open": "10:00", "close": "20:00", "last_entry": "19:30", "from": "2026-12-07", "to": "2026-12-10"},
-    {"days": ["fri", "sat"], "open": "10:00", "close": "20:00", "last_entry": "19:30"},
-    {"days": ["mon", "tue", "wed", "thu", "sun"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30",
+      "from": "2026-12-07",
+      "to": "2026-12-10"
+    },
+    {
+      "days": [
+        "fri",
+        "sat"
+      ],
+      "open": "10:00",
+      "close": "20:00",
+      "last_entry": "19:30"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "sun"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-05", "reason": "年末年始"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-05",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [
-    {"date": "2026-12-08", "open": "10:00", "close": "20:00", "note": "火曜だが開館（公式カレンダー・展覧会ページの記載）"}
+    {
+      "date": "2026-12-08",
+      "open": "10:00",
+      "close": "20:00",
+      "note": "火曜だが開館（公式カレンダー・展覧会ページの記載）"
+    }
   ],
   "exhibitions": [
     {
@@ -50,44 +95,14 @@
       "adult_price": 2200
     },
     {
-      "title": "第60回記念　一期展",
-      "start": "2026-09-30",
-      "end": "2026-10-12",
-      "url": "http://ikkikai.info",
-      "kind": "other",
-      "summary": "一期会による第60回記念公募展",
-      "admission": null,
-      "adult_price": null
-    },
-    {
-      "title": "第72回　一陽展",
-      "start": "2026-09-30",
-      "end": "2026-10-12",
-      "url": "https://www.ichiyoukai-art.com",
-      "kind": "other",
-      "summary": "一陽会による公募展",
-      "admission": null,
-      "adult_price": null
-    },
-    {
-      "title": "第90回　自由美術展",
-      "start": "2026-09-30",
-      "end": "2026-10-12",
-      "url": "https://jiyubijutsu.org",
-      "kind": "other",
-      "summary": "自由美術協会による公募展",
-      "admission": null,
-      "adult_price": null
-    },
-    {
       "title": "第79回　二紀展",
       "start": "2026-10-14",
       "end": "2026-10-26",
       "url": "https://niki-kai.or.jp",
       "kind": "other",
       "summary": "二紀会による公募展",
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 1,000円",
+      "adult_price": 1000
     },
     {
       "title": "第93回　独立展",
@@ -96,8 +111,8 @@
       "url": "http://www.dokuritsuten.com/",
       "kind": "other",
       "summary": "独立美術協会による公募展",
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 1,000円",
+      "adult_price": 1000
     },
     {
       "title": "第119回　日展",
@@ -106,8 +121,8 @@
       "url": "https://nitten.or.jp",
       "kind": "other",
       "summary": "日展による国内最大規模の総合美術公募展",
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 1,500円",
+      "adult_price": 1500
     },
     {
       "title": "第51回　秋耕展",
@@ -116,8 +131,8 @@
       "url": "http://www.syukoukai.jp",
       "kind": "other",
       "summary": "秋耕会による公募展",
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 700円",
+      "adult_price": 700
     },
     {
       "title": "第98回　新構造展",
@@ -126,8 +141,8 @@
       "url": "http://shinkozo.or.jp",
       "kind": "other",
       "summary": "新構造社による公募展",
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 800円",
+      "adult_price": 800
     },
     {
       "title": "2026年度 伝統的工芸品公募作品展",
@@ -136,8 +151,8 @@
       "url": "https://kyokai.kougeihin.jp/kouboten/",
       "kind": "other",
       "summary": "伝統的工芸品産業振興協会による公募展",
-      "admission": null,
-      "adult_price": null
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "JAGDA国際学生ポスターアワード 2026",
@@ -146,8 +161,8 @@
       "url": "https://jagda-gakusei.jp/",
       "kind": "other",
       "summary": "日本グラフィックデザイン協会による国際学生ポスター展",
-      "admission": null,
-      "adult_price": null
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "第18回　躍動する現代作家展",
@@ -156,8 +171,8 @@
       "url": "https://www.toram.info/",
       "kind": "other",
       "summary": "現代作家による公募展",
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 1,000円",
+      "adult_price": 1000
     },
     {
       "title": "21世紀アートボーダレス展　Japan Renaissance",
@@ -166,8 +181,8 @@
       "url": "https://21art.jp",
       "kind": "other",
       "summary": "21世紀アートボーダレス展による公募展",
-      "admission": null,
-      "adult_price": null
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "ナナ展",
@@ -176,15 +191,87 @@
       "url": "https://nanakusakai.com/",
       "kind": "other",
       "summary": "ナナ草花会による展覧会",
-      "admission": null,
-      "adult_price": null
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第51回　土日会展",
+      "start": "2026-12-09",
+      "end": "2026-12-21",
+      "url": "https://donichikai.jp/",
+      "kind": "other",
+      "summary": "土日会による公募展",
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "Idemitsu Art Award展 2026",
+      "start": "2026-12-09",
+      "end": "2026-12-21",
+      "url": "https://www.idemitsu.com/jp/fun/art/index.html",
+      "kind": "other",
+      "summary": "出光興産によるアートアワードの入選作品展",
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "第44回　白峰社書展",
+      "start": "2026-12-09",
+      "end": "2026-12-21",
+      "url": "http://www.hakuhousya.jp/",
+      "kind": "other",
+      "summary": "白峰社による書展",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第33回　雪舟国際美術協会展",
+      "start": "2026-12-09",
+      "end": "2026-12-20",
+      "url": "https://www.reijinsha.com/exhibition/2020/03/06/sesshu/",
+      "kind": "other",
+      "summary": "雪舟国際美術協会による公募展",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第55回　全書芸展",
+      "start": "2026-12-10",
+      "end": "2026-12-21",
+      "url": "https://www.z-shogei.co.jp/",
+      "kind": "other",
+      "summary": "全書芸による書の公募展",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第75回記念　独立書展",
+      "start": "2027-01-07",
+      "end": "2027-01-17",
+      "url": "http://www.dokuritsu.or.jp",
+      "kind": "other",
+      "summary": "独立書人団による書の公募展",
+      "admission": "無料",
+      "adult_price": 0
     }
   ],
   "adult_price": null,
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "乃木坂", "lines": "東京メトロ千代田線", "exit": "6番出口", "walk_min": 1, "note": "6番出口から美術館に直結"},
-    {"station": "六本木", "lines": "東京メトロ日比谷線・都営大江戸線", "exit": "日比谷線4a出口・大江戸線7出口", "walk_min": 5, "note": null}
+    {
+      "station": "乃木坂",
+      "lines": "東京メトロ千代田線",
+      "exit": "6番出口",
+      "walk_min": 1,
+      "note": "6番出口から美術館に直結"
+    },
+    {
+      "station": "六本木",
+      "lines": "東京メトロ日比谷線・都営大江戸線",
+      "exit": "日比谷線4a出口・大江戸線7出口",
+      "walk_min": 5,
+      "note": null
+    }
   ],
   "highlights": "建築家・黒川紀章が手がけた最後の美術館で、大波のようにうねるガラスカーテンウォールが特徴。常設コレクションを持たず、国内最大級の展示スペースで多彩な企画展・公募展を開催するアートセンター",
   "notes": "企画展会期中は毎週金・土曜20:00まで（通常18:00）、12/7〜12/10は全曜日20:00まで。11/4（水）は11/3祝日開館の振替休館。公募展の観覧料・時間は団体ごとに異なる。常設コレクションが無いため館共通の adult_price は null（各展覧会の料金を参照）。",

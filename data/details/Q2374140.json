@@ -1,6 +1,6 @@
 {
   "id": "Q2374140",
-  "checked_at": "2026-10-10T16:10:00+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -42,20 +42,15 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-26",
+      "reason": "展示替えのため休館"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "［館蔵］秋の優品展 唐草文の美",
-      "start": "2026-09-05",
-      "end": "2026-10-12",
-      "url": "https://www.gotoh-museum.or.jp/exhibition/open/",
-      "kind": "special",
-      "summary": "唐草文をテーマに中国の古鏡・陶磁・染織、古筆装飾など館蔵品を展示。10/3〜12は国宝紫式部日記絵巻も",
-      "recommend": "古鏡・陶磁・染織から古筆装飾まで、唐草文をテーマに館蔵の名品が揃う。会期後半（10/3〜12）には国宝「紫式部日記絵巻」も加わり、源氏物語絵巻とあわせた平安文学ゆかりの名宝を間近に見られる貴重な機会。",
-      "admission": "一般 1,100円",
-      "adult_price": 1100
-    },
     {
       "title": "室町ごころの風景",
       "start": "2026-10-27",
@@ -63,7 +58,7 @@
       "url": "https://www.gotoh-museum.or.jp/exhibition/next/",
       "kind": "special",
       "summary": "室町時代のやまと絵屛風や連歌懐紙などから「室町ごころ」の風景を展望",
-      "recommend": null,
+      "recommend": "四季を描いた室町時代のやまと絵屛風や、豊かな下絵をもつ連歌懐紙などを通して、室町の人々の心が映す風景を探る展示。会期中に一部展示替えがあり、庭園とあわせて秋の散策も楽しめる。",
       "admission": "一般 1,400円",
       "adult_price": 1400
     }

@@ -1,6 +1,6 @@
 {
   "id": "Q11467091",
-  "checked_at": "2026-10-10T09:51:43+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -21,14 +21,8 @@
     }
   ],
   "closed_weekdays": ["mon"],
-  "holiday_rule": "open",
-  "special_closures": [
-    {
-      "from": "2026-10-13",
-      "to": "2026-10-30",
-      "reason": "展示替え"
-    }
-  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [],
   "special_openings": [
     {
       "date": "2026-11-02",
@@ -41,48 +35,15 @@
   ],
   "exhibitions": [
     {
-      "title": "開館30周年記念 特別企画 歌川広重Ⅰ「冨士三十六景」",
-      "start": "2026-09-15",
-      "end": "2026-10-12",
-      "url": "https://hum-web.jp/exhibition_collection/ukiyoe/",
+      "title": "開館30周年記念 特別企画 歌川広重Ⅱ「東海道五十三次之内」",
+      "start": "2026-10-14",
+      "end": "2026-11-15",
+      "url": "https://hum-web.jp/exhibition_collection/",
       "kind": "collection",
-      "summary": "歌川広重「冨士三十六景」全36図を紹介する開館30周年記念の特別企画展示",
-      "recommend": "富士山を望む各地の風景を繊細に描いた広重の「冨士三十六景」36図が揃い踏み。シリーズ全貌を通覧できる機会で、浮世絵コレクションの豊かさを実感できる。",
+      "summary": "歌川広重「東海道五十三次之内」を紹介する開館30周年記念の特別企画展示（浮世絵・東洋陶磁室）",
+      "recommend": "旅情あふれる宿場の風景を描いた広重の代表シリーズ。先に開催された「冨士三十六景」に続く30周年企画で、広重の風景表現の魅力を堪能できる。",
       "admission": "一般400円（20名以上320円）",
       "adult_price": 400
-    },
-    {
-      "title": "古代中国のやきもの",
-      "start": "2026-05-26",
-      "end": "2026-10-12",
-      "url": "https://hum-web.jp/exhibition_collection/oriental_ceramics/",
-      "kind": "collection",
-      "summary": "浦上コレクションから古代中国の陶磁器を紹介するコレクション展示",
-      "recommend": null,
-      "admission": "一般400円（20名以上320円）",
-      "adult_price": 400
-    },
-    {
-      "title": "焼締陶―土と炎の造形美",
-      "start": "2026-04-28",
-      "end": "2026-10-12",
-      "url": "https://hum-web.jp/exhibition_collection/pottery/",
-      "kind": "collection",
-      "summary": "釉薬をかけずに焼き締めた陶の、土と炎が生み出す造形美を紹介するコレクション展示",
-      "recommend": null,
-      "admission": "一般400円（20名以上320円）",
-      "adult_price": 400
-    },
-    {
-      "title": "第10回現代ガラス展 in 山陽小野田 特別作品展 [萩展]",
-      "start": "2026-09-01",
-      "end": "2026-10-12",
-      "url": null,
-      "kind": "other",
-      "summary": "山陽小野田市を拠点とする現代ガラス展の特別出品作品を萩で展示",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
     },
     {
       "title": "NIGO®と半泥子",
@@ -92,8 +53,8 @@
       "kind": "special",
       "summary": null,
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般1,500円（前売・20名以上1,300円）",
+      "adult_price": 1500
     },
     {
       "title": "萩焼 New Age",
@@ -103,19 +64,19 @@
       "kind": "special",
       "summary": "現代の萩焼作家による新しい萩焼の姿を紹介する特別展",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般1,500円（前売・20名以上1,300円）",
+      "adult_price": 1500
     },
     {
-      "title": "現在形の陶芸 萩大賞展Ⅶ（開館30周年記念）",
+      "title": "現在形の陶芸 萩大賞展Ⅶ",
       "start": "2026-10-31",
       "end": "2026-12-20",
       "url": "https://hum-web.jp/exhibition/",
       "kind": "special",
       "summary": "開館30周年記念として開催する現代陶芸の公募展・萩大賞展第7回",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般400円（20名以上320円）",
+      "adult_price": 400
     }
   ],
   "adult_price": 400,
@@ -130,7 +91,7 @@
     }
   ],
   "highlights": "萩市出身の実業家・浦上敏朗氏のコレクションを核に1996年開館。浮世絵・東洋陶磁・陶芸工芸を中心に2,000点超のコレクションを誇り、丹下健三設計の本館と陶芸館を有する。ミシュラン・グリーンガイド・ジャポンで山口県内最高ランクの二つ星を獲得した名館。",
-  "closed_between_exhibitions": true,
-  "notes": "月曜休館（祝日は開館・振替なし）。特別展開催中の第1月曜日（ファーストマンデー）は開館（special_openings に11/2・12/7を追加済み）。コレクション展観覧料：一般400円（20名以上320円）、学生250円（200円）、70歳以上・18歳以下・高校生は無料。特別展の観覧料は未確認（admission: null）。",
+  "closed_between_exhibitions": false,
+  "notes": "月曜休館（祝日は開館し翌平日休館。特別展ページの休館日一覧に11/24(火)が含まれるため）。特別展開催中の第1月曜（ファーストマンデー）は開館（11/2・12/7）。コレクション展は10/14から次の展示が始まっており、10/16時点で「本日開館」のため、前回記載の10/13〜10/30休館は削除。特別展(10/31〜12/20)の休館日は11/9・11/16・11/24・11/30・12/14（規則どおり）。コレクション展観覧料：一般400円、学生250円、70歳以上・18歳以下・高校生は無料。特別展は一般1,500円（前売1,300円）、学生・70歳以上1,300円（1,100円）、18歳以下無料。",
   "confidence": "high"
 }

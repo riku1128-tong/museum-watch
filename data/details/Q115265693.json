@@ -1,6 +1,6 @@
 {
   "id": "Q115265693",
-  "checked_at": "2026-10-10T16:10:00+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,7 +10,9 @@
     "https://www.ejrcf.or.jp/gallery/",
     "https://www.ejrcf.or.jp/gallery/exhibition/202609_suikoden.html",
     "https://www.ejrcf.or.jp/gallery/exhibition.html",
-    "https://www.ejrcf.or.jp/gallery/access.html"
+    "https://www.ejrcf.or.jp/gallery/access.html",
+    "https://www.ejrcf.or.jp/gallery/exhibition/202611_astrup.html",
+    "https://www.ejrcf.or.jp/gallery/institution.html"
   ],
   "regular_hours": [
     {
@@ -40,8 +42,13 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {"from": "2026-12-28", "to": "2027-01-02", "reason": "年末年始"}
+  ],
   "special_openings": [
+    {"date": "2026-11-23", "open": "10:00", "close": "18:00", "note": "月曜だが開館（アストルップ展）"},
+    {"date": "2027-01-11", "open": "10:00", "close": "18:00", "note": "月曜だが開館（アストルップ展）"},
+    {"date": "2027-01-25", "open": "10:00", "close": "18:00", "note": "月曜だが開館（アストルップ展会期最終週）"},
     {
       "date": "2026-11-02",
       "open": "10:00",
@@ -65,12 +72,12 @@
       "title": "ニコライ・アストルップ 創造する庭",
       "start": "2026-11-21",
       "end": "2027-01-31",
-      "url": null,
+      "url": "https://www.ejrcf.or.jp/gallery/exhibition/202611_astrup.html",
       "kind": "special",
       "summary": "ノルウェー南西部の湖畔で生涯を過ごした画家アストルップの日本初となる回顧展。油彩に加え木版画約130点を紹介",
       "recommend": "刷るたびに違う表情を持つ一点物の木版画は、浮世絵の影響を独自に消化した作風がうかがえる。日本初公開となる作品を多数含む貴重な機会",
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 1,800円",
+      "adult_price": 1800
     },
     {
       "title": "生誕140年 染織家 山鹿清華",
@@ -78,12 +85,13 @@
       "end": "2027-04-11",
       "url": null,
       "kind": "special",
-      "summary": null,
+      "summary": "西陣織に新しい意匠を持ち込んだ染織家・山鹿清華の約40年ぶりの大規模回顧展",
       "recommend": null,
       "admission": null,
       "adult_price": null
     }
   ],
+  "highlights": "東京駅丸の内駅舎の北ドーム内にある美術館。辰野金吾設計の駅舎創建時の構造レンガや鉄骨をそのまま見せる展示室が魅力で、赤レンガの壁に囲まれて作品を楽しめる。2階回廊には駅舎の歴史を伝える模型や写真も常設。",
   "adult_price": null,
   "closed_between_exhibitions": true,
   "access": [
@@ -106,6 +114,6 @@
       "walk_min": 5
     }
   ],
-  "notes": "休館日は「原則、月曜日（祝日の場合は翌平日／ただし会期最終週、ゴールデンウィーク・お盆・シルバーウィーク期間中の月曜日は開館）、年末年始、展示替期間」。水滸伝展の休館日「月曜日［ただし9/21、10/12、11/2は開館］、10/13 (火)」。金曜の祝日の扱いは未記載。年末年始の具体的な日付は未確認。アストルップ展・山鹿清華展の詳細ページURLは公式展覧会一覧に未掲載。",
+  "notes": "休館日は「原則、月曜日（祝日の場合は翌平日／ただし会期最終週、ゴールデンウィーク・お盆・シルバーウィーク期間中の月曜日は開館）、年末年始、展示替期間」。水滸伝展の休館日「月曜日［ただし9/21、10/12、11/2は開館］、10/13 (火)」。金曜の祝日の扱いは未記載。アストルップ展の休館日は「月曜日［ただし11/23、1/11、1/25は開館］、11/24(火)、年末年始(12/28～1/2）、1/12(火)」。アストルップ展・山鹿清華展の詳細ページURLは公式展覧会一覧に未掲載。",
   "confidence": "high"
 }

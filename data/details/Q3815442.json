@@ -1,6 +1,6 @@
 {
   "id": "Q3815442",
-  "checked_at": "2026-10-10T09:51:38+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -55,6 +55,16 @@
       "from": "2026-12-24",
       "to": "2027-01-05",
       "reason": "年末年始休館"
+    },
+    {
+      "from": "2027-01-12",
+      "to": "2027-01-12",
+      "reason": "休館日（開館カレンダー）"
+    },
+    {
+      "from": "2027-01-18",
+      "to": "2027-01-25",
+      "reason": "展示替え休館"
     }
   ],
   "special_openings": [],

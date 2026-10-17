@@ -1,7 +1,7 @@
 {
   "id": "Q11356025",
-  "checked_at": "2026-10-10T09:51:58+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-16T22:30:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.otsu.lg.jp/soshiki/010/1126/index.html",
@@ -53,6 +53,17 @@
       "kind": "special",
       "summary": "作品の片隅にそっと描かれた小さな生き物を探しながら、三橋節子の遊び心と静かなメッセージを感じる企画展",
       "recommend": "背景の木陰や人物の足元に忍び込む小さな生き物たちに気づいたとき、画家の遊び心が伝わる。目をこらして探すひとときも作品鑑賞の楽しさのひとつ。",
+      "admission": "一般 330円",
+      "adult_price": 330
+    },
+    {
+      "title": "三橋節子が描く色彩の世界",
+      "start": "2026-11-03",
+      "end": "2027-02-28",
+      "url": "https://www.city.otsu.lg.jp/soshiki/010/1126/e/65320.html",
+      "kind": "special",
+      "summary": "野草・人間・物語のモチーフと色彩で3つの世界に分けて三橋節子の絵を紹介",
+      "recommend": "35年の短い生涯で描いた野草、人間、物語の作品を、モチーフと色彩で三つの世界に分けて展示。それぞれの空間で、絵に込められた思いを感じ取れる構成になっている。",
       "admission": "一般 330円",
       "adult_price": 330
     },

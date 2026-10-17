@@ -1,6 +1,6 @@
 {
   "id": "Q11472922",
-  "checked_at": "2026-10-10T10:10:00+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -67,15 +67,15 @@
       "adult_price": 1500
     },
     {
-      "title": "開館30周年記念企画展「国島征二」",
+      "title": "市制110周年・開館30周年記念企画展　国島征二",
       "start": "2026-12-19",
       "end": "2027-03-14",
-      "url": null,
+      "url": "https://www.city.okazaki.lg.jp/museum/tenrankai/1016626.html",
       "kind": "special",
-      "summary": "開館30周年記念として開催する企画展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "summary": "石彫のパブリックアートで知られる美術家・国島征二の70年の歩みを、絵画・立体300点以上で紹介",
+      "recommend": "彫刻家のイメージが強い国島の、絵画から積層シリーズ、Wrapped Memoryシリーズまで多彩な表現を300点以上で一望できる回顧展。",
+      "admission": "一般（高校生以上）1,200円（1,100円）",
+      "adult_price": 1200
     }
   ],
   "adult_price": null,

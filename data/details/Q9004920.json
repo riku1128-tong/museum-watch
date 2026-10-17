@@ -1,6 +1,6 @@
 {
   "id": "Q9004920",
-  "checked_at": "2026-10-10T10:06:39+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -15,13 +15,24 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
@@ -43,7 +54,10 @@
       "recommend": "明代中期から明末清初の書に焦点をあて、約9割の72件が日本初公開。個性あふれる筆墨の躍動を、台北の財団が集めた名品でたどれる。",
       "admission": "一般 2,000円（前売 1,800円）",
       "adult_price": 2000,
-      "closed_dates": ["2026-10-13", "2026-11-24"]
+      "closed_dates": [
+        "2026-10-13",
+        "2026-11-24"
+      ]
     },
     {
       "title": "東アジアの金工品",

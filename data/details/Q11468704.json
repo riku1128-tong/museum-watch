@@ -1,6 +1,6 @@
 {
   "id": "Q11468704",
-  "checked_at": "2026-10-10T10:01:34+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -40,6 +40,11 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
+    {
+      "from": "2026-10-28",
+      "to": "2026-10-28",
+      "reason": "特別展のため休館（公式トップの告知）"
+    },
     {
       "from": "2026-12-27",
       "to": "2027-01-01",

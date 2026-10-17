@@ -1,6 +1,6 @@
 {
   "id": "Q11595540",
-  "checked_at": "2026-10-10T16:10:00+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -72,7 +72,10 @@
     }
   ],
   "adult_price": 200,
-  "free_days": [],
+  "free_days": [
+    {"from": "2026-11-08", "to": "2026-11-08", "scope": "all", "reason": "商工祭・忍城時代まつり", "source_url": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/kyodohakubutsukan/oshirase/8764.html"},
+    {"from": "2026-11-14", "to": "2026-11-14", "scope": "all", "reason": "埼玉県民の日", "source_url": "https://www.city.gyoda.lg.jp/soshiki/shougaigakusyubu/kyodohakubutsukan/oshirase/8764.html"}
+  ],
   "free_rules": [],
   "access": [
     {

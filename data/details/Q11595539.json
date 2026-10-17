@@ -1,7 +1,7 @@
 {
   "id": "Q11595539",
-  "checked_at": "2026-10-10T10:09:29+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-16T22:21:28+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.kawagoe.saitama.jp/museum/index.html",
@@ -40,7 +40,7 @@
     {
       "title": "常設展示",
       "start": "2026-01-01",
-      "end": "2027-10-10",
+      "end": "2027-10-16",
       "url": "https://www.city.kawagoe.saitama.jp/museum/1013715/1013714.html",
       "kind": "collection",
       "summary": "通年。縄文時代から近代まで川越の歴史を5室で紹介。蔵造り模型・城下町1/500模型あり",

@@ -1,9 +1,9 @@
 {
   "id": "Q11377199",
-  "checked_at": "2026-10-10T10:05:00+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
-  "status_note": "空調設備改修のため2026年8月31日より臨時休館中。再開は2026年12月上旬予定（12月4日予定）。開館の目途が立ち次第告知。",
+  "status_note": "空調設備改修のため2026年8月31日より臨時休館中。2026年12月5日(土)に開館予定（公式告知「12/5～開館のお知らせ」）。",
   "official_url": "https://www.city.imabari.ehime.jp/museum/tamagawa/",
   "address": "〒794-0102 愛媛県今治市玉川町大野甲86-4",
   "source_urls": [
@@ -26,7 +26,7 @@
     {
       "from": "2026-08-31",
       "to": "2026-12-04",
-      "reason": "空調設備改修による臨時休館（12月上旬予定）"
+      "reason": "空調設備改修による臨時休館（12月5日開館予定）"
     },
     {
       "from": "2026-12-29",
@@ -35,9 +35,41 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "開館40周年記念館蔵品企画展「心をたがやすアート」",
+      "start": "2026-12-05",
+      "end": "2027-03-31",
+      "url": "https://www.city.imabari.ehime.jp/museum/tamagawa/event/event.html?p=2084",
+      "kind": "special",
+      "summary": "開館40周年を記念し、再開館にあわせて館蔵品を紹介する企画展（終了日は未発表）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "国宝「伊予国奈良原山経塚出土品」特別公開",
+      "start": "2026-12-05",
+      "end": "2027-01-11",
+      "url": "https://www.city.imabari.ehime.jp/museum/tamagawa/event/event.html?p=2084",
+      "kind": "special",
+      "summary": "国宝・伊予国奈良原山経塚出土品の特別公開。12月5日は観覧無料",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
   "adult_price": 520,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-12-05",
+      "to": "2026-12-05",
+      "scope": "partial",
+      "targets": ["国宝「伊予国奈良原山経塚出土品」特別公開"],
+      "reason": "再開館日の特別公開は観覧無料",
+      "source_url": "https://www.city.imabari.ehime.jp/museum/tamagawa/event/event.html?p=2084"
+    }
+  ],
   "free_rules": [],
   "access": [
     {

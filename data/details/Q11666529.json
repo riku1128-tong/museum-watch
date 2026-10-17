@@ -1,7 +1,7 @@
 {
   "id": "Q11666529",
-  "checked_at": "2026-10-10T09:59:39+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-16T22:30:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": null,
@@ -33,11 +33,6 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {
-      "from": "2026-10-05",
-      "to": "2026-10-09",
-      "reason": "展示替え"
-    },
     {
       "from": "2026-11-16",
       "to": "2026-11-21",

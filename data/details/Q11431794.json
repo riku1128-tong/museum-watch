@@ -1,6 +1,6 @@
 {
   "id": "Q11431794",
-  "checked_at": "2026-10-10T09:51:44+09:00",
+  "checked_at": "2026-10-16T22:26:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "改装休館中（2021年4月5日より）。再開予定日未定。",
@@ -38,7 +38,22 @@
       "note": "文化の日ワンデイオープン（1日限りの特別一般公開、予約不要）。所蔵コレクション「ドーム兄弟＆ルネ・ラリック展」を観覧可"
     }
   ],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "ドーム兄弟＆ルネ・ラリック展",
+      "start": "2026-11-03",
+      "end": "2026-11-03",
+      "url": "https://www.daiichi-museum.co.jp/onedayopen",
+      "kind": "special",
+      "summary": "文化の日ワンデイオープン。所蔵のドーム兄弟とラリックの作品を1日限定で公開",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000,
+      "hours": [
+        {"days": ["tue"], "open": "10:00", "close": "17:00", "last_entry": "16:00"}
+      ]
+    }
+  ],
   "adult_price": null,
   "free_days": [],
   "free_rules": [],

@@ -1,7 +1,7 @@
 {
   "id": "Q11595519",
-  "checked_at": "2026-10-10T10:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-16T22:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://akita-kinbi.jp/",
@@ -30,13 +30,7 @@
   ],
   "closed_weekdays": [],
   "holiday_rule": "unknown",
-  "special_closures": [
-    {
-      "from": "2026-10-05",
-      "to": "2026-10-09",
-      "reason": "展示替え"
-    }
-  ],
+  "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {

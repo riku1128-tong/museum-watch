@@ -1,7 +1,7 @@
 {
   "id": "Q21653817",
-  "checked_at": "2026-10-10T10:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:25:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": null,
@@ -61,17 +61,6 @@
       "recommend": null,
       "admission": "一般 200円",
       "adult_price": 200
-    },
-    {
-      "title": "Brilliant Color",
-      "start": "2026-07-11",
-      "end": "2026-10-12",
-      "url": "https://toyama-glass-art-museum.jp/exhibition/brilliant-color/",
-      "kind": "special",
-      "summary": "19世紀初頭から現代のガラスにおける色の進化を、ガレ・ラリック・ティファニーら約140点で紹介",
-      "recommend": "ガレ、ラリック、ティファニー、カーダーらの名品約140点を通じ、ガラスにおける色の進化と革新を一覧できる展覧会。暮らしと美が交差する19世紀から現代までの色彩の旅が楽しめる。",
-      "admission": "一般 1,200円",
-      "adult_price": 1200
     },
     {
       "title": "フィンランド スピリット サウナ ―自然と生きる温もりの文化―",

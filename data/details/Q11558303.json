@@ -1,6 +1,6 @@
 {
   "id": "Q11558303",
-  "checked_at": "2026-10-10T10:10:00+09:00",
+  "checked_at": "2026-10-16T22:27:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -50,28 +50,6 @@
       "recommend": null,
       "admission": "一般 300円",
       "adult_price": 300
-    },
-    {
-      "title": "漆芸家シリーズ 2026 照屋和那展―素材と漆―",
-      "start": "2026-09-17",
-      "end": "2026-10-12",
-      "url": "https://urasoe-artmuseum.jp/exhibition/teruya-kazuna-urushi-20260918/",
-      "kind": "special",
-      "summary": "漆芸家・照屋和那の「素材と漆」をテーマにした個展",
-      "recommend": "漆芸家・照屋和那が「素材と漆」をテーマに制作した作品を一堂に展示。原材料の特性を活かしながら積み重ねる独自の技法と、工芸としての漆の多様な可能性を感じさせる個展。",
-      "admission": "一般 300円",
-      "adult_price": 300
-    },
-    {
-      "title": "首里城復興祈念 琉球創作人形と絵画で伝える沖縄歴史夢物語 久場とよ・座間味末子作品展",
-      "start": "2026-09-30",
-      "end": "2026-10-13",
-      "url": "https://urasoe-artmuseum.jp/exhibition/shuri-castle-revival-okinawa-art-exhibition/",
-      "kind": "special",
-      "summary": "琉球創作人形作家・久場とよと座間味末子による首里城復興祈念展。人形と絵画で琉球の歴史と文化を伝える",
-      "recommend": "琉球王朝文化と暮らしの風習を人形で伝え続けた久場とよ（1921-2017）と弟子・座間味末子による合同展。首里城復興への祈りが込められた創作人形と絵画から、琉球の美意識を感じ取れる。",
-      "admission": "一般 950円",
-      "adult_price": 950
     },
     {
       "title": "第10回梧桐会主催大東文化大学ＯＢ書作展",

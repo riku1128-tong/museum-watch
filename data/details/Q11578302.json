@@ -1,6 +1,6 @@
 {
   "id": "Q11578302",
-  "checked_at": "2026-10-10T10:09:31+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -91,6 +91,15 @@
       "url": "https://hanga-museum.jp/exhibition/schedule/2026-632",
       "kind": "special",
       "summary": "企画展。近年新たに収蔵した作品を紹介",
+      "admission": null
+    },
+    {
+      "title": "第40回町田市公立小中学校作品展",
+      "start": "2027-01-15",
+      "end": "2027-02-23",
+      "url": "https://hanga-museum.jp/exhibition/schedule",
+      "kind": "other",
+      "summary": "企画展。町田市立小中学校の児童・生徒の作品展",
       "admission": null
     }
   ],

@@ -1,7 +1,7 @@
 {
   "id": "Q11272278",
-  "checked_at": "2026-10-10T10:00:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.tsukuba.museum.ibk.ed.jp/",
@@ -36,35 +36,13 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "茨城県立歴史館パネル展",
-      "start": "2026-09-15",
-      "end": "2026-10-12",
-      "url": null,
-      "kind": "special",
-      "summary": "茨城県立歴史館によるパネル展示",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
-      "title": "アートフォーラム展「茨城と日本画ー中世から近代まで」",
-      "start": "2026-09-25",
-      "end": "2026-10-12",
-      "url": "https://www.tsukuba.museum.ibk.ed.jp/event.html#event260925",
-      "kind": "special",
-      "summary": "中世から近代にかけての茨城ゆかりの日本画を紹介するアートフォーラム展",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
       "title": "アートフォーラム展「茨城と日本画ー中世から近代まで」（後期）",
       "start": "2026-10-20",
       "end": "2026-10-25",
       "url": "https://www.tsukuba.museum.ibk.ed.jp/event.html#event260925",
       "kind": "special",
       "summary": "中世から近代にかけての茨城ゆかりの日本画を紹介するアートフォーラム展の後期日程",
-      "recommend": null,
+      "recommend": "茨城県近代美術館の複製画やパネルに加え、岩絵具や和紙の実物も展示。横山大観ら県ゆかりの作家の画業と功績をたどれる、入場無料の日本画入門展。",
       "admission": "無料",
       "adult_price": 0
     },

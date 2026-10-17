@@ -1,13 +1,14 @@
 {
   "id": "wp-cf11837b",
-  "checked_at": "2026-10-10T16:09:51+09:00",
+  "checked_at": "2026-10-16T22:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://cocoro-no-mori.com/",
   "address": "〒629-3102 京都府京丹後市網野町下岡1018",
   "source_urls": [
-    "https://map.yahoo.co.jp/v3/place/SQw5JA8qlIo"
+    "https://map.yahoo.co.jp/v3/place/SQw5JA8qlIo",
+    "https://serai.jp/tour/39885"
   ],
   "regular_hours": [
     {
@@ -44,6 +45,6 @@
   ],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "2026-10-10 再挑戦（2回目）。公式サイト cocoro-no-mori.com は依然として名前解決できず読めない。WebSearch でも2026年の展示・臨時休館情報は見つからず。前回の値を維持。",
+  "notes": "2026-10-16 再挑戦（3回目）。公式サイト cocoro-no-mori.com は依然として名前解決できず読めない。SERAI の紹介記事（記事の日付不明）で 10-17時・入場無料・月曜休館（祝日の場合は翌日休館）・12/28〜1/5休館を確認し、既存の値と一致。年末年始は日付の出典が公式でないため special_closures には入れていない。2026年の展示情報は見つからず。",
   "confidence": "low"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q17216016",
-  "checked_at": "2026-10-10T10:06:39+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -46,6 +46,17 @@
       "recommend": "2021年に収蔵した写真家ユージン・スミスとアイリーン・スミスによる水俣病の記録写真群を展示。世界的に反響を呼んだ告発写真を、熊本の地で無料で体感できる貴重な機会。",
       "admission": "無料",
       "adult_price": 0
+    },
+    {
+      "title": "アーティスト･イン･レジデンスつなぎ2026成果展　羅懿君 糸から糸へ､島から島へ ー ここから見えるあわいの風景",
+      "start": "2026-12-05",
+      "end": "2027-02-23",
+      "url": "https://www.tsunagi-art.jp/",
+      "kind": "special",
+      "summary": "アーティスト・イン・レジデンスつなぎ2026の成果展。羅懿君（Lo Yi-chun）の作品を紹介",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": null,

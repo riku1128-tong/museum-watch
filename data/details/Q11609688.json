@@ -1,7 +1,7 @@
 {
   "id": "Q11609688",
-  "checked_at": "2026-10-10T09:51:56+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://mmag.pref.gunma.jp/",
@@ -35,7 +35,13 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-11-09",
+      "to": "2026-11-19",
+      "reason": "展示替え"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -67,17 +73,6 @@
       "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7198",
       "kind": "collection",
       "summary": "新たに収蔵した作品を紹介するコレクション展示",
-      "recommend": null,
-      "admission": "一般 300円",
-      "adult_price": 300
-    },
-    {
-      "title": "コレクション展示：戸方庵井上コレクションの粋Ⅰ",
-      "start": "2026-09-19",
-      "end": "2026-10-12",
-      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7187",
-      "kind": "collection",
-      "summary": "戸方庵井上コレクションから選りすぐった近代美術・茶道具を紹介するコレクション展示",
       "recommend": null,
       "admission": "一般 300円",
       "adult_price": 300

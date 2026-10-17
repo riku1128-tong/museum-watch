@@ -1,7 +1,7 @@
 {
   "id": "Q4556482",
-  "checked_at": "2026-10-10T10:03:17+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-16T22:30:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.pref.kumamoto.jp/site/museum/",
@@ -15,18 +15,34 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:15",
       "last_entry": "16:45"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [
-    {"date": "2026-10-26", "note": "特別開館日（月曜）"},
-    {"date": "2026-11-24", "note": "特別開館日（勤労感謝の日振替休日にあたる火曜）"}
+    {
+      "date": "2026-10-26",
+      "note": "特別開館日（月曜）"
+    },
+    {
+      "date": "2026-11-24",
+      "note": "特別開館日（勤労感謝の日振替休日にあたる火曜）"
+    }
   ],
   "exhibitions": [
     {

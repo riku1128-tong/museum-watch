@@ -1,6 +1,6 @@
 {
   "id": "Q11562497",
-  "checked_at": "2026-10-10T10:09:29+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -45,17 +45,6 @@
       "recommend": "林業の町・智頭町を拠点とする各分野のベテラン作家6人の秀作を一堂に。地域の風土が育んだ染色から写真まで多彩な表現を通じて、現代工芸と絵画の奥深さを体感できる。",
       "admission": "一般 900円",
       "adult_price": 900
-    },
-    {
-      "title": "県民芸術広場「因州和紙 折り紙アート ～和紙で元気を届けるSada工房」",
-      "start": "2026-08-24",
-      "end": "2026-10-12",
-      "url": "https://watart.jp/exhibition/%e5%9b%a0%e5%b7%9e%e5%92%8c%e7%b4%99-%e6%8a%98%e3%82%8a%e7%b4%99%e3%82%a2%e3%83%bc%e3%83%88-%ef%bd%9e%e5%92%8c%e7%b4%99%e3%81%a7%e5%85%83%e6%b0%97%e3%82%92%e5%b1%8a%e3%81%91%e3%82%8bsada%e5%b7%a5/",
-      "kind": "other",
-      "summary": "折り紙講師・貞谷隆子さんによる因州和紙を使った折り紙アート展（2F県民芸術広場）",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
     }
   ],
   "adult_price": 900,

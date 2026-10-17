@@ -1,6 +1,6 @@
 {
   "id": "Q11377196",
-  "checked_at": "2026-10-10T09:51:58+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -14,12 +14,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -30,33 +41,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "らイト☆クラぶ写真展（今治市中央公民館写真教室作品展）",
-      "start": "2026-10-07",
-      "end": "2026-10-12",
-      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2060",
-      "kind": "other",
-      "summary": "今治市中央公民館写真教室の作品展（貸会場）",
-      "recommend": null
-    },
-    {
-      "title": "媼二人展",
-      "start": "2026-10-07",
-      "end": "2026-10-12",
-      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2058",
-      "kind": "other",
-      "summary": "貸会場企画展",
-      "recommend": null
-    },
-    {
-      "title": "写楽写真展",
-      "start": "2026-10-07",
-      "end": "2026-10-12",
-      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2059",
-      "kind": "other",
-      "summary": "貸会場企画展",
-      "recommend": null
-    },
     {
       "title": "令和8年度 今治市小中学校図工・美術・書写・統計作品展",
       "start": "2026-10-17",
@@ -73,6 +57,33 @@
       "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2062",
       "kind": "other",
       "summary": "貸会場企画展",
+      "recommend": null
+    },
+    {
+      "title": "第99回セコイア11人展",
+      "start": "2026-10-27",
+      "end": "2026-11-01",
+      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2063",
+      "kind": "other",
+      "summary": "貸会場企画展",
+      "recommend": null
+    },
+    {
+      "title": "第27回　アトリエ笑夢　押花＆花のチャリティ展",
+      "start": "2026-10-28",
+      "end": "2026-11-01",
+      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2064",
+      "kind": "other",
+      "summary": "押花と花のチャリティ展（貸会場）",
+      "recommend": null
+    },
+    {
+      "title": "第18回文化講演会　シンポジウム「平家物語下絵小図」の復元－主題・表現・技法の継承",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/event.html?p=2080",
+      "kind": "other",
+      "summary": "「平家物語下絵小図」の復元をテーマにした文化講演会・シンポジウム",
       "recommend": null
     }
   ],

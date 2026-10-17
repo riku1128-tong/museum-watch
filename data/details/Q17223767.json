@@ -1,7 +1,7 @@
 {
   "id": "Q17223767",
-  "checked_at": "2026-10-10T10:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-16T22:30:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://hhmoa.jp/",
@@ -48,7 +48,11 @@
       "reason": "年末年始休館"
     }
   ],
-  "special_openings": [],
+  "special_openings": [
+    {"date": "2026-10-25", "open": "09:00", "close": "19:00", "note": "夜間開館"},
+    {"date": "2026-11-22", "open": "09:00", "close": "19:00", "note": "夜間開館"},
+    {"date": "2026-12-20", "open": "09:00", "close": "19:00", "note": "夜間開館（part2のみ）"}
+  ],
   "exhibitions": [
     {
       "title": "コレクション展 第Ⅲ期 part1 PARK: 公園と美術をめぐる旅",

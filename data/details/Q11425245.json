@@ -1,6 +1,6 @@
 {
   "id": "Q11425245",
-  "checked_at": "2026-10-10T10:03:29+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://www.museum.or.jp/museum/7343",
     "https://www.nact.jp/artcommons/user/detail/82594",
-    "https://kumanichi.com/articles/2035991"
+    "https://kumanichi.com/articles/2035991",
+    "https://www.nact.jp/artcommons/user/detail/81575"
   ],
   "regular_hours": [
     {
@@ -40,13 +41,25 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "善三先生の小さな仕事展",
+      "start": "2026-09-23",
+      "end": "2026-11-29",
+      "url": "https://kumanichi.com/articles/2035991",
+      "kind": "special",
+      "summary": "新聞小説の挿絵や旅先のスケッチなど、坂本善三の小さな仕事46点を展示",
+      "recommend": null,
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
   "adult_price": 500,
   "free_days": [],
   "free_rules": [],
   "access": [],
   "highlights": "阿蘇の雄大な自然が広がる小国町に立つ、熊本出身の抽象画家・坂本善三（1911-1987）を記念する美術館。善三が自然を凝視しながら確立した独自の抽象表現を所蔵し、手入れされた庭を含む空間でその世界観を体験できる。2025〜2026年は開館30周年。入館料500円。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（sakamotozenzo.com）はJavaScriptで描画されるSPAのため内容が取得できず。開館時間・入館料・閉館日はinターネットミュージアム（museum.or.jp）およびnact.jpより。現在の展覧会「善三先生の小さな仕事」展（挿絵・スケッチ46点、〜11/29）を熊本日日新聞記事（2026-09-23）で確認したが開始日は未確認のため exhibitions に入れず。公共交通の情報未確認（車でのアクセスが主、熊本市から約1時間30分）。アクセスは要確認。",
+  "notes": "公式サイト（sakamotozenzo.com）はJS描画のため本文取得不可。開館時間・料金・休館日はmuseum.or.jp・nact.jp（月曜休館、祝日は開館し翌平日休館）。「善三先生の小さな仕事」展は熊本日日新聞2026-09-23の記事で開催中・11/29までと確認。正式な開始日は未確認のため記事日を開始日に置いた。公共交通の情報は未確認（車が主、熊本市から約1時間30分）。",
   "confidence": "medium"
 }

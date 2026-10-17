@@ -1,7 +1,7 @@
 {
   "id": "Q11449808",
-  "checked_at": "2026-10-10T09:51:50+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://u-moa.jp/",
@@ -35,20 +35,25 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-10-13",
+      "to": "2026-10-13",
+      "reason": "祝休日の翌日"
+    },
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-04",
+      "reason": "祝休日の翌日"
+    },
+    {
+      "from": "2026-11-24",
+      "to": "2026-11-24",
+      "reason": "祝休日の翌日"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "第1回 コレクション展",
-      "start": "2026-05-23",
-      "end": "2026-10-12",
-      "url": "http://u-moa.jp/exhibition/collection.html",
-      "kind": "collection",
-      "summary": "特集「佐藤時啓―光の記憶、時間をえがく」。長時間露光の写真で光と時間を可視化してきた佐藤時啓の作品を紹介",
-      "recommend": "カメラの構造や光学の原理に着目し続けてきた作家が、肉眼では捉えられない光の動きや空間の時間の層を写真に写し出す、他では見られない表現に出会える",
-      "admission": "一般310円",
-      "adult_price": 310
-    },
     {
       "title": "没後50年 髙島野十郎展",
       "start": "2026-09-20",
@@ -66,7 +71,7 @@
       "end": "2026-12-06",
       "url": "http://u-moa.jp/exhibition/collection.html",
       "kind": "collection",
-      "summary": "宇都宮美術館のコレクションから選んだ第2回コレクション展",
+      "summary": "テーマ「参照／実体 Reference / Object」。宇都宮美術館の所蔵品によるコレクション展",
       "recommend": null,
       "admission": "一般310円",
       "adult_price": 310

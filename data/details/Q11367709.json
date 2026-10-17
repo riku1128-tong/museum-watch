@@ -1,7 +1,7 @@
 {
   "id": "Q11367709",
-  "checked_at": "2026-10-10T09:51:39+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:25:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.nakano-museum.jp/",
@@ -35,24 +35,13 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "秋季展 近代絵画に見るモチーフの魅力（前期）",
-      "start": "2026-09-12",
-      "end": "2026-10-12",
-      "url": "http://www.nakano-museum.jp/exhibition/index.html",
-      "kind": "special",
-      "summary": "近代の洋画家・版画家が描いた静物画や人物画のモチーフに注目する秋季展の前期",
-      "recommend": null,
-      "admission": "一般 600円",
-      "adult_price": 600
-    },
-    {
       "title": "秋季展 近代絵画に見るモチーフの魅力（後期）",
       "start": "2026-10-21",
       "end": "2026-11-15",
       "url": "http://www.nakano-museum.jp/exhibition/index.html",
       "kind": "special",
       "summary": "近代の洋画家・版画家が描いた静物画や人物画のモチーフに注目する秋季展の後期",
-      "recommend": null,
+      "recommend": "館蔵品から約50点を選び、静物画や人物画のモチーフという切り口で近代洋画・版画を見比べる後期展。同じ題材を作家ごとにどう描くか、違いを楽しめます。",
       "admission": "一般 600円",
       "adult_price": 600
     },
@@ -81,6 +70,6 @@
   ],
   "highlights": "明治・大正・昭和の近代日本の洋画・日本画・版画・彫刻を所蔵し、村上華岳や須田国太郎らの作品を展示する。緑豊かな蛙股池のほとりにあり、自然に囲まれて鑑賞できる。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は毎週月曜（臨時休館あり）。祝日の扱いは公式に open（休館なし）と読んだ（holiday_rule: open）。秋季展前期（〜10/12）→展示替え（10/13〜10/20推定）→後期（10/21〜11/15）。年末年始休館日は公式に記載なし。",
+  "notes": "休館日は毎週月曜（臨時休館あり）。秋季展前期（〜10/12）→後期（10/21〜11/15）。年末年始休館日は公式に記載なし。",
   "confidence": "medium"
 }

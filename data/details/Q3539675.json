@@ -1,6 +1,6 @@
 {
   "id": "Q3539675",
-  "checked_at": "2026-10-10T09:51:47+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -8,6 +8,7 @@
   "address": "〒998-0055 山形県酒田市飯森山2-13 飯森山公園内",
   "source_urls": [
     "https://www.museum.or.jp/museum/1088",
+    "https://www.tokyoartbeat.com/events/-/To-Die-and-To-Live-Ken-Domon/ken-domon-museum-of-photography/2026-10-17",
     "https://www.city.sakata.lg.jp/bunka/geijyutsu/bunkashisetsu/dmonken_kinenkan.html"
   ],
   "regular_hours": [
@@ -35,13 +36,13 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "「竹の子族」「映画の人びと」そして酒田 ／ 第32回酒田市土門拳文化賞受賞作品展",
-      "start": "2026-07-17",
-      "end": "2026-10-12",
-      "url": null,
+      "title": "死ぬことと生きること 土門拳",
+      "start": "2026-10-17",
+      "end": "2027-01-17",
+      "url": "https://www.tokyoartbeat.com/events/-/To-Die-and-To-Live-Ken-Domon/ken-domon-museum-of-photography/2026-10-17",
       "kind": "special",
-      "summary": "土門拳が撮った竹の子族・映画の人々・地元酒田の風景と、第32回土門拳文化賞受賞作品展",
-      "recommend": null,
+      "summary": "晩年のエッセイ集『死ぬことと生きること』の文章と関連する写真作品を同時に展示",
+      "recommend": "土門拳の晩年のエッセイ集の言葉と写真を並べて見せる初の試み。戦時中の仕事から『ヒロシマ』、ライフワークの『古寺巡礼』まで、生と死が通底する歩みをたどれる。",
       "admission": "一般 900円",
       "adult_price": 900
     }

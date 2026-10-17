@@ -1,6 +1,6 @@
 {
   "id": "Q11643178",
-  "checked_at": "2026-10-10T09:51:44+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -42,17 +42,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "うつりゆく自然を描く　小野竹喬の世界",
-      "start": "2026-09-05",
-      "end": "2026-10-12",
-      "url": "https://www.city.koriyama.lg.jp/site/artmuseum/189156.html",
-      "kind": "special",
-      "summary": "日本画家・小野竹喬の自然観と画業を探る企画展",
-      "recommend": "近代日本画壇の巨匠、小野竹喬の穏やかな自然への眼差しと独自の画風を一堂に鑑賞できる機会。繊細な筆致で描かれた四季の風景画が並ぶ。",
-      "admission": "一般 1,200円",
-      "adult_price": 1200
-    },
-    {
       "title": "常設展2026年度第3期",
       "start": "2026-09-30",
       "end": "2027-01-17",
@@ -70,7 +59,7 @@
       "url": "https://www.city.koriyama.lg.jp/site/artmuseum/194316.html",
       "kind": "special",
       "summary": "室町時代の画僧・雪村筆《四季山水図屏風》を高精細複製画・デジタル画像と併せてガラスケースなしで展示",
-      "recommend": null,
+      "recommend": "雪村が描いた《四季山水図屏風》を、ガラスケースなしの高精細複製画とデジタル画像で間近に味わえる。11/1には「会津の雪村」の講演会も予定されている。",
       "admission": "一般 200円",
       "adult_price": 200
     },

@@ -1,6 +1,6 @@
 {
   "id": "Q28689358",
-  "checked_at": "2026-10-10T09:58:06+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -36,12 +36,25 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
+      "from": "2026-11-02",
+      "to": "2026-11-06",
+      "reason": "休館（公式お知らせ）"
+    },
+    {
+      "from": "2026-11-09",
+      "to": "2026-11-13",
+      "reason": "休館（公式お知らせ。11/7・8は市民文化祭のため開館）"
+    },
+    {
       "from": "2026-12-27",
       "to": "2027-01-04",
       "reason": "年末年始休館"
     }
   ],
-  "special_openings": [],
+  "special_openings": [
+    {"date": "2026-11-07", "note": "富岡市民文化祭のため開館"},
+    {"date": "2026-11-08", "note": "富岡市民文化祭のため開館"}
+  ],
   "exhibitions": [
     {
       "title": "アートの学び展　アートインクルージョンの練習問題",

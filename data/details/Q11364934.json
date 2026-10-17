@@ -1,7 +1,7 @@
 {
   "id": "Q11364934",
-  "checked_at": "2026-10-10T10:16:05+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-16T22:30:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://nakagawa-art.com/",
@@ -12,12 +12,24 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "16:00"
     }
   ],
-  "closed_weekdays": ["tue", "wed"],
+  "closed_weekdays": [
+    "tue",
+    "wed"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [
     {
@@ -68,6 +80,6 @@
   ],
   "highlights": "世界的な中国現代絵画コレクターとして知られる中川健造氏が収集した約5000点の中国絵画・陶磁器を収蔵・展示。故宮伝来の名品から現代絵画まで幅広く揃う。庭園には天安門を10分の1サイズで再現した「天安之門」と中国風東屋「天中龍園」があり、見応えある構成。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（nakagawa-art.com）はSSLエラーで読めず。開館時間・休館日・入場料はmuseum.or.jp・iko-yo.netを参照。8月・12月・1月・2月は月まるごと休館（毎年恒例）。中学生300円、小学生以下無料。電話: 084-959-1248。",
+  "notes": "公式サイト（nakagawa-art.com）はSSLエラーで読めず。開館時間・休館日・入場料はmuseum.or.jp・iko-yo.netを参照。8月・12月・1月・2月は月まるごと休館（毎年恒例）。中学生300円、小学生以下無料。電話: 084-959-1248。 2026-10-16: 公式サイトは再びHTTP 526で読めず、既存情報を維持。",
   "confidence": "medium"
 }

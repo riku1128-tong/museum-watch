@@ -1,7 +1,7 @@
 {
   "id": "Q3298536",
-  "checked_at": "2026-10-10T10:07:19+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-16T22:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.miyazaki-archive.jp/bijutsu/",
@@ -32,7 +32,13 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-04",
+      "reason": "休日の翌日"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -52,8 +58,8 @@
       "end": "2026-12-23",
       "url": "https://www.miyazaki-archive.jp/bijutsu/box/tokubetsu.html",
       "kind": "special",
-      "summary": null,
-      "recommend": null,
+      "summary": "県所蔵のイタリア近代美術コレクションから19〜20世紀の彫刻・絵画を紹介",
+      "recommend": "県立美術館が誇るイタリア近現代彫刻のコレクションを中心に、19〜20世紀の彫刻と絵画が並ぶ。時代ごとに変わる造形表現の違いを見比べられる。",
       "admission": null,
       "adult_price": null
     }

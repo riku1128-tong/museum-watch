@@ -1,16 +1,36 @@
 {
   "id": "Q7399081",
-  "checked_at": "2026-10-10T09:51:56+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.sagawa-artmuseum.or.jp/",
   "address": "〒524-0102 滋賀県守山市水保町北川2891",
-  "source_urls": ["https://www.sagawa-artmuseum.or.jp/", "https://www.sagawa-artmuseum.or.jp/plan/2026/07/140-1.html", "https://www.sagawa-artmuseum.or.jp/use/access.html"],
-  "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:00", "last_entry": "16:30"}
+  "source_urls": [
+    "https://www.sagawa-artmuseum.or.jp/",
+    "https://www.sagawa-artmuseum.or.jp/plan/2026/07/140-1.html",
+    "https://www.sagawa-artmuseum.or.jp/use/access.html"
   ],
-  "closed_weekdays": ["mon"],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -36,16 +56,33 @@
       "recommend": null,
       "admission": null,
       "adult_price": null
+    },
+    {
+      "title": "大カプコン展―世界を魅了するゲームクリエイション",
+      "start": "2026-12-08",
+      "end": "2027-02-28",
+      "url": "https://www.sagawa-artmuseum.or.jp/plan/2026/10/post-183.html",
+      "kind": "special",
+      "summary": "カプコンのゲーム制作を企画書・原画・体験展示で紹介",
+      "recommend": "1983年創業のカプコンの歩みを、手描きの原画や企画書、開発資料でたどる。ドット絵制作やモーションキャプチャーの体験もあり、滋賀会場限定でストリートファイターの手描きアートも展示される。",
+      "admission": "一般 1,600円（WEB予約 1,500円）",
+      "adult_price": 1600
     }
   ],
   "adult_price": null,
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "堅田", "lines": "JR湖西線", "exit": null, "walk_min": null, "note": "江若交通バスまたはタクシーで約15分。守山駅(JR琵琶湖線)からは近江鉄道バスまたはタクシーで約35分"}
+    {
+      "station": "堅田",
+      "lines": "JR湖西線",
+      "exit": null,
+      "walk_min": null,
+      "note": "江若交通バスまたはタクシーで約15分。守山駅(JR琵琶湖線)からは近江鉄道バスまたはタクシーで約35分"
+    }
   ],
-  "highlights": null,
+  "highlights": "琵琶湖を望む守山の地に建ち、水庭に浮かぶような3棟の建物が四季の表情を見せる美術館。平山郁夫の日本画、佐藤忠良の彫刻、樂吉左衞門・樂直入の茶碗を軸に所蔵し、茶室の見学や呈茶も楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "展示替え等で臨時休館の場合あり。年末年始休館の日付は未掲載。コレクション展の単独料金は未確認。2026-10-10: WebFetch レート制限のため公式サイト未確認。highlights は前回未作成のまま（要再確認）。",
+  "notes": "展示替え等で臨時休館の場合あり。年末年始休館の日付は未掲載。コレクション展の単独料金は未確認。",
   "confidence": "medium"
 }

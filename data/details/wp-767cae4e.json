@@ -1,6 +1,6 @@
 {
   "id": "wp-767cae4e",
-  "checked_at": "2026-10-10T10:15:00+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,9 +12,25 @@
     "https://narashikanko.or.jp/spot/detail_10048.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -52,10 +68,16 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "近鉄奈良", "lines": "近鉄奈良線", "exit": null, "walk_min": 10, "note": "奈良市史料保存館横"}
+    {
+      "station": "近鉄奈良",
+      "lines": "近鉄奈良線",
+      "exit": null,
+      "walk_min": 10,
+      "note": "奈良市史料保存館横"
+    }
   ],
   "highlights": "かな書の第一人者・杉岡華邨の功績を称えて2000年に開館した書道専門の美術館。世界遺産・元興寺旧境内に広がる「ならまち」の古い町並みの中にあり、かな書を中心とした書の世界を味わえる。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は月曜（祝日の場合を除く）、祝日の翌日（平日の場合）、年末年始（12/26〜1/5）、展示替え期間。展示替え期間の具体日程は未確認（9/28〜10/2頃は不明）。観覧料は奈良市在住者300円、16歳未満・高校生・大学生に準ずる者は無料。",
+  "notes": "休館日は月曜（祝日の場合を除く）、祝日の翌日（平日の場合）、年末年始（12/26〜1/5）、展示替え期間。展示替え期間の具体日程は未確認（9/28〜10/2頃は不明）。観覧料は奈良市在住者300円、16歳未満・高校生・大学生に準ずる者は無料。 2026-10-16 light: 変化なし。次回展「林立する華邨の書」は会期未掲載。",
   "confidence": "medium"
 }

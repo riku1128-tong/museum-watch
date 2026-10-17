@@ -1,7 +1,7 @@
 {
   "id": "Q5157831",
-  "checked_at": "2026-10-10T10:13:09+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-16T22:28:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://okawamuseum.jp/",
@@ -22,13 +22,7 @@
   ],
   "closed_weekdays": ["mon"],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [
-    {
-      "from": "2026-09-14",
-      "to": "2026-10-09",
-      "reason": "展示作品入れ替えのため休館"
-    }
-  ],
+  "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {

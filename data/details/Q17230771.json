@@ -1,9 +1,9 @@
 {
   "id": "Q17230771",
-  "checked_at": "2026-10-10T10:12:35+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
-  "status_note": null,
+  "status_note": "2026年度の開園期間は終了（公式サイトに明記）。来季の開園日は未発表",
   "official_url": "https://www.rokkatei.co.jp/facilities/",
   "address": "〒089-1365 北海道河西郡中札内村常盤西3線249-6",
   "source_urls": [
@@ -86,19 +86,7 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "坂本直行コレクション常設展示",
-      "start": "2026-04-24",
-      "end": "2026-10-12",
-      "url": "https://www.rokkatei.co.jp/facilities/%E5%85%AD%E8%8A%B1%E3%81%AE%E6%A3%AE-2/",
-      "kind": "collection",
-      "summary": "通年（開館期間中）。坂本直行記念館・デッサン館・花柄包装紙館・山岳館・絶筆館など7棟で作品を展示",
-      "recommend": "六花亭の花柄包装紙の原画7点や、開拓生涯を記録した直行スケッチブック、NHK日曜美術館で紹介された日高三連作など、坂本直行の多面的な仕事を館ごとに味わえる。",
-      "admission": "大人1,200円、小中学生800円",
-      "adult_price": 1200
-    }
-  ],
+  "exhibitions": [],
   "adult_price": 1200,
   "free_days": [],
   "free_rules": [],

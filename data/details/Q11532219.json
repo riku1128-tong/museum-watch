@@ -1,6 +1,6 @@
 {
   "id": "Q11532219",
-  "checked_at": "2026-10-10T09:59:39+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": "草庵「松花堂」・泉坊書院を含む内園は大阪北部地震の復旧工事のため通常は見学不可（特別公開日を除く）",
@@ -9,6 +9,8 @@
   "source_urls": [
     "https://shokado-garden-art-museum.jp/",
     "https://shokado-garden-art-museum.jp/information/",
+    "https://shokado-garden-art-museum.jp/top/information/",
+    "https://www.museum.or.jp/event/126767",
     "https://www.yawata-bunka.jp/syokado/shiyou/index.htm"
   ],
   "regular_hours": [
@@ -50,7 +52,7 @@
       "title": "寛永行幸四百年記念 特別展 八幡で感じる寛永文化―松花堂昭乗の書画、茶の湯",
       "start": "2026-10-17",
       "end": "2026-12-06",
-      "url": "https://shokado-garden-art-museum.jp/",
+      "url": "https://shokado-garden-art-museum.jp/top/aboutus/shokadomuseum2/%e5%af%9b%e6%b0%b8%e8%a1%8c%e5%b9%b8%e5%9b%9b%e7%99%be%e5%b9%b4%e8%a8%98%e5%bf%b5-%e6%9d%be%e8%8a%b1%e5%a0%82%e7%be%8e%e8%a1%93%e9%a4%a8-%e4%bb%a4%e5%92%8c8%e5%b9%b4%e7%89%b9%e5%88%a5%e5%b1%95/",
       "kind": "special",
       "summary": "松花堂昭乗の書画と茶の湯を通して八幡の寛永文化を紹介する特別展",
       "recommend": "「寛永の三筆」に数えられる松花堂昭乗の書画と茶の湯を中心に、江戸初期に八幡の地で花開いた寛永文化の精髄を体感できる展覧会。前後期で展示替えがあり、昭乗が作品に込めた穏やかな世への祈りを感じ取れる。",

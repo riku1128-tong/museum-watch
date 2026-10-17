@@ -1,6 +1,6 @@
 {
   "id": "Q25045409",
-  "checked_at": "2026-10-10T09:51:39+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -16,13 +16,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -30,7 +40,7 @@
     {
       "title": "常設展（黒田清輝・東郷青児・ロダンほか）",
       "start": "2026-01-01",
-      "end": "2027-10-10",
+      "end": "2027-10-16",
       "url": null,
       "kind": "collection",
       "summary": "通年。郷土作家の黒田清輝・藤島武二・東郷青児やロダン・シャガール・ユトリロの絵画・彫刻、南米先史美術品、薩摩焼など約1,000点を展示",
@@ -42,23 +52,12 @@
       "title": "小さな さつま焼展",
       "start": "2026-09-20",
       "end": "2026-11-30",
-      "url": null,
+      "url": "https://ngp.jp/nagashima-museum/entry2.html",
       "kind": "special",
       "summary": "館所蔵の薩摩焼小品に焦点を当てた企画展",
       "recommend": null,
       "admission": "一般 1,000円",
       "adult_price": 1000
-    },
-    {
-      "title": "第10回ぞ展～百花繚乱、造形を超えて",
-      "start": "2026-10-03",
-      "end": "2026-10-12",
-      "url": "https://artscape.jp/exhibitions/79479/",
-      "kind": "other",
-      "summary": "鹿児島の作家26名による絵画・版画・写真・イラスト・映像・デザインのグループ展（10回目）",
-      "recommend": "10年の節目を迎えた鹿児島の草の根グループ展。多彩な表現ジャンルで約100点が一堂に集まり、地域の美術文化の厚みを感じられる機会。",
-      "admission": "無料（常設展別途）",
-      "adult_price": 0
     }
   ],
   "adult_price": 1000,
@@ -75,6 +74,6 @@
   ],
   "highlights": "1989年の鹿児島市制100周年に開館。長島企業グループ創立者が収集した黒田清輝・東郷青児ら郷土作家やロダン・シャガール・ユトリロら海外巨匠の絵画・彫刻、薩摩焼を含む約1,000点を所蔵。桜島と錦江湾を望む高台に建ち、本館2階のカフェからも絶景が楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "常設展入館料: 一般1,000円・高大生800円・小中生400円・65歳以上500円（20名以上の団体は割引）。企画展は別途料金。公式サイトは日本語文字化けがひどく、第三者情報サイトを参照。「小さな さつま焼展」の詳細内容は公式サイト参照のこと。",
+  "notes": "常設展入館料: 一般1,000円・高大生800円・小中生400円・65歳以上500円（20名以上の団体は割引）。企画展は別途料金。公式サイトは日本語文字化けがひどく、第三者情報サイトを参照。「小さな さつま焼展」の詳細内容は公式サイト参照のこと。 公式トップに「9/22(火)・11/3(火・祝)は開館、9/24(木)・11/4(水)は振替休館」とあり、holiday_ruleで反映される。",
   "confidence": "medium"
 }

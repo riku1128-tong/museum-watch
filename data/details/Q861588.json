@@ -1,6 +1,6 @@
 {
   "id": "Q861588",
-  "checked_at": "2026-10-10T10:10:11+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -41,12 +41,6 @@
   "special_closures": [],
   "special_openings": [
     {
-      "date": "2026-09-24",
-      "open": "10:00",
-      "close": "18:00",
-      "note": "木曜だが開館（展覧会ページの記載）"
-    },
-    {
       "date": "2026-11-19",
       "open": "10:00",
       "close": "18:00",
@@ -64,15 +58,24 @@
       "admission": "一般 2,500円",
       "hours": [
         {
-          "days": [
-            "sat",
-            "sun"
-          ],
-          "open": "10:00",
-          "close": "20:00",
-          "last_entry": "19:30",
-          "from": "2026-11-21",
-          "to": "2026-11-22"
+          "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+          "open": "10:00", "close": "20:00", "last_entry": "19:30",
+          "from": "2026-11-02", "to": "2026-11-02"
+        },
+        {
+          "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+          "open": "10:00", "close": "20:00", "last_entry": "19:30",
+          "from": "2026-11-07", "to": "2026-11-07"
+        },
+        {
+          "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+          "open": "10:00", "close": "20:00", "last_entry": "19:30",
+          "from": "2026-11-14", "to": "2026-11-14"
+        },
+        {
+          "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+          "open": "10:00", "close": "20:00", "last_entry": "19:30",
+          "from": "2026-11-20", "to": "2026-11-22"
         },
         {
           "days": [

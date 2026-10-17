@@ -1,6 +1,6 @@
 {
   "id": "Q11306065",
-  "checked_at": "2026-10-10T10:03:22+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -14,15 +14,32 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "16:30",
       "last_entry": "16:00"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-11-01",
+      "to": "2026-11-01",
+      "reason": "特別企画展 関連講座のため休館"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -40,12 +57,12 @@
       "title": "特別企画展　未来へつなぐ美　作品の保存・修理",
       "start": "2026-10-04",
       "end": "2026-11-29",
-      "url": "https://sunritz-hattori-museum.or.jp/",
+      "url": "https://sunritz-hattori-museum.or.jp/pages/292/",
       "kind": "special",
       "summary": "美術品の保存・修理をテーマに、作品が受け継がれてきた過程と技術を紹介する特別企画展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "recommend": "2021年以降に修理を終えた絵画や書跡を中心に、修理の工程・技法や保存環境まで紹介。作品が受け継がれてきた舞台裏をのぞける展覧会。",
+      "admission": "一般 1,200円",
+      "adult_price": 1200
     }
   ],
   "closed_between_exhibitions": false,

@@ -1,7 +1,7 @@
 {
   "id": "Q11652552",
-  "checked_at": "2026-10-10T10:00:59+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-16T22:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.nagasaki.lg.jp/kanko/820000/828000/p025651.html",
@@ -12,13 +12,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
   "special_closures": [
     {

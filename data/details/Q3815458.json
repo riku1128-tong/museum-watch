@@ -1,6 +1,6 @@
 {
   "id": "Q3815458",
-  "checked_at": "2026-10-10T15:58:06+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -88,6 +88,17 @@
       "recommend": "トリノ市立近現代美術館の協力で実現した、フォンタネージの日本初となる回顧展。明治の洋画家たちに多大な影響を与えたイタリア人教師の画業を初期から晩年まで約200点で概観し、日本近代洋画の原点に触れられる。",
       "admission": "一般 2,300円",
       "adult_price": 2300
+    },
+    {
+      "title": "フォンタネージ《四月》と《雲》、そして日本近代洋画",
+      "start": "2026-10-17",
+      "end": "2027-01-24",
+      "url": "https://mimt.jp/small-gallery/#FontanesiModernJapan",
+      "kind": "special",
+      "summary": "フォンタネージ展の特別章。《四月》《雲》と日本近代洋画を紹介する小企画展",
+      "recommend": null,
+      "admission": "フォンタネージ展の入館券で観覧可",
+      "adult_price": null
     }
   ],
   "closed_between_exhibitions": true,

@@ -1,7 +1,7 @@
 {
   "id": "Q11551651",
-  "checked_at": "2026-10-10T10:09:29+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:25:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://ikeda20.or.jp/",
@@ -33,16 +33,19 @@
   ],
   "holiday_rule": "open",
   "special_closures": [],
-  "special_openings": [],
+  "special_openings": [
+    {"date": "2026-12-30", "note": "水曜だが開館"},
+    {"date": "2027-01-06", "note": "水曜だが開館"}
+  ],
   "exhibitions": [
     {
-      "title": "入江観展 空遙か",
-      "start": "2026-06-25",
-      "end": "2026-10-13",
-      "url": "https://ikeda20.or.jp/",
+      "title": "高橋幸彦展　抽象たる具象・具象たる抽象",
+      "start": "2026-10-15",
+      "end": "2027-01-12",
+      "url": "https://ikeda20.or.jp/archive/exhibition/",
       "kind": "special",
-      "summary": "洋画家・入江観の回顧展。日光の自然から茅ヶ崎の海景まで43点",
-      "recommend": "春陽会を長く支えた洋画家の歩みを、故郷・日光を描いた初期作から茅ヶ崎の海を描く近作まで43点でたどれる。",
+      "summary": "画家・高橋幸彦の画業初期から近作まで約50点",
+      "recommend": "油絵具にテンペラやコラージュを重ねて質感を追究する作風。具象と抽象を対立させず一つの画面に統合する姿勢を、初期から近作まで通して味わえる。",
       "admission": "一般 1,000円",
       "adult_price": 1000
     }

@@ -1,6 +1,6 @@
 {
   "id": "Q11595526",
-  "checked_at": "2026-10-10T10:00:59+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,6 +8,7 @@
   "address": "秋田県大館市字谷地町13",
   "source_urls": [
     "https://lib-odate.jp/",
+    "https://lib-odate.jp/event.html",
     "https://www.city.odate.lg.jp/city/koukyoushisetsu/annai/kyoiku_bunka/libraly"
   ],
   "regular_hours": [
@@ -49,7 +50,19 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "真崎コレクション展「ことなれるうつわ－『菅江真澄著作』より－」",
+      "start": "2026-10-30",
+      "end": "2026-11-08",
+      "url": "https://lib-odate.jp/event.html",
+      "kind": "special",
+      "summary": "真崎コレクションより『菅江真澄著作』にみえるうつわを紹介（2階資料室）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
   "adult_price": 0,
   "free_days": [],
   "free_rules": [],

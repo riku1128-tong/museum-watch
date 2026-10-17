@@ -1,7 +1,7 @@
 {
   "id": "Q11445098",
-  "checked_at": "2026-10-10T10:35:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:25:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://ncmoa.art",
@@ -44,17 +44,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "奈良市美術家協会 創立45周年記念　奈良市美術家展",
-      "start": "2026-09-15",
-      "end": "2026-10-12",
-      "url": "https://sogozaidan.nara.jp/8904/",
-      "kind": "special",
-      "summary": "奈良市美術家協会の創立45周年を記念した会員による作品展",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
     {
       "title": "ナンシー関の消しゴムハンコをアーカイブする展",
       "start": "2026-11-03",

@@ -1,16 +1,16 @@
 {
   "id": "Q48749054",
-  "checked_at": "2026-10-10T10:00:12+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:25:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.forest.minokamo.gifu.jp/",
   "address": "岐阜県美濃加茂市蜂屋町上蜂屋3299番地1",
   "source_urls": [
     "https://www.forest.minokamo.gifu.jp/",
-    "https://www.forest.minokamo.gifu.jp/access/access.cfm",
-    "https://www.city.minokamo.lg.jp/soshiki/5/2778.html",
-    "https://www.museum.or.jp/museum/4289"
+    "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_06.cfm",
+    "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_07.cfm",
+    "https://www.forest.minokamo.gifu.jp/access/access.cfm"
   ],
   "regular_hours": [
     {
@@ -34,29 +34,18 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-12-29",
-      "to": "2027-01-03",
+      "from": "2026-12-28",
+      "to": "2027-01-04",
       "reason": "年末年始"
     }
   ],
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "2026年度 蚕とまゆ展",
-      "start": "2026-04-25",
-      "end": "2026-10-12",
-      "url": "https://www.forest.minokamo.gifu.jp/",
-      "kind": "collection",
-      "summary": "蚕の育て方から繭・生糸・絹織物まで、養蚕の歴史と文化を紹介",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
       "title": "第71回 美濃加茂市美術展",
       "start": "2026-10-08",
       "end": "2026-10-18",
-      "url": "https://www.forest.minokamo.gifu.jp/",
+      "url": "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_05.cfm",
       "kind": "other",
       "summary": "市民による美術作品を集めた公募展",
       "recommend": null,
@@ -67,23 +56,26 @@
       "title": "ていねいな暮らしと道具展「動物とともに生きる暮らし」",
       "start": "2026-10-17",
       "end": "2027-03-14",
-      "url": "https://www.forest.minokamo.gifu.jp/",
+      "url": "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_06.cfm",
       "kind": "collection",
-      "summary": "動物と共に生きる暮らしをテーマにした民俗・生活文化の企画展示",
-      "recommend": null,
+      "summary": "牛馬など動物とともに使われた民具を通して、かつての暮らしを紹介",
+      "recommend": "牛馬と共に営まれた農耕や運搬の暮らしを、実際に使われた道具で振り返る展示。民具から昔の人と動物の距離感が見えてくる。",
       "admission": "無料",
       "adult_price": 0
     },
     {
-      "title": "えげんさんに会える日（ミニ特別展）",
+      "title": "えげんさんに会える日－特別公開 関山慧玄禅師ゆかりの「箱笈と護持仏」－",
       "start": "2026-11-01",
       "end": "2026-11-07",
-      "url": "https://www.forest.minokamo.gifu.jp/",
+      "url": "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_07.cfm",
       "kind": "special",
-      "summary": "ミニ特別展",
-      "recommend": null,
+      "summary": "妙心寺開山・関山慧玄ゆかりの箱笈と護持仏を特別公開（11/2休館）",
+      "recommend": "市指定文化財の箱笈と護持仏が当館に寄託されて初公開。地域で親しまれた「えげんさん」の姿と習俗への影響を見つめ直せる。",
       "admission": "無料",
-      "adult_price": 0
+      "adult_price": 0,
+      "closed_dates": [
+        "2026-11-02"
+      ]
     }
   ],
   "adult_price": 0,

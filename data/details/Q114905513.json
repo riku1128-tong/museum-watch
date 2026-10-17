@@ -1,6 +1,6 @@
 {
   "id": "Q114905513",
-  "checked_at": "2026-10-10T10:00:00+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -55,6 +55,17 @@
       "recommend": null,
       "admission": "一般 200円（高校生以下無料）",
       "adult_price": 200
+    },
+    {
+      "title": "令和8年度企画展 加納義光 回顧展",
+      "start": "2026-10-24",
+      "end": "2026-11-29",
+      "url": "https://www.city.mizunami.lg.jp/kankou_bunka/1004960/ichinose_museum/index.html",
+      "kind": "special",
+      "summary": "加納義光の回顧展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 200,

@@ -1,6 +1,6 @@
 {
   "id": "Q11564689",
-  "checked_at": "2026-10-10T10:07:19+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": "陶芸の森（公園）は入園無料。陶芸館のみ有料で、展示替え期間と冬季は休館",
@@ -48,22 +48,12 @@
       "title": "今野朋子《楽園の扉：空とつながる形》",
       "start": "2026-10-10",
       "end": "2026-12-13",
-      "url": null,
+      "url": "https://www.sccp.jp/events/22354/",
       "kind": "other",
-      "summary": "信楽AIRに参加する今野朋子によるインスタレーション作品（特別展「シガラキ・ニューウェーブ」と同時期）",
+      "summary": "陶芸館中庭のインスタレーション。扉をくぐって内側に入れる。毎週土曜13:00〜17:00公開、予約不要",
       "recommend": null,
       "admission": null,
       "adult_price": null
-    },
-    {
-      "title": "陶芸館ギャラリー「AIR－名品セレクション展Ⅰ」",
-      "start": "2026-09-12",
-      "end": "2026-10-12",
-      "url": null,
-      "kind": "other",
-      "summary": "陶芸館ギャラリーでの名品セレクション展（第Ⅰ期）。入場無料",
-      "recommend": null,
-      "admission": "無料"
     }
   ],
   "closed_between_exhibitions": true,

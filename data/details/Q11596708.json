@@ -1,7 +1,7 @@
 {
   "id": "Q11596708",
-  "checked_at": "2026-10-10T10:00:52+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:25:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.inazawa.aichi.jp/museum",
@@ -35,6 +35,11 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
+      "from": "2026-10-16",
+      "to": "2026-10-16",
+      "reason": "公式トップに休館日と掲示（特別展の準備期間と思われるが理由は未掲載）"
+    },
+    {
       "from": "2026-12-29",
       "to": "2027-01-03",
       "reason": "年末年始"
@@ -42,17 +47,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "第63回稲沢市民展",
-      "start": "2026-09-26",
-      "end": "2026-10-12",
-      "url": "https://www.city.inazawa.aichi.jp/museum/0000000270.html",
-      "kind": "other",
-      "summary": "第1部（日本画・洋画・写真）9/26-10/4、第2部（書・工芸美術）10/6-10/12。市民公募展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    },
     {
       "title": "没後40年特別展　小野竹喬と荻須高徳　―日本画家と洋画家、風景へのまなざし―",
       "start": "2026-10-24",

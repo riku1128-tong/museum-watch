@@ -1,6 +1,6 @@
 {
   "id": "Q3297759",
-  "checked_at": "2026-10-10T15:58:06+09:00",
+  "checked_at": "2026-10-16T22:21:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -148,7 +148,15 @@
     }
   ],
   "adult_price": 370,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-10-18",
+      "to": "2026-10-18",
+      "scope": "collection",
+      "reason": "いしかわ文化の日（コレクション展無料）",
+      "source_url": "https://www.ishibi.pref.ishikawa.jp/news-detail/news-18025-2/"
+    }
+  ],
   "free_rules": [],
   "access": [
     {

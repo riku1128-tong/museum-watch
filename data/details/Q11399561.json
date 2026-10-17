@@ -1,7 +1,7 @@
 {
   "id": "Q11399561",
-  "checked_at": "2026-10-10T10:15:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:27:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.forest.minokamo.gifu.jp/",
@@ -47,17 +47,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "2026年度 蚕とまゆ展 蚕を育てるいろいろな道具",
-      "start": "2026-04-25",
-      "end": "2026-10-12",
-      "url": "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_02.cfm",
-      "kind": "special",
-      "summary": "養蚕で使われた道具を通じて、美濃加茂市域の養蚕の歴史と人々の歩みを紹介。",
-      "recommend": "明治から昭和にかけて地域の暮らしを支えた養蚕の道具を実物で紹介。桑の管理から繭の収穫まで各工程の道具を見ながら、養蚕に取り組んだ人々の知恵と歩みをたどれる。",
-      "admission": "無料",
-      "adult_price": 0
-    },
     {
       "title": "第71回 美濃加茂市美術展",
       "start": "2026-10-08",

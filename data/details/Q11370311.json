@@ -1,7 +1,7 @@
 {
   "id": "Q11370311",
-  "checked_at": "2026-10-10T09:51:29+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-16T22:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.kyusan-u.ac.jp/ksumuseum/",
@@ -45,7 +45,10 @@
       "recommend": "九産大所蔵の名作椅子を実際に座って体験できる参加型展覧会の第7弾。ウェグナーやイームズら歴史的デザイナーの名作椅子と学芸員が選んだ美術作品を組み合わせて展示し、体で感じるユニークな鑑賞体験が楽しめる",
       "admission": "一般 200円、大学生・専門学校生 100円、高校生以下・65歳以上 無料",
       "adult_price": 200,
-      "closed_dates": ["2026-10-03", "2026-10-24"]
+      "closed_dates": [
+        "2026-10-03",
+        "2026-10-24"
+      ]
     }
   ],
   "adult_price": 200,

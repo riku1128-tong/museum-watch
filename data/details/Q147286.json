@@ -1,6 +1,6 @@
 {
   "id": "Q147286",
-  "checked_at": "2026-10-10T10:09:41+09:00",
+  "checked_at": "2026-10-16T22:35:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -138,6 +138,17 @@
       "url": "https://www.kyohaku.go.jp/jp/exhibitions/feature/b/2026_tea/",
       "kind": "other",
       "summary": "茶の湯の道具や次第を紹介する特集展示",
+      "recommend": null,
+      "admission": "一般 700円（名品ギャラリー観覧料）",
+      "adult_price": 700
+    },
+    {
+      "title": "特集展示　雛まつりと人形",
+      "start": "2027-02-13",
+      "end": "2027-03-22",
+      "url": null,
+      "kind": "other",
+      "summary": "雛まつりにちなむ人形を紹介する特集展示",
       "recommend": null,
       "admission": "一般 700円（名品ギャラリー観覧料）",
       "adult_price": 700

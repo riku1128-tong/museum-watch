@@ -1,6 +1,6 @@
 {
   "id": "Q11607218",
-  "checked_at": "2026-10-10T15:57:58+09:00",
+  "checked_at": "2026-10-16T22:35:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -35,7 +35,14 @@
       "reason": "年末年始"
     }
   ],
-  "special_openings": [],
+  "special_openings": [
+    {
+      "date": "2026-11-03",
+      "open": "10:00",
+      "close": "16:00",
+      "note": "祝日だが臨時開館"
+    }
+  ],
   "exhibitions": [
     {
       "title": "美術館コレクション展",
@@ -61,12 +68,12 @@
       "title": "松浦 進 展",
       "start": "2026-10-03",
       "end": "2026-11-08",
-      "url": null,
+      "url": "https://www.city.abashiri.hokkaido.jp/site/artmuseum/23967.html",
       "kind": "special",
-      "summary": null,
+      "summary": "版画家・松浦進の作品展",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "高校生以上 500円",
+      "adult_price": 500
     }
   ],
   "adult_price": 120,

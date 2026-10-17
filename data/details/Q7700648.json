@@ -1,6 +1,6 @@
 {
   "id": "Q7700648",
-  "checked_at": "2026-10-10T09:59:39+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -65,6 +65,17 @@
       "recommend": "書簡や遺品などの貴重な資料で岡倉天心の業績をたどり、横山大観ら五浦の作家たちの作品を紹介。復元された天心邸書斎の障壁画も見どころ。",
       "admission": "一般 210円",
       "adult_price": 210
+    },
+    {
+      "title": "日本中の子どもたちを笑顔にした絵本作家 かがくいひろしの世界展",
+      "start": "2026-11-23",
+      "end": "2027-01-17",
+      "url": "http://www.tenshin.museum.ibk.ed.jp/",
+      "kind": "special",
+      "summary": "絵本作家・かがくいひろしの世界を紹介する企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "closed_between_exhibitions": false,

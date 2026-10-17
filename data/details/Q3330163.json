@@ -1,6 +1,6 @@
 {
   "id": "Q3330163",
-  "checked_at": "2026-10-10T09:59:39+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -62,17 +62,6 @@
       "adult_price": 1000
     },
     {
-      "title": "GREEN MEMORY WITH MY PINK WOOBIE 41　朴美妍 個展",
-      "start": "2026-10-08",
-      "end": "2026-10-13",
-      "url": "https://faam.city.fukuoka.lg.jp/exhibition/27374/",
-      "kind": "special",
-      "summary": "マフラーを巻いた熊のぬいぐるみと飛行機を通して、平和と戦争の相反する概念を描く韓国人作家の個展",
-      "recommend": "親しみやすい玩具のモチーフに平和と戦争の二重の意味を込め、休戦国家・韓国の文脈から静かに現代社会へ問いを投げかける。色彩豊かな画面が記憶と時代の声を運ぶ。",
-      "admission": "入場無料",
-      "adult_price": 0
-    },
-    {
       "title": "ＡＰＡ九州支部作品展「想」",
       "start": "2026-10-15",
       "end": "2026-10-20",
@@ -82,6 +71,50 @@
       "recommend": null,
       "admission": "入場無料",
       "adult_price": 0
+    },
+    {
+      "title": "中村洋一葦ペン画展「120回ピースボード寄港地の風景」",
+      "start": "2026-10-22",
+      "end": "2026-10-27",
+      "url": "https://faam.city.fukuoka.lg.jp/exhibition/27495/",
+      "kind": "other",
+      "summary": "交流ギャラリー（8階）での葦ペン画展。ピースボード寄港地の風景を描く",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "イメージラボ写真教室　第26回作品展",
+      "start": "2026-10-29",
+      "end": "2026-11-03",
+      "url": "https://faam.city.fukuoka.lg.jp/exhibition/27571/",
+      "kind": "other",
+      "summary": "交流ギャラリー（8階）での写真教室の作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "渓雪　墨の世界　with students",
+      "start": "2026-11-12",
+      "end": "2026-11-17",
+      "url": "https://faam.city.fukuoka.lg.jp/exhibition/27552/",
+      "kind": "other",
+      "summary": "交流ギャラリー（8階）での墨の作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "Asia Network Beyond Design 福岡展 2026",
+      "start": "2026-11-26",
+      "end": "2026-12-01",
+      "url": "https://faam.city.fukuoka.lg.jp/exhibition/27507/",
+      "kind": "other",
+      "summary": "交流ギャラリー（8階）でのデザイン展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 200,

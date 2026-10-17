@@ -1,6 +1,6 @@
 {
   "id": "Q11586039",
-  "checked_at": "2026-10-10T15:58:06+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": "空調設備故障のため規模縮小中。企画展のみ（展示室1・2）の観覧となります",
@@ -59,7 +59,13 @@
     }
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {

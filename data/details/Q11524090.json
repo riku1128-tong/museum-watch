@@ -1,6 +1,6 @@
 {
   "id": "Q11524090",
-  "checked_at": "2026-10-10T15:58:01+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,6 +9,7 @@
   "source_urls": [
     "https://www.operacity.jp/ag/",
     "https://www.operacity.jp/ag/information/",
+    "https://www.operacity.jp/ag/exh303/j/visitus.php",
     "https://www.operacity.jp/topics/detail.php?id=940",
     "https://www.museum.or.jp/event/125740",
     "https://www.tokyoartbeat.com/events/-/Seeds-and-Roots-How-to-Cultivate-a-City/92-D81763/2026-10-17"

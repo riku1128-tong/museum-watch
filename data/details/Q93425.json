@@ -1,6 +1,6 @@
 {
   "id": "Q93425",
-  "checked_at": "2026-10-10T09:51:37+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -12,7 +12,7 @@
     "https://www.hiroshima-moca.jp/moca/guide/",
     "https://www.hiroshima-moca.jp/moca/about/",
     "https://www.hiroshima-moca.jp/moca/access/",
-    "https://www.hiroshima-moca.jp/exhibition/melchin",
+    "https://www.hiroshima-moca.jp/exhibition/screening_20261017",
     "https://www.hiroshima-moca.jp/exhibition/collection2026-2"
   ],
   "regular_hours": [
@@ -27,11 +27,6 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-10-10",
-      "to": "2026-10-11",
-      "reason": "展示替えにより臨時休館"
-    },
-    {
       "from": "2026-12-27",
       "to": "2027-01-01",
       "reason": "年末年始"
@@ -40,16 +35,15 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "第12回ヒロシマ賞受賞記念　メル・チン展",
-      "start": "2026-07-25",
-      "end": "2026-10-12",
-      "url": "https://www.hiroshima-moca.jp/exhibition/melchin",
-      "kind": "special",
-      "summary": "環境問題・社会課題をテーマとする彫刻・映像・インスタレーション等。日本初の個展でヒロシマのための新作も展示",
-      "recommend": "第12回ヒロシマ賞受賞者メル・チン（1951年生）の日本初個展。彫刻・映像・ゲームを横断する多彩な表現と、広島のために制作した新作インスタレーションでアートによる社会変革の可能性を問う。",
-      "admission": "一般 1,600円",
-      "adult_price": 1600,
-      "closed_dates": ["2026-09-24"]
+      "title": "小森はるか＋瀬尾夏美＋プロジェクトメンバー 《11歳だったわたしは　広島編》",
+      "start": "2026-10-17",
+      "end": "2027-01-24",
+      "url": "https://www.hiroshima-moca.jp/exhibition/screening_20261017",
+      "kind": "other",
+      "summary": "オープン・プログラム。メディアライブラリーでの上映",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "コレクション展2026-Ⅱ　美術館の時間_チャプター2：時間の束",

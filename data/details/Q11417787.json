@@ -1,6 +1,6 @@
 {
   "id": "Q11417787",
-  "checked_at": "2026-10-10T10:10:00+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -43,6 +43,17 @@
       "kind": "special",
       "summary": "横須賀美術館の日本近現代絵画・谷内六郎作品・海をテーマにした作品を紹介",
       "recommend": "横須賀美術館と防災協定を締結した縁で実現した展覧会。週刊誌の表紙で親しまれた谷内六郎の作品など、海への憧れにあふれた横須賀コレクションが和泉で初公開される。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "茶の湯の美 ─千利休が開いた世界─",
+      "start": "2027-01-17",
+      "end": "2027-03-22",
+      "url": "https://www.ikm-art.jp/tenrankai/2026/04/202604.html",
+      "kind": "collection",
+      "summary": "国宝・重要文化財を含む久保家寄贈の茶道具と、利休ゆかりの作品を紹介",
+      "recommend": "寄贈された茶道具の精華を一堂に見せる企画。利休ゆかりの作品に加え、耐震工事を終えた聴泉亭・惣庵の茶室にちなみ、元になった表千家の茶室も写真や資料でたどれる。",
       "admission": null,
       "adult_price": null
     }

@@ -1,6 +1,6 @@
 {
   "id": "Q11368010",
-  "checked_at": "2026-10-10T15:58:06+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -28,7 +28,19 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "スペイン現代美術 常設展示",
+      "start": "2026-10-16",
+      "end": "2027-10-16",
+      "url": "https://www.city.marugame.lg.jp/page/3062.html",
+      "kind": "collection",
+      "summary": "通年。1990年代以降のスペイン現代美術を常設展示",
+      "recommend": null,
+      "admission": "入館無料",
+      "adult_price": 0
+    }
+  ],
   "adult_price": 0,
   "free_days": [],
   "free_rules": [],

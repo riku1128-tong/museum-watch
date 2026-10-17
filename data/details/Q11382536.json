@@ -1,6 +1,6 @@
 {
   "id": "Q11382536",
-  "checked_at": "2026-10-10T10:00:52+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -15,13 +15,24 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "18:00",
       "last_entry": "17:30"
     }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -74,8 +85,8 @@
       "note": "バス約5分（島瀬町バス停下車）またはタクシー約4分"
     }
   ],
-  "highlights": null,
+  "highlights": "考古・民俗・歴史・美術の資料を収蔵する博物館と美術センターを併せ持つ、佐世保の文化の拠点。郷土の歴史を伝える考古展示室や常設展は観覧無料で、特別展ではポスターや日本画など多彩な企画を開催。館内カフェもあり街歩きの合間に立ち寄れる。",
   "closed_between_exhibitions": false,
-  "notes": "常設展観覧無料（特別展・企画展は別途料金）。特別展開催期間中は火曜日も開館する場合あり。館内にカフェ「Jilbe」あり。約10/8開幕の「第71回県展佐世保展」は展覧会一覧ページには掲載されていなかった（グループ/公募展の別枠の可能性）。",
+  "notes": "常設展観覧無料（特別展・企画展は別途料金）。特別展開催期間中は火曜日も開館する場合あり。館内にカフェ「Jilbe」あり。約10/8開幕の「第71回県展佐世保展」は展覧会一覧ページには掲載されていなかった（グループ/公募展の別枠の可能性）。 2026-10-16確認: 展覧会一覧に現在開催中の展覧会は無し（次回は10/28の日本遺産写真展）。",
   "confidence": "high"
 }

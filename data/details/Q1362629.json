@@ -1,7 +1,7 @@
 {
   "id": "Q1362629",
-  "checked_at": "2026-10-10T10:10:11+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-16T22:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.nmwa.go.jp/",
@@ -62,15 +62,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "神話、寓意、祝祭——ルネサンスからバロックにおけるイタリア宮廷と版画",
-      "start": "2026-06-30",
-      "end": "2026-10-12",
-      "url": "https://www.nmwa.go.jp/jp/exhibitions/2026italy.html",
-      "kind": "special",
-      "summary": "小企画展。所蔵の版画約50点で、ルネサンス〜バロック期イタリア宮廷の神話・寓意・祝祭の図像をたどる",
-      "admission": "一般 500円（常設展観覧券で観覧可）"
-    },
-    {
       "title": "テート美術館 ターナー展――崇高の絵画、現代美術との対話",
       "start": "2026-10-24",
       "end": "2027-02-21",
@@ -89,14 +80,15 @@
       "admission": "一般 500円"
     },
     {
-      "title": "小企画展「劇場をめぐるイメージ」",
+      "title": "小企画展 劇場をめぐるイメージ―ドラクロワ、ドーミエからトゥールーズ=ロートレック、クリンガーまで",
       "start": "2026-10-20",
       "end": "2027-01-11",
-      "url": null,
+      "url": "https://www.nmwa.go.jp/jp/exhibitions/2026theater.html",
       "kind": "special",
-      "summary": "所蔵作品などから劇場をめぐるイメージをたどる小企画展",
-      "recommend": null,
-      "admission": null
+      "summary": "西洋画家の版画・素描と絵画約50点で、19世紀の大都市の劇場をめぐる多彩なイメージをたどる",
+      "recommend": "ドラクロワやドーミエ、ロートレック、クリンガーらが描いた大劇場から小劇場、カフェ=コンセールまでの情景を、版画と素描を中心に見比べられる。19世紀パリの劇場文化をのぞく好機。",
+      "admission": "一般 500円",
+      "adult_price": 500
     }
   ],
   "closed_between_exhibitions": false,

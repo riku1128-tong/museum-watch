@@ -1,14 +1,16 @@
 {
   "id": "Q1055628",
-  "checked_at": "2026-10-10T09:51:29+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.momak.go.jp/",
   "address": "〒606-8344 京都市左京区岡崎円勝寺町26-1",
   "source_urls": [
+    "https://www.artmuseums.go.jp/2026/09/13310.html",
     "https://www.momak.go.jp/",
-    "https://www.momak.go.jp/Japanese/exhibitionarchive/2026/468.html"
+    "https://www.momak.go.jp/Japanese/exhibitionarchive/2026/468.html",
+    "https://www.momak.go.jp/Japanese/news/?sy=2026&tp=news"
   ],
   "regular_hours": [
     {
@@ -61,7 +63,9 @@
       "adult_price": 2000,
       "hours": [
         {
-          "days": ["fri"],
+          "days": [
+            "fri"
+          ],
           "open": "10:00",
           "close": "20:00",
           "last_entry": "19:30"
@@ -76,18 +80,25 @@
       "kind": "collection",
       "summary": "所蔵作品による常設のコレクション展示",
       "recommend": null,
-      "admission": "一般 430円",
-      "adult_price": 430
+      "admission": "一般 1,000円（2026年10月24日改定）",
+      "adult_price": 1000
     }
   ],
-  "adult_price": 430,
+  "adult_price": 1000,
   "free_days": [
     {
       "from": "2026-11-03",
       "to": "2026-11-03",
       "scope": "collection",
       "reason": "文化の日",
-      "source_url": "https://artexhibition.jp/topics/news/20251023-AEJ2763954/"
+      "source_url": "https://www.momak.go.jp/Japanese/news/?sy=2026&tp=news"
+    },
+    {
+      "from": "2026-11-15",
+      "to": "2026-11-15",
+      "scope": "collection",
+      "reason": "コレクション・ギャラリー無料観覧日",
+      "source_url": "https://www.momak.go.jp/Japanese/news/?sy=2026&tp=news"
     }
   ],
   "free_rules": [],
@@ -109,6 +120,6 @@
   ],
   "highlights": "岡崎公園に建つ、工芸分野に力を入れる国立美術館。近代から現代の絵画・彫刻・工芸・写真など幅広い分野の作品を収集し、京都・関西の芸術活動にも注目した企画展・コレクション展を開催する",
   "closed_between_exhibitions": false,
-  "notes": "2026年10月10日時点で公式サイトに「Closed」表示あり（展示替え期間）。フォンタネージ展は2026-10-04に終了。2027年1月18日～3月末は館内整備のため休館予定（終了日は公式未確定）。企画展開催中の毎週金曜日は20:00まで夜間開館。関西文化の日（11月第3土曜）については2026年度公式発表が未確認のため除去。2026年9月付で独立行政法人国立美術館のコレクション展観覧料改定の告知あり（改定後の具体的な金額は公式ページで未確認のため、既存の430円を据え置き）。",
+  "notes": "2026年10月10日時点で公式サイトに「Closed」表示あり（展示替え期間）。フォンタネージ展は2026-10-04に終了。2027年1月18日～3月末は館内整備のため休館予定（終了日は公式未確定）。企画展開催中の毎週金曜日は20:00まで夜間開館。関西文化の日（11月第3土曜）については2026年度公式発表が未確認のため除去。コレクション展の一般料金は2026年10月24日から430円→1,000円に改定。",
   "confidence": "high"
 }

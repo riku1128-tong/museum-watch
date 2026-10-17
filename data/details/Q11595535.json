@@ -1,6 +1,6 @@
 {
   "id": "Q11595535",
-  "checked_at": "2026-10-10T16:30:00+09:00",
+  "checked_at": "2026-10-16T22:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -54,6 +54,18 @@
       "url": "https://www.kumagayacity.library.ne.jp/",
       "kind": "special",
       "summary": "熊谷ゆかりの画家・大久保隆史の作品を展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+    ,
+    {
+      "title": "-空間と構成・その追求- 油彩画・栗田多聞展",
+      "start": "2026-10-17",
+      "end": "2026-11-29",
+      "url": "https://www.kumagayacity.library.ne.jp/",
+      "kind": "special",
+      "summary": "油彩画家・栗田多聞の作品を3階美術展示室で展示",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0

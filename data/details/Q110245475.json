@@ -1,6 +1,6 @@
 {
   "id": "Q110245475",
-  "checked_at": "2026-10-10T10:00:00+09:00",
+  "checked_at": "2026-10-16T22:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,7 +13,7 @@
     "https://nagano.art.museum/exhibition/future",
     "https://nagano.art.museum/exhibition/namcollection2026_2",
     "https://nagano.art.museum/exhibition/higashiyama2026_2",
-    "https://nagano.art.museum/exhibition/artlab2026_2_kanebako",
+    "https://nagano.art.museum/exhibition/exhibit_1791767557",
     "https://nagano.art.museum/exhibition/artlab2026_3_nishimura",
     "https://nagano.art.museum/exhibition/exhibit2026_Kandinsky",
     "https://nagano.art.museum/exhibition/higashiyama2026_3"
@@ -48,15 +48,15 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "アートラボ2026第Ⅱ期　金箱淳一「質感のあわい｜Mediated Textures」",
-      "start": "2026-07-18",
-      "end": "2026-10-12",
-      "url": "https://nagano.art.museum/exhibition/artlab2026_2_kanebako",
-      "kind": "special",
-      "summary": "触れる知覚の変化に焦点をあてた体験型インスタレーション。踏むと光る石や音の振動装置を展示",
-      "recommend": "身体で感じる「音」と「光」の装置が並ぶ実験的な展覧会。視覚に頼らず触覚や聴覚で作品に関わることで、普段気づかない感覚の変化を発見できる体験型の空間",
-      "admission": "一般700円",
-      "adult_price": 700
+      "title": "李継森・金權龍　二人展覧会",
+      "start": "2026-10-16",
+      "end": "2026-10-20",
+      "url": "https://nagano.art.museum/exhibition/exhibit_1791767557",
+      "kind": "other",
+      "summary": "しなのギャラリーでの二人展（最終日は13時まで）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "東山魁夷館コレクション2026 第Ⅱ期",

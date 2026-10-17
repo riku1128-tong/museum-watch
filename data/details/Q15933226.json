@@ -1,24 +1,37 @@
 {
   "id": "Q15933226",
-  "checked_at": "2026-10-10T10:30:00+09:00",
+  "checked_at": "2026-10-16T22:25:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
-  "status_note": null,
+  "status_note": "2026年10月から2027年3月下旬予定で改修工事に伴い一部展示室を休館（館は開館。工事状況により一部常設作品は鑑賞可）",
   "official_url": "https://www.town.nagi.okayama.jp/moca/",
   "address": "〒708-1323 岡山県勝田郡奈義町豊沢441",
   "source_urls": [
     "https://www.town.nagi.okayama.jp/moca/",
+    "https://www.town.nagi.okayama.jp/moca/news/202610kara.html",
+    "https://www.town.nagi.okayama.jp/moca/news/20261010.html",
     "https://www.museum.or.jp/museum/6225"
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -29,23 +42,10 @@
       "end": "2027-10-10",
       "url": "https://www.town.nagi.okayama.jp/moca/",
       "kind": "collection",
-      "summary": "通年。荒川修作＋マドリン・ギンズ「大地」・宮脇愛子「月」・岡崎和郎「太陽」の3常設作品を永久展示",
+      "summary": "通年。荒川修作＋マドリン・ギンズ「大地」・宮脇愛子「月」・岡崎和郎「太陽」の3常設作品。改修工事中は一部展示室休館",
       "recommend": null,
       "admission": "一般・大学生 700円",
       "adult_price": 700
-    },
-    {
-      "title": "山下真未 + ナカガワヒロカズ映像展",
-      "start": "2026-09-26",
-      "end": "2026-10-12",
-      "url": "https://www.town.nagi.okayama.jp/moca/news/20260926.html",
-      "kind": "special",
-      "summary": "山下真未とナカガワヒロカズによる映像作品展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null,
-      "closed_weekdays": ["mon"],
-      "closed_dates": []
     },
     {
       "title": "アーティスト・イン・レジデンス・Nagi（AIRN）vol.7 彫刻家・北川太郎",
@@ -53,10 +53,10 @@
       "end": "2026-12-10",
       "url": "https://www.town.nagi.okayama.jp/moca/news/20261010.html",
       "kind": "special",
-      "summary": "彫刻家・北川太郎によるアーティスト・イン・レジデンス作品展示",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "summary": "奈義町に滞在して制作する彫刻家・北川太郎の作品展示。トーク・WSあり",
+      "recommend": "彫刻家の北川太郎が奈義町に滞在し、暮らしや風土に触れて制作する過程から生まれた作品を展示。アーティスト・トークや紙の塔づくりワークショップも開かれる。",
+      "admission": "入館料 無料",
+      "adult_price": 0
     }
   ],
   "adult_price": 700,
@@ -73,6 +73,6 @@
   ],
   "highlights": "磯崎新のプロデュースのもと、荒川修作＋マドリン・ギンズ「大地」・宮脇愛子「月」・岡崎和郎「太陽」の3作品を建築化した「第三世代美術館」の先駆け。岡山県最北部の自然豊かな奈義町に立地し、常設作品はそれぞれ独立した展示空間を持つ体験型の現代美術として国際的に高い評価を受けている。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は毎週月曜（月曜が祝日の場合は開館）および祝日の翌日（翌日が土・日の場合は開館）= open_next_weekday_closed。年末年始休館の公式案内は未確認。",
+  "notes": "休館日は毎週月曜（月曜が祝日の場合は開館）および祝日の翌日（翌日が土・日の場合は開館）= open_next_weekday_closed。年末年始休館の公式案内は未確認。 改修工事による一部休館（2026年10月〜2027年3月下旬予定）の対象展示室は公式に明記なし。",
   "confidence": "high"
 }

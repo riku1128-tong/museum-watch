@@ -15,7 +15,7 @@ from datetime import date, datetime, timedelta
 import jpholiday
 
 from areas import place_name
-from common import DATA, DAILY, DETAILS, MUSEUMS_JSON, PREFS, REGIONS, ROOT, SITE, now_jst, read_json, write_json
+from common import DATA, SITE_URL, DAILY, DETAILS, MUSEUMS_JSON, PREFS, REGIONS, ROOT, SITE, now_jst, read_json, write_json
 
 WEEKDAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
 STALE_DAYS = 8  # 巡回は毎週金曜。1 回ぶん遅れたら要確認にする
@@ -311,7 +311,7 @@ def main() -> None:
     write_json(DAILY / f"{start.isoformat()}.json", {"generated_at": payload["generated_at"], **days[0]})
 
     from pages import ga_snippet
-    html = TEMPLATE.read_text(encoding="utf-8").replace("<!--__GA__-->", ga_snippet()).replace(
+    html = TEMPLATE.read_text(encoding="utf-8").replace("<!--__GA__-->", ga_snippet()).replace("__SITE_URL__", SITE_URL).replace(
         "/*__DATA__*/null", json.dumps(payload, ensure_ascii=False).replace("</", "<\\/"))
     SITE.mkdir(exist_ok=True)
     (SITE / "index.html").write_text(html, encoding="utf-8")

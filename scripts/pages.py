@@ -175,7 +175,10 @@ def page(*, title: str, desc: str, path: str, body: str, depth: int, jsonld: lis
 <meta property="og:description" content="{escape(desc)}">
 <meta property="og:url" content="{SITE_URL}{path}">
 <meta property="og:site_name" content="美術館ウォッチ">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{SITE_URL}og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@{X_ACCOUNT}">
 <script>
   try {{ const t = localStorage.getItem("mw:theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; }} catch {{}}

@@ -1,6 +1,6 @@
 {
   "id": "Q11548167",
-  "checked_at": "2026-10-16T22:25:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "平成30年（2018年）3月26日より休館中。再開は未定。公式サイトに告知あり。",
@@ -12,13 +12,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["tue", "wed"],
+  "closed_weekdays": [
+    "tue",
+    "wed"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],

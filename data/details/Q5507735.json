@@ -1,6 +1,6 @@
 {
   "id": "Q5507735",
-  "checked_at": "2026-10-16T22:30:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -36,8 +36,8 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-09-25",
-      "to": "2026-10-09",
+      "from": "2026-12-08",
+      "to": "2027-01-08",
       "reason": "展示替えのための臨時休館"
     },
     {
@@ -69,6 +69,28 @@
       "recommend": null,
       "admission": "一般 360円",
       "adult_price": 360
+    },
+    {
+      "title": "美術館への年賀状展2027",
+      "start": "2027-01-13",
+      "end": "2027-01-31",
+      "url": "https://art-museum.fcs.ed.jp/exhibition/current",
+      "kind": "special",
+      "summary": "年賀状をテーマにした観覧無料の展示",
+      "recommend": null,
+      "admission": "観覧無料",
+      "adult_price": 0
+    },
+    {
+      "title": "おとなりアーティスト2026 学校連携共同ワークショップ作品展",
+      "start": "2027-01-16",
+      "end": "2027-02-07",
+      "url": "https://art-museum.fcs.ed.jp/exhibition/current",
+      "kind": "special",
+      "summary": "学校連携の共同ワークショップ作品展",
+      "recommend": null,
+      "admission": "観覧無料",
+      "adult_price": 0
     }
   ],
   "adult_price": 360,
@@ -79,6 +101,26 @@
       "scope": "collection",
       "reason": "東北文化の日（文化の日・常設展示のみ）",
       "source_url": "https://tohokubunka.pref.miyagi.jp/facilities/fukushima-2/"
+    },
+    {
+      "from": "2027-01-13",
+      "to": "2027-01-31",
+      "scope": "partial",
+      "targets": [
+        "美術館への年賀状展2027"
+      ],
+      "reason": "年賀状展は観覧無料",
+      "source_url": "https://art-museum.fcs.ed.jp/"
+    },
+    {
+      "from": "2027-01-16",
+      "to": "2027-02-07",
+      "scope": "partial",
+      "targets": [
+        "おとなりアーティスト2026"
+      ],
+      "reason": "作品展は観覧無料",
+      "source_url": "https://art-museum.fcs.ed.jp/"
     }
   ],
   "free_rules": [],

@@ -1,12 +1,13 @@
 {
   "id": "Q11340103",
-  "checked_at": "2026-10-16T22:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.museum.makonde.jp/",
   "address": "〒519-0601 三重県伊勢市二見町松下1799-4",
   "source_urls": [
+    "http://www.museum.makonde.jp/",
     "http://www.museum.makonde.jp/guide/index.html",
     "http://www.museum.makonde.jp/exhibition/index.html"
   ],
@@ -41,17 +42,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "マコンデ彫刻　骸骨展　－死を超えて、生を彫る－",
-      "start": "2026-07-18",
-      "end": "2026-10-18",
-      "url": "http://www.museum.makonde.jp/exhibition/index.html",
-      "kind": "special",
-      "summary": "骸骨をモチーフにしたマコンデ彫刻に焦点を当てた企画展",
-      "recommend": "骸骨を死の象徴ではなく、語り合い笑い日常を生きる存在として彫り上げた、マコンデ彫刻ならではの表現を味わえる。",
-      "admission": "一般 1,000円",
-      "adult_price": 1000
-    },
-    {
       "title": "マコンデ彫刻　ビナダム展　－アフリカに生きる人々の姿－",
       "start": "2026-11-21",
       "end": "2027-02-14",
@@ -68,19 +58,19 @@
   "free_rules": [],
   "access": [
     {
+      "station": "伊勢市",
+      "lines": "JR・近鉄",
+      "walk_min": null,
+      "note": "三重交通バスで「池の浦」下車、徒歩4分（五十鈴川駅・二見浦駅・鳥羽駅からも同バス）"
+    },
+    {
       "station": "松下",
       "lines": "近鉄鳥羽線",
       "walk_min": 17
-    },
-    {
-      "station": "鳥羽",
-      "lines": "近鉄鳥羽線",
-      "walk_min": null,
-      "note": "鳥羽駅からタクシーで約7分"
     }
   ],
   "highlights": "伊勢二見浦のそばに建つ、日本有数のマコンデ彫刻専門美術館。東アフリカ産アフリカ黒檀に彫られた彫刻を中心に600点超を展示し、一部の作品に実際に触れられる。ティンガ・ティンガ絵画や生活民族資料もあわせて紹介。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は毎週火曜（祝日の場合は翌平日）、2月・6月・10月の第3週の月〜金、年末年始。10月分は2026-10-19〜23と解釈。2月分（2027-02-15〜19）は範囲外のため未登録。年末年始の日付は公式未掲載。アクセスは非公式サイト情報（近鉄松下駅徒歩17分・鳥羽駅タクシー7分）を参照。",
-  "confidence": "medium"
+  "notes": "休館日は毎週火曜（祝日の場合は翌平日）、2月・6月・10月の第3週の月〜金、年末年始（日付は公式未掲載）。10月は6・13・19〜23・27日が休館と公式告知。2月分（2027-02-15〜19）は範囲外のため未登録。現在開催中の展覧会は無く、次回は2026-11-21開始のビナダム展。",
+  "confidence": "high"
 }

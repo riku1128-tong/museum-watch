@@ -1,6 +1,6 @@
 {
   "id": "Q7881987",
-  "checked_at": "2026-10-16T22:30:00+09:00",
+  "checked_at": "2026-10-23T08:07:12+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -16,13 +16,24 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
@@ -46,7 +57,7 @@
       "url": "https://y-pam.jp/exhibition/",
       "kind": "special",
       "summary": "山口県内の芸術家による公募展。洋画・日本画・彫刻・工芸・書・写真など多ジャンルを展示",
-      "recommend": null,
+      "recommend": "山口県在住の作家を中心に公募し、審査で大賞と優秀賞を選ぶ県内最大級の公募展。絵画・工芸・写真・書とジャンルを超えて並ぶ力作から、地元の創作の今を一度に味わえる。",
       "admission": "一般 600円",
       "adult_price": 600
     }

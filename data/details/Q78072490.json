@@ -1,6 +1,6 @@
 {
   "id": "Q78072490",
-  "checked_at": "2026-10-16T22:28:30+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -8,8 +8,8 @@
   "address": "〒399-8602 長野県北安曇郡池田町会染7782",
   "source_urls": [
     "https://navam.jp/",
-    "https://navam.jp/guide/",
     "https://navam.jp/exhibition/",
+    "https://navam.jp/guide/",
     "https://navam.jp/contact/"
   ],
   "regular_hours": [
@@ -48,32 +48,14 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "安曇野キルト公募展2026",
-      "start": "2026-09-05",
-      "end": "2026-10-18",
-      "url": "https://navam.jp/exhibition-details/安曇野キルト公募展2026-2/",
-      "kind": "other",
-      "summary": "安曇野地域の作家によるキルト公募展",
-      "admission": null,
-      "adult_price": null
-    },
-    {
-      "title": "米寿記念 山﨑計子『想いをつづる パッチワークキルト・カントリードール 集大成作品展』",
-      "start": "2026-09-05",
-      "end": "2026-10-18",
-      "kind": "other",
-      "summary": "貸館による個展。パッチワークキルトとカントリードールの集大成",
-      "admission": null,
-      "adult_price": null
-    },
-    {
-      "title": "常設展示室にてAR（拡張現実）アートを展示中",
-      "start": "2026-09-15",
+      "title": "常設展示室でARアートを展示",
+      "start": "2026-10-31",
       "end": "2026-11-29",
       "kind": "other",
-      "summary": "常設展示室内にARアート作品を追加展示する企画",
+      "summary": "牧利保「北安曇池田町風景」にアプリをかざすとARで絵が動く",
       "admission": null,
-      "adult_price": null
+      "adult_price": null,
+      "url": "https://navam.jp/exhibition-details/%e3%80%90%e4%bc%81%e7%94%bb%e3%80%91%e5%b8%b8%e8%a8%ad%e5%b1%95%e7%a4%ba%e5%ae%a4%e3%81%ab%e3%81%a6ar%ef%bc%88%e6%8b%a1%e5%bc%b5%e7%8f%be%e5%ae%9f%ef%bc%89%e3%82%a2%e3%83%bc%e3%83%88%e3%82%92/"
     },
     {
       "title": "本間友幸　茶陶展",
@@ -92,7 +74,8 @@
       "kind": "other",
       "summary": "貸館による個展",
       "admission": null,
-      "adult_price": null
+      "adult_price": null,
+      "url": "https://navam.jp/exhibition-details/silent-letter-eri%e5%b1%95-2026/"
     },
     {
       "title": "信州池田クラフト展 2026",
@@ -134,6 +117,6 @@
     }
   ],
   "highlights": "北アルプス連峰と安曇野の田園風景を一望できる高台に立つ美術館。眺望そのものが見どころで、地域ゆかりの作家によるキルトや陶芸などの企画展・公募展を年間を通じて開催している",
-  "notes": "冬季休館は12/11〜3月末日（年またぎ）。10/19〜10/30は展示替え休館（Instagram告知）。10/13（火）は体育の日（10/12）の振替休館（holiday_rule で処理）。展覧会は貸館による個展・団体展が多く、公式サイトの告知に基づいて記載。",
+  "notes": "冬季休館は12/11〜3月末日。10/19〜10/30は展示替え休館。展覧会は貸館による個展・団体展が多く、公式サイトの告知に基づいて記載。2026-10-23 トップと展覧会一覧を確認。",
   "confidence": "high"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q17223767",
-  "checked_at": "2026-10-16T22:30:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -38,20 +38,30 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-10-10",
-      "to": "2026-10-11",
-      "reason": "展示替え（10/12月・祝はロビーのみ開館、10/13振替休館）"
-    },
-    {
       "from": "2026-12-28",
       "to": "2027-01-04",
       "reason": "年末年始休館"
     }
   ],
   "special_openings": [
-    {"date": "2026-10-25", "open": "09:00", "close": "19:00", "note": "夜間開館"},
-    {"date": "2026-11-22", "open": "09:00", "close": "19:00", "note": "夜間開館"},
-    {"date": "2026-12-20", "open": "09:00", "close": "19:00", "note": "夜間開館（part2のみ）"}
+    {
+      "date": "2026-10-25",
+      "open": "09:00",
+      "close": "19:00",
+      "note": "夜間開館"
+    },
+    {
+      "date": "2026-11-22",
+      "open": "09:00",
+      "close": "19:00",
+      "note": "夜間開館"
+    },
+    {
+      "date": "2026-12-20",
+      "open": "09:00",
+      "close": "19:00",
+      "note": "夜間開館（part2のみ）"
+    }
   ],
   "exhibitions": [
     {

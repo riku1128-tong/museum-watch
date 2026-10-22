@@ -1,6 +1,6 @@
 {
   "id": "Q11645680",
-  "checked_at": "2026-10-16T22:20:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,12 +12,32 @@
     "https://nomura-museum.or.jp/publics/index/21/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:30", "last_entry": "16:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-10-19", "to": "2026-10-23", "reason": "展示替え（秋季展 前期・後期の間）"}
+    {
+      "from": "2026-10-19",
+      "to": "2026-10-23",
+      "reason": "展示替え（秋季展 前期・後期の間）"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -102,7 +122,12 @@
   "closed_between_exhibitions": true,
   "adult_price": null,
   "access": [
-    {"station": "蹴上", "lines": "京都市営地下鉄東西線", "exit": "1番出口", "walk_min": 10}
+    {
+      "station": "蹴上",
+      "lines": "京都市営地下鉄東西線",
+      "exit": "1番出口",
+      "walk_min": 10
+    }
   ],
   "highlights": "実業家・野村徳七の旧邸「碧雲荘」に隣接する茶道美術専門の美術館。重要文化財7件・重要美術品9件を含む茶道具・書画・能面などの収蔵品を、南禅寺近くの静かな邸宅風の建物で鑑賞できる。",
   "notes": "開館は春季（3月上旬〜6月上旬）・秋季（9月上旬〜12月上旬）の年2回のみで、夏季・冬季は休館。会期の正確な日付は展覧会ごとに発表され、2027年春季展の会期は2026年9月時点で未発表のため special_closures には入れず、closed_between_exhibitions: true として exhibitions が無い期間（次回開幕まで）を休館扱いにしている。次回巡回で2027年春季展の情報が出たら追記すること。休館日は「月曜（祝日の場合は翌日）」。",

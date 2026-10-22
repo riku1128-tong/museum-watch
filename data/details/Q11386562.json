@@ -1,6 +1,6 @@
 {
   "id": "Q11386562",
-  "checked_at": "2026-10-16T22:30:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -13,13 +13,24 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
@@ -30,19 +41,7 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "第11回菅楯彦大賞展",
-      "start": "2026-09-05",
-      "end": "2026-10-18",
-      "url": null,
-      "kind": "special",
-      "summary": "倉吉市出身の日本画家・菅楯彦の名を冠した2年に1度の公募大賞展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    }
-  ],
+  "exhibitions": [],
   "adult_price": 220,
   "free_days": [
     {
@@ -64,6 +63,6 @@
   ],
   "highlights": "美術・考古・民俗・自然科学の4部門を持つ倉吉市の総合博物館。白壁土蔵の伝統的街並みが残る打吹玉川地区に隣接し、地元出身の日本画家・菅楯彦と洋画家・前田寛治の名を冠した2年ごとの公募大賞展を柱に多彩な企画展を開催。常設展の一般入館料220円と手頃で、倉吉歴史民俗資料館を併設する。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日は開館・翌日休）。祝日の翌日も休館（月曜以外の祝日の翌日も含む）。年末年始休館（具体日程は公式サイトに記載なし）。次回企画展「新しい茶の湯の風 緑が丘美術館コレクション」・「安部朱美人形展」の会期は確認できず。特別展の入館料は展示ごとに異なる。公式URLを museums.json の www1.city.kurayoshi.lg.jp/hakubutsu/ から変更（404のため）。",
+  "notes": "月曜休館（祝日は開館・翌日休）。祝日の翌日も休館（月曜以外の祝日の翌日も含む）。年末年始休館（具体日程は公式サイトに記載なし）。次回企画展「新しい茶の湯の風 緑が丘美術館コレクション」・「安部朱美人形展」の会期は確認できず。特別展の入館料は展示ごとに異なる。公式URLを museums.json の www1.city.kurayoshi.lg.jp/hakubutsu/ から変更（404のため）。 2026-10-23時点の現在の展示は「よみがえる古代の美」（展示室5、会期記載なし）のみ。他は準備中。",
   "confidence": "medium"
 }

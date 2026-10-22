@@ -1,7 +1,7 @@
 {
   "id": "Q11652770",
-  "checked_at": "2026-10-16T22:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.nagasaki-museum.jp/",
@@ -71,28 +71,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "収蔵名品展―新収蔵作品とともに",
-      "start": "2026-05-15",
-      "end": "2026-10-18",
-      "url": "https://www.nagasaki-museum.jp/archives/exhibition_post/30875",
-      "kind": "collection",
-      "summary": "長崎ゆかりの作品を選りすぐって紹介し、2025年度の新収蔵作品を初公開",
-      "recommend": null,
-      "admission": "一般 420円",
-      "adult_price": 420
-    },
-    {
-      "title": "長崎の工芸・デザイン―暮らしの器・道具",
-      "start": "2026-07-30",
-      "end": "2026-10-18",
-      "url": "https://www.nagasaki-museum.jp/archives/exhibition_post/31181",
-      "kind": "collection",
-      "summary": "長崎の歴史・文化から育まれた工芸・デザイン作品の日常性に焦点を当てたコレクション展",
-      "recommend": null,
-      "admission": "一般 420円",
-      "adult_price": 420
-    },
     {
       "title": "須磨コレクション1",
       "start": "2026-06-09",
@@ -203,6 +181,6 @@
   ],
   "highlights": "長崎ゆかりの美術とスペイン美術を両輪とする県立美術館。約9,000点を収蔵し、長崎出身の洋画家・彭城貞徳やシャガールのサーカスシリーズ、スペイン近現代美術が充実。出島の地に建ち、毎日夜8時まで開館するため観光後の訪問にも適している。",
   "closed_between_exhibitions": false,
-  "notes": "コレクション展一般420円。特別展（Hello Kitty展など）は別途料金。開館時間は通常10:00-20:00だが1/2-3は18:00まで。10/14-16は都合により10:00-18:00（最終入場17:30）に短縮。第2・第4月曜休館（祝日の場合は翌火曜休館）。年末年始12/29-1/1休館。",
+  "notes": "コレクション展一般420円。特別展（Hello Kitty展など）は別途料金。開館時間は通常10:00-20:00だが1/2-3は18:00まで。第2・第4月曜休館（祝日の場合は翌火曜休館）。年末年始12/29-1/1休館。",
   "confidence": "high"
 }

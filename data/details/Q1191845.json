@@ -1,6 +1,6 @@
 {
   "id": "Q1191845",
-  "checked_at": "2026-10-16T22:33:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -13,7 +13,16 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon","tue","wed","thu","fri","sat","sun","holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "18:00",
       "last_entry": "17:30"

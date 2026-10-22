@@ -1,6 +1,6 @@
 {
   "id": "Q4556499",
-  "checked_at": "2026-10-16T22:25:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -47,7 +47,7 @@
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "official_url は museums.json の英語版ページから日本語版（/art/chichu.html）へ上書き。観覧料は平日・土日祝およびWeb事前購入・窓口購入で異なる（平日2,500円/2,800円、土日祝2,700円/3,000円、15歳以下無料）ため、館・展示とも adult_price は単一の数値で表せず null とし、admission に内訳を記載した。アクセスはフェリー（高松港・宇野港から宮浦港、四国汽船）＋島内バス。コレクション展示（モネ・タレル・デ・マリア）は開館以来の常設で開始日は未確認のため、start は今回確認した日付とし、summary に「通年」と明記した。",
+  "notes": "official_url は museums.json の英語版ページから日本語版（/art/chichu.html）へ上書き。観覧料は平日・土日祝およびWeb事前購入・窓口購入で異なる（平日2,500円/2,800円、土日祝2,700円/3,000円、15歳以下無料）ため、館・展示とも adult_price は単一の数値で表せず null とし、admission に内訳を記載した。アクセスはフェリー（高松港・宇野港から宮浦港、四国汽船）＋島内バス。コレクション展示（モネ・タレル・デ・マリア）は開館以来の常設で開始日は未確認のため、start は今回確認した日付とし、summary に「通年」と明記した。 2026-10-23 light: 公式サイトが503で読めず、前回値を維持。",
   "confidence": "medium",
   "adult_price": null,
   "access": [

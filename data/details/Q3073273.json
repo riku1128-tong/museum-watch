@@ -1,6 +1,6 @@
 {
   "id": "Q3073273",
-  "checked_at": "2026-10-16T22:25:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -18,13 +18,25 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:30",
       "last_entry": "17:00"
     },
     {
-      "days": ["fri", "sat"],
+      "days": [
+        "fri",
+        "sat"
+      ],
       "open": "09:30",
       "close": "20:00",
       "last_entry": "19:30",
@@ -32,7 +44,9 @@
       "to": "2026-10-31"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -76,17 +90,6 @@
       "url": null,
       "kind": "collection",
       "summary": "1F東光院仏教美術室での常設展示。古代の仏像・工芸品を展示。通年",
-      "recommend": null,
-      "admission": "一般200円",
-      "adult_price": 200
-    },
-    {
-      "title": "秋の名品展",
-      "start": "2026-08-11",
-      "end": "2026-10-19",
-      "url": null,
-      "kind": "collection",
-      "summary": "1F松永記念館室での秋季名品展示",
       "recommend": null,
       "admission": "一般200円",
       "adult_price": 200
@@ -199,6 +202,6 @@
   ],
   "highlights": "大濠公園に面した総合美術館。古代仏像を専用室に常設展示する東光院仏教美術室、禅僧・仙厓の書画コレクション、肥前の陶磁器など古美術が充実。2Fの近現代美術室では福岡ゆかりの作家の個展や洋画コレクションも鑑賞できる。",
   "closed_between_exhibitions": false,
-  "notes": "7〜10月の金・土曜日は20時まで夜間延長開館（入館19:30まで）。10月の臨時休館：10/6・10/20・10/21。10月の臨時開館：10/19（月）。コレクション展・企画展の一般料金は200円。特別展は別料金（インド更紗展は1,700円）。",
-  "confidence": "high"
+  "notes": "7〜10月の金・土曜日は20時まで夜間延長開館（入館19:30まで）。10月の臨時休館：10/6・10/20・10/21。10月の臨時開館：10/19（月）。コレクション展・企画展の一般料金は200円。特別展は別料金（インド更紗展は1,700円）。 2026-10-23: 公式サイトが503で読めず、福岡市の報道発表資料と検索結果で確認（秋の名品展は10/19で終了のため削除）。",
+  "confidence": "medium"
 }

@@ -1,7 +1,7 @@
 {
   "id": "Q11671831",
-  "checked_at": "2026-10-16T22:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.takahama-kawara-museum.com/",
@@ -9,7 +9,6 @@
   "source_urls": [
     "https://www.takahama-kawara-museum.com/",
     "https://www.takahama-kawara-museum.com/info/",
-    "https://www.takahama-kawara-museum.com/exhibition/category/curation/p11897/",
     "https://www.takahama-kawara-museum.com/exhibition/category/collection/p11913/"
   ],
   "regular_hours": [
@@ -56,19 +55,13 @@
       "reason": "冬期休館"
     }
   ],
-  "special_openings": [],
-  "exhibitions": [
+  "special_openings": [
     {
-      "title": "刀根里衣　絵本原画展",
-      "start": "2026-07-25",
-      "end": "2026-10-18",
-      "url": "https://www.takahama-kawara-museum.com/exhibition/category/curation/p11897/",
-      "kind": "special",
-      "summary": "ヨーロッパ・アジアでも人気の絵本作家・刀根里衣の絵本原画100点以上と制作資料を展示",
-      "recommend": "幻想的で優しく切ない世界観で知られる刀根里衣の絵本原画100点以上が集結。日本・ヨーロッパ・アジアの読者を魅了した美しい色彩と物語の世界を原画で体感できる。",
-      "admission": "一般 900円",
-      "adult_price": 900
-    },
+      "date": "2026-12-01",
+      "note": "特別開館日（火曜だが開館）"
+    }
+  ],
+  "exhibitions": [
     {
       "title": "○○をさがせ！ ―見えないものの だいそうさく！―",
       "start": "2026-11-28",

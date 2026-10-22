@@ -1,6 +1,6 @@
 {
   "id": "Q11377196",
-  "checked_at": "2026-10-16T22:25:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -42,15 +42,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "令和8年度 今治市小中学校図工・美術・書写・統計作品展",
-      "start": "2026-10-17",
-      "end": "2026-10-20",
-      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2061",
-      "kind": "other",
-      "summary": "今治市内の小中学校の図工・美術・書写・統計の作品展（貸会場）",
-      "recommend": null
-    },
-    {
       "title": "フォルムグループ第19回油絵展",
       "start": "2026-10-22",
       "end": "2026-10-25",
@@ -75,6 +66,15 @@
       "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2064",
       "kind": "other",
       "summary": "押花と花のチャリティ展（貸会場）",
+      "recommend": null
+    },
+    {
+      "title": "第75回秋季県展　今治移動展",
+      "start": "2026-11-14",
+      "end": "2026-11-23",
+      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2087",
+      "kind": "other",
+      "summary": "愛媛県美術展覧会の今治移動展（貸会場）",
       "recommend": null
     },
     {

@@ -1,7 +1,7 @@
 {
   "id": "Q11592587",
-  "checked_at": "2026-10-16T22:20:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://fukuoka-kenbi.jp/",
@@ -10,7 +10,8 @@
     "https://fukuoka-kenbi.jp/",
     "https://fukuoka-kenbi.jp/access/",
     "https://fukuoka-kenbi.jp/exhibition/",
-    "https://fukuoka-kenbi.jp/exhibition/2026/0701_18474/"
+    "https://fukuoka-kenbi.jp/exhibition/2026/0701_18474/",
+    "https://fukuoka-kenbi.jp/exhibition/2026/1017_18836/"
   ],
   "regular_hours": [
     {
@@ -53,6 +54,17 @@
       "recommend": "『はらぺこあおむし』日本出版50周年を記念し、絵本美術館から原画約180点が来日。デザイナー時代の作品やダミーブックも展示し、絵本作家にとどまらないカールの多彩な創作世界を伝える。",
       "admission": "一般 2,000円（前売・団体 1,800円）",
       "adult_price": 2000
+    },
+    {
+      "title": "コレクション展「福岡県美のたからもの」vol.3",
+      "start": "2026-10-20",
+      "end": "2026-12-20",
+      "url": "https://fukuoka-kenbi.jp/exhibition/2026/1017_18836/",
+      "kind": "collection",
+      "summary": "開館40周年の所蔵品展。「秋」を軸にした選抜展示と、人体表現の小企画の2部構成",
+      "recommend": "日本画・洋画・工芸を「秋」のゆるやかなテーマで見せる所蔵品展に、彫刻や絵画の人体表現を取り上げる小企画が加わる。会期中に展示替えがあり、前期と後期で違う作品に出会える。",
+      "admission": "一般 210円",
+      "adult_price": 210
     }
   ],
   "adult_price": 210,

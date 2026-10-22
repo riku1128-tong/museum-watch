@@ -1,7 +1,7 @@
 {
   "id": "Q3478488",
-  "checked_at": "2026-10-16T22:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://sen-oku.or.jp/kyoto/",
@@ -37,17 +37,6 @@
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "寛永行幸四百年記念 特別展　寛永行幸と花の都の文化びと",
-      "start": "2026-09-05",
-      "end": "2026-10-18",
-      "url": "https://sen-oku.or.jp/program/202609_splendidparade400/",
-      "kind": "special",
-      "summary": "所蔵の京都市指定文化財「二条城行幸図屏風」を軸に、寛永期の宮廷文化を紹介する特別展",
-      "recommend": "現存最古の十二単をはじめ徳川家出身皇后の衣裳調度や、東福門院ゆかりの押絵など、寛永の宮廷を彩った品々を間近で見られる",
-      "admission": "一般 1,200円（団体 1,000円）",
-      "adult_price": 1200
-    },
     {
       "title": "ブロンズギャラリー 中国青銅器の時代　ギャラリー3特集展示「金文の世界」",
       "start": "2026-09-05",

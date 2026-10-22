@@ -1,7 +1,7 @@
 {
   "id": "Q11627626",
-  "checked_at": "2026-10-16T22:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://otanimuseum.jp/",
@@ -34,19 +34,6 @@
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "2026 イタリア・ボローニャ国際絵本原画展",
-      "start": "2026-08-22",
-      "end": "2026-10-18",
-      "url": "http://otanimuseum.jp/exhibition.html",
-      "kind": "special",
-      "summary": "イタリアのボローニャで毎年開催される国際絵本原画コンクールの入選作品展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null,
-      "closed_weekdays": [],
-      "closed_dates": []
-    },
     {
       "title": "没後50年　大野麥風 「魚の画家」展",
       "start": "2026-10-31",

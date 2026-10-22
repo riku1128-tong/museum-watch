@@ -1,6 +1,6 @@
 {
   "id": "Q11453791",
-  "checked_at": "2026-10-16T22:30:00+09:00",
+  "checked_at": "2026-10-23T08:09:29+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -69,13 +69,16 @@
       "title": "いま、私は現代アートと出会う　－草間彌生、奈良美智、村上隆、アンディ・ウォーホル、バンクシー …",
       "start": "2026-11-14",
       "end": "2027-01-24",
-      "url": "https://www.pref.miyagi.jp/site/mmoa/exhibition-00000000-s00-1.html",
+      "url": "https://www.pref.miyagi.jp/site/mmoa/exhibition-20261114-s01-01.html",
       "kind": "special",
       "summary": "草間彌生・奈良美智・村上隆・アンディ・ウォーホル・バンクシーら国内外の現代アーティストによる企画展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null,
-      "closed_dates": ["2026-11-24", "2027-01-12"]
+      "recommend": "現代アートの面白さを知りたいと集め始めた一人のコレクターの約70点を、色・かたち・光・線などの切り口で紹介。草間彌生や奈良美智、バンクシーら著名作家の多彩な表現に出会える。",
+      "admission": "一般 1,500円（前売 1,300円）",
+      "adult_price": 1500,
+      "closed_dates": [
+        "2026-11-24",
+        "2027-01-12"
+      ]
     },
     {
       "title": "棟方志功記念館コレクションによる 棟方志功展",
@@ -87,7 +90,9 @@
       "recommend": null,
       "admission": null,
       "adult_price": null,
-      "closed_dates": ["2027-02-24"]
+      "closed_dates": [
+        "2027-02-24"
+      ]
     }
   ],
   "adult_price": 350,

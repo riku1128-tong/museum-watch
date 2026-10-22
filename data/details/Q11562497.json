@@ -1,6 +1,6 @@
 {
   "id": "Q11562497",
-  "checked_at": "2026-10-16T22:25:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -16,35 +16,50 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "wed", "thu", "fri"],
+      "days": [
+        "mon",
+        "wed",
+        "thu",
+        "fri"
+      ],
       "open": "10:00",
       "close": "15:00",
       "last_entry": "14:30"
     },
     {
-      "days": ["sat", "sun", "holiday"],
+      "days": [
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-30", "to": "2027-01-02", "reason": "年末年始"}
+    {
+      "from": "2026-12-30",
+      "to": "2027-01-02",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "企画展「智頭町の現代作家たち ～緑の風が吹く町から～」",
-      "start": "2026-09-09",
-      "end": "2026-10-18",
-      "url": "https://watart.jp/exhibition/%e6%99%ba%e9%a0%ad%e7%94%ba%e3%81%ae%e7%8f%be%e4%bb%a3%e4%bd%9c%e5%ae%b6%e3%81%9f%e3%81%a1%e3%80%80%ef%bd%9e%e7%b7%91%e3%81%ae%e9%a2%a8%e3%81%8c%e5%90%b9%e3%81%8f%e7%94%ba%e3%81%8b%e3%82%89%ef%bd%9e/",
+      "title": "大塩忠雄絵画展 ～鳥取の自然に魅せられ、描き続けて55年",
+      "start": "2026-10-24",
+      "end": "2026-11-30",
+      "url": "https://watart.jp/exhibition/%e5%a4%a7%e5%a1%a9%e5%bf%a0%e9%9b%84%e7%b5%b5%e7%94%bb%e5%b1%95/",
       "kind": "special",
-      "summary": "智頭杉で知られる鳥取県智頭町ゆかりの作家6名による染色・木工・写真・油彩画・言葉絵の展覧会",
-      "recommend": "林業の町・智頭町を拠点とする各分野のベテラン作家6人の秀作を一堂に。地域の風土が育んだ染色から写真まで多彩な表現を通じて、現代工芸と絵画の奥深さを体感できる。",
-      "admission": "一般 900円",
-      "adult_price": 900
+      "summary": "喜寿を記念し、油絵とパステル画の10号から200号の作品約30点を展示",
+      "recommend": "鳥取の自然を描き続けて55年になる画家の集大成。大画面の油彩から繊細なパステル画まで約30点が並び、喜寿を迎えた作家の歩みを間近に味わえる。",
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 900,
@@ -60,6 +75,6 @@
   ],
   "highlights": "鳥取市の医師・渡辺元が昭和初期から60余年かけて収集した約3万点を所蔵する私立美術館。甲冑・刀剣類「サムライコレクション」と古美術工芸品の二本柱が特徴。展示品のスケッチや写真撮影ができ、一部は手で触れられるなど鑑賞体験の開放性が他にない魅力。",
   "closed_between_exhibitions": false,
-  "notes": "月・水・木・金曜日は10:00-15:00、土日祝は10:00-17:00（入館は各閉館30分前まで）。火曜休館（祝日は開館し翌平日休館）。",
+  "notes": "月・水・木・金曜日は10:00-15:00、土日祝は10:00-17:00（入館は各閉館30分前まで）。火曜休館（祝日は開館し翌平日休館）。 10/23: 企画展「智頭町の現代作家たち」は終了。次の企画展の観覧料は記載なし。",
   "confidence": "high"
 }

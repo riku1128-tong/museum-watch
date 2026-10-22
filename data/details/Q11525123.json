@@ -1,7 +1,7 @@
 {
   "id": "Q11525123",
-  "checked_at": "2026-10-16T22:25:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://museum.geidai.ac.jp/",
@@ -19,7 +19,16 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "17:00",
       "last_entry": "16:30"
@@ -30,29 +39,6 @@
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "三上亮退任記念展　（ひみつ）行為の無作為",
-      "start": "2026-10-03",
-      "end": "2026-10-18",
-      "url": "https://museum.geidai.ac.jp/exhibit/2026/10/mikamiryo.html",
-      "kind": "special",
-      "summary": "陶芸研究室・三上亮の退任展。代表作、焼成テスト、新作《round》を紹介（陳列館・正木記念館）",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0,
-      "hours": [
-        {
-          "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
-          "open": "10:00",
-          "close": "17:00",
-          "last_entry": "16:30"
-        }
-      ],
-      "closed_dates": [
-        "2026-10-05",
-        "2026-10-13"
-      ]
-    },
     {
       "title": "東京藝術大学デザイン科×三和酒類株式会社 受託研究プロジェクト2026 iichiko PERSON AWARD 2026 EXHIBITION",
       "start": "2026-10-23",
@@ -76,7 +62,16 @@
       "adult_price": 0,
       "hours": [
         {
-          "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
           "open": "10:00",
           "close": "17:00",
           "last_entry": "16:30"
@@ -95,7 +90,16 @@
       "adult_price": 0,
       "hours": [
         {
-          "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
           "open": "10:00",
           "close": "17:00",
           "last_entry": "16:30"
@@ -112,7 +116,9 @@
       "recommend": "「芸術は未来に効く！」をキャッチコピーに、藝大の最前線の研究・活動を体験できる企画。多彩なトークやワークショップも同時開催され、入場無料で楽しめる。",
       "admission": "無料",
       "adult_price": 0,
-      "closed_dates": ["2026-11-30"]
+      "closed_dates": [
+        "2026-11-30"
+      ]
     },
     {
       "title": "東京藝術大学と中国人留学生〜胡根天から現代まで〜展",
@@ -124,7 +130,10 @@
       "recommend": "1915年に東京美術学校に留学した胡根天から現代の留学生まで、100年余の交流を辿る。大型スクリーンのデジタルアーカイブで留学生の在学歴・専攻を可視化する試みも見どころ。",
       "admission": "無料",
       "adult_price": 0,
-      "closed_dates": ["2026-11-24", "2026-11-30"]
+      "closed_dates": [
+        "2026-11-24",
+        "2026-11-30"
+      ]
     }
   ],
   "adult_price": null,
@@ -146,6 +155,6 @@
   ],
   "highlights": "東京藝術大学附属の大学美術館で、上野公園内に位置する。教員の退任記念展や学生・修了生の研究発表など、藝大の教育・研究活動と直結した展覧会を年間を通じて開催。陳列館・正木記念館など複数の建物を使い分けた多彩なプログラムが魅力で、入場無料の展覧会が多い。",
   "closed_between_exhibitions": true,
-  "notes": "展覧会の開催会期以外は閉館。開館時間・観覧料は展覧会ごとに異なるが、現行展示はすべて10:00〜17:00・無料。【2026-10-10 light確認】iichiko PERSON AWARD(10/23-25)・芸術未来研究場展2026(11/20-12/2)・東京藝大と中国人留学生展の詳細URL・closed_dates を追加更新。",
+  "notes": "展覧会の開催会期以外は閉館。開館時間・観覧料は展覧会ごとに異なるが、現行展示はすべて10:00〜17:00・無料。【2026-10-10 light確認】iichiko PERSON AWARD(10/23-25)・芸術未来研究場展2026(11/20-12/2)・東京藝大と中国人留学生展の詳細URL・closed_dates を追加更新。 【2026-10-23確認】三上亮退任記念展は終了のため削除。重要事項の変更なし。",
   "confidence": "high"
 }

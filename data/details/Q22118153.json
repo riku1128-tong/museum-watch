@@ -1,6 +1,6 @@
 {
   "id": "Q22118153",
-  "checked_at": "2026-10-16T22:28:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -38,17 +38,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "さかいふうか作品展「並行世界クロニクル」",
-      "start": "2026-09-19",
-      "end": "2026-10-18",
-      "url": null,
-      "kind": "special",
-      "summary": null,
-      "recommend": null,
-      "admission": "一般 200円",
-      "adult_price": 200
-    },
     {
       "title": "東北生活文化大学美術学部選抜作品展",
       "start": "2026-10-31",

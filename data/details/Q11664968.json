@@ -1,6 +1,6 @@
 {
   "id": "Q11664968",
-  "checked_at": "2026-10-16T22:25:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -11,13 +11,36 @@
     "https://www.museum.or.jp/museum/5498"
   ],
   "regular_hours": [
-    {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:00", "last_entry": "15:30"}
+    {
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:00",
+      "last_entry": "15:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-10-21", "to": "2026-10-26", "reason": "展示替え（前期・後期の間）"},
-    {"from": "2026-11-04", "to": "2026-11-04", "reason": "祝日（文化の日）の翌日"}
+    {
+      "from": "2026-10-21",
+      "to": "2026-10-26",
+      "reason": "展示替え（前期・後期の間）"
+    },
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-04",
+      "reason": "祝日（文化の日）の翌日"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -37,7 +60,13 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "甲東園", "lines": "阪急今津線", "exit": null, "walk_min": 3, "note": "駅から西へ約200m"}
+    {
+      "station": "甲東園",
+      "lines": "阪急今津線",
+      "exit": null,
+      "walk_min": 3,
+      "note": "駅から西へ約200m"
+    }
   ],
   "highlights": "西宮市の甲東園駅近くにある、東洋の古美術を専門とする美術館。四代目の頴川徳助が集めた古美術の蒐集品を保存・公開する目的で1973年に開館した。春と秋の年2回の会期だけ開く。",
   "closed_between_exhibitions": true,

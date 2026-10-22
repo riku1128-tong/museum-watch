@@ -1,6 +1,6 @@
 {
   "id": "Q11589991",
-  "checked_at": "2026-10-16T22:25:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,9 +12,25 @@
     "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/koisogallery/riyou/access/index.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
@@ -47,7 +63,13 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "アイランド北口", "lines": "神戸新交通 六甲ライナー", "exit": null, "walk_min": 3, "note": "JR住吉駅または阪神魚崎駅で六甲ライナーに乗り換え。阪急御影駅からはみなと観光バス131系統「ウエストコート3番街前」下車すぐ"}
+    {
+      "station": "アイランド北口",
+      "lines": "神戸新交通 六甲ライナー",
+      "exit": null,
+      "walk_min": 3,
+      "note": "JR住吉駅または阪神魚崎駅で六甲ライナーに乗り換え。阪急御影駅からはみなと観光バス131系統「ウエストコート3番街前」下車すぐ"
+    }
   ],
   "highlights": "神戸出身の洋画家・小磯良平の作品を中心に約3,300点を収蔵する記念美術館。遺族から寄贈された2,094点が核をなし、肖像画や舞台緞帳の原画など多彩な「仕事」を特集展示する。中庭に移築復元したアトリエでイーゼルやパレットを公開。六甲ライナーのアイランド北口駅から徒歩すぐ。",
   "closed_between_exhibitions": false,

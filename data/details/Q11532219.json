@@ -1,6 +1,6 @@
 {
   "id": "Q11532219",
-  "checked_at": "2026-10-16T22:25:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": "草庵「松花堂」・泉坊書院を含む内園は大阪北部地震の復旧工事のため通常は見学不可（特別公開日を除く）",
@@ -11,7 +11,8 @@
     "https://shokado-garden-art-museum.jp/information/",
     "https://shokado-garden-art-museum.jp/top/information/",
     "https://www.museum.or.jp/event/126767",
-    "https://www.yawata-bunka.jp/syokado/shiyou/index.htm"
+    "https://www.yawata-bunka.jp/syokado/shiyou/index.htm",
+    "https://shokado-garden-art-museum.jp/top/aboutus/shokadomuseum2/%e5%af%9b%e6%b0%b8%e8%a1%8c%e5%b9%b8%e5%9b%9b%e7%99%be%e5%b9%b4%e8%a8%98%e5%bf%b5-%e6%9d%be%e8%8a%b1%e5%a0%82%e7%be%8e%e8%a1%93%e9%a4%a8-%e4%bb%a4%e5%92%8c8%e5%b9%b4%e7%89%b9%e5%88%a5%e5%b1%95/"
   ],
   "regular_hours": [
     {
@@ -44,7 +45,7 @@
   "special_openings": [
     {
       "date": "2026-11-23",
-      "note": "特別展会期中の月曜祝日は開館"
+      "note": "特別展会期中の月曜祝日は開館（翌11/24は休館）"
     }
   ],
   "exhibitions": [
@@ -73,6 +74,6 @@
   ],
   "highlights": "京都洛南の八幡にある、松花堂昭乗ゆかりの日本庭園と美術館。侘び寂びの庭を歩きながら昭乗の書画や茶の湯文化に触れられ、松花堂弁当の発祥の地としても知られる。",
   "closed_between_exhibitions": false,
-  "notes": "adult_price 300 は庭園入園料（美術館観覧は展覧会ごとに別料金、大人400円〜）。特別展の会期・料金は検索結果で確認し、公式サイトの展覧会ページでは日付を読めなかったため confidence は medium。",
+  "notes": "adult_price 300 は庭園入園料（美術館観覧は展覧会ごとに別料金、大人400円〜）。特別展は前期10/17-11/8・後期11/10-12/6（11/23は開館、11/24は休館）。",
   "confidence": "high"
 }

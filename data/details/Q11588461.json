@@ -1,6 +1,6 @@
 {
   "id": "Q11588461",
-  "checked_at": "2026-10-16T22:28:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -11,13 +11,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "17:30",
       "last_entry": "17:00"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -48,6 +58,6 @@
   ],
   "highlights": "長崎・南山手の異国情緒ある街並みにある童話館系の絵本美術館。2・3階で国内外の絵本原画を展示し、童話館ゆかりの作家による常設展と企画展を開催。フロアには約500冊の選び抜かれた絵本コーナーがあり入館者が自由に楽しめる。グラバー園・大浦天主堂に隣接した観光地に位置する。",
   "closed_between_exhibitions": false,
-  "notes": "休館日：毎週月曜（祝日の場合は翌日）・展示入替日・年末年始（詳細は公式HP参照）。公式サイトURL（www.douwakan.co.jp）はSSL証明書の不一致でアクセス不可のため www なし（douwakan.co.jp）で取得。常設展示作家：中村忠二・伴敏子・東平哲弥・大道あや。最寄り停留場からの徒歩時間は公式サイトに記載なし。",
+  "notes": "休館日：毎週月曜（祝日の場合は翌日）・展示入替日・年末年始（詳細は公式HP参照）。公式サイトURL（www.douwakan.co.jp）はSSL証明書の不一致でアクセス不可のため www なし（douwakan.co.jp）で取得。常設展示作家：中村忠二・伴敏子・東平哲弥・大道あや。最寄り停留場からの徒歩時間は公式サイトに記載なし。 公式サイトは証明書エラーで読めず（10/23時点）。前回の値を維持。",
   "confidence": "medium"
 }

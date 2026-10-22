@@ -1,6 +1,6 @@
 {
   "id": "Q11582282",
-  "checked_at": "2026-10-16T22:25:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,12 +13,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -51,6 +62,6 @@
   ],
   "highlights": "木材の産地として知られる徳島県那賀町の川口ダム湖畔に位置し、木彫と木版画を中心に収蔵する個性的な美術館。剣山系の豊かな自然に囲まれた環境の中、国内外の作家による木の芸術作品を年3〜4回の企画展と館蔵品展で紹介。無料駐車場完備で、秘境ならではのゆったりとした鑑賞体験が魅力。",
   "closed_between_exhibitions": true,
-  "notes": "公式サイト（town.tokushima-naka.lg.jp/aioi-art/）は404のため、ウォーカープラス・navitime・artplatform.go.jp の情報をもとに作成。開館時間は9:30〜16:30、月曜休館（祝日の場合は翌日）、展示替え期間中・年末年始休館。大人330円（ただし企画展で変動あり）。具体的な展覧会会期は公式未確認。",
+  "notes": "公式サイト（town.tokushima-naka.lg.jp/aioi-art/）は404のため、ウォーカープラス・navitime・artplatform.go.jp の情報をもとに作成。開館時間は9:30〜16:30、月曜休館（祝日の場合は翌日）、展示替え期間中・年末年始休館。大人330円（ただし企画展で変動あり）。具体的な展覧会会期は公式未確認。 2026-10-23: 町サイト（トップはメンテナンス告知のみ・/aioi-art/は404）・検索でも今季の展覧会情報は見つからず、展示は未登録のまま。",
   "confidence": "medium"
 }

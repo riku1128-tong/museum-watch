@@ -1,30 +1,42 @@
 {
   "id": "Q5153794",
-  "checked_at": "2026-10-16T22:20:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
-  "status_note": "重要文化財の耐震補強・保存修理工事のため、2025年4月1日〜2027年5月末まで休館（予定）。工事中も絵画館の壁画などの写真撮影・画像使用の依頼は電話で受け付け（03-3401-5179、10:00〜16:30）。",
+  "status_note": "重要文化財の耐震補強・保存修理工事のため、2025年4月1日〜2027年8月末まで休館（予定。2026-10-21 に5月末から延長）。工事中も絵画館の壁画などの写真撮影・画像使用の依頼は電話で受け付け（03-3401-5179、10:00〜16:30）。",
   "official_url": "https://www.meijijingugaien.jp/art-culture/seitoku-gallery/",
   "address": "〒160-0013 東京都新宿区霞ヶ丘町1番1号",
   "source_urls": [
     "https://www.meijijingugaien.jp/art-culture/seitoku-gallery/",
-    "https://www.meijijingugaien.jp/art-culture/seitoku-gallery/important/032714.html"
+    "https://www.meijijingugaien.jp/art-culture/seitoku-gallery/important/032714.html",
+    "http://www.meijijingugaien.jp/art-culture/seitoku-gallery/important/102159.html"
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "16:30",
       "last_entry": "16:00"
     }
   ],
-  "closed_weekdays": ["wed"],
+  "closed_weekdays": [
+    "wed"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
       "from": "2025-04-01",
-      "to": "2027-05-31",
-      "reason": "重要文化財耐震補強・保存修理工事のため休館"
+      "to": "2027-08-31",
+      "reason": "重要文化財耐震補強・保存修理工事のため休館（期間延長）"
     }
   ],
   "special_openings": [],
@@ -49,7 +61,7 @@
       "walk_min": 10
     }
   ],
-  "highlights": "明治神宮外苑にある重要文化財の建物。明治天皇・昭憲皇太后の事績を描いた80点の壁画（洋画家・日本画家による）が見どころで、宮廷・政治・外交・軍事など明治の歴史を絵画で辿る貴重な空間。2027年5月まで保存修理工事のため休館中。",
+  "highlights": "明治神宮外苑にある重要文化財の建物。明治天皇・昭憲皇太后の事績を描いた80点の壁画（洋画家・日本画家による）が見どころで、宮廷・政治・外交・軍事など明治の歴史を絵画で辿る貴重な空間。2027年8月まで保存修理工事のため休館中。",
   "closed_between_exhibitions": false,
   "notes": "休館期間中は絵画館記念展示がオンライン（https://meijijingu-webmuseum.whereness.io/）で公開されている。通常の休館日は水曜（祝日の場合は翌平日）、年末年始（12/29〜1/3）。",
   "confidence": "high"

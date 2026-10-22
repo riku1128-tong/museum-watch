@@ -1,7 +1,7 @@
 {
   "id": "Q11532663",
-  "checked_at": "2026-10-16T22:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.itabashi.tokyo.jp/artmuseum/",
@@ -45,15 +45,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "区民文化祭（2026）美術家作品展",
-      "start": "2026-10-14",
-      "end": "2026-10-18",
-      "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000016/4002027/4002028.html",
-      "kind": "other",
-      "summary": "区民文化祭。板橋区在住の美術家による作品展（最終日は15時まで）",
-      "admission": "無料"
-    },
-    {
       "title": "区民文化祭（2026）区民美術展",
       "start": "2026-10-21",
       "end": "2026-10-25",
@@ -80,6 +71,15 @@
       "summary": "イタリアのギャラリー兼出版社コッライーニの本づくりを、子ども向けの本を中心に紹介",
       "admission": "一般 900円",
       "adult_price": 900
+    },
+    {
+      "title": "板橋区立小中学校作品展",
+      "start": "2027-01-19",
+      "end": "2027-02-23",
+      "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000016/4002027/4002030.html",
+      "kind": "other",
+      "summary": "板橋区立小中学校の児童・生徒による作品展",
+      "admission": null
     }
   ],
   "adult_price": null,

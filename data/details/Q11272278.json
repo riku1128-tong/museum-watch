@@ -1,6 +1,6 @@
 {
   "id": "Q11272278",
-  "checked_at": "2026-10-16T22:30:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,8 +8,8 @@
   "address": "茨城県つくば市吾妻2-8（つくば文化会館アルス内）",
   "source_urls": [
     "https://www.tsukuba.museum.ibk.ed.jp/",
-    "https://www.tsukuba.museum.ibk.ed.jp/guide.html",
-    "https://www.tsukuba.museum.ibk.ed.jp/access.html"
+    "https://www.tsukuba.museum.ibk.ed.jp/access.html",
+    "https://www.tsukuba.museum.ibk.ed.jp/guide.html"
   ],
   "regular_hours": [
     {
@@ -47,23 +47,12 @@
       "adult_price": 0
     },
     {
-      "title": "Field Notes ［写真］［映像］",
-      "start": "2026-10-14",
-      "end": "2026-10-18",
-      "url": null,
+      "title": "令和8年度茨城県高等学校総合文化祭美術展覧会写真展",
+      "start": "2026-10-27",
+      "end": "2026-11-01",
+      "url": "https://www.tsukuba.museum.ibk.ed.jp/",
       "kind": "special",
-      "summary": "写真・映像作品による展覧会",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
-      "title": "西陣美術織 伊藤若冲展",
-      "start": "2026-10-14",
-      "end": "2026-10-18",
-      "url": null,
-      "kind": "special",
-      "summary": "西陣織の技法で再現した伊藤若冲の作品展",
+      "summary": "茨城県の高校生による写真作品の展覧会",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0

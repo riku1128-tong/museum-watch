@@ -1,6 +1,6 @@
 {
   "id": "Q104636664",
-  "checked_at": "2026-10-16T22:23:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -10,7 +10,8 @@
     "https://k-kousya.or.jp/ninomaru/",
     "https://k-kousya.or.jp/ninomaru/pages/19/",
     "https://www.museum.or.jp/museum/4368",
-    "https://www.kakegawa-kankou.com/news/26189/"
+    "https://www.kakegawa-kankou.com/news/26189/",
+    "https://k-kousya.or.jp/ninomaru/pages/15/"
   ],
   "regular_hours": [
     {

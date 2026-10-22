@@ -1,6 +1,6 @@
 {
   "id": "Q5878014",
-  "checked_at": "2026-10-16T22:20:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "light",
   "operating_status": "temporarily_closed",
   "status_note": "2026年8月13〜14日の豪雨による浸水被害のため、8月14日から当面の間臨時休館中（再開日は未発表）",
@@ -12,7 +12,8 @@
     "https://www.hoki-museum.jp/access/",
     "https://www.hoki-museum.jp/special_exhibition/four_seasons/",
     "https://www.hoki-museum.jp/about/",
-    "https://www.hoki-museum.jp/news/news-4096/"
+    "https://www.hoki-museum.jp/news/news-4096/",
+    "https://www.hoki-museum.jp/news/"
   ],
   "regular_hours": [
     {
@@ -71,6 +72,6 @@
     }
   ],
   "highlights": "世界でも珍しい写実絵画専門の美術館。地上1階・地下2階、全長500メートルの回廊型ギャラリーは一部が宙に浮くように設計され、窓から森を望める展示室もある。レストラン・カフェも併設。",
-  "notes": "休館日は火曜・年末年始・展示替え期間（公式サイトに記載）だが、年末年始と展示替え期間の具体的な日付は非掲載のため special_closures には未反映。判明次第追記が必要。 【2026-10-02 light】トップのお知らせで臨時休館を確認。レストランも当面休業。",
+  "notes": "休館日は火曜・年末年始・展示替え期間（公式サイトに記載）だが、年末年始と展示替え期間の具体的な日付は非掲載のため special_closures には未反映。判明次第追記が必要。 【2026-10-02 light】トップのお知らせで臨時休館を確認。レストランも当面休業。 【2026-10-23 light】8/14付の臨時休館のお知らせが継続中で、再開の告知は無い（企画展ページは「四季を写す絵画たち」〜11/8を掲載したまま）。",
   "confidence": "high"
 }

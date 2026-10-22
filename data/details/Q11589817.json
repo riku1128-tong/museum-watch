@@ -1,7 +1,7 @@
 {
   "id": "Q11589817",
-  "checked_at": "2026-10-16T22:21:29+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.kitano-museum.com/",
@@ -10,9 +10,25 @@
     "http://www.kitano-museum.com/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "09:30", "close": "17:30", "last_entry": "17:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "09:30",
+      "close": "17:30",
+      "last_entry": "17:00"
+    }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -33,8 +49,20 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "三宮", "lines": "JR・阪急・阪神・神戸市営地下鉄", "exit": null, "walk_min": 10, "note": "三宮駅から北へ"},
-    {"station": "新神戸", "lines": "神戸市営地下鉄・山陽新幹線", "exit": null, "walk_min": 10, "note": "新神戸駅から西へ"}
+    {
+      "station": "三宮",
+      "lines": "JR・阪急・阪神・神戸市営地下鉄",
+      "exit": null,
+      "walk_min": 10,
+      "note": "三宮駅から北へ"
+    },
+    {
+      "station": "新神戸",
+      "lines": "神戸市営地下鉄・山陽新幹線",
+      "exit": null,
+      "walk_min": 10,
+      "note": "新神戸駅から西へ"
+    }
   ],
   "highlights": "1898年建設で、かつてアメリカ領事館官舎だった北野異人館を使ったギャラリー＆カフェ。館のコレクションや歴史資料に加え、兵庫・神戸出身の若手作家やパリ・モンマルトルの画家の作品を展示・販売する。",
   "closed_between_exhibitions": false,

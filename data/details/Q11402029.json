@@ -1,6 +1,6 @@
 {
   "id": "Q11402029",
-  "checked_at": "2026-10-16T22:20:00+09:00",
+  "checked_at": "2026-10-23T08:12:03+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -11,9 +11,25 @@
     "https://www.kitamura-museum.com/access.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "16:30", "last_entry": "16:00"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "16:30",
+      "last_entry": "16:00"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [],
   "special_openings": [],
@@ -43,9 +59,27 @@
   "highlights": "京都市上京区の閑静な一角に立つ茶道美術の専門館。国登録有形文化財に指定された数奇屋作りの茶室と庭園「四君子苑」が美しく、重要文化財を含む茶道具・古陶磁器を公開する。10月下旬には四君子苑の特別公開も行われる。",
   "closed_between_exhibitions": false,
   "access": [
-    {"station": "出町柳", "lines": "京阪本線", "exit": null, "walk_min": 5, "note": null},
-    {"station": "今出川", "lines": "京都市営地下鉄烏丸線", "exit": null, "walk_min": 18, "note": null},
-    {"station": "京都", "lines": null, "exit": null, "walk_min": null, "note": "市バス4・7・205系統で「河原町今出川」下車、徒歩2分"}
+    {
+      "station": "出町柳",
+      "lines": "京阪本線",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    },
+    {
+      "station": "今出川",
+      "lines": "京都市営地下鉄烏丸線",
+      "exit": null,
+      "walk_min": 18,
+      "note": null
+    },
+    {
+      "station": "京都",
+      "lines": null,
+      "exit": null,
+      "walk_min": null,
+      "note": "市バス4・7・205系統で「河原町今出川」下車、徒歩2分"
+    }
   ],
   "notes": "休館日は「月曜日、祝日の翌日」。「祝日の翌日」は曜日を問わず一般にかかる可能性があり、月曜が祝日の場合の扱いも明記が無いため holiday_rule は unknown とした。中学生以下は無料。",
   "confidence": "high"

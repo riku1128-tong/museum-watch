@@ -1,6 +1,6 @@
 {
   "id": "Q864957",
-  "checked_at": "2026-10-16T22:17:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -13,7 +13,8 @@
     "https://www.tobikan.jp/exhibition/2026_britishmuseum.html",
     "https://www.tobikan.jp/information/index.html",
     "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607",
-    "https://www.tobikan.jp/information/20260918_1.html"
+    "https://www.tobikan.jp/information/20260918_1.html",
+    "https://www.tobikan.jp/exhibition/2026_orsay.html"
   ],
   "regular_hours": [
     {
@@ -63,81 +64,17 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "大英博物館日本美術コレクション 百花繚乱―海を越えた江戸絵画",
-      "start": "2026-07-25",
-      "end": "2026-10-18",
-      "url": "https://www.tobikan.jp/exhibition/2026_britishmuseum.html",
-      "kind": "special",
-      "summary": "大英博物館所蔵の屏風・掛軸・絵巻と、歌麿・写楽・北斎・広重ら浮世絵師8人の版画を紹介",
-      "admission": "一般 2,300円",
-      "hours": [
-        {
-          "days": [
-            "fri"
-          ],
-          "open": "09:30",
-          "close": "20:00",
-          "last_entry": "19:30",
-          "to": "2026-09-28"
-        },
-        {
-          "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu",
-            "sat",
-            "sun",
-            "holiday"
-          ],
-          "open": "09:30",
-          "close": "17:30",
-          "last_entry": "17:00",
-          "to": "2026-09-28"
-        },
-        {
-          "days": [
-            "fri"
-          ],
-          "open": "09:15",
-          "close": "20:00",
-          "last_entry": "19:30",
-          "from": "2026-09-29"
-        },
-        {
-          "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu",
-            "sat",
-            "sun",
-            "holiday"
-          ],
-          "open": "09:15",
-          "close": "17:30",
-          "last_entry": "17:00",
-          "from": "2026-09-29"
-        }
-      ],
-      "closed_weekdays": [
-        "mon"
-      ],
-      "closed_dates": [
-        "2026-10-13"
-      ]
-    },
-    {
       "title": "オルセー美術館所蔵 いまを生きる歓び",
       "start": "2026-11-14",
       "end": "2027-03-28",
       "url": "https://www.tobikan.jp/exhibition/2026_orsay.html",
       "kind": "special",
-      "summary": "開館100周年記念の特別展。オルセー美術館の所蔵作品による",
+      "summary": "開館100周年記念。ミレー《落穂拾い》やゴッホ《星月夜》など約110点",
       "admission": null,
       "closed_weekdays": [
         "mon"
-      ]
+      ],
+      "recommend": "ミレー《落穂拾い》が23年ぶり、ゴッホ《星月夜》とゴーガン《アレアレア》が16年ぶりに来日。オルセーの名品約110点で近代美術の歓びをたどる。"
     },
     {
       "title": "あなたが世界を読むために",
@@ -165,8 +102,8 @@
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "定休日は第1・第3月曜（祝日・振替休日の場合は翌平日）。特別展・企画展は毎週月曜休室（祝日は開室、翌平日休室）、会期中の金曜は20:00まで。2026-09-18付お知らせにて「大英博物館日本美術コレクション 百花繚乱」の開室時間が9月29日（火）〜10月18日（日）の期間、混雑緩和のため9:15に変更。常設のコレクションを持たず観覧料は展覧会ごとに異なるため adult_price は null。",
-  "confidence": "high",
+  "notes": "定休日は第1・第3月曜（祝日・振替休日の場合は翌平日）。特別展・企画展は毎週月曜休室（祝日は開室、翌平日休室）、会期中の金曜は20:00まで。2026-09-18付お知らせにて「大英博物館日本美術コレクション 百花繚乱」の開室時間が9月29日（火）〜10月18日（日）の期間、混雑緩和のため9:15に変更。常設のコレクションを持たず観覧料は展覧会ごとに異なるため adult_price は null。 2026-10-23: 公式サイトが503で読めず、検索結果の公式ページ情報で更新（大英博物館展は10/18終了のため削除）。",
+  "confidence": "medium",
   "adult_price": null,
   "access": [
     {

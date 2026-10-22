@@ -1,7 +1,7 @@
 {
   "id": "Q26424152",
-  "checked_at": "2026-10-16T22:21:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.shusui-museum.jp/",
@@ -10,7 +10,8 @@
     "https://www.shusui-museum.jp/",
     "https://www.shusui-museum.jp/visit/",
     "https://www.shusui-museum.jp/about/",
-    "https://www.shusui-museum.jp/schedule/exhibition/ex-hold/%e7%8f%be%e4%bb%a3%e5%88%80%e8%81%b7%e5%b1%95/"
+    "https://www.shusui-museum.jp/schedule/exhibition/ex-hold/%e7%8f%be%e4%bb%a3%e5%88%80%e8%81%b7%e5%b1%95/",
+    "https://www.shusui-museum.jp/schedule/exhibition/ex-next/%e3%82%a6%e3%83%a9%e3%82%82%e3%82%aa%e3%83%a2%e3%83%86%e3%82%82%e3%80%80%ef%bc%8d%e7%a7%8b%e6%b0%b4%e3%81%ae%e7%be%8e%ef%bc%8d/"
   ],
   "regular_hours": [
     {
@@ -33,18 +34,35 @@
   ],
   "closed_nth_weekdays": [],
   "holiday_rule": "unknown",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-10-19",
+      "to": "2026-10-31",
+      "reason": "展示替え"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "現代刀職展 -今に伝わる いにしえの技-",
-      "start": "2026-09-12",
-      "end": "2026-10-18",
-      "url": "https://www.shusui-museum.jp/schedule/exhibition/ex-hold/%e7%8f%be%e4%bb%a3%e5%88%80%e8%81%b7%e5%b1%95/",
+      "title": "ウラもオモテも －秋水の美－",
+      "start": "2026-11-01",
+      "end": "2027-02-27",
+      "url": "https://www.shusui-museum.jp/schedule/exhibition/ex-next/%e3%82%a6%e3%83%a9%e3%82%82%e3%82%aa%e3%83%a2%e3%83%86%e3%82%82%e3%80%80%ef%bc%8d%e7%a7%8b%e6%b0%b4%e3%81%ae%e7%be%8e%ef%bc%8d/",
       "kind": "special",
-      "summary": "日本美術刀剣保存協会主催、現代刀匠・研師・外装職者の技術コンクール受賞作品を展示",
-      "recommend": "現代の刀匠や研師が腕を競ったコンクール受賞作品が一堂に集結。洗練された刃文と刀装具の美を間近で体感でき、今に生きる日本刀の高い技術の粋に触れられる機会。",
-      "admission": "一般800円（600円）、大学生以下無料",
+      "summary": "収蔵の刀剣から名刀を選び、前期・後期で刀のウラとオモテを見せる（2階）",
+      "recommend": "刀の表だけでなく裏の表情にも注目した、収蔵刀剣コレクションの展示。前後期で作品が入れ替わり、名刀の見えにくい側の魅力まで味わえる。",
+      "admission": "一般800円、大学生以下無料",
+      "adult_price": 800
+    },
+    {
+      "title": "画中を旅する －屏風と掛軸－",
+      "start": "2026-11-01",
+      "end": "2027-02-27",
+      "url": "https://www.shusui-museum.jp/schedule/exhibition/ex-next/%e7%94%bb%e4%b8%ad%e3%82%92%e6%97%85%e3%81%99%e3%82%8b%e3%80%80%ef%bc%8d%e5%b1%8f%e9%a2%a8%e3%81%a8%e6%8e%9b%e8%bb%b8%ef%bc%8d/",
+      "kind": "special",
+      "summary": "屏風と掛軸を前期・後期に分けて展示（3階）",
+      "recommend": null,
+      "admission": "一般800円、大学生以下無料",
       "adult_price": 800
     }
   ],

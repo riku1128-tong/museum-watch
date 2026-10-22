@@ -1,6 +1,6 @@
 {
   "id": "Q11503023",
-  "checked_at": "2026-10-16T22:35:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -13,12 +13,33 @@
     "https://banbi.pref.niigata.lg.jp/exhibition/open"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
-  "holiday_rule": "open_next_weekday_closed",
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open",
   "special_closures": [],
-  "special_openings": [],
+  "special_openings": [
+    {
+      "date": "2026-11-02",
+      "note": "月曜だが休館日一覧に無く開館"
+    }
+  ],
   "exhibitions": [
     {
       "title": "大どろぼうの家",
@@ -29,7 +50,8 @@
       "summary": "引退を決意した大どろぼうが最後の盗みに出た家を舞台にした体験型展覧会。8つの部屋のコレクションを巡る",
       "recommend": "「どろぼう」を主役にした体験型展覧会で、気鋭のクリエイターがデザインした8つの部屋それぞれに異なるコレクションが展示されている。脱出ゲームのような設定でアートに没入できる珍しい企画。",
       "admission": "一般 1,600円（団体1,400円）",
-      "adult_price": 1600
+      "adult_price": 1600,
+      "closed_dates": []
     },
     {
       "title": "鈴木のりたけ「大ピンチ展！」",
@@ -47,10 +69,16 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "新潟", "lines": "JR上越新幹線・信越本線・白新線・越後線", "exit": null, "walk_min": 25, "note": "バス（17番線・朱鷺メッセ経由）で約15分「朱鷺メッセ」下車。タクシー約8分。"}
+    {
+      "station": "新潟",
+      "lines": "JR上越新幹線・信越本線・白新線・越後線",
+      "exit": null,
+      "walk_min": 25,
+      "note": "バス（17番線・朱鷺メッセ経由）で約15分「朱鷺メッセ」下車。タクシー約8分。"
+    }
   ],
   "highlights": "朱鷺メッセ内の万代島ビル5階に位置する新潟県立美術館。国内外の著名作家による体験型の企画展を中心に展開し、万代島の港を望む立地が魅力。常設展はなく企画展ごとに入れ替わる展示構成を採る。",
   "closed_between_exhibitions": true,
-  "notes": "展覧会ごとに休館日が異なるため、特定月曜が休館の場合がある。年末年始の具体的な休館日は公式サイトに記載なし。",
+  "notes": "展覧会ごとに休館日が異なる。「大どろぼうの家」会期中の休館日は9/28・10/5・10/19・10/26・11/9・11/16・11/30・12/7・12/14（月曜）で、祝日の月曜（10/12・11/23）と11/2は開館、祝日の翌日の休館なし。年末年始の具体的な休館日は公式サイトに記載なし。",
   "confidence": "high"
 }

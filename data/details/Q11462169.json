@@ -1,6 +1,6 @@
 {
   "id": "Q11462169",
-  "checked_at": "2026-10-16T22:21:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -36,6 +36,16 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-04",
+      "reason": "休館日（公式の展覧会ページに記載）"
+    },
+    {
+      "from": "2026-11-25",
+      "to": "2026-11-25",
+      "reason": "休館日（公式の展覧会ページに記載）"
+    },
     {
       "from": "2026-12-29",
       "to": "2027-01-03",

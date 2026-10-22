@@ -1,7 +1,7 @@
 {
   "id": "Q115265693",
-  "checked_at": "2026-10-16T22:25:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.ejrcf.or.jp/gallery/",
@@ -43,12 +43,31 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-02", "reason": "年末年始"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-02",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [
-    {"date": "2026-11-23", "open": "10:00", "close": "18:00", "note": "月曜だが開館（アストルップ展）"},
-    {"date": "2027-01-11", "open": "10:00", "close": "18:00", "note": "月曜だが開館（アストルップ展）"},
-    {"date": "2027-01-25", "open": "10:00", "close": "18:00", "note": "月曜だが開館（アストルップ展会期最終週）"},
+    {
+      "date": "2026-11-23",
+      "open": "10:00",
+      "close": "18:00",
+      "note": "月曜だが開館（アストルップ展）"
+    },
+    {
+      "date": "2027-01-11",
+      "open": "10:00",
+      "close": "18:00",
+      "note": "月曜だが開館（アストルップ展）"
+    },
+    {
+      "date": "2027-01-25",
+      "open": "10:00",
+      "close": "18:00",
+      "note": "月曜だが開館（アストルップ展会期最終週）"
+    },
     {
       "date": "2026-11-02",
       "open": "10:00",

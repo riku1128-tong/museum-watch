@@ -1,6 +1,6 @@
 {
   "id": "Q38266963",
-  "checked_at": "2026-10-16T22:20:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -61,6 +61,19 @@
       "recommend": "『頭文字D』で峠バトルを描き続けた作者の原画を一堂に。迫力あるレース描写の線の緻密さや躍動感を肉眼で堪能できる。",
       "admission": null,
       "adult_price": null
+    },
+    {
+      "title": "マンガで知る、きもち展",
+      "start": "2026-10-21",
+      "end": "2027-01-18",
+      "url": "https://manga-museum.com/",
+      "kind": "special",
+      "summary": "マンガを通して登場人物の気持ちを知る企画展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "closed_weekdays": [],
+      "closed_dates": []
     }
   ],
   "adult_price": 1000,

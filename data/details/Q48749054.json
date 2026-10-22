@@ -1,6 +1,6 @@
 {
   "id": "Q48749054",
-  "checked_at": "2026-10-16T22:25:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,7 +10,8 @@
     "https://www.forest.minokamo.gifu.jp/",
     "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_06.cfm",
     "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_07.cfm",
-    "https://www.forest.minokamo.gifu.jp/access/access.cfm"
+    "https://www.forest.minokamo.gifu.jp/access/access.cfm",
+    "https://www.forest.minokamo.gifu.jp/oshirase_details2/details.cfm?news_id=17&type=1"
   ],
   "regular_hours": [
     {
@@ -34,24 +35,13 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-12-28",
-      "to": "2027-01-04",
+      "from": "2026-12-29",
+      "to": "2027-01-03",
       "reason": "年末年始"
     }
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "第71回 美濃加茂市美術展",
-      "start": "2026-10-08",
-      "end": "2026-10-18",
-      "url": "https://www.forest.minokamo.gifu.jp/tenrankai/2026/2026_05.cfm",
-      "kind": "other",
-      "summary": "市民による美術作品を集めた公募展",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
     {
       "title": "ていねいな暮らしと道具展「動物とともに生きる暮らし」",
       "start": "2026-10-17",
@@ -91,6 +81,6 @@
   ],
   "highlights": "歴史・民俗・自然・美術を複合展示する総合博物館。「みのかも文化の森」の豊かな自然の中に位置し、昭和30年代の養蚕農家を復原した「まゆの家」や民具展示館など地域の暮らしを体感できる施設が点在。常設展示は無料で、体験活動にも力を入れている。",
   "closed_between_exhibitions": false,
-  "notes": "施設名は「みのかも文化の森 美濃加茂市民ミュージアム」。常設展示室は無料。企画展等は一部有料。施設内に「まゆの家」（昭和30年代の養蚕農家復原）や民具展示館がある。LED化工事および空調設備工事に伴う一部施設の閉室が告知されているが、具体的な期間は未確認。",
+  "notes": "施設名は「みのかも文化の森 美濃加茂市民ミュージアム」。休館日は月曜（祝日の場合は開館し直後の平日が休館）、年末年始は12/29〜1/3。LED化・空調工事のため企画展示室・美術工芸展示室は11/1〜2027/5/30閉室（11/1〜11/7の特別公開はエントランスホール）。常設展示室は無料、企画展等は一部有料。施設内に「まゆの家」（昭和30年代の養蚕農家復原）や民具展示館がある。",
   "confidence": "high"
 }

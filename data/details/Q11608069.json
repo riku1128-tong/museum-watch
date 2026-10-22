@@ -1,6 +1,6 @@
 {
   "id": "Q11608069",
-  "checked_at": "2026-10-16T22:20:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -16,26 +16,35 @@
     "https://www.neribun.or.jp/hall/museum.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00", "last_entry": "17:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "練馬区立美術館コレクション 若林奮－Run and Rest－｜寺田真由美－不在の存在－",
-      "start": "2026-07-25",
-      "end": "2026-10-18",
-      "url": "https://www.neribun.or.jp/event/detail_m.cgi?id=202606171781677585",
-      "kind": "collection",
-      "summary": "若林奮の鉄の彫刻・版画・ドローイング約70点と、寺田真由美の写真・立体作品約35点を個展形式で紹介",
-      "recommend": "鉄の彫刻・版画で知られる若林奮の約70点と、写真と立体の境界を問う寺田真由美の約35点を個展形式で並置。対話するような二人の作品空間が互いの個性を際立たせる。",
-      "admission": "一般 500円",
-      "adult_price": 500
-    },
     {
       "title": "アーツ中村橋 2026―わたしとまちの記憶",
       "start": "2026-09-12",
@@ -62,8 +71,13 @@
   "closed_between_exhibitions": false,
   "adult_price": 500,
   "access": [
-    {"station": "中村橋", "lines": "西武池袋線（東京メトロ有楽町線・副都心線直通）", "exit": null, "walk_min": 3,
-     "note": "改札を左に出て線路沿いを石神井公園駅方向へ約130m。JR中央線阿佐ヶ谷駅・荻窪駅の北口から関東バスでも「中村橋駅」下車徒歩5分"}
+    {
+      "station": "中村橋",
+      "lines": "西武池袋線（東京メトロ有楽町線・副都心線直通）",
+      "exit": null,
+      "walk_min": 3,
+      "note": "改札を左に出て線路沿いを石神井公園駅方向へ約130m。JR中央線阿佐ヶ谷駅・荻窪駅の北口から関東バスでも「中村橋駅」下車徒歩5分"
+    }
   ],
   "highlights": "1985年開館。日本近現代美術を中心に独自の切り口で多彩な企画展を展開し、若林奮ら国内作家の収蔵品を有する。中村橋駅から徒歩3分と都市型美術館として気軽に立ち寄れ、区民ギャラリーや創作室の貸出しで地域に開かれた運営が特徴。",
   "notes": "月曜休館（祝休日のときはその翌平日）。9/21・10/12・11/23（月・祝）は開館、9/24・10/13・11/24 は休館（展覧会ページに明記、holiday_rule と一致）。adult_price はコレクション展の一般料金（500円）。",

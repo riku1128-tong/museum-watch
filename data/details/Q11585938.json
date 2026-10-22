@@ -1,7 +1,7 @@
 {
   "id": "Q11585938",
-  "checked_at": "2026-10-16T22:20:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.kaga.ishikawa.jp/kutani-mus/index.html",
@@ -33,13 +33,7 @@
     "mon"
   ],
   "holiday_rule": "open",
-  "special_closures": [
-    {
-      "from": "2026-10-13",
-      "to": "2026-10-16",
-      "reason": "臨時休館"
-    }
-  ],
+  "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {
@@ -89,6 +83,6 @@
   ],
   "highlights": "加賀市立中央図書館に隣接する「古九谷の杜親水公園」の中にある、日本唯一の九谷焼専門美術館。2002年開館で丹下健三門下の富田玲子が設計した庭園美術館。古九谷から近現代まで360年の歴史を青手・色絵五彩・赤絵金襴の3展示室で体験でき、デジタルライブラリーや茶房古九谷も併設。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日の場合は開館）。10/13（火）〜16（金）は臨時休館（公式サイトより）。特別展期間の観覧料は一般1,000円（常設展含む、団体800円、75歳以上500円、高校生以下無料）。",
+  "notes": "月曜休館（祝日の場合は開館）。10/13（火）〜16（金）は臨時休館（公式サイトより）。特別展期間の観覧料は一般1,000円（常設展含む、団体800円、75歳以上500円、高校生以下無料）。 2026-10-23: 特別展前期は10/17開幕、次の休館日は10/26と表示。",
   "confidence": "high"
 }

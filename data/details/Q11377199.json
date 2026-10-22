@@ -1,6 +1,6 @@
 {
   "id": "Q11377199",
-  "checked_at": "2026-10-16T22:20:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "空調設備改修のため2026年8月31日より臨時休館中。2026年12月5日(土)に開館予定（公式告知「12/5～開館のお知らせ」）。",
@@ -11,16 +11,27 @@
     "https://www.city.imabari.ehime.jp/museum/tamagawa/event/event.html?p=2052",
     "https://www.city.imabari.ehime.jp/museum/tamagawa/access/",
     "https://www.city.imabari.ehime.jp/museum/tamagawa/info/",
-    "https://www.city.imabari.ehime.jp/museum/tamagawa/collection/"
+    "https://www.city.imabari.ehime.jp/museum/tamagawa/collection/",
+    "https://www.city.imabari.ehime.jp/museum/tamagawa/event/oshirase.html?p=2085"
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -39,13 +50,13 @@
     {
       "title": "開館40周年記念館蔵品企画展「心をたがやすアート」",
       "start": "2026-12-05",
-      "end": "2027-03-31",
+      "end": "2027-01-11",
       "url": "https://www.city.imabari.ehime.jp/museum/tamagawa/event/event.html?p=2084",
       "kind": "special",
-      "summary": "開館40周年を記念し、再開館にあわせて館蔵品を紹介する企画展（終了日は未発表）",
+      "summary": "開館40周年を記念し、再開館にあわせて館蔵品を紹介する企画展",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 520円",
+      "adult_price": 520
     },
     {
       "title": "国宝「伊予国奈良原山経塚出土品」特別公開",
@@ -55,8 +66,8 @@
       "kind": "special",
       "summary": "国宝・伊予国奈良原山経塚出土品の特別公開。12月5日は観覧無料",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 520円（12/5は無料）",
+      "adult_price": 520
     }
   ],
   "adult_price": 520,
@@ -65,7 +76,9 @@
       "from": "2026-12-05",
       "to": "2026-12-05",
       "scope": "partial",
-      "targets": ["国宝「伊予国奈良原山経塚出土品」特別公開"],
+      "targets": [
+        "国宝「伊予国奈良原山経塚出土品」特別公開"
+      ],
       "reason": "再開館日の特別公開は観覧無料",
       "source_url": "https://www.city.imabari.ehime.jp/museum/tamagawa/event/event.html?p=2084"
     }

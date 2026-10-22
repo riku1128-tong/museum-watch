@@ -1,6 +1,6 @@
 {
   "id": "Q11662266",
-  "checked_at": "2026-10-16T22:30:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -82,7 +82,9 @@
       "recommend": null,
       "admission": "無料",
       "adult_price": 0,
-      "closed_dates": ["2026-10-22"]
+      "closed_dates": [
+        "2026-10-22"
+      ]
     },
     {
       "title": "志賀理江子 なぬもかぬも",

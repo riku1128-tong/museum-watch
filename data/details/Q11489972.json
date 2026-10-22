@@ -1,6 +1,6 @@
 {
   "id": "Q11489972",
-  "checked_at": "2026-10-16T22:30:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "照明工事等のため2階美術館エリアが2026年10月1日から2027年4月上旬まで休室。1階ギャラリーは利用可。",
@@ -8,17 +8,28 @@
   "address": "〒770-8070 徳島市八万町向寺山 文化の森総合公園内",
   "source_urls": [
     "https://art.bunmori.tokushima.jp/",
-    "https://art.bunmori.tokushima.jp/info/",
-    "https://art.bunmori.tokushima.jp/article/0009320.html"
+    "https://art.bunmori.tokushima.jp/article/0009320.html",
+    "https://art.bunmori.tokushima.jp/info/"
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -62,6 +73,6 @@
   ],
   "highlights": "1990年に文化の森総合公園内で開館した徳島県の近現代美術専門館。20世紀以降の国内外の作品を収集・保存し、ユニバーサルミュージアムへの取り組みでも知られる。障害の有無にかかわらず楽しめる鑑賞プログラムや体験学習を充実させ、市民や学校との連携活動も積極的に展開している。",
   "closed_between_exhibitions": false,
-  "notes": "2026年10月1日から2027年4月上旬まで、照明工事等のため2階美術館エリアは休室（建物1階ギャラリーは利用可）。この間は所蔵作品展・企画展は開催されない。連絡先: TEL 088-668-1088。所蔵作品展入館料: 一般200円（団体160円）・高校・大学生100円・小中学生50円。",
+  "notes": "2026年10月1日から2027年4月上旬まで、照明工事等のため2階美術館エリアは休室（建物1階ギャラリーは利用可）。この間は所蔵作品展・企画展は開催されない。連絡先: TEL 088-668-1088。所蔵作品展入館料: 一般200円（団体160円）・高校・大学生100円・小中学生50円。 2階休室中の開催展示は、1階ギャラリーの無料イベントのみ（12/12〜12/27）。",
   "confidence": "medium"
 }

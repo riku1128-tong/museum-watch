@@ -1,6 +1,6 @@
 {
   "id": "Q11406332",
-  "checked_at": "2026-10-16T22:20:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,7 +8,8 @@
   "address": "〒260-0024 千葉県千葉市中央区中央港1丁目10番1号",
   "source_urls": [
     "https://www.chiba-muse.or.jp/ART/",
-    "https://www.chiba-muse.or.jp/ART/visit/",    "https://www.chiba-muse.or.jp/ART/exhibition/",
+    "https://www.chiba-muse.or.jp/ART/visit/",
+    "https://www.chiba-muse.or.jp/ART/exhibition/",
     "https://www.chiba-muse.or.jp/ART/exhibition/events/event-10036/",
     "https://www.chiba-muse.or.jp/ART/news/news-12317/"
   ],
@@ -69,7 +70,7 @@
   ],
   "highlights": "海と空が広がる千葉みなとに面し、緑豊かな庭園を持つ県立美術館。2024年に開館50周年を迎え、千葉ゆかりの作家の作品を核に日本画・洋画・彫刻・工芸・書・版画など幅広いコレクションを収蔵する。",
   "closed_between_exhibitions": false,
-  "notes": "2026-10-16 時点で公式トップに「開催中」の展覧会の記載なし（10月は県展期間で閉館時間変更・臨時休館あり。10/26以降の臨時休館の記載なし）。大チーバくん展は11/23(月祝)・1/11(月祝)開館、翌平日休館で holiday_rule どおり。入場料は展覧会ごとに異なり、常設のコレクション展固有の料金は公式サイトに明記なし（adult_price は null）。県民の日（6/15）と文化の日（11/3）は全展示の入場料が無料（free_days に登録済み、今回は3か月以内の文化の日のみ）。65歳以上・中学生以下・障害者手帳所持者と介護者1名は常時無料（大人一般ではないため free_days には含めていない）。「大髙正人展」（2027/1/30〜4/11）は開始が3か月超先のため未登録。",
+  "notes": "2026-10-16 時点で公式トップに「開催中」の展覧会の記載なし（10月は県展期間で閉館時間変更・臨時休館あり。10/26以降の臨時休館の記載なし）。大チーバくん展は11/23(月祝)・1/11(月祝)開館、翌平日休館で holiday_rule どおり。入場料は展覧会ごとに異なり、常設のコレクション展固有の料金は公式サイトに明記なし（adult_price は null）。県民の日（6/15）と文化の日（11/3）は全展示の入場料が無料（free_days に登録済み、今回は3か月以内の文化の日のみ）。65歳以上・中学生以下・障害者手帳所持者と介護者1名は常時無料（大人一般ではないため free_days には含めていない）。「大髙正人展」（2027/1/30〜4/11）は開始が3か月超先のため未登録。 10/23: 公式サイトはシステムメンテナンス中で全ページ読めず、臨時休館(10/20-25)と展示は10/16時点の値を維持。千葉県の発表で大チーバくん展は10/31〜1/17、9:00-16:30、月曜休館（祝日の場合は翌日）を確認。",
   "free_days": [
     {
       "from": "2026-11-03",
@@ -79,5 +80,5 @@
       "source_url": "https://www.chiba-muse.or.jp/ART/visit/"
     }
   ],
-  "confidence": "high"
+  "confidence": "medium"
 }

@@ -1,128 +1,128 @@
 [
  {
   "no": 1,
-  "at": "2026-10-10T12:00:00+09:00",
+  "at": "2026-10-18T12:00:00+09:00",
   "slot": "noon",
-  "museum": "Q11403934",
-  "key": "ending:e9eecb15f0",
-  "kind": "ending",
-  "text": "【本日最終日】\n「第79回きたみ市民芸術祭 美術展」\n北網圏北見文化センター（北海道）\n10/10（土）まで\n\n#展覧会 #美術館\nhttps://riku1128-tong.github.io/museum-watch/e/e9eecb15f0.html?utm_source=x&utm_medium=social&utm_campaign=ending"
+  "key": "free:wp-62e6ed51:2026-10-18",
+  "museum": "wp-62e6ed51",
+  "kind": "free",
+  "text": "【今日は無料】茨城県陶芸美術館（茨城県）\n無料開放日：茨城トヨタプレゼンツ1日無料day\n10/18（日） 09:30–17:00\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/wp-62e6ed51.html?utm_source=x&utm_medium=social&utm_campaign=free"
  },
  {
   "no": 2,
-  "at": "2026-10-10T19:00:00+09:00",
+  "at": "2026-10-18T19:00:00+09:00",
   "slot": "evening",
-  "key": "free:Q1362629:2026-10-11",
-  "museum": "Q1362629",
-  "kind": "free",
-  "text": "【明日は無料】国立西洋美術館（東京都）\n常設展 無料開放日：毎月第2日曜日（Kawasaki Free Sunday）\n10/11（日） 09:30–17:30\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/Q1362629.html?utm_source=x&utm_medium=social&utm_campaign=free"
+  "museum": "Q11637569",
+  "key": "ending:7c8991f9ba",
+  "kind": "ending",
+  "text": "【会期終了まであと1日】\n「2026年特別展「ピーターラビット™となかまたち」夏展　ピーターと、ねことねずみのおはなし、ときどきカエル」\n軽井沢絵本の森美術館（長野県）\n10/19（月）まで\n\n#展覧会 #美術館\nhttps://riku1128-tong.github.io/museum-watch/e/7c8991f9ba.html?utm_source=x&utm_medium=social&utm_campaign=ending"
  },
  {
   "no": 3,
-  "at": "2026-10-11T12:00:00+09:00",
+  "at": "2026-10-19T12:00:00+09:00",
   "slot": "noon",
-  "key": "free:Q11564683:2026-10-11",
-  "museum": "Q11564683",
-  "kind": "free",
-  "text": "【今日は無料】滋賀県立美術館（滋賀県）\n常設展 無料開放日：フリーサンデー（常設展無料）\n10/11（日） 09:30–17:00\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/Q11564683.html?utm_source=x&utm_medium=social&utm_campaign=free"
+  "museum": "Q843638",
+  "key": "ending:2b898bd349",
+  "kind": "ending",
+  "text": "【会期終了まであと1日】\n「生誕150年　吉田博展」\nMOA美術館（静岡県）\n10/20（火）まで\n\n#展覧会 #美術館\nhttps://riku1128-tong.github.io/museum-watch/e/2b898bd349.html?utm_source=x&utm_medium=social&utm_campaign=ending"
  },
  {
   "no": 4,
-  "at": "2026-10-11T19:00:00+09:00",
+  "at": "2026-10-19T19:00:00+09:00",
   "slot": "evening",
-  "key": "free:Q11260168:2026-10-12",
-  "museum": "Q11260168",
-  "kind": "free",
-  "text": "【明日は無料】いわき市立美術館（福島県）\n常設展 無料開放日：祝日は常設展観覧無料（スポーツの日）\n10/12（月） 09:30–17:00\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/Q11260168.html?utm_source=x&utm_medium=social&utm_campaign=free"
+  "museum": "Q653433",
+  "key": "ex:4668dd8bf1",
+  "kind": "new",
+  "text": "【開催中】\n「大徳寺　本朝無双之禅苑」\n東京国立博物館（東京都）\n12/6（日）まで\n\n#展覧会 #美術館\nhttps://riku1128-tong.github.io/museum-watch/e/4668dd8bf1.html?utm_source=x&utm_medium=social&utm_campaign=new"
  },
  {
   "no": 5,
-  "at": "2026-10-12T12:00:00+09:00",
+  "at": "2026-10-20T12:00:00+09:00",
   "slot": "noon",
-  "museum": "Q3539675",
-  "key": "ending:3f6d148283",
-  "kind": "ending",
-  "text": "【本日最終日】\n「「竹の子族」「映画の人びと」そして酒田 ／ 第32回酒田市土門拳文化賞受賞作品展」\n土門拳記念館（山形県）\n10/12（月）まで\n\n#展覧会 #美術館\nhttps://riku1128-tong.github.io/museum-watch/e/3f6d148283.html?utm_source=x&utm_medium=social&utm_campaign=ending"
+  "museum": "Q147312",
+  "key": "ex:99da41fc66",
+  "kind": "upcoming",
+  "text": "【まもなく開幕】\n「第78回 正倉院展」\n奈良国立博物館（奈良県）\n10/24〜11/9\n初出陳11件を含む60件の正倉院宝物が一堂に会する年に一度の機会。今回は第1回展から80周年の節目にあたり、約1300年前の聖武天皇ゆかりの宝物に直接対面でき…\n\n#展覧会 #美術館\nhttps://riku1128-tong.github.io/museum-watch/e/99da41fc66.html?utm_source=x&utm_medium=social&utm_campaign=upcoming"
  },
  {
   "no": 6,
-  "at": "2026-10-12T19:00:00+09:00",
+  "at": "2026-10-20T19:00:00+09:00",
   "slot": "evening",
-  "museum": "Q11551651",
-  "key": "ending:13cd72a385",
-  "kind": "ending",
-  "text": "【会期終了まであと1日】\n「入江観展 空遙か」\n池田20世紀美術館（静岡県）\n10/13（火）まで\n\n#展覧会 #美術館\nhttps://riku1128-tong.github.io/museum-watch/e/13cd72a385.html?utm_source=x&utm_medium=social&utm_campaign=ending"
+  "key": "free:Q11364291:2026-10-21",
+  "museum": "Q11364291",
+  "kind": "free",
+  "text": "【明日は無料】中山道広重美術館（岐阜県）\n無料開放日：2027年3月末まで毎週水・金曜日は観覧料無料\n10/21（水） 09:30–17:00\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/Q11364291.html?utm_source=x&utm_medium=social&utm_campaign=free"
  },
  {
   "no": 7,
-  "at": "2026-10-13T12:00:00+09:00",
+  "at": "2026-10-21T12:00:00+09:00",
   "slot": "noon",
-  "museum": "Q147286",
-  "key": "ex:bd10cfccaf",
-  "kind": "new",
-  "text": "【開催中】\n「特別展　源氏物語　王朝のかがやき」\n京都国立博物館（京都府）\n11/29（日）まで\n国宝「源氏物語絵巻」に加え、藤原定家校訂の写本や分蔵ゆえ全体像不明の「盛安本」など貴重な資料が集結する、過去最大規模の源氏物語展。\n\n#展覧会 #美術館\nhttps://riku1128-tong.github.io/museum-watch/e/bd10cfccaf.html?utm_source=x&utm_medium=social&utm_campaign=new"
+  "museum": "Q11670668",
+  "key": "ending:82d9146ffe",
+  "kind": "ending",
+  "text": "【会期終了まであと3日】\n「わたしたちのしごと ボクたちのいきかた―高梁城南高校に勤める6名が描く 教師としての私と、表現者としての僕」\n高梁市成羽美術館（岡山県）\n10/24（土）まで\n\n#展覧会 #美術館\nhttps://riku1128-tong.github.io/museum-watch/e/82d9146ffe.html?utm_source=x&utm_medium=social&utm_campaign=ending"
  },
  {
   "no": 8,
-  "at": "2026-10-13T19:00:00+09:00",
+  "at": "2026-10-21T19:00:00+09:00",
   "slot": "evening",
-  "key": "free:Q11364291:2026-10-14",
-  "museum": "Q11364291",
-  "kind": "free",
-  "text": "【明日は無料】中山道広重美術館（岐阜県）\n無料開放日：2027年3月末まで毎週水・金曜日は観覧料無料\n10/14（水） 09:30–17:00\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/Q11364291.html?utm_source=x&utm_medium=social&utm_campaign=free"
+  "museum": "Q1362629",
+  "key": "ex:a87ceacc25",
+  "kind": "new",
+  "text": "【開催中】\n「小企画展 劇場をめぐるイメージ―ドラクロワ、ドーミエからトゥールーズ=ロートレック、クリンガーまで」\n国立西洋美術館（東京都）\n1/11（月）まで\nドラクロワやドーミエ、ロートレック、クリンガーらが描いた大劇場から小劇場、カフェ=…\n\n#展覧会 #美術館\nhttps://riku1128-tong.github.io/museum-watch/e/a87ceacc25.html?utm_source=x&utm_medium=social&utm_campaign=new"
  },
  {
   "no": 9,
-  "at": "2026-10-14T12:00:00+09:00",
+  "at": "2026-10-22T12:00:00+09:00",
   "slot": "noon",
-  "key": "free:Q11399543:2026-10-14",
-  "museum": "Q11399543",
-  "kind": "free",
-  "text": "【今日は無料】中山道広重美術館（岐阜県）\n無料開放日：フリーウエンズデー（2027年3月末まで）\n10/14（水） 09:30–17:00\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/Q11399543.html?utm_source=x&utm_medium=social&utm_campaign=free"
+  "key": "promo:3",
+  "museum": null,
+  "kind": "promo",
+  "text": "19 時以降も開いている美術館の一覧です。\n仕事帰りの美術館に。\n\n#美術館 #夜間開館\nhttps://riku1128-tong.github.io/museum-watch/f/late.html?utm_source=x&utm_medium=social&utm_campaign=promo"
  },
  {
   "no": 10,
-  "at": "2026-10-14T19:00:00+09:00",
+  "at": "2026-10-22T19:00:00+09:00",
   "slot": "evening",
-  "museum": "Q11403934",
-  "key": "ending:33d512f473",
-  "kind": "ending",
-  "text": "【会期終了まであと4日】\n「第79回きたみ市民芸術祭 書道・写真展」\n北網圏北見文化センター（北海道）\n10/18（日）まで\n\n#展覧会 #美術館\nhttps://riku1128-tong.github.io/museum-watch/e/33d512f473.html?utm_source=x&utm_medium=social&utm_campaign=ending"
+  "key": "free:Q1055037:2026-10-23",
+  "museum": "Q1055037",
+  "kind": "free",
+  "text": "【明日は無料】国立国際美術館（大阪府）\n無料開放日：ラボラトリー・スペシャルフリーデー（特別無料観覧日）\n10/23（金） 10:00–20:00\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/Q1055037.html?utm_source=x&utm_medium=social&utm_campaign=free"
  },
  {
   "no": 11,
-  "at": "2026-10-15T12:00:00+09:00",
+  "at": "2026-10-23T12:00:00+09:00",
   "slot": "noon",
-  "key": "promo:2",
-  "museum": null,
-  "kind": "promo",
-  "text": "大人一般が無料になる日を、6 週間先までカレンダーにしています。\n県民の日・都民の日・国際博物館の日なども。\n\n#無料開放 #美術館\nhttps://riku1128-tong.github.io/museum-watch/f/free.html?utm_source=x&utm_medium=social&utm_campaign=promo"
+  "key": "free:Q11364291:2026-10-23",
+  "museum": "Q11364291",
+  "kind": "free",
+  "text": "【今日は無料】中山道広重美術館（岐阜県）\n無料開放日：2027年3月末まで毎週水・金曜日は観覧料無料\n10/23（金） 09:30–17:00\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/Q11364291.html?utm_source=x&utm_medium=social&utm_campaign=free"
  },
  {
   "no": 12,
-  "at": "2026-10-15T19:00:00+09:00",
+  "at": "2026-10-23T19:00:00+09:00",
   "slot": "evening",
-  "key": "free:Q1055037:2026-10-16",
+  "key": "free:Q1055037:2026-10-24",
   "museum": "Q1055037",
   "kind": "free",
-  "text": "【明日は無料】国立国際美術館（大阪府）\n無料開放日：ラボラトリー・スペシャルフリーデー（特別無料観覧日）\n10/16（金） 10:00–20:00\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/Q1055037.html?utm_source=x&utm_medium=social&utm_campaign=free"
+  "text": "【明日は無料】国立国際美術館（大阪府）\n無料開放日：ラボラトリー・スペシャルフリーデー（特別無料観覧日）\n10/24（土） 10:00–17:00\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/Q1055037.html?utm_source=x&utm_medium=social&utm_campaign=free"
  },
  {
   "no": 13,
-  "at": "2026-10-16T12:00:00+09:00",
+  "at": "2026-10-24T12:00:00+09:00",
   "slot": "noon",
-  "key": "free:Q11364291:2026-10-16",
-  "museum": "Q11364291",
+  "key": "free:Q11564683:2026-10-24",
+  "museum": "Q11564683",
   "kind": "free",
-  "text": "【今日は無料】中山道広重美術館（岐阜県）\n無料開放日：2027年3月末まで毎週水・金曜日は観覧料無料\n10/16（金） 09:30–17:00\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/Q11364291.html?utm_source=x&utm_medium=social&utm_campaign=free"
+  "text": "【今日は無料】滋賀県立美術館（滋賀県）\n常設展 無料開放日：フリーサタデー（常設展無料）\n10/24（土） 09:30–17:00\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/Q11564683.html?utm_source=x&utm_medium=social&utm_campaign=free"
  },
  {
   "no": 14,
-  "at": "2026-10-16T19:00:00+09:00",
+  "at": "2026-10-24T19:00:00+09:00",
   "slot": "evening",
-  "key": "free:Q1055037:2026-10-17",
-  "museum": "Q1055037",
-  "kind": "free",
-  "text": "【明日は無料】国立国際美術館（大阪府）\n無料開放日：ラボラトリー・スペシャルフリーデー（特別無料観覧日）\n10/17（土） 10:00–17:00\n\n#美術館 #無料開放\nhttps://riku1128-tong.github.io/museum-watch/m/Q1055037.html?utm_source=x&utm_medium=social&utm_campaign=free"
+  "museum": "Q11662266",
+  "key": "ending:6cef446803",
+  "kind": "ending",
+  "text": "【会期終了まであと1日】\n「ART PLAYERS展　ー青森県障がい者アートのこれからー」\n青森県立美術館（青森県）\n10/25（日）まで\n\n#展覧会 #美術館\nhttps://riku1128-tong.github.io/museum-watch/e/6cef446803.html?utm_source=x&utm_medium=social&utm_campaign=ending"
  }
 ]

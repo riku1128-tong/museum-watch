@@ -1,20 +1,20 @@
 {
   "id": "Q17213009",
-  "checked_at": "2026-10-16T22:30:00+09:00",
+  "checked_at": "2026-10-23T08:15:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.shimada-museum.net/",
   "address": "熊本県熊本市西区島崎4-5-28",
   "source_urls": [
-    "https://www.navitime.co.jp/category/0705014/43103/",
-    "https://kumanichi.com/articles/1283801"
+    "https://www.shimada-museum.net/event.html",
+    "https://www.shimada-museum.net/eng.html",
+    "https://kumanichi.com/articles/2037412"
   ],
   "regular_hours": [
     {
       "days": [
         "mon",
-        "wed",
         "thu",
         "fri",
         "sat",
@@ -22,19 +22,15 @@
         "holiday"
       ],
       "open": "10:00",
-      "close": "17:00",
-      "last_entry": "16:30"
+      "close": "16:30",
+      "last_entry": "16:00"
     }
   ],
   "closed_weekdays": [
-    "tue"
+    "tue",
+    "wed"
   ],
-  "closed_nth_weekdays": [
-    {
-      "weekday": "wed",
-      "nth": [2, 4]
-    }
-  ],
+  "closed_nth_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
@@ -51,6 +47,6 @@
   ],
   "highlights": "初代館長・島田真富が生涯をかけて蒐集した宮本武蔵の遺品・遺墨・絵画を核に、加藤清正・細川家ゆかりの肥後熊本関係史料や近現代美術を収蔵する私設美術館。紙本作品は日光による劣化を防ぐため年間を通じて展示替えが行われ、来るたびに新たな発見がある。",
   "closed_between_exhibitions": false,
-  "notes": "2026-10-16の再挑戦（追加）でもトップはタイトルのみ取得でき、検索でも現在の展示は見つからず。2026-10-16の再確認でも公式サイトは本文を取得できず（/guide/ /exhibition/ は404）。検索では企画展「武蔵とあやかし」が2026-09-27で終了と確認、以降の展示は未確認のため exhibitions は空。公式サイト（shimada-museum.net）はJavaScriptで描画されるためWebFetchでは内容を取得できず。開館時間（10:00-17:00・最終入館16:30）・休館日（火曜・第2第4水曜・祝祭日の場合は開館・年末年始・展示替え期間）はnavitime掲載情報と熊本日日新聞記事（2026/6月の企画展紹介）で確認。再挑戦（2026-10-10）でも同様の結果。現在の展覧会は未確認のため exhibitions は空。入館料700円はnavitime掲載から確認済み。年末年始の具体的休館日は未確認。",
-  "confidence": "low"
+  "notes": "2026-10-23の再挑戦で公式 event.html と eng.html が取得でき、開館時間（10:00-16:30・入場16:00まで）、休館日（火・水曜、祝祭日は開館、年末年始、展示替え時）、入館料（一般700円）、企画展（2026-10-08〜2027-01-11）を確認。展覧会タイトルはバナー画像内のみで本文に無く未確認のため仮の表記。以前の第2第4水曜休館・17:00閉館はnavitime由来で公式と異なるため改めた。2026-10の展示替え休館（9/28〜10/7）は終了済み。トップページはJS描画で本文を取得できない。年末年始の具体的な日付は未確認。2026年7月の地震による臨時休館の告知が公式にあったとの検索結果があるが詳細未確認。 2026-10-08〜2027-01-11 に花・鳥・虫を題材にした企画展を開催中（公式 event.html）。正式タイトルはバナー画像内にしかなく読めないため、展示には登録していない。",
+  "confidence": "medium"
 }

@@ -1,7 +1,7 @@
 {
   "id": "Q11391188",
-  "checked_at": "2026-10-16T22:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://hachinohe-art-museum.jp/",
@@ -12,16 +12,60 @@
     "https://hachinohe-art-museum.jp/exhibition/",
     "https://hachinohe-art-museum.jp/exhibition/7048",
     "https://hachinohe-art-museum.jp/exhibition/7150",
-    "https://hachinohe-art-museum.jp/exhibition/7510"
+    "https://hachinohe-art-museum.jp/exhibition/7510",
+    "https://hachinohe-art-museum.jp/exhibition/7590"
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "19:00"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "from": "2026-12-28",
+      "to": "2026-12-28"
+    },
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "from": "2027-01-02",
+      "to": "2027-01-03"
     }
   ],
-  "closed_weekdays": ["tue"],
+  "closed_weekdays": [
+    "tue"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -30,7 +74,12 @@
       "reason": "年末年始"
     }
   ],
-  "special_openings": [],
+  "special_openings": [
+    {
+      "date": "2026-11-03",
+      "note": "文化の日は火曜でも開館"
+    }
+  ],
   "exhibitions": [
     {
       "title": "コレクションラボ014　岡山良一　八戸モダンの風",
@@ -42,22 +91,6 @@
       "recommend": "八戸モダンアートのパイオニア・岡山良一の絵画や半立体から雑誌挿絵・建築デザインまで多彩な活動を紹介。ゆかりの仲間たちの作品もあわせて展示する、無料で楽しめるコレクション展。",
       "admission": "無料",
       "adult_price": 0
-    },
-    {
-      "title": "第63回八戸市美術展",
-      "start": "2026-10-08",
-      "end": "2026-10-18",
-      "url": "https://hachinohe-art-museum.jp/exhibition/7144",
-      "kind": "other",
-      "summary": "八戸市民による公募美術展（前期：10/8〜11、後期：10/15〜18）",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null,
-      "closed_dates": [
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-14"
-      ]
     },
     {
       "title": "第47回青森県高等学校総合文化祭",
@@ -84,8 +117,8 @@
       "kind": "other",
       "summary": "クレイアート作家・古畑雅規の作品展（2日間）",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "MOA美術館八戸児童作品展",
@@ -95,8 +128,41 @@
       "kind": "other",
       "summary": "MOA美術館主催の児童作品展（2日間）",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第23回青森県中学校総合文化祭",
+      "start": "2026-11-04",
+      "end": "2026-11-06",
+      "url": "https://hachinohe-art-museum.jp/exhibition/7589",
+      "kind": "other",
+      "summary": "青森県内の中学生の作品を集めた総合文化祭",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "季心書道展",
+      "start": "2026-11-05",
+      "end": "2026-11-08",
+      "url": "https://hachinohe-art-museum.jp/exhibition/7590",
+      "kind": "other",
+      "summary": "書道展（会期と時間欄の日付に食い違いあり）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "Itty Bitty Woodie EARTHLY",
+      "start": "2026-11-20",
+      "end": "2026-11-23",
+      "url": "https://hachinohe-art-museum.jp/exhibition/7653",
+      "kind": "other",
+      "summary": "企画展示（4日間）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "ヨシタケシンスケ展かもしれない",
@@ -133,6 +199,6 @@
   ],
   "highlights": "2021年開館の「アートファーム」をコンセプトにした美術館。可動間仕切りで自在に使えるジャイアントルーム（834㎡）を核に、八戸ゆかりの作品約3,000点を収蔵。展覧会だけでなく市民参加のプロジェクト活動も重視し、地域と一体になった創造空間を作る。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は火曜日（祝日の場合は翌平日休館）、年末年始（12/29〜1/1）。コレクションラボ014は無料。第63回八戸市美術展は前期（10/8〜11）・後期（10/15〜18）の2期制のため中間日（10/12〜14）をclosed_datesに入れた。第47回高文祭は書道（10/23〜25）・美術（10/30〜11/1）の2部構成（10/26〜29は開催なし）。2026-10-10 light巡回：高文祭・古畑雅規展・MOA児童作品展を追加。",
+  "notes": "休館日は火曜日（祝日の場合は開館し翌平日休館。公式の例外: 11/3開館・11/4休館）、年末年始（12/29〜1/1）。12/28と1/2〜3は17時閉館。コレクションラボ014は無料。高文祭は書道（10/23〜25）・美術（10/30〜11/1）の2部構成。季心書道展は会期（11/5〜8）と時間欄（11/6〜8）が食い違うため会期欄を採用。2026-10-23 full巡回。",
   "confidence": "high"
 }

@@ -1,7 +1,7 @@
 {
   "id": "Q11614836",
-  "checked_at": "2026-10-16T22:25:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://ashiya-museum.jp",
@@ -13,12 +13,32 @@
     "https://ashiya-museum.jp/collection/"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-09-28", "to": "2026-10-21", "reason": "展示替休館"}
+    {
+      "from": "2026-09-28",
+      "to": "2026-10-21",
+      "reason": "展示替休館"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -46,10 +66,16 @@
   ],
   "free_rules": [],
   "access": [
-    {"station": "阪神芦屋", "lines": "阪神本線", "exit": null, "walk_min": 15, "note": "JR芦屋駅・阪急芦屋川駅から阪急バス「緑町」下車徒歩3分"}
+    {
+      "station": "阪神芦屋",
+      "lines": "阪神本線",
+      "exit": null,
+      "walk_min": 15,
+      "note": "JR芦屋駅・阪急芦屋川駅から阪急バス「緑町」下車徒歩3分"
+    }
   ],
   "highlights": "芦屋にゆかりの深い具体美術協会の画家たち（吉原治良・田中敦子・小出楢重）を中心に、洋画・日本画・版画を幅広く所蔵する公立美術館。常設展は一般300円で楽しめ、浮世絵など日本近世美術の特別展も年間を通じて開催する。",
   "closed_between_exhibitions": true,
-  "notes": "常設展の観覧料は一般300円（特別展は別料金）。次回開館は10月22日(木)10:00（浮世絵の風景画展）。展示替休館中（2026-09-28〜2026-10-21）。将来の展示「チェコ絵本の作り方」は準備中で詳細未定。",
+  "notes": "常設展の観覧料は一般300円（特別展は別料金）。次回開館は10月22日(木)10:00（浮世絵の風景画展）。展示替休館中（2026-09-28〜2026-10-21）。将来の展示「チェコ絵本の作り方」は準備中で詳細未定。 2026-10-23: 公式サイトがメンテナンス表示で読めず、前回の内容を維持。",
   "confidence": "high"
 }

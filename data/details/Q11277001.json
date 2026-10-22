@@ -1,6 +1,6 @@
 {
   "id": "Q11277001",
-  "checked_at": "2026-10-16T22:21:28+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -16,12 +16,22 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
@@ -64,7 +74,20 @@
       "admission": "無料",
       "adult_price": 0,
       "closed_weekdays": [],
-      "closed_dates": ["2026-10-13"]
+      "closed_dates": [
+        "2026-10-13"
+      ]
+    },
+    {
+      "title": "新刀・東西の巨匠 虎徹と助広",
+      "start": "2027-01-24",
+      "end": "2027-03-22",
+      "url": "https://www.city.fukuyama.hiroshima.jp/site/fukuyama-museum/319657.html",
+      "kind": "special",
+      "summary": "江戸前期の刀工、長曽祢虎徹と津田助広を中心に新刀の名品を紹介する特別展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 310,
@@ -81,6 +104,6 @@
   ],
   "highlights": "市民の要望で1988年に開館した広島県福山市の公立美術館。岸田劉生の「麗子十六歳之像」やイタリア未来派の作品をはじめ、日本の近現代絵画とヨーロッパ美術を幅広く収蔵。隣接するふくやま書道美術館と共通券での観覧もでき、JR福山駅から徒歩5分。",
   "closed_between_exhibitions": false,
-  "notes": "年末年始休館日程は公式ページに具体的な日付の記載なし。月曜祝日は開館し翌平日休館（10/12開館・10/13休館の記載を展覧会ページで確認）。ふくやま書道美術館所蔵品展と共通観覧可。",
+  "notes": "年末年始休館日程は公式ページに具体的な日付の記載なし。月曜祝日は開館し翌平日休館（10/12開館・10/13休館の記載を展覧会ページで確認）。ふくやま書道美術館所蔵品展と共通観覧可。 2026-10-23 light: 特別展ページで2027年1月の特別展「新刀・東西の巨匠 虎徹と助広」を確認（料金未確認）。お知らせに「夜間開館とロビーコンサート」があるが詳細は読めず。",
   "confidence": "high"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q11402997",
-  "checked_at": "2026-10-16T22:30:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -70,6 +70,17 @@
       "url": "https://www.kushiro-artmu.jp/schedule/",
       "kind": "special",
       "summary": "子どもから大人まで鑑賞を楽しむ参加型の芸術祭",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "柳楽航平写真展 原野再読",
+      "start": "2027-01-26",
+      "end": "2027-03-07",
+      "url": "https://www.kushiro-artmu.jp/",
+      "kind": "special",
+      "summary": "柳楽航平の写真展",
       "recommend": null,
       "admission": null,
       "adult_price": null

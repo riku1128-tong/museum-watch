@@ -1,7 +1,7 @@
 {
   "id": "Q11497319",
-  "checked_at": "2026-10-16T22:25:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.shokoku-ji.jp/museum/",
@@ -32,11 +32,6 @@
   "closed_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [
-    {
-      "from": "2026-09-28",
-      "to": "2026-10-16",
-      "reason": "展示替え休館"
-    },
     {
       "from": "2026-12-27",
       "to": "2027-01-08",

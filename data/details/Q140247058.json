@@ -1,84 +1,84 @@
 {
- "id": "Q140247058",
- "checked_at": "2026-10-16T22:30:00+09:00",
- "check_mode": "full",
- "operating_status": "operating",
- "status_note": null,
- "official_url": "https://www.tempo-harbor-theater.com/",
- "address": "〒552-0022 大阪府大阪市港区海岸通1丁目5番10号",
- "source_urls": [
-  "https://www.tempo-harbor-theater.com/",
-  "https://www.tempo-harbor-theater.com/wadaiko-rhythm-quest",
-  "https://www.tempo-harbor-theater.com/utage-live-show",
-  "https://www.tempo-harbor-theater.com/about-1"
- ],
- "regular_hours": [
-  {
-   "days": [
-    "mon",
-    "tue",
-    "wed",
-    "thu",
-    "fri",
-    "sat",
-    "sun",
-    "holiday"
-   ],
-   "open": "08:00",
-   "close": "22:00"
-  }
- ],
- "closed_weekdays": [],
- "holiday_rule": "open",
- "special_closures": [],
- "special_openings": [],
- "exhibitions": [
-  {
-   "title": "\"WA\"DAIKO RHYTHM QUEST（和太鼓体験型ショー）",
-   "start": "2026-10-10",
-   "end": "2027-10-10",
-   "url": "https://www.tempo-harbor-theater.com/wadaiko-rhythm-quest",
-   "kind": "other",
-   "summary": "和太鼓を体験しながら楽しむインタラクティブなリズムショー。月・火・金曜 15:00～16:00",
-   "recommend": null,
-   "admission": "大人10,000円",
-   "adult_price": 10000
-  },
-  {
-   "title": "UTAGE LIVE SHOW（宴）",
-   "start": "2026-10-10",
-   "end": "2027-10-10",
-   "url": "https://www.tempo-harbor-theater.com/utage-live-show",
-   "kind": "other",
-   "summary": "和太鼓・三味線・獅子舞・殺陣を組み合わせた定期公演。15:00/17:00/19:30（水曜は13:00/17:00/19:30）",
-   "recommend": null,
-   "admission": null,
-   "adult_price": null
-  },
-  {
-   "title": "OSAKA NIGHT FUSION",
-   "start": "2026-10-10",
-   "end": "2027-10-10",
-   "url": "https://www.tempo-harbor-theater.com/about-1",
-   "kind": "other",
-   "summary": "夜の大阪天保山で楽しむエンターテインメントショー",
-   "recommend": null,
-   "admission": null,
-   "adult_price": null
-  }
- ],
- "adult_price": null,
- "access": [
-  {
-   "station": "大阪港",
-   "lines": "Osaka Metro中央線",
-   "exit": null,
-   "walk_min": 5,
-   "note": null
-  }
- ],
- "highlights": "安藤忠雄が設計した天保山の複合文化施設。海遊館の隣に立ち、館内のTEMPO HARBOR THEATERで和太鼓や三味線などの和楽器と殺陣・獅子舞を組み合わせた定期公演が楽しめる。体験型ショーや夜間公演もあり、大阪らしい伝統芸能エンターテインメントを発信する。",
- "closed_between_exhibitions": false,
- "notes": "美術展示を行う館ではなく、シアター（442席）を中心とした施設。公式の営業時間は08:00〜22:00（シアター運営会社の施設概要）。定休日の記載なし。公演は曜日・時間が決まっている。osaka-c-t.jp は旧サイトのアーカイブ。展示物は公演スケジュール扱い。exhibition の end は確認できないため 1 年後として登録。",
- "confidence": "medium"
+  "id": "Q140247058",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "light",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.tempo-harbor-theater.com/",
+  "address": "〒552-0022 大阪府大阪市港区海岸通1丁目5番10号",
+  "source_urls": [
+    "https://www.tempo-harbor-theater.com/",
+    "https://www.tempo-harbor-theater.com/wadaiko-rhythm-quest",
+    "https://www.tempo-harbor-theater.com/utage-live-show",
+    "https://www.tempo-harbor-theater.com/about-1"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "08:00",
+      "close": "22:00"
+    }
+  ],
+  "closed_weekdays": [],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "\"WA\"DAIKO RHYTHM QUEST（和太鼓体験型ショー）",
+      "start": "2026-10-10",
+      "end": "2027-10-10",
+      "url": "https://www.tempo-harbor-theater.com/wadaiko-rhythm-quest",
+      "kind": "other",
+      "summary": "和太鼓を体験しながら楽しむインタラクティブなリズムショー。月・火・金曜 15:00～16:00",
+      "recommend": null,
+      "admission": "大人10,000円",
+      "adult_price": 10000
+    },
+    {
+      "title": "UTAGE LIVE SHOW（宴）",
+      "start": "2026-10-10",
+      "end": "2027-10-10",
+      "url": "https://www.tempo-harbor-theater.com/utage-live-show",
+      "kind": "other",
+      "summary": "和太鼓・三味線・獅子舞・殺陣を組み合わせた定期公演。15:00/17:00/19:30（水曜は13:00/17:00/19:30）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "OSAKA NIGHT FUSION",
+      "start": "2026-10-10",
+      "end": "2027-10-10",
+      "url": "https://www.tempo-harbor-theater.com/about-1",
+      "kind": "other",
+      "summary": "夜の大阪天保山で楽しむエンターテインメントショー",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "access": [
+    {
+      "station": "大阪港",
+      "lines": "Osaka Metro中央線",
+      "exit": null,
+      "walk_min": 5,
+      "note": null
+    }
+  ],
+  "highlights": "安藤忠雄が設計した天保山の複合文化施設。海遊館の隣に立ち、館内のTEMPO HARBOR THEATERで和太鼓や三味線などの和楽器と殺陣・獅子舞を組み合わせた定期公演が楽しめる。体験型ショーや夜間公演もあり、大阪らしい伝統芸能エンターテインメントを発信する。",
+  "closed_between_exhibitions": false,
+  "notes": "美術展示を行う館ではなく、シアター（442席）を中心とした施設。公式の営業時間は08:00〜22:00（シアター運営会社の施設概要）。定休日の記載なし。公演は曜日・時間が決まっている。osaka-c-t.jp は旧サイトのアーカイブ。展示物は公演スケジュール扱い。exhibition の end は確認できないため 1 年後として登録。",
+  "confidence": "medium"
 }

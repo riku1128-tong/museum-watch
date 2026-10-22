@@ -1,6 +1,6 @@
 {
   "id": "wp-e2e58fdb",
-  "checked_at": "2026-10-16T22:25:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -14,12 +14,32 @@
     "https://www.city.niigata.lg.jp/nam/exhibitions/fy2026exh/2026miniature.html"
   ],
   "regular_hours": [
-    {"days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "17:00", "last_entry": "16:30"}
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "17:00",
+      "last_entry": "16:30"
+    }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-28", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -73,8 +93,18 @@
   "free_days": [],
   "free_rules": [],
   "access": [
-    {"station": "新津", "lines": "JR信越本線・羽越本線", "walk_min": null, "note": "秋葉区バスで約25分「美術館・植物園前」下車"},
-    {"station": "矢代田", "lines": "JR信越本線", "walk_min": null, "note": "秋葉区バスで約10分「美術館・植物園前」下車、またはタクシー約5分"}
+    {
+      "station": "新津",
+      "lines": "JR信越本線・羽越本線",
+      "walk_min": null,
+      "note": "秋葉区バスで約25分「美術館・植物園前」下車"
+    },
+    {
+      "station": "矢代田",
+      "lines": "JR信越本線",
+      "walk_min": null,
+      "note": "秋葉区バスで約10分「美術館・植物園前」下車、またはタクシー約5分"
+    }
   ],
   "highlights": "新潟市郊外・花と遺跡のふるさと公園内に立つ郊外型美術館。無料駐車場250台完備でゆったりと鑑賞できる環境が魅力。写真・映像・現代アートなど幅広いジャンルの企画展を年数回開催し、田中達也など人気作家の個展も積極的に誘致している。",
   "notes": "正式名称は「新潟市新津美術館」。展覧会準備期間中は休館。",

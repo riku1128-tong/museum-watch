@@ -1,7 +1,7 @@
 {
   "id": "wp-d535f106",
-  "checked_at": "2026-10-16T22:20:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "temporarily_closed",
   "status_note": "公式サイトが「閉館中」と表示。春・秋の期間限定で開館。2026年秋の再開準備中との記載あり（再開日不明）",
   "official_url": "https://matsuekitahori.com/",
@@ -14,13 +14,25 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "16:00",
       "last_entry": "15:30"
     }
   ],
-  "closed_weekdays": ["tue", "wed"],
+  "closed_weekdays": [
+    "tue",
+    "wed"
+  ],
   "holiday_rule": "unknown",
   "special_closures": [],
   "special_openings": [],
@@ -54,6 +66,6 @@
   ],
   "highlights": "1920〜1970年代のフランスの広告芸術（ポスター）を収蔵・展示する美術館。ポール・コランやカッサンドル、カッピエロらの作品を「劇場・生活・観光」のテーマで紹介。松江城周辺の北堀町に位置し、春と秋の期間限定で開館する。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（matsuekitahori.com）は2026-10-10時点で「閉館中」と表示。広告芸術資料館のページに「春と秋に期間限定で開館します」「2026年秋開館準備中」とあり、現在は閉館中で再開準備中と判断。開館時間・入館料は2021年のブログ記事に基づく（10:00-16:00、最終入館15:30、一般1,300円）。現在の料金は要確認。",
+  "notes": "公式サイト（matsuekitahori.com）は2026-10-10時点で「閉館中」と表示。広告芸術資料館のページに「春と秋に期間限定で開館します」「2026年秋開館準備中」とあり、現在は閉館中で再開準備中と判断。開館時間・入館料は2021年のブログ記事に基づく（10:00-16:00、最終入館15:30、一般1,300円）。現在の料金は要確認。 2026-10-23再確認: トップは引き続き「閉館中」、再開日の記載なし。",
   "confidence": "low"
 }

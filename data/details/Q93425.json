@@ -1,7 +1,7 @@
 {
   "id": "Q93425",
-  "checked_at": "2026-10-16T22:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-23T08:30:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.hiroshima-moca.jp/",
@@ -13,17 +13,28 @@
     "https://www.hiroshima-moca.jp/moca/about/",
     "https://www.hiroshima-moca.jp/moca/access/",
     "https://www.hiroshima-moca.jp/exhibition/screening_20261017",
-    "https://www.hiroshima-moca.jp/exhibition/collection2026-2"
+    "https://www.hiroshima-moca.jp/exhibition/collection2026-2",
+    "https://www.hiroshima-moca.jp/exhibition/"
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -55,10 +66,51 @@
       "recommend": "過去作品を引用し時代を超えた対話を試みる展示、修復・保存を経た作品の継承、ヒロシマ賞35年の変遷が一堂に。美術館そのものの時間を問い直す野心的なコレクション展。",
       "admission": "一般 350円",
       "adult_price": 350
+    },
+    {
+      "title": "千崎千恵夫　眼差しの奥にむかって",
+      "start": "2026-10-24",
+      "end": "2026-12-13",
+      "url": "https://www.hiroshima-moca.jp/exhibition/senzakichieo",
+      "kind": "special",
+      "summary": "特別展。千崎千恵夫の作品を紹介",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "もつれる風景　平井亨季",
+      "start": "2026-10-24",
+      "end": "2027-01-24",
+      "url": "https://www.hiroshima-moca.jp/exhibition/",
+      "kind": "other",
+      "summary": "オープン・プログラム。平井亨季の展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "ブラチスラバからやってきた！出会う、つながる世界の絵本",
+      "start": "2026-11-14",
+      "end": "2027-01-24",
+      "url": "https://www.hiroshima-moca.jp/exhibition/",
+      "kind": "special",
+      "summary": "特別展。ブラチスラバ世界絵本原画展にちなむ絵本の展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 350,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "文化の日（全館無料）",
+      "source_url": "https://www.hiroshima-moca.jp/exhibition/senzakichieo"
+    }
+  ],
   "free_rules": [],
   "access": [
     {

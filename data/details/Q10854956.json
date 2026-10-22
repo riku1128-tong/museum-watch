@@ -1,6 +1,6 @@
 {
   "id": "Q10854956",
-  "checked_at": "2026-10-16T22:25:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -88,12 +88,23 @@
       "adult_price": 600
     },
     {
-      "title": "2026フォト凹凸クラブ写真展",
-      "start": "2026-10-14",
-      "end": "2026-10-18",
+      "title": "クレパス画教室展覧会2026",
+      "start": "2026-10-20",
+      "end": "2026-10-25",
       "url": null,
       "kind": "other",
-      "summary": "地下展示室で開催される写真展（観覧無料）",
+      "summary": "クレパス画の教室展（地下展示室・観覧無料）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第24回・最終回かごしまフォトクラブ写真展",
+      "start": "2026-10-20",
+      "end": "2026-10-25",
+      "url": null,
+      "kind": "other",
+      "summary": "かごしまフォトクラブの写真展（地下展示室・観覧無料）",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0

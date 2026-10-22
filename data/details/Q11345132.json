@@ -1,7 +1,7 @@
 {
   "id": "Q11345132",
-  "checked_at": "2026-10-16T22:28:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.mazak-art.com/",
@@ -46,6 +46,11 @@
       "reason": "展示替え"
     },
     {
+      "from": "2027-03-01",
+      "to": "2027-03-04",
+      "reason": "展示替え"
+    },
+    {
       "from": "2026-12-28",
       "to": "2027-01-04",
       "reason": "年末年始"
@@ -53,17 +58,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "所蔵品展 ―春から秋へ―",
-      "start": "2026-02-28",
-      "end": "2026-10-18",
-      "url": "https://www.mazak-art.com/index.cgi?mode=schedule_view&submode=current",
-      "kind": "collection",
-      "summary": "ロココの巨匠からモネ、ピカソまで、フランス美術300年の所蔵品とガラス・家具",
-      "recommend": "ヴァトーやブーシェらロココの名品から、モネ、モディリアーニ、ピカソへと続くフランス絵画の流れを一望できる。ガレのガラスや家具も並び、アール・ヌーヴォーの空間ごと楽しめる。",
-      "admission": "一般 1,000円",
-      "adult_price": 1000
-    },
     {
       "title": "和紙を知る　ILLUSION　柴崎幸次のあかり",
       "start": "2026-10-23",

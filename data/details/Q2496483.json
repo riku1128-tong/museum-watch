@@ -1,7 +1,7 @@
 {
   "id": "Q2496483",
-  "checked_at": "2026-10-16T22:20:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://moak.jp/",
@@ -99,6 +99,17 @@
       "recommend": null,
       "admission": "一般 400円",
       "adult_price": 400
+    },
+    {
+      "title": "大木裕之展",
+      "start": "2027-01-23",
+      "end": "2027-03-28",
+      "url": "https://moak.jp/event/exhibitions/",
+      "kind": "special",
+      "summary": "大木裕之の展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 400,

@@ -1,6 +1,6 @@
 {
   "id": "Q11463703",
-  "checked_at": "2026-10-16T22:30:00+09:00",
+  "checked_at": "2026-10-23T08:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/2/",
     "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/2/1675.html",
-    "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/2/1048.html"
+    "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/2/1048.html",
+    "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/2/18573.html"
   ],
   "regular_hours": [
     {
@@ -56,7 +57,19 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "小山敬三の富士",
+      "start": "2026-10-17",
+      "end": "2027-04-04",
+      "url": "https://www.city.komoro.lg.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/bunkazai_shogaigakushuka/4/2/2/18573.html",
+      "kind": "special",
+      "summary": "小山敬三が描いた富士山の作品を紹介する展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
   "adult_price": 200,
   "free_days": [],
   "free_rules": [],
@@ -71,5 +84,14 @@
   "highlights": "洋画家・小山敬三（1897〜1987）が作品と生家を故郷・小諸市に寄贈して生まれた美術館。信州の山々とりわけ浅間山を描いた油彩画をはじめ、小山の全画業を一堂に鑑賞できる。懐古園内に位置し、城跡の緑に囲まれた静かな環境も魅力。",
   "closed_between_exhibitions": false,
   "notes": "12月3日〜3月11日の毎週水曜日は休館。年末年始（12月29日〜1月3日）も休館。12月〜3月は閉館が16時（通常は17時）。入館料は美術館単券200円（小中生100円）、懐古園内全施設共通券は大人500円（20名以上は400円）。「小山敬三のどうぶつ画」は10/11で終了。令和8年度後期展については公式サイト（2026-10-16確認）に掲載なし（スケジュールはPDF形式で別途公開）。",
-  "confidence": "medium"
+  "confidence": "medium",
+  "seasonal_closed_weekdays": [
+    {
+      "weekdays": [
+        "wed"
+      ],
+      "from": "12-01",
+      "to": "03-10"
+    }
+  ]
 }

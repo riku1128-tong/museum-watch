@@ -1,9 +1,9 @@
 {
   "id": "Q11678218",
-  "checked_at": "2026-10-16T22:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
-  "status_note": "展観期間のみ開館。現在は展観準備のため休館中で、次回は2026年10月17日から。",
+  "status_note": null,
   "official_url": "http://www.kurokawa-institute.or.jp/",
   "address": "〒662-0081 兵庫県西宮市苦楽園三番町14-50",
   "source_urls": [
@@ -14,13 +14,24 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "16:00",
       "last_entry": "15:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -35,7 +46,9 @@
       "recommend": "明治維新期、幕末の諸藩札から日本銀行券誕生まで貨幣が激変した時代を、万延二分金・太政官札・大黒札など多様な実物資料で辿る。所蔵8500件を誇る貨幣コレクションの精髄を間近で見られる貴重な機会。",
       "admission": "一般 600円（現金のみ）",
       "adult_price": 600,
-      "closed_dates": ["2026-11-24"]
+      "closed_dates": [
+        "2026-11-24"
+      ]
     }
   ],
   "adult_price": 600,
@@ -51,6 +64,6 @@
   ],
   "highlights": "1950年設立の東洋古文化研究機関。2代・黒川幸七が収集した中国・日本を主体とする美術工芸品や考古歴史資料など約8500件（2万点）を所蔵。年2回（春季・秋季）の展観期間のみ一般公開し、西宮市苦楽園の閑静な住宅地に立地する個性ある文化施設。",
   "closed_between_exhibitions": true,
-  "notes": "開館は春季・秋季の展観期間中のみ。展観期間中は月曜休館（祝日の場合は開館し翌平日休館）。入館料は一般600円・大学生以下無料（現金のみ）。展示室内撮影禁止。",
+  "notes": "開館は春季・秋季の展観期間中のみ。展観期間中は月曜休館（祝日の場合は開館し翌平日休館）。入館料は一般600円・大学生以下無料（現金のみ）。展示室内撮影禁止。 2026/10/23: 第136回展観は10/17に開幕、開催中。",
   "confidence": "high"
 }

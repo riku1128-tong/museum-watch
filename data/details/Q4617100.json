@@ -1,7 +1,7 @@
 {
   "id": "Q4617100",
-  "checked_at": "2026-10-16T22:26:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://okimu.jp/",
@@ -16,19 +16,29 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "sun"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "sun"
+      ],
       "open": "09:00",
       "close": "18:00",
       "last_entry": "17:30"
     },
     {
-      "days": ["fri", "sat"],
+      "days": [
+        "fri",
+        "sat"
+      ],
       "open": "09:00",
       "close": "20:00",
       "last_entry": "19:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
@@ -98,6 +108,6 @@
   ],
   "highlights": "沖縄県の博物館と美術館を一体化した複合施設。博物館では「海と島に生きる」をテーマに沖縄の歴史・自然・文化財を展示し、美術館では近現代の沖縄美術を紹介する。2026年は令和復元による首里城正殿の完成を記念した企画を通年展開。金・土は20時まで開館。",
   "closed_between_exhibitions": false,
-  "notes": "入館料は博物館常設展530円、美術館コレクション展400円（別券購入）。博物館歴史部門展示室は展示替えで10/13〜10/19休室。1DAYパスポート750円（2026年9/25-11/28限定）で両方を観覧可能。adult_priceはnull（施設ごとに入館料が異なるため）。月曜が祝日・振替休日・慰霊の日の場合は開館し翌平日が休館（公式ガイドより）。",
+  "notes": "入館料は博物館常設展530円、美術館コレクション展400円（別券購入）。博物館歴史部門展示室は展示替えで10/13〜10/19休室。1DAYパスポート750円（2026年9/25-11/28限定）で両方を観覧可能。adult_priceはnull（施設ごとに入館料が異なるため）。月曜が祝日・振替休日・慰霊の日の場合は開館し翌平日が休館（公式ガイドより）。 【2026-10-23 light】トップはサーバメンテナンス中表示のみ。既存データ維持。",
   "confidence": "high"
 }

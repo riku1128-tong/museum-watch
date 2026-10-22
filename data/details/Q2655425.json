@@ -1,11 +1,11 @@
 {
   "id": "Q2655425",
-  "checked_at": "2026-10-16T22:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.shimane-art-museum.jp/",
-  "address": null,
+  "address": "〒690-0049 島根県松江市袖師町1-5",
   "source_urls": [
     "https://www.shimane-art-museum.jp/",
     "https://www.shimane-art-museum.jp/visit/",
@@ -130,13 +130,13 @@
       "adult_price": 400
     },
     {
-      "title": "コレクション展 発表から70年 奈良原一高《人間の土地》",
-      "start": "2026-07-16",
-      "end": "2026-10-19",
+      "title": "コレクション展 光と人　ー人物をめぐるイメージ",
+      "start": "2026-10-22",
+      "end": "2027-01-11",
       "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
       "kind": "collection",
-      "summary": "写真家・奈良原一高の代表作《人間の土地》発表70周年を記念した展示",
-      "recommend": null,
+      "summary": "写真に写された人物をめぐる多様なまなざしを紹介する小企画",
+      "recommend": "写真が生まれて以来、最も身近な被写体であり続けた「人」に光を当てるコレクション展。撮り手ごとに異なる人物へのまなざしを、所蔵作品で見比べられる。",
       "admission": "一般 400円",
       "adult_price": 400
     },
@@ -169,6 +169,17 @@
       "url": "https://www.shimane-art-museum.jp/exhibition/schedule.html",
       "kind": "special",
       "summary": "日本工芸会が主催する伝統工芸の全国公募展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "江戸エンタメの最高峰！浮世絵スーパークリエイター 歌川国芳展",
+      "start": "2027-01-15",
+      "end": "2027-03-15",
+      "url": "https://www.shimane-art-museum.jp/exhibition/schedule.html",
+      "kind": "special",
+      "summary": "江戸の人気浮世絵師・歌川国芳の大規模展",
       "recommend": null,
       "admission": null,
       "adult_price": null

@@ -1,14 +1,16 @@
 {
   "id": "Q11385099",
-  "checked_at": "2026-10-16T22:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.sanobi.or.jp/",
   "address": "〒411-0838 静岡県三島市中田町1-43",
   "source_urls": [
     "https://www.sanobi.or.jp/",
-    "https://www.sanobi.or.jp/guidance/"
+    "https://www.sanobi.or.jp/guidance/",
+    "https://www.sanobi.or.jp/exhibition/machida-naoko_2026/",
+    "https://www.sanobi.or.jp/exhibition/haibara_2026/"
   ],
   "regular_hours": [
     {
@@ -31,20 +33,27 @@
     "thu"
   ],
   "holiday_rule": "open",
-  "special_closures": [],
-  "special_openings": [],
-  "exhibitions": [
+  "special_closures": [
     {
-      "title": "さのび と とくび　名刀のいろは",
-      "start": "2026-09-05",
-      "end": "2026-10-18",
-      "url": "https://www.sanobi.or.jp/exhibition/japaneseswords_2026/",
-      "kind": "special",
-      "summary": "佐野美術館創立60周年・三島市制85周年記念。「さのび」佐野美術館と「とくび」徳川美術館の刀剣コレクションを比較しながら日本刀鑑賞の基本を学ぶ展覧会",
-      "recommend": "国宝・重要文化財の名刀が両館から集結。初めて日本刀に触れる方から愛好家まで楽しめる構成で、名物三作（吉光・正宗・江義弘）も必見",
-      "admission": "一般・大学生 1,600円",
-      "adult_price": 1600
+      "from": "2026-10-23",
+      "to": "2026-10-23",
+      "reason": "展示替え（公式に10/24から開館と記載）"
     },
+    {
+      "from": "2027-02-15",
+      "to": "2027-02-19",
+      "reason": "展示替え等（榛原展ページに記載）"
+    }
+  ],
+  "special_openings": [
+    {
+      "date": "2027-02-11",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "木曜だが開館（榛原展ページに記載）"
+    }
+  ],
+  "exhibitions": [
     {
       "title": "隙あらば猫　町田尚子絵本原画展",
       "start": "2026-10-24",
@@ -55,6 +64,17 @@
       "recommend": "繊細なタッチと大胆な構図で描かれた猫たちの世界。佐野美術館を題材にした描き下ろし作品も展示",
       "admission": "一般・大学生 1,500円",
       "adult_price": 1500
+    },
+    {
+      "title": "榛原―はいばら―の藝術とデザイン",
+      "start": "2027-01-08",
+      "end": "2027-04-04",
+      "url": "https://www.sanobi.or.jp/exhibition/haibara_2026/",
+      "kind": "special",
+      "summary": "江戸時代から続く日本橋の和紙舗・榛原の千代紙、団扇絵、絵短冊などを紹介",
+      "recommend": "歴代当主が一流の画家に依頼した意匠をもとに、明治から昭和初期の千代紙やぽち袋、肉筆画を紹介。粋なデザインと職人技が生んだ和紙の世界が見どころ。",
+      "admission": "一般・大学生 1,400円",
+      "adult_price": 1400
     }
   ],
   "adult_price": null,
@@ -78,6 +98,6 @@
   "closed_between_exhibitions": false,
   "free_days": [],
   "free_rules": [],
-  "notes": "休館日は「木曜日（祝日の場合は開館）、年末年始、展示替期間など」。祝日の木曜は開館だが翌平日休館の旨は記載なし（holiday_rule: open）。展示替え休館（10/19〜10/23 頃）の具体日程は公式サイトに記載なし。入館料は展覧会ごとに異なる。",
+  "notes": "休館日は「木曜日（祝日の場合は開館）、年末年始、展示替期間など」。10/22は休館日で10/24から開館。年末年始の日程は公式に記載なし。入館料は展覧会ごとに異なる。",
   "confidence": "medium"
 }

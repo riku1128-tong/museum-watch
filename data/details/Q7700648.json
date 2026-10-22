@@ -1,7 +1,7 @@
 {
   "id": "Q7700648",
-  "checked_at": "2026-10-16T22:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.tenshin.museum.ibk.ed.jp/",
@@ -12,7 +12,9 @@
     "http://www.tenshin.museum.ibk.ed.jp/viewer/info.html?id=83",
     "http://www.tenshin.museum.ibk.ed.jp/viewer/info.html?id=151",
     "http://www.tenshin.museum.ibk.ed.jp/viewer/info.html?id=289",
-    "http://www.tenshin.museum.ibk.ed.jp/viewer/info.html?id=290"
+    "http://www.tenshin.museum.ibk.ed.jp/viewer/info.html?id=290",
+    "http://www.tenshin.museum.ibk.ed.jp/viewer/info.html?id=298",
+    "http://www.tenshin.museum.ibk.ed.jp/viewer/info.html?id=302"
   ],
   "regular_hours": [
     {
@@ -56,13 +58,13 @@
       "adult_price": 950
     },
     {
-      "title": "岡倉天心記念室",
-      "start": "2026-08-04",
-      "end": "2026-10-18",
-      "url": "http://www.tenshin.museum.ibk.ed.jp/viewer/info.html?id=289",
+      "title": "特集展示「岡倉天心と安田靫彦―靫彦旧蔵資料を中心に―」",
+      "start": "2026-10-20",
+      "end": "2027-01-11",
+      "url": "http://www.tenshin.museum.ibk.ed.jp/viewer/info.html?id=298",
       "kind": "collection",
-      "summary": "岡倉天心の書簡・遺品や、横山大観・下村観山ら五浦の作家の作品を紹介する常設展示室",
-      "recommend": "書簡や遺品などの貴重な資料で岡倉天心の業績をたどり、横山大観ら五浦の作家たちの作品を紹介。復元された天心邸書斎の障壁画も見どころ。",
+      "summary": "岡倉天心記念室の初の特集展示。安田靫彦旧蔵の天心関連資料を公開し、安田靫彦《鴨川夜情》も展示",
+      "recommend": "安田靫彦が旧蔵した天心関連資料をまとめて公開する記念室初の特集展示。資料から天心の生涯と業績をたどり、天心と靫彦の関係も多角的に探れる。",
       "admission": "一般 210円",
       "adult_price": 210
     },
@@ -70,7 +72,7 @@
       "title": "日本中の子どもたちを笑顔にした絵本作家 かがくいひろしの世界展",
       "start": "2026-11-23",
       "end": "2027-01-17",
-      "url": "http://www.tenshin.museum.ibk.ed.jp/",
+      "url": "http://www.tenshin.museum.ibk.ed.jp/viewer/info.html?id=302",
       "kind": "special",
       "summary": "絵本作家・かがくいひろしの世界を紹介する企画展",
       "recommend": null,

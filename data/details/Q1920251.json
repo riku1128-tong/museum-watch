@@ -1,6 +1,6 @@
 {
   "id": "Q1920251",
-  "checked_at": "2026-10-16T22:20:00+09:00",
+  "checked_at": "2026-10-23T08:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,13 +12,24 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "10:00",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
   "special_openings": [],
@@ -56,6 +67,6 @@
   ],
   "highlights": "日本メナード化粧品の創業者夫妻が収集した約1,600点を擁する企業美術館。マネ・モネ・セザンヌ・ゴッホ・ピカソ・シャガールら印象派以降の西洋絵画と、尾形光琳・横山大観・レオナール・フジタなど日本の絵画を幅広く所蔵。約3か月ごとにテーマを設けて約60〜70点を公開する所蔵企画展方式。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイトは403。tokyoartbeat・museum.or.jpで確認。月曜休館（祝日は翌平日休）。10/12・11/23（月曜祝日）は開館、10/13・11/24は休館（holiday_ruleに準拠）。展示替え特別休館（9/24〜10/5）は終了のため削除。",
+  "notes": "公式サイトは403。tokyoartbeat・museum.or.jpで確認。月曜休館（祝日は翌平日休）。10/12・11/23（月曜祝日）は開館、10/13・11/24は休館（holiday_ruleに準拠）。展示替え特別休館（9/24〜10/5）は終了のため削除。 2026-10-23: 公式サイトが403で読めず、前回の内容を維持。",
   "confidence": "medium"
 }

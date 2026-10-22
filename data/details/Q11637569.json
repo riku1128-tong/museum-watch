@@ -1,7 +1,7 @@
 {
   "id": "Q11637569",
-  "checked_at": "2026-10-16T22:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:09:29+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://museen.org/ehon/",
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://museen.org/ehon/",
     "https://museen.org/information/",
-    "https://museen.org/ehon/exhibition/"
+    "https://museen.org/ehon/exhibition/",
+    "https://museen.org/news/4072/"
   ],
   "regular_hours": [
     {
@@ -58,17 +59,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "2026年特別展「ピーターラビット™となかまたち」夏展　ピーターと、ねことねずみのおはなし、ときどきカエル",
-      "start": "2026-06-27",
-      "end": "2026-10-19",
-      "url": "https://museen.org/ehon/exhibition/",
-      "kind": "special",
-      "summary": "ピーターラビットシリーズからねことねずみ関連の8作品を中心に原画を紹介",
-      "recommend": "ピーターラビット研究の第一人者・故吉田新一氏のコレクションをもとに、シリーズで活躍するねこやねずみが登場する8作品の原画を展示。初公開資料も交え、新たな読み方や作品の魅力を提示する試みが見どころ。",
-      "admission": "大人 1,000円",
-      "adult_price": 1000
-    },
     {
       "title": "2026年特別展「ピーターラビット™となかまたち」秋冬展　ピーターと、冬のおはなし、わらべうた",
       "start": "2026-10-24",

@@ -1,7 +1,7 @@
 {
   "id": "Q843638",
-  "checked_at": "2026-10-16T22:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-23T08:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "address": "〒413-8511 静岡県熱海市桃山町26-2",
@@ -9,7 +9,8 @@
     "https://www.moaart.or.jp/",
     "https://www.moaart.or.jp/access/",
     "https://www.moaart.or.jp/about/",
-    "https://www.moaart.or.jp/event/150th_anniversary_yoshidahiroshi/"
+    "https://www.moaart.or.jp/event/buddhist_statues_from_izu_part-1/",
+    "https://www.moaart.or.jp/visit/guide/"
   ],
   "regular_hours": [
     {
@@ -34,17 +35,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "生誕150年　吉田博展",
-      "start": "2026-09-04",
-      "end": "2026-10-20",
-      "url": "https://www.moaart.or.jp/event/150th_anniversary_yoshidahiroshi/",
-      "kind": "special",
-      "summary": "明治・大正・昭和に活躍した風景画家・吉田博の生誕150周年記念展",
-      "recommend": "「自然の力ほど巨きなものはない」と語った吉田博が生涯をかけて向き合った山岳・海外・版画の世界を辿る。精緻な木版画の美しさと自然への畏敬の念が伝わる作品が集う。",
-      "admission": "一般 2,000円",
-      "adult_price": 2000
-    },
-    {
       "title": "伊豆の仏像　PART１",
       "start": "2026-10-23",
       "end": "2027-01-03",
@@ -52,8 +42,8 @@
       "kind": "special",
       "summary": "伊豆地域に伝わる仏像を特集する展覧会（PART１）",
       "recommend": "令和6年に重文指定された伊豆最古の仏像群を含む、平安・鎌倉の仏教彫刻の名作を展覧。河津町・南禅寺伝来の薬師如来坐像など12躯が里帰りで展示される見ごたえある機会。",
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 2,000円",
+      "adult_price": 2000
     },
     {
       "title": "リニューアル10周年記念名品展　国宝「紅白梅図屏風」",
@@ -63,8 +53,8 @@
       "kind": "special",
       "summary": "リニューアル10周年を記念し、尾形光琳の国宝「紅白梅図屏風」を中心に名品を紹介",
       "recommend": "リニューアル10周年の節目に尾形光琳の国宝「紅白梅図屏風」を中心に名品を公開。杉本博司率いる新素材研究所が手がけた現代的な空間で日本を代表する古典美術を体験できる。",
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 2,000円",
+      "adult_price": 2000
     }
   ],
   "adult_price": 2000,
@@ -80,5 +70,6 @@
     }
   ],
   "highlights": "熱海の高台に立ち、尾形光琳の国宝「紅白梅図屏風」など約3,500点を収蔵する総合美術館。日本・東洋の古美術から近代日本画まで幅広いコレクションと、相模灘を一望できる庭園が魅力。",
-  "confidence": "high"
+  "confidence": "high",
+  "notes": "木曜休館（祝休日は開館）のほか展示替え日は休館（日付は公式カレンダーで都度告知。10/21・22は休館だった）。観覧料は個人2,000円、中学生以下無料。"
 }

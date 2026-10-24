@@ -3,9 +3,10 @@
     uv run scripts/x_posts.py plan                 # 予約済みの続きの日（初回は明日）から 7 日分（12 時・19 時の 14 件）を data/x_queue.json に書き、一覧を出す
     uv run scripts/x_posts.py plan --start 2026-10-02 --days 7
     uv run scripts/x_posts.py done 1 2 5           # 一覧の番号の投稿を「予約済み」として data/x_posted.jsonl に記録する
+    uv run scripts/x_posts.py status               # これから 48 時間の 12 時・19 時の枠に予約が入っているか（リマインド用）
 
 投稿の種類（上から優先。同じ話題は二度と使わない。同じ日に同じ館は 1 回まで。同じ種類は続けない）:
-    free      無料開放日（12 時はその日、19 時は翌日の分）
+    free      無料開放日（12 時はその日、19 時は翌日の分）。同じ館は 14 日に 1 回まで
     ending    会期終了まで 3 日以内の展覧会
     new       開幕して 7 日以内の展覧会（企画展だけ。new と upcoming は同じ展覧会で 1 回）
     upcoming  7 日以内に始まる展覧会
@@ -34,6 +35,7 @@ SLOTS = {"noon": "12:00", "evening": "19:00"}
 WEEK = "月火水木金土日"
 LIMIT = 280
 MUSEUM_GAP_DAYS = 90
+FREE_GAP_DAYS = 14  # 同じ館の無料開放日は 2 週間に 1 回まで（「毎週水・金は無料」で同じ館が続かないように）
 URGENT: dict[date, set[str]] = {}  # 会期末が今日・明日の展覧会（種類が続いても先に出す）
 
 PROMOS = [
@@ -173,6 +175,9 @@ def plan(start: date, days: int) -> list[dict]:
                     return last is None or (d - last).days >= MUSEUM_GAP_DAYS
                 if c["kind"] == "promo":
                     return True
+                if c["kind"] == "free":
+                    prev = [v for k, v in used.items() if k.startswith(f"free:{c['museum']}:")]
+                    return last is None and all(abs((d - v).days) >= FREE_GAP_DAYS for v in prev)
                 return last is None
             cs = [c for c in candidates(d, slot, museums, details, today) if ok(c) and c["museum"] not in today_museums]
             # 同じ種類が続かないようにする（無料開放日と、会期末が 1 日以内のものは続いてもよい）
@@ -204,7 +209,20 @@ def main() -> None:
     p.add_argument("--days", type=int, default=7)
     dn = sub.add_parser("done")
     dn.add_argument("numbers", type=int, nargs="+")
+    st = sub.add_parser("status")
+    st.add_argument("--hours", type=int, default=48)
     args = ap.parse_args()
+
+    if args.cmd == "status":
+        now = now_jst()
+        booked = {p["at"][:16] for p in load_posted()}
+        slots = [f"{now.date() + timedelta(days=i)}T{hm}" for i in range(4) for hm in SLOTS.values()]
+        upcoming = [x for x in slots if now.isoformat()[:16] < x <= (now + timedelta(hours=args.hours)).isoformat()[:16]]
+        last = max(booked, default=None)
+        print(json.dumps({"now": now.isoformat(timespec="minutes"), "ok": all(x in booked for x in upcoming),
+                          "missing": [x for x in upcoming if x not in booked], "last_scheduled": last},
+                         ensure_ascii=False, indent=1))
+        return
 
     if args.cmd == "plan":
         tomorrow = now_jst().date() + timedelta(days=1)

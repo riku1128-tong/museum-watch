@@ -1,6 +1,6 @@
 {
   "id": "Q11532663",
-  "checked_at": "2026-10-23T08:30:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -44,15 +44,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "区民文化祭（2026）区民美術展",
-      "start": "2026-10-21",
-      "end": "2026-10-25",
-      "url": "https://www.city.itabashi.tokyo.jp/artmuseum/4000016/4002027/4002028.html",
-      "kind": "other",
-      "summary": "区民文化祭。区民による書画・美術作品の展示（最終日は15時まで）",
-      "admission": "無料"
-    },
     {
       "title": "区民文化祭（2026）書家作品展",
       "start": "2026-10-28",

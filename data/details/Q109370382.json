@@ -1,7 +1,7 @@
 {
   "id": "Q109370382",
-  "checked_at": "2026-10-23T08:15:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.sbs-bunkafukushi.com/museum/",
@@ -70,6 +70,6 @@
   ],
   "highlights": "静岡新聞社・静岡放送（SBS）グループが運営する美術館。伊藤深水・橋本雅邦・下村観山らの日本画、徳川家康・伊藤博文らの書跡を収蔵し、常設展はなく年4〜5回多彩なジャンルの企画展を開催。登呂遺跡公園そばの静かな環境で訪問のたびに新しい展示を楽しめる。",
   "closed_between_exhibitions": true,
-  "notes": "常設展なし。会期中は月曜休館（祝日・振替休日の場合は翌日休館）。公式サイト（sbs-bunkafukushi.com/museum/）はコンテンツが表示されにくいため museum.or.jp と at-s.com から情報確認。開館時間は10:00〜16:30（入館16:00まで）。9/24〜10/23は展示替え休館期間（closed_between_exhibitions: true で対応）。年末年始は12/26〜1/4休業。",
+  "notes": "常設展なし。会期中は月曜休館（祝日・振替休日の場合は翌日休館）。公式サイト（sbs-bunkafukushi.com/museum/）はコンテンツが表示されにくいため museum.or.jp と at-s.com から情報確認。開館時間は10:00〜16:30（入館16:00まで）。9/24〜10/23は展示替え休館期間（closed_between_exhibitions: true で対応）。年末年始は12/26〜1/4休業。 【2026-10-30 light】公式サイトのトップ・展覧会ページは本文が取得できず、既存データを維持。",
   "confidence": "medium"
 }

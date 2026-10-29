@@ -1,10 +1,10 @@
 {
   "id": "Q11516626",
-  "checked_at": "2026-10-23T08:30:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
-  "official_url": "https://www.town.arita.lg.jp/main/828.html",
+  "official_url": "http://www.town.arita.lg.jp/dynamic/hpkiji/pub/Detail.aspx?c_id=3&id=1926",
   "address": "〒844-0004 佐賀県西松浦郡有田町大樽1-4-2",
   "source_urls": [
     "http://www.town.arita.lg.jp/dynamic/hpkiji/pub/Detail.aspx?c_id=3&id=1926",
@@ -64,6 +64,6 @@
   ],
   "highlights": "有田焼の産地・有田町に昭和29年（1954年）開館した陶磁器専門美術館。明治7年（1874年）建造の焼き物倉庫を改築した歴史ある建物で、明治から昭和初期の近代有田陶磁を中心に展示。佐賀県重要文化財の「陶彫赤絵の狛犬」や有田焼の製作工程を描いた大皿など、有田の陶磁文化を伝える所蔵品を公開する。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（月曜が祝日の場合は翌日休館）。有田陶器市期間中（4/29〜5/5）は月曜でも開館。平成31年（2019年）4月27日に明治時代を中心とした展示にリニューアル。駐車場なし。入館料は大人120円（団体20名以上80円）、高校生以下無料、障害者手帳所持者と同伴者1名無料。",
+  "notes": "月曜休館（月曜が祝日の場合は翌日休館）。有田陶器市期間中（4/29〜5/5）は月曜でも開館。平成31年（2019年）4月27日に明治時代を中心とした展示にリニューアル。駐車場なし。入館料は大人120円（団体20名以上80円）、高校生以下無料、障害者手帳所持者と同伴者1名無料。 2026-10-30: 公式URLは301で上記へ移転。内容に変更なし。",
   "confidence": "medium"
 }

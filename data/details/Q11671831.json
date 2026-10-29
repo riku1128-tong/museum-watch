@@ -1,6 +1,6 @@
 {
   "id": "Q11671831",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -50,6 +50,11 @@
       "reason": "年末年始休館"
     },
     {
+      "from": "2027-01-13",
+      "to": "2027-01-13",
+      "reason": "特別休館日"
+    },
+    {
       "from": "2027-02-23",
       "to": "2027-02-28",
       "reason": "冬期休館"
@@ -59,6 +64,10 @@
     {
       "date": "2026-12-01",
       "note": "特別開館日（火曜だが開館）"
+    },
+    {
+      "date": "2027-01-11",
+      "note": "祝日のため開館"
     }
   ],
   "exhibitions": [
@@ -69,9 +78,20 @@
       "url": "https://www.takahama-kawara-museum.com/exhibition/category/collection/p11913/",
       "kind": "collection",
       "summary": "見えるものから見えない出来事を想像して楽しむコレクション展。作品鑑賞の「手がかり」を探す",
-      "recommend": null,
+      "recommend": "作品そのものだけでなく、そこから見えない出来事を想像する「手がかり」探しを通して、鑑賞の視点を学べる館蔵品展。無料で気軽に、作品の楽しみ方を広げられる。",
       "admission": "無料",
       "adult_price": 0
+    },
+    {
+      "title": "第55回「文協祭」会員展",
+      "start": "2026-11-14",
+      "end": "2026-12-13",
+      "url": "https://www.takahama-kawara-museum.com/news/information/p13015/",
+      "kind": "other",
+      "summary": "高浜市文化協会の会員による作品展。3階モノコトギャラリーで開催",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 0,

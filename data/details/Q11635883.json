@@ -1,6 +1,6 @@
 {
   "id": "Q11635883",
-  "checked_at": "2026-10-23T08:15:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -42,7 +42,15 @@
   "special_openings": [],
   "exhibitions": [],
   "adult_price": 200,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-07",
+      "to": "2026-11-08",
+      "scope": "collection",
+      "reason": "関西文化の日",
+      "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/"
+    }
+  ],
   "free_rules": [],
   "access": [
     {
@@ -55,6 +63,6 @@
   ],
   "highlights": "赤穂の塩田・塩問屋として栄えた田淵家から寄贈された日本画や書、茶道具を保存・公開する記念館。茶道具の展示が多く、館内には茶室も備える。郷土ゆかりの美術工芸を静かに味わえる。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（ako-art.jp）はSSL証明書エラーで読めず。赤穂市公式ページ・観光サイト・museum.or.jpで確認。開催中の展覧会は複数ソースを当たったが見つからず（小規模記念館のため定期的な企画展案内なし）。年末年始の具体的な休館日は既存データを維持。",
+  "notes": "公式サイト（ako-art.jp）はSSL証明書エラーで読めず。赤穂市公式ページ・観光サイト・museum.or.jpで確認。開催中の展覧会は複数ソースを当たったが見つからず（小規模記念館のため定期的な企画展案内なし）。年末年始の具体的な休館日は既存データを維持。 【2026-10-30】公式 ako-art.jp は証明書エラーで読めず。赤穂市公式ページで開館9-17時・火曜休（祝日は翌日）・大人200円を再確認。展覧会の記載なし。",
   "confidence": "medium"
 }

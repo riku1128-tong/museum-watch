@@ -1,7 +1,7 @@
 {
   "id": "wp-44750138",
-  "checked_at": "2026-10-23T08:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.kogei-h.tym.ed.jp/museum",
@@ -9,7 +9,6 @@
   "source_urls": [
     "https://www.kogei-h.tym.ed.jp/museum",
     "https://www.kogei-h.tym.ed.jp/archives/category/museum/guide",
-    "https://www.museum.or.jp/museum/3191",
     "https://www.kogei-h.tym.ed.jp/archives/category/museum",
     "https://www.kogei-h.tym.ed.jp/archives/21097"
   ],
@@ -42,35 +41,7 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "2026尚美展企画展～文化部作品展～",
-      "start": "2026-09-27",
-      "end": "2026-10-25",
-      "url": "https://www.kogei-h.tym.ed.jp/archives/21097",
-      "kind": "special",
-      "summary": "高岡工芸高校の文化部による作品展",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0,
-      "hours": [
-        {
-          "days": [
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun",
-            "holiday"
-          ],
-          "open": "10:00",
-          "close": "16:00",
-          "last_entry": "15:30"
-        }
-      ]
-    }
-  ],
+  "exhibitions": [],
   "adult_price": 0,
   "free_days": [],
   "free_rules": [],
@@ -92,6 +63,6 @@
   ],
   "highlights": "富山県立高岡工芸高等学校に附属する、全国でも珍しい高校附属の美術館。年間を通じて一般公開し、教職員・卒業生の作品展や外部企画展を開催。工芸・美術の専門学校ならではの多彩な表現を幅広い世代が楽しめる。入館無料で、最寄りのJR氷見線・越中中川駅から徒歩5分とアクセスも良好。",
   "closed_between_exhibitions": false,
-  "notes": "月曜が祝日の場合は翌平日休館。展覧会は公式の展覧会一覧（category/museum）に掲載のもの。",
+  "notes": "月曜が祝日の場合は翌平日休館。展覧会は公式の展覧会一覧（category/museum）に掲載のもの。 2026-10-30: 尚美展企画展は10/25で終了。以降の展覧会は公式の一覧に未掲載（令和8年度の案内はPDFのみで未確認）。",
   "confidence": "medium"
 }

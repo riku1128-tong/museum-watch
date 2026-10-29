@@ -1,16 +1,16 @@
 {
   "id": "Q78072490",
-  "checked_at": "2026-10-23T08:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://navam.jp/",
   "address": "〒399-8602 長野県北安曇郡池田町会染7782",
   "source_urls": [
     "https://navam.jp/",
+    "https://navam.jp/contact/",
     "https://navam.jp/exhibition/",
-    "https://navam.jp/guide/",
-    "https://navam.jp/contact/"
+    "https://navam.jp/guide/"
   ],
   "regular_hours": [
     {

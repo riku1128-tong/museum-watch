@@ -1,7 +1,7 @@
 {
   "id": "Q11271822",
-  "checked_at": "2026-10-23T08:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://chihiro.jp/tokyo/",
@@ -38,11 +38,6 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-10-26",
-      "to": "2026-10-29",
-      "reason": "展示替えのため休館"
-    },
-    {
       "from": "2026-12-28",
       "to": "2027-01-02",
       "reason": "年末年始休館"
@@ -56,30 +51,10 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "武田美穂展 絵本づくりはドキドキなのだ！",
-      "start": "2026-07-25",
-      "end": "2026-10-25",
-      "url": "https://chihiro.jp/tokyo/exhibitions/74289/",
-      "kind": "special",
-      "summary": "絵本作家・武田美穂の絵本づくりを紹介する展覧会",
-      "admission": "一般 1,200円",
-      "adult_price": 1200
-    },
-    {
-      "title": "ちひろ 子どもは平和のシンボル",
-      "start": "2026-07-25",
-      "end": "2026-10-25",
-      "url": "https://chihiro.jp/tokyo/exhibitions/83390/",
-      "kind": "collection",
-      "summary": "いわさきちひろが子どもを描き続けた理由を、平和への願いとともに作品でたどる",
-      "admission": "一般 1,200円",
-      "adult_price": 1200
-    },
-    {
       "title": "没後１年 田畑精一『おしいれのぼうけん』展",
       "start": "2026-09-05",
       "end": "2026-11-30",
-      "url": "https://chihiro.jp/tokyo/exhibitions/",
+      "url": "https://chihiro.jp/tokyo/exhibitions/15744/",
       "kind": "special",
       "summary": "「おしいれのぼうけん」の絵本作家・田畑精一の没後1年を記念した展覧会",
       "recommend": null,
@@ -90,21 +65,23 @@
       "title": "ちひろ 旅のたのしみ",
       "start": "2026-10-30",
       "end": "2027-01-31",
-      "url": "https://chihiro.jp/tokyo/exhibitions/",
+      "url": "https://chihiro.jp/tokyo/exhibitions/51164/",
       "kind": "collection",
       "summary": "いわさきちひろの旅をテーマにした作品展",
       "admission": "一般 1,200円",
-      "adult_price": 1200
+      "adult_price": 1200,
+      "recommend": "旅先で描いたスケッチや写真を通して、ちひろの旅の思い出をたどる展示。ヨーロッパや国内各地の旅の実感から生まれた絵本『あかいふうせん』などの作品も並び、作品の背景がよく分かる。"
     },
     {
       "title": "没後70年 茂田井武とパリの画家たち ―Parisの破片―",
       "start": "2026-10-30",
       "end": "2027-01-31",
-      "url": "https://chihiro.jp/tokyo/exhibitions/",
+      "url": "https://chihiro.jp/tokyo/exhibitions/42281/",
       "kind": "special",
-      "summary": "没後70年の茂田井武と、パリの画家たちの作品を紹介",
+      "summary": "没後70年の茂田井武の欧州放浪時の画帳と、ピカソらパリの画家たちの作品を紹介",
       "admission": "一般 1,200円",
-      "adult_price": 1200
+      "adult_price": 1200,
+      "recommend": "21歳でパリへ渡った茂田井が3年間に描いた画帳3冊が中心。ピカソ、ユトリロ、藤田嗣治らパリで活躍した画家の作品と並べ、旅の記憶が生んだ絵本やタブローまで見渡せる。"
     }
   ],
   "adult_price": 1200,

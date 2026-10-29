@@ -1,85 +1,85 @@
 {
-  "id": "Q11465485",
-  "checked_at": "2026-10-23T08:07:09+09:00",
-  "check_mode": "light",
-  "operating_status": "operating",
-  "status_note": null,
-  "official_url": "https://www.onomichi-museum.jp/",
-  "address": "〒722-0032 広島県尾道市西土堂町17-19（千光寺公園内）",
-  "source_urls": [
-    "https://www.onomichi-museum.jp/",
-    "https://www.onomichi-museum.jp/guide/",
-    "https://www.onomichi-museum.jp/about/",
-    "https://www.onomichi-museum.jp/exhibition/now.html",
-    "https://www.onomichi-museum.jp/exhibition/next.html",
-    "https://artscape.jp/exhibitions/79310/"
-  ],
-  "regular_hours": [
-    {
-      "days": [
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
-      "open": "09:00",
-      "close": "17:00",
-      "last_entry": "16:30"
-    }
-  ],
-  "closed_weekdays": [
-    "mon"
-  ],
-  "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [
-    {
-      "from": "2026-12-29",
-      "to": "2027-01-03",
-      "reason": "年末年始休館"
-    }
-  ],
-  "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "しろきうみへ　- 記憶は白く、海へと還る -　山本 基 展",
-      "start": "2026-09-19",
-      "end": "2026-11-15",
-      "url": "https://www.onomichi-museum.jp/exhibition/now.html",
-      "kind": "special",
-      "summary": "尾道出身の現代美術家・山本基が約30年にわたる「記憶と時間」をテーマの作品群を故郷で振り返る回顧的個展",
-      "recommend": "塩を素材とした大規模インスタレーションや2024年能登半島地震で倒壊した作品の再構成を含む。故郷・尾道での初回顧的個展で、初期油彩から現在まで30年の軌跡をたどれる。",
-      "admission": "一般 1,000円",
-      "adult_price": 1000
-    },
-    {
-      "title": "尾道市立美術館　コレクション展（仮称）",
-      "start": "2026-11-28",
-      "end": "2027-01-11",
-      "url": null,
-      "kind": "collection",
-      "summary": null,
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    }
-  ],
-  "adult_price": null,
-  "free_days": [],
-  "free_rules": [],
-  "access": [
-    {
-      "station": "尾道",
-      "lines": "JR山陽本線",
-      "exit": null,
-      "walk_min": null,
-      "note": "尾道駅①番のりば東行きバスで「長江口」下車後、千光寺山ロープウェイで「千光寺公園」へ"
-    }
-  ],
-  "highlights": "市民の草の根運動から1980年に開館し、2003年に安藤忠雄設計のリニューアルを経た千光寺公園内の美術館。瀬戸内の自然と寺社町並みに溶け込む建物で、「温かな瀬戸内の風景の中で本物の芸術に接する」場として現代美術・伝統美術の多彩な企画展を年複数回開催する。",
-  "closed_between_exhibitions": true,
-  "notes": "定休日は「祝日以外の月曜日」。祝日の月曜は開館し翌平日が休館（open_next_weekday_closed）。特別展の場合は変更あり。11/16〜11/27の展示替え期間は推定（次回展が11/28開幕のため）。常設展は無く企画展ごとの料金のためadult_priceはnull。【2026-10-17 推測の値を削除】次回展の開幕日から推定した展示替え休館（11/16〜11/27）を消した。",
-  "confidence": "high"
+ "id": "Q11465485",
+ "checked_at": "2026-10-30T06:40:00+09:00",
+ "check_mode": "light",
+ "operating_status": "operating",
+ "status_note": null,
+ "official_url": "https://www.onomichi-museum.jp/",
+ "address": "〒722-0032 広島県尾道市西土堂町17-19（千光寺公園内）",
+ "source_urls": [
+  "https://www.onomichi-museum.jp/",
+  "https://www.onomichi-museum.jp/guide/",
+  "https://www.onomichi-museum.jp/about/",
+  "https://www.onomichi-museum.jp/exhibition/now.html",
+  "https://www.onomichi-museum.jp/exhibition/next.html",
+  "https://artscape.jp/exhibitions/79310/"
+ ],
+ "regular_hours": [
+  {
+   "days": [
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun",
+    "holiday"
+   ],
+   "open": "09:00",
+   "close": "17:00",
+   "last_entry": "16:30"
+  }
+ ],
+ "closed_weekdays": [
+  "mon"
+ ],
+ "holiday_rule": "open_next_weekday_closed",
+ "special_closures": [
+  {
+   "from": "2026-12-29",
+   "to": "2027-01-03",
+   "reason": "年末年始休館"
+  }
+ ],
+ "special_openings": [],
+ "exhibitions": [
+  {
+   "title": "しろきうみへ　- 記憶は白く、海へと還る -　山本 基 展",
+   "start": "2026-09-19",
+   "end": "2026-11-15",
+   "url": "https://www.onomichi-museum.jp/exhibition/now.html",
+   "kind": "special",
+   "summary": "尾道出身の現代美術家・山本基が約30年にわたる「記憶と時間」をテーマの作品群を故郷で振り返る回顧的個展",
+   "recommend": "塩を素材とした大規模インスタレーションや2024年能登半島地震で倒壊した作品の再構成を含む。故郷・尾道での初回顧的個展で、初期油彩から現在まで30年の軌跡をたどれる。",
+   "admission": "一般 1,000円",
+   "adult_price": 1000
+  },
+  {
+   "title": "尾道市立美術館　コレクション展（仮称）",
+   "start": "2026-11-28",
+   "end": "2027-01-11",
+   "url": null,
+   "kind": "collection",
+   "summary": null,
+   "recommend": null,
+   "admission": null,
+   "adult_price": null
+  }
+ ],
+ "adult_price": null,
+ "free_days": [],
+ "free_rules": [],
+ "access": [
+  {
+   "station": "尾道",
+   "lines": "JR山陽本線",
+   "exit": null,
+   "walk_min": null,
+   "note": "尾道駅①番のりば東行きバスで「長江口」下車後、千光寺山ロープウェイで「千光寺公園」へ"
+  }
+ ],
+ "highlights": "市民の草の根運動から1980年に開館し、2003年に安藤忠雄設計のリニューアルを経た千光寺公園内の美術館。瀬戸内の自然と寺社町並みに溶け込む建物で、「温かな瀬戸内の風景の中で本物の芸術に接する」場として現代美術・伝統美術の多彩な企画展を年複数回開催する。",
+ "closed_between_exhibitions": true,
+ "notes": "定休日は「祝日以外の月曜日」。祝日の月曜は開館し翌平日が休館（open_next_weekday_closed）。特別展の場合は変更あり。11/16〜11/27の展示替え期間は推定（次回展が11/28開幕のため）。常設展は無く企画展ごとの料金のためadult_priceはnull。【2026-10-17 推測の値を削除】次回展の開幕日から推定した展示替え休館（11/16〜11/27）を消した。",
+ "confidence": "high"
 }

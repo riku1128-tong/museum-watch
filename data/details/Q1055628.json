@@ -1,7 +1,7 @@
 {
   "id": "Q1055628",
-  "checked_at": "2026-10-23T08:07:09+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-30T06:30:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.momak.go.jp/",
@@ -33,11 +33,6 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {
-      "from": "2026-10-05",
-      "to": "2026-10-23",
-      "reason": "展示替えのため休館（フォンタネージ展終了〜ジュエリー展開幕前）"
-    },
     {
       "from": "2026-11-24",
       "to": "2026-11-24",

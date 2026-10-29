@@ -1,7 +1,7 @@
 {
   "id": "wp-3aececfc",
-  "checked_at": "2026-10-16T22:35:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.takayamamuseum.jp/",
@@ -11,7 +11,8 @@
     "https://www.takayamamuseum.jp/guide/",
     "https://www.takayamamuseum.jp/next_exhibition/",
     "https://www.museum.or.jp/museum/566",
-    "https://www.takayamamuseum.jp/current_exhibition/"
+    "https://www.takayamamuseum.jp/current_exhibition/",
+    "https://www.takayamamuseum.jp/news/"
   ],
   "regular_hours": [
     {
@@ -36,11 +37,6 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-09-28",
-      "to": "2026-10-02",
-      "reason": "展示替え休館"
-    },
-    {
       "from": "2026-10-26",
       "to": "2026-10-30",
       "reason": "展示替え休館"
@@ -49,24 +45,17 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "Art to You！障がい者芸術世界展 IN しちのへ 2026",
-      "start": "2026-10-03",
-      "end": "2026-10-25",
-      "url": "https://www.takayamamuseum.jp/current_exhibition/",
+      "title": "第25回鷹山賞児童作品展・第25回JQA地球環境世界児童画コンテスト 優秀作品展",
+      "start": "2026-12-06",
+      "end": "2027-01-31",
+      "url": null,
       "kind": "special",
-      "summary": "東北障がい者芸術支援機構主催の公募展から入賞作品を展示。多彩な障がい者アートを紹介",
-      "recommend": "入館無料で気軽に立ち寄れる参加型企画展。東北の障がいのある作家たちの個性あふれる作品群に触れ、アートを通じた共生社会を考えるきっかけになる",
-      "admission": "無料",
-      "adult_price": 0,
-      "hours": [
-        {
-          "days": [
-            "fri"
-          ],
-          "open": "10:00",
-          "close": "20:00",
-          "last_entry": "19:30"
-        }
+      "summary": "児童作品展と地球環境世界児童画コンテストの優秀作品を展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "closed_dates": [
+        "2027-01-12"
       ]
     }
   ],
@@ -82,7 +71,7 @@
     }
   ],
   "highlights": "七戸町出身の洋画家・鷹山宇一の油彩・木版・素描を核に、彼が収集した19世紀末〜20世紀初頭の装飾オイルランプも展示。同じ七戸ゆかりの上泉華陽ら地域作家の作品も収蔵する。道の駅しちのへ内の七戸町文化村に位置し、東北新幹線七戸十和田駅から徒歩でアクセスできる。",
-  "notes": "入館料は特別展ごとに異なる。展示替え休館は2026/9/28〜10/2と10/26〜10/30。次回展は「ミュージアム・コレクション展」（10/26以降、会期未掲載）。会期中の金曜は20:00まで開館（最終入館19:30）。館内整備休館が1月下旬〜2月上旬に不定期で設けられる場合あり。 【2026-10-23 light】公式サイトに接続できず（ECONNREFUSED/503）、確認できなかった。前回の内容のまま。",
+  "notes": "入館料は特別展ごとに異なる。展示替え休館は2026/9/28〜10/2と10/26〜10/30。次回展は「ミュージアム・コレクション展」（10/26以降、会期未掲載）。会期中の金曜は20:00まで開館（最終入館19:30）。館内整備休館が1月下旬〜2月上旬に不定期で設けられる場合あり。 【2026-10-23 light】公式サイトに接続できず（ECONNREFUSED/503）、確認できなかった。前回の内容のまま。 【2026-10-30 full】公式サイトに接続できた。Art to You展は10/25で終了し、10/26〜10/30は展示替え休館（10/31から再開）。次はミュージアム・コレクション展（会期は公式に記載なし）で、展示一覧には入れていない。年間スケジュールの12/6からの児童作品展（休館は月曜と1/12）を追加。",
   "confidence": "high",
   "free_days": [
     {

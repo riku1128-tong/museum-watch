@@ -1,14 +1,18 @@
 {
   "id": "Q11554289",
-  "checked_at": "2026-10-16T22:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://kyosai-museum.jp/",
-  "address": "〒335-0004 埼玉県蕨市南町4-36-4",
+  "address": "〒335-0003 埼玉県蕨市南町4-36-4",
   "source_urls": [
-    "https://www.museum.or.jp/museum/1870",
-    "https://www.artagenda.jp/museum/detail/72"
+    "https://kyosai-museum.jp/",
+    "https://kyosai-museum.jp/hp/top.html",
+    "https://kyosai-museum.jp/hp/info.html",
+    "https://kyosai-museum.jp/hp/exhi_now.html",
+    "https://kyosai-museum.jp/hp/exhi_sche.html",
+    "https://kyosai-museum.jp/hp/access.html"
   ],
   "regular_hours": [
     {
@@ -21,33 +25,66 @@
         "holiday"
       ],
       "open": "10:00",
-      "close": "16:00"
+      "close": "16:00",
+      "last_entry": "16:00"
     }
   ],
   "closed_weekdays": [
     "tue",
     "thu"
   ],
-  "holiday_rule": "unknown",
+  "holiday_rule": "open",
   "special_closures": [
     {
-      "from": "2026-12-24",
+      "from": "2026-11-26",
+      "to": "2026-11-30",
+      "reason": "毎月26日〜末日休館（展示替え）"
+    },
+    {
+      "from": "2026-12-26",
       "to": "2027-01-03",
-      "reason": "年末年始休館"
+      "reason": "26日〜末日休館・年末年始"
+    },
+    {
+      "from": "2027-01-26",
+      "to": "2027-01-31",
+      "reason": "毎月26日〜末日休館（展示替え）"
     }
   ],
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "暁斎・暁翠 人物を描く",
-      "start": "2026-09-02",
-      "end": "2026-10-25",
-      "url": null,
+      "title": "画鬼暁斎　妖怪画ワンダーランド",
+      "start": "2026-11-01",
+      "end": "2026-12-20",
+      "url": "https://kyosai-museum.jp/hp/exhi_now.html",
       "kind": "special",
-      "summary": "河鍋暁斎と娘・暁翠が描いた人物画を紹介する企画展",
+      "summary": "恒例の妖怪画展。骸骨・河童・天狗など暁斎の妖怪画を軸装・錦絵・版本で紹介",
+      "recommend": "骸骨が三味線を弾いたり、妖怪の子供たちが学校へ通ったり。暁斎ならではのユーモラスな妖怪画を、軸装・墨画・錦絵・版本といった多彩な形式で見比べられる恒例の妖怪画展。",
+      "admission": "一般 600円（特別展同時開催時）",
+      "adult_price": 600
+    },
+    {
+      "title": "『暁斎漫画』の世界",
+      "start": "2026-11-01",
+      "end": "2026-12-20",
+      "url": "https://kyosai-museum.jp/hp/exhi_now.html",
+      "kind": "special",
+      "summary": "絵本『暁斎漫画』（明治14年）の七福神・妖怪・動物戯画・風景画を拡大パネルで展示（第3展示室）",
+      "recommend": "明治14年刊の絵本『暁斎漫画』から七福神・妖怪・動物戯画・風景画を選び、拡大パネルで展示する。小さな版面では見逃しがちな筆の細部まで確かめられ、暁斎の画題の幅広さを実感できる。",
+      "admission": "一般 600円（企画展と共通）",
+      "adult_price": 600
+    },
+    {
+      "title": "暁斎・暁翠 開運の七福神画（仮称）",
+      "start": "2027-01-04",
+      "end": "2027-02-24",
+      "url": "https://kyosai-museum.jp/hp/exhi_sche.html",
+      "kind": "special",
+      "summary": "同時開催は特別展「暁斎が絵本・挿絵に描いた招福画」（仮称）。予定で変更の可能性あり",
       "recommend": null,
-      "admission": "一般 500円",
-      "adult_price": 500
+      "admission": "一般 600円（特別展同時開催時）",
+      "adult_price": 600
     }
   ],
   "adult_price": null,
@@ -69,8 +106,8 @@
       "note": "蕨市コミュニティバス「ぷらっとわらび」南ルートで「河鍋暁斎記念美術館前」下車すぐ"
     }
   ],
-  "highlights": "幕末から明治に活躍した絵師・河鍋暁斎の曾孫が設立した美術館。妖怪画や戯画で知られる暁斎の肉筆画・版画・下絵などのコレクションを、季節ごとの企画展・特別展で紹介する",
+  "highlights": "幕末から明治に活躍した絵師・河鍋暁斎の曾孫が、自宅を改装して開いた小さな美術館。下絵や画稿を中心に3000点余を所蔵し、2か月ごとにテーマを替えて、妖怪画や戯画など暁斎の幅広い画業を身近な距離で見せてくれる。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（kyosai-museum.jp）はSSL証明書がドメイン不一致のためWebFetchから読めず、museum.or.jp・artagenda.jpの掲載情報で確認（confidence: medium）。毎月26日〜末日も休館（スキーマでは月末の日付範囲定休を直接表現できないためnotesに記載）。木曜が祝日の場合は開館とのこと（bijutsutecho情報）、火曜の祝日扱いは不明のためholiday_rule: unknown。【2026-10-16 light】SSL エラー継続（証明書ドメイン不一致）で公式未確認、変更なしとして扱う。【2026-10-10 light】SSL エラー継続。「暁斎・暁翠 人物を描く」展は10/25まで継続中。次展示情報は未確認。",
-  "confidence": "medium"
+  "notes": "常設展なし。2か月ごとの展示替えで、毎月26日〜末日は休館（special_closures に公式の規則から3か月分を入れた）。火・木曜は祝日の場合は開館（公式）。入館料は特別展同時開催時 一般600円、企画展のみ 500円。公式サイトは SSL 証明書がドメイン不一致のため WebFetch では読めず、証明書検証なしの取得で内容を確認。2027-01 以降の展覧会は予定（仮称・変更の可能性あり）。",
+  "confidence": "high"
 }

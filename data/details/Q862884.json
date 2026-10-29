@@ -1,6 +1,6 @@
 {
   "id": "Q862884",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -85,7 +85,8 @@
       "kind": "special",
       "summary": "木村伊兵衛写真賞の受賞作家62人の活動を振り返る第50回記念の写真展",
       "admission": "一般 1,200円",
-      "adult_price": 1200
+      "adult_price": 1200,
+      "recommend": "受賞作家62人が、デビュー作ではなくその後の転機を示す作品で並ぶ第50回記念展。ドキュメンタリーから現代アートまで、写真表現の広がりと未来を見渡せる。"
     },
     {
       "title": "岡田 敦｜幻の馬",

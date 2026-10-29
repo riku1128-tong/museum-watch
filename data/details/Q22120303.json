@@ -1,6 +1,6 @@
 {
   "id": "Q22120303",
-  "checked_at": "2026-10-16T22:25:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -16,16 +16,30 @@
   ],
   "regular_hours": [
     {
-      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+      "days": [
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {"from": "2026-12-29", "to": "2027-01-03", "reason": "年末年始"}
+    {
+      "from": "2026-12-29",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    }
   ],
   "special_openings": [],
   "exhibitions": [
@@ -84,6 +98,6 @@
   ],
   "highlights": "道南ゆかりの美術・書・文字に関わる現代美術の3テーマを軸に2,556点を所蔵する北海道立美術館。松前出身の書家・金子鷗亭のコレクションを中核に持ち、函館ゆかりの日本画・油彩・版画も充実。五稜郭公園のそばに立ち、函館市電で気軽にアクセスできる。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日の場合は翌火曜休館）。常設展観覧料260円。特別展「金子鷗亭と書のこれから」は一般920円（割引720円）。展示替え期間は臨時休館あり。",
+  "notes": "月曜休館（祝日の場合は翌火曜休館）。常設展観覧料260円。特別展「金子鷗亭と書のこれから」は一般920円（割引720円）。展示替え期間は臨時休館あり。 2026-10-30: 11/1〜11/7 は「芸術週間」（無料かは未確認）。",
   "confidence": "high"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q7881987",
-  "checked_at": "2026-10-23T08:07:12+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,9 +10,7 @@
     "https://y-pam.jp/",
     "https://y-pam.jp/info/",
     "https://y-pam.jp/exhibition/",
-    "https://www.museum.or.jp/museum/6536",
-    "https://kinro-ghibli.com/yamaguchi/",
-    "https://artscape.jp/exhibitions/77025/"
+    "https://y-pam.jp/exhibition_collection/"
   ],
   "regular_hours": [
     {
@@ -58,8 +56,41 @@
       "kind": "special",
       "summary": "山口県内の芸術家による公募展。洋画・日本画・彫刻・工芸・書・写真など多ジャンルを展示",
       "recommend": "山口県在住の作家を中心に公募し、審査で大賞と優秀賞を選ぶ県内最大級の公募展。絵画・工芸・写真・書とジャンルを超えて並ぶ力作から、地元の創作の今を一度に味わえる。",
-      "admission": "一般 600円",
-      "adult_price": 600
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第2期 雪舟と雲谷派",
+      "start": "2026-11-17",
+      "end": "2026-12-20",
+      "url": "https://y-pam.jp/exhibition_collection/",
+      "kind": "collection",
+      "summary": "室町時代の山口で活躍した雪舟等楊と萩藩お抱え絵師の雲谷派の作品を紹介。重要文化財4件を含む",
+      "recommend": "雪舟筆「倣李唐牧牛図」など重要文化財4件を含み、山口ゆかりの水墨画の系譜を一度にたどれる。雪舟から雲谷派への流れを見比べられる好機。",
+      "admission": "一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "第2期 戦前・戦後の香月泰男と松田正平 II 1950s",
+      "start": "2026-11-17",
+      "end": "2026-12-20",
+      "url": "https://y-pam.jp/exhibition_collection/",
+      "kind": "collection",
+      "summary": "満州と宇部でそれぞれ終戦を迎えた二人の画家を、1950年代に焦点を当てて紹介",
+      "recommend": "同じ山口県ゆかりの二人の洋画家を、1950年代という同じ時期で見比べる構成。戦争体験を経た作風の違いと響き合いが見どころ。",
+      "admission": "一般 400円",
+      "adult_price": 400
+    },
+    {
+      "title": "第2期 「もの」を撮る",
+      "start": "2026-11-17",
+      "end": "2026-12-20",
+      "url": "https://y-pam.jp/exhibition_collection/",
+      "kind": "collection",
+      "summary": "静止した「もの」を写した多様な写真表現を紹介",
+      "recommend": "静物を写した写真を集め、モチーフの捉え方や光の使い方の違いを味わえる。コレクションならではの写真表現の幅広さに触れられる。",
+      "admission": "一般 400円",
+      "adult_price": 400
     }
   ],
   "adult_price": 400,
@@ -82,6 +113,6 @@
   ],
   "highlights": "山口市の亀山公園に隣接する山口県の代表的な美術館。香月泰男・佐伯祐三ら郷土ゆかりの作家の洋画・日本画・工芸などを収蔵し、テーマ別のコレクション展とともに国内外の大型巡回展を積極的に開催する。緑に囲まれた静かな立地と充実した常設コレクションが魅力。",
   "closed_between_exhibitions": false,
-  "notes": "旧URL（www.yma-web.jp）はDNS不一致で繋がらず、公式URLはy-pam.jpに変更済み。月曜休館（月曜が祝日・振替休日の場合は開館・翌火曜休館）。特別展開催中は火曜も開館。ジブリ展は事前予約制（当日券販売なし）。入館料はコレクション展一般400円・展覧会によって異なる。2026年10月13日〜11月16日は展示替えのため休館。",
+  "notes": "月曜休館（祝日・振替休日の場合は開館し翌火曜休館。ただし特別展開催時は火曜も開館）。現在は展示替えで2026-10-13〜11-16休館（公式の休館期間一覧による）。特別展開催中は火曜開館。観覧料はコレクション展が一般400円（70歳以上・18歳以下は無料）、特別展は展覧会ごと（山口県美術展覧会の料金はページに記載なし）。旧URL（www.yma-web.jp）はy-pam.jpに変更済み。",
   "confidence": "high"
 }

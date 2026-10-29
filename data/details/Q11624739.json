@@ -1,7 +1,7 @@
 {
   "id": "Q11624739",
-  "checked_at": "2026-10-23T08:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.ichinobo.com/museum/",
@@ -9,7 +9,9 @@
   "source_urls": [
     "https://ichinobo.com/museum/",
     "https://ichinobo.com/museum/access",
-    "https://ichinobo.com/museum/news/7282/"
+    "https://ichinobo.com/museum/news/7282/",
+    "https://ichinobo.com/museum/news/7522/",
+    "https://ichinobo.com/museum/news/7532/"
   ],
   "regular_hours": [
     {
@@ -31,7 +33,13 @@
     "tue"
   ],
   "holiday_rule": "open",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-12-08",
+      "to": "2026-12-10",
+      "reason": "ガラスのお正月展2027の公式ページに記載の休館日"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -46,12 +54,23 @@
       "adult_price": 0
     },
     {
-      "title": "tamaki niime2026秋冬 -イッテンモノのショールとウェア-",
-      "start": "2026-10-09",
-      "end": "2026-10-25",
-      "url": null,
+      "title": "ガラスのお正月展2027",
+      "start": "2026-11-07",
+      "end": "2027-01-11",
+      "url": "https://ichinobo.com/museum/news/7522/",
       "kind": "special",
-      "summary": "テキスタイルブランド「tamaki niime」の秋冬コレクション展示販売",
+      "summary": "ガラス作家21名による2027年の干支「未」モチーフの置物や祝いの器",
+      "recommend": "全国のガラス作家21名が、来年の干支「未」を愛らしい置物に仕立てる。ガラス製の鏡餅や酒器など、新年を祝う器も並び、お正月気分を味わえる企画展。",
+      "admission": "入場無料",
+      "adult_price": 0
+    },
+    {
+      "title": "佐藤隆春新春特別展2027",
+      "start": "2026-12-26",
+      "end": "2027-01-11",
+      "url": "https://ichinobo.com/museum/news/7532/",
+      "kind": "special",
+      "summary": "仙台生まれの画家・佐藤隆春の新春特別展（1997年以降毎年開催）",
       "recommend": null,
       "admission": "入場無料",
       "adult_price": 0
@@ -71,6 +90,6 @@
   ],
   "highlights": "ガラス工芸の巨匠・藤田喬平（1921-2004）の美術館として松島の旅館「松島一の坊」内に1996年開設。代表作「飾筥」シリーズなど繊細で色彩豊かな作品と、息子・藤田潤の作品を展示。松島湾を望む広大な庭園も散策できる。",
   "closed_between_exhibitions": false,
-  "notes": "松島一の坊（旅館）に併設。開館時間が短い（9:30〜13:30）ため注意。企画展・ミュージアムショップは入場無料。旅館宿泊者以外も入館可能。定休日は火曜日（不定休の可能性あり、公式サイトのカレンダーを事前確認推奨）。 2026-10-23 トップ確認。当日(金)に「本日休館」表示があり不定休の可能性。休館カレンダーは読み取れず。",
+  "notes": "松島一の坊（旅館）に併設。開館時間が短い（9:30〜13:30）ため注意。企画展・ミュージアムショップは入場無料。旅館宿泊者以外も入館可能。定休日は火曜日（不定休の可能性あり、公式サイトのカレンダーを事前確認推奨）。 2026-10-30 full: トップに当日(金)「本日休館」表示（不定休の可能性。カレンダーは画像で読めず）。お正月展ページは開館9:30〜13:00（13:30閉館）と記載。tamaki niime展は終了のため削除。",
   "confidence": "high"
 }

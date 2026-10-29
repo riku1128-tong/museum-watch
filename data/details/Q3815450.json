@@ -1,6 +1,6 @@
 {
   "id": "Q3815450",
-  "checked_at": "2026-10-23T08:30:00+09:00",
+  "checked_at": "2026-10-30T06:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -64,6 +64,17 @@
       "recommend": null,
       "admission": "無料",
       "adult_price": 0
+    },
+    {
+      "title": "目黒区美術館開館40周年プレ企画　東京・区立美術館ネットワーク連携事業 「モンパルナスで会いましょう」",
+      "start": "2027-02-27",
+      "end": "2027-05-16",
+      "url": "https://mmat.jp/",
+      "kind": "special",
+      "summary": "開館40周年プレ企画。区立美術館ネットワーク連携の展覧会（観覧料未定）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": null,

@@ -1,6 +1,6 @@
 {
   "id": "Q11198629",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -90,6 +90,17 @@
       "recommend": null,
       "admission": null,
       "adult_price": null
+    },
+    {
+      "title": "「吉祥寺」たるひとびと　―織田一磨、小畠辰之助（仮称）",
+      "start": "2027-01-16",
+      "end": "2027-02-28",
+      "url": "https://www.musashino.or.jp/museum/1002006/1002008/1009189.html",
+      "kind": "special",
+      "summary": "吉祥寺ゆかりの織田一磨、小畠辰之助を紹介する展覧会（題名は仮称）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 100,
@@ -106,6 +117,6 @@
   ],
   "highlights": "吉祥寺の繁華街・コピス吉祥寺A館7階にある市立美術館。銅版画家・浜口陽三と木版画家・萩原英雄の記念室を常設し、野田九浦の日本画を含む約2,600点のコレクションを擁する。「観る・創る・育てる」を掲げ、多彩な企画展で街に開かれた文化の場として機能する。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は「毎月最終水曜日（祝日の場合は開館し、翌日を休館日とする）」。最終水曜日は closed_nth_weekdays で表せないため、public に出ている日付 10/28・11/25 を special_closures に入れた（12/30 は年末年始休館内のため省略）。次の企画展は 2027/1/16〜（未確認）。",
+  "notes": "休館日は「毎月最終水曜日（祝日の場合は開館し、翌日を休館日とする）」。最終水曜日は closed_nth_weekdays で表せないため、public に出ている日付 10/28・11/25 を special_closures に入れた（12/30 は年末年始休館内のため省略）。次の企画展は 2027/1/16〜2/28（年度スケジュールで確認、題名は仮称）。 2026-10-30 light: 開館時間・休館日(毎月最終水曜)・展示に変化なし。",
   "confidence": "medium"
 }

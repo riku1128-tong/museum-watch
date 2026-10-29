@@ -1,7 +1,7 @@
 {
   "id": "Q11568021",
-  "checked_at": "2026-10-23T08:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.camk.jp/",
@@ -50,37 +50,15 @@
       "adult_price": 1300
     },
     {
-      "title": "CAMKスクリーニングVol.4 ひびのこづえ《ROOT：根》上演資料 2025年11月23日・24日松本公演",
-      "start": "2026-08-26",
-      "end": "2026-10-25",
-      "url": "https://www.camk.jp/exhibition/",
-      "kind": "other",
-      "summary": "ひびのこづえによる上演資料の展示",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    },
-    {
-      "title": "GⅢ-Vol.166 熊本市の夏の名物！こどもおもしろおばけ屋敷10周年記念 大アーカイブ展",
-      "start": "2026-08-27",
-      "end": "2026-10-25",
-      "url": "https://www.camk.jp/exhibition/",
-      "kind": "other",
-      "summary": "熊本の夏の人気イベント「こどもおもしろおばけ屋敷」の10周年記念アーカイブ展（ギャラリーIII）",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    },
-    {
       "title": "GⅢ-Vol.167 Dolly ( ) 諫山元貴",
       "start": "2026-10-31",
       "end": "2026-12-27",
-      "url": "https://www.camk.jp/exhibition/",
+      "url": "https://www.camk.jp/blog/17032/",
       "kind": "special",
-      "summary": "諫山元貴の個展（ギャラリーIII）",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "summary": "クローン羊ドリー誕生30年を題材に、複製と崩壊を問う諫山元貴の個展（ギャラリーIII・井手宣通記念ギャラリー）",
+      "recommend": "「複製と崩壊」を主題にしてきた諫山元貴が、誕生30年を迎えるクローン羊ドリーを題材に、生命の複製技術の意味を問い直す。静かに崩れゆくドリーの姿が見どころ。",
+      "admission": "無料",
+      "adult_price": 0
     }
   ],
   "adult_price": null,
@@ -102,6 +80,6 @@
   ],
   "highlights": "熊本市中心部・上通商店街に位置する現代美術館。2002年開館で、メインギャラリーの企画展のほか、ギャラリーIII（GⅢ）でも新進作家の個展・グループ展を常時開催。無料で楽しめるスペースが多く、街歩きのついでに立ち寄りやすい。夜20時まで開いているのも特徴。",
   "closed_between_exhibitions": false,
-  "notes": "主ギャラリーの企画展のみ有料、GⅢ等は無料または展覧会ごとに異なる。年末年始休館（具体日程は未確認）。火曜が祝日の場合は翌平日休館。入館料は展覧会ごとに異なりlast_entry情報は展覧会ページに「展覧会入場は午後7時30分まで」と記載。",
+  "notes": "主ギャラリーの企画展のみ有料、GⅢ等は無料または展覧会ごとに異なる。年末年始休館（具体日程は未確認）。火曜が祝日の場合は翌平日休館。入館料は展覧会ごとに異なりlast_entry情報は展覧会ページに「展覧会入場は午後7時30分まで」と記載。 2026-10-30確認: 10/25終了の2展を削除。GⅢ-Vol.167は11/3（火・祝）開館、翌11/4休館（公式）。年末年始は具体日未記載。",
   "confidence": "high"
 }

@@ -1,83 +1,83 @@
 {
-  "id": "Q11598754",
-  "checked_at": "2026-10-23T08:30:00+09:00",
-  "check_mode": "light",
-  "operating_status": "operating",
-  "status_note": null,
-  "official_url": "https://www.yayoi-yumeji-museum.jp/",
-  "address": "〒113-0032 東京都文京区弥生2-4-2",
-  "source_urls": [
-    "https://www.yayoi-yumeji-museum.jp/",
-    "https://www.yayoi-yumeji-museum.jp/guide/visit.html",
-    "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/now.html",
-    "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/next.html"
-  ],
-  "adult_price": 1200,
-  "access": [
-    {
-      "station": "根津",
-      "lines": "東京メトロ千代田線",
-      "exit": "1",
-      "walk_min": 7
-    },
-    {
-      "station": "東大前",
-      "lines": "東京メトロ南北線",
-      "exit": "1",
-      "walk_min": 7
-    },
-    {
-      "station": "上野",
-      "lines": "JR各線",
-      "exit": "公園口",
-      "walk_min": 25
-    }
-  ],
-  "regular_hours": [
-    {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
-      "open": "10:00",
-      "close": "17:00",
-      "last_entry": "16:30"
-    }
-  ],
-  "closed_weekdays": [
-    "mon"
-  ],
-  "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
-  "special_openings": [
-    {
-      "date": "2026-10-24",
-      "open": "10:00",
-      "close": "16:30",
-      "note": "この日は16時30分閉館"
-    }
-  ],
-  "exhibitions": [
-    {
-      "title": "夢二の日本　描かれた理想郷",
-      "start": "2026-10-03",
-      "end": "2026-12-20",
-      "url": "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/now.html",
-      "kind": "special",
-      "summary": "郷愁、浮世絵、芝居や古典文学を題材に夢二が描いた理想の日本の風景・文化",
-      "recommend": "失われゆく日本情調を惜しんだ夢二が描いた「理想郷」をテーマに、浮世絵・芝居・古典文学を題材とした作品が一堂に。詩情あふれる美人画と和の風景を通じて、夢二の美意識を体感できる好機。",
-      "admission": "一般 1,200円",
-      "adult_price": 1200
-    }
-  ],
-  "highlights": "大正ロマンを象徴する詩人画家・竹久夢二の作品約3,300点を収蔵。日本画・油彩・版画・デザイン・楽譜装丁まで多角的な芸術活動を網羅した展示が特徴。弥生美術館と同一施設で共通券（1,200円）で両館を楽しめる。エレベーターなしの小ぶりな館に夢二の美人画が溢れる。",
-  "closed_between_exhibitions": false,
-  "notes": "弥生美術館と同一施設・共通券（入館料は両館共通）。休館日は「月曜日（祝日の場合は翌火曜日）、展示替え期間中、年末年始」。9/22〜9/27 は無休と公式トップに明記（祝日ルールでは 9/24 が振替休館になるため special_openings で上書き）。年末年始の具体的日付は未確認。入館料1,200円は弥生美術館との共通券料金。",
-  "confidence": "high"
+ "id": "Q11598754",
+ "checked_at": "2026-10-30T06:40:00+09:00",
+ "check_mode": "light",
+ "operating_status": "operating",
+ "status_note": null,
+ "official_url": "https://www.yayoi-yumeji-museum.jp/",
+ "address": "〒113-0032 東京都文京区弥生2-4-2",
+ "source_urls": [
+  "https://www.yayoi-yumeji-museum.jp/",
+  "https://www.yayoi-yumeji-museum.jp/guide/visit.html",
+  "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/now.html",
+  "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/next.html"
+ ],
+ "adult_price": 1200,
+ "access": [
+  {
+   "station": "根津",
+   "lines": "東京メトロ千代田線",
+   "exit": "1",
+   "walk_min": 7
+  },
+  {
+   "station": "東大前",
+   "lines": "東京メトロ南北線",
+   "exit": "1",
+   "walk_min": 7
+  },
+  {
+   "station": "上野",
+   "lines": "JR各線",
+   "exit": "公園口",
+   "walk_min": 25
+  }
+ ],
+ "regular_hours": [
+  {
+   "days": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun",
+    "holiday"
+   ],
+   "open": "10:00",
+   "close": "17:00",
+   "last_entry": "16:30"
+  }
+ ],
+ "closed_weekdays": [
+  "mon"
+ ],
+ "holiday_rule": "open_next_weekday_closed",
+ "special_closures": [],
+ "special_openings": [
+  {
+   "date": "2026-10-24",
+   "open": "10:00",
+   "close": "16:30",
+   "note": "この日は16時30分閉館"
+  }
+ ],
+ "exhibitions": [
+  {
+   "title": "夢二の日本　描かれた理想郷",
+   "start": "2026-10-03",
+   "end": "2026-12-20",
+   "url": "https://www.yayoi-yumeji-museum.jp/yumeji/exhibition/now.html",
+   "kind": "special",
+   "summary": "郷愁、浮世絵、芝居や古典文学を題材に夢二が描いた理想の日本の風景・文化",
+   "recommend": "失われゆく日本情調を惜しんだ夢二が描いた「理想郷」をテーマに、浮世絵・芝居・古典文学を題材とした作品が一堂に。詩情あふれる美人画と和の風景を通じて、夢二の美意識を体感できる好機。",
+   "admission": "一般 1,200円",
+   "adult_price": 1200
+  }
+ ],
+ "highlights": "大正ロマンを象徴する詩人画家・竹久夢二の作品約3,300点を収蔵。日本画・油彩・版画・デザイン・楽譜装丁まで多角的な芸術活動を網羅した展示が特徴。弥生美術館と同一施設で共通券（1,200円）で両館を楽しめる。エレベーターなしの小ぶりな館に夢二の美人画が溢れる。",
+ "closed_between_exhibitions": false,
+ "notes": "弥生美術館と同一施設・共通券（入館料は両館共通）。休館日は「月曜日（祝日の場合は翌火曜日）、展示替え期間中、年末年始」。9/22〜9/27 は無休と公式トップに明記（祝日ルールでは 9/24 が振替休館になるため special_openings で上書き）。年末年始の具体的日付は未確認。入館料1,200円は弥生美術館との共通券料金。",
+ "confidence": "high"
 }

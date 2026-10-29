@@ -1,6 +1,6 @@
 {
   "id": "Q11260799",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -50,11 +50,6 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {
-      "from": "2026-09-14",
-      "to": "2026-09-28",
-      "reason": "展示替え等のための臨時休館"
-    },
     {
       "from": "2026-12-27",
       "to": "2027-01-04",

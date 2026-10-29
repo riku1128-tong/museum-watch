@@ -1,6 +1,6 @@
 {
   "id": "Q38266963",
-  "checked_at": "2026-10-23T08:30:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -66,7 +66,7 @@
       "title": "マンガで知る、きもち展",
       "start": "2026-10-21",
       "end": "2027-01-18",
-      "url": "https://manga-museum.com/",
+      "url": "https://manga-museum.com/2026-10mini/",
       "kind": "special",
       "summary": "マンガを通して登場人物の気持ちを知る企画展",
       "recommend": null,
@@ -97,6 +97,6 @@
   ],
   "highlights": "日本最大規模の漫画原画の常設展示館。秋田ゆかりの漫画家を中心に約500人分、約94,000枚の原画を保管・展示する。増田の蔵の町並みに建つ外観も印象的で、企画展では各作家が自ら選んだ作品を間近に楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "常設展は無料。企画展（特別展）は大人1,000円、中学生500円、小学生300円。",
+  "notes": "常設展は無料。企画展（特別展）は大人1,000円、中学生500円、小学生300円。 2026-10-30: 次回休館日は11/17（第3火曜）。変更なし。",
   "confidence": "high"
 }

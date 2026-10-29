@@ -1,7 +1,7 @@
 {
   "id": "Q11670668",
-  "checked_at": "2026-10-23T08:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": null,
@@ -9,8 +9,7 @@
   "source_urls": [
     "https://nariwa-museum.jp/",
     "https://nariwa-museum.jp/user_guide/",
-    "https://nariwa-museum.jp/exhibition/open/2026_hoshino_michio_yukyu/",
-    "https://nariwa-museum.jp/exhibition/open/2026_teachers_of_jonanhs/"
+    "https://nariwa-museum.jp/exhibition/open/2026_hoshino_michio_yukyu/"
   ],
   "regular_hours": [
     {
@@ -52,17 +51,6 @@
       "recommend": "若き日の村長宛手紙など未公開資料も交え、アラスカを愛した写真家・星野道夫40年の軌跡を凝縮した没後30年の回顧展。極北の大自然と生命のつながりを臨場感たっぷりに体感できる。",
       "admission": "一般・シニア 1,300円",
       "adult_price": 1300
-    },
-    {
-      "title": "わたしたちのしごと ボクたちのいきかた―高梁城南高校に勤める6名が描く 教師としての私と、表現者としての僕",
-      "start": "2026-09-12",
-      "end": "2026-10-24",
-      "url": "https://nariwa-museum.jp/exhibition/open/2026_teachers_of_jonanhs/",
-      "kind": "special",
-      "summary": "県立高梁城南高校の教師6名による絵画・彫刻・陶芸・プロダクトデザインなど多彩な表現の展覧会",
-      "recommend": "教えることと表現することを同時に追い続ける高校教師6名が、制作と日常を重ね合わせて提示する意欲展。静水の庭ホールは同時開催の星野道夫展チケットで見学可。",
-      "admission": "無料（静水の庭ホールは星野道夫展チケット必要）",
-      "adult_price": 0
     }
   ],
   "adult_price": null,
@@ -79,6 +67,6 @@
   ],
   "highlights": "1953年創設、安藤忠雄設計の現館舎は1994年開館。地元出身の洋画家・児島虎次郎のコレクションと、三畳紀後期の植物化石群「成羽フローラ」（世界的に知られる日本最古級の化石）を所蔵。コンクリートと緑が調和する安藤建築の空間も見どころ。",
   "closed_between_exhibitions": false,
-  "notes": "入館料は展覧会ごとに異なる（年間観覧券4,000円あり、未就学児無料）。月曜休館（祝日・振替休日は開館し翌日休館）。年末年始12/25〜1/7休館（変更の場合あり）。展示替え期間も休館（事前要確認）。",
+  "notes": "入館料は展覧会ごとに異なる（年間観覧券4,000円あり、未就学児無料）。月曜休館（祝日・振替休日は開館し翌日休館）。年末年始12/25〜1/7休館（変更の場合あり）。展示替え期間も休館（事前要確認）。 2026-10-30: 高梁城南高校教師展は10/24で終了のため削除。年間スケジュールPDF(画像)は読めず、次の展覧会は未確認。",
   "confidence": "high"
 }

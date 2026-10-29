@@ -1,13 +1,14 @@
 {
   "id": "Q11588461",
-  "checked_at": "2026-10-23T08:30:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.douwakan.co.jp/museum/",
   "address": "〒850-0931 長崎県長崎市南山手町2-10",
   "source_urls": [
-    "http://douwakan.co.jp/museum/"
+    "http://douwakan.co.jp/museum/",
+    "https://douwakan.co.jp/museum/exhibition"
   ],
   "regular_hours": [
     {
@@ -29,14 +30,20 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-11-10",
+      "to": "2026-11-10",
+      "reason": "館内模様替えのため臨時休館"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
       "title": "太田大八絵本原画展　まじょ",
       "start": "2026-10-06",
       "end": "2027-01-11",
-      "url": null,
+      "url": "https://douwakan.co.jp/museum/exhibition",
       "kind": "special",
       "summary": "絵本「まじょ」の原画展。絵本画家・太田大八の作品展示",
       "recommend": null,
@@ -58,6 +65,6 @@
   ],
   "highlights": "長崎・南山手の異国情緒ある街並みにある童話館系の絵本美術館。2・3階で国内外の絵本原画を展示し、童話館ゆかりの作家による常設展と企画展を開催。フロアには約500冊の選び抜かれた絵本コーナーがあり入館者が自由に楽しめる。グラバー園・大浦天主堂に隣接した観光地に位置する。",
   "closed_between_exhibitions": false,
-  "notes": "休館日：毎週月曜（祝日の場合は翌日）・展示入替日・年末年始（詳細は公式HP参照）。公式サイトURL（www.douwakan.co.jp）はSSL証明書の不一致でアクセス不可のため www なし（douwakan.co.jp）で取得。常設展示作家：中村忠二・伴敏子・東平哲弥・大道あや。最寄り停留場からの徒歩時間は公式サイトに記載なし。 公式サイトは証明書エラーで読めず（10/23時点）。前回の値を維持。",
+  "notes": "休館日：毎週月曜（祝日の場合は翌日）・展示入替日・年末年始（詳細は公式HP参照）。公式サイトURL（www.douwakan.co.jp）はSSL証明書の不一致でアクセス不可のため www なし（douwakan.co.jp）で取得。常設展示作家：中村忠二・伴敏子・東平哲弥・大道あや。最寄り停留場からの徒歩時間は公式サイトに記載なし。 公式サイトは証明書エラーで読めず（10/23時点）。前回の値を維持。 2026-10-30確認: 11/10(火)は館内模様替えで臨時休館。11月の休館日は2・9・10・16・24・30日。",
   "confidence": "medium"
 }

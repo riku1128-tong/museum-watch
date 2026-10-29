@@ -1,6 +1,6 @@
 {
   "id": "Q50375431",
-  "checked_at": "2026-10-23T08:30:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -39,11 +39,6 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-09-28",
-      "to": "2026-10-09",
-      "reason": "展示替えのため展示室休室"
-    },
-    {
       "from": "2026-12-31",
       "to": "2027-01-01",
       "reason": "年末年始"
@@ -52,7 +47,7 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "NMAOサテライト",
+      "title": "国立国際美術館（NMAO）× 大阪中之島美術館（NAKKA）コレクション活用連携事業 コレナカ（NMAOサテライト）",
       "start": "2026-10-10",
       "end": "2026-11-07",
       "url": "https://nakka-art.jp/exhibition-post/colle-naka-2026/",
@@ -176,6 +171,17 @@
       "recommend": null,
       "admission": null,
       "adult_price": null
+    },
+    {
+      "title": "Osaka Directory 15 Supported by RICHARD MILLE「乾 真裕子」",
+      "start": "2027-01-23",
+      "end": "2027-02-21",
+      "url": "https://nakka-art.jp/exhibition-post/osaka-directory-dir15/",
+      "kind": "special",
+      "summary": "大阪の若手作家を紹介するシリーズ展。乾真裕子（2階多目的スペース）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": null,
@@ -202,6 +208,6 @@
   ],
   "highlights": "2022年2月に大阪・中之島に開館した美術館。19世紀後半から現代の美術とデザインを専門とし、国内外のアーティストによる多彩な企画展を開催する。「パッサージュ（遊歩空間）」を核にした建築空間で人と作品の出会いを演出し、近隣の国立国際美術館との連携事業なども行う。",
   "closed_between_exhibitions": true,
-  "notes": "月曜休館（祝日の場合は開館し翌平日休館）。年末年始の休館は12/31・1/1（大英博物館展ページの記載。他の日は開館）。常設展はなく企画展ごとに料金が異なる。メンテナンスや展示替えで臨時休館する場合あり。2027年4/10〜7/19に開館5周年記念特別展、2027年10/9〜12/12に東山魁夷展を予定（料金・休室日は未掲載）。",
+  "notes": "月曜休館（祝日の場合は開館し翌平日休館）。年末年始の休館は12/31・1/1（大英博物館展ページの記載。他の日は開館）。常設展はなく企画展ごとに料金が異なる。メンテナンスや展示替えで臨時休館する場合あり。2027年4/10〜7/19に開館5周年記念特別展、2027年10/9〜12/12に東山魁夷展を予定（料金・休室日は未掲載）。 2026-10-30: 臨時休館の告知なし（ミュゼカラトのみ休業）。Osaka Directory 15 の詳細ページは未取得で、無料・月曜休室は同シリーズからの推定。",
   "confidence": "high"
 }

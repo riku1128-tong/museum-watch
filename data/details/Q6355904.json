@@ -1,7 +1,7 @@
 {
   "id": "Q6355904",
-  "checked_at": "2026-10-23T08:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.yonagobunka.net/y-moa/",
@@ -40,12 +40,7 @@
       "reason": "年末年始"
     }
   ],
-  "special_openings": [
-    {
-      "date": "2026-10-28",
-      "note": "県展会期中は無休"
-    }
-  ],
+  "special_openings": [],
   "exhibitions": [
     {
       "title": "第70回 鳥取県美術展覧会（県展）米子会場",
@@ -57,6 +52,17 @@
       "recommend": "県民から公募した版画・彫刻・書道・写真などの入選作が並ぶ年に一度の公募展。無料で、期間中は休まず開館するので、地元作家の今を気軽に見に行けます。",
       "admission": "無料",
       "adult_price": 0
+    },
+    {
+      "title": "コレクション展 これ、すき! –かんじたままにあなたのみかたで–",
+      "start": "2026-11-08",
+      "end": "2026-12-20",
+      "url": "https://www.yonagobunka.net/y-moa/archive/exhibition/organized/x529/",
+      "kind": "collection",
+      "summary": "作品解説を設けず、色や形、構図から受ける印象で自由に鑑賞するコレクション展。第2展示室。",
+      "recommend": "解説なしで作品と向き合い、自分だけのお気に入りを探す趣向。知識や先入観にとらわれず、感性のままに山陰ゆかりの所蔵作品を味わえる。",
+      "admission": "一般 330円",
+      "adult_price": 330
     }
   ],
   "adult_price": 330,

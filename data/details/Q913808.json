@@ -1,7 +1,7 @@
 {
   "id": "Q913808",
-  "checked_at": "2026-10-23T08:20:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-30T06:26:28+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.artizon.museum/",
@@ -41,11 +41,6 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {
-      "from": "2026-10-05",
-      "to": "2026-10-23",
-      "reason": "展示替え"
-    },
     {
       "from": "2026-12-28",
       "to": "2027-01-04",

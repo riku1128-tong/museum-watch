@@ -1,6 +1,6 @@
 {
   "id": "Q11577460",
-  "checked_at": "2026-10-23T08:30:00+09:00",
+  "checked_at": "2026-10-30T06:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -42,39 +42,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "楽山焼・布志名焼",
-      "start": "2026-08-21",
-      "end": "2026-10-25",
-      "url": "https://www.tanabe-museum.or.jp/cgi-bin/rus7/event/view.cgi?d=12",
-      "kind": "collection",
-      "summary": "出雲を代表する楽山焼・布志名焼の茶碗・花入・徳利など陶磁器作品",
-      "recommend": "松江藩ゆかりの楽山焼と出雲の布志名焼を一堂に展示。江戸〜昭和の名品を並べ、出雲陶芸の多彩な技法と各時代の様式の変遷を間近に鑑賞できる。",
-      "admission": "大人 700円",
-      "adult_price": 700
-    },
-    {
-      "title": "四季の茶道具「月夜見の会」",
-      "start": "2026-08-21",
-      "end": "2026-10-25",
-      "url": "https://www.tanabe-museum.or.jp/cgi-bin/rus7/event/view.cgi?d=13",
-      "kind": "collection",
-      "summary": "秋の月をテーマに選んだ茶道具の取り合わせ展示",
-      "recommend": null,
-      "admission": "大人 700円",
-      "adult_price": 700
-    },
-    {
-      "title": "所蔵 茶釜展",
-      "start": "2026-08-21",
-      "end": "2026-10-25",
-      "url": "https://www.tanabe-museum.or.jp/cgi-bin/rus7/event/view.cgi?d=14",
-      "kind": "collection",
-      "summary": "田部美術館所蔵の茶釜を紹介する展示",
-      "recommend": null,
-      "admission": "大人 700円",
-      "adult_price": 700
-    },
     {
       "title": "四季の茶道具「うつろひ」",
       "start": "2026-10-28",
@@ -120,6 +87,6 @@
   ],
   "highlights": "室町時代から600年にわたる田部家のコレクションを公開する美術館。松平不昧公ゆかりの茶道具や楽山焼・布志名焼など出雲の美術工芸品が充実。菊竹清訓設計の建物は「菅谷たたら」の炉をイメージしたコールテン鋼の屋根が印象的で、茶室の趣を保ちながら新素材を活かした空間が広がる。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日の場合は開館、振替休館の記載なし）。年末年始・臨時休館はお知らせ欄に掲載。特別展は別途料金。11/3（開館記念日）は入館無料、ギャラリートーク（14:00〜）・呈茶席（700円）・建築ツアー（10:30〜、予約制）あり。次回展「うつろひ」「それぞれの魅力」は10/28〜12/26。",
+  "notes": "月曜休館（祝日の場合は開館、振替休館の記載なし）。年末年始・臨時休館はお知らせ欄に掲載。特別展は別途料金。11/3（開館記念日）は入館無料、ギャラリートーク（14:00〜）・呈茶席（700円）・建築ツアー（10:30〜、予約制）あり。次回展「うつろひ」「それぞれの魅力」は10/28〜12/26。 2026-10-30 light巡回: 終了した展示を削除。お知らせに新しい臨時休館・時間変更なし。",
   "confidence": "high"
 }

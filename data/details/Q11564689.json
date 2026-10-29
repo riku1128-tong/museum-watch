@@ -1,6 +1,6 @@
 {
   "id": "Q11564689",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": "陶芸の森（公園）は入園無料。陶芸館のみ有料で、展示替え期間と冬季は休館",
@@ -54,6 +54,17 @@
       "recommend": null,
       "admission": null,
       "adult_price": null
+    },
+    {
+      "title": "陶芸館ギャラリー「AIR－名品セレクション展Ⅱ」",
+      "start": "2026-10-17",
+      "end": "2026-11-15",
+      "url": "https://www.sccp.jp/",
+      "kind": "special",
+      "summary": "アーティスト・イン・レジデンス所蔵の名品セレクション展（第2期）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
     }
   ],
   "closed_between_exhibitions": true,

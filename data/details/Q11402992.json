@@ -1,6 +1,6 @@
 {
   "id": "Q11402992",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -75,23 +75,23 @@
       "title": "道展創立100周年記念企画展 − 時を紡ぎ 今を創る",
       "start": "2026-11-17",
       "end": "2026-11-23",
-      "url": null,
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/332",
       "kind": "special",
       "summary": "北海道美術協会（道展）創立100周年を記念した企画展",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "全道展80周年記念企画展〈会員・会友展〉",
       "start": "2026-11-28",
       "end": "2026-12-05",
-      "url": null,
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/334",
       "kind": "special",
       "summary": "全道展創立80周年を記念した会員・会友の作品展",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 800円",
+      "adult_price": 800
     },
     {
       "title": "新道展70周年記念展 −継承する自由な表現",
@@ -148,6 +148,6 @@
   ],
   "highlights": "札幌・円山公園エリアに隣接する北海道を代表する近現代美術館。日本・欧米の絵画・版画・ガラス工芸品など道内最大規模のコレクションを収蔵し、北海道ゆかりの作家の作品から世界的な巡回展まで多彩な企画展を開催。地下鉄西18丁目駅から徒歩5分とアクセスも便利。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日・振替休日の場合は開館、翌平日に休館）。年末年始（2026/12/29〜2027/1/3）休館。2026/11/2（月）は芸術週間のため開館。 2026-10-23: 公式サイトが503で読めず、前回の内容を維持。",
+  "notes": "月曜休館（祝日・振替休日の場合は開館、翌平日に休館）。年末年始（2026/12/29〜2027/1/3）休館。2026/11/2（月）は芸術週間のため開館。11月の休館日は 11/9・11/16・11/24。",
   "confidence": "high"
 }

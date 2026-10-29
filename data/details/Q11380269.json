@@ -1,6 +1,6 @@
 {
   "id": "Q11380269",
-  "checked_at": "2026-10-23T08:30:00+09:00",
+  "checked_at": "2026-10-30T06:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -35,11 +35,6 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {
-      "from": "2026-10-19",
-      "to": "2026-10-23",
-      "reason": "展示替えのため休館"
-    },
     {
       "from": "2026-12-28",
       "to": "2027-01-04",
@@ -76,9 +71,9 @@
     {
       "from": "2026-11-14",
       "to": "2026-11-14",
-      "scope": "collection",
+      "scope": "all",
       "reason": "関西文化の日",
-      "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/"
+      "source_url": "https://www.city.toyooka.lg.jp/1019810/1019847/itoh-museum/"
     }
   ],
   "free_rules": [],

@@ -1,7 +1,7 @@
 {
   "id": "Q26424152",
-  "checked_at": "2026-10-23T08:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.shusui-museum.jp/",
@@ -80,6 +80,6 @@
   ],
   "highlights": "日本刀・刀装具と絵画・工芸を両輪に、中世から現代までの日本の工芸美を伝える富山市の美術館。精神性の高い日本独自の芸術作品を収蔵し、年に数回の企画展では各テーマに沿った充実した展示を行う。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は月曜・火曜。祝日の扱い不明（holiday_rule: unknown）。入館料は一般800円（団体20名以上600円）、大学生以下無料。",
+  "notes": "休館日は月曜・火曜。祝日の扱い不明（holiday_rule: unknown）。入館料は一般800円（団体20名以上600円）、大学生以下無料。 10/30: 展示替えで10/31まで休館、11/1開幕。展示は前期11/1〜12/20・後期12/25〜2/27（12/21〜24は展示替えの可能性があるが公式に休館日の記載は未確認）。",
   "confidence": "high"
 }

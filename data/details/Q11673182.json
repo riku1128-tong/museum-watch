@@ -1,7 +1,7 @@
 {
   "id": "Q11673182",
-  "checked_at": "2026-10-23T08:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.town.takanabe.lg.jp/museum/index.html",
@@ -53,23 +53,45 @@
       "adult_price": 210
     },
     {
-      "title": "ギャラリー展「夢の舟乗り展 \"花～癒し\"」",
-      "start": "2026-10-10",
-      "end": "2026-10-25",
-      "url": null,
-      "kind": "special",
-      "summary": "夢の舟乗りによる写真展。テーマは花・癒し",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
       "title": "ギャラリー展「タカナベホイッスル －2026年度グッドデザイン賞受賞記念展－」",
       "start": "2026-10-16",
       "end": "2026-11-15",
       "url": "https://www.town.takanabe.lg.jp/museum/939.html",
       "kind": "special",
       "summary": "エントランスでのギャラリー展。2026年度グッドデザイン賞受賞記念",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "ギャラリー展「第13回宮崎県書道協会児湯支部書展・第10回小中学生書道展」",
+      "start": "2026-11-17",
+      "end": "2026-11-23",
+      "url": "https://www.town.takanabe.lg.jp/museum/939.html",
+      "kind": "special",
+      "summary": "宮崎県書道協会児湯支部と小中学生による書道展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "ギャラリー展「MAEDA絵画創作所・絵画工作教室絵画作品展」",
+      "start": "2026-11-26",
+      "end": "2026-11-29",
+      "url": "https://www.town.takanabe.lg.jp/museum/939.html",
+      "kind": "special",
+      "summary": "MAEDA絵画創作所・絵画工作教室の作品展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第28回 西都・児湯の子どもたちによる絵画展",
+      "start": "2026-12-06",
+      "end": "2026-12-20",
+      "url": "https://www.town.takanabe.lg.jp/museum/939.html",
+      "kind": "special",
+      "summary": "西都・児湯地域の子どもたちの絵画作品展",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0

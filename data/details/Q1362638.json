@@ -1,7 +1,7 @@
 {
   "id": "Q1362638",
-  "checked_at": "2026-10-23T08:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.nact.jp/",
@@ -13,7 +13,8 @@
     "https://www.nact.jp/exhibition_special/2026/louvre2026/",
     "https://www.nact.jp/exhibition_special/2026/shojomanga/",
     "https://www.nact.jp/information/access/",
-    "https://www.nact.jp/introduce/architecture.html"
+    "https://www.nact.jp/introduce/architecture.html",
+    "https://www.nact.jp/exhibition_special/"
   ],
   "regular_hours": [
     {
@@ -93,26 +94,6 @@
       "summary": "萩尾望都・山岸凉子・大和和紀の約60年の創作を原画800点以上で紹介",
       "admission": "一般 2,200円",
       "adult_price": 2200
-    },
-    {
-      "title": "第79回　二紀展",
-      "start": "2026-10-14",
-      "end": "2026-10-26",
-      "url": "https://niki-kai.or.jp",
-      "kind": "other",
-      "summary": "二紀会による公募展",
-      "admission": "一般 1,000円",
-      "adult_price": 1000
-    },
-    {
-      "title": "第93回　独立展",
-      "start": "2026-10-14",
-      "end": "2026-10-26",
-      "url": "http://www.dokuritsuten.com/",
-      "kind": "other",
-      "summary": "独立美術協会による公募展",
-      "admission": "一般 1,000円",
-      "adult_price": 1000
     },
     {
       "title": "第119回　日展",
@@ -251,6 +232,66 @@
       "url": "http://www.dokuritsu.or.jp",
       "kind": "other",
       "summary": "独立書人団による書の公募展",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第43回　産経国際書展　新春展",
+      "start": "2027-01-20",
+      "end": "2027-02-01",
+      "url": "https://www.nact.jp/exhibition_public/",
+      "kind": "other",
+      "summary": "公募展（主催団体による）",
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "第4回　FPA PROFESSIONAL FOOD PHOTOGRAPHY AWARDS 受賞作品　展覧会",
+      "start": "2027-01-20",
+      "end": "2027-02-01",
+      "url": "https://www.nact.jp/exhibition_public/",
+      "kind": "other",
+      "summary": "公募展（主催団体による）",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第39回　平泉展",
+      "start": "2027-01-20",
+      "end": "2027-02-01",
+      "url": "https://www.nact.jp/exhibition_public/",
+      "kind": "other",
+      "summary": "公募展（主催団体による）",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第8回　和紙ちぎり絵創作展",
+      "start": "2027-01-21",
+      "end": "2027-02-01",
+      "url": "https://www.nact.jp/exhibition_public/",
+      "kind": "other",
+      "summary": "公募展（主催団体による）",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "国際公募展　美は国境を越えて2027",
+      "start": "2027-01-21",
+      "end": "2027-01-31",
+      "url": "https://www.nact.jp/exhibition_public/",
+      "kind": "other",
+      "summary": "公募展（主催団体による）",
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "第49回　國際書画展",
+      "start": "2027-01-21",
+      "end": "2027-02-01",
+      "url": "https://www.nact.jp/exhibition_public/",
+      "kind": "other",
+      "summary": "公募展（主催団体による）",
       "admission": "無料",
       "adult_price": 0
     }

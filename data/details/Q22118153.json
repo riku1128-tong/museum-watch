@@ -1,14 +1,15 @@
 {
   "id": "Q22118153",
-  "checked_at": "2026-10-23T08:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.village.ohira.miyagi.jp/9/10/60.html",
   "address": "〒981-3602 宮城県黒川郡大衡村大衡字平林39番地12",
   "source_urls": [
     "https://www.village.ohira.miyagi.jp/9/10/60.html",
-    "https://www.museum.or.jp/museum/789"
+    "https://www.museum.or.jp/museum/789",
+    "https://www.village.ohira.miyagi.jp/material/files/group/15/bijutu8yoteihyou.pdf"
   ],
   "regular_hours": [
     {
@@ -39,12 +40,12 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "東北生活文化大学美術学部選抜作品展",
+      "title": "東北生活文化大学 美術学部表現美術学科 選抜作品展",
       "start": "2026-10-31",
       "end": "2026-11-15",
-      "url": null,
+      "url": "https://www.village.ohira.miyagi.jp/material/files/group/15/bijutu8yoteihyou.pdf",
       "kind": "special",
-      "summary": null,
+      "summary": "東北生活文化大学 美術学部表現美術学科の選抜作品を紹介する学生作品展",
       "recommend": null,
       "admission": "一般 200円",
       "adult_price": 200,
@@ -82,6 +83,28 @@
           "to": "2026-11-15"
         }
       ]
+    },
+    {
+      "title": "児童生徒作品展「シリーズ空間力」",
+      "start": "2026-11-21",
+      "end": "2026-12-20",
+      "url": "https://www.village.ohira.miyagi.jp/material/files/group/15/bijutu8yoteihyou.pdf",
+      "kind": "special",
+      "summary": "児童生徒の絵画作品を紹介する作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "「スマホ大衡村百景」写真展",
+      "start": "2027-01-09",
+      "end": "2027-01-31",
+      "url": "https://www.village.ohira.miyagi.jp/material/files/group/15/bijutu8yoteihyou.pdf",
+      "kind": "special",
+      "summary": "スマートフォンで撮影した大衡村の風景写真を展示する公募型の写真展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 200,
@@ -98,6 +121,6 @@
   "access": [],
   "highlights": "宮城県大衡村の豊かな自然に囲まれた村立美術館。大衡村出身の洋画家・菅野廉の作品を中心に常設展示するほか、地元ゆかりの作家や美術系大学との連携による企画展・公募展を年間通じて開催する。村の文化拠点として地域に根ざした活動を続けている。",
   "closed_between_exhibitions": false,
-  "notes": "最寄り交通：ミヤコー高速バス「大衡村役場前」下車徒歩約10分、東北自動車道大衡ICから車で約5分。公式サイトでは休館曜日・入館料の記載なし。インターネットミュージアムでは「一般200円、高大生150円、小中生100円、年末年始（12/28-1/4）のみ休館」と掲載。展覧会情報（さかいふうか作品展・東北生活文化大学選抜展）は公式サイトより。定休日の情報が公式で確認できないため holiday_rule は unknown。",
+  "notes": "最寄り交通：ミヤコー高速バス「大衡村役場前」下車徒歩約10分、東北自動車道大衡ICから車で約5分。公式サイトでは休館曜日・入館料の記載なし。インターネットミュージアムでは「一般200円、高大生150円、小中生100円、年末年始（12/28-1/4）のみ休館」と掲載。展覧会情報（さかいふうか作品展・東北生活文化大学選抜展）は公式サイトより。定休日の情報が公式で確認できないため holiday_rule は unknown。 【2026-10-30】村の公式ページと令和8年度企画展予定表(PDF)を確認。11/21〜12/20「シリーズ空間力」、1/9〜1/31「スマホ大衡村百景」写真展を追加。公式ページに通常の開館時間・休館日・入館料の記載はなく、そのまま維持。",
   "confidence": "medium"
 }

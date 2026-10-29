@@ -1,6 +1,6 @@
 {
   "id": "Q10854956",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,7 +11,8 @@
     "https://www.city.kagoshima.lg.jp/artmuseum/about.html",
     "https://www.city.kagoshima.lg.jp/artmuseum/access.html",
     "https://www.city.kagoshima.lg.jp/artmuseum/exhibition-r8special_saul-leiter.html",
-    "https://www.city.kagoshima.lg.jp/artmuseum/exhibition-r8-shozou4.html"
+    "https://www.city.kagoshima.lg.jp/artmuseum/exhibition-r8-shozou4.html",
+    "https://www.city.kagoshima.lg.jp/artmuseum/exhibition-r8kikaku2.html"
   ],
   "regular_hours": [
     {
@@ -73,8 +74,8 @@
       "kind": "special",
       "summary": "鹿児島ゆかりの洋画家・谷口午二の展覧会",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 600円（市民 450円）",
+      "adult_price": 600
     },
     {
       "title": "冬の所蔵品展　特集：谷口午二をめぐる鹿児島の作家たち",
@@ -88,23 +89,12 @@
       "adult_price": 600
     },
     {
-      "title": "クレパス画教室展覧会2026",
-      "start": "2026-10-20",
-      "end": "2026-10-25",
+      "title": "市民アートフェアかごしま2026",
+      "start": "2026-10-27",
+      "end": "2026-11-01",
       "url": null,
       "kind": "other",
-      "summary": "クレパス画の教室展（地下展示室・観覧無料）",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
-      "title": "第24回・最終回かごしまフォトクラブ写真展",
-      "start": "2026-10-20",
-      "end": "2026-10-25",
-      "url": null,
-      "kind": "other",
-      "summary": "かごしまフォトクラブの写真展（地下展示室・観覧無料）",
+      "summary": "第21回市民作品公募展（地下展示室・観覧無料）",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0
@@ -131,6 +121,6 @@
   ],
   "highlights": "黒田清輝・藤島武二・和田英作ら鹿児島ゆかりの洋画家の作品を核に、19〜20世紀の美術の流れを示す約3,500点を収蔵する公立美術館。草間彌生など現代作家の新収蔵作品も加わり、国際的な写真展も開催。西郷銅像に隣接し、観光の合間に立ち寄りやすい立地。",
   "closed_between_exhibitions": false,
-  "notes": "所蔵品展・小企画展の観覧料は市民一般450円、市外一般600円（adult_priceは市外料金）。特別企画展はその都度料金設定。毎月第3日曜は小・中学生の常設展が無料（大人一般は対象外）。住所は別途確認要。",
+  "notes": "所蔵品展・小企画展の観覧料は市民一般450円、市外一般600円（adult_priceは市外料金）。特別企画展はその都度料金設定。毎月第3日曜は小・中学生の常設展が無料（大人一般は対象外）。住所は別途確認要。 2026-10-30: 谷口午二展の観覧料は所蔵品展と共通（市外一般600円・市民450円）。休館は月曜（祝日は翌平日）・12/29-1/1で変更なし。終了した地下展示室の2展を削除。",
   "confidence": "high"
 }

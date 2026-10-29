@@ -1,6 +1,6 @@
 {
   "id": "Q11377196",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -41,15 +41,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "フォルムグループ第19回油絵展",
-      "start": "2026-10-22",
-      "end": "2026-10-25",
-      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2062",
-      "kind": "other",
-      "summary": "貸会場企画展",
-      "recommend": null
-    },
     {
       "title": "第99回セコイア11人展",
       "start": "2026-10-27",

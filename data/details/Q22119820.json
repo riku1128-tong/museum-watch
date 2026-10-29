@@ -1,7 +1,7 @@
 {
   "id": "Q22119820",
-  "checked_at": "2026-10-23T08:11:53+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://nanto-museum.com/",
@@ -11,7 +11,8 @@
     "https://nanto-museum.com/access/",
     "https://nanto-museum.com/about/",
     "https://nanto-museum.com/archives/exhibition/1838",
-    "https://nanto-museum.com/archives/exhibition/1839"
+    "https://nanto-museum.com/archives/exhibition/1839",
+    "https://nanto-museum.com/archives/exhibition/2226"
   ],
   "regular_hours": [
     {
@@ -43,15 +44,26 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "北からの風：棟方志功と奈良美智",
-      "start": "2026-09-12",
-      "end": "2026-10-25",
-      "url": "https://nanto-museum.com/archives/exhibition/1838",
-      "kind": "special",
-      "summary": "青森出身の棟方志功と奈良美智の作品を一堂に。北の風土が育んだ人物表現と感情表現の共鳴を5章構成で探る",
-      "recommend": "版画の巨匠・棟方志功と現代美術を代表する奈良美智、異なる時代の青森出身作家が共鳴する稀有な展覧会。棟方大作30点以上と奈良作品50点以上が並び、「北からの風」という共通の根を体感できる。",
-      "admission": "一般 1,200円",
-      "adult_price": 1200
+      "title": "常設展 棟方志功と石崎光瑤",
+      "start": "2026-09-16",
+      "end": "2026-11-29",
+      "url": "https://nanto-museum.com/archives/exhibition/2226",
+      "kind": "collection",
+      "summary": "棟方志功の板画・倭画・油画・書と、石崎光瑤の秋の菊を描いた作品や《燦雨》《寂光》を展示",
+      "recommend": null,
+      "admission": "一般 310円",
+      "adult_price": 310
+    },
+    {
+      "title": "常設展 棟方志功と石崎光瑤",
+      "start": "2026-09-16",
+      "end": "2026-11-29",
+      "url": "https://nanto-museum.com/archives/exhibition/2226",
+      "kind": "collection",
+      "summary": "棟方志功の板画・倭画・油画・書と、石崎光瑤の秋の菊を描いた作品や《燦雨》《寂光》を展示",
+      "recommend": null,
+      "admission": "一般 310円",
+      "adult_price": 310
     },
     {
       "title": "第22回南砺市美術展",
@@ -79,6 +91,6 @@
   ],
   "highlights": "棟方志功が疎開中に数々の代表作を生んだ福光の地に立つ美術館。棟方志功と郷土の日本画家・石崎光瑤の常設展示室を擁し、分館「愛染苑」では棟方が暮らした「鯉雨画斎」の天井や壁を飾る菩薩・天女の画を鑑賞できる。森の緑と野鳥のさえずりに包まれた閑静な環境も魅力。",
   "closed_between_exhibitions": false,
-  "notes": "年末年始は12/29〜1/3休館。2026年度は12/1〜1/3に本館が臨時休館。分館・愛染苑は別途1/13〜2/8/2027休館予定（公式サイト記載）。",
+  "notes": "年末年始は12/29〜1/3休館。2026年度は12/1〜1/3に本館が臨時休館。分館・愛染苑は別途1/13〜2/8/2027休館予定（公式サイト記載）。 2026-10-30: 企画展「北からの風」は10/25で終了。現在の企画展は無し、次回は11/14〜の南砺市美術展。休館日は毎週火曜と館内整理日。 2026-10-30: 企画展「北からの風」は10/25で終了。現在の企画展は無し、次回は11/14〜の南砺市美術展。休館日は毎週火曜と館内整理日。",
   "confidence": "high"
 }

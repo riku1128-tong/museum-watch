@@ -1,6 +1,6 @@
 {
   "id": "Q1134422",
-  "checked_at": "2026-10-23T08:30:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -71,6 +71,28 @@
       "kind": "collection",
       "summary": "通年（終了日未定）。アートホールで館の名作コレクションを展示",
       "admission": "一般 2,000円"
+    },
+    {
+      "title": "髙橋匡太「atmos」",
+      "start": "2026-11-28",
+      "end": "2027-01-11",
+      "url": "https://www.hakone-oam.or.jp/exhibitions/",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": "一般 2,000円",
+      "adult_price": 2000
+    },
+    {
+      "title": "神奈川県民ホール県域展開事業 カナガワ ポトガラヒー 出張浅田撮影局｜箱根編",
+      "start": "2027-01-16",
+      "end": "2027-03-22",
+      "url": "https://www.hakone-oam.or.jp/exhibitions/",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": "一般 2,000円",
+      "adult_price": 2000
     }
   ],
   "closed_between_exhibitions": false,
@@ -85,6 +107,6 @@
     }
   ],
   "highlights": "富士箱根伊豆国立公園の自然の中に約120点の近・現代彫刻を野外展示する、1969年開館の日本初の野外彫刻美術館。ロダン、ムーア、ジャコメッティらの名作が広がる約7万㎡の敷地に、高さ18mのステンドグラス塔「幸せをよぶシンフォニー彫刻」や足湯も備え、ピカソ館ではピカソの版画・陶芸を常設展示する。",
-  "notes": "9:00〜17:00（入館は16:30まで）、年中無休。入館料は館共通で一般 当日窓口2,000円（WEBチケット1,800円、adult_price は当日窓口価格）。ピカソ館では常設企画展「ピカソの原動力」を開催中（会期未確認のため展示一覧には入れていない）。",
+  "notes": "9:00〜17:00（入館は16:30まで）、年中無休。入館料は館共通で一般 当日窓口2,000円（WEBチケット1,800円、adult_price は当日窓口価格）。ピカソ館では常設企画展「ピカソの原動力」を開催中（会期未確認のため展示一覧には入れていない）。 2026-10-30: 開館時間9:00〜17:00・年中無休を確認。丸太広場キトキは11/2・11/4〜5、ネットの森は11/30・12/4に閉鎖（館は開館）。",
   "confidence": "high"
 }

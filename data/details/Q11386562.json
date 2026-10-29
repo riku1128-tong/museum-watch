@@ -1,15 +1,16 @@
 {
   "id": "Q11386562",
-  "checked_at": "2026-10-23T08:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.kurayoshi.lg.jp/kurahaku/",
   "address": "〒682-0824 鳥取県倉吉市仲ノ町3445-8",
   "source_urls": [
     "https://www.city.kurayoshi.lg.jp/kurahaku/",
-    "https://www.nact.jp/artcommons/user/detail/82465",
-    "https://rurubu.jp/andmore/spot/80032821"
+    "https://www.city.kurayoshi.lg.jp/kurahaku/5730.htm",
+    "https://www.city.kurayoshi.lg.jp/item/15065.htm",
+    "https://www.city.kurayoshi.lg.jp/item/14914.htm"
   ],
   "regular_hours": [
     {
@@ -41,17 +42,32 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
-  "adult_price": 220,
-  "free_days": [
+  "exhibitions": [
     {
-      "from": "2026-11-14",
-      "to": "2026-11-14",
-      "scope": "collection",
-      "reason": "関西文化の日",
-      "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/"
+      "title": "茶の湯の新しい風 現代陶芸77人の挑戦－緑ヶ丘美術館コレクション",
+      "start": "2026-10-24",
+      "end": "2026-11-29",
+      "url": "https://www.city.kurayoshi.lg.jp/item/15065.htm",
+      "kind": "special",
+      "summary": "緑ヶ丘美術館蔵の現代陶芸家77人による水指・茶碗・茶入などを紹介",
+      "recommend": "現代陶芸の第一線で活躍する作家77人が手がけた、茶の湯の道具を一度に見比べられる展覧会。水指、茶碗、茶入それぞれの造形や釉薬の違いが楽しめる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "タイムトラベルSHOWA～遥かな町へ～展",
+      "start": "2026-10-24",
+      "end": "2026-11-29",
+      "url": "https://www.city.kurayoshi.lg.jp/item/14914.htm",
+      "kind": "special",
+      "summary": "高木啓太郎の写真と安部朱美の創作人形で昭和の鳥取を紹介",
+      "recommend": "鳥取の四季や年中行事を撮り続けた写真と、昭和の家族をテーマにした創作人形が並ぶ。映画『遥かな町へ』にちなみ、懐かしい暮らしの風景をたどれる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
     }
   ],
+  "adult_price": 220,
+  "free_days": [],
   "free_rules": [],
   "access": [
     {
@@ -63,6 +79,6 @@
   ],
   "highlights": "美術・考古・民俗・自然科学の4部門を持つ倉吉市の総合博物館。白壁土蔵の伝統的街並みが残る打吹玉川地区に隣接し、地元出身の日本画家・菅楯彦と洋画家・前田寛治の名を冠した2年ごとの公募大賞展を柱に多彩な企画展を開催。常設展の一般入館料220円と手頃で、倉吉歴史民俗資料館を併設する。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日は開館・翌日休）。祝日の翌日も休館（月曜以外の祝日の翌日も含む）。年末年始休館（具体日程は公式サイトに記載なし）。次回企画展「新しい茶の湯の風 緑が丘美術館コレクション」・「安部朱美人形展」の会期は確認できず。特別展の入館料は展示ごとに異なる。公式URLを museums.json の www1.city.kurayoshi.lg.jp/hakubutsu/ から変更（404のため）。 2026-10-23時点の現在の展示は「よみがえる古代の美」（展示室5、会期記載なし）のみ。他は準備中。",
-  "confidence": "medium"
+  "notes": "月曜休館（祝日は開館・翌日休）。祝日の翌日も休館。年末年始休館（具体日程は公式サイトに記載なし。special_closures の日付は前回の値を維持）。11/14（関西文化の日）は公式では団体料金で入館できるとのみ記載で無料ではないため free_days から削除。2026-10-30 に展覧会2件を公式ページで確認。",
+  "confidence": "high"
 }

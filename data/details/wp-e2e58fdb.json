@@ -1,6 +1,6 @@
 {
   "id": "wp-e2e58fdb",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -8,10 +8,10 @@
   "address": "〒956-0846 新潟市秋葉区蒲ヶ沢109番地1（花と遺跡のふるさと公園内）",
   "source_urls": [
     "https://www.city.niigata.lg.jp/nam/",
-    "https://www.city.niigata.lg.jp/nam/guidance/index.html",
-    "https://www.city.niigata.lg.jp/nam/kotsuannai/index.html",
+    "https://www.city.niigata.lg.jp/nam/exhibitions/fy2026exh/2026miniature.html",
     "https://www.city.niigata.lg.jp/nam/exhibitions/fy2026exh/index.html",
-    "https://www.city.niigata.lg.jp/nam/exhibitions/fy2026exh/2026miniature.html"
+    "https://www.city.niigata.lg.jp/nam/guidance/index.html",
+    "https://www.city.niigata.lg.jp/nam/kotsuannai/index.html"
   ],
   "regular_hours": [
     {
@@ -51,7 +51,7 @@
       "kind": "special",
       "summary": "ミニチュア写真家・田中達也の「みたて」の発想過程を写真と立体あわせて約160点で紹介",
       "recommend": "日常の小物をミニチュア人形と組み合わせた「みたて」作品で知られる田中達也の個展。アイデアの発想から完成まで約160点を通して追える構成で、全作品撮影可能。子どもから大人まで楽しめる。",
-      "admission": "一般 1,600円（当日）、1,400円（前売）",
+      "admission": "平日 一般1,600円／土日祝 一般1,800円",
       "adult_price": 1600
     },
     {
@@ -62,8 +62,8 @@
       "kind": "other",
       "summary": "秋葉区の美術愛好家による公募展",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "第22回新潟教育アート展",
@@ -73,8 +73,8 @@
       "kind": "other",
       "summary": "新潟の教育現場の美術作品展",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "新津美術館の「舞台裏」",
@@ -84,8 +84,8 @@
       "kind": "other",
       "summary": "美術館の収蔵・展示の裏側を紹介する企画展",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 700円",
+      "adult_price": 700
     }
   ],
   "adult_price": null,
@@ -107,6 +107,6 @@
     }
   ],
   "highlights": "新潟市郊外・花と遺跡のふるさと公園内に立つ郊外型美術館。無料駐車場250台完備でゆったりと鑑賞できる環境が魅力。写真・映像・現代アートなど幅広いジャンルの企画展を年数回開催し、田中達也など人気作家の個展も積極的に誘致している。",
-  "notes": "正式名称は「新潟市新津美術館」。展覧会準備期間中は休館。",
+  "notes": "正式名称は「新潟市新津美術館」。展覧会準備期間中は休館。 【2026-10-30 light】年度の展覧会一覧で観覧料を確認（田中達也展は平日1,600円・土日祝1,800円。前売料金の記載は今回の一覧では未確認）。",
   "confidence": "high"
 }

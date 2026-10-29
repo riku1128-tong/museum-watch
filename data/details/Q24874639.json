@@ -1,14 +1,15 @@
 {
   "id": "Q24874639",
-  "checked_at": "2026-10-23T08:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.beppu.oita.jp/sisetu/bunka_komyuniti/01bunka_01-02bijutukan.html",
   "address": "〒874-0903 大分県別府市大字別府字野口原3030番地16",
   "source_urls": [
     "https://www.city.beppu.oita.jp/sisetu/bunka_komyuniti/01bunka_01-02bijutukan.html",
-    "https://www.city.beppu.oita.jp/sisetu/kouminkan/museum_exhibition.html"
+    "https://www.city.beppu.oita.jp/sisetu/kouminkan/museum_exhibition.html",
+    "https://www.city.beppu.oita.jp/sisetu/kouminkan/museum.html"
   ],
   "regular_hours": [
     {
@@ -34,28 +35,6 @@
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "別府市美術館新収蔵品展（山本五十六揮ごう掛け軸も展示）",
-      "start": "2026-09-12",
-      "end": "2026-10-25",
-      "url": null,
-      "kind": "collection",
-      "summary": "山本五十六の揮毫（掛け軸）を含む最新の新収蔵品を公開",
-      "recommend": null,
-      "admission": "一般 210円",
-      "adult_price": 210
-    },
-    {
-      "title": "別府市美術館企画展「赤銅御殿と白蓮」",
-      "start": "2026-09-12",
-      "end": "2026-10-25",
-      "url": null,
-      "kind": "special",
-      "summary": null,
-      "recommend": null,
-      "admission": "一般 210円",
-      "adult_price": 210
-    },
     {
       "title": "第31回キルトin別府～針のおしゃべり～",
       "start": "2026-11-03",

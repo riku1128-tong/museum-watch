@@ -1,211 +1,211 @@
 {
-  "id": "Q2655425",
-  "checked_at": "2026-10-23T08:30:00+09:00",
-  "check_mode": "full",
-  "operating_status": "operating",
-  "status_note": null,
-  "official_url": "https://www.shimane-art-museum.jp/",
-  "address": "〒690-0049 島根県松江市袖師町1-5",
-  "source_urls": [
-    "https://www.shimane-art-museum.jp/",
-    "https://www.shimane-art-museum.jp/visit/",
-    "https://www.shimane-art-museum.jp/visit/access.html",
-    "https://www.shimane-art-museum.jp/collection/",
-    "https://www.shimane-art-museum.jp/exhibition/001238.html",
-    "https://www.shimane-art-museum.jp/exhibition/001239.html",
-    "https://www.shimane-art-museum.jp/exhibition/schedule.html",
-    "https://www.shimane-art-museum.jp/exhibition/collection.html"
-  ],
-  "regular_hours": [
-    {
-      "days": [
-        "mon",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
-      "open": "10:00",
-      "close": "18:30",
-      "last_entry": "18:00",
-      "from": "2026-10-01",
-      "to": "2027-02-28"
-    },
-    {
-      "days": [
-        "mon",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
-      "open": "10:00",
-      "close": "19:30",
-      "last_entry": "19:00",
-      "from": "2027-03-01",
-      "to": "2027-09-30"
-    }
-  ],
-  "closed_weekdays": [
-    "tue"
-  ],
-  "holiday_rule": "unknown",
-  "special_closures": [
-    {
-      "from": "2026-12-28",
-      "to": "2027-01-01",
-      "reason": "年末年始"
-    }
-  ],
-  "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "アーツ･アンド･クラフツとデザイン　ウィリアム・モリスからフランク・ロイド・ライトまで",
-      "start": "2026-09-11",
-      "end": "2026-11-03",
-      "url": "https://www.shimane-art-museum.jp/exhibition/001238.html",
-      "kind": "special",
-      "summary": "モリスの《いちご泥棒》など168点でアーツ・アンド・クラフツ運動とデザインの広がりを紹介",
-      "recommend": "モリスの《いちご泥棒》を含む168点が集まる山陰初の企画。アーツ・アンド・クラフツがどのように大西洋を渡り、フランク・ロイド・ライトへと受け継がれたかを家具・書物・工芸で一気に追える。",
-      "admission": "一般 1,500円（コレクション展セット）/ 1,300円（本展のみ）",
-      "adult_price": 1300
-    },
-    {
-      "title": "コレクション展 色と形をみつめて 第2期",
-      "start": "2026-07-29",
-      "end": "2026-11-23",
-      "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
-      "kind": "collection",
-      "summary": "通年",
-      "recommend": null,
-      "admission": "一般 400円",
-      "adult_price": 400
-    },
-    {
-      "title": "コレクション展 水辺の展示室 第5期",
-      "start": "2026-09-30",
-      "end": "2026-11-16",
-      "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
-      "kind": "collection",
-      "summary": "水辺をテーマとした収蔵作品展",
-      "recommend": null,
-      "admission": "一般 400円",
-      "adult_price": 400
-    },
-    {
-      "title": "コレクション展 近世絵画・日本画 第5期",
-      "start": "2026-09-30",
-      "end": "2026-11-16",
-      "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
-      "kind": "collection",
-      "summary": "近世絵画・日本画の収蔵作品展",
-      "recommend": null,
-      "admission": "一般 400円",
-      "adult_price": 400
-    },
-    {
-      "title": "コレクション展 北斎コレクション 第6期",
-      "start": "2026-09-30",
-      "end": "2026-10-26",
-      "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
-      "kind": "collection",
-      "summary": "約1,600件の北斎コレクションより選りすぐりの作品を展示",
-      "recommend": null,
-      "admission": "一般 400円",
-      "adult_price": 400
-    },
-    {
-      "title": "コレクション展 出雲焼の変遷 ―楽山焼・布志名焼",
-      "start": "2026-09-16",
-      "end": "2027-01-18",
-      "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
-      "kind": "collection",
-      "summary": "島根の伝統工芸・出雲焼（楽山焼・布志名焼）の変遷をたどる収蔵品展",
-      "recommend": null,
-      "admission": "一般 400円",
-      "adult_price": 400
-    },
-    {
-      "title": "コレクション展 光と人　ー人物をめぐるイメージ",
-      "start": "2026-10-22",
-      "end": "2027-01-11",
-      "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
-      "kind": "collection",
-      "summary": "写真に写された人物をめぐる多様なまなざしを紹介する小企画",
-      "recommend": "写真が生まれて以来、最も身近な被写体であり続けた「人」に光を当てるコレクション展。撮り手ごとに異なる人物へのまなざしを、所蔵作品で見比べられる。",
-      "admission": "一般 400円",
-      "adult_price": 400
-    },
-    {
-      "title": "コレクション展 小企画展 アメリカのデザイン 1930年代のグラフィック",
-      "start": "2026-09-17",
-      "end": "2026-10-26",
-      "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
-      "kind": "collection",
-      "summary": "1930年代アメリカのグラフィックデザインを紹介する小企画展",
-      "recommend": null,
-      "admission": "一般 400円",
-      "adult_price": 400
-    },
-    {
-      "title": "第59回島根県総合美術展（県展）",
-      "start": "2026-11-14",
-      "end": "2026-11-22",
-      "url": "https://www.shimane-art-museum.jp/exhibition/001239.html",
-      "kind": "special",
-      "summary": "島根県内外のアーティストが参加する総合美術公募展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    },
-    {
-      "title": "第73回日本伝統工芸展",
-      "start": "2026-12-02",
-      "end": "2026-12-25",
-      "url": "https://www.shimane-art-museum.jp/exhibition/schedule.html",
-      "kind": "special",
-      "summary": "日本工芸会が主催する伝統工芸の全国公募展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    },
-    {
-      "title": "江戸エンタメの最高峰！浮世絵スーパークリエイター 歌川国芳展",
-      "start": "2027-01-15",
-      "end": "2027-03-15",
-      "url": "https://www.shimane-art-museum.jp/exhibition/schedule.html",
-      "kind": "special",
-      "summary": "江戸の人気浮世絵師・歌川国芳の大規模展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    }
-  ],
-  "adult_price": 400,
-  "free_days": [],
-  "free_rules": [],
-  "access": [
-    {
-      "station": "松江",
-      "lines": "JR山陰本線",
-      "exit": null,
-      "walk_min": 15,
-      "note": "松江駅から松江市営バス「南循環線内回り」で約6分「県立美術館前」下車"
-    },
-    {
-      "station": "松江しんじ湖温泉",
-      "lines": "一畑電車北松江線",
-      "exit": null,
-      "walk_min": null,
-      "note": "観光ループバス「ぐるっと松江レイクライン」で約15分「県立美術館前」下車"
-    }
-  ],
-  "highlights": "菊竹清訓設計の美術館。宍道湖畔に建ち、日没後30分まで開館する「夕景のミュージアム」として知られる。水をテーマとした絵画や北斎作品約1,600件など7,700点超のコレクションを誇り、宍道湖岸に佐斗司の《宍道湖うさぎ》が並ぶ屋外彫刻も楽しめる。",
-  "closed_between_exhibitions": false,
-  "notes": "3月〜9月は日没後30分まで開館（最終入館は日没時刻）。上記19:30は概算で実際の閉館時間は月により異なる。10月〜2月は18:30まで（最終入館18:00）。年末年始（12/28〜1/1）休館。企画展の日程等により休館日が変更になる場合あり。コレクション展一般400円、企画展はコレクション展セット1,500円または特別展のみ1,300円。",
-  "confidence": "high"
+ "id": "Q2655425",
+ "checked_at": "2026-10-30T06:40:00+09:00",
+ "check_mode": "full",
+ "operating_status": "operating",
+ "status_note": null,
+ "official_url": "https://www.shimane-art-museum.jp/",
+ "address": "〒690-0049 島根県松江市袖師町1-5",
+ "source_urls": [
+  "https://www.shimane-art-museum.jp/",
+  "https://www.shimane-art-museum.jp/collection/",
+  "https://www.shimane-art-museum.jp/exhibition/001238.html",
+  "https://www.shimane-art-museum.jp/exhibition/001239.html",
+  "https://www.shimane-art-museum.jp/exhibition/collection.html",
+  "https://www.shimane-art-museum.jp/exhibition/schedule.html",
+  "https://www.shimane-art-museum.jp/visit/",
+  "https://www.shimane-art-museum.jp/visit/access.html"
+ ],
+ "regular_hours": [
+  {
+   "days": [
+    "mon",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun",
+    "holiday"
+   ],
+   "open": "10:00",
+   "close": "18:30",
+   "last_entry": "18:00",
+   "from": "2026-10-01",
+   "to": "2027-02-28"
+  },
+  {
+   "days": [
+    "mon",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun",
+    "holiday"
+   ],
+   "open": "10:00",
+   "close": "19:30",
+   "last_entry": "19:00",
+   "from": "2027-03-01",
+   "to": "2027-09-30"
+  }
+ ],
+ "closed_weekdays": [
+  "tue"
+ ],
+ "holiday_rule": "unknown",
+ "special_closures": [
+  {
+   "from": "2026-12-28",
+   "to": "2027-01-01",
+   "reason": "年末年始"
+  }
+ ],
+ "special_openings": [],
+ "exhibitions": [
+  {
+   "title": "アーツ･アンド･クラフツとデザイン　ウィリアム・モリスからフランク・ロイド・ライトまで",
+   "start": "2026-09-11",
+   "end": "2026-11-03",
+   "url": "https://www.shimane-art-museum.jp/exhibition/001238.html",
+   "kind": "special",
+   "summary": "モリスの《いちご泥棒》など168点でアーツ・アンド・クラフツ運動とデザインの広がりを紹介",
+   "recommend": "モリスの《いちご泥棒》を含む168点が集まる山陰初の企画。アーツ・アンド・クラフツがどのように大西洋を渡り、フランク・ロイド・ライトへと受け継がれたかを家具・書物・工芸で一気に追える。",
+   "admission": "一般 1,500円（コレクション展セット）/ 1,300円（本展のみ）",
+   "adult_price": 1300
+  },
+  {
+   "title": "コレクション展 色と形をみつめて 第2期",
+   "start": "2026-07-29",
+   "end": "2026-11-23",
+   "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
+   "kind": "collection",
+   "summary": "通年",
+   "recommend": null,
+   "admission": "一般 400円",
+   "adult_price": 400
+  },
+  {
+   "title": "コレクション展 水辺の展示室 第5期",
+   "start": "2026-09-30",
+   "end": "2026-11-16",
+   "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
+   "kind": "collection",
+   "summary": "水辺をテーマとした収蔵作品展",
+   "recommend": null,
+   "admission": "一般 400円",
+   "adult_price": 400
+  },
+  {
+   "title": "コレクション展 近世絵画・日本画 第5期",
+   "start": "2026-09-30",
+   "end": "2026-11-16",
+   "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
+   "kind": "collection",
+   "summary": "近世絵画・日本画の収蔵作品展",
+   "recommend": null,
+   "admission": "一般 400円",
+   "adult_price": 400
+  },
+  {
+   "title": "コレクション展 出雲焼の変遷 ―楽山焼・布志名焼",
+   "start": "2026-09-16",
+   "end": "2027-01-18",
+   "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
+   "kind": "collection",
+   "summary": "島根の伝統工芸・出雲焼（楽山焼・布志名焼）の変遷をたどる収蔵品展",
+   "recommend": null,
+   "admission": "一般 400円",
+   "adult_price": 400
+  },
+  {
+   "title": "コレクション展 光と人　ー人物をめぐるイメージ",
+   "start": "2026-10-22",
+   "end": "2027-01-11",
+   "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
+   "kind": "collection",
+   "summary": "写真に写された人物をめぐる多様なまなざしを紹介する小企画",
+   "recommend": "写真が生まれて以来、最も身近な被写体であり続けた「人」に光を当てるコレクション展。撮り手ごとに異なる人物へのまなざしを、所蔵作品で見比べられる。",
+   "admission": "一般 400円",
+   "adult_price": 400
+  },
+  {
+   "title": "第59回島根県総合美術展（県展）",
+   "start": "2026-11-14",
+   "end": "2026-11-22",
+   "url": "https://www.shimane-art-museum.jp/exhibition/001239.html",
+   "kind": "special",
+   "summary": "島根県内外のアーティストが参加する総合美術公募展",
+   "recommend": null,
+   "admission": null,
+   "adult_price": null
+  },
+  {
+   "title": "第73回日本伝統工芸展",
+   "start": "2026-12-02",
+   "end": "2026-12-25",
+   "url": "https://www.shimane-art-museum.jp/exhibition/schedule.html",
+   "kind": "special",
+   "summary": "日本工芸会が主催する伝統工芸の全国公募展",
+   "recommend": null,
+   "admission": null,
+   "adult_price": null
+  },
+  {
+   "title": "江戸エンタメの最高峰！浮世絵スーパークリエイター 歌川国芳展",
+   "start": "2027-01-15",
+   "end": "2027-03-15",
+   "url": "https://www.shimane-art-museum.jp/exhibition/schedule.html",
+   "kind": "special",
+   "summary": "江戸の人気浮世絵師・歌川国芳の大規模展",
+   "recommend": null,
+   "admission": null,
+   "adult_price": null
+  },
+  {
+   "title": "コレクション展 北斎コレクション 第7期",
+   "start": "2026-10-28",
+   "end": "2026-11-30",
+   "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
+   "kind": "collection",
+   "summary": "所蔵約1,600件の北斎コレクションから錦絵・摺物・版本・肉筆画約40点を展示",
+   "recommend": "北斎の多彩な表現を、錦絵から肉筆画まで約40点の入れ替え展示で一度に味わえる。通期で収集された島根ならではのコレクションの厚みに触れられる。",
+   "admission": "一般 400円",
+   "adult_price": 400
+  },
+  {
+   "title": "コレクション展 木の魅力",
+   "start": "2026-10-29",
+   "end": "2027-02-01",
+   "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
+   "kind": "collection",
+   "summary": "木を素材とする現代の彫刻作品を紹介",
+   "recommend": "感覚になじみ想像をかき立てる素材としての木に注目し、現代の作家たちが生んだ彫刻を紹介。素材の質感や手触りの違いを見比べたくなる展示。",
+   "admission": "一般 400円",
+   "adult_price": 400
+  }
+ ],
+ "adult_price": 400,
+ "free_days": [],
+ "free_rules": [],
+ "access": [
+  {
+   "station": "松江",
+   "lines": "JR山陰本線",
+   "exit": null,
+   "walk_min": 15,
+   "note": "松江駅から松江市営バス「南循環線内回り」で約6分「県立美術館前」下車"
+  },
+  {
+   "station": "松江しんじ湖温泉",
+   "lines": "一畑電車北松江線",
+   "exit": null,
+   "walk_min": null,
+   "note": "観光ループバス「ぐるっと松江レイクライン」で約15分「県立美術館前」下車"
+  }
+ ],
+ "highlights": "菊竹清訓設計の美術館。宍道湖畔に建ち、日没後30分まで開館する「夕景のミュージアム」として知られる。水をテーマとした絵画や北斎作品約1,600件など7,700点超のコレクションを誇り、宍道湖岸に佐斗司の《宍道湖うさぎ》が並ぶ屋外彫刻も楽しめる。",
+ "closed_between_exhibitions": false,
+ "notes": "3月〜9月は日没後30分まで開館（最終入館は日没時刻）。上記19:30は概算で実際の閉館時間は月により異なる。10月〜2月は18:30まで（最終入館18:00）。年末年始（12/28〜1/1）休館。企画展の日程等により休館日が変更になる場合あり。コレクション展一般400円、企画展はコレクション展セット1,500円または特別展のみ1,300円。",
+ "confidence": "high"
 }

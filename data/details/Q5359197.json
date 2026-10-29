@@ -1,6 +1,6 @@
 {
   "id": "Q5359197",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:35:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -14,7 +14,9 @@
     "https://kenbi.pref.gifu.lg.jp/events/gifu-no-nihonga202609/",
     "https://kenbi.pref.gifu.lg.jp/events/modernfrenchpaintings/",
     "https://kenbi.pref.gifu.lg.jp/events/redon_komai/",
-    "https://kenbi.pref.gifu.lg.jp/events/noa-noa-the-arcadia-of-gauguin/"
+    "https://kenbi.pref.gifu.lg.jp/events/noa-noa-the-arcadia-of-gauguin/",
+    "https://kenbi.pref.gifu.lg.jp/events/sorehananigotoka/",
+    "https://kenbi.pref.gifu.lg.jp/events/maruke2026/"
   ],
   "regular_hours": [
     {
@@ -105,6 +107,28 @@
       "recommend": "陶芸を核にインスタレーションやパフォーマンスなど多様な媒体でメッセージ性の高い作品を発表した鯉江良二を橋本コレクションを主軸に振り返る特集展示。その幅広い表現の全貌を一望できる機会。",
       "admission": "一般370円",
       "adult_price": 370
+    },
+    {
+      "title": "アートまるケット2026",
+      "start": "2026-10-27",
+      "end": "2027-03-14",
+      "url": "https://kenbi.pref.gifu.lg.jp/events/maruke2026/",
+      "kind": "special",
+      "summary": "日比野克彦館長ディレクションの第12回。AIとアートの関わりを試す展示室2のプロジェクト",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "「それは何ごとか」佐藤慶次郎の実験",
+      "start": "2026-11-10",
+      "end": "2026-12-20",
+      "url": "https://kenbi.pref.gifu.lg.jp/events/sorehananigotoka/",
+      "kind": "special",
+      "summary": "生誕100年。実験工房の作曲家兼アーティスト佐藤慶次郎のエレクトリック・オブジェを紹介",
+      "recommend": "振動する軸上を緩やかに動く球体や、予測しがたいマグネット素子の動きなど、単純な仕掛けが現象の要約のように見えるエレクトリック・オブジェが並ぶ。生誕100年に実験工房の作曲家の世界に触れられる。",
+      "admission": "一般370円",
+      "adult_price": 370
     }
   ],
   "adult_price": 370,
@@ -143,6 +167,6 @@
   ],
   "highlights": "岐阜市に位置する県立美術館。充実したルドンのコレクションをはじめ、フランス近代絵画や岐阜ゆかりの日本画など幅広い収蔵品を誇る。コレクション展は370円と手頃な価格で楽しめ、企画展では大型の国際巡回展も開催。企画展開催時の第3金曜は20時まで夜間開館。",
   "closed_between_exhibitions": false,
-  "notes": "企画展開催時の毎月第3金曜日は10:00〜20:00（入場19:30まで）の夜間開館。年末年始の休館日程は公式サイトに日付記載なし。 【2026-10-10 light】臨時休館・時間変更なし。新展覧会「特集 鯉江良二」(11/10〜)を追加。JR西岐阜駅から美術館への行き方案内が新規お知らせに掲載（アクセス変更なし）。",
+  "notes": "企画展開催時の毎月第3金曜日は10:00〜20:00（入場19:30まで）の夜間開館。年末年始の休館日程は公式サイトに日付記載なし。 【2026-10-10 light】臨時休館・時間変更なし。新展覧会「特集 鯉江良二」(11/10〜)を追加。JR西岐阜駅から美術館への行き方案内が新規お知らせに掲載（アクセス変更なし）。 10/30 light: 臨時休館・時間変更なし。企画展「佐藤慶次郎」(11/10〜)と展示室2の「アートまるケット2026」(無料、〜2027/3/14)を追加。11/3は混雑予想の告知あり。",
   "confidence": "high"
 }

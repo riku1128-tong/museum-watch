@@ -1,6 +1,6 @@
 {
   "id": "Q11483668",
-  "checked_at": "2026-10-23T08:14:26+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,7 +8,6 @@
   "address": "〒010-0001 秋田県秋田市中通1丁目4-2",
   "source_urls": [
     "https://www.akita-museum-of-art.jp/contents/contents_show.php?contents_id=71",
-    "https://www.akita-museum-of-art.jp/contents/contents_show.php?contents_id=76",
     "https://www.akita-museum-of-art.jp/event/year_list.php",
     "https://www.akita-museum-of-art.jp/event/show_detail.php?serial_no=536",
     "https://www.akita-museum-of-art.jp/event/show_detail.php?serial_no=540"
@@ -32,7 +31,28 @@
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-11-30",
+      "to": "2026-12-04",
+      "reason": "展示替え"
+    },
+    {
+      "from": "2026-12-09",
+      "to": "2026-12-10",
+      "reason": "休館日（公式の休館日一覧）"
+    },
+    {
+      "from": "2026-12-31",
+      "to": "2027-01-03",
+      "reason": "年末年始"
+    },
+    {
+      "from": "2027-01-18",
+      "to": "2027-01-22",
+      "reason": "展示替え"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -53,9 +73,9 @@
       "url": "https://www.akita-museum-of-art.jp/event/show_detail.php?serial_no=540",
       "kind": "collection",
       "summary": "平野政吉が蒐集したコレクションの中から人物をテーマにした作品を紹介する企画展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "recommend": "藤田嗣治作品で知られる平野政吉の蒐集品から、肖像や群像など幅広いジャンルの人物画を選んで紹介。コレクターの眼で集められた作品を通じ、画家ごとに異なる人物表現の違いを見比べられる。",
+      "admission": "一般 310円",
+      "adult_price": 310
     }
   ],
   "adult_price": 310,
@@ -71,6 +91,6 @@
   ],
   "highlights": "秋田の資産家・平野政吉が収集した藤田嗣治（レオナール・フジタ）作品を核とする美術館。縦3.65m×横20.5mの巨大壁画「秋田の行事」が圧巻。安藤忠雄設計の建物は水庭とコンクリート打ち放しが特徴で、光と影が織りなす静謐な空間が広がる。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は公式サイトに「不定休（メンテナンス等で臨時休館の場合あり）」と記載。固定の定休曜日なし。竿燈期間中など特定の時期は開館時間を延長する場合あり。常設展（平野政吉コレクション）の入館料は大人310円。特別展開催時は特別展料金（今回1,000円）に変更。 2026-10-23 時点で公式サイトが「メンテナンス中（復旧の目処は立っておりません）」で読めず、前回の値を残して信頼度を下げた（再挑戦でも全ページがメンテナンス画面へ転送。民間サイトの2026年情報でも開館時間・不定休は一致）。",
-  "confidence": "low"
+  "notes": "休館日は公式サイトに「不定休（メンテナンス等で臨時休館の場合あり）」と記載。固定の定休曜日なし。休館日一覧（year_list）に基づき special_closures を設定（11/30〜12/4・12/9〜10・12/31〜1/3・1/18〜22）。常設展（平野政吉コレクション）の入館料は大人310円。特別展開催時は特別展料金に変更。 2026-10-30: 公式サイトのメンテナンスは解除され、利用案内・展覧会ページを確認。トップページ本文は取得できなかった。",
+  "confidence": "high"
 }

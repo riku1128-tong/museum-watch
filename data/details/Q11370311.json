@@ -1,6 +1,6 @@
 {
   "id": "Q11370311",
-  "checked_at": "2026-10-23T08:30:00+09:00",
+  "checked_at": "2026-10-30T06:35:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -49,6 +49,45 @@
         "2026-10-03",
         "2026-10-24"
       ]
+    },
+    {
+      "title": "九州産業大学芸術学部教員作品展",
+      "start": "2026-11-14",
+      "end": "2026-11-23",
+      "url": "https://www.kyusan-u.ac.jp/ksumuseum/",
+      "kind": "special",
+      "summary": "九州産業大学芸術学部の教員による作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "closed_dates": [
+        "2026-11-22"
+      ]
+    },
+    {
+      "title": "Tokyo Illustrators Society Presents Illustration Works in Fukuoka 203人のイラストレーターによるベストワーク展",
+      "start": "2026-11-29",
+      "end": "2026-12-13",
+      "url": "https://www.kyusan-u.ac.jp/ksumuseum/",
+      "kind": "special",
+      "summary": "203人のイラストレーターによるベストワークを紹介する展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "closed_dates": [
+        "2026-12-12"
+      ]
+    },
+    {
+      "title": "九州版画プロジェクト",
+      "start": "2027-01-08",
+      "end": "2027-01-14",
+      "url": "https://www.kyusan-u.ac.jp/ksumuseum/",
+      "kind": "special",
+      "summary": "九州の版画を紹介するプロジェクト展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 200,
@@ -65,6 +104,6 @@
   ],
   "highlights": "九州産業大学が2002年に開館した大学附属美術館。美術・工芸・デザイン・写真など多分野の作品を収蔵し、企画展や巡回展を一般に公開する。ワークショップなど地域の文化芸術振興にも取り組み、大学の教育研究コレクションを地域に開く場として機能している。",
   "closed_between_exhibitions": false,
-  "notes": "夏季休業期間・年末年始・展示替え期間にも休館（公式サイトに明記されているが具体的な日付は未確認）。holiday_rule は公式サイトに記載なく不明。主催展の入館料は一般200円。九産大学生・本学教職員は無料。10/3(土)・10/24(土)の休館は現在の展覧会ページに記載あり（特殊な休館日）。",
+  "notes": "夏季休業期間・年末年始・展示替え期間にも休館（公式サイトに明記されているが具体的な日付は未確認）。holiday_rule は公式サイトに記載なく不明。主催展の入館料は一般200円。九産大学生・本学教職員は無料。10/3(土)・10/24(土)の休館は現在の展覧会ページに記載あり（特殊な休館日）。 2026-10-30 light: 今後の展覧会3件を追加。",
   "confidence": "high"
 }

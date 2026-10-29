@@ -1,7 +1,7 @@
 {
   "id": "Q11453791",
-  "checked_at": "2026-10-23T08:09:29+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:30:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.pref.miyagi.jp/site/mmoa/",
@@ -53,17 +53,6 @@
       "recommend": "150点超の林明子絵本原画と佐藤忠良の彫刻を同時に楽しめる充実の所蔵品展。洲之内コレクションの名品も見逃せない。",
       "admission": "一般 350円（団体280円）、小〜大学生無料",
       "adult_price": 350
-    },
-    {
-      "title": "カンディンスキー 世界は鳴りひびく ―日本のコレクションでたどる画業と反響―",
-      "start": "2026-09-12",
-      "end": "2026-10-28",
-      "url": "https://www.pref.miyagi.jp/site/mmoa/exhibition-20260912-s01-01.html",
-      "kind": "special",
-      "summary": "日本所蔵作品で辿るカンディンスキーの画業。ミュンヘンから青騎士・ロシア・バウハウス・パリへ、色と形の交響を紹介",
-      "recommend": "抽象絵画の先駆者を日本コレクション視点で読み解く意欲作。バウハウス指導期から円熟パリ期まで、日本人との出会いにも焦点を当てる。",
-      "admission": "一般 1,300円（団体1,100円）",
-      "adult_price": 1300
     },
     {
       "title": "いま、私は現代アートと出会う　－草間彌生、奈良美智、村上隆、アンディ・ウォーホル、バンクシー …",

@@ -1,6 +1,6 @@
 {
   "id": "Q864957",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -10,11 +10,10 @@
     "https://www.tobikan.jp/",
     "https://www.tobikan.jp/guide/index.html",
     "https://www.tobikan.jp/exhibition/index.html",
-    "https://www.tobikan.jp/exhibition/2026_britishmuseum.html",
     "https://www.tobikan.jp/information/index.html",
     "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082607",
-    "https://www.tobikan.jp/information/20260918_1.html",
-    "https://www.tobikan.jp/exhibition/2026_orsay.html"
+    "https://www.tobikan.jp/exhibition/2026_orsay.html",
+    "https://www.tobikan.jp/exhibition/2026_waysofreading.html"
   ],
   "regular_hours": [
     {
@@ -46,6 +45,11 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
+      "from": "2026-10-30",
+      "to": "2026-10-30",
+      "reason": "全館休館日"
+    },
+    {
       "from": "2026-12-21",
       "to": "2026-12-28",
       "reason": "整備休館"
@@ -70,11 +74,27 @@
       "url": "https://www.tobikan.jp/exhibition/2026_orsay.html",
       "kind": "special",
       "summary": "開館100周年記念。ミレー《落穂拾い》やゴッホ《星月夜》など約110点",
-      "admission": null,
+      "admission": "一般 2,400円",
       "closed_weekdays": [
         "mon"
       ],
-      "recommend": "ミレー《落穂拾い》が23年ぶり、ゴッホ《星月夜》とゴーガン《アレアレア》が16年ぶりに来日。オルセーの名品約110点で近代美術の歓びをたどる。"
+      "recommend": "ミレー《落穂拾い》が23年ぶり、ゴッホ《星月夜》とゴーガン《アレアレア》が16年ぶりに来日。オルセーの名品約110点で近代美術の歓びをたどる。",
+      "adult_price": 2400,
+      "closed_dates": [
+        "2026-11-24",
+        "2027-01-12",
+        "2027-03-23"
+      ],
+      "hours": [
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "09:30",
+          "close": "20:00",
+          "last_entry": "19:30"
+        }
+      ]
     },
     {
       "title": "あなたが世界を読むために",
@@ -82,11 +102,26 @@
       "end": "2027-01-11",
       "url": "https://www.tobikan.jp/exhibition/2026_waysofreading.html",
       "kind": "special",
-      "summary": "開館100周年記念の企画展",
+      "summary": "開館100周年記念。五人のアーティストの作品で「世界との対話」を探る",
       "admission": "無料",
       "closed_weekdays": [
         "mon"
-      ]
+      ],
+      "adult_price": 0,
+      "closed_dates": [
+        "2026-12-07"
+      ],
+      "hours": [
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "09:30",
+          "close": "20:00",
+          "last_entry": "19:30"
+        }
+      ],
+      "recommend": "彫刻・写真・言葉・絵画の五人の作品を通して、光や時、言葉、自然から世界を「読む」体験を提案。観覧無料で、開館100周年を祝う企画展。"
     },
     {
       "title": "はじまりをひらく 東京都美術館の100年",
@@ -98,12 +133,23 @@
       "admission": "無料",
       "closed_weekdays": [
         "mon"
+      ],
+      "adult_price": 0,
+      "hours": [
+        {
+          "days": [
+            "fri"
+          ],
+          "open": "09:30",
+          "close": "20:00",
+          "last_entry": "19:30"
+        }
       ]
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "定休日は第1・第3月曜（祝日・振替休日の場合は翌平日）。特別展・企画展は毎週月曜休室（祝日は開室、翌平日休室）、会期中の金曜は20:00まで。2026-09-18付お知らせにて「大英博物館日本美術コレクション 百花繚乱」の開室時間が9月29日（火）〜10月18日（日）の期間、混雑緩和のため9:15に変更。常設のコレクションを持たず観覧料は展覧会ごとに異なるため adult_price は null。 2026-10-23: 公式サイトが503で読めず、検索結果の公式ページ情報で更新（大英博物館展は10/18終了のため削除）。",
-  "confidence": "medium",
+  "notes": "定休日は第1・第3月曜（祝日・振替休日の場合は翌平日）。特別展・企画展は毎週月曜休室（祝日は開室、翌平日休室）、会期中の金曜は20:00まで。常設のコレクションを持たず観覧料は展覧会ごとに異なるため adult_price は null。2026-10-30: 公式トップに「本日は全館休館日」と表示（当日分のみ special_closures に入れた。公募展など多数の展示が入れ替わる館なので、会期間休館の扱いにはしていない）。オルセー展は 11/24・1/12・3/23 休室、11/23・1/4・1/11・3/22 は開室。",
+  "confidence": "high",
   "adult_price": null,
   "access": [
     {

@@ -1,7 +1,7 @@
 {
   "id": "Q11385099",
-  "checked_at": "2026-10-23T08:20:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.sanobi.or.jp/",
@@ -34,11 +34,6 @@
   ],
   "holiday_rule": "open",
   "special_closures": [
-    {
-      "from": "2026-10-23",
-      "to": "2026-10-23",
-      "reason": "展示替え（公式に10/24から開館と記載）"
-    },
     {
       "from": "2027-02-15",
       "to": "2027-02-19",

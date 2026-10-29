@@ -1,6 +1,6 @@
 {
   "id": "Q11493678",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:20:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -91,6 +91,17 @@
       "kind": "special",
       "summary": "コマ撮りアニメ・ミニチュア・トリックラクガキで活躍するマルチアーティストMozuの新作を紹介",
       "recommend": "「ちいさなせかい」に引き込まれる驚きと細部への感嘆が魅力のMozuによる新作展。緻密に作り込まれたミニチュアをのぞき込む体験は子どもから大人まで楽しめる。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "深堀隆介展",
+      "start": "2027-01-30",
+      "end": "2027-03-14",
+      "url": "https://www.ehime-art.jp/",
+      "kind": "special",
+      "summary": "金魚を樹脂に描く「金魚養画場」で知られる深堀隆介の企画展",
+      "recommend": null,
       "admission": null,
       "adult_price": null
     }

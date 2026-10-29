@@ -1,7 +1,7 @@
 {
   "id": "Q11476530",
-  "checked_at": "2026-10-23T08:12:03+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.grandtoit.jp",
@@ -44,17 +44,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "俯瞰してみる",
-      "start": "2026-08-19",
-      "end": "2026-10-26",
-      "url": "https://www.grandtoit.jp/museum/exhibition/fukanshitemiru_20260819/",
-      "kind": "collection",
-      "summary": "石見美術館コレクションから俯瞰の視点でとらえた風景・人物・モティーフの作品を紹介",
-      "recommend": "石見美術館コレクションから風景・人物・静物まで多彩な「俯瞰」視点の作品を一堂に展示。スペクタクルな高所からの視点で描かれた絵画・写真・版画の構図の妙を楽しめる。",
-      "admission": "コレクション展 一般 400円",
-      "adult_price": 400
-    },
-    {
       "title": "北斎－「葛飾北斎期」・「戴斗期」編",
       "start": "2026-09-19",
       "end": "2026-11-09",
@@ -65,7 +54,8 @@
       "admission": "企画展 一般 1,000円（前売 900円）",
       "adult_price": 1000,
       "closed_dates": [
-        "2026-10-14"
+        "2026-10-14",
+        "2026-11-04"
       ]
     },
     {

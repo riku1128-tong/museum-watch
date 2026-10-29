@@ -1,6 +1,6 @@
 {
   "id": "Q11467091",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -8,7 +8,6 @@
   "address": "〒758-0074 山口県萩市平安古町586-1",
   "source_urls": [
     "https://hum-web.jp",
-    "https://hum-web.jp/info/",
     "https://hum-web.jp/exhibition/",
     "https://hum-web.jp/exhibition_collection/"
   ],
@@ -62,8 +61,8 @@
       "end": "2026-12-20",
       "url": "https://hum-web.jp/exhibition/",
       "kind": "special",
-      "summary": null,
-      "recommend": null,
+      "summary": "ファッションデザイナーNIGO®が集めた川喜田半泥子の茶陶55点と、NIGO®自作の茶碗25点を展示",
+      "recommend": "茶の湯を通じて半泥子の茶陶に魅せられたNIGO®のコレクションと自作茶碗を並べ、時代を超えた作り手同士の対話を楽しめる。",
       "admission": "一般1,500円（前売・20名以上1,300円）",
       "adult_price": 1500
     },
@@ -73,8 +72,8 @@
       "end": "2026-12-20",
       "url": "https://hum-web.jp/exhibition/",
       "kind": "special",
-      "summary": "現代の萩焼作家による新しい萩焼の姿を紹介する特別展",
-      "recommend": null,
+      "summary": "40〜50代の萩焼作家5名（岡田泰、渋谷英一、田原崇雄、十六代坂倉新兵衛、三輪太郎）の作品を紹介",
+      "recommend": "伝統を受け継ぎながら新しい表現に挑む中堅作家5名の今を一度に見られる。萩焼の現在地と可能性を感じられる展示。",
       "admission": "一般1,500円（前売・20名以上1,300円）",
       "adult_price": 1500
     },
@@ -84,8 +83,8 @@
       "end": "2026-12-20",
       "url": "https://hum-web.jp/exhibition/",
       "kind": "special",
-      "summary": "開館30周年記念として開催する現代陶芸の公募展・萩大賞展第7回",
-      "recommend": null,
+      "summary": "開館30周年記念。国内外から公募した現役陶芸家の作品による公募展",
+      "recommend": "歴史を尊重しつつ現代の感覚を取り入れた多彩な陶芸が集まる公募展。ジャンルにとらわれない造形の幅が見どころ。",
       "admission": "一般400円（20名以上320円）",
       "adult_price": 400
     }

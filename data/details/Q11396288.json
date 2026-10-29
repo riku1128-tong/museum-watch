@@ -1,6 +1,6 @@
 {
   "id": "Q11396288",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -73,10 +73,10 @@
       "end": "2027-01-17",
       "url": "https://www.city.kariya.lg.jp/museum/exhibition/schedule/index.html",
       "kind": "special",
-      "summary": "独創的な作風で知られる絵本作家・イラストレーター井上洋介の没後10年を記念した回顧展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null,
+      "summary": "漫画家・画家・絵本作家 井上洋介（1931-2016）の没後10年回顧展",
+      "recommend": "前衛的な漫画や絵画から『くまの子ウーフ』などの絵本まで幅広く活躍した井上洋介の仕事を、当館所蔵の1,000点超から選りすぐって辿る。独創的で奇想天外な作風に出会える展示。",
+      "admission": "無料",
+      "adult_price": 0,
       "closed_weekdays": [],
       "closed_dates": []
     }
@@ -95,6 +95,6 @@
   ],
   "highlights": "1983年開館の愛知・刈谷市立美術館。愛知ゆかりの作家の近・現代美術と絵本原画・グラフィックデザインを幅広く収蔵し、年3回ほど企画展を開催。コレクション展（常設）は無料で観覧でき、刈谷駅から徒歩10分。敷地内の茶室「佐喜知庵」では抹茶体験も楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "月曜が祝日の場合は翌平日が振替休館。展示替え日・館内整備日も休館あり（休館日カレンダーで要確認）。",
+  "notes": "月曜が祝日の場合は翌平日が振替休館。展示替え日・館内整備日も休館あり（休館日カレンダーで要確認）。 【2026-10-30】井上洋介展の観覧料は公式の展覧会予定ページに「無料」と記載。",
   "confidence": "high"
 }

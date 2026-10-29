@@ -1,6 +1,6 @@
 {
   "id": "Q3330163",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -12,7 +12,8 @@
     "https://faam.city.fukuoka.lg.jp/exhibition/26076/",
     "https://faam.city.fukuoka.lg.jp/exhibition/schedule/",
     "https://faam.city.fukuoka.lg.jp/exhibition/27374/",
-    "https://faam.city.fukuoka.lg.jp/exhibition/27361/"
+    "https://faam.city.fukuoka.lg.jp/exhibition/27361/",
+    "https://faam.city.fukuoka.lg.jp/topics/27775/"
   ],
   "regular_hours": [
     {
@@ -62,23 +63,23 @@
       "adult_price": 1000
     },
     {
-      "title": "中村洋一葦ペン画展「120回ピースボード寄港地の風景」",
-      "start": "2026-10-22",
-      "end": "2026-10-27",
-      "url": "https://faam.city.fukuoka.lg.jp/exhibition/27495/",
-      "kind": "other",
-      "summary": "交流ギャラリー（8階）での葦ペン画展。ピースボード寄港地の風景を描く",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    },
-    {
       "title": "イメージラボ写真教室　第26回作品展",
       "start": "2026-10-29",
       "end": "2026-11-03",
       "url": "https://faam.city.fukuoka.lg.jp/exhibition/27571/",
       "kind": "other",
       "summary": "交流ギャラリー（8階）での写真教室の作品展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "キルトショップANNE  パッチワーク作品展",
+      "start": "2026-11-05",
+      "end": "2026-11-10",
+      "url": "https://faam.city.fukuoka.lg.jp/exhibition/27770/",
+      "kind": "other",
+      "summary": "交流ギャラリー（8階）でのパッチワーク作品展",
       "recommend": null,
       "admission": null,
       "adult_price": null
@@ -95,6 +96,17 @@
       "adult_price": null
     },
     {
+      "title": "博多最後の絵馬師　百耕　大絵馬展",
+      "start": "2026-11-19",
+      "end": "2026-11-24",
+      "url": "https://faam.city.fukuoka.lg.jp/exhibition/27615/",
+      "kind": "other",
+      "summary": "交流ギャラリー（8階）での絵馬師・百耕の大絵馬展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
       "title": "Asia Network Beyond Design 福岡展 2026",
       "start": "2026-11-26",
       "end": "2026-12-01",
@@ -104,11 +116,33 @@
       "recommend": null,
       "admission": null,
       "adult_price": null
+    },
+    {
+      "title": "MAPPA EXPO 15th Anniversary",
+      "start": "2027-01-30",
+      "end": "2027-03-28",
+      "url": "https://faam.city.fukuoka.lg.jp/exhibition/27728/",
+      "kind": "special",
+      "summary": "企画ギャラリーで開く MAPPA EXPO の15周年展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 200,
   "closed_between_exhibitions": false,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "partial",
+      "targets": [
+        "アジアギャラリー"
+      ],
+      "reason": "文化の日（アジアギャラリー観覧無料。企画ギャラリーは有料）",
+      "source_url": "https://faam.city.fukuoka.lg.jp/topics/27775/"
+    }
+  ],
   "free_rules": [],
   "access": [
     {
@@ -120,6 +154,6 @@
     }
   ],
   "highlights": "福岡市・博多川端地区のリバレインセンタービルに位置する、アジア現代美術を専門とする日本唯一の美術館。インド・東南アジア・東アジアなど各地の現代アーティストの作品約3000点を収蔵し、地域との交流の場となる交流ギャラリー（8F）も備える。地下鉄直結でアクセスも抜群。",
-  "notes": "開館時間はギャラリー観覧時間9:30〜18:00（金・土は20:00まで）、入室は閉室30分前まで。建物全体の開館は19:30まで（金・土は20:00）。水曜休館（水曜が祝日の場合は翌平日休館）。adult_price 200円はアジアギャラリー（常設）のみ観覧の場合。 2026-10-23: 公式サイトがシステムメンテナンスで閲覧できず、前回の値を維持（再開後に再確認）。",
-  "confidence": "medium"
+  "notes": "開館時間はギャラリー観覧時間9:30〜18:00（金・土は20:00まで）、入室は閉室30分前まで。建物全体の開館は19:30まで（金・土は20:00）。水曜休館（水曜が祝日の場合は翌平日休館）。adult_price 200円はアジアギャラリー（常設）のみ観覧の場合。 トップページ表記は9:30〜20:00と9:30〜19:30が混在、ギャラリー観覧は9:30〜18:00（金・土20:00）。",
+  "confidence": "high"
 }

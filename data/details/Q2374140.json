@@ -1,7 +1,7 @@
 {
   "id": "Q2374140",
-  "checked_at": "2026-10-23T08:11:12+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-30T06:35:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.gotoh-museum.or.jp/",
@@ -61,6 +61,17 @@
       "recommend": "四季を描いた室町時代のやまと絵屛風や、豊かな下絵をもつ連歌懐紙などを通して、室町の人々の心が映す風景を探る展示。会期中に一部展示替えがあり、庭園とあわせて秋の散策も楽しめる。",
       "admission": "一般 1,400円",
       "adult_price": 1400
+    },
+    {
+      "title": "［館蔵］茶道具取合せ展",
+      "start": "2026-12-19",
+      "end": "2027-02-07",
+      "url": "https://www.gotoh-museum.or.jp/exhibition/next/",
+      "kind": "special",
+      "summary": "館蔵の茶道具を取り合わせて紹介する展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "closed_between_exhibitions": true,

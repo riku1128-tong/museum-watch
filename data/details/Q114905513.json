@@ -1,6 +1,6 @@
 {
   "id": "Q114905513",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://www.city.mizunami.lg.jp/kankou_bunka/1004960/ichinose_museum/index.html",
     "https://www.city.mizunami.lg.jp/kankou_bunka/1004960/ichinose_museum/1002221.html",
-    "https://www.museum.or.jp/museum/4286"
+    "https://www.museum.or.jp/museum/4286",
+    "https://www.city.mizunami.lg.jp/kankou_bunka/1004960/ichinose_museum/1002221.html"
   ],
   "regular_hours": [
     {
@@ -33,9 +34,9 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-10-21",
-      "to": "2026-10-23",
-      "reason": "企画展準備に伴う臨時休館"
+      "from": "2026-12-01",
+      "to": "2026-12-01",
+      "reason": "資料整理休館日"
     },
     {
       "from": "2026-12-28",
@@ -63,13 +64,21 @@
       "url": "https://www.city.mizunami.lg.jp/kankou_bunka/1004960/ichinose_museum/index.html",
       "kind": "special",
       "summary": "加納義光の回顧展",
-      "recommend": null,
+      "recommend": "瑞浪在住の陶芸家・加納義光の作品をまとめて見られる回顧展。長年の制作の歩みをたどれる。",
       "admission": null,
       "adult_price": null
     }
   ],
   "adult_price": 200,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-03",
+      "to": "2026-11-03",
+      "scope": "all",
+      "reason": "文化の日（無料開放）",
+      "source_url": "https://www.city.mizunami.lg.jp/kankou_bunka/1004960/ichinose_museum/1002221.html"
+    }
+  ],
   "free_rules": [],
   "access": [
     {
@@ -82,6 +91,6 @@
   ],
   "highlights": "岐阜・瑞浪市出身の彫刻家・市之瀬廣太の作品約20点を核に、同市ゆかりの彫刻家・天野裕夫の作品など石・ブロンズ・陶器・ガラスといった多彩な素材の造形作品を常設展示。丘陵の森に囲まれた落ち着いた環境で、年数回の企画展も開催する小美術館。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日の場合は翌日休館）。毎月末日は資料整理点検日として休館の場合あり（公式サイトに明示なし）。10/21〜23は企画展準備に伴う全館臨時休館（公式サイト確認）。3館共通入館料（一般500円）あり。",
-  "confidence": "medium"
+  "notes": "月曜休館（祝日の場合は翌日休館）。資料整理休館日: 12/1、2027/2/2、3/2。年末年始12/28〜1/4。高校生以下は無料。3館共通入館料（一般500円）あり。11/3は無料開放。",
+  "confidence": "high"
 }

@@ -1,7 +1,7 @@
 {
   "id": "Q11384365",
-  "checked_at": "2026-10-23T08:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://sato-museum.la.coocan.jp/",
@@ -39,26 +39,19 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "佐藤国際文化育英財団第35回奨学生美術展",
-      "start": "2026-09-08",
-      "end": "2026-10-25",
-      "url": "https://sato-museum.la.coocan.jp/exhibition/exhibition-2026.html?id=ex260908",
-      "kind": "special",
-      "summary": "全国9大学推薦の奨学生10名と過去の奨学生2名、計12名の作品展",
-      "admission": "無料"
-    },
-    {
       "title": "現代日本画トリビュート",
       "start": "2026-11-03",
       "end": "2026-12-13",
       "url": "https://sato-museum.la.coocan.jp/exhibition/exhibition-2026.html?id=ex261103",
       "kind": "special",
       "summary": "伝統への敬意と現代的感性を感じさせる現代日本画の大作展",
-      "admission": null
+      "admission": "一般 800円",
+      "adult_price": 800,
+      "recommend": "1990年の設立以来、現代日本画の収集と研究を続けてきた同館ならではの企画。伝統への敬意と現代的感性が同居する大作を通して、日本画の多様な広がりを味わえる。"
     }
   ],
   "closed_between_exhibitions": true,
-  "notes": "休館日は「月曜日・展示替え期間」。祝日の月曜は開館し翌平日休館。入館料は展覧会ごと（一般800円が目安。奨学生展は無料）。2025年4月から金曜夜間開館は中止。常設展示なし。「現代日本画トリビュート」の料金は公式ページで確認できず。",
+  "notes": "休館日は「月曜日・展示替え期間」。祝日の月曜は開館し翌平日休館。入館料は展覧会ごと（一般800円が目安。奨学生展は無料）。2025年4月から金曜夜間開館は中止。常設展示なし。現代日本画トリビュートは一般800円・学生500円。2026-10-30確認。",
   "confidence": "high",
   "adult_price": null,
   "access": [

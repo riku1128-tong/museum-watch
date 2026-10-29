@@ -1,6 +1,6 @@
 {
   "id": "Q11529256",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:30:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -37,7 +37,7 @@
     {
       "from": "2026-11-17",
       "to": "2026-11-17",
-      "reason": "一部展示替えのため休館"
+      "reason": "一部展示替えのため臨時休館"
     }
   ],
   "special_openings": [],

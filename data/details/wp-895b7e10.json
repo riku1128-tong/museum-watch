@@ -1,6 +1,6 @@
 {
   "id": "wp-895b7e10",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -72,7 +72,15 @@
   ],
   "closed_between_exhibitions": false,
   "adult_price": null,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-17",
+      "to": "2026-11-17",
+      "scope": "collection",
+      "reason": "関西文化の日（堺 アルフォンス・ミュシャ館）",
+      "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/"
+    }
+  ],
   "free_rules": [],
   "access": [
     {

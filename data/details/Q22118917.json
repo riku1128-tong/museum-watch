@@ -1,6 +1,6 @@
 {
   "id": "Q22118917",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -11,7 +11,8 @@
     "https://sugimurajun.shiomo.jp/planning",
     "https://sugimurajun.shiomo.jp/archives/14752",
     "https://sugimurajun.shiomo.jp/archives/14369",
-    "https://sugimurajun.shiomo.jp/access"
+    "https://sugimurajun.shiomo.jp/access",
+    "https://sugimurajun.shiomo.jp/permanent"
   ],
   "regular_hours": [
     {
@@ -44,6 +45,17 @@
   "special_openings": [],
   "exhibitions": [
     {
+      "title": "杉村惇 常設展示",
+      "start": "2026-10-30",
+      "end": "2027-10-30",
+      "url": "https://sugimurajun.shiomo.jp/permanent",
+      "kind": "collection",
+      "summary": "通年。洋画家・杉村惇の静物画や第1回東北美術展河北賞の《婦人像》などを展示",
+      "recommend": "「静物学者」と呼ばれた杉村惇の静物画と、東北美術展で河北賞に輝いた婦人像を間近に見られる常設展示。昭和レトロな館の空気とあわせて味わえる。",
+      "admission": "一般 300円",
+      "adult_price": 300
+    },
+    {
       "title": "杉村惇賞受賞者　釣舟富紀子展",
       "start": "2026-11-03",
       "end": "2026-11-08",
@@ -66,7 +78,7 @@
       "adult_price": null
     }
   ],
-  "adult_price": 200,
+  "adult_price": 300,
   "free_days": [
     {
       "from": "2026-11-03",
@@ -94,6 +106,6 @@
   ],
   "highlights": "1950年建造の旧塩竈市公民館本町分室を改修した、昭和レトロな大講堂が印象的な美術館。洋画家・杉村惇（1910–2004）の作品を核に、若手作家支援プログラム「Voyage」や市美術展受賞者展など地域密着の企画を年間を通して開催する。建物自体も見どころのひとつ。",
   "closed_between_exhibitions": false,
-  "notes": "GW等の長期連休は月曜でも開館（休館日の翌日振替なし）。入館料は常設展：一般200円・高校生100円・中学生以下無料、企画展は別料金の場合あり。Voyage2026（松田ハル展・あるがあく展）は9/6終了。市民ギャラリー（貸館）は企画展とは別で随時開催。公式サイトの元々のURL（city.shiogama.miyagi.jp/museum/）は404のため、実際の公式URL（sugimurajun.shiomo.jp）を official_url に記入。 2026-09-25付で周辺工事に伴う駐車場の利用制限の告知あり。 2026-10-16確認: 現在開催中の企画展は無く、次回は11/3の釣舟富紀子展。10/17・10/24・10/25に関連イベント（展覧会ではない）あり。 2026-10-23確認: 開催中の企画展は無し。次は11/3の釣舟富紀子展、11/14のナカムラクニオコレクション展（企画展ページ・トップで再確認）。",
+  "notes": "GW等の長期連休は月曜でも開館（休館日の翌日振替なし）。入館料は常設展：一般200円・高校生100円・中学生以下無料、企画展は別料金の場合あり。Voyage2026（松田ハル展・あるがあく展）は9/6終了。市民ギャラリー（貸館）は企画展とは別で随時開催。公式サイトの元々のURL（city.shiogama.miyagi.jp/museum/）は404のため、実際の公式URL（sugimurajun.shiomo.jp）を official_url に記入。 2026-09-25付で周辺工事に伴う駐車場の利用制限の告知あり。 2026-10-16確認: 現在開催中の企画展は無く、次回は11/3の釣舟富紀子展。10/17・10/24・10/25に関連イベント（展覧会ではない）あり。 2026-10-23確認: 開催中の企画展は無し。次は11/3の釣舟富紀子展、11/14のナカムラクニオコレクション展（企画展ページ・トップで再確認）。 2026-10-30確認: 常設展の観覧料は一般300円（公式 /permanent）。釣舟富紀子展は会期「11/3～」で終了日の記載なし（既存の11/8を維持）。",
   "confidence": "medium"
 }

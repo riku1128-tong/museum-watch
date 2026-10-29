@@ -1,6 +1,6 @@
 {
   "id": "wp-b56bdb09",
-  "checked_at": "2026-09-30T09:35:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "full",
   "operating_status": "permanently_closed",
   "status_note": "菊川市の施設は閉館済み。展示機能は常葉大学静岡瀬名キャンパスの「常葉ギャラリー」に移転。",
@@ -21,6 +21,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "iko-yo.net にて「この施設は閉館しました」を確認。展示機能は常葉大学静岡瀬名キャンパス内の「常葉ギャラリー」に移転しており、元の菊川市の施設は永続閉館。",
+  "notes": "iko-yo.net にて「この施設は閉館しました」を確認。展示機能は常葉大学静岡瀬名キャンパス内の「常葉ギャラリー」に移転しており、元の菊川市の施設は永続閉館。 2026-10-30再確認: iko-yo.net は安全確認の制限で取得できず、検索でも新情報なし。閉館のまま。",
   "confidence": "high"
 }

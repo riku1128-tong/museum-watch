@@ -1,7 +1,7 @@
 {
   "id": "Q11589817",
-  "checked_at": "2026-10-23T08:20:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.kitano-museum.com/",
@@ -34,15 +34,15 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "DRiLL FESTIVAL 30×30",
-      "start": "2026-10-17",
-      "end": "2026-10-25",
-      "url": "https://www.kitano-museum.com/%e3%80%8cdrill-festival-30x30%e3%80%8d10-17%ef%bd%9e25/",
-      "kind": "other",
-      "summary": "DRiLL FESTIVAL 30×30の展示",
+      "title": "神戸北野異人館街鳥瞰図2026 1st period 発表展",
+      "start": "2026-11-03",
+      "end": "2026-11-30",
+      "url": "https://www.kitano-museum.com/%e7%a5%9e%e6%88%b8%e5%8c%97%e9%87%8e%e7%95%b0%e4%ba%ba%e9%a4%a8%e8%a1%97%e9%b3%a5%e7%9e%b0%e5%9b%b3%ef%bc%92%ef%bc%90%ef%bc%92%ef%bc%96%e3%80%80%ef%bc%91%ef%bd%93%ef%bd%94%e3%80%80period%e3%80%80/",
+      "kind": "special",
+      "summary": "神戸北野異人館街鳥瞰図2026の第一期作品・原画と、北野の歴史を紹介する研究パネルの展示",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "大人 500円",
+      "adult_price": 500
     }
   ],
   "adult_price": 500,
@@ -66,6 +66,6 @@
   ],
   "highlights": "1898年建設で、かつてアメリカ領事館官舎だった北野異人館を使ったギャラリー＆カフェ。館のコレクションや歴史資料に加え、兵庫・神戸出身の若手作家やパリ・モンマルトルの画家の作品を展示・販売する。",
   "closed_between_exhibitions": false,
-  "notes": "毎週火曜休館（祝日の場合は開館）。年末年始・臨時休館の案内は公式トップに記載なし。団体割引あり（10名以上10％、20名以上20％）。展覧会の詳細ページは読めておらず、会期以外は未確認。",
+  "notes": "毎週火曜休館（祝日の場合は開館）。臨時休館の案内は公式トップに記載なし。団体割引あり（10名以上10％、20名以上20％）。入館料は大人（中学生以上）500円。2026-10-30: 開催中の展示は10/25で終了し、11/3開始の鳥瞰図発表展を追加。",
   "confidence": "medium"
 }

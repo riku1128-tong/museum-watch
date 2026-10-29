@@ -1,6 +1,6 @@
 {
   "id": "Q11577117",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:30:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -51,6 +51,6 @@
   ],
   "highlights": "北アルプスを主なフィールドに活動した自然科学者・写真家・田淵行男（1905–1990）の業績を伝える記念館。高山蝶の生態写真・水彩細密画・雪形の記録など膨大な作品を収蔵し、信州ゆかりの写真家や田淵行男賞受賞作家の企画展も開催する。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（azumino-bunka.com・tabuchi-museum.com）はSSL証明書の問題でWebFetchから直接読めず、八十二文化財団の施設紹介ページ（82bunka.or.jp）と安曇野アートラインのページで確認した（confidence: medium）。holiday_rule は「月曜（祝日の場合は開館、祝日の翌平日休館）」に対応する open_next_weekday_closed を設定。azumino-artline.net によると9/28より丸山隆展「静かな隣人 里山動物」が地下展示室で開催中（2026-09-30時点）、1F では田淵行男写真展「槍・涸沢百景」（8/31〜）も開催中と思われるが、会期終了日が確認できないため exhibitions には含めていない。 2026-10-02: 公式サイトは引き続きSSLエラーで読めず、現在の展示の会期終了日が確認できないため exhibitions は空のまま。 2026-10-23: 公式サイトはSSLエラー、八十二文化財団ページは一時停止中、安曇野アートラインに会期記載なしのため exhibitions は空のまま。",
+  "notes": "公式サイト（azumino-bunka.com・tabuchi-museum.com）はSSL証明書の問題でWebFetchから直接読めず、八十二文化財団の施設紹介ページ（82bunka.or.jp）と安曇野アートラインのページで確認した（confidence: medium）。holiday_rule は「月曜（祝日の場合は開館、祝日の翌平日休館）」に対応する open_next_weekday_closed を設定。azumino-artline.net によると9/28より丸山隆展「静かな隣人 里山動物」が地下展示室で開催中（2026-09-30時点）、1F では田淵行男写真展「槍・涸沢百景」（8/31〜）も開催中と思われるが、会期終了日が確認できないため exhibitions には含めていない。 2026-10-02: 公式サイトは引き続きSSLエラーで読めず、現在の展示の会期終了日が確認できないため exhibitions は空のまま。 2026-10-23: 公式サイトはSSLエラー、八十二文化財団ページは一時停止中、安曇野アートラインに会期記載なしのため exhibitions は空のまま。 2026-10-30: 公式サイトは引き続きSSLエラー(WRONG_VERSION_NUMBER)、検索でも2026年の展示の会期は確認できず exhibitions は空のまま。",
   "confidence": "medium"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q11382975",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -52,6 +52,28 @@
       "recommend": "横溝正史や野村胡堂など人気作家の挿絵で知られた今村恒美。利き手を病で失いながらも左手で描き続けた寄席プログラムの表紙絵などから、あこがれた江戸風俗への思いをたどれる。",
       "admission": "一般 800円",
       "adult_price": 800
+    },
+    {
+      "title": "第43回新春佐倉美術展",
+      "start": "2027-01-05",
+      "end": "2027-01-17",
+      "url": "https://www.city.sakura.lg.jp/sakura/museum/exhibition/2026/202701sinsyunten.html",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "醫風一変－佐倉・長崎・オランダ　仁を尽くした幕末の医師たち",
+      "start": "2027-01-23",
+      "end": "2027-03-22",
+      "url": "https://www.city.sakura.lg.jp/sakura/museum/exhibition/2026/202701ifuuippen.html",
+      "kind": "special",
+      "summary": "佐倉・長崎・オランダをつないだ幕末の医師たちを紹介",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": null,
@@ -73,6 +95,6 @@
   ],
   "highlights": "千葉県佐倉市の歴史的建造物・旧川崎銀行佐倉支店（千葉県指定有形文化財）を活用した美術館。佐倉・房総ゆかりの作家の近現代美術作品を収蔵し、対話型鑑賞プロジェクト「ミテ・ハナソウ」やコンサートなど多彩な活動を展開する。カフェ「APRON MARK」も備える。",
   "closed_between_exhibitions": false,
-  "notes": "観覧料は展覧会ごとに設定（館の共通入館料なし）。2026/9/21の台風25号による臨時休館は既に1週間以上前のため special_closures に含めず。9/28〜10/30は次回展の準備期間とみられるが、休館の告知は確認できず。次回以降の「第43回新春佐倉美術展」（2027/1/5〜1/17）「醫風一変」（2027/1/23〜3/22）は3か月超先のため未掲載。 2026-10-02再確認: 年間予定で収蔵作品展は9/27終了、次は10/31開始。開催中の展示は無し。 2026-10-23再確認: 変更なし。",
+  "notes": "観覧料は展覧会ごとに設定（館の共通入館料なし）。2026/9/21の台風25号による臨時休館は既に1週間以上前のため special_closures に含めず。9/28〜10/30は次回展の準備期間とみられるが、休館の告知は確認できず。 2026-10-30再確認: 休館日・時間に変更なし。新春展と醫風一変を追加（料金は未掲載）。",
   "confidence": "high"
 }

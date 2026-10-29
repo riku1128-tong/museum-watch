@@ -1,7 +1,7 @@
 {
   "id": "Q110245475",
-  "checked_at": "2026-10-23T08:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://nagano.art.museum/",
@@ -48,17 +48,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "東山魁夷館コレクション2026 第Ⅱ期",
-      "start": "2026-07-31",
-      "end": "2026-10-27",
-      "url": "https://nagano.art.museum/exhibition/higashiyama2026_2",
-      "kind": "collection",
-      "summary": "中国取材の水墨表現《灕江暮色》《桂林月夜》と、代表連作「白い馬の見える風景」から《草青む》《白馬の森》を展示",
-      "recommend": "墨と色彩の境界を探った中国水墨作品と、北欧の精神的風景から生まれた白馬の連作を対比して鑑賞できる。東山魁夷の表現の幅広さを一室で体感できる機会",
-      "admission": "一般700円",
-      "adult_price": 700
-    },
     {
       "title": "NAMコレクション2026 第Ⅱ期",
       "start": "2026-08-21",
@@ -126,28 +115,6 @@
       "adult_price": null
     },
     {
-      "title": "2026 己書龍眼道場作品展 vol.2",
-      "start": "2026-10-22",
-      "end": "2026-10-27",
-      "url": "https://nagano.art.museum/exhibition/exhibit_1789195846",
-      "kind": "other",
-      "summary": "しなのギャラリーでの作品展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    },
-    {
-      "title": "倪 瑞良「切り絵・ミュシャの世界」展",
-      "start": "2026-10-22",
-      "end": "2026-10-27",
-      "url": "https://nagano.art.museum/exhibition/exhibit_1791767959",
-      "kind": "other",
-      "summary": "しなのギャラリーでの切り絵展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    },
-    {
       "title": "辰野登恵子 多次元の絵画（リニューアル・オープン5周年記念）",
       "start": "2027-01-16",
       "end": "2027-03-22",
@@ -155,6 +122,17 @@
       "kind": "special",
       "summary": "戦後日本の抽象絵画を代表する岡谷市出身の画家・辰野登恵子の約40年の画業を総覧",
       "recommend": "平面にこだわり独自のイメージを追った画家の約40年の歩みを、貴重な資料とともにたどる。画家・版画家としての辰野を形づくったものと次世代に残したものが読み解ける回顧展。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "アートラボ2026第Ⅳ期　光島貴之",
+      "start": "2027-01-23",
+      "end": "2027-04-11",
+      "url": "https://nagano.art.museum/exhibition/artlab2026_4_mitsushima",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
       "admission": null,
       "adult_price": null
     }
@@ -179,6 +157,6 @@
   ],
   "highlights": "善光寺の東隣、城山公園内に建つ県立美術館。プリツカー賞建築家・槇文彦が設計した本館と、東山魁夷の作品を専門に収蔵する東山魁夷館からなる。自然光を取り込む展示室で、信州ゆかりの現代美術や工芸から東山魁夷の繊細な風景画まで幅広く鑑賞できる。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は「水曜日（祝日の場合は翌平日）」。入館料は各展示共通700円（団体600円）。映像作品上映は土・日・祝日のみ（交流スペース）。アートラボ2026第Ⅲ期は無料。カンディンスキー展は一般1,200円（コレクション展との共通券あり）。 辰野登恵子展の観覧料は未定（決定次第公表）。",
+  "notes": "休館日は「水曜日（祝日の場合は翌平日）」。入館料は各展示共通700円（団体600円）。映像作品上映は土・日・祝日のみ（交流スペース）。アートラボ2026第Ⅲ期は無料。カンディンスキー展は一般1,200円（コレクション展との共通券あり）。 辰野登恵子展の観覧料は未定（決定次第公表）。 2026-10-30: 霧の彫刻は11/24から冬季休止。アートライブラリーは11/2・11/3臨時休室。",
   "confidence": "high"
 }

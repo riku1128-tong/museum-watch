@@ -1,6 +1,6 @@
 {
   "id": "Q131457036",
-  "checked_at": "2026-10-23T08:30:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -55,6 +55,17 @@
       "recommend": null,
       "admission": "一般 500円",
       "adult_price": 500
+    },
+    {
+      "title": "第12回 佐久穂 恋華めぐり2026",
+      "start": "2026-10-31",
+      "end": "2026-11-08",
+      "url": null,
+      "kind": "other",
+      "summary": "絵画と華道の作品展。会場は奥村土牛記念美術館",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 500,
@@ -71,6 +82,6 @@
   ],
   "highlights": "現代日本画の巨匠・奥村土牛の素描画を中心に約42〜43点を常時展示する記念美術館。JR小海線八千穂駅から徒歩1分の好立地にあり、年3回（4月・7月・11月）の展示替えで季節ごとに異なる作品の表情を楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "GW期間中（4/29-5/10）および8月は無休で開館。公式URL（https://www.town.sakuho.nagano.jp/shisetsu/okumuratogyu.html）は404エラーのためnullとして記録。情報はculture.nagano.jp・museum.or.jp・yachiho-kogen.jpから取得。2026年10月29日・30日はイベント準備のため休館。",
+  "notes": "GW期間中（4/29-5/10）および8月は無休で開館。公式URL（https://www.town.sakuho.nagano.jp/shisetsu/okumuratogyu.html）は404エラーのためnullとして記録。情報はculture.nagano.jp・museum.or.jp・yachiho-kogen.jpから取得。2026年10月29日・30日はイベント準備のため休館。 2026-10-30: 公式URLは404のまま。culture.nagano.jp で10/29・30休館と恋華めぐり（10/31〜11/8）を確認。",
   "confidence": "medium"
 }

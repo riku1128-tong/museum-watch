@@ -1,6 +1,6 @@
 {
   "id": "Q11595323",
-  "checked_at": "2026-10-23T08:30:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -84,6 +84,6 @@
   ],
   "highlights": "秋田市の文化複合施設アトリオン内に位置する市立美術館。秋田県ゆかりの近代洋画・日本画・版画を中心に収蔵し、地元作家の作品も多数展示。特別展では国内外の話題作を招致し、ショッピング施設に隣接することから日常的にアートに触れる場として市民に親しまれている。",
   "closed_between_exhibitions": false,
-  "notes": "museums.jsonの公式URL（/kanko/bunka/1003375/index.html）は404。正しいURLに更新済み。週固定休館日なし（アトリオン営業日に準ずる）。 特別展会期中(10/17〜12/20)は無休。2027-03-07も臨時休館の予定。",
+  "notes": "museums.jsonの公式URL（/kanko/bunka/1003375/index.html）は404。正しいURLに更新済み。週固定休館日なし（アトリオン営業日に準ずる）。 特別展会期中(10/17〜12/20)は無休。2027-03-07も臨時休館の予定。 10/30 light: 変化なし。",
   "confidence": "high"
 }

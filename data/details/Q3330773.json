@@ -1,7 +1,7 @@
 {
   "id": "Q3330773",
-  "checked_at": "2026-10-16T22:30:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.hpam.jp/museum/",
@@ -15,13 +15,23 @@
   ],
   "regular_hours": [
     {
-      "days": ["mon","tue","wed","thu","sat","sun","holiday"],
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "sat",
+        "sun",
+        "holiday"
+      ],
       "open": "09:00",
       "close": "17:00",
       "last_entry": "16:30"
     },
     {
-      "days": ["fri"],
+      "days": [
+        "fri"
+      ],
       "open": "09:00",
       "close": "19:00",
       "last_entry": "18:30",
@@ -29,7 +39,9 @@
       "to": "2027-03-31"
     }
   ],
-  "closed_weekdays": ["mon"],
+  "closed_weekdays": [
+    "mon"
+  ],
   "holiday_rule": "open",
   "special_closures": [
     {

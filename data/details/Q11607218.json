@@ -1,6 +1,6 @@
 {
   "id": "Q11607218",
-  "checked_at": "2026-10-23T08:20:00+09:00",
+  "checked_at": "2026-10-30T06:40:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -8,7 +8,8 @@
   "address": "北海道網走市南6条西1丁目",
   "source_urls": [
     "https://www.city.abashiri.hokkaido.jp/site/artmuseum/",
-    "https://www.city.abashiri.hokkaido.jp/site/artmuseum/1244.html"
+    "https://www.city.abashiri.hokkaido.jp/site/artmuseum/1244.html",
+    "https://www.city.abashiri.hokkaido.jp/site/artmuseum/24215.html"
   ],
   "regular_hours": [
     {
@@ -74,6 +75,17 @@
       "recommend": null,
       "admission": "高校生以上 500円",
       "adult_price": 500
+    },
+    {
+      "title": "第73回写真道展 網走移動展",
+      "start": "2026-11-28",
+      "end": "2026-12-20",
+      "url": "https://www.city.abashiri.hokkaido.jp/site/artmuseum/24215.html",
+      "kind": "special",
+      "summary": "写真道展の巡回展。12/6に作品解説会あり",
+      "recommend": null,
+      "admission": "高校生以上 200円",
+      "adult_price": 200
     }
   ],
   "adult_price": 120,

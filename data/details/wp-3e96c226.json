@@ -1,7 +1,7 @@
 {
   "id": "wp-3e96c226",
-  "checked_at": "2026-10-23T08:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-10-30T06:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.lib.okigei.ac.jp/drupal/",
@@ -36,6 +36,39 @@
   "special_openings": [],
   "exhibitions": [
     {
+      "title": "開学40周年記念作品展",
+      "start": "2026-10-23",
+      "end": "2026-11-03",
+      "url": "https://www.okigei.ac.jp/experience/exhibit/%e9%96%8b%e5%ad%a640%e5%91%a8%e5%b9%b4%e8%a8%98%e5%bf%b5%e4%bd%9c%e5%93%81%e5%b1%95.html",
+      "kind": "other",
+      "summary": "沖縄県立芸術大学の開学40周年を記念した作品展（企画展示室）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "彫刻回廊",
+      "start": "2026-11-07",
+      "end": "2026-11-15",
+      "url": "https://www.okigei.ac.jp/experience/exhibit/%e5%bd%ab%e5%88%bb%e5%9b%9e%e5%bb%8a.html",
+      "kind": "other",
+      "summary": "附属図書・芸術資料館2階第1展示室での彫刻展（9日間）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "一昨日か13年前のこと",
+      "start": "2026-11-11",
+      "end": "2026-11-15",
+      "url": "https://www.okigei.ac.jp/experience/exhibit/%e4%b8%80%e6%98%a8%e6%97%a5%e3%81%8b13%e5%b9%b4%e5%89%8d%e3%81%ae%e3%81%93%e3%81%a8.html",
+      "kind": "other",
+      "summary": "附属図書・芸術資料館2階第2展示室での展覧会（5日間）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
       "title": "異ノ知",
       "start": "2026-11-11",
       "end": "2026-11-15",
@@ -61,6 +94,6 @@
   ],
   "highlights": "沖縄県立芸術大学の首里当蔵キャンパスに附属する資料館。3室の展示室では大学主催の企画展のほか、教員・学生・卒業生による個展やグループ展が活発に開催される。首里城に隣接する歴史的なキャンパス内に位置し、入場無料で沖縄の芸術・工芸に触れられる。",
   "closed_between_exhibitions": false,
-  "notes": "開館時間は授業期間中9:00-20:00、春季・夏季・冬季の大学休業期間は9:00-17:00（短縮）。土日・祝日休館。最新の開館スケジュールは公式サイトの図書館カレンダーで確認。 2026-10-23: 公式サイトが503で読めず、前回の情報を維持（特別展は10/18終了のため削除）。",
+  "notes": "開館時間は授業期間中9:00-20:00、春季・夏季・冬季の大学休業期間は9:00-17:00（短縮）。土日・祝日休館。最新の開館スケジュールは公式サイトの図書館カレンダーで確認。 2026-10-23: 公式サイトが503で読めず、前回の情報を維持（特別展は10/18終了のため削除）。 【2026-10-30】公式サイト読取成功。展覧会は10:00〜17:00（入館16:30まで）、開学40周年記念作品展は11/3のみ20:00まで。",
   "confidence": "medium"
 }

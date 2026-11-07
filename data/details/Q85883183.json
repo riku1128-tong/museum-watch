@@ -1,14 +1,16 @@
 {
   "id": "Q85883183",
-  "checked_at": "2026-10-30T06:30:00+09:00",
+  "checked_at": "2026-11-07T17:10:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.morinoouchi.com/",
   "address": "〒399-8301 長野県安曇野市穂高有明2215-9",
   "source_urls": [
-    "https://www.museum.or.jp/museum/8044",
-    "https://summer.walkerplus.com/odekake/detail_e/ar0420e602569/"
+    "http://www.morinoouchi.com/",
+    "http://www.morinoouchi.com/exhibition.html",
+    "http://www.morinoouchi.com/news/261028.html",
+    "http://www.morinoouchi.com/news/261019.html"
   ],
   "regular_hours": [
     {
@@ -38,7 +40,7 @@
       "open": "09:30",
       "close": "16:30",
       "last_entry": "16:00",
-      "from": "2027-01-01",
+      "from": "2026-12-01",
       "to": "2027-02-28"
     }
   ],
@@ -46,9 +48,27 @@
     "thu"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2027-01-05",
+      "to": "2027-01-14",
+      "reason": "冬期休館"
+    }
+  ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "宮沢賢治「猫」の絵本原画展",
+      "start": "2026-10-02",
+      "end": "2027-01-25",
+      "url": "http://www.morinoouchi.com/exhibition.html",
+      "kind": "special",
+      "summary": "『どんぐりと山猫』『セロ弾きのゴーシュ』『猫の事務所』『注文の多い料理店』の絵本原画",
+      "recommend": "小林敏也、植垣歩子、高野玲子ら複数の画家による賢治童話の原画を全点で展示。同じ猫の物語が画家ごとにどう描き分けられるかを見比べられる。",
+      "admission": "大人 900円",
+      "adult_price": 900
+    }
+  ],
   "adult_price": 900,
   "free_days": [],
   "free_rules": [],
@@ -63,6 +83,6 @@
   ],
   "highlights": "北アルプスの麓、安曇野の森の中にある絵本原画専門の美術館。国内外の絵本原画展を年5～6回入れ替え、約8,000冊の絵本を備えたライブラリーやカフェ、コテージも併設する。",
   "closed_between_exhibitions": true,
-  "notes": "2026-10-16再確認: 検索でも次の企画展の情報は見つからず（公式は証明書エラーで再び読めず）。公式サイト（morinoouchi.com）はサーバー証明書の不一致（証明書のドメインが pweb02.nttbiz.jp）でWebFetchが接続できず。2026-09-28で「みんな、おかえり。いせひでこ絵本原画展・石井麻木写真展」終了。次の企画展は未発表。2026-10-10時点で休館中（closed_between_exhibitions: true）。入館料: 大人900円・小中生500円・3歳以上250円（2026年夏の展覧会資料で確認）。木曜定休（展示替え休館・祝日振替休館・1月上旬連続休館あり、GW・お盆の週は無休）。冬期（1〜2月）は最終入館16:00・閉館16:30。 2026-10-23: 公式は証明書エラーで読めず、検索でも次の企画展は見つからず。 2026-10-30: 公式サイトは証明書不一致で読めず。検索でも冬の企画展は確認できず、展示は空のまま。",
-  "confidence": "medium"
+  "notes": "公式サイト(http)をcurlで読めた（WebFetchは証明書不一致）。9:30-17:00（最終入館16:30）、12〜2月は9:30-16:30（最終16:00）、木曜休館、冬期休館2027-1/5〜1/14（news/261028）。入館料大人900円・小中生500円・3歳以上250円。祝日振替休は公式カレンダー参照とあるが11月・12月の休館日は木曜のみ。12/30・12/31の閉館時間変更の記載はHTMLコメント内のため採用せず。",
+  "confidence": "high"
 }

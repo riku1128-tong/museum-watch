@@ -1,6 +1,6 @@
 {
   "id": "Q11377196",
-  "checked_at": "2026-10-30T06:20:00+09:00",
+  "checked_at": "2026-11-07T17:14:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -42,24 +42,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "第99回セコイア11人展",
-      "start": "2026-10-27",
-      "end": "2026-11-01",
-      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2063",
-      "kind": "other",
-      "summary": "貸会場企画展",
-      "recommend": null
-    },
-    {
-      "title": "第27回　アトリエ笑夢　押花＆花のチャリティ展",
-      "start": "2026-10-28",
-      "end": "2026-11-01",
-      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2064",
-      "kind": "other",
-      "summary": "押花と花のチャリティ展（貸会場）",
-      "recommend": null
-    },
-    {
       "title": "第75回秋季県展　今治移動展",
       "start": "2026-11-14",
       "end": "2026-11-23",
@@ -92,6 +74,6 @@
   ],
   "highlights": "今治市が運営する市立美術館。平安時代から現代にわたる屏風・掛軸・古文書・典籍など約1万点を収蔵し、源氏物語図屏風（土佐光信筆）や竹久夢二の絵画など幅広い時代の名品を所蔵する。常設展示は行わず、テーマを設けた企画展や市民向けの貸会場展示を開催。今治城に近い市街地に立地。",
   "closed_between_exhibitions": false,
-  "notes": "企画展示は年数回。貸会場（かしかいじょう）展示が多く、常設の作品展示は行っていない。入館料は一般310円（団体20名以上250円）、学生160円。",
+  "notes": "企画展示は年数回。貸会場（かしかいじょう）展示が多く、常設の作品展示は行っていない。入館料は一般310円（団体20名以上250円）、学生160円。 2026-11-07: 終了した貸会場展（セコイア11人展・押花展）を削除。開催予定は秋季県展今治移動展と文化講演会のみ。",
   "confidence": "high"
 }

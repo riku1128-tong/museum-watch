@@ -1,7 +1,7 @@
 {
   "id": "Q11391573",
-  "checked_at": "2026-10-30T06:45:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T16:54:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.yumebi.com/",
@@ -9,7 +9,6 @@
   "source_urls": [
     "https://www.yumebi.com/",
     "https://www.yumebi.com/info.html",
-    "https://www.yumebi.com/exb.html",
     "https://www.yumebi.com/scd.html"
   ],
   "regular_hours": [
@@ -43,35 +42,26 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "没後20年 大野五郎 / 夭折の画家 小野幸吉",
-      "start": "2026-09-12",
-      "end": "2026-11-03",
-      "url": "https://www.yumebi.com/exb.html",
-      "kind": "special",
-      "summary": "八王子ゆかりの洋画家・大野五郎と20歳で夭折した小野幸吉。1930年協会の二人の作品で昭和洋画史を辿る",
-      "admission": "一般 600円",
-      "adult_price": 600
-    },
-    {
       "title": "ムットーニワールド　からくりシアターⅥ",
       "start": "2026-11-14",
       "end": "2027-01-11",
       "url": "https://www.yumebi.com/scd.html#link167",
       "kind": "special",
-      "summary": "ムットーニのからくりシアター作品展（シリーズ第6弾）",
+      "summary": "光と影・音楽・語りで見せるからくり作品展。未発表作《ロバートとジョンのナイトパラダイス》を披露",
       "admission": "一般 1,000円",
-      "adult_price": 1000
+      "adult_price": 1000,
+      "recommend": "からくり人形が光と影、音楽や語りとともに動くステージを間近で味わえる。未発表の新作がお披露目され、会期中の土日祝には作家が物語を語る上演会も開かれる。"
     },
     {
       "title": "畦地梅太郎　山のまなざし、生きている版",
       "start": "2027-01-22",
       "end": "2027-03-22",
-      "url": "https://www.yumebi.com/exb.html",
+      "url": "https://www.yumebi.com/scd.html#link168",
       "kind": "special",
-      "summary": "山の版画家・畦地梅太郎の版画展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "summary": "「山男」シリーズを中心とする山の版画と、書籍の装丁・挿絵を紹介",
+      "recommend": "山に魅せられた畦地梅太郎の多色木版《山の家族》など「山男」シリーズが中心。素朴であたたかい山の人々の表情を、装丁や挿絵の仕事と合わせてたどれる。",
+      "admission": "一般 900円",
+      "adult_price": 900
     }
   ],
   "adult_price": null,
@@ -91,6 +81,6 @@
   ],
   "highlights": "八王子駅北口の再開発ビル2階に開設された、市民に身近な小さな美術館。「くらしの中の美術館」をコンセプトに、年5回程度の企画展を開催。地域にゆかりのある洋画家から現代アートまで幅広く紹介し、ワークショップや講演会を通じて学習の場も提供している。",
   "closed_between_exhibitions": true,
-  "notes": "休館日は「月曜日（ただし、祝日、振替休日の場合は開館し翌平日休館）年末・年始（12/29〜1/3）展示替期間」。トップに「9月24日（木）は休館」の告知（9/21祝日開館の振替）。観覧料は展覧会ごとに一般600〜1,000円で、常設展は無いため館の adult_price は null。 2026-10-30: トップに変更なし。",
+  "notes": "休館日は「月曜日（ただし、祝日、振替休日の場合は開館し翌平日休館）年末・年始（12/29〜1/3）展示替期間」。展示替期間の日程は公式に記載なし（closed_between_exhibitions で表現）。観覧料は展覧会ごとに一般600〜1,000円で常設展は無いため館の adult_price は null。中学生以下・障害者手帳所持者は無料（大人一般の無料日は無し）。 2026-11-07 full: 大野五郎展(〜11/3)は終了のため削除。ムットーニ展(11/14〜)と畦地展の料金・紹介を公式 info.html / scd.html で確認。",
   "confidence": "high"
 }

@@ -1,7 +1,7 @@
 {
   "id": "Q11471937",
-  "checked_at": "2026-10-30T06:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T16:55:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.nishiwaki-cs.or.jp/okanoyama-museum/",
@@ -9,7 +9,7 @@
   "source_urls": [
     "http://www.nishiwaki-cs.or.jp/okanoyama-museum/",
     "https://www.nishiwaki-cs.or.jp/okanoyama-museum/exhibition/20260220-1644.html",
-    "https://www.nishiwaki-cs.or.jp/okanoyama-museum/atelier/20260425-1115.html"
+    "https://www.nishiwaki-cs.or.jp/okanoyama-museum/atelier/20260425-1117.html"
   ],
   "regular_hours": [
     {
@@ -50,23 +50,28 @@
       "summary": "子午線上で活躍するイラストレーター・はるのいづみと風景画家・松本知佳の作品展",
       "recommend": "東経135度の子午線が通る西脇市と淡路市から、イラストレーターと風景画家の二人を迎えた三回目の展示。二人の作風の違いを見比べながら楽しめる。",
       "admission": null,
-      "adult_price": null
+      "adult_price": null,
+      "closed_dates": [
+        "2026-11-04",
+        "2026-11-24"
+      ]
     },
     {
-      "title": "イヌイマサノリ展『絵とイラストレーション』",
-      "start": "2026-09-29",
-      "end": "2026-11-01",
-      "url": "https://www.nishiwaki-cs.or.jp/okanoyama-museum/atelier/20260425-1115.html",
+      "title": "永井 望 展",
+      "start": "2026-11-03",
+      "end": "2026-12-06",
+      "url": "https://www.nishiwaki-cs.or.jp/okanoyama-museum/atelier/20260425-1117.html",
       "kind": "special",
-      "summary": "駆け出しの頃から現在までの絵と仕事のイラストレーションを展示するアトリエ展",
+      "summary": "主に油絵具を用いて平面絵画を制作する永井望のアトリエ展",
       "recommend": null,
       "admission": null,
       "adult_price": null,
       "closed_dates": [
-        "2026-10-05",
-        "2026-10-13",
-        "2026-10-19",
-        "2026-10-26"
+        "2026-11-04",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-11-24",
+        "2026-11-30"
       ]
     }
   ],
@@ -84,6 +89,6 @@
   ],
   "highlights": "東経135度の子午線が交差する兵庫県西脇市の現代美術館。JR加古川線「日本へそ公園駅」のすぐ隣に位置し、子午線上や地域で活躍するイラストレーター・画家・書家など個性豊かな現代作家の企画展を年間を通じて開催する。",
   "closed_between_exhibitions": false,
-  "notes": "企画展示室のみで常設展示室なし。休館日は月曜（祝日は開館）・祝日の翌日（土日の場合を除く）・年末年始・展示替期間。祝日の翌日休館は holiday_rule では表せず、10/13 のみ明記。観覧料は公式ページに記載なし。",
+  "notes": "企画展示室のみで常設展示室なし。休館日は月曜（祝日は開館）・祝日の翌日（土日の場合を除く）・年末年始・展示替期間。祝日の翌日休館は holiday_rule では表せず、10/13 のみ明記。観覧料は公式ページに記載なし。 【2026-11-07】イヌイ展終了、アトリエ展「永井 望 展」を追加（公式に休館日 11/4・9・16・24・30 とあり）。観覧料は公式に記載なし。",
   "confidence": "medium"
 }

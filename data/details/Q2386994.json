@@ -1,6 +1,6 @@
 {
   "id": "Q2386994",
-  "checked_at": "2026-10-30T06:30:00+09:00",
+  "checked_at": "2026-11-07T17:10:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -34,7 +34,7 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-12-29",
+      "from": "2026-12-28",
       "to": "2027-01-01",
       "reason": "年末年始"
     }
@@ -51,6 +51,17 @@
       "recommend": "夢二がベルリンのイッテン・シューレで日本画を教えた1933年の記録と、秘蔵されていた美人画《南枝早春》が創立60周年を機に初公開。夢二の「異国への憧れ」という生涯のテーマが凝縮された見応えある展覧会。",
       "admission": "大人 1,000円",
       "adult_price": 1000
+    },
+    {
+      "title": "創立60周年記念 THE 夢二郷土美術館 COLLECTION",
+      "start": "2026-12-11",
+      "end": "2027-03-14",
+      "url": "https://yumeji-art-museum.com/honkan/2026winterhonkan/",
+      "kind": "special",
+      "summary": "創立60周年を記念し、館蔵の夢二の名品を一堂に展示。近年収蔵の《アマリリス》も",
+      "recommend": null,
+      "admission": "大人 800円",
+      "adult_price": 800
     }
   ],
   "adult_price": 1000,

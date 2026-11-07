@@ -1,6 +1,6 @@
 {
  "id": "Q2655425",
- "checked_at": "2026-10-30T06:40:00+09:00",
+ "checked_at": "2026-11-07T16:55:00+09:00",
  "check_mode": "full",
  "operating_status": "operating",
  "status_note": null,
@@ -136,15 +136,26 @@
    "url": "https://www.shimane-art-museum.jp/exhibition/001239.html",
    "kind": "special",
    "summary": "島根県内外のアーティストが参加する総合美術公募展",
-   "recommend": null,
-   "admission": null,
-   "adult_price": null
+   "recommend": "県民文化祭の美術展で入賞・入選した作品が並ぶ公募展。県内の作り手の今を一度に見られる、入場無料の催し。",
+   "admission": "入場無料",
+   "adult_price": 0,
+   "hours": [
+    {
+     "days": [
+      "sun"
+     ],
+     "open": "10:00",
+     "close": "15:00",
+     "from": "2026-11-22",
+     "to": "2026-11-22"
+    }
+   ]
   },
   {
    "title": "第73回日本伝統工芸展",
    "start": "2026-12-02",
    "end": "2026-12-25",
-   "url": "https://www.shimane-art-museum.jp/exhibition/schedule.html",
+   "url": "https://www.shimane-art-museum.jp/exhibition/001240.html",
    "kind": "special",
    "summary": "日本工芸会が主催する伝統工芸の全国公募展",
    "recommend": null,
@@ -155,7 +166,7 @@
    "title": "江戸エンタメの最高峰！浮世絵スーパークリエイター 歌川国芳展",
    "start": "2027-01-15",
    "end": "2027-03-15",
-   "url": "https://www.shimane-art-museum.jp/exhibition/schedule.html",
+   "url": "https://www.shimane-art-museum.jp/exhibition/001241.html",
    "kind": "special",
    "summary": "江戸の人気浮世絵師・歌川国芳の大規模展",
    "recommend": null,

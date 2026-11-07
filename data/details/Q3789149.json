@@ -1,7 +1,7 @@
 {
   "id": "Q3789149",
-  "checked_at": "2026-10-30T06:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T16:55:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://mingeikan.or.jp/",
@@ -13,7 +13,8 @@
     "https://mingeikan.or.jp/information/calendar/",
     "https://mingeikan.or.jp/exhibition/schedule/",
     "https://mingeikan.or.jp/special/ex202608/",
-    "https://mingeikan.or.jp/category/news/"
+    "https://mingeikan.or.jp/category/news/",
+    "https://mingeikan.or.jp/special/ex202611/"
   ],
   "regular_hours": [
     {
@@ -37,34 +38,28 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-12-29",
-      "to": "2027-01-01",
-      "reason": "年末年始"
+      "from": "2026-11-04",
+      "to": "2026-11-21",
+      "reason": "展示替え"
+    },
+    {
+      "from": "2026-12-18",
+      "to": "2027-01-05",
+      "reason": "展示替え・年末年始"
     }
   ],
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "創設90年記念　琉球王国の染織　尚家関連品と護得久家伝来品",
-      "start": "2026-08-22",
-      "end": "2026-11-03",
-      "url": "https://mingeikan.or.jp/special/ex202608/",
-      "kind": "special",
-      "summary": "尚家ゆかりの琉球紅型・織物約50点を中心に、沖縄染織に対する柳宗悦の眼を検証",
-      "recommend": "民藝運動協力者の寄贈品調査から明らかになった尚家ゆかりの染織品を中心に、赤地経縞衣裳など19世紀の王族衣裳約50点を展示。柳宗悦が沖縄染織に見た民藝の美を問い直す創設90年記念の特別展。",
-      "admission": "一般 1,500円",
-      "adult_price": 1500
-    },
-    {
       "title": "2026年度日本民藝館展 —新作工藝公募展—",
       "start": "2026-11-22",
       "end": "2026-12-17",
-      "url": "https://mingeikan.or.jp/exhibition/schedule/?id=ex202611&lang=ja",
+      "url": "https://mingeikan.or.jp/special/ex202611/",
       "kind": "special",
-      "summary": "日本各地の新作工芸品（陶磁・織物・染物・木工・漆工・金工ほか）の公募展",
+      "summary": "日本各地で作られた新作工芸品を展示・販売する恒例の公募展",
       "recommend": "日本各地から集まった新作工芸品を公募・展示する年次公募展。陶磁・染織・木漆工・金工など多彩なジャンルにわたり、民藝の精神を受け継ぐ現代作家の新作を一堂に見られる貴重な機会。",
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 1,500円",
+      "adult_price": 1500
     },
     {
       "title": "柳宗悦・蒐集物語",
@@ -81,7 +76,7 @@
   "free_days": [],
   "free_rules": [],
   "closed_between_exhibitions": true,
-  "notes": "休館日は「毎週月曜日（ただし祝日の場合は開館し翌日休館）年末年始、陳列替え等に伴う臨時休館あり」。年末年始の日付はカレンダー表示（12/29～1/1）から。10/17 の記念講演会時は 17:00～17:45頃に大展示室を閉鎖し、講演会後 20:00 まで展示公開。次の特別展「柳宗悦・蒐集物語」は 2027/1/6～3/10。観覧料一般1,500円（20名以上の団体は1,300円）。",
+  "notes": "休館日は「毎週月曜日（ただし祝日の場合は開館し翌日休館）」。展示替え休館は 11/4〜11/21 と 12/18〜1/5（年末年始含む）で公式の展覧会一覧に記載。民藝館展の休館日は 11/24・11/30・12/7・12/14。次の特別展「柳宗悦・蒐集物語」は 2027/1/6〜3/10。観覧料一般1,500円（20名以上の団体は1,300円）。西館は第2・3水曜と第2・3土曜のみ開館（10:00〜16:30）。",
   "confidence": "high",
   "adult_price": 1500,
   "highlights": "柳宗悦が創設した日本民藝運動の拠点で、日本・朝鮮・中国・西洋の民芸品約17,000点を所蔵。江戸時代の民家を改装した重厚な館内で陶磁器・染織・木漆工・絵画など多彩な民芸品をじっくり鑑賞できる。駒場東大前駅から徒歩7分。",

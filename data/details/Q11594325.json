@@ -1,13 +1,15 @@
 {
   "id": "Q11594325",
-  "checked_at": "2026-10-30T06:30:00+09:00",
+  "checked_at": "2026-11-07T17:10:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.fukuchiyama.lg.jp/soshiki/7/2024.html",
   "address": "京都府福知山市字岡ノ（内記一丁目）32-64",
   "source_urls": [
-    "https://www.city.fukuchiyama.lg.jp/soshiki/7/2024.html"
+    "https://www.city.fukuchiyama.lg.jp/soshiki/7/2024.html",
+    "https://www.city.fukuchiyama.lg.jp/soshiki/7/89231.html",
+    "https://www.city.fukuchiyama.lg.jp/soshiki/7/89954.html"
   ],
   "regular_hours": [
     {
@@ -42,7 +44,30 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "旅するこころをのせた　金野弘の観光ポスター",
+      "start": "2026-10-03",
+      "end": "2026-11-29",
+      "url": "https://www.city.fukuchiyama.lg.jp/soshiki/7/89231.html",
+      "kind": "special",
+      "summary": "国鉄や関西汽船などの観光ポスターを手がけたデザイナー・金野弘の作品を紹介",
+      "recommend": null,
+      "admission": "大人 360円",
+      "adult_price": 360
+    },
+    {
+      "title": "第16回 高校アート展",
+      "start": "2026-11-22",
+      "end": "2026-12-13",
+      "url": "https://www.city.fukuchiyama.lg.jp/soshiki/7/89954.html",
+      "kind": "special",
+      "summary": "福知山市内の高校生が制作した作品を一堂に展示",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
   "adult_price": 360,
   "free_days": [
     {
@@ -65,6 +90,6 @@
   ],
   "highlights": "福知山城公園の一角に建つ、お城の外観をした美術館。福知山出身で文化勲章を受章した日本画家・佐藤太清の日本画を中心に展示している。",
   "closed_between_exhibitions": false,
-  "notes": "公式（市）ページに開催中・予定の展覧会の記載なし（exhibitions は空）。火・水曜休館。祝日の扱いは記載が読めず unknown。入館料は大人360円・小中学生110円。駅名は公式で確認できていないため最寄駅の徒歩分は未記入。 2026-10-30: 公式の施設ページ（利用案内）に開催中・予定の展覧会の記載なし。展覧会情報は検索でも確認できず exhibitions は空のまま。",
+  "notes": "公式（市）ページに開催中・予定の展覧会の記載なし（exhibitions は空）。火・水曜休館。祝日の扱いは記載が読めず unknown。入館料は大人360円・小中学生110円。駅名は公式で確認できていないため最寄駅の徒歩分は未記入。 2026-10-30: 公式の施設ページ（利用案内）に開催中・予定の展覧会の記載なし。展覧会情報は検索でも確認できず exhibitions は空のまま。 2026-11-07: 公式の展覧会ページ2件から企画展を登録。休館は火・水、展示替え期間は臨時休館（日付の記載なし）。",
   "confidence": "medium"
 }

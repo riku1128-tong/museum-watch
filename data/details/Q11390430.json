@@ -1,6 +1,6 @@
 {
   "id": "Q11390430",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T17:10:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -65,6 +65,17 @@
       "kind": "special",
       "summary": "土器・土偶をモチーフにした絵画・彫刻・映像作品を展示。原村の子どもたちと縄で館を縛る大型インスタレーションも",
       "recommend": "縄文文化を「超縄文時代」と捉え直す松本春崇が、子どもたちと協働した縄で館を縛る大型インスタレーションと土偶モチーフの絵画・彫刻・映像を展示。スケール感と参加の痕跡が見どころ。",
+      "admission": "大人（高校生以上）510円",
+      "adult_price": 510
+    },
+    {
+      "title": "ラムネ色をしたSnow Dome～松森清昭の世界",
+      "start": "2026-12-12",
+      "end": "2027-02-21",
+      "url": null,
+      "kind": "special",
+      "summary": "松森清昭の世界を紹介する企画展（展覧会スケジュールに掲載）",
+      "recommend": null,
       "admission": "大人（高校生以上）510円",
       "adult_price": 510
     },

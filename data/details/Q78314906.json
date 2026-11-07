@@ -1,7 +1,7 @@
 {
   "id": "Q78314906",
-  "checked_at": "2026-10-30T06:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T16:59:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.saku.nagano.jp/museum/",
@@ -43,32 +43,29 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "書とはいかなる芸術かー比田井天来・南谷を起点としてー",
-      "start": "2026-09-12",
-      "end": "2026-11-03",
-      "url": "https://www.city.saku.nagano.jp/museum/special-exhibitions/shoten_20260912.html",
-      "kind": "special",
-      "summary": "近代書道の革新者・比田井天来とその妻南谷の作品を起点に、書の芸術性を多角的に問う企画展",
-      "recommend": "現代書道の礎を築いた比田井天来と南谷夫妻の作品を軸に、書が持つ芸術的な幅を掘り下げる。長野に縁の深い書道改革者の仕事を間近で感じられる貴重な機会。",
-      "admission": "一般 600円",
-      "adult_price": 600,
-      "closed_dates": [
-        "2026-09-14",
-        "2026-09-24",
-        "2026-09-28",
-        "2026-10-05",
-        "2026-10-13",
-        "2026-10-19",
-        "2026-10-26"
-      ]
-    },
-    {
       "title": "第15回　比田井天来・小琴顕彰　佐久全国臨書展",
       "start": "2026-11-21",
       "end": "2026-12-13",
       "url": "https://www.city.saku.nagano.jp/museum/special-exhibitions/2026_15rinsyoten.html",
       "kind": "special",
       "summary": "比田井天来・小琴を顕彰する全国公募の臨書展。第15回記念開催",
+      "recommend": "書の原点とされる臨書を問い直す全国公募展で、全国から集まった入賞作品を一堂に展示。観覧無料で、現代の書家たちの古典への向き合い方を見比べられる。",
+      "admission": "無料",
+      "adult_price": 0,
+      "closed_dates": [
+        "2026-11-24",
+        "2026-11-30",
+        "2026-12-03",
+        "2026-12-07"
+      ]
+    },
+    {
+      "title": "第41回佐久平の美術展／佐久平の美術展　第40回　受賞者展",
+      "start": "2027-01-05",
+      "end": "2027-01-24",
+      "url": null,
+      "kind": "special",
+      "summary": "公募展「佐久平の美術展」と前回受賞者展",
       "recommend": null,
       "admission": null,
       "adult_price": null

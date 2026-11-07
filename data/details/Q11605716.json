@@ -1,7 +1,7 @@
 {
   "id": "Q11605716",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-07T16:55:00+09:00",
+  "check_mode": "light",
   "operating_status": "permanently_closed",
   "status_note": "2017年11月に閉館",
   "official_url": null,
@@ -21,6 +21,6 @@
   "free_rules": [],
   "access": [],
   "highlights": null,
-  "notes": "Wikipedia等で2017年11月閉館を確認。公式サイトなし。",
+  "notes": "Wikipedia等で2017年11月閉館を確認。公式サイトなし。 2026-11-07 再確認: Web検索でも閉館を覆す情報（再開・公式サイト）は見つからず、閉館のまま維持。",
   "confidence": "medium"
 }

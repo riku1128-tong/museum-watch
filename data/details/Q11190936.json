@@ -1,6 +1,6 @@
 {
   "id": "Q11190936",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T17:00:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -47,6 +47,17 @@
       "recommend": "具体美術協会に草創期から在籍した上前智祐が、1975年に始めた「縫い」の作品を軸に紹介。点や線が積み重なる色彩と質感を間近で味わえる。",
       "admission": "一般 500円",
       "adult_price": 500
+    },
+    {
+      "title": "彩雅草 vol.21",
+      "start": "2026-11-17",
+      "end": "2026-11-22",
+      "url": "https://bbpmuseum.jp/",
+      "kind": "other",
+      "summary": "貸館展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 500,

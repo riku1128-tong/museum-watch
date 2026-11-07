@@ -1,14 +1,15 @@
 {
   "id": "Q17193123",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-07T17:00:00+09:00",
+  "check_mode": "light",
   "operating_status": "permanently_closed",
   "status_note": "2025年6月30日閉館",
   "official_url": "https://www.ise-muse.com/",
   "address": null,
   "source_urls": [
     "https://www.ise-muse.com/",
-    "https://www.ise-muse.com/closure-notice"
+    "https://www.ise-muse.com/closure-notice",
+    "https://www.kankomie.or.jp/spot/16752"
   ],
   "regular_hours": [],
   "closed_weekdays": [],
@@ -23,6 +24,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "公式サイトに「2025年6月30日をもって閉館」と告知（2003年開館）。",
+  "notes": "公式サイトに「2025年6月30日をもって閉館」と告知（2003年開館）。 2026-11-07再確認: 三重県観光連盟のスポットページに【2025年6月30日閉館】と掲載。",
   "confidence": "high"
 }

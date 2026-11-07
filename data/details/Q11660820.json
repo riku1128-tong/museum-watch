@@ -1,7 +1,7 @@
 {
   "id": "Q11660820",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-07T16:55:00+09:00",
+  "check_mode": "light",
   "operating_status": "permanently_closed",
   "status_note": "記念館としての公開は終了。現在は一般には非公開（人形メーカーの来客施設）",
   "official_url": null,
@@ -23,6 +23,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "公式サイトは無い。検索結果の概要では、2003年に人形メーカーのボークスが取得し、現在は一般公開されていない（過去に秋の特定日のみ庭と建物を公開した例あり）。公開状況は京都市の紹介ページの本文が文字化けして読めず未確認のため、confidence は medium。",
+  "notes": "公式サイトは無い。検索結果の概要では、2003年に人形メーカーのボークスが取得し、現在は一般公開されていない（過去に秋の特定日のみ庭と建物を公開した例あり）。公開状況は京都市の紹介ページの本文が文字化けして読めず未確認のため、confidence は medium。 【2026-11-07 再確認】WebSearchでは公開再開の情報は見つからず、京都市の紹介ページは安全確認が制限され読めなかった。非公開・閉館の判断は前回のまま。",
   "confidence": "medium"
 }

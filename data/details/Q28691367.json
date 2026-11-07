@@ -1,7 +1,7 @@
 {
   "id": "Q28691367",
-  "checked_at": "2026-10-30T06:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T16:56:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.hokubu-kinen.or.jp/",
@@ -34,24 +34,13 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "藤森詔子展",
-      "start": "2026-10-01",
-      "end": "2026-11-01",
-      "url": "https://www.hokubu-kinen.or.jp/複製-高橋均と技術-1-15-1",
-      "kind": "special",
-      "summary": "藤森詔子の個展",
-      "recommend": null,
-      "admission": "一般 800円",
-      "adult_price": 800
-    },
-    {
       "title": "小西政秀の眼で見た日本近代絵画の歴史 2",
       "start": "2026-11-19",
       "end": "2026-12-20",
       "url": "https://www.hokubu-kinen.or.jp/複製-松村繁-11-19-1",
       "kind": "special",
-      "summary": "小西政秀のコレクションで綴る日本近代絵画の歴史（第2弾）",
-      "recommend": null,
+      "summary": "伊藤亜矢美の木版画ほか。近代洋画と現代版画から「かわいい」「シンプル」の美意識を考える",
+      "recommend": "伊藤亜矢美の木版画を中心に、外形よりイメージを重んじる日本の伝統的な芸術観が近代洋画にも通じることをたどる。現代の版画家の作品で、流行の美意識も見つめ直せる。",
       "admission": null,
       "adult_price": null
     }
@@ -77,6 +66,6 @@
   ],
   "highlights": "北海道内外の画家を中心に、洋画・版画などのコレクションを個展形式で紹介する私立美術館。年間4〜5回の展示入れ替えを行い、期間中の木〜日曜のみ開館。展示のないインターバル期間は休館となるため、来館前に開催スケジュールの確認が必要。",
   "closed_between_exhibitions": true,
-  "notes": "museums.json の official_url（hokubu-memorial.jp）は DNS エラーのため、公式サイト（hokubu-kinen.or.jp）を確認。museums.json の prefecture が「富山県」となっているが、実際の所在地は北海道札幌市豊平区。展示スケジュールには開始日のみ記載で終了日が明示されていない場合が多い（藤森詔子展のみ終了日 11/1 を確認）。次回の小西政秀展（11/19〜）は終了日不明のため exhibitions に含めていない。",
+  "notes": "museums.json の official_url（hokubu-memorial.jp）は DNS エラーのため、公式サイト（hokubu-kinen.or.jp）を確認。museums.json の prefecture が「富山県」だが実際の所在地は北海道札幌市豊平区。会期中は木〜日曜開館。観覧料は小西政秀展のページに記載なし（藤森詔子展は800円）。次回「徳力富吉郎」展は2/18開始（3か月より先、終了日不明のため未掲載）。",
   "confidence": "medium"
 }

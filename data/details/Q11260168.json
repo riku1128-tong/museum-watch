@@ -1,7 +1,7 @@
 {
   "id": "Q11260168",
-  "checked_at": "2026-10-30T06:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T16:50:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.iwaki.lg.jp/artmuseum.html",
@@ -37,6 +37,11 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始"
+    },
+    {
       "from": "2027-01-18",
       "to": "2027-03-31",
       "reason": "館内メンテナンス工事等"
@@ -45,23 +50,23 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "松本陽子　宵の明星を見た日",
-      "start": "2026-09-12",
-      "end": "2026-11-01",
-      "url": "https://www.city.iwaki.lg.jp/www/contents/1783468433731/index.html",
-      "kind": "special",
-      "summary": "1950年代初期作から2026年最新作まで約40点。65年に及ぶ画業を振り返る美術館初の大規模個展",
-      "recommend": "色彩と技法を変えながら「壮大な広がり」を追い続けた松本陽子の、美術館では初の大規模個展。1950年代の初期作から2026年制作の最新作まで40点が一堂に会し、65年の画業の全貌を一挙に体感できる。",
-      "admission": "一般 1,000円",
-      "adult_price": 1000
+      "title": "第56回いわき市民美術展覧会",
+      "start": "2026-11-13",
+      "end": "2026-12-20",
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1786522439016/index.html",
+      "kind": "other",
+      "summary": "書の部11/13〜22、絵画・彫塑の部11/27〜12/6、陶芸・写真の部12/11〜20",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     },
     {
-      "title": "ニューアートシーン・イン・いわき　渡邉洵　鱗次輪行",
-      "start": "2026-09-12",
-      "end": "2026-11-01",
-      "url": "https://www.city.iwaki.lg.jp/www/contents/1784009384032/index.html",
-      "kind": "special",
-      "summary": "いわきゆかりの作家・渡邉洵の個展",
+      "title": "いわき市小・中学生版画展",
+      "start": "2027-01-05",
+      "end": "2027-01-17",
+      "url": "https://www.city.iwaki.lg.jp/www/contents/1001000005268/index.html",
+      "kind": "other",
+      "summary": "いわき市内の小・中学生の版画作品展",
       "recommend": null,
       "admission": null,
       "adult_price": null
@@ -114,6 +119,6 @@
   ],
   "highlights": "戦後の現代美術を中心に約2,300点を収蔵し、ボイス・ジャスパー・ジョンズ・草間彌生・ヘンリー・ムーアら国内外の巨匠の作品が揃う福島県最大級の美術館。広場にはムーアの彫刻が立ち、館内は光が差し込む三層吹き抜けアトリウムが印象的。",
   "closed_between_exhibitions": false,
-  "notes": "7月・8月の毎週金曜日は20時まで延長開館（最終入場19:30）。祝日は常設展観覧無料（free_days参照）。企画展のチケットで常設展も観覧可。2027年1月18日から3月31日まで館内メンテナンス工事等のため休館予定。",
+  "notes": "年末年始休館は12/28〜1/4（利用案内）。松本陽子展・渡邉洵展は11/1で終了。7月・8月の毎週金曜日は20時まで延長開館（最終入場19:30）。祝日は常設展観覧無料（free_days参照）。企画展のチケットで常設展も観覧可。2027年1月18日から3月31日まで館内メンテナンス工事等のため休館予定。",
   "confidence": "high"
 }

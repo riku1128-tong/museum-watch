@@ -1,7 +1,7 @@
 {
   "id": "Q117635320",
-  "checked_at": "2026-10-30T06:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T16:55:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://itami-im.jp/",
@@ -10,6 +10,7 @@
     "https://itami-im.jp/",
     "https://itami-im.jp/visit/",
     "https://itami-im.jp/exhibitions/",
+    "https://itami-im.jp/exhibitions/2026itamiinternationalcraft/",
     "https://www.museum.or.jp/museum/106660"
   ],
   "regular_hours": [
@@ -54,35 +55,13 @@
       "adult_price": 1000
     },
     {
-      "title": "I/Mクラフト会員展 2026伊丹クラフトフェア",
-      "start": "2026-10-23",
-      "end": "2026-11-03",
-      "url": "https://itami-im.jp/exhibitions/2026itamicraftfair/",
-      "kind": "special",
-      "summary": "展示室6で開かれるクラフト会員展",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
-      "title": "伊丹っ子作品展",
-      "start": "2026-10-27",
-      "end": "2026-10-31",
-      "url": "https://itami-im.jp/exhibitions/itamikkosakuhinntenn-2026/",
-      "kind": "special",
-      "summary": "講座室で開催する市内子どもたちの作品展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    },
-    {
       "title": "2026伊丹国際クラフト展「酒器・酒盃台」",
       "start": "2026-11-14",
       "end": "2026-12-20",
       "url": "https://itami-im.jp/exhibitions/2026itamiinternationalcraft/",
       "kind": "special",
-      "summary": "展示室6で開く、酒器・酒盃台をテーマにした国際クラフト展",
-      "recommend": null,
+      "summary": "27回目の国際公募展。テーマ「酒器・酒盃台」の入賞・入選97作品を展示",
+      "recommend": "応募251件のうち約3分の1が海外12か国から集まった国際公募展。用途をもつ酒器というテーマに、素材を生かした独自の表現で挑んだ入賞・入選97作品が並ぶ。初日は表彰式と審査員トークもある。",
       "admission": "無料",
       "adult_price": 0
     }
@@ -116,6 +95,6 @@
   ],
   "highlights": "2022年に美術・工芸・俳諧俳句・歴史の5施設を統合して開館した総合ミュージアム。伊丹の酒造りの歴史を伝える旧岡田家住宅・酒蔵（国重文）と旧石橋家住宅（県文化財）を擁し、国際クラフト展も毎年開催。「みやのまえ文化の郷」内で複数の施設が集まる文化ゾーンを形成している。",
   "closed_between_exhibitions": false,
-  "notes": "2026-10-10 時点で開催中の企画展なし（酒にのまれ展は10/16開幕）。常設展示室4は観覧無料。旧岡田家住宅・酒蔵、旧石橋家住宅を併設（入場無料）。アクセス（駅・徒歩分）は museum.or.jp 等の検索結果による。酒にのまれ展の11/23（月祝）は開館、11/24（火）は休館（通常の holiday_rule の通り）。 【2026-10-23】お知らせに歴史常設展示室の一時閉鎖あり（詳細は本文未確認）。 2026-10-30: お知らせ・展覧会一覧を再確認、変更なし。",
+  "notes": "2026-10-10 時点で開催中の企画展なし（酒にのまれ展は10/16開幕）。常設展示室4は観覧無料。旧岡田家住宅・酒蔵、旧石橋家住宅を併設（入場無料）。アクセス（駅・徒歩分）は museum.or.jp 等の検索結果による。酒にのまれ展の11/23（月祝）は開館、11/24（火）は休館（通常の holiday_rule の通り）。 【2026-10-23】お知らせに歴史常設展示室の一時閉鎖あり（詳細は本文未確認）。 2026-10-30: お知らせ・展覧会一覧を再確認、変更なし。 2026-11-07 full: 開館時間・休館日・年末年始(12/29-1/3)を公式 visit ページで再確認。終了した2展示を削除。国際クラフト展は 11/14 開幕（11/23 月祝は開館、11/24 火は休館）。歴史常設展示室の一時閉鎖はお知らせ見出しのみで詳細未確認。",
   "confidence": "high"
 }

@@ -1,14 +1,15 @@
 {
   "id": "Q11198629",
-  "checked_at": "2026-10-30T06:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T17:10:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.musashino.or.jp/museum/",
   "address": "〒180-0004 東京都武蔵野市吉祥寺本町1丁目8番16号 FFビル7階（コピス吉祥寺A館7階）",
   "source_urls": [
     "https://www.musashino.or.jp/museum/",
-    "https://www.musashino.or.jp/museum/1002006/1002008/"
+    "https://www.musashino.or.jp/museum/1002006/1002008/",
+    "https://www.musashino.or.jp/museum/1002006/1002008/1010179.html"
   ],
   "regular_hours": [
     {
@@ -48,45 +49,23 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "谷口智則展　黒い森を抜けて－はいいろのぼくとオレンジのあいつ－",
-      "start": "2026-09-19",
-      "end": "2026-11-03",
-      "url": "https://www.musashino.or.jp/museum/1002006/1003349/1009837.html",
-      "kind": "special",
-      "summary": "絵本作家・谷口智則の新作絵本の原画全25点や「100にんのサンタクロース」原画などを紹介",
-      "recommend": null,
-      "admission": "一般 300円",
-      "adult_price": 300
-    },
-    {
-      "title": "【浜口陽三記念室】食を楽しむ",
-      "start": "2026-06-11",
-      "end": "2026-11-03",
-      "url": "https://www.musashino.or.jp/museum/1002006/1003366/1010061.html",
-      "kind": "collection",
-      "summary": "浜口陽三記念室のコレクション展示。テーマは「食」",
-      "recommend": null,
-      "admission": "常設展 100円",
-      "adult_price": 100
-    },
-    {
-      "title": "【萩原英雄記念室】道化師の役割",
-      "start": "2026-06-11",
-      "end": "2026-11-03",
-      "url": "https://www.musashino.or.jp/museum/1002006/1003367/1009463.html",
-      "kind": "collection",
-      "summary": "萩原英雄記念室のコレクション展示。テーマは「道化師」",
-      "recommend": null,
-      "admission": "常設展 100円",
-      "adult_price": 100
-    },
-    {
       "title": "特別展示　武蔵野市内の「いま」をうつす",
       "start": "2026-11-05",
       "end": "2026-11-07",
       "url": null,
       "kind": "special",
       "summary": "武蔵野市内の「いま」をテーマにした特別展示（3日間）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "【企画展示室】市民ギャラリー11・12月期",
+      "start": "2026-11-12",
+      "end": "2026-12-15",
+      "url": "https://www.musashino.or.jp/museum/1002006/1002008/1010179.html",
+      "kind": "other",
+      "summary": "市民ギャラリーの貸館展。日象・東京西支部展、木版画だいすき展、アート吉祥寺展2026など6件が会期ごとに入れ替わる",
       "recommend": null,
       "admission": null,
       "adult_price": null
@@ -117,6 +96,6 @@
   ],
   "highlights": "吉祥寺の繁華街・コピス吉祥寺A館7階にある市立美術館。銅版画家・浜口陽三と木版画家・萩原英雄の記念室を常設し、野田九浦の日本画を含む約2,600点のコレクションを擁する。「観る・創る・育てる」を掲げ、多彩な企画展で街に開かれた文化の場として機能する。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は「毎月最終水曜日（祝日の場合は開館し、翌日を休館日とする）」。最終水曜日は closed_nth_weekdays で表せないため、public に出ている日付 10/28・11/25 を special_closures に入れた（12/30 は年末年始休館内のため省略）。次の企画展は 2027/1/16〜2/28（年度スケジュールで確認、題名は仮称）。 2026-10-30 light: 開館時間・休館日(毎月最終水曜)・展示に変化なし。",
+  "notes": "休館日は「毎月最終水曜日（祝日の場合は開館し、翌日を休館日とする）」。最終水曜日は closed_nth_weekdays で表せないため、public に出ている日付 10/28・11/25 を special_closures に入れた（12/30 は年末年始休館内のため省略）。次の企画展は 2027/1/16〜2/28（年度スケジュールで確認、題名は仮称）。 2026-10-30 light: 開館時間・休館日(毎月最終水曜)・展示に変化なし。 2026-11-07 full: 谷口智則展と記念室の展示は11/3に終了し、公式の開催中ページは空（記念室の次回展示は未掲載）。市民ギャラリー11・12月期は展示ごとに開室時間が異なる（初日・最終日は短縮）。",
   "confidence": "medium"
 }

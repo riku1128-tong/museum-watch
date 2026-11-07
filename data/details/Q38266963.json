@@ -1,6 +1,6 @@
 {
   "id": "Q38266963",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T17:12:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -8,7 +8,8 @@
   "address": "〒019-0701 秋田県横手市増田町増田字新町285",
   "source_urls": [
     "https://manga-museum.com/",
-    "https://manga-museum.com/access/"
+    "https://manga-museum.com/access/",
+    "https://manga-museum.com/2026-2027/"
   ],
   "regular_hours": [
     {
@@ -37,7 +38,13 @@
     }
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-12-31",
+      "to": "2027-01-01",
+      "reason": "年末年始休館"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -97,6 +104,6 @@
   ],
   "highlights": "日本最大規模の漫画原画の常設展示館。秋田ゆかりの漫画家を中心に約500人分、約94,000枚の原画を保管・展示する。増田の蔵の町並みに建つ外観も印象的で、企画展では各作家が自ら選んだ作品を間近に楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "常設展は無料。企画展（特別展）は大人1,000円、中学生500円、小学生300円。 2026-10-30: 次回休館日は11/17（第3火曜）。変更なし。",
+  "notes": "常設展は無料。企画展（特別展）は大人1,000円、中学生500円、小学生300円。 2026-10-30: 次回休館日は11/17（第3火曜）。変更なし。 2026-11-07: 年末年始は12/31・1/1が休館、12/29・12/30・1/2以降は通常開館（公式お知らせ 11/4）。次回休館日11/17。",
   "confidence": "high"
 }

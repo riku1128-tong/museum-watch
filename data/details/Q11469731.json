@@ -1,7 +1,7 @@
 {
   "id": "Q11469731",
-  "checked_at": "2026-10-30T06:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T16:55:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.art-museum.pref.yamanashi.jp/",
@@ -36,15 +36,15 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "特別展　印象派の先駆者　ウジェーヌ・ブーダン展　―瞬間の美学、光の探求",
-      "start": "2026-09-12",
-      "end": "2026-11-03",
-      "url": "https://www.art-museum.pref.yamanashi.jp/exhibition/2026/75158.html",
-      "kind": "special",
-      "summary": "「空の王者」と称された印象派の先駆者ブーダンの油彩・素描・パステルなど約100点を紹介",
-      "recommend": "モネの師としても知られるブーダンの、日本では約30年ぶりとなる大規模な回顧展で、フランス風景画の発展への貢献をたどれます。",
-      "admission": "一般 1,000円（前売・団体840円）",
-      "adult_price": 1000
+      "title": "コレクション展A（ミレー館）",
+      "start": "2026-11-03",
+      "end": "2026-11-23",
+      "url": "https://www.art-museum.pref.yamanashi.jp/",
+      "kind": "collection",
+      "summary": "ミレー作品をはじめとする所蔵品によるコレクション展",
+      "recommend": null,
+      "admission": "一般 520円",
+      "adult_price": 520
     }
   ],
   "adult_price": 520,
@@ -68,6 +68,6 @@
   ],
   "highlights": "「ミレーの美術館」として1978年に開館。ジャン＝フランソワ・ミレーの《種をまく人》をはじめバルビゾン派の作品を中心に約1万点を収蔵。ヨーロッパ風景画や山梨ゆかりの近現代作家の作品も充実し、コレクション展は年4回展示替えを行う。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（art-museum.pref.yamanashi.jp）は WebFetch で403エラーとなり直接読めなかったため、インターネットミュージアム（museum.or.jp）・美術手帖・美術展ニュースサイトの記載をもとに作成（confidence: medium）。コレクション展の一般料金は520円（団体420円）。休館日は「月曜日（祝日の場合はその翌日）、祝日の翌日（日曜日の場合は開館）、年末年始」。関西文化の日（11月第3土曜）の無料公開については2026年度の公式発表が未確認のため除去した（2025年度は11/15実施）。 【2026-10-30 light】公式403のため検索結果で確認。ブーダン展（〜11/3）に変更なし。",
+  "notes": "公式サイト（art-museum.pref.yamanashi.jp）は WebFetch で403エラーとなり直接読めなかったため、インターネットミュージアム（museum.or.jp）・美術手帖・美術展ニュースサイトの記載をもとに作成（confidence: medium）。コレクション展の一般料金は520円（団体420円）。休館日は「月曜日（祝日の場合はその翌日）、祝日の翌日（日曜日の場合は開館）、年末年始」。関西文化の日（11月第3土曜）の無料公開については2026年度の公式発表が未確認のため除去した（2025年度は11/15実施）。 【2026-11-07 full】公式は WebFetch で403のため検索結果（museum.or.jp 等）で確認。ブーダン展は11/3終了のため削除。11/3〜11/23 コレクション展A（ミレー館）開催、毎月3のつく日はミレーの日。次の特別展は未確認。11/20 県民の日の無料は2026年分を未確認（前例は2024年に全展示無料）のため既存の値を維持。",
   "confidence": "medium"
 }

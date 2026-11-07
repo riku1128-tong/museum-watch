@@ -1,13 +1,14 @@
 {
   "id": "Q11367892",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T17:10:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://muryoji.jp/museum/about/",
   "address": "〒649-3503 和歌山県東牟婁郡串本町串本833",
   "source_urls": [
-    "https://muryoji.jp/museum/about/"
+    "https://muryoji.jp/museum/about/",
+    "https://muryoji.jp/news/index.html"
   ],
   "regular_hours": [
     {
@@ -28,7 +29,28 @@
   ],
   "closed_weekdays": [],
   "holiday_rule": "open",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-11-04",
+      "to": "2026-11-04",
+      "reason": "11月の休館日"
+    },
+    {
+      "from": "2026-11-10",
+      "to": "2026-11-10",
+      "reason": "11月の休館日"
+    },
+    {
+      "from": "2026-11-17",
+      "to": "2026-11-17",
+      "reason": "11月の休館日"
+    },
+    {
+      "from": "2026-11-24",
+      "to": "2026-11-24",
+      "reason": "11月の休館日"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -57,6 +79,6 @@
   ],
   "highlights": "本土最南端の串本無量寺の境内にある、昭和36年開館の小さな美術館。円山応挙と長沢芦雪の墨画襖絵55面を含む重要文化財を所蔵し、近世絵画や考古資料を展示する。",
   "closed_between_exhibitions": false,
-  "notes": "不定休（悪天候・展示替え等で臨時休館あり。お知らせ欄は取得できず未確認）。荒天時は本館のみ700円。最寄駅からの徒歩分数は公式に記載なし。",
+  "notes": "不定休で、休館日は毎月お知らせ欄に掲載される（10月は毎週火・水、11月は4・10・17・24日）。悪天候・展示替え等で臨時休館あり。荒天時は本館のみ700円。最寄駅からの徒歩分数は公式に記載なし。 【2026-11-07 light】お知らせ欄を取得できたため11月の休館日を special_closures に反映。収蔵庫改修工事は完了し、収蔵庫拝観は10/24午後から再開。",
   "confidence": "medium"
 }

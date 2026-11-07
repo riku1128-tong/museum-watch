@@ -1,7 +1,7 @@
 {
   "id": "Q1134422",
-  "checked_at": "2026-10-30T06:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T17:05:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.hakone-oam.or.jp/",
@@ -9,6 +9,7 @@
   "source_urls": [
     "https://www.hakone-oam.or.jp/",
     "https://www.hakone-oam.or.jp/info/",
+    "https://www.hakone-oam.or.jp/exhibitions/article.cgi?id=13182954",
     "https://www.hakone-oam.or.jp/exhibitions/",
     "https://www.hakone-oam.or.jp/exhibitions/article_reg.cgi?id=12868907",
     "https://www.hakone-oam.or.jp/specials/2026/unique-collection/",
@@ -43,15 +44,6 @@
       "url": "https://www.hakone-oam.or.jp/exhibitions/article_reg.cgi?id=12868907",
       "kind": "collection",
       "summary": "通年。新収蔵の草間彌生の花崗岩彫刻《われは南瓜》を屋外展示場で公開",
-      "admission": "一般 2,000円"
-    },
-    {
-      "title": "草間彌生《南瓜》インスタレーション展示",
-      "start": "2026-04-19",
-      "end": "2026-11-01",
-      "url": "https://www.hakone-oam.or.jp/exhibitions/article.cgi?id=13079026",
-      "kind": "special",
-      "summary": "《われは南瓜》関連企画。丸太広場キトキで草間作品のインスタレーションとインタビュー動画を公開",
       "admission": "一般 2,000円"
     },
     {
@@ -107,6 +99,6 @@
     }
   ],
   "highlights": "富士箱根伊豆国立公園の自然の中に約120点の近・現代彫刻を野外展示する、1969年開館の日本初の野外彫刻美術館。ロダン、ムーア、ジャコメッティらの名作が広がる約7万㎡の敷地に、高さ18mのステンドグラス塔「幸せをよぶシンフォニー彫刻」や足湯も備え、ピカソ館ではピカソの版画・陶芸を常設展示する。",
-  "notes": "9:00〜17:00（入館は16:30まで）、年中無休。入館料は館共通で一般 当日窓口2,000円（WEBチケット1,800円、adult_price は当日窓口価格）。ピカソ館では常設企画展「ピカソの原動力」を開催中（会期未確認のため展示一覧には入れていない）。 2026-10-30: 開館時間9:00〜17:00・年中無休を確認。丸太広場キトキは11/2・11/4〜5、ネットの森は11/30・12/4に閉鎖（館は開館）。",
+  "notes": "9:00〜17:00（入館は16:30まで）、年中無休。入館料は館共通で一般 当日窓口2,000円（WEBチケット1,800円、adult_price は当日窓口価格）。ピカソ館では常設企画展「ピカソの原動力」を開催中（会期未確認のため展示一覧には入れていない）。 2026-11-07: 開館時間9:00〜17:00・年中無休・一般2,000円を確認。草間彌生《南瓜》インスタレーション展示（〜11/1）は終了のため削除。ネットの森は11/30・12/4に閉鎖（館は開館）。髙橋匡太「atmos」は森の足湯前広場などで開催（公式ページに紹介文・料金の記載なし）。",
   "confidence": "high"
 }

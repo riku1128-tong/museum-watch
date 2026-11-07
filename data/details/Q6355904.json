@@ -1,17 +1,17 @@
 {
   "id": "Q6355904",
-  "checked_at": "2026-10-30T06:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T16:55:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.yonagobunka.net/y-moa/",
   "address": "〒683-0822 鳥取県米子市中町12番地",
   "source_urls": [
     "https://www.yonagobunka.net/y-moa/",
-    "https://www.yonagobunka.net/y-moa/institution_guide/",
     "https://www.yonagobunka.net/y-moa/access/",
     "https://www.yonagobunka.net/y-moa/archive/exhibition/organized/",
-    "https://www.yonagobunka.net/y-moa/archive/exhibition/organized/r928/"
+    "https://www.yonagobunka.net/y-moa/archive/exhibition/organized/r928/",
+    "https://www.yonagobunka.net/y-moa/institution_guide/"
   ],
   "regular_hours": [
     {
@@ -42,17 +42,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "第70回 鳥取県美術展覧会（県展）米子会場",
-      "start": "2026-10-24",
-      "end": "2026-11-01",
-      "url": "https://www.yonagobunka.net/y-moa/archive/exhibition/organized/r928/",
-      "kind": "special",
-      "summary": "県民から広く公募した美術作品を展示する年次公募展。会期中無休。",
-      "recommend": "県民から公募した版画・彫刻・書道・写真などの入選作が並ぶ年に一度の公募展。無料で、期間中は休まず開館するので、地元作家の今を気軽に見に行けます。",
-      "admission": "無料",
-      "adult_price": 0
-    },
     {
       "title": "コレクション展 これ、すき! –かんじたままにあなたのみかたで–",
       "start": "2026-11-08",
@@ -87,5 +76,5 @@
   "highlights": "米子市中町に位置する市立美術館。山陰ゆかりの絵画・彫刻・工芸を収蔵するコレクション展（一般330円）を常設し、鳥取県美術展覧会（県展）の米子会場としての公募展も開催。貸館展示も年間を通じて多数行われ、市民の創作発表や鑑賞活動を支える文化の拠点となっている。",
   "closed_between_exhibitions": false,
   "notes": "コレクション展一般330円（大学生以下・70歳以上・障がいのある方・後援会会員は無料）。県展会期中（10/24〜11/1）は水曜も無休。貸館展示も随時開催（10/16〜10/20も複数の団体展）。",
-  "confidence": "medium"
+  "confidence": "high"
 }

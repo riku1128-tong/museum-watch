@@ -1,6 +1,6 @@
 {
   "id": "wp-2afa2d49",
-  "checked_at": "2026-10-30T06:26:28+09:00",
+  "checked_at": "2026-11-07T17:06:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -73,7 +73,20 @@
       "reason": "展示替え休館"
     }
   ],
-  "special_openings": [],
+  "special_openings": [
+    {
+      "date": "2027-02-01",
+      "note": "総合美術展会期中は月曜開館"
+    },
+    {
+      "date": "2027-02-08",
+      "note": "総合美術展会期中は月曜開館"
+    },
+    {
+      "date": "2027-02-15",
+      "note": "総合美術展会期中は月曜開館"
+    }
+  ],
   "exhibitions": [
     {
       "title": "平福穂庵・百穂展",
@@ -115,6 +128,39 @@
       "url": null,
       "kind": "special",
       "summary": "秋田県南地域の児童生徒による美術展",
+      "recommend": null,
+      "admission": "大人 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "第15回仙北市総合美術展",
+      "start": "2027-02-01",
+      "end": "2027-02-15",
+      "url": null,
+      "kind": "special",
+      "summary": "日本画・洋画・写真・工芸などの仙北市総合美術展",
+      "recommend": null,
+      "admission": "大人 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "平福穂庵・百穂展",
+      "start": "2027-02-01",
+      "end": "2027-02-15",
+      "url": null,
+      "kind": "collection",
+      "summary": "秋田ゆかりの日本画家・平福穂庵と息子の百穂の常設展示",
+      "recommend": null,
+      "admission": "大人 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "角中お気に入りの角館展 角中美術部展",
+      "start": "2026-12-01",
+      "end": "2027-01-24",
+      "url": null,
+      "kind": "special",
+      "summary": null,
       "recommend": null,
       "admission": "大人 500円",
       "adult_price": 500

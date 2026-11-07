@@ -1,6 +1,6 @@
 {
   "id": "Q11471861",
-  "checked_at": "2026-10-30T06:20:00+09:00",
+  "checked_at": "2026-11-07T17:05:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -39,7 +39,14 @@
       "reason": "年末年始"
     }
   ],
-  "special_openings": [],
+  "special_openings": [
+    {
+      "date": "2026-12-05",
+      "open": "09:00",
+      "close": "20:00",
+      "note": "Night at 美濃焼ミュージアム（17:00〜20:00 夜間無料開館）"
+    }
+  ],
   "exhibitions": [
     {
       "title": "多治見市指定 無形文化財「織部」保持者認定記念 鈴木徹展 ―緑釉の展開―",
@@ -76,7 +83,15 @@
     }
   ],
   "adult_price": 320,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-12-05",
+      "to": "2026-12-05",
+      "scope": "all",
+      "reason": "穴窯フェア関連イベント「Night at 美濃焼ミュージアム」夜間無料開館（17:00〜20:00のみ無料）",
+      "source_url": "https://www.tajimi-bunka.or.jp/minoyaki_museum/archives/7343"
+    }
+  ],
   "free_rules": [],
   "access": [
     {

@@ -1,7 +1,7 @@
 {
   "id": "wp-195f15bb",
-  "checked_at": "2026-10-30T06:30:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T16:55:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.okutamas.co.jp/seseragi/",
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://www.town.okutama.tokyo.jp/1/kyoikuka/bunka_sports/2/1064.html",
     "https://www.okutamas.co.jp/seseragi/",
-    "https://www.okutamas.co.jp/seseragi/exhibition/"
+    "https://www.okutamas.co.jp/seseragi/exhibition/",
+    "https://www.okutamas.co.jp/seseragi/guide/"
   ],
   "adult_price": 300,
   "access": [
@@ -79,15 +80,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "酒井貴史個展『物捨山伝承館』",
-      "start": "2026-09-19",
-      "end": "2026-11-01",
-      "url": "https://www.okutamas.co.jp/seseragi/exhibition/",
-      "kind": "special",
-      "summary": "酒井貴史の個展",
-      "admission": null
-    },
-    {
       "title": "～ KEEP BLUE +GREEN National Park ～国立公園をテーマにした公募展",
       "start": "2026-11-07",
       "end": "2027-01-11",
@@ -110,6 +102,6 @@
   ],
   "closed_between_exhibitions": false,
   "highlights": "御嶽渓谷の最上流部「せせらぎの里」にある小さな美術館。多摩川沿いの遊歩道を御嶽駅から徒歩20分歩いて訪れる体験が魅力で、奥多摩の大自然に溶け込む作品を中心に展示する。年数回の企画展では地域に暮らす作家の個展や公募展が開催される。",
-  "notes": "町のページ: 開館時間「午前10時から午後5時まで 12月~2月までは午後4時まで」、休館日「月曜日（祝日の場合は翌日）、年末年始」、入館料「大人300円、小中学生200円」（展示によっては無料の記載あり）。公式サイトに「昼休み 12:00〜12:45」の記載あり（休館扱いかは不明）。展示の合間（11/2〜11/6 など）の開館可否と年末年始の日付は未確認。official_url は Wikidata に無かったため町のページに載っている公式サイトを採用。アクセスは公式サイトに「JR青梅線、御嶽駅で下車し...川沿いの遊歩道を上流へ歩くこと20分」と記載。 2026-10-16: 10/10〜10/25 Okutama Art Festival（町内各所）の告知あり。 2026-10-23 再確認: 変化なし。",
+  "notes": "町のページ: 開館時間「午前10時から午後5時まで 12月~2月までは午後4時まで」、休館日「月曜日（祝日の場合は翌日）、年末年始」、入館料「大人300円、小中学生200円」（展示によっては無料の記載あり）。公式サイトに「昼休み 12:00〜12:45」の記載あり（休館扱いかは不明）。展示の合間（11/2〜11/6 など）の開館可否と年末年始の日付は未確認。official_url は Wikidata に無かったため町のページに載っている公式サイトを採用。アクセスは公式サイトに「JR青梅線、御嶽駅で下車し...川沿いの遊歩道を上流へ歩くこと20分」と記載。 2026-10-16: 10/10〜10/25 Okutama Art Festival（町内各所）の告知あり。 2026-10-23 再確認: 変化なし。 2026-11-07 full確認: 利用案内で開館時間・休館日（月曜、祝日の場合翌日、年末年始は要確認、展示入替で臨時休館の場合あり）・大人300円を再確認。酒井貴史個展は11/1終了のため削除。昼休みは利用案内に記載なし（トップのお知らせのみ）。",
   "confidence": "high"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q11369635",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T17:04:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -47,13 +47,7 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [
-    {
-      "from": "2026-10-13",
-      "to": "2026-10-30",
-      "reason": "展示替え"
-    }
-  ],
+  "special_closures": [],
   "special_openings": [],
   "exhibitions": [
     {

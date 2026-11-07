@@ -1,6 +1,6 @@
 {
   "id": "Q11357837",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T16:55:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -77,7 +77,11 @@
     {
       "from": "2026-11-14",
       "to": "2026-11-15",
-      "scope": "collection",
+      "scope": "partial",
+      "targets": [
+        "美術館のコレクション",
+        "Y² project"
+      ],
       "reason": "関西文化の日",
       "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/"
     }

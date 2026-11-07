@@ -1,6 +1,6 @@
 {
   "id": "Q11391188",
-  "checked_at": "2026-10-30T06:30:00+09:00",
+  "checked_at": "2026-11-07T16:50:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -14,7 +14,10 @@
     "https://hachinohe-art-museum.jp/exhibition/7510",
     "https://hachinohe-art-museum.jp/exhibition/7555",
     "https://hachinohe-art-museum.jp/exhibition/7590",
+    "https://hachinohe-art-museum.jp/exhibition/7592",
+    "https://hachinohe-art-museum.jp/exhibition/7594",
     "https://hachinohe-art-museum.jp/exhibition/7634",
+    "https://hachinohe-art-museum.jp/news/1614",
     "https://hachinohe-art-museum.jp/visitor/"
   ],
   "regular_hours": [
@@ -95,51 +98,23 @@
       "adult_price": 0
     },
     {
-      "title": "第47回青森県高等学校総合文化祭",
-      "start": "2026-10-23",
-      "end": "2026-11-01",
-      "url": "https://hachinohe-art-museum.jp/exhibition/7510",
-      "kind": "other",
-      "summary": "書道部門（10/23〜25）と美術部門（10/30〜11/1）の2部構成。高校生の書道・美術作品を展示",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null,
-      "closed_dates": [
-        "2026-10-26",
-        "2026-10-27",
-        "2026-10-28",
-        "2026-10-29"
-      ]
-    },
-    {
-      "title": "MOA美術館八戸児童作品展",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "url": "https://hachinohe-art-museum.jp/exhibition/7569",
-      "kind": "other",
-      "summary": "MOA美術館主催の児童作品展（2日間）",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
-      "title": "第23回青森県中学校総合文化祭",
-      "start": "2026-11-04",
-      "end": "2026-11-06",
-      "url": "https://hachinohe-art-museum.jp/exhibition/7589",
-      "kind": "other",
-      "summary": "青森県内の中学生の作品を集めた総合文化祭",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
       "title": "季心書道展",
-      "start": "2026-11-05",
+      "start": "2026-11-06",
       "end": "2026-11-08",
       "url": "https://hachinohe-art-museum.jp/exhibition/7590",
       "kind": "other",
-      "summary": "書道展（会期と時間欄の日付に食い違いあり）",
+      "summary": "書道展（3日間）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "八戸市鷗盟大学総合美術展",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "url": "https://hachinohe-art-museum.jp/exhibition/7592",
+      "kind": "other",
+      "summary": "八戸市鷗盟大学主催の総合美術展（2日間）",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0
@@ -173,6 +148,17 @@
       "url": "https://hachinohe-art-museum.jp/exhibition/7634",
       "kind": "other",
       "summary": "一般企画の展示（3日間）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "黒潮書道展",
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "url": "https://hachinohe-art-museum.jp/exhibition/7594",
+      "kind": "other",
+      "summary": "黒潮書道会主催の書道展（3日間）",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0
@@ -212,6 +198,6 @@
   ],
   "highlights": "2021年開館の「アートファーム」をコンセプトにした美術館。可動間仕切りで自在に使えるジャイアントルーム（834㎡）を核に、八戸ゆかりの作品約3,000点を収蔵。展覧会だけでなく市民参加のプロジェクト活動も重視し、地域と一体になった創造空間を作る。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は火曜日（祝日の場合は開館し翌平日休館。公式の例外: 11/3開館・11/4休館）、年末年始（12/29〜1/1）。12/28と1/2〜3は17時閉館。コレクションラボ014は無料。高文祭は書道（10/23〜25）・美術（10/30〜11/1）の2部構成。季心書道展は会期（11/5〜8）と時間欄（11/6〜8）が食い違うため会期欄を採用。 2026-10-30 full巡回: 古畑雅規展が終了のため削除、CCC展・bebop展を追加。11月は10・17・24日（火）も休館予定、11/4（水）は臨時休館（公式表記どおり）。",
+  "notes": "休館日は火曜日（祝日の場合は開館し翌平日休館。公式の例外: 11/3開館・11/4休館）、年末年始（12/29〜1/1）。12/28と1/2〜3は17時閉館。コレクションラボ014は無料。高文祭は書道（10/23〜25）・美術（10/30〜11/1）の2部構成。季心書道展は会期（11/5〜8）と時間欄（11/6〜8）が食い違うため会期欄を採用。 2026-11-07 full巡回: 終了した高文祭・MOA児童作品展・中学校総合文化祭を削除、鷗盟大学総合美術展・黒潮書道展を追加。季心書道展は公式の会期11/6〜8に修正。臨時休館は公式の年間スケジュールどおり（11/4、12/30〜1/1など）。",
   "confidence": "high"
 }

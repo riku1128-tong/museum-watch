@@ -1,6 +1,6 @@
 {
   "id": "Q11555555",
-  "checked_at": "2026-10-02T08:40:00+09:00",
+  "checked_at": "2026-11-07T17:01:01+09:00",
   "check_mode": "full",
   "operating_status": "permanently_closed",
   "status_note": "2018年2月28日に波止場町から移転・閉館。3月1日から元町通6丁目の「TEN×TEN神戸元町」で活動",
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://ja.wikipedia.org/wiki/波止場町TEN×TEN",
     "https://tenten.chu.jp/",
-    "https://www.kobe-motomachi.or.jp/shop-search/315"
+    "https://www.kobe-motomachi.or.jp/shop-search/315",
+    "https://www.chisou.go.jp/tiiki/dendoushi/siryou/r05/289.pdf"
   ],
   "regular_hours": [],
   "closed_weekdays": [

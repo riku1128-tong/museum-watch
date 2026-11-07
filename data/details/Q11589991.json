@@ -1,6 +1,6 @@
 {
   "id": "Q11589991",
-  "checked_at": "2026-10-30T06:30:00+09:00",
+  "checked_at": "2026-11-07T16:55:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://www.city.kobe.lg.jp/kanko/bunka/bunkashisetsu/koisogallery/",
     "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/koisogallery/migishisetsuko120.html",
-    "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/koisogallery/riyou/access/index.html"
+    "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/koisogallery/riyou/access/index.html",
+    "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/koisogallery/shitsunainohikari.html"
   ],
   "regular_hours": [
     {
@@ -57,6 +58,28 @@
       "recommend": "愛知県一宮市生まれの三岸節子の画業を、初期から晩年のブルゴーニュやヴェネチアの風景までたどる大回顧展。1950年代の華やかな卓上の静物画も見どころで、色彩の変遷を一度に味わえる。",
       "admission": "一般 1,200円",
       "adult_price": 1200
+    },
+    {
+      "title": "コレクション企画展示「室内の光」",
+      "start": "2027-01-09",
+      "end": "2027-03-28",
+      "url": "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/koisogallery/shitsunainohikari.html",
+      "kind": "collection",
+      "summary": "コレクション企画展示。小磯良平作品選Ⅳを同時開催",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "小磯良平作品選Ⅳ",
+      "start": "2027-01-09",
+      "end": "2027-03-28",
+      "url": "https://www.city.kobe.lg.jp/a45010/kanko/bunka/bunkashisetsu/koisogallery/shitsunainohikari.html",
+      "kind": "collection",
+      "summary": "「室内の光」に同時開催する小磯良平の所蔵作品展示",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 200,
@@ -73,6 +96,6 @@
   ],
   "highlights": "神戸出身の洋画家・小磯良平の作品を中心に約3,300点を収蔵する記念美術館。遺族から寄贈された2,094点が核をなし、肖像画や舞台緞帳の原画など多彩な「仕事」を特集展示する。中庭に移築復元したアトリエでイーゼルやパレットを公開。六甲ライナーのアイランド北口駅から徒歩すぐ。",
   "closed_between_exhibitions": false,
-  "notes": "コレクション展の一般入館料は200円（高校生以下無料）。特別展は展覧会ごとに別料金。障がい者手帳・ミライロID所持者無料。年末年始休館の日付は公式サイト未掲載。 2026-10-30 light: 変化なし。",
+  "notes": "コレクション展の一般入館料は200円（高校生以下無料）。特別展は展覧会ごとに別料金。障がい者手帳・ミライロID所持者無料。年末年始休館の日付は公式サイト未掲載。 2026-11-07 light: 2027-01-09開始の「室内の光」を追加。",
   "confidence": "high"
 }

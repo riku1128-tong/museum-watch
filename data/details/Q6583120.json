@@ -1,7 +1,7 @@
 {
   "id": "Q6583120",
-  "checked_at": "2026-10-02T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-07T16:55:00+09:00",
+  "check_mode": "light",
   "operating_status": "permanently_closed",
   "status_note": "2008年5月11日に閉館",
   "official_url": null,
@@ -22,6 +22,6 @@
   "access": [],
   "highlights": null,
   "closed_between_exhibitions": false,
-  "notes": "Wikipedia「富士美術館」によると、財団法人富士美術館（創価学会系）が1973年に開き、2008年5月11日に閉館。建物は大石寺の所有となり宝物殿に転用。横井照子富士美術館（富士市）・東京富士美術館とは別の施設。公式サイトは閉鎖済みで、閉館はWikipediaのみで確認。",
+  "notes": "Wikipedia「富士美術館」によると、財団法人富士美術館（創価学会系）が1973年に開き、2008年5月11日に閉館。建物は大石寺の所有となり宝物殿に転用。横井照子富士美術館（富士市）・東京富士美術館とは別の施設。公式サイトは閉鎖済みで、閉館はWikipediaのみで確認。 【2026-11-07 light】再確認を試みたが検索で新情報は見つからず（東京富士美術館のみヒット）。既存の閉館情報を維持。",
   "confidence": "medium"
 }

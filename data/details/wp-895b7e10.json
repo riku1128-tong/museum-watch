@@ -1,6 +1,6 @@
 {
   "id": "wp-895b7e10",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T16:58:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -11,7 +11,8 @@
     "https://mucha.sakai-bunshin.com/fee/",
     "https://mucha.sakai-bunshin.com/event/",
     "https://mucha.sakai-bunshin.com/event/mucha2026ex2/",
-    "https://mucha.sakai-bunshin.com/access/"
+    "https://mucha.sakai-bunshin.com/access/",
+    "https://mucha.sakai-bunshin.com/event/mucha2026ex3/"
   ],
   "regular_hours": [
     {
@@ -68,6 +69,17 @@
       "recommend": "巨大な油彩画から小さな絵葉書まで、ジャンルを横断してミュシャの仕事を一望できる。2021年の好評展をリニューアルして再登場した、幅広い世代向けの構成。",
       "admission": "一般 510円",
       "adult_price": 510
+    },
+    {
+      "title": "ミュシャが描いた光と影",
+      "start": "2026-12-05",
+      "end": "2027-03-28",
+      "url": "https://mucha.sakai-bunshin.com/event/mucha2026ex3/",
+      "kind": "special",
+      "summary": "19世紀末パリを背景に、ミュシャ作品の光と影のような二面性を紹介",
+      "recommend": "華やかなポスターや装飾パネルに加え、象徴主義や神秘への関心が作品に与えた影響にも光を当てる。技術や創作の源、込めた思いを通じて新たなミュシャ像に出会える企画展。",
+      "admission": "一般 510円",
+      "adult_price": 510
     }
   ],
   "closed_between_exhibitions": false,
@@ -92,6 +104,6 @@
     }
   ],
   "highlights": "堺出身のミュシャ愛好家コレクションを核に、ポスターや装飾パネルなどアール・ヌーヴォーを代表する作品を所蔵する美術館。ベルマージュ堺内にあり、企画展ごとに体験型の展示も行う。",
-  "notes": "堺市立文化館（堺 アルフォンス・ミュシャ館・ギャラリー）。展示替えで臨時休館することがある。観覧料510円は現在の企画展のもの。ギャラリーは別の開館時間（9:30〜19:00）。",
+  "notes": "堺市立文化館（堺 アルフォンス・ミュシャ館・ギャラリー）。展示替えで臨時休館することがある。観覧料510円は現在の企画展のもの。ギャラリーは別の開館時間（9:30〜19:00）。 2026-11-07 light: 次の企画展「ミュシャが描いた光と影」（12/5〜2027/3/28）を追加。",
   "confidence": "high"
 }

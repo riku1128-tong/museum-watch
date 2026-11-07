@@ -1,14 +1,16 @@
 {
   "id": "wp-b2ff92b8",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T17:10:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
-  "status_note": "春(3/20〜5/31)と秋(10/1〜12/10)のみ開館の季節開館館",
+  "status_note": "春と秋のみ開館の季節開館館。令和8年秋は10/1〜12/13（開館15周年記念の特別展示）",
   "official_url": "https://icartmuseum.com/",
-  "address": "〒606-0067 京都府京都市左京区上高野東山71-21",
+  "address": "〒601-1255 京都市左京区上高野東山71-21",
   "source_urls": [
-    "https://miyakomanabi.jp/facility/index.php?act=detail&id=1529",
-    "https://icartmuseum.com/"
+    "https://icartmuseum.com/",
+    "https://icartmuseum.com/news/45/",
+    "https://icartmuseum.com/news/48/",
+    "https://miyakomanabi.jp/facility/index.php?act=detail&id=1529"
   ],
   "regular_hours": [
     {
@@ -22,10 +24,10 @@
         "sun",
         "holiday"
       ],
-      "open": "10:30",
+      "open": "10:00",
       "close": "17:00",
       "from": "2026-10-01",
-      "to": "2026-12-10"
+      "to": "2026-12-13"
     },
     {
       "days": [
@@ -38,7 +40,7 @@
         "sun",
         "holiday"
       ],
-      "open": "10:30",
+      "open": "10:00",
       "close": "17:00",
       "from": "2027-03-20",
       "to": "2027-05-31"
@@ -48,13 +50,25 @@
   "holiday_rule": "open",
   "special_closures": [
     {
-      "from": "2026-12-11",
+      "from": "2026-12-14",
       "to": "2027-03-19",
       "reason": "冬期休館"
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "開館15周年記念 特別展示",
+      "start": "2026-10-01",
+      "end": "2026-12-13",
+      "url": "https://icartmuseum.com/news/45/",
+      "kind": "special",
+      "summary": "開館15周年を記念した特別展示（詳細は公式未掲載）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    }
+  ],
   "closed_between_exhibitions": false,
   "adult_price": 0,
   "free_days": [],
@@ -69,6 +83,6 @@
     }
   ],
   "highlights": "アール・デコ時代のフランス画家ルイ・イカール（1888〜1950）の版画・絵画を専門に展示する小さな美術館。紅葉で名高い瑠璃光院に隣接し、春（3月下旬〜5月末）と秋（10月〜12月初旬）のみ開館する季節限定の施設。繊細な線描と優雅な色彩で描かれた女性像を比叡山麓の静かな環境で鑑賞できる。",
-  "notes": "公式サイト(icartmuseum.com)は403でWebFetch不可。京都の学び情報サイト(miyakomanabi.jp)の開館期間3/20〜5/31・10/1〜12/10、10:30〜17:00、入館無料に基づく。6/1〜9/30は休館。展示内容・展覧会情報は未確認。highlights は公開情報をもとに執筆。 2026-10-30確認: 公式サイトは403、検索でも新しい情報なし。展覧会は未確認のまま（前回の値を維持）。",
+  "notes": "公式サイトはWebFetchで403だがcurlで読めた。開館時間10:00〜17:00、入館無料・申込不要。春の開館期間(3/20〜5/31)は京都の学び情報サイトの値で、公式の2027年春の告知は未確認。11/2は臨時休館（終了）。",
   "confidence": "medium"
 }

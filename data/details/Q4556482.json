@@ -1,6 +1,6 @@
 {
   "id": "Q4556482",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T16:50:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -33,12 +33,14 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
-  "special_openings": [
+  "special_closures": [
     {
-      "date": "2026-10-26",
-      "note": "特別開館日（月曜）"
-    },
+      "from": "2026-12-25",
+      "to": "2026-12-31",
+      "reason": "年末年始"
+    }
+  ],
+  "special_openings": [
     {
       "date": "2026-11-24",
       "note": "特別開館日（勤労感謝の日振替休日にあたる火曜）"

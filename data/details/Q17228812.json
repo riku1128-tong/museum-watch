@@ -1,6 +1,6 @@
 {
   "id": "Q17228812",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T17:10:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "2026年熊本地震（7月）による被災のため休館中。熊本日日新聞によると市は2027年度に復旧工事に着手し、2028年度の再開を目指す。公式サイトに再開日の告知は無い。",
@@ -9,6 +9,7 @@
   "source_urls": [
     "https://www.museum-library-uki.jp/",
     "https://www.museum-library-uki.jp/museum/",
+    "https://www.museum-library-uki.jp/news/2026/07/1367/",
     "https://kumanichi.com/articles/2049410"
   ],
   "regular_hours": [

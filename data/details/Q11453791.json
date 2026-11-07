@@ -1,6 +1,6 @@
 {
   "id": "Q11453791",
-  "checked_at": "2026-10-30T06:30:00+09:00",
+  "checked_at": "2026-11-07T16:50:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,10 +9,9 @@
   "source_urls": [
     "https://www.pref.miyagi.jp/site/mmoa/",
     "https://www.pref.miyagi.jp/site/mmoa/information-information-01.html",
-    "https://www.pref.miyagi.jp/site/mmoa/information-information-02.html",
-    "https://www.pref.miyagi.jp/site/mmoa/exhibition-00000000-s00-1.html",
-    "https://www.pref.miyagi.jp/site/mmoa/exhibition-20260912-s01-01.html",
-    "https://www.pref.miyagi.jp/site/mmoa/exhibition-20260902-p01-01.html"
+    "https://www.pref.miyagi.jp/site/mmoa/exhibition-20261107-p01-01.html",
+    "https://www.pref.miyagi.jp/site/mmoa/exhibition-20261114-s01-01.html",
+    "https://www.pref.miyagi.jp/site/mmoa/exhibition-00000000-s00-1.html"
   ],
   "regular_hours": [
     {
@@ -38,19 +37,24 @@
     {
       "from": "2026-12-26",
       "to": "2027-01-06",
-      "reason": "年末年始休館"
+      "reason": "メンテナンス休館及び年末年始"
+    },
+    {
+      "from": "2027-02-01",
+      "to": "2027-02-03",
+      "reason": "展示替えによる休館"
     }
   ],
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "2026年度所蔵品展 第1期",
-      "start": "2026-09-02",
-      "end": "2026-11-03",
-      "url": "https://www.pref.miyagi.jp/site/mmoa/exhibition-20260902-p01-01.html",
+      "title": "2026年度所蔵品展 第2期",
+      "start": "2026-11-07",
+      "end": "2027-01-31",
+      "url": "https://www.pref.miyagi.jp/site/mmoa/exhibition-20261107-p01-01.html",
       "kind": "collection",
-      "summary": "洲之内コレクション・日本の近現代美術・カンディンスキーと同時代の美術・林明子の絵本原画・佐藤忠良の彫刻と素描",
-      "recommend": "150点超の林明子絵本原画と佐藤忠良の彫刻を同時に楽しめる充実の所蔵品展。洲之内コレクションの名品も見逃せない。",
+      "summary": "洲之内コレクション・日本の近現代美術・ドイツの版画・林明子の絵本原画・佐藤忠良の彫刻と素描",
+      "recommend": "林明子の絵本原画150点以上で《はじめてのおつかい》《こんとあき》などの歩みをたどれる。洲之内コレクションの海老原喜之助《ポアソニエール》や佐藤忠良の代表作も楽しめる。",
       "admission": "一般 350円（団体280円）、小〜大学生無料",
       "adult_price": 350
     },
@@ -87,13 +91,6 @@
   "adult_price": 350,
   "free_days": [
     {
-      "from": "2026-10-31",
-      "to": "2026-11-01",
-      "scope": "collection",
-      "reason": "東北文化の日（10月最終土曜・日曜）",
-      "source_url": "https://www.pref.miyagi.jp/site/mmoa/information-information-01.html"
-    },
-    {
       "from": "2026-11-03",
       "to": "2026-11-03",
       "scope": "collection",
@@ -101,17 +98,7 @@
       "source_url": "https://www.pref.miyagi.jp/site/mmoa/information-information-01.html"
     }
   ],
-  "free_rules": [
-    {
-      "weekday": "mon",
-      "nth": [
-        3
-      ],
-      "scope": "collection",
-      "reason": "敬老の日（9月第3月曜）",
-      "source_url": "https://www.pref.miyagi.jp/site/mmoa/information-information-01.html"
-    }
-  ],
+  "free_rules": [],
   "access": [
     {
       "station": "国際センター",
@@ -130,6 +117,6 @@
   ],
   "highlights": "2026年6月にリニューアルオープンした宮城県の総合美術館。佐藤忠良記念館を併設し、洲之内コレクションをはじめ幅広い近現代作品を所蔵する。常設の所蔵品展では林明子の絵本原画・佐藤忠良の彫刻など多彩な切り口で宮城の美術を紹介。仙台城跡そばの緑豊かな環境に立地し、地下鉄東西線からのアクセスも良い。",
   "closed_between_exhibitions": false,
-  "notes": "2026年6月20日にリニューアルオープン。特別展は有料（所蔵品展と別料金）。文化の日・開館記念日・東北文化の日・敬老の日などは所蔵品展が無料。年末年始休館は12/26〜1/6（「いま、私は現代アートと出会う」展の公式告知より）。",
+  "notes": "2026年6月20日にリニューアルオープン。特別展は有料（所蔵品展と別料金）。所蔵品展の無料観覧日は 5/5・5/18・9月第3月曜・10月最終土日・11/3。年末年始休館は12/26〜1/6、展示替え休館は2/1〜2/3。",
   "confidence": "high"
 }

@@ -1,7 +1,7 @@
 {
   "id": "Q11432891",
-  "checked_at": "2026-10-30T06:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T17:10:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.opam.jp/",
@@ -11,7 +11,8 @@
     "https://www.opam.jp/info/",
     "https://www.opam.jp/info/access.html",
     "https://www.opam.jp/exhibitions/detail/8c4404d4-d845-4c92-a0a0-2bbff72b536f",
-    "https://www.opam.jp/exhibitions/detail/a56e8223-b250-4c01-a096-1a25013ea3de"
+    "https://www.opam.jp/exhibitions/detail/a56e8223-b250-4c01-a096-1a25013ea3de",
+    "https://www.opam.jp/exhibitions/detail/5605bd1b-41d6-4adc-83a0-1dad67ee5ac8"
   ],
   "regular_hours": [
     {
@@ -43,20 +44,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "2026年コレクション展 Ⅲ【特集展示】竹のカタチー時を超えて",
-      "start": "2026-09-04",
-      "end": "2026-11-03",
-      "url": "https://www.opam.jp/exhibitions/detail/8c4404d4-d845-4c92-a0a0-2bbff72b536f",
-      "kind": "collection",
-      "summary": "生野祥雲斎ら人間国宝の竹工芸作品と竹を題材にした絵画を通じて大分の竹文化を紹介",
-      "recommend": "竹工芸を芸術の高みへ引き上げた初代田辺竹雲齋・飯塚琅玕齋、大分出身の没後40年・宇治山哲平の作品まで多彩な表現が並ぶ。地元に根差した素材を通じて近現代日本美術を見渡せる、OPAMらしいコレクション展。",
-      "admission": "一般300円",
-      "adult_price": 300,
-      "closed_dates": [
-        "2026-10-13"
-      ]
-    },
-    {
       "title": "出光美術館名品展 出光佐三のこころ ―美を守り、未来へつなぐ",
       "start": "2026-11-13",
       "end": "2027-01-11",
@@ -68,6 +55,20 @@
       "adult_price": 1500,
       "closed_dates": [
         "2026-12-14"
+      ]
+    },
+    {
+      "title": "2026年 コレクション展 Ⅳ",
+      "start": "2027-01-22",
+      "end": "2027-04-04",
+      "url": "https://www.opam.jp/exhibitions/detail/5605bd1b-41d6-4adc-83a0-1dad67ee5ac8",
+      "kind": "collection",
+      "summary": "当館コレクションの名品をテーマに合わせて紹介。福田平八郎《雲》など",
+      "recommend": "福田平八郎《雲》をはじめ、館蔵品から選りすぐりの名品を季節やテーマに合わせて紹介する展示。気軽な料金で、大分ゆかりの作品と出会える。",
+      "admission": "一般300円",
+      "adult_price": 300,
+      "closed_dates": [
+        "2027-02-15"
       ]
     }
   ],
@@ -84,6 +85,6 @@
   ],
   "highlights": "大分市の中心市街地に立つ県立美術館。竹工芸など大分ゆかりの工芸・美術を収蔵するコレクション展と、国内外の多彩な企画展を両軸として展開する。金・土曜は20時まで開館するため仕事帰りにも立ち寄りやすく、都市型の文化拠点として機能する。",
   "closed_between_exhibitions": false,
-  "notes": "定休日なし（館内点検などで臨時休館あり）。コレクション展の観覧料は一般300円。企画展は展覧会ごとに料金が異なる。",
+  "notes": "定休日なし（館内点検などで臨時休館あり）。コレクション展の観覧料は一般300円。企画展は展覧会ごとに料金が異なる。 2026-11-07 full確認: 終了したコレクション展Ⅲを削除、コレクション展Ⅳ（2027-01-22〜04-04、休展日2/15）を追加。11/3コレクション展無料は終了。",
   "confidence": "high"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q7399081",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T16:55:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://www.sagawa-artmuseum.or.jp/",
     "https://www.sagawa-artmuseum.or.jp/plan/2026/07/140-1.html",
-    "https://www.sagawa-artmuseum.or.jp/use/access.html"
+    "https://www.sagawa-artmuseum.or.jp/use/access.html",
+    "https://www.sagawa-artmuseum.or.jp/plan/2026/11/post-188.html"
   ],
   "regular_hours": [
     {
@@ -58,6 +59,17 @@
       "adult_price": null
     },
     {
+      "title": "文化功労者顕彰記念展 千住博 自然へのまなざし",
+      "start": "2026-11-03",
+      "end": "2026-11-23",
+      "url": "https://www.sagawa-artmuseum.or.jp/plan/2026/11/post-188.html",
+      "kind": "special",
+      "summary": "令和8年度文化功労者に選ばれた千住博の、滝や崖など自然を主題とした作品を紹介",
+      "recommend": "滝や崖といった自然の姿を描き続ける千住博の作品で、自然の壮大さと静けさ、奥深い魅力に触れる顕彰記念展。藤田嗣治展と同時に楽しめる。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
       "title": "大カプコン展―世界を魅了するゲームクリエイション",
       "start": "2026-12-08",
       "end": "2027-02-28",
@@ -83,6 +95,6 @@
   ],
   "highlights": "琵琶湖を望む守山の地に建ち、水庭に浮かぶような3棟の建物が四季の表情を見せる美術館。平山郁夫の日本画、佐藤忠良の彫刻、樂吉左衞門・樂直入の茶碗を軸に所蔵し、茶室の見学や呈茶も楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "展示替え等で臨時休館の場合あり。年末年始休館の日付は未掲載。コレクション展の単独料金は未確認。",
+  "notes": "展示替え等で臨時休館の場合あり。年末年始休館の日付は未掲載。コレクション展の単独料金は未確認。 2026-11-07 light: 千住博展（11/3〜11/23）を追加。料金は未掲載。",
   "confidence": "medium"
 }

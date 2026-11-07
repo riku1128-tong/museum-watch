@@ -1,17 +1,16 @@
 {
   "id": "Q28689358",
-  "checked_at": "2026-10-30T06:35:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T16:55:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.tomioka.lg.jp/www/genre/1387242529968/index.html",
   "address": "〒370-2344 群馬県富岡市黒川351-1",
   "source_urls": [
     "https://www.city.tomioka.lg.jp/www/genre/1387242529968/index.html",
-    "https://www.city.tomioka.lg.jp/www/contents/1395887478508/index.html",
     "https://www.city.tomioka.lg.jp/www/contents/1394159028138/index.html",
-    "https://www.city.tomioka.lg.jp/www/contents/1000000001735/index.html",
-    "https://www.city.tomioka.lg.jp/www/contents/1607578938940/index.html"
+    "https://www.city.tomioka.lg.jp/www/contents/1460512262791/index.html",
+    "https://www.city.tomioka.lg.jp/www/contents/1532141689154/index.html"
   ],
   "regular_hours": [
     {
@@ -63,64 +62,44 @@
   ],
   "exhibitions": [
     {
-      "title": "アートの学び展　アートインクルージョンの練習問題",
-      "start": "2026-09-05",
-      "end": "2026-11-01",
-      "url": "https://www.city.tomioka.lg.jp/www/contents/1607578938940/index.html",
-      "kind": "special",
-      "summary": "アートインクルージョン（誰もが参加できるアート）をテーマにした企画展",
-      "admission": "一般 210円",
-      "adult_price": 210
-    },
-    {
-      "title": "福沢一郎　はじまりの一歩",
-      "start": "2026-07-14",
-      "end": "2026-11-01",
-      "url": "https://www.city.tomioka.lg.jp/www/contents/1607578938940/index.html",
-      "kind": "collection",
-      "summary": "富岡出身の洋画家・福沢一郎の画業の出発点に注目した常設展示",
-      "admission": "一般 210円",
-      "adult_price": 210
-    },
-    {
-      "title": "富岡市の歴史と文化",
+      "title": "富岡の歴史と文化",
       "start": "2026-09-28",
       "end": "2027-09-28",
-      "url": "https://www.city.tomioka.lg.jp/www/contents/1607578938940/index.html",
+      "url": "https://www.city.tomioka.lg.jp/www/contents/1460512262791/index.html",
       "kind": "other",
       "summary": "通年。郷土資料展示室で富岡市とその周辺の考古・歴史・民俗資料を通史的に紹介",
       "admission": "一般 210円",
       "adult_price": 210
     },
     {
-      "title": "コレクション展（仮称）",
-      "start": "2026-12-12",
-      "end": "2027-02-28",
-      "url": "https://www.city.tomioka.lg.jp/www/contents/1460512262791/index.html",
-      "kind": "collection",
-      "summary": "12月からの企画コレクション展（タイトル未定）",
-      "recommend": null,
-      "admission": "一般 210円",
-      "adult_price": 210
-    },
-    {
-      "title": "I氏コレクション展　今どきアート2026（仮称）",
-      "start": "2026-12-08",
-      "end": "2027-02-28",
-      "url": "https://www.city.tomioka.lg.jp/www/contents/1460512262791/index.html",
-      "kind": "special",
-      "summary": "I氏のコレクションによる現代アートの収蔵品展（タイトル未定）",
-      "recommend": null,
-      "admission": "一般 210円",
-      "adult_price": 210
-    },
-    {
-      "title": "収蔵品展　所蔵作品による福沢一郎展（仮称）",
+      "title": "収蔵品展　福沢一郎をめぐる5つのキーワード/福沢一郎",
       "start": "2026-11-14",
       "end": "2027-02-28",
       "url": "https://www.city.tomioka.lg.jp/www/contents/1460512262791/index.html",
       "kind": "collection",
-      "summary": "富岡出身の洋画家・福沢一郎の所蔵作品による収蔵品展（タイトル・終了日は未定）",
+      "summary": "シュルレアリスム・反骨と諧謔など5つのキーワードで福沢一郎の画業を振り返る（終了日は公式に記載なし）",
+      "recommend": "「シュルレアリスム」「反骨と諧謔」「いきものの姿」「輝く色彩」「人間のドラマ」という5つの切り口で、富岡出身の洋画家・福沢一郎の多彩な画業をたどる展示。",
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "I氏コレクション展　今どきアート2026「現実（リアル）と想像（イマジネーション）」",
+      "start": "2026-12-08",
+      "end": "2027-02-28",
+      "url": "https://www.city.tomioka.lg.jp/www/contents/1460512262791/index.html",
+      "kind": "special",
+      "summary": "市内在住のアートコレクター・I氏のコレクションを紹介",
+      "recommend": null,
+      "admission": "一般 210円",
+      "adult_price": 210
+    },
+    {
+      "title": "企画展　コレクション展「表現探訪ー画材と技法」",
+      "start": "2026-12-12",
+      "end": "2027-02-28",
+      "url": "https://www.city.tomioka.lg.jp/www/contents/1460512262791/index.html",
+      "kind": "collection",
+      "summary": "所蔵作品を画材と技法の視点で紹介するコレクション展",
       "recommend": null,
       "admission": "一般 210円",
       "adult_price": 210
@@ -141,15 +120,19 @@
     }
   ],
   "highlights": "もみじ平総合公園内にある美術博物館。富岡出身の洋画家・福沢一郎の作品を一堂に集めた記念展示室を併設し、アトリエ再現室で制作の様子もわかる。郷土の考古・歴史・民俗資料も通史的に展示する。",
-  "notes": "利用案内ページの休館日は「月曜日（祝日の場合はその翌日）」「年末年始（12/27〜1/4）」、そのほか臨時休館あり。「福沢一郎　はじまりの一歩」の会期は公式ページに開始日の記載が無く、群馬県民カレッジのイベント情報（7/14〜11/1）で補った。最寄駅は無くタクシー利用が案内されている。 2026-10-23: 公式で10/13休館・10/28県民の日無料の告知を再確認。 2026-10-30 light: 変化なし（10/13休館・10/28県民の日無料を再確認）。",
-  "confidence": "medium",
+  "notes": "利用案内の休館日は「月曜日（祝日の場合はその翌日）」「年末年始（12/27〜1/4）」、臨時休館あり。最寄駅は無くタクシー利用が案内されている。2026-11-07 full: 11/2〜11/13は展示替えで休館（11/7・8は市民文化祭で開館・観覧無料）を再確認。展覧会一覧（11/4更新）で福沢展の新題と企画展・I氏コレクション展の正式題を確認。収蔵品展（福沢）の終了日は公式に記載が無く、2027-02-28は前回値の踏襲。",
+  "confidence": "high",
   "free_days": [
     {
-      "from": "2026-10-28",
-      "to": "2026-10-28",
-      "scope": "all",
-      "reason": "群馬県民の日",
-      "source_url": "https://www.city.tomioka.lg.jp/www/contents/1464669180770/index.html"
+      "from": "2026-11-07",
+      "to": "2026-11-08",
+      "scope": "partial",
+      "targets": [
+        "企画展示室",
+        "市民ギャラリー"
+      ],
+      "reason": "富岡市民文化祭（郷土資料展示室は観覧不可）",
+      "source_url": "https://www.city.tomioka.lg.jp/www/contents/1460512262791/index.html"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "Q3297759",
-  "checked_at": "2026-10-30T06:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-07T16:55:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.ishibi.pref.ishikawa.jp/",
@@ -151,6 +151,61 @@
       "recommend": null,
       "admission": "一般 370円",
       "adult_price": 370
+    },
+    {
+      "title": "優品選",
+      "start": "2026-12-12",
+      "end": "2027-01-24",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/",
+      "kind": "collection",
+      "summary": "館蔵の絵画・彫刻の優品を紹介するコレクション展示",
+      "recommend": null,
+      "admission": "一般 370円",
+      "adult_price": 370
+    },
+    {
+      "title": "第38回二科会写真部石川支部展",
+      "start": "2026-11-12",
+      "end": "2026-11-16",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/exhibition-17433-2/",
+      "kind": "other",
+      "summary": "各種団体展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第79回示現会金沢展",
+      "start": "2026-11-12",
+      "end": "2026-11-16",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/exhibition-17432-3/",
+      "kind": "other",
+      "summary": "各種団体展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第83回北國写真展",
+      "start": "2026-11-19",
+      "end": "2026-11-23",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/exhibition-17432-2/",
+      "kind": "other",
+      "summary": "各種団体展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第36回石川県水墨画協会公募展",
+      "start": "2026-11-27",
+      "end": "2026-11-30",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/exhibition-17413-2-2/",
+      "kind": "other",
+      "summary": "各種団体展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 370,

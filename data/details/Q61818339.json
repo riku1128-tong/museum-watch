@@ -1,7 +1,7 @@
 {
   "id": "Q61818339",
-  "checked_at": "2026-10-30T06:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T17:01:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.hikaribijyutukan.net",
@@ -34,19 +34,7 @@
   "holiday_rule": "unknown",
   "special_closures": [],
   "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "大地は器 2026",
-      "start": "2026-10-24",
-      "end": "2026-11-03",
-      "url": "https://www.hikaribijyutukan.net/exhibition.html",
-      "kind": "special",
-      "summary": "ヒカリ美術館の企画展「大地は器」2026年版",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    }
-  ],
+  "exhibitions": [],
   "adult_price": 0,
   "free_days": [],
   "free_rules": [],
@@ -61,6 +49,6 @@
   ],
   "highlights": "「火」と「光」をテーマにした京丹後の私設美術館。土を焼いたクレイワークや光を意識した作品、海岸の漂着物を再生した作品を展示する。夕日の名所として知られる浜詰の景勝地にあり、観光とあわせて立ち寄れる。",
   "closed_between_exhibitions": false,
-  "notes": "開館 9:00-18:00、火・水曜休館（公式 aboutus）。入館無料は京都府ミュージアムフォーラムの記載による。祝日の扱いは公式に記載なし。 2026-10-16: 展覧会ページで「大地は器 2026」10/24〜11/3を再確認（トップ・内容紹介は読めず）。",
+  "notes": "開館 9:00-18:00、火・水曜休館（公式 aboutus）。入館無料は京都府ミュージアムフォーラムの記載による。祝日の扱いは公式に記載なし。 2026-10-16: 展覧会ページで「大地は器 2026」10/24〜11/3を再確認（トップ・内容紹介は読めず）。 2026-11-07 full: 「大地は器 2026」(10.24〜11.3)は終了。展覧会ページに現在開催中・今後の展示の掲載なし。",
   "confidence": "medium"
 }

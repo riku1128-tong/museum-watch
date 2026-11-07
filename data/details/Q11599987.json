@@ -1,6 +1,6 @@
 {
   "id": "Q11599987",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T16:55:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -64,6 +64,17 @@
       "summary": "写真家が捉えた画家・鴨居玲の素顔を紹介する企画展",
       "recommend": "波乱の画業で知られる鴨居玲を、公表されてこなかった写真という視点から捉え直す珍しい企画展。人物像に迫る写真と代表作を合わせて見られる",
       "admission": "大人1,300円／65歳以上1,000円／大学・高校生900円／中学生300円／小学生無料",
+      "adult_price": 1300
+    },
+    {
+      "title": "ねこ写真家 関由香　ねこと一緒に、今日もいい日。",
+      "start": "2027-01-02",
+      "end": "2027-02-28",
+      "url": "https://www.nichido-museum.or.jp/event-2/",
+      "kind": "special",
+      "summary": "ねこ写真家・関由香の写真展",
+      "recommend": null,
+      "admission": "大人1,300円",
       "adult_price": 1300
     },
     {

@@ -1,7 +1,7 @@
 {
   "id": "Q5359197",
-  "checked_at": "2026-10-30T06:35:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T17:02:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://kenbi.pref.gifu.lg.jp/",
@@ -11,12 +11,13 @@
     "https://kenbi.pref.gifu.lg.jp/about/",
     "https://kenbi.pref.gifu.lg.jp/access",
     "https://kenbi.pref.gifu.lg.jp/events/2026ewomite/",
-    "https://kenbi.pref.gifu.lg.jp/events/gifu-no-nihonga202609/",
     "https://kenbi.pref.gifu.lg.jp/events/modernfrenchpaintings/",
     "https://kenbi.pref.gifu.lg.jp/events/redon_komai/",
     "https://kenbi.pref.gifu.lg.jp/events/noa-noa-the-arcadia-of-gauguin/",
     "https://kenbi.pref.gifu.lg.jp/events/sorehananigotoka/",
-    "https://kenbi.pref.gifu.lg.jp/events/maruke2026/"
+    "https://kenbi.pref.gifu.lg.jp/events/maruke2026/",
+    "https://kenbi.pref.gifu.lg.jp/visitor/",
+    "https://kenbi.pref.gifu.lg.jp/events/tsuchiya2027/"
   ],
   "regular_hours": [
     {
@@ -39,7 +40,13 @@
   ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-12-21",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -49,17 +56,6 @@
       "url": "https://kenbi.pref.gifu.lg.jp/events/2026ewomite/",
       "kind": "collection",
       "summary": "当館収蔵作品を鑑賞しながら絵を描くことを楽しむ体験型コレクション展",
-      "recommend": null,
-      "admission": "一般370円",
-      "adult_price": 370
-    },
-    {
-      "title": "ぎふの日本画 屏風 ―大画面にみる美の世界―",
-      "start": "2026-09-08",
-      "end": "2026-11-03",
-      "url": "https://kenbi.pref.gifu.lg.jp/events/gifu-no-nihonga202609/",
-      "kind": "collection",
-      "summary": "岐阜ゆかりの画家が描いた日本画の屏風作品を紹介するコレクション展",
       "recommend": null,
       "admission": "一般370円",
       "adult_price": 370
@@ -129,6 +125,17 @@
       "recommend": "振動する軸上を緩やかに動く球体や、予測しがたいマグネット素子の動きなど、単純な仕掛けが現象の要約のように見えるエレクトリック・オブジェが並ぶ。生誕100年に実験工房の作曲家の世界に触れられる。",
       "admission": "一般370円",
       "adult_price": 370
+    },
+    {
+      "title": "夢は果てしなく―土屋禮一展",
+      "start": "2027-01-06",
+      "end": "2027-03-07",
+      "url": "https://kenbi.pref.gifu.lg.jp/events/tsuchiya2027/",
+      "kind": "special",
+      "summary": "日本画家・土屋禮一の初期から近作までを紹介する個展",
+      "recommend": "岐阜県養老町出身で日展副理事長を務める土屋禮一の画業を、初期作から近作まで通観する展覧会。近年の代表作《令和度 主基地方風俗歌屏風》も含まれ、現代日本画の魅力に触れられる。",
+      "admission": "一般 1,100円",
+      "adult_price": 1100
     }
   ],
   "adult_price": 370,
@@ -167,6 +174,6 @@
   ],
   "highlights": "岐阜市に位置する県立美術館。充実したルドンのコレクションをはじめ、フランス近代絵画や岐阜ゆかりの日本画など幅広い収蔵品を誇る。コレクション展は370円と手頃な価格で楽しめ、企画展では大型の国際巡回展も開催。企画展開催時の第3金曜は20時まで夜間開館。",
   "closed_between_exhibitions": false,
-  "notes": "企画展開催時の毎月第3金曜日は10:00〜20:00（入場19:30まで）の夜間開館。年末年始の休館日程は公式サイトに日付記載なし。 【2026-10-10 light】臨時休館・時間変更なし。新展覧会「特集 鯉江良二」(11/10〜)を追加。JR西岐阜駅から美術館への行き方案内が新規お知らせに掲載（アクセス変更なし）。 10/30 light: 臨時休館・時間変更なし。企画展「佐藤慶次郎」(11/10〜)と展示室2の「アートまるケット2026」(無料、〜2027/3/14)を追加。11/3は混雑予想の告知あり。",
+  "notes": "企画展開催時の毎月第3金曜日は10:00〜20:00（入場19:30まで）の夜間開館。年末年始の休館日程は公式サイトに日付記載なし。 【2026-10-10 light】臨時休館・時間変更なし。新展覧会「特集 鯉江良二」(11/10〜)を追加。JR西岐阜駅から美術館への行き方案内が新規お知らせに掲載（アクセス変更なし）。 10/30 light: 臨時休館・時間変更なし。企画展「佐藤慶次郎」(11/10〜)と展示室2の「アートまるケット2026」(無料、〜2027/3/14)を追加。11/3は混雑予想の告知あり。 2026-11-07 full: 年末年始休館 2026/12/21〜2027/1/4 を公式で確認。土屋禮一展(2027/1/6〜3/7)を追加。ぎふの日本画(〜11/3)は終了のため削除。",
   "confidence": "high"
 }

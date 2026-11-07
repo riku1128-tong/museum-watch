@@ -1,18 +1,19 @@
 {
   "id": "Q10854956",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T16:50:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.kagoshima.lg.jp/artmuseum/",
-  "address": null,
+  "address": "〒892-0853 鹿児島市城山町4番36号",
   "source_urls": [
     "https://www.city.kagoshima.lg.jp/artmuseum/",
     "https://www.city.kagoshima.lg.jp/artmuseum/about.html",
     "https://www.city.kagoshima.lg.jp/artmuseum/access.html",
     "https://www.city.kagoshima.lg.jp/artmuseum/exhibition-r8special_saul-leiter.html",
     "https://www.city.kagoshima.lg.jp/artmuseum/exhibition-r8-shozou4.html",
-    "https://www.city.kagoshima.lg.jp/artmuseum/exhibition-r8kikaku2.html"
+    "https://www.city.kagoshima.lg.jp/artmuseum/exhibition-r8kikaku2.html",
+    "https://www.city.kagoshima.lg.jp/artmuseum/news-kyuukanbi.html"
   ],
   "regular_hours": [
     {
@@ -36,6 +37,11 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
+    {
+      "from": "2026-11-16",
+      "to": "2026-11-18",
+      "reason": "展示替え"
+    },
     {
       "from": "2026-12-29",
       "to": "2027-01-01",
@@ -89,12 +95,23 @@
       "adult_price": 600
     },
     {
-      "title": "市民アートフェアかごしま2026",
-      "start": "2026-10-27",
-      "end": "2026-11-01",
+      "title": "墨遊会水墨画展",
+      "start": "2026-11-03",
+      "end": "2026-11-08",
       "url": null,
       "kind": "other",
-      "summary": "第21回市民作品公募展（地下展示室・観覧無料）",
+      "summary": "地下展示室での水墨画展（観覧無料）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "鬼子根龍彦曼荼羅画展",
+      "start": "2026-11-03",
+      "end": "2026-11-08",
+      "url": null,
+      "kind": "other",
+      "summary": "地下展示室での曼荼羅画展（観覧無料）",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0
@@ -109,7 +126,7 @@
       "lines": "鹿児島市電",
       "exit": null,
       "walk_min": 5,
-      "note": null
+      "note": "西郷銅像前バス停から徒歩1分。市電「朝日通」から徒歩5分"
     },
     {
       "station": "鹿児島中央",
@@ -121,6 +138,6 @@
   ],
   "highlights": "黒田清輝・藤島武二・和田英作ら鹿児島ゆかりの洋画家の作品を核に、19〜20世紀の美術の流れを示す約3,500点を収蔵する公立美術館。草間彌生など現代作家の新収蔵作品も加わり、国際的な写真展も開催。西郷銅像に隣接し、観光の合間に立ち寄りやすい立地。",
   "closed_between_exhibitions": false,
-  "notes": "所蔵品展・小企画展の観覧料は市民一般450円、市外一般600円（adult_priceは市外料金）。特別企画展はその都度料金設定。毎月第3日曜は小・中学生の常設展が無料（大人一般は対象外）。住所は別途確認要。 2026-10-30: 谷口午二展の観覧料は所蔵品展と共通（市外一般600円・市民450円）。休館は月曜（祝日は翌平日）・12/29-1/1で変更なし。終了した地下展示室の2展を削除。",
+  "notes": "所蔵品展・小企画展の観覧料は市民一般450円、市外一般600円（adult_priceは市外料金）。特別企画展はその都度料金設定。毎月第3日曜は小・中学生の常設展が無料（大人一般は対象外）。住所は別途確認要。 2026-11-07 full巡回: 11月の休館は 11/2・11/16〜18（展示替え）・11/24（祝日翌日）・11/30。市民アートフェアを削除し地下展示室の2展(11/3〜8)を追加。11/21開幕とされる南日本美術展は公式サイトで未確認。",
   "confidence": "high"
 }

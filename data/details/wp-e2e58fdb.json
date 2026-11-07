@@ -1,6 +1,6 @@
 {
   "id": "wp-e2e58fdb",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-07T17:10:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -41,7 +41,24 @@
       "reason": "年末年始"
     }
   ],
-  "special_openings": [],
+  "special_openings": [
+    {
+      "date": "2026-11-30",
+      "note": "第20回秋葉区美術展覧会 会期中無休"
+    },
+    {
+      "date": "2027-01-04",
+      "note": "第22回新潟教育アート展 会期中無休"
+    },
+    {
+      "date": "2027-02-22",
+      "note": "月曜だが開館（舞台裏展）"
+    },
+    {
+      "date": "2027-03-01",
+      "note": "月曜だが開館（舞台裏展）"
+    }
+  ],
   "exhibitions": [
     {
       "title": "田中達也展　みたてのくみたて",
@@ -58,7 +75,7 @@
       "title": "第20回秋葉区美術展覧会",
       "start": "2026-11-28",
       "end": "2026-12-06",
-      "url": null,
+      "url": "https://www.city.niigata.lg.jp/nam/exhibitions/fy2026exh/index.html",
       "kind": "other",
       "summary": "秋葉区の美術愛好家による公募展",
       "recommend": null,
@@ -69,7 +86,7 @@
       "title": "第22回新潟教育アート展",
       "start": "2027-01-04",
       "end": "2027-01-09",
-      "url": null,
+      "url": "https://www.city.niigata.lg.jp/nam/exhibitions/fy2026exh/index.html",
       "kind": "other",
       "summary": "新潟の教育現場の美術作品展",
       "recommend": null,
@@ -80,7 +97,7 @@
       "title": "新津美術館の「舞台裏」",
       "start": "2027-01-23",
       "end": "2027-03-07",
-      "url": null,
+      "url": "https://www.city.niigata.lg.jp/nam/exhibitions/fy2026exh/index.html",
       "kind": "other",
       "summary": "美術館の収蔵・展示の裏側を紹介する企画展",
       "recommend": null,

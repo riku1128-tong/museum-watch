@@ -1,7 +1,7 @@
 {
   "id": "Q11631864",
-  "checked_at": "2026-10-30T06:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-07T17:05:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.taizi-artmuseum.jp/",
@@ -10,7 +10,7 @@
     "https://www.taizi-artmuseum.jp/",
     "https://www.taizi-artmuseum.jp/guide/",
     "https://taizi-artmuseum.jp/exhibition/",
-    "https://taizi-artmuseum.jp/news/suu-to-%e4%bd%9c%e5%93%81%e5%b1%95%e3%80%802026-9-29%ef%bc%8d11-1/"
+    "https://taizi-artmuseum.jp/news/8%e6%9c%88%e4%bc%91%e9%a4%a8%e6%97%a5%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
   ],
   "regular_hours": [
     {
@@ -58,17 +58,6 @@
       "adult_price": 840
     },
     {
-      "title": "Suu to. 作品展",
-      "start": "2026-09-29",
-      "end": "2026-11-01",
-      "url": "https://taizi-artmuseum.jp/news/suu-to-%e4%bd%9c%e5%93%81%e5%b1%95%e3%80%802026-9-29%ef%bc%8d11-1/",
-      "kind": "special",
-      "summary": "障害のあるクリエイターと制作する団体Suu to.による信州の自然をテーマにした作品展（ギャラリーさざなみ）",
-      "recommend": "軽井沢のアトリエを拠点に障害のあるクリエイターと制作する団体Suu to.の作品展。信州の自然・季節・光などを清らかなタッチで表現。ギャラリーさざなみのみの観覧は無料で入場できる。",
-      "admission": "無料（ギャラリーさざなみのみ）",
-      "adult_price": 0
-    },
-    {
       "title": "谷口智則 絵本原画展",
       "start": "2026-11-03",
       "end": "2026-11-29",
@@ -93,6 +82,6 @@
   ],
   "highlights": "日本の農村や里山の原風景を温かみある素朴なタッチで描いた画家・原田泰治の専門美術館。諏訪市に位置し、2つの展示室で作品を紹介するほか、2階のギャラリーさざなみでは無料の企画展も随時開催される。",
   "closed_between_exhibitions": false,
-  "notes": "ガイドページより：月曜休館（祝日は開館）、年末年始・展示替え日も休館。holiday_rule は「open」（振替休館なし）。入館料は大人一般840円。ギャラリーさざなみ（2階）のみの観覧は無料。 2026-10-30: トップで「11月休館日のお知らせ」（本文は取得できず）。11月の休館日は未確認で、谷口智則展は会期の記載が無く、前回の値を維持。",
+  "notes": "ガイドページより：月曜休館（祝日は開館）、年末年始・展示替え日も休館。holiday_rule は「open」（振替休館なし）。入館料は大人一般840円。ギャラリーさざなみ（2階）のみの観覧は無料。 2026-11-07: 11月の休館日は2・9・16・30日（月曜）、23日（月・祝）は開館、振替休みなし（公式お知らせ）。谷口智則展の会期は11/3〜11/29で確定。Suu to.作品展は11/1で終了のため削除。",
   "confidence": "high"
 }

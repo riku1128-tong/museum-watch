@@ -1,6 +1,6 @@
 {
   "id": "Q11377199",
-  "checked_at": "2026-10-30T06:20:00+09:00",
+  "checked_at": "2026-11-07T17:25:00+09:00",
   "check_mode": "full",
   "operating_status": "temporarily_closed",
   "status_note": "空調設備改修のため2026年8月31日より臨時休館中。2026年12月5日(土)に開館予定（公式告知「12/5～開館のお知らせ」）。",
@@ -8,11 +8,12 @@
   "address": "〒794-0102 愛媛県今治市玉川町大野甲86-4",
   "source_urls": [
     "https://www.city.imabari.ehime.jp/museum/tamagawa/",
-    "https://www.city.imabari.ehime.jp/museum/tamagawa/event/event.html?p=2052",
     "https://www.city.imabari.ehime.jp/museum/tamagawa/access/",
-    "https://www.city.imabari.ehime.jp/museum/tamagawa/info/",
     "https://www.city.imabari.ehime.jp/museum/tamagawa/collection/",
-    "https://www.city.imabari.ehime.jp/museum/tamagawa/event/oshirase.html?p=2085"
+    "https://www.city.imabari.ehime.jp/museum/tamagawa/event/event.html?p=2052",
+    "https://www.city.imabari.ehime.jp/museum/tamagawa/event/event.html?p=2084",
+    "https://www.city.imabari.ehime.jp/museum/tamagawa/event/oshirase.html?p=2085",
+    "https://www.city.imabari.ehime.jp/museum/tamagawa/info/"
   ],
   "regular_hours": [
     {
@@ -45,7 +46,14 @@
       "reason": "年末年始"
     }
   ],
-  "special_openings": [],
+  "special_openings": [
+    {
+      "date": "2026-12-05",
+      "open": "09:00",
+      "close": "20:00",
+      "note": "再開館日。終日観覧無料、20時まで開館"
+    }
+  ],
   "exhibitions": [
     {
       "title": "開館40周年記念館蔵品企画展「心をたがやすアート」",
@@ -75,11 +83,8 @@
     {
       "from": "2026-12-05",
       "to": "2026-12-05",
-      "scope": "partial",
-      "targets": [
-        "国宝「伊予国奈良原山経塚出土品」特別公開"
-      ],
-      "reason": "再開館日の特別公開は観覧無料",
+      "scope": "all",
+      "reason": "再開館日（開館記念）は終日観覧無料",
       "source_url": "https://www.city.imabari.ehime.jp/museum/tamagawa/event/event.html?p=2084"
     }
   ],
@@ -102,6 +107,6 @@
   ],
   "highlights": "愛媛県今治市の山間・玉川地区に位置する近代美術館。パウル・クレー「綱渡り師」、ポール・ゴーギャン、藤田嗣治「猫」、松本竣介「B婦人像」ら国内外の作家による洋画・版画・彫刻を所蔵。緑豊かな自然の中でゆっくりと鑑賞できる。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日の場合は原則翌日振替）、年末年始12/29-1/3休館。65歳以上は420円、高校生以下・18歳未満無料。2026年8月31日より空調設備改修のため休館中（2026年12月上旬再開予定）。",
+  "notes": "月曜休館（祝日の場合は原則翌日振替）、年末年始12/29-1/3休館。65歳以上は420円、高校生以下・18歳未満無料。2026年8月31日より空調設備改修のため休館中（2026年12月上旬再開予定）。 2026-11-07 full確認: 12/5(土)は開館記念で終日無料・20時まで開館。国宝特別公開ページには休館日「年末年始12/28〜1/4」とあるが、館全体は12/29〜1/3。",
   "confidence": "high"
 }

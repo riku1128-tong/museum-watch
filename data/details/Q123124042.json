@@ -1,10 +1,10 @@
 {
   "id": "Q123124042",
-  "checked_at": "2026-11-07T17:15:00+09:00",
+  "checked_at": "2026-11-13T07:50:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
-  "official_url": null,
+  "official_url": "https://www.hirosaki-moca.jp/",
   "address": "〒036-8188 青森県弘前市吉野町2-1",
   "source_urls": [
     "https://www.hirosaki-moca.jp/",
@@ -12,7 +12,8 @@
     "https://www.hirosaki-moca.jp/access/",
     "https://www.hirosaki-moca.jp/exhibitions/kazama-sachiko/",
     "https://www.hirosaki-moca.jp/exhibitions/collection2026/",
-    "https://www.hirosaki-moca.jp/exhibitions/avant-garde/"
+    "https://www.hirosaki-moca.jp/exhibitions/avant-garde/",
+    "https://www.hirosaki-moca.jp/news/15616/"
   ],
   "regular_hours": [
     {
@@ -50,7 +51,18 @@
     "tue"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-11-16",
+      "to": "2026-11-24",
+      "reason": "展示替え"
+    },
+    {
+      "from": "2026-11-30",
+      "to": "2026-12-03",
+      "reason": "展示替え"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -99,7 +111,19 @@
     }
   ],
   "adult_price": 1600,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-25",
+      "to": "2026-11-29",
+      "scope": "partial",
+      "targets": [
+        "奈良美智《A to Z Memorial Dog》",
+        "オトニエル《エデンの結び目》"
+      ],
+      "reason": "展示替え期間中の屋外作品・ライブラリー無料開放",
+      "source_url": "https://www.hirosaki-moca.jp/news/15616/"
+    }
+  ],
   "free_rules": [],
   "access": [
     {
@@ -119,6 +143,6 @@
   ],
   "highlights": "旧サッポロビール工場のレンガ倉庫を改修した、青森・弘前初の現代美術館。2020年開館で、煉瓦造りの歴史的建築を生かした独特の展示空間が特徴。風間サチコをはじめ国内外の現代作家を紹介する企画展と、地域の記憶に根ざしたコレクション展を年2期構成で開催する。",
   "closed_between_exhibitions": false,
-  "notes": "年末年始の休館日は公式サイトに具体的な日付の記載がなかったため special_closures には入れていない。 2026-10-30 light: 変化なし。",
+  "notes": "年末年始の休館日は公式サイトに具体的な日付の記載がなかったため special_closures には入れていない。 2026-10-30 light: 変化なし。 2026-11-13 light: 展示替え 11/16-12/3 のうち 11/25-29 は展覧会を観覧できず作品2点・ライブラリーのみ無料で開く（special_closures には入れず、11/25-29 は開館扱い）。展示替えのため展覧会の観覧は 12/4 から。",
   "confidence": "high"
 }

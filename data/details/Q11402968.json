@@ -1,6 +1,6 @@
 {
   "id": "Q11402968",
-  "checked_at": "2026-11-07T17:00:00+09:00",
+  "checked_at": "2026-11-13T08:00:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -11,7 +11,9 @@
     "https://artmuseum.pref.hokkaido.lg.jp/abj/guide/",
     "https://artmuseum.pref.hokkaido.lg.jp/abj/access/",
     "https://artmuseum.pref.hokkaido.lg.jp/abj/exhibition/program/324",
-    "https://artmuseum.pref.hokkaido.lg.jp/abj/exhibition/program/327"
+    "https://artmuseum.pref.hokkaido.lg.jp/abj/exhibition/program/327",
+    "https://artmuseum.pref.hokkaido.lg.jp/abj/exhibition/program/325",
+    "https://artmuseum.pref.hokkaido.lg.jp/abj/exhibition/program/328"
   ],
   "regular_hours": [
     {
@@ -42,7 +44,7 @@
     },
     {
       "from": "2026-11-24",
-      "to": "2026-11-29",
+      "to": "2026-12-11",
       "reason": "展示替えのため休館"
     }
   ],
@@ -69,18 +71,32 @@
       "recommend": "「生まれてきてくれてありがとう」と伝える北海道発の椅子プロジェクト。2006年から21年分の椅子が並び、関わった人々の言葉とともに命の豊かさを伝える温かな展示。",
       "admission": "一般260円",
       "adult_price": 260
+    },
+    {
+      "title": "旭川のやきもの　同時開催：技が光る　木の手しごと",
+      "start": "2026-12-12",
+      "end": "2027-03-07",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/abj/exhibition/program/325",
+      "kind": "special",
+      "summary": "旭川を拠点とする陶芸家12名と所蔵品で旭川の陶芸の歩みを振り返る。木工芸コレクション展を同時開催",
+      "recommend": "明治期の煉瓦工場に始まる旭川の陶芸史を、地元の作家12名の作品でたどる展覧会。同時開催の木の手しごとでは、修復後に当館で初公開となる黒田辰秋《神代欅彫文飾棚》も見どころ。",
+      "admission": "一般 800円",
+      "adult_price": 800
+    },
+    {
+      "title": "たゆたう絵画　福井爽人×上野憲男",
+      "start": "2026-12-12",
+      "end": "2027-03-07",
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/abj/exhibition/program/328",
+      "kind": "special",
+      "summary": "福井爽人と上野憲男の二人の画家による絵画展（詳細は後日公開）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 260,
-  "free_days": [
-    {
-      "from": "2026-11-01",
-      "to": "2026-11-07",
-      "scope": "collection",
-      "reason": "北海道芸術週間（第2展示室・所蔵品展）",
-      "source_url": "https://artmuseum.pref.hokkaido.lg.jp/abj/guide/about"
-    }
-  ],
+  "free_days": [],
   "free_rules": [],
   "access": [
     {
@@ -93,6 +109,6 @@
   ],
   "highlights": "道北地域の美術文化の拠点となる北海道立美術館。地域性と国際性を軸に道北ゆかりの作家の絵画・版画・彫刻・工芸を多数収蔵。旭川市の緑豊かな常磐公園内に立地し、規模の大きな企画展から地域作家展まで多彩なプログラムを年間通じて開催。",
   "closed_between_exhibitions": false,
-  "notes": "月曜が祝日・振替休日の場合は開館し翌火曜日休館（「芸術週間」中は月曜でも開館）。第1展示室は企画展ごとの料金（現在1,000円）、第2展示室（コレクション）は一般260円の別立て料金。65歳以上・中学生以下は第2展示室無料。障がい者手帳所持者などは全展覧会無料。 2026-10-30: 公式カレンダーで11/24〜11/29が展示替え休館と確認。 2026-11-07 light: トップに変化なし。11/1〜11/7 芸術週間（第2展示室無料）を再確認。",
+  "notes": "月曜が祝日・振替休日の場合は開館し翌火曜日休館（「芸術週間」中は月曜でも開館）。第1展示室は企画展ごとの料金（現在1,000円）、第2展示室（コレクション）は一般260円の別立て料金。65歳以上・中学生以下は第2展示室無料。障がい者手帳所持者などは全展覧会無料。 2026-10-30: 公式カレンダーで11/24〜11/29が展示替え休館と確認。 2026-11-07 light: トップに変化なし。11/1〜11/7 芸術週間（第2展示室無料）を再確認。 2026-11-13 light: トップのカレンダーで展示替え休館が 11/24〜12/11 と判明（11/23 月・祝は開館）。12/12〜2027/3/7 の2展を追加。芸術週間の無料日は終了のため削除。",
   "confidence": "high"
 }

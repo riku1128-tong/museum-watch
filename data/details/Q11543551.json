@@ -1,20 +1,21 @@
 {
   "id": "Q11543551",
-  "checked_at": "2026-11-07T17:05:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-13T07:55:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.yokosuka-moa.jp/",
   "address": "〒239-0813 神奈川県横須賀市鴨居4丁目1番地",
   "source_urls": [
     "https://www.yokosuka-moa.jp/",
-    "https://www.yokosuka-moa.jp/outline/index.html",
-    "https://www.yokosuka-moa.jp/outline/access.html",
-    "https://www.yokosuka-moa.jp/exhibition/index.html",
     "https://www.yokosuka-moa.jp/archive/exhibition/2026/20260905-974.html",
     "https://www.yokosuka-moa.jp/archive/exhibition/2026/20261114-1008.html",
     "https://www.yokosuka-moa.jp/archive/exhibition/2027/20270109-1005.html",
-    "https://www.yokosuka-moa.jp/archive/exhibition/2027/20270123-1020.html"
+    "https://www.yokosuka-moa.jp/archive/exhibition/2027/20270123-1020.html",
+    "https://www.yokosuka-moa.jp/archive/exhibition/2027/20270211-1011.html",
+    "https://www.yokosuka-moa.jp/exhibition/index.html",
+    "https://www.yokosuka-moa.jp/outline/access.html",
+    "https://www.yokosuka-moa.jp/outline/index.html"
   ],
   "regular_hours": [
     {
@@ -112,6 +113,21 @@
       "recommend": "雨をテーマに、表紙絵の中から雨の日の情景を集めた回。近年寄贈された新収蔵作品として、絵本『ぎんのわっか』の装丁・挿絵原画も初めて並ぶ。",
       "admission": "一般 450円",
       "adult_price": 450
+    },
+    {
+      "title": "開館20周年記念 ジブリパーク展 来てみなけりゃ、わからない。",
+      "start": "2027-02-11",
+      "end": "2027-05-14",
+      "url": "https://www.yokosuka-moa.jp/archive/exhibition/2027/20270211-1011.html",
+      "kind": "special",
+      "summary": "開館20周年記念の企画展。会場は地階展示室と展示ギャラリー",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "closed_dates": [
+        "2027-03-01",
+        "2027-04-05"
+      ]
     }
   ],
   "closed_between_exhibitions": false,
@@ -134,7 +150,7 @@
       "note": "京急バス「観音崎」行で「ラビスタ横須賀観音崎テラス・横須賀美術館前」下車 約40分"
     }
   ],
-  "notes": "毎月第1月曜休館（祝日の場合は開館）。年末年始休館（利用案内は12/29〜1/3、展覧会ページは12/29〜1/4と記載。1/4は第1月曜）。企画展と所蔵品展が同時に展示替えする時期は全館休館あり。2026-09-05に再オープン。所蔵品展の観覧料は2026年4月1日改定後の450円（個人）。最寄駅からは京急バス利用が基本で、徒歩でのアクセスは案内されていない。 2026-11-07 full: 島田章三展は終了のため削除。第2期谷内六郎展を追加。ジブリパーク展（2027-02-11〜）は3か月先を超えるため未掲載。",
+  "notes": "毎月第1月曜休館（祝日の場合は開館）。年末年始休館（利用案内は12/29〜1/3、展覧会ページは12/29〜1/4と記載。1/4は第1月曜）。企画展と所蔵品展が同時に展示替えする時期は全館休館あり。2026-09-05に再オープン。所蔵品展の観覧料は2026年4月1日改定後の450円（個人）。最寄駅からは京急バス利用が基本で、徒歩でのアクセスは案内されていない。 2026-11-07 full: 島田章三展は終了のため削除。第2期谷内六郎展を追加。ジブリパーク展（2027-02-11〜）は3か月先を超えるため未掲載。 2026-11-13 light: ジブリパーク展(2027-02-11〜)が3か月以内に入ったため追加（観覧料は未掲載）。",
   "confidence": "high",
   "free_days": []
 }

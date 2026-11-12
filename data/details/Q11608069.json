@@ -1,7 +1,7 @@
 {
   "id": "Q11608069",
-  "checked_at": "2026-11-07T17:00:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-13T07:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.neribun.or.jp/museum.html",
@@ -13,7 +13,8 @@
     "https://www.neribun.or.jp/event/detail_m.cgi?id=202606301782802063",
     "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919",
     "https://www.neribun.or.jp/access/museum.html",
-    "https://www.neribun.or.jp/hall/museum.html"
+    "https://www.neribun.or.jp/hall/museum.html",
+    "https://www.neribun.or.jp/museum_new/detail_m.cgi?id=202603181773797734"
   ],
   "regular_hours": [
     {
@@ -46,17 +47,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "アーツ中村橋 2026―わたしとまちの記憶",
-      "start": "2026-09-12",
-      "end": "2026-11-08",
-      "url": "https://www.neribun.or.jp/event/detail_m.cgi?id=202606301782802063",
-      "kind": "special",
-      "summary": "「わたしとまちの記憶」をテーマに9組の作家が美術館と中村橋の商店街などで約30点を展示",
-      "recommend": "9組のアーティストが美術館と中村橋商店街など街に出て展示。ギャラリーを出て足元の「まち」を作品の一部として体験できる、屋外を巡りながら楽しめる展覧会。入場無料。",
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
       "title": "ユアサエボシと戦後アヴァンギャルドの変身寓話集",
       "start": "2026-10-31",
       "end": "2026-12-27",
@@ -66,6 +56,17 @@
       "recommend": "現代美術家ユアサエボシと池田龍雄・高山良策・中村宏ら戦後前衛の先達が「変身」をキーワードで共鳴。時代を超えた創造の変容と継承を一枚の絵の前で感じられる展覧会。",
       "admission": "一般 1,000円",
       "adult_price": 1000
+    },
+    {
+      "title": "第58回練馬区民美術展",
+      "start": "2027-02-06",
+      "end": "2027-02-14",
+      "url": null,
+      "kind": "other",
+      "summary": "練馬区民による作品を公募・展示する区民美術展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "closed_between_exhibitions": false,
@@ -80,6 +81,6 @@
     }
   ],
   "highlights": "1985年開館。日本近現代美術を中心に独自の切り口で多彩な企画展を展開し、若林奮ら国内作家の収蔵品を有する。中村橋駅から徒歩3分と都市型美術館として気軽に立ち寄れ、区民ギャラリーや創作室の貸出しで地域に開かれた運営が特徴。",
-  "notes": "月曜休館（祝休日のときはその翌平日）。9/21・10/12・11/23（月・祝）は開館、9/24・10/13・11/24 は休館（展覧会ページに明記、holiday_rule と一致）。adult_price はコレクション展の一般料金（500円）。",
+  "notes": "月曜休館（祝休日のときはその翌平日）。9/21・10/12・11/23（月・祝）は開館、9/24・10/13・11/24 は休館（展覧会ページに明記、holiday_rule と一致）。adult_price はコレクション展の一般料金（500円）。 2026-11-13 full: アーツ中村橋は11/8で終了のため削除。年間予定で第58回練馬区民美術展(2027-02-06〜02-14)を追加（料金・URLは未掲載）。",
   "confidence": "high"
 }

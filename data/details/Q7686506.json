@@ -1,6 +1,6 @@
 {
   "id": "Q7686506",
-  "checked_at": "2026-11-07T16:55:00+09:00",
+  "checked_at": "2026-11-13T07:30:54+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": "改修工事中（令和8年3月30日〜令和11年3月31日予定）。館内無料スペースでのミニ展示のみ",
@@ -61,6 +61,17 @@
       "url": "https://www.taromuseum.jp/exhibition.html",
       "kind": "special",
       "summary": "改修工事中の館内無料スペースで、岡本太郎作品の「かわいい」に注目するミニ企画",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "無料ミニ企画「ちょこっとTARO 太郎の旅」",
+      "start": "2026-12-12",
+      "end": "2027-05-30",
+      "url": "https://www.taromuseum.jp/",
+      "kind": "special",
+      "summary": "岡本太郎の旅をテーマにした無料のミニ企画",
+      "recommend": null,
       "admission": "無料",
       "adult_price": 0
     }

@@ -1,6 +1,6 @@
 {
   "id": "wp-56f72e05",
-  "checked_at": "2026-11-07T16:55:00+09:00",
+  "checked_at": "2026-11-13T07:50:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": "夏季営業（5月中旬～10月下旬のみ開館）、予約制",
@@ -8,6 +8,8 @@
   "address": "〒012-1125 秋田県雄勝郡羽後町野中字水無19-1",
   "source_urls": [
     "http://www.tenma-art.jp/index.html",
+    "http://www.tenma-art.jp/outline.htm",
+    "http://www.tenma-art.jp/sitemap.htm",
     "https://akita-michishirube.com/tourism/history-calture/tenma-artmuseum/",
     "https://www.museum.or.jp/museum/994"
   ],
@@ -32,7 +34,19 @@
   "holiday_rule": "closed",
   "special_closures": [],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "葉醉白コレクション常設展示（天馬長城ほか）",
+      "start": "2026-05-15",
+      "end": "2027-11-13",
+      "url": "http://www.tenma-art.jp/outline.htm",
+      "kind": "collection",
+      "summary": "通年。水墨画家・葉醉白の代表作「天馬長城」をはじめ天馬画と書を展示",
+      "recommend": "疾走する馬を力強い筆致で描いた葉醉白の「天馬画」と書を、雪冷房を備えた広い展示室で鑑賞できる。代表作「天馬長城」は20世紀の宝と称された大作で、この館ならではの見どころ。",
+      "admission": "入館無料",
+      "adult_price": 0
+    }
+  ],
   "adult_price": 0,
   "free_days": [],
   "free_rules": [],
@@ -47,6 +61,6 @@
   ],
   "highlights": "台湾出身の水墨画家・葉瑞貝の作品を専門に展示する私設美術館。疾走する馬を力強い筆致で描いた作品約260点を収蔵し、代表作20点を常設展示する。秋田県羽後町の自然豊かな環境に佇む夏季限定・予約制の静かな鑑賞空間。",
   "closed_between_exhibitions": false,
-  "notes": "夏季営業（5月中旬～10月下旬）、要予約（電話：0183-62-0008）。入館無料。日曜・祝日は休館。冬季（10月下旬～5月中旬）は閉館だが正確な開閉館日は公式に未掲載。公式サイト（tenma-art.jp）はJavaScript描画でテキスト抽出困難だが接続自体は可能。秋田県の美術館で長野県ではない（museums.json の prefecture は秋田県）。 2026-10-16 の再確認でも公式サイトは文字化けのため本文を読めず、前回の値を維持。 2026-11-07 再確認でも公式サイトは文字化けで本文を読めず、前回の値を維持。",
+  "notes": "夏季営業（5月中旬～10月下旬）、要予約（電話：0183-62-0008）。入館無料。日曜・祝日は休館。冬季（10月下旬～5月中旬）は閉館だが正確な開閉館日は公式に未掲載。公式サイト（tenma-art.jp）はJavaScript描画でテキスト抽出困難だが接続自体は可能。秋田県の美術館で長野県ではない（museums.json の prefecture は秋田県）。 2026-10-16 の再確認でも公式サイトは文字化けのため本文を読めず、前回の値を維持。 2026-11-07 再確認でも公式サイトは文字化けで本文を読めず、前回の値を維持。 2026-11-13: 公式サイトは Shift_JIS のため curl で取得し outline.htm で開館時間 10:00-16:30・休舘日 日曜・祝日・他・入館無料を確認（冬季閉館の日付は公式に無いまま）。常設の葉醉白作品を collection として登録。",
   "confidence": "medium"
 }

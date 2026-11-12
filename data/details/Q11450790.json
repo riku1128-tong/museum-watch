@@ -1,6 +1,6 @@
 {
   "id": "Q11450790",
-  "checked_at": "2026-11-07T16:55:00+09:00",
+  "checked_at": "2026-11-13T07:50:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -36,6 +36,11 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
+      "from": "2026-11-24",
+      "to": "2026-11-24",
+      "reason": "祝日の翌日"
+    },
+    {
       "from": "2026-12-28",
       "to": "2027-01-04",
       "reason": "年末年始休館"
@@ -53,6 +58,28 @@
       "recommend": "パリで活躍した彫刻家・高田博厚の作品を約100点収蔵し、常時展示。森鴎外の小説にも描かれた画家・宮芳平のアトリエ再現コーナーなど、地域と縁の深い作家の画業をたどれる。",
       "admission": "一般 520円",
       "adult_price": 520
+    },
+    {
+      "title": "【貸館】Re-SHINBISM 3　そして未来へ",
+      "start": "2026-11-07",
+      "end": "2026-11-29",
+      "url": "http://www.azumino-museum.com/cafe/html/cat/14-1.html",
+      "kind": "other",
+      "summary": "信州アーツカウンシル主催の県内作家11名によるグループ展。6〜8・大展示室",
+      "recommend": null,
+      "admission": "一般 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "【貸館】安曇野AIR 2026 「WHAT WE RECEIVE, HOW WE RETURN.」",
+      "start": "2026-11-07",
+      "end": "2026-11-29",
+      "url": "http://www.azumino-museum.com/cafe/html/cat/14-1.html",
+      "kind": "other",
+      "summary": "東京藝術大学 安曇野アーティスト・イン・レジデンスの成果展。展示室5",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
     }
   ],
   "closed_between_exhibitions": false,
@@ -73,6 +100,6 @@
     }
   ],
   "highlights": "安曇野の中心部に立地し、西に北アルプスの名峰・常念岳を望む。中世ヨーロッパの修道院を思わせる建物とバラ園が調和し、高田博厚の彫刻や宮芳平の油彩など地元ゆかりの作家の作品を中心に展示する。",
-  "notes": "2025年4月に「豊科近代美術館」から「安曇野市美術館」へ改称、同年8/30にリニューアルオープン。公式サイト（http://）はHTTPS自動アップグレードで接続不可のため、2026-09-30のlight確認はサイト取得できず。前回（2026-09-29）のデータを維持。休館日は「月曜日と祝祭日の翌日」。 2026-11-07 light: 公式サイトは引き続きSSLエラーで取得できず、前回値を維持。",
+  "notes": "2025年4月に「豊科近代美術館」から「安曇野市美術館」へ改称、同年8/30にリニューアルオープン。公式サイト（http://）はHTTPS自動アップグレードで接続不可のため、2026-09-30のlight確認はサイト取得できず。前回（2026-09-29）のデータを維持。休館日は「月曜日と祝祭日の翌日」。 2026-11-07 light: 公式サイトは引き続きSSLエラーで取得できず、前回値を維持。 2026-11-13 light: 公式 http:// はcurlで取得でき、貸館企画（Re-SHINBISM 3、安曇野AIR）を確認。休館日 11/9・11/16・11/24。",
   "confidence": "medium"
 }

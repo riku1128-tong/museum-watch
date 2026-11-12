@@ -1,6 +1,6 @@
 {
   "id": "Q3330163",
-  "checked_at": "2026-11-07T17:10:00+09:00",
+  "checked_at": "2026-11-13T07:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -61,17 +61,6 @@
       "recommend": "ヒマラヤを源とする大河とインド洋に開かれた南アジアを題材に、国・宗教・歴史的対立の奥を流れる見えない水脈を現代アーティストの作品で探る。多彩な表現と問いかけが重なる見応えある展覧会。",
       "admission": "一般1,000円（第2部アジアギャラリーのみ200円）",
       "adult_price": 1000
-    },
-    {
-      "title": "キルトショップANNE  パッチワーク作品展",
-      "start": "2026-11-05",
-      "end": "2026-11-10",
-      "url": "https://faam.city.fukuoka.lg.jp/exhibition/27770/",
-      "kind": "other",
-      "summary": "交流ギャラリー（8階）でのパッチワーク作品展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
     },
     {
       "title": "渓雪　墨の世界　with students",

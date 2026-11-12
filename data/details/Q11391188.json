@@ -1,6 +1,6 @@
 {
   "id": "Q11391188",
-  "checked_at": "2026-11-07T16:50:00+09:00",
+  "checked_at": "2026-11-13T07:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -12,11 +12,16 @@
     "https://hachinohe-art-museum.jp/exhibition/7048",
     "https://hachinohe-art-museum.jp/exhibition/7150",
     "https://hachinohe-art-museum.jp/exhibition/7510",
+    "https://hachinohe-art-museum.jp/exhibition/7528",
     "https://hachinohe-art-museum.jp/exhibition/7555",
     "https://hachinohe-art-museum.jp/exhibition/7590",
     "https://hachinohe-art-museum.jp/exhibition/7592",
     "https://hachinohe-art-museum.jp/exhibition/7594",
     "https://hachinohe-art-museum.jp/exhibition/7634",
+    "https://hachinohe-art-museum.jp/exhibition/7635",
+    "https://hachinohe-art-museum.jp/exhibition/7636",
+    "https://hachinohe-art-museum.jp/exhibition/7752",
+    "https://hachinohe-art-museum.jp/news/",
     "https://hachinohe-art-museum.jp/news/1614",
     "https://hachinohe-art-museum.jp/visitor/"
   ],
@@ -98,17 +103,6 @@
       "adult_price": 0
     },
     {
-      "title": "季心書道展",
-      "start": "2026-11-06",
-      "end": "2026-11-08",
-      "url": "https://hachinohe-art-museum.jp/exhibition/7590",
-      "kind": "other",
-      "summary": "書道展（3日間）",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
       "title": "八戸市鷗盟大学総合美術展",
       "start": "2026-11-14",
       "end": "2026-11-15",
@@ -184,6 +178,50 @@
       "recommend": "「沈黙の画家」と呼ばれた昆野清一が生涯をかけて完成させた360m超の壮大な画巻を、八戸の地で展示。戦争の深い傷と向き合い続けた画家の精神性と圧倒的なスケールが迫る。",
       "admission": "有料（料金未確認）",
       "adult_price": null
+    },
+    {
+      "title": "コレクションラボ015 馬カケル",
+      "start": "2026-11-21",
+      "end": "2027-02-21",
+      "url": "https://hachinohe-art-museum.jp/exhibition/7752",
+      "kind": "collection",
+      "summary": "南部地方の馬産地としての歴史と文化を、馬を主題とした収蔵作品でたどる",
+      "recommend": "古くから馬産地として知られる南部地方ならではの視点で、馬を描いた収蔵作品を通して暮らしや信仰とのつながりを見つめるコレクション展。無料で観覧できる。",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "明るい選挙啓発ポスターコンクール入賞作品展",
+      "start": "2026-12-02",
+      "end": "2026-12-07",
+      "url": "https://hachinohe-art-museum.jp/exhibition/7635",
+      "kind": "other",
+      "summary": "ポスターコンクール入賞作品展（6日間）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "後村弘樹　作陶展",
+      "start": "2026-12-03",
+      "end": "2026-12-06",
+      "url": "https://hachinohe-art-museum.jp/exhibition/7636",
+      "kind": "other",
+      "summary": "陶芸家・後村弘樹の作陶展（4日間）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "受講生による第23回写真展『Step by Step』",
+      "start": "2026-12-11",
+      "end": "2026-12-13",
+      "url": "https://hachinohe-art-museum.jp/exhibition/7528",
+      "kind": "other",
+      "summary": "受講生による写真展（3日間）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
     }
   ],
   "adult_price": 0,
@@ -198,6 +236,6 @@
   ],
   "highlights": "2021年開館の「アートファーム」をコンセプトにした美術館。可動間仕切りで自在に使えるジャイアントルーム（834㎡）を核に、八戸ゆかりの作品約3,000点を収蔵。展覧会だけでなく市民参加のプロジェクト活動も重視し、地域と一体になった創造空間を作る。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は火曜日（祝日の場合は開館し翌平日休館。公式の例外: 11/3開館・11/4休館）、年末年始（12/29〜1/1）。12/28と1/2〜3は17時閉館。コレクションラボ014は無料。高文祭は書道（10/23〜25）・美術（10/30〜11/1）の2部構成。季心書道展は会期（11/5〜8）と時間欄（11/6〜8）が食い違うため会期欄を採用。 2026-11-07 full巡回: 終了した高文祭・MOA児童作品展・中学校総合文化祭を削除、鷗盟大学総合美術展・黒潮書道展を追加。季心書道展は公式の会期11/6〜8に修正。臨時休館は公式の年間スケジュールどおり（11/4、12/30〜1/1など）。",
+  "notes": "休館日は火曜日（祝日の場合は開館し翌平日休館。公式の例外: 11/3開館・11/4休館）、年末年始（12/29〜1/1）。12/28と1/2〜3は17時閉館。コレクションラボ014は無料。高文祭は書道（10/23〜25）・美術（10/30〜11/1）の2部構成。季心書道展は会期（11/5〜8）と時間欄（11/6〜8）が食い違うため会期欄を採用。 2026-11-07 full巡回: 終了した高文祭・MOA児童作品展・中学校総合文化祭を削除、鷗盟大学総合美術展・黒潮書道展を追加。季心書道展は公式の会期11/6〜8に修正。臨時休館は公式の年間スケジュールどおり（11/4、12/30〜1/1など）。 2026-11-13 full: 終了した季心書道展を削除、コレクションラボ015・12月の一般企画3件を追加。お知らせに新たな時間変更・臨時休館なし。",
   "confidence": "high"
 }

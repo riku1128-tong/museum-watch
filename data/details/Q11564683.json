@@ -1,6 +1,6 @@
 {
   "id": "Q11564683",
-  "checked_at": "2026-11-07T16:55:00+09:00",
+  "checked_at": "2026-11-13T07:30:54+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -106,6 +106,17 @@
       "url": "https://www.shigamuseum.jp/exhibitions/12978/",
       "kind": "special",
       "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第80回滋賀県美術展覧会",
+      "start": "2026-12-09",
+      "end": "2026-12-16",
+      "url": "https://www.shigamuseum.jp/",
+      "kind": "special",
+      "summary": "滋賀県美術展覧会（県展）",
       "recommend": null,
       "admission": null,
       "adult_price": null

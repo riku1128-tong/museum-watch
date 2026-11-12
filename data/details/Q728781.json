@@ -1,6 +1,6 @@
 {
   "id": "Q728781",
-  "checked_at": "2026-11-07T16:55:00+09:00",
+  "checked_at": "2026-11-13T07:35:49+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -57,11 +57,6 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {
-      "from": "2026-11-04",
-      "to": "2026-11-05",
-      "reason": "展示替え（前期・後期）"
-    },
     {
       "from": "2026-11-24",
       "to": "2026-11-24",

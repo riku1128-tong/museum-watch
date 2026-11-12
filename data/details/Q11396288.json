@@ -1,17 +1,15 @@
 {
   "id": "Q11396288",
-  "checked_at": "2026-11-07T17:00:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-13T07:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.kariya.lg.jp/museum/",
   "address": "〒448-0852 愛知県刈谷市住吉町4丁目5番地",
   "source_urls": [
     "https://www.city.kariya.lg.jp/museum/",
-    "https://www.city.kariya.lg.jp/museum/exhibition/",
-    "https://www.city.kariya.lg.jp/museum/exhibition/schedule/index.html",
-    "https://www.city.kariya.lg.jp/museum/exhibition/schedule/1022984.html",
-    "https://www.museum.or.jp/museum/4681"
+    "https://www.city.kariya.lg.jp/museum/exhibition/schedule/1023441.html",
+    "https://www.city.kariya.lg.jp/museum/information/1001211.html"
   ],
   "regular_hours": [
     {
@@ -36,45 +34,31 @@
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
     {
-      "from": "2026-12-29",
+      "from": "2026-11-24",
+      "to": "2026-11-24",
+      "reason": "休館日（祝日の翌日）"
+    },
+    {
+      "from": "2026-12-15",
       "to": "2027-01-03",
-      "reason": "年末年始休館"
+      "reason": "展示替え・年末年始休館"
+    },
+    {
+      "from": "2027-01-12",
+      "to": "2027-01-12",
+      "reason": "休館日（祝日の翌日）"
     }
   ],
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "せなけいこ展　その全仕事",
-      "start": "2026-09-12",
-      "end": "2026-11-08",
-      "url": "https://www.city.kariya.lg.jp/museum/exhibition/schedule/1022984.html",
-      "kind": "special",
-      "summary": "絵本作家せなけいこ（1931-2024）の創作活動を網羅した約400点の大規模回顧展",
-      "recommend": "「ねないこだれだ」「めがねうさぎ」で知られる貼り絵の第一人者・せなけいこの、デビュー前の挿絵から晩年の作品まで網羅した約400点を展示。絵本世界を体感できる演出も用意され、子どもから大人まで楽しめる没後初の大規模個展。",
-      "admission": "一般 1,200円",
-      "adult_price": 1200,
-      "hours": [
-        {
-          "days": [
-            "fri"
-          ],
-          "open": "09:00",
-          "close": "19:00",
-          "from": "2026-10-31",
-          "to": "2026-10-31"
-        }
-      ],
-      "closed_weekdays": [],
-      "closed_dates": []
-    },
-    {
       "title": "没後10年　奇想天外！ 井上洋介展",
       "start": "2026-11-13",
       "end": "2027-01-17",
-      "url": "https://www.city.kariya.lg.jp/museum/exhibition/schedule/index.html",
+      "url": "https://www.city.kariya.lg.jp/museum/exhibition/schedule/1023441.html",
       "kind": "special",
-      "summary": "漫画家・画家・絵本作家 井上洋介（1931-2016）の没後10年回顧展",
-      "recommend": "前衛的な漫画や絵画から『くまの子ウーフ』などの絵本まで幅広く活躍した井上洋介の仕事を、当館所蔵の1,000点超から選りすぐって辿る。独創的で奇想天外な作風に出会える展示。",
+      "summary": "漫画家・画家・絵本作家 井上洋介（1931-2016）の没後10年回顧展。所蔵1,000点超から選出",
+      "recommend": "『くまの子ウーフ』の挿絵や自作絵本、1960年代の漫画原画、前衛演劇の美術や絵画まで、約70点で多彩な活動を辿る。モノクロ線の漫画に漂う飄々としたユーモアも見どころ。",
       "admission": "無料",
       "adult_price": 0,
       "closed_weekdays": [],
@@ -95,6 +79,6 @@
   ],
   "highlights": "1983年開館の愛知・刈谷市立美術館。愛知ゆかりの作家の近・現代美術と絵本原画・グラフィックデザインを幅広く収蔵し、年3回ほど企画展を開催。コレクション展（常設）は無料で観覧でき、刈谷駅から徒歩10分。敷地内の茶室「佐喜知庵」では抹茶体験も楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "月曜が祝日の場合は翌平日が振替休館。展示替え日・館内整備日も休館あり（休館日カレンダーで要確認）。 【2026-10-30】井上洋介展の観覧料は公式の展覧会予定ページに「無料」と記載。 2026-11-07 light: トップに臨時休館・時間変更の告知なし。せなけいこ展は11/8まで、井上洋介展は11/13開始のまま。",
+  "notes": "月曜が祝日の場合は翌平日が振替休館（祝日の翌日休館）。展示替え日・館内整備日も休館あり。2026-11-13 full: 井上洋介展（11/13〜1/17、入場無料）の休館日は 11/24、12/15〜1/3、1/12（11/23・1/11の月曜は開館）。せなけいこ展は終了。",
   "confidence": "high"
 }

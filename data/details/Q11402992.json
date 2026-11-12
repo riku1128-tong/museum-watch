@@ -1,7 +1,7 @@
 {
   "id": "Q11402992",
-  "checked_at": "2026-11-07T16:55:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-13T07:31:46+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": null,
@@ -12,7 +12,9 @@
     "https://artmuseum.pref.hokkaido.lg.jp/knb/access",
     "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition",
     "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/330",
-    "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/333"
+    "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/333",
+    "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/335",
+    "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/332"
   ],
   "regular_hours": [
     {
@@ -42,12 +44,7 @@
       "reason": "年末年始"
     }
   ],
-  "special_openings": [
-    {
-      "date": "2026-11-02",
-      "note": "芸術週間のため月曜日も開館"
-    }
-  ],
+  "special_openings": [],
   "exhibitions": [
     {
       "title": "わたしのつくりかた",
@@ -59,17 +56,6 @@
       "recommend": "障がいのあるアーティストの創造力豊かな作品と北海道の美術館コレクションを並置し、制作のプロセスや内面性に迫る展示。固定概念を超えた造形の奥深さを体感できる機会。",
       "admission": "一般 510円",
       "adult_price": 510
-    },
-    {
-      "title": "MINIATURE LIFE展2 田中達也 見立ての世界",
-      "start": "2026-09-12",
-      "end": "2026-11-08",
-      "url": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/333",
-      "kind": "special",
-      "summary": "ミニチュア写真家・田中達也が日用品と人形で作るジオラマアートの世界を写真・立体作品約180点で紹介",
-      "recommend": "日常の小物がまったく別の場面に変わる「見立て」の発想はユーモアにあふれ、大人も子どもも楽しめる。写真作品と実際の立体ジオラマを間近で見比べられる構成が特徴。",
-      "admission": "一般 1,500円",
-      "adult_price": 1500
     },
     {
       "title": "道展創立100周年記念企画展 − 時を紡ぎ 今を創る",
@@ -97,12 +83,12 @@
       "title": "新道展70周年記念展 −継承する自由な表現",
       "start": "2026-12-10",
       "end": "2026-12-17",
-      "url": null,
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/335",
       "kind": "special",
       "summary": "新道展創立70周年を記念した展覧会",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "一般 600円（大学生以下無料）",
+      "adult_price": 600
     },
     {
       "title": "文字とアート －ポップ・アートから書まで",
@@ -128,15 +114,7 @@
     }
   ],
   "adult_price": 510,
-  "free_days": [
-    {
-      "from": "2026-11-01",
-      "to": "2026-11-07",
-      "scope": "all",
-      "reason": "北海道芸術週間（全員無料）",
-      "source_url": "https://artmuseum.pref.hokkaido.lg.jp/knb/guide/about"
-    }
-  ],
+  "free_days": [],
   "free_rules": [],
   "access": [
     {

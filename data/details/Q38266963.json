@@ -1,7 +1,7 @@
 {
   "id": "Q38266963",
-  "checked_at": "2026-11-07T17:12:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-13T07:45:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://manga-museum.com/",
@@ -9,7 +9,9 @@
   "source_urls": [
     "https://manga-museum.com/",
     "https://manga-museum.com/access/",
-    "https://manga-museum.com/2026-2027/"
+    "https://manga-museum.com/userguide-2020/",
+    "https://manga-museum.com/shigenoshuichi-exhibition",
+    "https://manga-museum.com/2026-10mini/"
   ],
   "regular_hours": [
     {
@@ -48,26 +50,15 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "高橋よしひろ自薦原画展",
-      "start": "2026-09-19",
-      "end": "2026-11-08",
-      "url": "https://manga-museum.com/takahashi-yoshihiro-jisen/",
-      "kind": "special",
-      "summary": "『銀牙』などの作家・高橋よしひろが自ら選んだ原画を展示",
-      "recommend": "漫画家自身が選び抜いた原画を展示する自薦展。代表作『銀牙－流れ星 銀－』などの力強いタッチが間近で楽しめる貴重な機会。",
-      "admission": null,
-      "adult_price": null
-    },
-    {
       "title": "しげの秀一原画展～峠から未来へ～",
       "start": "2026-10-24",
       "end": "2026-12-27",
       "url": "https://manga-museum.com/shigenoshuichi-exhibition",
       "kind": "special",
-      "summary": "『頭文字D』『MFゴースト』などで知られるしげの秀一の原画展",
-      "recommend": "『頭文字D』で峠バトルを描き続けた作者の原画を一堂に。迫力あるレース描写の線の緻密さや躍動感を肉眼で堪能できる。",
-      "admission": null,
-      "adult_price": null
+      "summary": "『頭文字D』『MFゴースト』『昴と彗星』の3作品を中心にしげの秀一の原画を展示",
+      "recommend": "公道最速を描く3作品を軸に、約30年にわたる作者の歩みをたどる原画展。迫力あるレース描写の線の緻密さを間近で見られる。",
+      "admission": "大人 1,500円",
+      "adult_price": 1500
     },
     {
       "title": "マンガで知る、きもち展",
@@ -75,15 +66,15 @@
       "end": "2027-01-18",
       "url": "https://manga-museum.com/2026-10mini/",
       "kind": "special",
-      "summary": "マンガを通して登場人物の気持ちを知る企画展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null,
+      "summary": "マンガの「気持ちを表す言葉」に着目し、複製原画とともに言葉の意味も学ぶ",
+      "recommend": "矢口高雄・高橋よしひろ・倉田よしみの複製原画で、喜怒哀楽の表現に注目。言葉の意味も学べるので、親子でマンガの読み方を深められる。",
+      "admission": "無料",
+      "adult_price": 0,
       "closed_weekdays": [],
       "closed_dates": []
     }
   ],
-  "adult_price": 1000,
+  "adult_price": 0,
   "free_days": [],
   "free_rules": [],
   "access": [
@@ -104,6 +95,6 @@
   ],
   "highlights": "日本最大規模の漫画原画の常設展示館。秋田ゆかりの漫画家を中心に約500人分、約94,000枚の原画を保管・展示する。増田の蔵の町並みに建つ外観も印象的で、企画展では各作家が自ら選んだ作品を間近に楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "常設展は無料。企画展（特別展）は大人1,000円、中学生500円、小学生300円。 2026-10-30: 次回休館日は11/17（第3火曜）。変更なし。 2026-11-07: 年末年始は12/31・1/1が休館、12/29・12/30・1/2以降は通常開館（公式お知らせ 11/4）。次回休館日11/17。",
+  "notes": "常設展は無料。企画展（特別展）は大人1,000円、中学生500円、小学生300円。 2026-10-30: 次回休館日は11/17（第3火曜）。変更なし。 2026-11-07: 年末年始は12/31・1/1が休館、12/29・12/30・1/2以降は通常開館（公式お知らせ 11/4）。次回休館日11/17。 2026-11-13 full: 高橋よしひろ自薦原画展は11/8終了のため削除。常設展は大人無料（特別企画展は有料、しげの秀一展は大人1,500円）。休館は第3火曜（祝日の場合は翌平日）、次回11/17・12/15。",
   "confidence": "high"
 }

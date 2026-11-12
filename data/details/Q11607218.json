@@ -1,7 +1,7 @@
 {
   "id": "Q11607218",
-  "checked_at": "2026-11-07T17:25:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-13T07:35:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.abashiri.hokkaido.jp/site/artmuseum/",
@@ -36,14 +36,7 @@
       "reason": "年末年始"
     }
   ],
-  "special_openings": [
-    {
-      "date": "2026-11-03",
-      "open": "10:00",
-      "close": "16:00",
-      "note": "祝日だが臨時開館"
-    }
-  ],
+  "special_openings": [],
   "exhibitions": [
     {
       "title": "美術館コレクション展",
@@ -64,17 +57,6 @@
       "recommend": null,
       "admission": null,
       "adult_price": null
-    },
-    {
-      "title": "松浦 進 展",
-      "start": "2026-10-03",
-      "end": "2026-11-08",
-      "url": "https://www.city.abashiri.hokkaido.jp/site/artmuseum/23967.html",
-      "kind": "special",
-      "summary": "版画家・松浦進の作品展",
-      "recommend": null,
-      "admission": "高校生以上 500円",
-      "adult_price": 500
     },
     {
       "title": "第73回写真道展 網走移動展",

@@ -1,71 +1,71 @@
 {
-  "id": "Q17230147",
-  "checked_at": "2026-11-07T17:08:00+09:00",
-  "check_mode": "light",
-  "operating_status": "operating",
-  "status_note": null,
-  "official_url": "http://www.furutaoribe-museum.com/",
-  "address": "〒603-8054 京都市北区上賀茂桜井町107-2 B1",
-  "source_urls": [
-    "http://www.furutaoribe-museum.com/",
-    "https://www.museum.or.jp/museum/17611"
-  ],
-  "regular_hours": [
-    {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
-      "open": "09:30",
-      "close": "17:00",
-      "last_entry": "16:40"
-    }
-  ],
-  "closed_weekdays": [
-    "mon"
-  ],
-  "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [
-    {
-      "from": "2026-12-28",
-      "to": "2027-01-04",
-      "reason": "年末年始休館"
-    }
-  ],
-  "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "織部十作 ―古田織部と十人の陶工たち―",
-      "start": "2026-09-17",
-      "end": "2027-03-07",
-      "url": "http://furutaoribe-museum.com/exhibition.html",
-      "kind": "special",
-      "summary": "古田織部が指導した十人の陶工たちの作品と織部ゆかりの品を紹介する企画展",
-      "recommend": "戦国の武将・古田織部が傾倒した茶の湯文化と、彼が育てた十人の陶工それぞれの個性を作品で比較できる貴重な機会。「織部好み」と呼ばれる独特の美意識の源泉に迫る。",
-      "admission": "一般 500円",
-      "adult_price": 500
-    }
-  ],
-  "adult_price": 500,
-  "free_days": [],
-  "free_rules": [],
-  "access": [
-    {
-      "station": "北山",
-      "lines": "京都市営地下鉄烏丸線",
-      "exit": "4番出口",
-      "walk_min": 3,
-      "note": null
-    }
-  ],
-  "highlights": "戦国時代の武将・茶人、古田織部（1544〜1615）を専門に扱う日本唯一の美術館。地下1階の小ぶりな空間に、織部ゆかりの茶道具・陶芸品・古文書を収蔵・展示。「織部好み」と称される大胆な造形美の世界を、北山の地で体感できる。",
-  "closed_between_exhibitions": false,
-  "notes": "公式サイト（furutaoribe-museum.com）はSSL証明書エラーで直接読めず、museum.or.jp/event/124788 の展覧会ページ（秀吉と織部門下、会期9/13まで）に「9:30〜17:00（入館16:40まで）、月曜休館（祝翌日休館）」と明記されており、今回はその情報に更新。年末年始は12/28〜1/4に更新（WebSearch情報）。 2026-10-16: 公式サイトは証明書エラーのまま読めず、更新なし。 10/30: 公式サイトは証明書エラーで読めず。検索で開館時間・休館日(月曜・祝翌日、年末年始12/28〜1/4)を再確認、後続展覧会の情報は見つからず前回の値を維持。 11/7: curlでトップを読めた。展覧会（2026.9.17～2027.3.7 織部十作）は変更なし、新しい休館告知なし（年末年始2026-27は未告知で前回値を維持）。",
-  "confidence": "medium"
+ "id": "Q17230147",
+ "checked_at": "2026-11-13T07:50:00+09:00",
+ "check_mode": "light",
+ "operating_status": "operating",
+ "status_note": null,
+ "official_url": "http://www.furutaoribe-museum.com/",
+ "address": "〒603-8054 京都市北区上賀茂桜井町107-2 B1",
+ "source_urls": [
+  "http://www.furutaoribe-museum.com/",
+  "https://www.museum.or.jp/museum/17611"
+ ],
+ "regular_hours": [
+  {
+   "days": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun",
+    "holiday"
+   ],
+   "open": "09:30",
+   "close": "17:00",
+   "last_entry": "16:40"
+  }
+ ],
+ "closed_weekdays": [
+  "mon"
+ ],
+ "holiday_rule": "open_next_weekday_closed",
+ "special_closures": [
+  {
+   "from": "2026-12-28",
+   "to": "2027-01-04",
+   "reason": "年末年始休館"
+  }
+ ],
+ "special_openings": [],
+ "exhibitions": [
+  {
+   "title": "織部十作 ―古田織部と十人の陶工たち―",
+   "start": "2026-09-17",
+   "end": "2027-03-07",
+   "url": "http://furutaoribe-museum.com/exhibition.html",
+   "kind": "special",
+   "summary": "古田織部が指導した十人の陶工たちの作品と織部ゆかりの品を紹介する企画展",
+   "recommend": "戦国の武将・古田織部が傾倒した茶の湯文化と、彼が育てた十人の陶工それぞれの個性を作品で比較できる貴重な機会。「織部好み」と呼ばれる独特の美意識の源泉に迫る。",
+   "admission": "一般 500円",
+   "adult_price": 500
+  }
+ ],
+ "adult_price": 500,
+ "free_days": [],
+ "free_rules": [],
+ "access": [
+  {
+   "station": "北山",
+   "lines": "京都市営地下鉄烏丸線",
+   "exit": "4番出口",
+   "walk_min": 3,
+   "note": null
+  }
+ ],
+ "highlights": "戦国時代の武将・茶人、古田織部（1544〜1615）を専門に扱う日本唯一の美術館。地下1階の小ぶりな空間に、織部ゆかりの茶道具・陶芸品・古文書を収蔵・展示。「織部好み」と称される大胆な造形美の世界を、北山の地で体感できる。",
+ "closed_between_exhibitions": false,
+ "notes": "公式サイト（furutaoribe-museum.com）はSSL証明書エラーで直接読めず、museum.or.jp/event/124788 の展覧会ページ（秀吉と織部門下、会期9/13まで）に「9:30〜17:00（入館16:40まで）、月曜休館（祝翌日休館）」と明記されており、今回はその情報に更新。年末年始は12/28〜1/4に更新（WebSearch情報）。 2026-10-16: 公式サイトは証明書エラーのまま読めず、更新なし。 10/30: 公式サイトは証明書エラーで読めず。検索で開館時間・休館日(月曜・祝翌日、年末年始12/28〜1/4)を再確認、後続展覧会の情報は見つからず前回の値を維持。 11/7: curlでトップを読めた。展覧会（2026.9.17～2027.3.7 織部十作）は変更なし、新しい休館告知なし（年末年始2026-27は未告知で前回値を維持）。",
+ "confidence": "medium"
 }

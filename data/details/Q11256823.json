@@ -1,6 +1,6 @@
 {
   "id": "Q11256823",
-  "checked_at": "2026-11-07T16:50:00+09:00",
+  "checked_at": "2026-11-13T07:31:32+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -11,7 +11,8 @@
     "https://apmoa.museum/facilities/",
     "https://apmoa.museum/facilities/ticket/",
     "https://apmoa.museum/exhibition/",
-    "https://apmoa.museum/exhibition/bigelow"
+    "https://apmoa.museum/exhibition/bigelow",
+    "https://apmoa.museum/news/aichiweek2026"
   ],
   "regular_hours": [
     {
@@ -48,7 +49,14 @@
       "reason": "年末年始休館"
     }
   ],
-  "special_openings": [],
+  "special_openings": [
+    {
+      "date": "2026-11-24",
+      "open": "10:00",
+      "close": "17:00",
+      "note": "あいちウィーク中の臨時開館"
+    }
+  ],
   "exhibitions": [
     {
       "title": "ビゲロー　幻のコレクションと近代日本画の夜明け──日本美術に魅せられたボストン人──",
@@ -74,7 +82,15 @@
     }
   ],
   "adult_price": 500,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-21",
+      "to": "2026-11-27",
+      "scope": "collection",
+      "reason": "あいちウィーク（コレクション展無料開放。ビゲロー展は対象外）",
+      "source_url": "https://apmoa.museum/news/aichiweek2026"
+    }
+  ],
   "free_rules": [],
   "access": [
     {

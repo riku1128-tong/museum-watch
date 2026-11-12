@@ -1,7 +1,7 @@
 {
   "id": "wp-195f15bb",
-  "checked_at": "2026-11-07T16:55:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-13T07:40:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.okutamas.co.jp/seseragi/",
@@ -98,6 +98,16 @@
       "recommend": null,
       "admission": "入場無料",
       "adult_price": 0
+    },
+    {
+      "title": "子どもたちの表現展",
+      "start": "2027-02-11",
+      "end": "2027-02-28",
+      "url": "https://www.okutamas.co.jp/seseragi/exhibition/",
+      "kind": "special",
+      "summary": "子どもたちによる作品の展覧会",
+      "recommend": null,
+      "admission": null
     }
   ],
   "closed_between_exhibitions": false,

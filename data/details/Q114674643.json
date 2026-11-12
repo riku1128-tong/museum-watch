@@ -1,6 +1,6 @@
 {
   "id": "Q114674643",
-  "checked_at": "2026-11-07T17:20:00+09:00",
+  "checked_at": "2026-11-13T07:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -65,6 +65,6 @@
   ],
   "highlights": "藤田嗣治の作品だけを展示する、自宅のような美術館。現在は生誕140周年企画としてニューヨーク時代の作品を紹介している。",
   "closed_between_exhibitions": false,
-  "notes": "毎週の定休日についての明確な記載が見つからず、closed_weekdays は空、holiday_rule は unknown とした（要再確認）。休館日として明記されているのは「12月31日、1月1日」「冬季メンテナンス期間（1月または2月、日付未定）」「展示替え期間中（日付未定）」。冬季メンテナンス・展示替えは具体的日付が読めなかったため special_closures には入れていない。常設展はなく企画展のみのため adult_price（館共通）は null、展覧会ごとの当日一般料金2,600円を exhibitions の adult_price に入れた。",
+  "notes": "毎週の定休日についての明確な記載が見つからず、closed_weekdays は空、holiday_rule は unknown とした（要再確認）。休館日として明記されているのは「12月31日、1月1日」「冬季メンテナンス期間（1月または2月、日付未定）」「展示替え期間中（日付未定）」。冬季メンテナンス・展示替えは具体的日付が読めなかったため special_closures には入れていない。常設展はなく企画展のみのため adult_price（館共通）は null、展覧会ごとの当日一般料金2,600円を exhibitions の adult_price に入れた。 2026-11-13 light: トップを確認、変更なし。",
   "confidence": "medium"
 }

@@ -1,18 +1,21 @@
 {
   "id": "Q11609688",
-  "checked_at": "2026-11-07T16:55:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-13T07:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://mmag.pref.gunma.jp/",
   "address": "〒370-1293 群馬県高崎市綿貫町992-1 群馬の森公園内",
   "source_urls": [
     "https://mmag.pref.gunma.jp/",
+    "https://mmag.pref.gunma.jp/access",
     "https://mmag.pref.gunma.jp/exhibition",
-    "https://mmag.pref.gunma.jp/exhibition/exhibition-7201",
     "https://mmag.pref.gunma.jp/exhibition/exhibition-7187",
     "https://mmag.pref.gunma.jp/exhibition/exhibition-7189",
-    "https://mmag.pref.gunma.jp/exhibition/exhibition-7218"
+    "https://mmag.pref.gunma.jp/exhibition/exhibition-7201",
+    "https://mmag.pref.gunma.jp/exhibition/exhibition-7218",
+    "https://mmag.pref.gunma.jp/exhibition/exhibition-7818",
+    "https://mmag.pref.gunma.jp/price"
   ],
   "regular_hours": [
     {
@@ -50,50 +53,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "孤高の彫刻家 村山琴泉",
-      "start": "2026-09-19",
-      "end": "2026-11-08",
-      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7201",
-      "kind": "special",
-      "summary": "前橋出身の彫刻家・村山琴泉(1885-1967)の木彫を紹介する初の回顧展",
-      "recommend": "団体展から離れ独自の道を歩んだ木彫家の仕事を、美術館で初めてまとまった形で紹介。兵役を経て木彫に専念した作家の、静かで力強い作品世界にふれられる。",
-      "admission": "一般300円、大高生150円",
-      "adult_price": 300
-    },
-    {
-      "title": "コレクション展示：日本と西洋の近代美術Ⅰ",
-      "start": "2026-09-19",
-      "end": "2026-11-08",
-      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7191",
-      "kind": "collection",
-      "summary": "群馬県立近代美術館コレクションから日本と西洋の近代美術を紹介するコレクション展示",
-      "recommend": null,
-      "admission": "一般 300円",
-      "adult_price": 300
-    },
-    {
-      "title": "コレクション展示：新収蔵作品紹介",
-      "start": "2026-09-19",
-      "end": "2026-11-08",
-      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7198",
-      "kind": "collection",
-      "summary": "新たに収蔵した作品を紹介するコレクション展示",
-      "recommend": null,
-      "admission": "一般 300円",
-      "adult_price": 300
-    },
-    {
-      "title": "コレクション展示：戸方庵井上コレクションの粋Ⅱ",
-      "start": "2026-10-14",
-      "end": "2026-11-08",
-      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7189",
-      "kind": "collection",
-      "summary": "戸方庵井上コレクションから選りすぐった近代美術・茶道具を紹介するコレクション展示（第Ⅱ期）",
-      "recommend": null,
-      "admission": "一般 300円",
-      "adult_price": 300
-    },
-    {
       "title": "第77回群馬県美術展覧会（県展 美術）",
       "start": "2026-11-20",
       "end": "2026-11-29",
@@ -103,6 +62,24 @@
       "recommend": null,
       "admission": null,
       "adult_price": null
+    },
+    {
+      "title": "県民芸術祭50周年記念事業「山﨑種二記念特別賞特別展」",
+      "start": "2026-11-20",
+      "end": "2026-12-15",
+      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7818",
+      "kind": "special",
+      "summary": "群馬県展の最高賞・山﨑種二記念特別賞の歴代受賞作品を紹介（Ⅰ期 美術・写真、Ⅱ期 書道・写真）",
+      "recommend": "県展の最高賞ともいわれる山﨑種二記念特別賞の歴代受賞作が一堂に並ぶ。期間中は華道協会によるいけばなのパフォーマンスや茶席もあり、県の文化芸術の歩みを味わえる。",
+      "admission": "無料",
+      "adult_price": 0,
+      "closed_dates": [
+        "2026-12-01",
+        "2026-12-02",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-10"
+      ]
     },
     {
       "title": "コレクション展示：日本と西洋の近代美術Ⅱ",
@@ -138,23 +115,23 @@
       "adult_price": null
     },
     {
-      "title": "コレクション展示：日本と西洋の近代美術Ⅲ",
-      "start": "2026-12-22",
-      "end": "2027-04-04",
-      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7203",
-      "kind": "collection",
-      "summary": "群馬県立近代美術館コレクションから日本と西洋の近代美術を紹介するコレクション展示（第Ⅲ期）",
-      "recommend": null,
-      "admission": "一般 300円",
-      "adult_price": 300
-    },
-    {
       "title": "コレクション展示：情景・冬から春へ",
       "start": "2026-12-22",
       "end": "2027-02-28",
       "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7236",
       "kind": "collection",
       "summary": "群馬県立近代美術館コレクションから冬から春の情景を描いた作品を選んで紹介するコレクション展示",
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300
+    },
+    {
+      "title": "コレクション展示：日本と西洋の近代美術Ⅲ",
+      "start": "2026-12-22",
+      "end": "2027-04-04",
+      "url": "https://mmag.pref.gunma.jp/exhibition/exhibition-7203",
+      "kind": "collection",
+      "summary": "群馬県立近代美術館コレクションから日本と西洋の近代美術を紹介するコレクション展示（第Ⅲ期）",
       "recommend": null,
       "admission": "一般 300円",
       "adult_price": 300
@@ -173,6 +150,6 @@
   ],
   "highlights": "群馬の森公園内にあり、緑豊かな敷地でブールデルなどの野外彫刻も楽しめる。地元ゆかりの作家を含む近代・現代美術のコレクションを、企画展とあわせてゆったり鑑賞できる。",
   "closed_between_exhibitions": false,
-  "notes": "2025年12月17日から設備更新工事のため休館していたが、2026年9月19日に再開(9月18日までの休館は終了済みのため special_closures には残していない)。祝日で月曜休館となる場合は翌火曜休館だが、ゴールデンウィーク・お盆期間は月曜も開館する例外がある(スキーマの holiday_rule では表現できないため notes に記載)。 2026-11-07 light: 公式の休館日表記で12/28〜1/4の年末年始休館を追加。県民の日(10/28)の無料日は終了のため削除。",
+  "notes": "2025年12月17日から設備更新工事のため休館していたが、2026年9月19日に再開(9月18日までの休館は終了済みのため special_closures には残していない)。祝日で月曜休館となる場合は翌火曜休館だが、ゴールデンウィーク・お盆期間は月曜も開館する例外がある(スキーマの holiday_rule では表現できないため notes に記載)。 2026-11-07 light: 公式の休館日表記で12/28〜1/4の年末年始休館を追加。県民の日(10/28)の無料日は終了のため削除。 2026-11-13 full: 終了した展示を削除し「山﨑種二記念特別賞特別展」を追加。トップに開館時間の記載なく通常時間は前回値を維持。県民の日(10/28)は無料（次回は会期外）。",
   "confidence": "high"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q18700337",
-  "checked_at": "2026-11-07T17:10:00+09:00",
+  "checked_at": "2026-11-13T07:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -51,7 +51,7 @@
     }
   ],
   "closed_between_exhibitions": false,
-  "notes": "休館日は水曜日。9/23（水・祝）は開場し、翌9/24（木）が休場となる例が確認できたため holiday_rule は open_next_weekday_closed とした。年末年始休館の記載は検索・お知らせページで見当たらず未確認（次回確認）。観覧料は展覧会ごとに異なり常設のコレクション展示は確認できなかったため adult_price は null。「廣瀬智央《19の空》」（10/24）はまちなかの地域アートプロジェクトで館内展示か未確認のため exhibitions には含めていない。",
+  "notes": "休館日は水曜日。9/23（水・祝）は開場し、翌9/24（木）が休場となる例が確認できたため holiday_rule は open_next_weekday_closed とした。年末年始休館の記載は検索・お知らせページで見当たらず未確認（次回確認）。観覧料は展覧会ごとに異なり常設のコレクション展示は確認できなかったため adult_price は null。「廣瀬智央《19の空》」（10/24）はまちなかの地域アートプロジェクトで館内展示か未確認のため exhibitions には含めていない。 2026-11-13 light: 変更なし。",
   "confidence": "medium",
   "adult_price": null,
   "access": [

@@ -1,6 +1,6 @@
 {
   "id": "Q11503129",
-  "checked_at": "2026-11-07T16:55:00+09:00",
+  "checked_at": "2026-11-13T07:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -85,6 +85,6 @@
   ],
   "highlights": "JR長岡駅からバスで20分ほどの緑豊かな場所に建つ新潟県を代表する近現代美術館。明治以降の日本・西洋絵画や版画・彫刻など約6,400点を収蔵し、地域ゆかりの作家から国際的な巨匠まで幅広い企画展とコレクション展を年間通じて開催する。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイトURL は museums.json の https://kinbi.pref.niigata.jp/ が誤りで、正しくは https://kinbi.pref.niigata.lg.jp/ のため official_url で上書き。年末年始・展示替え期間も休館（具体的な日付は年間スケジュールで公開）。 2026-11-07 light: 変更なし。",
+  "notes": "公式サイトURL は museums.json の https://kinbi.pref.niigata.jp/ が誤りで、正しくは https://kinbi.pref.niigata.lg.jp/ のため official_url で上書き。年末年始・展示替え期間も休館（具体的な日付は年間スケジュールで公開）。 2026-11-07 light: 変更なし。 2026-11-13 light: 変更なし。次の企画展(松岡達英の科学絵本 2027/3/6〜)は3か月先より後のため未登録。",
   "confidence": "high"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q25045409",
-  "checked_at": "2026-11-07T17:00:00+09:00",
+  "checked_at": "2026-11-13T07:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -57,6 +57,17 @@
       "kind": "special",
       "summary": "館蔵の薩摩焼から、繊細な小品約60点を紹介（本館第7展示室）",
       "recommend": "豪華で大振りな薩摩焼とは対照的な、手のひらサイズの繊細な小品約60点を集める。4年ぶりの小品展で、細やかな絵付けや造形を間近に楽しめる。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "冬の企画展 コダマリ展 こだまりのものがたり",
+      "start": "2026-12-12",
+      "end": "2027-02-01",
+      "url": "https://ngp.jp/nagashima-museum/entry2.html",
+      "kind": "special",
+      "summary": "鹿児島市在住の画家・絵本作家コダマリの作品展",
+      "recommend": "尊くも儚い生命をテーマに、繊細なペンと水彩のにじみで描かれた物語性のある作品を紹介する。絵本作家としても活躍するコダマリの世界を、本館第7展示室でじっくり味わえる。",
       "admission": "一般 1,000円",
       "adult_price": 1000
     }

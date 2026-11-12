@@ -1,15 +1,15 @@
 {
   "id": "Q11591489",
-  "checked_at": "2026-11-07T17:10:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-13T07:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://fukui-kenbi.pref.fukui.lg.jp/",
   "address": "〒910-0017 福井県福井市文京3丁目16-1",
   "source_urls": [
     "https://fukui-kenbi.pref.fukui.lg.jp/",
-    "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/",
-    "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/140",
+    "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/141",
+    "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/143",
     "https://fukui-kenbi.pref.fukui.lg.jp/collection/"
   ],
   "regular_hours": [
@@ -33,40 +33,16 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [],
-  "special_openings": [
-    {
-      "date": "2026-11-02",
-      "open": "09:00",
-      "close": "17:00",
-      "note": "ミッフィー展開催中につき月曜開館"
-    }
-  ],
+  "special_openings": [],
   "exhibitions": [
-    {
-      "title": "誕生70周年記念 ミッフィー展",
-      "start": "2026-09-19",
-      "end": "2026-11-08",
-      "url": "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/140",
-      "kind": "special",
-      "summary": "ディック・ブルーナによるミッフィーシリーズ全32作の原画・スケッチなど約200点。初来日の原画を含む",
-      "recommend": "誕生70周年を記念し、32冊全作品の原画やスケッチ約200点が集結。なかには日本初公開の原画も含まれ、ミッフィーが生まれた過程をブルーナ自身の筆跡から直接たどれる貴重な機会。",
-      "admission": "一般 1,500円",
-      "adult_price": 1500,
-      "closed_dates": [
-        "2026-09-28",
-        "2026-10-05",
-        "2026-10-19",
-        "2026-10-26"
-      ]
-    },
     {
       "title": "Hello Kitty展 ーわたしが変わるとキティも変わるー",
       "start": "2027-01-23",
       "end": "2027-03-22",
-      "url": null,
+      "url": "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/141",
       "kind": "special",
-      "summary": null,
-      "recommend": null,
+      "summary": "ハローキティ誕生50年をたどる展覧会。会期中無休",
+      "recommend": "「キティとわたし」の50年をテーマに、ファンとの関係性からキティの魅力を探る。史上最大量のグッズ展示やアーティストとのコラボ作品、映像、フォトスポットも楽しめる。",
       "admission": null,
       "adult_price": null
     }
@@ -95,6 +71,6 @@
   ],
   "highlights": "1977年開館。岡倉天心ゆかりの作家を核とした日本画、江戸初期の岩佐又兵衛作品、福井ゆかりの近現代美術、西洋美術など約3,400点（寄託品除く）を収蔵。コレクション展・テーマ展を常時開催し、年数回の特別企画展も実施。",
   "closed_between_exhibitions": false,
-  "notes": "特別企画展開催中は月曜日も開館（展示ページに記載された休館日を除く）。コレクション展・テーマ展の一般料金は100円。毎月第3日曜日（ファミリーデー）と2月7日（ふるさとの日）はコレクション展・テーマ展が無料。特別企画展の入館料は展覧会ごとに異なる。10/17（土）は一夜限定ナイトミュージアム開催（18:00〜20:00、定員40名、一般4,000円。通常開館は9:00〜17:00で変更なし）。 2026-11-07 light: 変化なし。",
+  "notes": "特別企画展開催中は月曜日も開館。コレクション展・テーマ展の一般料金は100円。毎月第3日曜日（ファミリーデー）と2月7日（ふるさとの日）はコレクション展・テーマ展が無料。特別企画展の入館料は展覧会ごとに異なる。2026-11-13 full: ミッフィー展終了。現在開催中の展示は掲載なし（次はHello Kitty展 2027-01-23〜）。次々回はコレクション展「ことば⇔え」2027-03-31〜04-25。",
   "confidence": "high"
 }

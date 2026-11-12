@@ -1,7 +1,7 @@
 {
   "id": "Q11190936",
-  "checked_at": "2026-11-07T17:00:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-13T07:50:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://bbpmuseum.jp/",
@@ -38,41 +38,30 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "上前智祐の自画道",
-      "start": "2026-09-15",
-      "end": "2026-11-08",
-      "url": "https://bbpmuseum.jp/exhibition/%e4%b8%8a%e5%89%8d%e6%99%ba%e7%a5%90%e3%81%ae%e8%87%aa%e7%94%bb%e9%81%93-2",
-      "kind": "special",
-      "summary": "具体美術協会の上前智祐。1975年からの「縫い」の作品に焦点",
-      "recommend": "具体美術協会に草創期から在籍した上前智祐が、1975年に始めた「縫い」の作品を軸に紹介。点や線が積み重なる色彩と質感を間近で味わえる。",
-      "admission": "一般 500円",
-      "adult_price": 500
-    },
-    {
       "title": "彩雅草 vol.21",
       "start": "2026-11-17",
       "end": "2026-11-22",
       "url": "https://bbpmuseum.jp/",
       "kind": "other",
-      "summary": "貸館展示",
+      "summary": "貸館展示（10:00〜18:00、初日13:00〜、最終日16:00まで）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "2026年秋 第48回「光彩会」絵画展",
+      "start": "2026-12-02",
+      "end": "2026-12-07",
+      "url": "https://bbpmuseum.jp/",
+      "kind": "other",
+      "summary": "貸館展示（10:00〜17:00、最終日16:00まで）",
       "recommend": null,
       "admission": null,
       "adult_price": null
     }
   ],
   "adult_price": 500,
-  "free_days": [
-    {
-      "from": "2026-11-01",
-      "to": "2026-11-01",
-      "scope": "partial",
-      "targets": [
-        "上前智祐"
-      ],
-      "reason": "11/1は入館無料",
-      "source_url": "https://bbpmuseum.jp/exhibition/%e4%b8%8a%e5%89%8d%e6%99%ba%e7%a5%90%e3%81%ae%e8%87%aa%e7%94%bb%e9%81%93-2"
-    }
-  ],
+  "free_days": [],
   "free_rules": [],
   "access": [
     {
@@ -99,6 +88,6 @@
   ],
   "highlights": "2009年7月、シマブンコーポレーション創業100周年を機に神戸・岩屋に開館した企画展型美術館。日本の近現代絵画とフランス絵画・版画・彫刻を核にしたコレクションを背景に、「暮らしの中にアートを」をコンセプトとした個性的な企画展を開催。阪神岩屋駅から徒歩1分の好アクセス。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日の場合は翌火曜日）。年末年始・展示替え期間も休館（日付は公式サイトに未記載）。11/1は「上前智祐の自画道」開催中につき入館無料（展覧会ページに記載）。",
+  "notes": "月曜休館（祝日の場合は翌火曜日）。年末年始・展示替え期間も休館（日付は公式サイトに未記載）。11/1は「上前智祐の自画道」開催中につき入館無料（展覧会ページに記載）。 2026-11-13確認: 公式トップの「展示案内」は「現在展示はありません」。次回は2027年コレクション展（2027-04-06開始）。",
   "confidence": "high"
 }

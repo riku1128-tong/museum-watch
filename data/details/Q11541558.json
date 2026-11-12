@@ -1,13 +1,15 @@
 {
   "id": "Q11541558",
-  "checked_at": "2026-10-30T06:40:00+09:00",
+  "checked_at": "2026-11-13T08:20:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": null,
   "address": "〒461-0001 愛知県名古屋市東区泉1-17-28",
   "source_urls": [
-    "https://ja.wikipedia.org/wiki/%E6%A5%BD%E5%8F%AA%E7%BE%8E%E8%A1%93%E9%A4%A8"
+    "https://ja.wikipedia.org/wiki/%E6%A5%BD%E5%8F%AA%E7%BE%8E%E8%A1%93%E9%A4%A8",
+    "https://nk.xtone.jp/archives/gakutada-museum.html",
+    "http://www.mc.ccnw.ne.jp/nagoya-taikan/rakusi.html"
   ],
   "regular_hours": [
     {
@@ -44,6 +46,6 @@
   ],
   "highlights": "茶道松尾流家元が寄贈した茶道具を中心に、江戸時代以降のこの地方ゆかりの美術工芸品を展示する専門美術館。1987年開館、一般財団法人松蔭会が運営。久屋大通公園そばの閑静な環境で時季ごとに企画展を開催している。",
   "closed_between_exhibitions": true,
-  "notes": "公式ウェブサイトが確認できず、情報源はWikipediaのみ。展示替期間は閉館。休館日の祝日扱いは不明。現在の展覧会情報は未確認。 2026-10-30 再確認: WebSearch でも公式サイト・最新情報は見つからず。",
-  "confidence": "medium"
+  "notes": "公式ウェブサイトが確認できず、情報源はWikipediaのみ。展示替期間は閉館。休館日の祝日扱いは不明。現在の展覧会情報は未確認。 2026-10-30 再確認: WebSearch でも公式サイト・最新情報は見つからず。 2026-11-13 再挑戦: 公式サイトは見つからず（松尾流のサイトも閉鎖）。観光サイトは 10〜16時・月曜と休日の翌日・展示替期間が休み・300円。名古屋茶道大鑑は「ほぼ休館、不定期に企画展」とあり、開館日は電話（052-961-3578）での確認が必要。展覧会は不明のため空のまま。",
+  "confidence": "low"
 }

@@ -1,15 +1,17 @@
 {
   "id": "Q147312",
-  "checked_at": "2026-11-07T16:55:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-13T06:20:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
-  "status_note": null,
+  "status_note": "仏像館は改修工事のため2026-09-14から令和10年（2028）春頃まで休館。青銅器館のみ開館（入館無料）",
   "official_url": "https://www.narahaku.go.jp",
   "address": "〒630-8213 奈良県奈良市登大路町50番地",
   "source_urls": [
-    "https://www.museum.or.jp/museum/5804",
-    "https://shosoin-ten.jp/info/ticket/",
-    "https://www.narahaku.go.jp/exhibition/usual/202609_butsuzo_selection/"
+    "https://www.narahaku.go.jp/info/fee/",
+    "https://www.narahaku.go.jp/exhibition/calendar/",
+    "https://www.narahaku.go.jp/exhibition_cat/usual/",
+    "https://www.narahaku.go.jp/exhibition/usual/202609_butsuzo_selection/",
+    "https://www.narahaku.go.jp/exhibition/special/feature_exhibition/202612_on-matsuri/"
   ],
   "regular_hours": [
     {
@@ -26,6 +28,26 @@
       "open": "09:30",
       "close": "17:00",
       "last_entry": "16:30"
+    },
+    {
+      "days": [
+        "sat"
+      ],
+      "open": "09:30",
+      "close": "19:00",
+      "last_entry": "18:30",
+      "from": "2026-11-14",
+      "to": "2026-11-28"
+    },
+    {
+      "days": [
+        "thu"
+      ],
+      "open": "09:30",
+      "close": "19:00",
+      "last_entry": "18:30",
+      "from": "2026-12-17",
+      "to": "2026-12-17"
     }
   ],
   "closed_weekdays": [
@@ -39,7 +61,14 @@
       "reason": "年末年始"
     }
   ],
-  "special_openings": [],
+  "special_openings": [
+    {
+      "date": "2027-02-08",
+      "open": "09:30",
+      "close": "18:00",
+      "note": "なら瑠璃絵期間のため月曜でも開館"
+    }
+  ],
   "exhibitions": [
     {
       "title": "ナラハク仏像セレクション―受け継ぎ、未来へ―",
@@ -47,46 +76,68 @@
       "end": "2027-09-15",
       "url": "https://www.narahaku.go.jp/exhibition/usual/202609_butsuzo_selection/",
       "kind": "collection",
-      "summary": "館蔵・寄託の仏像から選りすぐり、仏教美術と奈良の歴史を紹介（青銅器館2階・会期終了日未定のため通年扱い）",
+      "summary": "館蔵・寄託の仏像で仏教伝来から奈良の古代寺院、神仏習合までを紹介（青銅器館2階・通年）",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0
     },
     {
-      "title": "第78回 正倉院展",
-      "start": "2026-10-24",
-      "end": "2026-11-09",
-      "url": "https://www.narahaku.go.jp/exhibition/special/special_exhibition/202610_shosoin/",
+      "title": "中国古代青銅器〈坂本コレクション〉",
+      "start": "2021-02-23",
+      "end": "2027-11-13",
+      "url": "https://www.narahaku.go.jp/exhibition/usual/202102_seido/",
+      "kind": "collection",
+      "summary": "中国・商（殷）から漢時代までの青銅器の逸品を展示（青銅器館1階・通年）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "春日若宮おん祭の信仰と美術",
+      "start": "2026-12-12",
+      "end": "2027-01-17",
+      "url": "https://www.narahaku.go.jp/exhibition/special/feature_exhibition/202612_on-matsuri/",
       "kind": "special",
-      "summary": "初出陳11件を含む60件の宝物を公開。第1回展から80周年の節目",
-      "recommend": "初出陳11件を含む60件の正倉院宝物が一堂に会する年に一度の機会。今回は第1回展から80周年の節目にあたり、約1300年前の聖武天皇ゆかりの宝物に直接対面できる貴重な展覧会。金・土・日・祝は20時まで夜間開館あり。",
-      "admission": "一般 2,000円",
-      "adult_price": 2000,
-      "hours": [
-        {
-          "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu"
-          ],
-          "open": "08:00",
-          "close": "18:00",
-          "last_entry": "17:00"
-        },
-        {
-          "days": [
-            "fri",
-            "sat",
-            "sun",
-            "holiday"
-          ],
-          "open": "08:00",
-          "close": "20:00",
-          "last_entry": "19:00"
-        }
-      ],
-      "closed_weekdays": []
+      "summary": "絵画・文献・芸能資料でおん祭の歴史と祭礼を紹介する恒例の特別陳列（新館第3室）",
+      "recommend": "12世紀の舞楽面や春日祭礼之図など、900年近く続く祭礼を支えた信仰と芸能の品々が並ぶ恒例企画。国宝の若宮御料古神宝類も出陳され、12月17日のお渡り式の日は全員無料で夜7時まで開く。",
+      "admission": "一般 700円",
+      "adult_price": 700,
+      "closed_dates": [
+        "2027-01-12"
+      ]
+    },
+    {
+      "title": "珠玉の仏教美術",
+      "start": "2026-12-12",
+      "end": "2027-03-14",
+      "url": "https://www.narahaku.go.jp/exhibition/usual/bukkyo/",
+      "kind": "collection",
+      "summary": "収蔵品から分野別に名品を紹介する名品展（新館第4室）",
+      "recommend": null,
+      "admission": "一般 700円",
+      "adult_price": 700
+    },
+    {
+      "title": "新たに修理された文化財",
+      "start": "2026-12-22",
+      "end": "2027-01-17",
+      "url": "https://www.narahaku.go.jp/exhibition/special/thematic_exhibition/202612_shuri/",
+      "kind": "special",
+      "summary": "近年修理を終えた文化財の特集展示（新館第2室）",
+      "recommend": null,
+      "admission": "一般 700円",
+      "adult_price": 700
+    },
+    {
+      "title": "お水取り",
+      "start": "2027-02-06",
+      "end": "2027-03-14",
+      "url": "https://www.narahaku.go.jp/exhibition/special/feature_exhibition/202702_omizutori/",
+      "kind": "special",
+      "summary": "東大寺二月堂修二会（お水取り）に関する特別陳列",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 700,
@@ -96,7 +147,14 @@
       "to": "2026-11-15",
       "scope": "collection",
       "reason": "関西文化の日",
-      "source_url": "https://www.the-kansai-guide.com/ja/kansaibunkanohi/"
+      "source_url": "https://www.narahaku.go.jp/info/fee/"
+    },
+    {
+      "from": "2026-12-17",
+      "to": "2026-12-17",
+      "scope": "all",
+      "reason": "春日若宮おん祭お渡り式の日",
+      "source_url": "https://www.narahaku.go.jp/info/fee/"
     }
   ],
   "closed_between_exhibitions": false,
@@ -117,6 +175,6 @@
     }
   ],
   "highlights": "1895年創設の歴史ある国立博物館。重要文化財の「なら仏像館」に飛鳥・奈良・鎌倉時代の仏像や仏教工芸品を系統的に展示。毎秋恒例の正倉院展は全国から観覧者が集まる奈良の秋の風物詩として定着している。",
-  "notes": "公式サイト（narahaku.go.jp）は WebFetch で終始 403 エラーとなり直接確認できず、インターネットミュージアム・正倉院展公式サイト（shosoin-ten.jp）・WebSearch の結果（奈良県公式サイト）を根拠にした（confidence: medium）。名品展の一般料金は700円・大学生350円、70歳以上と高校生以下（18歳未満）は無料。正倉院展は会期中無休（closed_weekdays: []）で通常より早い8:00開館（金土日祝は20時まで）。正倉院展当日一般2,000円（70歳以上も同額）。年末年始の具体的な閉館日は12/28〜1/1（museum.or.jp記載）。 2026-10-02: 公式サイトは引き続き403。WebSearchの検索結果（公式ページの抜粋）で「ナラハク仏像セレクション」2026/9/15〜（青銅器館2階・無料）を確認、終了日は未確認。 【2026-10-23 light】公式サイトは引き続き403のため既存データ維持。 【2026-10-30 light】公式サイトは引き続き403。WebSearchで第78回正倉院展 10/24〜11/9・8:00開館（金土日祝は20時まで）を再確認したが公式での裏付けは取れず既存データ維持。 【2026-11-07 light】公式サイトは引き続き403。WebSearchでも新たな展覧会情報は見つからず既存データ維持。",
-  "confidence": "medium"
+  "notes": "公式サイト（narahaku.go.jp）は WebFetch で終始 403 エラーとなり直接確認できず、インターネットミュージアム・正倉院展公式サイト（shosoin-ten.jp）・WebSearch の結果（奈良県公式サイト）を根拠にした（confidence: medium）。名品展の一般料金は700円・大学生350円、70歳以上と高校生以下（18歳未満）は無料。正倉院展は会期中無休（closed_weekdays: []）で通常より早い8:00開館（金土日祝は20時まで）。正倉院展当日一般2,000円（70歳以上も同額）。年末年始の具体的な閉館日は12/28〜1/1（museum.or.jp記載）。 2026-10-02: 公式サイトは引き続き403。WebSearchの検索結果（公式ページの抜粋）で「ナラハク仏像セレクション」2026/9/15〜（青銅器館2階・無料）を確認、終了日は未確認。 【2026-10-23 light】公式サイトは引き続き403のため既存データ維持。 【2026-10-30 light】公式サイトは引き続き403。WebSearchで第78回正倉院展 10/24〜11/9・8:00開館（金土日祝は20時まで）を再確認したが公式での裏付けは取れず既存データ維持。 【2026-11-07 light】公式サイトは引き続き403。WebSearchでも新たな展覧会情報は見つからず既存データ維持。 【2026-11-13 full】curlにChromeのUser-Agentを付けると公式サイトを読めた（WebFetchは403）。第78回正倉院展は11/9で終了。11/11以降は9:30-17:00（名品展の土曜延長は11/14・21・28のみ19時、12/17も19時）。11/10（火）は展示替えで休みとみられるが公式に明記なし。",
+  "confidence": "high"
 }

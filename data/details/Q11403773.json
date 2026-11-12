@@ -1,7 +1,7 @@
 {
   "id": "Q11403773",
-  "checked_at": "2026-11-07T17:00:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-13T07:45:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.kitazawa-museum.or.jp/",
@@ -10,8 +10,8 @@
     "https://www.kitazawa-museum.or.jp/",
     "https://www.kitazawa-museum.or.jp/about/",
     "https://www.kitazawa-museum.or.jp/exhibition/article.php?post_id=5235",
-    "https://www.kitazawa-museum.or.jp/exhibition/article.php?post_id=5315",
-    "https://www.kitazawa-museum.or.jp/news/article.php?post_id=5343"
+    "https://www.kitazawa-museum.or.jp/news/article.php?post_id=5343",
+    "https://www.kitazawa-museum.or.jp/exhibition/next.php"
   ],
   "regular_hours": [
     {
@@ -74,17 +74,6 @@
       "adult_price": 1200
     },
     {
-      "title": "ミクロモザイク ～緻密なガラスの世界～",
-      "start": "2026-09-12",
-      "end": "2026-11-08",
-      "url": "https://www.kitazawa-museum.or.jp/exhibition/article.php?post_id=5315",
-      "kind": "special",
-      "summary": "イタリア発祥の伝統工芸・ミクロモザイクを用いた繊細なガラスアクセサリーや額絵を紹介",
-      "recommend": "1〜2ミリの微細なガラス片を緻密に並べて描くミクロモザイクの世界を、海津屋・川中薫ら国内作家の個性豊かな作品で体験できる",
-      "admission": "一般 1,200円",
-      "adult_price": 1200
-    },
-    {
       "title": "北澤コレクション名品展　冬",
       "start": "2026-11-25",
       "end": "2027-02-15",
@@ -110,6 +99,6 @@
   ],
   "highlights": "諏訪湖畔に面した美術館で、エミール・ガレやドームなどアール・ヌーヴォーのガラス工芸を中心に所蔵。湖を望む立地と、光と色彩を生かしたガラス作品の展示が見どころ。日本画展示室も併設し年間を通じて多彩な企画を開催する。",
   "closed_between_exhibitions": false,
-  "notes": "定期休館日の記載なし。閉館日は展示替え日・年末年始のみ（公式サイト「ご利用案内」より）。9/30はガラス展示替えのため臨時休館。holiday_rule は公式未記載のため open に設定。 2026-10-23: 10/21付お知らせで大規模修繕工事が来年春頃まで延長。休館日は2027/2/16〜2/25のみ告知（館内工事）、通常開館は継続とみられる。 2026-11-07 light: トップで11/24展示替え休館・ミクロモザイク展〜11/8・大規模修繕の延長告知を再確認。変化なし。",
+  "notes": "定期休館日の記載なし。閉館日は展示替え日・年末年始のみ（公式サイト「ご利用案内」より）。9/30はガラス展示替えのため臨時休館。holiday_rule は公式未記載のため open に設定。 2026-10-23: 10/21付お知らせで大規模修繕工事が来年春頃まで延長。休館日は2027/2/16〜2/25のみ告知（館内工事）、通常開館は継続とみられる。 2026-11-07 light: トップで11/24展示替え休館・ミクロモザイク展〜11/8・大規模修繕の延長告知を再確認。変化なし。 2026-11-13 full: ミクロモザイク展(終了)を削除。展示替え日・年末年始・2/16-25修繕休館は公式のとおり。",
   "confidence": "high"
 }

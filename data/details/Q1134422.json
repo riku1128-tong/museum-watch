@@ -1,7 +1,7 @@
 {
   "id": "Q1134422",
-  "checked_at": "2026-11-07T17:05:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-13T07:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.hakone-oam.or.jp/",
@@ -49,10 +49,10 @@
     {
       "title": "Unique Collection―新しい切り口から見る、彫刻の森コレクションの個性―",
       "start": "2026-01-31",
-      "end": "2027-09-24",
+      "end": "2026-12-05",
       "url": "https://www.hakone-oam.or.jp/specials/2026/unique-collection/",
       "kind": "collection",
-      "summary": "通年（終了日未定）。本館ギャラリーで新しい切り口から彫刻の森コレクションの個性を紹介",
+      "summary": "本館ギャラリーで新しい切り口から彫刻の森コレクションの個性を紹介（〜12/5）",
       "admission": "一般 2,000円"
     },
     {

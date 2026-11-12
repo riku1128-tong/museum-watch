@@ -1,7 +1,7 @@
 {
   "id": "Q11469731",
-  "checked_at": "2026-11-07T16:55:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-13T08:00:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.art-museum.pref.yamanashi.jp/",
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://www.museum.or.jp/museum/3460",
     "https://bijutsutecho.com/exhibitions/18668",
-    "https://artexhibition.jp/topics/news/20260907-AEJ2989097/"
+    "https://artexhibition.jp/topics/news/20260907-AEJ2989097/",
+    "https://artscape.jp/exhibitions/82535/"
   ],
   "regular_hours": [
     {
@@ -32,7 +33,13 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-01",
+      "reason": "年末年始"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
@@ -45,6 +52,17 @@
       "recommend": null,
       "admission": "一般 520円",
       "adult_price": 520
+    },
+    {
+      "title": "ヨゼフ・ラダ展",
+      "start": "2026-11-20",
+      "end": "2027-01-17",
+      "url": "https://artscape.jp/exhibitions/82535/",
+      "kind": "special",
+      "summary": "チェコの画家ヨゼフ・ラダの諷刺画、『兵士シュヴェイクの冒険』挿絵原画、絵本原画など約200点",
+      "recommend": "『兵士シュヴェイクの冒険』の挿絵で知られるチェコの国民的画家。諷刺画の原点から日本でも親しまれる絵本・児童書の原画まで約200点で、その幅広い仕事に出会える。",
+      "admission": "一般 1,000円",
+      "adult_price": 1000
     }
   ],
   "adult_price": 520,
@@ -53,7 +71,7 @@
       "from": "2026-11-20",
       "to": "2026-11-20",
       "scope": "all",
-      "reason": "山梨県民の日（どなたでも無料）",
+      "reason": "山梨県民の日（どなたでも無料・2026年分を確認）",
       "source_url": "https://www.art-museum.pref.yamanashi.jp/info/"
     }
   ],
@@ -68,6 +86,6 @@
   ],
   "highlights": "「ミレーの美術館」として1978年に開館。ジャン＝フランソワ・ミレーの《種をまく人》をはじめバルビゾン派の作品を中心に約1万点を収蔵。ヨーロッパ風景画や山梨ゆかりの近現代作家の作品も充実し、コレクション展は年4回展示替えを行う。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（art-museum.pref.yamanashi.jp）は WebFetch で403エラーとなり直接読めなかったため、インターネットミュージアム（museum.or.jp）・美術手帖・美術展ニュースサイトの記載をもとに作成（confidence: medium）。コレクション展の一般料金は520円（団体420円）。休館日は「月曜日（祝日の場合はその翌日）、祝日の翌日（日曜日の場合は開館）、年末年始」。関西文化の日（11月第3土曜）の無料公開については2026年度の公式発表が未確認のため除去した（2025年度は11/15実施）。 【2026-11-07 full】公式は WebFetch で403のため検索結果（museum.or.jp 等）で確認。ブーダン展は11/3終了のため削除。11/3〜11/23 コレクション展A（ミレー館）開催、毎月3のつく日はミレーの日。次の特別展は未確認。11/20 県民の日の無料は2026年分を未確認（前例は2024年に全展示無料）のため既存の値を維持。",
+  "notes": "公式サイト（art-museum.pref.yamanashi.jp）は WebFetch で403エラーとなり直接読めなかったため、インターネットミュージアム（museum.or.jp）・美術手帖・美術展ニュースサイトの記載をもとに作成（confidence: medium）。コレクション展の一般料金は520円（団体420円）。休館日は「月曜日（祝日の場合はその翌日）、祝日の翌日（日曜日の場合は開館）、年末年始」。関西文化の日（11月第3土曜）の無料公開については2026年度の公式発表が未確認のため除去した（2025年度は11/15実施）。 【2026-11-07 full】公式は WebFetch で403のため検索結果（museum.or.jp 等）で確認。ブーダン展は11/3終了のため削除。11/3〜11/23 コレクション展A（ミレー館）開催、毎月3のつく日はミレーの日。次の特別展は未確認。11/20 県民の日の無料は2026年分を未確認（前例は2024年に全展示無料）のため既存の値を維持。 2026-11-13 light: 公式は403のため museum.or.jp・検索結果で確認。ヨゼフ・ラダ展(11/20-1/17, 一般1,000円)を追加。11/20県民の日は全観覧無料、休館日は11/24・12/28-1/1・1/12（月曜休館は祝日の翌日へ、11/23と1/11は開館）。",
   "confidence": "medium"
 }

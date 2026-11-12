@@ -1,15 +1,16 @@
 {
   "id": "Q11635883",
-  "checked_at": "2026-11-07T16:55:00+09:00",
+  "checked_at": "2026-11-13T07:50:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.ako-art.jp/",
   "address": "〒678-0215 兵庫県赤穂市御崎314-10",
   "source_urls": [
-    "https://www.city.ako.lg.jp/edu/shougai/shisetsu/bunka/tabuchikinenkan.html",
-    "https://ako-kankou.jp/sightseeing/ako-art.html",
-    "https://www.museum.or.jp/museum/5466"
+    "http://www.ako-art.jp/",
+    "http://www.ako-art.jp/about/",
+    "http://www.ako-art.jp/news/%e7%89%b9%e9%9b%86%e5%b1%95%e7%a4%ba%e3%80%8c%e3%80%8e%e8%b5%a4%e7%a9%82%e7%b7%9e%e9%80%9a%e3%80%8f%e7%8f%be%e4%bb%a3%e4%bd%9c%e5%ae%b6%e4%bd%9c%e5%93%81%e5%b1%95%e3%80%8d%e7%ac%ac%ef%bc%99%e5%9b%9e/",
+    "https://www.city.ako.lg.jp/edu/shougai/shisetsu/bunka/tabuchikinenkan.html"
   ],
   "regular_hours": [
     {
@@ -40,7 +41,30 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "特集展示「『赤穂緞通』現代作家作品展」第9回 すみれ工房",
+      "start": "2026-11-05",
+      "end": "2026-11-30",
+      "url": "http://www.ako-art.jp/",
+      "kind": "special",
+      "summary": "市指定文化財「赤穂緞通」の現代作家作品を和室で展示。「雲竜文」ほか3点",
+      "recommend": "江戸時代から伝わる手織りの敷物・赤穂緞通を、現代の作家がよみがえらせた作品で味わえる。今回は第9回で、すみれ工房の「雲竜文」など4点を和室に並べ、鮮やかな色と文様が見どころ。",
+      "admission": "大人 200円",
+      "adult_price": 200
+    },
+    {
+      "title": "田淵家旧蔵の駕籠 公開展示",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "url": "http://www.ako-art.jp/",
+      "kind": "other",
+      "summary": "国名勝「田淵氏庭園」一般公開に合わせ、田淵家旧蔵の駕籠を公開",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
   "adult_price": 200,
   "free_days": [
     {
@@ -63,6 +87,6 @@
   ],
   "highlights": "赤穂の塩田・塩問屋として栄えた田淵家から寄贈された日本画や書、茶道具を保存・公開する記念館。茶道具の展示が多く、館内には茶室も備える。郷土ゆかりの美術工芸を静かに味わえる。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイト（ako-art.jp）はSSL証明書エラーで読めず。赤穂市公式ページ・観光サイト・museum.or.jpで確認。開催中の展覧会は複数ソースを当たったが見つからず（小規模記念館のため定期的な企画展案内なし）。年末年始の具体的な休館日は既存データを維持。 【2026-10-30】公式 ako-art.jp は証明書エラーで読めず。赤穂市公式ページで開館9-17時・火曜休（祝日は翌日）・大人200円を再確認。展覧会の記載なし。 【2026-11-07】公式 ako-art.jp は証明書エラーで読めず。赤穂市公式ページで開館9-17時・火曜休（祝日は翌日）・大人200円を再確認。検索でも2026年の展覧会は見つからず。",
-  "confidence": "medium"
+  "notes": "公式 ako-art.jp は証明書エラーで WebFetch 不可だが curl -k で読めた（開館9-17時・入館16:30まで、火曜休・祝日は開館し翌平日休、大人200円、年末年始12/28-1/4）。11/14・15は田淵氏庭園の一般公開（入園料1,100円予定、館の入館料を含む、定員制）。常設展示の茶道具は11/18に「冬」の取り合わせに替わる。11/7・8の関西文化の日は入館料無料（終了）。",
+  "confidence": "high"
 }

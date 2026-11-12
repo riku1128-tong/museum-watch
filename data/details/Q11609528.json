@@ -1,24 +1,29 @@
 {
   "id": "Q11609528",
-  "checked_at": "2026-11-07T16:55:00+09:00",
+  "checked_at": "2026-11-13T07:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.ggart.co.jp/",
-  "address": "〒377-0000 群馬県渋川市渋川4204",
+  "address": "〒377-0008 群馬県渋川市渋川4204",
   "source_urls": [
-    "https://www.museum.or.jp/museum/1694"
+    "http://www.ggart.co.jp/link.html",
+    "http://www.ggart.co.jp/gallery.html",
+    "http://www.ggart.co.jp/about.html",
+    "http://www.ggart.co.jp/"
   ],
   "regular_hours": [
     {
       "days": [
         "mon",
         "tue",
+        "wed",
         "thu",
         "fri"
       ],
       "open": "09:30",
-      "close": "16:00"
+      "close": "16:00",
+      "last_entry": "15:45"
     },
     {
       "days": [
@@ -27,16 +32,30 @@
         "holiday"
       ],
       "open": "09:30",
-      "close": "16:30"
+      "close": "16:30",
+      "last_entry": "16:15"
     }
   ],
   "closed_weekdays": [
+    "tue",
     "wed"
   ],
   "holiday_rule": "open",
   "special_closures": [],
   "special_openings": [],
-  "exhibitions": [],
+  "exhibitions": [
+    {
+      "title": "常設展（エミール・ガレ、ドーム兄弟、ワルターほか）",
+      "start": "2026-11-13",
+      "end": "2027-11-13",
+      "url": "http://www.ggart.co.jp/gallery.html",
+      "kind": "collection",
+      "summary": "通年。ガレ・ドーム兄弟・ワルターらのアール・ヌーヴォーガラスとマジョレルの書斎を展示",
+      "recommend": "ガレの「湖」「花」、ドーム兄弟の「冬景色」など作家ごとのシリーズで見比べられる。ルイ・マジョレルの書斎を移築した部屋も見どころで、季節ごとの展示替えもある。",
+      "admission": "一般 1,100円",
+      "adult_price": 1100
+    }
+  ],
   "adult_price": 1100,
   "highlights": "群馬県渋川市に立つアール・ヌーヴォーのガラス工芸専門館。19世紀末から20世紀初頭に活躍したエミール・ガレ・ドーム兄弟・ワルターら巨匠の作品約120点を展示するほか、家具作家ルイ・マジョレルの書斎を部屋ごと移築した展示空間も必見。伊香保温泉近くの緑豊かな立地も魅力。",
   "closed_between_exhibitions": false,
@@ -49,6 +68,6 @@
       "note": "「伊香保温泉」行きバス20分、「六本松」バス停下車"
     }
   ],
-  "notes": "公式サイト（ggart.co.jp）はSSL証明書エラーで直接確認できず、インターネットミュージアム（museum.or.jp）の情報を根拠にした（confidence: medium）。開館時間は平日9:30-16:00・土日祝9:30-16:30。休館日は水曜（祝祭日は開館）だが、「8月と11月は無休」との情報があり、この月別の例外はschemaで表現できないため注記にのみ残す。企画展情報は確認できず exhibitions は空とした。【2026-10-10】公式サイトは依然SSLエラーで読めず、museum.or.jp・検索で開館時間と水曜休館を再確認。展覧会情報は依然取得不可。 2026-10-23 full: 公式サイトは依然SSLエラーで読めず、検索結果で開館時間・水曜休館を再確認。展覧会情報は取得不可。 2026-10-30 full: 公式サイトは依然SSLエラーで読めず、検索で開館時間・水曜休館を再確認。2026年の展覧会情報は見つからず。 2026-11-07 full: 公式サイトは SSL エラーで読めず（http 版は安全確認が制限中で未取得）。検索結果で開館時間・水曜休館を再確認。展覧会情報は見つからず。",
-  "confidence": "medium"
+  "notes": "2026-11-13 full: 公式サイトがリニューアルされ http 版で読めた（https は 403）。休館日は火・水曜（団体予約および祝日は開館）、平日 9:30-16:00（最終入館15:45）、土日祝 9:30-16:30（最終16:15）、一般1,100円。従来の「水曜のみ休館・8月と11月は無休」は museum.or.jp 由来で、公式の現行表記に合わせて更新。企画展の掲載は無し。",
+  "confidence": "high"
 }

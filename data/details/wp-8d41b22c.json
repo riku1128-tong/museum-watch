@@ -1,6 +1,6 @@
 {
   "id": "wp-8d41b22c",
-  "checked_at": "2026-11-07T17:00:00+09:00",
+  "checked_at": "2026-11-13T07:45:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -60,6 +60,17 @@
       "url": "https://www.city.takamatsu.kagawa.jp/museum/shionoe/event/exhibitions/tennrann2026/kikaku2026/tsujino2026.html",
       "kind": "special",
       "summary": "坂出市在住の彫刻家・辻野榮一とイラストレーター・辻野由樹による「いきもの」をテーマにした二人展",
+      "recommend": null,
+      "admission": "一般300円（常設展含む）",
+      "adult_price": 300
+    },
+    {
+      "title": "orm個展 重なりあう位相 - Interwoven Rooms",
+      "start": "2026-12-12",
+      "end": "2027-02-07",
+      "url": "https://www.city.takamatsu.kagawa.jp/museum/shionoe/",
+      "kind": "special",
+      "summary": "orm個展。館の新着情報で開催告知（2026-11-10）",
       "recommend": null,
       "admission": "一般300円（常設展含む）",
       "adult_price": 300

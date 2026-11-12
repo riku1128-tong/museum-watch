@@ -1,6 +1,6 @@
 {
   "id": "Q11272278",
-  "checked_at": "2026-11-07T16:55:00+09:00",
+  "checked_at": "2026-11-13T07:40:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -9,7 +9,8 @@
   "source_urls": [
     "https://www.tsukuba.museum.ibk.ed.jp/",
     "https://www.tsukuba.museum.ibk.ed.jp/access.html",
-    "https://www.tsukuba.museum.ibk.ed.jp/guide.html"
+    "https://www.tsukuba.museum.ibk.ed.jp/guide.html",
+    "https://www.tsukuba.museum.ibk.ed.jp/schedule.html"
   ],
   "regular_hours": [
     {
@@ -36,23 +37,111 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "第42回MC展 筑波大学大学院人間総合科学学術院人間総合科学研究群芸術学学位プログラム（博士前期課程） 洋画・版画・日本画 作品展",
-      "start": "2026-11-03",
-      "end": "2026-11-08",
-      "url": "https://www.geijutsu.tsukuba.ac.jp/mcten/42nd-mc展",
-      "kind": "special",
-      "summary": "筑波大学大学院芸術学学位プログラム（博士前期課程）の洋画・版画・日本画の作品展",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
       "title": "第13回川村美術教室展［絵画］",
       "start": "2026-11-10",
       "end": "2026-11-15",
       "url": "https://www.tsukuba.museum.ibk.ed.jp/",
       "kind": "special",
       "summary": "川村美術教室の生徒による絵画作品展（最終日は15:00まで）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "Cas Me［絵画・彫刻］",
+      "start": "2026-11-17",
+      "end": "2026-11-23",
+      "url": "https://www.tsukuba.museum.ibk.ed.jp/schedule.html",
+      "kind": "special",
+      "summary": "絵画・彫刻のグループ展（第2室）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第23回 仏像彫刻同好会 睦展［彫刻］",
+      "start": "2026-11-25",
+      "end": "2026-11-29",
+      "url": "https://www.tsukuba.museum.ibk.ed.jp/schedule.html",
+      "kind": "special",
+      "summary": "仏像彫刻同好会による彫刻作品展（第2室）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第79回県南高等学校連合美術展［総合］",
+      "start": "2026-12-01",
+      "end": "2026-12-06",
+      "url": "https://www.tsukuba.museum.ibk.ed.jp/schedule.html",
+      "kind": "special",
+      "summary": "県南地区の高校生による美術展（全室）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第30回取手松陽高校美術科展［総合］",
+      "start": "2026-12-08",
+      "end": "2026-12-13",
+      "url": "https://www.tsukuba.museum.ibk.ed.jp/schedule.html",
+      "kind": "special",
+      "summary": "取手松陽高校美術科の生徒作品展（全室）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "6th日・韓現代彫刻のVISION展［彫刻］",
+      "start": "2026-12-15",
+      "end": "2026-12-20",
+      "url": "https://www.tsukuba.museum.ibk.ed.jp/schedule.html",
+      "kind": "special",
+      "summary": "日韓の現代彫刻展（第1室）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "めぐる展 2026［総合］",
+      "start": "2027-01-07",
+      "end": "2027-01-17",
+      "url": "https://www.tsukuba.museum.ibk.ed.jp/schedule.html",
+      "kind": "special",
+      "summary": "総合展（全室）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "つくば市文化協会 第35回芸術展［総合］",
+      "start": "2027-01-19",
+      "end": "2027-01-24",
+      "url": "https://www.tsukuba.museum.ibk.ed.jp/schedule.html",
+      "kind": "special",
+      "summary": "つくば市文化協会会員の芸術作品展（全室）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "令和８年度 筑波大学大学院 芸術学学位プログラム(博士前期課程) 修了制作展［総合］",
+      "start": "2027-01-26",
+      "end": "2027-02-07",
+      "url": "https://www.tsukuba.museum.ibk.ed.jp/schedule.html",
+      "kind": "special",
+      "summary": "筑波大学大学院の修了制作展。前期・後期で展示替えあり",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "令和８年度 筑波大学芸術専門学群卒業制作展［総合］",
+      "start": "2027-02-09",
+      "end": "2027-02-21",
+      "url": "https://www.tsukuba.museum.ibk.ed.jp/schedule.html",
+      "kind": "special",
+      "summary": "筑波大学芸術専門学群の卒業制作展。前期・後期で展示替えあり",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0
@@ -71,6 +160,6 @@
     }
   ],
   "highlights": "つくばエクスプレス駅直結の「つくば文化会館アルス」内に位置する公立美術館。入場無料で、茨城ゆかりの美術・歴史パネル展から現代写真・映像まで幅広い企画展を開催。筑波研究学園都市の知的な雰囲気の中、多彩なアート体験ができる。",
-  "notes": "通常入場無料。一部の展覧会は有料になる場合あり。年末年始休館（公式の利用案内に具体的な日付の記載なし）。元のURLはDNSが解決できなかったため、公式サイト（https://www.tsukuba.museum.ibk.ed.jp/）に更新。 2026-11-07 full: 公式の利用案内で開館時間・休館日（月曜、祝日は開館し翌日休館）・年末年始休館・無料を確認。",
+  "notes": "通常入場無料。一部の展覧会は有料になる場合あり。年末年始休館（公式の利用案内に具体的な日付の記載なし）。元のURLはDNSが解決できなかったため、公式サイト（https://www.tsukuba.museum.ibk.ed.jp/）に更新。 2026-11-13 full: 公式トップと年間スケジュールで展示を更新。11/22はつくばマラソンのため公園側からの入館に規制あり。",
   "confidence": "high"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q25045409",
-  "checked_at": "2026-11-13T07:45:00+09:00",
+  "checked_at": "2026-11-20T09:00:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -70,6 +70,40 @@
       "recommend": "尊くも儚い生命をテーマに、繊細なペンと水彩のにじみで描かれた物語性のある作品を紹介する。絵本作家としても活躍するコダマリの世界を、本館第7展示室でじっくり味わえる。",
       "admission": "一般 1,000円",
       "adult_price": 1000
+    },
+    {
+      "title": "8館同時開催　谷口午二展「春風駘蕩 ― 絵と人のあいだ ―」",
+      "start": "2026-11-19",
+      "end": "2027-01-17",
+      "url": "https://ngp.jp/nagashima-museum/",
+      "kind": "other",
+      "summary": "鹿児島県内の美術館8館連携の谷口午二展。本館第1展示室に2点展示。スタンプラリーあり",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
+    },
+    {
+      "title": "智書展 in 鹿児島",
+      "start": "2026-11-21",
+      "end": "2026-11-23",
+      "url": "https://ngp.jp/nagashima-museum/",
+      "kind": "other",
+      "summary": "別館B1Fでの書の作品展。入場無料（常設展は別途）",
+      "recommend": null,
+      "admission": "入場無料（常設展は別途）",
+      "adult_price": null,
+      "hours": [
+        {
+          "days": [
+            "sat",
+            "sun",
+            "mon"
+          ],
+          "open": "10:00",
+          "close": "17:00",
+          "last_entry": "16:00"
+        }
+      ]
     }
   ],
   "adult_price": 1000,

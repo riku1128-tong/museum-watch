@@ -1,7 +1,7 @@
 {
   "id": "Q11465485",
-  "checked_at": "2026-11-13T07:50:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-20T08:50:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.onomichi-museum.jp/",
@@ -12,7 +12,8 @@
     "https://www.onomichi-museum.jp/about/",
     "https://www.onomichi-museum.jp/exhibition/now.html",
     "https://www.onomichi-museum.jp/exhibition/next.html",
-    "https://artscape.jp/exhibitions/79310/"
+    "https://artscape.jp/exhibitions/79310/",
+    "https://www.onomichi-museum.jp/info/post_85.html"
   ],
   "regular_hours": [
     {
@@ -44,26 +45,26 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "しろきうみへ　- 記憶は白く、海へと還る -　山本 基 展",
-      "start": "2026-09-19",
-      "end": "2026-11-15",
-      "url": "https://www.onomichi-museum.jp/exhibition/now.html",
-      "kind": "special",
-      "summary": "尾道出身の現代美術家・山本基が約30年にわたる「記憶と時間」をテーマの作品群を故郷で振り返る回顧的個展",
-      "recommend": "塩を素材とした大規模インスタレーションや2024年能登半島地震で倒壊した作品の再構成を含む。故郷・尾道での初回顧的個展で、初期油彩から現在まで30年の軌跡をたどれる。",
-      "admission": "一般 1,000円",
-      "adult_price": 1000
-    },
-    {
-      "title": "尾道市立美術館　コレクション展（仮称）",
+      "title": "尾道市立美術館コレクション展 -絵のまち 尾道を描く-",
       "start": "2026-11-28",
       "end": "2027-01-11",
-      "url": null,
+      "url": "https://www.onomichi-museum.jp/exhibition/now.html",
       "kind": "collection",
-      "summary": null,
+      "summary": "小林和作ら尾道ゆかりの画家と平松純平の新収蔵作品、尾道浦絵屏風など風景画を紹介",
+      "recommend": "小林和作や森谷南人子ら尾道を代表する作家の優品に加え、平松純平の新収蔵作品や江戸期の「尾道浦絵屏風」が並ぶ。第6展示室では日韓の共同プロジェクト展も同時開催。",
+      "admission": "一般 310円",
+      "adult_price": 310
+    },
+    {
+      "title": "市民展第23回 尾道市立大学芸術文化学部 美術学科 卒業制作展",
+      "start": "2027-02-05",
+      "end": "2027-02-14",
+      "url": "https://www.onomichi-museum.jp/exhibition/next.html",
+      "kind": "other",
+      "summary": "尾道市立大学美術学科の卒業制作展",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "入館無料",
+      "adult_price": 0
     }
   ],
   "adult_price": null,
@@ -80,6 +81,6 @@
   ],
   "highlights": "市民の草の根運動から1980年に開館し、2003年に安藤忠雄設計のリニューアルを経た千光寺公園内の美術館。瀬戸内の自然と寺社町並みに溶け込む建物で、「温かな瀬戸内の風景の中で本物の芸術に接する」場として現代美術・伝統美術の多彩な企画展を年複数回開催する。",
   "closed_between_exhibitions": true,
-  "notes": "定休日は「祝日以外の月曜日」。祝日の月曜は開館し翌平日が休館（open_next_weekday_closed）。特別展の場合は変更あり。11/16〜11/27の展示替え期間は推定（次回展が11/28開幕のため）。常設展は無く企画展ごとの料金のためadult_priceはnull。【2026-10-17 推測の値を削除】次回展の開幕日から推定した展示替え休館（11/16〜11/27）を消した。 2026-11-13 確認: 変化なし。",
+  "notes": "定休日は「祝日以外の月曜日」。祝日の月曜は開館し翌平日が休館（open_next_weekday_closed）。特別展の場合は変更あり。11/16〜11/27の展示替え期間は推定（次回展が11/28開幕のため）。常設展は無く企画展ごとの料金のためadult_priceはnull。【2026-10-17 推測の値を削除】次回展の開幕日から推定した展示替え休館（11/16〜11/27）を消した。 2026-11-13 確認: 変化なし。 2026-11-20 full: 山本基展は終了。11/28開幕のコレクション展と2027/2/5〜の卒業制作展を追加。展示替え期間（11/16〜11/27頃）の日付は公式に明記なし（開館スケジュールは画像のため読めず）。",
   "confidence": "high"
 }

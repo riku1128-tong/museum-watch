@@ -1,75 +1,69 @@
 {
-  "id": "Q11585933",
-  "checked_at": "2026-11-13T07:33:58+09:00",
-  "check_mode": "light",
-  "operating_status": "operating",
-  "status_note": null,
-  "official_url": "https://nanao-art-museum.jp/",
-  "address": "〒926-0855 石川県七尾市小丸山台1-1",
-  "source_urls": [
-    "https://nanao-art-museum.jp/",
-    "https://nanao-art-museum.jp/guide/",
-    "https://nanao-art-museum.jp/2026htetjfntt",
-    "https://nanao-art-museum.jp/museumoverview/",
-    "https://www.museum.or.jp/museum/3258"
-  ],
-  "regular_hours": [
-    {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
-      "open": "09:00",
-      "close": "17:00",
-      "last_entry": "16:30"
-    }
-  ],
-  "closed_weekdays": [
-    "mon"
-  ],
-  "holiday_rule": "open",
-  "special_closures": [
-    {
-      "from": "2026-11-04",
-      "to": "2026-11-06",
-      "reason": "展示替え"
-    }
-  ],
-  "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "2026イタリア・ボローニャ国際絵本原画展",
-      "start": "2026-11-07",
-      "end": "2026-12-13",
-      "url": "https://nanao-art-museum.jp/2026blgnip",
-      "kind": "special",
-      "summary": "世界最大級の児童書見本市の絵本原画コンクール入選作（75名）を紹介する巡回展",
-      "recommend": "日本人7名を含む33ヵ国・地域75名の入選作から、世界各地の作家による多彩な絵本原画を楽しめる。当館で28回目となる秋の恒例展で、今年は日伊国交樹立160周年の記念企画。",
-      "admission": "一般 1,000円（900円）、大学生350円（300円）、高校生以下無料",
-      "adult_price": 1000,
-      "closed_weekdays": []
-    }
-  ],
-  "closed_between_exhibitions": false,
-  "adult_price": 1000,
-  "free_days": [],
-  "free_rules": [],
-  "access": [
-    {
-      "station": "七尾",
-      "lines": "JR七尾線",
-      "exit": null,
-      "walk_min": 20,
-      "note": "七尾駅から市内循環バス「まりん号」で「七尾美術館前」下車（順回り約8分、逆回り約14分）"
-    }
-  ],
-  "highlights": "能登半島唯一の総合美術館として1995年に開館（設計：内井昭蔵）。地元が生んだ桃山時代の絵師・長谷川等伯の作品を大型ハイビジョンで紹介するほか、池田コレクションをはじめ能登ゆかりの作品を多数収蔵。ボローニャ絵本原画展など国際的な企画展も毎年開催する。",
-  "notes": "定休日は月曜日（祝休日は開館）、祝休日の翌日（スキーマのholiday_ruleには「祝日翌日も休館」を表現するenumがないためholiday_ruleは\"open\"とし、本noteで補足）、展示替え期間、年末年始。ボローニャ展（11/7〜12/13）は会期中無休。展示替え休館は10/19〜10/23、11/4〜11/6（公式お知らせ）。 観覧料: 一般1,000円（前売・20名以上団体900円）、大学生350円、高校生以下無料。年末年始の休館日は公式に未掲載。 【2026-10-30】第70回七尾市美術展（他団体主催）10/30〜11/3、会期中無休・9:00〜17:00（最終日11/3は15:00まで）。展示替え休館は10/28〜10/29と11/4〜11/6。 【2026-11-07】公式で確認: 11/4〜11/6展示替え休館、ボローニャ展11/7〜12/13は会期中無休、一般1,000円。無料日の記載なし。七尾市美術展は終了。 2026-11-13 light: トップで変更なし（ボローニャ展11/7〜12/13は会期中無休、11/4〜11/6展示替えは終了）。",
-  "confidence": "high"
+ "id": "Q11585933",
+ "checked_at": "2026-11-20T08:45:00+09:00",
+ "check_mode": "light",
+ "operating_status": "operating",
+ "status_note": null,
+ "official_url": "https://nanao-art-museum.jp/",
+ "address": "〒926-0855 石川県七尾市小丸山台1-1",
+ "source_urls": [
+  "https://nanao-art-museum.jp/",
+  "https://nanao-art-museum.jp/guide/",
+  "https://nanao-art-museum.jp/2026htetjfntt",
+  "https://nanao-art-museum.jp/museumoverview/",
+  "https://www.museum.or.jp/museum/3258"
+ ],
+ "regular_hours": [
+  {
+   "days": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun",
+    "holiday"
+   ],
+   "open": "09:00",
+   "close": "17:00",
+   "last_entry": "16:30"
+  }
+ ],
+ "closed_weekdays": [
+  "mon"
+ ],
+ "holiday_rule": "open",
+ "special_closures": [],
+ "special_openings": [],
+ "exhibitions": [
+  {
+   "title": "2026イタリア・ボローニャ国際絵本原画展",
+   "start": "2026-11-07",
+   "end": "2026-12-13",
+   "url": "https://nanao-art-museum.jp/2026blgnip",
+   "kind": "special",
+   "summary": "世界最大級の児童書見本市の絵本原画コンクール入選作（75名）を紹介する巡回展",
+   "recommend": "日本人7名を含む33ヵ国・地域75名の入選作から、世界各地の作家による多彩な絵本原画を楽しめる。当館で28回目となる秋の恒例展で、今年は日伊国交樹立160周年の記念企画。",
+   "admission": "一般 1,000円（900円）、大学生350円（300円）、高校生以下無料",
+   "adult_price": 1000,
+   "closed_weekdays": []
+  }
+ ],
+ "closed_between_exhibitions": false,
+ "adult_price": 1000,
+ "free_days": [],
+ "free_rules": [],
+ "access": [
+  {
+   "station": "七尾",
+   "lines": "JR七尾線",
+   "exit": null,
+   "walk_min": 20,
+   "note": "七尾駅から市内循環バス「まりん号」で「七尾美術館前」下車（順回り約8分、逆回り約14分）"
+  }
+ ],
+ "highlights": "能登半島唯一の総合美術館として1995年に開館（設計：内井昭蔵）。地元が生んだ桃山時代の絵師・長谷川等伯の作品を大型ハイビジョンで紹介するほか、池田コレクションをはじめ能登ゆかりの作品を多数収蔵。ボローニャ絵本原画展など国際的な企画展も毎年開催する。",
+ "notes": "定休日は月曜日（祝休日は開館）、祝休日の翌日（スキーマのholiday_ruleには「祝日翌日も休館」を表現するenumがないためholiday_ruleは\"open\"とし、本noteで補足）、展示替え期間、年末年始。ボローニャ展（11/7〜12/13）は会期中無休。展示替え休館は10/19〜10/23、11/4〜11/6（公式お知らせ）。 観覧料: 一般1,000円（前売・20名以上団体900円）、大学生350円、高校生以下無料。年末年始の休館日は公式に未掲載。 【2026-10-30】第70回七尾市美術展（他団体主催）10/30〜11/3、会期中無休・9:00〜17:00（最終日11/3は15:00まで）。展示替え休館は10/28〜10/29と11/4〜11/6。 【2026-11-07】公式で確認: 11/4〜11/6展示替え休館、ボローニャ展11/7〜12/13は会期中無休、一般1,000円。無料日の記載なし。七尾市美術展は終了。 2026-11-13 light: トップで変更なし（ボローニャ展11/7〜12/13は会期中無休、11/4〜11/6展示替えは終了）。 2026-11-20 light: 変化なし（展示替え休館11/4-6は終了のため削除）。",
+ "confidence": "high"
 }

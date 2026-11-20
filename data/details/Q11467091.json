@@ -1,7 +1,7 @@
 {
   "id": "Q11467091",
-  "checked_at": "2026-11-13T07:38:23+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-20T08:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://hum-web.jp",
@@ -35,23 +35,30 @@
   "special_closures": [],
   "special_openings": [
     {
-      "date": "2026-11-02",
-      "note": "特別展開催中の第1月曜日（ファーストマンデー）開館"
-    },
-    {
       "date": "2026-12-07",
       "note": "特別展開催中の第1月曜日（ファーストマンデー）開館"
     }
   ],
   "exhibitions": [
     {
-      "title": "開館30周年記念 特別企画 歌川広重Ⅱ「東海道五十三次之内」",
-      "start": "2026-10-14",
-      "end": "2026-11-15",
-      "url": "https://hum-web.jp/exhibition_collection/",
+      "title": "開館30周年記念 特別企画 歌川広重Ⅲ「江戸の名所風景」",
+      "start": "2026-11-17",
+      "end": "2026-12-20",
+      "url": "https://hum-web.jp/exhibition_collection/ukiyoe/",
       "kind": "collection",
-      "summary": "歌川広重「東海道五十三次之内」を紹介する開館30周年記念の特別企画展示（浮世絵・東洋陶磁室）",
-      "recommend": "旅情あふれる宿場の風景を描いた広重の代表シリーズ。先に開催された「冨士三十六景」に続く30周年企画で、広重の風景表現の魅力を堪能できる。",
+      "summary": "歌川広重が最も多く手がけた江戸の名所風景を紹介する開館30周年記念の特別企画（浮世絵室）",
+      "recommend": "「東都名所」から晩年の大作「名所江戸百景」まで、広重が生涯描き続けた江戸の行楽地を通して、当時の人々の暮らしと広重の風景表現を味わえる。",
+      "admission": "一般400円（20名以上320円）",
+      "adult_price": 400
+    },
+    {
+      "title": "李朝陶磁―朝鮮時代のやきもの",
+      "start": "2026-11-17",
+      "end": "2027-04-11",
+      "url": "https://hum-web.jp/exhibition_collection/oriental_ceramics/",
+      "kind": "collection",
+      "summary": "浦上敏朗氏蒐集の李朝陶磁コレクションを中心に朝鮮時代のやきものを紹介（東洋陶磁室）",
+      "recommend": "粉青沙器・白磁・青花など時代ごとに移り変わる李朝のやきものを、当館所蔵の浦上コレクションで通覧できる。素朴で温かな器の魅力に触れられる。",
       "admission": "一般400円（20名以上320円）",
       "adult_price": 400
     },

@@ -1,7 +1,7 @@
 {
   "id": "Q131457036",
-  "checked_at": "2026-11-13T07:34:37+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-20T08:55:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": null,
@@ -66,6 +66,6 @@
   ],
   "highlights": "現代日本画の巨匠・奥村土牛の素描画を中心に約42〜43点を常時展示する記念美術館。JR小海線八千穂駅から徒歩1分の好立地にあり、年3回（4月・7月・11月）の展示替えで季節ごとに異なる作品の表情を楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "GW期間中（4/29-5/10）および8月は無休で開館。公式URL（https://www.town.sakuho.nagano.jp/shisetsu/okumuratogyu.html）は404エラーのためnullとして記録。情報はculture.nagano.jp・museum.or.jp・yachiho-kogen.jpから取得。2026年10月29日・30日はイベント準備のため休館。 2026-10-30: 公式URLは404のまま。culture.nagano.jp で10/29・30休館と恋華めぐり（10/31〜11/8）を確認。 2026-11-07 light: 公式URLは404のまま。他の情報源に新しい情報なし、変更なし。 2026-11-13 full: 公式URLは404のまま。culture.nagano.jp で開館時間・休館日に変更なし。恋華めぐり（〜11/8）は終了のため削除。",
+  "notes": "GW期間中（4/29-5/10）および8月は無休で開館。公式URL（https://www.town.sakuho.nagano.jp/shisetsu/okumuratogyu.html）は404エラーのためnullとして記録。情報はculture.nagano.jp・museum.or.jp・yachiho-kogen.jpから取得。2026年10月29日・30日はイベント準備のため休館。 2026-10-30: 公式URLは404のまま。culture.nagano.jp で10/29・30休館と恋華めぐり（10/31〜11/8）を確認。 2026-11-07 light: 公式URLは404のまま。他の情報源に新しい情報なし、変更なし。 2026-11-13 full: 公式URLは404のまま。culture.nagano.jp で開館時間・休館日に変更なし。恋華めぐり（〜11/8）は終了のため削除。 2026-11-20 light: 公式URLは404のまま。culture.nagano.jp で開館時間・休館日に変更なし。",
   "confidence": "medium"
 }

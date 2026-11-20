@@ -1,6 +1,6 @@
 {
   "id": "wp-3e96c226",
-  "checked_at": "2026-11-13T07:50:00+09:00",
+  "checked_at": "2026-11-20T08:28:27+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -37,39 +37,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "彫刻回廊",
-      "start": "2026-11-07",
-      "end": "2026-11-15",
-      "url": "https://www.okigei.ac.jp/experience/exhibit/%e5%bd%ab%e5%88%bb%e5%9b%9e%e5%bb%8a.html",
-      "kind": "other",
-      "summary": "沖縄・台湾・タイ・ドイツの5大学が参加する国際彫刻展（第1展示室、10:00〜17:00）",
-      "recommend": "琉球弧の島々や海外との交流を象徴する回廊空間に、5大学の教員・学生の多様な彫刻が並ぶ。開学40周年を祝う国際色豊かな展示で、短い会期に見逃せない。",
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
-      "title": "一昨日か13年前のこと",
-      "start": "2026-11-11",
-      "end": "2026-11-15",
-      "url": "https://www.okigei.ac.jp/experience/exhibit/%e4%b8%80%e6%98%a8%e6%97%a5%e3%81%8b13%e5%b9%b4%e5%89%8d%e3%81%ae%e3%81%93%e3%81%a8.html",
-      "kind": "other",
-      "summary": "デザイン専攻1年生の夢日記をテーマにした映像作品展（第2展示室、10:00〜17:00）",
-      "recommend": "夢日記を題材に学生がつくった映像作品に加え、絵コンテや設定資料、映像内の文章の詳細も展示。制作の裏側までのぞけるのが楽しい。",
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
-      "title": "異ノ知",
-      "start": "2026-11-11",
-      "end": "2026-11-15",
-      "url": "https://www.okigei.ac.jp/experience/exhibit/%e7%95%b0%e3%83%8e%e7%9f%a5.html",
-      "kind": "other",
-      "summary": "漆・染の工芸専攻生による「いのち」をテーマにした展示（第3展示室、10:00〜17:00）",
-      "recommend": "漆と染という異なる分野で学ぶ学生が、「いのち」をテーマに培った技術と表現で、この世に生まれた美しさを見せる。若い作り手の感性に触れられる。",
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
       "title": "message in a bottle 島と／詠む Vol.5",
       "start": "2026-12-02",
       "end": "2026-12-06",
@@ -95,6 +62,6 @@
   ],
   "highlights": "沖縄県立芸術大学の首里当蔵キャンパスに附属する資料館。3室の展示室では大学主催の企画展のほか、教員・学生・卒業生による個展やグループ展が活発に開催される。首里城に隣接する歴史的なキャンパス内に位置し、入場無料で沖縄の芸術・工芸に触れられる。",
   "closed_between_exhibitions": false,
-  "notes": "開館時間は授業期間中9:00-20:00、春季・夏季・冬季の大学休業期間は9:00-17:00（短縮）。土日・祝日休館。展覧会の開場は10:00〜17:00。【2026-11-07 full】開学40周年記念作品展は11/3で終了のため削除。展覧会一覧に「CYCLE 創造するエネルギー 2026」「message in a bottle 島と／詠む Vol.5」が新しく載っていたが会期は未確認のため未登録。 2026-11-13 full: CYCLE 創造するエネルギー 2026 は会場が OIST（館外）のため未登録。message in a bottle Vol.5 を追加。",
+  "notes": "開館時間は授業期間中9:00-20:00、春季・夏季・冬季の大学休業期間は9:00-17:00（短縮）。土日・祝日休館。展覧会の開場は10:00〜17:00。【2026-11-07 full】開学40周年記念作品展は11/3で終了のため削除。展覧会一覧に「CYCLE 創造するエネルギー 2026」「message in a bottle 島と／詠む Vol.5」が新しく載っていたが会期は未確認のため未登録。 2026-11-13 full: CYCLE 創造するエネルギー 2026 は会場が OIST（館外）のため未登録。message in a bottle Vol.5 を追加。 【2026-11-20 full】展覧会一覧を確認。11/15終了の3件を削除。message in a bottle Vol.5(12/2-12/6)は継続。",
   "confidence": "medium"
 }

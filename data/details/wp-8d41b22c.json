@@ -1,6 +1,6 @@
 {
   "id": "wp-8d41b22c",
-  "checked_at": "2026-11-13T07:45:00+09:00",
+  "checked_at": "2026-11-20T08:38:21+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -68,7 +68,7 @@
       "title": "orm個展 重なりあう位相 - Interwoven Rooms",
       "start": "2026-12-12",
       "end": "2027-02-07",
-      "url": "https://www.city.takamatsu.kagawa.jp/museum/shionoe/",
+      "url": "https://www.city.takamatsu.kagawa.jp/museum/shionoe/event/exhibitions/tennrann2026/kikaku2026/orm12.html",
       "kind": "special",
       "summary": "orm個展。館の新着情報で開催告知（2026-11-10）",
       "recommend": null,
@@ -84,6 +84,13 @@
       "scope": "all",
       "reason": "塩江美術館の日（毎年11月第2土曜、観覧料無料）",
       "source_url": "https://www.city.takamatsu.kagawa.jp/museum/shionoe/"
+    },
+    {
+      "from": "2026-12-03",
+      "to": "2026-12-03",
+      "scope": "all",
+      "reason": "香川県民の日（12月3日は無料）",
+      "source_url": "https://kagawa-day123.pref.kagawa.lg.jp/discount/"
     }
   ],
   "free_rules": [],

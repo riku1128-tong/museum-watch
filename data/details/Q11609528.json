@@ -1,73 +1,73 @@
 {
-  "id": "Q11609528",
-  "checked_at": "2026-11-13T07:40:00+09:00",
-  "check_mode": "full",
-  "operating_status": "operating",
-  "status_note": null,
-  "official_url": "http://www.ggart.co.jp/",
-  "address": "〒377-0008 群馬県渋川市渋川4204",
-  "source_urls": [
-    "http://www.ggart.co.jp/link.html",
-    "http://www.ggart.co.jp/gallery.html",
-    "http://www.ggart.co.jp/about.html",
-    "http://www.ggart.co.jp/"
-  ],
-  "regular_hours": [
-    {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri"
-      ],
-      "open": "09:30",
-      "close": "16:00",
-      "last_entry": "15:45"
-    },
-    {
-      "days": [
-        "sat",
-        "sun",
-        "holiday"
-      ],
-      "open": "09:30",
-      "close": "16:30",
-      "last_entry": "16:15"
-    }
-  ],
-  "closed_weekdays": [
+ "id": "Q11609528",
+ "checked_at": "2026-11-20T08:45:00+09:00",
+ "check_mode": "light",
+ "operating_status": "operating",
+ "status_note": null,
+ "official_url": "http://www.ggart.co.jp/",
+ "address": "〒377-0008 群馬県渋川市渋川4204",
+ "source_urls": [
+  "http://www.ggart.co.jp/link.html",
+  "http://www.ggart.co.jp/gallery.html",
+  "http://www.ggart.co.jp/about.html",
+  "http://www.ggart.co.jp/"
+ ],
+ "regular_hours": [
+  {
+   "days": [
+    "mon",
     "tue",
-    "wed"
-  ],
-  "holiday_rule": "open",
-  "special_closures": [],
-  "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "常設展（エミール・ガレ、ドーム兄弟、ワルターほか）",
-      "start": "2026-11-13",
-      "end": "2027-11-13",
-      "url": "http://www.ggart.co.jp/gallery.html",
-      "kind": "collection",
-      "summary": "通年。ガレ・ドーム兄弟・ワルターらのアール・ヌーヴォーガラスとマジョレルの書斎を展示",
-      "recommend": "ガレの「湖」「花」、ドーム兄弟の「冬景色」など作家ごとのシリーズで見比べられる。ルイ・マジョレルの書斎を移築した部屋も見どころで、季節ごとの展示替えもある。",
-      "admission": "一般 1,100円",
-      "adult_price": 1100
-    }
-  ],
-  "adult_price": 1100,
-  "highlights": "群馬県渋川市に立つアール・ヌーヴォーのガラス工芸専門館。19世紀末から20世紀初頭に活躍したエミール・ガレ・ドーム兄弟・ワルターら巨匠の作品約120点を展示するほか、家具作家ルイ・マジョレルの書斎を部屋ごと移築した展示空間も必見。伊香保温泉近くの緑豊かな立地も魅力。",
-  "closed_between_exhibitions": false,
-  "access": [
-    {
-      "station": "渋川",
-      "lines": "JR上越線",
-      "exit": null,
-      "walk_min": null,
-      "note": "「伊香保温泉」行きバス20分、「六本松」バス停下車"
-    }
-  ],
-  "notes": "2026-11-13 full: 公式サイトがリニューアルされ http 版で読めた（https は 403）。休館日は火・水曜（団体予約および祝日は開館）、平日 9:30-16:00（最終入館15:45）、土日祝 9:30-16:30（最終16:15）、一般1,100円。従来の「水曜のみ休館・8月と11月は無休」は museum.or.jp 由来で、公式の現行表記に合わせて更新。企画展の掲載は無し。",
-  "confidence": "high"
+    "wed",
+    "thu",
+    "fri"
+   ],
+   "open": "09:30",
+   "close": "16:00",
+   "last_entry": "15:45"
+  },
+  {
+   "days": [
+    "sat",
+    "sun",
+    "holiday"
+   ],
+   "open": "09:30",
+   "close": "16:30",
+   "last_entry": "16:15"
+  }
+ ],
+ "closed_weekdays": [
+  "tue",
+  "wed"
+ ],
+ "holiday_rule": "open",
+ "special_closures": [],
+ "special_openings": [],
+ "exhibitions": [
+  {
+   "title": "常設展（エミール・ガレ、ドーム兄弟、ワルターほか）",
+   "start": "2026-11-13",
+   "end": "2027-11-13",
+   "url": "http://www.ggart.co.jp/gallery.html",
+   "kind": "collection",
+   "summary": "通年。ガレ・ドーム兄弟・ワルターらのアール・ヌーヴォーガラスとマジョレルの書斎を展示",
+   "recommend": "ガレの「湖」「花」、ドーム兄弟の「冬景色」など作家ごとのシリーズで見比べられる。ルイ・マジョレルの書斎を移築した部屋も見どころで、季節ごとの展示替えもある。",
+   "admission": "一般 1,100円",
+   "adult_price": 1100
+  }
+ ],
+ "adult_price": 1100,
+ "highlights": "群馬県渋川市に立つアール・ヌーヴォーのガラス工芸専門館。19世紀末から20世紀初頭に活躍したエミール・ガレ・ドーム兄弟・ワルターら巨匠の作品約120点を展示するほか、家具作家ルイ・マジョレルの書斎を部屋ごと移築した展示空間も必見。伊香保温泉近くの緑豊かな立地も魅力。",
+ "closed_between_exhibitions": false,
+ "access": [
+  {
+   "station": "渋川",
+   "lines": "JR上越線",
+   "exit": null,
+   "walk_min": null,
+   "note": "「伊香保温泉」行きバス20分、「六本松」バス停下車"
+  }
+ ],
+ "notes": "2026-11-13 full: 公式サイトがリニューアルされ http 版で読めた（https は 403）。休館日は火・水曜（団体予約および祝日は開館）、平日 9:30-16:00（最終入館15:45）、土日祝 9:30-16:30（最終16:15）、一般1,100円。従来の「水曜のみ休館・8月と11月は無休」は museum.or.jp 由来で、公式の現行表記に合わせて更新。企画展の掲載は無し。 2026-11-20 full: 変化なし（http curl で確認）。",
+ "confidence": "high"
 }

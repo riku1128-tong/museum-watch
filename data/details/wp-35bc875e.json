@@ -1,17 +1,20 @@
 {
   "id": "wp-35bc875e",
-  "checked_at": "2026-11-13T07:33:55+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-20T08:50:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.enokojima-art.jp/",
   "address": "〒550-0006 大阪市西区江之子島2丁目1番34号",
   "source_urls": [
     "https://www.enokojima-art.jp/",
-    "https://www.enokojima-art.jp/sudakokuta120/",
-    "https://www.enokojima-art.jp/access/",
     "https://www.enokojima-art.jp/event/16788/",
-    "https://www.pref.osaka.lg.jp/shisetsu/cate002/074.html"
+    "https://www.enokojima-art.jp/event/16889/",
+    "https://www.enokojima-art.jp/event/16529/",
+    "https://www.enokojima-art.jp/event/16771/",
+    "https://www.enokojima-art.jp/event/17005/",
+    "https://www.enokojima-art.jp/event/16709/",
+    "https://www.enokojima-art.jp/event/17088/"
   ],
   "regular_hours": [
     {
@@ -42,15 +45,15 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "生誕120年記念 須田剋太展 私は造型になりたい！",
-      "start": "2026-10-16",
-      "end": "2026-11-14",
-      "url": "https://www.enokojima-art.jp/sudakokuta120/",
-      "kind": "special",
-      "summary": "画家・須田剋太の関西移住後の抽象・具象作品を約100点展示",
-      "recommend": "人物画や静物画から抽象画まで、剋太が生涯追い続けた「造型」の精神を大阪府20世紀美術コレクションなどの約100点でたどる。入場無料で気軽に触れられる。",
-      "admission": "無料",
-      "adult_price": 0,
+      "title": "第97回 浪展",
+      "start": "2026-11-17",
+      "end": "2026-11-22",
+      "url": "https://www.enokojima-art.jp/event/16889/",
+      "kind": "other",
+      "summary": "浪華写真倶楽部による写真展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
       "hours": [
         {
           "days": [
@@ -62,17 +65,192 @@
             "sun",
             "holiday"
           ],
-          "open": "10:30",
+          "open": "10:00",
           "close": "18:00"
         },
         {
           "days": [
-            "sat"
+            "sun"
           ],
-          "open": "10:30",
-          "close": "13:00",
-          "from": "2026-11-14",
-          "to": "2026-11-14"
+          "open": "10:00",
+          "close": "16:00",
+          "from": "2026-11-22",
+          "to": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "title": "わいわい展",
+      "start": "2026-11-17",
+      "end": "2026-11-22",
+      "url": "https://www.enokojima-art.jp/event/16529/",
+      "kind": "other",
+      "summary": "貸ギャラリーでの企画展（主催: 山元由紀）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "10:00",
+          "close": "20:00"
+        },
+        {
+          "days": [
+            "sun"
+          ],
+          "open": "10:00",
+          "close": "16:00",
+          "from": "2026-11-22",
+          "to": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "title": "第72回 シュピーゲル写真展",
+      "start": "2026-11-18",
+      "end": "2026-11-22",
+      "url": "https://www.enokojima-art.jp/event/16771/",
+      "kind": "other",
+      "summary": "シュピーゲル写真家協会の写真展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "days": [
+            "sun"
+          ],
+          "open": "10:00",
+          "close": "16:00",
+          "from": "2026-11-22",
+          "to": "2026-11-22"
+        }
+      ]
+    },
+    {
+      "title": "匠辛・レザーカービング日中芸術交流展",
+      "start": "2026-11-24",
+      "end": "2026-11-29",
+      "url": "https://www.enokojima-art.jp/event/17005/",
+      "kind": "other",
+      "summary": "レザーカービングの日中芸術交流展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "10:00",
+          "close": "18:00"
+        },
+        {
+          "days": [
+            "sun"
+          ],
+          "open": "10:00",
+          "close": "16:00",
+          "from": "2026-11-29",
+          "to": "2026-11-29"
+        }
+      ]
+    },
+    {
+      "title": "第5回 スパイラル展",
+      "start": "2026-11-24",
+      "end": "2026-11-29",
+      "url": "https://www.enokojima-art.jp/event/16709/",
+      "kind": "other",
+      "summary": "螺旋美術協会によるグループ展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "days": [
+            "sun"
+          ],
+          "open": "11:00",
+          "close": "16:00",
+          "from": "2026-11-29",
+          "to": "2026-11-29"
+        }
+      ]
+    },
+    {
+      "title": "第25回 国画会大阪作家展",
+      "start": "2026-12-01",
+      "end": "2026-12-06",
+      "url": "https://www.enokojima-art.jp/event/17088/",
+      "kind": "other",
+      "summary": "国画会大阪支部の作家展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {
+          "days": [
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "11:00",
+          "close": "18:00"
+        },
+        {
+          "days": [
+            "sun"
+          ],
+          "open": "11:00",
+          "close": "16:00",
+          "from": "2026-12-06",
+          "to": "2026-12-06"
         }
       ]
     }
@@ -91,6 +269,6 @@
   ],
   "highlights": "展覧会やイベント、ワークショップを通じてアートやデザインの力で社会の課題に向き合う大阪府の文化施設。展示室のほか音響ルームやライブラリーを備え、親子向けの講座なども開かれる。入館は無料。",
   "closed_between_exhibitions": false,
-  "notes": "開館時間 10:00-21:00 は施設全体。ギャラリー（Room1〜4）は催しごとに時間が異なる。祝日の扱いは公式に明記なし。2027年7月〜2028年2月に大規模修繕工事の予定（長期休館の予定なし）。須田剋太展は最終日（11/14）のみ13:00閉場、月曜休館。 【2026-10-30 light】トップのお知らせに新たな休館・時間変更なし。須田剋太展を引き続き掲載。 2026-11-07 light確認: 変更なし。 2026-11-13 light確認: 変更なし（須田剋太展は11/14まで、新しい休館告知なし）。",
+  "notes": "開館時間 10:00-21:00 は施設全体。ギャラリー（Room1〜4）は催しごとに時間が異なる。祝日の扱いは公式に明記なし。2027年7月〜2028年2月に大規模修繕工事の予定（長期休館の予定なし）。須田剋太展は最終日（11/14）のみ13:00閉場、月曜休館。 【2026-10-30 light】トップのお知らせに新たな休館・時間変更なし。須田剋太展を引き続き掲載。 2026-11-07 light確認: 変更なし。 2026-11-13 light確認: 変更なし（須田剋太展は11/14まで、新しい休館告知なし）。 2026-11-20 full: 須田剋太展は終了。貸ギャラリーの展示を現在・直近分のみ登録（各ページの時間、最終日は短縮、観覧料は各ページに記載なし（未確認））。年末年始休館12/29-1/3はトップで確認。",
   "confidence": "medium"
 }

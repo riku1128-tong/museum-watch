@@ -1,69 +1,69 @@
 {
- "id": "Q127432181",
- "checked_at": "2026-11-13T07:50:00+09:00",
- "check_mode": "light",
- "operating_status": "operating",
- "status_note": null,
- "official_url": "https://nakamuramasayoshi.com/",
- "address": "〒215-0001 神奈川県川崎市麻生区細山7-2-8",
- "source_urls": [
-  "https://nakamuramasayoshi.com/",
-  "https://nakamuramasayoshi.com/exhibition/index.php",
-  "https://nakamuramasayoshi.com/guide/index.html"
- ],
- "regular_hours": [
-  {
-   "days": [
-    "fri",
-    "sat",
-    "sun",
-    "holiday"
-   ],
-   "open": "11:00",
-   "close": "17:00"
-  }
- ],
- "closed_weekdays": [
-  "mon",
-  "tue",
-  "wed",
-  "thu"
- ],
- "holiday_rule": "open",
- "special_closures": [],
- "special_openings": [],
- "exhibitions": [
-  {
-   "title": "タウン誌うえの「表紙絵展」",
-   "start": "2026-10-02",
-   "end": "2026-11-29",
-   "url": "https://nakamuramasayoshi.com/exhibition/index.php",
-   "kind": "special",
-   "summary": "中村正義が1966〜71年に描いた「タウン誌うえの」表紙作品20余点",
-   "recommend": "初期の仕事でありながら、中村正義の旺盛な表現欲がにじむ表紙絵20余点が一堂に。タウン誌という媒体のために描かれたカジュアルな作品を通して、後の「顔」シリーズへとつながる造形的な探求の萌芽を読み取れる。",
-   "admission": "一般 500円",
-   "adult_price": 500
-  }
- ],
- "adult_price": null,
- "access": [
-  {
-   "station": "読売ランド前",
-   "lines": "小田急小田原線",
-   "exit": null,
-   "walk_min": 25,
-   "note": "新百合ヶ丘駅発「よみうりランド」行きバスで「細山」下車（約15分）、徒歩5分。読売ランド前駅発「京王よみうりランド」行きバスなら「細山」まで約10分、徒歩5分"
-  },
-  {
-   "station": "京王よみうりランド",
-   "lines": "京王相模原線",
-   "exit": null,
-   "walk_min": 25,
-   "note": "京王よみうりランド駅発「寺尾台団地」行きバスで「細山」下車（約10分）、徒歩5分"
-  }
- ],
- "highlights": "「日本画壇の風雲児」中村正義が晩年16年を過ごした住まいを改装した私立美術館。篠原一男設計の「直方体の森」が展示空間となり、アトリエの絵の具跡も残る。約300点の「顔」シリーズや舞妓シリーズなど、川崎市麻生区の緑に囲まれた静かな環境でじっくり鑑賞できる。",
- "closed_between_exhibitions": true,
- "notes": "開館日は「金・土・日・祝日」、午前11時～午後5時（夏・冬は閉館）。会期中のみ開館で、次回会期「タウン誌うえの「表紙絵展」」は2026/10/2開始と公式トップページのお知らせでも確認済み。最終入館時刻の記載なし。常設展は無く企画展ごとの料金のみのため館の adult_price は null。",
- "confidence": "high"
+  "id": "Q127432181",
+  "checked_at": "2026-11-20T09:00:00+09:00",
+  "check_mode": "light",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://nakamuramasayoshi.com/",
+  "address": "〒215-0001 神奈川県川崎市麻生区細山7-2-8",
+  "source_urls": [
+    "https://nakamuramasayoshi.com/",
+    "https://nakamuramasayoshi.com/exhibition/index.php",
+    "https://nakamuramasayoshi.com/guide/index.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "11:00",
+      "close": "17:00"
+    }
+  ],
+  "closed_weekdays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu"
+  ],
+  "holiday_rule": "open",
+  "special_closures": [],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "タウン誌うえの「表紙絵展」",
+      "start": "2026-10-02",
+      "end": "2026-11-29",
+      "url": "https://nakamuramasayoshi.com/exhibition/index.php",
+      "kind": "special",
+      "summary": "中村正義が1966〜71年に描いた「タウン誌うえの」表紙作品20余点",
+      "recommend": "初期の仕事でありながら、中村正義の旺盛な表現欲がにじむ表紙絵20余点が一堂に。タウン誌という媒体のために描かれたカジュアルな作品を通して、後の「顔」シリーズへとつながる造形的な探求の萌芽を読み取れる。",
+      "admission": "一般 500円",
+      "adult_price": 500
+    }
+  ],
+  "adult_price": null,
+  "access": [
+    {
+      "station": "読売ランド前",
+      "lines": "小田急小田原線",
+      "exit": null,
+      "walk_min": 25,
+      "note": "新百合ヶ丘駅発「よみうりランド」行きバスで「細山」下車（約15分）、徒歩5分。読売ランド前駅発「京王よみうりランド」行きバスなら「細山」まで約10分、徒歩5分"
+    },
+    {
+      "station": "京王よみうりランド",
+      "lines": "京王相模原線",
+      "exit": null,
+      "walk_min": 25,
+      "note": "京王よみうりランド駅発「寺尾台団地」行きバスで「細山」下車（約10分）、徒歩5分"
+    }
+  ],
+  "highlights": "「日本画壇の風雲児」中村正義が晩年16年を過ごした住まいを改装した私立美術館。篠原一男設計の「直方体の森」が展示空間となり、アトリエの絵の具跡も残る。約300点の「顔」シリーズや舞妓シリーズなど、川崎市麻生区の緑に囲まれた静かな環境でじっくり鑑賞できる。",
+  "closed_between_exhibitions": true,
+  "notes": "開館日は「金・土・日・祝日」、午前11時～午後5時（夏・冬は閉館）。会期中のみ開館で、次回会期「タウン誌うえの「表紙絵展」」は2026/10/2開始と公式トップページのお知らせでも確認済み。最終入館時刻の記載なし。常設展は無く企画展ごとの料金のみのため館の adult_price は null。",
+  "confidence": "high"
 }

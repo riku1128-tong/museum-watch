@@ -1,6 +1,6 @@
 {
   "id": "Q11591489",
-  "checked_at": "2026-11-13T07:40:00+09:00",
+  "checked_at": "2026-11-20T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,7 +8,7 @@
   "address": "〒910-0017 福井県福井市文京3丁目16-1",
   "source_urls": [
     "https://fukui-kenbi.pref.fukui.lg.jp/",
-    "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/141",
+    "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/164",
     "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/143",
     "https://fukui-kenbi.pref.fukui.lg.jp/collection/"
   ],
@@ -39,7 +39,7 @@
       "title": "Hello Kitty展 ーわたしが変わるとキティも変わるー",
       "start": "2027-01-23",
       "end": "2027-03-22",
-      "url": "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/141",
+      "url": "https://fukui-kenbi.pref.fukui.lg.jp/exhibition/exhibition/archives/164",
       "kind": "special",
       "summary": "ハローキティ誕生50年をたどる展覧会。会期中無休",
       "recommend": "「キティとわたし」の50年をテーマに、ファンとの関係性からキティの魅力を探る。史上最大量のグッズ展示やアーティストとのコラボ作品、映像、フォトスポットも楽しめる。",
@@ -71,6 +71,6 @@
   ],
   "highlights": "1977年開館。岡倉天心ゆかりの作家を核とした日本画、江戸初期の岩佐又兵衛作品、福井ゆかりの近現代美術、西洋美術など約3,400点（寄託品除く）を収蔵。コレクション展・テーマ展を常時開催し、年数回の特別企画展も実施。",
   "closed_between_exhibitions": false,
-  "notes": "特別企画展開催中は月曜日も開館。コレクション展・テーマ展の一般料金は100円。毎月第3日曜日（ファミリーデー）と2月7日（ふるさとの日）はコレクション展・テーマ展が無料。特別企画展の入館料は展覧会ごとに異なる。2026-11-13 full: ミッフィー展終了。現在開催中の展示は掲載なし（次はHello Kitty展 2027-01-23〜）。次々回はコレクション展「ことば⇔え」2027-03-31〜04-25。",
+  "notes": "特別企画展開催中は月曜日も開館。コレクション展・テーマ展の一般料金は100円。毎月第3日曜日（ファミリーデー）と2月7日（ふるさとの日）はコレクション展・テーマ展が無料。特別企画展の入館料は展覧会ごとに異なる。2026-11-13 full: ミッフィー展終了。現在開催中の展示は掲載なし（次はHello Kitty展 2027-01-23〜）。次々回はコレクション展「ことば⇔え」2027-03-31〜04-25。 2026-11-20 full: 開催中の展示なし。Hello Kitty展のURLを更新（archives/164）。次はコレクション展「ことば⇔え」2027-03-31〜04-25。",
   "confidence": "high"
 }

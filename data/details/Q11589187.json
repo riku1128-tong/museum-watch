@@ -1,7 +1,7 @@
 {
   "id": "Q11589187",
-  "checked_at": "2026-11-13T07:50:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-20T08:45:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.moma.pref.kanagawa.jp/",
@@ -13,7 +13,8 @@
     "https://www.moma.pref.kanagawa.jp/annex/visit/",
     "https://www.moma.pref.kanagawa.jp/annex/visit/access/",
     "https://www.moma.pref.kanagawa.jp/news/20260920-3/",
-    "https://www.moma.pref.kanagawa.jp/exhibition/"
+    "https://www.moma.pref.kanagawa.jp/exhibition/",
+    "https://www.moma.pref.kanagawa.jp/exhibition/2026-matsumoto-yoko/"
   ],
   "regular_hours": [
     {
@@ -46,26 +47,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "銅版画家・駒井哲郎 掌上にひろがる星座のように",
-      "start": "2026-09-12",
-      "end": "2026-11-15",
-      "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-komai-tetsuro/",
-      "kind": "special",
-      "summary": "葉山館。銅版画家・駒井哲郎の作品を紹介",
-      "admission": "一般 1,200円",
-      "adult_price": 1200
-    },
-    {
-      "title": "たそかれ、かはたれ ―現代美術における“翳”",
-      "start": "2026-09-12",
-      "end": "2026-11-15",
-      "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-h-collection2/",
-      "kind": "collection",
-      "summary": "葉山館のコレクション展",
-      "admission": "一般 250円",
-      "adult_price": 250
-    },
-    {
       "title": "ポーランド・ポスター２ 銅版画家渡辺千尋旧蔵品から",
       "start": "2026-10-17",
       "end": "2027-01-31",
@@ -79,11 +60,13 @@
       "title": "松本陽子　宵の明星を見た日",
       "start": "2026-11-28",
       "end": "2027-02-28",
-      "url": null,
+      "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-matsumoto-yoko/",
       "kind": "special",
-      "summary": "葉山館。画家・松本陽子の展覧会",
-      "admission": null,
-      "adult_price": null
+      "summary": "葉山館。画家・松本陽子の最初期から新作まで40点超を展覧",
+      "admission": "一般 1,200円",
+      "adult_price": 1200,
+      "recommend": "ピンクを主調に光と色彩があふれる抽象絵画で知られる松本陽子が、90歳を迎えた今も続く探求を最初期から新作までたどる。自然光の展示空間で鑑賞できる。",
+      "closed_dates": []
     },
     {
       "title": "マルク・シャガール『ラ・フォンテーヌ寓話集』",
@@ -133,6 +116,6 @@
   ],
   "highlights": "葉山の海を望む丘に建つ葉山館と鎌倉別館の2館構成。常設展示室を持たず企画展とコレクション展を同時開催するのが特徴。葉山館は彫刻の置かれた庭園・図書室・レストラン・ショップを観覧料なしで利用でき、展示以外でも気軽に訪れやすい。",
   "closed_between_exhibitions": false,
-  "notes": "葉山館と鎌倉別館の2館。開館時間・休館日は両館共通（月曜休館、祝日及び振替休日は開館、12/29-1/3、展示替期間）。企画展の観覧料は展覧会ごと、コレクション展（常設）は両館共通で一般250円のため adult_price に採用。鎌倉別館は9/28-10/16展示替のため休館（告知確認済み）、10/17から再開。10/11（日）は無料開館日（葉山館のお知らせに告知）。 2026-10-22に公式サイトが一時停止中の告知あり。美術館は通常どおり開館。 10/30: 公式サイトは暫定版（10/23公開）。11/3・11/17の無料開館日の告知を確認。 2026-11-07 light: 公式の安全確認がレート制限で読めず、前回の内容を維持。 2026-11-13 light: 公式サイトで変更なし。",
+  "notes": "葉山館と鎌倉別館の2館。開館時間・休館日は両館共通（月曜休館、祝日及び振替休日は開館、12/29-1/3、展示替期間）。企画展の観覧料は展覧会ごと、コレクション展（常設）は両館共通で一般250円のため adult_price に採用。鎌倉別館は9/28-10/16展示替のため休館（告知確認済み）、10/17から再開。10/11（日）は無料開館日（葉山館のお知らせに告知）。 2026-10-22に公式サイトが一時停止中の告知あり。美術館は通常どおり開館。 10/30: 公式サイトは暫定版（10/23公開）。11/3・11/17の無料開館日の告知を確認。 2026-11-07 light: 公式の安全確認がレート制限で読めず、前回の内容を維持。 2026-11-13 light: 公式サイトで変更なし。 2026-11-20 full: 葉山館は展示替えのため11/16〜11/27休館（鎌倉別館は開館）。11/28から松本陽子展・シャガール展。11/15終了の駒井哲郎展・コレクション展を削除。松本陽子展の休館日は月曜（1/11を除く）、12/28〜1/4。",
   "confidence": "high"
 }

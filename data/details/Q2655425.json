@@ -1,7 +1,7 @@
 {
   "id": "Q2655425",
-  "checked_at": "2026-11-13T07:50:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-20T08:40:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.shimane-art-museum.jp/",
@@ -70,29 +70,29 @@
       "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
       "kind": "collection",
       "summary": "通年",
-      "recommend": null,
+      "recommend": "色と形という絵画の基本要素に注目し、画家たちが色彩と形態にどうこだわったかを所蔵作品でたどる。見比べると作家ごとの個性が分かる。",
       "admission": "一般 400円",
       "adult_price": 400
     },
     {
-      "title": "コレクション展 水辺の展示室 第5期",
-      "start": "2026-09-30",
-      "end": "2026-11-16",
+      "title": "コレクション展 水辺の展示室　第6期",
+      "start": "2026-11-18",
+      "end": "2027-01-11",
       "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
       "kind": "collection",
       "summary": "水辺をテーマとした収蔵作品展",
-      "recommend": null,
+      "recommend": "水を画題にした所蔵の名品を集めた展示室。近世絵画・日本画は年度内に全8期で入れ替わり、宍道湖畔の館ならではの水の表現を味わえる。",
       "admission": "一般 400円",
       "adult_price": 400
     },
     {
-      "title": "コレクション展 近世絵画・日本画 第5期",
-      "start": "2026-09-30",
-      "end": "2026-11-16",
+      "title": "コレクション展 近世絵画・日本画　第6期",
+      "start": "2026-11-18",
+      "end": "2027-01-11",
       "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
       "kind": "collection",
       "summary": "近世絵画・日本画の収蔵作品展",
-      "recommend": null,
+      "recommend": "江戸の近世絵画から近代以降の日本画まで、館が誇る優品と島根ゆかりの画家の作品を紹介。島根の美術の流れを一度にたどれる。",
       "admission": "一般 400円",
       "adult_price": 400
     },
@@ -103,7 +103,7 @@
       "url": "https://www.shimane-art-museum.jp/exhibition/collection.html",
       "kind": "collection",
       "summary": "島根の伝統工芸・出雲焼（楽山焼・布志名焼）の変遷をたどる収蔵品展",
-      "recommend": null,
+      "recommend": "楽山焼・布志名焼の移り変わりをたどり、近年寄贈・寄託された出雲焼の作品が初めて並ぶ。地元の焼き物の魅力に触れられる。",
       "admission": "一般 400円",
       "adult_price": 400
     },
@@ -147,7 +147,7 @@
       "url": "https://www.shimane-art-museum.jp/exhibition/001240.html",
       "kind": "special",
       "summary": "日本工芸会が主催する伝統工芸の全国公募展",
-      "recommend": null,
+      "recommend": "日本工芸会が主催する、陶芸・染織・漆工など全国の伝統工芸の優品が集まる公募展。現代の工芸の技と美を一度に見渡せる。",
       "admission": null,
       "adult_price": null
     },
@@ -206,6 +206,6 @@
   ],
   "highlights": "菊竹清訓設計の美術館。宍道湖畔に建ち、日没後30分まで開館する「夕景のミュージアム」として知られる。水をテーマとした絵画や北斎作品約1,600件など7,700点超のコレクションを誇り、宍道湖岸に佐斗司の《宍道湖うさぎ》が並ぶ屋外彫刻も楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "3月〜9月は日没後30分まで開館（最終入館は日没時刻）。上記19:30は概算で実際の閉館時間は月により異なる。10月〜2月は18:30まで（最終入館18:00）。年末年始（12/28〜1/1）休館。企画展の日程等により休館日が変更になる場合あり。コレクション展一般400円、企画展はコレクション展セット1,500円または特別展のみ1,300円。 2026-11-13 light: アーツ・アンド・クラフツ展終了のため削除。他の展示に変更なし。",
+  "notes": "3月〜9月は日没後30分まで開館（最終入館は日没時刻）。上記19:30は概算で実際の閉館時間は月により異なる。10月〜2月は18:30まで（最終入館18:00）。年末年始（12/28〜1/1）休館。企画展の日程等により休館日が変更になる場合あり。コレクション展一般400円、企画展はコレクション展セット1,500円または特別展のみ1,300円。 2026-11-20 full: 水辺の展示室・近世絵画・日本画が第6期（11/18〜1/11）に更新。他は変更なし。",
   "confidence": "high"
 }

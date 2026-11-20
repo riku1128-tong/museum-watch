@@ -1,6 +1,6 @@
 {
   "id": "Q843638",
-  "checked_at": "2026-11-13T07:34:42+09:00",
+  "checked_at": "2026-11-20T08:35:05+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -66,6 +66,17 @@
       "recommend": "リニューアル10周年の節目に尾形光琳の国宝「紅白梅図屏風」を中心に名品を公開。杉本博司率いる新素材研究所が手がけた現代的な空間で日本を代表する古典美術を体験できる。",
       "admission": "一般 2,000円",
       "adult_price": 2000
+    },
+    {
+      "title": "北斎 Red Fuji & Blue Wave −冨嶽三十六景−",
+      "start": "2027-02-26",
+      "end": "2027-04-02",
+      "url": "https://www.moaart.or.jp/event/hokusai_red_fuji_and_blue_wave/",
+      "kind": "special",
+      "summary": "葛飾北斎「冨嶽三十六景」を紹介",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 2000,

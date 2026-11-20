@@ -1,6 +1,6 @@
 {
   "id": "Q3330163",
-  "checked_at": "2026-11-13T07:40:00+09:00",
+  "checked_at": "2026-11-20T08:45:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -63,17 +63,6 @@
       "adult_price": 1000
     },
     {
-      "title": "渓雪　墨の世界　with students",
-      "start": "2026-11-12",
-      "end": "2026-11-17",
-      "url": "https://faam.city.fukuoka.lg.jp/exhibition/27552/",
-      "kind": "other",
-      "summary": "交流ギャラリー（8階）での墨の作品展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    },
-    {
       "title": "博多最後の絵馬師　百耕　大絵馬展",
       "start": "2026-11-19",
       "end": "2026-11-24",
@@ -91,6 +80,17 @@
       "url": "https://faam.city.fukuoka.lg.jp/exhibition/27507/",
       "kind": "other",
       "summary": "交流ギャラリー（8階）でのデザイン展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第２６回ロータリー・ジュニア美術展",
+      "start": "2026-12-03",
+      "end": "2026-12-08",
+      "url": "https://faam.city.fukuoka.lg.jp/exhibition/28013/",
+      "kind": "other",
+      "summary": "交流ギャラリー（8階）でのジュニア美術展",
       "recommend": null,
       "admission": null,
       "adult_price": null

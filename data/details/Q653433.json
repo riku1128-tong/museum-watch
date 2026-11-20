@@ -1,7 +1,7 @@
 {
   "id": "Q653433",
-  "checked_at": "2026-11-13T07:45:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-20T09:00:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.tnm.jp/",
@@ -216,6 +216,17 @@
       "summary": "源氏物語と王朝文化を紹介する特別展",
       "recommend": null,
       "admission": null
+    },
+    {
+      "title": "儒烏風亭らでん meets 東京国立博物館",
+      "start": "2027-01-13",
+      "end": "2027-03-22",
+      "url": null,
+      "kind": "special",
+      "summary": "儒烏風亭らでんと東京国立博物館のコラボ企画（公式予告）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 1000,

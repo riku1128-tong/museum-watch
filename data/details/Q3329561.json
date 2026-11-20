@@ -1,7 +1,7 @@
 {
   "id": "Q3329561",
-  "checked_at": "2026-11-13T07:34:37+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-20T08:42:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.adachi-museum.or.jp/",
@@ -61,18 +61,7 @@
       "summary": "近代日本画の革新に挑んだ7人の画家の作品を紹介（本館）",
       "recommend": null,
       "admission": "一般 2,500円（館の入館料に含む）",
-      "adult_price": null
-    },
-    {
-      "title": "再興第111回 院展",
-      "start": "2026-10-24",
-      "end": "2026-11-15",
-      "url": "https://www.adachi-museum.or.jp/archives/exhibition/inten111",
-      "kind": "special",
-      "summary": "日本美術院の年次大展覧会・再興第111回院展（新館）",
-      "recommend": null,
-      "admission": "一般 2,500円（館の入館料に含む）",
-      "adult_price": null
+      "adult_price": 2500
     },
     {
       "title": "現代日本画名品選Ⅲ 色彩の美",
@@ -83,7 +72,7 @@
       "summary": "現代日本画の名品選（新館）。色彩の美をテーマに紹介",
       "recommend": null,
       "admission": "一般 2,500円（館の入館料に含む）",
-      "adult_price": null
+      "adult_price": 2500
     },
     {
       "title": "冬季特別展 縦と横 くらべてわかる表現の違い",
@@ -94,7 +83,7 @@
       "summary": "縦と横の構図の違いから日本画表現の特色を比較・解説する冬季特別展（本館）",
       "recommend": null,
       "admission": "一般 2,500円（館の入館料に含む）",
-      "adult_price": null
+      "adult_price": 2500
     }
   ],
   "adult_price": 2500,

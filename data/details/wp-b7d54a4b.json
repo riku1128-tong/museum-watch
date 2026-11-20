@@ -1,6 +1,6 @@
 {
   "id": "wp-b7d54a4b",
-  "checked_at": "2026-11-13T07:40:00+09:00",
+  "checked_at": "2026-11-20T06:15:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,9 +8,9 @@
   "address": "〒028-4307 岩手県岩手郡岩手町大字五日市10-121-21",
   "source_urls": [
     "https://ishigami-iwate.jp/",
-    "https://ishigami-iwate.jp/aboutus/access/",
     "https://ishigami-iwate.jp/7234",
-    "https://ishigami-iwate.jp/7249"
+    "https://ishigami-iwate.jp/7249",
+    "https://ishigami-iwate.jp/aboutus/access/"
   ],
   "regular_hours": [
     {
@@ -49,7 +49,7 @@
       "url": "https://ishigami-iwate.jp/7234",
       "kind": "special",
       "summary": "町民の文化活動の成果を紹介する芸術祭の展示部門。企画ギャラリーで開催",
-      "recommend": null,
+      "recommend": "岩手町の人々が日ごろ育んできた文化活動の成果を、企画ギャラリーでまとめて見られる芸術祭の展示部門。地域に根ざした表現に触れられ、観覧は無料。",
       "admission": "観覧無料",
       "adult_price": 0
     }
@@ -68,6 +68,6 @@
   ],
   "highlights": "岩手町の国道4号沿い・道の駅石神の丘の隣にある美術館。屋外の彫刻と四季の草花を楽しめる「花とアートの森」と企画ギャラリーの2エリアで構成され、岩手ゆかりの作家を中心とした企画展を年数回開催。高校生以下は常時無料で入場できる。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイトの URL は ishigami-iwate.jp（museums.json の isigami.iwate.jp は DNS エラー）。通常入館料（花とアートの森観覧券）は季節により変動：4〜10月 一般500円、11〜3月 一般300円（adult_price には現行の500円を設定）。企画展示時は別料金（ギャラリーのみ300円 or 野外展示共通700円）。 2026-11-13: 菅沼綠展は11/8で終了し削除。花とアートの森の観覧料は2026年は11/10から一般300円（現行値を adult_price に設定）。下半期スケジュールは画像のみで本文から読めない。",
+  "notes": "公式サイトの URL は ishigami-iwate.jp（museums.json の isigami.iwate.jp は DNS エラー）。通常入館料（花とアートの森観覧券）は季節により変動：4〜10月 一般500円、11〜3月 一般300円（adult_price には現行の500円を設定）。企画展示時は別料金（ギャラリーのみ300円 or 野外展示共通700円）。 2026-11-20: 再確認。観覧料は11/10から11〜3月料金の一般300円（adult_price=300）。展示は芸術祭展示部門のみ。",
   "confidence": "high"
 }

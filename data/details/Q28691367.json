@@ -1,7 +1,7 @@
 {
   "id": "Q28691367",
-  "checked_at": "2026-11-13T07:38:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-20T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.hokubu-kinen.or.jp/",
@@ -66,6 +66,6 @@
   ],
   "highlights": "北海道内外の画家を中心に、洋画・版画などのコレクションを個展形式で紹介する私立美術館。年間4〜5回の展示入れ替えを行い、期間中の木〜日曜のみ開館。展示のないインターバル期間は休館となるため、来館前に開催スケジュールの確認が必要。",
   "closed_between_exhibitions": true,
-  "notes": "museums.json の official_url（hokubu-memorial.jp）は DNS エラーのため、公式サイト（hokubu-kinen.or.jp）を確認。museums.json の prefecture が「富山県」だが実際の所在地は北海道札幌市豊平区。会期中は木〜日曜開館。観覧料は小西政秀展のページに記載なし（藤森詔子展は800円）。次回「徳力富吉郎」展は2/18開始（3か月より先、終了日不明のため未掲載）。",
+  "notes": "museums.json の official_url（hokubu-memorial.jp）は DNS エラーのため、公式サイト（hokubu-kinen.or.jp）を確認。museums.json の prefecture が「富山県」だが実際の所在地は北海道札幌市豊平区。会期中は木〜日曜開館。観覧料は小西政秀展のページに記載なし（藤森詔子展は800円）。次回「徳力富吉郎」展は2/18開始（3か月より先、終了日不明のため未掲載）。 2026-11-20 light: トップ確認。変化なし(10:00-17:00、木〜日開館、徳力富吉郎展 2/18-)。",
   "confidence": "medium"
 }

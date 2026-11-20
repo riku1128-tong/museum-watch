@@ -1,7 +1,7 @@
 {
   "id": "wp-2afa2d49",
-  "checked_at": "2026-11-13T07:34:42+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-20T08:45:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.semboku.akita.jp/sightseeing/hirafuku/",
@@ -90,28 +90,6 @@
   "exhibitions": [
     {
       "title": "平福穂庵・百穂展",
-      "start": "2026-10-01",
-      "end": "2026-11-15",
-      "url": null,
-      "kind": "collection",
-      "summary": "秋田ゆかりの日本画家・平福穂庵と息子の百穂の常設展示",
-      "recommend": null,
-      "admission": "大人 500円",
-      "adult_price": 500
-    },
-    {
-      "title": "第4回はんぽの会 日本画展",
-      "start": "2026-10-01",
-      "end": "2026-11-15",
-      "url": null,
-      "kind": "special",
-      "summary": "日本画グループ「はんぽの会」による企画展",
-      "recommend": null,
-      "admission": "大人 500円",
-      "adult_price": 500
-    },
-    {
-      "title": "平福穂庵・百穂展",
       "start": "2026-12-01",
       "end": "2027-01-24",
       "url": null,
@@ -180,6 +158,6 @@
   ],
   "highlights": "武家屋敷が残る角館の中心地に位置し、明治・大正期の秋田を代表する日本画家・平福穂庵とその息子・百穂の作品を収蔵・展示する美術館。江戸の暮らしや東北の山野を描いた繊細な日本画が見られる。桜の名所・武家屋敷の散策と合わせて訪れたい。",
   "closed_between_exhibitions": false,
-  "notes": "2026-11-13 light: 変更なし。",
+  "notes": "2026-11-13 light: 変更なし。 2026-11-20 full: 利用案内・展示計画を確認。11/15終了の展示（平福穂庵・百穂展、第4回はんぽの会）を削除。11/16〜11/30は展示替え休館、12/1から次期展示。",
   "confidence": "high"
 }

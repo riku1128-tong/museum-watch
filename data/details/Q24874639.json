@@ -1,7 +1,7 @@
 {
   "id": "Q24874639",
-  "checked_at": "2026-11-13T07:50:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-20T08:45:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.beppu.oita.jp/sisetu/bunka_komyuniti/01bunka_01-02bijutukan.html",
@@ -36,28 +36,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "第18回なごみの会水彩画展",
-      "start": "2026-11-10",
-      "end": "2026-11-15",
-      "url": null,
-      "kind": "special",
-      "summary": "水彩画グループ「なごみの会」による会員作品展（第18回）",
-      "recommend": null,
-      "admission": "一般 210円",
-      "adult_price": 210
-    },
-    {
-      "title": "市美術館　陶芸教室『翠窯会』第7回作品展",
-      "start": "2026-11-12",
-      "end": "2026-11-15",
-      "url": null,
-      "kind": "special",
-      "summary": "別府市美術館陶芸教室の生徒による陶芸作品展（第7回）",
-      "recommend": null,
-      "admission": "一般 210円",
-      "adult_price": 210
-    },
-    {
       "title": "第13回別府版画会員展",
       "start": "2026-11-21",
       "end": "2026-12-03",
@@ -83,6 +61,6 @@
   ],
   "highlights": "別府市が運営する市立美術館。美術品展示室と民俗資料展示室を備え、新収蔵品展・企画展のほか地域の美術団体の発表の場としても活用される。入館料210円と手軽に訪れやすく、JR別府駅からバスで約6分のビーコンプラザ近くに立地する。",
   "closed_between_exhibitions": false,
-  "notes": "観覧料は高校生・大学生・一般 210円（団体146円）、小中学生無料。団体は20人以上。年末年始の休館日程は公式サイトに記載なし（要確認）。 2026-11-13 light: 展覧会一覧は11/5更新のまま。終了したキルト展を削除。",
+  "notes": "観覧料は高校生・大学生・一般 210円（団体146円）、小中学生無料。団体は20人以上。年末年始の休館日程は公式サイトに記載なし（要確認）。 2026-11-20 full: 公式の展覧会一覧（11/18時点）は第13回別府版画会員展のみ。別府市小・中学生人権作品展（11/20午後〜11/23、研修室・ロビー）は無料スペースのため展示に入れていない。",
   "confidence": "high"
 }

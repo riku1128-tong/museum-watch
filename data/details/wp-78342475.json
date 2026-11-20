@@ -1,69 +1,69 @@
 {
-  "id": "wp-78342475",
-  "checked_at": "2026-11-13T07:45:00+09:00",
-  "check_mode": "light",
-  "operating_status": "operating",
-  "status_note": null,
-  "official_url": "http://www.chichibumuseum.com/",
-  "address": "〒368-0013 埼玉県秩父市永田町7-1",
-  "source_urls": [
-    "http://www.chichibumuseum.com/",
-    "https://www.museum.or.jp/museum/1942",
-    "https://www.jalan.net/kankou/spt_11207cc3300033907/"
-  ],
-  "regular_hours": [
-    {
-      "days": [
-        "mon",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
-      "open": "10:00",
-      "close": "17:00",
-      "last_entry": "16:00"
-    }
-  ],
-  "closed_weekdays": [
-    "tue"
-  ],
-  "holiday_rule": "unknown",
-  "special_closures": [
-    {
-      "from": "2026-12-25",
-      "to": "2027-01-04",
-      "reason": "年末年始"
-    }
-  ],
-  "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "常設展（幕末から現代の地方ゆかりの絵画・仏教美術・民俗資料）",
-      "start": "2026-01-01",
-      "end": "2027-09-30",
-      "url": null,
-      "kind": "collection",
-      "summary": "幕末から現代にかけて地方にゆかりのある画家たちの絵画・掛軸、仏教美術、民俗資料を常時展示。通年",
-      "recommend": null,
-      "admission": "大人 500円、学生 400円",
-      "adult_price": 500
-    }
-  ],
-  "adult_price": 500,
-  "access": [
-    {
-      "station": "秩父",
-      "lines": "秩父鉄道秩父本線",
-      "exit": null,
-      "walk_min": 15,
-      "note": null
-    }
-  ],
-  "highlights": "秩父の地にゆかりのある幕末から現代の画家たちの絵画・掛軸と仏教美術・民俗資料を収蔵・展示する地域密着型の美術館。仏教資料館も併設し、地域の文化遺産を幅広く紹介する。公募展「秩父美術館賞」も定期的に開催。",
-  "closed_between_exhibitions": false,
-  "notes": "公式サイト（http://www.chichibumuseum.com/）は自己署名証明書のためWebFetchでアクセス不可。開館時間・休館日・入館料はインターネットミュージアムおよび検索結果から取得。祝日の扱いは確認できなかったため holiday_rule を unknown とした。 10/10: 公式は引き続き証明書エラー。検索結果で休館日(火曜・12/25〜1/4)と時間が一致、新たな休館告知なし。 10/23: 公式サイトは引き続き証明書エラーで読めず、前回の値を維持。 10/30: 公式サイトは証明書エラーで読めず、検索でも新情報なし。前回の値を維持。 11/7: curl で公式トップ・案内・ギャラリーを読めた。開館時間・休館日（火曜・12/25〜1/4）・入館料に変更なし、企画展示会のお知らせなし、祝日の扱いは記載なし。 11/13: curl で公式トップを読み、開館時間・休館日・入館料に変更なし、新しいお知らせなし。",
-  "confidence": "medium"
+ "id": "wp-78342475",
+ "checked_at": "2026-11-20T09:00:00+09:00",
+ "check_mode": "light",
+ "operating_status": "operating",
+ "status_note": null,
+ "official_url": "http://www.chichibumuseum.com/",
+ "address": "〒368-0013 埼玉県秩父市永田町7-1",
+ "source_urls": [
+  "http://www.chichibumuseum.com/",
+  "https://www.museum.or.jp/museum/1942",
+  "https://www.jalan.net/kankou/spt_11207cc3300033907/"
+ ],
+ "regular_hours": [
+  {
+   "days": [
+    "mon",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun",
+    "holiday"
+   ],
+   "open": "10:00",
+   "close": "17:00",
+   "last_entry": "16:00"
+  }
+ ],
+ "closed_weekdays": [
+  "tue"
+ ],
+ "holiday_rule": "unknown",
+ "special_closures": [
+  {
+   "from": "2026-12-25",
+   "to": "2027-01-04",
+   "reason": "年末年始"
+  }
+ ],
+ "special_openings": [],
+ "exhibitions": [
+  {
+   "title": "常設展（幕末から現代の地方ゆかりの絵画・仏教美術・民俗資料）",
+   "start": "2026-01-01",
+   "end": "2027-09-30",
+   "url": null,
+   "kind": "collection",
+   "summary": "幕末から現代にかけて地方にゆかりのある画家たちの絵画・掛軸、仏教美術、民俗資料を常時展示。通年",
+   "recommend": null,
+   "admission": "大人 500円、学生 400円",
+   "adult_price": 500
+  }
+ ],
+ "adult_price": 500,
+ "access": [
+  {
+   "station": "秩父",
+   "lines": "秩父鉄道秩父本線",
+   "exit": null,
+   "walk_min": 15,
+   "note": null
+  }
+ ],
+ "highlights": "秩父の地にゆかりのある幕末から現代の画家たちの絵画・掛軸と仏教美術・民俗資料を収蔵・展示する地域密着型の美術館。仏教資料館も併設し、地域の文化遺産を幅広く紹介する。公募展「秩父美術館賞」も定期的に開催。",
+ "closed_between_exhibitions": false,
+ "notes": "公式サイト（http://www.chichibumuseum.com/）は自己署名証明書のためWebFetchでアクセス不可。開館時間・休館日・入館料はインターネットミュージアムおよび検索結果から取得。祝日の扱いは確認できなかったため holiday_rule を unknown とした。 10/10: 公式は引き続き証明書エラー。検索結果で休館日(火曜・12/25〜1/4)と時間が一致、新たな休館告知なし。 10/23: 公式サイトは引き続き証明書エラーで読めず、前回の値を維持。 10/30: 公式サイトは証明書エラーで読めず、検索でも新情報なし。前回の値を維持。 11/7: curl で公式トップ・案内・ギャラリーを読めた。開館時間・休館日（火曜・12/25〜1/4）・入館料に変更なし、企画展示会のお知らせなし、祝日の扱いは記載なし。 11/13: curl で公式トップを読み、開館時間・休館日・入館料に変更なし、新しいお知らせなし。 2026-11-20 light: 時間・休館日変更なし、新着お知らせなし。",
+ "confidence": "medium"
 }

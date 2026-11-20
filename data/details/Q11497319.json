@@ -1,81 +1,92 @@
 {
-  "id": "Q11497319",
-  "checked_at": "2026-11-13T07:50:00+09:00",
-  "check_mode": "light",
-  "operating_status": "operating",
-  "status_note": null,
-  "official_url": "https://www.shokoku-ji.jp/museum/",
-  "address": "〒602-0898 京都府京都市上京区今出川通烏丸東入",
-  "source_urls": [
-    "https://www.shokoku-ji.jp/museum/",
-    "https://www.shokoku-ji.jp/museum/access/",
-    "https://www.shokoku-ji.jp/museum/faq/",
-    "https://www.shokoku-ji.jp/museum/exhibition/"
-  ],
-  "regular_hours": [
-    {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
-      "open": "10:00",
-      "close": "17:00",
-      "last_entry": "16:30"
-    }
-  ],
-  "closed_weekdays": [],
-  "holiday_rule": "open",
-  "special_closures": [
-    {
-      "from": "2026-12-27",
-      "to": "2027-01-08",
-      "reason": "年末年始休館"
-    },
-    {
-      "from": "2027-02-15",
-      "to": "2027-02-19",
-      "reason": "展示替休館"
-    }
-  ],
-  "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "円山応挙と伊藤若冲",
-      "start": "2026-10-17",
-      "end": "2027-02-14",
-      "url": "https://www.shokoku-ji.jp/museum/exhibition/okyo-jakuchu2026/",
-      "kind": "special",
-      "summary": "十八世紀の京都画壇を牽引した円山応挙と伊藤若冲を紹介。Ⅰ期（〜2027/2/14）とⅡ期（2027/2/20〜6/20）の2部制",
-      "recommend": "写実を極めた応挙の代表作《七難七福図巻》と、若冲が筋目描など超絶技巧を駆使した大書院障壁画五十面を一挙公開。静と動、写実と装飾という対照的な二巨匠の極致を一堂に体感できる。",
-      "admission": "一般 1,000円",
-      "adult_price": 1000
-    }
-  ],
-  "adult_price": null,
-  "closed_between_exhibitions": true,
-  "access": [
-    {
-      "station": "今出川",
-      "lines": "京都市営地下鉄烏丸線",
-      "exit": null,
-      "walk_min": 10,
-      "note": null
-    },
-    {
-      "station": "烏丸今出川",
-      "lines": "京都市バス 51・59・201・203・急102系統",
-      "exit": null,
-      "walk_min": 10,
-      "note": "バス停下車後徒歩約10分"
-    }
-  ],
-  "highlights": "臨済宗相国寺派の相国寺・金閣寺・銀閣寺が所蔵する美術品を公開する美術館。円山応挙や伊藤若冲ら江戸期の名品から、若冲が鹿苑寺大書院のために描いた障壁画まで、禅寺ならではの文化財に出会える",
-  "notes": "初回巡回。「円山応挙と伊藤若冲」はⅠ期（2026/10/17〜2027/2/14）とⅡ期（2027/2/20〜2027/6/20）の2部制で、Ⅱ期（2027/2/20〜6/20）は3か月以内に始まらないため exhibitions にはⅠ期のみ記載。常設コレクションが無く企画展ごとの拝観料のため館共通の adult_price は null、closed_between_exhibitions は true（展示替期間は休館）。前回の「後水尾院の京」展（〜9/27）は会期終了のため掲載しない。",
-  "confidence": "high"
+ "id": "Q11497319",
+ "checked_at": "2026-11-20T09:10:00+09:00",
+ "check_mode": "light",
+ "operating_status": "operating",
+ "status_note": null,
+ "official_url": "https://www.shokoku-ji.jp/museum/",
+ "address": "〒602-0898 京都府京都市上京区今出川通烏丸東入",
+ "source_urls": [
+  "https://www.shokoku-ji.jp/museum/",
+  "https://www.shokoku-ji.jp/museum/access/",
+  "https://www.shokoku-ji.jp/museum/faq/",
+  "https://www.shokoku-ji.jp/museum/exhibition/"
+ ],
+ "regular_hours": [
+  {
+   "days": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun",
+    "holiday"
+   ],
+   "open": "10:00",
+   "close": "17:00",
+   "last_entry": "16:30"
+  }
+ ],
+ "closed_weekdays": [],
+ "holiday_rule": "open",
+ "special_closures": [
+  {
+   "from": "2026-12-27",
+   "to": "2027-01-08",
+   "reason": "年末年始休館"
+  },
+  {
+   "from": "2027-02-15",
+   "to": "2027-02-19",
+   "reason": "展示替休館"
+  }
+ ],
+ "special_openings": [],
+ "exhibitions": [
+  {
+   "title": "円山応挙と伊藤若冲",
+   "start": "2026-10-17",
+   "end": "2027-02-14",
+   "url": "https://www.shokoku-ji.jp/museum/exhibition/okyo-jakuchu2026/",
+   "kind": "special",
+   "summary": "十八世紀の京都画壇を牽引した円山応挙と伊藤若冲を紹介。Ⅰ期（〜2027/2/14）とⅡ期（2027/2/20〜6/20）の2部制",
+   "recommend": "写実を極めた応挙の代表作《七難七福図巻》と、若冲が筋目描など超絶技巧を駆使した大書院障壁画五十面を一挙公開。静と動、写実と装飾という対照的な二巨匠の極致を一堂に体感できる。",
+   "admission": "一般 1,000円",
+   "adult_price": 1000
+  },
+  {
+   "title": "円山応挙と伊藤若冲 Ⅱ期",
+   "start": "2027-02-20",
+   "end": "2027-06-20",
+   "url": "https://www.shokoku-ji.jp/museum/exhibition/okyo-jakuchu2026/",
+   "kind": "special",
+   "summary": "十八世紀の京都画壇を牽引した円山応挙と伊藤若冲を紹介。Ⅰ期（〜2027/2/14）とⅡ期（2027/2/20〜6/20）の2部制",
+   "recommend": null,
+   "admission": "一般 1,000円",
+   "adult_price": 1000
+  }
+ ],
+ "adult_price": null,
+ "closed_between_exhibitions": true,
+ "access": [
+  {
+   "station": "今出川",
+   "lines": "京都市営地下鉄烏丸線",
+   "exit": null,
+   "walk_min": 10,
+   "note": null
+  },
+  {
+   "station": "烏丸今出川",
+   "lines": "京都市バス 51・59・201・203・急102系統",
+   "exit": null,
+   "walk_min": 10,
+   "note": "バス停下車後徒歩約10分"
+  }
+ ],
+ "highlights": "臨済宗相国寺派の相国寺・金閣寺・銀閣寺が所蔵する美術品を公開する美術館。円山応挙や伊藤若冲ら江戸期の名品から、若冲が鹿苑寺大書院のために描いた障壁画まで、禅寺ならではの文化財に出会える",
+ "notes": "初回巡回。「円山応挙と伊藤若冲」はⅠ期（2026/10/17〜2027/2/14）とⅡ期（2027/2/20〜2027/6/20）の2部制で、Ⅱ期（2027/2/20〜6/20）は3か月以内に始まらないため exhibitions にはⅠ期のみ記載。常設コレクションが無く企画展ごとの拝観料のため館共通の adult_price は null、closed_between_exhibitions は true（展示替期間は休館）。前回の「後水尾院の京」展（〜9/27）は会期終了のため掲載しない。 2026-11-20 light: 年末年始休館12/27〜1/8、展示替休館2/15〜2/19に変更なし。Ⅱ期(2027/2/20〜6/20)を追加。",
+ "confidence": "high"
 }

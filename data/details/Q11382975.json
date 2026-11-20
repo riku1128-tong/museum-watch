@@ -1,100 +1,100 @@
 {
- "id": "Q11382975",
- "checked_at": "2026-11-13T07:50:00+09:00",
- "check_mode": "light",
- "operating_status": "operating",
- "status_note": null,
- "official_url": "https://www.city.sakura.lg.jp/sakura/museum/",
- "address": "〒285-0023 千葉県佐倉市新町210",
- "source_urls": [
-  "https://www.city.sakura.lg.jp/sakura/museum/",
-  "https://www.city.sakura.lg.jp/sakura/museum/access.html",
-  "https://www.city.sakura.lg.jp/sakura/museum/exhibition/schedule.html",
-  "https://www.city.sakura.lg.jp/sakura/museum/exhibition/2026/202610imamuratunemi.html"
- ],
- "regular_hours": [
-  {
-   "days": [
-    "mon",
-    "tue",
-    "wed",
-    "thu",
-    "fri",
-    "sat",
-    "sun",
-    "holiday"
-   ],
-   "open": "10:00",
-   "close": "18:00",
-   "last_entry": "17:30"
-  }
- ],
- "closed_weekdays": [
-  "mon"
- ],
- "holiday_rule": "open_next_weekday_closed",
- "special_closures": [
-  {
-   "from": "2026-12-28",
-   "to": "2027-01-04",
-   "reason": "年末年始休館"
-  }
- ],
- "special_openings": [],
- "exhibitions": [
-  {
-   "title": "歿後30年　挿絵画家・今村恒美　あこがれの江戸展",
-   "start": "2026-10-31",
-   "end": "2026-12-20",
-   "url": "https://www.city.sakura.lg.jp/sakura/museum/exhibition/2026/202610imamuratunemi.html",
-   "kind": "special",
-   "summary": "挿絵画家・今村恒美の歿後30年を記念した初の大規模回顧展",
-   "recommend": "横溝正史や野村胡堂など人気作家の挿絵で知られた今村恒美。利き手を病で失いながらも左手で描き続けた寄席プログラムの表紙絵などから、あこがれた江戸風俗への思いをたどれる。",
-   "admission": "一般 800円",
-   "adult_price": 800
-  },
-  {
-   "title": "第43回新春佐倉美術展",
-   "start": "2027-01-05",
-   "end": "2027-01-17",
-   "url": "https://www.city.sakura.lg.jp/sakura/museum/exhibition/2026/202701sinsyunten.html",
-   "kind": "special",
-   "summary": null,
-   "recommend": null,
-   "admission": null,
-   "adult_price": null
-  },
-  {
-   "title": "醫風一変－佐倉・長崎・オランダ　仁を尽くした幕末の医師たち",
-   "start": "2027-01-23",
-   "end": "2027-03-22",
-   "url": "https://www.city.sakura.lg.jp/sakura/museum/exhibition/2026/202701ifuuippen.html",
-   "kind": "special",
-   "summary": "佐倉・長崎・オランダをつないだ幕末の医師たちを紹介",
-   "recommend": null,
-   "admission": null,
-   "adult_price": null
-  }
- ],
- "adult_price": null,
- "access": [
-  {
-   "station": "京成佐倉",
-   "lines": "京成本線",
-   "exit": "南口",
-   "walk_min": 8,
-   "note": "京成バスで約5分、「佐倉市立美術館」バス停下車すぐ"
-  },
-  {
-   "station": "佐倉",
-   "lines": "JR総武本線",
-   "exit": "北口",
-   "walk_min": 20,
-   "note": "京成バスで約10分、「二番町」バス停下車徒歩1分"
-  }
- ],
- "highlights": "千葉県佐倉市の歴史的建造物・旧川崎銀行佐倉支店（千葉県指定有形文化財）を活用した美術館。佐倉・房総ゆかりの作家の近現代美術作品を収蔵し、対話型鑑賞プロジェクト「ミテ・ハナソウ」やコンサートなど多彩な活動を展開する。カフェ「APRON MARK」も備える。",
- "closed_between_exhibitions": false,
- "notes": "観覧料は展覧会ごとに設定（館の共通入館料なし）。2026/9/21の台風25号による臨時休館は既に1週間以上前のため special_closures に含めず。9/28〜10/30は次回展の準備期間とみられるが、休館の告知は確認できず。 2026-10-30再確認: 休館日・時間に変更なし。新春展と醫風一変を追加（料金は未掲載）。",
- "confidence": "high"
+  "id": "Q11382975",
+  "checked_at": "2026-11-20T09:00:00+09:00",
+  "check_mode": "light",
+  "operating_status": "operating",
+  "status_note": null,
+  "official_url": "https://www.city.sakura.lg.jp/sakura/museum/",
+  "address": "〒285-0023 千葉県佐倉市新町210",
+  "source_urls": [
+    "https://www.city.sakura.lg.jp/sakura/museum/",
+    "https://www.city.sakura.lg.jp/sakura/museum/access.html",
+    "https://www.city.sakura.lg.jp/sakura/museum/exhibition/schedule.html",
+    "https://www.city.sakura.lg.jp/sakura/museum/exhibition/2026/202610imamuratunemi.html"
+  ],
+  "regular_hours": [
+    {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri",
+        "sat",
+        "sun",
+        "holiday"
+      ],
+      "open": "10:00",
+      "close": "18:00",
+      "last_entry": "17:30"
+    }
+  ],
+  "closed_weekdays": [
+    "mon"
+  ],
+  "holiday_rule": "open_next_weekday_closed",
+  "special_closures": [
+    {
+      "from": "2026-12-28",
+      "to": "2027-01-04",
+      "reason": "年末年始休館"
+    }
+  ],
+  "special_openings": [],
+  "exhibitions": [
+    {
+      "title": "歿後30年　挿絵画家・今村恒美　あこがれの江戸展",
+      "start": "2026-10-31",
+      "end": "2026-12-20",
+      "url": "https://www.city.sakura.lg.jp/sakura/museum/exhibition/2026/202610imamuratunemi.html",
+      "kind": "special",
+      "summary": "挿絵画家・今村恒美の歿後30年を記念した初の大規模回顧展",
+      "recommend": "横溝正史や野村胡堂など人気作家の挿絵で知られた今村恒美。利き手を病で失いながらも左手で描き続けた寄席プログラムの表紙絵などから、あこがれた江戸風俗への思いをたどれる。",
+      "admission": "一般 800円",
+      "adult_price": 800
+    },
+    {
+      "title": "第43回新春佐倉美術展",
+      "start": "2027-01-05",
+      "end": "2027-01-17",
+      "url": "https://www.city.sakura.lg.jp/sakura/museum/exhibition/2026/202701sinsyunten.html",
+      "kind": "special",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "醫風一変－佐倉・長崎・オランダ　仁を尽くした幕末の医師たち",
+      "start": "2027-01-23",
+      "end": "2027-03-22",
+      "url": "https://www.city.sakura.lg.jp/sakura/museum/exhibition/2026/202701ifuuippen.html",
+      "kind": "special",
+      "summary": "佐倉・長崎・オランダをつないだ幕末の医師たちを紹介",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    }
+  ],
+  "adult_price": null,
+  "access": [
+    {
+      "station": "京成佐倉",
+      "lines": "京成本線",
+      "exit": "南口",
+      "walk_min": 8,
+      "note": "京成バスで約5分、「佐倉市立美術館」バス停下車すぐ"
+    },
+    {
+      "station": "佐倉",
+      "lines": "JR総武本線",
+      "exit": "北口",
+      "walk_min": 20,
+      "note": "京成バスで約10分、「二番町」バス停下車徒歩1分"
+    }
+  ],
+  "highlights": "千葉県佐倉市の歴史的建造物・旧川崎銀行佐倉支店（千葉県指定有形文化財）を活用した美術館。佐倉・房総ゆかりの作家の近現代美術作品を収蔵し、対話型鑑賞プロジェクト「ミテ・ハナソウ」やコンサートなど多彩な活動を展開する。カフェ「APRON MARK」も備える。",
+  "closed_between_exhibitions": false,
+  "notes": "観覧料は展覧会ごとに設定（館の共通入館料なし）。2026/9/21の台風25号による臨時休館は既に1週間以上前のため special_closures に含めず。9/28〜10/30は次回展の準備期間とみられるが、休館の告知は確認できず。 2026-10-30再確認: 休館日・時間に変更なし。新春展と醫風一変を追加（料金は未掲載）。 【2026-11-20 light】変更なし。「みんなのミュージアム・ノート展」が12/1〜12/6に会期変更（会場・料金は未確認のため未掲載）。",
+  "confidence": "high"
 }

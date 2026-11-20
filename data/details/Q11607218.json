@@ -1,7 +1,7 @@
 {
   "id": "Q11607218",
-  "checked_at": "2026-11-13T07:35:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-20T08:45:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.abashiri.hokkaido.jp/site/artmuseum/",
@@ -83,6 +83,6 @@
   ],
   "highlights": "1972年に地元画家・居串佳一の油絵遺作38点の寄贈を機に開館した、北海道で2番目の歴史を持つ市立美術館。居串佳一をはじめ網走・オホーツクゆかりの作家の作品を収蔵し、地域の風土に根ざした常設展示と多彩な企画展を年間を通じて開催する。",
   "closed_between_exhibitions": false,
-  "notes": "開館時間は火曜日〜日曜日 10:00〜16:00。月曜日・国民の祝日・年末年始（12/29〜1/3）は休館。企画展開催時は別途入館料が設定される。last_entryは公式サイトに明記なし。",
+  "notes": "開館時間は火曜日〜日曜日 10:00〜16:00。月曜日・国民の祝日・年末年始（12/29〜1/3）は休館。企画展開催時は別途入館料が設定される。last_entryは公式サイトに明記なし。 2026-11-20 light: 変化なし（写真道展 11/28〜12/20 登録済み）。",
   "confidence": "high"
 }

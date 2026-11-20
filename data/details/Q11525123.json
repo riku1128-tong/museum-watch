@@ -1,7 +1,7 @@
 {
   "id": "Q11525123",
-  "checked_at": "2026-11-13T07:32:51+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-20T06:15:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://museum.geidai.ac.jp/",
@@ -10,13 +10,10 @@
     "https://museum.geidai.ac.jp/",
     "https://museum.geidai.ac.jp/information/",
     "https://museum.geidai.ac.jp/exhibit/",
-    "https://museum.geidai.ac.jp/exhibit/2026/10/mikamiryo.html",
-    "https://museum.geidai.ac.jp/exhibit/2026/10/furukawakiyoshi.html",
-    "https://museum.geidai.ac.jp/exhibit/2026/11/bunponichi26.html",
-    "https://museum.geidai.ac.jp/exhibit/2026/10/design-sanwa.html",
     "https://museum.geidai.ac.jp/exhibit/2026/11/gmk2026.html",
     "https://museum.geidai.ac.jp/exhibit/2026/11/chinese-students2026.html",
-    "https://museum.geidai.ac.jp/exhibit/2025/04/Toride-Annex-Storage.html"
+    "https://museum.geidai.ac.jp/exhibit/2025/04/Toride-Annex-Storage.html",
+    "https://museum.geidai.ac.jp/exhibit/2026/11/2026toride-geisai.html"
   ],
   "regular_hours": [
     {
@@ -41,30 +38,22 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "ブンポニチ／⽂保⽇・展2026",
-      "start": "2026-11-11",
-      "end": "2026-11-15",
-      "url": "https://museum.geidai.ac.jp/exhibit/2026/11/bunponichi26.html",
-      "kind": "special",
-      "summary": "保存修復日本画研究室の学生・教員による研究成果を基にした創作展（陳列館2階）",
-      "recommend": null,
-      "admission": "無料",
+      "title": "「魅せる収蔵庫」＋バックヤードツアー【事前予約制】",
+      "start": "2026-04-21",
+      "end": "2027-03-30",
+      "url": "https://museum.geidai.ac.jp/exhibit/2025/04/Toride-Annex-Storage.html",
+      "kind": "other",
+      "summary": "取手館・取手収蔵棟で毎週火曜に実施（13:00・15:00の2回、各12名、祝日休み）。収蔵庫の公開とガイドツアー",
+      "recommend": "普段は見られない収蔵庫を窓越しに見学でき、日本画・油画・彫刻・工芸など藝大の多彩な作品の保管の様子に触れられる。卒業制作の自画像買い上げの伝統も知れる。",
+      "admission": "無料（要予約）",
       "adult_price": 0,
       "hours": [
         {
           "days": [
-            "mon",
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun",
-            "holiday"
+            "tue"
           ],
-          "open": "10:00",
-          "close": "17:00",
-          "last_entry": "16:30"
+          "open": "13:00",
+          "close": "16:00"
         }
       ]
     },
@@ -81,6 +70,32 @@
       "closed_dates": [
         "2026-11-30"
       ]
+    },
+    {
+      "title": "東京藝術大学と中国人留学生〜胡根天から現代まで〜展",
+      "start": "2026-11-21",
+      "end": "2026-12-05",
+      "url": "https://museum.geidai.ac.jp/exhibit/2026/11/chinese-students2026.html",
+      "kind": "special",
+      "summary": "東京藝大で学んだ中国人留学生の足跡を胡根天から現代まで紹介。デジタルアーカイブも公開（陳列館）",
+      "recommend": "1915年に東京美術学校に留学した胡根天から現代の留学生まで、100年余の交流を辿る。大型スクリーンのデジタルアーカイブで留学生の在学歴・専攻を可視化する試みも見どころ。",
+      "admission": "無料",
+      "adult_price": 0,
+      "closed_dates": [
+        "2026-11-24",
+        "2026-11-30"
+      ]
+    },
+    {
+      "title": "取手藝祭2026",
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "url": "https://museum.geidai.ac.jp/exhibit/2026/11/2026toride-geisai.html",
+      "kind": "special",
+      "summary": "取手校地の学生作品を取手館多目的ホールに集めた展示。会期中無休（取手館）",
+      "recommend": "専攻の違う学生の作品が一つの空間に並び、取手校地ならではの多様な制作が交差する。利根川沿いの校地を歩きながら藝大の普段の営みに触れられ、入場無料。",
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "東京藝術大学大学院美術研究科 博士審査展2026",
@@ -109,41 +124,6 @@
           "last_entry": "16:30"
         }
       ]
-    },
-    {
-      "title": "東京藝術大学と中国人留学生〜胡根天から現代まで〜展",
-      "start": "2026-11-21",
-      "end": "2026-12-05",
-      "url": "https://museum.geidai.ac.jp/exhibit/2026/11/chinese-students2026.html",
-      "kind": "special",
-      "summary": "東京藝大で学んだ中国人留学生の足跡を胡根天から現代まで紹介。デジタルアーカイブも公開（陳列館）",
-      "recommend": "1915年に東京美術学校に留学した胡根天から現代の留学生まで、100年余の交流を辿る。大型スクリーンのデジタルアーカイブで留学生の在学歴・専攻を可視化する試みも見どころ。",
-      "admission": "無料",
-      "adult_price": 0,
-      "closed_dates": [
-        "2026-11-24",
-        "2026-11-30"
-      ]
-    },
-    {
-      "title": "「魅せる収蔵庫」＋バックヤードツアー【事前予約制】",
-      "start": "2026-04-21",
-      "end": "2027-03-30",
-      "url": "https://museum.geidai.ac.jp/exhibit/2025/04/Toride-Annex-Storage.html",
-      "kind": "other",
-      "summary": "取手館・取手収蔵棟で毎週火曜に実施（13:00・15:00の2回、各12名、祝日休み）。収蔵庫の公開とガイドツアー",
-      "recommend": "普段は見られない収蔵庫を窓越しに見学でき、日本画・油画・彫刻・工芸など藝大の多彩な作品の保管の様子に触れられる。卒業制作の自画像買い上げの伝統も知れる。",
-      "admission": "無料（要予約）",
-      "adult_price": 0,
-      "hours": [
-        {
-          "days": [
-            "tue"
-          ],
-          "open": "13:00",
-          "close": "16:00"
-        }
-      ]
     }
   ],
   "adult_price": null,
@@ -165,6 +145,6 @@
   ],
   "highlights": "東京藝術大学附属の大学美術館で、上野公園内に位置する。教員の退任記念展や学生・修了生の研究発表など、藝大の教育・研究活動と直結した展覧会を年間を通じて開催。陳列館・正木記念館など複数の建物を使い分けた多彩なプログラムが魅力で、入場無料の展覧会が多い。",
   "closed_between_exhibitions": true,
-  "notes": "展覧会の開催会期以外は閉館。開館時間・観覧料は展覧会ごとに異なるが、現行展示はすべて10:00〜17:00・無料。【2026-10-10 light確認】iichiko PERSON AWARD(10/23-25)・芸術未来研究場展2026(11/20-12/2)・東京藝大と中国人留学生展の詳細URL・closed_dates を追加更新。 【2026-10-23確認】三上亮退任記念展は終了のため削除。重要事項の変更なし。 【2026-10-30確認】iichiko展(10/23-25)は終了のため削除。取手館の「魅せる収蔵庫」(毎週火曜・予約制・無料)を追加。2027-03-27開幕の出光コレクション展は3か月超先のため未登録。 【2026-11-07 light】博士審査展2026(12/14-12/22・無料・会期中無休)を追加。古川聖展は11/8終了。 【2026-11-13 light】古川聖展は11/8終了のため削除。",
+  "notes": "展覧会の開催会期以外は閉館。開館時間・観覧料は展覧会ごとに異なるが、現行展示はすべて10:00〜17:00・無料。【2026-10-10 light確認】iichiko PERSON AWARD(10/23-25)・芸術未来研究場展2026(11/20-12/2)・東京藝大と中国人留学生展の詳細URL・closed_dates を追加更新。 【2026-10-23確認】三上亮退任記念展は終了のため削除。重要事項の変更なし。 【2026-10-30確認】iichiko展(10/23-25)は終了のため削除。取手館の「魅せる収蔵庫」(毎週火曜・予約制・無料)を追加。2027-03-27開幕の出光コレクション展は3か月超先のため未登録。 【2026-11-07 light】博士審査展2026(12/14-12/22・無料・会期中無休)を追加。古川聖展は11/8終了。 【2026-11-13 light】古川聖展は11/8終了のため削除。 【2026-11-20 full】ブンポニチ展(11/15終了)を削除。取手藝祭2026(11/21-22・取手館・無料)を追加。",
   "confidence": "high"
 }

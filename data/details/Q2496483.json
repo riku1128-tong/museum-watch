@@ -1,18 +1,19 @@
 {
   "id": "Q2496483",
-  "checked_at": "2026-11-13T07:45:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-20T08:50:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://moak.jp/",
   "address": "〒781-8123 高知県高知市高須353-2",
   "source_urls": [
     "https://moak.jp/",
-    "https://moak.jp/guide/",
+    "https://moak.jp/event/collection/",
     "https://moak.jp/event/exhibitions/",
-    "https://moak.jp/event/exhibitions/post_591.html",
     "https://moak.jp/event/exhibitions/artistfocus_06.html",
-    "https://moak.jp/event/collection/"
+    "https://moak.jp/event/exhibitions/post_591.html",
+    "https://moak.jp/guide/",
+    "https://moak.jp/news/"
   ],
   "regular_hours": [
     {
@@ -65,28 +66,22 @@
       "adult_price": 400
     },
     {
-      "title": "コレクション・アラカルト③ ジャン=ミシェル・バスキア《フーイー》など",
-      "start": "2026-09-15",
-      "end": "2026-11-15",
+      "title": "コレクション・アラカルト④ ベルンハルト・ヘトガー《具象的コンポジション》など",
+      "start": "2026-11-17",
+      "end": "2027-01-11",
       "url": "https://moak.jp/event/collection/",
       "kind": "collection",
-      "summary": "バスキア《フーイー》などコレクションから選んだ作品を展示。10/19〜30は休室",
+      "summary": "ヘトガー《具象的コンポジション》などコレクションから選んだ作品を展示。12/27〜1/1は休室",
       "recommend": null,
       "admission": "一般 400円",
       "adult_price": 400,
       "closed_dates": [
-        "2026-10-19",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-22",
-        "2026-10-23",
-        "2026-10-24",
-        "2026-10-25",
-        "2026-10-26",
-        "2026-10-27",
-        "2026-10-28",
-        "2026-10-29",
-        "2026-10-30"
+        "2026-12-27",
+        "2026-12-28",
+        "2026-12-29",
+        "2026-12-30",
+        "2026-12-31",
+        "2027-01-01"
       ]
     },
     {
@@ -95,7 +90,7 @@
       "end": "2027-03-28",
       "url": "https://moak.jp/event/collection/",
       "kind": "collection",
-      "summary": "写真家・石元泰博のコレクション展（出版記念）",
+      "summary": "写真家・石元泰博のコレクション展（出版記念）。2期は11/18から",
       "recommend": null,
       "admission": "一般 400円",
       "adult_price": 400
@@ -110,6 +105,17 @@
       "recommend": null,
       "admission": null,
       "adult_price": null
+    },
+    {
+      "title": "コレクション・テーマ展 深掘り！ 山脇信徳",
+      "start": "2027-01-23",
+      "end": "2027-02-27",
+      "url": "https://moak.jp/event/collection/",
+      "kind": "collection",
+      "summary": "高知出身の洋画家・山脇信徳のスケッチなどを紹介",
+      "recommend": null,
+      "admission": "一般 400円",
+      "adult_price": 400
     }
   ],
   "adult_price": 400,
@@ -134,6 +140,6 @@
   ],
   "highlights": "高知市に位置する高知県唯一の県立美術館。マルク・シャガールの版画コレクションや幕末土佐の奇才・絵金の芝居絵屏風など、国内外の近現代美術から郷土文化まで幅広く収蔵する。映像・現代美術の企画展も積極的に開催し、路面電車でアクセスしやすい。",
   "closed_between_exhibitions": false,
-  "notes": "年中無休（年末年始12/27〜1/1のみ休館）。コレクション展は一般400円、企画展は別途料金（絵金展は当日1,500円）。11/3（文化の日・開館記念日）は無料。2026年10月時点、特集展示（〜9/22）終了後で次の企画展（10/31）まで展示替え期間の可能性あり（コレクション常設の詳細は未確認）。 コレクション展はアラカルト③(〜11/15、10/19〜30は展示替えで休室)と石元泰博展が開催中。 2026-11-13 light確認: 変更なし。",
+  "notes": "年中無休（年末年始12/27〜1/1のみ休館）。コレクション展は一般400円、企画展は別途料金（絵金展は当日1,500円）。11/3（文化の日・開館記念日）は無料。2026年10月時点、特集展示（〜9/22）終了後で次の企画展（10/31）まで展示替え期間の可能性あり（コレクション常設の詳細は未確認）。 コレクション展はアラカルト③(〜11/15、10/19〜30は展示替えで休室)と石元泰博展が開催中。 2026-11-13 light確認: 変更なし。 2026-11-20 full確認: アラカルト③は11/15で終了、④が11/17〜1/11。企画展は絵金展・中山晃子展が開催中、大木裕之展は2027/1/23開幕。臨時休館の新告知なし。",
   "confidence": "high"
 }

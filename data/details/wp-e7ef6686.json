@@ -1,6 +1,6 @@
 {
   "id": "wp-e7ef6686",
-  "checked_at": "2026-11-13T07:50:00+09:00",
+  "checked_at": "2026-11-20T08:50:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -50,6 +50,17 @@
       "recommend": "開館以来蒐集してきた地域ゆかりの作家を核に、近年加わった多彩な9人の新収蔵作品を一堂に初お披露目。板谷波山や森田茂とは異なる個性的な表現との出会いが楽しめる",
       "admission": "一般500円（団体10人以上450円）",
       "adult_price": 500
+    },
+    {
+      "title": "没後30年 久保貞次郎とは何者だったのか？",
+      "start": "2026-12-12",
+      "end": "2027-01-31",
+      "url": "https://www.city.chikusei.lg.jp/museum/press-release/page014258.html",
+      "kind": "special",
+      "summary": "真岡市所蔵の久保コレクションから、美術評論家・久保貞次郎の没後30年を振り返る共同巡回展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "closed_between_exhibitions": false,

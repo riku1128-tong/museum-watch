@@ -1,7 +1,7 @@
 {
   "id": "Q110245475",
-  "checked_at": "2026-11-13T07:40:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-20T08:45:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://nagano.art.museum/",
@@ -11,13 +11,13 @@
     "https://nagano.art.museum/access/",
     "https://nagano.art.museum/exhibition/",
     "https://nagano.art.museum/exhibition/future",
-    "https://nagano.art.museum/exhibition/namcollection2026_2",
     "https://nagano.art.museum/exhibition/higashiyama2026_2",
     "https://nagano.art.museum/exhibition/exhibit_1791767557",
     "https://nagano.art.museum/exhibition/artlab2026_3_nishimura",
     "https://nagano.art.museum/exhibition/exhibit2026_Kandinsky",
     "https://nagano.art.museum/exhibition/higashiyama2026_3",
-    "https://nagano.art.museum/exhibition/exhibit2026_tatsuno"
+    "https://nagano.art.museum/exhibition/exhibit2026_tatsuno",
+    "https://nagano.art.museum/exhibition/namcollection2026_3"
   ],
   "regular_hours": [
     {
@@ -48,17 +48,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "NAMコレクション2026 第Ⅱ期",
-      "start": "2026-08-21",
-      "end": "2026-11-17",
-      "url": "https://nagano.art.museum/exhibition/namcollection2026_2",
-      "kind": "collection",
-      "summary": "新収蔵作家・梅津庸一（ドローイング・陶芸・映像）と中ザワヒデキを中心に、長野ゆかりの工芸・風景画とともに紹介",
-      "recommend": "多領域で活動する梅津庸一の新収蔵15点と、方法理論で知られる中ザワヒデキの作品を初公開。長野の自然を描いた松井康成ら工芸作家との対話も見どころ",
-      "admission": "一般700円",
-      "adult_price": 700
-    },
     {
       "title": "映像作品上映",
       "start": "2026-04-01",
@@ -104,12 +93,23 @@
       "adult_price": 1200
     },
     {
-      "title": "NAMコレクション2026 第Ⅲ期",
+      "title": "NAMコレクション2026 第Ⅲ期 ―生誕110年 飯山市出身日本画家・長谷川青澄を紹介―",
       "start": "2026-11-19",
       "end": "2027-02-15",
       "url": "https://nagano.art.museum/exhibition/namcollection2026_3",
       "kind": "collection",
-      "summary": null,
+      "summary": "飯山市出身の日本画家・長谷川青澄の生誕110年を記念し、県展の歩みやカンディンスキーと関わる作家も紹介",
+      "recommend": "院展で活躍した長谷川青澄の《月（石山）》《京舞・花の旅》など、大胆な構成と重厚な絵肌の日本画が並ぶ。全信州美術展から続く県展の歴史や、カンディンスキー展と響き合う所蔵作家の作品も見られる。",
+      "admission": "一般700円",
+      "adult_price": 700
+    },
+    {
+      "title": "令和８年度第42回長野県高等学校書道展（併催 第49回長野県高等学校書道教員展）",
+      "start": "2026-11-27",
+      "end": "2026-11-29",
+      "url": "https://nagano.art.museum/exhibition/exhibit_1795047579",
+      "kind": "other",
+      "summary": "県内高校生の書道作品と教員作品を展示する公募展",
       "recommend": null,
       "admission": null,
       "adult_price": null
@@ -138,7 +138,15 @@
     }
   ],
   "adult_price": 700,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2027-01-28",
+      "to": "2027-02-09",
+      "scope": "collection",
+      "reason": "東山魁夷館メンテナンス休室に伴いコレクション展無料",
+      "source_url": "https://nagano.art.museum/exhibition/namcollection2026_3"
+    }
+  ],
   "free_rules": [],
   "access": [
     {
@@ -157,6 +165,6 @@
   ],
   "highlights": "善光寺の東隣、城山公園内に建つ県立美術館。プリツカー賞建築家・槇文彦が設計した本館と、東山魁夷の作品を専門に収蔵する東山魁夷館からなる。自然光を取り込む展示室で、信州ゆかりの現代美術や工芸から東山魁夷の繊細な風景画まで幅広く鑑賞できる。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は「水曜日（祝日の場合は翌平日）」。入館料は各展示共通700円（団体600円）。映像作品上映は土・日・祝日のみ（交流スペース）。アートラボ2026第Ⅲ期は無料。カンディンスキー展は一般1,200円（コレクション展との共通券あり）。 辰野登恵子展の観覧料は未定（決定次第公表）。 2026-10-30: 霧の彫刻は11/24から冬季休止。アートライブラリーは11/2・11/3臨時休室。 2026-11-07 トップを再確認（変更なし。障がいのある方のための特別鑑賞日11/11は中止）。 【2026-11-13 light】変更なし。",
+  "notes": "休館日は「水曜日（祝日の場合は翌平日）」。入館料は各展示共通700円（団体600円）。映像作品上映は土・日・祝日のみ（交流スペース）。アートラボ2026第Ⅲ期は無料。カンディンスキー展は一般1,200円（コレクション展との共通券あり）。 辰野登恵子展の観覧料は未定（決定次第公表）。 2026-10-30: 霧の彫刻は11/24から冬季休止。アートライブラリーは11/2・11/3臨時休室。 2026-11-07 トップを再確認（変更なし。障がいのある方のための特別鑑賞日11/11は中止）。  【2026-11-20 full】NAMコレクション第Ⅱ期は終了のため削除、第Ⅲ期の詳細（長谷川青澄）を追加。霧の彫刻は11/24から冬季休止。1/28〜2/9は東山魁夷館メンテナンス休室でコレクション展無料。",
   "confidence": "high"
 }

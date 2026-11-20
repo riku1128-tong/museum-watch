@@ -1,7 +1,7 @@
 {
   "id": "Q3077236",
-  "checked_at": "2026-11-13T07:45:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-20T08:50:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.tokugawa-art-museum.jp/",
@@ -12,7 +12,6 @@
     "https://www.tokugawa-art-museum.jp/news/",
     "https://www.tokugawa-art-museum.jp/exhibitions/",
     "https://www.tokugawa-art-museum.jp/exhibitions/genji2026/",
-    "https://www.tokugawa-art-museum.jp/exhibitions/tokimekuhako/",
     "https://www.tokugawa-art-museum.jp/exhibitions/tabi/"
   ],
   "regular_hours": [
@@ -45,28 +44,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "菊白露蒔絵婚礼調度（新指定重要文化財）特別公開",
-      "start": "2026-09-15",
-      "end": "2026-11-13",
-      "url": null,
-      "kind": "collection",
-      "summary": "新たに重要文化財に指定された「菊白露蒔絵婚礼調度」を特別公開するコレクション展示",
-      "recommend": null,
-      "admission": "一般2,000円",
-      "adult_price": 2000
-    },
-    {
-      "title": "ときめく箱",
-      "start": "2026-10-08",
-      "end": "2026-11-15",
-      "url": "https://www.tokugawa-art-museum.jp/exhibitions/tokimekuhako/",
-      "kind": "special",
-      "summary": "古代から現代に至る箱の美学と機能を紹介。青磁香炉「千鳥」・重要文化財「黒樂茶碗 時雨」など名品を展示",
-      "recommend": "「玉手箱」「箱入り娘」など日本人に馴染み深い箱をテーマに、装飾・意匠・箱書きを通じて時代を越えたメッセージを読み解く。初公開の「唐物丸壺茶入 銘 唐丸壺」も見どころ。",
-      "admission": "一般2,000円",
-      "adult_price": 2000
-    },
     {
       "title": "旅する侯爵 徳川義親",
       "start": "2026-10-08",
@@ -111,6 +88,6 @@
   ],
   "highlights": "徳川家康の9男・義直から受け継ぐ尾張徳川家の至宝を収蔵する名古屋の美術館。国宝9件（「源氏物語絵巻」「初音の調度」など）・重要文化財60件を含む1万件超のコレクションを誇り、刀剣・甲冑・能装束・茶道具など武家文化の精華が一堂に揃う。",
   "closed_between_exhibitions": false,
-  "notes": "月曜（祝日・振替休日の場合は直後の平日）休館。2026年12月14日〜2027年1月4日は展示替え・年末年始の長期休館。徳川美術館・蓬左文庫の共通入館料は一般2,000円。名品コレクション展示は常時開催。 2026-11-13 light: 変更なし。",
+  "notes": "月曜（祝日・振替休日の場合は直後の平日）休館。2026年12月14日〜2027年1月4日は展示替え・年末年始の長期休館。徳川美術館・蓬左文庫の共通入館料は一般2,000円。名品コレクション展示は常時開催。 2026-11-13 light: 変更なし。 2026-11-20 full: 終了した展示を削除。今後の展覧会（古写経 祈りの美、雛まつり、大名もあそぶ）は会期が3か月超先のため未登録。",
   "confidence": "high"
 }

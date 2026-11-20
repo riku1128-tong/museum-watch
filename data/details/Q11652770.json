@@ -1,6 +1,6 @@
 {
   "id": "Q11652770",
-  "checked_at": "2026-11-13T07:45:00+09:00",
+  "checked_at": "2026-11-20T06:55:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -17,7 +17,8 @@
     "https://www.nagasaki-museum.jp/archives/exhibition_post/31181",
     "https://www.nagasaki-museum.jp/archives/exhibition_post/31184",
     "https://www.nagasaki-museum.jp/archives/exhibition_post/31185",
-    "https://www.nagasaki-museum.jp/archives/exhibition_post/31186"
+    "https://www.nagasaki-museum.jp/archives/exhibition_post/31186",
+    "https://www.nagasaki-museum.jp/archives/gallery_post/31281"
   ],
   "regular_hours": [
     {
@@ -136,6 +137,33 @@
       "recommend": null,
       "admission": "一般 420円",
       "adult_price": 420
+    },
+    {
+      "title": "第75回長崎市民美術展（市展）",
+      "start": "2026-11-19",
+      "end": "2026-12-06",
+      "url": "https://www.nagasaki-museum.jp/archives/gallery_post/31281",
+      "kind": "other",
+      "summary": "市民による美術展。前期は日本画・洋画など、後期は南画・書・写真・工芸など（県民ギャラリー）",
+      "recommend": null,
+      "admission": "一般 300円",
+      "adult_price": 300,
+      "hours": [
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun",
+            "holiday"
+          ],
+          "open": "10:00",
+          "close": "18:00"
+        }
+      ]
     }
   ],
   "adult_price": 420,
@@ -159,6 +187,6 @@
   ],
   "highlights": "長崎ゆかりの美術とスペイン美術を両輪とする県立美術館。約9,000点を収蔵し、長崎出身の洋画家・彭城貞徳やシャガールのサーカスシリーズ、スペイン近現代美術が充実。出島の地に建ち、毎日夜8時まで開館するため観光後の訪問にも適している。",
   "closed_between_exhibitions": false,
-  "notes": "コレクション展一般420円。特別展（Hello Kitty展など）は別途料金。開館時間は通常10:00-20:00だが1/2-3は18:00まで。第2・第4月曜休館（祝日の場合は翌火曜休館）。年末年始12/29-1/1休館。 【2026-10-30 full】シャガール展は10/25で終了のため削除。10/24・25のイベント中止の告知があるが、美術館の休館ではない。無料観覧日の告知は日付が確認できず入れていない。",
+  "notes": "コレクション展一般420円。特別展（Hello Kitty展など）は別途料金。開館時間は通常10:00-20:00だが1/2-3は18:00まで。第2・第4月曜休館（祝日の場合は翌火曜休館）。年末年始12/29-1/1休館。 【2026-10-30 full】シャガール展は10/25で終了のため削除。10/24・25のイベント中止の告知があるが、美術館の休館ではない。無料観覧日の告知は日付が確認できず入れていない。 2026-11-20 light: 市展（11/19〜12/6、前期11/19〜27・後期11/29〜12/6）を追加。公式カレンダーの11/9・11/24休館は規則どおり。",
   "confidence": "high"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q117635320",
-  "checked_at": "2026-11-13T07:35:49+09:00",
+  "checked_at": "2026-11-20T08:35:05+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -62,6 +62,17 @@
       "kind": "special",
       "summary": "27回目の国際公募展。テーマ「酒器・酒盃台」の入賞・入選97作品を展示",
       "recommend": "応募251件のうち約3分の1が海外12か国から集まった国際公募展。用途をもつ酒器というテーマに、素材を生かした独自の表現で挑んだ入賞・入選97作品が並ぶ。初日は表彰式と審査員トークもある。",
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "旧村シリーズ18「鴻池・荻野―尼崎藩の支配と村の営み―」",
+      "start": "2027-01-16",
+      "end": "2027-02-21",
+      "url": "https://itami-im.jp/exhibitions/%e6%97%a7%e6%9d%91%e3%82%b7%e3%83%aa%e3%83%bc%e3%82%ba18%e3%80%8c%e9%b4%bb%e6%b1%a0%e3%83%bb%e8%8d%bb%e9%87%8e%e2%80%95%e5%b0%bc%e5%b4%8e%e8%97%a9%e3%81%ae%e6%94%af%e9%85%8d%e3%81%a8%e6%9d%91%e3%81%ae/",
+      "kind": "special",
+      "summary": "尼崎藩の支配と鴻池・荻野の村の営みを紹介（展示室5）",
+      "recommend": null,
       "admission": "無料",
       "adult_price": 0
     }

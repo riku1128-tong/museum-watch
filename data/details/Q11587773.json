@@ -1,7 +1,7 @@
 {
   "id": "Q11587773",
-  "checked_at": "2026-11-13T07:50:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-20T08:55:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.hekinan.lg.jp/museum/",
@@ -14,7 +14,8 @@
     "https://www.city.hekinan.lg.jp/museum/event_guide/kikakuten/23819.html",
     "https://www.city.hekinan.lg.jp/museum/event_guide/kikakuten/23830.html",
     "https://www.city.hekinan.lg.jp/museum/event_guide/kikakuten/23820.html",
-    "https://www.city.hekinan.lg.jp/museum/event_guide/kikakuten/24736.html"
+    "https://www.city.hekinan.lg.jp/museum/event_guide/kikakuten/24736.html",
+    "https://www.city.hekinan.lg.jp/museum/general_information/24766.html"
   ],
   "regular_hours": [
     {
@@ -94,7 +95,15 @@
     }
   ],
   "adult_price": 0,
-  "free_days": [],
+  "free_days": [
+    {
+      "from": "2026-11-27",
+      "to": "2026-11-27",
+      "scope": "all",
+      "reason": "あいち県民の日学校ホリデー（企画展2本とコレクション展が観覧無料）",
+      "source_url": "https://www.city.hekinan.lg.jp/museum/general_information/24766.html"
+    }
+  ],
   "free_rules": [],
   "access": [
     {
@@ -107,6 +116,6 @@
   ],
   "highlights": "碧南出身の近代日本美術のパイオニア・藤井達吉（1881-1964）の名を冠した美術館。油彩・水彩・工芸など幅広い分野で活躍した藤井の作品を核に、同時代・現代作家の企画展も開催。2023年5月にリニューアルオープンし、コレクション常設展は無料で楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "2023年5月2日にリニューアルオープン。常設展の観覧料は無料。企画展の観覧料は展覧会ごとに設定。月曜が祝日の場合は開館し翌平日が休館。 2026-11-07 light: トップで小林徳三郎展・笠井誠一展を確認、変更なし。 2026-11-13 full: 笠井誠一展は11/24休館（11/23祝は開館）、年末年始12/28〜1/4休館。追悼 山本富章（無料）を追加、小林徳三郎展は終了のため削除。",
+  "notes": "2023年5月2日にリニューアルオープン。常設展の観覧料は無料。企画展の観覧料は展覧会ごとに設定。月曜が祝日の場合は開館し翌平日が休館。 2026-11-07 light: トップで小林徳三郎展・笠井誠一展を確認、変更なし。 2026-11-13 full: 笠井誠一展は11/24休館（11/23祝は開館）、年末年始12/28〜1/4休館。追悼 山本富章（無料）を追加、小林徳三郎展は終了のため削除。 2026-11-20 light: 11/27(金)は観覧無料（あいち県民の日学校ホリデー、対象者の条件は記載なし）を追加。他は変更なし。",
   "confidence": "high"
 }

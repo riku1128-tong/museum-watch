@@ -1,98 +1,98 @@
 {
-  "id": "Q11385099",
-  "checked_at": "2026-11-13T07:33:58+09:00",
-  "check_mode": "light",
-  "operating_status": "operating",
-  "status_note": null,
-  "official_url": "https://www.sanobi.or.jp/",
-  "address": "〒411-0838 静岡県三島市中田町1-43",
-  "source_urls": [
-    "https://www.sanobi.or.jp/",
-    "https://www.sanobi.or.jp/guidance/",
-    "https://www.sanobi.or.jp/exhibition/machida-naoko_2026/",
-    "https://www.sanobi.or.jp/exhibition/haibara_2026/"
-  ],
-  "regular_hours": [
-    {
-      "days": [
-        "mon",
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
-      "open": "10:00",
-      "close": "17:00",
-      "last_entry": "16:30"
-    }
-  ],
-  "closed_weekdays": [
-    "thu"
-  ],
-  "holiday_rule": "open",
-  "special_closures": [
-    {
-      "from": "2027-02-15",
-      "to": "2027-02-19",
-      "reason": "展示替え等（榛原展ページに記載）"
-    }
-  ],
-  "special_openings": [
-    {
-      "date": "2027-02-11",
-      "open": "10:00",
-      "close": "17:00",
-      "note": "木曜だが開館（榛原展ページに記載）"
-    }
-  ],
-  "exhibitions": [
-    {
-      "title": "隙あらば猫　町田尚子絵本原画展",
-      "start": "2026-10-24",
-      "end": "2026-12-20",
-      "url": "https://www.sanobi.or.jp/exhibition/machida-naoko_2026/",
-      "kind": "special",
-      "summary": "画家・絵本作家の町田尚子の絵本原画展。『ネコヅメのよる』『なまえのないねこ』『ねこはるすばん』などの代表作をはじめ、デビュー作から最新作までを紹介",
-      "recommend": "繊細なタッチと大胆な構図で描かれた猫たちの世界。佐野美術館を題材にした描き下ろし作品も展示",
-      "admission": "一般・大学生 1,500円",
-      "adult_price": 1500
-    },
-    {
-      "title": "榛原―はいばら―の藝術とデザイン",
-      "start": "2027-01-08",
-      "end": "2027-04-04",
-      "url": "https://www.sanobi.or.jp/exhibition/haibara_2026/",
-      "kind": "special",
-      "summary": "江戸時代から続く日本橋の和紙舗・榛原の千代紙、団扇絵、絵短冊などを紹介",
-      "recommend": "歴代当主が一流の画家に依頼した意匠をもとに、明治から昭和初期の千代紙やぽち袋、肉筆画を紹介。粋なデザインと職人技が生んだ和紙の世界が見どころ。",
-      "admission": "一般・大学生 1,400円",
-      "adult_price": 1400
-    }
-  ],
-  "adult_price": null,
-  "access": [
-    {
-      "station": "三島田町",
-      "lines": "伊豆箱根鉄道駿豆線",
-      "exit": null,
-      "walk_min": 5,
-      "note": null
-    },
-    {
-      "station": "三島",
-      "lines": "JR東海道線・東海道新幹線",
-      "exit": "南口",
-      "walk_min": null,
-      "note": "東海バス「佐野美術館」行乗車10分、または徒歩20分（南へ1.3km）"
-    }
-  ],
-  "highlights": "昭和41年（1966）開館、刀剣・武器・武具の名品コレクションで知られる美術館。庭園「隆泉苑」を有し、館内には重要文化財の大日如来坐像（常設）も。",
-  "closed_between_exhibitions": false,
-  "free_days": [],
-  "free_rules": [],
-  "notes": "休館日は「木曜日（祝日の場合は開館）、年末年始、展示替期間など」。10/22は休館日で10/24から開館。年末年始の日程は公式に記載なし。入館料は展覧会ごとに異なる。",
-  "confidence": "medium"
+ "id": "Q11385099",
+ "checked_at": "2026-11-20T08:45:00+09:00",
+ "check_mode": "light",
+ "operating_status": "operating",
+ "status_note": null,
+ "official_url": "https://www.sanobi.or.jp/",
+ "address": "〒411-0838 静岡県三島市中田町1-43",
+ "source_urls": [
+  "https://www.sanobi.or.jp/",
+  "https://www.sanobi.or.jp/guidance/",
+  "https://www.sanobi.or.jp/exhibition/machida-naoko_2026/",
+  "https://www.sanobi.or.jp/exhibition/haibara_2026/"
+ ],
+ "regular_hours": [
+  {
+   "days": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun",
+    "holiday"
+   ],
+   "open": "10:00",
+   "close": "17:00",
+   "last_entry": "16:30"
+  }
+ ],
+ "closed_weekdays": [
+  "thu"
+ ],
+ "holiday_rule": "open",
+ "special_closures": [
+  {
+   "from": "2027-02-15",
+   "to": "2027-02-19",
+   "reason": "展示替え等（榛原展ページに記載）"
+  }
+ ],
+ "special_openings": [
+  {
+   "date": "2027-02-11",
+   "open": "10:00",
+   "close": "17:00",
+   "note": "木曜だが開館（榛原展ページに記載）"
+  }
+ ],
+ "exhibitions": [
+  {
+   "title": "隙あらば猫　町田尚子絵本原画展",
+   "start": "2026-10-24",
+   "end": "2026-12-20",
+   "url": "https://www.sanobi.or.jp/exhibition/machida-naoko_2026/",
+   "kind": "special",
+   "summary": "画家・絵本作家の町田尚子の絵本原画展。『ネコヅメのよる』『なまえのないねこ』『ねこはるすばん』などの代表作をはじめ、デビュー作から最新作までを紹介",
+   "recommend": "繊細なタッチと大胆な構図で描かれた猫たちの世界。佐野美術館を題材にした描き下ろし作品も展示",
+   "admission": "一般・大学生 1,500円",
+   "adult_price": 1500
+  },
+  {
+   "title": "榛原―はいばら―の藝術とデザイン",
+   "start": "2027-01-08",
+   "end": "2027-04-04",
+   "url": "https://www.sanobi.or.jp/exhibition/haibara_2026/",
+   "kind": "special",
+   "summary": "江戸時代から続く日本橋の和紙舗・榛原の千代紙、団扇絵、絵短冊などを紹介",
+   "recommend": "歴代当主が一流の画家に依頼した意匠をもとに、明治から昭和初期の千代紙やぽち袋、肉筆画を紹介。粋なデザインと職人技が生んだ和紙の世界が見どころ。",
+   "admission": "一般・大学生 1,400円",
+   "adult_price": 1400
+  }
+ ],
+ "adult_price": null,
+ "access": [
+  {
+   "station": "三島田町",
+   "lines": "伊豆箱根鉄道駿豆線",
+   "exit": null,
+   "walk_min": 5,
+   "note": null
+  },
+  {
+   "station": "三島",
+   "lines": "JR東海道線・東海道新幹線",
+   "exit": "南口",
+   "walk_min": null,
+   "note": "東海バス「佐野美術館」行乗車10分、または徒歩20分（南へ1.3km）"
+  }
+ ],
+ "highlights": "昭和41年（1966）開館、刀剣・武器・武具の名品コレクションで知られる美術館。庭園「隆泉苑」を有し、館内には重要文化財の大日如来坐像（常設）も。",
+ "closed_between_exhibitions": false,
+ "free_days": [],
+ "free_rules": [],
+ "notes": "休館日は「木曜日（祝日の場合は開館）、年末年始、展示替期間など」。10/22は休館日で10/24から開館。年末年始の日程は公式に記載なし。入館料は展覧会ごとに異なる。 2026-11-20 light: 変化なし。",
+ "confidence": "medium"
 }

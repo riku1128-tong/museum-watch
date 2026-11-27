@@ -1,7 +1,7 @@
 {
   "id": "Q11564683",
-  "checked_at": "2026-11-20T08:35:19+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-27T13:10:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.shigamuseum.jp/",
@@ -56,28 +56,6 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "丸木スマ展　73歳からのアーティスト",
-      "start": "2026-09-11",
-      "end": "2026-11-23",
-      "url": "https://www.shigamuseum.jp/exhibitions/12995/",
-      "kind": "special",
-      "summary": "73歳から絵を描き始めた丸木スマの身近な自然や生き物を描いた作品を紹介",
-      "recommend": null,
-      "admission": "一般 1,200円",
-      "adult_price": 1200
-    },
-    {
-      "title": "時間はかたち？",
-      "start": "2026-09-05",
-      "end": "2026-11-23",
-      "url": "https://www.shigamuseum.jp/exhibitions/14578/",
-      "kind": "collection",
-      "summary": "コレクション展",
-      "recommend": null,
-      "admission": "一般 570円",
-      "adult_price": 570
-    },
-    {
       "title": "小倉遊亀コーナー",
       "start": "2026-02-25",
       "end": "2027-04-04",
@@ -94,10 +72,10 @@
       "end": "2027-03-22",
       "url": "https://www.shigamuseum.jp/exhibitions/12978/",
       "kind": "special",
-      "summary": null,
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "summary": "田んぼと樹から生まれた画面の絵画。初期作から最新作まで約50点",
+      "recommend": "田んぼに映る空の体験から生まれた菱形に近い四角形を描き続ける画家の回顧的展示。初期作、代表作「半面性の樹塊」シリーズ、最新作まで通して、絵画が「居場所」になる感覚をたどれる。",
+      "admission": "一般 1,200円",
+      "adult_price": 1200
     },
     {
       "title": "第80回滋賀県美術展覧会",
@@ -146,6 +124,6 @@
   ],
   "highlights": "1984年開館。近代日本画・滋賀県ゆかりの美術工芸・戦後の日米現代美術・アール・ブリュットの4本柱で収集を続ける。重要文化財《近江名所図》をはじめ、日本画家・小倉遊亀、染織家・志村ふくみ、マーク・ロスコらアメリカ美術、澤田真一のアール・ブリュットを所蔵。琵琶湖文化公園の緑に囲まれた環境にカフェも備える。",
   "closed_between_exhibitions": false,
-  "notes": "金氏徹平展は館外展示（米原市）のため未掲載。11月24日〜12月8日・12月17〜21日は臨時休館（展示替え）。フリーサタデー・フリーサンデーは常設展のみ無料。 2026-10-30 light: 変更なし。 2026-11-07 light: 変更なし。 2026-11-20 light: 終了した「お札を支える伝統技術」を削除、佐川晃司展の正式題を反映、県展のURLを更新。",
+  "notes": "金氏徹平展は館外展示（米原市）のため未掲載。11月24日〜12月8日・12月17〜21日は臨時休館（展示替え）。フリーサタデー・フリーサンデーは常設展のみ無料。 2026-10-30 light: 変更なし。 2026-11-07 light: 変更なし。 2026-11-27 full: 終了した丸木スマ展・時間はかたち？を削除、佐川晃司展を詳細化、休館日・時間は変更なし。 2026-11-20 light: 終了した「お札を支える伝統技術」を削除、佐川晃司展の正式題を反映、県展のURLを更新。",
   "confidence": "high"
 }

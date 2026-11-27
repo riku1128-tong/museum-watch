@@ -1,11 +1,11 @@
 {
   "id": "Q11627626",
-  "checked_at": "2026-11-20T08:35:07+09:00",
+  "checked_at": "2026-11-27T13:01:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://otanimuseum.jp/",
-  "address": null,
+  "address": "〒662-0952 兵庫県西宮市中浜町4-38",
   "source_urls": [
     "https://www.museum.or.jp/museum/5633",
     "http://otanimuseum.jp/",
@@ -47,6 +47,17 @@
       "adult_price": 1200,
       "closed_weekdays": [],
       "closed_dates": []
+    },
+    {
+      "title": "新収蔵品展",
+      "start": "2027-01-16",
+      "end": "2027-03-07",
+      "url": "http://otanimuseum.jp/exhibition_270116.html",
+      "kind": "special",
+      "summary": "近年新たに収蔵された作品を紹介する展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": null,

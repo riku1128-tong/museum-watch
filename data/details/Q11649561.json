@@ -1,6 +1,6 @@
 {
   "id": "Q11649561",
-  "checked_at": "2026-11-20T08:45:00+09:00",
+  "checked_at": "2026-11-27T13:06:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -10,6 +10,7 @@
     "http://www.kiyoshikojin.or.jp/tessai_museum/",
     "https://www.kiyoshikojin.or.jp/tessai_museum/guide/",
     "https://www.kiyoshikojin.or.jp/tessai_exhibition/exhibition20260922/",
+    "https://www.kiyoshikojin.or.jp/tessai_exhibition/seikobunko20261206/",
     "https://www.kiyoshikojin.or.jp/access/",
     "https://www.kiyoshikojin.or.jp/tessai_news/tessa20260526/"
   ],
@@ -47,6 +48,36 @@
       "recommend": "明治8年に生涯ただ一度の富士登山をした鉄斎が、繰り返し描いた富士の集大成《富士山図》（宝塚市指定文化財）に注目。旅の画家・池大雅への追慕も作品と資料でたどる。",
       "admission": null,
       "adult_price": null
+    },
+    {
+      "title": "【展示】名勝への旅―江戸・明治の絵図と摺物―",
+      "start": "2026-12-06",
+      "end": "2027-02-14",
+      "url": "https://www.kiyoshikojin.or.jp/tessai_exhibition/seikobunko20261206/",
+      "kind": "other",
+      "summary": "宝塚市立中央図書館聖光文庫共催企画。江戸・明治の絵図と摺物の展示",
+      "recommend": null,
+      "admission": "入場無料",
+      "adult_price": 0,
+      "hours": [
+        {
+          "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
+          "open": "10:00",
+          "close": "17:00"
+        }
+      ],
+      "closed_weekdays": ["wed"],
+      "closed_dates": [
+        "2026-12-11",
+        "2026-12-29",
+        "2026-12-30",
+        "2026-12-31",
+        "2027-01-01",
+        "2027-01-02",
+        "2027-01-03",
+        "2027-01-08",
+        "2027-02-12"
+      ]
     }
   ],
   "adult_price": 600,

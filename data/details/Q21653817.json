@@ -1,6 +1,6 @@
 {
   "id": "Q21653817",
-  "checked_at": "2026-11-20T09:10:00+09:00",
+  "checked_at": "2026-11-27T12:58:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -72,6 +72,17 @@
       "recommend": "アルヴァ・アアルト設計サウナの再現をはじめ、絵画・陶磁器・建築図面を通じてフィンランドの精神文化と自然との共生に迫る。日常と芸術が溶け合うサウナ文化の多面的な魅力を体感できる展覧会。",
       "admission": "一般 1,200円",
       "adult_price": 1200
+    },
+    {
+      "title": "ガウディ：未来をひらく窓",
+      "start": "2026-11-29",
+      "end": "2027-01-22",
+      "url": "https://toyama-glass-art-museum.jp/exhibition/exhibition-7594/",
+      "kind": "special",
+      "summary": "YKK APによるガウディ建築群の窓を多角的に探究する展示",
+      "recommend": "ガウディ没後100年に、世界遺産を含む建築群とのコラボで窓メーカーが探った、独創的で革新的な窓の数々を紹介するギャラリー展示。",
+      "admission": "入場無料",
+      "adult_price": 0
     }
   ],
   "adult_price": 200,

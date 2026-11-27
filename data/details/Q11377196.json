@@ -1,7 +1,7 @@
 {
   "id": "Q11377196",
-  "checked_at": "2026-11-20T08:38:26+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-27T12:56:06+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.imabari.ehime.jp/museum/kono/",
@@ -42,22 +42,35 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "第75回秋季県展　今治移動展",
-      "start": "2026-11-14",
-      "end": "2026-11-23",
-      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2087",
-      "kind": "other",
-      "summary": "愛媛県美術展覧会の今治移動展（貸会場）",
-      "recommend": null
-    },
-    {
       "title": "第18回文化講演会　シンポジウム「平家物語下絵小図」の復元－主題・表現・技法の継承",
       "start": "2026-12-06",
       "end": "2026-12-06",
       "url": "https://www.city.imabari.ehime.jp/museum/kono/event/event.html?p=2080",
       "kind": "other",
-      "summary": "「平家物語下絵小図」の復元をテーマにした文化講演会・シンポジウム",
+      "summary": "「平家物語下絵小図」の復元をテーマにした文化講演会・シンポジウム（4階講演室、13:30〜15:30、参加無料）",
       "recommend": null
+    },
+    {
+      "title": "第39回石蘭会書展",
+      "start": "2026-12-19",
+      "end": "2026-12-20",
+      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2088",
+      "kind": "other",
+      "summary": "石蘭会による書展（貸会場）",
+      "recommend": null,
+      "admission": "一般 310円",
+      "adult_price": 310
+    },
+    {
+      "title": "八和田絵画教室作品展",
+      "start": "2026-12-23",
+      "end": "2026-12-26",
+      "url": "https://www.city.imabari.ehime.jp/museum/kono/event/kashikaijo.html?p=2089",
+      "kind": "other",
+      "summary": "八和田絵画教室の作品展（貸会場）",
+      "recommend": null,
+      "admission": "一般 310円",
+      "adult_price": 310
     }
   ],
   "adult_price": 310,
@@ -74,6 +87,6 @@
   ],
   "highlights": "今治市が運営する市立美術館。平安時代から現代にわたる屏風・掛軸・古文書・典籍など約1万点を収蔵し、源氏物語図屏風（土佐光信筆）や竹久夢二の絵画など幅広い時代の名品を所蔵する。常設展示は行わず、テーマを設けた企画展や市民向けの貸会場展示を開催。今治城に近い市街地に立地。",
   "closed_between_exhibitions": false,
-  "notes": "企画展示は年数回。貸会場（かしかいじょう）展示が多く、常設の作品展示は行っていない。入館料は一般310円（団体20名以上250円）、学生160円。 2026-11-07: 終了した貸会場展（セコイア11人展・押花展）を削除。開催予定は秋季県展今治移動展と文化講演会のみ。",
+  "notes": "企画展示は年数回。貸会場（かしかいじょう）展示が多く、常設の作品展示は行っていない。入館料は一般310円（団体20名以上250円）、学生160円。 2026-11-27 full: 終了した秋季県展今治移動展を削除し、予定の貸会場展2件（12/19-20、12/23-26）を追加。無料日の記載なし。 2026-11-07:終了した貸会場展（セコイア11人展・押花展）を削除。開催予定は秋季県展今治移動展と文化講演会のみ。",
   "confidence": "high"
 }

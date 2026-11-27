@@ -1,6 +1,6 @@
 {
   "id": "Q11272278",
-  "checked_at": "2026-11-20T08:30:27+09:00",
+  "checked_at": "2026-11-27T13:02:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -36,17 +36,6 @@
   "special_closures": [],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "Cas Me［絵画・彫刻］",
-      "start": "2026-11-17",
-      "end": "2026-11-23",
-      "url": "https://www.tsukuba.museum.ibk.ed.jp/schedule.html",
-      "kind": "special",
-      "summary": "絵画・彫刻のグループ展（第2室）",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
     {
       "title": "第23回 仏像彫刻同好会 睦展［彫刻］",
       "start": "2026-11-25",
@@ -131,6 +120,17 @@
       "url": "https://www.tsukuba.museum.ibk.ed.jp/schedule.html",
       "kind": "special",
       "summary": "筑波大学芸術専門学群の卒業制作展。前期・後期で展示替えあり",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "光山茂・光山明 二人展―静かな告発、あるいはレクイエム―［絵画・写真他］",
+      "start": "2027-02-23",
+      "end": "2027-02-28",
+      "url": "https://www.tsukuba.museum.ibk.ed.jp/schedule.html",
+      "kind": "special",
+      "summary": "光山茂・光山明による絵画・写真などの二人展（全室）",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0

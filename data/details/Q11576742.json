@@ -1,6 +1,6 @@
 {
   "id": "Q11576742",
-  "checked_at": "2026-11-20T08:50:00+09:00",
+  "checked_at": "2026-11-27T13:00:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -48,6 +48,17 @@
   ],
   "special_openings": [],
   "exhibitions": [
+    {
+      "title": "コレクション展 本橋成一と広川泰士",
+      "start": "2026-12-02",
+      "end": "2026-12-19",
+      "url": "https://tagawa-art.jp/schedule/collection-exhibition2026-motohashi-n-hirokawa/",
+      "kind": "collection",
+      "summary": "所蔵作品から写真家・本橋成一と広川泰士の作品を紹介するコレクション展",
+      "recommend": null,
+      "admission": "一般 100円",
+      "adult_price": 100
+    },
     {
       "title": "2026年度常設展示 極彩色の立石大河亞",
       "start": "2026-04-01",

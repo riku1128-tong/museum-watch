@@ -1,7 +1,7 @@
 {
  "id": "Q11370311",
- "checked_at": "2026-11-20T09:15:00+09:00",
- "check_mode": "light",
+ "checked_at": "2026-11-27T13:14:00+09:00",
+ "check_mode": "full",
  "operating_status": "operating",
  "status_note": null,
  "official_url": "https://www.kyusan-u.ac.jp/ksumuseum/",
@@ -35,20 +35,6 @@
  "special_closures": [],
  "special_openings": [],
  "exhibitions": [
-  {
-   "title": "九州産業大学芸術学部教員作品展",
-   "start": "2026-11-14",
-   "end": "2026-11-23",
-   "url": "https://www.kyusan-u.ac.jp/ksumuseum/",
-   "kind": "special",
-   "summary": "九州産業大学芸術学部の教員による作品展",
-   "recommend": "5学科10専攻コースを擁する芸術学部の教員が、それぞれの専門分野で手がけた作品と研究成果を一堂に披露する。分野を横断して多彩な表現に触れられる、学びの場ならではの展示。",
-   "admission": "入場無料",
-   "adult_price": 0,
-   "closed_dates": [
-    "2026-11-22"
-   ]
-  },
   {
    "title": "Tokyo Illustrators Society Presents Illustration Works in Fukuoka 203人のイラストレーターによるベストワーク展",
    "start": "2026-11-29",

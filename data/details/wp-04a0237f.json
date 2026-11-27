@@ -1,7 +1,7 @@
 {
   "id": "wp-04a0237f",
-  "checked_at": "2026-11-20T08:45:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-27T13:04:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.yuntanza-museum.jp",
@@ -41,17 +41,6 @@
   ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "知花均作品展 境界性を巡って",
-      "start": "2026-10-17",
-      "end": "2026-11-23",
-      "url": "http://www.yuntanza-museum.jp/schedule/",
-      "kind": "special",
-      "summary": "知花均の作品展（新館2F 企画展示室）。銅版画の刷り実演などの関連講座あり",
-      "recommend": null,
-      "admission": "企画展のみ入館料無料",
-      "adult_price": 0
-    },
     {
       "title": "令和8年度 読谷児童生徒作品展",
       "start": "2026-12-12",

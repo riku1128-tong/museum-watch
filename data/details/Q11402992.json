@@ -1,7 +1,7 @@
 {
   "id": "Q11402992",
-  "checked_at": "2026-11-20T08:29:34+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-27T06:15:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": null,
@@ -58,17 +58,6 @@
       "adult_price": 510
     },
     {
-      "title": "道展創立100周年記念企画展 − 時を紡ぎ 今を創る",
-      "start": "2026-11-17",
-      "end": "2026-11-23",
-      "url": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/332",
-      "kind": "special",
-      "summary": "北海道美術協会（道展）創立100周年を記念した企画展",
-      "recommend": null,
-      "admission": "無料",
-      "adult_price": 0
-    },
-    {
       "title": "全道展80周年記念企画展〈会員・会友展〉",
       "start": "2026-11-28",
       "end": "2026-12-05",
@@ -76,7 +65,7 @@
       "kind": "special",
       "summary": "全道展創立80周年を記念した会員・会友の作品展",
       "recommend": null,
-      "admission": "一般 800円",
+      "admission": "一般 800円（大学生以下・65歳以上無料）",
       "adult_price": 800
     },
     {
@@ -94,7 +83,7 @@
       "title": "文字とアート －ポップ・アートから書まで",
       "start": "2027-01-09",
       "end": "2027-04-11",
-      "url": null,
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/336",
       "kind": "special",
       "summary": null,
       "recommend": null,
@@ -105,7 +94,7 @@
       "title": "雪々（せつせつ）と",
       "start": "2027-01-09",
       "end": "2027-04-11",
-      "url": null,
+      "url": "https://artmuseum.pref.hokkaido.lg.jp/knb/exhibition/program/337",
       "kind": "collection",
       "summary": null,
       "recommend": null,
@@ -126,6 +115,6 @@
   ],
   "highlights": "札幌・円山公園エリアに隣接する北海道を代表する近現代美術館。日本・欧米の絵画・版画・ガラス工芸品など道内最大規模のコレクションを収蔵し、北海道ゆかりの作家の作品から世界的な巡回展まで多彩な企画展を開催。地下鉄西18丁目駅から徒歩5分とアクセスも便利。",
   "closed_between_exhibitions": false,
-  "notes": "月曜休館（祝日・振替休日の場合は開館、翌平日に休館）。年末年始（2026/12/29〜2027/1/3）休館。2026/11/2（月）は芸術週間のため開館。11月の休館日は 11/9・11/16・11/24。",
+  "notes": "月曜休館（祝日・振替休日の場合は開館、翌平日に休館）。年末年始（2026/12/29〜2027/1/3）休館。2026/11/2（月）は芸術週間のため開館。11月の休館日は 11/9・11/16・11/24。 11/27 full: 道展創立100周年記念企画展は11/23終了のため削除。11/30（月）休館。",
   "confidence": "high"
 }

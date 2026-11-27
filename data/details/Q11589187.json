@@ -1,7 +1,7 @@
 {
   "id": "Q11589187",
-  "checked_at": "2026-11-20T08:45:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-27T12:58:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.moma.pref.kanagawa.jp/",
@@ -72,7 +72,7 @@
       "title": "マルク・シャガール『ラ・フォンテーヌ寓話集』",
       "start": "2026-11-28",
       "end": "2027-02-28",
-      "url": null,
+      "url": "https://www.moma.pref.kanagawa.jp/exhibition/2026-h-collection3/",
       "kind": "other",
       "summary": "葉山館。シャガールの版画集『ラ・フォンテーヌ寓話集』",
       "admission": null,

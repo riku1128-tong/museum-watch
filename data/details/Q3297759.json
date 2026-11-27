@@ -1,6 +1,6 @@
 {
   "id": "Q3297759",
-  "checked_at": "2026-11-20T08:40:00+09:00",
+  "checked_at": "2026-11-27T13:15:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -161,15 +161,37 @@
       "adult_price": 370
     },
     {
-      "title": "第83回北國写真展",
-      "start": "2026-11-19",
-      "end": "2026-11-23",
-      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/exhibition-17432-2/",
+      "title": "第72回 一陽会〈巡回展〉",
+      "start": "2026-12-03",
+      "end": "2026-12-07",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/exhibition-17449-2/",
       "kind": "other",
-      "summary": "いしかわ秋の芸術祭 文化絢爛の団体展（10〜17時）",
+      "summary": "各種団体展（公募団体の巡回展）",
       "recommend": null,
       "admission": null,
       "adult_price": null
+    },
+    {
+      "title": "第37回志賀町を描く美術展金沢展",
+      "start": "2026-12-12",
+      "end": "2026-12-15",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/exhibition-17448-3/",
+      "kind": "other",
+      "summary": "各種団体展",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第51回全国高等学校総合文化祭 美術・工芸部門プレ大会",
+      "start": "2026-12-19",
+      "end": "2026-12-23",
+      "url": "https://www.ishibi.pref.ishikawa.jp/exhibition/exhibition-17448-2/",
+      "kind": "other",
+      "summary": "各種団体展（高校生の美術・工芸作品）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "第36回石川県水墨画協会公募展",

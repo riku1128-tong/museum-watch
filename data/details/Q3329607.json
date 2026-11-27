@@ -1,7 +1,7 @@
 {
   "id": "Q3329607",
-  "checked_at": "2026-11-20T08:50:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-27T13:01:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.artm.pref.hyogo.jp/",
@@ -103,7 +103,7 @@
       "title": "特集 王一亭とその時代（仮題）",
       "start": "2026-12-17",
       "end": "2027-02-23",
-      "url": null,
+      "url": "https://www.artm.pref.hyogo.jp/exhibition/j_2610/special.html",
       "kind": "special",
       "summary": null,
       "recommend": null,

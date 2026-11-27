@@ -1,6 +1,6 @@
 {
   "id": "Q11462169",
-  "checked_at": "2026-11-20T06:30:00+09:00",
+  "checked_at": "2026-11-27T13:06:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -12,7 +12,8 @@
     "https://www.city.otaru.lg.jp/docs/2020111300231/",
     "https://www.city.otaru.lg.jp/docs/2026072900039/",
     "https://www.city.otaru.lg.jp/docs/2026100200018/",
-    "https://www.city.otaru.lg.jp/docs/2026082600035/"
+    "https://www.city.otaru.lg.jp/docs/2026082600035/",
+    "https://www.city.otaru.lg.jp/docs/2026102500017/"
   ],
   "regular_hours": [
     {
@@ -50,6 +51,21 @@
       "from": "2026-12-29",
       "to": "2027-01-03",
       "reason": "年末年始"
+    },
+    {
+      "from": "2027-01-12",
+      "to": "2027-01-13",
+      "reason": "休館日（次回特別展ページに記載）"
+    },
+    {
+      "from": "2027-02-12",
+      "to": "2027-02-12",
+      "reason": "休館日（次回特別展ページに記載）"
+    },
+    {
+      "from": "2027-02-24",
+      "to": "2027-02-24",
+      "reason": "休館日（次回特別展ページに記載）"
     }
   ],
   "special_openings": [],
@@ -86,11 +102,21 @@
       "recommend": "日々の喧騒から離れて美術と向き合う時間を探る実験的な企画展。小樽ゆかりの絵画作品を通じて「癒し」の意味を問い直す、問いかけに満ちた展示。",
       "admission": "一般 300円（普通観覧券）",
       "adult_price": 300
+    },
+    {
+      "title": "特別展Ⅳ　SENの行方・荒井善則～海を越えて",
+      "start": "2026-12-05",
+      "end": "2027-03-21",
+      "url": "https://www.city.otaru.lg.jp/docs/2026102500017/",
+      "kind": "special",
+      "summary": "小樽市とソウル特別市江西区の交流を記念し、韓国で評価される荒井善則の作品を紹介",
+      "recommend": "墨やインクを木材の角で紙に押し当て、線を擦る行為を反復する荒井善則の削ぎ落とされた表現を紹介。韓国現代美術と小樽をつなぐ国際交流の視点でも注目の展示。",
+      "admission": "一般 700円（美術館のみ）",
+      "adult_price": 700
     }
   ],
   "adult_price": 300,
-  "free_days": [],
-  "free_rules": [],
+  "free_days": [],  "free_rules": [],
   "access": [
     {
       "station": "小樽",

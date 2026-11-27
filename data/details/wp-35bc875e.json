@@ -1,6 +1,6 @@
 {
   "id": "wp-35bc875e",
-  "checked_at": "2026-11-20T08:50:00+09:00",
+  "checked_at": "2026-11-27T13:15:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -8,32 +8,20 @@
   "address": "〒550-0006 大阪市西区江之子島2丁目1番34号",
   "source_urls": [
     "https://www.enokojima-art.jp/",
-    "https://www.enokojima-art.jp/event/16788/",
-    "https://www.enokojima-art.jp/event/16889/",
-    "https://www.enokojima-art.jp/event/16529/",
-    "https://www.enokojima-art.jp/event/16771/",
+    "https://www.enokojima-art.jp/event/exhibition/",
+    "https://www.enokojima-art.jp/event/rental-enoco/schedule",
     "https://www.enokojima-art.jp/event/17005/",
     "https://www.enokojima-art.jp/event/16709/",
     "https://www.enokojima-art.jp/event/17088/"
   ],
   "regular_hours": [
     {
-      "days": [
-        "tue",
-        "wed",
-        "thu",
-        "fri",
-        "sat",
-        "sun",
-        "holiday"
-      ],
+      "days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"],
       "open": "10:00",
       "close": "21:00"
     }
   ],
-  "closed_weekdays": [
-    "mon"
-  ],
+  "closed_weekdays": ["mon"],
   "holiday_rule": "unknown",
   "special_closures": [
     {
@@ -45,108 +33,49 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "第97回 浪展",
-      "start": "2026-11-17",
-      "end": "2026-11-22",
-      "url": "https://www.enokojima-art.jp/event/16889/",
+      "title": "第5回 スパイラル展",
+      "start": "2026-11-24",
+      "end": "2026-11-29",
+      "url": "https://www.enokojima-art.jp/event/16709/",
       "kind": "other",
-      "summary": "浪華写真倶楽部による写真展",
+      "summary": "螺旋美術協会によるグループ展",
       "recommend": null,
       "admission": null,
       "adult_price": null,
       "hours": [
-        {
-          "days": [
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun",
-            "holiday"
-          ],
-          "open": "10:00",
-          "close": "18:00"
-        },
-        {
-          "days": [
-            "sun"
-          ],
-          "open": "10:00",
-          "close": "16:00",
-          "from": "2026-11-22",
-          "to": "2026-11-22"
-        }
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "18:00"},
+        {"days": ["sun"], "open": "11:00", "close": "16:00", "from": "2026-11-29", "to": "2026-11-29"}
       ]
     },
     {
-      "title": "わいわい展",
-      "start": "2026-11-17",
-      "end": "2026-11-22",
-      "url": "https://www.enokojima-art.jp/event/16529/",
+      "title": "color : full ～11色で紡ぐ私たちの感情スペクトル～",
+      "start": "2026-11-24",
+      "end": "2026-11-29",
+      "url": "https://www.enokojima-art.jp/event/rental-enoco/schedule",
       "kind": "other",
-      "summary": "貸ギャラリーでの企画展（主催: 山元由紀）",
+      "summary": "関西camellによる展示（Room 2）",
       "recommend": null,
       "admission": null,
       "adult_price": null,
       "hours": [
-        {
-          "days": [
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun",
-            "holiday"
-          ],
-          "open": "10:00",
-          "close": "20:00"
-        },
-        {
-          "days": [
-            "sun"
-          ],
-          "open": "10:00",
-          "close": "16:00",
-          "from": "2026-11-22",
-          "to": "2026-11-22"
-        }
+        {"days": ["tue", "wed", "thu", "fri"], "open": "15:00", "close": "20:00"},
+        {"days": ["sat"], "open": "10:00", "close": "20:00"},
+        {"days": ["sun"], "open": "10:00", "close": "16:00"}
       ]
     },
     {
-      "title": "第72回 シュピーゲル写真展",
-      "start": "2026-11-18",
-      "end": "2026-11-22",
-      "url": "https://www.enokojima-art.jp/event/16771/",
+      "title": "harumi 個展 モモジロー展「Re::mind 2」- Wintering Memories – あの冬の日のこと、思い出しませんか。",
+      "start": "2026-11-24",
+      "end": "2026-11-29",
+      "url": "https://www.enokojima-art.jp/event/rental-enoco/schedule",
       "kind": "other",
-      "summary": "シュピーゲル写真家協会の写真展",
+      "summary": "工忠晴美の個展（Room 3）",
       "recommend": null,
       "admission": null,
       "adult_price": null,
       "hours": [
-        {
-          "days": [
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun",
-            "holiday"
-          ],
-          "open": "10:00",
-          "close": "18:00"
-        },
-        {
-          "days": [
-            "sun"
-          ],
-          "open": "10:00",
-          "close": "16:00",
-          "from": "2026-11-22",
-          "to": "2026-11-22"
-        }
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "19:00"},
+        {"days": ["sun"], "open": "11:00", "close": "15:30", "from": "2026-11-29", "to": "2026-11-29"}
       ]
     },
     {
@@ -160,63 +89,8 @@
       "admission": null,
       "adult_price": null,
       "hours": [
-        {
-          "days": [
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun",
-            "holiday"
-          ],
-          "open": "10:00",
-          "close": "18:00"
-        },
-        {
-          "days": [
-            "sun"
-          ],
-          "open": "10:00",
-          "close": "16:00",
-          "from": "2026-11-29",
-          "to": "2026-11-29"
-        }
-      ]
-    },
-    {
-      "title": "第5回 スパイラル展",
-      "start": "2026-11-24",
-      "end": "2026-11-29",
-      "url": "https://www.enokojima-art.jp/event/16709/",
-      "kind": "other",
-      "summary": "螺旋美術協会によるグループ展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null,
-      "hours": [
-        {
-          "days": [
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun",
-            "holiday"
-          ],
-          "open": "11:00",
-          "close": "18:00"
-        },
-        {
-          "days": [
-            "sun"
-          ],
-          "open": "11:00",
-          "close": "16:00",
-          "from": "2026-11-29",
-          "to": "2026-11-29"
-        }
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "18:00"},
+        {"days": ["sun"], "open": "10:00", "close": "16:00", "from": "2026-11-29", "to": "2026-11-29"}
       ]
     },
     {
@@ -230,28 +104,143 @@
       "admission": null,
       "adult_price": null,
       "hours": [
-        {
-          "days": [
-            "tue",
-            "wed",
-            "thu",
-            "fri",
-            "sat",
-            "sun",
-            "holiday"
-          ],
-          "open": "11:00",
-          "close": "18:00"
-        },
-        {
-          "days": [
-            "sun"
-          ],
-          "open": "11:00",
-          "close": "16:00",
-          "from": "2026-12-06",
-          "to": "2026-12-06"
-        }
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "18:00"},
+        {"days": ["sun"], "open": "11:00", "close": "16:00", "from": "2026-12-06", "to": "2026-12-06"}
+      ]
+    },
+    {
+      "title": "前田薫子 個展 「世界という名のブランケット」",
+      "start": "2026-12-01",
+      "end": "2026-12-06",
+      "url": "https://www.enokojima-art.jp/event/rental-enoco/schedule",
+      "kind": "other",
+      "summary": "前田薫子の個展（Room 3）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "19:00"},
+        {"days": ["sun"], "open": "10:00", "close": "16:00", "from": "2026-12-06", "to": "2026-12-06"}
+      ]
+    },
+    {
+      "title": "OM SYSTEMズイコークラブ 第42回 大阪支部写真展",
+      "start": "2026-12-01",
+      "end": "2026-12-06",
+      "url": "https://www.enokojima-art.jp/event/rental-enoco/schedule",
+      "kind": "other",
+      "summary": "OM SYSTEMズイコークラブ大阪支部の写真展（Room 4B）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:15", "close": "18:00"},
+        {"days": ["sun"], "open": "10:15", "close": "16:00", "from": "2026-12-06", "to": "2026-12-06"}
+      ]
+    },
+    {
+      "title": "第13回 松の木会写真展",
+      "start": "2026-12-08",
+      "end": "2026-12-13",
+      "url": "https://www.enokojima-art.jp/event/rental-enoco/schedule",
+      "kind": "other",
+      "summary": "写真クラブ松の木会の写真展（Room 1）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:15", "close": "18:00"},
+        {"days": ["sun"], "open": "10:15", "close": "16:00", "from": "2026-12-13", "to": "2026-12-13"}
+      ]
+    },
+    {
+      "title": "千尋展",
+      "start": "2026-12-08",
+      "end": "2026-12-13",
+      "url": "https://www.enokojima-art.jp/event/rental-enoco/schedule",
+      "kind": "other",
+      "summary": "千尋の個展（Room 3）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "18:30"},
+        {"days": ["sun"], "open": "11:00", "close": "16:00", "from": "2026-12-13", "to": "2026-12-13"}
+      ]
+    },
+    {
+      "title": "enoco展（旧ピルゼン展）",
+      "start": "2026-12-08",
+      "end": "2026-12-13",
+      "url": "https://www.enokojima-art.jp/event/rental-enoco/schedule",
+      "kind": "other",
+      "summary": "大阪公立大学写真部中百舌鳥の展示（Room 4B）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "18:00"},
+        {"days": ["sun"], "open": "11:00", "close": "16:00", "from": "2026-12-13", "to": "2026-12-13"}
+      ]
+    },
+    {
+      "title": "大阪府土曜会・趣味の作品展",
+      "start": "2026-12-15",
+      "end": "2026-12-20",
+      "url": "https://www.enokojima-art.jp/event/rental-enoco/schedule",
+      "kind": "other",
+      "summary": "大阪府土曜会による趣味の作品展（Room 1B）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "18:00"},
+        {"days": ["sun"], "open": "11:00", "close": "16:00", "from": "2026-12-20", "to": "2026-12-20"}
+      ]
+    },
+    {
+      "title": "M･K･H 〜出会いとつながりを求めて〜 個展",
+      "start": "2026-12-15",
+      "end": "2026-12-20",
+      "url": "https://www.enokojima-art.jp/event/rental-enoco/schedule",
+      "kind": "other",
+      "summary": "小田修平の個展（Room 3）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "20:00"},
+        {"days": ["sun"], "open": "10:00", "close": "16:00", "from": "2026-12-20", "to": "2026-12-20"}
+      ]
+    },
+    {
+      "title": "白鷲会展",
+      "start": "2026-12-22",
+      "end": "2026-12-27",
+      "url": "https://www.enokojima-art.jp/event/rental-enoco/schedule",
+      "kind": "other",
+      "summary": "関西大学文化会美術部 白鷲会の展覧会（Room 1・4）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "10:00", "close": "19:00"},
+        {"days": ["sun"], "open": "10:00", "close": "16:00", "from": "2026-12-27", "to": "2026-12-27"}
+      ]
+    },
+    {
+      "title": "大阪教育大学 学校教育教員養成課程 美術教育コース 卒業制作展 2027",
+      "start": "2027-02-09",
+      "end": "2027-02-14",
+      "url": "https://www.enokojima-art.jp/event/rental-enoco/schedule",
+      "kind": "other",
+      "summary": "大阪教育大学 美術教育コースの卒業制作展（Room 1・2）",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null,
+      "hours": [
+        {"days": ["tue", "wed", "thu", "fri", "sat", "sun", "holiday"], "open": "11:00", "close": "19:00"},
+        {"days": ["sun"], "open": "11:00", "close": "16:00", "from": "2027-02-14", "to": "2027-02-14"}
       ]
     }
   ],
@@ -269,6 +258,6 @@
   ],
   "highlights": "展覧会やイベント、ワークショップを通じてアートやデザインの力で社会の課題に向き合う大阪府の文化施設。展示室のほか音響ルームやライブラリーを備え、親子向けの講座なども開かれる。入館は無料。",
   "closed_between_exhibitions": false,
-  "notes": "開館時間 10:00-21:00 は施設全体。ギャラリー（Room1〜4）は催しごとに時間が異なる。祝日の扱いは公式に明記なし。2027年7月〜2028年2月に大規模修繕工事の予定（長期休館の予定なし）。須田剋太展は最終日（11/14）のみ13:00閉場、月曜休館。 【2026-10-30 light】トップのお知らせに新たな休館・時間変更なし。須田剋太展を引き続き掲載。 2026-11-07 light確認: 変更なし。 2026-11-13 light確認: 変更なし（須田剋太展は11/14まで、新しい休館告知なし）。 2026-11-20 full: 須田剋太展は終了。貸ギャラリーの展示を現在・直近分のみ登録（各ページの時間、最終日は短縮、観覧料は各ページに記載なし（未確認））。年末年始休館12/29-1/3はトップで確認。",
+  "notes": "開館時間 10:00-21:00 は施設全体。ギャラリー（Room1〜4）は催しごとに時間が異なる。祝日の扱いは公式に明記なし。2027年7月〜2028年2月に大規模修繕工事の予定（長期休館の予定なし）。貸ギャラリーの展示は開催予定表（rental-enoco/schedule）から 2027-02 までを登録。観覧料は各ページに記載なし（未確認）。4階ライブラリー閉鎖期間のお知らせ（11/15付）あり、館自体の休館ではない。2026-11-27 full: 年末年始休館12/29-1/3をトップで再確認。",
   "confidence": "medium"
 }

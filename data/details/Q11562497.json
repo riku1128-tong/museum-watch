@@ -1,6 +1,6 @@
 {
   "id": "Q11562497",
-  "checked_at": "2026-11-20T09:00:00+09:00",
+  "checked_at": "2026-11-27T12:58:01+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -58,6 +58,17 @@
       "kind": "special",
       "summary": "喜寿を記念し、油絵とパステル画の10号から200号の作品約30点を展示",
       "recommend": "鳥取の自然を描き続けて55年になる画家の集大成。大画面の油彩から繊細なパステル画まで約30点が並び、喜寿を迎えた作家の歩みを間近に味わえる。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "第98回 彩展（移動展）",
+      "start": "2026-11-14",
+      "end": "2026-12-07",
+      "url": "https://watart.jp/exhibition/%e7%ac%ac98%e5%9b%9e-%e5%bd%a9%e5%b1%95%ef%bc%88%e7%a7%bb%e5%8b%95%e5%b1%95%ef%bc%89/",
+      "kind": "special",
+      "summary": "鳥取を中心に活動する絵画グループ「彩」の油彩画・パステル画展（2F県民芸術広場）",
+      "recommend": "1977年設立の絵画グループ「彩」の会員が、個性あふれる油彩画とパステル画を持ち寄る作品展。地元で描き続ける作家たちの多彩な表現を見比べられる。",
       "admission": null,
       "adult_price": null
     }

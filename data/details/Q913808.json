@@ -1,6 +1,6 @@
 {
   "id": "Q913808",
-  "checked_at": "2026-11-20T08:50:00+09:00",
+  "checked_at": "2026-11-27T13:06:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -70,6 +70,17 @@
       "recommend": "黒田清輝・藤島武二・安井曾太郎・藤田嗣治ら100点超の滞欧作を一堂に展示。明治以降に海を渡った洋画家たちが何を見てどう学んだかを石橋財団コレクションで追体験できる。",
       "admission": "一般 1,200円（ウェブ予約）／1,500円（窓口）",
       "adult_price": 1500
+    },
+    {
+      "title": "ARTIZON NOW　ひろがる、つながる、コレクション",
+      "start": "2027-02-23",
+      "end": "2027-05-30",
+      "url": "https://www.artizon.museum/exhibition/detail/615",
+      "kind": "special",
+      "summary": "石橋財団コレクションを紹介する ARTIZON NOW の展覧会",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": null,

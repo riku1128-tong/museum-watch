@@ -1,14 +1,14 @@
 {
   "id": "Q3915469",
-  "checked_at": "2026-11-20T08:38:26+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-27T13:10:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.watarium.co.jp/",
   "address": "〒150-0001 東京都渋谷区神宮前3-7-6",
   "source_urls": [
     "http://www.watarium.co.jp/",
-    "http://www.watarium.co.jp/jp/exhibition/202607/",
+    "http://www.watarium.co.jp/jp/exhibition/202612/",
     "https://www.museum.or.jp/museum/2643"
   ],
   "regular_hours": [
@@ -32,34 +32,38 @@
   ],
   "closed_nth_weekdays": [],
   "holiday_rule": "open",
-  "special_closures": [],
-  "special_openings": [],
-  "exhibitions": [
+  "special_closures": [
     {
-      "title": "没後20年 ナムジュン・パイク｜じゅげむ展",
-      "start": "2026-07-19",
-      "end": "2026-11-23",
-      "url": "http://www.watarium.co.jp/jp/exhibition/202607/",
-      "kind": "special",
-      "summary": "メディアアートの創始者ナムジュン・パイク没後20年の個展",
-      "recommend": null,
-      "admission": "大人 1,500円",
-      "adult_price": 1500,
-      "closed_weekdays": [],
-      "closed_dates": []
+      "from": "2026-12-31",
+      "to": "2027-01-04",
+      "reason": "年末年始（ワン・シュウ＋ルー・ウェンユー展ページの記載）"
+    }
+  ],
+  "special_openings": [
+    {
+      "date": "2027-01-11",
+      "open": "11:00",
+      "close": "19:00",
+      "note": "月曜だが開館"
     },
     {
-      "title": "ワン・シュウ＋ルー・ウェンユー展 建築すなわち庭",
+      "date": "2027-03-22",
+      "open": "11:00",
+      "close": "19:00",
+      "note": "月曜だが開館"
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "ワン・シュウ＋ルー・ウェンユー展　建築すなわち庭",
       "start": "2026-12-04",
       "end": "2027-03-28",
-      "url": "http://www.watarium.co.jp/",
+      "url": "http://www.watarium.co.jp/jp/exhibition/202612/",
       "kind": "special",
-      "summary": "建築家ワン・シュウとルー・ウェンユーの展覧会",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null,
-      "closed_weekdays": [],
-      "closed_dates": []
+      "summary": "プリツカー賞受賞建築家ワン・シュウとルー・ウェンユーの日本初の本格的な展覧会",
+      "recommend": "原寸モックアップや図面、模型、映像に加え、新たに設計・施工される茶室も登場。館全体を「庭」に見立て、歩きながら二人の建築世界を体感できる。",
+      "admission": "大人 1,500円",
+      "adult_price": 1500
     }
   ],
   "closed_between_exhibitions": true,
@@ -83,6 +87,6 @@
     }
   ],
   "highlights": "1990年設立の私立現代美術館。スイスの建築家マリオ・ボッタが設計した石貼りの外観が外苑前の街並みに映える。現代美術・建築・写真・デザインをテーマに国際的な作家の企画展を年数回開催。館内のミュージアムショップ「オン・サンデーズ」は希少なアートブックでも知られる。",
-  "notes": "公式サイトは証明書エラーで WebFetch から取得できず（HTTP も HTTPS も）。museum.or.jp の情報を参照。パイク展の休館は月曜（7/20・9/21・10/12・11/23は開館）。企画展のみの運営で常設展なし。 2026-10-02: 公式トップは証明書エラーのため curl で確認、展覧会予定に変更なし。 2026-10-30: 公式トップ・パイク展ページを curl で確認、変更なし。 2026-11-07: 公式トップを curl で確認、変更なし。",
+  "notes": "公式サイトは証明書エラーで WebFetch から取得できず（HTTP も HTTPS も）。museum.or.jp の情報を参照。パイク展の休館は月曜（7/20・9/21・10/12・11/23は開館）。企画展のみの運営で常設展なし。 2026-10-02: 公式トップは証明書エラーのため curl で確認、展覧会予定に変更なし。 2026-10-30: 公式トップ・パイク展ページを curl で確認、変更なし。 2026-11-07: 公式トップを curl で確認、変更なし。 2026-11-27 full: 公式トップ・次回展ページを curl で確認。パイク展は11/23で終了のため削除。次回展は月曜休館（1/11・3/22は開館）、12/31〜1/4休館、11〜19時、大人1,500円。",
   "confidence": "medium"
 }

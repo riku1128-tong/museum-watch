@@ -1,6 +1,6 @@
 {
   "id": "Q38266963",
-  "checked_at": "2026-11-20T08:35:05+09:00",
+  "checked_at": "2026-11-27T13:09:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -80,9 +80,9 @@
       "url": "https://manga-museum.com/hanamuraeiko-exhibition/",
       "kind": "special",
       "summary": "少女マンガの礎を築いた花村えい子（1929-2020）の原画収蔵記念展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "recommend": "代表作「霧のなかの少女」をはじめ、繊細な線が光る原稿やイラストを展示。作者が残した言葉も原画と並べて紹介され、少女マンガの礎を築いた歩みに触れられる。",
+      "admission": "大人 1,000円",
+      "adult_price": 1000
     }
   ],
   "adult_price": 0,

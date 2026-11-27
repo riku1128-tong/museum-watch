@@ -1,7 +1,7 @@
 {
   "id": "Q864700",
-  "checked_at": "2026-11-20T09:05:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-27T13:10:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.mitsui-museum.jp/",
@@ -38,18 +38,17 @@
   "holiday_rule": "open",
   "special_closures": [
     {
+      "from": "2026-11-24",
+      "to": "2026-12-11",
+      "reason": "展示替えのため休館"
+    },
+    {
       "from": "2026-12-28",
       "to": "2027-01-03",
       "reason": "年末年始休館"
     }
   ],
   "special_openings": [
-    {
-      "date": "2026-11-02",
-      "open": "10:00",
-      "close": "17:00",
-      "note": "月曜だが開館（展覧会ページの記載）"
-    },
     {
       "date": "2027-01-04",
       "open": "10:00",
@@ -65,22 +64,13 @@
   ],
   "exhibitions": [
     {
-      "title": "館蔵の茶碗100撰 ―国宝から手造茶碗まで―",
-      "start": "2026-09-12",
-      "end": "2026-11-23",
-      "url": "https://www.mitsui-museum.jp/exhibition/index.html",
-      "kind": "special",
-      "summary": "国宝・重要文化財を含む館蔵の茶碗から、三井家ゆかりの名品など100件を選んで展示",
-      "admission": "一般 1,200円",
-      "adult_price": 1200
-    },
-    {
       "title": "国宝 雪松図と四季",
       "start": "2026-12-12",
       "end": "2027-01-30",
       "url": "https://www.mitsui-museum.jp/exhibition/next.html",
       "kind": "special",
       "summary": "国宝「雪松図屏風」の公開にあわせ、館蔵の書画・工芸の四季・気象表現に注目",
+      "recommend": "年末年始恒例の国宝・円山応挙「雪松図屏風」の公開が目玉。書画や工芸に表れた四季や気象の表現技法、見立ての面白さを館蔵品で味わえる。",
       "admission": "一般 1,200円",
       "adult_price": 1200
     },

@@ -1,6 +1,6 @@
 {
   "id": "wp-8d41b22c",
-  "checked_at": "2026-11-20T08:38:21+09:00",
+  "checked_at": "2026-11-27T13:05:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -82,7 +82,7 @@
       "from": "2026-11-14",
       "to": "2026-11-14",
       "scope": "all",
-      "reason": "塩江美術館の日（毎年11月第2土曜、観覧料無料）",
+      "reason": "塩江美術館の日（観覧料無料）。公式の新着では11/23開催との記載もあり日付要確認",
       "source_url": "https://www.city.takamatsu.kagawa.jp/museum/shionoe/"
     },
     {

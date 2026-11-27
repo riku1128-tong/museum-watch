@@ -1,6 +1,6 @@
 {
   "id": "Q11471469",
-  "checked_at": "2026-11-20T08:38:26+09:00",
+  "checked_at": "2026-11-27T13:05:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -59,6 +59,17 @@
       "recommend": "高度経済成長期の陶磁器産業から1990年代の手仕事回帰まで、暮らしと陶磁の関係を辿る全国唯一の現代陶芸美術館ならではの大型展。海外デザインの影響や産地別の技術革新も紹介。",
       "admission": "一般 1,000円",
       "adult_price": 1000
+    },
+    {
+      "title": "コレクション・ハイライト ／ 令和7（2025）年度新収蔵品展 Ⅱ",
+      "start": "2026-12-19",
+      "end": "2027-03-22",
+      "url": "https://www.cpm-gifu.jp/museum/events/event/event-11649",
+      "kind": "collection",
+      "summary": "令和7年度の新収蔵品を中心に紹介するコレクション展（Gallery-II）",
+      "recommend": null,
+      "admission": "一般 370円",
+      "adult_price": 370
     }
   ],
   "adult_price": 370,

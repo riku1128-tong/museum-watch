@@ -1,14 +1,15 @@
 {
   "id": "Q11564689",
-  "checked_at": "2026-11-20T08:35:48+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-27T13:00:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": "陶芸の森（公園）は入園無料。陶芸館のみ有料で、展示替え期間と冬季は休館",
   "official_url": "https://www.sccp.jp/",
   "address": "〒529-1804 滋賀県甲賀市信楽町勅旨2188-7",
   "source_urls": [
     "https://www.sccp.jp/",
-    "https://www.sccp.jp/exhibitions/21527/"
+    "https://www.sccp.jp/exhibitions/21527/",
+    "https://www.sccp.jp/exhibitions/22636/"
   ],
   "regular_hours": [
     {
@@ -43,6 +44,17 @@
       "recommend": "産地の素材や職人との協働から生まれる現代の創造を17名で俯瞰できる展覧会。陶芸の枠を超え彫刻・絵画・インスタレーションへと広がる信楽・伊賀発の表現の現在地を体感できる。",
       "admission": "一般 1,100円",
       "adult_price": 1100
+    },
+    {
+      "title": "陶芸館ギャラリー企画展 「ＡＩＲ名品セレクション展Ⅲ」",
+      "start": "2026-11-21",
+      "end": "2026-12-13",
+      "url": "https://www.sccp.jp/exhibitions/22636/",
+      "kind": "special",
+      "summary": "AIR事業で生まれた収蔵作品を紹介するシリーズ第3弾。香港の尹麗娟が新登場",
+      "recommend": "滞在制作で信楽に生まれた収蔵作品を紹介するシリーズの第3弾。新聞や書籍を陶で形にする香港の尹麗娟（アニー・ワン）が初登場し、地域も時代も異なる作家の表現を見比べられる。",
+      "admission": "無料",
+      "adult_price": 0
     },
     {
       "title": "今野朋子《楽園の扉：空とつながる形》",

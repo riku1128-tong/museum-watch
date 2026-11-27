@@ -1,7 +1,7 @@
 {
   "id": "Q862884",
-  "checked_at": "2026-11-20T08:28:27+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-27T13:12:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://topmuseum.jp/",
@@ -53,6 +53,11 @@
       "from": "2026-12-28",
       "to": "2027-01-01",
       "reason": "年末年始"
+    },
+    {
+      "from": "2027-01-18",
+      "to": "2027-02-04",
+      "reason": "展示替え（公式の利用案内に休館日として記載）"
     }
   ],
   "special_openings": [],
@@ -78,17 +83,6 @@
       "admission": "一般 900円",
       "recommend": "村越としや、ワン・トゥオ、スイ・タカ、ルオ・ヤン、ジャン・ポンイー、fumiko imanoの6人が並ぶアジア現代写真展。作家同士の響き合いを通して、アジアの今を見つめる。",
       "adult_price": 900
-    },
-    {
-      "title": "木村伊兵衛写真賞第50回記念写真展",
-      "start": "2026-10-31",
-      "end": "2026-11-23",
-      "url": "https://topmuseum.jp/exhibition/5478/",
-      "kind": "special",
-      "summary": "木村伊兵衛写真賞の受賞作家62人の活動を振り返る第50回記念の写真展",
-      "admission": "一般 1,200円",
-      "adult_price": 1200,
-      "recommend": "受賞作家62人が、デビュー作ではなくその後の転機を示す作品で並ぶ第50回記念展。ドキュメンタリーから現代アートまで、写真表現の広がりと未来を見渡せる。"
     },
     {
       "title": "岡田 敦｜幻の馬 Yururi Island 1950-2026",

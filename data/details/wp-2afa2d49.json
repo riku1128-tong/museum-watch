@@ -1,6 +1,6 @@
 {
   "id": "wp-2afa2d49",
-  "checked_at": "2026-11-20T08:45:00+09:00",
+  "checked_at": "2026-11-27T13:03:00+09:00",
   "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
@@ -138,7 +138,18 @@
       "end": "2027-01-24",
       "url": null,
       "kind": "special",
-      "summary": null,
+      "summary": "スケッチ「角中お気に入りの角館展」と角中美術部展（カルチャールーム）",
+      "recommend": null,
+      "admission": "大人 500円",
+      "adult_price": 500
+    },
+    {
+      "title": "館蔵品・寄託品展",
+      "start": "2027-02-24",
+      "end": "2027-03-28",
+      "url": null,
+      "kind": "special",
+      "summary": "日本画・洋画などの館蔵品・寄託品を紹介する企画展",
       "recommend": null,
       "admission": "大人 500円",
       "adult_price": 500

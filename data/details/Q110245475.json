@@ -1,7 +1,7 @@
 {
   "id": "Q110245475",
-  "checked_at": "2026-11-20T08:45:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-27T13:05:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://nagano.art.museum/",
@@ -122,6 +122,28 @@
       "kind": "special",
       "summary": "戦後日本の抽象絵画を代表する岡谷市出身の画家・辰野登恵子の約40年の画業を総覧",
       "recommend": "平面にこだわり独自のイメージを追った画家の約40年の歩みを、貴重な資料とともにたどる。画家・版画家としての辰野を形づくったものと次世代に残したものが読み解ける回顧展。",
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "東山魁夷館コレクション2026 第Ⅳ期",
+      "start": "2027-02-11",
+      "end": "2027-04-20",
+      "url": "https://nagano.art.museum/exhibition/higashiyama2026_4",
+      "kind": "collection",
+      "summary": null,
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
+    },
+    {
+      "title": "NAMコレクション2026 第Ⅳ期",
+      "start": "2027-02-19",
+      "end": "2027-04-27",
+      "url": "https://nagano.art.museum/exhibition/namcollection2026_4",
+      "kind": "collection",
+      "summary": null,
+      "recommend": null,
       "admission": null,
       "adult_price": null
     },

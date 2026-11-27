@@ -1,7 +1,7 @@
 {
   "id": "Q11558303",
-  "checked_at": "2026-11-20T08:45:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-27T13:15:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://urasoe-artmuseum.jp/",
@@ -62,17 +62,6 @@
       "adult_price": 300
     },
     {
-      "title": "浦添市文化協会 第四十五回文化祭",
-      "start": "2026-11-20",
-      "end": "2026-11-22",
-      "url": "https://urasoe-artmuseum.jp/exhibition/urasoecityculturalassociation-45rd-cultural-festival/",
-      "kind": "other",
-      "summary": "美術・写真・書道・華道・文芸など文化協会19部会の作品展示（舞台の部あり）",
-      "recommend": null,
-      "admission": "展示の部 無料",
-      "adult_price": 0
-    },
-    {
       "title": "沖縄全島フォトフェスティバル",
       "start": "2026-11-27",
       "end": "2026-12-06",
@@ -106,6 +95,6 @@
   ],
   "highlights": "琉球漆器の専門美術館として1990年に開館。沖縄の歴史と文化の中で育まれた古琉球から昭和期の漆工芸を中心に収蔵・展示する。所蔵品と近現代漆芸家の企画展を並行開催し、工芸としての漆の多様な表現と技法を幅広く紹介する。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は月曜（祝日・振替休日・慰霊の日の場合は開館、振替なし）・年末年始（12/29〜1/3）。金曜のみ19時まで延長。台風接近で暴風警報中などは臨時休館。常設展の空調不具合の案内あり（8/11時点）。 2026-11-20 light: 変化なし。",
+  "notes": "休館日は月曜（祝日・振替休日・慰霊の日の場合は開館、振替なし）・年末年始（12/29〜1/3）。金曜のみ19時まで延長。台風接近で暴風警報中などは臨時休館。常設展の空調不具合の案内あり（8/11時点）。 2026-11-20 light: 変化なし。 2026-11-27 full: 文化祭(11/22終了)を削除。開館時間・休館日・年末年始(12/29〜1/3)は変更なし。",
   "confidence": "high"
 }

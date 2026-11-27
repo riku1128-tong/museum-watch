@@ -1,6 +1,6 @@
 {
   "id": "Q11670406",
-  "checked_at": "2026-11-20T08:50:00+09:00",
+  "checked_at": "2026-11-27T13:08:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -74,6 +74,17 @@
           "last_entry": "18:30"
         }
       ]
+    },
+    {
+      "title": "orm個展「Geological Sample: Phase」",
+      "start": "2026-12-01",
+      "end": "2027-02-07",
+      "url": "https://www.city.takamatsu.kagawa.jp/museum/takamatsu/event/hukyuutest/ev_2026/events_2026/ev_20261201.html",
+      "kind": "other",
+      "summary": "ブランチギャラリーで開催されるormの個展",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": 200,

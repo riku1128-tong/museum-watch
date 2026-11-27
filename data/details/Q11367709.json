@@ -1,7 +1,7 @@
 {
   "id": "Q11367709",
-  "checked_at": "2026-11-20T08:50:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-27T13:02:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "http://www.nakano-museum.jp/",
@@ -31,14 +31,31 @@
     "mon"
   ],
   "holiday_rule": "open",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-12-07",
+      "to": "2027-01-12",
+      "reason": "冬季休館"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
     {
       "title": "所蔵名作展「近代日本の洋画・日本画」",
-      "start": "2026-01-25",
+      "start": "2026-11-25",
+      "end": "2026-12-06",
+      "url": "http://www.nakano-museum.jp/exhibition/index.html",
+      "kind": "collection",
+      "summary": "洋画展示室・日本画展示室で所蔵の近代日本の洋画・日本画を紹介",
+      "recommend": null,
+      "admission": "一般 600円",
+      "adult_price": 600
+    },
+    {
+      "title": "所蔵名作展「近代日本の洋画・日本画」",
+      "start": "2027-01-13",
       "end": "2027-01-31",
-      "url": "http://www.nakano-museum.jp/",
+      "url": "http://www.nakano-museum.jp/exhibition/index.html",
       "kind": "collection",
       "summary": "洋画展示室・日本画展示室で所蔵の近代日本の洋画・日本画を紹介",
       "recommend": null,
@@ -59,6 +76,6 @@
   ],
   "highlights": "明治・大正・昭和の近代日本の洋画・日本画・版画・彫刻を所蔵し、村上華岳や須田国太郎らの作品を展示する。緑豊かな蛙股池のほとりにあり、自然に囲まれて鑑賞できる。",
   "closed_between_exhibitions": false,
-  "notes": "休館日は毎週月曜（臨時休館あり）。秋季展前期（〜10/12）→後期（10/21〜11/15）。年末年始休館日は公式に記載なし。 2026-11-20 full: 公式トップ・展覧会ページを確認。秋季展後期は11/15で終了予定の表記のまま（終了後は所蔵名作展のみ）。開館10:00-16:00（入館15:45）、毎週月曜休館。 秋季展は会期(〜11/15)終了のため削除。",
+  "notes": "休館日は毎週月曜（臨時休館あり）。秋季展前期（〜10/12）→後期（10/21〜11/15）。年末年始休館日は公式に記載なし。 2026-11-20 full: 公式トップ・展覧会ページを確認。秋季展後期は11/15で終了予定の表記のまま（終了後は所蔵名作展のみ）。開館10:00-16:00（入館15:45）、毎週月曜休館。 秋季展は会期(〜11/15)終了のため削除。 2026-11-27 light: 展覧会ページで所蔵名作展の会期が 11/25〜12/6 と 2027/1/13〜1/31 に分かれ、12/7〜1/12 は冬季休館と確認。次回展「春を描く」は会期未掲載のため未登録。",
   "confidence": "medium"
 }

@@ -1,6 +1,6 @@
 {
   "id": "Q11620132",
-  "checked_at": "2026-11-20T09:00:00+09:00",
+  "checked_at": "2026-11-27T13:06:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -35,11 +35,6 @@
   ],
   "holiday_rule": "open_next_weekday_closed",
   "special_closures": [
-    {
-      "from": "2026-11-16",
-      "to": "2026-11-20",
-      "reason": "展示替え（煌めく個性の華々 前期→後期）"
-    },
     {
       "from": "2026-12-28",
       "to": "2027-01-04",

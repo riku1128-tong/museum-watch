@@ -1,6 +1,6 @@
 {
   "id": "Q728781",
-  "checked_at": "2026-11-20T08:50:00+09:00",
+  "checked_at": "2026-11-27T13:02:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -75,6 +75,17 @@
       "admission": "一般 1,000円",
       "adult_price": 1000,
       "recommend": "永青文庫と早稲田大学會津八一記念博物館の初の共同企画。16歳で白隠に感銘を受けた護立の収集と富岡重憲の禅書画の結びつきをたどる。前期・後期で大幅に展示替え。"
+    },
+    {
+      "title": "細川家四代展（仮）",
+      "start": "2027-01-16",
+      "end": "2027-04-11",
+      "url": "https://www.eiseibunko.com/exhibition.html",
+      "kind": "special",
+      "summary": "2027年早春展（仮題）",
+      "recommend": null,
+      "admission": "一般 1,000円",
+      "adult_price": 1000
     }
   ],
   "closed_between_exhibitions": true,

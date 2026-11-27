@@ -1,7 +1,7 @@
 {
   "id": "Q11503129",
-  "checked_at": "2026-11-13T07:45:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-27T12:58:01+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://kinbi.pref.niigata.lg.jp/",
@@ -38,35 +38,13 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "きもののヒミツ　友禅のうまれるところ ―京都 千總コレクションを中心に―",
-      "start": "2026-09-12",
-      "end": "2026-11-15",
-      "url": "https://kinbi.pref.niigata.lg.jp/tenran/kikakuten/kkk_kaisaichu/",
-      "kind": "special",
-      "summary": "創業470年超の老舗・千總コレクションを軸に、近世のきもの・染織図案・京都画壇の絵画など全4章で構成",
-      "recommend": "平面と立体のあいだを行き来するきものの意匠の工夫と時代背景を、友禅の老舗・千總の貴重なコレクションと人間国宝作品で一覧できる機会",
-      "admission": "一般 1,800円（前売 1,600円）",
-      "adult_price": 1800
-    },
-    {
-      "title": "2026年度 第3期コレクション展 作品の中のきもの／祈りと叫び 宗教主題のドイツ表現主義版画を中心に／近代美術館の名品",
-      "start": "2026-09-08",
-      "end": "2026-11-23",
-      "url": "https://kinbi.pref.niigata.lg.jp/tenran/collection-ten/c_kaisaichu",
-      "kind": "collection",
-      "summary": "所蔵作品によるコレクション展。きもの表現・ドイツ表現主義版画・名品の3テーマで構成",
-      "recommend": null,
-      "admission": "一般 430円",
-      "adult_price": 430
-    },
-    {
       "title": "2026年度 第4期コレクション展 生誕100年 前田常作／江口草玄の書―ことばの姿—／近代美術館の名品",
       "start": "2026-12-01",
       "end": "2027-02-21",
       "url": "https://kinbi.pref.niigata.lg.jp/tenran/collection-ten/c_jikaikaisai/",
       "kind": "collection",
       "summary": "所蔵作品によるコレクション展。前田常作生誕100年・江口草玄の書・名品の3テーマで構成",
-      "recommend": null,
+      "recommend": "密教の図像を基に現代の曼荼羅を描いた前田常作の生誕100年を記念する展示。書家・江口草玄の未公開遺品や、新収蔵作品の紹介もあわせて楽しめる。",
       "admission": "一般 430円",
       "adult_price": 430
     }
@@ -85,6 +63,6 @@
   ],
   "highlights": "JR長岡駅からバスで20分ほどの緑豊かな場所に建つ新潟県を代表する近現代美術館。明治以降の日本・西洋絵画や版画・彫刻など約6,400点を収蔵し、地域ゆかりの作家から国際的な巨匠まで幅広い企画展とコレクション展を年間通じて開催する。",
   "closed_between_exhibitions": false,
-  "notes": "公式サイトURL は museums.json の https://kinbi.pref.niigata.jp/ が誤りで、正しくは https://kinbi.pref.niigata.lg.jp/ のため official_url で上書き。年末年始・展示替え期間も休館（具体的な日付は年間スケジュールで公開）。 2026-11-07 light: 変更なし。 2026-11-13 light: 変更なし。次の企画展(松岡達英の科学絵本 2027/3/6〜)は3か月先より後のため未登録。",
+  "notes": "公式サイトURL は museums.json の https://kinbi.pref.niigata.jp/ が誤りで、正しくは https://kinbi.pref.niigata.lg.jp/ のため official_url で上書き。年末年始・展示替え期間も休館（具体的な日付は年間スケジュールで公開）。 2026-11-07 light: 変更なし。 2026-11-13 light: 変更なし。次の企画展(松岡達英の科学絵本 2027/3/6〜)は3か月先より後のため未登録。 2026-11-27 full: きもの展(11/15)・第3期コレクション展(11/23)は終了のため削除。現在は展示替え期間で開催中の展示なし（休館日の具体的な日付は公式に明記なし）。第4期は12/1開始。",
   "confidence": "high"
 }

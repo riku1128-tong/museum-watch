@@ -1,7 +1,7 @@
 {
   "id": "Q7830656",
-  "checked_at": "2026-11-20T08:40:00+09:00",
-  "check_mode": "full",
+  "checked_at": "2026-11-27T13:00:00+09:00",
+  "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://toyohashi-bihaku.jp",
@@ -47,6 +47,28 @@
       "url": "https://toyohashi-bihaku.jp/bihaku01/bihaku01-2/",
       "kind": "collection",
       "summary": "通年。豊橋・東三河の歴史を展示する通史展示（展示替えや企画展のため一部ご覧いただけない期間あり）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第Ⅱ期美術展示 没後20年 平川敏夫展 ―深奥幽玄の世界―",
+      "start": "2026-11-25",
+      "end": "2027-01-24",
+      "url": "https://toyohashi-bihaku.jp/",
+      "kind": "collection",
+      "summary": "没後20年となる平川敏夫の作品を紹介するコレクション美術展示（1F展示室4）",
+      "recommend": null,
+      "admission": "無料",
+      "adult_price": 0
+    },
+    {
+      "title": "第Ⅱ期歴史展示 密着！軍人80年 池上條太郎を追って",
+      "start": "2026-09-25",
+      "end": "2026-11-29",
+      "url": "https://toyohashi-bihaku.jp/",
+      "kind": "collection",
+      "summary": "軍人・池上條太郎を追う歴史展示（2F展示室8・9）",
       "recommend": null,
       "admission": "無料",
       "adult_price": 0

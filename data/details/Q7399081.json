@@ -1,7 +1,7 @@
 {
   "id": "Q7399081",
-  "checked_at": "2026-11-20T08:50:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-27T13:16:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.sagawa-artmuseum.or.jp/",
@@ -33,42 +33,15 @@
     "mon"
   ],
   "holiday_rule": "open_next_weekday_closed",
-  "special_closures": [],
+  "special_closures": [
+    {
+      "from": "2026-11-24",
+      "to": "2026-12-07",
+      "reason": "展示替のため休館"
+    }
+  ],
   "special_openings": [],
   "exhibitions": [
-    {
-      "title": "生誕140周年 藤田嗣治 ７つの情熱",
-      "start": "2026-09-17",
-      "end": "2026-11-23",
-      "url": "https://www.sagawa-artmuseum.or.jp/plan/2026/07/140-1.html",
-      "kind": "special",
-      "summary": "藤田嗣治の芸術を「自己表現」「風景」「前衛」など7つのテーマで紹介",
-      "recommend": "藤田研究の第一人者シルヴィー・ビュイッソン氏の監修で、画業を7つの情熱という切り口から読み解く構成。節目の生誕140年に、多面的な藤田像に出会える。",
-      "admission": "一般 1,600円（WEB予約 1,500円）",
-      "adult_price": 1600
-    },
-    {
-      "title": "佐川美術館コレクション",
-      "start": "2026-09-17",
-      "end": "2026-11-23",
-      "url": "https://www.sagawa-artmuseum.or.jp/plan/2026/09/post-182.html",
-      "kind": "collection",
-      "summary": "佐川美術館の所蔵作品によるコレクション展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
-    },
-    {
-      "title": "文化功労者顕彰記念展 千住博 自然へのまなざし",
-      "start": "2026-11-03",
-      "end": "2026-11-23",
-      "url": "https://www.sagawa-artmuseum.or.jp/plan/2026/11/post-188.html",
-      "kind": "special",
-      "summary": "令和8年度文化功労者に選ばれた千住博の、滝や崖など自然を主題とした作品を紹介",
-      "recommend": "滝や崖といった自然の姿を描き続ける千住博の作品で、自然の壮大さと静けさ、奥深い魅力に触れる顕彰記念展。藤田嗣治展と同時に楽しめる。",
-      "admission": null,
-      "adult_price": null
-    },
     {
       "title": "大カプコン展―世界を魅了するゲームクリエイション",
       "start": "2026-12-08",
@@ -79,6 +52,17 @@
       "recommend": "1983年創業のカプコンの歩みを、手描きの原画や企画書、開発資料でたどる。ドット絵制作やモーションキャプチャーの体験もあり、滋賀会場限定でストリートファイターの手描きアートも展示される。",
       "admission": "一般 1,600円（WEB予約 1,500円）",
       "adult_price": 1600
+    },
+    {
+      "title": "佐川美術館コレクション（平山郁夫・佐藤忠良・樂直入）",
+      "start": "2026-12-08",
+      "end": "2027-03-28",
+      "url": "https://www.sagawa-artmuseum.or.jp/plan/2026/11/post-182.html",
+      "kind": "collection",
+      "summary": "所蔵作品から「平山郁夫 祈りの心」「佐藤忠良 はじめての彫刻鑑賞」「樂直入 黒の世界」を紹介",
+      "recommend": null,
+      "admission": null,
+      "adult_price": null
     }
   ],
   "adult_price": null,
@@ -95,6 +79,6 @@
   ],
   "highlights": "琵琶湖を望む守山の地に建ち、水庭に浮かぶような3棟の建物が四季の表情を見せる美術館。平山郁夫の日本画、佐藤忠良の彫刻、樂吉左衞門・樂直入の茶碗を軸に所蔵し、茶室の見学や呈茶も楽しめる。",
   "closed_between_exhibitions": false,
-  "notes": "展示替え等で臨時休館の場合あり。年末年始休館の日付は未掲載。コレクション展の単独料金は未確認。 2026-11-07 light: 千住博展（11/3〜11/23）を追加。料金は未掲載。 2026-11-13確認: 変更なし。 2026-11-20 light: 変化なし（開催中3展は11/23まで、次は大カプコン展12/8〜）。",
+  "notes": "展示替え等で臨時休館の場合あり。年末年始休館の日付は未掲載。コレクション展の単独料金は未確認。 2026-11-07 light: 千住博展（11/3〜11/23）を追加。料金は未掲載。 2026-11-13確認: 変更なし。 2026-11-20 light: 変化なし（開催中3展は11/23まで、次は大カプコン展12/8〜）。 2026-11-27 full: 11/24〜12/7は展示替休館（公式お知らせ11/20）。終了した藤田・千住・旧コレクション展を削除。12/8から大カプコン展（〜2/28）とコレクション展（〜3/28）。コレクション展の観覧料は未掲載。",
   "confidence": "medium"
 }

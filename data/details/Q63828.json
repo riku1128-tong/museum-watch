@@ -1,6 +1,6 @@
 {
   "id": "Q63828",
-  "checked_at": "2026-11-13T07:45:00+09:00",
+  "checked_at": "2026-11-27T13:15:00+09:00",
   "check_mode": "light",
   "operating_status": "operating",
   "status_note": null,
@@ -34,11 +34,6 @@
   "closed_weekdays": [],
   "holiday_rule": "open",
   "special_closures": [
-    {
-      "from": "2026-11-16",
-      "to": "2026-11-16",
-      "reason": "休館（月曜）"
-    },
     {
       "from": "2026-12-29",
       "to": "2027-01-02",

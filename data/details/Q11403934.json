@@ -1,7 +1,7 @@
 {
   "id": "Q11403934",
-  "checked_at": "2026-11-20T08:45:00+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-27T13:06:00+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://hokumouken.com/",
@@ -43,15 +43,15 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "常設美術展示「いのちが息づく。」",
-      "start": "2026-06-30",
-      "end": "2026-11-23",
-      "url": "https://hokumouken.com/2026/06/28/%e4%bb%a4%e5%92%8c2%e5%b9%b4%e5%ba%a6%e7%ac%ac3%e6%9c%9f%e3%80%80%e5%b8%b8%e8%a8%ad%e7%be%8e%e8%a1%93%e5%b1%95%e7%a4%ba%e3%80%8e%e5%8c%97%e8%a6%8b%e3%81%ae%e6%b2%b9%e5%bd%a9%e7%94%bb%e3%80%8f11-25/",
+      "title": "常設美術展示「遠くに行きたいっ！」",
+      "start": "2026-11-25",
+      "end": "2027-06-27",
+      "url": "https://hokumouken.com/art/",
       "kind": "collection",
-      "summary": "センター収蔵作品から生命の営みや人々の暮らしに関わる作品を選んだ常設展。生き物・山野・厳しい環境に生きる人々を描いた作品で構成。",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "summary": "センター所蔵の美術作品から、旅や旅先の風景を題材とした作品を中心に展示",
+      "recommend": "国内外を旅した作家たちが、各地での出会いを描いた所蔵作品を紹介する展示。作家ごとの旅のスタイルを見比べながら、旅の気分を味わえる。",
+      "admission": "常設展示 一般 990円（科学館・博物館と共通）",
+      "adult_price": 990
     },
     {
       "title": "オホーツク管内高校生美術展",
@@ -61,22 +61,22 @@
       "kind": "special",
       "summary": "オホーツク管内の高校生による美術作品を展示する展覧会",
       "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "admission": "入場無料",
+      "adult_price": 0
     },
     {
-      "title": "段ボール動物園（仮称）",
+      "title": "ダンボールどうぶつえん ～等身大の動物たちが大集合！～",
       "start": "2027-01-09",
       "end": "2027-02-28",
       "url": "https://hokumouken.com/exhibition/",
       "kind": "special",
-      "summary": "企画展（仮称・予定）",
+      "summary": "ダンボールで作られた等身大の動物たちを展示する企画展",
       "recommend": null,
       "admission": null,
       "adult_price": null
     }
   ],
-  "adult_price": null,
+  "adult_price": 990,
   "free_days": [],
   "free_rules": [],
   "access": [
@@ -89,6 +89,6 @@
   ],
   "highlights": "科学館・博物館・美術館・プラネタリウムを一体に備えた総合文化施設。オホーツク唯一の大型プラネタリウム（直径15mドーム）が圧巻で、開拓や自然をテーマにした博物館展示と美術企画展も充実。市民の作品発表の場としても活用されている。",
   "closed_between_exhibitions": false,
-  "notes": "定休日は月曜日（月曜日が祝日の場合は開館）および休日の翌日（土・日を除く）・年末年始（12/28〜1/6）。企画展示室は市民の作品発表の場として活用されており、展覧会ごとに料金が異なる（無料が多い）。科学館・博物館・プラネタリウムは別料金体系。 2026-10-30 light: 変更なし。 2026-11-13 light: 変更なし。 2026-11-20 light: 変更なし。",
+  "notes": "定休日は月曜日（月曜日が祝日の場合は開館）および休日の翌日（土・日を除く）・年末年始（12/28〜1/6）。企画展示室は市民の作品発表の場として活用されており、展覧会ごとに料金が異なる（無料が多い）。科学館・博物館・プラネタリウムは別料金体系。 2026-10-30 light: 変更なし。 2026-11-13 light: 変更なし。 2026-11-20 light: 変更なし。 2026-11-27 full: 常設美術展示が「遠くに行きたいっ！」(11/25〜2027/6/27)に替わった。観覧料は科学館・博物館と合わせた常設展示の一般 990円（guidance）。",
   "confidence": "medium"
 }

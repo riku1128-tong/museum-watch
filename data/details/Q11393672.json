@@ -1,9 +1,9 @@
 {
   "id": "Q11393672",
-  "checked_at": "2026-11-20T08:50:00+09:00",
-  "check_mode": "light",
-  "operating_status": "operating",
-  "status_note": null,
+  "checked_at": "2026-11-27T13:18:00+09:00",
+  "check_mode": "full",
+  "operating_status": "temporarily_closed",
+  "status_note": "大規模改修工事のため2026年11月24日〜2027年3月下旬まで長期休館（再開日は未定）",
   "official_url": "https://www.mcart.jp/",
   "address": "〒669-2135 兵庫県丹波篠山市今田町上立杭4",
   "source_urls": [
@@ -41,35 +41,7 @@
     }
   ],
   "special_openings": [],
-  "exhibitions": [
-    {
-      "title": "ゲンダイトウゲイ＊ミニ＊クロニクル－やきものはアートだ！",
-      "start": "2026-09-19",
-      "end": "2026-11-23",
-      "url": "https://www.mcart.jp/exhibition/e3803/",
-      "kind": "special",
-      "summary": "戦後の現代陶芸の立体作品を年代順に紹介。林康夫、走泥社ら",
-      "recommend": "戦後に自由なかたちを得た現代陶芸の歩みを、パイオニア世代から若手まで年代順にコンパクトにたどれる。やきものの枠を超えた造形の多様さが見どころ。",
-      "admission": "一般 1,300円",
-      "adult_price": 1300,
-      "closed_weekdays": [],
-      "closed_dates": [
-        "2026-09-24",
-        "2026-10-13"
-      ]
-    },
-    {
-      "title": "丹波焼の世界 season10",
-      "start": "2026-03-10",
-      "end": "2026-11-23",
-      "url": "https://www.mcart.jp/exhibition/e3805/",
-      "kind": "collection",
-      "summary": "田中寛コレクションの丹波焼、古陶磁、現代陶芸",
-      "recommend": "当館設立のきっかけとなった田中寛コレクションの丹波焼を軸に、古陶磁や現代陶芸も並び、館のコレクションの幅を知ることができる。",
-      "admission": "一般 200円（特別展開催中は特別展料金に含む）",
-      "adult_price": 200
-    }
-  ],
+  "exhibitions": [],
   "adult_price": 200,
   "free_days": [
     {

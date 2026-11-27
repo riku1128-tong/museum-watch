@@ -1,7 +1,7 @@
 {
   "id": "Q11577335",
-  "checked_at": "2026-11-20T08:35:48+09:00",
-  "check_mode": "light",
+  "checked_at": "2026-11-27T13:03:37+09:00",
+  "check_mode": "full",
   "operating_status": "operating",
   "status_note": null,
   "official_url": "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/index.html",
@@ -9,8 +9,7 @@
   "source_urls": [
     "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/index.html",
     "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/6/index.html",
-    "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/5/2173.html",
-    "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/5/2032.html"
+    "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/5/7785.html"
   ],
   "regular_hours": [
     {
@@ -43,49 +42,19 @@
   "special_openings": [],
   "exhibitions": [
     {
-      "title": "田辺市立美術館開館30周年記念特別展 小林古径―歴史と物語を描く―",
-      "start": "2026-10-10",
-      "end": "2026-11-23",
-      "url": "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/5/2032.html",
-      "kind": "special",
-      "summary": "明治から昭和に活躍した日本画家・小林古径が歴史上の人物や物語を題材に描いた作品を紹介",
-      "recommend": "明治から昭和に古典を現代的感覚で活かし格調高い日本画を描いた小林古径。歴史上の人物や物語を題材にした作品を通じ初期から成熟期までをたどる、開館30周年記念の特別展。",
-      "admission": "一般 600円",
-      "adult_price": 600
-    },
-    {
-      "title": "近代日本画コレクション展",
-      "start": "2026-10-10",
-      "end": "2026-11-23",
-      "url": "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/5/2173.html",
-      "kind": "collection",
-      "summary": "館蔵の近代日本画を本館と分館（熊野古道なかへち美術館）で紹介",
-      "recommend": null,
-      "admission": "一般 260円",
-      "adult_price": 260
-    },
-    {
-      "title": "現代絵画コレクション展",
+      "title": "現代絵画コレクション展 平面から立体へ",
       "start": "2026-12-05",
       "end": "2027-01-24",
-      "url": "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/5/2173.html",
+      "url": "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/5/7785.html",
       "kind": "collection",
-      "summary": "館蔵の現代絵画を展示するコレクション展",
-      "recommend": null,
-      "admission": null,
-      "adult_price": null
+      "summary": "戦後から現代の館蔵作品を展観。白髪一雄、湯川雅紀、妻木良三、織作家の作品など",
+      "recommend": "白髪一雄らの戦後の作品に加え、和歌山ゆかりの現代作家や織の作家の平面と立体を横断する表現を紹介。熊井恭子《立ち竦む風》は一室を使った特別なインスタレーションで公開される。",
+      "admission": "一般 260円",
+      "adult_price": 260
     }
   ],
   "adult_price": 260,
-  "free_days": [
-    {
-      "from": "2026-11-14",
-      "to": "2026-11-15",
-      "scope": "all",
-      "reason": "関西文化の日",
-      "source_url": "https://www.city.tanabe.lg.jp/soshiki/kyoikuiinkai/bijutu/15/5/2032.html"
-    }
-  ],
+  "free_days": [],
   "free_rules": [],
   "access": [
     {
@@ -96,7 +65,7 @@
     }
   ],
   "highlights": "田辺・熊野ゆかりの近代日本画と現代絵画を収蔵する市立美術館。本館と熊野古道沿いの分館（なかへち美術館）が連携して年間数回の特別展・コレクション展を開く。和歌山県田辺市の新庄総合公園内に位置し、小林古径をはじめ明治・昭和の日本画の名品に出合える。",
-  "closed_between_exhibitions": false,
-  "notes": "休館日は月曜（祝日・振替休日なら翌日）、祝日の翌日（土日除く）、年末年始（12/28〜1/4）、展示替期間。館蔵品展は一般260円、特別展は都度定める（今回の小林古径展は600円）。18歳未満・学生は無料。設備改修（空調・電気・展示ケースLED化）を経て2026年10月10日に再開。 2026-10-30 light: 変更なし。 2026-11-07 light: 変更なし。 2026-11-13 light: トップに変更なし（小林古径展・近代日本画コレクション展、臨時休館なし）。 2026-11-20 light: 変化なし。 2026-11-20 light: 変化なし。 2026-11-20 light: 変化なし。 2026-11-20 light: 変化なし。 2026-11-20 light: 変化なし。 2026-11-20 light: 変化なし。",
+  "closed_between_exhibitions": true,
+  "notes": "休館日は月曜（祝日・振替休日なら翌日）、祝日の翌日（土日除く）、年末年始（12/28〜1/4）、展示替期間。館蔵品展は一般260円、特別展は都度定める。18歳未満・学生は無料。設備改修を経て2026年10月10日に再開。 2026-11-27 full: 小林古径展・近代日本画コレクション展（〜11/23）は終了のため削除。展示替期間（会期の間）は休館扱いにし closed_between_exhibitions を true に。現代絵画コレクション展 平面から立体へ（12/5〜1/24、月曜休館・1/11は開館・1/12休館）の詳細ページで会期・料金・紹介文を確認。展示解説会は12/12・1/16。",
   "confidence": "high"
 }
